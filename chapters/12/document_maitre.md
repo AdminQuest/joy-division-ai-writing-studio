@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 325 |
+| Atomes | 334 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -190,6 +191,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_memoire` ; importance : `critique` ; preuve : `témoignage direct + appréciation subjective`.
 - **S41-A222** — S41-A222 — « Decades » : beauté finale, double basse et *Closer* préféré à *Unknown Pleasures*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_album` ; importance : `critique` ; preuve : `témoignage direct + jugement esthétique subjectif`.
+- **S43-A001** — S43-A001 — S43 comme essai générationnel, non source primaire  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
+- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -262,24 +281,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
 - **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
-- **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A129** — S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
-- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
-- **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
-- **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
-- **S45-A135** — S45-A135 — Annik au Moonlight : rebuff intime après crise publique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage de Terry Mason rapporté par Deborah`.
-- **S45-A136** — S45-A136 — Overdose du 7 avril : note, Annik et ignorance de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct ; note suicidaire rapportée`.
-- **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
 
 ## 7. Citations disponibles
 
@@ -416,7 +417,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (25)
+- Ian Curtis (27)
 - prudence historiographique (17)
 - Closer (9)
 - épilepsie (7)
@@ -436,6 +437,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Martin Hannett (3)
 - suicide (3)
 - fatigue (3)
+- anti-téléologie (3)
 - récits concurrents (3)
 - vérité conjugale différée (2)
 - corps exposé (2)
@@ -489,7 +491,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - géographie émotionnelle (2)
 - mémoire située (2)
 - mémoire conjugale croisée (2)
-- anti-téléologie (2)
 - témoins d’autorité (2)
 - légitimité mémorielle (2)
 - anti-nostalgie (2)
@@ -634,20 +635,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | non qualifié | 16 |
 | tension_domestique | 7 |
 | lecture_chanson | 7 |
+| prudence_methodologique | 5 |
 | session_studio | 5 |
 | song | 5 |
 | evenement_medical_live | 4 |
-| prudence_methodologique | 4 |
 | live_set_context | 4 |
 | scene_domestique | 3 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
 | tension_documentaire | 3 |
+| analyse_album | 3 |
 | dernier_concert | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
+| analyse_chanson | 3 |
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
 | memoire | 3 |
@@ -713,7 +716,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_industrie | 1 |
 | performance_sensible | 1 |
 | transition_posthume | 1 |
-| analyse_album | 1 |
 | analyse_voix_sante | 1 |
 | analyse_morceau_memoire | 1 |
 | analyse_morceau_album | 1 |
@@ -798,6 +800,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
 | lecture | 1 |
+| lecture_biographique_prudente | 1 |
+| concept_chanson | 1 |
+| garde_fou | 1 |
 | tension_synthese | 1 |
 | tournee_fatigue | 1 |
 | lettre_medicale | 1 |
@@ -860,9 +865,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 183 |
+| critique | 191 |
 | non qualifiée | 110 |
-| majeure | 20 |
+| majeure | 21 |
 | majeur | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance

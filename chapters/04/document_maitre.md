@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T18:07:11"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 234 |
+| Atomes | 246 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
 | Personnes | 31 |
 | Chansons | 13 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ generated_at: "2026-05-17T18:07:11"
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 12 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -91,32 +92,32 @@ generated_at: "2026-05-17T18:07:11"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_chanson_espace` ; importance : `critique` ; preuve : `lecture critique de chanson`.
 - **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
+- **S43-A001** — S43-A001 — S43 comme essai générationnel, non source primaire  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
+- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
+- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct + citation d’entretien rapportée`.
 - **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
-- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
-- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
-- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -188,6 +189,10 @@ generated_at: "2026-05-17T18:07:11"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S43-A006** — S43-A006 — « Leaders of Men » : antipolitique précoce et faillite des messianismes modernes  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
@@ -234,6 +239,12 @@ generated_at: "2026-05-17T18:07:11"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A025** — S45-A025 — Retour à Macclesfield : Barton Street comme base domestique du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
+- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -270,16 +281,6 @@ generated_at: "2026-05-17T18:07:11"
   Source : S68 — Broll, Joy Division, 1988 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
 
 ## 7. Citations disponibles
 
@@ -419,7 +420,7 @@ generated_at: "2026-05-17T18:07:11"
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (41)
+- Ian Curtis (43)
 - prudence historiographique (20)
 - epilepsie (10)
 - épilepsie (6)
@@ -435,6 +436,7 @@ generated_at: "2026-05-17T18:07:11"
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
+- anti-téléologie (3)
 - Closer (3)
 - fragmentation (3)
 - écoute différée des paroles (2)
@@ -451,6 +453,8 @@ generated_at: "2026-05-17T18:07:11"
 - médicaments (2)
 - crises (2)
 - isolement (2)
+- solitude (2)
+- paternité (2)
 - famille (2)
 - double vie (2)
 - sommeil (2)
@@ -473,7 +477,6 @@ generated_at: "2026-05-17T18:07:11"
 - mémoire située (2)
 - non-monocausalité médicale (2)
 - mémoire conjugale croisée (2)
-- anti-téléologie (2)
 - tension domesticité-scène (2)
 - paroles (2)
 - Rob Gretton (2)
@@ -497,8 +500,6 @@ generated_at: "2026-05-17T18:07:11"
 - domesticité productive (1)
 - lieu de préparation (1)
 - logistique conjugale (1)
-- atelier domestique (1)
-- matérialité de l’écriture (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -638,8 +639,10 @@ generated_at: "2026-05-17T18:07:11"
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
+| analyse_chanson | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
+| prudence_methodologique | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
@@ -649,7 +652,6 @@ generated_at: "2026-05-17T18:07:11"
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
-| prudence_methodologique | 3 |
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
@@ -723,6 +725,11 @@ generated_at: "2026-05-17T18:07:11"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| lecture_biographique_prudente | 1 |
+| analyse_oeuvre | 1 |
+| analyse_album | 1 |
+| concept_chanson | 1 |
+| garde_fou | 1 |
 | tension_synthese | 1 |
 | lettre_medicale | 1 |
 | crise_professionnelle | 1 |
@@ -778,9 +785,9 @@ generated_at: "2026-05-17T18:07:11"
 
 | Importance | Nombre |
 |---|---|
-| critique | 103 |
+| critique | 113 |
 | non qualifiée | 94 |
-| majeure | 33 |
+| majeure | 35 |
 | majeur | 3 |
 | structurante | 1 |
 

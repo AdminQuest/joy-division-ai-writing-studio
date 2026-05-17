@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T18:39:52",
+  "generated_at": "2026-05-17T19:01:45",
   "summary": {
-    "records_total": 4297,
+    "records_total": 4334,
     "records_by_kind": {
-      "atom": 1910,
-      "metadata": 103,
-      "unknown": 360,
+      "atom": 1925,
+      "metadata": 106,
+      "unknown": 374,
       "source": 67,
-      "concept": 228,
+      "concept": 233,
       "motif": 295,
       "myth": 40,
       "quote": 369,
@@ -18,9 +18,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 20009,
+    "diagnostics_total": 20187,
     "errors": 0,
-    "warnings": 20009,
+    "warnings": 20187,
     "sources_declared_in_registre_json": 53,
     "sources_used_in_records": 33,
     "sources_exported": 33,
@@ -29,10 +29,10 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1910,
+    "atom": 1925,
     "chronology": 353,
-    "concept": 228,
-    "metadata": 103,
+    "concept": 233,
+    "metadata": 106,
     "motif": 295,
     "myth": 40,
     "person": 181,
@@ -42,7 +42,7 @@
     "song": 53,
     "source": 67,
     "template": 336,
-    "unknown": 360
+    "unknown": 374
   },
   "records_by_source": {
     "S02": {
@@ -203,8 +203,11 @@
       "atom": 13
     },
     "S43": {
+      "metadata": 4,
+      "concept": 5,
       "source": 2,
-      "metadata": 1
+      "unknown": 9,
+      "atom": 15
     },
     "S45": {
       "atom": 205,
@@ -279,17 +282,17 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 338,
+    "Chapitre 1": 340,
     "Chapitre 10": 255,
-    "Chapitre 11": 259,
-    "Chapitre 12": 471,
+    "Chapitre 11": 288,
+    "Chapitre 12": 485,
     "Chapitre 13": 157,
-    "Chapitre 14": 1163,
+    "Chapitre 14": 1176,
     "Chapitre 2": 408,
     "Chapitre 3": 503,
-    "Chapitre 4": 314,
-    "Chapitre 5": 457,
-    "Chapitre 6": 579,
+    "Chapitre 4": 335,
+    "Chapitre 5": 459,
+    "Chapitre 6": 583,
     "Chapitre 7": 195,
     "Chapitre 8": 396,
     "Chapitre 9": 286,
@@ -420,12 +423,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 157,
-    "invalid_controlled_value": 1710,
-    "missing_required_field": 5426,
+    "field_type_error": 172,
+    "invalid_controlled_value": 1725,
+    "missing_required_field": 5440,
     "schema_warning": 429,
-    "unknown_yaml_block": 360,
-    "v2_migration_debt": 11927
+    "unknown_yaml_block": 374,
+    "v2_migration_debt": 12047
   },
   "top_files_by_issue_count": [
     [
@@ -1260,6 +1263,118 @@
       "category": "unknown_yaml_block",
       "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
       "record_id": "REL-S34-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-009",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -3433,10 +3548,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1910,
+    "atoms_total": 1925,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 1837,
-    "v2_missing_field_warnings": 11927
+    "atoms_v2_incomplete": 1852,
+    "v2_missing_field_warnings": 12047
   },
   "source_registry": {
     "declared_but_unused": [
@@ -4233,12 +4348,15 @@
         "auteur": "Eugenio Capozzi",
         "titre": "The weight on their shoulders. Ian Curtis e la metamorfosi dei baby boomers",
         "annee": "2021",
-        "records": 3,
-        "atoms": 0,
+        "records": 35,
+        "atoms": 15,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s43_capozzi_weight_on_their_shoulders_source_canonique.md",
+          "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+          "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+          "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
           "sources/capozzi_weight_on_their_shoulders/source.md"
         ]
       },
@@ -94960,6 +95078,1430 @@
       "record_id": "REL-S34-012",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
+      "record_id": "REL-S43-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A001",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A002",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Invalid value for type_unite: comparaison_generations",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A003",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Invalid value for type_unite: lecture_biographique_prudente",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A004",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Invalid value for type_unite: analyse_oeuvre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A005",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A006",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Invalid value for type_unite: analyse_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A007",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A008",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A009",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Invalid value for type_unite: analyse_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A010",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A011",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Invalid value for type_unite: concept_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A012",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A013",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A014",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Invalid value for type_unite: garde_fou",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
+      "record_id": "S43-A015",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
     },
     {
       "level": "warning",

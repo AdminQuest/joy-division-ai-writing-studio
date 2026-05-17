@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 325 |
+| Atomes | 326 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 41 |
 | Personnes | 41 |
 | Chansons | 7 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -93,6 +94,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 - **S42-A008** — S42-A008 — Focal places : clubs, disquaires, salles de répétition et réseaux  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
+- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -119,8 +122,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -763,6 +764,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | evenement_crise | 1 |
 | temoignage_affectif | 1 |
 | reception_posthume | 1 |
+| analyse_oeuvre | 1 |
 | ecosysteme | 1 |
 | tournee_fatigue | 1 |
 | concert_incident | 1 |
@@ -830,7 +832,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 97 |
+| critique | 98 |
 | majeure | 27 |
 | majeur | 4 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 214 |
+| Atomes | 229 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
 | Personnes | 10 |
 | Chansons | 15 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 15 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -104,28 +105,28 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `cadre théorique secondaire`.
 - **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
-- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
-- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
-- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
-- **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A052** — S74-A052 — Vini Reilly comme témoin de l’impasse psychique de Curtis  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A053** — S74-A053 — Suicide de Curtis : mort privée contre mythe rock’n’roll  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S43-A001** — S43-A001 — S43 comme essai générationnel, non source primaire  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S43-A003** — S43-A003 — 1968 / 1977 : utopie communautaire contre no future subjectiviste  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
+- **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
+- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
+- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -195,6 +196,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_corps_tournee` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S43-A002** — S43-A002 — Les seconds baby-boomers : golden age devenue ordinaire  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A006** — S43-A006 — « Leaders of Men » : antipolitique précoce et faillite des messianismes modernes  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-004** — S45-004 — Ian Curtis hérite du silence de son père  
@@ -219,6 +228,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-A026** — S45-A026 — Outburst raciste et veste « HATE » : provocation, préjugé et contradiction  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
+- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
+- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
+- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
 - **S45-A140** — S45-A140 — Yeats et hypnose : substituts culturels au soin professionnel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_soin_amateur` ; importance : `majeur` ; preuve : `témoignage direct indirect + souvenirs rapportés`.
 - **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
@@ -275,20 +290,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-181** — S46-181 — « Death Rattle : The Atrocity Exhibition » : bascule dans le réel  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-182** — S46-182 — Joy Division et la Dialectique de la raison  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-006** — S47-006 — Punk et destruction du monopole des « vrais musiciens »  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-010** — S47-010 — Warsaw passe du punk à une esthétique répétitive et sombre  
-  Source : S47 — West, Joy Division, 1984 ; type : `evolution_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-027** — S47-027 — Joy Division véhicule aussi une idée d’espoir  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-054** — S47-054 — Joy Division comme composé chimique irréductible  
-  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-128** — S47-128 — *Low* de Bowie comme objet de généalogie indirecte  
-  Source : S47 — West, Joy Division, 1984 ; type : `genealogie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -352,7 +353,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (17)
+- Ian Curtis (19)
 - ian curtis (13)
 - NME (7)
 - suicide (6)
@@ -379,6 +380,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - bruit (3)
 - film (3)
 - The Noise (3)
+- solitude (3)
 - unknown pleasures (3)
 - love will tear us apart (3)
 - prudence historiographique (3)
@@ -431,7 +433,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - lenteur (2)
 - réalité (2)
 - imagerie nazie (2)
-- vulnérabilité (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -572,11 +573,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | biographie | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
+| analyse_chanson | 6 |
+| prudence_methodologique | 5 |
+| concept_structurant | 5 |
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
-| prudence_methodologique | 4 |
-| concept_structurant | 4 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
@@ -599,6 +601,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture_musicale | 2 |
 | lecture | 2 |
 | temoignage_direct_rapporte | 2 |
+| analyse_album | 2 |
 | tension_biographique | 2 |
 | fait | 2 |
 | registre_influences | 1 |
@@ -662,6 +665,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_interne | 1 |
 | reception_posthume | 1 |
 | temoignage | 1 |
+| comparaison_generations | 1 |
+| lecture_biographique_prudente | 1 |
+| analyse_oeuvre | 1 |
+| concept_chanson | 1 |
+| garde_fou | 1 |
 | mythe_nomination | 1 |
 | contexte_social | 1 |
 | portrait_relationnel | 1 |
@@ -683,8 +691,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 59 |
-| majeure | 17 |
+| critique | 71 |
+| majeure | 20 |
 | majeur | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance

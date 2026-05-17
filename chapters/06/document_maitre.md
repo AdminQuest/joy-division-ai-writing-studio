@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 425 |
+| Atomes | 427 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
 | Chansons | 19 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -712,6 +713,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | session_album | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
+| analyse_album | 2 |
 | performance_live | 2 |
 | lecture_album | 2 |
 | objet_visuel | 2 |
@@ -889,7 +891,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 196 |
+| critique | 198 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 24 |

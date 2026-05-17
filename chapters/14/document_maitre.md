@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 877 |
+| Atomes | 883 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 31 |
+| Sources mobilisées | 32 |
 
 ## 4. Sources mobilisées
 
@@ -54,6 +54,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 7 | 0 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -449,7 +450,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - New Order (41)
 - Factory (33)
-- Ian Curtis (28)
+- Ian Curtis (29)
 - Still (26)
 - Joy Division (24)
 - Unknown Pleasures (20)
@@ -518,6 +519,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - culte (5)
 - réception posthume (4)
 - sonic hauntology (4)
+- no future (4)
 - fanzine (4)
 - paul morley (4)
 - télévision (4)
@@ -526,7 +528,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fans (4)
 - historiographie (4)
 - réalité (4)
-- Temptation (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -665,7 +666,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 14 |
+| prudence_methodologique | 15 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -674,7 +675,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
-| concept_structurant | 8 |
+| concept_structurant | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
@@ -776,6 +777,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| analyse_chanson | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
 | reception_scene | 2 |
@@ -993,6 +995,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| comparaison_generations | 1 |
+| garde_fou | 1 |
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | tension_synthese | 1 |
@@ -1107,8 +1111,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 240 |
-| majeure | 53 |
+| critique | 245 |
+| majeure | 54 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T18:07:11"
+generated_at: "2026-05-17T19:01:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T18:07:11"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 193 |
+| Atomes | 194 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 28 |
+| Sources mobilisées | 29 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ generated_at: "2026-05-17T18:07:11"
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
+| S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
@@ -99,6 +100,8 @@ generated_at: "2026-05-17T18:07:11"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `cadre théorique secondaire`.
 - **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
+- **S43-A003** — S43-A003 — 1968 / 1977 : utopie communautaire contre no future subjectiviste  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -133,8 +136,6 @@ generated_at: "2026-05-17T18:07:11"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -360,6 +361,7 @@ generated_at: "2026-05-17T18:07:11"
 - diy (4)
 - Ian Curtis (4)
 - postindustrial cityscapes (3)
+- no future (3)
 - imaginative historicism (3)
 - Ian Wood (3)
 - NME (3)
@@ -381,7 +383,6 @@ generated_at: "2026-05-17T18:07:11"
 - source critique (2)
 - industrial music (2)
 - spiritual wasteland (2)
-- no future (2)
 - capitalist realism (2)
 - dyschronia (2)
 - mythologisation (2)
@@ -634,6 +635,7 @@ generated_at: "2026-05-17T18:07:11"
 | temoignage | 1 |
 | archive | 1 |
 | controverse | 1 |
+| comparaison_generations | 1 |
 | contexte_urbain | 1 |
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
@@ -667,7 +669,7 @@ generated_at: "2026-05-17T18:07:11"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 26 |
+| critique | 27 |
 | majeure | 14 |
 | majeur | 2 |
 
