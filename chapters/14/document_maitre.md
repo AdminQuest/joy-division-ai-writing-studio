@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 883 |
+| Atomes | 891 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 32 |
+| Sources mobilisées | 33 |
 
 ## 4. Sources mobilisées
 
@@ -55,6 +55,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 7 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 6 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 8 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -452,19 +453,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory (33)
 - Ian Curtis (29)
 - Still (26)
-- Joy Division (24)
-- Unknown Pleasures (20)
+- Joy Division (25)
+- Unknown Pleasures (21)
 - Peter Saville (18)
 - NME (16)
 - Rob Gretton (16)
 - Love Will Tear Us Apart (16)
 - prudence historiographique (16)
 - Atmosphere (14)
+- Factory Records (14)
 - réception (13)
 - new order (13)
 - factory records (13)
 - Tony Wilson (13)
-- Factory Records (13)
 - peter saville (12)
 - martin hannett (11)
 - Ceremony (11)
@@ -481,13 +482,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
+- Closer (8)
 - suicide (7)
 - archive (7)
 - post-punk (7)
 - Bernard Sumner (7)
 - Warsaw (7)
 - Martin Hannett (7)
-- Closer (7)
 - factory (7)
 - joy division (6)
 - new pop (6)
@@ -666,16 +667,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 15 |
+| prudence_methodologique | 16 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | discographie | 11 |
+| concept_structurant | 10 |
 | synthese | 10 |
 | archive | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
-| concept_structurant | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
@@ -1063,6 +1064,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_album | 1 |
 | reception_memoire | 1 |
 | discours_religieux | 1 |
+| contexte_urbain | 1 |
+| infrastructure_scene | 1 |
+| lecture_filmique | 1 |
+| analyse_sous_culturelle | 1 |
+| sociologie_scene | 1 |
+| chronologie_biographique_prudente | 1 |
 | source_visuelle | 1 |
 | motif_visuel | 1 |
 | image_groupe | 1 |
@@ -1111,11 +1118,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 245 |
-| majeure | 54 |
+| critique | 249 |
+| majeure | 57 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 331 |
+| Atomes | 336 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 30 |
 | Événements chronologiques | 22 |
 | Personnes | 29 |
 | Chansons | 25 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -420,9 +421,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - production (9)
 - contrainte productive (8)
 - Strawberry Studios (8)
+- Stephen Morris (8)
 - Transmission (7)
 - Cargo Studios (7)
-- Stephen Morris (7)
 - Peter Hook (7)
 - martin hannett (6)
 - espace sonore (6)
@@ -456,7 +457,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - radio (3)
 - piccadilly radio (3)
 - dub (3)
+- basse mélodique (3)
 - factory records (3)
+- Joy Division (3)
 - John Peel (3)
 - BBC (3)
 - Warsaw Demo (3)
@@ -466,6 +469,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - An Ideal for Living (3)
 - domesticité (3)
 - prudence historiographique (3)
+- Bernard Sumner (3)
 - cinquième membre (3)
 - Hannett (3)
 - new wave (3)
@@ -482,16 +486,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Throbbing Gristle (2)
 - postindustrial cityscapes (2)
 - spiritual wasteland (2)
-- basse mélodique (2)
 - kraftwerk (2)
 - synthpop (2)
 - europe froide (2)
 - erreur productive (2)
-- Joy Division (2)
 - single (2)
 - 18 juillet 1977 (2)
 - Inside the Line (2)
-- The Kill (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -649,7 +650,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
+| concept_structurant | 3 |
 | equipment_file | 3 |
+| acteur_musical | 3 |
 | contexte_technique | 3 |
 | song_session | 3 |
 | release_or_session | 3 |
@@ -665,7 +668,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | controverse | 2 |
 | lieu | 2 |
 | temoignage | 2 |
-| concept_structurant | 2 |
+| prudence_methodologique | 2 |
 | production_album | 2 |
 | citation_repere | 2 |
 | performance_live | 2 |
@@ -732,7 +735,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | economie_collective | 1 |
 | transdisciplinarite | 1 |
 | processus_creation | 1 |
-| prudence_methodologique | 1 |
 | rupture_esthetique | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
@@ -776,9 +778,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 97 |
-| majeure | 13 |
+| critique | 98 |
+| majeure | 16 |
 | majeur | 10 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

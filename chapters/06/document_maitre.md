@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 427 |
+| Atomes | 428 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
 | Chansons | 19 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 2 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 1 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -434,14 +435,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 11. Concepts récurrents
 
-- Closer (17)
+- Closer (18)
 - architecture sonore (16)
 - Still (15)
 - Ian Curtis (14)
+- Unknown Pleasures (10)
 - Atmosphere (9)
 - Transmission (9)
 - Love Will Tear Us Apart (9)
-- Unknown Pleasures (9)
 - factory (8)
 - Dead Souls (8)
 - martin hannett (7)
@@ -456,13 +457,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - ian curtis (5)
 - single (5)
 - live (5)
+- épilepsie (5)
 - fatigue (5)
 - BBC (5)
 - John Peel (5)
 - versions alternatives (4)
 - Peel Session (4)
 - Sound of Music (4)
-- épilepsie (4)
 - Insight (4)
 - Factory (4)
 - producteur catalyseur (4)
@@ -870,6 +871,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
+| chronologie_biographique_prudente | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -891,7 +893,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 198 |
+| critique | 199 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 24 |

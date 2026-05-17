@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T19:47:09"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 246 |
+| Atomes | 251 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
 | Personnes | 31 |
 | Chansons | 13 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ generated_at: "2026-05-17T19:47:09"
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 12 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -112,12 +113,12 @@ generated_at: "2026-05-17T19:47:09"
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
-- **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct + citation d’entretien rapportée`.
-- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
+- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S44-A015** — S44-A015 — Ian Curtis : art comme refuge contre l’exclusion du sens commun  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `acteur_biographique` ; importance : `critique` ; preuve : `moyenne`.
+- **S44-A016** — S44-A016 — 1978-1980 : maladie, ascension et téléologie à contrôler  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `chronologie_biographique_prudente` ; importance : `critique` ; preuve : `moyenne`.
 
 ## 6. Autres atomes utiles
 
@@ -193,6 +194,10 @@ generated_at: "2026-05-17T19:47:09"
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S44-A006** — S44-A006 — *24 Hour Party People* : scène d’épilepsie et allégorie sociale  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `lecture_filmique` ; importance : `utile` ; preuve : `moyenne`.
+- **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `mediation_litteraire` ; importance : `utile` ; preuve : `moyenne`.
 - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
@@ -239,6 +244,12 @@ generated_at: "2026-05-17T19:47:09"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A025** — S45-A025 — Retour à Macclesfield : Barton Street comme base domestique du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct + citation d’entretien rapportée`.
+- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
 - **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
 - **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
@@ -271,16 +282,6 @@ generated_at: "2026-05-17T19:47:09"
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-180** — S46-180 — Paul Morley, NME 1978 : Curtis comme force vocale  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-053** — S47-053 — Curtis : entre Jim Morrison et Iggy Pop dans la réception critique  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_comparative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-089** — S47-089 — L’équipement de Ian Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `equipment_file` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A002** — S-BROLL-A002 — Rencontre avec Ian Curtis et première chanson « Gutz »  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 7. Citations disponibles
 
@@ -420,10 +421,10 @@ generated_at: "2026-05-17T19:47:09"
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (43)
+- Ian Curtis (44)
 - prudence historiographique (20)
 - epilepsie (10)
-- épilepsie (6)
+- épilepsie (8)
 - scène (6)
 - factory (6)
 - danse (5)
@@ -432,12 +433,12 @@ generated_at: "2026-05-17T19:47:09"
 - voix (4)
 - architecture sonore (4)
 - rob gretton (4)
+- Closer (4)
 - stroboscopes (3)
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
 - anti-téléologie (3)
-- Closer (3)
 - fragmentation (3)
 - écoute différée des paroles (2)
 - Rainbow Theatre (2)
@@ -641,8 +642,8 @@ generated_at: "2026-05-17T19:47:09"
 | biographie | 6 |
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
+| prudence_methodologique | 5 |
 | interpretation | 5 |
-| prudence_methodologique | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
@@ -771,6 +772,10 @@ generated_at: "2026-05-17T19:47:09"
 | production_album | 1 |
 | crise_creative | 1 |
 | transition_morceaux | 1 |
+| lecture_filmique | 1 |
+| mediation_litteraire | 1 |
+| acteur_biographique | 1 |
+| chronologie_biographique_prudente | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -785,10 +790,11 @@ generated_at: "2026-05-17T19:47:09"
 
 | Importance | Nombre |
 |---|---|
-| critique | 113 |
+| critique | 116 |
 | non qualifiée | 94 |
 | majeure | 35 |
 | majeur | 3 |
+| utile | 2 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

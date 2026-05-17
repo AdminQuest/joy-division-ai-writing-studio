@@ -1345,7 +1345,26 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/source.md::1997",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md::1996",
+    "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+    "heading": "Atomes v2 — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
+    "data": {
+      "source_id": "S44",
+      "source_label": "S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "source_short_title": "Guarino, I Joy Division tra vomito culturale, 2021",
+      "source_year": "2021",
+      "auteur": "Donato Guarino",
+      "titre": "I Joy Division tra vomito culturale e ideali sottoculturali",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "fiabilite": "forte comme source secondaire critique",
+      "citation_directe": false,
+      "pages_pdf": "76-92"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/source.md::2014",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1363,7 +1382,56 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::1999",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md::2015",
+    "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+    "heading": "Relations stabilisées — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
+    "data": {
+      "source_id": "S44",
+      "source_label": "S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "type_unite": "relations_stabilisees",
+      "statut": "verifie",
+      "fiabilite": "forte comme source secondaire critique",
+      "atomes_source": [
+        "S44-A001",
+        "S44-A002",
+        "S44-A003",
+        "S44-A004",
+        "S44-A005",
+        "S44-A006",
+        "S44-A007",
+        "S44-A008",
+        "S44-A009",
+        "S44-A010",
+        "S44-A011",
+        "S44-A012",
+        "S44-A013",
+        "S44-A014",
+        "S44-A015",
+        "S44-A016"
+      ],
+      "source_short_title": "Donato Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md::2026",
+    "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+    "heading": "Registres spécialisés — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
+    "data": {
+      "source_id": "S44",
+      "source_label": "S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "type_unite": "registres_specialises",
+      "statut": "verifie",
+      "fiabilite": "forte comme source secondaire critique",
+      "passage_atomise": "Chapitre complet, p. PDF 76-92",
+      "source_short_title": "Donato Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::2035",
     "file": "sources/cummins_joy_division_visual_corpus/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1378,7 +1446,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::2000",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::2036",
     "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
     "heading": "Relations stabilisées — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -1405,7 +1473,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::2008",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::2044",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Compléments aux registres spécialisés — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -1420,7 +1488,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::2015",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::2051",
     "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
     "heading": "Compléments aux registres structurants — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -1435,7 +1503,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::2049",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::2085",
     "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
     "heading": "Compléments aux registres structurants — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1450,7 +1518,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::2063",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::2099",
     "file": "sources/happy_mondays_gods_cop/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1465,7 +1533,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::2064",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::2100",
     "file": "sources/happy_mondays_gods_cop/relations_stabilisees.md",
     "heading": "Relations stabilisées — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1490,7 +1558,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::2071",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::2107",
     "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
     "heading": "Compléments aux registres spécialisés — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1505,7 +1573,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::2078",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::2114",
     "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
     "heading": "Compléments aux registres spécialisés — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1520,7 +1588,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::2086",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::2122",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1535,7 +1603,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::2087",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::2123",
     "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
     "heading": "Relations stabilisées — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1567,7 +1635,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::2114",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::2150",
     "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
     "heading": "Compléments aux registres structurants — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1582,7 +1650,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2387",
+    "id": "NO_ID::sources/suatoni/README.md::2423",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -1599,7 +1667,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2388",
+    "id": "NO_ID::sources/suatoni/README.md::2424",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1637,7 +1705,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2389",
+    "id": "NO_ID::sources/suatoni/README.md::2425",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1657,7 +1725,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2444",
+    "id": "NO_ID::sources/greig_strong/README.md::2480",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -1674,7 +1742,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2445",
+    "id": "NO_ID::sources/greig_strong/README.md::2481",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1707,7 +1775,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2446",
+    "id": "NO_ID::sources/greig_strong/README.md::2482",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1722,7 +1790,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2749",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2785",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -1736,7 +1804,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::3122",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::3158",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1751,7 +1819,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::3145",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::3181",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1766,7 +1834,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::3149",
+    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::3185",
     "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1781,7 +1849,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::3152",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::3188",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1796,7 +1864,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::3165",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::3201",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1811,7 +1879,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::3173",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::3209",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1826,7 +1894,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::3177",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::3213",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1841,7 +1909,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::3179",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::3215",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1856,7 +1924,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::3183",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::3219",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1871,7 +1939,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::3184",
+    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::3220",
     "file": "registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -1889,7 +1957,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::3186",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::3222",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1904,7 +1972,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::3189",
+    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::3225",
     "file": "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -1919,7 +1987,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::3200",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::3236",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1935,7 +2003,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::3201",
+    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::3237",
     "file": "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -1953,7 +2021,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::3205",
+    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::3241",
     "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1968,7 +2036,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::3211",
+    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::3247",
     "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1983,7 +2051,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::3229",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::3265",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1998,7 +2066,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md::3245",
+    "id": "NO_ID::registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md::3281",
     "file": "registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md",
     "heading": "S40 - Motifs - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -2014,7 +2082,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s39_bauman_liquid_modernity_motifs.md::3464",
+    "id": "NO_ID::registers/motifs/s39_bauman_liquid_modernity_motifs.md::3500",
     "file": "registers/motifs/s39_bauman_liquid_modernity_motifs.md",
     "heading": "S39 — Motifs — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -2030,7 +2098,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::3523",
+    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::3559",
     "file": "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
     "heading": "S40 - Registres specialises - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -2046,7 +2114,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::3524",
+    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::3560",
     "file": "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
     "heading": "S39 — Registres spécialisés — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -2062,7 +2130,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s39_bauman_liquid_modernity_concepts.md::3803",
+    "id": "NO_ID::registers/concepts/s39_bauman_liquid_modernity_concepts.md::3839",
     "file": "registers/concepts/s39_bauman_liquid_modernity_concepts.md",
     "heading": "S39 — Concepts — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -2078,7 +2146,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md::3831",
+    "id": "NO_ID::registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md::3867",
     "file": "registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md",
     "heading": "S40 - Concepts - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -2094,7 +2162,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s40_cacciatore_hauntologie_no_future_myths.md::3995",
+    "id": "NO_ID::registers/myths/s40_cacciatore_hauntologie_no_future_myths.md::4031",
     "file": "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md",
     "heading": "S40 - Mythes et garde-fous - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -2110,7 +2178,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s39_bauman_liquid_modernity_myths.md::4019",
+    "id": "NO_ID::registers/myths/s39_bauman_liquid_modernity_myths.md::4055",
     "file": "registers/myths/s39_bauman_liquid_modernity_myths.md",
     "heading": "S39 — Mythes et garde-fous — Bauman, *Liquid Modernity*, 2000",
     "data": {

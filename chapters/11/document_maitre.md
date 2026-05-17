@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 229 |
+| Atomes | 230 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
 | Personnes | 10 |
 | Chansons | 15 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 15 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 1 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -204,6 +205,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
+- **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `mediation_litteraire` ; importance : `utile` ; preuve : `moyenne`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-004** — S45-004 — Ian Curtis hérite du silence de son père  
@@ -288,8 +291,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-177** — S46-177 — Transe et répétition lente  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-181** — S46-181 — « Death Rattle : The Atrocity Exhibition » : bascule dans le réel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -409,6 +410,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - ka-tzetnik (2)
 - throbbing gristle (2)
 - death factory (2)
+- cut-up (2)
 - Eric's Liverpool (2)
 - industrial malaise (2)
 - hypnose (2)
@@ -423,6 +425,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Unknown Pleasures (2)
 - clôture (2)
 - influence (2)
+- avant-garde (2)
 - controverse (2)
 - destin (2)
 - mélancolie (2)
@@ -431,8 +434,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - tension (2)
 - transe (2)
 - lenteur (2)
-- réalité (2)
-- imagerie nazie (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -678,6 +679,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_reception | 1 |
 | contraste_biographique | 1 |
 | concert_europeen | 1 |
+| mediation_litteraire | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
@@ -694,6 +696,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | critique | 71 |
 | majeure | 20 |
 | majeur | 5 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

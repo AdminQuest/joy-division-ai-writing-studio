@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 322 |
+| Atomes | 332 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 34 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 10 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
@@ -76,6 +77,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `rupture_esthetique` ; importance : `critique` ; preuve : `interprétation critique`.
 - **S42-A008** — S42-A008 — Focal places : clubs, disquaires, salles de répétition et réseaux  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
+- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S44-A004** — S44-A004 — Howard Devoto et le seuil punk du 4 juin 1976  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `evenement_scene` ; importance : `critique` ; preuve : `forte`.
+- **S44-A007** — S44-A007 — Stiff Kittens / Warsaw : intention avant maîtrise  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `genese_groupe` ; importance : `critique` ; preuve : `forte`.
+- **S44-A011** — S44-A011 — Joy Division : les diseredati et la nouvelle citoyenneté punk  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `forte`.
 - **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
@@ -116,14 +125,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
-- **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -400,24 +401,25 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 11. Concepts récurrents
 
-- Warsaw (31)
+- Warsaw (32)
 - Electric Circus (17)
+- Joy Division (12)
 - Sex Pistols (11)
-- Joy Division (11)
 - Rob Gretton (11)
 - punk (11)
 - Rafters (10)
 - An Ideal for Living (9)
+- Stephen Morris (8)
 - Manchester (8)
 - Ian Curtis (8)
 - electric circus (7)
 - warsaw (7)
 - Buzzcocks (7)
-- Stephen Morris (7)
+- Stiff Kittens (7)
 - Short Circuit (7)
 - an ideal for living (6)
 - tony wilson (6)
-- Stiff Kittens (6)
+- Lesser Free Trade Hall (6)
 - At a Later Date (6)
 - Warsaw Pakt (6)
 - Tony Wilson (6)
@@ -428,12 +430,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - industrie musicale (5)
 - rob gretton (5)
 - Pennine Sound (5)
-- Lesser Free Trade Hall (5)
 - Manchester punk (5)
 - batterie (5)
 - changement de nom (5)
 - Arrow Studios (5)
 - management (5)
+- Bernard Sumner (5)
 - contrainte productive (5)
 - formation du groupe (4)
 - rafters (4)
@@ -443,13 +445,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - buzzcocks (4)
 - House of Dolls (4)
 - RCA (4)
-- Bernard Sumner (4)
 - imagerie nazie (4)
 - Peter Hook (4)
 - sex pistols (4)
 - apprentissage autodidacte (4)
 - Factory (4)
 - joy division (4)
+- Salford (4)
 - autorisation punk (3)
 - steve brotherdale (3)
 - pressage (3)
@@ -471,15 +473,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - architecture sonore (3)
 - amateurisme (3)
 - mythe fondateur (3)
-- Salford (3)
 - provocation punk (3)
 - classe ouvriere (3)
 - médiation télévisuelle (2)
 - matérialité discographique (2)
 - stabilisation humaine (2)
 - stabilisation rythmique (2)
+- clubs (2)
 - stiff kittens (2)
-- salford (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -633,6 +634,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | fait_interprete | 4 |
 | contexte_social | 4 |
 | interpretation | 4 |
+| infrastructure_scene | 3 |
 | performance_live | 3 |
 | tension_documentaire | 3 |
 | lieu | 3 |
@@ -640,17 +642,18 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | lieu_scene | 3 |
 | discographie | 3 |
 | evenement | 3 |
+| evenement_scene | 3 |
 | contexte | 3 |
 | reception | 3 |
-| infrastructure_scene | 2 |
+| concept_structurant | 3 |
+| acteur_musical | 3 |
+| sociologie_scene | 2 |
 | temoignage | 2 |
 | scene_revelation | 2 |
 | rencontre_fondatrice | 2 |
 | reception_presse | 2 |
-| evenement_scene | 2 |
 | changement_nom | 2 |
 | bootleg | 2 |
-| concept_structurant | 2 |
 | micro_chronologie | 2 |
 | sociologie | 2 |
 | concept | 2 |
@@ -662,7 +665,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | seuil_identitaire | 1 |
 | fait_social | 1 |
 | infrastructure_industrielle | 1 |
-| sociologie_scene | 1 |
 | lieu_creatif | 1 |
 | contexte_scene | 1 |
 | reception_critique | 1 |
@@ -733,6 +735,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | scene_live | 1 |
 | professionnalisation | 1 |
 | controverse_visuelle | 1 |
+| prudence_methodologique | 1 |
+| contexte_urbain | 1 |
+| genese_groupe | 1 |
 | source_media | 1 |
 | tension_editoriale | 1 |
 | contexte_materiel | 1 |
@@ -748,11 +753,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 205 |
-| critique | 79 |
-| majeure | 19 |
+| critique | 83 |
+| majeure | 24 |
 | majeur | 15 |
 | moyenne | 2 |
 | structurante | 2 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

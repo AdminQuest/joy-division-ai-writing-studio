@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T19:46:56",
+  "generated_at": "2026-05-17T20:14:41",
   "status": "warning",
   "summary": {
-    "records_total": 4337,
+    "records_total": 4373,
     "records_by_kind": {
-      "atom": 1925,
-      "metadata": 107,
-      "unknown": 374,
+      "atom": 1941,
+      "metadata": 110,
+      "unknown": 391,
       "source": 69,
       "concept": 233,
       "motif": 295,
@@ -19,9 +19,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 20187,
+    "diagnostics_total": 20396,
     "errors": 0,
-    "warnings": 20187,
+    "warnings": 20396,
     "sources_declared_in_registre_json": 54,
     "sources_used_in_records": 34,
     "sources_exported": 34,
@@ -842,12 +842,15 @@
         "auteur": "Donato Guarino",
         "titre": "I Joy Division tra vomito culturale e ideali sottoculturali",
         "annee": "2021",
-        "records": 3,
-        "atoms": 0,
+        "records": 32,
+        "atoms": 16,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s44_guarino_vomito_culturale_source_canonique.md",
+          "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+          "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+          "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
           "sources/guarino_vomito_culturale_ideali_sottoculturali/source.md"
         ]
       },
@@ -87151,6 +87154,1260 @@
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Invalid value for type_unite: conclusion_historiographique",
       "record_id": "S06-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: contexte_urbain",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: evenement_scene",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: infrastructure_scene",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: lecture_filmique",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: genese_groupe",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: analyse_sous_culturelle",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: mediation_litteraire",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: sociologie_scene",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: acteur_musical",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: acteur_musical",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: acteur_musical",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: acteur_biographique",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: titre",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Invalid value for type_unite: chronologie_biographique_prudente",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S44-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S44-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
     },
     {
       "level": "warning",

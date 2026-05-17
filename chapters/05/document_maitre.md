@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 326 |
+| Atomes | 328 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 41 |
 | Personnes | 41 |
 | Chansons | 7 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -96,6 +97,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
 - **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
+- **S44-A008** — S44-A008 — Bricolage, situationnisme et postmodernisme : défense du nom Joy Division  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `analyse_sous_culturelle` ; importance : `critique` ; preuve : `moyenne`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -120,8 +123,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -273,6 +274,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S42-A010** — S42-A010 — Factory Records comme focal place esthétique et institutionnel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `institution_scene` ; importance : `majeure` ; preuve : `interprétation critique`.
+- **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `mediation_litteraire` ; importance : `utile` ; preuve : `moyenne`.
 - **S45-013** — S45-013 — Factory Sample : première froideur Hannett  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-016** — S45-016 — Factory introduit une nouvelle hiérarchie affective  
@@ -283,8 +286,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-013** — S46-013 — Les badges Joy Division et Better Badges  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -809,6 +810,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concert_filme | 1 |
 | source_part | 1 |
 | controverse_visuelle | 1 |
+| analyse_sous_culturelle | 1 |
+| mediation_litteraire | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -832,9 +835,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 98 |
+| critique | 99 |
 | majeure | 27 |
 | majeur | 4 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

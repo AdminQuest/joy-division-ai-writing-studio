@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 334 |
+| Atomes | 337 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 3 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -209,6 +210,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
+- **S44-A006** — S44-A006 — *24 Hour Party People* : scène d’épilepsie et allégorie sociale  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `lecture_filmique` ; importance : `utile` ; preuve : `moyenne`.
+- **S44-A015** — S44-A015 — Ian Curtis : art comme refuge contre l’exclusion du sens commun  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `acteur_biographique` ; importance : `critique` ; preuve : `moyenne`.
+- **S44-A016** — S44-A016 — 1978-1980 : maladie, ascension et téléologie à contrôler  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `chronologie_biographique_prudente` ; importance : `critique` ; preuve : `moyenne`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -275,12 +282,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
 - **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A118** — S45-A118 — « Our marriage was over » : dépossession narrative de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A120** — S45-A120 — Tournée européenne : départ sans adieu et Annik comme exception à la no women policy  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
-- **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
 
 ## 7. Citations disponibles
 
@@ -417,10 +418,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (27)
+- Ian Curtis (28)
 - prudence historiographique (17)
-- Closer (9)
-- épilepsie (7)
+- Closer (10)
+- épilepsie (9)
 - New Order (6)
 - non-monocausalité médicale (4)
 - film (4)
@@ -850,6 +851,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | decision_collective | 1 |
 | transition_vocale | 1 |
 | transition_album | 1 |
+| lecture_filmique | 1 |
+| acteur_biographique | 1 |
+| chronologie_biographique_prudente | 1 |
 | analyse | 1 |
 | tv_session | 1 |
 | album | 1 |
@@ -865,10 +869,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 191 |
+| critique | 193 |
 | non qualifiée | 110 |
 | majeure | 21 |
 | majeur | 12 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

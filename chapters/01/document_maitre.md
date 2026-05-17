@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T19:47:09"
+generated_at: "2026-05-17T20:14:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T19:47:09"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 194 |
+| Atomes | 200 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 29 |
+| Sources mobilisées | 30 |
 
 ## 4. Sources mobilisées
 
@@ -54,6 +54,7 @@ generated_at: "2026-05-17T19:47:09"
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
+| S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
@@ -102,6 +103,12 @@ generated_at: "2026-05-17T19:47:09"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
 - **S43-A003** — S43-A003 — 1968 / 1977 : utopie communautaire contre no future subjectiviste  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
+- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S44-A004** — S44-A004 — Howard Devoto et le seuil punk du 4 juin 1976  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `evenement_scene` ; importance : `critique` ; preuve : `forte`.
+- **S44-A011** — S44-A011 — Joy Division : les diseredati et la nouvelle citoyenneté punk  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `forte`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -130,12 +137,6 @@ generated_at: "2026-05-17T19:47:09"
   Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_conceptuelle` ; importance : `majeure` ; preuve : `garde-fou méthodologique`.
 - **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
-- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -374,6 +375,7 @@ generated_at: "2026-05-17T19:47:09"
 - réception posthume (2)
 - Crossley (2)
 - scènes musicales (2)
+- clubs (2)
 - ordre social local (2)
 - police (2)
 - accountability (2)
@@ -381,6 +383,7 @@ generated_at: "2026-05-17T19:47:09"
 - police-community relations (2)
 - Manchester post-industriel (2)
 - source critique (2)
+- Joy Division (2)
 - industrial music (2)
 - spiritual wasteland (2)
 - capitalist realism (2)
@@ -402,6 +405,7 @@ generated_at: "2026-05-17T19:47:09"
 - crise sociale (2)
 - Sex Pistols (2)
 - Buzzcocks (2)
+- Lesser Free Trade Hall (2)
 - Manchester punk (2)
 - inflation (2)
 - public expenditure (2)
@@ -420,16 +424,13 @@ generated_at: "2026-05-17T19:47:09"
 - mémoire ouvrière (2)
 - urban studies (2)
 - David Harvey (2)
+- Manchester post-industrielle (2)
 - Manchester industriel (2)
 - géographie sociale (2)
 - logement social (2)
 - shrinking city (2)
 - Factory Records (2)
 - Lower Broughton (2)
-- paysage industriel (2)
-- relogement (2)
-- Ordsall (2)
-- sida (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -566,8 +567,8 @@ generated_at: "2026-05-17T19:47:09"
 | Type | Nombre |
 |---|---|
 | source_part | 14 |
-| prudence_methodologique | 12 |
-| concept_structurant | 11 |
+| prudence_methodologique | 13 |
+| concept_structurant | 12 |
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
@@ -588,6 +589,7 @@ generated_at: "2026-05-17T19:47:09"
 | temporalite_culturelle | 2 |
 | critique_historiographique | 2 |
 | chronologie | 2 |
+| contexte_urbain | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
 | motif_discursif | 2 |
@@ -636,7 +638,6 @@ generated_at: "2026-05-17T19:47:09"
 | archive | 1 |
 | controverse | 1 |
 | comparaison_generations | 1 |
-| contexte_urbain | 1 |
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
 | contexte_biographique | 1 |
@@ -652,6 +653,9 @@ generated_at: "2026-05-17T19:47:09"
 | conflit_institutionnel | 1 |
 | discours_religieux | 1 |
 | evenement_urbain | 1 |
+| evenement_scene | 1 |
+| infrastructure_scene | 1 |
+| sociologie_scene | 1 |
 | source_visuelle | 1 |
 | lieu_image | 1 |
 | concept_visuel | 1 |
@@ -669,8 +673,8 @@ generated_at: "2026-05-17T19:47:09"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 27 |
-| majeure | 14 |
+| critique | 30 |
+| majeure | 17 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
