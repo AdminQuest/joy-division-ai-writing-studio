@@ -1,0 +1,58 @@
+source_id: S39
+source_label: "S39 — Bauman, Liquid Modernity, 2000"
+source_type: "ouvrage théorique / sociologie de la modernité"
+workflow: "RAG context"
+date_integration: "2026-05-17"
+passage_atomise: "Passage programmatique sur le passage de la modernité solide à la modernité liquide : affaiblissement des cadres durables, primat de la mobilité, instabilité des appartenances, fragilité des liens et transfert de l’incertitude vers les individus."
+statut_citationnel: "aucune citation verbatim intégrée"
+usage_principal:
+  - "modernité liquide"
+  - "dissolution des cadres stables"
+  - "fragilité des liens sociaux"
+  - "précarité des appartenances"
+  - "individualisation de l’incertitude"
+  - "patrimonialisation liquide"
+  - "réception contemporaine"
+chapitres:
+  principaux:
+    - "Chapitre 11"
+    - "Chapitre 14"
+  garde_fou:
+    - "Chapitre 1"
+  secondaires:
+    - "Chapitre 13"
+atomes:
+  - S39-A001
+  - S39-A002
+  - S39-A003
+  - S39-A004
+  - S39-A005
+  - S39-A006
+  - S39-A007
+relations:
+  - REL-S39-001
+  - REL-S39-002
+  - REL-S39-003
+  - REL-S39-004
+  - REL-S39-005
+  - REL-S39-006
+  - REL-S39-007
+  - REL-S39-008
+  - REL-S39-009
+fichiers:
+  atomes: "sources/bauman_liquid_modernity/atoms_s39_passage_modernite_liquide_v2.json"
+  relations: "sources/bauman_liquid_modernity/relations_stabilisees.md"
+  registres_update: "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md"
+  rag_fragments: "rag/fragments/s39_bauman_liquid_modernity.jsonl"
+  addendum_documents_maitres: "chapters/addenda/s39_bauman_liquid_modernity.md"
+  concepts: "registers/concepts/s39_bauman_liquid_modernity_concepts.md"
+  motifs: "registers/motifs/s39_bauman_liquid_modernity_motifs.md"
+  mythes: "registers/myths/s39_bauman_liquid_modernity_myths.md"
+  specialises: "registers/specialized/s39_bauman_liquid_modernity_specialized.md"
+garde_fous:
+  - "Ne pas utiliser S39 comme source historique ou musicale sur Joy Division."
+  - "Ne pas confondre Liquid Modernity avec Liquid Life / La vie liquide."
+  - "Ne pas écrire que Joy Division annonce la modernité liquide."
+  - "Ne pas écrire que Curtis chante Bauman."
+  - "Ne pas écrire que Manchester est une ville liquide."
+  - "Séparer strictement production historique et réception contemporaine."
