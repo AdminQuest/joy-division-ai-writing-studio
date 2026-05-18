@@ -1,0 +1,66 @@
+id: RAG-S53-LAROCCA-IMMAGINI-SIMBOLI-INCARNATIONE-MITICA
+source_id: S53
+source_label: "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021"
+source_path: "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md"
+relations_path: "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md"
+structuring_registers_path: "registers/s53_la_rocca_structuring_registers.md"
+specialized_registers_path: "registers/s53_la_rocca_specialized_registers.md"
+master_docs_addendum_path: "chapters/addenda/s53_dm_addendum_immagini_simboli_incarnazione_mitica.md"
+rag_fragments_path: "rag/fragments/s53_la_rocca_immagini_simboli_incarnazione_mitica.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S53"
+  pdf_pages: "158-169"
+  scope: "chapitre Fabio La Rocca uniquement, non volume collectif complet"
+primary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 10"
+  - "Chapitre 13"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 3"
+  - "Chapitre 4"
+  - "Chapitre 12"
+key_atoms:
+  - S53-A002
+  - S53-A003
+  - S53-A005
+  - S53-A006
+  - S53-A007
+  - S53-A008
+  - S53-A011
+  - S53-A013
+  - S53-A014
+  - S53-A015
+  - S53-A016
+key_concepts:
+  - CONCEPT-energie_socio_esthetique
+  - CONCEPT-genius_loci_mancunien
+  - CONCEPT-image_mythe_narratologie
+  - CONCEPT-valeur_mutante_du_mythe
+  - CONCEPT-anthropologie_nostalgie_pop
+  - CONCEPT-affectologie_joy_division
+  - CONCEPT-fantome_joy_division
+key_motifs:
+  - MOTIF-bain_emotionnel_symbolique
+  - MOTIF-grisaille_creatrice
+  - MOTIF-pulsar_totem_pop
+  - MOTIF-curtis_totem_culturel
+  - MOTIF-fantome_mediatique_dark
+key_myths:
+  - MYTH-mythe_comme_preuve
+  - MYTH-massification_comme_perte_pure
+  - MYTH-manchester_cause_mecanique
+  - MYTH-curtis_sacre_par_le_mythe
+writing_use: >
+  Utiliser S53 comme source secondaire critique pour penser l’incarnation mythique de Joy Division par les images,
+  les symboles, le genius loci de Manchester, l’esthétique dark, la poppizzazione, l’anthropologie de la nostalgie pop,
+  l’affectologie sociale, le totem Curtis et le fantôme médiatique Joy Division.
+verification_rules:
+  - "Ne pas utiliser S53 comme source primaire sur l’histoire factuelle de Joy Division."
+  - "Croiser Unknown Pleasures avec S48, S50, S09, Saville et les notices discographiques."
+  - "Croiser Kevin Cummins et Epping Walk Bridge avec les sources photographiques."
+  - "Croiser Control avec S52 et les fiches filmographiques."
+  - "Croiser le corps gestuel de Curtis avec S49 et S52 ; ne pas le réduire à une lecture clinique."
+  - "Distinguer analyse du mythe et adhésion au mythe."
