@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T08:24:18",
+  "generated_at": "2026-05-18T09:11:50",
   "status": "warning",
   "summary": {
-    "records_total": 4480,
+    "records_total": 4543,
     "records_by_kind": {
-      "atom": 1987,
-      "metadata": 118,
-      "unknown": 440,
+      "atom": 2003,
+      "metadata": 127,
+      "unknown": 461,
       "source": 73,
-      "concept": 233,
-      "motif": 295,
+      "concept": 239,
+      "motif": 300,
       "myth": 40,
       "quote": 369,
       "chronology": 353,
-      "template": 336,
+      "template": 342,
       "song": 53,
       "quote_batch": 1,
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 20988,
+    "diagnostics_total": 21189,
     "errors": 0,
-    "warnings": 20988,
+    "warnings": 21189,
     "sources_declared_in_registre_json": 56,
     "sources_used_in_records": 36,
     "sources_exported": 36,
@@ -698,19 +698,32 @@
         "auteur": "Stephen Morris",
         "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
         "annee": "2019",
-        "records": 59,
-        "atoms": 33,
+        "records": 111,
+        "atoms": 49,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s35_morris_chronology_part_03.md",
+          "registers/concepts/s35_morris_concepts_part_03.md",
+          "registers/motifs/s35_morris_motifs_part_03.md",
+          "registers/myths/s35_morris_mythes_part_03.md",
+          "registers/organizations/s35_morris_organizations_part_03.md",
+          "registers/people/s35_morris_people_part_03.md",
+          "registers/places/s35_morris_places_part_03.md",
+          "registers/quotes/s35_morris_quotes_part_03.md",
+          "registers/references/s35_morris_record_play_pause_part_03_reference_supplement.md",
           "registers/references/s35_morris_record_play_pause_source_canonique.md",
+          "registers/songs/s35_morris_songs_part_03.md",
           "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
           "sources/morris_record_play_pause/registres_specialises_s35.md",
           "sources/morris_record_play_pause/registres_specialises_s35_part_02.md",
+          "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
           "sources/morris_record_play_pause/relations_stabilisees.md",
           "sources/morris_record_play_pause/relations_stabilisees_part_02.md",
+          "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
           "sources/morris_record_play_pause/source.md",
-          "sources/morris_record_play_pause/source_part_02.md"
+          "sources/morris_record_play_pause/source_part_02.md",
+          "sources/morris_record_play_pause/source_part_03.md"
         ]
       },
       {
@@ -88276,6 +88289,72 @@
     },
     {
       "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S35-028"
+    },
+    {
+      "level": "warning",
       "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-A001"
@@ -89824,6 +89903,42 @@
     },
     {
       "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
       "file": "sources/morris_record_play_pause/source_part_02.md",
       "message": "Missing required field: auteur",
       "record_id": "S35-PART-02"
@@ -90745,6 +90860,1086 @@
       "file": "sources/morris_record_play_pause/registres_specialises_s35.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: importance",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S35-PART-03"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_sociale_style",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: lieu_imaginaire",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: formation_sociale",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: apprentissage_instrumental",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: formation_culturelle",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_ecoute",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: culture_materielle",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: conflit_generationnel",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_revelation_live",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: motif_geographique",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_revelation_live",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: matrice_musicale",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_ecoute_prudente",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_pre_groupe",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: titre",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Invalid value for type_unite: apprentissage_instrumental",
+      "record_id": "S35-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morris_record_play_pause/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S35-A047"
     },
     {
       "level": "warning",
@@ -125212,6 +126407,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s35_morris_record_play_pause_part_03_reference_supplement.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S35-PART-03"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s15_deluca_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S15-DELUCA-SOURCE-CANONIQUE"
@@ -126067,6 +127268,24 @@
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s35_morris_mythes_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S35-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s35_morris_mythes_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S35-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s35_morris_mythes_part_03.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S35-011"
     },
     {
       "level": "warning",
