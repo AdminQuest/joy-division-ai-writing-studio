@@ -19751,10 +19751,6 @@ warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
-error,yaml_parse_error,registers/s52_rabbito_structuring_registers.md,,"YAML parse error: mapping values are not allowed here
-  in ""<unicode string>"", line 5, column 12:
-     definition: >
-               ^",Corriger la syntaxe YAML du bloc concerné.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-RABBITO-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CONTROL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CURTIS-1995,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

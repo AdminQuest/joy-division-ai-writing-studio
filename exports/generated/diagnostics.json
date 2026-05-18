@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-05-18T20:37:43",
-  "status": "error",
+  "generated_at": "2026-05-18T20:56:49",
+  "status": "warning",
   "summary": {
-    "records_total": 4994,
+    "records_total": 4996,
     "records_by_kind": {
       "atom": 2132,
-      "metadata": 148,
+      "metadata": 149,
       "unknown": 591,
-      "source": 79,
+      "source": 80,
       "concept": 276,
-      "motif": 327,
+      "motif": 328,
       "myth": 53,
       "quote": 392,
       "chronology": 368,
       "person": 205,
       "song": 66,
-      "template": 355,
+      "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22812,
-    "errors": 1,
+    "diagnostics_total": 22811,
+    "errors": 0,
     "warnings": 22811,
-    "sources_declared_in_registre_json": 60,
-    "sources_used_in_records": 40,
-    "sources_exported": 40,
+    "sources_declared_in_registre_json": 61,
+    "sources_used_in_records": 41,
+    "sources_exported": 41,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1085,7 +1085,7 @@
         "auteur": "Andrea Rabbito",
         "titre": "Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis",
         "annee": "2021",
-        "records": 102,
+        "records": 103,
         "atoms": 20,
         "quotes": 12,
         "chronology": 6,
@@ -1095,6 +1095,20 @@
           "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
           "sources/rabbito_control_infrangimento_vetro/source.md",
           "sources/rabbito_control_infrangimento_vetro/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S53",
+        "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+        "auteur": "Fabio La Rocca",
+        "titre": "Immagini e simboli nell’incarnazione mitica dei Joy Division",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md"
         ]
       },
       {
@@ -119845,12 +119859,6 @@
       "file": "registers/s49_farci_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S49-DECADES"
-    },
-    {
-      "level": "error",
-      "file": "registers/s52_rabbito_structuring_registers.md",
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
-      "record_id": null
     },
     {
       "level": "warning",

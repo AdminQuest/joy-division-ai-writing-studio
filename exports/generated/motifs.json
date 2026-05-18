@@ -690,6 +690,32 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-personnage_qui_devore",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-personnage_qui_devore",
+      "type_unite": "motif",
+      "source_id": "S52",
+      "nom": "personnage qui dévore",
+      "definition": "Motif selon lequel la création artistique et performative de Curtis envahit la vie ordinaire jusqu’à brouiller la frontière entre rôle scénique et identité vécue.\n",
+      "atomes": [
+        "S52-A015",
+        "S52-A016",
+        "S52-A020"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-heros_romantique_dangereux",
     "file": "registers/s52_rabbito_structuring_registers.md",
     "heading": "Motifs",

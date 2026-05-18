@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-18T20:37:56",
+  "generated_at": "2026-05-18T20:57:02",
   "summary": {
-    "records_total": 4994,
+    "records_total": 4996,
     "records_by_kind": {
       "atom": 2132,
-      "metadata": 148,
+      "metadata": 149,
       "unknown": 591,
-      "source": 79,
+      "source": 80,
       "concept": 276,
-      "motif": 327,
+      "motif": 328,
       "myth": 53,
       "quote": 392,
       "chronology": 368,
       "person": 205,
       "song": 66,
-      "template": 355,
+      "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22812,
-    "errors": 1,
+    "diagnostics_total": 22811,
+    "errors": 0,
     "warnings": 22811,
-    "sources_declared_in_registre_json": 60,
-    "sources_used_in_records": 40,
-    "sources_exported": 40,
+    "sources_declared_in_registre_json": 61,
+    "sources_used_in_records": 41,
+    "sources_exported": 41,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,16 +32,16 @@
     "atom": 2132,
     "chronology": 368,
     "concept": 276,
-    "metadata": 148,
-    "motif": 327,
+    "metadata": 149,
+    "motif": 328,
     "myth": 53,
     "person": 205,
     "quote": 392,
     "quote_batch": 1,
     "rules": 1,
     "song": 66,
-    "source": 79,
-    "template": 355,
+    "source": 80,
+    "template": 354,
     "unknown": 591
   },
   "records_by_source": {
@@ -297,8 +297,12 @@
       "person": 12,
       "song": 4,
       "concept": 6,
-      "motif": 4,
+      "motif": 5,
       "myth": 5
+    },
+    "S53": {
+      "source": 1,
+      "metadata": 1
     },
     "S68": {
       "quote": 3,
@@ -359,10 +363,10 @@
     "Chapitre 11": 300,
     "Chapitre 12": 559,
     "Chapitre 13": 180,
-    "Chapitre 14": 1367,
+    "Chapitre 14": 1368,
     "Chapitre 2": 484,
     "Chapitre 3": 584,
-    "Chapitre 4": 401,
+    "Chapitre 4": 402,
     "Chapitre 5": 490,
     "Chapitre 6": 603,
     "Chapitre 7": 241,
@@ -500,8 +504,7 @@
     "missing_required_field": 6566,
     "schema_warning": 494,
     "unknown_yaml_block": 591,
-    "v2_migration_debt": 12910,
-    "yaml_parse_error": 1
+    "v2_migration_debt": 12910
   },
   "top_files_by_issue_count": [
     [
@@ -625,16 +628,7 @@
       200
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "registers/s52_rabbito_structuring_registers.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -6427,7 +6421,7 @@
         "auteur": "Andrea Rabbito",
         "titre": "Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis",
         "annee": "2021",
-        "records": 102,
+        "records": 103,
         "atoms": 20,
         "quotes": 12,
         "chronology": 6,
@@ -6437,6 +6431,20 @@
           "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
           "sources/rabbito_control_infrangimento_vetro/source.md",
           "sources/rabbito_control_infrangimento_vetro/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S53",
+        "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+        "auteur": "Fabio La Rocca",
+        "titre": "Immagini e simboli nell’incarnazione mitica dei Joy Division",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md"
         ]
       },
       {
@@ -164691,14 +164699,6 @@
       "record_id": "SONG-S49-DECADES",
       "message": "Missing required field: chapters",
       "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "registers/s52_rabbito_structuring_registers.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
     },
     {
       "level": "warning",
