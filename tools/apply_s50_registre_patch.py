@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+"""
+Patch idempotent du registre canonique pour S50.
+
+Objet : fixer la source S50 — Paolo Bertetti ; Domenico Morreale,
+« Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica », 2021.
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+REGISTRE = ROOT / "data" / "registre.json"
+PATCH = ROOT / "sources" / "bertetti_morreale_reimmaginare_immaginario" / "registre_patch_s50.json"
+
+
+def source_sort_key(entry: dict) -> tuple[int, str]:
+    source_id = str(entry.get("id", ""))
+    if source_id.startswith("S") and source_id[1:].isdigit():
+        return (int(source_id[1:]), source_id)
+    return (10_000, source_id)
+
+
+def main() -> None:
+    if not REGISTRE.exists():
+        raise FileNotFoundError(f"Registre introuvable : {REGISTRE}")
+    if not PATCH.exists():
+        raise FileNotFoundError(f"Patch S50 introuvable : {PATCH}")
+
+    registre = json.loads(REGISTRE.read_text(encoding="utf-8"))
+    patch = json.loads(PATCH.read_text(encoding="utf-8"))
+
+    if patch.get("id") != "S50":
+        raise ValueError("Le patch chargé ne porte pas l’identifiant S50.")
+
+    replaced = False
+    for index, entry in enumerate(registre):
+        if entry.get("id") == "S50":
+            registre[index] = patch
+            replaced = True
+            break
+
+    if not replaced:
+        registre.append(patch)
+
+    registre.sort(key=source_sort_key)
+    REGISTRE.write_text(
+        json.dumps(registre, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    action = "mise à jour" if replaced else "ajoutée"
+    print(f"S50 {action} dans data/registre.json")
+
+
+if __name__ == "__main__":
+    main()
