@@ -121,7 +121,7 @@ id: MOTIF-personnage_qui_devore
 type_unite: motif
 source_id: S52
 nom: personnage qui dévore
- definition: >
+definition: >
   Motif selon lequel la création artistique et performative de Curtis envahit la vie ordinaire jusqu’à brouiller
   la frontière entre rôle scénique et identité vécue.
 atomes: [S52-A015, S52-A016, S52-A020]
