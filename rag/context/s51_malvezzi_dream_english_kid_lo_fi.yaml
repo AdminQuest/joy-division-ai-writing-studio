@@ -1,0 +1,55 @@
+id: RAG-S51-MALVEZZI-DREAM-ENGLISH-KID-LOFI
+source_id: S51
+source_label: "S51 — Malvezzi, Dream English Kid 1978-1980, 2021"
+source_path: "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md"
+relations_path: "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md"
+structuring_registers_path: "registers/s51_malvezzi_structuring_registers.md"
+specialized_registers_path: "registers/s51_malvezzi_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s51_malvezzi_dream_english_kid_lo_fi.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S51"
+  pdf_pages: "134-145"
+  scope: "chapitre Jennifer Malvezzi uniquement, non volume collectif complet"
+primary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 10"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 4"
+  - "Chapitre 7"
+  - "Chapitre 13"
+key_atoms:
+  - S51-A002
+  - S51-A003
+  - S51-A004
+  - S51-A006
+  - S51-A007
+  - S51-A008
+  - S51-A010
+  - S51-A013
+  - S51-A015
+key_concepts:
+  - CONCEPT-image_pauvre_joy_division
+  - CONCEPT-serendipite_numerique
+  - CONCEPT-archive_remediee
+  - CONCEPT-copie_en_mouvement
+  - CONCEPT-memoire_pre_internet
+key_motifs:
+  - MOTIF-fade_away_survivance
+  - MOTIF-corps_spectral_lofi
+  - MOTIF-exercice_optique
+key_myths:
+  - MYTH-image_lofi_preuve_brute
+  - MYTH-haute_definition_superiorite
+  - MYTH-lofi_simple_nostalgie
+writing_use: >
+  Utiliser S51 comme source secondaire critique pour penser l’image lo-fi de Joy Division, les poor images,
+  la découverte YouTube de Mark Leckey, Dream English Kid 1964-1999, les archives amateurs, les copies en mouvement,
+  l’impermanence du sujet iconographique et la puissance mémorielle des images pauvres.
+verification_rules:
+  - "Ne pas utiliser S51 comme source primaire sur le concert d’Eric’s en 1979."
+  - "Vérifier la captation, le lieu, la date, la chanson et les conditions de circulation avant tout usage factuel."
+  - "Vérifier les paroles de Digital et She’s Lost Control dans le registre lyrique."
+  - "Croiser l’image lo-fi avec S48, S50, S09 et les registres visuels."
+  - "Distinguer archive amateur, remédiation artistique par Leckey et analyse critique de Malvezzi."
