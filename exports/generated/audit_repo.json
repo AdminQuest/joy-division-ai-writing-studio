@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T16:52:52",
+  "generated_at": "2026-05-18T17:12:39",
   "summary": {
-    "records_total": 4773,
+    "records_total": 4775,
     "records_by_kind": {
       "atom": 2078,
-      "metadata": 145,
+      "metadata": 146,
       "unknown": 532,
-      "source": 76,
+      "source": 77,
       "concept": 260,
       "motif": 317,
       "myth": 42,
@@ -21,9 +21,9 @@
     "diagnostics_total": 22136,
     "errors": 0,
     "warnings": 22136,
-    "sources_declared_in_registre_json": 57,
-    "sources_used_in_records": 37,
-    "sources_exported": 37,
+    "sources_declared_in_registre_json": 58,
+    "sources_used_in_records": 38,
+    "sources_exported": 38,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,7 +32,7 @@
     "atom": 2078,
     "chronology": 355,
     "concept": 260,
-    "metadata": 145,
+    "metadata": 146,
     "motif": 317,
     "myth": 42,
     "person": 184,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 56,
-    "source": 76,
+    "source": 77,
     "template": 354,
     "unknown": 532
   },
@@ -260,6 +260,10 @@
       "chronology": 2,
       "person": 3,
       "song": 3
+    },
+    "S50": {
+      "source": 1,
+      "metadata": 1
     },
     "S68": {
       "quote": 3,
@@ -5860,6 +5864,20 @@
           "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
           "sources/farci_danza_esistenziale_ian_curtis/source.md",
           "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S50",
+        "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+        "auteur": "Paolo Bertetti ; Domenico Morreale",
+        "titre": "Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/bertetti_morreale_reimmaginare_immaginario/source.md"
         ]
       },
       {

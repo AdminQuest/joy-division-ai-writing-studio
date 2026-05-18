@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 134 |
+| Atomes | 135 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
-| Événements chronologiques | 13 |
-| Personnes | 16 |
+| Événements chronologiques | 14 |
+| Personnes | 17 |
 | Chansons | 16 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 10 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
@@ -243,6 +244,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `transition_visuelle` ; importance : `utile` ; preuve : `moyenne`.
 - **S48-A013** — S48-A013 — Tambour, pulsar, tombeau : trois images et un mythe visuel  
   Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `synthese_relationnelle` ; importance : `majeure` ; preuve : `forte`.
+- **S49-A008** — S49-A008 — Post-punk, DIY, inclusivité féminine et ouverture aux musiques noires  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `contexte_scene` ; importance : `majeure` ; preuve : `synthese_critique`.
 - **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
@@ -285,8 +288,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A029** — S72-A029 — Synthpop, Europe froide et futurisme électronique  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A030** — S72-A030 — Throbbing Gristle et l’industrie comme matériau esthétique  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -302,6 +303,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 8. Chronologie rattachée
 
+- CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
@@ -318,6 +320,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 9. Personnes et acteurs
 
+- PERS-S49-003 — David Byrne
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
@@ -445,6 +448,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - danse (3)
 - radio (3)
 - silence (3)
+- DIY (3)
 - Interzone (2)
 - transe (2)
 - acid house (2)
@@ -453,7 +457,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Hannett (2)
 - électronique (2)
 - objet disque (2)
-- DIY (2)
+- disco (2)
 - transmission (1)
 - Haçienda (1)
 - Manchester post-industrielle (1)
@@ -480,7 +484,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Unknown Pleasures (1)
 - bruit concret (1)
 - delay (1)
-- spatialisation (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -630,6 +633,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | institution | 1 |
 | session | 1 |
 | reception_posthume | 1 |
+| contexte_scene | 1 |
 | temoignage_biographique | 1 |
 | reception_populaire | 1 |
 | prudence_historiographique | 1 |
@@ -653,7 +657,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | non qualifiée | 73 |
 | critique | 40 |
-| majeure | 14 |
+| majeure | 15 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |
@@ -696,6 +700,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
+- S49-A008 [moyen] — risque de simplifier les circulations entre scènes blanches et musiques noires
 - S34-A007 [eleve] — risque de citer trop longuement les paroles et de réduire la chanson à son contenu urbain
 - S34-A009 [moyen] — risque de surcharger « Transmission » d’une fonction théorique unique
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits

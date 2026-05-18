@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 338 |
+| Atomes | 339 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 41 |
 | Personnes | 41 |
 | Chansons | 7 |
-| Sources mobilisées | 18 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 6 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -546,6 +547,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Granada (2)
 - World in Action (2)
 - monochrome (2)
+- télévision (2)
 - nom Joy Division (2)
 - Short Circuit (2)
 - imagerie nazie (2)
@@ -554,7 +556,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Digital (2)
 - Glass (2)
 - Love Will Tear Us Apart (2)
-- House of Dolls (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -772,6 +773,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | evenement_crise | 1 |
 | temoignage_affectif | 1 |
 | reception_posthume | 1 |
+| evenement_audiovisuel | 1 |
 | analyse_oeuvre | 1 |
 | ecosysteme | 1 |
 | tournee_fatigue | 1 |
@@ -845,7 +847,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 104 |
+| critique | 105 |
 | majeure | 29 |
 | majeur | 4 |
 | utile | 3 |
@@ -912,7 +914,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
-- S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
+- S49-A006 [moyen] — la date et les conditions exactes doivent être vérifiées dans un registre audiovisuel
 
 ## 15. Lacunes et prochaines vérifications
 

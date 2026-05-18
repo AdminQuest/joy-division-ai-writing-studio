@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 355 |
+| Atomes | 363 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 82 |
-| Événements chronologiques | 56 |
-| Personnes | 35 |
-| Chansons | 6 |
-| Sources mobilisées | 13 |
+| Citations | 83 |
+| Événements chronologiques | 57 |
+| Personnes | 37 |
+| Chansons | 7 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -293,6 +294,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q188** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -325,10 +327,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q171** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q172** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q173** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
@@ -368,10 +370,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
 - CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
 - CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
-- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
 
 ## 9. Personnes et acteurs
 
+- PERS-S49-001 — Manolo Farci
+- PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -410,6 +413,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 10. Chansons rattachées
 
+- SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
 - She's Lost Control
@@ -492,13 +496,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - espoir (2)
 - humanité (2)
 - géographie émotionnelle (2)
+- masculinité post-punk (2)
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - mort de Curtis (2)
 - Parkside (2)
 - témoins d’autorité (2)
 - légitimité mémorielle (2)
-- anti-nostalgie (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -516,6 +520,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Annik (7)
 - Love Will Tear Us Apart (7)
 - Barton Street (7)
+- She’s Lost Control (7)
 - Unknown Pleasures (6)
 - Buzzcocks tour (5)
 - Factory (5)
@@ -523,15 +528,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Terry Mason (5)
 - American tour (5)
 - epilepsy (5)
-- She’s Lost Control (5)
 - Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
+- paroles (4)
 - silence (4)
 - handicap (4)
 - Macclesfield (4)
 - Phenobarbitone (4)
+- maladie (4)
 - Rainbow Theatre (4)
+- honte (4)
 - Transmission (4)
 - Decades (4)
 - Debbie (4)
@@ -540,10 +547,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Peter Hook (3)
 - domesticité (3)
 - Mick Middles (3)
-- New Dawn Fades (3)
-- paroles (3)
-- Rafters (3)
-- Moonlight Club (3)
+- perte de contrôle (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -638,21 +642,23 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_domestique | 8 |
 | lecture_chanson | 7 |
 | prudence_methodologique | 6 |
+| concept_structurant | 5 |
 | session_studio | 5 |
 | song | 5 |
 | scene_domestique | 4 |
+| tension_documentaire | 4 |
 | evenement_medical_live | 4 |
 | live_set_context | 4 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
-| tension_documentaire | 3 |
 | analyse_album | 3 |
 | dernier_concert | 3 |
 | evenement_biographique | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
+| lecture_textuelle | 3 |
 | analyse_chanson | 3 |
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
@@ -678,7 +684,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_fondatrice | 2 |
 | mythe | 2 |
 | biographie | 2 |
-| lecture_textuelle | 2 |
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
@@ -690,7 +695,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | contexte_biographique | 2 |
 | fait_biographique_prudent | 2 |
-| concept_structurant | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
 | tension_tournee | 1 |
@@ -804,6 +808,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
 | lecture | 1 |
+| analyse_performance | 1 |
+| mythe_a_deconstruire | 1 |
+| synthese_argumentative | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
@@ -881,9 +888,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 203 |
+| critique | 209 |
 | non qualifiée | 110 |
-| majeure | 24 |
+| majeure | 26 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

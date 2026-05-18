@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T15:41:37"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 257 |
+| Atomes | 265 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 55 |
-| Événements chronologiques | 44 |
-| Personnes | 31 |
-| Chansons | 13 |
-| Sources mobilisées | 13 |
+| Citations | 57 |
+| Événements chronologiques | 45 |
+| Personnes | 33 |
+| Chansons | 15 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ generated_at: "2026-05-18T15:41:37"
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -291,6 +292,8 @@ generated_at: "2026-05-18T15:41:37"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -324,11 +327,10 @@ generated_at: "2026-05-18T15:41:37"
 - **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q153** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
@@ -368,10 +370,11 @@ generated_at: "2026-05-18T15:41:37"
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
 - CHR-S76-1964-001 — Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.
 - CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
-- CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 
 ## 9. Personnes et acteurs
 
+- PERS-S49-001 — Manolo Farci
+- PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -406,6 +409,8 @@ generated_at: "2026-05-18T15:41:37"
 
 ## 10. Chansons rattachées
 
+- SONG-S49-DISORDER — Disorder
+- SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-028 — Dead Souls
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
@@ -478,6 +483,7 @@ generated_at: "2026-05-18T15:41:37"
 - joy division (2)
 - factory records (2)
 - indépendance (2)
+- masculinité post-punk (2)
 - mémoire située (2)
 - non-monocausalité médicale (2)
 - mémoire conjugale croisée (2)
@@ -501,7 +507,6 @@ generated_at: "2026-05-18T15:41:37"
 - auteur-catalyseur (1)
 - collectif orienté (1)
 - mélodie vocale comme cohésion (1)
-- domesticité productive (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -514,27 +519,30 @@ generated_at: "2026-05-18T15:41:37"
 - Natalie Curtis (7)
 - Annik Honoré (6)
 - Love Will Tear Us Apart (5)
+- She’s Lost Control (5)
+- paroles (4)
 - Shadowplay (4)
 - Closer (4)
+- No Love Lost (4)
 - Transmission (4)
 - Atmosphere (4)
+- Disorder (4)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
 - Mark Reeder (4)
 - New Dawn Fades (3)
-- paroles (3)
 - blue room (3)
-- No Love Lost (3)
 - Iggy Pop (3)
 - Interzone (3)
 - Chance (3)
-- Disorder (3)
-- She’s Lost Control (3)
 - Macclesfield (3)
 - fatigue (3)
+- contrôle (3)
 - médicaments (3)
 - Wythenshawe (3)
+- vulnérabilité (3)
+- corps (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
 - Pete Johnson (3)
@@ -544,9 +552,6 @@ generated_at: "2026-05-18T15:41:37"
 - écriture (2)
 - T. J. Davidson’s (2)
 - Kraftwerk (2)
-- Digital (2)
-- Unknown Pleasures (2)
-- House of Dolls (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -645,6 +650,7 @@ generated_at: "2026-05-18T15:41:37"
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
+| lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
@@ -654,7 +660,7 @@ generated_at: "2026-05-18T15:41:37"
 | processus_creatif_chanson | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
-| lecture_textuelle | 3 |
+| lecture_chanson | 3 |
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
@@ -669,8 +675,8 @@ generated_at: "2026-05-18T15:41:37"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
+| concept_structurant | 2 |
 | lettre_intime | 2 |
-| lecture_chanson | 2 |
 | tension_domestique | 2 |
 | contexte_social | 2 |
 | scene_medicale | 2 |
@@ -727,6 +733,10 @@ generated_at: "2026-05-18T15:41:37"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| lecture_performance | 1 |
+| analyse_performance | 1 |
+| lecture_scene_et_chanson | 1 |
+| tension_documentaire | 1 |
 | lecture_biographique_prudente | 1 |
 | analyse_oeuvre | 1 |
 | analyse_album | 1 |
@@ -795,11 +805,11 @@ generated_at: "2026-05-18T15:41:37"
 
 | Importance | Nombre |
 |---|---|
-| critique | 122 |
+| critique | 125 |
 | non qualifiée | 94 |
-| majeure | 35 |
+| majeure | 39 |
 | majeur | 3 |
-| utile | 2 |
+| utile | 3 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

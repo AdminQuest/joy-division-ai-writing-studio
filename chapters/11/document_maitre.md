@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 235 |
+| Atomes | 243 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 16 |
-| Événements chronologiques | 7 |
-| Personnes | 10 |
-| Chansons | 15 |
-| Sources mobilisées | 22 |
+| Citations | 17 |
+| Événements chronologiques | 8 |
+| Personnes | 11 |
+| Chansons | 17 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -301,6 +302,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -314,6 +316,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
+- CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
@@ -324,6 +327,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 9. Personnes et acteurs
 
+- PERS-S49-001 — Manolo Farci
 - PERS-001 — Ian Curtis
 - PERS-S76-041 — Ian Wood
 - PERS-S29-001 — Michael Goddard
@@ -337,6 +341,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 10. Chansons rattachées
 
+- SONG-S49-DISORDER — Disorder
+- SONG-S49-DECADES — Decades
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony
@@ -449,14 +455,17 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - House of Dolls (3)
 - Throbbing Gristle (3)
 - réception critique (3)
+- post-punk (3)
 - Ian Curtis (3)
 - Ballard (2)
 - John Heartfield (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
 - séparation production-réception (2)
+- futur fermé (2)
 - futur perdu (2)
 - transe (2)
+- No Love Lost (2)
 - Iggy Pop (2)
 - Rudolf Hess (2)
 - Rock Against Racism (2)
@@ -468,18 +477,15 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Warsaw Pakt (2)
 - Joy Division (2)
 - communication (2)
+- disco (2)
 - exclusion (2)
 - manager (2)
 - pression (2)
+- désajustement (2)
 - Terry Mason (2)
 - The Eternal (2)
 - procession (2)
 - fatigue (2)
-- Debbie Curtis (2)
-- Natalie Curtis (2)
-- Dostoyevsky (1)
-- Nietzsche (1)
-- Sartre (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -571,13 +577,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| lecture_chanson | 8 |
+| lecture_chanson | 9 |
+| concept_structurant | 7 |
 | biographie | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
 | analyse_chanson | 6 |
 | prudence_methodologique | 5 |
-| concept_structurant | 5 |
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
@@ -602,7 +608,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | relation_conjugale | 2 |
 | lecture_musicale | 2 |
 | lecture | 2 |
+| comparaison_critique | 2 |
 | temoignage_direct_rapporte | 2 |
+| lecture_generationnelle | 2 |
 | analyse_album | 2 |
 | tension_biographique | 2 |
 | fait | 2 |
@@ -652,7 +660,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture_textuelle | 1 |
 | influence | 1 |
 | contexte | 1 |
-| comparaison_critique | 1 |
 | contexte_affectif | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
@@ -667,6 +674,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_interne | 1 |
 | reception_posthume | 1 |
 | temoignage | 1 |
+| contexte_scene | 1 |
+| lecture_scene_et_chanson | 1 |
+| synthese_argumentative | 1 |
 | comparaison_generations | 1 |
 | lecture_biographique_prudente | 1 |
 | analyse_oeuvre | 1 |
@@ -683,7 +693,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | formation_culturelle | 1 |
 | principe_groupe | 1 |
 | motif_historique | 1 |
-| lecture_generationnelle | 1 |
 | controverse_scene_live | 1 |
 | mediation_litteraire | 1 |
 | chanson_contexte | 1 |
@@ -699,11 +708,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 74 |
-| majeure | 21 |
+| critique | 77 |
+| majeure | 24 |
 | majeur | 5 |
+| utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
-| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -765,8 +774,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
-- S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
-- S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
+- S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
+- S49-A002 [moyen] — risque de généraliser une lecture de genre à toute une génération
 
 ## 15. Lacunes et prochaines vérifications
 

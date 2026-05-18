@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 206 |
+| Atomes | 207 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 8 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -601,6 +602,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_sensible | 2 |
 | mémoire | 2 |
 | chronologie | 2 |
+| prudence_methodologique | 2 |
 | lecture_reception | 2 |
 | source_part | 2 |
 | analyse_morceau | 2 |
@@ -653,7 +655,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | concept | 1 |
-| prudence_methodologique | 1 |
 | concept_structurant | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
@@ -703,6 +704,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 9 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

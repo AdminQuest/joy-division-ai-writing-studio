@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 441 |
+| Atomes | 442 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
-| Chansons | 19 |
-| Sources mobilisées | 16 |
+| Chansons | 20 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 1 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -415,6 +416,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 10. Chansons rattachées
 
+- SONG-S49-DECADES — Decades
 - SONG-S75-026 — Transmission
 - SONG-S75-027 — Atmosphere
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -846,6 +848,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_retrospectif | 1 |
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
+| prudence_interpretative | 1 |
 | ecosysteme | 1 |
 | concert_incident | 1 |
 | bifurcation_industrielle | 1 |
@@ -912,6 +915,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | majeur | 47 |
 | majeure | 27 |
 | secondaire utile | 1 |
+| utile | 1 |
 | critique pour Chapitre 3 | 1 |
 | critique pour la généalogie studio/expérimentation | 1 |
 

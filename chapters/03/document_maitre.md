@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 389 |
+| Atomes | 391 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 30 |
 | Événements chronologiques | 22 |
 | Personnes | 29 |
 | Chansons | 25 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 2 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 5 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -520,12 +521,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Closer (3)
 - Arrow Studios (3)
 - A Factory Sample (3)
+- delay (3)
 - Kraftwerk (3)
 - Ian Curtis (3)
 - Atrocity Exhibition (3)
 - Cargo Studios (3)
 - studio (3)
 - John Peel (3)
+- disco (3)
 - domesticité (3)
 - synthétiseurs (3)
 - anti-virtuosité (3)
@@ -533,12 +536,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Bernard Sumner (2)
 - synthétiseur (2)
 - Novelty (2)
-- delay (2)
 - spatialisation (2)
 - Martin Rushent (2)
 - Eden Studios (2)
 - Insight (2)
-- No Love Lost (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -760,6 +761,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
 | biographie | 1 |
+| contexte_scene | 1 |
+| prudence_interpretative | 1 |
 | memoire | 1 |
 | synthese | 1 |
 | relation_studio | 1 |
@@ -813,9 +816,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | non qualifiée | 211 |
 | critique | 118 |
-| majeure | 28 |
+| majeure | 29 |
 | majeur | 10 |
-| utile | 8 |
+| utile | 9 |
 | critique pour Chapitre 3 | 3 |
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitres 1 et 3 | 1 |

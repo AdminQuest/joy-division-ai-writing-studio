@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 943 |
+| Atomes | 949 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 98 |
+| Citations | 99 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 35 |
+| Sources mobilisées | 36 |
 
 ## 4. Sources mobilisées
 
@@ -61,6 +61,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 11 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 6 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -326,6 +327,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -347,7 +349,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q192** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q195** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -553,6 +554,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Love Will Tear Us Apart (5)
 - Haçienda (5)
 - New Order (5)
+- Control (5)
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
@@ -569,7 +571,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - radio (4)
 - Ceremony (4)
 - Decades (4)
-- Control (4)
 - Moonlight Club (4)
 - America (4)
 - Paul Morley (4)
@@ -669,7 +670,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 18 |
+| prudence_methodologique | 19 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -773,6 +774,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | positionnement | 2 |
 | mémoire | 2 |
 | controverse_biographique | 2 |
+| comparaison_critique | 2 |
 | analyse_pochette | 2 |
 | outtakes | 2 |
 | collection | 2 |
@@ -936,7 +938,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transdisciplinarite | 1 |
 | genre_scene | 1 |
 | prudence_sociale | 1 |
-| comparaison_critique | 1 |
 | analyse_image | 1 |
 | concept_graphique | 1 |
 | iconisation | 1 |
@@ -1011,6 +1012,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| lecture_generationnelle | 1 |
+| evenement_audiovisuel | 1 |
+| mythe_a_deconstruire | 1 |
+| synthese_argumentative | 1 |
 | comparaison_generations | 1 |
 | garde_fou | 1 |
 | ecosysteme | 1 |
@@ -1156,10 +1161,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 267 |
-| majeure | 76 |
+| critique | 270 |
+| majeure | 77 |
 | majeur | 28 |
-| utile | 9 |
+| utile | 11 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

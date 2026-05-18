@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T15:41:37"
+generated_at: "2026-05-18T17:12:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 89 |
+| Atomes | 93 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 24 |
+| Citations | 25 |
 | Événements chronologiques | 12 |
-| Personnes | 25 |
-| Chansons | 9 |
-| Sources mobilisées | 11 |
+| Personnes | 27 |
+| Chansons | 10 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
+| S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 4 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -84,6 +85,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
 - **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
+- **S49-A006** — S49-A006 — *Something Else* : le corps de Curtis comme événement télévisuel  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `evenement_audiovisuel` ; importance : `critique` ; preuve : `fait_a_verifier_et_interpretation_critique`.
+- **S49-A007** — S49-A007 — La danse de Curtis comme masculinité post-punk en crise  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_critique_majeure`.
+- **S49-A010** — S49-A010 — « She’s Lost Control » à la BBC : désérotisation du corps rock  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `analyse_performance` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -112,12 +119,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 - **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
-- **S76-A137** — S76-A137 — Cologne Basement, 15 janvier 1980 : triomphe dans une architecture souterraine  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reconstruction_S76`.
-- **S34-A003** — S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -125,6 +126,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
 - **S15-A012** — S15-A012 — Psychogéographie et ville moderne : Manchester comme thème porteur  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S34-A003** — S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S35-A060** — S35-A060 — Atwell and Jenner’s mill : travail textile et rythme industriel  
@@ -167,6 +172,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-108** — S46-108 — Tony Wilson et le romantisme de l’échec mancunien  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_culturelle` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S49-A004** — S49-A004 — Curtis contre l’iconographie conventionnelle du frontman punk  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `lecture_performance` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
@@ -223,6 +230,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
 - **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
+- **S76-A137** — S76-A137 — Cologne Basement, 15 janvier 1980 : triomphe dans une architecture souterraine  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reconstruction_S76`.
 - **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-038** — SONG-S76-038 — Cologne Basement comme archive européenne  
@@ -232,6 +241,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 7. Citations disponibles
 
+- **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -274,6 +284,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 9. Personnes et acteurs
 
+- PERS-S49-002 — Ian Curtis
+- PERS-S49-003 — David Byrne
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
 - PERS-S76-052 — Oz PA / Eddy et Oz
 - PERS-S34-001 — Benjamin Fraser
@@ -302,6 +314,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 10. Chansons rattachées
 
+- SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-028 — Dead Souls
 - SONG-S75-009 — Shadowplay
 - SONG-S34-001 — Shadowplay
@@ -404,10 +417,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Kevin Cummins (4)
 - Little Peter Street (3)
 - Factory Club (3)
+- corps (3)
 - Interzone (2)
 - danse (2)
 - rave era (2)
 - Haçienda (2)
+- punk (2)
 - Love Will Tear Us Apart video (2)
 - froid (2)
 - Jamaïque (2)
@@ -421,6 +436,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Manchester (2)
 - Wythenshawe (2)
 - overspill estate (2)
+- vulnérabilité (2)
 - ville moderne (2)
 - Hulme Crescents (2)
 - Pip’s (2)
@@ -433,12 +449,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
-- punk (1)
 - post-punk (1)
 - famous photographs (1)
 - Britannia Row (1)
-- Pink Floyd (1)
-- Star Wars (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -517,11 +530,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
-- S34-A001 — prolonge → CONCEPT-004
-- S34-A001 — nuance → MYTH-003
-- S34-A003 — prolonge → CONCEPT-S34-001
-- S34-A003 — nuance → MYTH-003
-- S34-A004 — prépare → CONCEPT-S34-002
+- S49-A004 — prepare → S49-A007
+- S49-A006 — fonde → S49-A007
+- S49-A006 — relie → ORG-S49-001
+- S49-A007 — fonde → CONCEPT-corps_scenique_comme_symptome_culturel
+- S49-A007 — deconstruit → MYTH-danse_curtis_purement_epileptique
 
 ## 13. Distribution documentaire
 
@@ -534,11 +547,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | lieu | 4 |
 | analyse | 3 |
 | biographie | 3 |
+| concept_structurant | 3 |
 | lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
 | lieu_structurant | 2 |
-| concept_structurant | 2 |
 | cartographie_scene | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
@@ -564,6 +577,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
+| lecture_performance | 1 |
+| evenement_audiovisuel | 1 |
+| analyse_performance | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
 | iconographie | 1 |
@@ -593,8 +609,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 33 |
-| majeure | 27 |
+| critique | 36 |
+| majeure | 28 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |
@@ -635,6 +651,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
+- S49-A004 [moyen] — risque de figer Curtis dans une anti-image trop abstraite
+- S49-A006 [moyen] — la date et les conditions exactes doivent être vérifiées dans un registre audiovisuel
+- S49-A007 [eleve] — risque de minorer l’épilepsie ou de la transformer en pur symbole
+- S49-A010 [moyen] — l’analyse symbolique doit rester distincte du fait médical
 - S34-A001 [moyen] — risque de transformer une lecture urbaine en déterminisme biographique ou géographique
 - S34-A003 [moyen] — risque d’alourdir le manuscrit par une généalogie théorique trop autonome
 - S34-A004 [moyen] — risque de détacher le concept des chansons et de la matière sonore
@@ -658,10 +678,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
 - S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
-- S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
-- S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
-- S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
-- S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
 
 ## 15. Lacunes et prochaines vérifications
 
