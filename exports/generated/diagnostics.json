@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-18T17:46:12",
+  "generated_at": "2026-05-18T18:14:07",
   "status": "warning",
   "summary": {
-    "records_total": 4839,
+    "records_total": 4841,
     "records_by_kind": {
       "atom": 2097,
-      "metadata": 146,
+      "metadata": 147,
       "unknown": 549,
-      "source": 77,
+      "source": 78,
       "concept": 265,
       "motif": 320,
       "myth": 45,
@@ -22,9 +22,9 @@
     "diagnostics_total": 22361,
     "errors": 0,
     "warnings": 22361,
-    "sources_declared_in_registre_json": 58,
-    "sources_used_in_records": 38,
-    "sources_exported": 38,
+    "sources_declared_in_registre_json": 59,
+    "sources_used_in_records": 39,
+    "sources_exported": 39,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1058,6 +1058,20 @@
           "sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md",
           "sources/bertetti_morreale_reimmaginare_immaginario/source.md",
           "sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S51",
+        "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+        "auteur": "Jennifer Malvezzi",
+        "titre": "Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/malvezzi_dream_english_kid_lo_fi/source.md"
         ]
       },
       {
