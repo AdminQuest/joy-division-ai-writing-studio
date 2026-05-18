@@ -1,0 +1,64 @@
+id: RAG-S52-RABBITO-CONTROL-INFRANGIMENTO-VETRO
+source_id: S52
+source_label: "S52 — Rabbito, Control e l’infrangimento del vetro, 2021"
+source_path: "sources/rabbito_control_infrangimento_vetro/source_part_01.md"
+relations_path: "sources/rabbito_control_infrangimento_vetro/relations_s52.md"
+structuring_registers_path: "registers/s52_rabbito_structuring_registers.md"
+specialized_registers_path: "registers/s52_rabbito_specialized_registers.md"
+master_docs_addendum_path: "chapters/addenda/s52_dm_addendum_control_infrangimento_vetro.md"
+rag_fragments_path: "rag/fragments/s52_rabbito_control_infrangimento_vetro.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S52"
+  pdf_pages: "146-157"
+  scope: "chapitre Andrea Rabbito uniquement, non volume collectif complet"
+primary_chapters:
+  - "Chapitre 4"
+  - "Chapitre 10"
+  - "Chapitre 12"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 13"
+key_atoms:
+  - S52-A002
+  - S52-A004
+  - S52-A005
+  - S52-A008
+  - S52-A010
+  - S52-A014
+  - S52-A015
+  - S52-A017
+  - S52-A018
+  - S52-A019
+  - S52-A020
+key_concepts:
+  - CONCEPT-surface_biographique
+  - CONCEPT-surface_de_verre
+  - CONCEPT-dualite_curtisienne
+  - CONCEPT-persona_insoluble
+  - CONCEPT-non_monocausalite_curtis
+  - CONCEPT-danse_pre_diagnostic
+key_motifs:
+  - MOTIF-infrangimento_vetro
+  - MOTIF-curtis_deux_ames
+  - MOTIF-personnage_qui_devore
+  - MOTIF-heros_romantique_dangereux
+  - MOTIF-perte_de_controle_non_clinique
+key_myths:
+  - MYTH-Control_verite_definitive
+  - MYTH-Curtis_purement_romantique_timide
+  - MYTH-danse_comme_simple_symptome
+  - MYTH-suicide_comme_destin_programme
+  - MYTH-epilepsie_amour_cause_unique
+writing_use: >
+  Utiliser S52 comme source secondaire critique pour penser Control d’Anton Corbijn, la surface biographique,
+  la métaphore du verre, la réduction filmique de Curtis, la dualité curtisienne, la tension personnage/vrai soi,
+  l’epilepsy dance pré-diagnostic et la non-monocausalité de la maladie, de l’amour et du suicide.
+verification_rules:
+  - "Ne pas utiliser S52 comme source primaire sur la vie de Curtis."
+  - "Vérifier dans S45 Deborah Curtis toutes les citations et anecdotes rapportées par Rabbito."
+  - "Vérifier dans S10, S41, S76 et Savage les témoignages de Sumner, Hook, Morris et Wilson."
+  - "Ne pas transformer la formule de Tony Wilson sur l’héros romantique en explication du suicide."
+  - "Ne pas réduire l’epilepsy dance à un symptôme médical ; croiser S49 et les sources santé."
+  - "Distinguer critique de Control, analyse du biopic et vérité biographique."
