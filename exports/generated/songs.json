@@ -1,6 +1,86 @@
 [
   {
     "kind": "song",
+    "id": "SONG-S50-SHADOWPLAY",
+    "file": "registers/s50_bertetti_morreale_specialized_registers.md",
+    "heading": "Lieux, organisations et chansons",
+    "data": {
+      "id": "SONG-S50-SHADOWPLAY",
+      "type_unite": "song",
+      "source_id": "S50",
+      "song": "Shadowplay",
+      "usage": "Vidéo Reimagined de Vincent Moon ; danse, rave, transe rituelle et expansion de l’imaginaire.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S50-SHES_LOST_CONTROL",
+    "file": "registers/s50_bertetti_morreale_specialized_registers.md",
+    "heading": "Lieux, organisations et chansons",
+    "data": {
+      "id": "SONG-S50-SHES_LOST_CONTROL",
+      "type_unite": "song",
+      "source_id": "S50",
+      "song": "She’s Lost Control",
+      "usage": "Vidéo Reimagined de Lorraine Nicholson ; perte de contrôle, crise, tremblement de terre et substitution figurative.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S50-INSIGHT",
+    "file": "registers/s50_bertetti_morreale_specialized_registers.md",
+    "heading": "Lieux, organisations et chansons",
+    "data": {
+      "id": "SONG-S50-INSIGHT",
+      "type_unite": "song",
+      "source_id": "S50",
+      "song": "Insight",
+      "usage": "Vidéo Reimagined de Makoto Nagahisa ; traduction synesthésique, fabrique-prison, mémoire et libération.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S50-NEW_DAWN_FADES",
+    "file": "registers/s50_bertetti_morreale_specialized_registers.md",
+    "heading": "Lieux, organisations et chansons",
+    "data": {
+      "id": "SONG-S50-NEW_DAWN_FADES",
+      "type_unite": "song",
+      "source_id": "S50",
+      "song": "New Dawn Fades",
+      "usage": "Vidéo Reimagined de Todd Hido ; cas de stéréotype américain importé et de réduction du potentiel existentiel du morceau.",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S49-DISORDER",
     "file": "registers/s49_farci_specialized_registers.md",
     "heading": "Chansons",
@@ -531,7 +611,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::2889",
+    "id": "NO_ID::registers/songs/master_songs.md::2953",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

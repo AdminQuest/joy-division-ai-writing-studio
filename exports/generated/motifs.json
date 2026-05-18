@@ -639,6 +639,81 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-reimagination_imaginaire",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-reimagination_imaginaire",
+      "type_unite": "motif",
+      "source_id": "S50",
+      "nom": "réimagination de l’imaginaire",
+      "definition": "Motif central de S50 : ne pas seulement reproduire l’iconographie héritée de Joy Division, mais tenter d’en produire de nouvelles images et de nouvelles connexions culturelles.\n",
+      "atomes": [
+        "S50-A002",
+        "S50-A010",
+        "S50-A019"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-reception_fan_normative",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-reception_fan_normative",
+      "type_unite": "motif",
+      "source_id": "S50",
+      "nom": "réception fan normative",
+      "definition": "Motif selon lequel les fans ne se contentent pas de consommer les réinterprétations ; ils évaluent, acceptent, rejettent ou corrigent les nouveaux usages de l’imaginaire partagé.\n",
+      "atomes": [
+        "S50-A009",
+        "S50-A018"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-normalisation_de_licone",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-normalisation_de_licone",
+      "type_unite": "motif",
+      "source_id": "S50",
+      "nom": "normalisation de l’icône",
+      "definition": "Risque qui apparaît lorsque la danse de Curtis, la pochette de Unknown Pleasures ou les atmosphères urbaines deviennent de simples signes décoratifs ou des images neutralisées.\n",
+      "atomes": [
+        "S50-A015",
+        "S50-A017"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

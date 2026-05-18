@@ -1735,6 +1735,187 @@ warning,v2_migration_debt,sources/jeffery_tufail_jackson_policing/source_part_pu
 warning,v2_migration_debt,sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md,S05-A013,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md,S05-A013,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md,S05-A013,Invalid value for type_unite: conclusion_historiographique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Invalid value for type_unite: evenement_mediatique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A003,Invalid value for type_unite: acteur_mediation,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A004,Invalid value for type_unite: dispositif_creation,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A005,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A006,Invalid value for type_unite: periodisation_mediatique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A007,Invalid value for type_unite: canon_visuel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A008,Invalid value for type_unite: mediation_audiovisuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A009,Invalid value for type_unite: reception_numerique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A010,Invalid value for type_unite: tension_documentaire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A011,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A012,Invalid value for type_unite: analyse_video,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A013,Invalid value for type_unite: analyse_video,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A014,Invalid value for type_unite: analyse_video,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A015,Invalid value for type_unite: limite_interpretative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A016,Invalid value for type_unite: limite_interpretative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A017,Invalid value for type_unite: limite_interpretative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A018,Invalid value for type_unite: reception_fan,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A019,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/dm_rag_update_s50.md,DM-RAG-S50,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md,REL-S50-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,v2_migration_debt,sources/marco_broll/source.md,S68-A001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/marco_broll/source.md,S68-A001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/marco_broll/source.md,S68-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -19057,6 +19238,47 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-002,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1979-002,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1988-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1988-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-1988-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-2019-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-2019-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s50_bertetti_morreale_specialized_registers.md,CHR-S50-2019-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,PERS-S50-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,PERS-S50-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,PERS-S50-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,PERS-S50-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,PERS-S50-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_specialized_registers.md,LIEU-S50-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_specialized_registers.md,LIEU-S50-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_specialized_registers.md,ORG-S50-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_specialized_registers.md,ORG-S50-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHADOWPLAY,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHADOWPLAY,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHADOWPLAY,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-INSIGHT,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-INSIGHT,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-INSIGHT,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-FISHER-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-BUTLER-1997,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-REYNOLDS-2005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -19087,6 +19309,9 @@ warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md,ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md,ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s20_dodge_organizations_housing_geographies_v2.md,ORGS-S20-HOUSING-GEOGRAPHIES-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

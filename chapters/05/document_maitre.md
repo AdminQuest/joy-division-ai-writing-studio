@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T17:12:40"
+generated_at: "2026-05-18T17:46:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 339 |
+| Atomes | 342 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
-| Événements chronologiques | 41 |
+| Événements chronologiques | 42 |
 | Personnes | 41 |
 | Chansons | 7 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 6 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
+| S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -335,6 +336,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 8. Chronologie rattachée
 
+- CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -374,7 +376,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
-- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
 
 ## 9. Personnes et acteurs
 
@@ -555,7 +556,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - A Factory Sample (2)
 - Digital (2)
 - Glass (2)
-- Love Will Tear Us Apart (2)
+- Saville (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,6 +591,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A144 — prolonge → CONCEPT-036
 - S45-A144 — prolonge → S45-A132
 - S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
+- S50-A001 — limite → MYTH-reimagined_archive_origine
+- S50-A005 — fonde → CONCEPT-imaginaire_collectif_joy_division
+- S50-A007 — a_croiser → S48
+- S50-A007 — a_croiser → S09
 - S41-A045 — prolonge → S41-A001
 - S41-A045 — prolonge → CONCEPT-025
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
@@ -635,10 +640,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A157 — prolonge → CONCEPT-101
 - S41-A157 — prolonge → S41-A120
 - S41-A164 — prolonge → S41-A129
-- S41-A164 — prolonge → CONCEPT-101
-- S41-A064 — consolide → S41-A042
-- S41-A064 — consolide → S41-A055
-- S41-A064 — prépare → S41-A001
 
 ## 13. Distribution documentaire
 
@@ -664,6 +665,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concept_transversal | 4 |
 | tension_documentaire | 3 |
 | controverse | 3 |
+| concept_structurant | 3 |
 | esthétique_visuelle | 3 |
 | archive_visuelle | 3 |
 | television | 3 |
@@ -676,6 +678,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
+| prudence_methodologique | 2 |
 | lecture_chanson | 2 |
 | construction_esthetique | 2 |
 | economie_discographique | 2 |
@@ -685,7 +688,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | objet_factory | 2 |
 | contexte_scene | 2 |
 | paratexte_discographique | 2 |
-| concept_structurant | 2 |
 | economie_factory | 2 |
 | strategie_discographique | 2 |
 | lieu_studio | 2 |
@@ -704,6 +706,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | mediation_visuelle | 1 |
 | strategie_mediatique | 1 |
 | seuil_identitaire | 1 |
+| canon_visuel | 1 |
 | modernisme_litteraire | 1 |
 | prudence_interpretative | 1 |
 | paroles_source | 1 |
@@ -743,7 +746,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influence | 1 |
 | archive | 1 |
 | objet_visuel | 1 |
-| prudence_methodologique | 1 |
 | analyse_image | 1 |
 | analyse_objet_discographique | 1 |
 | point_a_verifier | 1 |
@@ -847,7 +849,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 105 |
+| critique | 108 |
 | majeure | 29 |
 | majeur | 4 |
 | utile | 3 |
@@ -864,6 +866,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S50-A001 [faible] — l’atome fixe une limite d’usage documentaire
+- S50-A005 [faible] — concept clairement formulé par la source
+- S50-A007 [moyen] — plusieurs détails de crédits ou lieux doivent être vérifiés avant citation définitive
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
 - S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
 - S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
@@ -912,9 +917,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
-- S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
-- S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
-- S49-A006 [moyen] — la date et les conditions exactes doivent être vérifiées dans un registre audiovisuel
 
 ## 15. Lacunes et prochaines vérifications
 

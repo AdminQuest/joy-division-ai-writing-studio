@@ -430,6 +430,82 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-reimagined_archive_origine",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-reimagined_archive_origine",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "Unknown Pleasures Reimagined comme archive originelle",
+      "deconstruction": "S50 doit être utilisé comme source sur l’héritage, la patrimonialisation et les réinterprétations contemporaines, non comme archive de la période 1979-1980.\n",
+      "atomes": [
+        "S50-A001",
+        "S50-A002"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-toute_reinterpretation_est_trahison",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-toute_reinterpretation_est_trahison",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "toute réinterprétation serait une trahison",
+      "deconstruction": "S50 distingue les réinventions qui enrichissent les virtualités du texte-chanson et celles qui plaquent un imaginaire extérieur. La critique porte sur la qualité de traduction, non sur le principe même de réinterprétation.\n",
+      "atomes": [
+        "S50-A011",
+        "S50-A012",
+        "S50-A014",
+        "S50-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-fans_passifs_heritage",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-fans_passifs_heritage",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "les fans seraient de simples récepteurs passifs de l’héritage",
+      "deconstruction": "Les pratiques YouTube, les memes et les commentaires analysés par S50 montrent que les fans participent à la fabrication, à la circulation et au contrôle critique de l’imaginaire Joy Division.\n",
+      "atomes": [
+        "S50-A009",
+        "S50-A018"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

@@ -1226,6 +1226,155 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-imaginaire_collectif_joy_division",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-imaginaire_collectif_joy_division",
+      "type_unite": "concept",
+      "source_id": "S50",
+      "nom": "imaginaire collectif Joy Division",
+      "definition": "Ensemble de récits, d’images, de signes, de mythes et de valeurs co-produits par la band, Factory, les médias, les objets graphiques, les films, les vidéos et les pratiques fan.\n",
+      "sources": [
+        "S50"
+      ],
+      "atomes": [
+        "S50-A005",
+        "S50-A007",
+        "S50-A009"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-ecosysteme_mediatique_joy_division",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-ecosysteme_mediatique_joy_division",
+      "type_unite": "concept",
+      "source_id": "S50",
+      "nom": "écosystème médiatique Joy Division",
+      "definition": "Configuration historique des supports, circuits de diffusion et pratiques de consommation par lesquels les représentations du groupe circulent : disque, presse, radio, VHS, télévision musicale, CD, web, YouTube, réseaux sociaux et contenus fan.\n",
+      "sources": [
+        "S50"
+      ],
+      "atomes": [
+        "S50-A006",
+        "S50-A008",
+        "S50-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-traduction_intersemiotique",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-traduction_intersemiotique",
+      "type_unite": "concept",
+      "source_id": "S50",
+      "nom": "traduction intersémiotique",
+      "definition": "Passage d’un texte-chanson à un autre régime de signes, notamment audiovisuel. Chez S50, la traduction réussit lorsqu’elle développe les virtualités du morceau au lieu de lui substituer un imaginaire extérieur.\n",
+      "sources": [
+        "S50"
+      ],
+      "atomes": [
+        "S50-A011",
+        "S50-A012",
+        "S50-A013",
+        "S50-A014"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-patrimonialisation_audiovisuelle",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-patrimonialisation_audiovisuelle",
+      "type_unite": "concept",
+      "source_id": "S50",
+      "nom": "patrimonialisation audiovisuelle",
+      "definition": "Transformation d’un album ou d’un imaginaire musical en objet de célébration, de réédition, de traduction, de circulation numérique et d’exploitation culturelle, avec tension entre hommage et commercialisation.\n",
+      "sources": [
+        "S50"
+      ],
+      "atomes": [
+        "S50-A002",
+        "S50-A003",
+        "S50-A010",
+        "S50-A019"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-degre_zero_texte_chanson",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-degre_zero_texte_chanson",
+      "type_unite": "concept",
+      "source_id": "S50",
+      "nom": "degré zéro du texte-chanson",
+      "definition": "Point de départ revendiqué par Unknown Pleasures Reimagined : revenir au morceau lui-même pour ouvrir de nouveaux investissements de sens. S50 montre que ce principe reste ambivalent.\n",
+      "sources": [
+        "S50"
+      ],
+      "atomes": [
+        "S50-A011",
+        "S50-A019"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

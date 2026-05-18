@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T17:12:40"
+generated_at: "2026-05-18T17:46:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T17:12:40"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 265 |
+| Atomes | 267 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 57 |
-| Événements chronologiques | 45 |
+| Événements chronologiques | 46 |
 | Personnes | 33 |
-| Chansons | 15 |
-| Sources mobilisées | 14 |
+| Chansons | 16 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ generated_at: "2026-05-18T17:12:40"
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 2 |
+| S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 2 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -330,6 +331,7 @@ generated_at: "2026-05-18T17:12:40"
 
 ## 8. Chronologie rattachée
 
+- CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
@@ -369,7 +371,6 @@ generated_at: "2026-05-18T17:12:40"
 - CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
 - CHR-S76-1964-001 — Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.
-- CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
 
 ## 9. Personnes et acteurs
 
@@ -409,6 +410,7 @@ generated_at: "2026-05-18T17:12:40"
 
 ## 10. Chansons rattachées
 
+- SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-028 — Dead Souls
@@ -517,15 +519,17 @@ generated_at: "2026-05-18T17:12:40"
 - Ian Curtis (8)
 - épilepsie (8)
 - Natalie Curtis (7)
+- Love Will Tear Us Apart (6)
+- She’s Lost Control (6)
 - Annik Honoré (6)
-- Love Will Tear Us Apart (5)
-- She’s Lost Control (5)
+- Atmosphere (5)
 - paroles (4)
+- corps (4)
+- contrôle (4)
 - Shadowplay (4)
 - Closer (4)
 - No Love Lost (4)
 - Transmission (4)
-- Atmosphere (4)
 - Disorder (4)
 - Bowie (4)
 - domesticité (4)
@@ -538,11 +542,9 @@ generated_at: "2026-05-18T17:12:40"
 - Chance (3)
 - Macclesfield (3)
 - fatigue (3)
-- contrôle (3)
 - médicaments (3)
 - Wythenshawe (3)
 - vulnérabilité (3)
-- corps (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
 - Pete Johnson (3)
@@ -576,6 +578,10 @@ generated_at: "2026-05-18T17:12:40"
 - S45-A030 — prolonge → S45-A025
 - S45-A030 — prolonge → CONCEPT-005
 - S45-A030 — nuance → MYTH-002
+- S50-A008 — relie → S49-A006
+- S50-A008 — relie → S41-A099
+- S50-A013 — illustre → S50-A011
+- S50-A013 — relie → S49-A010
 - S41-A108 — prolonge → CONCEPT-064
 - S41-A108 — prolonge → CONCEPT-085
 - S41-A110 — nuance → MYTH-LYRICS-AS-DIARY
@@ -631,10 +637,6 @@ generated_at: "2026-05-18T17:12:40"
 - S75-A058 — prolonge → S75-A047
 - S75-A059 — requiert → CONCEPT-004
 - S75-A059 — nuance → MYTH-002
-- S75-A059 — prolonge → S75-A031
-- S75-A062 — prolonge → S75-A058
-- S75-A062 — requiert → CONCEPT-004
-- S75-A062 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -689,6 +691,8 @@ generated_at: "2026-05-18T17:12:40"
 | registre_influences | 1 |
 | lieu | 1 |
 | lieu_creatif | 1 |
+| mediation_audiovisuelle | 1 |
+| analyse_video | 1 |
 | interpretation_vocale | 1 |
 | paroles_source | 1 |
 | analyse_voix_sante | 1 |
@@ -805,9 +809,9 @@ generated_at: "2026-05-18T17:12:40"
 
 | Importance | Nombre |
 |---|---|
-| critique | 125 |
+| critique | 126 |
 | non qualifiée | 94 |
-| majeure | 39 |
+| majeure | 40 |
 | majeur | 3 |
 | utile | 3 |
 | structurante | 1 |
@@ -821,6 +825,8 @@ generated_at: "2026-05-18T17:12:40"
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
 - S45-A030 [moyen] — Risque de transformer la pièce en sanctuaire mythique ; elle est d’abord un espace de travail et de séparation domestique.
+- S50-A008 [eleve] — plusieurs dates et intitulés de programmes doivent être vérifiés dans les registres audiovisuels
+- S50-A013 [moyen] — la réussite est relative et demeure appréciative
 - S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
 - S41-A110 [moyen] — Ne pas opposer artificiellement voix et texte ; le passage montre une chronologie de l’écoute.
 - S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
@@ -872,8 +878,6 @@ generated_at: "2026-05-18T17:12:40"
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 - S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
-- S74-A035 [moyen] — risque de reconstruire a posteriori un moment de flottement comme stratégie consciente
-- S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
 
 ## 15. Lacunes et prochaines vérifications
 

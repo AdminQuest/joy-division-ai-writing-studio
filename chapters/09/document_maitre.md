@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T17:12:40"
+generated_at: "2026-05-18T17:46:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T17:12:40"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 238 |
-| Atomes critiques / majeurs | 5 |
+| Atomes | 241 |
+| Atomes critiques / majeurs | 7 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ generated_at: "2026-05-18T17:12:40"
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 20 | 0 |
+| S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 6 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -63,6 +64,10 @@ generated_at: "2026-05-18T17:12:40"
   Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
   Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S50-A004** — S50-A004 — Liberté créative, bas budget et géographie globale des images  
+  Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `dispositif_creation` ; importance : `critique` ; preuve : `synthese_critique`.
+- **S50-A010** — S50-A010 — Détacher *Unknown Pleasures* de Manchester : universalisation ou déracinement  
+  Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `lecture_critique`.
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 - **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
@@ -344,6 +349,19 @@ generated_at: "2026-05-18T17:12:40"
 ### 12.1. Motifs dominants
 
 - Rafters (2)
+- géographie globale (1)
+- bas budget (1)
+- liberté créative (1)
+- tournage local (1)
+- Manchester (1)
+- déracinement (1)
+- universalisation (1)
+- recontextualisation (1)
+- Day of the Lords (1)
+- Berlin (1)
+- Guerre froide (1)
+- Teufelsberg (1)
+- Mauerpark (1)
 - Ceremony (1)
 - In a Lonely Place (1)
 - New Order (1)
@@ -364,6 +382,9 @@ generated_at: "2026-05-18T17:12:40"
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S50-A004 — prepare → S50-A009
+- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A016 — contre_exemple → S50-A011
 - S75-A074 — prolonge → MOTIF-001
 - S75-A074 — requiert → CONCEPT-004
 - S75-A074 — nuance → MYTH-002
@@ -410,6 +431,7 @@ generated_at: "2026-05-18T17:12:40"
 | temoignage_analyse | 3 |
 | fait_sensible | 3 |
 | lieu_scene | 2 |
+| limite_interpretative | 2 |
 | methode | 2 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
@@ -423,6 +445,8 @@ generated_at: "2026-05-18T17:12:40"
 | concept_transversal | 2 |
 | memoire | 2 |
 | institution_policiere | 1 |
+| dispositif_creation | 1 |
+| tension_documentaire | 1 |
 | modernisme_litteraire | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
@@ -470,7 +494,6 @@ generated_at: "2026-05-18T17:12:40"
 | cas_urbain | 1 |
 | contexte_social | 1 |
 | culture_urbaine | 1 |
-| limite_interpretative | 1 |
 | urbanisme_vécu | 1 |
 | media_scene | 1 |
 | contexte_discursif | 1 |
@@ -499,11 +522,15 @@ generated_at: "2026-05-18T17:12:40"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
-| critique | 3 |
+| critique | 5 |
 | majeure | 2 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S50-A004 [moyen] — la globalisation des images ne signifie pas nécessairement universalisation réussie du sens
+- S50-A010 [moyen] — ne pas condamner d’emblée toute déterritorialisation
+- S50-A016 [moyen] — la critique dépend de la cohérence perçue entre chanson et images
 - S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 - S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
 - S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.

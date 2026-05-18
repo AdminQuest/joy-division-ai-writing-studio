@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T17:12:40"
+generated_at: "2026-05-18T17:46:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 949 |
+| Atomes | 968 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 99 |
-| Événements chronologiques | 62 |
-| Personnes | 81 |
-| Chansons | 11 |
-| Sources mobilisées | 36 |
+| Citations | 103 |
+| Événements chronologiques | 66 |
+| Personnes | 86 |
+| Chansons | 15 |
+| Sources mobilisées | 37 |
 
 ## 4. Sources mobilisées
 
@@ -62,6 +62,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 11 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 6 | 1 |
+| S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 19 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -327,6 +328,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S50-Q004** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -345,13 +350,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q188** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q189** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q190** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q191** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q192** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
+- CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
+- CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
+- CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -388,13 +393,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
 - CHR-S29-2017-001 — Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.
 - CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
-- CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
-- CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
-- CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
-- CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
 
 ## 9. Personnes et acteurs
 
+- PERS-S50-001 — Paolo Bertetti
+- PERS-S50-002 — Domenico Morreale
+- PERS-S50-003 — Orian Williams
+- PERS-S50-004 — Warren Jackson
+- PERS-S50-005 — Vincent Moon
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -430,14 +436,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-088 — Vini Reilly
 - PERS-S76-089 — Paul Morley
 - PERS-013 — Chris Ott
-- PERS-014 — Paul Morley
-- PERS-016 — Bedhead
-- PERS-S76-044 — John Anderson
-- PERS-S76-080 — Alan Hempsall
-- PERS-S76-081 — Simon Topping
 
 ## 10. Chansons rattachées
 
+- SONG-S50-SHADOWPLAY — Shadowplay
+- SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S50-INSIGHT — Insight
+- SONG-S50-NEW_DAWN_FADES — New Dawn Fades
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -549,34 +554,34 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fatigue (8)
 - John Peel (7)
 - Electric Circus (7)
+- Love Will Tear Us Apart (6)
+- Control (6)
+- Manchester (6)
+- She’s Lost Control (6)
 - Kevin Cummins (6)
 - NME (5)
-- Love Will Tear Us Apart (5)
+- Atmosphere (5)
 - Haçienda (5)
 - New Order (5)
-- Control (5)
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
-- She’s Lost Control (5)
 - Sordide Sentimental (5)
 - Closer (5)
-- Manchester (5)
 - Gretton (5)
 - Mick Middles (4)
 - Rainbow Theatre (4)
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
+- Something Else (4)
+- So It Goes (4)
+- Shadowplay (4)
 - radio (4)
 - Ceremony (4)
 - Decades (4)
 - Moonlight Club (4)
 - America (4)
-- Paul Morley (4)
-- Factory Club (4)
-- Hannett (4)
-- Plan K (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -639,27 +644,27 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S40-A006 — prolonge → REL-S40-005
 - S40-A007 — garde_fou → REL-S40-006
 - S40-A008 — garde_fou → REL-S40-007
-- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
-- S13-DM-A001 — prolonge → S13-A003
-- S13-DM-A001 — prolonge → S13-A004
-- S13-DM-A001 — prolonge → S13-A010
-- S13-A001 — prolonge → S12
-- S13-A001 — prolonge → S20
-- S13-A001 — prépare → S13-A005
-- S13-A002 — prolonge → CONCEPT-no-future
-- S13-A002 — prépare → S13-A010
-- S13-A003 — nuance → S13-A005
-- S13-A003 — prolonge → S74
-- S13-A003 — prolonge → S41
-- S13-A008 — prolonge → ORG-Factory-Records
-- S13-A008 — prolonge → PLACE-Hacienda
-- S13-A008 — prolonge → S41-Hacienda
-- S13-A009 — prolonge → S13-A008
-- S13-A009 — prolonge → ORG-New-Order
-- S13-A009 — nuance → MYTH-Curtis-centre-absolu
-- S13-A010 — prolonge → S13-A002
-- S13-A010 — prolonge → MYTH-rave-utopie
-- S13-A010 — nuance → S13-A003
+- S50-A001 — limite → MYTH-reimagined_archive_origine
+- S50-A002 — fonde → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A003 — relie → S50-A002
+- S50-A004 — prepare → S50-A009
+- S50-A005 — fonde → CONCEPT-imaginaire_collectif_joy_division
+- S50-A006 — fonde → CONCEPT-ecosysteme_mediatique_joy_division
+- S50-A007 — a_croiser → S48
+- S50-A007 — a_croiser → S09
+- S50-A008 — relie → S49-A006
+- S50-A008 — relie → S41-A099
+- S50-A009 — fonde → CONCEPT-imaginaire_participatif
+- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A011 — fonde → CONCEPT-traduction_intersemiotique
+- S50-A012 — illustre → S50-A011
+- S50-A013 — illustre → S50-A011
+- S50-A013 — relie → S49-A010
+- S50-A014 — modele → CONCEPT-traduction_intersemiotique
+- S50-A015 — contre_exemple → S50-A011
+- S50-A016 — contre_exemple → S50-A011
+- S50-A017 — prolonge → S50-A015
+- S50-A018 — nuance → CONCEPT-imaginaire_participatif
 
 ## 13. Distribution documentaire
 
@@ -670,11 +675,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 19 |
+| prudence_methodologique | 20 |
 | memoire | 14 |
+| concept_structurant | 13 |
 | reception_live | 12 |
 | objet_discographique | 12 |
-| concept_structurant | 11 |
 | discographie | 11 |
 | reception_critique | 10 |
 | synthese | 10 |
@@ -700,6 +705,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
+| tension_documentaire | 4 |
+| limite_interpretative | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -716,10 +723,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_europeen | 4 |
 | reception_presse | 3 |
 | concept_critique | 3 |
+| acteur_mediation | 3 |
+| mediation_audiovisuelle | 3 |
+| analyse_video | 3 |
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
 | mythe_prudence | 3 |
-| tension_documentaire | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
 | transition_posthume | 3 |
@@ -747,9 +756,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | critique_methodologique | 2 |
+| synthese_argumentative | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
-| mediation_audiovisuelle | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
 | rencontre_fondatrice | 2 |
@@ -799,7 +808,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | motif_discursif | 2 |
 | scene_sociale_style | 2 |
 | formation_culturelle | 2 |
-| acteur_mediation | 2 |
 | scene_ecoute | 2 |
 | marketing | 2 |
 | album | 2 |
@@ -815,6 +823,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prudence_conceptuelle | 1 |
 | compte_rendu_critique | 1 |
 | prudence_documentaire | 1 |
+| evenement_mediatique | 1 |
+| dispositif_creation | 1 |
+| periodisation_mediatique | 1 |
+| canon_visuel | 1 |
+| reception_numerique | 1 |
+| reception_fan | 1 |
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
 | prudence_interpretative | 1 |
@@ -1015,7 +1029,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_generationnelle | 1 |
 | evenement_audiovisuel | 1 |
 | mythe_a_deconstruire | 1 |
-| synthese_argumentative | 1 |
 | comparaison_generations | 1 |
 | garde_fou | 1 |
 | ecosysteme | 1 |
@@ -1078,7 +1091,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_filme | 1 |
 | evenement_urbain | 1 |
 | culture_urbaine | 1 |
-| limite_interpretative | 1 |
 | decision_collective | 1 |
 | transition_vocale | 1 |
 | transition_album | 1 |
@@ -1161,10 +1173,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 270 |
-| majeure | 77 |
+| critique | 283 |
+| majeure | 82 |
 | majeur | 28 |
-| utile | 11 |
+| utile | 12 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |
@@ -1203,6 +1215,25 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S40-A006 [moyen] — Ne pas confondre spectre et fait d’influence directe.
 - S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
 - S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
+- S50-A001 [faible] — l’atome fixe une limite d’usage documentaire
+- S50-A002 [moyen] — les informations web et vidéos doivent être revérifiées au moment de l’usage
+- S50-A003 [moyen] — risque de surestimer l’unité esthétique d’un projet volontairement dispersé
+- S50-A004 [moyen] — la globalisation des images ne signifie pas nécessairement universalisation réussie du sens
+- S50-A005 [faible] — concept clairement formulé par la source
+- S50-A006 [faible] — la périodisation est explicitement construite par les auteurs
+- S50-A007 [moyen] — plusieurs détails de crédits ou lieux doivent être vérifiés avant citation définitive
+- S50-A008 [eleve] — plusieurs dates et intitulés de programmes doivent être vérifiés dans les registres audiovisuels
+- S50-A009 [moyen] — les contenus web peuvent changer, disparaître ou être redocumentés
+- S50-A010 [moyen] — ne pas condamner d’emblée toute déterritorialisation
+- S50-A011 [faible] — c’est la grille d’analyse centrale du chapitre
+- S50-A012 [moyen] — l’analyse dépend de la lecture des auteurs et des crédits du projet
+- S50-A013 [moyen] — la réussite est relative et demeure appréciative
+- S50-A014 [moyen] — jugement esthétique fort des auteurs, à contextualiser
+- S50-A015 [moyen] — jugement dépendant de la lecture sémiotique des auteurs
+- S50-A016 [moyen] — la critique dépend de la cohérence perçue entre chanson et images
+- S50-A017 [moyen] — plusieurs vidéos et deux attributions doivent être contrôlées avant rédaction finale
+- S50-A018 [moyen] — les commentaires en ligne ne représentent pas toute la réception
+- S50-A019 [faible] — synthèse directement alignée sur la conclusion des auteurs
 - S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
@@ -1218,25 +1249,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A030 [moyen] — Ne pas idéaliser l’appartenance ; le même écosystème est traversé de rivalités.
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
 - S41-A211 [moyen] — Ne pas confondre refus de promotion et absence de deuil ; le retrait est une forme de survie.
-- S41-A212 [moyen] — Ne pas lire la reprise comme froideur : elle est travail de survie et nécessité de recomposition.
-- S41-A213 [faible] — Atome de principe ; ne pas surdramatiser.
-- S41-A216 [faible] — Atome instrumental robuste.
-- S41-A218 [moyen] — Ne pas projeter trop directement New Order ; la dance est ici encore déformée.
-- S41-A219 [moyen] — Ne pas réduire New Order à ce seul procédé ; le passage fournit une matrice, non une cause unique.
-- S41-A221 [moyen] — Ne pas absolutiser la préférence de Hook ; elle vaut comme mémoire interne.
-- S41-A222 [moyen] — Ne pas transformer la préférence personnelle en canon critique universel.
-- S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
-- S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
-- S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
-- S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
-- S41-A195 [moyen] — Ne pas attribuer tout le riot à Rob ; le public, l’absence de Curtis et la tension de soirée comptent aussi.
-- S41-A198 [moyen] — Ne pas exagérer l’efficacité protectrice du refuge : les crises relationnelles se poursuivent.
-- S41-A202 [très élevé] — Ne pas décider à la place des sources si Curtis voulait ou non partir ; maintenir les versions concurrentes.
-- S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
-- S41-A204 [moyen] — Ne pas utiliser le dernier concert comme scène prophétique ; il reste aussi un bon concert selon Hook.
-- S41-A205 [très élevé] — Risque de relire l’euphorie comme masque évident ; Hook maintient l’incertitude.
-- S41-A207 [moyen] — Ne pas interpréter l’absence de cris comme absence d’affect ; Hook parle de sidération.
-- S41-A208 [élevé] — Ne pas faire de Rob un prophète froid ; la phrase s’inscrit dans une scène de sidération.
 
 ## 15. Lacunes et prochaines vérifications
 
