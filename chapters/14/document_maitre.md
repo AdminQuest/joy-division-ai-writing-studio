@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1006 |
+| Atomes | 1009 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 126 |
-| Événements chronologiques | 74 |
+| Citations | 129 |
+| Événements chronologiques | 76 |
 | Personnes | 106 |
-| Chansons | 20 |
-| Sources mobilisées | 40 |
+| Chansons | 21 |
+| Sources mobilisées | 41 |
 
 ## 4. Sources mobilisées
 
@@ -66,6 +66,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 14 | 4 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 10 | 6 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 14 | 13 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -368,6 +369,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
 - CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
+- CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
+- CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -394,8 +397,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
 - CHR-S76-1980-030 — Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.
 - CHR-S76-1980-032 — Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.
-- CHR-S76-1980-033 — Ian Curtis est crémé. Factory organise un wake séparé à Palatine Road, où est projeté *The Great Rock’n’Roll Swindle* ; Lindsay Reade retient la formule « No one is innocent » comme condensation du sentiment de culpabilité.
-- CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 
 ## 9. Personnes et acteurs
 
@@ -451,6 +452,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S50-NEW_DAWN_FADES — New Dawn Fades
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S54-INTERZONE — Interzone
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -572,6 +574,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (5)
 - Atmosphere (5)
 - New Order (5)
+- Plan K (5)
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
@@ -587,9 +590,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Something Else (4)
 - So It Goes (4)
 - Shadowplay (4)
+- Burroughs (4)
 - radio (4)
-- Ceremony (4)
-- Decades (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -684,7 +686,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception | 30 |
 | non qualifié | 27 |
 | prudence_methodologique | 23 |
-| concept_structurant | 22 |
+| concept_structurant | 23 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -851,6 +853,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_affectif | 1 |
 | transition_groupe | 1 |
 | motif_culturel | 1 |
+| scene_mythographique | 1 |
+| synthese_usage_livre | 1 |
 | reception_nominale | 1 |
 | lieu_structurant | 1 |
 | transition_processus_creatif | 1 |
@@ -1195,8 +1199,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 311 |
-| majeure | 90 |
+| critique | 313 |
+| majeure | 91 |
 | majeur | 28 |
 | utile | 14 |
 | structurante | 2 |

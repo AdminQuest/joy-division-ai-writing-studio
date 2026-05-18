@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 442 |
+| Atomes | 443 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 55 |
+| Citations | 56 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
-| Chansons | 20 |
-| Sources mobilisées | 17 |
+| Chansons | 23 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 1 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -293,6 +294,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -329,7 +331,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -416,6 +417,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 10. Chansons rattachées
 
+- SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
+- SONG-S54-HEART_AND_SOUL — Heart and Soul
+- SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-DECADES — Decades
 - SONG-S75-026 — Transmission
 - SONG-S75-027 — Atmosphere
@@ -556,6 +560,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Band on the Wall (4)
 - Buzzcocks (4)
 - Glass (4)
+- The Eternal (4)
 - Twinny (4)
 - radio (4)
 - T. J. Davidson’s (4)
@@ -563,7 +568,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Stephen Morris (4)
 - Warsaw (4)
 - Sordide Sentimental (4)
-- Atmosphere (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -696,6 +700,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_management_sante | 2 |
 | reception | 2 |
 | relation | 2 |
+| lecture_chansons | 2 |
 | management | 2 |
 | reception_radio | 2 |
 | seuil_chronologique | 2 |
@@ -864,7 +869,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | bascule_management | 1 |
 | scene_vie_studio | 1 |
 | controverse_studio | 1 |
-| lecture_chansons | 1 |
 | lecture_institutionnelle | 1 |
 | genese_label | 1 |
 | scene_institutionnelle | 1 |
@@ -910,7 +914,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 207 |
+| critique | 208 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 27 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,7 +26,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Atomes critiques / majeurs | 35 |
 | Citations | 32 |
 | Événements chronologiques | 35 |
-| Personnes | 27 |
+| Personnes | 28 |
 | Chansons | 6 |
 | Sources mobilisées | 19 |
 
@@ -366,6 +366,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 9. Personnes et acteurs
 
+- PERS-S54-009 — Pete Shelley
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris

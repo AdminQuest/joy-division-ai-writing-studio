@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 243 |
+| Atomes | 255 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 17 |
-| Événements chronologiques | 8 |
-| Personnes | 11 |
-| Chansons | 17 |
-| Sources mobilisées | 23 |
+| Citations | 25 |
+| Événements chronologiques | 11 |
+| Personnes | 16 |
+| Chansons | 21 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 12 | 8 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -302,6 +303,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q010** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q011** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q012** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -316,6 +325,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
+- CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
+- CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
+- CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
 - CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
@@ -327,6 +339,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 9. Personnes et acteurs
 
+- PERS-S54-001 — Alessandro Gnocchi
+- PERS-S54-002 — Ian Curtis
+- PERS-S54-003 — William S. Burroughs
+- PERS-S54-004 — J. G. Ballard
+- PERS-S54-008 — Daniel Odier
 - PERS-S49-001 — Manolo Farci
 - PERS-001 — Ian Curtis
 - PERS-S76-041 — Ian Wood
@@ -341,6 +358,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 10. Chansons rattachées
 
+- SONG-S54-DIGITAL — Digital
+- SONG-S54-INTERZONE — Interzone
+- SONG-S54-EXERCISE_ONE — Exercise One
+- SONG-S54-ATROCITY_EXHIBITION — Atrocity Exhibition
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-DECADES — Decades
 - SONG-S29-001 — Dead Souls
@@ -418,6 +439,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - throbbing gristle (2)
 - death factory (2)
 - cut-up (2)
+- corps technologique (2)
 - Eric's Liverpool (2)
 - industrial malaise (2)
 - hypnose (2)
@@ -440,31 +462,39 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Horkheimer (2)
 - tension (2)
 - transe (2)
-- lenteur (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Ballard (5)
 - provocation (5)
+- Burroughs (5)
 - domesticité (5)
 - Electric Circus (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
 - silence (3)
+- violence (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
 - réception critique (3)
 - post-punk (3)
 - Ian Curtis (3)
-- Ballard (2)
 - John Heartfield (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
 - séparation production-réception (2)
 - futur fermé (2)
 - futur perdu (2)
+- Interzone (2)
 - transe (2)
+- répétition (2)
+- clôture (2)
+- contrôle (2)
+- technologie (2)
+- Atrocity Exhibition (2)
+- médias (2)
 - No Love Lost (2)
 - Iggy Pop (2)
 - Rudolf Hess (2)
@@ -477,15 +507,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Warsaw Pakt (2)
 - Joy Division (2)
 - communication (2)
-- disco (2)
-- exclusion (2)
-- manager (2)
-- pression (2)
-- désajustement (2)
-- Terry Mason (2)
-- The Eternal (2)
-- procession (2)
-- fatigue (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -523,6 +544,21 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S13-A006 — prolonge → S13-A005
 - S13-A006 — prolonge → MOTIF-silence
 - S13-A006 — prolonge → MOTIF-radio
+- S54-A001 — limite → MYTH-Burroughs_Ballard_cause_unique
+- S54-A004 — illustre → CONCEPT-langage_virus_controle
+- S54-A005 — prolonge → S54-A004
+- S54-A006 — fonde → CONCEPT-interzone_psychique
+- S54-A007 — illustre → CONCEPT-corps_technologique_ballardien
+- S54-A008 — fonde → CONCEPT-dystopie_interieure
+- S54-A009 — synthese → S54-A007
+- S54-A009 — synthese → S54-A008
+- S54-A010 — fonde → CONCEPT-intemporalite_suspensive
+- S54-A012 — fonde → CONCEPT-langage_virus_controle
+- S54-A013 — fonde → CONCEPT-corps_technologique_ballardien
+- S54-A014 — synthese → S54-A009
+- S54-A014 — synthese → S54-A012
+- S54-A014 — synthese → S54-A013
+- S54-A015 — synthese → CONCEPT-Curtis_lecteur_ecrivain
 - S41-A045 — prolonge → S41-A001
 - S41-A045 — prolonge → CONCEPT-025
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
@@ -554,21 +590,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S39-A005 — garde_fou → REL-S39-008
 - S39-A007 — prolonge → REL-S39-007
 - S75-A064 — requiert → CONCEPT-004
-- S75-A064 — nuance → MYTH-002
-- S75-A064 — prolonge → S75-A057
-- S75-A070 — prolonge → S75-A069
-- S75-A070 — prolonge → CONCEPT-006
-- S75-A070 — prolonge → MOTIF-001
-- S75-A071 — prolonge → MOTIF-001
-- S75-A071 — requiert → CONCEPT-004
-- S75-A071 — nuance → MYTH-002
-- S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
-- S75-A010 — corrobore → S45
-- S75-A013 — prolonge → S75-A018
-- S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
-- S75-A016 — prolonge → S75-A013
-- S75-A016 — annonce → S75-A018
-- S75-A017 — nuance → S75-A006
 
 ## 13. Distribution documentaire
 
@@ -577,13 +598,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| lecture_chanson | 9 |
-| concept_structurant | 7 |
+| concept_structurant | 12 |
+| lecture_chanson | 12 |
 | biographie | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
+| prudence_methodologique | 6 |
 | analyse_chanson | 6 |
-| prudence_methodologique | 5 |
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
@@ -601,6 +622,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mythe_prudence | 2 |
 | contrepoint | 2 |
 | synthese | 2 |
+| synthese_argumentative | 2 |
 | reception_presse | 2 |
 | dispositif_formel | 2 |
 | domesticité | 2 |
@@ -625,6 +647,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | concept_affectif | 1 |
 | concept_performance | 1 |
 | motif_textuel | 1 |
+| lecture_intertextuelle | 1 |
+| synthese_usage_livre | 1 |
 | paroles_source | 1 |
 | scene_live_desillusion | 1 |
 | evenement_discographique | 1 |
@@ -676,7 +700,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | temoignage | 1 |
 | contexte_scene | 1 |
 | lecture_scene_et_chanson | 1 |
-| synthese_argumentative | 1 |
 | comparaison_generations | 1 |
 | lecture_biographique_prudente | 1 |
 | analyse_oeuvre | 1 |
@@ -708,8 +731,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 77 |
-| majeure | 24 |
+| critique | 88 |
+| majeure | 25 |
 | majeur | 5 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

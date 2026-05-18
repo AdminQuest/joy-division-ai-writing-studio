@@ -1137,6 +1137,238 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-Curtis_lecteur_ecrivain",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-Curtis_lecteur_ecrivain",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "Curtis lecteur-écrivain",
+      "definition": "Lecture de Ian Curtis comme sujet qui transforme des matrices littéraires en idiome poétique propre : montage, condensation, images froides, dystopie intérieure, contrôle, médias et temporalité suspendue.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A003",
+        "S54-A014",
+        "S54-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-intertextualite_prudente",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-intertextualite_prudente",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "intertextualité prudente",
+      "definition": "Règle d’analyse qui distingue influence attestée, écho lexical, proximité thématique, analogie structurale et hypothèse critique dans les rapprochements entre Curtis, Burroughs et Ballard.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A001"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-interzone_psychique",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-interzone_psychique",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "Interzone psychique",
+      "definition": "Zone de passage, d’instabilité, de mélange des langages et de désordre subjectif issue de la matrice burroughsienne, utile pour lire « Interzone » au-delà de la référence décorative.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A006"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-langage_virus_controle",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-langage_virus_controle",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "langage-virus et contrôle",
+      "definition": "Matrice burroughsienne selon laquelle le langage, la répétition et la fragmentation fonctionnent comme systèmes de contrôle que Curtis condense dans des formes lyriques courtes et mécaniques.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A004",
+        "S54-A005",
+        "S54-A012"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-corps_technologique_ballardien",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-corps_technologique_ballardien",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "corps technologique ballardien",
+      "definition": "Lecture du corps comme surface marquée par la technologie, la voiture, la cicatrice, le désir et la violence médiatisée, notamment dans « Exercise One ».\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A007",
+        "S54-A013"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-dystopie_interieure",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-dystopie_interieure",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "dystopie intérieure",
+      "definition": "Dispositif par lequel les pathologies sociales, médiatiques et technologiques se déplacent dans l’expérience intime du sujet au lieu de rester un décor extérieur.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A008",
+        "S54-A009",
+        "S54-A014"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-intemporalite_suspensive",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-intemporalite_suspensive",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "intemporalité suspensive",
+      "definition": "Temporalité textuelle où le présent se dilate, l’attente domine, la répétition arrête la progression chronologique et la durée subjective prime sur la narration.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A010",
+        "S54-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-ecriture_non_confessionnelle",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-ecriture_non_confessionnelle",
+      "type_unite": "concept",
+      "source_id": "S54",
+      "nom": "écriture non confessionnelle",
+      "definition": "Principe selon lequel les paroles de Curtis ne se réduisent pas à l’expression directe d’une biographie ou d’une maladie ; elles procèdent aussi de montage, d’intertextualité, d’images froides et de condensation poétique.\n",
+      "sources": [
+        "S54"
+      ],
+      "atomes": [
+        "S54-A003",
+        "S54-A014",
+        "S54-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-masculinite_post_punk",
     "file": "registers/s49_farci_structuring_registers.md",
     "heading": "Concepts",

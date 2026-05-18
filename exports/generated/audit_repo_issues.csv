@@ -3211,6 +3211,156 @@ warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_
 warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Invalid value for type_unite: motif_culturel,Aligner la valeur avec le schéma contrôlé.
 warning,unknown_yaml_block,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Invalid value for type_unite: scene_mythographique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A003,Invalid value for type_unite: demythification,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A004,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A005,Invalid value for type_unite: lecture_intertextuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A006,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A007,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A008,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A009,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A010,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A011,Invalid value for type_unite: lecture_chansons,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A012,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A013,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A014,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A015,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/gnocchi_interzona_burroughs_ballard/relations_s54.md,REL-S54-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -19947,6 +20097,12 @@ warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-GNOCCHI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BURROUGHS-NAKED-LUNCH,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BURROUGHS-THE-JOB,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BURROUGHS-GYSIN-THIRD-MIND,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BALLARD-CRASH,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BALLARD-ATROCITY-EXHIBITION,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-FISHER-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-BUTLER-1997,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-REYNOLDS-2005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -19955,6 +20111,94 @@ warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-NORBERG-SCHULZ-GENIUS-LOCI,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-ATTIMONELLI-POMARICO-2020,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-CUMMINS-EPPING-WALK,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q011,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q011,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q012,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q012,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q013,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q013,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q014,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q014,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q015,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,S54-Q015,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1959-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1959-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1959-001,Invalid value for certainty: à vérifier dans bibliographie Burroughs,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1970-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1970-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1970-001,Invalid value for certainty: à vérifier dans bibliographies originales,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1973-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1973-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1973-001,Invalid value for certainty: à vérifier dans bibliographie Ballard,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1978-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1978-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1978-001,Invalid value for certainty: à vérifier,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1979-10-16-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1979-10-16-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1979-10-16-001,"Invalid value for certainty: à croiser avec S41, S45, S76, Savage et archives Plan K",Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1980-05-18-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1980-05-18-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s54_gnocchi_specialized_registers.md,CHR-S54-1980-05-18-001,Invalid value for certainty: fait établi à croiser avec sources biographiques,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,PERS-S54-009,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,LIEU-S54-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,LIEU-S54-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,LIEU-S54-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,ORG-S54-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,ORG-S54-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,ORG-S54-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s54_gnocchi_specialized_registers.md,ORG-S54-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-DIGITAL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-DIGITAL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-DIGITAL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-INTERZONE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-INTERZONE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-INTERZONE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-EXERCISE_ONE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-EXERCISE_ONE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-EXERCISE_ONE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-ATROCITY_EXHIBITION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-ATROCITY_EXHIBITION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-ATROCITY_EXHIBITION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-TWENTY_FOUR_HOURS,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-TWENTY_FOUR_HOURS,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-TWENTY_FOUR_HOURS,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-HEART_AND_SOUL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-HEART_AND_SOUL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-HEART_AND_SOUL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-THE_ETERNAL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-THE_ETERNAL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-THE_ETERNAL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-JOHNNY_23,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-JOHNNY_23,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s54_gnocchi_specialized_registers.md,SONG-S54-JOHNNY_23,Missing required field: chapters,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.

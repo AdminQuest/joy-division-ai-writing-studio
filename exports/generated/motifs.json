@@ -588,6 +588,157 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-understatement_curtis",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-understatement_curtis",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "understatement de Curtis",
+      "definition": "Motif de la minimisation publique des paroles par Curtis, à lire comme posture de retenue plutôt que comme dévalorisation de son écriture.\n",
+      "atomes": [
+        "S54-A003"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-contact_avorte_burroughs",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-contact_avorte_burroughs",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "contact avorté avec Burroughs",
+      "definition": "Scène du Plan K où le désir de rencontre avec Burroughs cristallise l’imaginaire d’avant-garde, tout en exigeant une forte prudence factuelle.\n",
+      "atomes": [
+        "S54-A002"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-repetition_controle",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-repetition_controle",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "répétition et contrôle",
+      "definition": "Motif par lequel les formules répétitives de Curtis deviennent signes de routine, clôture, conditionnement et expérience mécanique du temps.\n",
+      "atomes": [
+        "S54-A004",
+        "S54-A005",
+        "S54-A010"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-violence_mediatisee",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-violence_mediatisee",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "violence médiatisée",
+      "definition": "Motif ballardien par lequel la violence n’est pas seulement événement extérieur ; elle devient image, spectacle, exposition et structure intérieure.\n",
+      "atomes": [
+        "S54-A008",
+        "S54-A013"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-present_dilate",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-present_dilate",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "présent dilaté",
+      "definition": "Motif temporel de l’attente, de la répétition et de l’arrêt, lisible notamment dans « Twenty Four Hours », « Heart and Soul » et « The Eternal ».\n",
+      "atomes": [
+        "S54-A010",
+        "S54-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-images_froides",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-images_froides",
+      "type_unite": "motif",
+      "source_id": "S54",
+      "nom": "images froides",
+      "definition": "Motif stylistique de l’écriture de Curtis : condensation, distance, montage et froideur visuelle remplacent l’expression confessionnelle directe.\n",
+      "atomes": [
+        "S54-A014",
+        "S54-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-danse_existentielle",
     "file": "registers/s49_farci_structuring_registers.md",
     "heading": "Motifs",

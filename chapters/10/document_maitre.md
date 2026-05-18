@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 239 |
+| Atomes | 242 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 33 |
-| Événements chronologiques | 15 |
-| Personnes | 33 |
+| Citations | 35 |
+| Événements chronologiques | 17 |
+| Personnes | 37 |
 | Chansons | 10 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 6 | 4 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 5 | 4 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -309,6 +310,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -339,6 +342,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
 - CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
+- CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
+- CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -365,6 +370,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S53-005 — Anton Corbijn
 - PERS-S53-006 — Tony Wilson
 - PERS-S53-011 — Michael Winterbottom
+- PERS-S54-003 — William S. Burroughs
+- PERS-S54-004 — J. G. Ballard
+- PERS-S54-005 — Brion Gysin
+- PERS-S54-006 — Peter Hook
 - PERS-S75-029 — Peter Saville
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -499,6 +508,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - YouTube (4)
 - van (3)
 - Factory (3)
+- Burroughs (3)
 - biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -511,6 +521,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - wives and girlfriends (2)
 - police (2)
 - anniversaire (2)
+- violence (2)
 - maternité (2)
 - Earcom 2 (2)
 - GP (2)
@@ -521,8 +532,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - indépendance (2)
 - Sue Barlow (2)
 - compagnes (2)
-- contradiction biographique (2)
-- Lindsay Reade (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -613,7 +622,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 9 |
+| concept_structurant | 11 |
 | tension_domestique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
@@ -685,6 +694,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | reception_fan | 1 |
 | santé | 1 |
 | chanson_conceptuelle | 1 |
+| scene_mythographique | 1 |
 | processus_creatif | 1 |
 | evenement_discographique | 1 |
 | interpretation_groupe | 1 |
@@ -760,10 +770,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 119 |
+| critique | 121 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 14 |
+| majeure | 15 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

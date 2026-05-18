@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 378 |
+| Atomes | 384 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 89 |
-| Événements chronologiques | 61 |
-| Personnes | 44 |
-| Chansons | 10 |
-| Sources mobilisées | 16 |
+| Citations | 92 |
+| Événements chronologiques | 62 |
+| Personnes | 47 |
+| Chansons | 13 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 6 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 0 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 6 | 3 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -302,6 +303,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q011** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -326,9 +330,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q165** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -336,6 +337,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S52-1975-001 — Rabbito utilise le mariage très jeune de Curtis comme indice de contradiction entre posture punk et vie ordinaire.
 - CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
 - CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
+- CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
@@ -371,7 +373,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
-- CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 
 ## 9. Personnes et acteurs
 
@@ -382,6 +383,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S52-011 — Tony Wilson
 - PERS-S52-012 — Annik Honoré
 - PERS-S53-002 — Ian Curtis
+- PERS-S54-001 — Alessandro Gnocchi
+- PERS-S54-002 — Ian Curtis
+- PERS-S54-007 — Annik Honoré
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -412,15 +416,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-064 — Dave Pils et Jasmine
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
-- PERS-S76-060 — Paul Hanley
-- PERS-S76-073 — Tony Wilson
-- PERS-S76-074 — Terry Mason
 
 ## 10. Chansons rattachées
 
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-ROCK_AND_ROLL_SUICIDE — Rock And Roll Suicide
 - SONG-S52-ALL_THE_YOUNG_DUDES — All The Young Dudes
+- SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
+- SONG-S54-HEART_AND_SOUL — Heart and Soul
+- SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
@@ -536,6 +540,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
+- prudence (5)
 - epilepsy (5)
 - Candy (4)
 - tournée américaine (4)
@@ -549,13 +554,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Rainbow Theatre (4)
 - honte (4)
 - Transmission (4)
+- Twenty Four Hours (4)
 - Decades (4)
 - Debbie (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
-- prudence (4)
 - mariage (4)
-- Peter Hook (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -647,10 +651,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
+| concept_structurant | 9 |
 | tension_domestique | 8 |
+| prudence_methodologique | 8 |
 | lecture_chanson | 8 |
-| prudence_methodologique | 7 |
-| concept_structurant | 7 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
@@ -681,6 +685,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
+| lecture_chansons | 2 |
+| synthese_argumentative | 2 |
 | transition_posthume | 2 |
 | interpretation_retrospective | 2 |
 | scene_deuil | 2 |
@@ -729,6 +735,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_finale | 1 |
 | concept_performance | 1 |
 | chanson_conceptuelle | 1 |
+| synthese_usage_livre | 1 |
 | management | 1 |
 | processus_creatif | 1 |
 | interpretation_vocale | 1 |
@@ -819,7 +826,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | lecture | 1 |
 | figure_mythique | 1 |
 | analyse_performance | 1 |
-| synthese_argumentative | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
@@ -841,7 +847,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_fondatrice_intime | 1 |
 | entretien_collectif | 1 |
 | scene_vie_studio | 1 |
-| lecture_chansons | 1 |
 | objet_visuel | 1 |
 | prudence_medicale | 1 |
 | renversement_biographique | 1 |
@@ -902,7 +907,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 221 |
+| critique | 227 |
 | non qualifiée | 110 |
 | majeure | 29 |
 | majeur | 12 |

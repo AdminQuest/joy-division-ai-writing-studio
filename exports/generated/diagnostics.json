@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T21:25:24",
+  "generated_at": "2026-05-18T21:48:47",
   "status": "warning",
   "summary": {
-    "records_total": 5090,
+    "records_total": 5190,
     "records_by_kind": {
-      "atom": 2148,
+      "atom": 2163,
       "metadata": 150,
-      "unknown": 619,
+      "unknown": 647,
       "source": 81,
-      "concept": 283,
-      "motif": 333,
-      "myth": 57,
-      "quote": 407,
-      "chronology": 372,
-      "person": 216,
-      "song": 68,
+      "concept": 291,
+      "motif": 339,
+      "myth": 62,
+      "quote": 422,
+      "chronology": 378,
+      "person": 225,
+      "song": 76,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23042,
+    "diagnostics_total": 23286,
     "errors": 0,
-    "warnings": 23042,
+    "warnings": 23286,
     "sources_declared_in_registre_json": 62,
     "sources_used_in_records": 42,
     "sources_exported": 42,
@@ -1121,12 +1121,16 @@
         "auteur": "Alessandro Gnocchi",
         "titre": "Interzona. Burroughs e Ballard nei testi di Ian Curtis",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 110,
+        "atoms": 15,
+        "quotes": 15,
+        "chronology": 6,
         "files": [
-          "sources/gnocchi_interzona_burroughs_ballard/source.md"
+          "registers/s54_gnocchi_specialized_registers.md",
+          "registers/s54_gnocchi_structuring_registers.md",
+          "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+          "sources/gnocchi_interzona_burroughs_ballard/source.md",
+          "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md"
         ]
       },
       {
@@ -20637,6 +20641,906 @@
       "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S54-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_mythographique",
+      "record_id": "S54-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: demythification",
+      "record_id": "S54-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S54-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_intertextuelle",
+      "record_id": "S54-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S54-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S54-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S54-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S54-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S54-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chansons",
+      "record_id": "S54-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S54-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S54-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S54-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S54-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S54-015"
     },
     {
       "level": "warning",
@@ -121056,6 +121960,42 @@
     },
     {
       "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-GNOCCHI-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-BURROUGHS-NAKED-LUNCH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-BURROUGHS-THE-JOB"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-BURROUGHS-GYSIN-THIRD-MIND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-BALLARD-CRASH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S54-BALLARD-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
       "file": "registers/s49_farci_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S49-FISHER-2013"
@@ -121101,6 +122041,534 @@
       "file": "registers/s53_la_rocca_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S53-CUMMINS-EPPING-WALK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S54-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S54-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1959-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1959-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans bibliographie Burroughs",
+      "record_id": "CHR-S54-1959-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1970-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1970-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans bibliographies originales",
+      "record_id": "CHR-S54-1970-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1973-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1973-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans bibliographie Ballard",
+      "record_id": "CHR-S54-1973-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier",
+      "record_id": "CHR-S54-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1979-10-16-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1979-10-16-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S41, S45, S76, Savage et archives Plan K",
+      "record_id": "CHR-S54-1979-10-16-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S54-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S54-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Invalid value for certainty: fait établi à croiser avec sources biographiques",
+      "record_id": "CHR-S54-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S54-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S54-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S54-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S54-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S54-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S54-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S54-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S54-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-INTERZONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-INTERZONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-INTERZONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-EXERCISE_ONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-EXERCISE_ONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-EXERCISE_ONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-ATROCITY_EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-ATROCITY_EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-ATROCITY_EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-TWENTY_FOUR_HOURS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-TWENTY_FOUR_HOURS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-TWENTY_FOUR_HOURS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-HEART_AND_SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-HEART_AND_SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-HEART_AND_SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-THE_ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-THE_ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-THE_ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S54-JOHNNY_23"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S54-JOHNNY_23"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s54_gnocchi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S54-JOHNNY_23"
     },
     {
       "level": "warning",

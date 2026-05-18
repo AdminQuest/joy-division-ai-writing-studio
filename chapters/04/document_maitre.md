@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T21:25:39"
+generated_at: "2026-05-18T21:49:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T21:25:39"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 285 |
+| Atomes | 300 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 67 |
-| Événements chronologiques | 51 |
-| Personnes | 39 |
-| Chansons | 19 |
-| Sources mobilisées | 18 |
+| Citations | 82 |
+| Événements chronologiques | 56 |
+| Personnes | 48 |
+| Chansons | 27 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ generated_at: "2026-05-18T21:25:39"
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 2 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 7 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 2 | 2 |
+| S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 15 | 15 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -306,6 +307,21 @@ generated_at: "2026-05-18T21:25:39"
 - **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S53-Q010** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q002** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q004** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q008** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q009** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q010** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q011** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q012** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -316,21 +332,6 @@ generated_at: "2026-05-18T21:25:39"
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q165** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q170** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -340,6 +341,11 @@ generated_at: "2026-05-18T21:25:39"
 - CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
 - CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
+- CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
+- CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
+- CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
+- CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
+- CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
@@ -369,11 +375,6 @@ generated_at: "2026-05-18T21:25:39"
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
-- CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
-- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
-- CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
-- CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
-- CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
 
 ## 9. Personnes et acteurs
 
@@ -383,6 +384,15 @@ generated_at: "2026-05-18T21:25:39"
 - PERS-S52-008 — Stephen Morris
 - PERS-S52-009 — Jon Savage
 - PERS-S53-002 — Ian Curtis
+- PERS-S54-001 — Alessandro Gnocchi
+- PERS-S54-002 — Ian Curtis
+- PERS-S54-003 — William S. Burroughs
+- PERS-S54-004 — J. G. Ballard
+- PERS-S54-005 — Brion Gysin
+- PERS-S54-006 — Peter Hook
+- PERS-S54-007 — Annik Honoré
+- PERS-S54-008 — Daniel Odier
+- PERS-S54-009 — Pete Shelley
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -408,14 +418,6 @@ generated_at: "2026-05-18T21:25:39"
 - PERS-S76-004 — Carole Curtis
 - PERS-S76-005 — Barbara Lloyd / Aunt Barbara
 - PERS-S76-006 — Pete Johnson
-- PERS-S76-007 — Tony Nuttall
-- PERS-S76-008 — Paul Heapy
-- PERS-S76-059 — Martin O’Neill
-- PERS-S76-060 — Paul Hanley
-- PERS-S76-076 — Candy
-- PERS-S75-032 — Annik Honoré
-- PERS-S75-033 — William S. Burroughs
-- PERS-S75-037 — Paul Morley
 
 ## 10. Chansons rattachées
 
@@ -423,6 +425,14 @@ generated_at: "2026-05-18T21:25:39"
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S54-DIGITAL — Digital
+- SONG-S54-INTERZONE — Interzone
+- SONG-S54-EXERCISE_ONE — Exercise One
+- SONG-S54-ATROCITY_EXHIBITION — Atrocity Exhibition
+- SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
+- SONG-S54-HEART_AND_SOUL — Heart and Soul
+- SONG-S54-THE_ETERNAL — The Eternal
+- SONG-S54-JOHNNY_23 — Johnny 23
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-028 — Dead Souls
@@ -460,6 +470,7 @@ generated_at: "2026-05-18T21:25:39"
 - wythenshawe (3)
 - anti-téléologie (3)
 - fragmentation (3)
+- corps technologique (2)
 - écoute différée des paroles (2)
 - Rainbow Theatre (2)
 - perte de contrôle (2)
@@ -520,7 +531,6 @@ generated_at: "2026-05-18T21:25:39"
 - poétique d’assemblage (1)
 - multidimensionnalité (1)
 - auteur-catalyseur (1)
-- collectif orienté (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -533,11 +543,16 @@ generated_at: "2026-05-18T21:25:39"
 - épilepsie (8)
 - Natalie Curtis (7)
 - Love Will Tear Us Apart (6)
+- corps (6)
+- contrôle (6)
 - Annik Honoré (6)
+- paroles (5)
 - Atmosphere (5)
-- corps (5)
-- paroles (4)
-- contrôle (4)
+- Burroughs (5)
+- Ballard (4)
+- Digital (4)
+- répétition (4)
+- Interzone (4)
 - Shadowplay (4)
 - Closer (4)
 - No Love Lost (4)
@@ -550,22 +565,17 @@ generated_at: "2026-05-18T21:25:39"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - blue room (3)
-- Digital (3)
+- prudence (3)
+- Plan K (3)
+- Atrocity Exhibition (3)
+- Twenty Four Hours (3)
 - Iggy Pop (3)
-- Interzone (3)
 - Chance (3)
 - Macclesfield (3)
 - paternité (3)
 - fatigue (3)
 - médicaments (3)
 - Wythenshawe (3)
-- vulnérabilité (3)
-- perte de contrôle (3)
-- performance (3)
-- Terry Mason (3)
-- David Lewis Centre (3)
-- Pete Johnson (3)
-- Rob Gretton (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -594,6 +604,24 @@ generated_at: "2026-05-18T21:25:39"
 - S50-A008 — relie → S41-A099
 - S50-A013 — illustre → S50-A011
 - S50-A013 — relie → S49-A010
+- S54-A001 — limite → MYTH-Burroughs_Ballard_cause_unique
+- S54-A002 — a_croiser → S41
+- S54-A003 — deconstruit → MYTH-Curtis_paroles_secondaires
+- S54-A004 — illustre → CONCEPT-langage_virus_controle
+- S54-A005 — prolonge → S54-A004
+- S54-A006 — fonde → CONCEPT-interzone_psychique
+- S54-A007 — illustre → CONCEPT-corps_technologique_ballardien
+- S54-A008 — fonde → CONCEPT-dystopie_interieure
+- S54-A009 — synthese → S54-A007
+- S54-A009 — synthese → S54-A008
+- S54-A010 — fonde → CONCEPT-intemporalite_suspensive
+- S54-A011 — illustre → S54-A010
+- S54-A012 — fonde → CONCEPT-langage_virus_controle
+- S54-A013 — fonde → CONCEPT-corps_technologique_ballardien
+- S54-A014 — synthese → S54-A009
+- S54-A014 — synthese → S54-A012
+- S54-A014 — synthese → S54-A013
+- S54-A015 — synthese → CONCEPT-Curtis_lecteur_ecrivain
 - S41-A108 — prolonge → CONCEPT-064
 - S41-A108 — prolonge → CONCEPT-085
 - S41-A110 — nuance → MYTH-LYRICS-AS-DIARY
@@ -631,24 +659,6 @@ generated_at: "2026-05-18T21:25:39"
 - S41-A162 — prolonge → S41-A126
 - S41-A162 — prolonge → S41-A127
 - S41-A144 — prolonge → S41-A124
-- S41-A144 — nuance → MYTH-ATMOSPHERE-DEATH-SONG
-- S41-A145 — prolonge → S41-A109
-- S41-A145 — prolonge → CONCEPT-094
-- S41-A152 — prolonge → S41-A110
-- S41-A152 — prolonge → CONCEPT-095
-- S41-A152 — prépare → CONCEPT-107
-- S41-A153 — prolonge → S41-A108
-- S41-A153 — prolonge → CONCEPT-093
-- S41-A170 — prolonge → CONCEPT-125
-- S41-A170 — prolonge → CONCEPT-103
-- S51-A004 — relie → S49-A007
-- S51-A010 — relie → SONG-S51-DIGITAL
-- S75-A057 — requiert → CONCEPT-004
-- S75-A057 — nuance → MYTH-002
-- S75-A057 — prolonge → S75-A044
-- S75-A058 — requiert → CONCEPT-004
-- S75-A058 — nuance → MYTH-002
-- S75-A058 — prolonge → S75-A047
 
 ## 13. Distribution documentaire
 
@@ -657,18 +667,18 @@ generated_at: "2026-05-18T21:25:39"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
+| concept_structurant | 9 |
 | fait_sensible | 9 |
-| prudence_methodologique | 7 |
+| prudence_methodologique | 8 |
+| lecture_chanson | 8 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
-| lecture_chanson | 5 |
 | interpretation | 5 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
-| concept_structurant | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
 | session_studio | 3 |
@@ -680,6 +690,7 @@ generated_at: "2026-05-18T21:25:39"
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | live_set_context | 3 |
+| demythification | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -707,6 +718,11 @@ generated_at: "2026-05-18T21:25:39"
 | lieu_creatif | 1 |
 | mediation_audiovisuelle | 1 |
 | analyse_video | 1 |
+| scene_mythographique | 1 |
+| lecture_intertextuelle | 1 |
+| lecture_chansons | 1 |
+| synthese_argumentative | 1 |
+| synthese_usage_livre | 1 |
 | interpretation_vocale | 1 |
 | paroles_source | 1 |
 | analyse_voix_sante | 1 |
@@ -766,7 +782,6 @@ generated_at: "2026-05-18T21:25:39"
 | critique_filmique | 1 |
 | contradiction_biographique | 1 |
 | temoignage_croise | 1 |
-| demythification | 1 |
 | formule_conceptuelle | 1 |
 | tension_synthese | 1 |
 | lettre_medicale | 1 |
@@ -831,9 +846,9 @@ generated_at: "2026-05-18T21:25:39"
 
 | Importance | Nombre |
 |---|---|
-| critique | 140 |
+| critique | 153 |
 | non qualifiée | 94 |
-| majeure | 43 |
+| majeure | 45 |
 | utile | 4 |
 | majeur | 3 |
 | structurante | 1 |
