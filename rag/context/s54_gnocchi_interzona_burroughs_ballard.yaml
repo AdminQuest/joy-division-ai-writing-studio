@@ -1,0 +1,70 @@
+id: RAG-S54-GNOCCHI-INTERZONA-BURROUGHS-BALLARD
+source_id: S54
+source_label: "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021"
+source_path: "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md"
+relations_path: "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md"
+structuring_registers_path: "registers/s54_gnocchi_structuring_registers.md"
+specialized_registers_path: "registers/s54_gnocchi_specialized_registers.md"
+master_docs_addendum_path: "chapters/addenda/s54_dm_addendum_interzona_burroughs_ballard.md"
+rag_fragments_path: "rag/fragments/s54_gnocchi_interzona_burroughs_ballard.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S54"
+  pdf_pages: "170-180"
+  scope: "chapitre Alessandro Gnocchi uniquement, non volume collectif complet"
+primary_chapters:
+  - "Chapitre 4"
+  - "Chapitre 11"
+  - "Chapitre 12"
+secondary_chapters:
+  - "Chapitre 3"
+  - "Chapitre 6"
+  - "Chapitre 10"
+  - "Chapitre 14"
+key_atoms:
+  - S54-A001
+  - S54-A003
+  - S54-A004
+  - S54-A006
+  - S54-A007
+  - S54-A008
+  - S54-A009
+  - S54-A010
+  - S54-A011
+  - S54-A012
+  - S54-A013
+  - S54-A014
+  - S54-A015
+key_concepts:
+  - CONCEPT-Curtis_lecteur_ecrivain
+  - CONCEPT-intertextualite_prudente
+  - CONCEPT-interzone_psychique
+  - CONCEPT-langage_virus_controle
+  - CONCEPT-corps_technologique_ballardien
+  - CONCEPT-dystopie_interieure
+  - CONCEPT-intemporalite_suspensive
+  - CONCEPT-ecriture_non_confessionnelle
+key_motifs:
+  - MOTIF-understatement_curtis
+  - MOTIF-contact_avorte_burroughs
+  - MOTIF-repetition_controle
+  - MOTIF-violence_mediatisee
+  - MOTIF-present_dilate
+  - MOTIF-images_froides
+key_myths:
+  - MYTH-Burroughs_Ballard_cause_unique
+  - MYTH-Curtis_paroles_secondaires
+  - MYTH-Interzone_reference_decorative
+  - MYTH-lyrics_comme_premonition
+  - MYTH-Curtis_confession_pure
+writing_use: >
+  Utiliser S54 comme source secondaire critique pour lire Ian Curtis comme lecteur-écrivain de dystopies,
+  en articulant Burroughs, Ballard, Digital, Interzone, Exercise One, Atrocity Exhibition, langage-virus,
+  dystopie intérieure, corps technologique, temporalité suspendue et écriture non confessionnelle.
+verification_rules:
+  - "Ne pas utiliser S54 comme preuve primaire des lectures effectives de Curtis."
+  - "Vérifier les citations de Burroughs, Ballard et Curtis dans les œuvres originales et dans le registre des paroles vérifiées."
+  - "Distinguer influence attestée, écho lexical, proximité thématique, analogie structurale et hypothèse critique."
+  - "Ne pas transformer les temporalités suspendues en prémonition morbide."
+  - "Croiser Plan K avec S41, S45, S76, Savage et les archives disponibles."
+  - "Ne pas faire de Burroughs et Ballard les causes uniques de l’écriture de Curtis."
