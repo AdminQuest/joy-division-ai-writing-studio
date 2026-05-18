@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T09:18:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 429 |
+| Atomes | 437 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
 | Chansons | 19 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 8 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 2 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 1 | 0 |
@@ -54,6 +55,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 - **S34-A008** — S34-A008 — Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A013** — S35-A013 — Factory Sample : entrée dans une médiation institutionnelle  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `mediation_label` ; importance : `critique` ; preuve : `forte`.
+- **S35-A016** — S35-A016 — Martin Hannett : le studio comme instrument et contrainte  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `production_sonore` ; importance : `critique` ; preuve : `forte`.
+- **S35-A017** — S35-A017 — *Unknown Pleasures* : écart entre scène, studio et réception interne  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
+- **S35-A019** — S35-A019 — *Closer* : intensité tardive et clôture sans téléologie simple  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_fin` ; importance : `critique` ; preuve : `forte`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
@@ -112,16 +123,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
 - **S41-A070** — S41-A070 — Arrivée de Rob Gretton : manager comme soulagement organisationnel  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
-- **S41-A076** — S41-A076 — Band on the Wall : Gretton dépense, Ian calcule, le groupe sonne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconstruction de pensée de Curtis`.
-- **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
-- **S41-A079** — S41-A079 — *A Factory Sample* : confiance sans contrat et perte possible d’un single  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -131,6 +132,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S35-A014** — S35-A014 — Rob Gretton : management, organisation et changement d’échelle  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `acteur_mediation` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A015** — S35-A015 — Tony Wilson : télévision, Factory et pouvoir de légitimation  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `acteur_mediation` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A044** — S35-A044 — Faust : studio, collage et soupçon de machine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique pour la généalogie studio/expérimentation` ; preuve : `témoignage autobiographique direct`.
 - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-102** — S41-102 — La scène comme aggravateur physique  
@@ -223,8 +230,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A072** — S41-A072 — Transit bleu pétrole : autonomie matérielle et économie des gigs  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
+- **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
 - **S41-A075** — S41-A075 — Musicians’ Collective : entraide officielle et arrière-goût de salle de classe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage Hook + citation Kevin Eden rapportée`.
+- **S41-A076** — S41-A076 — Band on the Wall : Gretton dépense, Ian calcule, le groupe sonne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconstruction de pensée de Curtis`.
+- **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
+- **S41-A079** — S41-A079 — *A Factory Sample* : confiance sans contrat et perte possible d’un single  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A080** — S41-A080 — Wilson et Curtis : aura télévisuelle, conversation intellectuelle et loyauté Factory  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A085** — S41-A085 — Van bleu et Yorkshire Ripper : tournée punk comme soupçon policier  
@@ -269,22 +286,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
 - **S41-A108** — S41-A108 — T. J. Davidson’s : productivité collective et transformation des influences en idiome Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
-- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
-- **S41-A115** — S41-A115 — Van Walthamstow : hélicoptère, conflit de frais et économie matérielle du groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A121** — S41-A121 — Silence aux journalistes : Gretton interdit Hook/Sumner et fabrique malgré lui la mystique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A128** — S41-A128 — Interviews hostiles et pauvreté maintenue : succès sans glamour  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A130** — S41-A130 — T. J. Davidson’s après le succès : farces, flight cases et retour de Tony Davidson  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_lieu` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A131** — S41-A131 — Hook et Les Pattinson : bassistes chauffeurs, fraternité logistique et scène Liverpool-Londres  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A132** — S41-A132 — M5 : accident du van et fin du bassiste-chauffeur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_logistique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -436,22 +437,22 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 11. Concepts récurrents
 
-- Closer (19)
+- Closer (20)
 - architecture sonore (16)
 - Still (15)
 - Ian Curtis (14)
-- Unknown Pleasures (10)
+- Unknown Pleasures (11)
 - Atmosphere (9)
 - Transmission (9)
 - Love Will Tear Us Apart (9)
 - factory (8)
 - Dead Souls (8)
+- Martin Hannett (8)
 - martin hannett (7)
 - She's Lost Control (7)
-- Martin Hannett (7)
+- Britannia Row (7)
 - rob gretton (7)
 - love will tear us apart (6)
-- Britannia Row (6)
 - factory records (6)
 - epilepsie (6)
 - closer (5)
@@ -459,20 +460,21 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - single (5)
 - live (5)
 - épilepsie (5)
+- Factory (5)
 - fatigue (5)
+- prudence historiographique (5)
 - BBC (5)
 - John Peel (5)
+- studio (5)
 - versions alternatives (4)
 - Peel Session (4)
 - Sound of Music (4)
 - Insight (4)
-- Factory (4)
 - producteur catalyseur (4)
 - contrainte productive (4)
 - spectralité (4)
 - matérialité discographique (4)
-- prudence historiographique (4)
-- studio (4)
+- tension (4)
 - joy division (4)
 - unknown pleasures (3)
 - tournée américaine (3)
@@ -483,12 +485,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - culture bootleg (3)
 - Exercise One (3)
 - Cargo Studios (3)
-- tension (3)
 - mixage (3)
 - Peel Sessions (3)
 - Peter Saville (3)
 - John Peel Session (3)
 - tony wilson (3)
+- management (3)
 - derniers concerts (3)
 - russell club (2)
 - john peel (2)
@@ -510,12 +512,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - stabilisation rythmique (2)
 - Sordide Sentimental (2)
 - Manchester (2)
+- Granada TV (2)
 - Colony (2)
 - The Kill (2)
 - Stephen Morris (2)
 - tracklist (2)
-- seuil (2)
-- froideur (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -722,6 +723,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_repetition | 2 |
 | concept_management | 2 |
 | source_part | 2 |
+| acteur_mediation | 2 |
 | analyse_morceau | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
@@ -873,6 +875,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
+| prudence_methodologique | 1 |
+| mediation_label | 1 |
+| production_sonore | 1 |
+| album_production | 1 |
+| album_fin | 1 |
+| matrice_musicale | 1 |
 | chronologie_biographique_prudente | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
@@ -895,11 +903,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 199 |
+| critique | 204 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 25 |
+| majeure | 27 |
 | secondaire utile | 1 |
+| critique pour la généalogie studio/expérimentation | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

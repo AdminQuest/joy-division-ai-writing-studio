@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T09:18:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 336 |
+| Atomes | 368 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 30 |
 | Événements chronologiques | 22 |
 | Personnes | 29 |
 | Chansons | 25 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 32 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
@@ -73,6 +74,24 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S34-A010** — S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A007** — S35-A007 — Anti-virtuosité : Moe Tucker, Jaki Liebezeit et Klaus Dinger comme modèles  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `concept_rythmique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A009** — S35-A009 — Warsaw : annonce, audition et stabilisation par la batterie  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `genese_groupe` ; importance : `critique` ; preuve : `forte`.
+- **S35-A011** — S35-A011 — Premières chansons : le rythme comme contrainte de construction  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `emergence_repertoire` ; importance : `critique` ; preuve : `forte`.
+- **S35-A013** — S35-A013 — Factory Sample : entrée dans une médiation institutionnelle  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `mediation_label` ; importance : `critique` ; preuve : `forte`.
+- **S35-A016** — S35-A016 — Martin Hannett : le studio comme instrument et contrainte  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `production_sonore` ; importance : `critique` ; preuve : `forte`.
+- **S35-A017** — S35-A017 — *Unknown Pleasures* : écart entre scène, studio et réception interne  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
+- **S35-A041** — S35-A041 — Hawkwind au Free Trade Hall : concert comme choc sensoriel total  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A043** — S35-A043 — Bowie au Free Trade Hall : le groupe comme énigme sociale  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
 - **S41-A016** — S41-A016 — Apprendre faux : trois doigts, stickers Tippex et style mélodique  
@@ -111,24 +130,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
 - **S41-A097** — S41-A097 — Suicide au Russell Club : avant-garde reconnue par Curtis et Morris  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A108** — S41-A108 — T. J. Davidson’s : productivité collective et transformation des influences en idiome Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A109** — S41-A109 — Curtis conducteur : arrangement oral, mémoire collective et trou laissé à New Order  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A112** — S41-A112 — Eden Studios : Martin Rushent, démos alternatives et préférence rétrospective pour Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée à croiser`.
-- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
-- **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
-- **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
-- **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A119** — S41-A119 — Son live perdu : le désarroi Hook/Sumner devant *Unknown Pleasures*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 
 ## 6. Autres atomes utiles
 
@@ -220,6 +221,52 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S35-A002** — S35-A002 — Macclesfield : enfance, industrie, Parkside et double décor mental  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A003** — S35-A003 — Radio, disques, télévision : l’oreille avant la technique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_sensible` ; importance : `utile` ; preuve : `forte`.
+- **S35-A005** — S35-A005 — Hawkwind, Bowie, krautrock : matrices pré-punk de Morris  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A006** — S35-A006 — De la guitare ratée à la batterie : la percussion comme médium de simplicité  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `apprentissage_instrumental` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A008** — S35-A008 — Vinyle, bootlegs, magasins : culture matérielle du disque  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `utile` ; preuve : `forte`.
+- **S35-A021** — S35-A021 — Poe et Wodehouse : double registre, noirceur et contre-humour  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_sensible` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
+- **S35-A022** — S35-A022 — Le père voyageur : travail, absence domestique et régularité mécanique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_biographique` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
+- **S35-A023** — S35-A023 — École et latéralité contrariée : apprentissage comme friction  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_sociale` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
+- **S35-A027** — S35-A027 — Radio domestique et télévision : formation avant disqueothèque  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_mediatique` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A028** — S35-A028 — Premiers singles : malentendu enfantin et matérialité pop  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_ecoute` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A029** — S35-A029 — Guitare détruite : l’instrument mélodique comme échec fondateur  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `apprentissage_instrumental` ; importance : `critique pour le chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A030** — S35-A030 — Sooty, sticks et disparition des baguettes : première percussion domestique empêchée  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_rythmique` ; importance : `majeure pour la généalogie rythmique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A032** — S35-A032 — Ballroom dancing : le rythme appris malgré soi  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `apprentissage_rythmique` ; importance : `majeure pour le chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A034** — S35-A034 — Jodrell Bank : futur spatial, peur nocturne et imaginaire technique local  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `lieu_imaginaire` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A035** — S35-A035 — Eleven-plus et King’s School : mobilité scolaire, solitude et discipline institutionnelle  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_sociale` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A036** — S35-A036 — Clarinette et Uncle Johnny : la virtuosité promise se referme sur la technique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `apprentissage_instrumental` ; importance : `critique pour le chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A037** — S35-A037 — Oz, Leary, counterculture : l’avant-garde lue avant d’être comprise  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_culturelle` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A038** — S35-A038 — Bert, NME et la chambre initiatique : le disque comme archive ordonnée  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_ecoute` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A039** — S35-A039 — Hodgson’s et Hawkwind : achat, sleeve et révélation lente  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique pour la généalogie pré-punk` ; preuve : `témoignage autobiographique direct`.
+- **S35-A040** — S35-A040 — Père jazz / fils futur : sonic Berlin Wall domestique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `conflit_generationnel` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A044** — S35-A044 — Faust : studio, collage et soupçon de machine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique pour la généalogie studio/expérimentation` ; preuve : `témoignage autobiographique direct`.
+- **S35-A046** — S35-A046 — Sunshine Valley Dance Band : former un groupe avant de savoir jouer  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_pre_groupe` ; importance : `critique pour le chapitre 2` ; preuve : `témoignage autobiographique direct`.
+- **S35-A047** — S35-A047 — Guy Evans, Keith Moon et batterie simple : choisir l’instrument de l’instant  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `apprentissage_instrumental` ; importance : `critique pour le chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -246,52 +293,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-056** — S41-056 — Oz PA et la professionnalisation du son live  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-060** — S41-060 — Gretton dépense pour le son : philosophie d’investissement  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-062** — S41-062 — Première apparition télévisée : Granada Reports et « Shadowplay »  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-064** — S41-064 — Image scénique de Hook : basse basse, jeu aigu  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-073** — S41-073 — « Digital » et « Glass » : meilleure captation du groupe à ce stade  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-086** — S41-086 — Martin Rushent et la tentation d’une captation plus directe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-087** — S41-087 — Les « Genetic demos » comme bifurcation fantôme  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-091** — S41-091 — Préparation de *Unknown Pleasures* : passer de la scène au studio  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-092** — S41-092 — Strawberry Studios : infrastructure technique du seuil esthétique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-093** — S41-093 — Hannett contre le groupe : le malentendu fondateur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `conflit_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-094** — S41-094 — La batterie de Stephen Morris comme matériau de laboratoire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-095** — S41-095 — Hannett et la production comme dénaturalisation du groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-111** — S41-111 — « Disorder » : basse motrice et chaos contrôlé  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-112** — S41-112 — « Day of the Lords » : lenteur lourde contre vitesse punk  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-115** — S41-115 — « New Dawn Fades » : la basse comme chant secondaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-116** — S41-116 — « She’s Lost Control » : machine, répétition et panique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-117** — S41-117 — Stephen Morris et la précision quasi-métronomique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-120** — S41-120 — « Interzone » : héritage Stooges et Velvet Underground  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influences` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-125** — S41-125 — « Transmission » : le premier hymne collectif  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-129** — S41-129 — Le groupe s’éloigne définitivement du punk  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-A004** — S41-A004 — Hondo II et corde qui saute : anti-mythe technique du premier concert  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct de Peter Hook`.
-- **S41-A022** — S41-A022 — Terry Mason : membre périphérique, distortion accidentelle et mémoire du groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -413,48 +414,51 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 11. Concepts récurrents
 
-- Martin Hannett (21)
+- Martin Hannett (22)
 - architecture sonore (17)
-- Unknown Pleasures (14)
+- Unknown Pleasures (15)
+- contrainte productive (11)
 - Ian Curtis (11)
 - post-punk (10)
-- production (9)
-- contrainte productive (8)
+- production (10)
 - Strawberry Studios (8)
 - Stephen Morris (8)
+- répétition (8)
+- espace sonore (7)
 - Transmission (7)
 - Cargo Studios (7)
 - Peter Hook (7)
 - martin hannett (6)
-- espace sonore (6)
 - A Factory Sample (6)
 - voix (6)
+- studio (6)
 - ian curtis (6)
 - basse melodique (6)
 - digital (5)
 - Digital (5)
 - Glass (5)
 - NME (5)
-- studio (5)
+- batterie (5)
 - Dead Souls (5)
-- répétition (5)
 - synthétiseur (5)
 - Atmosphere (5)
+- Factory Records (5)
 - a factory sample (4)
 - glass (4)
 - factory (4)
+- radio (4)
 - unknown pleasures (4)
 - transmission (4)
 - Manchester (4)
 - Peel Session (4)
 - Arrow Studios (4)
-- batterie (4)
 - Factory (4)
 - producteur catalyseur (4)
 - spectralité (4)
-- Factory Records (4)
+- prudence historiographique (4)
+- Hannett (4)
+- apprentissage autodidacte (4)
 - Tony Wilson (4)
-- radio (3)
 - piccadilly radio (3)
 - dub (3)
 - basse mélodique (3)
@@ -468,14 +472,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - varispeed (3)
 - An Ideal for Living (3)
 - domesticité (3)
-- prudence historiographique (3)
 - Bernard Sumner (3)
 - cinquième membre (3)
-- Hannett (3)
 - new wave (3)
 - basse (3)
-- apprentissage autodidacte (3)
+- DIY (3)
 - Granada Reports (3)
+- studio comme instrument (3)
+- tension (3)
+- son live (3)
 - john peel (2)
 - peel session (2)
 - martin rushent (2)
@@ -489,10 +494,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - kraftwerk (2)
 - synthpop (2)
 - europe froide (2)
-- erreur productive (2)
-- single (2)
-- 18 juillet 1977 (2)
-- Inside the Line (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -524,6 +525,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Atrocity Exhibition (3)
 - Cargo Studios (3)
 - domesticité (3)
+- anti-virtuosité (3)
 - basse (2)
 - Bernard Sumner (2)
 - synthétiseur (2)
@@ -537,7 +539,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - An Ideal for Living (2)
 - Steve Brotherdale (2)
 - Pennine Sound (2)
-- ARP (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -644,12 +645,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | discographie | 4 |
 | reception_critique | 4 |
 | lecture | 4 |
+| apprentissage_instrumental | 4 |
 | analyse_morceau_studio | 3 |
 | interpretation_studio | 3 |
 | reception_presse | 3 |
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
+| prudence_methodologique | 3 |
 | concept_structurant | 3 |
 | equipment_file | 3 |
 | acteur_musical | 3 |
@@ -661,6 +664,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | economie_materielle | 2 |
 | chronologie_discographique | 2 |
 | session_enregistrement | 2 |
+| production_sonore | 2 |
 | concept_critique | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
@@ -668,12 +672,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | controverse | 2 |
 | lieu | 2 |
 | temoignage | 2 |
-| prudence_methodologique | 2 |
 | production_album | 2 |
 | citation_repere | 2 |
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | scene_repetition | 2 |
+| contexte_biographique | 2 |
+| formation_sensible | 2 |
+| matrice_musicale | 2 |
+| culture_materielle | 2 |
+| formation_sociale | 2 |
+| scene_ecoute | 2 |
+| scene_revelation_live | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
 | album | 2 |
@@ -712,7 +722,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | broadcast | 1 |
 | studio_enregistrement | 1 |
 | portrait_musicien | 1 |
-| production_sonore | 1 |
 | analyse_musicale | 1 |
 | industrie_musicale | 1 |
 | discographie_album | 1 |
@@ -758,6 +767,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | professionnalisation | 1 |
 | media_scene | 1 |
 | transition_artistique | 1 |
+| concept_rythmique | 1 |
+| genese_groupe | 1 |
+| emergence_repertoire | 1 |
+| mediation_label | 1 |
+| album_production | 1 |
+| formation_mediatique | 1 |
+| scene_rythmique | 1 |
+| apprentissage_rythmique | 1 |
+| lieu_imaginaire | 1 |
+| formation_culturelle | 1 |
+| conflit_generationnel | 1 |
+| scene_pre_groupe | 1 |
 | motif_visuel | 1 |
 | image_groupe | 1 |
 | relation_son_image | 1 |
@@ -778,10 +799,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 98 |
-| majeure | 16 |
+| critique | 107 |
+| majeure | 26 |
 | majeur | 10 |
-| utile | 1 |
+| utile | 6 |
+| critique pour le chapitre 3 | 3 |
+| majeure pour la généalogie rythmique | 1 |
+| majeure pour le chapitre 3 | 1 |
+| critique pour la généalogie pré-punk | 1 |
+| critique pour la généalogie studio/expérimentation | 1 |
+| critique pour le chapitre 2 | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

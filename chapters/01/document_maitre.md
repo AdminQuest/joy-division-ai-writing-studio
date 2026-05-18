@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T09:18:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T20:50:09"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 200 |
+| Atomes | 219 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 30 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ generated_at: "2026-05-17T20:50:09"
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 19 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -85,6 +86,8 @@ generated_at: "2026-05-17T20:50:09"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
+- **S35-A041** — S35-A041 — Hawkwind au Free Trade Hall : concert comme choc sensoriel total  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
 - **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
@@ -133,10 +136,8 @@ generated_at: "2026-05-17T20:50:09"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S40-A007** — S40-A007 — Futur perdu : outil de réception, non preuve historique  
-  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_conceptuelle` ; importance : `majeure` ; preuve : `garde-fou méthodologique`.
-- **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
-  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
+- **S35-A002** — S35-A002 — Macclesfield : enfance, industrie, Parkside et double décor mental  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -361,12 +362,12 @@ generated_at: "2026-05-17T20:50:09"
 - Hulme (5)
 - diy (4)
 - Ian Curtis (4)
+- Macclesfield (4)
 - postindustrial cityscapes (3)
 - no future (3)
 - imaginative historicism (3)
 - Ian Wood (3)
 - NME (3)
-- Macclesfield (3)
 - classe ouvriere (3)
 - slum clearance (3)
 - mémoire culturelle (3)
@@ -443,11 +444,16 @@ generated_at: "2026-05-17T20:50:09"
 - scène locale (2)
 - séparation production-réception (2)
 - prudence anti-anachronique (2)
+- travail répétitif (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
 - ville moderne (2)
 - Hulme Crescents (2)
+- solitude (2)
+- fuite provinciale (2)
+- style comme appartenance (2)
+- signes vestimentaires (2)
 - Granada (1)
 - World in Action (1)
 - monochrome (1)
@@ -471,11 +477,6 @@ generated_at: "2026-05-17T20:50:09"
 - extrapolation (1)
 - prudence anti-téléologique (1)
 - futur perdu (1)
-- anti-prophétie (1)
-- anti-mythe (1)
-- médiation critique (1)
-- Londres (1)
-- punk (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -582,6 +583,7 @@ generated_at: "2026-05-17T20:50:09"
 | contrepoint | 3 |
 | lieu | 3 |
 | politique_urbaine | 3 |
+| contexte_biographique | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
@@ -593,6 +595,9 @@ generated_at: "2026-05-17T20:50:09"
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
 | motif_discursif | 2 |
+| formation_sensible | 2 |
+| formation_sociale | 2 |
+| scene_ecoute | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
 | prudence_conceptuelle | 1 |
@@ -640,7 +645,6 @@ generated_at: "2026-05-17T20:50:09"
 | comparaison_generations | 1 |
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
-| contexte_biographique | 1 |
 | lieu_culturel | 1 |
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
@@ -653,6 +657,17 @@ generated_at: "2026-05-17T20:50:09"
 | conflit_institutionnel | 1 |
 | discours_religieux | 1 |
 | evenement_urbain | 1 |
+| culture_materielle | 1 |
+| scene_biographique | 1 |
+| formation_mediatique | 1 |
+| scene_sociale_pop | 1 |
+| scene_sociale_style | 1 |
+| lieu_imaginaire | 1 |
+| formation_culturelle | 1 |
+| conflit_generationnel | 1 |
+| scene_revelation_live | 1 |
+| motif_geographique | 1 |
+| scene_ecoute_prudente | 1 |
 | evenement_scene | 1 |
 | infrastructure_scene | 1 |
 | sociologie_scene | 1 |
@@ -673,9 +688,13 @@ generated_at: "2026-05-17T20:50:09"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 30 |
-| majeure | 17 |
+| critique | 31 |
+| majeure | 25 |
+| utile | 7 |
 | majeur | 2 |
+| critique pour l’arrière-plan social de la musique | 1 |
+| majeure pour la sociologie des signes pré-punk | 1 |
+| critique pour le chapitre 1 | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -718,6 +737,22 @@ generated_at: "2026-05-17T20:50:09"
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
+- S35-A021 [moyen] — Ne pas faire de ces lectures une cause directe du style Joy Division.
+- S35-A022 [moyen] — Ne pas psychologiser mécaniquement la batterie de Morris à partir du père.
+- S35-A023 [moyen] — Ne pas convertir l’enfance scolaire en explication totale de l’esthétique future.
+- S35-A025 [faible] — À employer comme scène de formation, non comme causalité esthétique.
+- S35-A027 [faible] — Atome descriptif, à ne pas isoler comme thèse causale.
+- S35-A028 [faible] — La scène éclaire une formation sensible, non une influence musicale directe.
+- S35-A031 [faible] — La valeur de l’atome tient à la scène sociale, non à une influence esthétique directe.
+- S35-A033 [faible] — Scène de socialisation, non influence musicale directe.
+- S35-A034 [moyen] — Ne pas transformer Jodrell Bank en origine directe de l’électronique Joy Division/New Order.
+- S35-A035 [moyen] — Ne pas psychologiser toute l’esthétique Morris par le grammar school.
+- S35-A037 [moyen] — Ne pas surestimer le degré de compréhension théorique de Morris adolescent.
+- S35-A038 [faible] — Scène utile comme médiation culturelle, non comme source factuelle principale.
+- S35-A040 [moyen] — Ne pas réduire le père à un simple passé réactionnaire ; le passage reste humoristique.
+- S35-A041 [moyen] — Ne pas faire d’Hawkwind la source unique du son Joy Division.
+- S35-A042 [faible] — La scène sert directement l’opposition Macclesfield/Manchester.
+- S35-A045 [élevé] — Ne pas faire de la drogue un moteur esthétique du style Morris.
 
 ## 15. Lacunes et prochaines vérifications
 

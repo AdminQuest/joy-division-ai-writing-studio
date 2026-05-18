@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T09:18:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 902 |
+| Atomes | 916 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 34 |
+| Sources mobilisées | 35 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 14 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -93,6 +94,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
+- **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A020** — S35-A020 — Mort de Curtis et recomposition : Starting Over / New York New York  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_posthume` ; importance : `critique` ; preuve : `forte`.
+- **S35-A043** — S35-A043 — Bowie au Free Trade Hall : le groupe comme énigme sociale  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
 - **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
@@ -135,12 +142,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
 - **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
-- **S41-A062** — S41-A062 — Short Circuit dans la timeline : événement discographique réduit à une entrée froide  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale + événement discographique établi`.
-- **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
 
 ## 6. Autres atomes utiles
 
@@ -450,23 +451,23 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ## 11. Concepts récurrents
 
-- New Order (42)
-- Factory (33)
+- New Order (43)
+- Factory (34)
 - Ian Curtis (30)
 - Still (27)
 - Joy Division (25)
 - Unknown Pleasures (22)
 - Peter Saville (20)
+- Rob Gretton (17)
 - Love Will Tear Us Apart (17)
+- prudence historiographique (17)
 - NME (16)
-- Rob Gretton (16)
-- prudence historiographique (16)
 - Atmosphere (14)
+- Tony Wilson (14)
 - Factory Records (14)
 - réception (13)
 - new order (13)
 - factory records (13)
-- Tony Wilson (13)
 - peter saville (12)
 - martin hannett (11)
 - Ceremony (11)
@@ -490,6 +491,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Bernard Sumner (7)
 - Warsaw (7)
 - Martin Hannett (7)
+- management (7)
 - factory (7)
 - joy division (6)
 - new pop (6)
@@ -504,7 +506,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
-- management (6)
 - critique musicale (5)
 - manchester (5)
 - Kevin Cummins (5)
@@ -548,6 +549,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - John Peel (6)
 - Electric Circus (6)
 - Kevin Cummins (6)
+- NME (5)
 - Love Will Tear Us Apart (5)
 - Haçienda (5)
 - New Order (5)
@@ -562,7 +564,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
-- NME (4)
 - radio (4)
 - Ceremony (4)
 - Decades (4)
@@ -668,7 +669,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 17 |
+| prudence_methodologique | 18 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -720,6 +721,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_documentaire | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
+| transition_posthume | 3 |
 | analyse_morceau | 3 |
 | dernier_concert | 3 |
 | esthétique_visuelle | 3 |
@@ -747,7 +749,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mediation_audiovisuelle | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
-| transition_posthume | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
@@ -790,6 +791,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | politique_urbaine | 2 |
 | motif_discursif | 2 |
+| culture_materielle | 2 |
+| acteur_mediation | 2 |
+| scene_ecoute | 2 |
 | marketing | 2 |
 | album | 2 |
 | reception_starification | 1 |
@@ -1073,6 +1077,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_album | 1 |
 | reception_memoire | 1 |
 | discours_religieux | 1 |
+| formation_sensible | 1 |
+| scene_sociale_pop | 1 |
+| scene_sociale_style | 1 |
+| formation_culturelle | 1 |
+| scene_revelation_live | 1 |
+| scene_ecoute_prudente | 1 |
 | contexte_urbain | 1 |
 | infrastructure_scene | 1 |
 | lecture_filmique | 1 |
@@ -1127,12 +1137,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 252 |
-| majeure | 63 |
+| critique | 255 |
+| majeure | 68 |
 | majeur | 28 |
-| utile | 3 |
+| utile | 6 |
 | structurante | 2 |
 | moyenne | 2 |
+| critique pour l’arrière-plan social de la musique | 1 |
+| majeure pour la sociologie des signes pré-punk | 1 |
+| critique pour la généalogie pré-punk | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
