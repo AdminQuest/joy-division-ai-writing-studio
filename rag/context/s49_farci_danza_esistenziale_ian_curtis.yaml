@@ -1,0 +1,47 @@
+id: RAG-S49-FARCI-DANZA-ESISTENZIALE
+source_id: S49
+source_label: "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021"
+source_path: "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md"
+relations_path: "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md"
+structuring_registers_path: "registers/s49_farci_structuring_registers.md"
+specialized_registers_path: "registers/s49_farci_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s49_farci_danza_esistenziale_ian_curtis.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S49"
+  pdf_pages: "99-113"
+  scope: "chapitre Farci uniquement, non volume collectif complet"
+primary_chapter: "Chapitre 4"
+secondary_chapters:
+  - "Chapitre 11"
+  - "Chapitre 12"
+  - "Chapitre 13"
+  - "Chapitre 14"
+key_atoms:
+  - S49-A001
+  - S49-A002
+  - S49-A006
+  - S49-A007
+  - S49-A010
+  - S49-A012
+  - S49-A015
+  - S49-A017
+key_concepts:
+  - CONCEPT-masculinite_post_punk
+  - CONCEPT-corps_scenique_comme_symptome_culturel
+  - CONCEPT-melancolie_masculine
+key_motifs:
+  - MOTIF-danse_existentielle
+  - MOTIF-poids_de_soi_meme
+key_myths:
+  - MYTH-danse_curtis_purement_epileptique
+  - MYTH-curtis_sacrifice_legendaire
+writing_use: >
+  Utiliser S49 comme source secondaire critique pour lire Ian Curtis à travers le corps scénique, la danse existentielle,
+  la masculinité post-punk, la mélancolie masculine et les risques de romantisation. Ne pas utiliser S49 comme source
+  primaire sur les faits médicaux, les dates de concert, les crédits discographiques ou les paroles.
+verification_rules:
+  - "Vérifier toute parole de chanson dans le registre lyrique avant citation manuscrite."
+  - "Croiser l’épilepsie, les crises et la santé avec S41, S45, S76 et les sources médicales disponibles."
+  - "Ne pas convertir la lecture de Farci en diagnostic clinique."
+  - "Ne pas traiter le suicide comme sacrifice légendaire ou accomplissement esthétique."
