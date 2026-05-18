@@ -1,6 +1,68 @@
 [
   {
     "kind": "person",
+    "id": "PERS-S49-001",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Acteurs",
+    "data": {
+      "id": "PERS-S49-001",
+      "type_unite": "personne",
+      "source_id": "S49",
+      "name": "Manolo Farci",
+      "role": "Auteur du chapitre S49 ; sociologie culturelle, masculinité post-punk, performance de Ian Curtis.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S49-002",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Acteurs",
+    "data": {
+      "id": "PERS-S49-002",
+      "type_unite": "personne",
+      "source_id": "S49",
+      "name": "Ian Curtis",
+      "role": "Figure centrale de la lecture Farci ; frontman vulnérable, corps scénique, danse existentielle, crise de masculinité.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S49-003",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Acteurs",
+    "data": {
+      "id": "PERS-S49-003",
+      "type_unite": "personne",
+      "source_id": "S49",
+      "name": "David Byrne",
+      "role": "Point de comparaison pour la gestuelle nerveuse new wave, opposée à la fonction du corps de Curtis.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S75-026",
     "file": "registers/people/s75_ott_people_part_03.md",
     "heading": "PERS-S75-026 — Stephen Morris",

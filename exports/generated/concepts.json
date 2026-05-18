@@ -1137,6 +1137,95 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-masculinite_post_punk",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-masculinite_post_punk",
+      "type_unite": "concept",
+      "source_id": "S49",
+      "nom": "masculinité post-punk",
+      "definition": "Configuration critique dans laquelle le post-punk déplace l’idéal viril rock vers la vulnérabilité, la désérotisation du corps, la mélancolie, l’ambivalence de genre et la crise du frontman.\n",
+      "sources": [
+        "S49"
+      ],
+      "atomes": [
+        "S49-A001",
+        "S49-A007",
+        "S49-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-corps_scenique_comme_symptome_culturel",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-corps_scenique_comme_symptome_culturel",
+      "type_unite": "concept",
+      "source_id": "S49",
+      "nom": "corps scénique comme symptôme culturel",
+      "definition": "Lecture du corps de Curtis comme lieu où se condensent performance, maladie, réception, crise de genre et perte de contrôle, sans réduction à un fait clinique brut.\n",
+      "sources": [
+        "S49"
+      ],
+      "atomes": [
+        "S49-A006",
+        "S49-A007",
+        "S49-A010"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-melancolie_masculine",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-melancolie_masculine",
+      "type_unite": "concept",
+      "source_id": "S49",
+      "nom": "mélancolie masculine",
+      "definition": "Structure paradoxale où la vulnérabilité et la perte deviennent une nouvelle forme d’authenticité masculine, tout en pouvant reconduire l’image d’une forteresse intérieure.\n",
+      "sources": [
+        "S49"
+      ],
+      "atomes": [
+        "S49-A014",
+        "S49-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

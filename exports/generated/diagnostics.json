@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T15:41:23",
+  "generated_at": "2026-05-18T16:52:39",
   "status": "warning",
   "summary": {
-    "records_total": 4724,
+    "records_total": 4773,
     "records_by_kind": {
-      "atom": 2061,
+      "atom": 2078,
       "metadata": 145,
-      "unknown": 518,
+      "unknown": 532,
       "source": 76,
-      "concept": 257,
-      "motif": 315,
-      "myth": 40,
-      "quote": 369,
-      "chronology": 353,
+      "concept": 260,
+      "motif": 317,
+      "myth": 42,
+      "quote": 372,
+      "chronology": 355,
+      "person": 184,
+      "song": 56,
       "template": 354,
-      "song": 53,
       "quote_batch": 1,
-      "rules": 1,
-      "person": 181
+      "rules": 1
     },
-    "diagnostics_total": 21945,
+    "diagnostics_total": 22136,
     "errors": 0,
-    "warnings": 21945,
+    "warnings": 22136,
     "sources_declared_in_registre_json": 57,
     "sources_used_in_records": 37,
     "sources_exported": 37,
@@ -1029,12 +1029,16 @@
         "auteur": "Manolo Farci",
         "titre": "Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 54,
+        "atoms": 17,
+        "quotes": 3,
+        "chronology": 2,
         "files": [
-          "sources/farci_danza_esistenziale_ian_curtis/source.md"
+          "registers/s49_farci_specialized_registers.md",
+          "registers/s49_farci_structuring_registers.md",
+          "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+          "sources/farci_danza_esistenziale_ian_curtis/source.md",
+          "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md"
         ]
       },
       {
@@ -69886,6 +69890,972 @@
     },
     {
       "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S49-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_generationnelle",
+      "record_id": "S49-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S49-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_performance",
+      "record_id": "S49-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S49-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: evenement_audiovisuel",
+      "record_id": "S49-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S49-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_scene",
+      "record_id": "S49-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "record_id": "S49-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_performance",
+      "record_id": "S49-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: comparaison_critique",
+      "record_id": "S49-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: mythe_a_deconstruire",
+      "record_id": "S49-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_scene_et_chanson",
+      "record_id": "S49-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_textuelle",
+      "record_id": "S49-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S49-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S49-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S49-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S49-008"
+    },
+    {
+      "level": "warning",
       "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
       "message": "Missing required field: chapitres",
       "record_id": "S34-A001"
@@ -114655,6 +115625,186 @@
       "file": "sources/greig_strong/source.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S69-A020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S49-FISHER-2013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S49-BUTLER-1997"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S49-REYNOLDS-2005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S49-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S49-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S49-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S49-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S49-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S49-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S49-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S49-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser",
+      "record_id": "CHR-S49-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S49-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S49-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Invalid value for certainty: contexte culturel à croiser",
+      "record_id": "CHR-S49-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S49-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S49-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S49-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S49-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S49-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S49-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S49-DISORDER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S49-DISORDER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S49-DISORDER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S49-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S49-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S49-DECADES"
     },
     {
       "level": "warning",

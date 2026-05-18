@@ -11434,6 +11434,167 @@ warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNew
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996_part3.md,S74-A021,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md,S74-A008,Invalid value for type_unite: fait_interprete,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md,S74-A009,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A002,Invalid value for type_unite: lecture_generationnelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Invalid value for type_unite: lecture_performance,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A005,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A006,Invalid value for type_unite: evenement_audiovisuel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A007,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A008,Invalid value for type_unite: contexte_scene,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A009,Invalid value for type_unite: prudence_interpretative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A010,Invalid value for type_unite: analyse_performance,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A011,Invalid value for type_unite: comparaison_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A012,Invalid value for type_unite: mythe_a_deconstruire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A013,Invalid value for type_unite: lecture_scene_et_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A014,Invalid value for type_unite: lecture_textuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A015,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A016,Invalid value for type_unite: tension_documentaire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A017,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/farci_danza_esistenziale_ian_curtis/relations_s49.md,REL-S49-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/fraser_fuoto_manchester_1976/source_part_01.md,S34-A001,Missing required field: chapitres,Compléter le champ obligatoire.
 warning,invalid_controlled_value,sources/fraser_fuoto_manchester_1976/source_part_01.md,S34-A001,Invalid value for fiabilite: forte comme source critique ; à croiser pour les faits biographiques et les citations de paroles,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/fraser_fuoto_manchester_1976/source_part_01.md,S34-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -18896,6 +19057,36 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-FISHER-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-BUTLER-1997,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-REYNOLDS-2005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,CHR-S49-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,CHR-S49-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s49_farci_specialized_registers.md,CHR-S49-1979-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,CHR-S49-1979-002,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,CHR-S49-1979-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s49_farci_specialized_registers.md,CHR-S49-1979-002,Invalid value for certainty: contexte culturel à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,PERS-S49-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,PERS-S49-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,PERS-S49-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s49_farci_specialized_registers.md,LIEU-S49-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s49_farci_specialized_registers.md,LIEU-S49-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s49_farci_specialized_registers.md,ORG-S49-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DISORDER,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DISORDER,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DISORDER,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md,ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md,ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s20_dodge_organizations_housing_geographies_v2.md,ORGS-S20-HOUSING-GEOGRAPHIES-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

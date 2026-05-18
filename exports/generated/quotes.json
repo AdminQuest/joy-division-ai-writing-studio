@@ -1613,7 +1613,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1726",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1751",
     "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
     "heading": "Citations candidates — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -2143,7 +2143,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::2524",
+    "id": "NO_ID::sources/hook/citations_exactes.md::2549",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -2648,6 +2648,91 @@
       "risques": "Citation polémique ; doit être sourcée au Guardian si reprise.",
       "page_pdf": 12,
       "importance": "moyenne"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S49-Q001",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Citations candidates",
+    "data": {
+      "id": "S49-Q001",
+      "type_unite": "citation",
+      "source_id": "S49",
+      "statut": "candidate",
+      "langue_originale": "it",
+      "citation_directe": null,
+      "resume": "Farci formule le post-punk comme accélérateur de la déconstruction de l’idéal viril masculin.",
+      "pages": {
+        "pdf": [
+          99,
+          100
+        ]
+      },
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "prudence": "Paraphrase recommandée ; citation italienne à vérifier avant insertion manuscrit.",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S49-Q002",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Citations candidates",
+    "data": {
+      "id": "S49-Q002",
+      "type_unite": "citation",
+      "source_id": "S49",
+      "statut": "candidate",
+      "langue_originale": "it",
+      "citation_directe": null,
+      "resume": "Farci décrit la danse de Curtis comme expression d’une masculinité post-punk blanche confrontée à ses altérités.",
+      "pages": {
+        "pdf": [
+          103
+        ]
+      },
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 13"
+      ],
+      "prudence": "Paraphrase préférable ; garder la distance critique sur les catégories de genre et de race.",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S49-Q003",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Citations candidates",
+    "data": {
+      "id": "S49-Q003",
+      "type_unite": "citation",
+      "source_id": "S49",
+      "statut": "candidate",
+      "langue_originale": "it",
+      "citation_directe": null,
+      "resume": "Farci refuse en conclusion de transformer le suicide de Curtis en sacrifice légendaire ou en simple conséquence dépressive.",
+      "pages": {
+        "pdf": [
+          113
+        ]
+      },
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "prudence": "Citation possible après vérification textuelle stricte ; usage anti-téléologique.",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
     }
   },
   {

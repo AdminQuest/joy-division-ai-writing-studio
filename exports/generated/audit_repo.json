@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-18T15:41:35",
+  "generated_at": "2026-05-18T16:52:52",
   "summary": {
-    "records_total": 4724,
+    "records_total": 4773,
     "records_by_kind": {
-      "atom": 2061,
+      "atom": 2078,
       "metadata": 145,
-      "unknown": 518,
+      "unknown": 532,
       "source": 76,
-      "concept": 257,
-      "motif": 315,
-      "myth": 40,
-      "quote": 369,
-      "chronology": 353,
+      "concept": 260,
+      "motif": 317,
+      "myth": 42,
+      "quote": 372,
+      "chronology": 355,
+      "person": 184,
+      "song": 56,
       "template": 354,
-      "song": 53,
       "quote_batch": 1,
-      "rules": 1,
-      "person": 181
+      "rules": 1
     },
-    "diagnostics_total": 21945,
+    "diagnostics_total": 22136,
     "errors": 0,
-    "warnings": 21945,
+    "warnings": 22136,
     "sources_declared_in_registre_json": 57,
     "sources_used_in_records": 37,
     "sources_exported": 37,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2061,
-    "chronology": 353,
-    "concept": 257,
+    "atom": 2078,
+    "chronology": 355,
+    "concept": 260,
     "metadata": 145,
-    "motif": 315,
-    "myth": 40,
-    "person": 181,
-    "quote": 369,
+    "motif": 317,
+    "myth": 42,
+    "person": 184,
+    "quote": 372,
     "quote_batch": 1,
     "rules": 1,
-    "song": 53,
+    "song": 56,
     "source": 76,
     "template": 354,
-    "unknown": 518
+    "unknown": 532
   },
   "records_by_source": {
     "S02": {
@@ -249,8 +249,17 @@
       "atom": 13
     },
     "S49": {
+      "atom": 17,
+      "unknown": 14,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "concept": 3,
+      "motif": 2,
+      "myth": 2,
+      "quote": 3,
+      "chronology": 2,
+      "person": 3,
+      "song": 3
     },
     "S68": {
       "quote": 3,
@@ -306,18 +315,18 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 382,
+    "Chapitre 1": 383,
     "Chapitre 10": 271,
-    "Chapitre 11": 290,
-    "Chapitre 12": 508,
-    "Chapitre 13": 160,
-    "Chapitre 14": 1269,
+    "Chapitre 11": 300,
+    "Chapitre 12": 524,
+    "Chapitre 13": 169,
+    "Chapitre 14": 1273,
     "Chapitre 2": 484,
-    "Chapitre 3": 582,
-    "Chapitre 4": 348,
+    "Chapitre 3": 584,
+    "Chapitre 4": 363,
     "Chapitre 5": 474,
-    "Chapitre 6": 601,
-    "Chapitre 7": 220,
+    "Chapitre 6": 603,
+    "Chapitre 7": 222,
     "Chapitre 8": 406,
     "Chapitre 9": 286,
     "Chapitre bootlegs": 8,
@@ -448,11 +457,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 1861,
-    "missing_required_field": 6072,
+    "invalid_controlled_value": 1880,
+    "missing_required_field": 6179,
     "schema_warning": 494,
-    "unknown_yaml_block": 518,
-    "v2_migration_debt": 12697
+    "unknown_yaml_block": 532,
+    "v2_migration_debt": 12748
   },
   "top_files_by_issue_count": [
     [
@@ -1327,6 +1336,70 @@
       "category": "unknown_yaml_block",
       "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
       "record_id": "REL-S42-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-008",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -3015,6 +3088,54 @@
       "category": "unknown_yaml_block",
       "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
       "record_id": "REF-S22-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-FISHER-2013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-BUTLER-1997",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-REYNOLDS-2005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "LIEU-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "LIEU-S49-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "ORG-S49-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4724,10 +4845,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2061,
+    "atoms_total": 2078,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 1988,
-    "v2_missing_field_warnings": 12697
+    "atoms_v2_incomplete": 2005,
+    "v2_missing_field_warnings": 12748
   },
   "source_registry": {
     "declared_but_unused": [
@@ -5729,12 +5850,16 @@
         "auteur": "Manolo Farci",
         "titre": "Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 54,
+        "atoms": 17,
+        "quotes": 3,
+        "chronology": 2,
         "files": [
-          "sources/farci_danza_esistenziale_ian_curtis/source.md"
+          "registers/s49_farci_specialized_registers.md",
+          "registers/s49_farci_structuring_registers.md",
+          "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+          "sources/farci_danza_esistenziale_ian_curtis/source.md",
+          "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md"
         ]
       },
       {
@@ -97457,6 +97582,1294 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A001",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A002",
+      "message": "Invalid value for type_unite: lecture_generationnelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A003",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A004",
+      "message": "Invalid value for type_unite: lecture_performance",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A005",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A006",
+      "message": "Invalid value for type_unite: evenement_audiovisuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A007",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A008",
+      "message": "Invalid value for type_unite: contexte_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A009",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A010",
+      "message": "Invalid value for type_unite: analyse_performance",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A011",
+      "message": "Invalid value for type_unite: comparaison_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A012",
+      "message": "Invalid value for type_unite: mythe_a_deconstruire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A013",
+      "message": "Invalid value for type_unite: lecture_scene_et_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A014",
+      "message": "Invalid value for type_unite: lecture_textuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A015",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A016",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
+      "record_id": "S49-A017",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/farci_danza_esistenziale_ian_curtis/relations_s49.md",
+      "record_id": "REL-S49-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
       "record_id": "S34-A001",
       "message": "Missing required field: chapitres",
@@ -157149,6 +158562,246 @@
       "record_id": "S69-A020",
       "message": "Invalid value for type_unite: synthese",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-FISHER-2013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-BUTLER-1997",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_structuring_registers.md",
+      "record_id": "REF-S49-REYNOLDS-2005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "S49-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-001",
+      "message": "Invalid value for certainty: à croiser",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-002",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "CHR-S49-1979-002",
+      "message": "Invalid value for certainty: contexte culturel à croiser",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "PERS-S49-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "PERS-S49-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "PERS-S49-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "LIEU-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "LIEU-S49-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "ORG-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DISORDER",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DISORDER",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DISORDER",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-SHES_LOST_CONTROL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DECADES",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DECADES",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s49_farci_specialized_registers.md",
+      "record_id": "SONG-S49-DECADES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",

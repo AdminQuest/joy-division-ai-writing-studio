@@ -1,6 +1,67 @@
 [
   {
     "kind": "song",
+    "id": "SONG-S49-DISORDER",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S49-DISORDER",
+      "type_unite": "song",
+      "source_id": "S49",
+      "song": "Disorder",
+      "usage": "Question de la normalité masculine et des plaisirs d’un homme normal ; paroles à vérifier avant citation.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S49-SHES_LOST_CONTROL",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S49-SHES_LOST_CONTROL",
+      "type_unite": "song",
+      "source_id": "S49",
+      "song": "She’s Lost Control",
+      "usage": "Performance BBC, désérotisation du corps rock, transfert de la maladie vers une figure féminine.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S49-DECADES",
+    "file": "registers/s49_farci_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S49-DECADES",
+      "type_unite": "song",
+      "source_id": "S49",
+      "song": "Decades",
+      "usage": "Conclusion sur les jeunes hommes et le poids d’eux-mêmes ; mélodica et référence Augustus Pablo à vérifier.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S29-001",
     "file": "registers/songs/s29_goddard_songs.md",
     "heading": "SONG-S29-001 — « Dead Souls »",
@@ -470,7 +531,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::2838",
+    "id": "NO_ID::registers/songs/master_songs.md::2887",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

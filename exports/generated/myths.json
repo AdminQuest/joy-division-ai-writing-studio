@@ -379,6 +379,57 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-danse_curtis_purement_epileptique",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-danse_curtis_purement_epileptique",
+      "type_unite": "mythe",
+      "source_id": "S49",
+      "nom": "la danse de Curtis serait seulement une crise d’épilepsie",
+      "deconstruction": "S49 invite à distinguer fait médical, réception scénique et valeur symbolique. La danse ne peut être réduite ni à une esthétique volontaire pure, ni à un simple symptôme clinique.\n",
+      "atomes": [
+        "S49-A006",
+        "S49-A007",
+        "S49-A010"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_sacrifice_legendaire",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-curtis_sacrifice_legendaire",
+      "type_unite": "mythe",
+      "source_id": "S49",
+      "nom": "Curtis comme sacrifice légendaire",
+      "deconstruction": "La conclusion de Farci refuse de transformer le suicide en sacrifice légendaire ou en conséquence évidente d’une chute dépressive.\n",
+      "atomes": [
+        "S49-A012",
+        "S49-A017"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

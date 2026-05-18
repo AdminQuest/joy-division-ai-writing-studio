@@ -588,6 +588,57 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-danse_existentielle",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-danse_existentielle",
+      "type_unite": "motif",
+      "source_id": "S49",
+      "nom": "danse existentielle",
+      "definition": "Motif interprétatif de la gestuelle de Curtis comme expression scénique de perte de contrôle, de vulnérabilité et de crise de la masculinité post-punk.\n",
+      "atomes": [
+        "S49-A006",
+        "S49-A007",
+        "S49-A010"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-poids_de_soi_meme",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-poids_de_soi_meme",
+      "type_unite": "motif",
+      "source_id": "S49",
+      "nom": "poids de soi-même",
+      "definition": "Motif final du chapitre Farci : les jeunes hommes ne portent pas seulement une époque, mais le fardeau de leur propre identité masculine en recomposition.\n",
+      "atomes": [
+        "S49-A002",
+        "S49-A017"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",
