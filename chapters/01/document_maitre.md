@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T20:57:04"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 232 |
+| Atomes | 236 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 12 |
-| Événements chronologiques | 7 |
-| Personnes | 16 |
+| Citations | 16 |
+| Événements chronologiques | 8 |
+| Personnes | 17 |
 | Chansons | 1 |
-| Sources mobilisées | 32 |
+| Sources mobilisées | 33 |
 
 ## 4. Sources mobilisées
 
@@ -60,6 +60,7 @@ generated_at: "2026-05-18T20:57:04"
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 0 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 4 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
@@ -123,6 +124,10 @@ generated_at: "2026-05-18T20:57:04"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
+- **S53-A002** — S53-A002 — *Slancio vitale* et bain émotionnel de mythes et symboles  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_theorique`.
+- **S53-A003** — S53-A003 — Manchester comme *genius loci*  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
@@ -135,10 +140,6 @@ generated_at: "2026-05-18T20:57:04"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 - **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
-- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
-- **S34-A003** — S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -309,6 +310,10 @@ generated_at: "2026-05-18T20:57:04"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
@@ -320,6 +325,7 @@ generated_at: "2026-05-18T20:57:04"
 
 ## 8. Chronologie rattachée
 
+- CHR-S53-1976-06-04-001 — Concert des Sex Pistols à la Lesser Free Trade Hall, repris par La Rocca comme scène d’effervescence mancunienne et origine mythographique.
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
 - CHR-S34-1976-001 — Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.
 - CHR-S34-1977-001 — L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.
@@ -330,6 +336,7 @@ generated_at: "2026-05-18T20:57:04"
 
 ## 9. Personnes et acteurs
 
+- PERS-S53-006 — Tony Wilson
 - PERS-S34-001 — Benjamin Fraser
 - PERS-S34-002 — Abby Fuoto
 - PERS-S34-003 — Grant Gee
@@ -438,7 +445,7 @@ generated_at: "2026-05-18T20:57:04"
 
 ### 12.1. Motifs dominants
 
-- Manchester (6)
+- Manchester (7)
 - Salford (3)
 - Shadowplay (2)
 - politique (2)
@@ -530,6 +537,10 @@ generated_at: "2026-05-18T20:57:04"
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
+- S53-A002 — fonde → CONCEPT-energie_socio_esthetique
+- S53-A003 — a_croiser → S42
+- S53-A004 — prolonge → S53-A003
+- S53-A009 — a_croiser → S15
 - S34-A001 — prolonge → CONCEPT-004
 - S34-A001 — nuance → MYTH-003
 - S34-A002 — relie → S34-A001
@@ -557,10 +568,6 @@ generated_at: "2026-05-18T20:57:04"
 - S76-A004 — requiert → CONCEPT-004
 - S76-A075 — nuance → MYTH-003
 - S76-A075 — relie → CONCEPT-003
-- S76-A075 — relie → MOTIF-008
-- S76-A015 — prolonge → MOTIF-006
-- S76-A015 — nuance → MYTH-003
-- S76-A015 — prepare → S76-A016
 
 ## 13. Distribution documentaire
 
@@ -569,8 +576,8 @@ generated_at: "2026-05-18T20:57:04"
 | Type | Nombre |
 |---|---|
 | source_part | 14 |
+| concept_structurant | 14 |
 | prudence_methodologique | 13 |
-| concept_structurant | 12 |
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
@@ -592,6 +599,7 @@ generated_at: "2026-05-18T20:57:04"
 | temporalite_culturelle | 2 |
 | critique_historiographique | 2 |
 | chronologie | 2 |
+| motif_structurant | 2 |
 | contexte_urbain | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
@@ -633,7 +641,6 @@ generated_at: "2026-05-18T20:57:04"
 | travail | 1 |
 | citation_clef | 1 |
 | environnement_social | 1 |
-| motif_structurant | 1 |
 | conditions_materielles | 1 |
 | paradoxe_politique | 1 |
 | scene_regionale | 1 |
@@ -646,6 +653,7 @@ generated_at: "2026-05-18T20:57:04"
 | citation_repere | 1 |
 | biographie_collective | 1 |
 | temoignage | 1 |
+| evenement_symbolique | 1 |
 | archive | 1 |
 | controverse | 1 |
 | comparaison_generations | 1 |
@@ -697,8 +705,8 @@ generated_at: "2026-05-18T20:57:04"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 33 |
-| majeure | 30 |
+| critique | 35 |
+| majeure | 32 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

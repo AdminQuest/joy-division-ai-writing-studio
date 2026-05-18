@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T20:57:04"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 283 |
+| Atomes | 285 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 65 |
+| Citations | 67 |
 | Événements chronologiques | 51 |
-| Personnes | 38 |
+| Personnes | 39 |
 | Chansons | 19 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ generated_at: "2026-05-18T20:57:04"
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 2 | 0 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 2 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 7 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 2 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -303,6 +304,8 @@ generated_at: "2026-05-18T20:57:04"
 - **S52-Q008** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S53-Q010** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -328,8 +331,6 @@ generated_at: "2026-05-18T20:57:04"
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q179** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q181** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -381,6 +382,7 @@ generated_at: "2026-05-18T20:57:04"
 - PERS-S52-007 — Peter Hook
 - PERS-S52-008 — Stephen Morris
 - PERS-S52-009 — Jon Savage
+- PERS-S53-002 — Ian Curtis
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -525,9 +527,9 @@ generated_at: "2026-05-18T20:57:04"
 ### 12.1. Motifs dominants
 
 - Deborah Curtis (10)
+- Ian Curtis (9)
 - Barton Street (8)
 - She’s Lost Control (8)
-- Ian Curtis (8)
 - épilepsie (8)
 - Natalie Curtis (7)
 - Love Will Tear Us Apart (6)
@@ -688,6 +690,7 @@ generated_at: "2026-05-18T20:57:04"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
+| performance_sensible | 2 |
 | tension_documentaire | 2 |
 | lettre_intime | 2 |
 | tension_domestique | 2 |
@@ -749,6 +752,7 @@ generated_at: "2026-05-18T20:57:04"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| figure_mythique | 1 |
 | lecture_performance | 1 |
 | analyse_performance | 1 |
 | lecture_scene_et_chanson | 1 |
@@ -761,7 +765,6 @@ generated_at: "2026-05-18T20:57:04"
 | reseau_sources | 1 |
 | critique_filmique | 1 |
 | contradiction_biographique | 1 |
-| performance_sensible | 1 |
 | temoignage_croise | 1 |
 | demythification | 1 |
 | formule_conceptuelle | 1 |
@@ -828,7 +831,7 @@ generated_at: "2026-05-18T20:57:04"
 
 | Importance | Nombre |
 |---|---|
-| critique | 138 |
+| critique | 140 |
 | non qualifiée | 94 |
 | majeure | 43 |
 | utile | 4 |

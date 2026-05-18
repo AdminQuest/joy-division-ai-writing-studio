@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 234 |
+| Atomes | 239 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 29 |
-| Événements chronologiques | 13 |
-| Personnes | 29 |
-| Chansons | 8 |
-| Sources mobilisées | 21 |
+| Citations | 33 |
+| Événements chronologiques | 15 |
+| Personnes | 33 |
+| Chansons | 10 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 13 | 3 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 6 | 4 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 5 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -304,6 +305,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -332,6 +337,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
+- CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
+- CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -354,6 +361,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
 - PERS-S50-004 — Warren Jackson
+- PERS-S53-001 — Fabio La Rocca
+- PERS-S53-005 — Anton Corbijn
+- PERS-S53-006 — Tony Wilson
+- PERS-S53-011 — Michael Winterbottom
 - PERS-S75-029 — Peter Saville
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -376,6 +387,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
@@ -476,16 +489,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Peter Saville (6)
 - Natalie (5)
 - silence (5)
+- Control (5)
 - Debbie (5)
 - Candy (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
-- Control (4)
+- prudence (4)
 - YouTube (4)
 - van (3)
 - Factory (3)
-- prudence (3)
 - biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -600,12 +613,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
+| concept_structurant | 9 |
 | tension_domestique | 8 |
-| concept_structurant | 7 |
 | reception | 7 |
 | scene_domestique | 6 |
+| prudence_methodologique | 6 |
 | biographie | 6 |
-| prudence_methodologique | 5 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
@@ -617,6 +630,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_medicale | 3 |
 | tension_relationnelle | 3 |
 | tension_management | 3 |
+| synthese_argumentative | 3 |
 | concert | 3 |
 | relation | 3 |
 | objet_visuel | 3 |
@@ -628,9 +642,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_social | 2 |
 | reception_precoce | 2 |
 | scene_management | 2 |
+| mediation_audiovisuelle | 2 |
 | reception_numerique | 2 |
 | analyse_video | 2 |
-| synthese_argumentative | 2 |
 | production | 2 |
 | economie_materielle | 2 |
 | interpretation_retrospective | 2 |
@@ -668,7 +682,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | acteur_mediation | 1 |
 | dispositif_creation | 1 |
 | periodisation_mediatique | 1 |
-| mediation_audiovisuelle | 1 |
 | reception_fan | 1 |
 | santé | 1 |
 | chanson_conceptuelle | 1 |
@@ -747,10 +760,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 115 |
+| critique | 119 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 13 |
+| majeure | 14 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

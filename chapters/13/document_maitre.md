@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 96 |
+| Atomes | 102 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 27 |
+| Citations | 32 |
 | Événements chronologiques | 13 |
-| Personnes | 29 |
+| Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 4 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 2 | 1 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 6 | 5 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -99,6 +100,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S52 — Rabbito, Control e l’infrangimento del vetro, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `temoignages_rapportes`.
 - **S52-A014** — S52-A014 — L’*epilepsy dance* précède l’épilepsie diagnostiquée  
   Source : S52 — Rabbito, Control e l’infrangimento del vetro, 2021 ; type : `demythification` ; importance : `critique` ; preuve : `temoignage_rapporte_par_s52`.
+- **S53-A001** — S53-A001 — S53 comme source sur l’incarnation mythique, non comme source factuelle primaire  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S53-A003** — S53-A003 — Manchester comme *genius loci*  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
+- **S53-A015** — S53-A015 — Corps gestuel de Curtis et esthétique affective  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `lecture_performative`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -115,12 +122,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
-- **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
-- **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 
 ## 6. Autres atomes utiles
 
@@ -176,6 +177,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_culturelle` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S49-A004** — S49-A004 — Curtis contre l’iconographie conventionnelle du frontman punk  
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `lecture_performance` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S53-A004** — S53-A004 — Grisaille industrielle et créativité issue des strates urbaines  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `interpretation_socio_esthetique`.
+- **S53-A010** — S53-A010 — *24 Hour Party People* et *Control* comme remédiations visuelles de Manchester  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `analyse_de_mediations`.
+- **S53-A014** — S53-A014 — Kevin Cummins, Epping Walk Bridge et mystère générationnel  
+  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `image_symbolique` ; importance : `majeure` ; preuve : `lecture_iconographique`.
 - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
@@ -210,14 +217,20 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
+- **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
 - **S76-A016** — S76-A016 — De Virgin à Reno’s : Reeder, Reilly et la cartographie musicale pré-Warsaw  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reseau_culturel` ; importance : `majeure` ; preuve : `temoignages_croises`.
 - **S76-A021** — S76-A021 — Salford Grammar, Lambretta et sociabilité pré-Joy Division  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_biographique_temoignage`.
 - **S76-A037** — S76-A037 — Octobre 1977 : Warsaw enchaîne les lieux mais reste périphérique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_scene` ; importance : `majeure` ; preuve : `chronologie_corroborable`.
+- **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
 - **S76-A058** — S76-A058 — Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `sociabilite_scene` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
+- **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 - **S76-A060** — S76-A060 — Gretton : catholicisme scolaire, Manchester City et style terrace  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
 - **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
@@ -251,6 +264,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -297,6 +315,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - PERS-S52-007 — Peter Hook
 - PERS-S52-008 — Stephen Morris
+- PERS-S53-001 — Fabio La Rocca
+- PERS-S53-003 — Kevin Cummins
+- PERS-S53-008 — Christian Norberg-Schulz
 - PERS-S49-002 — Ian Curtis
 - PERS-S49-003 — David Byrne
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
@@ -427,8 +448,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ### 12.1. Motifs dominants
 
 - Salford (5)
+- Kevin Cummins (5)
 - T. J. Davidson’s (4)
-- Kevin Cummins (4)
+- Manchester (4)
 - corps (4)
 - Little Peter Street (3)
 - Factory Club (3)
@@ -440,6 +462,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - punk (2)
 - Love Will Tear Us Apart video (2)
 - froid (2)
+- Control (2)
 - Jamaïque (2)
 - couleur (2)
 - She’s Lost Control (2)
@@ -449,7 +472,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - sociabilité musicale (2)
 - scène locale (2)
 - club (2)
-- Manchester (2)
 - Wythenshawe (2)
 - overspill estate (2)
 - vulnérabilité (2)
@@ -465,7 +487,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
-- post-punk (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -545,10 +566,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
-- S49-A004 — prepare → S49-A007
-- S49-A006 — fonde → S49-A007
-- S49-A006 — relie → ORG-S49-001
-- S49-A007 — fonde → CONCEPT-corps_scenique_comme_symptome_culturel
+- S53-A001 — limite → MYTH-mythe_comme_preuve
+- S53-A003 — a_croiser → S42
+- S53-A004 — prolonge → S53-A003
+- S53-A010 — a_croiser → S52
 
 ## 13. Distribution documentaire
 
@@ -559,14 +580,16 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concept | 9 |
 | lecture | 8 |
 | lieu | 4 |
+| concept_structurant | 4 |
 | analyse | 3 |
 | biographie | 3 |
-| concept_structurant | 3 |
 | lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
 | lieu_structurant | 2 |
+| prudence_methodologique | 2 |
 | cartographie_scene | 2 |
+| performance_sensible | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
@@ -582,7 +605,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | image_scenique | 1 |
 | lecture_textuelle | 1 |
 | archive | 1 |
-| prudence_methodologique | 1 |
 | lecture_chanson_espace | 1 |
 | institution_scene | 1 |
 | contexte_affectif | 1 |
@@ -592,10 +614,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
+| motif_structurant | 1 |
+| mediation_audiovisuelle | 1 |
+| image_symbolique | 1 |
 | lecture_performance | 1 |
 | evenement_audiovisuel | 1 |
 | analyse_performance | 1 |
-| performance_sensible | 1 |
 | demythification | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
@@ -626,8 +650,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 39 |
-| majeure | 28 |
+| critique | 42 |
+| majeure | 31 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

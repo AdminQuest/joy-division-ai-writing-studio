@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 391 |
+| Atomes | 392 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 30 |
+| Citations | 31 |
 | Événements chronologiques | 22 |
-| Personnes | 29 |
+| Personnes | 31 |
 | Chansons | 25 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 2 | 0 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 5 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -304,6 +305,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
+- **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -355,6 +357,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 9. Personnes et acteurs
 
+- PERS-S53-009 — Arthur Schopenhauer
+- PERS-S53-010 — Friedrich Nietzsche
 - PERS-S75-026 — Stephen Morris
 - PERS-S75-027 — Vini Reilly
 - PERS-002 — Peter Hook
@@ -761,6 +765,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
 | biographie | 1 |
+| reference_theorique | 1 |
 | contexte_scene | 1 |
 | prudence_interpretative | 1 |
 | memoire | 1 |
@@ -818,7 +823,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | critique | 118 |
 | majeure | 29 |
 | majeur | 10 |
-| utile | 9 |
+| utile | 10 |
 | critique pour Chapitre 3 | 3 |
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitres 1 et 3 | 1 |

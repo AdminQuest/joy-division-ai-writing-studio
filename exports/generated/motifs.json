@@ -639,6 +639,131 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-bain_emotionnel_symbolique",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-bain_emotionnel_symbolique",
+      "type_unite": "motif",
+      "source_id": "S53",
+      "nom": "bain émotionnel de mythes et symboles",
+      "definition": "Motif par lequel Joy Division apparaît comme immersion affective dans une constellation de mythes, de symboles, de sons et d’images.\n",
+      "atomes": [
+        "S53-A002",
+        "S53-A005"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-grisaille_creatrice",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-grisaille_creatrice",
+      "type_unite": "motif",
+      "source_id": "S53",
+      "nom": "grisaille créatrice",
+      "definition": "La ville industrielle grise n’est pas seulement un décor ; elle devient matière affective et imaginale où se forment style, son, images et appartenance.\n",
+      "atomes": [
+        "S53-A003",
+        "S53-A004"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-pulsar_totem_pop",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-pulsar_totem_pop",
+      "type_unite": "motif",
+      "source_id": "S53",
+      "nom": "pulsar comme totem pop",
+      "definition": "Motif de la pochette d’Unknown Pleasures comme signe partagé, banalisé et pourtant actif, par lequel le groupe devient immédiatement reconnaissable dans la culture populaire.\n",
+      "atomes": [
+        "S53-A006",
+        "S53-A007"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-curtis_totem_culturel",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-curtis_totem_culturel",
+      "type_unite": "motif",
+      "source_id": "S53",
+      "nom": "Curtis comme totem culturel",
+      "definition": "Figure d’Ian Curtis comme support d’identification, d’aura, de projection émotionnelle et de mémoire collective, à manier avec prudence pour éviter la sacralisation morbide.\n",
+      "atomes": [
+        "S53-A011",
+        "S53-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-fantome_mediatique_dark",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-fantome_mediatique_dark",
+      "type_unite": "motif",
+      "source_id": "S53",
+      "nom": "fantôme médiatique dark",
+      "definition": "Présence contemporaine de Joy Division sous forme de revenance médiatique : noirceur, mélancolie, beauté rare, circulation des images et réactivation du mythe.\n",
+      "atomes": [
+        "S53-A016"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-infrangimento_vetro",
     "file": "registers/s52_rabbito_structuring_registers.md",
     "heading": "Motifs",

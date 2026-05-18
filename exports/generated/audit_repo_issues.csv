@@ -11760,6 +11760,165 @@ warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNew
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996_part3.md,S74-A021,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md,S74-A008,Invalid value for type_unite: fait_interprete,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md,S74-A009,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md,REL-S53-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A004,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A005,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A006,Invalid value for type_unite: image_symbolique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A007,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A008,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A009,Invalid value for type_unite: evenement_symbolique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A010,Invalid value for type_unite: mediation_audiovisuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A011,Invalid value for type_unite: figure_mythique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A012,Invalid value for type_unite: reference_theorique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A013,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A014,Invalid value for type_unite: image_symbolique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A015,Invalid value for type_unite: performance_sensible,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -19721,9 +19880,81 @@ warning,missing_required_field,registers/s50_bertetti_morreale_specialized_regis
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q011,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q011,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q012,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q012,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q013,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q013,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q014,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q014,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q015,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q015,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1976-06-04-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1976-06-04-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1976-06-04-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s53_la_rocca_specialized_registers.md,CHR-S53-1979-001,Invalid value for certainty: fait discographique à croiser avec S48 et S09,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2002-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2002-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2002-001,Invalid value for certainty: à vérifier dans fiche film,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2007-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2007-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s53_la_rocca_specialized_registers.md,CHR-S53-2007-001,Invalid value for certainty: à croiser avec S52,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-009,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-010,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,PERS-S53-011,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,LIEU-S53-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,LIEU-S53-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,LIEU-S53-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,LIEU-S53-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,ORG-S53-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,ORG-S53-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,ORG-S53-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_specialized_registers.md,ORG-S53-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-UNKNOWN_PLEASURES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-UNKNOWN_PLEASURES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-UNKNOWN_PLEASURES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-FISHER-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-BUTLER-1997,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-REYNOLDS-2005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-LAROCCA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-BERGSON-SLANCIO,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-NORBERG-SCHULZ-GENIUS-LOCI,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-ATTIMONELLI-POMARICO-2020,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-CUMMINS-EPPING-WALK,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,S49-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.

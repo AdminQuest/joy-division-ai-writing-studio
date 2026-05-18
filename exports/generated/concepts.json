@@ -1226,6 +1226,204 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-energie_socio_esthetique",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-energie_socio_esthetique",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "énergie socio-esthétique",
+      "definition": "Intensité collective dans laquelle contexte historique, affects, mythes, symboles, images et pratiques culturelles convergent pour produire une forme artistique capable de devenir mythe contemporain.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A002",
+        "S53-A012"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-genius_loci_mancunien",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-genius_loci_mancunien",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "genius loci mancunien",
+      "definition": "Lecture de Manchester comme milieu sensible : lieu, identité, son, style de vie, grisaille industrielle et contre-culture y produisent une atmosphère qui nourrit l’incarnation mythique de Joy Division.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A003",
+        "S53-A004"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-image_mythe_narratologie",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-image_mythe_narratologie",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "image, mythe et narratologie quotidienne",
+      "definition": "Fonction par laquelle l’image permet l’entrée sensible dans un univers mythique, structure des émotions collectives et transforme le quotidien en récit partagé.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A005",
+        "S53-A006",
+        "S53-A014"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-valeur_mutante_du_mythe",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-valeur_mutante_du_mythe",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "valeur mutante du mythe",
+      "definition": "Capacité d’un symbole massifié à ne pas simplement perdre son sens, mais à acquérir de nouvelles valeurs sociales, affectives et culturelles au fil de sa circulation.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A006",
+        "S53-A007",
+        "S53-A008"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-anthropologie_nostalgie_pop",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-anthropologie_nostalgie_pop",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "anthropologie de la nostalgie pop",
+      "definition": "Analyse de la manière dont images, objets, traces et consommations rétrospectives accumulent un capital culturel et symbolique qui maintient Joy Division dans une mémoire collective active.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A008"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-affectologie_joy_division",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-affectologie_joy_division",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "affectologie Joy Division",
+      "definition": "Sensibilité sociale partagée dans laquelle son, icônes, corps, images et affects permettent aux publics de projeter, d’identifier et de réactiver le mythe Joy Division.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A011",
+        "S53-A013",
+        "S53-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fantome_joy_division",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fantome_joy_division",
+      "type_unite": "concept",
+      "source_id": "S53",
+      "nom": "fantôme Joy Division",
+      "definition": "Présence médiatique, affective et culturelle persistante de Joy Division, qui circule dans les panoramas contemporains comme mémoire impulsive, viscérale, dark, tragique et mélancolique.\n",
+      "sources": [
+        "S53"
+      ],
+      "atomes": [
+        "S53-A016"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-surface_biographique",
     "file": "registers/s52_rabbito_structuring_registers.md",
     "heading": "Concepts",

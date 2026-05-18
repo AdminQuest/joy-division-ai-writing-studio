@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T20:56:49",
+  "generated_at": "2026-05-18T21:17:23",
   "status": "warning",
   "summary": {
-    "records_total": 4996,
+    "records_total": 5088,
     "records_by_kind": {
-      "atom": 2132,
+      "atom": 2148,
       "metadata": 149,
-      "unknown": 591,
+      "unknown": 619,
       "source": 80,
-      "concept": 276,
-      "motif": 328,
-      "myth": 53,
-      "quote": 392,
-      "chronology": 368,
-      "person": 205,
-      "song": 66,
+      "concept": 283,
+      "motif": 333,
+      "myth": 57,
+      "quote": 407,
+      "chronology": 372,
+      "person": 216,
+      "song": 68,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22811,
+    "diagnostics_total": 23042,
     "errors": 0,
-    "warnings": 22811,
+    "warnings": 23042,
     "sources_declared_in_registre_json": 61,
     "sources_used_in_records": 41,
     "sources_exported": 41,
@@ -1103,12 +1103,16 @@
         "auteur": "Fabio La Rocca",
         "titre": "Immagini e simboli nell’incarnazione mitica dei Joy Division",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 101,
+        "atoms": 16,
+        "quotes": 15,
+        "chronology": 4,
         "files": [
-          "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md"
+          "registers/s53_la_rocca_specialized_registers.md",
+          "registers/s53_la_rocca_structuring_registers.md",
+          "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+          "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md",
+          "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md"
         ]
       },
       {
@@ -71916,6 +71920,960 @@
     },
     {
       "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S53-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S53-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S53-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: image_symbolique",
+      "record_id": "S53-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: evenement_symbolique",
+      "record_id": "S53-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "record_id": "S53-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: figure_mythique",
+      "record_id": "S53-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: reference_theorique",
+      "record_id": "S53-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S53-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: image_symbolique",
+      "record_id": "S53-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: performance_sensible",
+      "record_id": "S53-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S53-A016"
+    },
+    {
+      "level": "warning",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S49-A001"
@@ -119682,6 +120640,408 @@
     },
     {
       "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S53-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S53-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S53-1976-06-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S53-1976-06-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser",
+      "record_id": "CHR-S53-1976-06-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S53-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S53-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Invalid value for certainty: fait discographique à croiser avec S48 et S09",
+      "record_id": "CHR-S53-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S53-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S53-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans fiche film",
+      "record_id": "CHR-S53-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S53-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S53-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S52",
+      "record_id": "CHR-S53-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S53-011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S53-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S53-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S53-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S53-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S53-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S53-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S53-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S53-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S53-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S53-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S53-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S53-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S53-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S53-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
       "file": "registers/s49_farci_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S49-FISHER-2013"
@@ -119697,6 +121057,36 @@
       "file": "registers/s49_farci_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S49-REYNOLDS-2005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S53-LAROCCA-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S53-BERGSON-SLANCIO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S53-NORBERG-SCHULZ-GENIUS-LOCI"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S53-ATTIMONELLI-POMARICO-2020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s53_la_rocca_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S53-CUMMINS-EPPING-WALK"
     },
     {
       "level": "warning",

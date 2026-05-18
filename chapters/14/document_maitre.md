@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 992 |
+| Atomes | 1006 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 113 |
-| Événements chronologiques | 70 |
-| Personnes | 96 |
-| Chansons | 18 |
-| Sources mobilisées | 39 |
+| Citations | 126 |
+| Événements chronologiques | 74 |
+| Personnes | 106 |
+| Chansons | 20 |
+| Sources mobilisées | 40 |
 
 ## 4. Sources mobilisées
 
@@ -65,6 +65,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 19 | 4 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 14 | 4 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 10 | 6 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 14 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -344,14 +345,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q004** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
-- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q005** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q010** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -363,6 +364,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
+- CHR-S53-1976-06-04-001 — Concert des Sex Pistols à la Lesser Free Trade Hall, repris par La Rocca comme scène d’effervescence mancunienne et origine mythographique.
+- CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
+- CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
+- CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -391,10 +396,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-032 — Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.
 - CHR-S76-1980-033 — Ian Curtis est crémé. Factory organise un wake séparé à Palatine Road, où est projeté *The Great Rock’n’Roll Swindle* ; Lindsay Reade retient la formule « No one is innocent » comme condensation du sentiment de culpabilité.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
-- CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
-- CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
-- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
-- CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
 
 ## 9. Personnes et acteurs
 
@@ -413,6 +414,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S50-003 — Orian Williams
 - PERS-S50-004 — Warren Jackson
 - PERS-S50-005 — Vincent Moon
+- PERS-S53-001 — Fabio La Rocca
+- PERS-S53-002 — Ian Curtis
+- PERS-S53-003 — Kevin Cummins
+- PERS-S53-004 — Peter Saville
+- PERS-S53-005 — Anton Corbijn
+- PERS-S53-006 — Tony Wilson
+- PERS-S53-007 — Henri Bergson
+- PERS-S53-009 — Arthur Schopenhauer
+- PERS-S53-010 — Friedrich Nietzsche
+- PERS-S53-011 — Michael Winterbottom
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -428,16 +439,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
 - PERS-S76-053 — Mark Reeder
 - PERS-S76-054 — Alan Wise
-- PERS-S34-003 — Grant Gee
-- PERS-S34-004 — Tony Wilson
-- PERS-S34-009 — Jane Jacobs
-- PERS-S75-021 — John Peel
-- PERS-S75-023 — Kevin Cummins
-- PERS-S75-024 — Alan Erasmus
-- PERS-S76-045 — Alan Erasmus
-- PERS-S76-047 — Alan Wise
-- PERS-S76-048 — Roger Eagle
-- PERS-S76-049 — Peter Saville
 
 ## 10. Chansons rattachées
 
@@ -448,6 +449,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-INSIGHT — Insight
 - SONG-S50-NEW_DAWN_FADES — New Dawn Fades
+- SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -551,23 +554,23 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Annik Honoré (18)
 - Rob Gretton (17)
 - Peter Saville (10)
+- Factory (10)
 - Buzzcocks tour (9)
-- Factory (9)
+- Ian Curtis (9)
+- Unknown Pleasures (9)
 - Transmission (8)
-- Ian Curtis (8)
-- Unknown Pleasures (8)
+- Control (8)
 - fatigue (8)
-- Control (7)
+- Manchester (7)
 - She’s Lost Control (7)
 - John Peel (7)
 - Electric Circus (7)
+- Kevin Cummins (7)
 - Love Will Tear Us Apart (6)
-- Manchester (6)
-- Kevin Cummins (6)
+- prudence (6)
+- Haçienda (6)
 - NME (5)
-- prudence (5)
 - Atmosphere (5)
-- Haçienda (5)
 - New Order (5)
 - Still (5)
 - Durutti Column (5)
@@ -680,8 +683,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 22 |
-| concept_structurant | 17 |
+| prudence_methodologique | 23 |
+| concept_structurant | 22 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -702,6 +705,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | source_part | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
+| synthese_argumentative | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -712,8 +716,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
+| mediation_audiovisuelle | 4 |
 | limite_interpretative | 4 |
-| synthese_argumentative | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -730,7 +734,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_presse | 3 |
 | concept_critique | 3 |
 | acteur_mediation | 3 |
-| mediation_audiovisuelle | 3 |
 | analyse_video | 3 |
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
@@ -788,6 +791,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
+| reference_theorique | 2 |
 | motif_structurant | 2 |
 | controverse_biographique | 2 |
 | comparaison_critique | 2 |
@@ -803,6 +807,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | idee_directrice | 2 |
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
+| image_symbolique | 2 |
 | mythe_a_deconstruire | 2 |
 | analyse_chanson | 2 |
 | lettre_intime | 2 |
@@ -941,7 +946,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive_vivante | 1 |
 | oeuvre_artistique | 1 |
 | image_scenique | 1 |
-| reference_theorique | 1 |
 | reception_visuelle | 1 |
 | tension_visuelle | 1 |
 | motif_majeur | 1 |
@@ -1038,6 +1042,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| evenement_symbolique | 1 |
+| figure_mythique | 1 |
+| performance_sensible | 1 |
 | lecture_generationnelle | 1 |
 | evenement_audiovisuel | 1 |
 | comparaison_generations | 1 |
@@ -1188,10 +1195,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 301 |
-| majeure | 87 |
+| critique | 311 |
+| majeure | 90 |
 | majeur | 28 |
-| utile | 13 |
+| utile | 14 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

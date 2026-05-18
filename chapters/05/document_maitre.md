@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 350 |
+| Atomes | 354 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 70 |
-| Événements chronologiques | 42 |
-| Personnes | 44 |
-| Chansons | 8 |
-| Sources mobilisées | 21 |
+| Citations | 73 |
+| Événements chronologiques | 43 |
+| Personnes | 47 |
+| Chansons | 9 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 3 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -306,6 +307,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q005** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q126** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q127** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -331,13 +335,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
+- CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -376,13 +378,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
-- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
 
 ## 9. Personnes et acteurs
 
 - PERS-S51-001 — Jennifer Malvezzi
 - PERS-S51-003 — Hito Steyerl
 - PERS-S52-002 — Anton Corbijn
+- PERS-S53-001 — Fabio La Rocca
+- PERS-S53-003 — Kevin Cummins
+- PERS-S53-004 — Peter Saville
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -417,13 +421,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S29-012 — Nikolai Gogol
 - PERS-S76-004 — Carole Curtis
 - PERS-S76-074 — Terry Mason
-- PERS-S76-024 — Martin Hannett
-- PERS-S76-025 — Tosh Ryan
-- PERS-S76-026 — Lawrence Beedle
 
 ## 10. Chansons rattachées
 
 - SONG-S52-ATMOSPHERE — Atmosphere
+- SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony
@@ -521,9 +523,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (11)
 - An Ideal for Living (6)
+- Kevin Cummins (6)
 - fatigue (6)
 - Rabid Records (5)
-- Kevin Cummins (5)
 - Shadowplay (4)
 - Rock Against Racism (4)
 - Tony Wilson (4)
@@ -536,6 +538,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
+- prudence (3)
 - Warsaw (3)
 - Tosh Ryan (3)
 - image pauvre (3)
@@ -552,13 +555,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Granada (2)
 - World in Action (2)
 - monochrome (2)
+- Unknown Pleasures (2)
 - nom Joy Division (2)
 - Short Circuit (2)
 - imagerie nazie (2)
 - Joy Division (2)
-- A Factory Sample (2)
-- Digital (2)
-- Glass (2)
+- image (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -655,20 +657,20 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | discographie | 8 |
 | concept | 8 |
 | analyse | 7 |
+| concept_structurant | 6 |
 | fait | 6 |
 | objet_audiovisuel | 5 |
-| concept_structurant | 5 |
 | production | 5 |
 | concert | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
+| prudence_methodologique | 4 |
 | scene_fondatrice | 4 |
 | reception_critique | 4 |
 | concert_europeen | 4 |
 | concept_transversal | 4 |
 | tension_documentaire | 3 |
 | controverse | 3 |
-| prudence_methodologique | 3 |
 | esthétique_visuelle | 3 |
 | archive_visuelle | 3 |
 | television | 3 |
@@ -697,6 +699,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | analyse_studio | 2 |
 | reception_interne | 2 |
 | biographie | 2 |
+| image_symbolique | 2 |
 | mythe_nomination | 2 |
 | concept_management | 2 |
 | bascule_tournee | 2 |
@@ -856,8 +859,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 113 |
-| majeure | 32 |
+| critique | 116 |
+| majeure | 33 |
 | majeur | 4 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:57:04"
+generated_at: "2026-05-18T21:17:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 377 |
+| Atomes | 378 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 89 |
 | Événements chronologiques | 61 |
-| Personnes | 43 |
+| Personnes | 44 |
 | Chansons | 10 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 6 |
+| S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -380,6 +381,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S52-009 — Jon Savage
 - PERS-S52-011 — Tony Wilson
 - PERS-S52-012 — Annik Honoré
+- PERS-S53-002 — Ian Curtis
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -413,7 +415,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-060 — Paul Hanley
 - PERS-S76-073 — Tony Wilson
 - PERS-S76-074 — Terry Mason
-- PERS-S76-075 — John Curd
 
 ## 10. Chansons rattachées
 
@@ -520,9 +521,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Deborah Curtis (13)
 - Tony Wilson (11)
 - épilepsie (10)
+- Ian Curtis (10)
 - Closer (9)
 - Rob Gretton (9)
-- Ian Curtis (9)
 - Natalie Curtis (9)
 - She’s Lost Control (8)
 - Annik (7)
@@ -816,6 +817,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
 | lecture | 1 |
+| figure_mythique | 1 |
 | analyse_performance | 1 |
 | synthese_argumentative | 1 |
 | lecture_biographique_prudente | 1 |
@@ -900,7 +902,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 220 |
+| critique | 221 |
 | non qualifiée | 110 |
 | majeure | 29 |
 | majeur | 12 |

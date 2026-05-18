@@ -201,6 +201,47 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S53-UNKNOWN_PLEASURES",
+    "file": "registers/s53_la_rocca_specialized_registers.md",
+    "heading": "Chansons et albums",
+    "data": {
+      "id": "SONG-S53-UNKNOWN_PLEASURES",
+      "type_unite": "song",
+      "source_id": "S53",
+      "song": "Unknown Pleasures",
+      "usage": "Album et image-pochette traités comme symbole générationnel, icône émotionnelle partagée et totem pop.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
+    "file": "registers/s53_la_rocca_specialized_registers.md",
+    "heading": "Chansons et albums",
+    "data": {
+      "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
+      "type_unite": "song",
+      "source_id": "S53",
+      "song": "Love Will Tear Us Apart",
+      "usage": "Formule de retour et de réactivation du mythe ; à manier comme signe de mémoire, non comme explication totale.",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S49-DISORDER",
     "file": "registers/s49_farci_specialized_registers.md",
     "heading": "Chansons",
@@ -731,7 +772,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3110",
+    "id": "NO_ID::registers/songs/master_songs.md::3202",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
