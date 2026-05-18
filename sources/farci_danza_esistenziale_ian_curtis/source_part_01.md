@@ -77,7 +77,7 @@ importance:
 risque_surinterpretation:
   niveau: moyen
   raison: risque de généraliser une lecture de genre à toute une génération
-motifs: [génération, désorientation, monde industriel, fin du fordime, futur fermé]
+motifs: [génération, désorientation, monde industriel, fin du fordisme, futur fermé]
 concepts_derives: [génération masculine désorientée, crise post-fordiste, subjectivité post-punk]
 relations:
   - type: prolonge
@@ -333,7 +333,7 @@ usage_livre: [Chapitre 3, Chapitre 7, Chapitre 11]
 ```yaml
 id: S49-A009
 type_unite: prudence_interpretative
-itre: Dub, reggae, disco et son Joy Division : usage interprétatif à vérifier
+titre: Dub, reggae, disco et son Joy Division : usage interprétatif à vérifier
 source_id: S49
 pages:
   pdf: [104, 105]
@@ -453,7 +453,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S49-A012
 type_unite: mythe_a_deconstruire
-itre: Maladie, génie romantique et risque de romantisation
+titre: Maladie, génie romantique et risque de romantisation
 source_id: S49
 pages:
   pdf: [107]
