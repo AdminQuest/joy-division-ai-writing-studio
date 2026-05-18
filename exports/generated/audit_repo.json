@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-18T09:18:50",
+  "generated_at": "2026-05-18T12:27:31",
   "summary": {
-    "records_total": 4543,
+    "records_total": 4616,
     "records_by_kind": {
-      "atom": 2003,
-      "metadata": 127,
-      "unknown": 461,
-      "source": 73,
-      "concept": 239,
-      "motif": 300,
+      "atom": 2022,
+      "metadata": 137,
+      "unknown": 483,
+      "source": 74,
+      "concept": 246,
+      "motif": 306,
       "myth": 40,
       "quote": 369,
       "chronology": 353,
-      "template": 342,
+      "template": 350,
       "song": 53,
       "quote_batch": 1,
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 21189,
+    "diagnostics_total": 21424,
     "errors": 0,
-    "warnings": 21189,
+    "warnings": 21424,
     "sources_declared_in_registre_json": 56,
     "sources_used_in_records": 36,
     "sources_exported": 36,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2003,
+    "atom": 2022,
     "chronology": 353,
-    "concept": 239,
-    "metadata": 127,
-    "motif": 300,
+    "concept": 246,
+    "metadata": 137,
+    "motif": 306,
     "myth": 40,
     "person": 181,
     "quote": 369,
     "quote_batch": 1,
     "rules": 1,
     "song": 53,
-    "source": 73,
-    "template": 342,
-    "unknown": 461
+    "source": 74,
+    "template": 350,
+    "unknown": 483
   },
   "records_by_source": {
     "S02": {
@@ -180,12 +180,12 @@
       "chronology": 6
     },
     "S35": {
-      "unknown": 36,
-      "metadata": 13,
-      "atom": 49,
+      "unknown": 53,
+      "atom": 68,
+      "metadata": 23,
       "source": 2,
-      "motif": 5,
-      "concept": 6
+      "motif": 11,
+      "concept": 13
     },
     "S39": {
       "metadata": 8,
@@ -302,19 +302,19 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 369,
-    "Chapitre 10": 269,
+    "Chapitre 1": 382,
+    "Chapitre 10": 271,
     "Chapitre 11": 290,
-    "Chapitre 12": 498,
-    "Chapitre 13": 157,
-    "Chapitre 14": 1225,
-    "Chapitre 2": 445,
-    "Chapitre 3": 554,
+    "Chapitre 12": 504,
+    "Chapitre 13": 160,
+    "Chapitre 14": 1242,
+    "Chapitre 2": 447,
+    "Chapitre 3": 568,
     "Chapitre 4": 344,
     "Chapitre 5": 474,
     "Chapitre 6": 599,
     "Chapitre 7": 211,
-    "Chapitre 8": 396,
+    "Chapitre 8": 402,
     "Chapitre 9": 286,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -443,12 +443,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 248,
-    "invalid_controlled_value": 1803,
-    "missing_required_field": 5710,
-    "schema_warning": 456,
-    "unknown_yaml_block": 461,
-    "v2_migration_debt": 12511
+    "field_type_error": 266,
+    "invalid_controlled_value": 1822,
+    "missing_required_field": 5823,
+    "schema_warning": 474,
+    "unknown_yaml_block": 483,
+    "v2_migration_debt": 12556
   },
   "top_files_by_issue_count": [
     [
@@ -544,6 +544,10 @@
       218
     ],
     [
+      "sources/morris_record_play_pause/source_part_04.md",
+      213
+    ],
+    [
       "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
       210
     ],
@@ -566,10 +570,6 @@
     [
       "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
       192
-    ],
-    [
-      "sources/greig_strong/source.md",
-      182
     ]
   ],
   "blocking_errors": [],
@@ -2035,6 +2035,158 @@
       "category": "unknown_yaml_block",
       "file": "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
       "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": "REG-S35-PART-04",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-PART-04",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-029",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-030",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-031",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-032",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-033",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-034",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-035",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-036",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-037",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-038",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-039",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-040",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4177,6 +4329,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
       "record_id": "MYTHS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
@@ -4264,10 +4440,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2003,
+    "atoms_total": 2022,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 1930,
-    "v2_missing_field_warnings": 12511
+    "atoms_v2_incomplete": 1949,
+    "v2_missing_field_warnings": 12556
   },
   "source_registry": {
     "declared_but_unused": [
@@ -4938,32 +5114,45 @@
         "auteur": "Stephen Morris",
         "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
         "annee": "2019",
-        "records": 111,
-        "atoms": 49,
+        "records": 170,
+        "atoms": 68,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/chronology/s35_morris_chronology_part_03.md",
+          "registers/chronology/s35_morris_chronology_part_04.md",
           "registers/concepts/s35_morris_concepts_part_03.md",
+          "registers/concepts/s35_morris_concepts_part_04.md",
           "registers/motifs/s35_morris_motifs_part_03.md",
+          "registers/motifs/s35_morris_motifs_part_04.md",
           "registers/myths/s35_morris_mythes_part_03.md",
+          "registers/myths/s35_morris_mythes_part_04.md",
           "registers/organizations/s35_morris_organizations_part_03.md",
+          "registers/organizations/s35_morris_organizations_part_04.md",
           "registers/people/s35_morris_people_part_03.md",
+          "registers/people/s35_morris_people_part_04.md",
           "registers/places/s35_morris_places_part_03.md",
+          "registers/places/s35_morris_places_part_04.md",
           "registers/quotes/s35_morris_quotes_part_03.md",
+          "registers/quotes/s35_morris_quotes_part_04.md",
           "registers/references/s35_morris_record_play_pause_part_03_reference_supplement.md",
+          "registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md",
           "registers/references/s35_morris_record_play_pause_source_canonique.md",
           "registers/songs/s35_morris_songs_part_03.md",
+          "registers/songs/s35_morris_songs_part_04.md",
           "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
           "sources/morris_record_play_pause/registres_specialises_s35.md",
           "sources/morris_record_play_pause/registres_specialises_s35_part_02.md",
           "sources/morris_record_play_pause/registres_specialises_s35_part_03.md",
+          "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
           "sources/morris_record_play_pause/relations_stabilisees.md",
           "sources/morris_record_play_pause/relations_stabilisees_part_02.md",
           "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
+          "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
           "sources/morris_record_play_pause/source.md",
           "sources/morris_record_play_pause/source_part_02.md",
-          "sources/morris_record_play_pause/source_part_03.md"
+          "sources/morris_record_play_pause/source_part_03.md",
+          "sources/morris_record_play_pause/source_part_04.md"
         ]
       },
       {
@@ -121547,6 +121736,1710 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-PART-04",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Invalid value for type_unite: scene_sante_prudente",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A048",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Invalid value for type_unite: concept_rythmique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A049",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Invalid value for type_unite: scene_generationnelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A050",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Invalid value for type_unite: scene_sociale_style",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A051",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Invalid value for type_unite: scene_adolescente_prudente",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A052",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Invalid value for type_unite: apprentissage_instrumental",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A053",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Invalid value for type_unite: matrice_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A054",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Invalid value for type_unite: scene_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A055",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Invalid value for type_unite: evenement_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A056",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Invalid value for type_unite: motif_geographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A057",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Invalid value for type_unite: formation_culturelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A058",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Invalid value for type_unite: culture_bootleg",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A059",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Invalid value for type_unite: scene_travail_industriel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A060",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Invalid value for type_unite: culture_materielle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A061",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Invalid value for type_unite: cartographie_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A062",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Invalid value for type_unite: scene_festival_prudente",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A063",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Invalid value for type_unite: evenement_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A064",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Field must be a list: role_argumentatif",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Invalid value for type_unite: contexte_social",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/morris_record_play_pause/source_part_04.md",
+      "record_id": "S35-A065",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/morris_record_play_pause/relations_stabilisees_part_03.md",
       "record_id": "REL-S35-PART-03",
@@ -123747,6 +125640,54 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": "REG-S35-PART-04",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/registres_specialises_s35_part_04.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/morris_record_play_pause/source_part_02.md",
       "record_id": "S35-PART-02",
@@ -124920,6 +126861,110 @@
       "record_id": "S35-A032",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-PART-04",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-029",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-030",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-031",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-032",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-033",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-034",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-035",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-036",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-037",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-038",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-039",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/morris_record_play_pause/relations_stabilisees_part_04.md",
+      "record_id": "REL-S35-040",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -173558,6 +175603,30 @@
       "category": "unknown_yaml_block",
       "file": "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
       "record_id": "MYTHS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s35_morris_mythes_part_04.md",
+      "record_id": "MYTHE-S35-014",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

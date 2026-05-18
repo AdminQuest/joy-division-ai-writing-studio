@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T09:18:51"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 916 |
+| Atomes | 927 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
@@ -50,7 +50,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 14 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 25 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -100,6 +100,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_posthume` ; importance : `critique` ; preuve : `forte`.
 - **S35-A043** — S35-A043 — Bowie au Free Trade Hall : le groupe comme énigme sociale  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
 - **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
@@ -140,8 +142,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_memoire` ; importance : `critique` ; preuve : `témoignage rétrospectif direct`.
 - **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
-- **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
 
 ## 6. Autres atomes utiles
 
@@ -558,6 +558,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - She’s Lost Control (5)
 - Sordide Sentimental (5)
 - Closer (5)
+- Manchester (5)
 - Gretton (5)
 - Mick Middles (4)
 - Rainbow Theatre (4)
@@ -575,7 +576,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Plan K (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
-- épilepsie (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -738,6 +738,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | conclusion_historiographique | 3 |
+| culture_materielle | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
@@ -791,7 +792,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | politique_urbaine | 2 |
 | motif_discursif | 2 |
-| culture_materielle | 2 |
+| scene_sociale_style | 2 |
+| formation_culturelle | 2 |
 | acteur_mediation | 2 |
 | scene_ecoute | 2 |
 | marketing | 2 |
@@ -1077,10 +1079,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_album | 1 |
 | reception_memoire | 1 |
 | discours_religieux | 1 |
+| scene_generationnelle | 1 |
+| scene_adolescente_prudente | 1 |
+| scene_biographique | 1 |
+| motif_geographique | 1 |
+| culture_bootleg | 1 |
+| scene_festival_prudente | 1 |
+| evenement_biographique | 1 |
+| contexte_social | 1 |
 | formation_sensible | 1 |
 | scene_sociale_pop | 1 |
-| scene_sociale_style | 1 |
-| formation_culturelle | 1 |
 | scene_revelation_live | 1 |
 | scene_ecoute_prudente | 1 |
 | contexte_urbain | 1 |
@@ -1137,12 +1145,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 255 |
-| majeure | 68 |
+| critique | 256 |
+| majeure | 72 |
 | majeur | 28 |
-| utile | 6 |
+| utile | 9 |
 | structurante | 2 |
 | moyenne | 2 |
+| critique pour Chapitres 1 et 3 | 1 |
+| critique pour Chapitre 8 | 1 |
+| critique pour Chapitre 1 | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour la généalogie pré-punk | 1 |

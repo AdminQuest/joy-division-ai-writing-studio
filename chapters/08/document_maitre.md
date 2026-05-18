@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 253 |
+| Atomes | 257 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 24 |
 | Personnes | 12 |
 | Chansons | 4 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
@@ -62,6 +63,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
+- **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -122,8 +125,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
-- **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
 
 ## 6. Autres atomes utiles
 
@@ -207,6 +208,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
 - **S29-A019** — S29-A019 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A059** — S35-A059 — Black Sedan et les bootlegs : désir matériel, rareté et promesse souvent déçue  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_bootleg` ; importance : `critique pour Chapitre 8` ; preuve : `témoignage autobiographique direct`.
+- **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
+- **S35-A064** — S35-A064 — Dizz, blackout et Great Vinyl Robbery : de la bohème rêvée à la petite criminalité  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_biographique` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -219,6 +226,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
 - **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 - **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
@@ -279,14 +288,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
-- **S41-A190** — S41-A190 — Moonlight / Rainbow : lever des fonds pour l’Amérique sous pression médicale  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + chronologie live`.
-- **S41-A191** — S41-A191 — Moonlight Club : Factory comme vitrine et Polydor comme regard industriel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
-- **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 
 ## 7. Citations disponibles
 
@@ -453,6 +454,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Still (5)
 - Atmosphere (5)
 - Sordide Sentimental (5)
+- bootleg (5)
 - Pennine Sound (4)
 - Hannett (4)
 - Haçienda (4)
@@ -464,7 +466,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Peter Saville (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
-- bootleg (4)
 - Rudolf Hess (3)
 - bootlegs (3)
 - Strawberry Studios (3)
@@ -670,6 +671,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lecture_reprise | 1 |
 | fait_contractuel | 1 |
 | concert_filme | 1 |
+| culture_bootleg | 1 |
+| culture_materielle | 1 |
+| cartographie_scene | 1 |
+| evenement_biographique | 1 |
 | contexte_musical | 1 |
 | contexte_discographique | 1 |
 | relation_inter_sources | 1 |
@@ -696,9 +701,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 103 |
+| critique | 104 |
 | majeur | 18 |
-| majeure | 9 |
+| majeure | 10 |
+| critique pour Chapitre 8 | 1 |
+| critique pour Chapitre 2 | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

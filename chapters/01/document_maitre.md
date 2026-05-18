@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T09:18:51"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-18T09:18:51"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 219 |
+| Atomes | 229 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
@@ -49,7 +49,7 @@ generated_at: "2026-05-18T09:18:51"
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 19 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -437,7 +437,7 @@ generated_at: "2026-05-18T09:18:51"
 
 ### 12.1. Motifs dominants
 
-- Manchester (5)
+- Manchester (6)
 - Salford (3)
 - Shadowplay (2)
 - politique (2)
@@ -451,6 +451,7 @@ generated_at: "2026-05-18T09:18:51"
 - ville moderne (2)
 - Hulme Crescents (2)
 - solitude (2)
+- contre-culture (2)
 - fuite provinciale (2)
 - style comme appartenance (2)
 - signes vestimentaires (2)
@@ -476,7 +477,6 @@ generated_at: "2026-05-18T09:18:51"
 - conservatisme (1)
 - extrapolation (1)
 - prudence anti-téléologique (1)
-- futur perdu (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -573,7 +573,7 @@ generated_at: "2026-05-18T09:18:51"
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
-| contexte_social | 6 |
+| contexte_social | 7 |
 | evenement_politique | 5 |
 | lecture | 5 |
 | lieu_scene | 4 |
@@ -595,6 +595,10 @@ generated_at: "2026-05-18T09:18:51"
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
 | motif_discursif | 2 |
+| scene_sociale_style | 2 |
+| evenement_biographique | 2 |
+| motif_geographique | 2 |
+| formation_culturelle | 2 |
 | formation_sensible | 2 |
 | formation_sociale | 2 |
 | scene_ecoute | 2 |
@@ -657,16 +661,17 @@ generated_at: "2026-05-18T09:18:51"
 | conflit_institutionnel | 1 |
 | discours_religieux | 1 |
 | evenement_urbain | 1 |
+| scene_generationnelle | 1 |
+| scene_adolescente_prudente | 1 |
+| scene_travail_industriel | 1 |
+| scene_festival_prudente | 1 |
 | culture_materielle | 1 |
 | scene_biographique | 1 |
 | formation_mediatique | 1 |
 | scene_sociale_pop | 1 |
-| scene_sociale_style | 1 |
 | lieu_imaginaire | 1 |
-| formation_culturelle | 1 |
 | conflit_generationnel | 1 |
 | scene_revelation_live | 1 |
-| motif_geographique | 1 |
 | scene_ecoute_prudente | 1 |
 | evenement_scene | 1 |
 | infrastructure_scene | 1 |
@@ -689,9 +694,12 @@ generated_at: "2026-05-18T09:18:51"
 |---|---|
 | non qualifiée | 151 |
 | critique | 31 |
-| majeure | 25 |
-| utile | 7 |
+| majeure | 29 |
+| utile | 10 |
 | majeur | 2 |
+| critique pour Chapitres 1 et 3 | 1 |
+| critique pour Chapitre 3 | 1 |
+| critique pour Chapitre 1 | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |
@@ -737,6 +745,16 @@ generated_at: "2026-05-18T09:18:51"
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
+- S35-A050 [moyen] — Ne pas faire de Dietrich une influence directe ; elle vaut comme scène de présence et de compromis.
+- S35-A051 [moyen] — Ne pas convertir l’anecdote en théorie complète du glam ; elle sert de scène de contraste.
+- S35-A052 [élevé] — Ne pas faire du LSD une source esthétique directe.
+- S35-A056 [moyen] — Ne pas psychologiser la formule du nuage noir ni la relier mécaniquement à Curtis.
+- S35-A057 [faible] — La scène sert directement le motif Manchester comme horizon pratique.
+- S35-A058 [moyen] — Ne pas surcharger l’occultisme ; Morris insiste aussi sur l’humour et la curiosité adolescente.
+- S35-A060 [moyen] — Ne pas faire du moulin la cause directe du rythme Joy Division.
+- S35-A063 [moyen] — Ne pas faire des festivals une matrice centrale de Joy Division ; usage en contrepoint.
+- S35-A064 [élevé] — Ne pas romantiser la criminalité ni en faire une clé morale de Joy Division.
+- S35-A065 [moyen] — Ne pas extrapoler toute la sociologie de Macclesfield à partir d’un témoignage personnel.
 - S35-A021 [moyen] — Ne pas faire de ces lectures une cause directe du style Joy Division.
 - S35-A022 [moyen] — Ne pas psychologiser mécaniquement la batterie de Morris à partir du père.
 - S35-A023 [moyen] — Ne pas convertir l’enfance scolaire en explication totale de l’esthétique future.
@@ -748,11 +766,6 @@ generated_at: "2026-05-18T09:18:51"
 - S35-A034 [moyen] — Ne pas transformer Jodrell Bank en origine directe de l’électronique Joy Division/New Order.
 - S35-A035 [moyen] — Ne pas psychologiser toute l’esthétique Morris par le grammar school.
 - S35-A037 [moyen] — Ne pas surestimer le degré de compréhension théorique de Morris adolescent.
-- S35-A038 [faible] — Scène utile comme médiation culturelle, non comme source factuelle principale.
-- S35-A040 [moyen] — Ne pas réduire le père à un simple passé réactionnaire ; le passage reste humoristique.
-- S35-A041 [moyen] — Ne pas faire d’Hawkwind la source unique du son Joy Division.
-- S35-A042 [faible] — La scène sert directement l’opposition Macclesfield/Manchester.
-- S35-A045 [élevé] — Ne pas faire de la drogue un moteur esthétique du style Morris.
 
 ## 15. Lacunes et prochaines vérifications
 

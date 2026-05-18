@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 202 |
+| Atomes | 204 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
@@ -55,6 +56,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
+- **S35-A017** — S35-A017 — *Unknown Pleasures* : écart entre scène, studio et réception interne  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
+- **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A038** — S41-A038 — Trois îles musicales : alliances internes et Ian comme colle du groupe  
@@ -119,10 +124,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A079** — S45-A079 — Femmes bannies et male bonding : coût genré de la réussite  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -206,6 +207,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A082** — S45-A082 — Natalie d’abord : maternité contre centralité de Ian  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
@@ -282,10 +287,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
 - **S45-A138** — S45-A138 — Charlesworth : évacuation du père hors du foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct + mention de dossier médical selon Deborah`.
-- **S45-A141** — S45-A141 — Factory du 11 avril : retour impossible et humiliation publique de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A142** — S45-A142 — Natalie un an : anniversaire sans père et dépression de la maison Wilson  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct + propos de Lindsay rapportés`.
 
 ## 7. Citations disponibles
 
@@ -391,6 +392,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - mort de ian curtis (2)
 - john peel (2)
 - réception posthume (2)
+- Unknown Pleasures (2)
 - Peter Saville (2)
 - pulsar (2)
 - anti-nostalgie (2)
@@ -430,7 +432,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - dissimulation collective locale (1)
 - épouse qui refleurit (1)
 - performance sous tension (1)
-- vérité par archive domestique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -680,6 +681,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | crise_creative | 1 |
 | transition_morceaux | 1 |
 | rupture_biographique | 1 |
+| culture_materielle | 1 |
+| album_production | 1 |
 | acteur_image | 1 |
 | image_groupe | 1 |
 | fait_biographique | 1 |
@@ -695,7 +698,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 89 |
+| critique | 91 |
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 8 |

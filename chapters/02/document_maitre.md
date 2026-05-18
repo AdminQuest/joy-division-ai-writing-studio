@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T09:18:51"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 345 |
+| Atomes | 347 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 34 |
@@ -39,7 +39,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 13 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 15 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 10 | 0 |
@@ -215,6 +215,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `motif_geographique` ; importance : `critique pour le chapitre 1` ; preuve : `témoignage autobiographique direct`.
 - **S35-A046** — S35-A046 — Sunshine Valley Dance Band : former un groupe avant de savoir jouer  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_pre_groupe` ; importance : `critique pour le chapitre 2` ; preuve : `témoignage autobiographique direct`.
+- **S35-A051** — S35-A051 — Roxy contre Van der Graaf : style, genre et uniformes de scène  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_sociale_style` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -285,10 +289,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-048** — S41-048 — Classe sociale et exclusion de la scène arty mancunienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-049** — S41-049 — Rob Gretton entre dans le groupe par la pratique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-050** — S41-050 — Gretton corrige immédiatement *An Ideal for Living*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -524,9 +524,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - imagerie nazie (2)
 - Hitler Youth (2)
 - Liverpool (2)
+- Pips (2)
 - expérimentation (2)
 - Piccadilly Plaza (2)
-- Martin Hannett (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -661,6 +661,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
+| scene_sociale_style | 2 |
 | prudence_methodologique | 2 |
 | genese_groupe | 2 |
 | acteur_mediation | 2 |
@@ -739,11 +740,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | scene_live | 1 |
 | professionnalisation | 1 |
 | controverse_visuelle | 1 |
+| cartographie_scene | 1 |
 | pratique_groupe | 1 |
 | emergence_repertoire | 1 |
 | mediation_label | 1 |
 | scene_sociale_pop | 1 |
-| scene_sociale_style | 1 |
 | motif_geographique | 1 |
 | scene_revelation_live | 1 |
 | scene_pre_groupe | 1 |
@@ -764,11 +765,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | non qualifiée | 205 |
 | critique | 89 |
-| majeure | 26 |
+| majeure | 27 |
 | majeur | 15 |
 | moyenne | 2 |
 | structurante | 2 |
 | utile | 2 |
+| critique pour Chapitre 2 | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |

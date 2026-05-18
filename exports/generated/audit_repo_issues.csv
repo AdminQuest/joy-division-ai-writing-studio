@@ -14508,6 +14508,219 @@ warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisee
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_02.md,REL-S35-016,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_02.md,REL-S35-017,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_02.md,REL-S35-018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: importance,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-PART-04,Invalid value for type_unite: source_part,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A048,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A048,Invalid value for type_unite: scene_sante_prudente,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A048,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A049,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A049,Invalid value for type_unite: concept_rythmique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A049,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A050,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A050,Invalid value for type_unite: scene_generationnelle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A050,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A051,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A051,Invalid value for type_unite: scene_sociale_style,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A051,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A052,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A052,Invalid value for type_unite: scene_adolescente_prudente,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A052,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A053,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A053,Invalid value for type_unite: apprentissage_instrumental,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A053,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A054,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A054,Invalid value for type_unite: matrice_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A054,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A055,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A055,Invalid value for type_unite: scene_biographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A055,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A056,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A056,Invalid value for type_unite: evenement_biographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A056,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A057,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A057,Invalid value for type_unite: motif_geographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A057,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A058,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A058,Invalid value for type_unite: formation_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A058,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A059,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A059,Invalid value for type_unite: culture_bootleg,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A059,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A060,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A060,Invalid value for type_unite: scene_travail_industriel,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A060,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A061,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A061,Invalid value for type_unite: culture_materielle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A061,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A062,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A062,Invalid value for type_unite: cartographie_scene,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A062,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A063,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A063,Invalid value for type_unite: scene_festival_prudente,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A063,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A064,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A064,Invalid value for type_unite: evenement_biographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A064,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,field_type_error,sources/morris_record_play_pause/source_part_04.md,S35-A065,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
+warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_04.md,S35-A065,Invalid value for type_unite: contexte_social,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/morris_record_play_pause/source_part_04.md,S35-A065,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_03.md,REL-S35-PART-03,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_03.md,REL-S35-019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_03.md,REL-S35-020,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -14783,6 +14996,12 @@ warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialise
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_03.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_03.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_03.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,REG-S35-PART-04,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35_part_04.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/morris_record_play_pause/source_part_02.md,S35-PART-02,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morris_record_play_pause/source_part_02.md,S35-PART-02,Missing required field: titre,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morris_record_play_pause/source_part_02.md,S35-PART-02,Missing required field: concepts,Compléter le champ obligatoire.
@@ -14930,6 +15149,19 @@ warning,v2_migration_debt,sources/morris_record_play_pause/source_part_02.md,S35
 warning,field_type_error,sources/morris_record_play_pause/source_part_02.md,S35-A032,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
 warning,invalid_controlled_value,sources/morris_record_play_pause/source_part_02.md,S35-A032,Invalid value for type_unite: apprentissage_rythmique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/morris_record_play_pause/source_part_02.md,S35-A032,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-PART-04,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-029,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-030,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-031,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-032,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-033,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-034,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-035,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-036,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-037,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-038,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-039,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/morris_record_play_pause/relations_stabilisees_part_04.md,REL-S35-040,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/morris_record_play_pause/registres_specialises_s35.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -21010,6 +21242,9 @@ warning,unknown_yaml_block,registers/myths/s35_morris_mythes_part_03.md,MYTHE-S3
 warning,unknown_yaml_block,registers/myths/s35_morris_mythes_part_03.md,MYTHE-S35-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md,MYTHS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s10_sumner_myths_salford_formation_sound_v2.md,MYTHS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/myths/s35_morris_mythes_part_04.md,MYTHE-S35-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/myths/s35_morris_mythes_part_04.md,MYTHE-S35-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/myths/s35_morris_mythes_part_04.md,MYTHE-S35-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md,MYTHS-S12-AIDS-ANDERTON-MORAL-ORDER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md,MYTHES-S69-NOSTALGIE-MEMOIRE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md,MYTHS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

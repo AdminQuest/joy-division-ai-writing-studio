@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ generated_at: "2026-05-17T20:50:09"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 251 |
+| Atomes | 253 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
 | Personnes | 31 |
 | Chansons | 13 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 12 | 0 |
@@ -49,6 +50,10 @@ generated_at: "2026-05-17T20:50:09"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A018** — S35-A018 — La maladie de Curtis : incompréhension collective et limites du groupe  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `sante_prudence` ; importance : `critique` ; preuve : `moyenne`.
 - **S41-A023** — S41-A023 — Premières répétitions : lieux instables, WEM PA et paroles concurrentes  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A044** — S41-A044 — Session *An Ideal for Living* : basse fausse, Curtis auteur total et prise live  
@@ -115,10 +120,6 @@ generated_at: "2026-05-17T20:50:09"
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
-- **S44-A015** — S44-A015 — Ian Curtis : art comme refuge contre l’exclusion du sens commun  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `acteur_biographique` ; importance : `critique` ; preuve : `moyenne`.
-- **S44-A016** — S44-A016 — 1978-1980 : maladie, ascension et téléologie à contrôler  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `chronologie_biographique_prudente` ; importance : `critique` ; preuve : `moyenne`.
 
 ## 6. Autres atomes utiles
 
@@ -198,6 +199,10 @@ generated_at: "2026-05-17T20:50:09"
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `lecture_filmique` ; importance : `utile` ; preuve : `moyenne`.
 - **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `mediation_litteraire` ; importance : `utile` ; preuve : `moyenne`.
+- **S44-A015** — S44-A015 — Ian Curtis : art comme refuge contre l’exclusion du sens commun  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `acteur_biographique` ; importance : `critique` ; preuve : `moyenne`.
+- **S44-A016** — S44-A016 — 1978-1980 : maladie, ascension et téléologie à contrôler  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `chronologie_biographique_prudente` ; importance : `critique` ; preuve : `moyenne`.
 - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
@@ -278,10 +283,6 @@ generated_at: "2026-05-17T20:50:09"
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-171** — S46-171 — Voix de Curtis : régionalité effacée et grave artificiel  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-180** — S46-180 — Paul Morley, NME 1978 : Curtis comme force vocale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -422,13 +423,13 @@ generated_at: "2026-05-17T20:50:09"
 ## 11. Concepts récurrents
 
 - Ian Curtis (44)
-- prudence historiographique (20)
+- prudence historiographique (21)
 - epilepsie (10)
-- épilepsie (8)
+- épilepsie (9)
 - scène (6)
+- fatigue (6)
 - factory (6)
 - danse (5)
-- fatigue (5)
 - tony wilson (5)
 - voix (4)
 - architecture sonore (4)
@@ -455,11 +456,13 @@ generated_at: "2026-05-17T20:50:09"
 - crises (2)
 - isolement (2)
 - solitude (2)
+- tournée (2)
 - paternité (2)
 - famille (2)
 - double vie (2)
 - sommeil (2)
 - tournées (2)
+- incompréhension (2)
 - silence (2)
 - couple (2)
 - Macclesfield (2)
@@ -499,8 +502,6 @@ generated_at: "2026-05-17T20:50:09"
 - collectif orienté (1)
 - mélodie vocale comme cohésion (1)
 - domesticité productive (1)
-- lieu de préparation (1)
-- logistique conjugale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -640,9 +641,9 @@ generated_at: "2026-05-17T20:50:09"
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
+| prudence_methodologique | 6 |
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
-| prudence_methodologique | 5 |
 | interpretation | 5 |
 | lecture | 4 |
 | lecture_musicale | 4 |
@@ -772,6 +773,7 @@ generated_at: "2026-05-17T20:50:09"
 | production_album | 1 |
 | crise_creative | 1 |
 | transition_morceaux | 1 |
+| sante_prudence | 1 |
 | lecture_filmique | 1 |
 | mediation_litteraire | 1 |
 | acteur_biographique | 1 |
@@ -790,7 +792,7 @@ generated_at: "2026-05-17T20:50:09"
 
 | Importance | Nombre |
 |---|---|
-| critique | 116 |
+| critique | 118 |
 | non qualifiée | 94 |
 | majeure | 35 |
 | majeur | 3 |

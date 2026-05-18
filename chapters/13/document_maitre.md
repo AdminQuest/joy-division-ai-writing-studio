@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 86 |
+| Atomes | 88 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 12 |
 | Personnes | 25 |
 | Chansons | 9 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -124,6 +125,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
 - **S15-A012** — S15-A012 — Psychogéographie et ville moderne : Manchester comme thème porteur  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S35-A060** — S35-A060 — Atwell and Jenner’s mill : travail textile et rythme industriel  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_travail_industriel` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
@@ -531,6 +536,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contexte | 2 |
 | contrepoint | 2 |
 | concept_structurant | 2 |
+| cartographie_scene | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
@@ -548,7 +554,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | archive | 1 |
 | prudence_methodologique | 1 |
 | lecture_chanson_espace | 1 |
-| cartographie_scene | 1 |
 | institution_scene | 1 |
 | contexte_affectif | 1 |
 | lieu_institution | 1 |
@@ -572,6 +577,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | geographie_sociale | 1 |
 | portrait_social | 1 |
 | concert_europeen | 1 |
+| scene_travail_industriel | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
 | fait | 1 |
@@ -589,6 +595,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | majeure | 27 |
 | non qualifiée | 24 |
 | majeur | 3 |
+| critique pour Chapitre 3 | 1 |
+| critique pour Chapitre 2 | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

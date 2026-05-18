@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 337 |
+| Atomes | 347 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 10 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 3 | 0 |
@@ -53,6 +54,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
+- **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S35-A018** — S35-A018 — La maladie de Curtis : incompréhension collective et limites du groupe  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `sante_prudence` ; importance : `critique` ; preuve : `moyenne`.
+- **S35-A019** — S35-A019 — *Closer* : intensité tardive et clôture sans téléologie simple  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_fin` ; importance : `critique` ; preuve : `forte`.
+- **S35-A020** — S35-A020 — Mort de Curtis et recomposition : Starting Over / New York New York  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_posthume` ; importance : `critique` ; preuve : `forte`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A033** — S41-A033 — Curtis à Rafters : Iggy, alcool et première violence scénique inquiétante  
@@ -111,14 +120,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
 - **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
-- **S41-A173** — S41-A173 — Annik sur la tournée européenne : soin, contrôle moral et Curtis caméléon  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A176** — S41-A176 — Rotterdam : scène comme refuge contre froid, faim et bickering  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A178** — S41-A178 — « We carried on » : automutilation, crises et vulnérabilité publique de Curtis  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_medicale_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -132,10 +133,30 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_vocale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A035** — S10-A035 — De Joy Division à Movement : survivance du deuil dans une musique qui cherche sa forme  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S35-A002** — S35-A002 — Macclesfield : enfance, industrie, Parkside et double décor mental  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `forte`.
+- **S35-A004** — S35-A004 — Premières pertes de connaissance : expérience corporelle à traiter avec prudence  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `fait_biographique_prudent` ; importance : `utile` ; preuve : `moyenne`.
+- **S35-A024** — S35-A024 — Malaises d’enfance : corps, institution médicale et prudence analogique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `fait_biographique_prudent` ; importance : `majeure pour la prudence méthodologique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A048** — S35-A048 — MIMS, pharmacie domestique et bricolage toxique adolescent  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_sante_prudente` ; importance : `majeure pour la prudence santé` ; preuve : `témoignage autobiographique direct`.
+- **S35-A056** — S35-A056 — Drugs squad et exclusion de King’s : rupture scolaire, colère et nuage noir  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_biographique` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A065** — S35-A065 — Macclesfield dangereuse : heroin, violences, vols et désir de rupture  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_social` ; importance : `critique pour Chapitre 1` ; preuve : `témoignage autobiographique direct`.
 - **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A173** — S41-A173 — Annik sur la tournée européenne : soin, contrôle moral et Curtis caméléon  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A176** — S41-A176 — Rotterdam : scène comme refuge contre froid, faim et bickering  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A177** — S41-A177 — Killing Joke, cab démonté et précarité technique avant la crise médicale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A178** — S41-A178 — « We carried on » : automutilation, crises et vulnérabilité publique de Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_medicale_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
 - **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
@@ -262,26 +283,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_medical` ; importance : `critique` ; preuve : `témoignage direct avec éléments médicaux rapportés`.
 - **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
-- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
-- **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -419,15 +420,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 ## 11. Concepts récurrents
 
 - Ian Curtis (28)
-- prudence historiographique (17)
-- Closer (10)
-- épilepsie (9)
-- New Order (6)
+- prudence historiographique (18)
+- Closer (11)
+- épilepsie (10)
+- New Order (7)
+- Britannia Row (5)
 - non-monocausalité médicale (4)
 - film (4)
 - réception (4)
-- Britannia Row (4)
+- fatigue (4)
 - mythe (4)
+- anti-téléologie (4)
 - réception corporelle (3)
 - Stroszek (3)
 - Werner Herzog (3)
@@ -437,8 +440,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - contrôle (3)
 - Martin Hannett (3)
 - suicide (3)
-- fatigue (3)
-- anti-téléologie (3)
 - récits concurrents (3)
 - vérité conjugale différée (2)
 - corps exposé (2)
@@ -477,6 +478,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - 2 mai 1980 (2)
 - dernier concert (2)
 - Still (2)
+- Macclesfield (2)
 - John Peel (2)
 - Radio 1 (2)
 - romantisme noir (2)
@@ -492,12 +494,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - géographie émotionnelle (2)
 - mémoire située (2)
 - mémoire conjugale croisée (2)
+- mort de Curtis (2)
+- Parkside (2)
 - témoins d’autorité (2)
 - légitimité mémorielle (2)
 - anti-nostalgie (2)
-- seuil professionnel (1)
-- maladie collectivisée (1)
-- tournée comme soin pratique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -636,7 +637,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | non qualifié | 16 |
 | tension_domestique | 7 |
 | lecture_chanson | 7 |
-| prudence_methodologique | 5 |
+| prudence_methodologique | 6 |
 | session_studio | 5 |
 | song | 5 |
 | evenement_medical_live | 4 |
@@ -648,6 +649,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_documentaire | 3 |
 | analyse_album | 3 |
 | dernier_concert | 3 |
+| evenement_biographique | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -664,10 +666,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
+| transition_posthume | 2 |
 | interpretation_retrospective | 2 |
 | scene_deuil | 2 |
 | processus_creatif_chanson | 2 |
-| evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
 | lecture_biographique | 2 |
@@ -686,6 +688,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_intime | 2 |
 | scene_intime | 2 |
 | bascule_tournee | 2 |
+| contexte_biographique | 2 |
+| fait_biographique_prudent | 2 |
 | concept_structurant | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
@@ -716,7 +720,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_vocale | 1 |
 | tension_industrie | 1 |
 | performance_sensible | 1 |
-| transition_posthume | 1 |
 | analyse_voix_sante | 1 |
 | analyse_morceau_memoire | 1 |
 | analyse_morceau_album | 1 |
@@ -843,7 +846,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
 | scene_de_transition | 1 |
-| contexte_biographique | 1 |
 | concert_archive | 1 |
 | concert_europeen | 1 |
 | transition_morceaux | 1 |
@@ -851,6 +853,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | decision_collective | 1 |
 | transition_vocale | 1 |
 | transition_album | 1 |
+| scene_sante_prudente | 1 |
+| contexte_social | 1 |
+| sante_prudence | 1 |
+| album_fin | 1 |
 | lecture_filmique | 1 |
 | acteur_biographique | 1 |
 | chronologie_biographique_prudente | 1 |
@@ -869,11 +875,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 193 |
+| critique | 197 |
 | non qualifiée | 110 |
-| majeure | 21 |
+| majeure | 23 |
 | majeur | 12 |
-| utile | 1 |
+| utile | 2 |
+| majeure pour la prudence santé | 1 |
+| critique pour Chapitre 1 | 1 |
+| majeure pour la prudence méthodologique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:50:09"
+generated_at: "2026-05-18T12:27:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 230 |
+| Atomes | 232 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
 | Personnes | 10 |
 | Chansons | 15 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
@@ -151,6 +152,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
+- **S35-A026** — S35-A026 — Jersey et bunkers : guerre, ruines et imaginaire matériel  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `motif_historique` ; importance : `majeure pour les prudences sur l’imagerie de guerre` ; preuve : `témoignage autobiographique direct`.
+- **S35-A058** — S35-A058 — House on the Borderland, Percival’s, Burroughs, Ballard : librairies et contre-savoirs  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_culturelle` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S39-A003** — S39-A003 — Mobilité, flexibilité et individualisation de l’incertitude  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `source secondaire théorique`.
 - **S39-A004** — S39-A004 — Fragilité des liens sociaux et précarité des appartenances  
@@ -287,10 +292,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_scenique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-174** — S46-174 — Steve Taylor : sujets banals, opération urgente  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-175** — S46-175 — « Auto-Suggestion : The Him » : musique et langage symbolique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-177** — S46-177 — Transe et répétition lente  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -449,6 +450,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Electric Circus (3)
 - réception critique (3)
 - Ian Curtis (3)
+- Ballard (2)
 - John Heartfield (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
@@ -478,7 +480,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Dostoyevsky (1)
 - Nietzsche (1)
 - Sartre (1)
-- Hesse (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -679,6 +680,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_reception | 1 |
 | contraste_biographique | 1 |
 | concert_europeen | 1 |
+| formation_culturelle | 1 |
+| motif_historique | 1 |
 | mediation_litteraire | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
@@ -694,8 +697,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | non qualifiée | 133 |
 | critique | 71 |
-| majeure | 20 |
+| majeure | 21 |
 | majeur | 5 |
+| majeure pour les prudences sur l’imagerie de guerre | 1 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
