@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-18T18:41:38",
+  "generated_at": "2026-05-18T20:07:17",
   "status": "warning",
   "summary": {
-    "records_total": 4897,
+    "records_total": 4899,
     "records_by_kind": {
       "atom": 2112,
-      "metadata": 147,
+      "metadata": 148,
       "unknown": 566,
-      "source": 78,
+      "source": 79,
       "concept": 270,
       "motif": 323,
       "myth": 48,
@@ -22,9 +22,9 @@
     "diagnostics_total": 22540,
     "errors": 0,
     "warnings": 22540,
-    "sources_declared_in_registre_json": 59,
-    "sources_used_in_records": 39,
-    "sources_exported": 39,
+    "sources_declared_in_registre_json": 60,
+    "sources_used_in_records": 40,
+    "sources_exported": 40,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1077,6 +1077,20 @@
           "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
           "sources/malvezzi_dream_english_kid_lo_fi/source.md",
           "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S52",
+        "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+        "auteur": "Andrea Rabbito",
+        "titre": "Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/rabbito_control_infrangimento_vetro/source.md"
         ]
       },
       {
