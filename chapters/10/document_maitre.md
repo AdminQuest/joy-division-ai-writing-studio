@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 204 |
+| Atomes | 206 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -60,6 +60,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A099** — S35-A099 — Rafters / Yachts : crise de Stephanie et vie de groupe sans filet  
+  Source :  ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A038** — S41-A038 — Trois îles musicales : alliances internes et Ian comme colle du groupe  
@@ -122,8 +124,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A079** — S45-A079 — Femmes bannies et male bonding : coût genré de la réussite  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 
 ## 6. Autres atomes utiles
 
@@ -153,6 +153,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
+  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
@@ -207,6 +209,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A079** — S45-A079 — Femmes bannies et male bonding : coût genré de la réussite  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
@@ -283,10 +287,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage de Terry Mason rapporté par Deborah`.
 - **S45-A136** — S45-A136 — Overdose du 7 avril : note, Annik et ignorance de Deborah  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct ; note suicidaire rapportée`.
-- **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
-- **S45-A138** — S45-A138 — Charlesworth : évacuation du père hors du foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct + mention de dossier médical selon Deborah`.
 
 ## 7. Citations disponibles
 
@@ -465,6 +465,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - GP (2)
 - image (2)
 - Morris Traveller (2)
+- Macclesfield (2)
 - An Ideal for Living (2)
 - indépendance (2)
 - Sue Barlow (2)
@@ -476,7 +477,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Belgian embassy (2)
 - co-respondent (2)
 - Terry Mason (2)
-- Ian Curtis (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -567,7 +567,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| tension_domestique | 7 |
+| tension_domestique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
 | biographie | 6 |
@@ -683,6 +683,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | rupture_biographique | 1 |
 | culture_materielle | 1 |
 | album_production | 1 |
+| evenement_domestique_live | 1 |
 | acteur_image | 1 |
 | image_groupe | 1 |
 | fait_biographique | 1 |
@@ -698,10 +699,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 91 |
+| critique | 92 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 8 |
+| majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

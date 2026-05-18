@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-18T12:27:32"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 253 |
+| Atomes | 257 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-18T12:27:32"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 12 | 0 |
@@ -54,6 +54,14 @@ generated_at: "2026-05-18T12:27:32"
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S35-A018** — S35-A018 — La maladie de Curtis : incompréhension collective et limites du groupe  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `sante_prudence` ; importance : `critique` ; preuve : `moyenne`.
+- **S35-A079** — S35-A079 — Barton Street : première rencontre Morris / Curtis sans icône  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A081** — S35-A081 — Ian Curtis comme homme d’idées : plan, scène et adhésion immédiate  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `interpretation_personne` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
+  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A091** — S35-A091 — « Living in the Ice Age » : écrire sans savoir, par intuition collective  
+  Source :  ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A023** — S41-A023 — Premières répétitions : lieux instables, WEM PA et paroles concurrentes  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A044** — S41-A044 — Session *An Ideal for Living* : basse fausse, Curtis auteur total et prise live  
@@ -112,14 +120,6 @@ generated_at: "2026-05-18T12:27:32"
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
-- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -195,6 +195,14 @@ generated_at: "2026-05-18T12:27:32"
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
+- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
+  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S44-A006** — S44-A006 — *24 Hour Party People* : scène d’épilepsie et allégorie sociale  
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `lecture_filmique` ; importance : `utile` ; preuve : `moyenne`.
 - **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
@@ -275,14 +283,6 @@ generated_at: "2026-05-18T12:27:32"
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `citation_contextualisee` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-073** — S46-073 — Premier concert : malaise de Curtis et réactions mitigées  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-136** — S46-136 — Paul Slattery et la documentation de 1979-1980  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_photographe` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-171** — S46-171 — Voix de Curtis : régionalité effacée et grave artificiel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -508,9 +508,9 @@ generated_at: "2026-05-18T12:27:32"
 ### 12.1. Motifs dominants
 
 - Deborah Curtis (9)
+- Barton Street (8)
 - Ian Curtis (8)
 - épilepsie (8)
-- Barton Street (7)
 - Natalie Curtis (7)
 - Annik Honoré (6)
 - Love Will Tear Us Apart (5)
@@ -524,6 +524,7 @@ generated_at: "2026-05-18T12:27:32"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - paroles (3)
+- blue room (3)
 - No Love Lost (3)
 - Iggy Pop (3)
 - Interzone (3)
@@ -540,7 +541,6 @@ generated_at: "2026-05-18T12:27:32"
 - mariage (3)
 - Rob Gretton (3)
 - tournée américaine (3)
-- blue room (2)
 - écriture (2)
 - T. J. Davidson’s (2)
 - Kraftwerk (2)
@@ -651,6 +651,7 @@ generated_at: "2026-05-18T12:27:32"
 | session_studio | 3 |
 | session_radio | 3 |
 | analyse_morceau | 3 |
+| processus_creatif_chanson | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
@@ -659,7 +660,6 @@ generated_at: "2026-05-18T12:27:32"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | chanson_single | 2 |
-| processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -773,7 +773,10 @@ generated_at: "2026-05-18T12:27:32"
 | production_album | 1 |
 | crise_creative | 1 |
 | transition_morceaux | 1 |
+| rencontre_fondatrice | 1 |
+| interpretation_personne | 1 |
 | sante_prudence | 1 |
+| scene_live_apprentissage | 1 |
 | lecture_filmique | 1 |
 | mediation_litteraire | 1 |
 | acteur_biographique | 1 |
@@ -792,7 +795,7 @@ generated_at: "2026-05-18T12:27:32"
 
 | Importance | Nombre |
 |---|---|
-| critique | 118 |
+| critique | 122 |
 | non qualifiée | 94 |
 | majeure | 35 |
 | majeur | 3 |

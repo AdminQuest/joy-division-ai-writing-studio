@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 257 |
+| Atomes | 263 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 24 |
@@ -42,7 +42,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
@@ -65,6 +65,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
+- **S35-A086** — S35-A086 — Drummer and Driver : Morris entre par la voiture autant que par la batterie  
+  Source :  ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
+  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
+  Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -117,14 +125,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
-- **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
-- **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A119** — S41-A119 — Son live perdu : le désarroi Hook/Sumner devant *Unknown Pleasures*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
 
 ## 6. Autres atomes utiles
 
@@ -214,6 +214,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
 - **S35-A064** — S35-A064 — Dizz, blackout et Great Vinyl Robbery : de la bohème rêvée à la petite criminalité  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_biographique` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A082** — S35-A082 — Cassette Warsaw : punk-by-numbers mais basse étrange  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `ecoute_demo` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A083** — S35-A083 — Rehearsal call : Morris devient batteur-chauffeur avant d’être membre  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_recrutement` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -224,6 +228,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
 - **S41-A094** — S41-A094 — M24J : Factory avant Joy Division, management project et origine institutionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
+- **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
+- **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A119** — S41-A119 — Son live perdu : le désarroi Hook/Sumner devant *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
@@ -276,18 +288,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
 - **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
-- **S41-A180** — S41-A180 — Pauvreté maintenue : *Unknown Pleasures* reconnu, mais pas de star-system  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A181** — S41-A181 — Mix de « Love Will Tear Us Apart » : Hannett exclut les musiciens  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
-- **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
-- **S41-A187** — S41-A187 — Crise aux toilettes de Britannia Row : gash, reprise du travail et titre possible du livre  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -405,6 +405,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - novelty (2)
 - architecture sonore (2)
 - class (2)
+- musicien comme ressource logistique (2)
 - Madchester (2)
 - City Fun (2)
 - new pop (2)
@@ -434,7 +435,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - matérialité financière (1)
 - objet bricolé (1)
 - DIY intégral (1)
-- désir de studio (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -467,6 +467,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Licht und Blindheit (4)
 - Dead Souls (4)
 - Rudolf Hess (3)
+- DIY (3)
 - bootlegs (3)
 - Strawberry Studios (3)
 - Interzone (3)
@@ -479,7 +480,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Heart and Soul (3)
 - Chance (3)
 - Novelty (3)
-- Enigma (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -675,6 +675,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | culture_materielle | 1 |
 | cartographie_scene | 1 |
 | evenement_biographique | 1 |
+| ecoute_demo | 1 |
+| transition_recrutement | 1 |
+| synthese_mediation | 1 |
+| scene_recrutement_logistique | 1 |
+| archive_live | 1 |
+| decision_strategique_groupe | 1 |
 | contexte_musical | 1 |
 | contexte_discographique | 1 |
 | relation_inter_sources | 1 |
@@ -701,11 +707,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 104 |
+| critique | 108 |
 | majeur | 18 |
 | majeure | 10 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
+| critique pour Chapitre 3 | 1 |
+| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

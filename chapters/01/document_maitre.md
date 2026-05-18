@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-18T12:27:32"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 229 |
+| Atomes | 231 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
@@ -88,6 +88,10 @@ generated_at: "2026-05-18T12:27:32"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
 - **S35-A041** — S35-A041 — Hawkwind au Free Trade Hall : concert comme choc sensoriel total  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
+  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
+  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
 - **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
@@ -134,10 +138,6 @@ generated_at: "2026-05-18T12:27:32"
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
 - **S34-A003** — S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S35-A002** — S35-A002 — Macclesfield : enfance, industrie, Parkside et double décor mental  
-  Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -669,6 +669,8 @@ generated_at: "2026-05-18T12:27:32"
 | scene_biographique | 1 |
 | formation_mediatique | 1 |
 | scene_sociale_pop | 1 |
+| lecture_generationnelle | 1 |
+| lieu_structurant | 1 |
 | lieu_imaginaire | 1 |
 | conflit_generationnel | 1 |
 | scene_revelation_live | 1 |
@@ -693,7 +695,7 @@ generated_at: "2026-05-18T12:27:32"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 31 |
+| critique | 33 |
 | majeure | 29 |
 | utile | 10 |
 | majeur | 2 |

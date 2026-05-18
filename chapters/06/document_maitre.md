@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 437 |
+| Atomes | 441 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
@@ -36,7 +36,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 8 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 9 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 2 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 1 | 0 |
@@ -65,6 +65,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
 - **S35-A019** — S35-A019 — *Closer* : intensité tardive et clôture sans téléologie simple  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_fin` ; importance : `critique` ; preuve : `forte`.
+- **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
+  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
+  Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A096** — S35-A096 — « Fast dancey » et « jungly tom » : consignes pauvres, formes durables  
+  Source :  ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
@@ -117,12 +123,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
 - **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
-- **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
-- **S41-A070** — S41-A070 — Arrivée de Rob Gretton : manager comme soulagement organisationnel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -138,6 +138,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `acteur_mediation` ; importance : `majeure` ; preuve : `forte`.
 - **S35-A044** — S35-A044 — Faust : studio, collage et soupçon de machine  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique pour la généalogie studio/expérimentation` ; preuve : `témoignage autobiographique direct`.
+- **S35-A069** — S35-A069 — Strawberry Studios : premier studio, batterie étouffée et apprentissage technique  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `session_studio_apprentissage` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-102** — S41-102 — La scène comme aggravateur physique  
@@ -228,6 +230,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
 - **S41-A065** — S41-A065 — Deux mois sans concert : Hook manager et humiliation du booking  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
+- **S41-A070** — S41-A070 — Arrivée de Rob Gretton : manager comme soulagement organisationnel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A072** — S41-A072 — Transit bleu pétrole : autonomie matérielle et économie des gigs  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
 - **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
@@ -278,14 +286,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
 - **S41-A104** — S41-A104 — Logistique du van : Hook porteur, roadies non payés et division matérielle du travail  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A105** — S41-A105 — Fatigue sans épilepsie : accélération collective et déni de la maladie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A106** — S41-A106 — Rob Gretton à plein temps : téléphone, opportunités et emballement du calendrier  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
-- **S41-A108** — S41-A108 — T. J. Davidson’s : productivité collective et transformation des influences en idiome Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -522,13 +522,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (24)
+- Rob Gretton (25)
 - Factory (14)
 - Tony Wilson (14)
 - Martin Hannett (12)
+- Rafters (9)
 - Transmission (9)
 - Unknown Pleasures (9)
-- Rafters (8)
 - Hannett (8)
 - Buzzcocks tour (7)
 - Digital (7)
@@ -875,11 +875,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
+| session_studio_apprentissage | 1 |
 | prudence_methodologique | 1 |
 | mediation_label | 1 |
 | production_sonore | 1 |
 | album_production | 1 |
 | album_fin | 1 |
+| scene_conflit_scene_locale | 1 |
+| theorie_instrumentale | 1 |
+| processus_creatif_rythmique | 1 |
 | matrice_musicale | 1 |
 | chronologie_biographique_prudente | 1 |
 | fait_biographique | 1 |
@@ -903,11 +907,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 204 |
+| critique | 207 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 27 |
 | secondaire utile | 1 |
+| critique pour Chapitre 3 | 1 |
 | critique pour la généalogie studio/expérimentation | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

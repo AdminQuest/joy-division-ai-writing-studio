@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 232 |
+| Atomes | 235 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
@@ -38,7 +38,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 3 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
@@ -71,6 +71,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
 - **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S35-A070** — S35-A070 — Être dans un groupe, leçon 1 : la conviction manque plus que l’argent  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `principe_groupe` ; importance : `critique` ; preuve : `interprétation autobiographique rétrospective`.
+- **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
+  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
+  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
 - **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
@@ -123,12 +129,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
-- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -208,6 +208,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
@@ -286,12 +292,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-167** — S46-167 — « About-Face » : The Noise comme concept critique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-168** — S46-168 — The Noise : art plus réel que le réel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-169** — S46-169 — The Noise : espace minimal et tension maximale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_scenique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-174** — S46-174 — Steve Taylor : sujets banals, opération urgente  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -442,12 +442,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - provocation (5)
 - domesticité (5)
+- Electric Circus (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
 - silence (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
-- Electric Circus (3)
 - réception critique (3)
 - Ian Curtis (3)
 - Ballard (2)
@@ -681,7 +681,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | contraste_biographique | 1 |
 | concert_europeen | 1 |
 | formation_culturelle | 1 |
+| principe_groupe | 1 |
 | motif_historique | 1 |
+| lecture_generationnelle | 1 |
+| controverse_scene_live | 1 |
 | mediation_litteraire | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
@@ -696,7 +699,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 71 |
+| critique | 74 |
 | majeure | 21 |
 | majeur | 5 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

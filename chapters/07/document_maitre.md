@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 129 |
+| Atomes | 134 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 13 |
 | Personnes | 16 |
 | Chansons | 16 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
@@ -71,6 +72,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S34-A007** — S34-A007 — « Interzone » : marche urbaine, fuite impossible et monotonie du bâti  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S35-A072** — S35-A072 — Year Zero punk : Morris déconstruit la pureté des origines  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_historiographique` ; importance : `critique` ; preuve : `interprétation autobiographique et critique`.
+- **S35-A075** — S35-A075 — Low : Bowie comme autre révolution de 1977  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
+  Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S42-A003** — S42-A003 — Centre / périphérie : le post-punk comme mouvement depuis les marges industrielles  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept critique`.
 - **S42-A006** — S42-A006 — Punk contre post-punk : destruction, reconstruction et expérimentation  
@@ -117,12 +124,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
 - **S75-A066** — S75-A066 — Buzzcocks tour, Plan K et bascule vers la reconnaissance nationale  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A073** — S75-A073 — Rainbow, Derby Hall et le dispositif impossible de substitution vocale  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_evenementielle`.
-- **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
-- **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 
 ## 6. Autres atomes utiles
 
@@ -180,6 +181,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
 - **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S35-A066** — S35-A066 — TOTP, disco honni et mémoire corrigée : la haine du mainstream comme posture datée  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_populaire` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A074** — S35-A074 — « New Rose », Buzzcocks, Clash : punk comme énergie jouable  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_punk` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -281,10 +286,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S72-A029** — S72-A029 — Synthpop, Europe froide et futurisme électronique  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A030** — S72-A030 — Throbbing Gristle et l’industrie comme matériau esthétique  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A032** — S72-A032 — PiL : John Lydon comme passage de punk vers post-punk  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A033** — S72-A033 — PiL et la basse dub comme modèle d’espace  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -452,6 +453,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Hannett (2)
 - électronique (2)
 - objet disque (2)
+- DIY (2)
 - transmission (1)
 - Haçienda (1)
 - Manchester post-industrielle (1)
@@ -479,7 +481,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - bruit concret (1)
 - delay (1)
 - spatialisation (1)
-- dead fly dance (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -630,6 +631,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | session | 1 |
 | reception_posthume | 1 |
 | temoignage_biographique | 1 |
+| reception_populaire | 1 |
+| prudence_historiographique | 1 |
+| matrice_punk | 1 |
+| matrice_musicale | 1 |
+| theorie_instrumentale | 1 |
 | motif_visuel | 1 |
 | acteur_image | 1 |
 | relation_son_image | 1 |
@@ -646,8 +652,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 37 |
-| majeure | 12 |
+| critique | 40 |
+| majeure | 14 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |
@@ -695,6 +701,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 - S76-A027 [moyen] — risque de causalité trop directe entre Iggy et la danse de Curtis
+- S35-A066 [moyen] — Ne pas traiter cette haine du disco comme doctrine esthétique durable.
+- S35-A072 [faible] — Le passage déconstruit explicitement la pureté des origines.
+- S35-A074 [faible] — Atome de réception personnelle appuyé sur faits connus.
+- S35-A075 [faible] — Influence explicitement formulée par Morris.
 
 ## 15. Lacunes et prochaines vérifications
 

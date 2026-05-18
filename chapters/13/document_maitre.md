@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 88 |
+| Atomes | 89 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 12 |
@@ -64,6 +64,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S34-A010** — S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
+  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
@@ -116,8 +118,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -125,6 +125,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
 - **S15-A012** — S15-A012 — Psychogéographie et ville moderne : Manchester comme thème porteur  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S35-A060** — S35-A060 — Atwell and Jenner’s mill : travail textile et rythme industriel  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_travail_industriel` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
@@ -398,15 +400,16 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ### 12.1. Motifs dominants
 
 - Salford (5)
+- T. J. Davidson’s (4)
 - Kevin Cummins (4)
-- T. J. Davidson’s (3)
+- Little Peter Street (3)
 - Factory Club (3)
 - Interzone (2)
 - danse (2)
 - rave era (2)
 - Haçienda (2)
-- Little Peter Street (2)
 - Love Will Tear Us Apart video (2)
+- froid (2)
 - Jamaïque (2)
 - couleur (2)
 - répétition (2)
@@ -433,7 +436,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - punk (1)
 - post-punk (1)
 - famous photographs (1)
-- froid (1)
 - Britannia Row (1)
 - Pink Floyd (1)
 - Star Wars (1)
@@ -535,12 +537,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
+| lieu_structurant | 2 |
 | concept_structurant | 2 |
 | cartographie_scene | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
-| lieu_structurant | 1 |
 | lieu_studio | 1 |
 | tension_sociale | 1 |
 | lieu_memoire | 1 |
@@ -591,7 +593,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 32 |
+| critique | 33 |
 | majeure | 27 |
 | non qualifiée | 24 |
 | majeur | 3 |

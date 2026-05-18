@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 347 |
+| Atomes | 355 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -36,7 +36,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 10 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 3 | 0 |
@@ -62,6 +62,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_fin` ; importance : `critique` ; preuve : `forte`.
 - **S35-A020** — S35-A020 — Mort de Curtis et recomposition : Starting Over / New York New York  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_posthume` ; importance : `critique` ; preuve : `forte`.
+- **S35-A079** — S35-A079 — Barton Street : première rencontre Morris / Curtis sans icône  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A081** — S35-A081 — Ian Curtis comme homme d’idées : plan, scène et adhésion immédiate  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `interpretation_personne` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
+  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
+  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A099** — S35-A099 — Rafters / Yachts : crise de Stephanie et vie de groupe sans filet  
+  Source :  ; type : `evenement_domestique_live` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A100** — S35-A100 — Antidépresseurs, substances et humeur : Morris introduit une prudence clinique  
+  Source :  ; type : `prudence_sante_mentale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A033** — S41-A033 — Curtis à Rafters : Iggy, alcool et première violence scénique inquiétante  
@@ -108,18 +120,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
 - **S41-A158** — S41-A158 — 23 janvier 1979 : diagnostic d’épilepsie comme seuil documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical` ; importance : `critique` ; preuve : `repère chronologique médical`.
-- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
-- **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
-- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
-- **S41-A166** — S41-A166 — Timeline Four fin 1979 : tournée Buzzcocks, setlists variables et crise visible  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `critique` ; preuve : `chronologie éditoriale + témoignage direct`.
-- **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
-- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
 
 ## 6. Autres atomes utiles
 
@@ -145,8 +145,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `evenement_biographique` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S35-A065** — S35-A065 — Macclesfield dangereuse : heroin, violences, vols et désir de rupture  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `contexte_social` ; importance : `critique pour Chapitre 1` ; preuve : `témoignage autobiographique direct`.
+- **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
+  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
+- **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
+  Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
 - **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
+- **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
+- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
+- **S41-A166** — S41-A166 — Timeline Four fin 1979 : tournée Buzzcocks, setlists variables et crise visible  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `critique` ; preuve : `chronologie éditoriale + témoignage direct`.
+- **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
+- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
 - **S41-A173** — S41-A173 — Annik sur la tournée européenne : soin, contrôle moral et Curtis caméléon  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
@@ -267,22 +283,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct indirect + récit des membres du groupe`.
 - **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
-- **S45-A071** — S45-A071 — 23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_medical` ; importance : `critique` ; preuve : `témoignage direct avec détails médicaux rapportés`.
-- **S45-A072** — S45-A072 — Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rapporté, interprétation rétrospective de Sumner`.
-- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A074** — S45-A074 — Danse et crise : imitation, indistinction et réception corporelle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A083** — S45-A083 — 24 mai 1979 : quatre crises grand mal et urgence médicale domestique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_medical` ; importance : `critique` ; preuve : `témoignage direct avec éléments médicaux rapportés`.
-- **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 
 ## 7. Citations disponibles
 
@@ -515,8 +515,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Natalie Curtis (9)
 - Annik (7)
 - Love Will Tear Us Apart (7)
+- Barton Street (7)
 - Unknown Pleasures (6)
-- Barton Street (6)
 - Buzzcocks tour (5)
 - Factory (5)
 - Lindsay Reade (5)
@@ -529,6 +529,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Britannia Row (4)
 - silence (4)
 - handicap (4)
+- Macclesfield (4)
 - Phenobarbitone (4)
 - Rainbow Theatre (4)
 - Transmission (4)
@@ -541,9 +542,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Mick Middles (3)
 - New Dawn Fades (3)
 - paroles (3)
-- Macclesfield (3)
+- Rafters (3)
 - Moonlight Club (3)
-- Moonlight (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -635,14 +635,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
-| tension_domestique | 7 |
+| tension_domestique | 8 |
 | lecture_chanson | 7 |
 | prudence_methodologique | 6 |
 | session_studio | 5 |
 | song | 5 |
+| scene_domestique | 4 |
 | evenement_medical_live | 4 |
 | live_set_context | 4 |
-| scene_domestique | 3 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
@@ -855,8 +855,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | transition_album | 1 |
 | scene_sante_prudente | 1 |
 | contexte_social | 1 |
+| rencontre_fondatrice | 1 |
+| interpretation_personne | 1 |
 | sante_prudence | 1 |
 | album_fin | 1 |
+| scene_live_apprentissage | 1 |
+| lecture_generationnelle | 1 |
+| evenement_domestique_live | 1 |
+| prudence_sante_mentale | 1 |
 | lecture_filmique | 1 |
 | acteur_biographique | 1 |
 | chronologie_biographique_prudente | 1 |
@@ -875,11 +881,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 197 |
+| critique | 203 |
 | non qualifiée | 110 |
-| majeure | 23 |
+| majeure | 24 |
 | majeur | 12 |
-| utile | 2 |
+| utile | 3 |
 | majeure pour la prudence santé | 1 |
 | critique pour Chapitre 1 | 1 |
 | majeure pour la prudence méthodologique | 1 |

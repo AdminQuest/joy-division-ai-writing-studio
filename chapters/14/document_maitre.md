@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 927 |
+| Atomes | 943 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
@@ -50,7 +50,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 25 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -102,6 +102,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `culture_materielle` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A072** — S35-A072 — Year Zero punk : Morris déconstruit la pureté des origines  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_historiographique` ; importance : `critique` ; preuve : `interprétation autobiographique et critique`.
+- **S35-A073** — S35-A073 — So It Goes, « Anarchy » et choc télévisuel : punk comme scandale désiré  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_medias` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A076** — S35-A076 — Shy Talk : fanzine comme seuil documentaire de Warsaw  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `media_scene_locale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A079** — S35-A079 — Barton Street : première rencontre Morris / Curtis sans icône  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A080** — S35-A080 — Lesser Free Trade Hall : Morris absent et anti-mythe de la présence obligatoire  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `demythification_scene_fondatrice` ; importance : `critique` ; preuve : `témoignage + transcription de conversation rétrospective`.
+- **S35-A084** — S35-A084 — Morley 30 juillet 1977 : Warsaw comme groupe fonctionnel encore indéterminé  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique reproduite par Morris ; à vérifier dans NME`.
+- **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
+- **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
+  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
+  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
+  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
+  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
 - **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
@@ -120,28 +142,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif fortement stylisé`.
-- **S41-A014** — S41-A014 — Lesser Free Trade Hall : le concert comme conversion sensorielle et sociale  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
-- **S41-A018** — S41-A018 — Deuxième concert Pistols : scène mancunienne, violence et infrastructure punk  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + synthèse de scène`.
-- **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A025** — S41-A025 — Buzzcocks comme école pratique : inclusion, conseil et première scène  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A030** — S41-A030 — Squat et Stuff the Jubilee : appartenir à la deuxième vague punk mancunienne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + chronologie de scène`.
-- **S41-A039** — S41-A039 — Eric’s et Middlesbrough : sortie de Manchester, rider et public hostile productif  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct + événements live documentés`.
-- **S41-A047** — S41-A047 — Vendre le mauvais disque : honte, sleeve nazie et bootleg futur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `critique` ; preuve : `témoignage direct + phénomène discographique vérifiable`.
-- **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
-- **S41-A057** — S41-A057 — Swan pub : lieu de répétition et retour traumatique par la mémoire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_memoire` ; importance : `critique` ; preuve : `témoignage rétrospectif direct`.
-- **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
 
 ## 6. Autres atomes utiles
 
@@ -538,7 +538,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - Tony Wilson (19)
 - Annik Honoré (18)
-- Rob Gretton (16)
+- Rob Gretton (17)
 - Peter Saville (10)
 - Buzzcocks tour (9)
 - Factory (9)
@@ -546,8 +546,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Ian Curtis (8)
 - Unknown Pleasures (8)
 - fatigue (8)
-- John Peel (6)
-- Electric Circus (6)
+- John Peel (7)
+- Electric Circus (7)
 - Kevin Cummins (6)
 - NME (5)
 - Love Will Tear Us Apart (5)
@@ -555,6 +555,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - New Order (5)
 - Still (5)
 - Durutti Column (5)
+- Rafters (5)
 - She’s Lost Control (5)
 - Sordide Sentimental (5)
 - Closer (5)
@@ -571,11 +572,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Control (4)
 - Moonlight Club (4)
 - America (4)
+- Paul Morley (4)
 - Factory Club (4)
 - Hannett (4)
 - Plan K (4)
-- Licht und Blindheit (4)
-- Dead Souls (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -675,10 +675,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_discographique | 12 |
 | concept_structurant | 11 |
 | discographie | 11 |
+| reception_critique | 10 |
 | synthese | 10 |
 | archive | 10 |
 | reception_poll | 10 |
-| reception_critique | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
@@ -727,6 +727,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | esthétique_visuelle | 3 |
 | evenement_medical_live | 3 |
 | archive_visuelle | 3 |
+| archive_live | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -750,11 +751,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mediation_audiovisuelle | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
+| rencontre_fondatrice | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
 | demythification | 2 |
-| archive_live | 2 |
 | acteur_image | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -767,6 +768,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | dispositif_formel | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
+| prudence_historiographique | 2 |
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
@@ -782,6 +784,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| mediation_culturelle | 2 |
 | analyse_chanson | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
@@ -829,7 +832,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_morceau_memoire | 1 |
 | analyse_morceau_album | 1 |
 | scene_revelation | 1 |
-| rencontre_fondatrice | 1 |
 | reception_industrielle | 1 |
 | violence_live | 1 |
 | scene_refuge | 1 |
@@ -912,7 +914,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prolongement_new_order | 1 |
 | reception_live_new_order | 1 |
 | anecdote_scene | 1 |
-| prudence_historiographique | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | motif_majeur | 1 |
@@ -1001,7 +1002,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | conflit_studio | 1 |
 | scene_locale | 1 |
 | reception_single | 1 |
-| mediation_culturelle | 1 |
 | performance_live | 1 |
 | temoignage_affectif | 1 |
 | interpretation_critique | 1 |
@@ -1087,8 +1087,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_festival_prudente | 1 |
 | evenement_biographique | 1 |
 | contexte_social | 1 |
+| reception_populaire | 1 |
+| scene_festival_transition | 1 |
+| scene_revelation_medias | 1 |
+| media_scene_locale | 1 |
+| scene_ecriture | 1 |
+| demythification_scene_fondatrice | 1 |
+| synthese_mediation | 1 |
 | formation_sensible | 1 |
 | scene_sociale_pop | 1 |
+| rencontre_collective | 1 |
+| scene_mediation_reseau | 1 |
+| scene_conflit_scene_locale | 1 |
+| controverse_scene_live | 1 |
 | scene_revelation_live | 1 |
 | scene_ecoute_prudente | 1 |
 | contexte_urbain | 1 |
@@ -1145,8 +1156,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 256 |
-| majeure | 72 |
+| critique | 267 |
+| majeure | 76 |
 | majeur | 28 |
 | utile | 9 |
 | structurante | 2 |
@@ -1154,6 +1165,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | critique pour Chapitres 1 et 3 | 1 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 1 | 1 |
+| critique pour la formation pré-punk | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour la généalogie pré-punk | 1 |

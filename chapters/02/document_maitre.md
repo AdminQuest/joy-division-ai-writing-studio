@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 347 |
+| Atomes | 379 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 34 |
@@ -39,7 +39,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
-| S35 | S35 — Morris, Record Play Pause, 2019 | 15 | 0 |
+| S35 | S35 — Morris, Record Play Pause, 2019 | 34 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 10 | 0 |
@@ -68,6 +68,50 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `mediation_label` ; importance : `critique` ; preuve : `forte`.
 - **S35-A043** — S35-A043 — Bowie au Free Trade Hall : le groupe comme énigme sociale  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_live` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A068** — S35-A068 — Folk-rock anonyme : première économie du groupe sans conviction  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `experience_groupe_avant_punk` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A070** — S35-A070 — Être dans un groupe, leçon 1 : la conviction manque plus que l’argent  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `principe_groupe` ; importance : `critique` ; preuve : `interprétation autobiographique rétrospective`.
+- **S35-A072** — S35-A072 — Year Zero punk : Morris déconstruit la pureté des origines  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_historiographique` ; importance : `critique` ; preuve : `interprétation autobiographique et critique`.
+- **S35-A073** — S35-A073 — So It Goes, « Anarchy » et choc télévisuel : punk comme scandale désiré  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_revelation_medias` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A075** — S35-A075 — Low : Bowie comme autre révolution de 1977  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A076** — S35-A076 — Shy Talk : fanzine comme seuil documentaire de Warsaw  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `media_scene_locale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A078** — S35-A078 — Jones’s music shop : annonce locale, hasard matériel et appel à Ian  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_recrutement` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A079** — S35-A079 — Barton Street : première rencontre Morris / Curtis sans icône  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A080** — S35-A080 — Lesser Free Trade Hall : Morris absent et anti-mythe de la présence obligatoire  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `demythification_scene_fondatrice` ; importance : `critique` ; preuve : `témoignage + transcription de conversation rétrospective`.
+- **S35-A081** — S35-A081 — Ian Curtis comme homme d’idées : plan, scène et adhésion immédiate  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `interpretation_personne` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S35-A084** — S35-A084 — Morley 30 juillet 1977 : Warsaw comme groupe fonctionnel encore indéterminé  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique reproduite par Morris ; à vérifier dans NME`.
+- **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
+- **S35-A086** — S35-A086 — Drummer and Driver : Morris entre par la voiture autant que par la batterie  
+  Source :  ; type : `scene_recrutement_logistique` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
+  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A089** — S35-A089 — Eric’s Liverpool : première scène de Morris et découverte d’Ian frontman  
+  Source :  ; type : `scene_live_apprentissage` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
+  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A091** — S35-A091 — « Living in the Ice Age » : écrire sans savoir, par intuition collective  
+  Source :  ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
+  Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
+  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
+  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
+  Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
+  Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A009** — S41-A009 — Salford Grammar : rencontre Hook/Sumner et reproduction des sociabilités dures  
@@ -82,50 +126,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
 - **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A020** — S41-A020 — Recruter Curtis : règles punk, manque de chanteur et hasard de convergence  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_recrutement` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconnaissance de variantes mémorielles`.
-- **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
-- **S42-A006** — S42-A006 — Punk contre post-punk : destruction, reconstruction et expérimentation  
-  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `rupture_esthetique` ; importance : `critique` ; preuve : `interprétation critique`.
-- **S42-A008** — S42-A008 — Focal places : clubs, disquaires, salles de répétition et réseaux  
-  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
-- **S44-A001** — S44-A001 — S44 comme essai sous-culturel, non source primaire  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
-- **S44-A004** — S44-A004 — Howard Devoto et le seuil punk du 4 juin 1976  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `evenement_scene` ; importance : `critique` ; preuve : `forte`.
-- **S44-A007** — S44-A007 — Stiff Kittens / Warsaw : intention avant maîtrise  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `genese_groupe` ; importance : `critique` ; preuve : `forte`.
-- **S44-A011** — S44-A011 — Joy Division : les diseredati et la nouvelle citoyenneté punk  
-  Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `forte`.
-- **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `temoignage` ; importance : `critique` ; preuve : `témoignage direct rapporté`.
-- **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A032** — S45-A032 — Morley juge Warsaw encore incomplet : différence sans accomplissement  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `réception critique rapportée et commentaire rétrospectif de Deborah`.
-- **S45-A034** — S45-A034 — Stephen Morris : la pièce manquante qui fait famille  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A041** — S45-A041 — Pennine Sound et projet in-house : premier disque comme bricolage total  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
-- **S45-A044** — S45-A044 — De Warsaw à Joy Division : nom choquant et resserrement musical  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_identitaire` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
-- **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -219,6 +219,26 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_sociale_style` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
+- **S35-A066** — S35-A066 — TOTP, disco honni et mémoire corrigée : la haine du mainstream comme posture datée  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_populaire` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A067** — S35-A067 — Old Grey Whistle Test et John Peel : sérieux musical et ouverture non orthodoxe  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `mediation_culturelle` ; importance : `critique pour la formation pré-punk` ; preuve : `témoignage autobiographique direct`.
+- **S35-A071** — S35-A071 — Reading 1975 : festival violent et contractions du punk  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_festival_transition` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A074** — S35-A074 — « New Rose », Buzzcocks, Clash : punk comme énergie jouable  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_punk` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A077** — S35-A077 — Record Mirror et Fatal Errors : critique rock comme voie punk manquée  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_ecriture` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S35-A082** — S35-A082 — Cassette Warsaw : punk-by-numbers mais basse étrange  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `ecoute_demo` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
+- **S35-A083** — S35-A083 — Rehearsal call : Morris devient batteur-chauffeur avant d’être membre  
+  Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_recrutement` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
+- **S35-A087** — S35-A087 — Strangeways : rencontre Hook / Sumner et sociologie ordinaire du groupe  
+  Source :  ; type : `rencontre_collective` ; importance : `majeure` ; preuve : `non qualifié`.
+- **S35-A098** — S35-A098 — « Girlfriends » : concurrence entre groupe et vie affective  
+  Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
+- **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
+  Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -269,26 +289,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `controverse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-035** — S41-035 — *Warsaw* devient Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-039** — S41-039 — Timeline 1976-1977 : ossature chronologique consolidée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-040** — S41-040 — Dernier concert sous le nom Warsaw  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-041** — S41-041 — Vide scénique après le premier concert Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-042** — S41-042 — Rafters et le Stiff/Chiswick Challenge comme scène de sélection  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-043** — S41-043 — La colère comme intensificateur scénique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-044** — S41-044 — Tony Wilson repère Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-045** — S41-045 — Rob Gretton découvre Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-046** — S41-046 — RCA : promesse industrielle et malentendu esthétique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-047** — S41-047 — Les sessions Arrow comme expérience négative structurante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-048** — S41-048 — Classe sociale et exclusion de la scène arty mancunienne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -487,15 +487,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ### 12.1. Motifs dominants
 
+- Electric Circus (7)
 - Sex Pistols (7)
 - Warsaw (7)
-- Electric Circus (6)
+- Rafters (6)
 - An Ideal for Living (6)
-- Rafters (4)
+- Paul Morley (5)
 - scène locale (4)
 - Joy Division (4)
 - RCA (4)
-- Paul Morley (4)
+- Lesser Free Trade Hall (4)
+- Barton Street (4)
 - Salford (4)
 - provocation (4)
 - Bowie (4)
@@ -503,30 +505,28 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - télévision (3)
 - Band on the Wall (3)
 - Short Circuit (3)
+- DIY (3)
 - Deborah Curtis (3)
 - Warsaw Pakt (3)
 - synthétiseur (3)
-- Lesser Free Trade Hall (3)
 - Iggy Pop (3)
-- Barton Street (3)
 - Iain Gray (3)
+- blue room (3)
 - Manchester (3)
 - stabilisation (3)
+- mythe fondateur (3)
 - bootleg (3)
 - Gretton (3)
 - Enigma (3)
+- répétition (3)
 - Kevin Cummins (3)
 - domesticité (3)
 - Granada (2)
 - Rudolf Hess (2)
+- archive live (2)
 - reconnaissance (2)
 - Pennine Sound (2)
 - imagerie nazie (2)
-- Hitler Youth (2)
-- Liverpool (2)
-- Pips (2)
-- expérimentation (2)
-- Piccadilly Plaza (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -641,6 +641,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | lieu | 3 |
 | source_part | 3 |
 | lieu_scene | 3 |
+| rencontre_fondatrice | 3 |
 | discographie | 3 |
 | evenement | 3 |
 | evenement_scene | 3 |
@@ -650,11 +651,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | acteur_musical | 3 |
 | sociologie_scene | 2 |
 | temoignage | 2 |
+| reception_critique | 2 |
 | scene_revelation | 2 |
-| rencontre_fondatrice | 2 |
+| scene_recrutement | 2 |
 | reception_presse | 2 |
 | changement_nom | 2 |
 | bootleg | 2 |
+| archive_live | 2 |
 | micro_chronologie | 2 |
 | sociologie | 2 |
 | concept | 2 |
@@ -672,14 +675,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | infrastructure_industrielle | 1 |
 | lieu_creatif | 1 |
 | contexte_scene | 1 |
-| reception_critique | 1 |
 | fait_structurant | 1 |
 | methode_sociologique | 1 |
 | concept_scene | 1 |
 | mediations_scene | 1 |
 | renversement_question | 1 |
 | scene_materielle | 1 |
-| scene_recrutement | 1 |
 | chronologie_structurante | 1 |
 | scene_origine_sociale | 1 |
 | scene_biographique | 1 |
@@ -715,7 +716,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_nom | 1 |
 | genealogie_culturelle | 1 |
 | archive_inedite | 1 |
-| archive_live | 1 |
 | lieu_biographique | 1 |
 | lieu_archive | 1 |
 | lieu_bascule | 1 |
@@ -741,10 +741,38 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | professionnalisation | 1 |
 | controverse_visuelle | 1 |
 | cartographie_scene | 1 |
+| reception_populaire | 1 |
+| mediation_culturelle | 1 |
+| experience_groupe_avant_punk | 1 |
+| principe_groupe | 1 |
+| scene_festival_transition | 1 |
+| prudence_historiographique | 1 |
+| scene_revelation_medias | 1 |
+| matrice_punk | 1 |
+| matrice_musicale | 1 |
+| media_scene_locale | 1 |
+| scene_ecriture | 1 |
+| demythification_scene_fondatrice | 1 |
+| interpretation_personne | 1 |
+| ecoute_demo | 1 |
+| transition_recrutement | 1 |
+| synthese_mediation | 1 |
 | pratique_groupe | 1 |
 | emergence_repertoire | 1 |
 | mediation_label | 1 |
 | scene_sociale_pop | 1 |
+| scene_recrutement_logistique | 1 |
+| rencontre_collective | 1 |
+| scene_mediation_reseau | 1 |
+| scene_live_apprentissage | 1 |
+| scene_conflit_scene_locale | 1 |
+| processus_creatif_chanson | 1 |
+| lecture_generationnelle | 1 |
+| controverse_scene_live | 1 |
+| lieu_structurant | 1 |
+| tension_domestique | 1 |
+| scene_domestique | 1 |
+| decision_strategique_groupe | 1 |
 | motif_geographique | 1 |
 | scene_revelation_live | 1 |
 | scene_pre_groupe | 1 |
@@ -764,13 +792,15 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 205 |
-| critique | 89 |
-| majeure | 27 |
+| critique | 111 |
+| majeure | 33 |
 | majeur | 15 |
+| utile | 4 |
 | moyenne | 2 |
 | structurante | 2 |
-| utile | 2 |
 | critique pour Chapitre 2 | 1 |
+| critique pour la formation pré-punk | 1 |
+| critique pour Chapitre 3 | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |

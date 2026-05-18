@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T12:27:32"
+generated_at: "2026-05-18T15:41:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-18T12:27:32"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 236 |
-| Atomes critiques / majeurs | 3 |
+| Atomes | 238 |
+| Atomes critiques / majeurs | 5 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
@@ -59,6 +59,10 @@ generated_at: "2026-05-18T12:27:32"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
+  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
+- **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
+  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 - **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
@@ -339,6 +343,7 @@ generated_at: "2026-05-18T12:27:32"
 
 ### 12.1. Motifs dominants
 
+- Rafters (2)
 - Ceremony (1)
 - In a Lonely Place (1)
 - New Order (1)
@@ -350,6 +355,12 @@ generated_at: "2026-05-18T12:27:32"
 - rhizome (1)
 - dispersion des scènes (1)
 - expérimentation électronique (1)
+- Record Mirror (1)
+- Rob Gretton avant Rob (1)
+- Rabid (1)
+- Fast Breeder (1)
+- us against the world (1)
+- Rob Gretton (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -358,6 +369,10 @@ generated_at: "2026-05-18T12:27:32"
 - S75-A074 — nuance → MYTH-002
 - S42-A007 — cartographie → REL-S42-007
 - S42-A012 — cartographie → REL-S42-007
+- S35-A088 — prolonge → S35-A077
+- S35-A088 — prepare → S35-A090
+- S35-A090 — prolonge → S35-A088
+- S35-A090 — croise → S41-A032
 
 ## 13. Distribution documentaire
 
@@ -461,6 +476,8 @@ generated_at: "2026-05-18T12:27:32"
 | contexte_discursif | 1 |
 | reaction_politique | 1 |
 | conflit_institutionnel | 1 |
+| scene_mediation_reseau | 1 |
+| scene_conflit_scene_locale | 1 |
 | source_visuelle | 1 |
 | lieu_image | 1 |
 | concept_visuel | 1 |
@@ -482,8 +499,8 @@ generated_at: "2026-05-18T12:27:32"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
+| critique | 3 |
 | majeure | 2 |
-| critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
