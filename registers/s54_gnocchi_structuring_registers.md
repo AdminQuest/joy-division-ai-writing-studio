@@ -216,7 +216,7 @@ id: MYTH-Curtis_paroles_secondaires
 type_unite: mythe
 source_id: S54
 nom: les paroles de Curtis seraient secondaires
- deconstruction: >
+deconstruction: >
   L’understatement de Curtis doit être lu comme posture de retenue, non comme preuve que ses textes n’auraient
   pas d’ambition littéraire.
 atomes: [S54-A003]
