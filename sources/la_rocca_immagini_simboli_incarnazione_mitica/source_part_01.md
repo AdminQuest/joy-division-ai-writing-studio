@@ -94,7 +94,7 @@ pages:
   imprimees: [158, 159]
 citation: null
 resume: >
-  La Rocca décrit Manchester comme epicentre de créativité, de sound, de styles de vie et de contre-culture,
+  La Rocca décrit Manchester comme épicentre de créativité, de son, de styles de vie et de contre-culture,
   dans un paysage dominé par Thatcher, les workers, les usines et les périphéries désaffectées.
 role_argumentatif:
   - articuler lieu, identité, son et style de vie
@@ -309,7 +309,7 @@ usage_livre: [Chapitre 10, Chapitre 14]
 ```yaml
 id: S53-A009
 type_unite: evenement_symbolique
- titre: Le concert des Sex Pistols comme point d’effervescence mancunienne
+titre: Le concert des Sex Pistols comme point d’effervescence mancunienne
 source_id: S53
 pages:
   pdf: [163]
@@ -346,7 +346,7 @@ usage_livre: [Chapitre 1, Chapitre 14]
 ```yaml
 id: S53-A010
 type_unite: mediation_audiovisuelle
- titre: 24 Hour Party People et Control comme remédiations visuelles de Manchester
+titre: 24 Hour Party People et Control comme remédiations visuelles de Manchester
 source_id: S53
 pages:
   pdf: [163, 164, 166]
@@ -383,7 +383,7 @@ usage_livre: [Chapitre 10, Chapitre 13, Chapitre 14]
 ```yaml
 id: S53-A011
 type_unite: figure_mythique
- titre: Ian Curtis comme figure incisive, icône et totem culturel
+titre: Ian Curtis comme figure incisive, icône et totem culturel
 source_id: S53
 pages:
   pdf: [164, 168]
@@ -420,7 +420,7 @@ usage_livre: [Chapitre 4, Chapitre 12, Chapitre 14]
 ```yaml
 id: S53-A012
 type_unite: reference_theorique
- titre: La musique dit le monde : détour Nietzsche-Schopenhauer
+titre: La musique dit le monde : détour Nietzsche-Schopenhauer
 source_id: S53
 pages:
   pdf: [164, 165]
@@ -457,7 +457,7 @@ usage_livre: [Chapitre 3, Chapitre 14]
 ```yaml
 id: S53-A013
 type_unite: concept_structurant
- titre: Effervescence collective et affectologie sociale
+titre: Effervescence collective et affectologie sociale
 source_id: S53
 pages:
   pdf: [165, 166]
@@ -494,7 +494,7 @@ usage_livre: [Chapitre 14]
 ```yaml
 id: S53-A014
 type_unite: image_symbolique
- titre: Kevin Cummins, Epping Walk Bridge et mystère générationnel
+titre: Kevin Cummins, Epping Walk Bridge et mystère générationnel
 source_id: S53
 pages:
   pdf: [167]
@@ -531,7 +531,7 @@ usage_livre: [Chapitre 5, Chapitre 13, Chapitre 14]
 ```yaml
 id: S53-A015
 type_unite: performance_sensible
- titre: Corps gestuel de Curtis et esthétique affective
+titre: Corps gestuel de Curtis et esthétique affective
 source_id: S53
 pages:
   pdf: [167, 168]
@@ -568,7 +568,7 @@ usage_livre: [Chapitre 4, Chapitre 13, Chapitre 14]
 ```yaml
 id: S53-A016
 type_unite: synthese_argumentative
- titre: Le fantôme Joy Division comme mythe médiatique actuel
+titre: Le fantôme Joy Division comme mythe médiatique actuel
 source_id: S53
 pages:
   pdf: [168]
