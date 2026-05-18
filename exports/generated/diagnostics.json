@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-18T21:17:23",
+  "generated_at": "2026-05-18T21:25:24",
   "status": "warning",
   "summary": {
-    "records_total": 5088,
+    "records_total": 5090,
     "records_by_kind": {
       "atom": 2148,
-      "metadata": 149,
+      "metadata": 150,
       "unknown": 619,
-      "source": 80,
+      "source": 81,
       "concept": 283,
       "motif": 333,
       "myth": 57,
@@ -22,9 +22,9 @@
     "diagnostics_total": 23042,
     "errors": 0,
     "warnings": 23042,
-    "sources_declared_in_registre_json": 61,
-    "sources_used_in_records": 41,
-    "sources_exported": 41,
+    "sources_declared_in_registre_json": 62,
+    "sources_used_in_records": 42,
+    "sources_exported": 42,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1113,6 +1113,20 @@
           "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
           "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md",
           "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S54",
+        "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+        "auteur": "Alessandro Gnocchi",
+        "titre": "Interzona. Burroughs e Ballard nei testi di Ian Curtis",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/gnocchi_interzona_burroughs_ballard/source.md"
         ]
       },
       {
