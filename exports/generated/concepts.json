@@ -1226,6 +1226,180 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-surface_biographique",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-surface_biographique",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "surface biographique",
+      "definition": "Mode de représentation qui s’attache aux faits les plus connus de la vie de Curtis et produit une impression d’intimité sans atteindre les contradictions profondes de l’artiste.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A004",
+        "S52-A005",
+        "S52-A008"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-surface_de_verre",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-surface_de_verre",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "surface de verre",
+      "definition": "Métaphore critique de la médiation filmique : le biopic rend visibles les faits connus tout en les maintenant derrière un écran transparent qui empêche d’accéder à la complexité du sujet.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A005"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-dualite_curtisienne",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-dualite_curtisienne",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "dualité curtisienne",
+      "definition": "Coexistence, chez Ian Curtis, d’un pôle d’adaptation sociale et familiale et d’un pôle artistique obscur, instinctif, frénétique et destructeur. Cette dualité interdit une lecture monodimensionnelle.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A010",
+        "S52-A011",
+        "S52-A013",
+        "S52-A018"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-persona_insoluble",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-persona_insoluble",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "persona insoluble",
+      "definition": "Tension non résolue entre construction scénique et expression du vrai soi : Curtis semble à la fois fabriquer un personnage et exposer une part réelle de lui-même.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A015",
+        "S52-A016"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-non_monocausalite_curtis",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-non_monocausalite_curtis",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "non-monocausalité Curtis",
+      "definition": "Règle de prudence selon laquelle l’effondrement de Curtis ne doit pas être réduit à l’épilepsie, au triangle amoureux ou au désir romantique de mort ; S52 ajoute la tension interne entre deux opposés.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A017",
+        "S52-A018",
+        "S52-A019",
+        "S52-A020"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-danse_pre_diagnostic",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-danse_pre_diagnostic",
+      "type_unite": "concept",
+      "source_id": "S52",
+      "nom": "danse pré-diagnostic",
+      "definition": "Lecture de l’epilepsy dance comme geste scénique antérieur à la connaissance de l’épilepsie ; elle ne relève donc pas seulement du symptôme clinique, mais aussi d’une construction expressive et corporelle.\n",
+      "sources": [
+        "S52"
+      ],
+      "atomes": [
+        "S52-A014",
+        "S52-A020"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-imaginaire_collectif_joy_division",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Concepts",

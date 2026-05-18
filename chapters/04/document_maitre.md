@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T20:07:36"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 269 |
+| Atomes | 283 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 58 |
-| Événements chronologiques | 47 |
-| Personnes | 33 |
-| Chansons | 18 |
-| Sources mobilisées | 16 |
+| Citations | 65 |
+| Événements chronologiques | 51 |
+| Personnes | 38 |
+| Chansons | 19 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ generated_at: "2026-05-18T20:07:36"
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 2 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 2 | 0 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 2 | 1 |
+| S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 7 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -295,6 +296,13 @@ generated_at: "2026-05-18T20:07:36"
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q005** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q006** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q007** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q008** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -322,17 +330,14 @@ generated_at: "2026-05-18T20:07:36"
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q179** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q181** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q182** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q184** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S51-1978-001 — « Digital » est mobilisée en exergue du chapitre S51 autour du motif du fade away.
+- CHR-S52-1975-001 — Rabbito utilise le mariage très jeune de Curtis comme indice de contradiction entre posture punk et vie ordinaire.
+- CHR-S52-1977-001 — Rabbito associe les premières performances de Curtis à une violence scénique et à une intensité non restituées par Control.
+- CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
+- CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
@@ -368,13 +373,14 @@ generated_at: "2026-05-18T20:07:36"
 - CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
 - CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
 - CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
-- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
-- CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
-- CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
-- CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
 
 ## 9. Personnes et acteurs
 
+- PERS-S52-005 — Deborah Curtis
+- PERS-S52-006 — Bernard Sumner
+- PERS-S52-007 — Peter Hook
+- PERS-S52-008 — Stephen Morris
+- PERS-S52-009 — Jon Savage
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -413,6 +419,7 @@ generated_at: "2026-05-18T20:07:36"
 
 - SONG-S51-DIGITAL — Digital
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
@@ -489,6 +496,7 @@ generated_at: "2026-05-18T20:07:36"
 - factory records (2)
 - indépendance (2)
 - masculinité post-punk (2)
+- source secondaire critique (2)
 - mémoire située (2)
 - non-monocausalité médicale (2)
 - mémoire conjugale croisée (2)
@@ -511,23 +519,22 @@ generated_at: "2026-05-18T20:07:36"
 - multidimensionnalité (1)
 - auteur-catalyseur (1)
 - collectif orienté (1)
-- mélodie vocale comme cohésion (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Deborah Curtis (9)
+- Deborah Curtis (10)
 - Barton Street (8)
+- She’s Lost Control (8)
 - Ian Curtis (8)
 - épilepsie (8)
-- She’s Lost Control (7)
 - Natalie Curtis (7)
 - Love Will Tear Us Apart (6)
 - Annik Honoré (6)
 - Atmosphere (5)
+- corps (5)
 - paroles (4)
-- corps (4)
 - contrôle (4)
 - Shadowplay (4)
 - Closer (4)
@@ -536,6 +543,7 @@ generated_at: "2026-05-18T20:07:36"
 - Disorder (4)
 - Bowie (4)
 - domesticité (4)
+- mariage (4)
 - Tony Wilson (4)
 - Mark Reeder (4)
 - New Dawn Fades (3)
@@ -545,18 +553,17 @@ generated_at: "2026-05-18T20:07:36"
 - Interzone (3)
 - Chance (3)
 - Macclesfield (3)
+- paternité (3)
 - fatigue (3)
 - médicaments (3)
 - Wythenshawe (3)
 - vulnérabilité (3)
+- perte de contrôle (3)
+- performance (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
 - Pete Johnson (3)
-- mariage (3)
 - Rob Gretton (3)
-- tournée américaine (3)
-- écriture (2)
-- fumée (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -649,16 +656,18 @@ generated_at: "2026-05-18T20:07:36"
 |---|---|
 | non qualifié | 19 |
 | fait_sensible | 9 |
+| prudence_methodologique | 7 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
-| prudence_methodologique | 6 |
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
+| lecture_chanson | 5 |
 | interpretation | 5 |
-| lecture_chanson | 4 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
+| concept_structurant | 4 |
+| tension_biographique | 4 |
 | relation | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
@@ -668,7 +677,6 @@ generated_at: "2026-05-18T20:07:36"
 | controverse_biographique | 3 |
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
-| tension_biographique | 3 |
 | live_set_context | 3 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
@@ -680,7 +688,7 @@ generated_at: "2026-05-18T20:07:36"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
-| concept_structurant | 2 |
+| tension_documentaire | 2 |
 | lettre_intime | 2 |
 | tension_domestique | 2 |
 | contexte_social | 2 |
@@ -744,12 +752,19 @@ generated_at: "2026-05-18T20:07:36"
 | lecture_performance | 1 |
 | analyse_performance | 1 |
 | lecture_scene_et_chanson | 1 |
-| tension_documentaire | 1 |
 | lecture_biographique_prudente | 1 |
 | analyse_oeuvre | 1 |
 | analyse_album | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
+| source_interne | 1 |
+| reseau_sources | 1 |
+| critique_filmique | 1 |
+| contradiction_biographique | 1 |
+| performance_sensible | 1 |
+| temoignage_croise | 1 |
+| demythification | 1 |
+| formule_conceptuelle | 1 |
 | tension_synthese | 1 |
 | lettre_medicale | 1 |
 | crise_professionnelle | 1 |
@@ -813,9 +828,9 @@ generated_at: "2026-05-18T20:07:36"
 
 | Importance | Nombre |
 |---|---|
-| critique | 127 |
+| critique | 138 |
 | non qualifiée | 94 |
-| majeure | 40 |
+| majeure | 43 |
 | utile | 4 |
 | majeur | 3 |
 | structurante | 1 |

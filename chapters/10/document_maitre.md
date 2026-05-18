@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 228 |
+| Atomes | 234 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
-| Événements chronologiques | 12 |
-| Personnes | 24 |
-| Chansons | 7 |
-| Sources mobilisées | 20 |
+| Citations | 29 |
+| Événements chronologiques | 13 |
+| Personnes | 29 |
+| Chansons | 8 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 13 | 3 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
+| S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 6 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -296,6 +297,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -323,6 +328,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
@@ -339,6 +345,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S51-001 — Jennifer Malvezzi
 - PERS-S51-002 — Mark Leckey
 - PERS-S51-003 — Hito Steyerl
+- PERS-S52-001 — Andrea Rabbito
+- PERS-S52-002 — Anton Corbijn
+- PERS-S52-003 — Sam Riley
+- PERS-S52-004 — Samantha Morton
+- PERS-S52-010 — Grant Gee
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -363,6 +374,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 10. Chansons rattachées
 
+- SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - Love Will Tear Us Apart
 - Atmosphere
@@ -413,6 +425,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - mort de ian curtis (2)
 - john peel (2)
 - réception posthume (2)
+- source secondaire critique (2)
 - Unknown Pleasures (2)
 - Peter Saville (2)
 - pulsar (2)
@@ -452,7 +465,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - épouse exclue / maîtresse financée (1)
 - dissimulation collective locale (1)
 - épouse qui refleurit (1)
-- performance sous tension (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -469,10 +481,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
+- Control (4)
 - YouTube (4)
 - van (3)
 - Factory (3)
-- Control (3)
+- prudence (3)
+- biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
 - confidentialité (2)
@@ -496,8 +510,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - compagnes (2)
 - contradiction biographique (2)
 - Lindsay Reade (2)
-- Charlesworth (2)
-- Natalie birthday (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -589,15 +601,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Type | Nombre |
 |---|---|
 | tension_domestique | 8 |
+| concept_structurant | 7 |
 | reception | 7 |
 | scene_domestique | 6 |
-| concept_structurant | 6 |
 | biographie | 6 |
+| prudence_methodologique | 5 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
 | tension_documentaire | 4 |
-| prudence_methodologique | 4 |
 | archive | 4 |
 | memoire | 4 |
 | contrepoint_domestique | 3 |
@@ -695,6 +707,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | synthese_relationnelle | 1 |
 | citation_repere | 1 |
 | synthese | 1 |
+| reception_critique | 1 |
+| appreciation_critique | 1 |
+| motif_structurant | 1 |
+| critique_filmique | 1 |
 | iconographie | 1 |
 | image_et_reception | 1 |
 | concert_iconographie | 1 |
@@ -731,10 +747,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 110 |
+| critique | 115 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 12 |
+| majeure | 13 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T20:07:17",
-  "status": "warning",
+  "generated_at": "2026-05-18T20:37:43",
+  "status": "error",
   "summary": {
-    "records_total": 4899,
+    "records_total": 4994,
     "records_by_kind": {
-      "atom": 2112,
+      "atom": 2132,
       "metadata": 148,
-      "unknown": 566,
+      "unknown": 591,
       "source": 79,
-      "concept": 270,
-      "motif": 323,
-      "myth": 48,
-      "quote": 380,
-      "chronology": 362,
-      "person": 193,
-      "song": 62,
-      "template": 354,
+      "concept": 276,
+      "motif": 327,
+      "myth": 53,
+      "quote": 392,
+      "chronology": 368,
+      "person": 205,
+      "song": 66,
+      "template": 355,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22540,
-    "errors": 0,
-    "warnings": 22540,
+    "diagnostics_total": 22812,
+    "errors": 1,
+    "warnings": 22811,
     "sources_declared_in_registre_json": 60,
     "sources_used_in_records": 40,
     "sources_exported": 40,
@@ -1085,12 +1085,16 @@
         "auteur": "Andrea Rabbito",
         "titre": "Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 102,
+        "atoms": 20,
+        "quotes": 12,
+        "chronology": 6,
         "files": [
-          "sources/rabbito_control_infrangimento_vetro/source.md"
+          "registers/s52_rabbito_specialized_registers.md",
+          "registers/s52_rabbito_structuring_registers.md",
+          "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+          "sources/rabbito_control_infrangimento_vetro/source.md",
+          "sources/rabbito_control_infrangimento_vetro/source_part_01.md"
         ]
       },
       {
@@ -75150,6 +75154,1176 @@
     },
     {
       "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S52-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_critique",
+      "record_id": "S52-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: appreciation_critique",
+      "record_id": "S52-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S52-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S52-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: source_interne",
+      "record_id": "S52-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: reseau_sources",
+      "record_id": "S52-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: critique_filmique",
+      "record_id": "S52-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: tension_biographique",
+      "record_id": "S52-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S52-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: contradiction_biographique",
+      "record_id": "S52-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: performance_sensible",
+      "record_id": "S52-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: temoignage_croise",
+      "record_id": "S52-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: demythification",
+      "record_id": "S52-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S52-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: formule_conceptuelle",
+      "record_id": "S52-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_sensible",
+      "record_id": "S52-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: demythification",
+      "record_id": "S52-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: mythe_a_deconstruire",
+      "record_id": "S52-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S52-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S52-015"
+    },
+    {
+      "level": "warning",
       "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
       "message": "Missing required field: titre",
       "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
@@ -117822,6 +118996,432 @@
     },
     {
       "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S52-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S52-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-1972-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-1972-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "record_id": "CHR-S52-1972-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-1975-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-1975-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "record_id": "CHR-S52-1975-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S41 et S45",
+      "record_id": "CHR-S52-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "record_id": "CHR-S52-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: interprétation à vérifier dans les registres lyriques",
+      "record_id": "CHR-S52-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S52-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S52-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Invalid value for certainty: fait établi à vérifier dans fiche film",
+      "record_id": "CHR-S52-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S52-012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S52-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S52-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S52-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S52-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S52-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S52-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S52-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S52-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES"
+    },
+    {
+      "level": "warning",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S50-Q001"
@@ -118245,6 +119845,42 @@
       "file": "registers/s49_farci_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S49-DECADES"
+    },
+    {
+      "level": "error",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S52-RABBITO-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S52-CONTROL-2007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S52-CURTIS-1995"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S52-SAVAGE-2019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S52-GEE-2007"
     },
     {
       "level": "warning",

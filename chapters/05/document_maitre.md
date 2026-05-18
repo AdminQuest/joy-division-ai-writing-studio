@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,8 +26,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Atomes critiques / majeurs | 35 |
 | Citations | 70 |
 | Événements chronologiques | 42 |
-| Personnes | 43 |
-| Chansons | 7 |
+| Personnes | 44 |
+| Chansons | 8 |
 | Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
@@ -382,6 +382,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - PERS-S51-001 — Jennifer Malvezzi
 - PERS-S51-003 — Hito Steyerl
+- PERS-S52-002 — Anton Corbijn
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -419,10 +420,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-024 — Martin Hannett
 - PERS-S76-025 — Tosh Ryan
 - PERS-S76-026 — Lawrence Beedle
-- PERS-S76-027 — Rob Gretton
 
 ## 10. Chansons rattachées
 
+- SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony

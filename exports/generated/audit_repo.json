@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-18T20:07:31",
+  "generated_at": "2026-05-18T20:37:56",
   "summary": {
-    "records_total": 4899,
+    "records_total": 4994,
     "records_by_kind": {
-      "atom": 2112,
+      "atom": 2132,
       "metadata": 148,
-      "unknown": 566,
+      "unknown": 591,
       "source": 79,
-      "concept": 270,
-      "motif": 323,
-      "myth": 48,
-      "quote": 380,
-      "chronology": 362,
-      "person": 193,
-      "song": 62,
-      "template": 354,
+      "concept": 276,
+      "motif": 327,
+      "myth": 53,
+      "quote": 392,
+      "chronology": 368,
+      "person": 205,
+      "song": 66,
+      "template": 355,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22540,
-    "errors": 0,
-    "warnings": 22540,
+    "diagnostics_total": 22812,
+    "errors": 1,
+    "warnings": 22811,
     "sources_declared_in_registre_json": 60,
     "sources_used_in_records": 40,
     "sources_exported": 40,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2112,
-    "chronology": 362,
-    "concept": 270,
+    "atom": 2132,
+    "chronology": 368,
+    "concept": 276,
     "metadata": 148,
-    "motif": 323,
-    "myth": 48,
-    "person": 193,
-    "quote": 380,
+    "motif": 327,
+    "myth": 53,
+    "person": 205,
+    "quote": 392,
     "quote_batch": 1,
     "rules": 1,
-    "song": 62,
+    "song": 66,
     "source": 79,
-    "template": 354,
-    "unknown": 566
+    "template": 355,
+    "unknown": 591
   },
   "records_by_source": {
     "S02": {
@@ -288,8 +288,17 @@
       "myth": 3
     },
     "S52": {
+      "atom": 20,
+      "unknown": 25,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "quote": 12,
+      "chronology": 6,
+      "person": 12,
+      "song": 4,
+      "concept": 6,
+      "motif": 4,
+      "myth": 5
     },
     "S68": {
       "quote": 3,
@@ -346,15 +355,15 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 384,
-    "Chapitre 10": 314,
+    "Chapitre 10": 331,
     "Chapitre 11": 300,
-    "Chapitre 12": 524,
-    "Chapitre 13": 172,
-    "Chapitre 14": 1343,
+    "Chapitre 12": 559,
+    "Chapitre 13": 180,
+    "Chapitre 14": 1367,
     "Chapitre 2": 484,
     "Chapitre 3": 584,
-    "Chapitre 4": 373,
-    "Chapitre 5": 488,
+    "Chapitre 4": 401,
+    "Chapitre 5": 490,
     "Chapitre 6": 603,
     "Chapitre 7": 241,
     "Chapitre 8": 406,
@@ -410,6 +419,10 @@
     ],
     [
       "sources/hook/source.md",
+      39
+    ],
+    [
+      "registers/s52_rabbito_specialized_registers.md",
       39
     ],
     [
@@ -479,19 +492,16 @@
     [
       "sources/morris_record_play_pause/source_part_05.md",
       21
-    ],
-    [
-      "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
-      21
     ]
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 1921,
-    "missing_required_field": 6406,
+    "invalid_controlled_value": 1947,
+    "missing_required_field": 6566,
     "schema_warning": 494,
-    "unknown_yaml_block": 566,
-    "v2_migration_debt": 12850
+    "unknown_yaml_block": 591,
+    "v2_migration_debt": 12910,
+    "yaml_parse_error": 1
   },
   "top_files_by_issue_count": [
     [
@@ -615,7 +625,16 @@
       200
     ]
   ],
-  "blocking_errors": [],
+  "blocking_errors": [
+    {
+      "level": "error",
+      "category": "yaml_parse_error",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": null,
+      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
+      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
+    }
+  ],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -1972,6 +1991,126 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "sources/morris_record_play_pause/relations_stabilisees_part_02.md",
       "record_id": "REL-S35-PART-02",
       "message": "Unable to infer documentary kind",
@@ -3316,6 +3455,46 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "LIEU-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "LIEU-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "record_id": "LIEU-S50-001",
       "message": "Unable to infer documentary kind",
@@ -3390,6 +3569,46 @@
       "category": "unknown_yaml_block",
       "file": "registers/s49_farci_specialized_registers.md",
       "record_id": "ORG-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-RABBITO-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-CONTROL-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-CURTIS-1995",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-SAVAGE-2019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-GEE-2007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -5147,10 +5366,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2112,
+    "atoms_total": 2132,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2039,
-    "v2_missing_field_warnings": 12850
+    "atoms_v2_incomplete": 2059,
+    "v2_missing_field_warnings": 12910
   },
   "source_registry": {
     "declared_but_unused": [
@@ -6208,12 +6427,16 @@
         "auteur": "Andrea Rabbito",
         "titre": "Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 102,
+        "atoms": 20,
+        "quotes": 12,
+        "chronology": 6,
         "files": [
-          "sources/rabbito_control_infrangimento_vetro/source.md"
+          "registers/s52_rabbito_specialized_registers.md",
+          "registers/s52_rabbito_structuring_registers.md",
+          "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+          "sources/rabbito_control_infrangimento_vetro/source.md",
+          "sources/rabbito_control_infrangimento_vetro/source_part_01.md"
         ]
       },
       {
@@ -104880,6 +105103,1566 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A002",
+      "message": "Invalid value for type_unite: reception_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A003",
+      "message": "Invalid value for type_unite: appreciation_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A004",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A005",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A006",
+      "message": "Invalid value for type_unite: source_interne",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A007",
+      "message": "Invalid value for type_unite: reseau_sources",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A008",
+      "message": "Invalid value for type_unite: critique_filmique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A009",
+      "message": "Invalid value for type_unite: tension_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A010",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A011",
+      "message": "Invalid value for type_unite: contradiction_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A012",
+      "message": "Invalid value for type_unite: performance_sensible",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A013",
+      "message": "Invalid value for type_unite: temoignage_croise",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A014",
+      "message": "Invalid value for type_unite: demythification",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A015",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A016",
+      "message": "Invalid value for type_unite: formule_conceptuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A017",
+      "message": "Invalid value for type_unite: prudence_sensible",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A018",
+      "message": "Invalid value for type_unite: demythification",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A019",
+      "message": "Invalid value for type_unite: mythe_a_deconstruire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
+      "record_id": "S52-A020",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
+      "record_id": "REL-S52-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
       "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
       "message": "Missing required field: titre",
@@ -161776,6 +163559,574 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q008",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q008",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q009",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q009",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q010",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q010",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q011",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q011",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q012",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "S52-Q012",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1972-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1972-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1972-001",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1975-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1975-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1975-001",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1977-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1977-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1977-001",
+      "message": "Invalid value for certainty: à croiser avec S41 et S45",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1978-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1978-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1978-001",
+      "message": "Invalid value for certainty: à croiser avec S45",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1979-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1979-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-1979-001",
+      "message": "Invalid value for certainty: interprétation à vérifier dans les registres lyriques",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-2007-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-2007-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "CHR-S52-2007-001",
+      "message": "Invalid value for certainty: fait établi à vérifier dans fiche film",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-006",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-007",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-008",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-009",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-010",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-011",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "PERS-S52-012",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "LIEU-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "LIEU-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "ORG-S52-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ATMOSPHERE",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ATMOSPHERE",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ATMOSPHERE",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-SHES_LOST_CONTROL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s52_rabbito_specialized_registers.md",
+      "record_id": "SONG-S52-ALL_THE_YOUNG_DUDES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "record_id": "S50-Q001",
       "message": "Missing required field: citation_originale",
@@ -162340,6 +164691,54 @@
       "record_id": "SONG-S49-DECADES",
       "message": "Missing required field: chapters",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "error",
+      "category": "yaml_parse_error",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": null,
+      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 5, column 12:\n     definition: >\n               ^",
+      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-RABBITO-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-CONTROL-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-CURTIS-1995",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-SAVAGE-2019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s52_rabbito_structuring_registers.md",
+      "record_id": "REF-S52-GEE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

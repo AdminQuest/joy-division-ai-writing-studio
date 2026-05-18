@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 363 |
+| Atomes | 377 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 83 |
-| Événements chronologiques | 57 |
-| Personnes | 37 |
-| Chansons | 7 |
-| Sources mobilisées | 14 |
+| Citations | 89 |
+| Événements chronologiques | 61 |
+| Personnes | 43 |
+| Chansons | 10 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
+| S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 6 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -294,6 +295,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S52-Q005** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q006** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q008** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q011** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -321,15 +328,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q165** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q168** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q169** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q170** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q171** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q172** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S52-1972-001 — Rabbito rappelle, via Deborah Curtis, la fascination adolescente de Curtis pour les figures mortes prématurément et les textes de Bowie liés au suicide rock.
+- CHR-S52-1975-001 — Rabbito utilise le mariage très jeune de Curtis comme indice de contradiction entre posture punk et vie ordinaire.
+- CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
+- CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
@@ -366,13 +371,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
-- CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
-- CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
-- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
-- CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
 
 ## 9. Personnes et acteurs
 
+- PERS-S52-005 — Deborah Curtis
+- PERS-S52-006 — Bernard Sumner
+- PERS-S52-007 — Peter Hook
+- PERS-S52-009 — Jon Savage
+- PERS-S52-011 — Tony Wilson
+- PERS-S52-012 — Annik Honoré
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
@@ -407,12 +414,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-073 — Tony Wilson
 - PERS-S76-074 — Terry Mason
 - PERS-S76-075 — John Curd
-- PERS-S76-076 — Candy
-- PERS-S75-032 — Annik Honoré
-- PERS-S75-035 — Alan Hempsall
 
 ## 10. Chansons rattachées
 
+- SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S52-ROCK_AND_ROLL_SUICIDE — Rock And Roll Suicide
+- SONG-S52-ALL_THE_YOUNG_DUDES — All The Young Dudes
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
@@ -510,20 +517,21 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 - Annik Honoré (23)
 - fatigue (13)
-- Deborah Curtis (12)
+- Deborah Curtis (13)
+- Tony Wilson (11)
 - épilepsie (10)
-- Tony Wilson (10)
 - Closer (9)
 - Rob Gretton (9)
 - Ian Curtis (9)
 - Natalie Curtis (9)
+- She’s Lost Control (8)
 - Annik (7)
 - Love Will Tear Us Apart (7)
 - Barton Street (7)
-- She’s Lost Control (7)
 - Unknown Pleasures (6)
 - Buzzcocks tour (5)
 - Factory (5)
+- perte de contrôle (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
@@ -544,10 +552,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Debbie (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
+- prudence (4)
+- mariage (4)
 - Peter Hook (3)
-- domesticité (3)
-- Mick Middles (3)
-- perte de contrôle (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -640,20 +647,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifié | 16 |
 | tension_domestique | 8 |
-| lecture_chanson | 7 |
-| prudence_methodologique | 6 |
-| concept_structurant | 5 |
+| lecture_chanson | 8 |
+| prudence_methodologique | 7 |
+| concept_structurant | 7 |
+| tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
 | scene_domestique | 4 |
-| tension_documentaire | 4 |
 | evenement_medical_live | 4 |
+| tension_biographique | 4 |
 | live_set_context | 4 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
 | analyse_album | 3 |
 | dernier_concert | 3 |
+| demythification | 3 |
 | evenement_biographique | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
@@ -661,7 +670,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | lecture_textuelle | 3 |
 | analyse_chanson | 3 |
 | scene_medicale_live | 3 |
-| tension_biographique | 3 |
 | memoire | 3 |
 | song_session | 3 |
 | contrepoint_domestique | 2 |
@@ -687,6 +695,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
+| mythe_a_deconstruire | 2 |
 | lettre_intime | 2 |
 | lecture_album | 2 |
 | scene_medicale | 2 |
@@ -745,7 +754,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | evenement_medical_studio | 1 |
 | esthetique_visuelle | 1 |
 | rencontre_biographique | 1 |
-| demythification | 1 |
 | tension_morale | 1 |
 | chanson_single | 1 |
 | chronologie_medicale | 1 |
@@ -809,11 +817,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | analyse_performance | 1 |
-| mythe_a_deconstruire | 1 |
 | synthese_argumentative | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
+| source_interne | 1 |
+| reseau_sources | 1 |
+| contradiction_biographique | 1 |
+| temoignage_croise | 1 |
+| prudence_sensible | 1 |
 | tension_synthese | 1 |
 | tournee_fatigue | 1 |
 | lettre_medicale | 1 |
@@ -888,9 +900,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 209 |
+| critique | 220 |
 | non qualifiée | 110 |
-| majeure | 26 |
+| majeure | 29 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

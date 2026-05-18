@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 94 |
+| Atomes | 96 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 26 |
-| Événements chronologiques | 12 |
-| Personnes | 27 |
+| Citations | 27 |
+| Événements chronologiques | 13 |
+| Personnes | 29 |
 | Chansons | 11 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 4 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 1 |
+| S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 2 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -94,6 +95,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `analyse_performance` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S51-A004** — S51-A004 — Ian Curtis dans le noir : apparition lacunaire et puissance spectrale  
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `image_scenique` ; importance : `critique` ; preuve : `analyse_critique_de_sequence`.
+- **S52-A012** — S52-A012 — La violence scénique absente de *Control*  
+  Source : S52 — Rabbito, Control e l’infrangimento del vetro, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `temoignages_rapportes`.
+- **S52-A014** — S52-A014 — L’*epilepsy dance* précède l’épilepsie diagnostiquée  
+  Source : S52 — Rabbito, Control e l’infrangimento del vetro, 2021 ; type : `demythification` ; importance : `critique` ; preuve : `temoignage_rapporte_par_s52`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -116,10 +121,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
 - **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
-- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
-- **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 
 ## 6. Autres atomes utiles
 
@@ -221,8 +222,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
 - **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
+- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S76-A077** — S76-A077 — Troisième Factory night : le regard de Londres se déplace vers le Nord  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
+- **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 - **S76-A085** — S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
@@ -245,6 +250,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ## 7. Citations disponibles
 
 - **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -273,6 +279,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 8. Chronologie rattachée
 
+- CHR-S52-1977-001 — Rabbito associe les premières performances de Curtis à une violence scénique et à une intensité non restituées par Control.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
@@ -288,6 +295,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 9. Personnes et acteurs
 
+- PERS-S52-007 — Peter Hook
+- PERS-S52-008 — Stephen Morris
 - PERS-S49-002 — Ian Curtis
 - PERS-S49-003 — David Byrne
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
@@ -420,9 +429,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Salford (5)
 - T. J. Davidson’s (4)
 - Kevin Cummins (4)
+- corps (4)
 - Little Peter Street (3)
 - Factory Club (3)
-- corps (3)
+- performance (3)
 - Interzone (2)
 - danse (2)
 - rave era (2)
@@ -456,7 +466,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
 - post-punk (1)
-- famous photographs (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -586,6 +595,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | lecture_performance | 1 |
 | evenement_audiovisuel | 1 |
 | analyse_performance | 1 |
+| performance_sensible | 1 |
+| demythification | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
 | iconographie | 1 |
@@ -615,7 +626,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 37 |
+| critique | 39 |
 | majeure | 28 |
 | non qualifiée | 24 |
 | majeur | 3 |

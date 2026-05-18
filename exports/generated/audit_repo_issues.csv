@@ -12302,6 +12302,201 @@ warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_sp
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_specialises_s15.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_specialises_s15.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_specialises_s15.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Invalid value for type_unite: reception_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A003,Invalid value for type_unite: appreciation_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A004,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A005,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A006,Invalid value for type_unite: source_interne,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A007,Invalid value for type_unite: reseau_sources,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A008,Invalid value for type_unite: critique_filmique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A009,Invalid value for type_unite: tension_biographique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A010,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A011,Invalid value for type_unite: contradiction_biographique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A012,Invalid value for type_unite: performance_sensible,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A013,Invalid value for type_unite: temoignage_croise,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A014,Invalid value for type_unite: demythification,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A015,Invalid value for type_unite: tension_documentaire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A016,Invalid value for type_unite: formule_conceptuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A017,Invalid value for type_unite: prudence_sensible,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A018,Invalid value for type_unite: demythification,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A019,Invalid value for type_unite: mythe_a_deconstruire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A020,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md,S20-PART-HOUSING-GEOGRAPHIES-V2,Missing required field: titre,Compléter le champ obligatoire.
 warning,missing_required_field,sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md,S20-PART-HOUSING-GEOGRAPHIES-V2,Missing required field: concepts,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md,S20-PART-HOUSING-GEOGRAPHIES-V2,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -19414,6 +19609,77 @@ warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q011,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q011,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q012,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q012,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1972-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1972-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-1972-001,Invalid value for certainty: à croiser avec S45,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1975-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1975-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-1975-001,Invalid value for certainty: à croiser avec S45,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1977-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1977-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-1977-001,Invalid value for certainty: à croiser avec S41 et S45,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1978-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1978-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-1978-001,Invalid value for certainty: à croiser avec S45,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-1979-001,Invalid value for certainty: interprétation à vérifier dans les registres lyriques,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-2007-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,CHR-S52-2007-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s52_rabbito_specialized_registers.md,CHR-S52-2007-001,Invalid value for certainty: fait établi à vérifier dans fiche film,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-009,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-010,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-011,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,PERS-S52-012,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s52_rabbito_specialized_registers.md,LIEU-S52-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_specialized_registers.md,LIEU-S52-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_specialized_registers.md,ORG-S52-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_specialized_registers.md,ORG-S52-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_specialized_registers.md,ORG-S52-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ATMOSPHERE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ATMOSPHERE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ATMOSPHERE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ROCK_AND_ROLL_SUICIDE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ROCK_AND_ROLL_SUICIDE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ROCK_AND_ROLL_SUICIDE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: chapters,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -19485,6 +19751,15 @@ warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
+error,yaml_parse_error,registers/s52_rabbito_structuring_registers.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 12:
+     definition: >
+               ^",Corriger la syntaxe YAML du bloc concerné.
+warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-RABBITO-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CONTROL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CURTIS-1995,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-SAVAGE-2019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-GEE-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T20:07:36"
+generated_at: "2026-05-18T20:37:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 982 |
+| Atomes | 992 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 107 |
-| Événements chronologiques | 69 |
-| Personnes | 90 |
-| Chansons | 17 |
-| Sources mobilisées | 38 |
+| Citations | 113 |
+| Événements chronologiques | 70 |
+| Personnes | 96 |
+| Chansons | 18 |
+| Sources mobilisées | 39 |
 
 ## 4. Sources mobilisées
 
@@ -64,6 +64,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 6 | 1 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 19 | 4 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 14 | 4 |
+| S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 10 | 6 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -333,6 +334,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -345,18 +352,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q001** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S51-1978-001 — « Digital » est mobilisée en exergue du chapitre S51 autour du motif du fade away.
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
@@ -393,7 +395,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
-- CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
 
 ## 9. Personnes et acteurs
 
@@ -401,6 +402,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S51-002 — Mark Leckey
 - PERS-S51-003 — Hito Steyerl
 - PERS-S51-004 — Aby Warburg
+- PERS-S52-001 — Andrea Rabbito
+- PERS-S52-002 — Anton Corbijn
+- PERS-S52-003 — Sam Riley
+- PERS-S52-009 — Jon Savage
+- PERS-S52-010 — Grant Gee
+- PERS-S52-011 — Tony Wilson
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -431,17 +438,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-047 — Alan Wise
 - PERS-S76-048 — Roger Eagle
 - PERS-S76-049 — Peter Saville
-- PERS-S76-050 — Tony Wilson
-- PERS-S76-070 — Annik Honoré
-- PERS-S76-071 — Minny Pops
-- PERS-S76-022 — Tony Wilson
-- PERS-S76-023 — Kevin Cummins
-- PERS-S76-086 — Genesis P-Orridge
 
 ## 10. Chansons rattachées
 
 - SONG-S51-DIGITAL — Digital
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S50-SHADOWPLAY — Shadowplay
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-INSIGHT — Insight
@@ -545,7 +547,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Tony Wilson (19)
+- Tony Wilson (20)
 - Annik Honoré (18)
 - Rob Gretton (17)
 - Peter Saville (10)
@@ -555,14 +557,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Ian Curtis (8)
 - Unknown Pleasures (8)
 - fatigue (8)
+- Control (7)
 - She’s Lost Control (7)
 - John Peel (7)
 - Electric Circus (7)
 - Love Will Tear Us Apart (6)
-- Control (6)
 - Manchester (6)
 - Kevin Cummins (6)
 - NME (5)
+- prudence (5)
 - Atmosphere (5)
 - Haçienda (5)
 - New Order (5)
@@ -584,7 +587,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - radio (4)
 - Ceremony (4)
 - Decades (4)
-- Moonlight Club (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -678,13 +680,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 21 |
-| concept_structurant | 16 |
+| prudence_methodologique | 22 |
+| concept_structurant | 17 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
+| reception_critique | 11 |
 | discographie | 11 |
-| reception_critique | 10 |
 | synthese | 10 |
 | archive | 10 |
 | reception_poll | 10 |
@@ -699,6 +701,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | fait | 7 |
 | source_part | 6 |
 | objet_audiovisuel | 5 |
+| tension_documentaire | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -709,7 +712,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
-| tension_documentaire | 4 |
 | limite_interpretative | 4 |
 | synthese_argumentative | 4 |
 | management | 4 |
@@ -786,6 +788,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
+| motif_structurant | 2 |
 | controverse_biographique | 2 |
 | comparaison_critique | 2 |
 | analyse_pochette | 2 |
@@ -800,6 +803,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | idee_directrice | 2 |
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
+| mythe_a_deconstruire | 2 |
 | analyse_chanson | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
@@ -938,7 +942,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | oeuvre_artistique | 1 |
 | image_scenique | 1 |
 | reference_theorique | 1 |
-| motif_structurant | 1 |
 | reception_visuelle | 1 |
 | tension_visuelle | 1 |
 | motif_majeur | 1 |
@@ -1037,9 +1040,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_studio | 1 |
 | lecture_generationnelle | 1 |
 | evenement_audiovisuel | 1 |
-| mythe_a_deconstruire | 1 |
 | comparaison_generations | 1 |
 | garde_fou | 1 |
+| appreciation_critique | 1 |
+| reseau_sources | 1 |
+| critique_filmique | 1 |
+| formule_conceptuelle | 1 |
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | tension_synthese | 1 |
@@ -1182,8 +1188,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 293 |
-| majeure | 85 |
+| critique | 301 |
+| majeure | 87 |
 | majeur | 28 |
 | utile | 13 |
 | structurante | 2 |

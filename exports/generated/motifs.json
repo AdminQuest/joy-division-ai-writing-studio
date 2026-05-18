@@ -639,6 +639,108 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-infrangimento_vetro",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-infrangimento_vetro",
+      "type_unite": "motif",
+      "source_id": "S52",
+      "nom": "infrangimento del vetro",
+      "definition": "Geste critique consistant à briser la surface transparente du récit biographique pour accéder aux contradictions plus profondes de Curtis.\n",
+      "atomes": [
+        "S52-A004",
+        "S52-A005"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-curtis_deux_ames",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-curtis_deux_ames",
+      "type_unite": "motif",
+      "source_id": "S52",
+      "nom": "deux âmes de Curtis",
+      "definition": "Motif de la coexistence des opposés : douceur et violence, père marié et chanteur punk, adaptation sociale et frénésie scénique.\n",
+      "atomes": [
+        "S52-A010",
+        "S52-A011",
+        "S52-A013"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-heros_romantique_dangereux",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-heros_romantique_dangereux",
+      "type_unite": "motif",
+      "source_id": "S52",
+      "nom": "héros romantique dangereux",
+      "definition": "Formule mythifiante associée à Tony Wilson, à utiliser uniquement comme matériau critique, jamais comme explication romantique du suicide de Curtis.\n",
+      "atomes": [
+        "S52-A017",
+        "S52-A019"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-perte_de_controle_non_clinique",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-perte_de_controle_non_clinique",
+      "type_unite": "motif",
+      "source_id": "S52",
+      "nom": "perte de contrôle non clinique",
+      "definition": "La perte de contrôle renvoie à la maladie, mais aussi à la lacerazione intérieure et à l’expansion du pôle artistique au détriment de la vie ordinaire.\n",
+      "atomes": [
+        "S52-A014",
+        "S52-A018",
+        "S52-A020"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-reimagination_imaginaire",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Motifs",
