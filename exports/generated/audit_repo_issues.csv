@@ -7499,6 +7499,151 @@ warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_
 warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md,S45-015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md,S45-015,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md,S45-015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Invalid value for type_unite: reception_numerique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A003,Invalid value for type_unite: oeuvre_artistique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A004,Invalid value for type_unite: image_scenique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A005,Invalid value for type_unite: reference_theorique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A006,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A007,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A008,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A009,Invalid value for type_unite: reception_visuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A010,Invalid value for type_unite: lecture_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A011,Invalid value for type_unite: tension_visuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A012,Invalid value for type_unite: contexte_mediatique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A013,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A014,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A015,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/dm_rag_update_s51.md,DM-RAG-S51,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: titre,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: concepts,Compléter le champ obligatoire.
@@ -19238,6 +19383,37 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1978-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1978-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1978-001,Invalid value for certainty: paroles à vérifier,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s51_malvezzi_specialized_registers.md,CHR-S51-1979-001,Invalid value for certainty: à croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-2015-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,CHR-S51-2015-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s51_malvezzi_specialized_registers.md,CHR-S51-2015-001,Invalid value for certainty: à vérifier,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,PERS-S51-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,PERS-S51-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,PERS-S51-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,PERS-S51-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s51_malvezzi_specialized_registers.md,LIEU-S51-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_specialized_registers.md,LIEU-S51-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_specialized_registers.md,ORG-S51-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_specialized_registers.md,ORG-S51-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-DIGITAL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-DIGITAL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-DIGITAL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -19312,6 +19488,9 @@ warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-STEYERL-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-WARBURG-MNEMOSYNE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-LECKEY-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md,ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md,ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s20_dodge_organizations_housing_geographies_v2.md,ORGS-S20-HOUSING-GEOGRAPHIES-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

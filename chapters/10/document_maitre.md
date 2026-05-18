@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 220 |
+| Atomes | 228 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 23 |
-| Événements chronologiques | 10 |
-| Personnes | 21 |
+| Citations | 25 |
+| Événements chronologiques | 12 |
+| Personnes | 24 |
 | Chansons | 7 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 8 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 13 | 3 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -293,6 +294,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 ## 7. Citations disponibles
 
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -318,6 +321,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 8. Chronologie rattachée
 
+- CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
+- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
@@ -331,6 +336,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 9. Personnes et acteurs
 
+- PERS-S51-001 — Jennifer Malvezzi
+- PERS-S51-002 — Mark Leckey
+- PERS-S51-003 — Hito Steyerl
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -461,10 +469,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
+- YouTube (4)
 - van (3)
 - Factory (3)
 - Control (3)
-- YouTube (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
 - confidentialité (2)
@@ -583,11 +591,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_domestique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
+| concept_structurant | 6 |
 | biographie | 6 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
 | tension_documentaire | 4 |
+| prudence_methodologique | 4 |
 | archive | 4 |
 | memoire | 4 |
 | contrepoint_domestique | 3 |
@@ -595,8 +605,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_medicale | 3 |
 | tension_relationnelle | 3 |
 | tension_management | 3 |
-| prudence_methodologique | 3 |
-| concept_structurant | 3 |
 | concert | 3 |
 | relation | 3 |
 | objet_visuel | 3 |
@@ -608,7 +616,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_social | 2 |
 | reception_precoce | 2 |
 | scene_management | 2 |
+| reception_numerique | 2 |
 | analyse_video | 2 |
+| synthese_argumentative | 2 |
 | production | 2 |
 | economie_materielle | 2 |
 | interpretation_retrospective | 2 |
@@ -647,9 +657,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | dispositif_creation | 1 |
 | periodisation_mediatique | 1 |
 | mediation_audiovisuelle | 1 |
-| reception_numerique | 1 |
 | reception_fan | 1 |
-| synthese_argumentative | 1 |
 | santé | 1 |
 | chanson_conceptuelle | 1 |
 | processus_creatif | 1 |
@@ -676,6 +684,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | trauma | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
+| oeuvre_artistique | 1 |
+| contexte_mediatique | 1 |
 | concept | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
@@ -721,10 +731,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 103 |
+| critique | 110 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 11 |
+| majeure | 12 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

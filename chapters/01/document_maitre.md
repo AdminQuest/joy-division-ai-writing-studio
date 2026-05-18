@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T18:14:21"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 231 |
+| Atomes | 232 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 31 |
+| Sources mobilisées | 32 |
 
 ## 4. Sources mobilisées
 
@@ -59,6 +59,7 @@ generated_at: "2026-05-18T18:14:21"
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
@@ -502,6 +503,7 @@ generated_at: "2026-05-18T18:14:21"
 - S40-A001 — garde_fou → REL-S40-001
 - S40-A007 — garde_fou → REL-S40-006
 - S40-A008 — garde_fou → REL-S40-007
+- S51-A008 — prolonge → S51-A007
 - S39-A005 — garde_fou → REL-S39-008
 - S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
@@ -559,7 +561,6 @@ generated_at: "2026-05-18T18:14:21"
 - S76-A015 — prolonge → MOTIF-006
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
-- S76-A058 — prolonge → S76-A056
 
 ## 13. Distribution documentaire
 
@@ -632,6 +633,7 @@ generated_at: "2026-05-18T18:14:21"
 | travail | 1 |
 | citation_clef | 1 |
 | environnement_social | 1 |
+| motif_structurant | 1 |
 | conditions_materielles | 1 |
 | paradoxe_politique | 1 |
 | scene_regionale | 1 |
@@ -696,7 +698,7 @@ generated_at: "2026-05-18T18:14:21"
 |---|---|
 | non qualifiée | 151 |
 | critique | 33 |
-| majeure | 29 |
+| majeure | 30 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |
@@ -716,6 +718,7 @@ generated_at: "2026-05-18T18:14:21"
 - S40-A001 [élevé] — Risque de convertir S40 en clé totale ou en preuve historique.
 - S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
 - S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
+- S51-A008 [moyen] — ne pas transformer la pauvreté d’image en preuve sociologique directe
 - S39-A005 [très élevé] — Risque d’écrire que Joy Division annonce la modernité liquide.
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
@@ -767,7 +770,6 @@ generated_at: "2026-05-18T18:14:21"
 - S35-A033 [faible] — Scène de socialisation, non influence musicale directe.
 - S35-A034 [moyen] — Ne pas transformer Jodrell Bank en origine directe de l’électronique Joy Division/New Order.
 - S35-A035 [moyen] — Ne pas psychologiser toute l’esthétique Morris par le grammar school.
-- S35-A037 [moyen] — Ne pas surestimer le degré de compréhension théorique de Morris adolescent.
 
 ## 15. Lacunes et prochaines vérifications
 

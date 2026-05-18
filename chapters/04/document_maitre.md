@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-18T18:14:21"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 267 |
+| Atomes | 269 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 57 |
-| Événements chronologiques | 46 |
+| Citations | 58 |
+| Événements chronologiques | 47 |
 | Personnes | 33 |
-| Chansons | 16 |
-| Sources mobilisées | 15 |
+| Chansons | 18 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ generated_at: "2026-05-18T18:14:21"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 2 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 2 | 0 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 2 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -293,6 +294,7 @@ generated_at: "2026-05-18T18:14:21"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -327,10 +329,10 @@ generated_at: "2026-05-18T18:14:21"
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S51-1978-001 — « Digital » est mobilisée en exergue du chapitre S51 autour du motif du fade away.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
@@ -370,7 +372,6 @@ generated_at: "2026-05-18T18:14:21"
 - CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
 - CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
-- CHR-S76-1964-001 — Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.
 
 ## 9. Personnes et acteurs
 
@@ -410,6 +411,8 @@ generated_at: "2026-05-18T18:14:21"
 
 ## 10. Chansons rattachées
 
+- SONG-S51-DIGITAL — Digital
+- SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
@@ -518,9 +521,9 @@ generated_at: "2026-05-18T18:14:21"
 - Barton Street (8)
 - Ian Curtis (8)
 - épilepsie (8)
+- She’s Lost Control (7)
 - Natalie Curtis (7)
 - Love Will Tear Us Apart (6)
-- She’s Lost Control (6)
 - Annik Honoré (6)
 - Atmosphere (5)
 - paroles (4)
@@ -537,6 +540,7 @@ generated_at: "2026-05-18T18:14:21"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - blue room (3)
+- Digital (3)
 - Iggy Pop (3)
 - Interzone (3)
 - Chance (3)
@@ -552,8 +556,7 @@ generated_at: "2026-05-18T18:14:21"
 - Rob Gretton (3)
 - tournée américaine (3)
 - écriture (2)
-- T. J. Davidson’s (2)
-- Kraftwerk (2)
+- fumée (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,14 +632,14 @@ generated_at: "2026-05-18T18:14:21"
 - S41-A153 — prolonge → CONCEPT-093
 - S41-A170 — prolonge → CONCEPT-125
 - S41-A170 — prolonge → CONCEPT-103
+- S51-A004 — relie → S49-A007
+- S51-A010 — relie → SONG-S51-DIGITAL
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
 - S75-A058 — requiert → CONCEPT-004
 - S75-A058 — nuance → MYTH-002
 - S75-A058 — prolonge → S75-A047
-- S75-A059 — requiert → CONCEPT-004
-- S75-A059 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -652,6 +655,7 @@ generated_at: "2026-05-18T18:14:21"
 | analyse_chanson | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
+| lecture_chanson | 4 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
@@ -662,7 +666,6 @@ generated_at: "2026-05-18T18:14:21"
 | processus_creatif_chanson | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
-| lecture_chanson | 3 |
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
@@ -720,6 +723,7 @@ generated_at: "2026-05-18T18:14:21"
 | cadre_narratif | 1 |
 | sociologie | 1 |
 | citation_clef | 1 |
+| image_scenique | 1 |
 | contexte_medical | 1 |
 | reception | 1 |
 | lecture_litteraire | 1 |
@@ -809,11 +813,11 @@ generated_at: "2026-05-18T18:14:21"
 
 | Importance | Nombre |
 |---|---|
-| critique | 126 |
+| critique | 127 |
 | non qualifiée | 94 |
 | majeure | 40 |
+| utile | 4 |
 | majeur | 3 |
-| utile | 3 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -849,6 +853,8 @@ generated_at: "2026-05-18T18:14:21"
 - S41-A152 [très élevé] — Risque de surpsychologiser Curtis ; Hook insiste sur le fait que le groupe n’analysait pas alors les paroles.
 - S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
 - S41-A170 [moyen] — Ne pas présenter la session comme conception consciente de Closer ; elle est un seuil rétrospectif.
+- S51-A004 [moyen] — la lecture dépend d’une séquence à vérifier visuellement
+- S51-A010 [moyen] — les paroles doivent être revérifiées dans le registre lyrique
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -876,8 +882,6 @@ generated_at: "2026-05-18T18:14:21"
 - S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
-- S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
-- S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
 
 ## 15. Lacunes et prochaines vérifications
 

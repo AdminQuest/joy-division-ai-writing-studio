@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 140 |
+| Atomes | 143 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 10 |
-| Événements chronologiques | 15 |
-| Personnes | 19 |
+| Événements chronologiques | 16 |
+| Personnes | 21 |
 | Chansons | 18 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 10 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 5 | 1 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 3 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
@@ -100,6 +101,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `analyse_video` ; importance : `critique` ; preuve : `analyse_critique`.
 - **S50-A019** — S50-A019 — Le degré zéro du texte-chanson : promesse et impasse du projet  
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `synthese_argumentative` ; importance : `critique` ; preuve : `synthese_critique`.
+- **S51-A003** — S51-A003 — *Dream English Kid 1964-1999* comme montage d’une génération pré-internet  
+  Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `oeuvre_artistique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S51-A014** — S51-A014 — Leckey ne retrouve pas seulement un souvenir : il fabrique une mémoire commune  
+  Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `synthese_argumentative` ; importance : `critique` ; preuve : `synthese_critique`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -122,10 +127,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -249,6 +250,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `contexte_scene` ; importance : `majeure` ; preuve : `synthese_critique`.
 - **S50-A012** — S50-A012 — « Shadowplay » par Vincent Moon : danse, rave et transe rituelle  
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `analyse_video` ; importance : `majeure` ; preuve : `analyse_critique`.
+- **S51-A005** — S51-A005 — Warburg et le passage du personnel à l’universel  
+  Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `reference_theorique` ; importance : `majeure` ; preuve : `comparaison_theorique`.
 - **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
@@ -287,8 +290,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A019** — S72-A019 — L’espace dans Joy Division : basse mélodique, guitare lacunaire, batterie au bord du cratère  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -305,6 +306,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 8. Chronologie rattachée
 
+- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
 - CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
@@ -323,6 +325,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 9. Personnes et acteurs
 
+- PERS-S51-002 — Mark Leckey
+- PERS-S51-004 — Aby Warburg
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-005 — Vincent Moon
 - PERS-S49-003 — David Byrne
@@ -464,6 +468,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - rave era (2)
 - post-punk (2)
 - Hannett (2)
+- Mark Leckey (2)
+- pré-internet (2)
 - électronique (2)
 - objet disque (2)
 - disco (2)
@@ -489,8 +495,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - investissement de sens (1)
 - ambivalence (1)
 - transmission (1)
-- Haçienda (1)
-- Manchester post-industrielle (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -524,6 +528,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
 - S13-A007 — prolonge → S45-Hannett-catalyseur
 - S13-A007 — prépare → S13-A008
+- S51-A003 — prolonge → S51-A002
+- S51-A005 — conceptualise → S51-A003
+- S51-A014 — boucle_argumentative → S51-A003
 - S75-A058 — requiert → CONCEPT-004
 - S75-A058 — nuance → MYTH-002
 - S75-A058 — prolonge → S75-A047
@@ -571,9 +578,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A032 — complète → S74-A031
 - S74-A032 — annonce → S74-A033
 - S74-A033 — nuance → MYTH-004
-- S74-A033 — prolonge → S74-A020
-- S74-A033 — complète → S74-A032
-- S74-A039 — prolonge → S74-A020
 
 ## 13. Distribution documentaire
 
@@ -591,6 +595,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | concept_structurant | 3 |
 | lecture | 3 |
 | analyse_video | 2 |
+| synthese_argumentative | 2 |
 | relation_esthetique | 2 |
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
@@ -606,7 +611,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | fait | 2 |
 | transition | 2 |
 | evenement_mediatique | 1 |
-| synthese_argumentative | 1 |
 | relation_inter_sources | 1 |
 | memoire_spectrale | 1 |
 | prudence_temoin | 1 |
@@ -621,6 +625,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | motif_textuel | 1 |
 | economie_sonore | 1 |
 | réception | 1 |
+| oeuvre_artistique | 1 |
+| reference_theorique | 1 |
 | memoire | 1 |
 | performance | 1 |
 | lecture_discographique | 1 |
@@ -666,8 +672,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 44 |
-| majeure | 16 |
+| critique | 46 |
+| majeure | 17 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |
@@ -687,6 +693,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
 - S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
+- S51-A003 [moyen] — ne pas réduire l’œuvre de Leckey au seul fragment Joy Division
+- S51-A005 [moyen] — la comparaison doit rester méthodologique et non généalogique
+- S51-A014 [faible] — la distinction mémoire personnelle / mémoire collective est explicite
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis

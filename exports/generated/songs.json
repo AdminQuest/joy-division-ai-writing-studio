@@ -1,6 +1,47 @@
 [
   {
     "kind": "song",
+    "id": "SONG-S51-DIGITAL",
+    "file": "registers/s51_malvezzi_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S51-DIGITAL",
+      "type_unite": "song",
+      "source_id": "S51",
+      "song": "Digital",
+      "usage": "Exergue du chapitre ; motif du fade away, de la disparition et de la survivance par effacement.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S51-SHES_LOST_CONTROL",
+    "file": "registers/s51_malvezzi_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S51-SHES_LOST_CONTROL",
+      "type_unite": "song",
+      "source_id": "S51",
+      "song": "She’s Lost Control",
+      "usage": "Chanson associée au fragment filmé du concert d’Eric’s ; Curtis est à peine visible dans le noir, avec la danse presque recouverte par les voix du public.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S50-SHADOWPLAY",
     "file": "registers/s50_bertetti_morreale_specialized_registers.md",
     "heading": "Lieux, organisations et chansons",
@@ -611,7 +652,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::2955",
+    "id": "NO_ID::registers/songs/master_songs.md::3011",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

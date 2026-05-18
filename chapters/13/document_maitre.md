@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 93 |
+| Atomes | 94 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
+| Citations | 26 |
 | Événements chronologiques | 12 |
 | Personnes | 27 |
-| Chansons | 10 |
-| Sources mobilisées | 12 |
+| Chansons | 11 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 4 | 1 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -91,6 +92,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_critique_majeure`.
 - **S49-A010** — S49-A010 — « She’s Lost Control » à la BBC : désérotisation du corps rock  
   Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `analyse_performance` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S51-A004** — S51-A004 — Ian Curtis dans le noir : apparition lacunaire et puissance spectrale  
+  Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `image_scenique` ; importance : `critique` ; preuve : `analyse_critique_de_sequence`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -117,8 +120,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
-- **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
 
 ## 6. Autres atomes utiles
 
@@ -226,6 +227,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
+- **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
 - **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
 - **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
@@ -241,6 +244,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 7. Citations disponibles
 
+- **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -314,6 +318,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 10. Chansons rattachées
 
+- SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S75-028 — Dead Souls
 - SONG-S75-009 — Shadowplay
@@ -427,6 +432,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - froid (2)
 - Jamaïque (2)
 - couleur (2)
+- She’s Lost Control (2)
 - répétition (2)
 - Shadowplay (2)
 - image industrielle (2)
@@ -451,7 +457,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - résistance culturelle (1)
 - post-punk (1)
 - famous photographs (1)
-- Britannia Row (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -475,6 +480,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S41-A007 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A008 — prolonge → S41-A007
 - S41-A008 — nuance → REGISTRE-MEMOIRE-OUVRIERE
+- S51-A004 — relie → S49-A007
 - S75-A071 — prolonge → MOTIF-001
 - S75-A071 — requiert → CONCEPT-004
 - S75-A071 — nuance → MYTH-002
@@ -534,7 +540,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S49-A006 — fonde → S49-A007
 - S49-A006 — relie → ORG-S49-001
 - S49-A007 — fonde → CONCEPT-corps_scenique_comme_symptome_culturel
-- S49-A007 — deconstruit → MYTH-danse_curtis_purement_epileptique
 
 ## 13. Distribution documentaire
 
@@ -565,6 +570,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | interpretation_culturelle | 1 |
 | strategie_management | 1 |
 | concert_international | 1 |
+| image_scenique | 1 |
 | lecture_textuelle | 1 |
 | archive | 1 |
 | prudence_methodologique | 1 |
@@ -609,7 +615,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 36 |
+| critique | 37 |
 | majeure | 28 |
 | non qualifiée | 24 |
 | majeur | 3 |
@@ -626,6 +632,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
 - S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.
+- S51-A004 [moyen] — la lecture dépend d’une séquence à vérifier visuellement
 - S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
@@ -677,7 +684,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
-- S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
 
 ## 15. Lacunes et prochaines vérifications
 

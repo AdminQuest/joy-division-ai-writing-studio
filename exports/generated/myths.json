@@ -506,6 +506,85 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-image_lofi_preuve_brute",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-image_lofi_preuve_brute",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "l’image lo-fi comme preuve brute",
+      "deconstruction": "S51 montre que l’image lo-fi est une archive remédiée, dégradée, recopiée et réinterprétée. Elle doit être croisée avant tout usage événementiel.\n",
+      "atomes": [
+        "S51-A001",
+        "S51-A002",
+        "S51-A004"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-haute_definition_superiorite",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-haute_definition_superiorite",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "la haute définition serait toujours supérieure",
+      "deconstruction": "Avec Steyerl, S51 montre que certaines images pauvres pénètrent mieux l’imaginaire collectif parce qu’elles circulent, se transforment et appellent un effort de regard.\n",
+      "atomes": [
+        "S51-A006",
+        "S51-A009",
+        "S51-A015"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-lofi_simple_nostalgie",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-lofi_simple_nostalgie",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "le lo-fi ne serait qu’une nostalgie esthétique",
+      "deconstruction": "S51 relie le lo-fi à la matérialité des supports, aux pratiques DIY, aux copies, au web et à l’impermanence du sujet social représenté, non à une simple nostalgie décorative.\n",
+      "atomes": [
+        "S51-A007",
+        "S51-A008",
+        "S51-A012"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

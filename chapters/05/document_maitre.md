@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 342 |
+| Atomes | 350 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 68 |
+| Citations | 70 |
 | Événements chronologiques | 42 |
-| Personnes | 41 |
+| Personnes | 43 |
 | Chansons | 7 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 6 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -303,6 +304,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q126** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q127** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -331,8 +334,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -379,6 +380,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 9. Personnes et acteurs
 
+- PERS-S51-001 — Jennifer Malvezzi
+- PERS-S51-003 — Hito Steyerl
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -417,8 +420,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-025 — Tosh Ryan
 - PERS-S76-026 — Lawrence Beedle
 - PERS-S76-027 — Rob Gretton
-- PERS-S76-028 — Bob Dickinson
-- PERS-S76-029 — Mark Reeder
 
 ## 10. Chansons rattachées
 
@@ -526,17 +527,19 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rock Against Racism (4)
 - Tony Wilson (4)
 - Peter Saville (4)
+- DIY (4)
 - Terry Mason (4)
 - Sister Ray (4)
+- télévision (3)
 - Electric Circus (3)
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
 - Warsaw (3)
 - Tosh Ryan (3)
+- image pauvre (3)
 - répétition (3)
 - studio (3)
-- DIY (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
 - Rafters (3)
@@ -548,7 +551,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Granada (2)
 - World in Action (2)
 - monochrome (2)
-- télévision (2)
 - nom Joy Division (2)
 - Short Circuit (2)
 - imagerie nazie (2)
@@ -556,7 +558,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - A Factory Sample (2)
 - Digital (2)
 - Glass (2)
-- Saville (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -655,6 +656,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | analyse | 7 |
 | fait | 6 |
 | objet_audiovisuel | 5 |
+| concept_structurant | 5 |
 | production | 5 |
 | concert | 5 |
 | live_set_context | 5 |
@@ -665,7 +667,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concept_transversal | 4 |
 | tension_documentaire | 3 |
 | controverse | 3 |
-| concept_structurant | 3 |
+| prudence_methodologique | 3 |
 | esthétique_visuelle | 3 |
 | archive_visuelle | 3 |
 | television | 3 |
@@ -678,7 +680,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
-| prudence_methodologique | 2 |
 | lecture_chanson | 2 |
 | construction_esthetique | 2 |
 | economie_discographique | 2 |
@@ -743,6 +744,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | dynamique_collective | 1 |
 | sociologie_scene | 1 |
 | réception | 1 |
+| motif_structurant | 1 |
+| reception_visuelle | 1 |
+| tension_visuelle | 1 |
+| contexte_mediatique | 1 |
+| synthese_argumentative | 1 |
 | influence | 1 |
 | archive | 1 |
 | objet_visuel | 1 |
@@ -849,8 +855,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 108 |
-| majeure | 29 |
+| critique | 113 |
+| majeure | 32 |
 | majeur | 4 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
@@ -892,6 +898,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.
 - S41-A168 [moyen] — Ne pas réduire Corbijn à Control ; son rôle commence comme photographe de 1979.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
+- S51-A001 [faible] — l’atome fixe explicitement les limites de la source
+- S51-A006 [faible] — le concept est explicitement mobilisé par S51
+- S51-A007 [moyen] — l’idée générale est forte mais les supports précis doivent être documentés cas par cas
+- S51-A008 [moyen] — ne pas transformer la pauvreté d’image en preuve sociologique directe
+- S51-A009 [faible] — l’argument découle directement de la description de la source
+- S51-A011 [moyen] — ne pas opposer mécaniquement image canonique et image pauvre
+- S51-A012 [moyen] — chaque famille de support doit être documentée séparément
+- S51-A015 [faible] — synthèse alignée sur le cœur théorique de la source
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
@@ -909,14 +923,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A039 [moyen] — risque de transformer le digital delay en explication unique du son Joy Division
 - S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
 - S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
-- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
-- S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
-- S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
-- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
-- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
-- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
-- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
-- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-18T18:14:21"
+generated_at: "2026-05-18T18:41:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 968 |
+| Atomes | 982 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 103 |
-| Événements chronologiques | 66 |
-| Personnes | 86 |
-| Chansons | 15 |
-| Sources mobilisées | 37 |
+| Citations | 107 |
+| Événements chronologiques | 69 |
+| Personnes | 90 |
+| Chansons | 17 |
+| Sources mobilisées | 38 |
 
 ## 4. Sources mobilisées
 
@@ -63,6 +63,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 11 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 6 | 1 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 19 | 4 |
+| S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 14 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -328,6 +329,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -346,13 +351,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q188** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q189** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q190** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S51-1978-001 — « Digital » est mobilisée en exergue du chapitre S51 autour du motif du fade away.
+- CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
+- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
@@ -390,12 +394,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
 - CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
-- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
-- CHR-S29-2017-001 — Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.
-- CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 
 ## 9. Personnes et acteurs
 
+- PERS-S51-001 — Jennifer Malvezzi
+- PERS-S51-002 — Mark Leckey
+- PERS-S51-003 — Hito Steyerl
+- PERS-S51-004 — Aby Warburg
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -432,13 +437,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-023 — Kevin Cummins
 - PERS-S76-086 — Genesis P-Orridge
-- PERS-S76-087 — Carole Curtis
-- PERS-S76-088 — Vini Reilly
-- PERS-S76-089 — Paul Morley
-- PERS-013 — Chris Ott
 
 ## 10. Chansons rattachées
 
+- SONG-S51-DIGITAL — Digital
+- SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHADOWPLAY — Shadowplay
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-INSIGHT — Insight
@@ -552,12 +555,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Ian Curtis (8)
 - Unknown Pleasures (8)
 - fatigue (8)
+- She’s Lost Control (7)
 - John Peel (7)
 - Electric Circus (7)
 - Love Will Tear Us Apart (6)
 - Control (6)
 - Manchester (6)
-- She’s Lost Control (6)
 - Kevin Cummins (6)
 - NME (5)
 - Atmosphere (5)
@@ -574,6 +577,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
+- YouTube (4)
 - Something Else (4)
 - So It Goes (4)
 - Shadowplay (4)
@@ -581,7 +585,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Ceremony (4)
 - Decades (4)
 - Moonlight Club (4)
-- America (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -675,9 +678,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 20 |
+| prudence_methodologique | 21 |
+| concept_structurant | 16 |
 | memoire | 14 |
-| concept_structurant | 13 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | discographie | 11 |
@@ -698,6 +701,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_audiovisuel | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
+| lecture_chanson | 5 |
 | biographie | 5 |
 | mythe | 5 |
 | acteur_critique | 5 |
@@ -707,6 +711,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_reception | 4 |
 | tension_documentaire | 4 |
 | limite_interpretative | 4 |
+| synthese_argumentative | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -719,7 +724,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | session_studio | 4 |
-| lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
 | concept_critique | 3 |
@@ -756,7 +760,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | critique_methodologique | 2 |
-| synthese_argumentative | 2 |
+| reception_numerique | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
 | infrastructure | 2 |
@@ -827,7 +831,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | dispositif_creation | 1 |
 | periodisation_mediatique | 1 |
 | canon_visuel | 1 |
-| reception_numerique | 1 |
 | reception_fan | 1 |
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
@@ -932,6 +935,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | anecdote_scene | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
+| oeuvre_artistique | 1 |
+| image_scenique | 1 |
+| reference_theorique | 1 |
+| motif_structurant | 1 |
+| reception_visuelle | 1 |
+| tension_visuelle | 1 |
 | motif_majeur | 1 |
 | concept_reception | 1 |
 | videographie | 1 |
@@ -1173,10 +1182,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 283 |
-| majeure | 82 |
+| critique | 293 |
+| majeure | 85 |
 | majeur | 28 |
-| utile | 12 |
+| utile | 13 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

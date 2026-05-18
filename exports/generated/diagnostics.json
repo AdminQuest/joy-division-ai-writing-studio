@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T18:14:07",
+  "generated_at": "2026-05-18T18:41:38",
   "status": "warning",
   "summary": {
-    "records_total": 4841,
+    "records_total": 4897,
     "records_by_kind": {
-      "atom": 2097,
+      "atom": 2112,
       "metadata": 147,
-      "unknown": 549,
+      "unknown": 566,
       "source": 78,
-      "concept": 265,
-      "motif": 320,
-      "myth": 45,
-      "quote": 376,
-      "chronology": 359,
-      "person": 189,
-      "song": 60,
+      "concept": 270,
+      "motif": 323,
+      "myth": 48,
+      "quote": 380,
+      "chronology": 362,
+      "person": 193,
+      "song": 62,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 22361,
+    "diagnostics_total": 22540,
     "errors": 0,
-    "warnings": 22361,
+    "warnings": 22540,
     "sources_declared_in_registre_json": 59,
     "sources_used_in_records": 39,
     "sources_exported": 39,
@@ -1066,12 +1066,17 @@
         "auteur": "Jennifer Malvezzi",
         "titre": "Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 63,
+        "atoms": 15,
+        "quotes": 4,
+        "chronology": 3,
         "files": [
-          "sources/malvezzi_dream_english_kid_lo_fi/source.md"
+          "registers/s51_malvezzi_specialized_registers.md",
+          "registers/s51_malvezzi_structuring_registers.md",
+          "sources/malvezzi_dream_english_kid_lo_fi/dm_rag_update_s51.md",
+          "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+          "sources/malvezzi_dream_english_kid_lo_fi/source.md",
+          "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md"
         ]
       },
       {
@@ -46310,6 +46315,876 @@
       "file": "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "S45-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S51-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_numerique",
+      "record_id": "S51-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: oeuvre_artistique",
+      "record_id": "S51-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: image_scenique",
+      "record_id": "S51-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: reference_theorique",
+      "record_id": "S51-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S51-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S51-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S51-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_visuelle",
+      "record_id": "S51-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S51-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: tension_visuelle",
+      "record_id": "S51-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_mediatique",
+      "record_id": "S51-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S51-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S51-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S51-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/dm_rag_update_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DM-RAG-S51"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S51-009"
     },
     {
       "level": "warning",
@@ -116747,6 +117622,192 @@
     },
     {
       "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S51-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S51-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S51-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S51-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S51-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S51-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S51-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S51-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S51-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S51-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Invalid value for certainty: paroles à vérifier",
+      "record_id": "CHR-S51-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S51-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S51-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser",
+      "record_id": "CHR-S51-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S51-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S51-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier",
+      "record_id": "CHR-S51-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S51-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S51-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S51-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S51-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S51-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S51-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S51-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S51-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S51-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S51-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S51-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S51-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S51-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S51-SHES_LOST_CONTROL"
+    },
+    {
+      "level": "warning",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S50-Q001"
@@ -117188,6 +118249,24 @@
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S50-BERTETTI-2009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S51-STEYERL-2009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S51-WARBURG-MNEMOSYNE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s51_malvezzi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S51-LECKEY-2015"
     },
     {
       "level": "warning",
