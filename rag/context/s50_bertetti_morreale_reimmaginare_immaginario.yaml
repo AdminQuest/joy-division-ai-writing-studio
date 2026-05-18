@@ -1,0 +1,54 @@
+id: RAG-S50-BERTETTI-MORREALE-REIMMAGINARE
+source_id: S50
+source_label: "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021"
+source_path: "sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md"
+relations_path: "sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md"
+structuring_registers_path: "registers/s50_bertetti_morreale_structuring_registers.md"
+specialized_registers_path: "registers/s50_bertetti_morreale_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s50_bertetti_morreale_reimmaginare_immaginario.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité du chapitre S50"
+  pdf_pages: "114-133"
+  scope: "chapitre Bertetti & Morreale uniquement, non volume collectif complet"
+primary_chapters:
+  - "Chapitre 10"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 7"
+  - "Chapitre 9"
+key_atoms:
+  - S50-A002
+  - S50-A005
+  - S50-A006
+  - S50-A007
+  - S50-A009
+  - S50-A011
+  - S50-A014
+  - S50-A018
+  - S50-A019
+key_concepts:
+  - CONCEPT-imaginaire_collectif_joy_division
+  - CONCEPT-ecosysteme_mediatique_joy_division
+  - CONCEPT-traduction_intersemiotique
+  - CONCEPT-patrimonialisation_audiovisuelle
+  - CONCEPT-degre_zero_texte_chanson
+key_motifs:
+  - MOTIF-reimagination_imaginaire
+  - MOTIF-reception_fan_normative
+  - MOTIF-normalisation_de_licone
+key_myths:
+  - MYTH-reimagined_archive_origine
+  - MYTH-toute_reinterpretation_est_trahison
+  - MYTH-fans_passifs_heritage
+writing_use: >
+  Utiliser S50 comme source secondaire critique pour penser la réinvention audiovisuelle contemporaine de l’imaginaire Joy Division,
+  notamment Unknown Pleasures Reimagined, les écosystèmes médiatiques, les pratiques fan, les memes, YouTube,
+  la traduction intersémiotique et les limites de la patrimonialisation.
+verification_rules:
+  - "Ne pas utiliser S50 comme source primaire sur la période 1979-1980."
+  - "Vérifier les crédits, dates, vidéos et liens web avant toute rédaction finale."
+  - "Croiser Saville/Cummins/Corbijn avec S48, S09 et les registres visuels."
+  - "Croiser les performances de Curtis avec S49, S41, S45 et les registres audiovisuels."
+  - "Ne pas présenter la réception YouTube comme représentative de toute la réception."
