@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T09:39:43",
+  "generated_at": "2026-05-19T10:04:35",
   "status": "warning",
   "summary": {
-    "records_total": 5258,
+    "records_total": 5260,
     "records_by_kind": {
-      "source": 87,
-      "metadata": 156,
+      "source": 88,
+      "metadata": 157,
       "atom": 2173,
       "unknown": 666,
       "concept": 296,
@@ -22,9 +22,9 @@
     "diagnostics_total": 23422,
     "errors": 0,
     "warnings": 23422,
-    "sources_declared_in_registre_json": 62,
-    "sources_used_in_records": 47,
-    "sources_exported": 47,
+    "sources_declared_in_registre_json": 63,
+    "sources_used_in_records": 48,
+    "sources_exported": 48,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1371,6 +1371,20 @@
           "sources/middles_reade_torn_apart/source_part_15.md",
           "sources/middles_reade_torn_apart/source_part_16.md",
           "sources/middles_reade_torn_apart/source_part_17.md"
+        ]
+      },
+      {
+        "source_id": "S77",
+        "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+        "auteur": "Matthew Worley",
+        "titre": "‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84",
+        "annee": "2015",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/worley_punk_politics_british_fanzines/source.md"
         ]
       }
     ]
