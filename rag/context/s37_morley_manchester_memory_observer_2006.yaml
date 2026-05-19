@@ -1,0 +1,50 @@
+id: RAG-S37-MORLEY-MANCHESTER-MEMORY-OBSERVER-2006
+source_id: S37
+source_label: "S37 — Morley, Joy Division: Piece by Piece, 2008"
+source_path: "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md"
+relations_path: "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md"
+structuring_registers_path: "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md"
+specialized_registers_path: "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s37_manchester_memory_observer_2006.md"
+  - "chapters/05/source_notes_s37_manchester_memory_observer_2006.md"
+  - "chapters/10/source_notes_s37_manchester_memory_observer_2006.md"
+  - "chapters/11/source_notes_s37_manchester_memory_observer_2006.md"
+  - "chapters/13/source_notes_s37_manchester_memory_observer_2006.md"
+  - "chapters/14/source_notes_s37_manchester_memory_observer_2006.md"
+rag_fragments_path: "rag/fragments/s37_morley_manchester_memory_observer_2006.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Section VI de S37"
+  pdf_pages: "48-52"
+  scope: "Réflexion rétrospective autour d’un essai pour The Observer, 2006, sur Manchester, les Sex Pistols et la mémoire des origines"
+primary_chapters:
+  - "Chapitre 14"
+  - "Chapitre 1"
+  - "Chapitre 10"
+secondary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 11"
+  - "Chapitre 13"
+key_atoms:
+  - S37-A028
+  - S37-A029
+  - S37-A030
+  - S37-A031
+  - S37-A032
+  - S37-A033
+  - S37-A034
+  - S37-A035
+  - S37-A036
+  - S37-A037
+  - S37-A038
+writing_use: >
+  Utiliser ce passage pour penser Manchester comme ville musicale historicisée, la prudence causale entre pop culture
+  et régénération urbaine, Factory comme producteur d’une fiction Manchester, Morley comme théoricien de la mémoire
+  par versions multiples, et le passé actif de Joy Division comme ressort de son éternel retour culturel.
+verification_rules:
+  - "Ne pas utiliser Morley comme source unique sur la régénération urbaine de Manchester."
+  - "Ne pas déduire la transformation matérielle de Manchester des pochettes de Saville ou de Factory."
+  - "Qualifier la mémoire morleyenne comme montage de souvenirs, suppositions et langage."
+  - "Conserver la distinction entre pluralité des versions et relativisme factuel."
+  - "Utiliser les citations uniquement comme extraits courts vérifiés."
