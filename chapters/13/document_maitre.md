@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 102 |
+| Atomes | 103 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 32 |
 | Événements chronologiques | 13 |
 | Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 19 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -253,6 +254,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
 - **S76-A137** — S76-A137 — Cologne Basement, 15 janvier 1980 : triomphe dans une architecture souterraine  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reconstruction_S76`.
+- **S77-A003** — S77-A003 — Cartographie nationale des fanzines : Manchester dans un archipel britannique  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `cartographie_scene` ; importance : `critique` ; preuve : `cartographie_secondaire`.
 - **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-038** — SONG-S76-038 — Cologne Basement comme archive européenne  
@@ -449,8 +452,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - Salford (5)
 - Kevin Cummins (5)
+- Manchester (5)
 - T. J. Davidson’s (4)
-- Manchester (4)
 - corps (4)
 - Little Peter Street (3)
 - Factory Club (3)
@@ -469,6 +472,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - répétition (2)
 - Shadowplay (2)
 - image industrielle (2)
+- scènes locales (2)
 - sociabilité musicale (2)
 - scène locale (2)
 - club (2)
@@ -486,7 +490,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - acid house (1)
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
-- résistance culturelle (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -583,12 +586,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concept_structurant | 4 |
 | analyse | 3 |
 | biographie | 3 |
+| cartographie_scene | 3 |
 | lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
 | lieu_structurant | 2 |
 | prudence_methodologique | 2 |
-| cartographie_scene | 2 |
 | performance_sensible | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
@@ -650,7 +653,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 42 |
+| critique | 43 |
 | majeure | 31 |
 | non qualifiée | 24 |
 | majeur | 3 |
@@ -799,6 +802,25 @@ S53 nourrit directement l’idée de territoire affectif. Manchester, les périp
 Atomes prioritaires : S53-A003 ; S53-A004 ; S53-A010 ; S53-A014 ; S53-A015.
 
 Règle d’usage : S53 aide à écrire la géographie émotionnelle du mythe, pas l’histoire urbaine factuelle.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 13
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 13"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Géographie des scènes imprimées
+
+S77 peut être utilisé pour désisoler Manchester et replacer ses fanzines dans une constellation britannique de scènes locales : Manchester, Sheffield, Glasgow, Londres, Leeds, Bristol, nord-est et autres foyers régionaux.
+
+Atome prioritaire : S77-A003.
+
+Règle d’usage : ne pas dissoudre Manchester dans la carte nationale. S77 sert à montrer l’archipel des scènes imprimées ; les lieux affectifs propres à Joy Division restent à établir par les sources mancuniennes.
 
 ## 16. Lacunes et prochaines vérifications
 

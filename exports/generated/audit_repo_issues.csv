@@ -17214,6 +17214,166 @@ warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A010,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A010,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A010,Invalid value for type_unite: droit_image,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-016,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A003,Invalid value for type_unite: cartographie_scene,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A004,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A005,Invalid value for type_unite: critique_media,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A006,Invalid value for type_unite: reseau_distribution,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A007,Invalid value for type_unite: critique_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A008,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A009,Invalid value for type_unite: contexte_historique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A010,Invalid value for type_unite: politique_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A011,Invalid value for type_unite: genre_politique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A012,Invalid value for type_unite: ancrage_source,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A013,Invalid value for type_unite: culture_intellectuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A014,Invalid value for type_unite: politique_punk,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A015,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2,Missing required field: concepts,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -20130,6 +20290,10 @@ warning,missing_required_field,registers/s50_bertetti_morreale_specialized_regis
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,SONG-S50-NEW_DAWN_FADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s77_worley_structuring_registers.md,REF-S77-WORLEY-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_structuring_registers.md,REF-S77-SNIFFIN-GLUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_structuring_registers.md,REF-S77-CITY-FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_structuring_registers.md,REF-S77-FRASER-1990,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S53-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -20209,6 +20373,75 @@ warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S5
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-FISHER-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-BUTLER-1997,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s49_farci_structuring_registers.md,REF-S49-REYNOLDS-2005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,S77-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1976-07-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1976-07-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1976-07-001,Invalid value for certainty: à croiser avec Sniffin’ Glue original,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1976-1977-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1976-1977-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1976-1977-001,Invalid value for certainty: forte comme synthèse Worley,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1977-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1977-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1977-001,Invalid value for certainty: forte comme synthèse,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1978-1984-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1978-1984-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1978-1984-001,Invalid value for certainty: à croiser avec S21 et S22,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1979-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1979-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1979-001,Invalid value for certainty: à croiser avec sources Crass,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1980-1984-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,CHR-S77-1980-1984-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s77_worley_specialized_registers.md,CHR-S77-1980-1984-001,"Invalid value for certainty: forte comme synthèse, à vérifier par titres originaux",Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-009,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,PERS-S77-010,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,LIEU-S77-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,LIEU-S77-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,LIEU-S77-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,LIEU-S77-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s77_worley_specialized_registers.md,ORG-S77-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-ANARCHY_IN_THE_UK,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-ANARCHY_IN_THE_UK,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-ANARCHY_IN_THE_UK,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-GOD_SAVE_THE_QUEEN,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-GOD_SAVE_THE_QUEEN,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-GOD_SAVE_THE_QUEEN,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-LAROCCA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-BERGSON-SLANCIO,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-NORBERG-SCHULZ-GENIUS-LOCI,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

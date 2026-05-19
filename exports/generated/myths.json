@@ -379,6 +379,137 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-Manchester_exception_absolue",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Manchester_exception_absolue",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "Manchester serait une exception fanzine absolue",
+      "deconstruction": "S77 replace Manchester dans un archipel britannique de fanzines. L’intérêt de Manchester n’est pas son isolement, mais sa manière singulière d’activer un dispositif national de médias pauvres et locaux.\n",
+      "atomes": [
+        "S77-A003"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-punk_pure_authenticite",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-punk_pure_authenticite",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le punk serait une pure authenticité non marchande",
+      "deconstruction": "Les fanzines témoignent très tôt d’une conscience de la récupération, de la marchandisation, de l’uniforme punk et du star-system. Le punk lutte contre le marché depuis un espace déjà menacé par lui.\n",
+      "atomes": [
+        "S77-A007"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-punk_politiquement_univoque",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-punk_politiquement_univoque",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le punk aurait une signification politique univoque",
+      "deconstruction": "S77 montre des appropriations concurrentes : antifascisme, gauche organisée, anarchisme, féminisme, extrême droite, anti-communisme et refus des affiliations partisanes.\n",
+      "atomes": [
+        "S77-A010",
+        "S77-A014"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-DIY_simple_technique",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-DIY_simple_technique",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le DIY serait une simple technique de production",
+      "deconstruction": "Chez Worley, le DIY est un mode de production, mais aussi une politique de l’accès, de l’action, de l’expression et de l’autonomie.\n",
+      "atomes": [
+        "S77-A002",
+        "S77-A014",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-fanzines_seulement_musicaux",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-fanzines_seulement_musicaux",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "les fanzines punk seraient seulement musicaux",
+      "deconstruction": "Les fanzines naissent autour de la musique, mais Worley montre qu’ils débordent vers politique, féminisme, antiracisme, anarchisme, critique des médias, littérature et expérimentation intellectuelle.\n",
+      "atomes": [
+        "S77-A008",
+        "S77-A010",
+        "S77-A011",
+        "S77-A013",
+        "S77-A015"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-City_Fun_simplement_anti_Factory",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Mythes à déconstruire",

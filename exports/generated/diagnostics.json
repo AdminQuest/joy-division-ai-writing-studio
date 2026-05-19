@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T10:04:35",
+  "generated_at": "2026-05-19T11:00:22",
   "status": "warning",
   "summary": {
-    "records_total": 5260,
+    "records_total": 5355,
     "records_by_kind": {
       "source": 88,
       "metadata": 157,
-      "atom": 2173,
-      "unknown": 666,
-      "concept": 296,
-      "motif": 343,
-      "myth": 65,
-      "quote": 426,
-      "chronology": 380,
-      "person": 232,
-      "song": 78,
+      "atom": 2189,
+      "unknown": 698,
+      "concept": 304,
+      "motif": 348,
+      "myth": 70,
+      "quote": 436,
+      "chronology": 386,
+      "person": 242,
+      "song": 81,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23422,
+    "diagnostics_total": 23655,
     "errors": 0,
-    "warnings": 23422,
+    "warnings": 23655,
     "sources_declared_in_registre_json": 63,
     "sources_used_in_records": 48,
     "sources_exported": 48,
@@ -1379,12 +1379,16 @@
         "auteur": "Matthew Worley",
         "titre": "‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84",
         "annee": "2015",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 105,
+        "atoms": 16,
+        "quotes": 10,
+        "chronology": 6,
         "files": [
-          "sources/worley_punk_politics_british_fanzines/source.md"
+          "registers/s77_worley_specialized_registers.md",
+          "registers/s77_worley_structuring_registers.md",
+          "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+          "sources/worley_punk_politics_british_fanzines/source.md",
+          "sources/worley_punk_politics_british_fanzines/source_part_01.md"
         ]
       }
     ]
@@ -104682,6 +104686,966 @@
     },
     {
       "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S77-016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S77-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S77-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: cartographie_scene",
+      "record_id": "S77-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S77-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: critique_media",
+      "record_id": "S77-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: reseau_distribution",
+      "record_id": "S77-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: critique_culturelle",
+      "record_id": "S77-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S77-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_historique",
+      "record_id": "S77-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: politique_culturelle",
+      "record_id": "S77-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: genre_politique",
+      "record_id": "S77-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: ancrage_source",
+      "record_id": "S77-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: culture_intellectuelle",
+      "record_id": "S77-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: politique_punk",
+      "record_id": "S77-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S77-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_argumentative",
+      "record_id": "S77-A016"
+    },
+    {
+      "level": "warning",
       "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
       "message": "Missing required field: concepts",
       "record_id": "S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2"
@@ -122178,6 +123142,30 @@
     },
     {
       "level": "warning",
+      "file": "registers/s77_worley_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S77-WORLEY-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S77-SNIFFIN-GLUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S77-CITY-FUN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S77-FRASER-1990"
+    },
+    {
+      "level": "warning",
       "file": "registers/s53_la_rocca_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S53-Q001"
@@ -122649,6 +123637,420 @@
       "file": "registers/s49_farci_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S49-REYNOLDS-2005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S77-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S77-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1976-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1976-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec Sniffin’ Glue original",
+      "record_id": "CHR-S77-1976-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1976-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1976-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: forte comme synthèse Worley",
+      "record_id": "CHR-S77-1976-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: forte comme synthèse",
+      "record_id": "CHR-S77-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S21 et S22",
+      "record_id": "CHR-S77-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec sources Crass",
+      "record_id": "CHR-S77-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S77-1980-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S77-1980-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Invalid value for certainty: forte comme synthèse, à vérifier par titres originaux",
+      "record_id": "CHR-S77-1980-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S77-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S77-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S77-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S77-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S77-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S77-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S77-ANARCHY_IN_THE_UK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S77-ANARCHY_IN_THE_UK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S77-ANARCHY_IN_THE_UK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S77-GOD_SAVE_THE_QUEEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S77-GOD_SAVE_THE_QUEEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S77-GOD_SAVE_THE_QUEEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S77-WHITE_PUNKS_ON_HOPE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S77-WHITE_PUNKS_ON_HOPE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s77_worley_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S77-WHITE_PUNKS_ON_HOPE"
     },
     {
       "level": "warning",

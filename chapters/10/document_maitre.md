@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 243 |
+| Atomes | 245 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 35 |
+| Citations | 36 |
 | Événements chronologiques | 18 |
 | Personnes | 37 |
 | Chansons | 10 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -58,6 +58,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -311,6 +312,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -508,9 +510,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Tony Wilson (4)
 - prudence (4)
 - YouTube (4)
+- Burroughs (4)
 - van (3)
 - Factory (3)
-- Burroughs (3)
+- contrôle (3)
 - biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -533,7 +536,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - An Ideal for Living (2)
 - indépendance (2)
 - Sue Barlow (2)
-- compagnes (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -624,7 +626,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 11 |
+| concept_structurant | 12 |
 | tension_domestique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
@@ -759,6 +761,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | evenement_domestique_live | 1 |
 | acteur_image | 1 |
 | image_groupe | 1 |
+| culture_intellectuelle | 1 |
 | fait_biographique | 1 |
 | patrimonialisation | 1 |
 | mythe | 1 |
@@ -773,10 +776,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 122 |
+| critique | 123 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 15 |
+| majeure | 16 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -894,6 +897,25 @@ S54 peut servir à penser Burroughs et Ballard comme matrices médiatiques : lan
 Atomes prioritaires : S54-A002 ; S54-A012 ; S54-A013.
 
 Règle d’usage : ne pas confondre circulation médiatique contemporaine et influence littéraire originelle. S54 ouvre une généalogie critique, non une preuve de continuité directe.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 10
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 10"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Fanzines, remédiation et critique des médias
+
+S77 peut être utilisé pour penser la remédiation contemporaine des fanzines et de leurs images : des objets pauvres, éphémères et locaux deviennent archives, corpus, objets patrimoniaux et matériaux numériques. L’article est aussi utile pour relier les fanzines à la critique des médias de masse.
+
+Atomes prioritaires : S77-A008 ; S77-A013.
+
+Règle d’usage : distinguer le fanzine historique, la critique médiatique qu’il porte, et la patrimonialisation numérique actuelle.
 
 ## 16. Lacunes et prochaines vérifications
 

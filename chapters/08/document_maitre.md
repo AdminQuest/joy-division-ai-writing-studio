@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 272 |
+| Atomes | 285 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 16 |
-| Événements chronologiques | 25 |
-| Personnes | 19 |
-| Chansons | 6 |
-| Sources mobilisées | 19 |
+| Citations | 25 |
+| Événements chronologiques | 30 |
+| Personnes | 29 |
+| Chansons | 9 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 9 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 13 | 9 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -292,6 +293,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 7. Citations disponibles
 
+- **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q003** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q006** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
@@ -311,6 +321,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
+- CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
+- CHR-S77-1977-001 — Les fanzines accompagnent la codification et la récupération médiatique du punk ; se développe une conscience de la commodification.
+- CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
+- CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
+- CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -339,6 +354,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 9. Personnes et acteurs
 
+- PERS-S77-001 — Matthew Worley
+- PERS-S77-002 — Mark Perry / Mark P
+- PERS-S77-003 — Jon Savage
+- PERS-S77-004 — Tony Drayton / Tony D / Tony Puppy
+- PERS-S77-005 — Liz Naylor
+- PERS-S77-006 — Cath Carroll
+- PERS-S77-007 — Andy Zero / Andy Waide
+- PERS-S77-008 — Paul Morley
+- PERS-S77-009 — Penny Rimbaud
+- PERS-S77-010 — Lucy Toothpaste / Lucy Whitman
 - PERS-S21-001 — Liz Naylor
 - PERS-S21-002 — Cath Carroll
 - PERS-S21-003 — Andy Zero
@@ -361,6 +386,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 10. Chansons rattachées
 
+- SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
+- SONG-S77-GOD_SAVE_THE_QUEEN — God Save the Queen
+- SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
 - SONG-S21-JOY_DIVISION — Joy Division
 - SONG-S21-THE_FALL — The Fall
 - SONG-S75-022 — Autosuggestion
@@ -456,7 +484,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ### 12.1. Motifs dominants
 
 - Unknown Pleasures (9)
-- Factory (7)
+- Factory (8)
 - An Ideal for Living (7)
 - Rob Gretton (7)
 - Transmission (7)
@@ -465,18 +493,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Earcom 2 (5)
 - Electric Circus (5)
 - Short Circuit (5)
+- DIY (5)
 - Arrow Studios (5)
+- Paul Morley (5)
 - Tony Wilson (5)
 - Still (5)
 - Atmosphere (5)
 - Sordide Sentimental (5)
 - bootleg (5)
-- DIY (4)
 - Pennine Sound (4)
 - Hannett (4)
 - Haçienda (4)
 - Digital (4)
-- Paul Morley (4)
 - Atrocity Exhibition (4)
 - Moonlight Club (4)
 - A Factory Sample (4)
@@ -491,10 +519,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - John Peel (3)
 - Genetic (3)
 - Insight (3)
+- NME (3)
 - Warsaw (3)
 - Heart and Soul (3)
 - Chance (3)
-- Novelty (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -602,6 +630,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lieu_studio | 3 |
 | chronologie | 3 |
 | source_part | 3 |
+| concept_structurant | 3 |
+| prudence_methodologique | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
 | critique_methodologique | 2 |
@@ -612,7 +642,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | discographie | 2 |
 | bootleg | 2 |
 | concert_archive | 2 |
-| prudence_methodologique | 2 |
+| motif_structurant | 2 |
 | song_or_release | 2 |
 | session_domestique | 1 |
 | position_esthetique | 1 |
@@ -678,7 +708,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | processus_creation | 1 |
 | genre_scene | 1 |
 | prudence_sociale | 1 |
-| concept_structurant | 1 |
 | lieu_scene | 1 |
 | festival | 1 |
 | analyse_sonore | 1 |
@@ -697,6 +726,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_recrutement_logistique | 1 |
 | archive_live | 1 |
 | decision_strategique_groupe | 1 |
+| scene_fondatrice | 1 |
+| critique_media | 1 |
+| critique_culturelle | 1 |
+| politique_culturelle | 1 |
+| genre_politique | 1 |
+| ancrage_source | 1 |
+| culture_intellectuelle | 1 |
+| politique_punk | 1 |
+| synthese_argumentative | 1 |
 | contexte_musical | 1 |
 | contexte_discographique | 1 |
 | relation_inter_sources | 1 |
@@ -713,7 +751,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | satire_serie | 1 |
 | politique_identitaire | 1 |
 | source_primaire_mediatisee | 1 |
-| motif_structurant | 1 |
 | reseau_acteurs | 1 |
 | observation_scene | 1 |
 | prudence_ciblage | 1 |
@@ -729,10 +766,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
+| critique | 126 |
 | non qualifiée | 123 |
-| critique | 115 |
 | majeur | 18 |
-| majeure | 12 |
+| majeure | 14 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |
@@ -852,6 +889,25 @@ Règle d’usage : ne pas construire une lecture anti-Factory générale sans it
 Usage secondaire. S42 ne traite pas le bootleg, mais la notion de focal places peut éclairer la production de scènes, de traces et d’archives alternatives.
 
 Atomes prioritaires : S42-A008 ; S42-A009.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 8
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 8"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Fanzines, contre-presse et conflits de réception
+
+S77 est central pour comprendre les fanzines comme contre-presse punk : alternative aux hebdomadaires musicaux, espace de définition interne, critique de l’industrie musicale, de la médiatisation, du star-system, des normes de genre et des formes politiques dominantes.
+
+Atomes prioritaires : S77-A001 ; S77-A004 ; S77-A005 ; S77-A007 ; S77-A008 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A013 ; S77-A014 ; S77-A015 ; S77-A016.
+
+Règle d’usage : ne pas utiliser S77 comme corpus primaire. Si un item City Fun est mobilisé, partir de S21 puis interpréter avec S22 et S77.
 
 ## 16. Lacunes et prochaines vérifications
 

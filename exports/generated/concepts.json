@@ -1137,6 +1137,237 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-fanzine_agence_diy",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_agence_diy",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "fanzine comme agency DIY",
+      "definition": "Fonction par laquelle le fanzine transforme le jeune lecteur ou fan en producteur actif de discours, d’images, de réseaux et de scènes, selon le principe punk du do it yourself.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A002",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fanzine_contre_presse",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_contre_presse",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "fanzine comme contre-presse punk",
+      "definition": "Presse pauvre, locale et non professionnelle qui conteste les hebdomadaires musicaux, produit ses propres récits et définit les frontières culturelles du punk depuis la scène elle-même.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A005",
+        "S77-A006",
+        "S77-A007"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-archipel_fanzine_britannique",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-archipel_fanzine_britannique",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "archipel fanzine britannique",
+      "definition": "Cartographie des fanzines punk comme constellation de scènes locales dispersées, reliées par la musique, les concerts, les disquaires, la poste, les réseaux indépendants et la circulation d’idées.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A003",
+        "S77-A006"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-media_controle_fanzine",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-media_controle_fanzine",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "média comme contrôle dans les fanzines punk",
+      "definition": "Lecture fanzine de la presse, de la télévision et de la radio comme instruments de commodification, de distraction, d’objectification et de contrôle des imaginaires sociaux.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A008",
+        "S77-A013"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-structure_of_feeling_punk",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-structure_of_feeling_punk",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "structure de sentiment punk",
+      "definition": "Configuration sensible produite par la crise britannique des années 1970 : chômage, désindustrialisation, conflits sociaux, autoritarisme, anxiété nucléaire, antifascisme, médias de crise et énergie DIY.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A009"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fanzine_champ_lutte",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_champ_lutte",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "fanzine comme champ de lutte",
+      "definition": "Espace éditorial où se confrontent définitions du punk, engagements antifascistes, tentatives d’organisation politique, récupérations d’extrême droite, féminismes, anarchismes et cultures locales.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A010",
+        "S77-A011",
+        "S77-A014"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fanzine_laboratoire_intellectuel",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_laboratoire_intellectuel",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "fanzine comme laboratoire intellectuel",
+      "definition": "Fonction par laquelle certains fanzines débordent la musique vers le situationnisme, l’occulture, Burroughs, Gysin, Reich, le féminisme, l’anarchisme et les théories critiques du quotidien.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A013"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fanzine_contre_public",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_contre_public",
+      "type_unite": "concept",
+      "source_id": "S77",
+      "nom": "fanzine comme contre-public subalterne",
+      "definition": "Espace de publication par lequel des jeunes éloignés des institutions politiques formelles élaborent des identités, intérêts, besoins, critiques et récits alternatifs.\n",
+      "sources": [
+        "S77"
+      ],
+      "atomes": [
+        "S77-A015",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_materiel_diy",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Concepts",

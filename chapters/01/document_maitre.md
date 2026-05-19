@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T10:04:51"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 236 |
+| Atomes | 237 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 16 |
+| Citations | 17 |
 | Événements chronologiques | 8 |
 | Personnes | 17 |
 | Chansons | 1 |
-| Sources mobilisées | 33 |
+| Sources mobilisées | 34 |
 
 ## 4. Sources mobilisées
 
@@ -67,6 +67,7 @@ generated_at: "2026-05-19T10:04:51"
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 2 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -314,6 +315,7 @@ generated_at: "2026-05-19T10:04:51"
 - **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
@@ -453,6 +455,7 @@ generated_at: "2026-05-19T10:04:51"
 - séparation production-réception (2)
 - prudence anti-anachronique (2)
 - travail répétitif (2)
+- désindustrialisation (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
@@ -484,7 +487,6 @@ generated_at: "2026-05-19T10:04:51"
 - Thatcher (1)
 - conservatisme (1)
 - extrapolation (1)
-- prudence anti-téléologique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -691,6 +693,7 @@ generated_at: "2026-05-19T10:04:51"
 | source_visuelle | 1 |
 | lieu_image | 1 |
 | concept_visuel | 1 |
+| contexte_historique | 1 |
 | chanson | 1 |
 | relation_inter_sources | 1 |
 | mythe_prudence | 1 |
@@ -705,7 +708,7 @@ generated_at: "2026-05-19T10:04:51"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 35 |
+| critique | 36 |
 | majeure | 32 |
 | utile | 10 |
 | majeur | 2 |
@@ -837,6 +840,25 @@ S53 nourrit le chapitre uniquement comme lecture du milieu sensible mancunien. L
 Atomes prioritaires : S53-A002 ; S53-A003 ; S53-A004 ; S53-A009.
 
 Règle d’usage : ne pas remplacer les données socio-économiques et urbaines par une lecture mythique. S53 intervient après les preuves factuelles, comme couche d’interprétation affective.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 1
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 1"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Crise britannique et structure de sentiment punk
+
+S77 peut être utilisé en arrière-plan pour situer le contexte britannique des années 1970 : inflation, conflits industriels, Winter of Discontent, National Front, chômage, désindustrialisation, CND, Thatcherisme et sentiment de crise.
+
+Atomes prioritaires : S77-A009 ; REL-S77-009.
+
+Règle d’usage : ne pas remplacer les sources urbaines et mancuniennes par une synthèse nationale. S77 sert à donner l’horizon politique britannique, non à expliquer directement Joy Division.
 
 ## 16. Lacunes et prochaines vérifications
 

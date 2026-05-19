@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 255 |
+| Atomes | 259 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
-| Événements chronologiques | 11 |
-| Personnes | 16 |
-| Chansons | 21 |
-| Sources mobilisées | 24 |
+| Citations | 27 |
+| Événements chronologiques | 13 |
+| Personnes | 17 |
+| Chansons | 23 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -58,6 +58,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -303,6 +304,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
@@ -325,6 +328,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
+- CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
+- CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
 - CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
 - CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
 - CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
@@ -339,6 +344,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 9. Personnes et acteurs
 
+- PERS-S77-009 — Penny Rimbaud
 - PERS-S54-001 — Alessandro Gnocchi
 - PERS-S54-002 — Ian Curtis
 - PERS-S54-003 — William S. Burroughs
@@ -358,6 +364,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 10. Chansons rattachées
 
+- SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
+- SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
 - SONG-S54-DIGITAL — Digital
 - SONG-S54-INTERZONE — Interzone
 - SONG-S54-EXERCISE_ONE — Exercise One
@@ -467,14 +475,15 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ### 12.1. Motifs dominants
 
+- Burroughs (6)
 - Ballard (5)
 - provocation (5)
-- Burroughs (5)
 - domesticité (5)
 - Electric Circus (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
 - silence (3)
+- contrôle (3)
 - violence (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
@@ -491,7 +500,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - transe (2)
 - répétition (2)
 - clôture (2)
-- contrôle (2)
 - technologie (2)
 - Atrocity Exhibition (2)
 - médias (2)
@@ -598,7 +606,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 12 |
+| concept_structurant | 13 |
 | lecture_chanson | 12 |
 | biographie | 7 |
 | analyse_morceau | 7 |
@@ -718,6 +726,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | motif_historique | 1 |
 | controverse_scene_live | 1 |
 | mediation_litteraire | 1 |
+| contexte_historique | 1 |
+| culture_intellectuelle | 1 |
+| politique_punk | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
@@ -731,8 +742,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 88 |
-| majeure | 25 |
+| critique | 91 |
+| majeure | 26 |
 | majeur | 5 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
@@ -871,6 +882,25 @@ S54 est central pour le chapitre 11. La notion de dystopie intérieure permet de
 Atomes prioritaires : S54-A004 ; S54-A005 ; S54-A006 ; S54-A007 ; S54-A008 ; S54-A009 ; S54-A010 ; S54-A012 ; S54-A013 ; S54-A014 ; S54-A015.
 
 Règle d’usage : employer S54 pour passer de l’aliénation sociale à l’aliénation intériorisée. Ne pas dissoudre les chansons dans une théorie extérieure.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 11
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 11"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Médias, contrôle et condition moderne
+
+S77 permet d’articuler critique des médias, contrôle, crise britannique, cultures punk politisées et désaffection face aux mécanismes politiques formels. Il offre un cadre utile pour relier les cultures punk à une expérience moderne de l’aliénation.
+
+Atomes prioritaires : S77-A008 ; S77-A009 ; S77-A013 ; S77-A014.
+
+Règle d’usage : ne pas transformer la politique punk en philosophie générale. Utiliser S77 pour les médiations culturelles, les affects politiques et les formes de contre-culture.
 
 ## 16. Lacunes et prochaines vérifications
 

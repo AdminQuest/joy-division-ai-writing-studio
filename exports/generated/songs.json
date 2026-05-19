@@ -242,6 +242,67 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S77-ANARCHY_IN_THE_UK",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-ANARCHY_IN_THE_UK",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "Anarchy in the UK",
+      "usage": "Exemple de titre punk où l’anarchie fonctionne d’abord comme signal de rupture et de self-rule, avant stabilisation anarcho-punk.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "God Save the Queen",
+      "usage": "Exemple de réponse critique à la culture nationale et au Jubilé, dans le contexte des symboles de crise.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "White Punks on Hope",
+      "usage": "Chanson de Crass mobilisée pour comprendre le rejet des politiques traditionnelles au profit d’une formule anarchiste.",
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S54-DIGITAL",
     "file": "registers/s54_gnocchi_specialized_registers.md",
     "heading": "Chansons et œuvres",
@@ -976,7 +1037,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3374",
+    "id": "NO_ID::registers/songs/master_songs.md::3469",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

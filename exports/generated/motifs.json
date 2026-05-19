@@ -588,6 +588,137 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-cut_and_paste_urgence",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-cut_and_paste_urgence",
+      "type_unite": "motif",
+      "source_id": "S77",
+      "nom": "cut-and-paste urgency",
+      "definition": "Motif de l’urgence graphique et textuelle : photocopie, collages, fautes, coupures de presse, bas coût, immédiateté, circulation aux concerts et écriture depuis la scène.\n",
+      "atomes": [
+        "S77-A002",
+        "S77-A004"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-do_it_yourself_print",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-do_it_yourself_print",
+      "type_unite": "motif",
+      "source_id": "S77",
+      "nom": "do it yourself imprimé",
+      "definition": "Le DIY n’est pas seulement musical : il devient production imprimée, critique, distribution, réseau, débat, action et construction de scène.\n",
+      "atomes": [
+        "S77-A002",
+        "S77-A006",
+        "S77-A014",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-jeunesse_crise_media",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-jeunesse_crise_media",
+      "type_unite": "motif",
+      "source_id": "S77",
+      "nom": "jeunesse, crise et médias",
+      "definition": "Motif reliant la jeunesse punk aux images de crise, au chômage, à la désindustrialisation, au National Front, à Thatcher, aux médias de masse et aux formes d’expression alternatives.\n",
+      "atomes": [
+        "S77-A008",
+        "S77-A009",
+        "S77-A010"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-city_fun_pont_s21_s22_s77",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-city_fun_pont_s21_s22_s77",
+      "type_unite": "motif",
+      "source_id": "S77",
+      "nom": "City Fun comme pont S21/S22/S77",
+      "definition": "City Fun relie l’archive numérique S21, l’analyse spécialisée S22 et le cadre national S77 des fanzines punk.\n",
+      "atomes": [
+        "S77-A012"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-radicalite_fanzine_ambivalente",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-radicalite_fanzine_ambivalente",
+      "type_unite": "motif",
+      "source_id": "S77",
+      "nom": "radicalité fanzine ambivalente",
+      "definition": "Les fanzines peuvent être créatifs, politiques et émancipateurs, mais aussi naïfs, répétitifs, dogmatiques, insulaires, élitistes ou simplificateurs.\n",
+      "atomes": [
+        "S77-A014",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-graphisme_pauvre_fanzine",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Motifs",

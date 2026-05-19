@@ -422,7 +422,7 @@ usage_livre: [Chapitre 8, Chapitre 9, Chapitre 14]
 ```yaml
 id: S77-A012
 type_unite: ancrage_source
- titre: City Fun dans le paysage national des fanzines politiques
+titre: City Fun dans le paysage national des fanzines politiques
 source_id: S77
 pages:
   pdf: [26, 27]

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T10:04:51"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 245 |
-| Atomes critiques / majeurs | 11 |
-| Citations | 4 |
-| Événements chronologiques | 1 |
-| Personnes | 5 |
+| Atomes | 250 |
+| Atomes critiques / majeurs | 16 |
+| Citations | 6 |
+| Événements chronologiques | 3 |
+| Personnes | 8 |
 | Chansons | 3 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -58,6 +58,7 @@ generated_at: "2026-05-19T10:04:51"
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 11 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -75,6 +76,14 @@ generated_at: "2026-05-19T10:04:51"
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `lecture_critique`.
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
+- **S77-A003** — S77-A003 — Cartographie nationale des fanzines : Manchester dans un archipel britannique  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `cartographie_scene` ; importance : `critique` ; preuve : `cartographie_secondaire`.
+- **S77-A011** — S77-A011 — Féminisme, Rock Against Sexism et critique du sexisme musical  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `genre_politique` ; importance : `critique` ; preuve : `synthese_historique`.
+- **S77-A012** — S77-A012 — City Fun dans le paysage national des fanzines politiques  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `ancrage_source` ; importance : `critique` ; preuve : `source_secondaire_sur_City_Fun`.
+- **S77-A015** — S77-A015 — Fanzines comme contre-public subalterne  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_conclusive_appuyee_sur_Fraser`.
 - **S21-A004** — S21-A004 — City Fun comme réseau de contributeurs et de sociabilités locales  
   Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `reseau_acteurs` ; importance : `majeure` ; preuve : `reseau_a_verifier_par_notice`.
 - **S21-A007** — S21-A007 — Voix féminines, camp et critique des normes  
@@ -83,6 +92,8 @@ generated_at: "2026-05-19T10:04:51"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
 - **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_relationnelle` ; importance : `majeure` ; preuve : `cartographie critique ; faits à croiser`.
+- **S77-A006** — S77-A006 — Fanzines comme réseaux : concerts, disquaires, postalité et distribution indépendante  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `reseau_distribution` ; importance : `majeure` ; preuve : `synthese_documentee`.
 
 ## 6. Autres atomes utiles
 
@@ -253,13 +264,20 @@ generated_at: "2026-05-19T10:04:51"
 - **S46-Q005** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « South. »
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S77-1976-1977-001 — Émergence rapide de fanzines punk en Grande-Bretagne, notamment en Écosse, Manchester, Sheffield, Birmingham, Leeds, Bristol, Irlande, pays de Galles et Londres.
+- CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
 - CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
 
 ## 9. Personnes et acteurs
 
+- PERS-S77-005 — Liz Naylor
+- PERS-S77-006 — Cath Carroll
+- PERS-S77-007 — Andy Zero / Andy Waide
 - PERS-S21-001 — Liz Naylor
 - PERS-S21-002 — Cath Carroll
 - PERS-002 — Peter Hook
@@ -359,8 +377,11 @@ generated_at: "2026-05-19T10:04:51"
 
 ### 12.1. Motifs dominants
 
-- Manchester (2)
+- Manchester (3)
+- scènes locales (2)
 - Rafters (2)
+- Liz Naylor (2)
+- Cath Carroll (2)
 - géographie globale (1)
 - bas budget (1)
 - liberté créative (1)
@@ -379,7 +400,6 @@ generated_at: "2026-05-19T10:04:51"
 - absence (1)
 - transition (1)
 - triangulation du Nord (1)
-- scènes locales (1)
 - autonomie périphérique (1)
 - rhizome (1)
 - dispersion des scènes (1)
@@ -390,15 +410,13 @@ generated_at: "2026-05-19T10:04:51"
 - Fast Breeder (1)
 - us against the world (1)
 - Rob Gretton (1)
-- fanzine (1)
-- scène locale (1)
-- source primaire (1)
-- contributeurs (1)
-- lecteurs (1)
-- lieux (1)
-- sociabilité (1)
-- Liz Naylor (1)
-- Cath Carroll (1)
+- archipel fanzine (1)
+- Rough Trade (1)
+- Better Badges (1)
+- disquaires (1)
+- concerts (1)
+- féminisme (1)
+- Rock Against Sexism (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -414,6 +432,12 @@ generated_at: "2026-05-19T10:04:51"
 - S35-A088 — prepare → S35-A090
 - S35-A090 — prolonge → S35-A088
 - S35-A090 — croise → S41-A032
+- S77-A003 — nuance → MYTH-Manchester_exception_absolue
+- S77-A006 — prolonge → CONCEPT-fanzine_observatoire_local
+- S77-A011 — corrobore → S21-A007
+- S77-A012 — corrobore → S21-A007
+- S77-A012 — corrobore → S22
+- S77-A015 — fonde → CONCEPT-fanzine_contre_public
 - S21-A002 — complete → S22-A001
 - S21-A004 — a_croiser → S22
 - S21-A007 — a_croiser → S22-A009
@@ -426,9 +450,9 @@ generated_at: "2026-05-19T10:04:51"
 | Type | Nombre |
 |---|---|
 | fait | 10 |
+| concept_structurant | 9 |
 | reception | 9 |
 | chronologie | 9 |
-| concept_structurant | 8 |
 | sociologie | 8 |
 | concert | 7 |
 | evenement | 6 |
@@ -462,6 +486,7 @@ generated_at: "2026-05-19T10:04:51"
 | projet_avorte | 2 |
 | dynamique_collective | 2 |
 | archive | 2 |
+| cartographie_scene | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
 | contexte | 2 |
@@ -496,7 +521,6 @@ generated_at: "2026-05-19T10:04:51"
 | sociologie_scene | 1 |
 | réception_scene | 1 |
 | lecture_discographique | 1 |
-| cartographie_scene | 1 |
 | cartographie_relationnelle | 1 |
 | live_strategy | 1 |
 | bootleg_culture | 1 |
@@ -529,6 +553,9 @@ generated_at: "2026-05-19T10:04:51"
 | lieu_image | 1 |
 | concept_visuel | 1 |
 | relation_son_image | 1 |
+| reseau_distribution | 1 |
+| genre_politique | 1 |
+| ancrage_source | 1 |
 | satire_culturelle | 1 |
 | relation_inter_sources | 1 |
 | contexte_materiel | 1 |
@@ -550,8 +577,8 @@ generated_at: "2026-05-19T10:04:51"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
-| critique | 7 |
-| majeure | 4 |
+| critique | 11 |
+| majeure | 5 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -591,6 +618,25 @@ Règle d’usage : isoler les noms et les lieux seulement s’ils apparaissent d
 S42 prépare la sortie du cadre strictement mancunien en montrant que la circulation est d’abord interurbaine et périphérique avant d’être internationale.
 
 Atomes prioritaires : S42-A007 ; S42-A012.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 9
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 9"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Scènes locales, circulation interurbaine et contre-publics
+
+S77 aide à désisoler Manchester. Les fanzines punk forment une constellation britannique : scènes locales, réseaux de diffusion, goûts, conflits et prises de parole juvéniles circulent entre villes et régions.
+
+Atomes prioritaires : S77-A003 ; S77-A006 ; S77-A011 ; S77-A012 ; S77-A015.
+
+Règle d’usage : mobiliser S77 pour replacer les scènes mancuniennes dans une géographie nationale, sans dissoudre leur singularité locale.
 
 ## 16. Lacunes et prochaines vérifications
 

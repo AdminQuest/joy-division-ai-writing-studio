@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 146 |
+| Atomes | 151 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 12 |
-| Événements chronologiques | 16 |
-| Personnes | 21 |
+| Citations | 15 |
+| Événements chronologiques | 17 |
+| Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -55,6 +55,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 3 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -298,6 +299,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -311,6 +315,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
+- CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
 - CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
@@ -332,6 +337,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-S51-004 — Aby Warburg
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-005 — Vincent Moon
+- PERS-S77-002 — Mark Perry / Mark P
+- PERS-S77-003 — Jon Savage
 - PERS-S49-003 — David Byrne
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
@@ -458,8 +465,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ### 12.1. Motifs dominants
 
+- DIY (5)
 - Transmission (4)
-- DIY (4)
 - transe (3)
 - danse (3)
 - radio (3)
@@ -476,6 +483,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - électronique (2)
 - objet disque (2)
 - disco (2)
+- prudence (2)
+- photocopie (2)
 - Unknown Pleasures Reimagined (1)
 - anniversaire (1)
 - Warner (1)
@@ -496,8 +505,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - synesthésie (1)
 - degré zéro (1)
 - investissement de sens (1)
-- ambivalence (1)
-- transmission (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -592,14 +599,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | source_part | 6 |
 | contrepoint | 6 |
 | production | 6 |
+| scene_fondatrice | 5 |
 | lecture_musicale | 4 |
 | reception | 4 |
-| scene_fondatrice | 4 |
+| prudence_methodologique | 4 |
 | concept_structurant | 3 |
-| prudence_methodologique | 3 |
+| synthese_argumentative | 3 |
 | lecture | 3 |
 | analyse_video | 2 |
-| synthese_argumentative | 2 |
 | relation_esthetique | 2 |
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
@@ -609,6 +616,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | design | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
+| motif_structurant | 2 |
 | contexte_technique | 2 |
 | portrait | 2 |
 | fait | 2 |
@@ -663,13 +671,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | acteur_image | 1 |
 | relation_son_image | 1 |
 | reseau_visuel | 1 |
+| reseau_distribution | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
 | concept | 1 |
 | réception_interne | 1 |
 | portrait_technique | 1 |
 | concept_transversal | 1 |
-| motif_structurant | 1 |
 | synthese_usage_livre | 1 |
 
 ### 13.2. Importance documentaire
@@ -677,8 +685,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 49 |
-| majeure | 17 |
+| critique | 53 |
+| majeure | 18 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |
@@ -793,6 +801,25 @@ Règle d’usage : citer les images ou scans seulement avec item, légende, cré
 S42 replace l’héritage de Joy Division dans une géographie post-punk élargie : Manchester, Liverpool, Sheffield. Il aide à distinguer influence, circulation, reprise et réification.
 
 Atomes prioritaires : S42-A005 ; S42-A006 ; S42-A007 ; S42-A012 ; S42-A013.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 7
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 7"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Culture matérielle, impression pauvre et DIY
+
+S77 est central pour penser les fanzines comme objets matériels : photocopie, cut-and-paste, collage, bas coût, ventes aux concerts, disquaires, distribution postale, Rough Trade et Better Badges.
+
+Atomes prioritaires : S77-A002 ; S77-A004 ; S77-A006 ; S77-A016.
+
+Règle d’usage : articuler S77 avec S21. S77 donne le cadre national ; S21 donne les items précis de City Fun.
 
 ## 16. Lacunes et prochaines vérifications
 

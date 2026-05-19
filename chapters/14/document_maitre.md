@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T10:04:51"
+generated_at: "2026-05-19T11:00:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1016 |
+| Atomes | 1025 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 132 |
-| Événements chronologiques | 78 |
-| Personnes | 110 |
+| Citations | 136 |
+| Événements chronologiques | 82 |
+| Personnes | 118 |
 | Chansons | 22 |
-| Sources mobilisées | 42 |
+| Sources mobilisées | 43 |
 
 ## 4. Sources mobilisées
 
@@ -76,6 +76,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
+| S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -370,6 +371,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
 - CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
+- CHR-S77-1977-001 — Les fanzines accompagnent la codification et la récupération médiatique du punk ; se développe une conscience de la commodification.
+- CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
+- CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
+- CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
@@ -394,10 +399,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
 - CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
-- CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
-- CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
-- CHR-S76-1980-026 — Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.
-- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
 
 ## 9. Personnes et acteurs
 
@@ -426,6 +427,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S53-009 — Arthur Schopenhauer
 - PERS-S53-010 — Friedrich Nietzsche
 - PERS-S53-011 — Michael Winterbottom
+- PERS-S77-001 — Matthew Worley
+- PERS-S77-003 — Jon Savage
+- PERS-S77-004 — Tony Drayton / Tony D / Tony Puppy
+- PERS-S77-005 — Liz Naylor
+- PERS-S77-006 — Cath Carroll
+- PERS-S77-008 — Paul Morley
+- PERS-S77-009 — Penny Rimbaud
+- PERS-S77-010 — Lucy Toothpaste / Lucy Whitman
 - PERS-S21-001 — Liz Naylor
 - PERS-S21-002 — Cath Carroll
 - PERS-S21-006 — Tony Wilson
@@ -433,14 +442,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
-- PERS-001 — Ian Curtis
-- PERS-002 — Peter Hook
-- PERS-003 — Bernard Sumner
-- PERS-005 — Deborah Curtis
-- PERS-006 — Rob Gretton
-- PERS-007 — Tony Wilson
-- PERS-008 — Martin Hannett
-- PERS-009 — Peter Saville
 
 ## 10. Chansons rattachées
 
@@ -557,15 +558,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (21)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- Factory (11)
+- Factory (12)
 - Peter Saville (10)
 - Buzzcocks tour (9)
 - Ian Curtis (9)
 - Unknown Pleasures (9)
 - Transmission (8)
+- prudence (8)
 - Control (8)
 - fatigue (8)
-- prudence (7)
 - Manchester (7)
 - She’s Lost Control (7)
 - John Peel (7)
@@ -573,6 +574,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Kevin Cummins (7)
 - Love Will Tear Us Apart (6)
 - Haçienda (6)
+- Paul Morley (6)
 - NME (5)
 - Atmosphere (5)
 - New Order (5)
@@ -580,7 +582,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
-- Paul Morley (5)
 - Sordide Sentimental (5)
 - Closer (5)
 - Gretton (5)
@@ -687,8 +688,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 24 |
-| concept_structurant | 23 |
+| prudence_methodologique | 25 |
+| concept_structurant | 24 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -706,10 +707,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | relation | 7 |
 | controverse | 7 |
 | fait | 7 |
+| synthese_argumentative | 6 |
 | source_part | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
-| synthese_argumentative | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -729,6 +730,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | iconographie | 4 |
 | concert | 4 |
 | projet_avorte | 4 |
+| motif_structurant | 4 |
 | fait_interprete | 4 |
 | concept | 4 |
 | reprise_exterieure | 4 |
@@ -758,7 +760,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
-| motif_structurant | 3 |
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
@@ -1158,6 +1159,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | image_groupe | 1 |
 | reseau_visuel | 1 |
 | droit_image | 1 |
+| critique_culturelle | 1 |
+| politique_culturelle | 1 |
+| genre_politique | 1 |
+| ancrage_source | 1 |
+| politique_punk | 1 |
 | chanson | 1 |
 | contexte_musical | 1 |
 | satire_culturelle | 1 |
@@ -1204,8 +1210,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 319 |
-| majeure | 92 |
+| critique | 327 |
+| majeure | 93 |
 | majeur | 28 |
 | utile | 14 |
 | structurante | 2 |
@@ -1386,6 +1392,25 @@ Usage secondaire. S54 peut aider à expliquer pourquoi certains titres — « In
 Atomes prioritaires : S54-A002 ; S54-A006 ; S54-A015 ; REL-S54-015.
 
 Règle d’usage : ne pas faire de Burroughs et Ballard un décor de prestige. Le chapitre 14 doit montrer comment ces références contribuent au mythe, mais aussi comment elles peuvent être simplifiées par la réception.
+
+### source_notes_s77.md
+
+# Notes sources réinjectées — Chapitre 14
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 14"
+sources: [S77]
+statut: note_chapitre_sans_addenda
+```
+
+## S77 — Fanzines, patrimonialisation et contre-publics
+
+S77 est utile pour traiter la transformation des fanzines punk en sources historiques et objets patrimoniaux. Worley montre que ces objets pauvres, parfois naïfs ou répétitifs, constituent aussi des produits d’agency, des moyens de participation et des plateformes d’expression culturelle et politique.
+
+Atomes prioritaires : S77-A001 ; S77-A007 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A014 ; S77-A015 ; S77-A016.
+
+Règle d’usage : articuler S77 avec S21 et S22. S77 donne le cadre national ; S21 fournit les traces archivistiques ; S22 fournit l’interprétation spécialisée de City Fun.
 
 ## 16. Lacunes et prochaines vérifications
 
