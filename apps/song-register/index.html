@@ -10,19 +10,24 @@
   <header class="hero">
     <div class="hero-inner">
       <h1>Registre des chansons</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
+      <p class="subtitle">Vue canonique des chansons Joy Division / Warsaw, avec agrégation des variantes, démos, Peel/BBC, lives et mentions atomisées.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
 
   <main class="layout">
     <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des chansons…</div>
+      <div class="status-card" id="status-card">Chargement du corpus canonique…</div>
 
       <div class="filters">
+        <div class="field primary-field">
+          <label for="song-filter">Chanson canonique</label>
+          <select id="song-filter"><option value="">Toutes les chansons Joy Division / Warsaw</option></select>
+        </div>
+
         <div class="field">
-          <label for="search">Recherche</label>
-          <input id="search" type="search" placeholder="Transmission, contrôle, Hannett, Factory, live…">
+          <label for="search">Recherche dans les variantes et atomes</label>
+          <input id="search" type="search" placeholder="Transmission, Peel, RCA, live, paroles divergentes…">
         </div>
 
         <div class="field">
@@ -52,13 +57,13 @@
       </div>
 
       <p class="note">
-        Ce registre lit directement les fichiers <code>registers/songs/*.md</code> et les chansons atomisées du repo.
+        Le menu est limité au canon interne <code>registers/songs/00_canonical_joy_division_songs.md</code> : œuvres originales Joy Division / Warsaw, quelques démos ou répétitions utiles, Peel/BBC, inédits et deux titres terminaux Joy Division / New Order. Les reprises, faux positifs et titres New Order hors corpus sont exclus de l’affichage principal.
       </p>
     </section>
 
     <section class="register-panel">
       <div class="results-header">
-        <h2>Chansons</h2>
+        <h2>Chansons canoniques</h2>
         <div id="results-meta"></div>
       </div>
       <div id="songs-list" class="songs-list"></div>
