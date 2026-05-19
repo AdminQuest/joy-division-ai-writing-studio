@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -931,61 +931,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
 - S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s42_s52_s53.md
-
-# Notes sources réinjectées — Chapitre 5
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 5"
-sources: [S42, S52, S53]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S42 — Factory comme focal place esthétique
-
-S42 permet de lire Factory comme focal place esthétique et institutionnel. Il relie label, graphisme, scène locale et mise en forme exportable de la périphérie.
-
-Atome prioritaire : S42-A010.
-
-## S52 — Corbijn comme relais visuel
-
-Usage secondaire. S52 est utile pour Corbijn comme garant esthétique : photographe de Joy Division, auteur du clip d’« Atmosphere », puis réalisateur de *Control*. Le noir et blanc du film peut être rattaché à l’imaginaire photographique, sans se substituer à l’analyse de Saville, Cummins et Corbijn comme corpus visuels distincts.
-
-Atomes prioritaires : S52-A002 ; S52-A003 ; S52-A005.
-
-## S53 — Image culturelle, objet cultuel
-
-S53 est très utile pour penser la transformation d’une image culturelle en objet cultuel. La pochette d’*Unknown Pleasures* est lue comme icône émotionnelle partagée, totem pop et signe dont la massification ne détruit pas nécessairement la valeur.
-
-Atomes prioritaires : S53-A005 ; S53-A006 ; S53-A007 ; S53-A014.
-
-Règle d’usage : ne pas faire de S53 la source principale sur Saville ou sur la genèse graphique. Croiser avec S48, S50, S09, les sources Saville et les notices discographiques.
-
-### source_notes_s78.md
-
-# Notes sources réinjectées — Chapitre 5
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 5"
-sources: [S78]
-statut: note_chapitre_sans_addenda
-```
-
-## S78 — Photographies, signe indexical et ambiguïté visuelle
-
-S78 est utile pour traiter les images de Kevin Cummins et d’Anton Corbijn. Elles localisent Joy Division tout en conservant une forte ambiguïté : Epping Walk, neige, pont, tunnel, absence de signalétique, ville réelle ou paysage mental.
-
-Atomes prioritaires : S78-A004 ; S78-A012 ; REL-S78-012.
-
-Règle d’usage : ne pas faire de l’image une preuve directe du lieu. L’image devient un opérateur d’aura, de projection et de mythe.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

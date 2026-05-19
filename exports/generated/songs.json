@@ -121,6 +121,28 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S55-JOY_DIVISION",
+    "file": "registers/s55_romania_specialized_registers.md",
+    "heading": "Chansons / albums / catégories musicales",
+    "data": {
+      "id": "SONG-S55-JOY_DIVISION",
+      "type_unite": "song",
+      "source_id": "S55",
+      "song": "Joy Division",
+      "usage": "Non pas une chanson, mais entrée groupe utilisée ici comme référence critique globale ; à traiter comme catégorie symbolique.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S50-SHADOWPLAY",
     "file": "registers/s50_bertetti_morreale_specialized_registers.md",
     "heading": "Lieux, organisations et chansons",
@@ -1119,7 +1141,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3588",
+    "id": "NO_ID::registers/songs/master_songs.md::3652",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

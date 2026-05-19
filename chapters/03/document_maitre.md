@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -913,94 +913,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s13.md
-
-# Chapitre 3 — Notes source S13
-
-```yaml
-id: CH03-SOURCE-NOTES-S13
-chapitre: "Chapitre 3"
-type_unite: note_chapitre
-statut: redistribution_depuis_chapters_addenda
-sources:
-  - S13
-```
-
-## S13 — Tomeo, « Dance Dance Dance! », 2021
-
-Atomes utiles : S13-A007 ; S13-A003.
-
-Concepts utiles : CONCEPT-S13-001 ; CONCEPT-S13-004.
-
-Usage : S13 apporte une lecture de *Unknown Pleasures* comme laboratoire sonore et de Joy Division comme seuil d’écoute post-punk vers une sensibilité électronique. À utiliser en contrepoint des sources Hook, Hannett, Ott et Middles.
-
-Prudence : les détails techniques de bruits, effets et manipulations sonores doivent être croisés avec les sources studio. Ne pas faire d’Hannett un prophète de la rave.
-
-### source_notes_s21_s42_s53_s54.md
-
-# Notes sources réinjectées — Chapitre 3
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 3"
-sources: [S21, S42, S53, S54]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — Réception locale et fanzine
-
-S21 peut documenter la réception locale des groupes et des concerts si un item de *City Fun* le permet. Il ne doit pas remplacer les sources musicales ou discographiques.
-
-Atome prioritaire : S21-A005.
-
-Règle d’usage : utiliser S21 pour la réception située, pas pour les faits sonores ou techniques.
-
-## S42 — Reconstruction expérimentale post-punk
-
-S42 sert surtout à poser le post-punk comme reconstruction expérimentale après le punk. Il ne décrit pas techniquement le son de Joy Division, mais il aide à comprendre pourquoi la sortie du punk orthodoxe devient possible.
-
-Atomes prioritaires : S42-A004 ; S42-A006.
-
-## S53 — Détour théorique sur la musique
-
-S53 ouvre un détour théorique par Schopenhauer et Nietzsche pour penser la musique comme langage d’une réalité profonde. Ce matériau reste secondaire : il n’explique pas techniquement le son Joy Division.
-
-Atome prioritaire : S53-A012.
-
-Règle d’usage : ne pas utiliser S53 pour documenter Hannett, Hook, Morris ou les sessions. Les faits sonores restent dans les sources techniques et testimoniales.
-
-## S54 — Climats dystopiques et médias
-
-S54 ne documente pas les innovations techniques du son Joy Division ; elle peut seulement aider à relier certains climats sonores à des paysages dystopiques et médiatiques. L’analyse de la production, de la basse, de la batterie et de Hannett reste portée par les sources techniques et testimoniales.
-
-Atomes prioritaires : S54-A012 ; S54-A013.
-
-Règle d’usage : ne pas déplacer vers le chapitre 3 l’analyse autonome des paroles. Les textes restent traités principalement au chapitre 4.
-
-### source_notes_s78.md
-
-# Notes sources réinjectées — Chapitre 3
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 3"
-sources: [S78]
-statut: note_chapitre_sans_addenda
-```
-
-## S78 — Son, écoute et interprétation urbaine
-
-S78 aide à distinguer le son produit, l’écoute située et l’interprétation rétrospective. L’article est utile pour éviter de déduire directement Manchester de *Unknown Pleasures* ou de la production de Martin Hannett.
-
-Atomes prioritaires : S78-A002 ; S78-A003 ; S78-A009 ; S78-A020.
-
-Règle d’usage : traiter le « son de Manchester » comme une construction d’écoute, non comme une propriété technique immédiatement vérifiable dans le mixage.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

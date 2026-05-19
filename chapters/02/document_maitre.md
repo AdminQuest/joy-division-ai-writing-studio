@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -906,55 +906,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
 - S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s21_s42.md
-
-# Notes sources réinjectées — Chapitre 2
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 2"
-sources: [S21, S42]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — MDMArchive, City Fun
-
-S21 est utile pour restituer *City Fun* comme média local, non comme simple note de bas de page. Le fanzine permet de regarder Manchester depuis ses supports pauvres : contributeurs, lecteurs, lieux, annonces, groupes, polémiques et sociabilités.
-
-Atomes prioritaires : S21-A002 ; S21-A004 ; S21-A005 ; REL-S21-002.
-
-Règle d’usage : partir des items précis de S21 et croiser avec S22 Wilkinson. Ne pas généraliser à partir du seul titre de l’exposition.
-
-## S42 — Lieux et sociabilités post-punk
-
-S42 ajoute une lecture des lieux comme infrastructures de sociabilité. L’Electric Circus n’est pas seulement une scène mythique ; c’est un focal place dont la fermeture redistribue les réseaux vers d’autres espaces.
-
-Atomes prioritaires : S42-A006 ; S42-A008 ; S42-A009.
-
-### source_notes_s77.md
-
-# Notes sources réinjectées — Chapitre 2
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 2"
-sources: [S77]
-statut: note_chapitre_sans_addenda
-```
-
-## S77 — Fanzines, DIY et constitution des scènes locales
-
-S77 replace Manchester dans un archipel britannique de scènes imprimées. Le modèle Sniffin’ Glue, la multiplication des titres régionaux, la critique de la presse musicale dominante et les réseaux de distribution montrent que le punk se construit aussi par ses supports pauvres.
-
-Atomes prioritaires : S77-A002 ; S77-A003 ; S77-A005 ; S77-A006 ; S77-A009 ; S77-A010.
-
-Règle d’usage : utiliser S77 comme cadre national. Pour Manchester et City Fun, croiser avec S21 et S22.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

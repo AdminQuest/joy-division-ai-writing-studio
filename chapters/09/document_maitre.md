@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T11:56:50"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 250 |
-| Atomes critiques / majeurs | 16 |
-| Citations | 6 |
+| Atomes | 259 |
+| Atomes critiques / majeurs | 25 |
+| Citations | 10 |
 | Événements chronologiques | 3 |
-| Personnes | 8 |
-| Chansons | 3 |
-| Sources mobilisées | 25 |
+| Personnes | 12 |
+| Chansons | 4 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -52,6 +52,7 @@ generated_at: "2026-05-19T11:56:50"
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 20 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
+| S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 9 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 6 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -74,6 +75,20 @@ generated_at: "2026-05-19T11:56:50"
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `dispositif_creation` ; importance : `critique` ; preuve : `synthese_critique`.
 - **S50-A010** — S50-A010 — Détacher *Unknown Pleasures* de Manchester : universalisation ou déracinement  
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `lecture_critique`.
+- **S55-A001** — S55-A001 — S55 comme source sur la réception critique, non comme source primaire  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S55-A003** — S55-A003 — La recension musicale comme triple opération : classement, évaluation, lyrisation  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_interne_S55`.
+- **S55-A004** — S55-A004 — Joy Division comme opérateur méta-analytique et méta-esthétique  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `thèse_centrale_S55`.
+- **S55-A005** — S55-A005 — Joy Division comme guide symbolique pour scènes et groupes hétérogènes  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `fonction_symbolique` ; importance : `critique` ; preuve : `synthese_interpretative`.
+- **S55-A009** — S55-A009 — Joy Division comme forme, représentation et épistémologie du post-punk  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_conclusive_S55`.
+- **S55-A011** — S55-A011 — Risque de réduction : le comparatif joydivisionien comme facilité critique  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `limite_critique` ; importance : `critique` ; preuve : `limite_methodologique`.
+- **S55-A012** — S55-A012 — Usage final : analyser la canonisation critique sans l’amplifier  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_usage`.
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 - **S77-A003** — S77-A003 — Cartographie nationale des fanzines : Manchester dans un archipel britannique  
@@ -92,6 +107,10 @@ generated_at: "2026-05-19T11:56:50"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
 - **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_relationnelle` ; importance : `majeure` ; preuve : `cartographie critique ; faits à croiser`.
+- **S55-A006** — S55-A006 — Composante existentielle : malaise, solitude, aliénation, obscurité  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `axe_thematique_S55`.
+- **S55-A010** — S55-A010 — Gemmation et greffe : deux directions de l’héritage critique Joy Division  
+  Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `modele_heritage` ; importance : `majeure` ; preuve : `modele_interpretatif`.
 - **S77-A006** — S77-A006 — Fanzines comme réseaux : concerts, disquaires, postalité et distribution indépendante  
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `reseau_distribution` ; importance : `majeure` ; preuve : `synthese_documentee`.
 
@@ -264,6 +283,10 @@ generated_at: "2026-05-19T11:56:50"
 - **S46-Q005** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « South. »
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 
@@ -275,6 +298,10 @@ generated_at: "2026-05-19T11:56:50"
 
 ## 9. Personnes et acteurs
 
+- PERS-S55-001 — Vincenzo Romania
+- PERS-S55-003 — Peter Hook
+- PERS-S55-004 — Bernard Sumner
+- PERS-S55-005 — Stephen Morris
 - PERS-S77-005 — Liz Naylor
 - PERS-S77-006 — Cath Carroll
 - PERS-S77-007 — Andy Zero / Andy Waide
@@ -286,6 +313,7 @@ generated_at: "2026-05-19T11:56:50"
 
 ## 10. Chansons rattachées
 
+- SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S75-031 — Ceremony
 - SONG-S75-032 — In a Lonely Place
 - Transmission
@@ -382,6 +410,7 @@ generated_at: "2026-05-19T11:56:50"
 - Rafters (2)
 - Liz Naylor (2)
 - Cath Carroll (2)
+- prudence (2)
 - géographie globale (1)
 - bas budget (1)
 - liberté créative (1)
@@ -416,7 +445,6 @@ generated_at: "2026-05-19T11:56:50"
 - disquaires (1)
 - concerts (1)
 - féminisme (1)
-- Rock Against Sexism (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -438,6 +466,16 @@ generated_at: "2026-05-19T11:56:50"
 - S77-A012 — corrobore → S21-A007
 - S77-A012 — corrobore → S22
 - S77-A015 — fonde → CONCEPT-fanzine_contre_public
+- S55-A001 — distingue → S53
+- S55-A001 — distingue → S78
+- S55-A003 — fonde → CONCEPT-recension_classificatoire
+- S55-A004 — fonde → CONCEPT-joy_division_categorie_critique
+- S55-A005 — prolonge → S55-A004
+- S55-A006 — a_croiser → S78-A001
+- S55-A009 — synthese → S55-A004
+- S55-A010 — prolonge → S55-A009
+- S55-A011 — limite → CONCEPT-joy_division_categorie_critique
+- S55-A012 — synthese → S55-A004
 - S21-A002 — complete → S22-A001
 - S21-A004 — a_croiser → S22
 - S21-A007 — a_croiser → S22-A009
@@ -449,19 +487,19 @@ generated_at: "2026-05-19T11:56:50"
 
 | Type | Nombre |
 |---|---|
+| concept_structurant | 12 |
 | fait | 10 |
-| concept_structurant | 9 |
 | reception | 9 |
 | chronologie | 9 |
 | sociologie | 8 |
 | concert | 7 |
 | evenement | 6 |
+| prudence_methodologique | 6 |
 | interpretation | 6 |
 | relation | 5 |
 | production | 5 |
 | contexte_scene | 5 |
 | source_part | 5 |
-| prudence_methodologique | 5 |
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
@@ -492,6 +530,7 @@ generated_at: "2026-05-19T11:56:50"
 | contexte | 2 |
 | chronologie_live | 2 |
 | concept_transversal | 2 |
+| synthese_usage_livre | 2 |
 | memoire | 2 |
 | institution_policiere | 1 |
 | dispositif_creation | 1 |
@@ -566,10 +605,13 @@ generated_at: "2026-05-19T11:56:50"
 | reception_scene | 1 |
 | contexte_economique | 1 |
 | portrait | 1 |
+| fonction_symbolique | 1 |
+| motif_structurant | 1 |
+| modele_heritage | 1 |
+| limite_critique | 1 |
 | source_primaire_mediatisee | 1 |
 | reseau_acteurs | 1 |
 | voix_acteurs | 1 |
-| synthese_usage_livre | 1 |
 | controverse | 1 |
 
 ### 13.2. Importance documentaire
@@ -577,8 +619,8 @@ generated_at: "2026-05-19T11:56:50"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
-| critique | 11 |
-| majeure | 5 |
+| critique | 18 |
+| majeure | 7 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -590,55 +632,7 @@ generated_at: "2026-05-19T11:56:50"
 - S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
 - S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s21_s42.md
-
-# Notes sources réinjectées — Chapitre 9
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 9"
-sources: [S21, S42]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — Réseaux, lieux et sociabilités de scène
-
-S21 permet de matérialiser la scène comme réseau. *City Fun* n’est pas seulement une publication : c’est un nœud de sociabilité, d’écriture collective, de lecteurs, de contributeurs, de lieux et de mémoires locales.
-
-Atomes prioritaires : S21-A004 ; S21-A005 ; CONCEPT-fanzine_observatoire_local.
-
-Règle d’usage : isoler les noms et les lieux seulement s’ils apparaissent dans les items ou notices vérifiés.
-
-## S42 — Circulation interurbaine et périphérique
-
-S42 prépare la sortie du cadre strictement mancunien en montrant que la circulation est d’abord interurbaine et périphérique avant d’être internationale.
-
-Atomes prioritaires : S42-A007 ; S42-A012.
-
-### source_notes_s77.md
-
-# Notes sources réinjectées — Chapitre 9
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 9"
-sources: [S77]
-statut: note_chapitre_sans_addenda
-```
-
-## S77 — Scènes locales, circulation interurbaine et contre-publics
-
-S77 aide à désisoler Manchester. Les fanzines punk forment une constellation britannique : scènes locales, réseaux de diffusion, goûts, conflits et prises de parole juvéniles circulent entre villes et régions.
-
-Atomes prioritaires : S77-A003 ; S77-A006 ; S77-A011 ; S77-A012 ; S77-A015.
-
-Règle d’usage : mobiliser S77 pour replacer les scènes mancuniennes dans une géographie nationale, sans dissoudre leur singularité locale.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

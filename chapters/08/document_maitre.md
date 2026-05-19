@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 287 |
+| Atomes | 293 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
-| Événements chronologiques | 32 |
-| Personnes | 30 |
-| Chansons | 9 |
-| Sources mobilisées | 21 |
+| Citations | 28 |
+| Événements chronologiques | 33 |
+| Personnes | 31 |
+| Chansons | 10 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
+| S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -294,6 +295,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 7. Citations disponibles
 
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q003** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
@@ -322,6 +326,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
+- CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
 - CHR-S77-1977-001 — Les fanzines accompagnent la codification et la récupération médiatique du punk ; se développe une conscience de la commodification.
 - CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
@@ -357,6 +362,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 9. Personnes et acteurs
 
+- PERS-S55-001 — Vincenzo Romania
 - PERS-S77-001 — Matthew Worley
 - PERS-S77-002 — Mark Perry / Mark P
 - PERS-S77-003 — Jon Savage
@@ -390,6 +396,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 10. Chansons rattachées
 
+- SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
 - SONG-S77-GOD_SAVE_THE_QUEEN — God Save the Queen
 - SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
@@ -517,6 +524,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Peter Saville (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
+- prudence (4)
 - Rudolf Hess (3)
 - bootlegs (3)
 - Strawberry Studios (3)
@@ -526,7 +534,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Insight (3)
 - Warsaw (3)
 - Heart and Soul (3)
-- Chance (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -625,8 +632,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | archive | 6 |
 | analyse_morceau | 6 |
 | analyse | 5 |
+| concept_structurant | 5 |
 | economie_discographique | 4 |
 | session_radio | 4 |
+| prudence_methodologique | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
 | analyse_morceau_studio | 3 |
@@ -634,8 +643,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lieu_studio | 3 |
 | chronologie | 3 |
 | source_part | 3 |
-| concept_structurant | 3 |
-| prudence_methodologique | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
 | critique_methodologique | 2 |
@@ -647,6 +654,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | bootleg | 2 |
 | concert_archive | 2 |
 | motif_structurant | 2 |
+| synthese_usage_livre | 2 |
 | song_or_release | 2 |
 | session_domestique | 1 |
 | position_esthetique | 1 |
@@ -756,13 +764,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | genre_sexualite | 1 |
 | satire_serie | 1 |
 | politique_identitaire | 1 |
+| corpus_methode | 1 |
+| limite_critique | 1 |
 | source_primaire_mediatisee | 1 |
 | reseau_acteurs | 1 |
 | observation_scene | 1 |
 | prudence_ciblage | 1 |
 | voix_acteurs | 1 |
 | motif_discursif | 1 |
-| synthese_usage_livre | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
 | live_set_context | 1 |
@@ -772,7 +781,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 127 |
+| critique | 133 |
 | non qualifiée | 123 |
 | majeur | 18 |
 | majeure | 15 |
@@ -844,97 +853,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s13.md
-
-# Chapitre 8 — Notes source S13
-
-```yaml
-id: CH08-SOURCE-NOTES-S13
-chapitre: "Chapitre 8"
-type_unite: note_chapitre
-statut: redistribution_depuis_chapters_addenda
-sources:
-  - S13
-```
-
-## S13 — Tomeo, « Dance Dance Dance! », 2021
-
-Atomes utiles : S13-A008 ; S13-A009.
-
-Concept utile : CONCEPT-S13-004.
-
-Usage : l’Haçienda peut être traitée comme une infrastructure posthume, financée et symboliquement portée par l’après Joy Division / New Order. Le chapitre 8 peut s’en servir pour montrer que la mémoire du groupe circule aussi par lieux, clubs, récits et économies parallèles.
-
-Prudence : ne pas mélanger bootleg et club culture sans médiation. Le lien passe par infrastructure, mémoire et économie de l’héritage, non par objet pirate.
-
-### source_notes_s21_s42.md
-
-# Notes sources réinjectées — Chapitre 8
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 8"
-sources: [S21, S42]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — Médiations, critiques et conflits de réception
-
-S21 est central pour articuler *City Fun* comme média critique : humour, satire, camp, polémique, attaques locales, tensions avec Factory et critique des normes de goût.
-
-Atomes prioritaires : S21-A006 ; S21-A007 ; S21-A008 ; REL-S21-006 ; REL-S21-008.
-
-Règle d’usage : ne pas construire une lecture anti-Factory générale sans item probant. S22 sert à l’interprétation ; S21 donne la pièce.
-
-## S42 — Traces alternatives et focal places
-
-Usage secondaire. S42 ne traite pas le bootleg, mais la notion de focal places peut éclairer la production de scènes, de traces et d’archives alternatives.
-
-Atomes prioritaires : S42-A008 ; S42-A009.
-
-### source_notes_s77.md
-
-# Notes sources réinjectées — Chapitre 8
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 8"
-sources: [S77]
-statut: note_chapitre_sans_addenda
-```
-
-## S77 — Fanzines, contre-presse et conflits de réception
-
-S77 est central pour comprendre les fanzines comme contre-presse punk : alternative aux hebdomadaires musicaux, espace de définition interne, critique de l’industrie musicale, de la médiatisation, du star-system, des normes de genre et des formes politiques dominantes.
-
-Atomes prioritaires : S77-A001 ; S77-A004 ; S77-A005 ; S77-A007 ; S77-A008 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A013 ; S77-A014 ; S77-A015 ; S77-A016.
-
-Règle d’usage : ne pas utiliser S77 comme corpus primaire. Si un item City Fun est mobilisé, partir de S21 puis interpréter avec S22 et S77.
-
-### source_notes_s78.md
-
-# Notes sources réinjectées — Chapitre 8
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 8"
-sources: [S78]
-statut: note_chapitre_sans_addenda
-```
-
-## S78 — Critique musicale et entrepreneurs d’interprétation
-
-S78 peut être mobilisé pour traiter le rôle de la critique musicale dans la fabrication du sens. Tony Wilson, Paul Morley et Jon Savage ne se contentent pas de décrire Joy Division : ils contribuent à rendre audible et lisible la mancunianité du groupe.
-
-Atomes prioritaires : S78-A005 ; S78-A010 ; S78-A011.
-
-Règle d’usage : distinguer réception critique, promotion, interprétation et intention du groupe. Ne pas transformer les récits critiques en faits bruts.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

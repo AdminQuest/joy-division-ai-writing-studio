@@ -1401,6 +1401,107 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-guide_a_come",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-guide_a_come",
+      "type_unite": "motif",
+      "source_id": "S55",
+      "nom": "guide to come",
+      "definition": "Motif issu du titre du chapitre : Joy Division fonctionne comme guide critique à venir, repère symbolique pour lire des musiques ultérieures.\n",
+      "atomes": [
+        "S55-A005",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-joydivisionien_comparatif",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-joydivisionien_comparatif",
+      "type_unite": "motif",
+      "source_id": "S55",
+      "nom": "comparatif joydivisionien",
+      "definition": "Usage critique de Joy Division comme adjectif ou point de comparaison, opérant à la fois comme ressource de classement et comme risque de réduction.\n",
+      "atomes": [
+        "S55-A004",
+        "S55-A011"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-curtis_prophete_critique",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-curtis_prophete_critique",
+      "type_unite": "motif",
+      "source_id": "S55",
+      "nom": "Curtis prophète critique",
+      "definition": "Motif des recensions qui tendent à hisser Ian Curtis vers une figure sacrale, prophétique ou christique.\n",
+      "atomes": [
+        "S55-A007",
+        "S55-A008"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-ondarock_corpus_reception",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-ondarock_corpus_reception",
+      "type_unite": "motif",
+      "source_id": "S55",
+      "nom": "corpus Ondarock de réception",
+      "definition": "Corpus numérique italien, 2000-2016, permettant de mesurer l’usage critique de Joy Division comme référence, catégorie et univers symbolique.\n",
+      "atomes": [
+        "S55-A002"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-reimagination_imaginaire",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Motifs",

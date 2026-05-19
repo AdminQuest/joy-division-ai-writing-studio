@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 443 |
+| Atomes | 449 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 56 |
-| Événements chronologiques | 38 |
-| Personnes | 39 |
-| Chansons | 23 |
-| Sources mobilisées | 18 |
+| Citations | 59 |
+| Événements chronologiques | 39 |
+| Personnes | 41 |
+| Chansons | 24 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 1 | 0 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 1 | 1 |
+| S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -294,6 +295,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -328,12 +332,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
@@ -375,6 +377,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 9. Personnes et acteurs
 
+- PERS-S55-001 — Vincenzo Romania
+- PERS-S55-002 — Ian Curtis
 - PERS-S75-026 — Stephen Morris
 - PERS-S75-027 — Vini Reilly
 - PERS-001 — Ian Curtis
@@ -413,10 +417,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-027 — Rob Gretton
 - PERS-S76-028 — Bob Dickinson
 - PERS-S75-034 — Bob Krasnow
-- PERS-S75-037 — Paul Morley
 
 ## 10. Chansons rattachées
 
+- SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
@@ -539,10 +543,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Buzzcocks tour (7)
 - Digital (7)
 - John Peel (7)
+- Ian Curtis (7)
 - Rainbow Theatre (6)
 - Terry Mason (6)
 - Electric Circus (6)
-- Ian Curtis (6)
 - Peter Saville (6)
 - Russell Club (5)
 - Strawberry Studios (5)
@@ -730,8 +734,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_repetition | 2 |
 | concept_management | 2 |
 | source_part | 2 |
+| prudence_methodologique | 2 |
 | acteur_mediation | 2 |
 | analyse_morceau | 2 |
+| concept_structurant | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
 | album | 2 |
@@ -883,7 +889,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
 | session_studio_apprentissage | 1 |
-| prudence_methodologique | 1 |
 | mediation_label | 1 |
 | production_sonore | 1 |
 | album_production | 1 |
@@ -904,6 +909,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | portrait_sensible | 1 |
 | transition | 1 |
 | concept_transversal | 1 |
+| motif_structurant | 1 |
+| sacralisation | 1 |
+| synthese_usage_livre | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -914,10 +922,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 208 |
+| critique | 213 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 27 |
+| majeure | 28 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |
@@ -986,30 +994,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 - S41-A035 [faible] — Atome de logistique comique ; ne pas surcharger.
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s54.md
-
-# Notes sources réinjectées — Chapitre 6
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 6"
-sources: [S54]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S54 — Architecture sonore, *Closer* et intemporalité suspensive
-
-Usage ponctuel. S54 peut enrichir l’analyse de « Twenty Four Hours », « Heart and Soul » et « The Eternal » par la notion d’intemporalité suspensive. Cette lecture doit rester une analyse de temporalité poétique et non une téléologie de la mort.
-
-Atomes prioritaires : S54-A010 ; S54-A011.
-
-Règle d’usage : ne pas transformer *Closer* en prophétie. Les textes terminaux doivent être lus comme dispositifs de durée, d’attente et de suspension.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

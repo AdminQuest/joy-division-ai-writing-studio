@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T11:56:35",
+  "generated_at": "2026-05-19T12:28:40",
   "status": "warning",
   "summary": {
-    "records_total": 5474,
+    "records_total": 5538,
     "records_by_kind": {
       "source": 90,
       "metadata": 159,
-      "atom": 2209,
-      "unknown": 735,
-      "concept": 313,
-      "motif": 353,
-      "myth": 75,
-      "quote": 450,
-      "chronology": 397,
-      "person": 252,
-      "song": 85,
+      "atom": 2221,
+      "unknown": 756,
+      "concept": 321,
+      "motif": 357,
+      "myth": 79,
+      "quote": 457,
+      "chronology": 399,
+      "person": 257,
+      "song": 86,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23955,
+    "diagnostics_total": 24112,
     "errors": 0,
-    "warnings": 23955,
+    "warnings": 24112,
     "sources_declared_in_registre_json": 65,
     "sources_used_in_records": 50,
     "sources_exported": 50,
@@ -1145,12 +1145,16 @@
         "auteur": "Vincenzo Romania",
         "titre": "A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 74,
+        "atoms": 12,
+        "quotes": 7,
+        "chronology": 2,
         "files": [
-          "sources/romania_a_guide_to_come_universo_simbolico/source.md"
+          "registers/s55_romania_specialized_registers.md",
+          "registers/s55_romania_structuring_registers.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/source.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md"
         ]
       },
       {
@@ -118770,6 +118774,726 @@
     },
     {
       "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S55-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: corpus_methode",
+      "record_id": "S55-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S55-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S55-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: fonction_symbolique",
+      "record_id": "S55-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S55-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: sacralisation",
+      "record_id": "S55-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "record_id": "S55-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S55-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: modele_heritage",
+      "record_id": "S55-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: limite_critique",
+      "record_id": "S55-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S55-012"
+    },
+    {
+      "level": "warning",
       "file": "sources/suatoni/source.md",
       "message": "Missing required field: role_argumentatif",
       "record_id": "S70-A001"
@@ -124158,6 +124882,216 @@
     },
     {
       "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S55-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S55-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S55-2000-2016-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S55-2000-2016-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Invalid value for certainty: forte dans S55",
+      "record_id": "CHR-S55-2000-2016-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S55-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S55-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S55-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S55-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S55-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S55-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S55-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S55-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S55-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S55-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S55-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S55-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S55-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S55-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "GENRE-S55-POST_PUNK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "GENRE-S55-NEW_WAVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "GENRE-S55-DARK_WAVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "GENRE-S55-INDUSTRIAL_ROCK"
+    },
+    {
+      "level": "warning",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S50-Q001"
@@ -126261,6 +127195,18 @@
       "file": "registers/s52_rabbito_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S52-GEE-2007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S55-ROMANIA-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S55-ONDAROCK-CORPUS"
     },
     {
       "level": "warning",

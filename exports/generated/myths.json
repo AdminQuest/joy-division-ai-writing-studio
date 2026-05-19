@@ -1112,6 +1112,111 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-reference_critique_egale_influence",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-reference_critique_egale_influence",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "une référence critique équivaudrait à une influence musicale",
+      "deconstruction": "S55 impose de distinguer influence réelle, comparaison rhétorique, classement critique et légitimation esthétique. Un groupe comparé à Joy Division ne dérive pas nécessairement de Joy Division.\n",
+      "atomes": [
+        "S55-A001",
+        "S55-A004",
+        "S55-A005",
+        "S55-A011"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-ondarock_reception_mondiale",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-ondarock_reception_mondiale",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "Ondarock représenterait toute la réception mondiale",
+      "deconstruction": "Le corpus Ondarock donne un observatoire riche mais situé : webzine italienne, rock et indépendante, 2000-2016. Il ne peut pas être généralisé sans croisement.\n",
+      "atomes": [
+        "S55-A002"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-sacralisation_a_reprendre",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-sacralisation_a_reprendre",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "la sacralisation critique devrait être reprise par le manuscrit",
+      "deconstruction": "Romania permet d’analyser la sacralisation et l’idolâtrie comme objets discursifs. Le manuscrit doit les décrire et les critiquer, non les reconduire.\n",
+      "atomes": [
+        "S55-A007",
+        "S55-A008",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-joydivisionien_explique_tout",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joydivisionien_explique_tout",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "le terme joydivisionien suffirait à expliquer une musique",
+      "deconstruction": "S55 montre l’efficacité classificatoire du terme, mais aussi ses limites. L’étiquette joydivisionienne ne remplace jamais l’analyse musicale, sociale ou historique du groupe comparé.\n",
+      "atomes": [
+        "S55-A011",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-reimagined_archive_origine",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Mythes à déconstruire",

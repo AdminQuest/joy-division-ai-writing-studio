@@ -19556,6 +19556,126 @@ warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S4
 warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Invalid value for type_unite: limite_source,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Invalid value for type_unite: corpus_methode,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A004,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A005,Invalid value for type_unite: fonction_symbolique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A006,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A007,Invalid value for type_unite: sacralisation,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A008,Invalid value for type_unite: motif_discursif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A009,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A010,Invalid value for type_unite: modele_heritage,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A011,Invalid value for type_unite: limite_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A012,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -20454,6 +20574,41 @@ warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SO
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,SONG-S52-ALL_THE_YOUNG_DUDES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,S55-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,CHR-S55-2000-2016-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,CHR-S55-2000-2016-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s55_romania_specialized_registers.md,CHR-S55-2000-2016-001,Invalid value for certainty: forte dans S55,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,CHR-S55-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,CHR-S55-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s55_romania_specialized_registers.md,CHR-S55-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,PERS-S55-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,PERS-S55-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,PERS-S55-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,PERS-S55-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,PERS-S55-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,ORG-S55-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,ORG-S55-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,ORG-S55-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,SONG-S55-JOY_DIVISION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,SONG-S55-JOY_DIVISION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s55_romania_specialized_registers.md,SONG-S55-JOY_DIVISION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-POST_PUNK,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-NEW_WAVE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-DARK_WAVE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-INDUSTRIAL_ROCK,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s50_bertetti_morreale_specialized_registers.md,S50-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -20805,6 +20960,8 @@ warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S5
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CURTIS-1995,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-SAVAGE-2019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-GEE-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_structuring_registers.md,REF-S55-ROMANIA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s55_romania_structuring_registers.md,REF-S55-ONDAROCK-CORPUS,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

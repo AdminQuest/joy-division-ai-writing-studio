@@ -2474,6 +2474,234 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-recension_classificatoire",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-recension_classificatoire",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "recension musicale comme dispositif classificatoire",
+      "definition": "Genre critique qui classe un artiste ou une œuvre, évalue techniquement et esthétiquement le produit, puis produit une lyrisation du discours critique.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A003"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-joy_division_categorie_critique",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-joy_division_categorie_critique",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "Joy Division comme catégorie critique",
+      "definition": "Fonction par laquelle Joy Division devient un opérateur de classement, comparaison, légitimation et orientation dans les recensions musicales contemporaines, au-delà de l’influence musicale directe.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A004",
+        "S55-A005",
+        "S55-A009",
+        "S55-A011"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-guide_symbolique_joy_division",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-guide_symbolique_joy_division",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "guide symbolique Joy Division",
+      "definition": "Usage du nom Joy Division comme repère permettant de situer des scènes, groupes et esthétiques hétérogènes dans un espace critique partagé.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A005"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-existentialisation_critique",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-existentialisation_critique",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "existentialisation critique",
+      "definition": "Opération par laquelle la critique associe Joy Division à un vocabulaire de malaise, solitude, obscurité, aliénation, intensité et gravité existentielle.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-sacralisation_critique",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-sacralisation_critique",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "sacralisation critique",
+      "definition": "Opération discursive par laquelle Joy Division, et plus encore Ian Curtis, sont traités par les recensions comme objets d’idolâtrie, de rituel, de quasi-religion ou de totemisation.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A007",
+        "S55-A008"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-epistemologie_joy_division",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-epistemologie_joy_division",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "épistémologie Joy Division du post-punk",
+      "definition": "Fonction de connaissance critique par laquelle Joy Division sert à comprendre, nommer et stabiliser une esthétique new-wave et post-punk depuis les années 1980.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A009"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-gemmation_greffe_heritage",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-gemmation_greffe_heritage",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "gemmation et greffe de l’héritage Joy Division",
+      "definition": "Modèle distinguant deux usages critiques de l’héritage : une gemmation interne au post-punk et une greffe de traits joydivisioniens sur des genres ou scènes éloignés.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A010"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-reduction_joydivisionienne",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-reduction_joydivisionienne",
+      "type_unite": "concept",
+      "source_id": "S55",
+      "nom": "réduction joydivisionienne",
+      "definition": "Effet de simplification par lequel la comparaison à Joy Division devient un cliché critique disponible, au risque de masquer la singularité des artistes comparés.\n",
+      "sources": [
+        "S55"
+      ],
+      "atomes": [
+        "S55-A011",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-imaginaire_collectif_joy_division",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Concepts",

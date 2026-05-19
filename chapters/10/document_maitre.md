@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 253 |
+| Atomes | 256 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 41 |
-| Événements chronologiques | 22 |
+| Citations | 42 |
+| Événements chronologiques | 23 |
 | Personnes | 43 |
 | Chansons | 11 |
-| Sources mobilisées | 26 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -52,6 +52,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 6 | 4 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 5 | 4 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 2 |
+| S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -306,6 +307,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -338,13 +340,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
+- CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
@@ -516,12 +518,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Peter Saville (6)
 - Natalie (5)
 - silence (5)
+- prudence (5)
 - Debbie (5)
 - Candy (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
-- prudence (4)
 - YouTube (4)
 - Burroughs (4)
 - van (3)
@@ -681,6 +683,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | contexte_mediatique | 2 |
 | chronologie | 2 |
 | lecture_reception | 2 |
+| synthese_usage_livre | 2 |
 | source_part | 2 |
 | analyse_morceau | 2 |
 | song | 2 |
@@ -748,7 +751,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | citation_repere | 1 |
 | contexte_urbain | 1 |
 | ecoute_technologique | 1 |
-| synthese_usage_livre | 1 |
 | synthese | 1 |
 | reception_critique | 1 |
 | appreciation_critique | 1 |
@@ -779,6 +781,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | image_groupe | 1 |
 | culture_intellectuelle | 1 |
 | fait_biographique | 1 |
+| corpus_methode | 1 |
+| fonction_symbolique | 1 |
 | patrimonialisation | 1 |
 | mythe | 1 |
 | album | 1 |
@@ -792,7 +796,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 130 |
+| critique | 133 |
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 17 |
@@ -861,98 +865,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S45-A141 [moyen] — Risque de réduire la scène à une crise de jalousie ; elle prolonge l’exclusion pratique.
 - S45-A142 [moyen] — Risque d’opposer simplement Deborah et Lindsay ; les deux apparaissent comme femmes chargées du care.
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s21_s42_s52_s53_s54.md
-
-# Notes sources réinjectées — Chapitre 10
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 10"
-sources: [S21, S42, S52, S53, S54]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — Circulation numérique et archive
-
-S21 montre le passage d’un fanzine pauvre et éphémère à une archive numérique consultable, légendée et patrimonialisée. Cette mutation permet de penser la médiation numérique du post-punk.
-
-Atomes prioritaires : S21-A009 ; REL-S21-009.
-
-Règle d’usage : distinguer l’objet historique *City Fun* et sa remédiation par MDMArchive.
-
-## S42 — Circulation contemporaine des signes post-punk
-
-S42 nourrit l’analyse de la circulation contemporaine des signes post-punk : séries, mode, cinéma indépendant, nostalgie et réemploi marchand.
-
-Atomes prioritaires : S42-A005 ; S42-A013.
-
-## S52 — Control comme médiation audiovisuelle
-
-S52 est central pour analyser la médiation audiovisuelle contemporaine. *Control* n’est pas seulement un film : c’est une machine de stabilisation posthume, capable d’humaniser Curtis tout en le fixant dans une image séduisante, simplifiée et largement reçue.
-
-Atomes prioritaires : S52-A001 ; S52-A002 ; S52-A003 ; S52-A004 ; S52-A005 ; S52-A008.
-
-Usage recommandé : mettre S52 en tension avec S50 sur la réimagination audiovisuelle et S51 sur les images pauvres. Le biopic forme une image haute définition et autorisée ; les archives lo-fi et les remédiations numériques montrent un autre régime de survivance.
-
-## S53 — Poppizzazione et survivance médiatique
-
-S53 est central pour analyser la circulation contemporaine du mythe. La notion de poppizzazione permet de dépasser l’opposition simpliste entre authenticité originelle et récupération marchande. Le signe circule, se banalise parfois, mais acquiert aussi des valeurs mutantes.
-
-Atomes prioritaires : S53-A007 ; S53-A008 ; S53-A010 ; S53-A016.
-
-Règle d’usage : articuler S53 avec S50 sur *Unknown Pleasures Reimagined*, S51 sur les images pauvres et S52 sur *Control*.
-
-## S54 — Burroughs, Ballard et régimes contemporains de médiatisation
-
-S54 peut servir à penser Burroughs et Ballard comme matrices médiatiques : langage-virus, contrôle, technologie, violence spectaculaire et fragmentation du réel. Cet usage est utile pour faire le lien entre les années 1970 et les régimes contemporains de circulation médiatique.
-
-Atomes prioritaires : S54-A002 ; S54-A012 ; S54-A013.
-
-Règle d’usage : ne pas confondre circulation médiatique contemporaine et influence littéraire originelle. S54 ouvre une généalogie critique, non une preuve de continuité directe.
-
-### source_notes_s77.md
-
-# Notes sources réinjectées — Chapitre 10
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 10"
-sources: [S77]
-statut: note_chapitre_sans_addenda
-```
-
-## S77 — Fanzines, remédiation et critique des médias
-
-S77 peut être utilisé pour penser la remédiation contemporaine des fanzines et de leurs images : des objets pauvres, éphémères et locaux deviennent archives, corpus, objets patrimoniaux et matériaux numériques. L’article est aussi utile pour relier les fanzines à la critique des médias de masse.
-
-Atomes prioritaires : S77-A008 ; S77-A013.
-
-Règle d’usage : distinguer le fanzine historique, la critique médiatique qu’il porte, et la patrimonialisation numérique actuelle.
-
-### source_notes_s78.md
-
-# Notes sources réinjectées — Chapitre 10
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 10"
-sources: [S78]
-statut: note_chapitre_sans_addenda
-```
-
-## S78 — Remédiations, technologies d’écoute et ville créative
-
-S78 est central pour analyser les remédiations du mythe Manchester / Joy Division : *24 Hour Party People*, *Control*, le documentaire de Grant Gee, l’écoute mobile, les expositions et les circuits patrimoniaux.
-
-Atomes prioritaires : S78-A003 ; S78-A004 ; S78-A005 ; S78-A013 ; S78-A015 ; S78-A016 ; S78-A018.
-
-Règle d’usage : distinguer le disque de 1979, les remédiations audiovisuelles ultérieures et les formes contemporaines d’écoute mobile et patrimoniale.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T11:56:49",
+  "generated_at": "2026-05-19T12:28:54",
   "summary": {
-    "records_total": 5474,
+    "records_total": 5538,
     "records_by_kind": {
       "source": 90,
       "metadata": 159,
-      "atom": 2209,
-      "unknown": 735,
-      "concept": 313,
-      "motif": 353,
-      "myth": 75,
-      "quote": 450,
-      "chronology": 397,
-      "person": 252,
-      "song": 85,
+      "atom": 2221,
+      "unknown": 756,
+      "concept": 321,
+      "motif": 357,
+      "myth": 79,
+      "quote": 457,
+      "chronology": 399,
+      "person": 257,
+      "song": 86,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23955,
+    "diagnostics_total": 24112,
     "errors": 0,
-    "warnings": 23955,
+    "warnings": 24112,
     "sources_declared_in_registre_json": 65,
     "sources_used_in_records": 50,
     "sources_exported": 50,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2209,
-    "chronology": 397,
-    "concept": 313,
+    "atom": 2221,
+    "chronology": 399,
+    "concept": 321,
     "metadata": 159,
-    "motif": 353,
-    "myth": 75,
-    "person": 252,
-    "quote": 450,
+    "motif": 357,
+    "myth": 79,
+    "person": 257,
+    "quote": 457,
     "quote_batch": 1,
     "rules": 1,
-    "song": 85,
+    "song": 86,
     "source": 90,
     "template": 354,
-    "unknown": 735
+    "unknown": 756
   },
   "records_by_source": {
     "S02": {
@@ -358,8 +358,17 @@
       "song": 8
     },
     "S55": {
+      "atom": 12,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 21,
+      "quote": 7,
+      "chronology": 2,
+      "person": 5,
+      "song": 1,
+      "concept": 8,
+      "motif": 4,
+      "myth": 4
     },
     "S68": {
       "quote": 3,
@@ -442,19 +451,19 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 414,
-    "Chapitre 10": 413,
+    "Chapitre 10": 421,
     "Chapitre 11": 353,
-    "Chapitre 12": 586,
+    "Chapitre 12": 592,
     "Chapitre 13": 254,
-    "Chapitre 14": 1544,
+    "Chapitre 14": 1585,
     "Chapitre 2": 543,
     "Chapitre 3": 605,
     "Chapitre 4": 472,
     "Chapitre 5": 517,
-    "Chapitre 6": 609,
+    "Chapitre 6": 626,
     "Chapitre 7": 264,
-    "Chapitre 8": 503,
-    "Chapitre 9": 314,
+    "Chapitre 8": 522,
+    "Chapitre 9": 343,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -583,11 +592,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2053,
-    "missing_required_field": 7229,
+    "invalid_controlled_value": 2067,
+    "missing_required_field": 7315,
     "schema_warning": 494,
-    "unknown_yaml_block": 735,
-    "v2_migration_debt": 13141
+    "unknown_yaml_block": 756,
+    "v2_migration_debt": 13177
   },
   "top_files_by_issue_count": [
     [
@@ -4028,6 +4037,102 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
       "record_id": "REL-S21-001",
       "message": "Unable to infer documentary kind",
@@ -4214,6 +4319,62 @@
       "category": "unknown_yaml_block",
       "file": "registers/s52_rabbito_specialized_registers.md",
       "record_id": "ORG-S52-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-POST_PUNK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-NEW_WAVE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-DARK_WAVE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-INDUSTRIAL_ROCK",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4742,6 +4903,22 @@
       "category": "unknown_yaml_block",
       "file": "registers/s52_rabbito_structuring_registers.md",
       "record_id": "REF-S52-GEE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "record_id": "REF-S55-ROMANIA-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "record_id": "REF-S55-ONDAROCK-CORPUS",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -6595,10 +6772,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2209,
+    "atoms_total": 2221,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2136,
-    "v2_missing_field_warnings": 13141
+    "atoms_v2_incomplete": 2148,
+    "v2_missing_field_warnings": 13177
   },
   "source_registry": {
     "declared_but_unused": [
@@ -7716,12 +7893,16 @@
         "auteur": "Vincenzo Romania",
         "titre": "A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 74,
+        "atoms": 12,
+        "quotes": 7,
+        "chronology": 2,
         "files": [
-          "sources/romania_a_guide_to_come_universo_simbolico/source.md"
+          "registers/s55_romania_specialized_registers.md",
+          "registers/s55_romania_structuring_registers.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/source.md",
+          "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md"
         ]
       },
       {
@@ -164455,6 +164636,966 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A002",
+      "message": "Invalid value for type_unite: corpus_methode",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A004",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A005",
+      "message": "Invalid value for type_unite: fonction_symbolique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A006",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A007",
+      "message": "Invalid value for type_unite: sacralisation",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A008",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A009",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A010",
+      "message": "Invalid value for type_unite: modele_heritage",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A011",
+      "message": "Invalid value for type_unite: limite_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
+      "record_id": "S55-A012",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
+      "record_id": "REL-S55-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "v2_migration_debt",
       "file": "sources/suatoni/source.md",
       "record_id": "S70-A001",
@@ -171640,6 +172781,286 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "S55-Q007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2000-2016-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2000-2016-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2000-2016-001",
+      "message": "Invalid value for certainty: forte dans S55",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2021-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2021-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "CHR-S55-2021-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "PERS-S55-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "PERS-S55-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "PERS-S55-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "PERS-S55-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "PERS-S55-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "ORG-S55-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "SONG-S55-JOY_DIVISION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "SONG-S55-JOY_DIVISION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "SONG-S55-JOY_DIVISION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-POST_PUNK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-NEW_WAVE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-DARK_WAVE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_specialized_registers.md",
+      "record_id": "GENRE-S55-INDUSTRIAL_ROCK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "record_id": "S50-Q001",
       "message": "Missing required field: citation_originale",
@@ -174442,6 +175863,22 @@
       "category": "unknown_yaml_block",
       "file": "registers/s52_rabbito_structuring_registers.md",
       "record_id": "REF-S52-GEE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "record_id": "REF-S55-ROMANIA-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s55_romania_structuring_registers.md",
+      "record_id": "REF-S55-ONDAROCK-CORPUS",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

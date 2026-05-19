@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:56:50"
+generated_at: "2026-05-19T12:28:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1041 |
+| Atomes | 1053 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 146 |
-| Événements chronologiques | 88 |
-| Personnes | 125 |
-| Chansons | 25 |
-| Sources mobilisées | 44 |
+| Citations | 152 |
+| Événements chronologiques | 90 |
+| Personnes | 130 |
+| Chansons | 26 |
+| Sources mobilisées | 45 |
 
 ## 4. Sources mobilisées
 
@@ -68,6 +68,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 10 | 6 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 14 | 13 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 3 |
+| S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -345,18 +346,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q006** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q004** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q005** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q010** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -364,6 +365,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
+- CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
+- CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
@@ -398,8 +401,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
 - CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
-- CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
-- CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 
 ## 9. Personnes et acteurs
 
@@ -413,6 +414,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S52-009 — Jon Savage
 - PERS-S52-010 — Grant Gee
 - PERS-S52-011 — Tony Wilson
+- PERS-S55-001 — Vincenzo Romania
+- PERS-S55-002 — Ian Curtis
+- PERS-S55-003 — Peter Hook
+- PERS-S55-004 — Bernard Sumner
+- PERS-S55-005 — Stephen Morris
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -438,17 +444,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S77-010 — Lucy Toothpaste / Lucy Whitman
 - PERS-S21-001 — Liz Naylor
 - PERS-S21-002 — Cath Carroll
-- PERS-S21-006 — Tony Wilson
-- PERS-S21-007 — Paul Morley
-- PERS-S78-001 — Leonard Nevarez
-- PERS-S78-003 — Paul Morley
-- PERS-S78-004 — Jon Savage
 
 ## 10. Chansons rattachées
 
 - SONG-S51-DIGITAL — Digital
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-ATMOSPHERE — Atmosphere
+- SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S50-SHADOWPLAY — Shadowplay
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-INSIGHT — Insight
@@ -563,12 +565,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Annik Honoré (18)
 - Rob Gretton (17)
 - Factory (13)
+- prudence (11)
+- Ian Curtis (10)
 - Peter Saville (10)
 - Unknown Pleasures (10)
 - Buzzcocks tour (9)
-- prudence (9)
 - Control (9)
-- Ian Curtis (9)
 - Transmission (8)
 - John Peel (8)
 - Kevin Cummins (8)
@@ -691,9 +693,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 35 |
 | reception | 30 |
+| concept_structurant | 29 |
+| prudence_methodologique | 27 |
 | non qualifié | 27 |
-| prudence_methodologique | 26 |
-| concept_structurant | 26 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -714,11 +716,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
 | source_part | 6 |
+| motif_structurant | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
-| motif_structurant | 5 |
 | lecture_chanson | 5 |
 | biographie | 5 |
 | mythe | 5 |
@@ -729,6 +731,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_reception | 4 |
 | limite_interpretative | 4 |
 | management | 4 |
+| synthese_usage_livre | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
 | television | 4 |
@@ -741,6 +744,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | index_chanson | 4 |
 | session_studio | 4 |
 | concert_europeen | 4 |
+| motif_discursif | 4 |
 | reception_presse | 3 |
 | concept_critique | 3 |
 | acteur_mediation | 3 |
@@ -748,7 +752,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
 | mythe_prudence | 3 |
-| synthese_usage_livre | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
 | transition_posthume | 3 |
@@ -770,7 +773,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | decision_strategique | 3 |
 | image_symbolique | 3 |
 | conclusion_historiographique | 3 |
-| motif_discursif | 3 |
 | culture_materielle | 3 |
 | interpretation | 3 |
 | song_session | 3 |
@@ -1199,6 +1201,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | portrait_fonctionnel | 1 |
 | contexte_scene | 1 |
 | concept_transversal | 1 |
+| corpus_methode | 1 |
+| fonction_symbolique | 1 |
+| sacralisation | 1 |
+| modele_heritage | 1 |
+| limite_critique | 1 |
 | prudence_ciblage | 1 |
 | voix_acteurs | 1 |
 | patrimonialisation | 1 |
@@ -1218,8 +1225,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 342 |
-| majeure | 94 |
+| critique | 351 |
+| majeure | 97 |
 | majeur | 28 |
 | utile | 14 |
 | structurante | 2 |
@@ -1295,151 +1302,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
 - S41-A211 [moyen] — Ne pas confondre refus de promotion et absence de deuil ; le retrait est une forme de survie.
 
-## 15. Notes de sources réinjectées
-
-Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
-
-### source_notes_s13_s39_s40.md
-
-# Chapitre 14 — Notes sources S13 / S39 / S40
-
-```yaml
-id: CH14-SOURCE-NOTES-S13-S39-S40
-chapitre: "Chapitre 14"
-type_unite: note_chapitre
-statut: redistribution_depuis_chapters_addenda
-sources:
-  - S13
-  - S39
-  - S40
-```
-
-## S13 — Tomeo, « Dance Dance Dance! », 2021
-
-Atomes utiles : S13-A001 ; S13-A002 ; S13-A003 ; S13-A008 ; S13-A009 ; S13-A010.
-
-Concepts utiles : CONCEPT-S13-001 ; CONCEPT-S13-004 ; CONCEPT-S13-005.
-
-Mythes utiles : MYTH-S13-001 ; MYTH-S13-003.
-
-Usage : le chapitre 14 est le lieu principal pour exploiter la relecture Joy Division / rave era. S13 permet d’analyser l’éternel retour non comme simple citation visuelle, mais comme transformation du groupe en matrice de communautés sonores successives.
-
-Prudence : la rave n’est pas la rédemption de Joy Division. Elle fonctionne comme chambre d’écho, utopie provisoire et déplacement corporel d’une mélancolie post-punk.
-
-## S39 — Bauman, *Liquid Modernity*, 2000
-
-Atomes utiles : S39-A001 ; S39-A002 ; S39-A004 ; S39-A005 ; S39-A006 ; S39-A007.
-
-Concepts utiles : CONCEPT-S39-001 ; CONCEPT-S39-002 ; CONCEPT-S39-004.
-
-Motifs utiles : MOTIF-S39-001 ; MOTIF-S39-002 ; MOTIF-S39-003.
-
-Mythes utiles : MYTHE-S39-001 ; MYTHE-S39-002 ; MYTHE-S39-003 ; MYTHE-S39-004.
-
-Usage : S39 soutient la notion de patrimonialisation liquide. Joy Division circule par fragments, signes, objets, pochettes, playlists, images et usages numériques. Cette circulation renforce la présence du groupe tout en exposant son histoire à la simplification.
-
-Prudence : ne pas confondre patrimonialisation, influence documentée, marchandise et fétiche graphique. Toute réutilisation d’un signe Joy Division ne constitue pas nécessairement une réception consciente du groupe.
-
-## S40 — Cacciatore, « ...waiting for something to happen... », 2021
-
-Atomes utiles : S40-A001 ; S40-A002 ; S40-A004 ; S40-A006 ; S40-A007 ; S40-A008.
-
-Concepts utiles : CONCEPT-S40-001 ; CONCEPT-S40-002 ; CONCEPT-S40-004.
-
-Motifs utiles : MOTIF-S40-001 ; MOTIF-S40-004.
-
-Mythes utiles : MYTHE-S40-001 ; MYTHE-S40-002 ; MYTHE-S40-003 ; MYTHE-S40-004.
-
-Usage : S40 soutient une lecture de Joy Division comme survivance spectrale. Le groupe revient par images, sons, objets, citations, plateformes et recirculations. Le présent n’absorbe pas seulement le passé ; il le réactive sous forme de trace.
-
-Prudence : ne pas confondre revenance spectrale et influence documentée. Ne pas transformer la patrimonialisation en preuve d’une fidélité au sens originel du groupe.
-
-### source_notes_s21_s42_s52_s53_s54.md
-
-# Notes sources réinjectées — Chapitre 14
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 14"
-sources: [S21, S42, S52, S53, S54]
-statut: reinjecte_depuis_anciens_addenda
-```
-
-## S21 — Patrimonialisation numérique de City Fun
-
-S21 est utile pour la patrimonialisation. L’exposition donne un cas net : un média local, satirique et pauvre devient pièce de mémoire culturelle mancunienne.
-
-Atomes prioritaires : S21-A001 ; S21-A003 ; S21-A005 ; S21-A009 ; S21-A010.
-
-Règle d’usage : analyser la transformation du fanzine en archive, sans neutraliser sa conflictualité originelle.
-
-## S42 — Réification et circulation des marges
-
-S42 fournit une sortie théorique : le post-punk circule du bord vers le centre, puis se réifie sans perdre totalement sa force d’étrangeté.
-
-Atomes prioritaires : S42-A005 ; S42-A013 ; REL-S42-005 ; REL-S42-010.
-
-## S52 — Control, mythe et simplification biographique
-
-S52 est très utile pour la mythification. *Control* contribue à fixer une image posthume de Curtis : belle, sobre, noire et blanche, légitime, mais partielle. Le chapitre 14 doit conserver cette ambivalence : le film prolonge le mythe, mais il simplifie la complexité de Curtis.
-
-Atomes prioritaires : S52-A002 ; S52-A004 ; S52-A005 ; S52-A015 ; S52-A016 ; S52-A019 ; REL-S52-014.
-
-## S53 — Fantôme Joy Division et survivance dark
-
-S53 est central. Le fantôme Joy Division condense circulation médiatique, mémoire viscérale, esthétique dark, mythe contemporain, nostalgie pop et affectologie sociale. Le chapitre final peut utiliser S53 pour expliquer pourquoi Joy Division reste actuel sans le réduire à un simple fétiche visuel.
-
-Atomes prioritaires : S53-A005 ; S53-A006 ; S53-A007 ; S53-A008 ; S53-A011 ; S53-A013 ; S53-A016 ; REL-S53-015.
-
-Règle d’usage : distinguer la puissance du mythe et la répétition du mythe. S53 analyse la survivance ; elle ne dispense pas de déconstruire les simplifications contemporaines.
-
-## S54 — Interzone, Atrocity Exhibition et canonisation savante
-
-Usage secondaire. S54 peut aider à expliquer pourquoi certains titres — « Interzone », « Atrocity Exhibition », « Digital » — deviennent des marqueurs de l’aura savante et sombre de Curtis. Cette canonisation doit rester analysée, non répétée.
-
-Atomes prioritaires : S54-A002 ; S54-A006 ; S54-A015 ; REL-S54-015.
-
-Règle d’usage : ne pas faire de Burroughs et Ballard un décor de prestige. Le chapitre 14 doit montrer comment ces références contribuent au mythe, mais aussi comment elles peuvent être simplifiées par la réception.
-
-### source_notes_s77.md
-
-# Notes sources réinjectées — Chapitre 14
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 14"
-sources: [S77]
-statut: note_chapitre_sans_addenda
-```
-
-## S77 — Fanzines, patrimonialisation et contre-publics
-
-S77 est utile pour traiter la transformation des fanzines punk en sources historiques et objets patrimoniaux. Worley montre que ces objets pauvres, parfois naïfs ou répétitifs, constituent aussi des produits d’agency, des moyens de participation et des plateformes d’expression culturelle et politique.
-
-Atomes prioritaires : S77-A001 ; S77-A007 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A014 ; S77-A015 ; S77-A016.
-
-Règle d’usage : articuler S77 avec S21 et S22. S77 donne le cadre national ; S21 fournit les traces archivistiques ; S22 fournit l’interprétation spécialisée de City Fun.
-
-### source_notes_s78.md
-
-# Notes sources réinjectées — Chapitre 14
-
-```yaml
-type_unite: source_notes_chapter
-chapitre: "Chapitre 14"
-sources: [S78]
-statut: note_chapitre_sans_addenda
-```
-
-## S78 — Mythe Manchester / Joy Division, réification et éternel retour
-
-S78 est central pour le chapitre 14. Il permet de traiter le mythe Manchester / Joy Division comme construction sociale et patrimoniale : critiques, images, films, écoute mobile, ville créative et régénération transforment le groupe en ressource mémorielle et urbaine.
-
-Atomes prioritaires : S78-A001 ; S78-A003 ; S78-A004 ; S78-A005 ; S78-A010 ; S78-A011 ; S78-A012 ; S78-A014 ; S78-A015 ; S78-A016 ; S78-A017 ; S78-A018 ; S78-A019 ; S78-A020.
-
-Règle d’usage : conserver l’ambivalence. Le mythe augmente la puissance d’écoute de Joy Division, mais il peut aussi réifier Manchester en objet culturel consommable.
-
-## 16. Lacunes et prochaines vérifications
+## 15. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.
