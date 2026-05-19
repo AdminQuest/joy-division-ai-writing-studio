@@ -7794,6 +7794,171 @@ warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s5
 warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md,REL-S51-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A004,Invalid value for type_unite: geographie_sociale,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A005,Invalid value for type_unite: matrice_politique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A006,Invalid value for type_unite: contexte_socio_politique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A007,Invalid value for type_unite: infrastructure_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A008,Invalid value for type_unite: organisation_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A009,Invalid value for type_unite: concept_socio_culturel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A010,Invalid value for type_unite: reference_situationniste,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A011,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A012,Invalid value for type_unite: production_sonore,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A013,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A014,Invalid value for type_unite: analyse_album,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A015,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/allegri_living_in_the_ice_age/relations_s31.md,REL-S31-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: titre,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md,S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2,Missing required field: concepts,Compléter le champ obligatoire.
@@ -20902,6 +21067,10 @@ warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S7
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-SAVAGE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BULL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BOTTA-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_structuring_registers.md,REF-S31-ALLEGRI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_structuring_registers.md,REF-S31-BIFO-AFTER-FUTURE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_structuring_registers.md,REF-S31-MARCUS-LIPSTICK-TRACES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_structuring_registers.md,REF-S31-DERRIDA-HANTOLOGIE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -21497,6 +21666,57 @@ warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SO
 warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-ATMOSPHERE,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-NO_CITY_FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-CONTROL,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,S31-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1976-07-20-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1976-07-20-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s31_allegri_specialized_registers.md,CHR-S31-1976-07-20-001,Invalid value for certainty: a_croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1978-05-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1978-05-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s31_allegri_specialized_registers.md,CHR-S31-1978-05-001,Invalid value for certainty: a_croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1979-04-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1979-04-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s31_allegri_specialized_registers.md,CHR-S31-1979-04-001,Invalid value for certainty: a_croiser_discographie,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1982-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-1982-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s31_allegri_specialized_registers.md,CHR-S31-1982-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,CHR-S31-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s31_allegri_specialized_registers.md,CHR-S31-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,PERS-S31-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,ORG-S31-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,ORG-S31-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,LIEU-S31-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,LIEU-S31-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,LIEU-S31-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,LIEU-S31-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s31_allegri_specialized_registers.md,ALBUM-S31-UNKNOWN-PLEASURES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-LIVING-IN-THE-ICE-AGE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-LIVING-IN-THE-ICE-AGE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-LIVING-IN-THE-ICE-AGE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-NEW-DAWN-FADES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-NEW-DAWN-FADES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-NEW-DAWN-FADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-I-REMEMBER-NOTHING,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-I-REMEMBER-NOTHING,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s31_allegri_specialized_registers.md,SONG-S31-I-REMEMBER-NOTHING,Missing required field: chapters,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.

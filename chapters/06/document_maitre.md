@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:42:24"
+generated_at: "2026-05-19T15:01:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 455 |
+| Atomes | 460 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 61 |
-| Événements chronologiques | 42 |
-| Personnes | 41 |
-| Chansons | 26 |
-| Sources mobilisées | 21 |
+| Citations | 63 |
+| Événements chronologiques | 43 |
+| Personnes | 45 |
+| Chansons | 29 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
+| S31 | S31 — Allegri, Living in the Ice Age, 2021 | 5 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 9 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
@@ -58,6 +59,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 5. Atomes critiques ou majeurs
 
+- **S31-A003** — S31-A003 — Joy Division comme impresa comune  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_secondaire`.
+- **S31-A008** — S31-A008 — Factory comme dispositif collectif  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `organisation_culturelle` ; importance : `critique` ; preuve : `synthese_secondaire`.
+- **S31-A012** — S31-A012 — Martin Hannett : isolation du son  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `production_sonore` ; importance : `critique` ; preuve : `analyse_production_secondaire`.
+- **S31-A014** — S31-A014 — Unknown Pleasures comme architecture isolée du son  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `analyse_secondaire`.
 - **S34-A008** — S34-A008 — Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
@@ -120,14 +129,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A052** — S41-A052 — Celestion qui fart : basse haute, Ian arrangeur et naissance du son Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_sonore` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
-- **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
-- **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
-- **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
 
 ## 6. Autres atomes utiles
 
@@ -137,6 +138,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S31-A013** — S31-A013 — Ice Age comme climat sonore et historique  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `motif_interpretatif`.
 - **S35-A014** — S35-A014 — Rob Gretton : management, organisation et changement d’échelle  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `acteur_mediation` ; importance : `majeure` ; preuve : `forte`.
 - **S35-A015** — S35-A015 — Tony Wilson : télévision, Factory et pouvoir de légitimation  
@@ -227,12 +230,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct ; gig absent des listings selon Hook`.
 - **S41-A055** — S41-A055 — Swinging Apple : fin 1977, bière, danse et attente d’un événement majeur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
+- **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
 - **S41-A059** — S41-A059 — Squat, Time’s Up et Windscale : scène pauvre comme réseau récurrent  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_scene` ; importance : `majeur` ; preuve : `chronologie + témoignage direct`.
 - **S41-A060** — S41-A060 — Stocks Walkden : talent contest, Deep Purple et inadéquation punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_anecdotique` ; importance : `majeur` ; preuve : `témoignage rétrospectif inséré dans la timeline`.
+- **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
 - **S41-A063** — S41-A063 — It Won’t Sell et Rainy City : Gretton pré-manager comme producteur d’infrastructure fragile  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
+- **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
 - **S41-A065** — S41-A065 — Deux mois sans concert : Hook manager et humiliation du booking  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
@@ -281,16 +292,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A098** — S41-A098 — Bradford Royal Standard : public National Front et survie par mimétisme ambigu  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_politique_live` ; importance : `critique` ; preuve : `témoignage Hook inséré dans la timeline`.
-- **S41-A100** — S41-A100 — Rock Against Racism et Cabaret Voltaire : correction politique et montée Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_politique_factory` ; importance : `critique` ; preuve : `chronologie éditoriale + citation Hook`.
-- **S41-A101** — S41-A101 — Brunel et Bristol dans la timeline : la violence de tournée vérifiée par témoins externes  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `citations témoins externes rapportées par Hook`.
-- **S41-A102** — S41-A102 — Check Inn / New Electric Circus / Salford Tech : ancrage territorial et réception mancunienne montante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
-- **S41-A103** — S41-A103 — Hope & Anchor dans la timeline : anti-consécration londonienne confirmée par review  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
-- **S41-A104** — S41-A104 — Logistique du van : Hook porteur, roadies non payés et division matérielle du travail  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -302,6 +303,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S31-Q004** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q005** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S56-Q002** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -332,13 +335,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
 - CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
+- CHR-S31-1979-04-001 — Sessions d’Unknown Pleasures avec Martin Hannett ; Allegri insiste sur l’isolation du son, le froid et la spatialisation.
 - CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
 - CHR-S56-1979-04-001 — Enregistrement d’Unknown Pleasures aux Strawberry Studios, seuil temporel du chapitre.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
@@ -376,12 +378,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
-- CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 
 ## 9. Personnes et acteurs
 
 - PERS-S55-001 — Vincenzo Romania
 - PERS-S55-002 — Ian Curtis
+- PERS-S31-004 — Martin Hannett
+- PERS-S31-005 — Tony Wilson
+- PERS-S31-007 — Rob Gretton
+- PERS-S31-008 — Peter Saville
 - PERS-S75-026 — Stephen Morris
 - PERS-S75-027 — Vini Reilly
 - PERS-001 — Ian Curtis
@@ -416,10 +421,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-058 — Martin Rushent
 - PERS-S76-060 — Paul Hanley
 - PERS-S76-073 — Tony Wilson
-- PERS-S76-024 — Martin Hannett
-- PERS-S76-027 — Rob Gretton
-- PERS-S76-028 — Bob Dickinson
-- PERS-S75-034 — Bob Krasnow
 
 ## 10. Chansons rattachées
 
@@ -429,6 +430,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-DECADES — Decades
+- SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
+- SONG-S31-NEW-DAWN-FADES — New Dawn Fades
+- SONG-S31-I-REMEMBER-NOTHING — I Remember Nothing
 - SONG-S56-NOVELTY — Novelty
 - SONG-S75-026 — Transmission
 - SONG-S75-027 — Atmosphere
@@ -538,13 +542,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 ### 12.1. Motifs dominants
 
 - Rob Gretton (25)
-- Factory (14)
+- Factory (15)
 - Tony Wilson (14)
 - Martin Hannett (12)
+- Hannett (10)
+- Unknown Pleasures (10)
 - Rafters (9)
 - Transmission (9)
-- Unknown Pleasures (9)
-- Hannett (8)
 - Buzzcocks tour (7)
 - Digital (7)
 - John Peel (7)
@@ -553,6 +557,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Terry Mason (6)
 - Electric Circus (6)
 - Peter Saville (6)
+- Gretton (6)
 - Russell Club (5)
 - Peter Hook (5)
 - Strawberry Studios (5)
@@ -560,7 +565,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - fatigue (5)
 - manager (5)
 - She’s Lost Control (5)
-- Gretton (5)
+- studio (5)
 - Love Will Tear Us Apart (5)
 - van (4)
 - télévision (4)
@@ -576,7 +581,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
-- Still (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -689,6 +693,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | analyse | 4 |
 | scene_reseau | 4 |
 | reception_critique | 4 |
+| motif_structurant | 4 |
 | fait_interprete | 4 |
 | tension_management | 3 |
 | scene_live | 3 |
@@ -700,7 +705,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
-| motif_structurant | 3 |
+| concept_structurant | 3 |
+| analyse_album | 3 |
 | concept | 3 |
 | versions_chanson | 3 |
 | release_or_session | 3 |
@@ -727,13 +733,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | chanson_seuil | 2 |
 | réception | 2 |
 | chronologie | 2 |
+| production_sonore | 2 |
 | lecture | 2 |
 | temoignage | 2 |
 | outtakes | 2 |
 | session_album | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
-| analyse_album | 2 |
 | performance_live | 2 |
 | lecture_album | 2 |
 | objet_visuel | 2 |
@@ -743,7 +749,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | prudence_methodologique | 2 |
 | acteur_mediation | 2 |
 | analyse_morceau | 2 |
-| concept_structurant | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
 | album | 2 |
@@ -833,6 +838,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | chanson_live | 1 |
 | interpretation_chanson | 1 |
 | archive | 1 |
+| organisation_culturelle | 1 |
 | motif_album | 1 |
 | concept_corps | 1 |
 | controverse_institutionnelle | 1 |
@@ -898,7 +904,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concert_europeen | 1 |
 | session_studio_apprentissage | 1 |
 | mediation_label | 1 |
-| production_sonore | 1 |
 | album_production | 1 |
 | album_fin | 1 |
 | scene_conflit_scene_locale | 1 |
@@ -931,10 +936,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 217 |
+| critique | 221 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 30 |
+| majeure | 31 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

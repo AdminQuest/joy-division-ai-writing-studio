@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:42:24"
+generated_at: "2026-05-19T15:01:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1070 |
+| Atomes | 1079 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 157 |
-| Événements chronologiques | 96 |
-| Personnes | 135 |
+| Citations | 161 |
+| Événements chronologiques | 99 |
+| Personnes | 139 |
 | Chansons | 27 |
-| Sources mobilisées | 47 |
+| Sources mobilisées | 48 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
+| S31 | S31 — Allegri, Living in the Ice Age, 2021 | 9 | 4 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
@@ -112,6 +113,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
 - **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `critique` ; preuve : `forte`.
+- **S31-A001** — S31-A001 — Source politico-culturelle et théorique  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S31-A002** — S31-A002 — Solitude et communanza  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_interpretatif`.
+- **S31-A005** — S31-A005 — No Future comme ouverture et fermeture  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `matrice_politique` ; importance : `critique` ; preuve : `lecture_theorique`.
+- **S31-A008** — S31-A008 — Factory comme dispositif collectif  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `organisation_culturelle` ; importance : `critique` ; preuve : `synthese_secondaire`.
+- **S31-A009** — S31-A009 — Quinto Stato créatif  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_socio_culturel` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S31-A011** — S31-A011 — Not in Isolation  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_interpretatif`.
+- **S31-A015** — S31-A015 — Effacement du futur, hantologie et impossible commencement  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_theorique`.
 - **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
@@ -140,20 +155,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique reproduite par Morris ; à vérifier dans NME`.
 - **S35-A085** — S35-A085 — Transmission par supports pauvres : fanzine, vitrine, cassette, presse  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `synthese_mediation` ; importance : `critique` ; preuve : `synthèse de la passe S35 part 05`.
-- **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
-  Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
-- **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
-  Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
-- **S35-A093** — S35-A093 — Middlesbrough Rock Garden : archive live et performance invisible à l’image  
-  Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
-- **S35-A094** — S35-A094 — Electric Circus / Rudolph Hess : provocation improvisée et futur piège mémoriel  
-  Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
-- **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
-  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
-- **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
-  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire théorique`.
-- **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
-  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
 
 ## 6. Autres atomes utiles
 
@@ -393,6 +394,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
 - CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
 - CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
+- CHR-S31-1978-05-001 — Premières soirées The Factory / Factory Show selon Allegri ; émergence d’un dispositif local de production culturelle.
+- CHR-S31-1982-001 — Ouverture de The Haçienda ; Allegri la relie à l’héritage Factory et au Formulaire situationniste pour un nouveau urbanisme.
+- CHR-S31-2021-001 — Publication du chapitre de Giuseppe Allegri dans Our Vision Touched the Sky.
 - CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
 - CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
 - CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
@@ -400,9 +404,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
-- CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
-- CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
-- CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
 
 ## 9. Personnes et acteurs
 
@@ -567,8 +568,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- prudence (13)
-- Factory (13)
+- prudence (14)
+- Factory (14)
 - Unknown Pleasures (11)
 - Ian Curtis (10)
 - Peter Saville (10)
@@ -580,30 +581,30 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fatigue (8)
 - Manchester (7)
 - She’s Lost Control (7)
+- Haçienda (7)
 - Electric Circus (7)
 - Paul Morley (7)
 - NME (6)
 - Love Will Tear Us Apart (6)
 - Atmosphere (6)
-- Haçienda (6)
 - Plan K (6)
 - Still (6)
+- Gretton (6)
 - New Order (5)
 - Burroughs (5)
+- Sex Pistols (5)
 - Durutti Column (5)
 - Rafters (5)
+- Hannett (5)
 - Sordide Sentimental (5)
 - mémoire (5)
 - Closer (5)
-- Gretton (5)
 - Mick Middles (4)
 - Rainbow Theatre (4)
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
 - YouTube (4)
-- Something Else (4)
-- So It Goes (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -694,10 +695,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
+| concept_structurant | 35 |
 | analyse | 35 |
-| concept_structurant | 32 |
 | reception | 30 |
-| prudence_methodologique | 28 |
+| prudence_methodologique | 29 |
 | non qualifié | 27 |
 | memoire | 14 |
 | reception_live | 12 |
@@ -707,9 +708,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | synthese | 10 |
 | archive | 10 |
 | reception_poll | 10 |
+| motif_structurant | 9 |
 | production | 8 |
 | contrepoint | 8 |
-| motif_structurant | 8 |
 | scene_fondatrice | 8 |
 | lecture | 8 |
 | methode | 7 |
@@ -967,6 +968,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | image_scenique | 1 |
 | reception_visuelle | 1 |
 | tension_visuelle | 1 |
+| matrice_politique | 1 |
+| organisation_culturelle | 1 |
+| concept_socio_culturel | 1 |
+| reference_situationniste | 1 |
 | motif_majeur | 1 |
 | concept_reception | 1 |
 | motif_album | 1 |
@@ -1237,8 +1242,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 364 |
-| majeure | 100 |
+| critique | 371 |
+| majeure | 102 |
 | majeur | 28 |
 | utile | 15 |
 | structurante | 2 |

@@ -580,6 +580,108 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-curtis_seul_createur",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-curtis_seul_createur",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "Curtis serait le seul créateur de Joy Division",
+      "deconstruction": "S31 impose de traiter le groupe comme entreprise commune, sans effacer Curtis mais sans le rendre seul producteur du sens.\n",
+      "atomes": [
+        "S31-A002",
+        "S31-A003",
+        "S31-A008"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-factory_heros_unifie",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-factory_heros_unifie",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "Factory serait un héros institutionnel unifié",
+      "deconstruction": "Factory fonctionne comme plateforme hétérogène et coopération située, non comme institution homogène ou récit héroïque simple.\n",
+      "atomes": [
+        "S31-A008",
+        "S31-A010"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-isolation_solitude_psychologique",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-isolation_solitude_psychologique",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "l’isolation serait seulement une solitude psychologique",
+      "deconstruction": "S31 montre que l’isolation est aussi technique, sonore, spatiale et collective, notamment chez Hannett.\n",
+      "atomes": [
+        "S31-A011",
+        "S31-A012",
+        "S31-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-no_future_explication_totale",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-no_future_explication_totale",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "No Future expliquerait totalement Joy Division",
+      "deconstruction": "No Future doit rester un opérateur historique et théorique à croiser avec les lieux, le son, Factory, Curtis et la production collective.\n",
+      "atomes": [
+        "S31-A005",
+        "S31-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-Manchester_exception_absolue",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Mythes à déconstruire",

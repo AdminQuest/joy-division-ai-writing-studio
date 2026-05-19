@@ -752,6 +752,64 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
+    "data": {
+      "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
+      "type_unite": "song",
+      "source_id": "S31",
+      "song": "Living in the Ice Age",
+      "usage": "Motif-titre du chapitre ; climat sonore, froid historique et métaphore du futur gelé.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S31-NEW-DAWN-FADES",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
+    "data": {
+      "id": "SONG-S31-NEW-DAWN-FADES",
+      "type_unite": "song",
+      "source_id": "S31",
+      "song": "New Dawn Fades",
+      "usage": "Exemple de basse obscure, batterie abandonnée et architecture froide d’Unknown Pleasures.",
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S31-I-REMEMBER-NOTHING",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
+    "data": {
+      "id": "SONG-S31-I-REMEMBER-NOTHING",
+      "type_unite": "song",
+      "source_id": "S31",
+      "song": "I Remember Nothing",
+      "usage": "Exemple du vide, des échos et du loop final dans la lecture sonore d’Allegri.",
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S56-PASSOVER",
     "file": "registers/s56_barone_specialized_registers.md",
     "heading": "Acteurs, lieux, organisations, chansons",
@@ -1282,7 +1340,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3813",
+    "id": "NO_ID::registers/songs/master_songs.md::3895",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

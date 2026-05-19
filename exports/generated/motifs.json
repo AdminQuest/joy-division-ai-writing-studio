@@ -788,6 +788,132 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-impresa_comune",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-impresa_comune",
+      "type_unite": "motif",
+      "source_id": "S31",
+      "nom": "impresa comune",
+      "atomes": [
+        "S31-A002",
+        "S31-A003",
+        "S31-A008"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 6",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-not_in_isolation",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-not_in_isolation",
+      "type_unite": "motif",
+      "source_id": "S31",
+      "nom": "Not in Isolation",
+      "atomes": [
+        "S31-A002",
+        "S31-A011"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-factory_plateforme",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-factory_plateforme",
+      "type_unite": "motif",
+      "source_id": "S31",
+      "nom": "Factory comme plateforme",
+      "atomes": [
+        "S31-A007",
+        "S31-A008",
+        "S31-A010"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-son_froid",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-son_froid",
+      "type_unite": "motif",
+      "source_id": "S31",
+      "nom": "son froid",
+      "atomes": [
+        "S31-A012",
+        "S31-A013",
+        "S31-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-futur_efface",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-futur_efface",
+      "type_unite": "motif",
+      "source_id": "S31",
+      "nom": "futur effacé",
+      "atomes": [
+        "S31-A005",
+        "S31-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-cut_and_paste_urgence",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Motifs",

@@ -1715,6 +1715,287 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-solitude_communanza",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-solitude_communanza",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "solitude et communanza",
+      "definition": "Tension entre isolement, incomunicabilité et production collective. Joy Division apparaît comme un groupe travaillé par la solitude de Curtis et par une communanza productive.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A002",
+        "S31-A011"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-joy_division_entreprise_commune",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-joy_division_entreprise_commune",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "Joy Division comme entreprise commune",
+      "definition": "Lecture du groupe comme production située réunissant musiciens, managers, producteurs, graphistes, journalistes, clubs, studios et villes.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A003",
+        "S31-A008"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-no_future_ouverture_fermeture",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-no_future_ouverture_fermeture",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "No Future comme ouverture et fermeture",
+      "definition": "No Future désigne à la fois l’effondrement des horizons hérités et l’ouverture brève d’une possibilité de recommencement.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A005",
+        "S31-A015"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-workfare_et_postpunk",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-workfare_et_postpunk",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "Workfare et post-punk",
+      "definition": "Contexte de transition entre Welfare State et Workfare Society, dans lequel la précarisation devient l’arrière-plan d’une organisation culturelle expérimentale.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A006"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-plateforme_urbaine_postpunk",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-plateforme_urbaine_postpunk",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "plateforme urbaine post-punk",
+      "definition": "Transformation de caves, clubs, locaux, salles, studios et villes en dispositifs opératifs de production musicale, esthétique et politique.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A007",
+        "S31-A010"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-factory_dispositif_collectif",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-factory_dispositif_collectif",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "Factory comme dispositif collectif",
+      "definition": "Factory est l’articulation de personnes, lieux, sons, images, affiches, clubs, management et production, plutôt qu’une simple maison de disques.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A008",
+        "S31-A010"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-quinto_stato_creatif",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-quinto_stato_creatif",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "Quinto Stato créatif",
+      "definition": "Ensemble de travailleurs et travailleuses intermittents, précaires, informels et temporaires engagés dans la production culturelle urbaine.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A009"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-isolation_sonore_hannett",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-isolation_sonore_hannett",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "isolation sonore de Martin Hannett",
+      "definition": "Procédé de production consistant à isoler, spatialiser, refroidir, dilater et réverbérer les sons, avec une sensibilité dub et psychogéographique.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A012",
+        "S31-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-ice_age_climat_sonore_historique",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-ice_age_climat_sonore_historique",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "Ice Age comme climat sonore et historique",
+      "definition": "Motif associant froid de studio, gel du son, monde refroidi et effacement du futur.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A013"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-effacement_du_futur_hantologie",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-effacement_du_futur_hantologie",
+      "type_unite": "concept",
+      "source_id": "S31",
+      "nom": "effacement du futur et hantologie",
+      "definition": "Lecture de Joy Division par les spectres du passé dans le présent, la lente annulation de l’avenir et l’impossibilité de commencer un monde possible.\n",
+      "sources": [
+        "S31"
+      ],
+      "atomes": [
+        "S31-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_agence_diy",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Concepts",

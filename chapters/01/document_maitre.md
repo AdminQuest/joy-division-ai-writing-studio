@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:42:24"
+generated_at: "2026-05-19T15:01:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T14:42:24"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 244 |
+| Atomes | 251 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 21 |
-| Événements chronologiques | 9 |
-| Personnes | 20 |
+| Citations | 23 |
+| Événements chronologiques | 10 |
+| Personnes | 22 |
 | Chansons | 1 |
-| Sources mobilisées | 36 |
+| Sources mobilisées | 37 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ generated_at: "2026-05-19T14:42:24"
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
+| S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
@@ -77,6 +78,16 @@ generated_at: "2026-05-19T14:42:24"
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `critique` ; preuve : `forte`.
+- **S31-A001** — S31-A001 — Source politico-culturelle et théorique  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S31-A003** — S31-A003 — Joy Division comme impresa comune  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_secondaire`.
+- **S31-A005** — S31-A005 — No Future comme ouverture et fermeture  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `matrice_politique` ; importance : `critique` ; preuve : `lecture_theorique`.
+- **S31-A007** — S31-A007 — Organiser les espaces  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `infrastructure_culturelle` ; importance : `critique` ; preuve : `interpretation_spatiale`.
+- **S31-A009** — S31-A009 — Quinto Stato créatif  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_socio_culturel` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
@@ -133,16 +144,6 @@ generated_at: "2026-05-19T14:42:24"
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
-- **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
-- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 
 ## 6. Autres atomes utiles
 
@@ -322,6 +323,8 @@ generated_at: "2026-05-19T14:42:24"
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q003** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
@@ -335,6 +338,7 @@ generated_at: "2026-05-19T14:42:24"
 
 - CHR-S53-1976-06-04-001 — Concert des Sex Pistols à la Lesser Free Trade Hall, repris par La Rocca comme scène d’effervescence mancunienne et origine mythographique.
 - CHR-S78-1979-07-21-001 — Jon Savage publie dans Melody Maker sa recension d’Unknown Pleasures reliant le disque aux dark spaces and empty places de Manchester.
+- CHR-S31-1976-07-20-001 — Concert des Sex Pistols à la Lesser Free Trade Hall ; Allegri le lit comme miccia de la scène mancunienne et de la possibilité de recommencement.
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
 - CHR-S34-1976-001 — Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.
 - CHR-S34-1977-001 — L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.
@@ -349,6 +353,8 @@ generated_at: "2026-05-19T14:42:24"
 - PERS-S78-001 — Leonard Nevarez
 - PERS-S78-004 — Jon Savage
 - PERS-S78-005 — Tony Wilson
+- PERS-S31-001 — Giuseppe Allegri
+- PERS-S31-003 — Greil Marcus
 - PERS-S34-001 — Benjamin Fraser
 - PERS-S34-002 — Abby Fuoto
 - PERS-S34-003 — Grant Gee
@@ -457,13 +463,17 @@ generated_at: "2026-05-19T14:42:24"
 
 ### 12.1. Motifs dominants
 
-- Manchester (7)
-- Salford (3)
+- Manchester (8)
+- Salford (4)
 - Shadowplay (2)
 - politique (2)
 - scène locale (2)
 - séparation production-réception (2)
 - prudence anti-anachronique (2)
+- prudence (2)
+- Macclesfield (2)
+- Sex Pistols (2)
+- précarité (2)
 - Londres (2)
 - travail répétitif (2)
 - désindustrialisation (2)
@@ -493,10 +503,6 @@ generated_at: "2026-05-19T14:42:24"
 - anticipation (1)
 - auto-habilitation (1)
 - contradiction biographique (1)
-- politique domestique (1)
-- conservatisme ordinaire (1)
-- contrepoint au récit social (1)
-- Manchester non homogène (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -587,9 +593,9 @@ generated_at: "2026-05-19T14:42:24"
 
 | Type | Nombre |
 |---|---|
-| prudence_methodologique | 14 |
+| prudence_methodologique | 15 |
+| concept_structurant | 15 |
 | source_part | 14 |
-| concept_structurant | 14 |
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
@@ -612,6 +618,7 @@ generated_at: "2026-05-19T14:42:24"
 | critique_historiographique | 2 |
 | chronologie | 2 |
 | motif_structurant | 2 |
+| geographie_sociale | 2 |
 | contexte_urbain | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
@@ -653,6 +660,10 @@ generated_at: "2026-05-19T14:42:24"
 | travail | 1 |
 | citation_clef | 1 |
 | environnement_social | 1 |
+| matrice_politique | 1 |
+| contexte_socio_politique | 1 |
+| infrastructure_culturelle | 1 |
+| concept_socio_culturel | 1 |
 | conditions_materielles | 1 |
 | paradoxe_politique | 1 |
 | scene_regionale | 1 |
@@ -678,7 +689,6 @@ generated_at: "2026-05-19T14:42:24"
 | cas_urbain | 1 |
 | lieu_culturel | 1 |
 | sociabilite_scene | 1 |
-| geographie_sociale | 1 |
 | fait_cadre | 1 |
 | culture_urbaine | 1 |
 | paysage_urbain | 1 |
@@ -724,8 +734,8 @@ generated_at: "2026-05-19T14:42:24"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 41 |
-| majeure | 34 |
+| critique | 46 |
+| majeure | 36 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

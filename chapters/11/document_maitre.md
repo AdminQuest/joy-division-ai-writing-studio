@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:42:24"
+generated_at: "2026-05-19T15:01:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 281 |
+| Atomes | 288 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 36 |
-| Événements chronologiques | 15 |
-| Personnes | 24 |
-| Chansons | 28 |
-| Sources mobilisées | 27 |
+| Citations | 39 |
+| Événements chronologiques | 16 |
+| Personnes | 27 |
+| Chansons | 29 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
+| S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 3 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
@@ -76,6 +77,16 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
 - **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S31-A001** — S31-A001 — Source politico-culturelle et théorique  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S31-A002** — S31-A002 — Solitude et communanza  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_interpretatif`.
+- **S31-A005** — S31-A005 — No Future comme ouverture et fermeture  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `matrice_politique` ; importance : `critique` ; preuve : `lecture_theorique`.
+- **S31-A011** — S31-A011 — Not in Isolation  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_interpretatif`.
+- **S31-A015** — S31-A015 — Effacement du futur, hantologie et impossible commencement  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_theorique`.
 - **S35-A070** — S35-A070 — Être dans un groupe, leçon 1 : la conviction manque plus que l’argent  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `principe_groupe` ; importance : `critique` ; preuve : `interprétation autobiographique rétrospective`.
 - **S35-A092** — S35-A092 — Émotions non dites : Warsaw comme décharge générationnelle  
@@ -124,16 +135,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
 - **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
-- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
-- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
-- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -157,6 +158,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
+- **S31-A006** — S31-A006 — Welfare State et Workfare Society  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `contexte_socio_politique` ; importance : `majeure` ; preuve : `contexte_theorique`.
+- **S31-A013** — S31-A013 — Ice Age comme climat sonore et historique  
+  Source : S31 — Allegri, Living in the Ice Age, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `motif_interpretatif`.
 - **S35-A026** — S35-A026 — Jersey et bunkers : guerre, ruines et imaginaire matériel  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `motif_historique` ; importance : `majeure pour les prudences sur l’imagerie de guerre` ; preuve : `témoignage autobiographique direct`.
 - **S35-A058** — S35-A058 — House on the Borderland, Percival’s, Burroughs, Ballard : librairies et contre-savoirs  
@@ -209,8 +214,18 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S43-A002** — S43-A002 — Les seconds baby-boomers : golden age devenue ordinaire  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
 - **S43-A006** — S43-A006 — « Leaders of Men » : antipolitique précoce et faillite des messianismes modernes  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
+- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
 - **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
 - **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
@@ -283,20 +298,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `rencontre_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-158** — S46-158 — Morley : Joy Division et la chance  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_mythographique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-159** — S46-159 — Morley : Joy Division et la régénération du langage rock  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-160** — S46-160 — Morley : impossibilité de parler de l’intérieur  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `epistemologie_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-161** — S46-161 — Morley : écouter Joy Division seulement en bonne santé  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_affective` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-162** — S46-162 — « Glass : Mesh » : le livre comme montage filmique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-164** — S46-164 — Camus, Nietzsche, Adorno : Joy Division encadré par la haute culture  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-167** — S46-167 — « About-Face » : The Noise comme concept critique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -323,6 +324,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
@@ -346,6 +350,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
 - CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
 - CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
+- CHR-S31-2021-001 — Publication du chapitre de Giuseppe Allegri dans Our Vision Touched the Sky.
 - CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
@@ -368,6 +373,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - PERS-S54-004 — J. G. Ballard
 - PERS-S54-008 — Daniel Odier
 - PERS-S49-001 — Manolo Farci
+- PERS-S31-001 — Giuseppe Allegri
+- PERS-S31-002 — Franco Berardi Bifo
+- PERS-S31-003 — Greil Marcus
 - PERS-S56-001 — Linda Barone
 - PERS-S56-002 — Ian Curtis
 - PERS-S56-004 — William S. Burroughs
@@ -396,6 +404,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - SONG-S54-ATROCITY_EXHIBITION — Atrocity Exhibition
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-DECADES — Decades
+- SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
 - SONG-S56-PASSOVER — Passover
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
@@ -503,9 +512,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Burroughs (7)
 - Ballard (5)
 - provocation (5)
+- prudence (5)
 - domesticité (5)
 - silence (4)
-- prudence (4)
 - contrôle (4)
 - Electric Circus (4)
 - An Ideal for Living (3)
@@ -631,9 +640,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 18 |
+| concept_structurant | 21 |
 | lecture_chanson | 12 |
-| prudence_methodologique | 8 |
+| prudence_methodologique | 9 |
 | analyse_chanson | 8 |
 | biographie | 7 |
 | analyse_morceau | 7 |
@@ -641,12 +650,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
+| motif_structurant | 4 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
 | intertextualite | 3 |
 | reception_critique | 3 |
-| motif_structurant | 3 |
 | citation_repere | 3 |
 | concept | 3 |
 | contexte_biographique | 3 |
@@ -714,6 +723,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mémoire_sensible | 1 |
 | psychologie_sociale | 1 |
 | culture_domestique | 1 |
+| matrice_politique | 1 |
+| contexte_socio_politique | 1 |
 | concept_reception | 1 |
 | scene_memoire | 1 |
 | reference_philosophique | 1 |
@@ -774,8 +785,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 106 |
-| majeure | 32 |
+| critique | 111 |
+| majeure | 34 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

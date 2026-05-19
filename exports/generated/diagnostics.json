@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T14:42:08",
+  "generated_at": "2026-05-19T15:00:55",
   "status": "warning",
   "summary": {
-    "records_total": 5699,
+    "records_total": 5781,
     "records_by_kind": {
       "source": 93,
       "metadata": 162,
-      "atom": 2257,
-      "unknown": 805,
-      "concept": 342,
-      "motif": 365,
-      "myth": 85,
-      "quote": 470,
-      "chronology": 406,
-      "person": 265,
-      "song": 93,
+      "atom": 2272,
+      "unknown": 831,
+      "concept": 352,
+      "motif": 370,
+      "myth": 89,
+      "quote": 476,
+      "chronology": 411,
+      "person": 273,
+      "song": 96,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24597,
+    "diagnostics_total": 24817,
     "errors": 0,
-    "warnings": 24597,
+    "warnings": 24817,
     "sources_declared_in_registre_json": 67,
     "sources_used_in_records": 53,
     "sources_exported": 53,
@@ -666,12 +666,16 @@
         "auteur": "Giuseppe Allegri",
         "titre": "Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 94,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 5,
         "files": [
-          "sources/allegri_living_in_the_ice_age/source.md"
+          "registers/s31_allegri_specialized_registers.md",
+          "registers/s31_allegri_structuring_registers.md",
+          "sources/allegri_living_in_the_ice_age/relations_s31.md",
+          "sources/allegri_living_in_the_ice_age/source.md",
+          "sources/allegri_living_in_the_ice_age/source_part_01.md"
         ]
       },
       {
@@ -48234,6 +48238,996 @@
       "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S51-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S31-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S31-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S31-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: geographie_sociale",
+      "record_id": "S31-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: matrice_politique",
+      "record_id": "S31-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_socio_politique",
+      "record_id": "S31-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: infrastructure_culturelle",
+      "record_id": "S31-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: organisation_culturelle",
+      "record_id": "S31-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_socio_culturel",
+      "record_id": "S31-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: reference_situationniste",
+      "record_id": "S31-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S31-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: production_sonore",
+      "record_id": "S31-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S31-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_album",
+      "record_id": "S31-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S31-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S31-015"
     },
     {
       "level": "warning",
@@ -126885,6 +127879,30 @@
     },
     {
       "level": "warning",
+      "file": "registers/s31_allegri_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S31-ALLEGRI-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S31-BIFO-AFTER-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S31-MARCUS-LIPSTICK-TRACES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S31-DERRIDA-HANTOLOGIE"
+    },
+    {
+      "level": "warning",
       "file": "registers/s52_rabbito_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S52-Q001"
@@ -130452,6 +131470,312 @@
       "file": "registers/s78_nevarez_specialized_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MEDIA-S78-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S31-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S31-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S31-1976-07-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S31-1976-07-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser",
+      "record_id": "CHR-S31-1976-07-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S31-1978-05-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S31-1978-05-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser",
+      "record_id": "CHR-S31-1978-05-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S31-1979-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S31-1979-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser_discographie",
+      "record_id": "CHR-S31-1979-04-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S31-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S31-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S31-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S31-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S31-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S31-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S31-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S31-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S31-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S31-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S31-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S31-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S31-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S31-UNKNOWN-PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S31-LIVING-IN-THE-ICE-AGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S31-LIVING-IN-THE-ICE-AGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S31-LIVING-IN-THE-ICE-AGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S31-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S31-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S31-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S31-I-REMEMBER-NOTHING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S31-I-REMEMBER-NOTHING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s31_allegri_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S31-I-REMEMBER-NOTHING"
     },
     {
       "level": "warning",
