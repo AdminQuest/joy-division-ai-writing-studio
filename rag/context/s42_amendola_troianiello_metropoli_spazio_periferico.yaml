@@ -1,0 +1,58 @@
+id: RAG-S42-AMENDOLA-TROIANIELLO-METROPOLI-SPAZIO-PERIFERICO
+source_id: S42
+source_label: "S42 — Amendola & Troianiello, Metropoli e spazio periferico nell’underground post-punk inglese, 2021"
+source_path: "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md"
+relations_path: "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md"
+structuring_registers_path: "sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md"
+specialized_registers_path: "sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s42_s53.md"
+  - "chapters/02/source_notes_s21_s42.md"
+  - "chapters/03/source_notes_s21_s42_s53_s54.md"
+  - "chapters/05/source_notes_s42_s52_s53.md"
+  - "chapters/07/source_notes_s21_s42.md"
+  - "chapters/08/source_notes_s21_s42.md"
+  - "chapters/09/source_notes_s21_s42.md"
+  - "chapters/10/source_notes_s21_s42_s52_s53_s54.md"
+  - "chapters/13/source_notes_s21_s42_s52_s53.md"
+  - "chapters/14/source_notes_s21_s42_s52_s53_s54.md"
+rag_fragments_path: "rag/fragments/s42_amendola_troianiello_metropoli_spazio_periferico.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Article complet S42"
+  pdf_pages: "41-53"
+  scope: "chapitre Amendola & Troianiello uniquement"
+primary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 13"
+secondary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 3"
+  - "Chapitre 5"
+  - "Chapitre 7"
+  - "Chapitre 8"
+  - "Chapitre 9"
+  - "Chapitre 10"
+  - "Chapitre 14"
+key_atoms:
+  - S42-A001
+  - S42-A002
+  - S42-A003
+  - S42-A004
+  - S42-A005
+  - S42-A006
+  - S42-A007
+  - S42-A008
+  - S42-A009
+  - S42-A010
+  - S42-A011
+  - S42-A012
+  - S42-A013
+writing_use: >
+  Utiliser S42 pour penser centre/périphérie, focal places, Manchester comme périphérie post-industrielle,
+  géographie post-punk interurbaine, circulation des marges, réification et géographie émotionnelle.
+verification_rules:
+  - "Ne pas transformer Manchester en cause mécanique de Joy Division."
+  - "Croiser Electric Circus, Factory, Eric’s et les lieux avec les sources historiques et testimoniales."
+  - "Traiter focal places comme opérateurs relationnels, non comme lieux mythiques autosuffisants."
+  - "Distinguer circulation, influence, reprise et réification."
