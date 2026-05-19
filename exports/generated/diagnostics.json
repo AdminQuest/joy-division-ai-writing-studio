@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T11:00:22",
+  "generated_at": "2026-05-19T11:08:00",
   "status": "warning",
   "summary": {
-    "records_total": 5355,
+    "records_total": 5357,
     "records_by_kind": {
-      "source": 88,
-      "metadata": 157,
+      "source": 89,
+      "metadata": 158,
       "atom": 2189,
       "unknown": 698,
       "concept": 304,
@@ -22,9 +22,9 @@
     "diagnostics_total": 23655,
     "errors": 0,
     "warnings": 23655,
-    "sources_declared_in_registre_json": 63,
-    "sources_used_in_records": 48,
-    "sources_exported": 48,
+    "sources_declared_in_registre_json": 64,
+    "sources_used_in_records": 49,
+    "sources_exported": 49,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1389,6 +1389,20 @@
           "sources/worley_punk_politics_british_fanzines/relations_s77.md",
           "sources/worley_punk_politics_british_fanzines/source.md",
           "sources/worley_punk_politics_british_fanzines/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S78",
+        "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+        "auteur": "Leonard Nevarez",
+        "titre": "How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City",
+        "annee": "2013",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md"
         ]
       }
     ]
