@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -801,7 +801,59 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s13.md
+
+# Chapitre 8 — Notes source S13
+
+```yaml
+id: CH08-SOURCE-NOTES-S13
+chapitre: "Chapitre 8"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S13
+```
+
+## S13 — Tomeo, « Dance Dance Dance! », 2021
+
+Atomes utiles : S13-A008 ; S13-A009.
+
+Concept utile : CONCEPT-S13-004.
+
+Usage : l’Haçienda peut être traitée comme une infrastructure posthume, financée et symboliquement portée par l’après Joy Division / New Order. Le chapitre 8 peut s’en servir pour montrer que la mémoire du groupe circule aussi par lieux, clubs, récits et économies parallèles.
+
+Prudence : ne pas mélanger bootleg et club culture sans médiation. Le lien passe par infrastructure, mémoire et économie de l’héritage, non par objet pirate.
+
+### source_notes_s21_s42.md
+
+# Notes sources réinjectées — Chapitre 8
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 8"
+sources: [S21, S42]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S21 — Médiations, critiques et conflits de réception
+
+S21 est central pour articuler *City Fun* comme média critique : humour, satire, camp, polémique, attaques locales, tensions avec Factory et critique des normes de goût.
+
+Atomes prioritaires : S21-A006 ; S21-A007 ; S21-A008 ; REL-S21-006 ; REL-S21-008.
+
+Règle d’usage : ne pas construire une lecture anti-Factory générale sans item probant. S22 sert à l’interprétation ; S21 donne la pièce.
+
+## S42 — Traces alternatives et focal places
+
+Usage secondaire. S42 ne traite pas le bootleg, mais la notion de focal places peut éclairer la production de scènes, de traces et d’archives alternatives.
+
+Atomes prioritaires : S42-A008 ; S42-A009.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

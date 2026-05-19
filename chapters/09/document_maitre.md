@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -563,7 +563,36 @@ generated_at: "2026-05-19T08:54:02"
 - S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
 - S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s21_s42.md
+
+# Notes sources réinjectées — Chapitre 9
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 9"
+sources: [S21, S42]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S21 — Réseaux, lieux et sociabilités de scène
+
+S21 permet de matérialiser la scène comme réseau. *City Fun* n’est pas seulement une publication : c’est un nœud de sociabilité, d’écriture collective, de lecteurs, de contributeurs, de lieux et de mémoires locales.
+
+Atomes prioritaires : S21-A004 ; S21-A005 ; CONCEPT-fanzine_observatoire_local.
+
+Règle d’usage : isoler les noms et les lieux seulement s’ils apparaissent dans les items ou notices vérifiés.
+
+## S42 — Circulation interurbaine et périphérique
+
+S42 prépare la sortie du cadre strictement mancunien en montrant que la circulation est d’abord interurbaine et périphérique avant d’être internationale.
+
+Atomes prioritaires : S42-A007 ; S42-A012.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

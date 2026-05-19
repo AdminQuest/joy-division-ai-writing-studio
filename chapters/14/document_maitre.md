@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -1281,7 +1281,113 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
 - S41-A211 [moyen] — Ne pas confondre refus de promotion et absence de deuil ; le retrait est une forme de survie.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s13_s39_s40.md
+
+# Chapitre 14 — Notes sources S13 / S39 / S40
+
+```yaml
+id: CH14-SOURCE-NOTES-S13-S39-S40
+chapitre: "Chapitre 14"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S13
+  - S39
+  - S40
+```
+
+## S13 — Tomeo, « Dance Dance Dance! », 2021
+
+Atomes utiles : S13-A001 ; S13-A002 ; S13-A003 ; S13-A008 ; S13-A009 ; S13-A010.
+
+Concepts utiles : CONCEPT-S13-001 ; CONCEPT-S13-004 ; CONCEPT-S13-005.
+
+Mythes utiles : MYTH-S13-001 ; MYTH-S13-003.
+
+Usage : le chapitre 14 est le lieu principal pour exploiter la relecture Joy Division / rave era. S13 permet d’analyser l’éternel retour non comme simple citation visuelle, mais comme transformation du groupe en matrice de communautés sonores successives.
+
+Prudence : la rave n’est pas la rédemption de Joy Division. Elle fonctionne comme chambre d’écho, utopie provisoire et déplacement corporel d’une mélancolie post-punk.
+
+## S39 — Bauman, *Liquid Modernity*, 2000
+
+Atomes utiles : S39-A001 ; S39-A002 ; S39-A004 ; S39-A005 ; S39-A006 ; S39-A007.
+
+Concepts utiles : CONCEPT-S39-001 ; CONCEPT-S39-002 ; CONCEPT-S39-004.
+
+Motifs utiles : MOTIF-S39-001 ; MOTIF-S39-002 ; MOTIF-S39-003.
+
+Mythes utiles : MYTHE-S39-001 ; MYTHE-S39-002 ; MYTHE-S39-003 ; MYTHE-S39-004.
+
+Usage : S39 soutient la notion de patrimonialisation liquide. Joy Division circule par fragments, signes, objets, pochettes, playlists, images et usages numériques. Cette circulation renforce la présence du groupe tout en exposant son histoire à la simplification.
+
+Prudence : ne pas confondre patrimonialisation, influence documentée, marchandise et fétiche graphique. Toute réutilisation d’un signe Joy Division ne constitue pas nécessairement une réception consciente du groupe.
+
+## S40 — Cacciatore, « ...waiting for something to happen... », 2021
+
+Atomes utiles : S40-A001 ; S40-A002 ; S40-A004 ; S40-A006 ; S40-A007 ; S40-A008.
+
+Concepts utiles : CONCEPT-S40-001 ; CONCEPT-S40-002 ; CONCEPT-S40-004.
+
+Motifs utiles : MOTIF-S40-001 ; MOTIF-S40-004.
+
+Mythes utiles : MYTHE-S40-001 ; MYTHE-S40-002 ; MYTHE-S40-003 ; MYTHE-S40-004.
+
+Usage : S40 soutient une lecture de Joy Division comme survivance spectrale. Le groupe revient par images, sons, objets, citations, plateformes et recirculations. Le présent n’absorbe pas seulement le passé ; il le réactive sous forme de trace.
+
+Prudence : ne pas confondre revenance spectrale et influence documentée. Ne pas transformer la patrimonialisation en preuve d’une fidélité au sens originel du groupe.
+
+### source_notes_s21_s42_s52_s53_s54.md
+
+# Notes sources réinjectées — Chapitre 14
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 14"
+sources: [S21, S42, S52, S53, S54]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S21 — Patrimonialisation numérique de City Fun
+
+S21 est utile pour la patrimonialisation. L’exposition donne un cas net : un média local, satirique et pauvre devient pièce de mémoire culturelle mancunienne.
+
+Atomes prioritaires : S21-A001 ; S21-A003 ; S21-A005 ; S21-A009 ; S21-A010.
+
+Règle d’usage : analyser la transformation du fanzine en archive, sans neutraliser sa conflictualité originelle.
+
+## S42 — Réification et circulation des marges
+
+S42 fournit une sortie théorique : le post-punk circule du bord vers le centre, puis se réifie sans perdre totalement sa force d’étrangeté.
+
+Atomes prioritaires : S42-A005 ; S42-A013 ; REL-S42-005 ; REL-S42-010.
+
+## S52 — Control, mythe et simplification biographique
+
+S52 est très utile pour la mythification. *Control* contribue à fixer une image posthume de Curtis : belle, sobre, noire et blanche, légitime, mais partielle. Le chapitre 14 doit conserver cette ambivalence : le film prolonge le mythe, mais il simplifie la complexité de Curtis.
+
+Atomes prioritaires : S52-A002 ; S52-A004 ; S52-A005 ; S52-A015 ; S52-A016 ; S52-A019 ; REL-S52-014.
+
+## S53 — Fantôme Joy Division et survivance dark
+
+S53 est central. Le fantôme Joy Division condense circulation médiatique, mémoire viscérale, esthétique dark, mythe contemporain, nostalgie pop et affectologie sociale. Le chapitre final peut utiliser S53 pour expliquer pourquoi Joy Division reste actuel sans le réduire à un simple fétiche visuel.
+
+Atomes prioritaires : S53-A005 ; S53-A006 ; S53-A007 ; S53-A008 ; S53-A011 ; S53-A013 ; S53-A016 ; REL-S53-015.
+
+Règle d’usage : distinguer la puissance du mythe et la répétition du mythe. S53 analyse la survivance ; elle ne dispense pas de déconstruire les simplifications contemporaines.
+
+## S54 — Interzone, Atrocity Exhibition et canonisation savante
+
+Usage secondaire. S54 peut aider à expliquer pourquoi certains titres — « Interzone », « Atrocity Exhibition », « Digital » — deviennent des marqueurs de l’aura savante et sombre de Curtis. Cette canonisation doit rester analysée, non répétée.
+
+Atomes prioritaires : S54-A002 ; S54-A006 ; S54-A015 ; REL-S54-015.
+
+Règle d’usage : ne pas faire de Burroughs et Ballard un décor de prestige. Le chapitre 14 doit montrer comment ces références contribuent au mythe, mais aussi comment elles peuvent être simplifiées par la réception.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

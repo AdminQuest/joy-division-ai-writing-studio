@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -800,7 +800,79 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
 - S49-A002 [moyen] — risque de généraliser une lecture de genre à toute une génération
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s13_s39_s40.md
+
+# Chapitre 11 — Notes sources S13 / S39 / S40
+
+```yaml
+id: CH11-SOURCE-NOTES-S13-S39-S40
+chapitre: "Chapitre 11"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S13
+  - S39
+  - S40
+```
+
+## S13 — Tomeo, « Dance Dance Dance! », 2021
+
+Atomes utiles : S13-A002 ; S13-A004 ; S13-A005 ; S13-A006.
+
+Concepts utiles : CONCEPT-S13-002 ; CONCEPT-S13-003.
+
+Usage : S13 permet d’écrire la transformation du malaise individuel en expérience collective fragile. La communauté sonore se substitue au discours politique ou au message explicite.
+
+Prudence : ne pas généraliser en « condition moderne » sans médiation textuelle précise. Toujours partir de « Transmission », du corps scénique ou de la relation au son.
+
+## S39 — Bauman, *Liquid Modernity*, 2000
+
+Atomes utiles : S39-A001 ; S39-A002 ; S39-A003 ; S39-A004 ; S39-A005 ; S39-A007.
+
+Concepts utiles : CONCEPT-S39-001 ; CONCEPT-S39-002 ; CONCEPT-S39-003.
+
+Motifs utiles : MOTIF-S39-001 ; MOTIF-S39-002.
+
+Usage : S39 permet de formuler une hypothèse de réception : Joy Division parle encore parce que son œuvre fixe et close peut fonctionner comme repère dans une condition contemporaine marquée par l’instabilité, la fragilité des liens et l’individualisation de l’incertitude.
+
+Prudence : ne pas rabattre Curtis sur Bauman. Ne pas faire de la modernité liquide une clé psychologique des paroles. Toujours distinguer production historique et réception contemporaine.
+
+## S40 — Cacciatore, « ...waiting for something to happen... », 2021
+
+Atomes utiles : S40-A001 ; S40-A003 ; S40-A004 ; S40-A005 ; S40-A007 ; S40-A008.
+
+Concepts utiles : CONCEPT-S40-002 ; CONCEPT-S40-003 ; CONCEPT-S40-004.
+
+Motifs utiles : MOTIF-S40-002 ; MOTIF-S40-003.
+
+Usage : S40 permet de formuler l’attente non comme attente psychologique ou messianique, mais comme structure temporelle sans horizon stable. Le no future devient un régime d’impossibilité plus qu’un simple slogan punk.
+
+Prudence : ne pas attribuer à Curtis une théorie de l’à-venir. Ne pas utiliser S40 pour surinterpréter toutes les chansons. Croiser avec les atomes lyriques et musicaux déjà stabilisés.
+
+### source_notes_s54.md
+
+# Notes sources réinjectées — Chapitre 11
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 11"
+sources: [S54]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S54 — Condition humaine moderne et dystopie intérieure
+
+S54 est central pour le chapitre 11. La notion de dystopie intérieure permet de penser la modernité pathologique : le contrôle, la violence, les médias et la technologie ne restent pas au-dehors ; ils deviennent expérience subjective.
+
+Atomes prioritaires : S54-A004 ; S54-A005 ; S54-A006 ; S54-A007 ; S54-A008 ; S54-A009 ; S54-A010 ; S54-A012 ; S54-A013 ; S54-A014 ; S54-A015.
+
+Règle d’usage : employer S54 pour passer de l’aliénation sociale à l’aliénation intériorisée. Ne pas dissoudre les chansons dans une théorie extérieure.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

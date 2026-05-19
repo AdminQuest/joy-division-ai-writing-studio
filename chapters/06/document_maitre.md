@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -986,7 +986,30 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 - S41-A035 [faible] — Atome de logistique comique ; ne pas surcharger.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s54.md
+
+# Notes sources réinjectées — Chapitre 6
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 6"
+sources: [S54]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S54 — Architecture sonore, *Closer* et intemporalité suspensive
+
+Usage ponctuel. S54 peut enrichir l’analyse de « Twenty Four Hours », « Heart and Soul » et « The Eternal » par la notion d’intemporalité suspensive. Cette lecture doit rester une analyse de temporalité poétique et non une téléologie de la mort.
+
+Atomes prioritaires : S54-A010 ; S54-A011.
+
+Règle d’usage : ne pas transformer *Closer* en prophétie. Les textes terminaux doivent être lus comme dispositifs de durée, d’attente et de suspension.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

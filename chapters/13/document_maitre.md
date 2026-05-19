@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -720,7 +720,87 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s13_s39_s40.md
+
+# Chapitre 13 — Notes sources S13 / S39 / S40
+
+```yaml
+id: CH13-SOURCE-NOTES-S13-S39-S40
+chapitre: "Chapitre 13"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S13
+  - S39
+  - S40
+```
+
+## S13 — Tomeo, « Dance Dance Dance! », 2021
+
+Usage : S13 peut appuyer la lecture de Manchester comme espace de circulation entre scène post-punk, lieux de musique, corps et communautés sonores. Il doit rester une source critique de réception, non une source topographique principale.
+
+Prudence : ne pas transformer Interzone, Haçienda ou rave era en continuité spatiale automatique. Les lieux doivent rester documentés par les sources historiques et testimoniales.
+
+## S39 — Bauman, *Liquid Modernity*, 2000
+
+Atome utile : S39-A005.
+
+Usage : S39 n’est pas une source de géographie émotionnelle des lieux Joy Division. Elle peut seulement aider à distinguer l’espace historique vécu et la circulation contemporaine du mythe.
+
+Prudence : ne pas transformer les lieux mancuniens en métaphores liquides. Les lieux doivent rester documentés par Hook, Sumner, Cummins, Middles, Ott, les sources urbaines et les registres de lieux.
+
+## S40 — Cacciatore, « ...waiting for something to happen... », 2021
+
+Atomes utiles : S40-A001 ; S40-A008.
+
+Usage : usage secondaire seulement. S40 peut aider à distinguer lieu historique et lieu spectralisé par la mémoire culturelle.
+
+Prudence : les lieux doivent rester documentés par les sources urbaines, photographiques et testimoniales ; S40 ne crée pas de fait topographique.
+
+### source_notes_s21_s42_s52_s53.md
+
+# Notes sources réinjectées — Chapitre 13
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 13"
+sources: [S21, S42, S52, S53]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S21 — Réseaux locaux et géographie de scène
+
+S21 peut nourrir la géographie émotionnelle lorsqu’un item de *City Fun* documente un lieu, une sociabilité, un réseau ou une circulation locale. Son usage doit rester itemisé.
+
+Atomes prioritaires : S21-A004 ; S21-A005 ; CONCEPT-fanzine_observatoire_local.
+
+Règle d’usage : ne pas confondre mémoire de scène, item de fanzine et preuve urbaine générale.
+
+## S42 — Focal places et géographie émotionnelle
+
+S42 est central : le lieu est un opérateur relationnel et affectif. Les focal places permettent de penser les clubs, disquaires, labels et salles de répétition comme lieux-réseaux.
+
+Atomes prioritaires : S42-A002 ; S42-A003 ; S42-A008 ; S42-A009 ; S42-A010 ; S42-A011.
+
+## S52 — Corps de Curtis comme lieu instable
+
+Usage secondaire mais utile. S52 permet de lire le corps de Curtis comme lieu instable : scène, maladie, personnage, vrai soi, gestes pré-diagnostic et réception du public. Le territoire principal n’est pas ici Manchester, mais le corps performatif comme espace de conflit.
+
+Atomes prioritaires : S52-A012 ; S52-A013 ; S52-A014 ; REL-S52-010.
+
+## S53 — Manchester, mémoire visuelle et territoire affectif
+
+S53 nourrit directement l’idée de territoire affectif. Manchester, les périphéries désaffectées et la photographie d’Epping Walk Bridge deviennent opérateurs de mémoire, à condition de ne pas les traiter comme causes directes.
+
+Atomes prioritaires : S53-A003 ; S53-A004 ; S53-A010 ; S53-A014 ; S53-A015.
+
+Règle d’usage : S53 aide à écrire la géographie émotionnelle du mythe, pas l’histoire urbaine factuelle.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

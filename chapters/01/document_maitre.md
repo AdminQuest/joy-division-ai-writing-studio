@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -779,7 +779,66 @@ generated_at: "2026-05-19T08:54:02"
 - S35-A034 [moyen] — Ne pas transformer Jodrell Bank en origine directe de l’électronique Joy Division/New Order.
 - S35-A035 [moyen] — Ne pas psychologiser toute l’esthétique Morris par le grammar school.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s39_s40.md
+
+# Chapitre 1 — Notes sources S39 / S40
+
+```yaml
+id: CH01-SOURCE-NOTES-S39-S40
+chapitre: "Chapitre 1"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S39
+  - S40
+```
+
+## S39 — Bauman, *Liquid Modernity*, 2000
+
+Atome utile : S39-A005.
+
+Usage : utiliser uniquement S39 comme garde-fou méthodologique. La modernité liquide ne doit pas être projetée sur Manchester 1976-1980. Le chapitre 1 reste appuyé sur les sources urbaines, sociales et historiques.
+
+Prudence : ne pas écrire que Manchester est une ville liquide. *Liquid Modernity* est publié en 2000 ; il ne constitue pas une source historique sur la ville post-industrielle des années 1970.
+
+## S40 — Cacciatore, « ...waiting for something to happen... », 2021
+
+Atomes utiles : S40-A001 ; S40-A007 ; S40-A008.
+
+Usage : employer S40 en conclusion seulement, comme cadre de réception. Le futur perdu peut aider à dire pourquoi Manchester et Joy Division continuent de parler au présent, mais ne doit pas remplacer les sources factuelles sur la crise urbaine, sociale et industrielle.
+
+Prudence : ne pas écrire que Manchester prouve l’hauntologie. Ne pas transformer la ville en simple métaphore spectrale. Le chapitre 1 reste un chapitre de contexte historique et urbain.
+
+### source_notes_s42_s53.md
+
+# Notes sources réinjectées — Chapitre 1
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 1"
+sources: [S42, S53]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S42 — Centre / périphérie et focal places
+
+S42 consolide Manchester comme périphérie post-industrielle et comme matrice relationnelle du post-punk. L’usage doit rester anti-déterministe : Manchester ne « produit » pas mécaniquement Joy Division ; la ville fournit une atmosphère, des lieux, des réseaux et des pratiques.
+
+Atomes prioritaires : S42-A001 ; S42-A003 ; S42-A004 ; S42-A007 ; S42-A011.
+
+## S53 — Images, symboles et incarnation mythique
+
+S53 nourrit le chapitre uniquement comme lecture du milieu sensible mancunien. La Rocca permet de penser Manchester comme *genius loci* : non une cause mécanique du son ou du mythe, mais un régime d’atmosphère, de grisaille industrielle, d’usines et de périphéries désaffectées.
+
+Atomes prioritaires : S53-A002 ; S53-A003 ; S53-A004 ; S53-A009.
+
+Règle d’usage : ne pas remplacer les données socio-économiques et urbaines par une lecture mythique. S53 intervient après les preuves factuelles, comme couche d’interprétation affective.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

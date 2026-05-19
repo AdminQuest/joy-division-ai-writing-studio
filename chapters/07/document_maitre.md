@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:54:02"
+generated_at: "2026-05-19T09:39:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -740,7 +740,61 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S35-A074 [faible] — Atome de réception personnelle appuyé sur faits connus.
 - S35-A075 [faible] — Influence explicitement formulée par Morris.
 
-## 15. Lacunes et prochaines vérifications
+## 15. Notes de sources réinjectées
+
+Ces notes proviennent de fichiers `source_notes*.md` placés directement dans le dossier du chapitre. Elles remplacent l’ancien mécanisme interdit `chapters/addenda/`.
+
+### source_notes_s13.md
+
+# Chapitre 7 — Notes source S13
+
+```yaml
+id: CH07-SOURCE-NOTES-S13
+chapitre: "Chapitre 7"
+type_unite: note_chapitre
+statut: redistribution_depuis_chapters_addenda
+sources:
+  - S13
+```
+
+## S13 — Tomeo, « Dance Dance Dance! », 2021
+
+Atomes utiles : S13-A002 ; S13-A003 ; S13-A004 ; S13-A005 ; S13-A006 ; S13-A007 ; S13-A009.
+
+Concepts utiles : CONCEPT-S13-001 ; CONCEPT-S13-002 ; CONCEPT-S13-003.
+
+Motifs utiles : MOTIF-S13-001 ; MOTIF-S13-002 ; MOTIF-S13-003.
+
+Usage : S13 renforce la lecture de l’héritage musical comme résonance corporelle et rythmique, et non comme simple influence stylistique. Le chapitre 7 doit l’utiliser pour distinguer héritage documenté, survivance critique et relecture a posteriori.
+
+Prudence : ne pas écrire que Joy Division invente la rave. Formules recommandées : « seuil », « résonance », « survivance », « relecture depuis l’après-rave », « filiation oblique ».
+
+### source_notes_s21_s42.md
+
+# Notes sources réinjectées — Chapitre 7
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 7"
+sources: [S21, S42]
+statut: reinjecte_depuis_anciens_addenda
+```
+
+## S21 — Culture matérielle et fanzine DIY
+
+S21 est central pour penser le fanzine comme objet : papier, photocopie, bricolage graphique, collage, typographie, circulation locale, économie faible et geste DIY.
+
+Atomes prioritaires : S21-A003 ; S21-A010 ; CONCEPT-fanzine_materiel_diy.
+
+Règle d’usage : citer les images ou scans seulement avec item, légende, crédit, numéro et capture.
+
+## S42 — Héritage musical et géographie post-punk élargie
+
+S42 replace l’héritage de Joy Division dans une géographie post-punk élargie : Manchester, Liverpool, Sheffield. Il aide à distinguer influence, circulation, reprise et réification.
+
+Atomes prioritaires : S42-A005 ; S42-A006 ; S42-A007 ; S42-A012 ; S42-A013.
+
+## 16. Lacunes et prochaines vérifications
 
 - Vérifier les atomes anciens encore incomplets au regard du schéma v2.
 - Contrôler les citations avant toute insertion dans le manuscrit.

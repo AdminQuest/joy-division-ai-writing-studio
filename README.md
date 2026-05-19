@@ -79,6 +79,26 @@ find chapters -path "*/addenda/*" -type f
 
 Si une source concerne plusieurs chapitres, créer un fichier `source_notes_sXX.md` dans chaque dossier de chapitre concerné, ou un fichier groupé du type `source_notes_s13_s39_s40.md` lorsque la note porte sur plusieurs sources dans le même chapitre.
 
+
+### 2.2. Injection des notes de chapitre dans les documents maîtres
+
+Les fichiers `chapters/XX/source_notes*.md` sont lus après la génération des documents maîtres. Ils sont injectés dans une section dédiée des `chapters/XX/document_maitre.md`.
+
+Commande recommandée après `build_registers.py` et `audit_repo.py` :
+
+```bash
+python3 tools/build_master_docs.py
+python3 tools/inject_chapter_source_notes.py
+```
+
+Commande équivalente en un seul appel :
+
+```bash
+python3 tools/build_master_docs_with_notes.py
+```
+
+Il est interdit de recréer `chapters/addenda/`. Toute note transversale doit être dispatchée dans les dossiers `chapters/XX/` concernés.
+
 ---
 
 ## 3. Règle impérative pour toute atomisation
