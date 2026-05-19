@@ -5,7 +5,15 @@ source_path: "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_
 relations_path: "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md"
 structuring_registers_path: "registers/s53_la_rocca_structuring_registers.md"
 specialized_registers_path: "registers/s53_la_rocca_specialized_registers.md"
-master_docs_addendum_path: "chapters/addenda/s53_dm_addendum_immagini_simboli_incarnazione_mitica.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s42_s53.md"
+  - "chapters/03/source_notes_s21_s42_s53_s54.md"
+  - "chapters/04/source_notes_s52_s53_s54.md"
+  - "chapters/05/source_notes_s42_s52_s53.md"
+  - "chapters/10/source_notes_s21_s42_s52_s53_s54.md"
+  - "chapters/12/source_notes_s52_s53_s54.md"
+  - "chapters/13/source_notes_s21_s42_s52_s53.md"
+  - "chapters/14/source_notes_s21_s42_s52_s53_s54.md"
 rag_fragments_path: "rag/fragments/s53_la_rocca_immagini_simboli_incarnazione_mitica.jsonl"
 status: "integrated_manual_pass_pending_generated_exports"
 coverage:
