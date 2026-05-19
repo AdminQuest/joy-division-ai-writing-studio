@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-19T13:59:08",
+  "generated_at": "2026-05-19T14:04:42",
   "summary": {
-    "records_total": 5627,
+    "records_total": 5629,
     "records_by_kind": {
-      "source": 91,
-      "metadata": 160,
+      "source": 92,
+      "metadata": 161,
       "atom": 2242,
       "unknown": 786,
       "concept": 332,
@@ -21,9 +21,9 @@
     "diagnostics_total": 24394,
     "errors": 0,
     "warnings": 24394,
-    "sources_declared_in_registre_json": 66,
-    "sources_used_in_records": 51,
-    "sources_exported": 51,
+    "sources_declared_in_registre_json": 67,
+    "sources_used_in_records": 52,
+    "sources_exported": 52,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,7 +32,7 @@
     "atom": 2242,
     "chronology": 404,
     "concept": 332,
-    "metadata": 160,
+    "metadata": 161,
     "motif": 360,
     "myth": 82,
     "person": 261,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 89,
-    "source": 91,
+    "source": 92,
     "template": 354,
     "unknown": 786
   },
@@ -382,6 +382,10 @@
       "chronology": 5,
       "person": 4,
       "song": 3
+    },
+    "S57": {
+      "source": 1,
+      "metadata": 1
     },
     "S68": {
       "quote": 3,
@@ -8174,6 +8178,20 @@
           "sources/barone_directionless_so_plain_to_see/relations_s56.md",
           "sources/barone_directionless_so_plain_to_see/source.md",
           "sources/barone_directionless_so_plain_to_see/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S57",
+        "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+        "auteur": "Massimo Villani",
+        "titre": "Ti sfido a disperarti. I Joy Division e la notte del pensiero",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/villani_ti_sfido_a_disperarti/source.md"
         ]
       },
       {
