@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T11:44:03",
+  "generated_at": "2026-05-19T11:56:35",
   "status": "warning",
   "summary": {
-    "records_total": 5472,
+    "records_total": 5474,
     "records_by_kind": {
-      "source": 89,
-      "metadata": 158,
+      "source": 90,
+      "metadata": 159,
       "atom": 2209,
       "unknown": 735,
       "concept": 313,
@@ -22,9 +22,9 @@
     "diagnostics_total": 23955,
     "errors": 0,
     "warnings": 23955,
-    "sources_declared_in_registre_json": 64,
-    "sources_used_in_records": 49,
-    "sources_exported": 49,
+    "sources_declared_in_registre_json": 65,
+    "sources_used_in_records": 50,
+    "sources_exported": 50,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1137,6 +1137,20 @@
           "sources/gnocchi_interzona_burroughs_ballard/relations_s54.md",
           "sources/gnocchi_interzona_burroughs_ballard/source.md",
           "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S55",
+        "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+        "auteur": "Vincenzo Romania",
+        "titre": "A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/romania_a_guide_to_come_universo_simbolico/source.md"
         ]
       },
       {
