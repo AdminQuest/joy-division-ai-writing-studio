@@ -1,0 +1,52 @@
+id: RAG-S37-MORLEY-MANCHESTER-SCENE-NME-1977
+source_id: S37
+source_label: "S37 — Morley, Joy Division: Piece by Piece, 2008"
+source_path: "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md"
+relations_path: "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md"
+structuring_registers_path: "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md"
+specialized_registers_path: "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s37_manchester_scene_nme_1977.md"
+  - "chapters/02/source_notes_s37_manchester_scene_nme_1977.md"
+  - "chapters/05/source_notes_s37_manchester_scene_nme_1977.md"
+  - "chapters/08/source_notes_s37_manchester_scene_nme_1977.md"
+  - "chapters/13/source_notes_s37_manchester_scene_nme_1977.md"
+  - "chapters/14/source_notes_s37_manchester_scene_nme_1977.md"
+rag_fragments_path: "rag/fragments/s37_morley_manchester_scene_nme_1977.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Section V de S37"
+  pdf_pages: "38-47"
+  scope: "Article NME de Paul Morley du 30 juillet 1977 sur la scène mancunienne post-Sex Pistols"
+primary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 2"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 8"
+  - "Chapitre 13"
+key_atoms:
+  - S37-A016
+  - S37-A017
+  - S37-A018
+  - S37-A019
+  - S37-A020
+  - S37-A021
+  - S37-A022
+  - S37-A023
+  - S37-A024
+  - S37-A025
+  - S37-A026
+  - S37-A027
+writing_use: >
+  Utiliser ce passage pour documenter la scène mancunienne en juillet 1977 : Manchester comme périphérie rock
+  en voie d’autonomisation, Devoto et Buzzcocks comme catalyseurs, les lieux comme réseau, les fanzines et labels
+  comme supports d’auto-organisation, Warsaw comme groupe encore non singularisé, et la préfiguration d’une
+  « central factory » avant Factory Records.
+verification_rules:
+  - "Distinguer l’article NME contemporain du cadrage rétrospectif de Piece by Piece."
+  - "Ne pas faire de Morley une source socio-économique principale sur Manchester."
+  - "Croiser les concerts Sex Pistols, Spiral Scratch, lieux et labels avec les chronologies spécialisées."
+  - "Ne pas présenter Warsaw comme déjà central en juillet 1977."
+  - "Employer les citations directes uniquement sous forme brève et vérifiée."
