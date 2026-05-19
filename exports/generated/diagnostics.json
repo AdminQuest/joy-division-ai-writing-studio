@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-19T18:25:22",
+  "generated_at": "2026-05-19T19:02:52",
   "status": "warning",
   "summary": {
-    "records_total": 6085,
+    "records_total": 6123,
     "records_by_kind": {
       "source": 98,
-      "metadata": 167,
-      "atom": 2333,
-      "unknown": 930,
+      "metadata": 170,
+      "atom": 2348,
+      "unknown": 947,
       "concept": 391,
       "motif": 387,
       "myth": 100,
-      "quote": 496,
+      "quote": 499,
       "chronology": 429,
       "person": 289,
       "song": 109,
@@ -19,9 +19,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25658,
+    "diagnostics_total": 25866,
     "errors": 0,
-    "warnings": 25658,
+    "warnings": 25866,
     "sources_declared_in_registre_json": 72,
     "sources_used_in_records": 58,
     "sources_exported": 58,
@@ -768,11 +768,15 @@
         "auteur": "Paul Morley",
         "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
         "annee": "2008",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
+        "records": 30,
+        "atoms": 15,
+        "quotes": 3,
         "chronology": 0,
         "files": [
+          "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+          "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+          "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+          "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
           "sources/morley_piece_by_piece/source.md"
         ]
       },
@@ -99156,6 +99160,1254 @@
       "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
       "message": "Invalid value for type_unite: reception_memoire",
       "record_id": "S10-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_reception ; moyenne_pour_memoire",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_la_position_critique",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: reception_critique",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_la_position_de_Morley",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: mediation_critique",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_interpretation_de_Morley",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: analogie_structurante",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: moyenne_comme_description_retrospective",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: contexte_scene",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: moyenne_a_croiser_avec_presse_originale",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: reception_negative",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_positionnement_de_Morley",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: prudence_historiographique",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for statut: a_croiser",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: registre_influences",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for statut: verifie_a_croiser",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: construction_nominale",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_review_contemporaine",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: concert_reception",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_le_detail_textuel",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: micro_archive",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for statut: verifie_comme_temoin_de_soi",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_Morley ; non_factuel_sur_Joy_Division",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: contexte_biographique_critique",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for statut: verifie_comme_memoire",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: moyenne_pour_reconstruction",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: memoire_scene",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_le_verbatim_court",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: citation_courte",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Invalid value for type_unite: scene_relationnelle",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S37-CIT-002"
     },
     {
       "level": "warning",

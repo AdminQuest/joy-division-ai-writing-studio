@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 357 |
+| Atomes | 358 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 75 |
 | Événements chronologiques | 44 |
 | Personnes | 49 |
 | Chansons | 11 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 4 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
@@ -68,6 +69,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source :  ; type : `controverse_scene_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
   Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A009** — S37-A009 — Stiff Kittens / Warsaw : le nom comme indice d’instabilité  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `construction_nominale` ; importance : `critique` ; preuve : `moyenne`.
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
 - **S41-A026** — S41-A026 — De Stiff Kittens à Warsaw : austérité nominale, Low et premier malentendu graphique  
@@ -128,8 +131,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
-- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 
 ## 6. Autres atomes utiles
 
@@ -835,6 +836,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concert_filme | 1 |
 | source_part | 1 |
 | controverse_visuelle | 1 |
+| construction_nominale | 1 |
 | motif_historique | 1 |
 | controverse_scene_live | 1 |
 | decision_strategique_groupe | 1 |
@@ -863,7 +865,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 119 |
+| critique | 120 |
 | majeure | 33 |
 | majeur | 4 |
 | utile | 3 |

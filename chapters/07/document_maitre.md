@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 151 |
+| Atomes | 152 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
@@ -190,6 +191,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `reception_populaire` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
 - **S35-A074** — S35-A074 — « New Rose », Buzzcocks, Clash : punk comme énergie jouable  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_punk` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S37-A015** — S37-A015 — Buzzcocks comme scène principale, Warsaw comme apparition secondaire  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `scene_relationnelle` ; importance : `majeure` ; preuve : `forte`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -289,8 +292,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A004** — S72-A004 — La basse devient voix instrumentale principale  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -662,6 +663,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reception_posthume | 1 |
 | contexte_scene | 1 |
 | temoignage_biographique | 1 |
+| scene_relationnelle | 1 |
 | reception_populaire | 1 |
 | prudence_historiographique | 1 |
 | matrice_punk | 1 |
@@ -686,7 +688,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | non qualifiée | 73 |
 | critique | 53 |
-| majeure | 18 |
+| majeure | 19 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |

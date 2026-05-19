@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T18:25:39"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 253 |
+| Atomes | 255 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 10 |
 | Personnes | 22 |
 | Chansons | 1 |
-| Sources mobilisées | 38 |
+| Sources mobilisées | 39 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ generated_at: "2026-05-19T18:25:39"
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -394,9 +395,11 @@ generated_at: "2026-05-19T18:25:39"
 - postindustrial cityscapes (3)
 - no future (3)
 - imaginative historicism (3)
+- scène locale (3)
 - Ian Wood (3)
 - NME (3)
 - classe ouvriere (3)
+- Manchester post-industrielle (3)
 - slum clearance (3)
 - mémoire culturelle (3)
 - biographie contre mythe social (2)
@@ -428,9 +431,9 @@ generated_at: "2026-05-19T18:25:39"
 - sheffield (2)
 - joy division (2)
 - the fall (2)
+- scène mancunienne (2)
 - city fun (2)
 - fanzine (2)
-- scène locale (2)
 - crise sociale (2)
 - Sex Pistols (2)
 - Buzzcocks (2)
@@ -453,13 +456,11 @@ generated_at: "2026-05-19T18:25:39"
 - mémoire ouvrière (2)
 - urban studies (2)
 - David Harvey (2)
-- Manchester post-industrielle (2)
 - Manchester industriel (2)
 - géographie sociale (2)
 - logement social (2)
 - shrinking city (2)
 - Factory Records (2)
-- Lower Broughton (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -613,6 +614,7 @@ generated_at: "2026-05-19T18:25:39"
 | politique_urbaine | 3 |
 | contexte_biographique | 3 |
 | tension_documentaire | 2 |
+| contexte_scene | 2 |
 | acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
 | relation_esthetique | 2 |
@@ -633,7 +635,6 @@ generated_at: "2026-05-19T18:25:39"
 | formation_sociale | 2 |
 | scene_ecoute | 2 |
 | mediation_visuelle | 1 |
-| contexte_scene | 1 |
 | prudence_conceptuelle | 1 |
 | compte_rendu_critique | 1 |
 | methode_sociologique | 1 |
@@ -697,6 +698,7 @@ generated_at: "2026-05-19T18:25:39"
 | culture_urbaine | 1 |
 | paysage_urbain | 1 |
 | urbanisme_vécu | 1 |
+| memoire_scene | 1 |
 | contexte_discursif | 1 |
 | reaction_politique | 1 |
 | conflit_institutionnel | 1 |
@@ -739,7 +741,7 @@ generated_at: "2026-05-19T18:25:39"
 |---|---|
 | non qualifiée | 151 |
 | critique | 48 |
-| majeure | 36 |
+| majeure | 38 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

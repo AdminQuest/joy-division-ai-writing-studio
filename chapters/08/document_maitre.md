@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 298 |
+| Atomes | 299 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 36 |
 | Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 26 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 7 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
@@ -95,6 +96,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source :  ; type : `archive_live` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A102** — S35-A102 — Londres et le disque : deux objectifs DIY, Ian moteur mais démocratie réelle  
   Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A010** — S37-A010 — Première scène Warsaw : Electric Circus, 29 mai 1977  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `concert_reception` ; importance : `critique` ; preuve : `forte_pour_review_contemporaine`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -131,8 +134,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage Hook + citation Hannett rapportée`.
 - **S41-A083** — S41-A083 — « Digital » et « Glass » : première réussite Hannett, ego de bassiste et sampler Factory  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
-- **S41-A093** — S41-A093 — Timeline Three comme armature 1978 : de Pips au Hope & Anchor  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
 
 ## 6. Autres atomes utiles
 
@@ -238,6 +239,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
 - **S41-A084** — S41-A084 — Assembler Factory Sample : travail manuel, Saville retardataire et Wilson en père Noël punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
+- **S41-A093** — S41-A093 — Timeline Three comme armature 1978 : de Pips au Hope & Anchor  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
 - **S41-A094** — S41-A094 — M24J : Factory avant Joy Division, management project et origine institutionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A095** — S41-A095 — Arrow Studios et sorties 1978 : verrouillage sessionographique contre mémoire flottante  
@@ -294,8 +297,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
 - **S41-A155** — S41-A155 — « I Remember Nothing » : jam sans ordre, Transcendent 2000 et atmosphère finale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
-- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
 
 ## 7. Citations disponibles
 
@@ -745,6 +746,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lecture_reprise | 1 |
 | fait_contractuel | 1 |
 | concert_filme | 1 |
+| concert_reception | 1 |
 | culture_bootleg | 1 |
 | culture_materielle | 1 |
 | cartographie_scene | 1 |
@@ -796,7 +798,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 136 |
+| critique | 137 |
 | non qualifiée | 123 |
 | majeur | 18 |
 | majeure | 17 |

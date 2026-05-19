@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 138 |
+| Atomes | 139 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 52 |
 | Événements chronologiques | 24 |
 | Personnes | 46 |
 | Chansons | 13 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -150,6 +151,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `scene_travail_industriel` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S35-A062** — S35-A062 — Manchester venues : Stoneground / Mayflower, Hardrock et rock sans catégories rigides  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
+- **S37-A005** — S37-A005 — Manchester post-industrielle comme contrainte à fuir et à inventer  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_scene` ; importance : `majeure` ; preuve : `moyenne_comme_description_retrospective`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
@@ -290,8 +293,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 - **S76-A085** — S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
-- **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
 
 ## 7. Citations disponibles
 
@@ -439,6 +440,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Cabaret Voltaire (2)
 - Londres (2)
 - architecture sonore (2)
+- scène locale (2)
 - factory (2)
 - tony wilson (2)
 - spatialisation sonore (2)
@@ -503,7 +505,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - romantisme industriel (1)
 - Russell Club (1)
 - Moss Side (1)
-- West Indian cultural centre (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -719,6 +720,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | sociabilite_scene | 1 |
 | portrait_social | 1 |
 | concert_europeen | 1 |
+| contexte_scene | 1 |
 | scene_travail_industriel | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
@@ -736,7 +738,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | critique | 69 |
-| majeure | 40 |
+| majeure | 41 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

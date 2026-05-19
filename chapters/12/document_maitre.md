@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 403 |
+| Atomes | 404 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 12 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 9 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 3 | 0 |
@@ -160,6 +161,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source :  ; type : `tension_domestique` ; importance : `majeure` ; preuve : `non qualifié`.
 - **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
   Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
+- **S37-A012** — S37-A012 — La mort du père de Morley comme arrière-plan de son écriture mancunienne  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_biographique_critique` ; importance : `majeure` ; preuve : `forte_pour_Morley ; non_factuel_sur_Joy_Division`.
 - **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
@@ -292,8 +295,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A068** — S45-A068 — Hope and Anchor : déception londonienne et première crise reconnue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct indirect + récit des membres du groupe`.
-- **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 7. Citations disponibles
 
@@ -455,6 +456,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Britannia Row (5)
 - non-monocausalité médicale (4)
 - film (4)
+- suicide (4)
 - réception (4)
 - fatigue (4)
 - mythe (4)
@@ -467,7 +469,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - backward masking (3)
 - contrôle (3)
 - Martin Hannett (3)
-- suicide (3)
 - récits concurrents (3)
 - vérité conjugale différée (2)
 - corps exposé (2)
@@ -896,6 +897,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | decision_collective | 1 |
 | transition_vocale | 1 |
 | transition_album | 1 |
+| contexte_biographique_critique | 1 |
 | scene_sante_prudente | 1 |
 | contexte_social | 1 |
 | rencontre_fondatrice | 1 |
@@ -931,7 +933,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | critique | 242 |
 | non qualifiée | 110 |
-| majeure | 33 |
+| majeure | 34 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

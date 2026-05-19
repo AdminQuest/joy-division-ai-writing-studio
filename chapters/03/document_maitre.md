@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 398 |
+| Atomes | 399 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 35 |
 | Événements chronologiques | 23 |
 | Personnes | 33 |
 | Chansons | 27 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 48 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
@@ -291,12 +292,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `ecoute_demo` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S35-A101** — S35-A101 — Ivy Lane : verrouiller les portes, punir par les drums  
   Source :  ; type : `scene_domestique` ; importance : `utile` ; preuve : `non qualifié`.
+- **S37-A008** — S37-A008 — Les influences discutées : Eno, Cale, Kraftwerk, Can, Iggy, Bowie  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `registre_influences` ; importance : `utile` ; preuve : `moyenne`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-018** — S41-018 — Apprendre « mal » : naissance d’un style mélodique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -791,6 +792,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | professionnalisation | 1 |
 | media_scene | 1 |
 | transition_artistique | 1 |
+| registre_influences | 1 |
 | scene_generationnelle | 1 |
 | scene_biographique | 1 |
 | motif_geographique | 1 |
@@ -837,8 +839,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | non qualifiée | 211 |
 | critique | 123 |
 | majeure | 30 |
+| utile | 11 |
 | majeur | 10 |
-| utile | 10 |
 | critique pour Chapitre 3 | 3 |
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitres 1 et 3 | 1 |

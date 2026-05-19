@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T18:25:39"
+generated_at: "2026-05-19T19:03:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1132 |
+| Atomes | 1141 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
 | Personnes | 152 |
 | Chansons | 34 |
-| Sources mobilisées | 52 |
+| Sources mobilisées | 53 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 9 | 4 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 9 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -498,10 +499,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Joy Division (25)
 - Unknown Pleasures (22)
 - Peter Saville (20)
+- NME (17)
 - Rob Gretton (17)
 - Love Will Tear Us Apart (17)
 - prudence historiographique (17)
-- NME (16)
 - Atmosphere (14)
 - Tony Wilson (14)
 - Factory Records (14)
@@ -522,17 +523,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Closer (9)
 - authenticité (9)
 - Manchester (8)
+- suicide (8)
 - post-punk (8)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
-- suicide (7)
+- Warsaw (8)
 - archive (7)
 - Bernard Sumner (7)
-- Warsaw (7)
 - Martin Hannett (7)
+- Peter Hook (7)
 - management (7)
 - factory (7)
+- critique musicale (6)
 - joy division (6)
 - new pop (6)
 - goth (6)
@@ -542,11 +545,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - héritage (6)
 - charts (6)
 - pulsar (6)
-- Peter Hook (6)
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
-- critique musicale (5)
 - manchester (5)
 - Kevin Cummins (5)
 - noir et blanc (5)
@@ -556,6 +557,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Paul Morley (5)
 - imagerie nazie (5)
 - Digital (5)
+- Electric Circus (5)
 - love will tear us apart (5)
 - architecture sonore (5)
 - Peel Sessions (5)
@@ -564,13 +566,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - réception posthume (4)
 - sonic hauntology (4)
 - no future (4)
+- scène mancunienne (4)
 - fanzine (4)
 - paul morley (4)
 - télévision (4)
 - 1982 (4)
 - photographie (4)
-- fans (4)
-- historiographie (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -708,7 +709,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | concept_structurant | 39 |
 | analyse | 35 |
-| prudence_methodologique | 33 |
+| prudence_methodologique | 34 |
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
@@ -785,6 +786,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
+| prudence_historiographique | 3 |
 | reference_theorique | 3 |
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
@@ -821,7 +823,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_formelle | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
-| prudence_historiographique | 2 |
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
@@ -1183,6 +1184,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_vocale | 1 |
 | transition_album | 1 |
 | reception_memoire | 1 |
+| mediation_critique | 1 |
+| analogie_structurante | 1 |
+| concert_reception | 1 |
+| micro_archive | 1 |
+| contexte_biographique_critique | 1 |
+| memoire_scene | 1 |
+| citation_courte | 1 |
 | discours_religieux | 1 |
 | scene_generationnelle | 1 |
 | scene_adolescente_prudente | 1 |
@@ -1286,10 +1294,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 409 |
-| majeure | 115 |
+| critique | 413 |
+| majeure | 119 |
 | majeur | 28 |
-| utile | 16 |
+| utile | 17 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |
