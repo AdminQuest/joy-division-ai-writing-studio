@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T08:23:06"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 241 |
-| Atomes critiques / majeurs | 7 |
+| Atomes | 245 |
+| Atomes critiques / majeurs | 11 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
-| Personnes | 3 |
+| Personnes | 5 |
 | Chansons | 3 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ generated_at: "2026-05-19T08:23:06"
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
@@ -60,6 +61,10 @@ generated_at: "2026-05-19T08:23:06"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S21-A002** — S21-A002 — City Fun comme fanzine mancunien et source primaire locale  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `source_primaire_mediatisee` ; importance : `critique` ; preuve : `archive_numerique_a_citer_item_par_item`.
+- **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S35-A088** — S35-A088 — Record Mirror / Rafters : la critique rock conduit Morris vers Rob Gretton  
   Source :  ; type : `scene_mediation_reseau` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A090** — S35-A090 — Rafters / Fast Breeder : guerre de rang et naissance différée du manager Gretton  
@@ -70,6 +75,10 @@ generated_at: "2026-05-19T08:23:06"
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `lecture_critique`.
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
+- **S21-A004** — S21-A004 — City Fun comme réseau de contributeurs et de sociabilités locales  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `reseau_acteurs` ; importance : `majeure` ; preuve : `reseau_a_verifier_par_notice`.
+- **S21-A007** — S21-A007 — Voix féminines, camp et critique des normes  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `voix_acteurs` ; importance : `majeure` ; preuve : `a_verifier_par_items`.
 - **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
 - **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
@@ -251,6 +260,8 @@ generated_at: "2026-05-19T08:23:06"
 
 ## 9. Personnes et acteurs
 
+- PERS-S21-001 — Liz Naylor
+- PERS-S21-002 — Cath Carroll
 - PERS-002 — Peter Hook
 - PERS-006 — Rob Gretton
 - PERS-007 — Tony Wilson
@@ -348,12 +359,12 @@ generated_at: "2026-05-19T08:23:06"
 
 ### 12.1. Motifs dominants
 
+- Manchester (2)
 - Rafters (2)
 - géographie globale (1)
 - bas budget (1)
 - liberté créative (1)
 - tournage local (1)
-- Manchester (1)
 - déracinement (1)
 - universalisation (1)
 - recontextualisation (1)
@@ -379,6 +390,15 @@ generated_at: "2026-05-19T08:23:06"
 - Fast Breeder (1)
 - us against the world (1)
 - Rob Gretton (1)
+- fanzine (1)
+- scène locale (1)
+- source primaire (1)
+- contributeurs (1)
+- lecteurs (1)
+- lieux (1)
+- sociabilité (1)
+- Liz Naylor (1)
+- Cath Carroll (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -394,6 +414,10 @@ generated_at: "2026-05-19T08:23:06"
 - S35-A088 — prepare → S35-A090
 - S35-A090 — prolonge → S35-A088
 - S35-A090 — croise → S41-A032
+- S21-A002 — complete → S22-A001
+- S21-A004 — a_croiser → S22
+- S21-A007 — a_croiser → S22-A009
+- S21-A010 — articule → S22
 
 ## 13. Distribution documentaire
 
@@ -515,6 +539,10 @@ generated_at: "2026-05-19T08:23:06"
 | reception_scene | 1 |
 | contexte_economique | 1 |
 | portrait | 1 |
+| source_primaire_mediatisee | 1 |
+| reseau_acteurs | 1 |
+| voix_acteurs | 1 |
+| synthese_usage_livre | 1 |
 | controverse | 1 |
 
 ### 13.2. Importance documentaire
@@ -522,8 +550,8 @@ generated_at: "2026-05-19T08:23:06"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
-| critique | 5 |
-| majeure | 2 |
+| critique | 7 |
+| majeure | 4 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

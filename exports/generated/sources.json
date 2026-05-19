@@ -329,12 +329,16 @@
     "auteur": "Manchester Digital Music Archive",
     "titre": "City Fun: The Hidden History of Manchester's Favourite Fanzine",
     "annee": "s.d. / page consultée 2026",
-    "records": 2,
-    "atoms": 0,
-    "quotes": 0,
-    "chronology": 0,
+    "records": 63,
+    "atoms": 10,
+    "quotes": 4,
+    "chronology": 2,
     "files": [
-      "sources/mdmarchive_city_fun_hidden_history/source.md"
+      "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "sources/mdmarchive_city_fun_hidden_history/source.md",
+      "sources/mdmarchive_city_fun_hidden_history/source_part_01.md"
     ]
   },
   {
@@ -343,12 +347,13 @@
     "auteur": "David Wilkinson",
     "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
     "annee": "2018",
-    "records": 57,
+    "records": 58,
     "atoms": 16,
     "quotes": 0,
     "chronology": 0,
     "files": [
       "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+      "registers/s21_mdmarchive_city_fun_structuring_registers.md",
       "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
       "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
       "sources/wilkinson_city_fun_politics/relations_stabilisees.md",

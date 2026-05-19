@@ -1137,6 +1137,154 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-fanzine_materiel_diy",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_materiel_diy",
+      "type_unite": "concept",
+      "source_id": "S21",
+      "nom": "fanzine matériel DIY",
+      "definition": "Lecture du fanzine comme objet matériel pauvre, bricolé, photocopié, mis en page collectivement et inscrit dans une économie de publication indépendante.\n",
+      "sources": [
+        "S21"
+      ],
+      "atomes": [
+        "S21-A003"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-corpus_primaire_mediatise",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-corpus_primaire_mediatise",
+      "type_unite": "concept",
+      "source_id": "S21",
+      "nom": "corpus primaire médiatisé",
+      "definition": "Ensemble de traces primaires ou quasi primaires accessibles par une médiation archivistique : scans, notices, légendes, crédits et commentaires curatoriaux doivent être distingués.\n",
+      "sources": [
+        "S21"
+      ],
+      "atomes": [
+        "S21-A001",
+        "S21-A002",
+        "S21-A010"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-fanzine_observatoire_local",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-fanzine_observatoire_local",
+      "type_unite": "concept",
+      "source_id": "S21",
+      "nom": "fanzine comme observatoire local",
+      "definition": "Fonction par laquelle City Fun permet d’observer la scène mancunienne dans ses échanges, goûts, conflits, sociabilités et jugements avant sa canonisation rétrospective.\n",
+      "sources": [
+        "S21"
+      ],
+      "atomes": [
+        "S21-A002",
+        "S21-A004",
+        "S21-A005"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-patrimonialisation_fanzine",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-patrimonialisation_fanzine",
+      "type_unite": "concept",
+      "source_id": "S21",
+      "nom": "patrimonialisation numérique du fanzine",
+      "definition": "Processus par lequel un imprimé local, éphémère et pauvre devient archive numérique, objet légendé, ressource consultable et élément du patrimoine musical de Manchester.\n",
+      "sources": [
+        "S21"
+      ],
+      "atomes": [
+        "S21-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-chaine_probatoire_fanzine",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-chaine_probatoire_fanzine",
+      "type_unite": "concept",
+      "source_id": "S21",
+      "nom": "chaîne probatoire fanzine",
+      "definition": "Méthode consistant à partir d’un item précis de City Fun dans S21, puis à mobiliser S22 pour interpréter les tensions politiques, médiatiques et sociales révélées par cet item.\n",
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "atomes": [
+        "S21-A010"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-Curtis_lecteur_ecrivain",
     "file": "registers/s54_gnocchi_structuring_registers.md",
     "heading": "Concepts",

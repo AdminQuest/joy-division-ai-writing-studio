@@ -588,6 +588,105 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-graphisme_pauvre_fanzine",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-graphisme_pauvre_fanzine",
+      "type_unite": "motif",
+      "source_id": "S21",
+      "nom": "graphisme pauvre de fanzine",
+      "definition": "Motif des supports bricolés, photocopiés, collés, typographiquement instables, où le manque de moyens devient forme expressive et politique.\n",
+      "atomes": [
+        "S21-A003"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-scene_au_ras_du_sol",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-scene_au_ras_du_sol",
+      "type_unite": "motif",
+      "source_id": "S21",
+      "nom": "scène au ras du sol",
+      "definition": "Manière de lire Manchester depuis les supports locaux, les contributeurs, les lecteurs, les annonces, les lieux et les micro-conflits plutôt que depuis les récits canoniques.\n",
+      "atomes": [
+        "S21-A004",
+        "S21-A005"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-rire_oppositionnel",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-rire_oppositionnel",
+      "type_unite": "motif",
+      "source_id": "S21",
+      "nom": "rire oppositionnel",
+      "definition": "Usage de l’humour, de la satire, du camp et de la polémique comme instruments de distinction, de critique sociale et de production d’une voix post-punk locale.\n",
+      "atomes": [
+        "S21-A007",
+        "S21-A008"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-archive_de_contre_culture",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-archive_de_contre_culture",
+      "type_unite": "motif",
+      "source_id": "S21",
+      "nom": "archive de contre-culture",
+      "definition": "Transformation d’un objet éphémère et anti-institutionnel en trace conservée, numérisée et valorisée par une institution mémorielle communautaire.\n",
+      "atomes": [
+        "S21-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-understatement_curtis",
     "file": "registers/s54_gnocchi_structuring_registers.md",
     "heading": "Motifs",

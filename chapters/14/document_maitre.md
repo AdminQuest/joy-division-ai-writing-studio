@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1009 |
+| Atomes | 1016 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 129 |
-| Événements chronologiques | 76 |
-| Personnes | 106 |
-| Chansons | 21 |
-| Sources mobilisées | 41 |
+| Citations | 132 |
+| Événements chronologiques | 78 |
+| Personnes | 110 |
+| Chansons | 22 |
+| Sources mobilisées | 42 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 7 | 3 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 11 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
@@ -86,6 +87,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S21-A001** — S21-A001 — S21 comme exposition archivistique, non comme article universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S21-A003** — S21-A003 — Matérialité DIY : photocopie, bricolage et économie pauvre de publication  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `motif_structurant` ; importance : `critique` ; preuve : `lecture_materielle_des_items`.
+- **S21-A006** — S21-A006 — City Fun, Factory et Tony Wilson : n’utiliser que les items explicitement concernés  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_ciblage` ; importance : `critique` ; preuve : `prudence_probatoire`.
+- **S21-A008** — S21-A008 — Humour, satire et polémique de fanzine  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `motif_discursif` ; importance : `critique` ; preuve : `lecture_discursive_a_contextualiser`.
+- **S21-A009** — S21-A009 — MDMArchive et la patrimonialisation numérique de City Fun  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `patrimonialisation` ; importance : `critique` ; preuve : `interpretation_de_mediation_archivistique`.
+- **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
@@ -136,18 +149,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire théorique`.
 - **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
-- **S39-A007** — S39-A007 — Permanence paradoxale : un groupe fixe dans une modernité instable  
-  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_reception` ; importance : `critique` ; preuve : `interprétation rétrospective appuyée sur un cadre théorique`.
-- **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
-  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
-- **S40-A003** — S40-A003 — No future et capitalisme globalisé : du cri punk à l’impossibilité contemporaine  
-  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire critique`.
-- **S40-A006** — S40-A006 — Joy Division et les spectres : corpus clos, présence persistante  
-  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `lecture_reception` ; importance : `critique` ; preuve : `source secondaire critique`.
-- **S40-A008** — S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division  
-  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
-- **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -231,6 +232,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S21-A007** — S21-A007 — Voix féminines, camp et critique des normes  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `voix_acteurs` ; importance : `majeure` ; preuve : `a_verifier_par_items`.
 - **S22-A004** — S22-A004 — New pop, marché, indépendance : *City Fun* contre l’équation qualité/professionnalisation  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `debat_culturel` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-A006** — S22-A006 — Factory Records et *City Fun* : conflit esthétique, classe et éducation  
@@ -309,8 +312,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
 - **S29-A019** — S29-A019 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `forte`.
-- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 
 ## 7. Citations disponibles
 
@@ -371,6 +372,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
+- CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
+- CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -395,8 +398,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1980-026 — Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.
 - CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
-- CHR-S76-1980-030 — Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.
-- CHR-S76-1980-032 — Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.
 
 ## 9. Personnes et acteurs
 
@@ -425,6 +426,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S53-009 — Arthur Schopenhauer
 - PERS-S53-010 — Friedrich Nietzsche
 - PERS-S53-011 — Michael Winterbottom
+- PERS-S21-001 — Liz Naylor
+- PERS-S21-002 — Cath Carroll
+- PERS-S21-006 — Tony Wilson
+- PERS-S21-007 — Paul Morley
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -436,10 +441,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-007 — Tony Wilson
 - PERS-008 — Martin Hannett
 - PERS-009 — Peter Saville
-- PERS-010 — Annick Honoré
-- PERS-S76-051 — Tony Davidson / T. J. Davidson
-- PERS-S76-053 — Mark Reeder
-- PERS-S76-054 — Alan Wise
 
 ## 10. Chansons rattachées
 
@@ -453,6 +454,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S54-INTERZONE — Interzone
+- SONG-S21-JOY_DIVISION — Joy Division
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -552,24 +554,24 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Tony Wilson (20)
+- Tony Wilson (21)
 - Annik Honoré (18)
 - Rob Gretton (17)
+- Factory (11)
 - Peter Saville (10)
-- Factory (10)
 - Buzzcocks tour (9)
 - Ian Curtis (9)
 - Unknown Pleasures (9)
 - Transmission (8)
 - Control (8)
 - fatigue (8)
+- prudence (7)
 - Manchester (7)
 - She’s Lost Control (7)
 - John Peel (7)
 - Electric Circus (7)
 - Kevin Cummins (7)
 - Love Will Tear Us Apart (6)
-- prudence (6)
 - Haçienda (6)
 - NME (5)
 - Atmosphere (5)
@@ -578,6 +580,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
+- Paul Morley (5)
 - Sordide Sentimental (5)
 - Closer (5)
 - Gretton (5)
@@ -591,7 +594,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - So It Goes (4)
 - Shadowplay (4)
 - Burroughs (4)
-- radio (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -685,7 +687,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 23 |
+| prudence_methodologique | 24 |
 | concept_structurant | 23 |
 | memoire | 14 |
 | reception_live | 12 |
@@ -756,10 +758,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
+| motif_structurant | 3 |
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | conclusion_historiographique | 3 |
+| motif_discursif | 3 |
 | culture_materielle | 3 |
 | interpretation | 3 |
 | song_session | 3 |
@@ -772,6 +776,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | critique_historiographique | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
+| synthese_usage_livre | 2 |
 | rencontre_fondatrice | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
@@ -794,7 +799,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | positionnement | 2 |
 | mémoire | 2 |
 | reference_theorique | 2 |
-| motif_structurant | 2 |
 | controverse_biographique | 2 |
 | comparaison_critique | 2 |
 | analyse_pochette | 2 |
@@ -820,7 +824,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bascule_tournee | 2 |
 | concert_archive | 2 |
 | politique_urbaine | 2 |
-| motif_discursif | 2 |
 | scene_sociale_style | 2 |
 | formation_culturelle | 2 |
 | scene_ecoute | 2 |
@@ -854,7 +857,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_groupe | 1 |
 | motif_culturel | 1 |
 | scene_mythographique | 1 |
-| synthese_usage_livre | 1 |
 | reception_nominale | 1 |
 | lieu_structurant | 1 |
 | transition_processus_creatif | 1 |
@@ -1183,6 +1185,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | portrait_fonctionnel | 1 |
 | contexte_scene | 1 |
 | concept_transversal | 1 |
+| prudence_ciblage | 1 |
+| voix_acteurs | 1 |
+| patrimonialisation | 1 |
 | release_or_session | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
@@ -1199,8 +1204,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 313 |
-| majeure | 91 |
+| critique | 319 |
+| majeure | 92 |
 | majeur | 28 |
 | utile | 14 |
 | structurante | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 242 |
+| Atomes | 243 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 35 |
-| Événements chronologiques | 17 |
+| Événements chronologiques | 18 |
 | Personnes | 37 |
 | Chansons | 10 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 1 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
@@ -62,6 +63,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
+- **S21-A009** — S21-A009 — MDMArchive et la patrimonialisation numérique de City Fun  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `patrimonialisation` ; importance : `critique` ; preuve : `interpretation_de_mediation_archivistique`.
 - **S35-A017** — S35-A017 — *Unknown Pleasures* : écart entre scène, studio et réception interne  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `album_production` ; importance : `critique` ; preuve : `forte`.
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
@@ -128,8 +131,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct rétrospectif, scène privée difficilement corroborable`.
 - **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -215,6 +216,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A079** — S45-A079 — Femmes bannies et male bonding : coût genré de la réussite  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
@@ -291,8 +294,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S45-A135** — S45-A135 — Annik au Moonlight : rebuff intime après crise publique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage de Terry Mason rapporté par Deborah`.
-- **S45-A136** — S45-A136 — Overdose du 7 avril : note, Annik et ignorance de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct ; note suicidaire rapportée`.
 
 ## 7. Citations disponibles
 
@@ -344,6 +345,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
 - CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
+- CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -758,6 +760,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | acteur_image | 1 |
 | image_groupe | 1 |
 | fait_biographique | 1 |
+| patrimonialisation | 1 |
 | mythe | 1 |
 | album | 1 |
 | album_reception_object | 1 |
@@ -770,7 +773,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 121 |
+| critique | 122 |
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 15 |

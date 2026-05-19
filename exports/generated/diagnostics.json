@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T08:22:51",
+  "generated_at": "2026-05-19T08:53:46",
   "status": "warning",
   "summary": {
-    "records_total": 5202,
+    "records_total": 5258,
     "records_by_kind": {
       "source": 87,
       "metadata": 156,
-      "atom": 2163,
-      "unknown": 647,
-      "concept": 291,
-      "motif": 339,
-      "myth": 62,
-      "quote": 422,
-      "chronology": 378,
-      "person": 225,
-      "song": 76,
+      "atom": 2173,
+      "unknown": 666,
+      "concept": 296,
+      "motif": 343,
+      "myth": 65,
+      "quote": 426,
+      "chronology": 380,
+      "person": 232,
+      "song": 78,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23286,
+    "diagnostics_total": 23422,
     "errors": 0,
-    "warnings": 23286,
+    "warnings": 23422,
     "sources_declared_in_registre_json": 62,
     "sources_used_in_records": 47,
     "sources_exported": 47,
@@ -580,12 +580,16 @@
         "auteur": "Manchester Digital Music Archive",
         "titre": "City Fun: The Hidden History of Manchester's Favourite Fanzine",
         "annee": "s.d. / page consultée 2026",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 63,
+        "atoms": 10,
+        "quotes": 4,
+        "chronology": 2,
         "files": [
-          "sources/mdmarchive_city_fun_hidden_history/source.md"
+          "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+          "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+          "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+          "sources/mdmarchive_city_fun_hidden_history/source.md",
+          "sources/mdmarchive_city_fun_hidden_history/source_part_01.md"
         ]
       },
       {
@@ -594,12 +598,13 @@
         "auteur": "David Wilkinson",
         "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
         "annee": "2018",
-        "records": 57,
+        "records": 58,
         "atoms": 16,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+          "registers/s21_mdmarchive_city_fun_structuring_registers.md",
           "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
           "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
           "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
@@ -118733,6 +118738,606 @@
     },
     {
       "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S21-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: source_primaire_mediatisee",
+      "record_id": "S21-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S21-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: reseau_acteurs",
+      "record_id": "S21-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: observation_scene",
+      "record_id": "S21-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_ciblage",
+      "record_id": "S21-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: voix_acteurs",
+      "record_id": "S21-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "record_id": "S21-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: patrimonialisation",
+      "record_id": "S21-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S21-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S21-010"
+    },
+    {
+      "level": "warning",
       "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
       "message": "Missing required field: concepts",
       "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2"
@@ -121961,6 +122566,24 @@
     },
     {
       "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S21-MDMARCHIVE-CITY-FUN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S21-CITY-FUN-FANZINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S21-WILKINSON-2018"
+    },
+    {
+      "level": "warning",
       "file": "registers/s54_gnocchi_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S54-GNOCCHI-2021"
@@ -122732,6 +123355,204 @@
       "file": "registers/s49_farci_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S49-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S21-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S21-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S21-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S21-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S21-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S21-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S21-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S21-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S21-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S21-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier item par item",
+      "record_id": "CHR-S21-1978-1984-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S21-2026-05-19-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S21-2026-05-19-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Invalid value for certainty: interne_au_workflow",
+      "record_id": "CHR-S21-2026-05-19-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S21-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S21-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S21-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S21-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S21-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S21-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S21-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S21-JOY_DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S21-THE_FALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S21-THE_FALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S21-THE_FALL"
     },
     {
       "level": "warning",

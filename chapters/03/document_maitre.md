@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 392 |
+| Atomes | 393 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 22 |
 | Personnes | 31 |
 | Chansons | 25 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 1 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
@@ -62,6 +63,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 5. Atomes critiques ou majeurs
 
+- **S21-A005** — S21-A005 — City Fun comme observatoire de la scène en train de se faire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `observation_scene` ; importance : `critique` ; preuve : `trace_contemporaine_mediatisee`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
@@ -130,8 +133,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 - **S41-A046** — S41-A046 — Pressage raté : quatre titres, sillons trop serrés et son muffled  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
-- **S41-A051** — S41-A051 — Morris créatif et conflit Curtis/Sumner : mur Iggy contre espace Velvet  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -814,13 +815,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influences | 1 |
 | transition_esthetique | 1 |
 | reception | 1 |
+| observation_scene | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 118 |
+| critique | 119 |
 | majeure | 29 |
 | majeur | 10 |
 | utile | 10 |

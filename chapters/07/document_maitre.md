@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 143 |
+| Atomes | 146 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 10 |
+| Citations | 12 |
 | Événements chronologiques | 16 |
 | Personnes | 21 |
 | Chansons | 18 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 8 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 3 | 2 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
@@ -67,6 +68,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
 - **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S21-A001** — S21-A001 — S21 comme exposition archivistique, non comme article universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S21-A003** — S21-A003 — Matérialité DIY : photocopie, bricolage et économie pauvre de publication  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `motif_structurant` ; importance : `critique` ; preuve : `lecture_materielle_des_items`.
+- **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
@@ -121,12 +128,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -297,6 +298,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -456,11 +459,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 ### 12.1. Motifs dominants
 
 - Transmission (4)
+- DIY (4)
 - transe (3)
 - danse (3)
 - radio (3)
 - silence (3)
-- DIY (3)
 - texte-chanson (2)
 - Shadowplay (2)
 - Interzone (2)
@@ -593,6 +596,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reception | 4 |
 | scene_fondatrice | 4 |
 | concept_structurant | 3 |
+| prudence_methodologique | 3 |
 | lecture | 3 |
 | analyse_video | 2 |
 | synthese_argumentative | 2 |
@@ -600,7 +604,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
 | lecture_chanson | 2 |
-| prudence_methodologique | 2 |
 | analyse_pochette | 2 |
 | controverse | 2 |
 | design | 2 |
@@ -666,13 +669,15 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | réception_interne | 1 |
 | portrait_technique | 1 |
 | concept_transversal | 1 |
+| motif_structurant | 1 |
+| synthese_usage_livre | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 46 |
+| critique | 49 |
 | majeure | 17 |
 | majeur | 3 |
 | utile | 3 |

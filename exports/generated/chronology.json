@@ -4964,6 +4964,63 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S21-1978-1984-001",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "CHR-S21-1978-1984-001",
+      "type_unite": "chronology",
+      "source_id": "S21",
+      "date": "1978-1984",
+      "precision_date": "plage_a_verifier",
+      "event": "Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.",
+      "location": "Manchester",
+      "people": [
+        "Liz Naylor",
+        "Cath Carroll",
+        "Andy Zero",
+        "Martin X",
+        "Neil Hargreaves"
+      ],
+      "songs": [],
+      "certainty": "à vérifier item par item",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S21-2026-05-19-001",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "CHR-S21-2026-05-19-001",
+      "type_unite": "chronology",
+      "source_id": "S21",
+      "date": "2026-05-19",
+      "precision_date": "jour",
+      "event": "Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.",
+      "location": "web / Manchester Digital Music Archive",
+      "people": [],
+      "songs": [],
+      "certainty": "interne_au_workflow",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S76-1978-007",
     "file": "registers/chronology/s76_torn_apart_chronology_part_06.md",
     "heading": "CHR-S76-1978-007 — Gretton propose ses services à Bernard Sumner",

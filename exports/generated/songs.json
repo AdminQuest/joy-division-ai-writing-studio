@@ -466,6 +466,47 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S21-JOY_DIVISION",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chansons / groupes",
+    "data": {
+      "id": "SONG-S21-JOY_DIVISION",
+      "type_unite": "song",
+      "source_id": "S21",
+      "song": "Joy Division",
+      "usage": "Le groupe ne doit être mobilisé via S21 que si un item City Fun ou MDMArchive le mentionne explicitement.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S21-THE_FALL",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chansons / groupes",
+    "data": {
+      "id": "SONG-S21-THE_FALL",
+      "type_unite": "song",
+      "source_id": "S21",
+      "song": "The Fall",
+      "usage": "Groupe voisin de la scène mancunienne pouvant apparaître dans City Fun ; à citer seulement depuis un item précis.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S29-001",
     "file": "registers/songs/s29_goddard_songs.md",
     "heading": "SONG-S29-001 — « Dead Souls »",
@@ -935,7 +976,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3316",
+    "id": "NO_ID::registers/songs/master_songs.md::3372",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

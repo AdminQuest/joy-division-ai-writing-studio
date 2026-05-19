@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T08:23:04",
+  "generated_at": "2026-05-19T08:54:00",
   "summary": {
-    "records_total": 5202,
+    "records_total": 5258,
     "records_by_kind": {
       "source": 87,
       "metadata": 156,
-      "atom": 2163,
-      "unknown": 647,
-      "concept": 291,
-      "motif": 339,
-      "myth": 62,
-      "quote": 422,
-      "chronology": 378,
-      "person": 225,
-      "song": 76,
+      "atom": 2173,
+      "unknown": 666,
+      "concept": 296,
+      "motif": 343,
+      "myth": 65,
+      "quote": 426,
+      "chronology": 380,
+      "person": 232,
+      "song": 78,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23286,
+    "diagnostics_total": 23422,
     "errors": 0,
-    "warnings": 23286,
+    "warnings": 23422,
     "sources_declared_in_registre_json": 62,
     "sources_used_in_records": 47,
     "sources_exported": 47,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2163,
-    "chronology": 378,
-    "concept": 291,
+    "atom": 2173,
+    "chronology": 380,
+    "concept": 296,
     "metadata": 156,
-    "motif": 339,
-    "myth": 62,
-    "person": 225,
-    "quote": 422,
+    "motif": 343,
+    "myth": 65,
+    "person": 232,
+    "quote": 426,
     "quote_batch": 1,
     "rules": 1,
-    "song": 76,
+    "song": 78,
     "source": 87,
     "template": 354,
-    "unknown": 647
+    "unknown": 666
   },
   "records_by_source": {
     "S02": {
@@ -146,15 +146,24 @@
       "unknown": 9
     },
     "S21": {
+      "atom": 10,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 19,
+      "concept": 5,
+      "motif": 4,
+      "myth": 3,
+      "quote": 4,
+      "chronology": 2,
+      "person": 7,
+      "song": 2
     },
     "S22": {
       "metadata": 5,
       "source": 1,
       "unknown": 16,
       "atom": 16,
-      "concept": 8,
+      "concept": 9,
       "motif": 7,
       "myth": 4
     },
@@ -403,19 +412,19 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 395,
-    "Chapitre 10": 372,
+    "Chapitre 10": 378,
     "Chapitre 11": 336,
     "Chapitre 12": 583,
     "Chapitre 13": 194,
-    "Chapitre 14": 1429,
-    "Chapitre 2": 489,
-    "Chapitre 3": 587,
+    "Chapitre 14": 1457,
+    "Chapitre 2": 509,
+    "Chapitre 3": 589,
     "Chapitre 4": 470,
     "Chapitre 5": 504,
     "Chapitre 6": 609,
-    "Chapitre 7": 241,
-    "Chapitre 8": 406,
-    "Chapitre 9": 287,
+    "Chapitre 7": 249,
+    "Chapitre 8": 439,
+    "Chapitre 9": 297,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -544,11 +553,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 1988,
-    "missing_required_field": 6851,
+    "invalid_controlled_value": 2000,
+    "missing_required_field": 6926,
     "schema_warning": 494,
-    "unknown_yaml_block": 647,
-    "v2_migration_debt": 13003
+    "unknown_yaml_block": 666,
+    "v2_migration_debt": 13033
   },
   "top_files_by_issue_count": [
     [
@@ -3701,6 +3710,86 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s51_malvezzi_specialized_registers.md",
       "record_id": "LIEU-S51-001",
       "message": "Unable to infer documentary kind",
@@ -3863,6 +3952,30 @@
       "category": "unknown_yaml_block",
       "file": "registers/s53_la_rocca_specialized_registers.md",
       "record_id": "ORG-S53-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-MDMARCHIVE-CITY-FUN",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-CITY-FUN-FANZINE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-WILKINSON-2018",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4055,6 +4168,54 @@
       "category": "unknown_yaml_block",
       "file": "registers/s49_farci_specialized_registers.md",
       "record_id": "ORG-S49-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "LIEU-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "LIEU-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-004",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -5852,10 +6013,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2163,
+    "atoms_total": 2173,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2090,
-    "v2_missing_field_warnings": 13003
+    "atoms_v2_incomplete": 2100,
+    "v2_missing_field_warnings": 13033
   },
   "source_registry": {
     "declared_but_unused": [
@@ -6408,12 +6569,16 @@
         "auteur": "Manchester Digital Music Archive",
         "titre": "City Fun: The Hidden History of Manchester's Favourite Fanzine",
         "annee": "s.d. / page consultée 2026",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 63,
+        "atoms": 10,
+        "quotes": 4,
+        "chronology": 2,
         "files": [
-          "sources/mdmarchive_city_fun_hidden_history/source.md"
+          "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+          "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+          "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+          "sources/mdmarchive_city_fun_hidden_history/source.md",
+          "sources/mdmarchive_city_fun_hidden_history/source_part_01.md"
         ]
       },
       {
@@ -6422,12 +6587,13 @@
         "auteur": "David Wilkinson",
         "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
         "annee": "2018",
-        "records": 57,
+        "records": 58,
         "atoms": 16,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+          "registers/s21_mdmarchive_city_fun_structuring_registers.md",
           "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
           "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
           "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
@@ -163682,6 +163848,806 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A002",
+      "message": "Invalid value for type_unite: source_primaire_mediatisee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A003",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A004",
+      "message": "Invalid value for type_unite: reseau_acteurs",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A005",
+      "message": "Invalid value for type_unite: observation_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A006",
+      "message": "Invalid value for type_unite: prudence_ciblage",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A007",
+      "message": "Invalid value for type_unite: voix_acteurs",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A008",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A009",
+      "message": "Invalid value for type_unite: patrimonialisation",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
+      "record_id": "S21-A010",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/mdmarchive_city_fun_hidden_history/relations_s21.md",
+      "record_id": "REL-S21-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
       "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
       "message": "Missing required field: concepts",
@@ -167986,6 +168952,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-MDMARCHIVE-CITY-FUN",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-CITY-FUN-FANZINE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+      "record_id": "REF-S21-WILKINSON-2018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s54_gnocchi_structuring_registers.md",
       "record_id": "REF-S54-GNOCCHI-2021",
       "message": "Unable to infer documentary kind",
@@ -169012,6 +170002,270 @@
       "category": "missing_required_field",
       "file": "registers/s49_farci_specialized_registers.md",
       "record_id": "SONG-S49-DECADES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "S21-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-1978-1984-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-1978-1984-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-1978-1984-001",
+      "message": "Invalid value for certainty: à vérifier item par item",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-2026-05-19-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-2026-05-19-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "CHR-S21-2026-05-19-001",
+      "message": "Invalid value for certainty: interne_au_workflow",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-006",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "PERS-S21-007",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "LIEU-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "LIEU-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "ORG-S21-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-JOY_DIVISION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-JOY_DIVISION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-JOY_DIVISION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-THE_FALL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-THE_FALL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+      "record_id": "SONG-S21-THE_FALL",
       "message": "Missing required field: chapters",
       "suggested_action": "Compléter le champ obligatoire."
     },

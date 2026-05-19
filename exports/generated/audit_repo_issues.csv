@@ -19559,6 +19559,106 @@ warning,v2_migration_debt,sources/suatoni/source.md,S70-A040,Missing required fi
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A040,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A040,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A040,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Invalid value for type_unite: source_primaire_mediatisee,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A003,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A004,Invalid value for type_unite: reseau_acteurs,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A005,Invalid value for type_unite: observation_scene,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A006,Invalid value for type_unite: prudence_ciblage,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A007,Invalid value for type_unite: voix_acteurs,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A008,Invalid value for type_unite: motif_discursif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A009,Invalid value for type_unite: patrimonialisation,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A010,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/mdmarchive_city_fun_hidden_history/relations_s21.md,REL-S21-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-PART-NOSTALGIE-MEMOIRE-V2,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-PART-NOSTALGIE-MEMOIRE-V2,Missing required field: chapitres,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-PART-NOSTALGIE-MEMOIRE-V2,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -20097,6 +20197,9 @@ warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-MDMARCHIVE-CITY-FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-CITY-FUN-FANZINE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-WILKINSON-2018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-GNOCCHI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BURROUGHS-NAKED-LUNCH,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s54_gnocchi_structuring_registers.md,REF-S54-BURROUGHS-THE-JOB,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -20226,6 +20329,39 @@ warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s49_farci_specialized_registers.md,SONG-S49-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,S21-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-1978-1984-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-1978-1984-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-1978-1984-001,Invalid value for certainty: à vérifier item par item,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-2026-05-19-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-2026-05-19-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s21_mdmarchive_city_fun_specialized_registers.md,CHR-S21-2026-05-19-001,Invalid value for certainty: interne_au_workflow,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,PERS-S21-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,LIEU-S21-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,LIEU-S21-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,ORG-S21-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,ORG-S21-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,ORG-S21-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_specialized_registers.md,ORG-S21-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-JOY_DIVISION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-JOY_DIVISION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-JOY_DIVISION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-THE_FALL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-THE_FALL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s21_mdmarchive_city_fun_specialized_registers.md,SONG-S21-THE_FALL,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-RABBITO-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CONTROL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-CURTIS-1995,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

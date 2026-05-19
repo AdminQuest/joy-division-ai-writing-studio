@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 263 |
+| Atomes | 272 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 12 |
-| Événements chronologiques | 24 |
-| Personnes | 12 |
-| Chansons | 4 |
-| Sources mobilisées | 18 |
+| Citations | 16 |
+| Événements chronologiques | 25 |
+| Personnes | 19 |
+| Chansons | 6 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 5 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 9 | 4 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
@@ -61,6 +62,20 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S21-A001** — S21-A001 — S21 comme exposition archivistique, non comme article universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S21-A002** — S21-A002 — City Fun comme fanzine mancunien et source primaire locale  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `source_primaire_mediatisee` ; importance : `critique` ; preuve : `archive_numerique_a_citer_item_par_item`.
+- **S21-A003** — S21-A003 — Matérialité DIY : photocopie, bricolage et économie pauvre de publication  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `motif_structurant` ; importance : `critique` ; preuve : `lecture_materielle_des_items`.
+- **S21-A005** — S21-A005 — City Fun comme observatoire de la scène en train de se faire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `observation_scene` ; importance : `critique` ; preuve : `trace_contemporaine_mediatisee`.
+- **S21-A006** — S21-A006 — City Fun, Factory et Tony Wilson : n’utiliser que les items explicitement concernés  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_ciblage` ; importance : `critique` ; preuve : `prudence_probatoire`.
+- **S21-A008** — S21-A008 — Humour, satire et polémique de fanzine  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `motif_discursif` ; importance : `critique` ; preuve : `lecture_discursive_a_contextualiser`.
+- **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S35-A061** — S35-A061 — The Great Vinyl Robbery : record hunting, imports et fin du frisson par Discogs  
@@ -111,20 +126,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 - **S41-A093** — S41-A093 — Timeline Three comme armature 1978 : de Pips au Hope & Anchor  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
-- **S41-A095** — S41-A095 — Arrow Studios et sorties 1978 : verrouillage sessionographique contre mémoire flottante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
-- **S41-A106** — S41-A106 — Rob Gretton à plein temps : téléphone, opportunités et emballement du calendrier  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
-- **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
-- **S41-A112** — S41-A112 — Eden Studios : Martin Rushent, démos alternatives et préférence rétrospective pour Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée à croiser`.
-- **S41-A113** — S41-A113 — Factory choisi : deal sans avance, liberté, pression du grand disque  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
 
 ## 6. Autres atomes utiles
 
@@ -142,6 +143,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S14-A007** — S14-A007 — S14 et S13 : passerelle vers Madchester, Haçienda et rave era  
   Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S21-A004** — S21-A004 — City Fun comme réseau de contributeurs et de sociabilités locales  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `reseau_acteurs` ; importance : `majeure` ; preuve : `reseau_a_verifier_par_notice`.
+- **S21-A007** — S21-A007 — Voix féminines, camp et critique des normes  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `voix_acteurs` ; importance : `majeure` ; preuve : `a_verifier_par_items`.
 - **S22-A001** — S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_media` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-A002** — S22-A002 — Rochdale Alternative Press : infrastructure coopérative et héritage libertarian left  
@@ -228,6 +233,20 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
 - **S41-A094** — S41-A094 — M24J : Factory avant Joy Division, management project et origine institutionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
+- **S41-A095** — S41-A095 — Arrow Studios et sorties 1978 : verrouillage sessionographique contre mémoire flottante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
+- **S41-A106** — S41-A106 — Rob Gretton à plein temps : téléphone, opportunités et emballement du calendrier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
+- **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
+- **S41-A112** — S41-A112 — Eden Studios : Martin Rushent, démos alternatives et préférence rétrospective pour Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée à croiser`.
+- **S41-A113** — S41-A113 — Factory choisi : deal sans avance, liberté, pression du grand disque  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
 - **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
 - **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
@@ -270,27 +289,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
 - **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
-- **S41-A159** — S41-A159 — Première Peel Session : BBC, hands-on et professionnalisation radiophonique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie + témoignage direct`.
-- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
-- **S41-A161** — S41-A161 — De « Chance » à « Atrocity Exhibition » : Piccadilly Radio comme seuil post-album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session radio documentée`.
-- **S41-A162** — S41-A162 — « Transmission » / FAC 13 : Central Sound, Strawberry et single autonome  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
-- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
-- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
-- **S41-A171** — S41-A171 — Les Bains Douches : Paris comme archive live majeure de fin 1979  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
-- **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
-- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
 
 ## 7. Citations disponibles
 
+- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S21-Q004** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -306,6 +311,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
+- CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -333,6 +339,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 9. Personnes et acteurs
 
+- PERS-S21-001 — Liz Naylor
+- PERS-S21-002 — Cath Carroll
+- PERS-S21-003 — Andy Zero
+- PERS-S21-004 — Martin X
+- PERS-S21-005 — Neil Hargreaves
+- PERS-S21-006 — Tony Wilson
+- PERS-S21-007 — Paul Morley
 - PERS-S34-003 — Grant Gee
 - PERS-S34-004 — Tony Wilson
 - PERS-S75-017 — Derek Brandwood
@@ -348,6 +361,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 10. Chansons rattachées
 
+- SONG-S21-JOY_DIVISION — Joy Division
+- SONG-S21-THE_FALL — The Fall
 - SONG-S75-022 — Autosuggestion
 - SONG-S75-023 — From Safety to Where...?
 - SONG-S75-024 — The Only Mistake
@@ -441,33 +456,34 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ### 12.1. Motifs dominants
 
 - Unknown Pleasures (9)
+- Factory (7)
 - An Ideal for Living (7)
 - Rob Gretton (7)
 - Transmission (7)
-- Factory (6)
 - RCA (6)
 - Martin Hannett (6)
 - Earcom 2 (5)
 - Electric Circus (5)
 - Short Circuit (5)
 - Arrow Studios (5)
+- Tony Wilson (5)
 - Still (5)
 - Atmosphere (5)
 - Sordide Sentimental (5)
 - bootleg (5)
+- DIY (4)
 - Pennine Sound (4)
 - Hannett (4)
 - Haçienda (4)
 - Digital (4)
+- Paul Morley (4)
 - Atrocity Exhibition (4)
 - Moonlight Club (4)
-- Tony Wilson (4)
 - A Factory Sample (4)
 - Peter Saville (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
 - Rudolf Hess (3)
-- DIY (3)
 - bootlegs (3)
 - Strawberry Studios (3)
 - Interzone (3)
@@ -475,7 +491,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - John Peel (3)
 - Genetic (3)
 - Insight (3)
-- Paul Morley (3)
 - Warsaw (3)
 - Heart and Soul (3)
 - Chance (3)
@@ -597,6 +612,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | discographie | 2 |
 | bootleg | 2 |
 | concert_archive | 2 |
+| prudence_methodologique | 2 |
 | song_or_release | 2 |
 | session_domestique | 1 |
 | position_esthetique | 1 |
@@ -696,7 +712,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | genre_sexualite | 1 |
 | satire_serie | 1 |
 | politique_identitaire | 1 |
-| prudence_methodologique | 1 |
+| source_primaire_mediatisee | 1 |
+| motif_structurant | 1 |
+| reseau_acteurs | 1 |
+| observation_scene | 1 |
+| prudence_ciblage | 1 |
+| voix_acteurs | 1 |
+| motif_discursif | 1 |
+| synthese_usage_livre | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
 | live_set_context | 1 |
@@ -707,9 +730,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 108 |
+| critique | 115 |
 | majeur | 18 |
-| majeure | 10 |
+| majeure | 12 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |

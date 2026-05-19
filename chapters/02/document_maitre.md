@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T08:23:06"
+generated_at: "2026-05-19T08:54:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 379 |
+| Atomes | 384 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 32 |
-| Événements chronologiques | 35 |
-| Personnes | 28 |
-| Chansons | 6 |
-| Sources mobilisées | 19 |
+| Citations | 33 |
+| Événements chronologiques | 36 |
+| Personnes | 31 |
+| Chansons | 8 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 10 | 0 |
+| S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 5 | 1 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
@@ -57,6 +58,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 5. Atomes critiques ou majeurs
 
+- **S21-A001** — S21-A001 — S21 comme exposition archivistique, non comme article universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S21-A002** — S21-A002 — City Fun comme fanzine mancunien et source primaire locale  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `source_primaire_mediatisee` ; importance : `critique` ; preuve : `archive_numerique_a_citer_item_par_item`.
+- **S21-A005** — S21-A005 — City Fun comme observatoire de la scène en train de se faire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `observation_scene` ; importance : `critique` ; preuve : `trace_contemporaine_mediatisee`.
+- **S21-A010** — S21-A010 — Usage final : articuler S21 corpus primaire et S22 interprétation universitaire  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_methodologique`.
 - **S35-A001** — S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S35-A009** — S35-A009 — Warsaw : annonce, audition et stabilisation par la batterie  
@@ -119,14 +128,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_ecoute` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
-- **S41-A013** — S41-A013 — Melody Maker à Newquay : les Sex Pistols comme possibilité de classe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
-- **S41-A014** — S41-A014 — Lesser Free Trade Hall : le concert comme conversion sensorielle et sociale  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
-- **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
-- **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -176,6 +177,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S21-A004** — S21-A004 — City Fun comme réseau de contributeurs et de sociabilités locales  
+  Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `reseau_acteurs` ; importance : `majeure` ; preuve : `reseau_a_verifier_par_notice`.
 - **S22-A001** — S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_media` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-A003** — S22-A003 — Amateurisme, inclusion et problème de la qualité éditoriale  
@@ -288,8 +291,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-034** — S41-034 — Pochette de *An Ideal for Living* et imagerie nazie  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `controverse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-035** — S41-035 — *Warsaw* devient Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -298,6 +299,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
 - **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -329,6 +331,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 ## 8. Chronologie rattachée
 
 - CHR-S53-1976-06-04-001 — Concert des Sex Pistols à la Lesser Free Trade Hall, repris par La Rocca comme scène d’effervescence mancunienne et origine mythographique.
+- CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S76-1972-002 — Ian Curtis assiste avec Deborah Woodruff à un concert de David Bowie au Hardrock de Manchester ; S76 présente cette soirée comme leur premier rendez-vous.
 - CHR-S76-1973-002 — Ian Curtis emmène Deborah Woodruff au concert de Lou Reed au Liverpool Empire, durant la tournée *Rock’n’Roll Animal*.
 - CHR-S76-1976-001 — Ian et Deborah Curtis s’installent dans une petite maison en terrasse à Chadderton, avec l’aide financière et matérielle de la famille Curtis.
@@ -367,6 +370,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 ## 9. Personnes et acteurs
 
 - PERS-S54-009 — Pete Shelley
+- PERS-S21-003 — Andy Zero
+- PERS-S21-004 — Martin X
+- PERS-S21-005 — Neil Hargreaves
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris
@@ -397,6 +403,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 10. Chansons rattachées
 
+- SONG-S21-JOY_DIVISION — Joy Division
+- SONG-S21-THE_FALL — The Fall
 - SONG-S75-001 — No Love Lost
 - SONG-S75-002 — At a Later Date
 - SONG-S75-004 — Warsaw
@@ -496,12 +504,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Warsaw (7)
 - Rafters (6)
 - An Ideal for Living (6)
+- scène locale (5)
 - Paul Morley (5)
-- scène locale (4)
 - Joy Division (4)
 - RCA (4)
 - Lesser Free Trade Hall (4)
 - Barton Street (4)
+- Manchester (4)
 - Salford (4)
 - provocation (4)
 - Bowie (4)
@@ -516,7 +525,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Iggy Pop (3)
 - Iain Gray (3)
 - blue room (3)
-- Manchester (3)
 - stabilisation (3)
 - mythe fondateur (3)
 - bootleg (3)
@@ -525,12 +533,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - répétition (3)
 - Kevin Cummins (3)
 - domesticité (3)
+- fanzine (3)
 - Granada (2)
 - Rudolf Hess (2)
 - archive live (2)
 - reconnaissance (2)
 - Pennine Sound (2)
-- imagerie nazie (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -652,6 +660,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte | 3 |
 | reception | 3 |
 | concept_structurant | 3 |
+| prudence_methodologique | 3 |
 | acteur_musical | 3 |
 | sociologie_scene | 2 |
 | temoignage | 2 |
@@ -669,7 +678,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
 | scene_sociale_style | 2 |
-| prudence_methodologique | 2 |
 | genese_groupe | 2 |
 | acteur_mediation | 2 |
 | scene_scene_locale | 1 |
@@ -789,6 +797,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | portrait | 1 |
 | analyse_morceau | 1 |
 | influences | 1 |
+| source_primaire_mediatisee | 1 |
+| reseau_acteurs | 1 |
+| observation_scene | 1 |
+| synthese_usage_livre | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
@@ -796,8 +808,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 205 |
-| critique | 111 |
-| majeure | 33 |
+| critique | 115 |
+| majeure | 34 |
 | majeur | 15 |
 | utile | 4 |
 | moyenne | 2 |
