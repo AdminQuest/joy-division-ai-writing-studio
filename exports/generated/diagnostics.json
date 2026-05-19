@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T16:55:59",
+  "generated_at": "2026-05-19T17:08:19",
   "status": "warning",
   "summary": {
-    "records_total": 6036,
+    "records_total": 6038,
     "records_by_kind": {
-      "source": 96,
-      "metadata": 165,
+      "source": 97,
+      "metadata": 166,
       "atom": 2317,
       "unknown": 909,
       "concept": 390,
@@ -22,9 +22,9 @@
     "diagnostics_total": 25476,
     "errors": 0,
     "warnings": 25476,
-    "sources_declared_in_registre_json": 70,
-    "sources_used_in_records": 56,
-    "sources_exported": 56,
+    "sources_declared_in_registre_json": 71,
+    "sources_used_in_records": 57,
+    "sources_exported": 57,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1248,6 +1248,20 @@
           "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
           "sources/federici_unknown_pleasures_pulsar_tshirt/source.md",
           "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S61",
+        "source_label": "S61 — Iovane & Riccio, Trademark will tear us apart again, 2021",
+        "auteur": "Giada Iovane ; Giovanni Maria Riccio",
+        "titre": "Trademark will tear us apart again. A proposito di marchi di impresa e nomi di gruppi musicali: il caso Joy Division",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/iovane_riccio_trademark_will_tear_us_apart/source.md"
         ]
       },
       {
