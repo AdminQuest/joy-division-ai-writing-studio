@@ -915,6 +915,27 @@
   },
   {
     "kind": "source",
+    "id": "S07",
+    "file": "sources/engels_condition_working_class_england/source.md",
+    "heading": "S07 — Source canonique — Engels, *The Condition of the Working Class in England*, 1845 / édition anglaise autorisée",
+    "data": {
+      "id": "S07",
+      "source_id": "S07",
+      "type_unite": "source",
+      "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée",
+      "source_short_title": "Engels, The Condition of the Working Class in England, 1845",
+      "auteur": "Friedrich Engels",
+      "titre": "The Condition of the Working Class in England",
+      "annee": "1845",
+      "dossier_source": "sources/engels_condition_working_class_england/",
+      "fichier_source_original": "condition-working-class-england.pdf",
+      "pages_pdf_exemplaire": "206 pages ; passages utiles prioritaires : Introduction, The Industrial Proletariat, The Great Towns, Manchester / Salford / Hulme",
+      "statut": "source canonique refixée",
+      "source_year": "1845"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S01",
     "file": "registers/references/master_references.md",
     "heading": "S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013",

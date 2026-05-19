@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-19T07:28:37",
+  "generated_at": "2026-05-19T07:39:56",
   "status": "warning",
   "summary": {
-    "records_total": 5192,
+    "records_total": 5194,
     "records_by_kind": {
       "atom": 2163,
-      "metadata": 151,
+      "metadata": 152,
       "unknown": 647,
-      "source": 82,
+      "source": 83,
       "concept": 291,
       "motif": 339,
       "myth": 62,
@@ -23,9 +23,9 @@
     "errors": 0,
     "warnings": 23286,
     "sources_declared_in_registre_json": 62,
-    "sources_used_in_records": 43,
-    "sources_exported": 43,
-    "declared_but_unused": 19,
+    "sources_used_in_records": 44,
+    "sources_exported": 44,
+    "declared_but_unused": 18,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -70,20 +70,6 @@
           "désindustrialisation",
           "emplois manufacturiers",
           "Manchester"
-        ]
-      },
-      {
-        "source_id": "S07",
-        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845",
-        "auteur": "Friedrich Engels",
-        "titre": "The Condition of the Working Class in England",
-        "annee": "1845",
-        "statut": "a_consolider",
-        "usage": [
-          "conditions de vie",
-          "Salford",
-          "Manchester",
-          "profondeur historique"
         ]
       },
       {
@@ -376,6 +362,20 @@
           "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
           "sources/carter_hulme_youth_race_inner_city/source.md",
           "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md"
+        ]
+      },
+      {
+        "source_id": "S07",
+        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée",
+        "auteur": "Friedrich Engels",
+        "titre": "The Condition of the Working Class in England",
+        "annee": "1845",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/engels_condition_working_class_england/source.md"
         ]
       },
       {
