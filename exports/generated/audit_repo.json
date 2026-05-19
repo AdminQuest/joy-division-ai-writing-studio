@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T17:32:39",
+  "generated_at": "2026-05-19T18:25:37",
   "summary": {
-    "records_total": 6098,
+    "records_total": 6085,
     "records_by_kind": {
-      "source": 97,
-      "metadata": 166,
-      "atom": 2348,
+      "source": 98,
+      "metadata": 167,
+      "atom": 2333,
       "unknown": 930,
       "concept": 391,
       "motif": 387,
@@ -18,21 +18,21 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25673,
-    "errors": 15,
+    "diagnostics_total": 25658,
+    "errors": 0,
     "warnings": 25658,
-    "sources_declared_in_registre_json": 71,
-    "sources_used_in_records": 57,
-    "sources_exported": 57,
+    "sources_declared_in_registre_json": 72,
+    "sources_used_in_records": 58,
+    "sources_exported": 58,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2348,
+    "atom": 2333,
     "chronology": 429,
     "concept": 391,
-    "metadata": 166,
+    "metadata": 167,
     "motif": 387,
     "myth": 100,
     "person": 289,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 109,
-    "source": 97,
+    "source": 98,
     "template": 354,
     "unknown": 930
   },
@@ -230,6 +230,10 @@
       "source": 2,
       "motif": 20,
       "concept": 24
+    },
+    "S37": {
+      "source": 1,
+      "metadata": 1
     },
     "S39": {
       "metadata": 8,
@@ -449,7 +453,7 @@
       "myth": 4
     },
     "S61": {
-      "atom": 31,
+      "atom": 16,
       "source": 1,
       "metadata": 1,
       "unknown": 21,
@@ -539,17 +543,17 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 441,
-    "Chapitre 10": 500,
+    "Chapitre 10": 495,
     "Chapitre 11": 465,
-    "Chapitre 12": 628,
+    "Chapitre 12": 627,
     "Chapitre 13": 323,
-    "Chapitre 14": 1855,
+    "Chapitre 14": 1840,
     "Chapitre 2": 543,
-    "Chapitre 3": 607,
+    "Chapitre 3": 606,
     "Chapitre 4": 543,
-    "Chapitre 5": 521,
-    "Chapitre 6": 734,
-    "Chapitre 7": 267,
+    "Chapitre 5": 519,
+    "Chapitre 6": 732,
+    "Chapitre 7": 266,
     "Chapitre 8": 542,
     "Chapitre 9": 343,
     "Chapitre bootlegs": 8,
@@ -679,7 +683,6 @@
     ]
   ],
   "issue_categories": {
-    "duplicate_id": 15,
     "field_type_error": 303,
     "invalid_controlled_value": 2205,
     "missing_required_field": 8096,
@@ -809,128 +812,7 @@
       210
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A001",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A002",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A003",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A004",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A005",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A006",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A007",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A008",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A009",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A010",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A011",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A012",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A013",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A014",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A015",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -8374,8 +8256,8 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2348,
-    "atoms_v2_complete": 88,
+    "atoms_total": 2333,
+    "atoms_v2_complete": 73,
     "atoms_v2_incomplete": 2260,
     "v2_missing_field_warnings": 13630
   },
@@ -9113,6 +8995,20 @@
         ]
       },
       {
+        "source_id": "S37",
+        "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+        "auteur": "Paul Morley",
+        "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
+        "annee": "2008",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/morley_piece_by_piece/source.md"
+        ]
+      },
+      {
         "source_id": "S39",
         "source_label": "S39 — Bauman, Liquid Modernity, 2000",
         "auteur": "Zygmunt Bauman",
@@ -9606,13 +9502,12 @@
         "auteur": "Giada Iovane ; Giovanni Maria Riccio",
         "titre": "Trademark will tear us apart again. A proposito di marchi di impresa e nomi di gruppi musicali: il caso Joy Division",
         "annee": "2021",
-        "records": 62,
-        "atoms": 31,
+        "records": 47,
+        "atoms": 16,
         "quotes": 0,
         "chronology": 4,
         "files": [
           "registers/references/s61_iovane_riccio_trademark_registers.md",
-          "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
@@ -183371,126 +183266,6 @@
       "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2",
       "message": "Invalid value for type_unite: source_part",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A001",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A002",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A003",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A004",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A005",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A006",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A007",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A008",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A009",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A010",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A011",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A012",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A013",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A014",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "record_id": "S61-A015",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",

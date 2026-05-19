@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-19T17:32:24",
-  "status": "error",
+  "generated_at": "2026-05-19T18:25:22",
+  "status": "warning",
   "summary": {
-    "records_total": 6098,
+    "records_total": 6085,
     "records_by_kind": {
-      "source": 97,
-      "metadata": 166,
-      "atom": 2348,
+      "source": 98,
+      "metadata": 167,
+      "atom": 2333,
       "unknown": 930,
       "concept": 391,
       "motif": 387,
@@ -19,12 +19,12 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25673,
-    "errors": 15,
+    "diagnostics_total": 25658,
+    "errors": 0,
     "warnings": 25658,
-    "sources_declared_in_registre_json": 71,
-    "sources_used_in_records": 57,
-    "sources_exported": 57,
+    "sources_declared_in_registre_json": 72,
+    "sources_used_in_records": 58,
+    "sources_exported": 58,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -763,6 +763,20 @@
         ]
       },
       {
+        "source_id": "S37",
+        "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+        "auteur": "Paul Morley",
+        "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
+        "annee": "2008",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/morley_piece_by_piece/source.md"
+        ]
+      },
+      {
         "source_id": "S39",
         "source_label": "S39 — Bauman, Liquid Modernity, 2000",
         "auteur": "Zygmunt Bauman",
@@ -1256,13 +1270,12 @@
         "auteur": "Giada Iovane ; Giovanni Maria Riccio",
         "titre": "Trademark will tear us apart again. A proposito di marchi di impresa e nomi di gruppi musicali: il caso Joy Division",
         "annee": "2021",
-        "records": 62,
-        "atoms": 31,
+        "records": 47,
+        "atoms": 16,
         "quotes": 0,
         "chronology": 4,
         "files": [
           "registers/references/s61_iovane_riccio_trademark_registers.md",
-          "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
           "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
@@ -131651,96 +131664,6 @@
       "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
       "message": "Invalid value for type_unite: source_part",
       "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A001"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A002"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A003"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A004"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A005"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A006"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A007"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A008"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A009"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A010"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A011"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A012"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A013"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A014"
-    },
-    {
-      "level": "error",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
-      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A015"
     },
     {
       "level": "warning",

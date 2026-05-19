@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:32:41"
+generated_at: "2026-05-19T18:25:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 294 |
+| Atomes | 289 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 51 |
 | Événements chronologiques | 29 |
@@ -58,7 +58,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 9 | 4 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 8 | 3 |
-| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 18 | 0 |
+| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 13 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -447,8 +447,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - love will tear us apart (4)
 - ian curtis (4)
 - new order (4)
-- mémoire (4)
 - suicide (4)
+- mémoire (3)
 - postérité (3)
 - mythe Curtis (3)
 - Closer (3)
@@ -485,14 +485,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Unknown Pleasures (2)
 - Peter Saville (2)
 - pulsar (2)
-- merchandising (2)
 - anti-nostalgie (2)
 - noir et blanc (2)
 - génie tragique (2)
-- authenticité (2)
 - manchester (2)
-- juridicisation du mythe (2)
-- marque d’entreprise (2)
 - privilège scénique (1)
 - division matérielle du travail (1)
 - artiste contre roadie (1)
@@ -521,6 +517,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - témoin transnational intime (1)
 - Curtis être de passage (1)
 - crédit domestique transféré (1)
+- économie asymétrique de tournée (1)
+- épouse exclue / maîtresse financée (1)
+- dissimulation collective locale (1)
+- épouse qui refleurit (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -662,7 +662,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | reception | 7 |
 | scene_domestique | 6 |
 | biographie | 6 |
-| analyse | 5 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
@@ -679,9 +678,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | synthese_argumentative | 3 |
 | concert | 3 |
 | relation | 3 |
-| concept | 3 |
 | objet_visuel | 3 |
 | source_part | 3 |
+| analyse | 3 |
 | tension_interne | 2 |
 | scene_live_domestique | 2 |
 | scene_conjugale | 2 |
@@ -760,6 +759,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | archive_vivante | 1 |
 | oeuvre_artistique | 1 |
 | critique_du_monde | 1 |
+| concept | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
 | iconisation | 1 |
@@ -822,7 +822,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | conflit_juridique | 1 |
 | prudence_probatoire | 1 |
 | droit_consommation | 1 |
-| controverse | 1 |
 | album | 1 |
 | album_reception_object | 1 |
 | release_design | 1 |
@@ -834,7 +833,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 161 |
+| critique | 156 |
 | non qualifiée | 82 |
 | majeure | 25 |
 | majeur | 24 |

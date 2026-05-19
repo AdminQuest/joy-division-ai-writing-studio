@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:32:41"
+generated_at: "2026-05-19T18:25:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 479 |
+| Atomes | 477 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 47 |
@@ -53,7 +53,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 5 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 2 | 1 |
-| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 4 | 0 |
+| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 2 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -464,11 +464,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 11. Concepts récurrents
 
-- Closer (21)
+- Closer (20)
 - architecture sonore (16)
 - Still (15)
 - Ian Curtis (14)
-- Unknown Pleasures (12)
+- Unknown Pleasures (11)
 - Atmosphere (9)
 - Transmission (9)
 - Love Will Tear Us Apart (9)
@@ -543,7 +543,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Colony (2)
 - The Kill (2)
 - Stephen Morris (2)
-- Joy Division (2)
+- tracklist (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -584,11 +584,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Band on the Wall (4)
 - Buzzcocks (4)
 - Glass (4)
-- Saville (4)
 - The Eternal (4)
 - Twinny (4)
 - radio (4)
 - T. J. Davidson’s (4)
+- Stephen Morris (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -705,7 +705,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | production_sonore | 4 |
 | motif_structurant | 4 |
 | fait_interprete | 4 |
-| concept | 4 |
 | tension_management | 3 |
 | scene_live | 3 |
 | economie_tournee | 3 |
@@ -717,6 +716,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | discographie_album | 3 |
 | evenement_live | 3 |
 | analyse_album | 3 |
+| concept | 3 |
 | versions_chanson | 3 |
 | prudence_methodologique | 3 |
 | release_or_session | 3 |
@@ -946,7 +946,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | contraste_stylistique | 1 |
 | donnees_marques | 1 |
 | limite_juridique | 1 |
-| fait | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -957,7 +956,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 239 |
+| critique | 237 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 32 |

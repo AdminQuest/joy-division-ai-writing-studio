@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:32:41"
+generated_at: "2026-05-19T18:25:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 359 |
+| Atomes | 357 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 75 |
 | Événements chronologiques | 44 |
 | Personnes | 49 |
 | Chansons | 11 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -50,7 +50,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 3 | 0 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 8 | 2 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 3 |
-| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 2 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -442,7 +441,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Factory (31)
 - Martin Hannett (27)
-- Unknown Pleasures (26)
+- Unknown Pleasures (25)
 - Tony Wilson (21)
 - Rob Gretton (18)
 - Peter Saville (15)
@@ -470,7 +469,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - contrat (5)
 - management (5)
 - unknown pleasures (5)
-- Joy Division (4)
 - Granada Reports (4)
 - télévision (4)
 - autoproduction (4)
@@ -483,6 +481,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - studio (4)
 - basse (3)
 - Earcom 2 (3)
+- Joy Division (3)
 - Shadowplay (3)
 - Better Badges (3)
 - identité visuelle (3)
@@ -542,7 +541,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
-- Saville (3)
 - prudence (3)
 - Warsaw (3)
 - Tosh Ryan (3)
@@ -565,6 +563,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Short Circuit (2)
 - imagerie nazie (2)
 - Joy Division (2)
+- image (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -658,11 +657,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | non qualifié | 14 |
 | objet_discographique | 13 |
 | analyse_morceau | 10 |
-| concept | 9 |
 | discographie | 8 |
+| concept | 8 |
 | concept_structurant | 7 |
 | analyse | 7 |
-| fait | 7 |
+| fait | 6 |
 | objet_audiovisuel | 5 |
 | production | 5 |
 | concert | 5 |
@@ -864,7 +863,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 121 |
+| critique | 119 |
 | majeure | 33 |
 | majeur | 4 |
 | utile | 3 |

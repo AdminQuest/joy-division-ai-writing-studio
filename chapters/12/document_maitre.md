@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:32:41"
+generated_at: "2026-05-19T18:25:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 404 |
+| Atomes | 403 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
@@ -52,7 +52,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 1 | 0 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 3 | 1 |
-| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 3 | 0 |
+| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 2 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -447,7 +447,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (29)
+- Ian Curtis (28)
 - prudence historiographique (18)
 - Closer (11)
 - épilepsie (10)
@@ -556,7 +556,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - American tour (5)
 - epilepsy (5)
 - Atmosphere (5)
-- Curtis (5)
 - Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
@@ -572,6 +571,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Twenty Four Hours (4)
 - Decades (4)
 - Debbie (4)
+- Sordide Sentimental (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -725,7 +725,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | contexte_biographique | 2 |
 | fait_biographique_prudent | 2 |
-| analyse | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
 | tension_tournee | 1 |
@@ -913,6 +912,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | sacralisation | 1 |
 | motif_discursif | 1 |
 | mythe_reception | 1 |
+| analyse | 1 |
 | probleme_juridique | 1 |
 | hypothese_juridique | 1 |
 | tv_session | 1 |
@@ -929,7 +929,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 243 |
+| critique | 242 |
 | non qualifiée | 110 |
 | majeure | 33 |
 | majeur | 12 |

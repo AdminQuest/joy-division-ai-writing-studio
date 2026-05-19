@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:32:41"
+generated_at: "2026-05-19T18:25:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 152 |
+| Atomes | 151 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -49,7 +49,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 5 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 3 | 0 |
-| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 1 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
@@ -255,8 +254,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `analyse_video` ; importance : `majeure` ; preuve : `analyse_critique`.
 - **S51-A005** — S51-A005 — Warburg et le passage du personnel à l’universel  
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `reference_theorique` ; importance : `majeure` ; preuve : `comparaison_theorique`.
-- **S61-A009** — S61-A009 — Hook et New Order : l’insubstituabilité comme question plus incertaine  
-  Source : S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 ; type : `analyse` ; importance : `majeure` ; preuve : `source secondaire juridique et interprétative`.
 - **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
@@ -292,6 +289,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A004** — S72-A004 — La basse devient voix instrumentale principale  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -439,7 +438,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - producteur catalyseur (2)
 - Joy Division (2)
 - source secondaire critique (2)
-- New Order (2)
 - répétition (2)
 - factory (2)
 - austérité visuelle (2)
@@ -453,7 +451,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Strawberry Studios (2)
 - Stephen Morris (2)
 - studio comme instrument (2)
-- Peter Hook (2)
 - patrimonialisation audiovisuelle (1)
 - album-matrice (1)
 - accroissement de sens (1)
@@ -461,6 +458,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - traduction audiovisuelle (1)
 - extension de l’imaginaire (1)
 - danse-transe (1)
+- expansion de sens (1)
+- traduction synesthésique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -596,7 +595,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Type | Nombre |
 |---|---|
-| analyse | 20 |
+| analyse | 19 |
 | source_part | 6 |
 | contrepoint | 6 |
 | production | 6 |
@@ -687,7 +686,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | non qualifiée | 73 |
 | critique | 53 |
-| majeure | 19 |
+| majeure | 18 |
 | majeur | 3 |
 | utile | 3 |
 | moyenne | 1 |
@@ -748,7 +747,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S35-A072 [faible] — Le passage déconstruit explicitement la pureté des origines.
 - S35-A074 [faible] — Atome de réception personnelle appuyé sur faits connus.
 - S35-A075 [faible] — Influence explicitement formulée par Morris.
-- S61-A009 [moyen] — Ne pas écraser New Order sous le seul cas Curtis.
 
 ## 15. Lacunes et prochaines vérifications
 
