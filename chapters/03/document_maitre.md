@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 393 |
+| Atomes | 398 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 31 |
-| Événements chronologiques | 22 |
-| Personnes | 31 |
-| Chansons | 25 |
-| Sources mobilisées | 26 |
+| Citations | 35 |
+| Événements chronologiques | 23 |
+| Personnes | 33 |
+| Chansons | 27 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -60,6 +60,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 11 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 5 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -307,6 +308,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
 - **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -333,6 +338,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 8. Chronologie rattachée
 
+- CHR-S78-1978-09-20-001 — Apparition de Joy Division dans What’s On, Granada TV, avec projection d’images urbaines pendant Shadowplay.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
@@ -360,6 +366,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 - PERS-S53-009 — Arthur Schopenhauer
 - PERS-S53-010 — Friedrich Nietzsche
+- PERS-S78-001 — Leonard Nevarez
+- PERS-S78-002 — Liz Naylor
 - PERS-S75-026 — Stephen Morris
 - PERS-S75-027 — Vini Reilly
 - PERS-002 — Peter Hook
@@ -392,6 +400,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 10. Chansons rattachées
 
+- SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S78-SHADOWPLAY — Shadowplay
 - SONG-S75-026 — Transmission
 - SONG-S75-027 — Atmosphere
 - Transmission
@@ -505,12 +515,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Unknown Pleasures (10)
 - Hannett (9)
-- Unknown Pleasures (9)
 - Martin Hannett (9)
 - Strawberry Studios (8)
+- Shadowplay (7)
 - Transmission (7)
-- Shadowplay (6)
 - Interzone (6)
 - Digital (6)
 - Britannia Row (5)
@@ -531,6 +541,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ian Curtis (3)
 - Atrocity Exhibition (3)
 - Cargo Studios (3)
+- écoute (3)
 - studio (3)
 - John Peel (3)
 - disco (3)
@@ -544,7 +555,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - spatialisation (2)
 - Martin Rushent (2)
 - Eden Studios (2)
-- Insight (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -651,6 +661,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | apprentissage_instrumental | 5 |
 | session_radio | 4 |
 | discographie | 4 |
+| prudence_methodologique | 4 |
+| concept_structurant | 4 |
 | lecture | 4 |
 | matrice_musicale | 4 |
 | analyse_morceau_studio | 3 |
@@ -659,8 +671,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
-| prudence_methodologique | 3 |
-| concept_structurant | 3 |
 | equipment_file | 3 |
 | culture_materielle | 3 |
 | acteur_musical | 3 |
@@ -769,6 +779,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | reference_theorique | 1 |
 | contexte_scene | 1 |
 | prudence_interpretative | 1 |
+| temoignage_reception | 1 |
+| scene_media | 1 |
+| synthese_usage_livre | 1 |
 | memoire | 1 |
 | synthese | 1 |
 | relation_studio | 1 |
@@ -822,8 +835,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 119 |
-| majeure | 29 |
+| critique | 123 |
+| majeure | 30 |
 | majeur | 10 |
 | utile | 10 |
 | critique pour Chapitre 3 | 3 |
@@ -967,6 +980,25 @@ S54 ne documente pas les innovations techniques du son Joy Division ; elle peut 
 Atomes prioritaires : S54-A012 ; S54-A013.
 
 Règle d’usage : ne pas déplacer vers le chapitre 3 l’analyse autonome des paroles. Les textes restent traités principalement au chapitre 4.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 3
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 3"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Son, écoute et interprétation urbaine
+
+S78 aide à distinguer le son produit, l’écoute située et l’interprétation rétrospective. L’article est utile pour éviter de déduire directement Manchester de *Unknown Pleasures* ou de la production de Martin Hannett.
+
+Atomes prioritaires : S78-A002 ; S78-A003 ; S78-A009 ; S78-A020.
+
+Règle d’usage : traiter le « son de Manchester » comme une construction d’écoute, non comme une propriété technique immédiatement vérifiable dans le mixage.
 
 ## 16. Lacunes et prochaines vérifications
 

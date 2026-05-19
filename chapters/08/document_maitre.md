@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 285 |
+| Atomes | 287 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 25 |
-| Événements chronologiques | 30 |
-| Personnes | 29 |
+| Événements chronologiques | 32 |
+| Personnes | 30 |
 | Chansons | 9 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -54,6 +54,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 9 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 13 | 9 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -327,6 +328,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
 - CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
+- CHR-S78-1977-05-29-001 — Premier concert mentionné comme point de départ des comptes rendus favorables de Paul Morley.
+- CHR-S78-1979-01-13-001 — Article de Paul Morley dans le NME sur Manchester: New Sounds, qui contribue à cadrer Joy Division comme groupe mancunien.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -371,6 +374,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - PERS-S21-005 — Neil Hargreaves
 - PERS-S21-006 — Tony Wilson
 - PERS-S21-007 — Paul Morley
+- PERS-S78-003 — Paul Morley
 - PERS-S34-003 — Grant Gee
 - PERS-S34-004 — Tony Wilson
 - PERS-S75-017 — Derek Brandwood
@@ -489,13 +493,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Rob Gretton (7)
 - Transmission (7)
 - RCA (6)
+- Paul Morley (6)
 - Martin Hannett (6)
 - Earcom 2 (5)
 - Electric Circus (5)
 - Short Circuit (5)
 - DIY (5)
 - Arrow Studios (5)
-- Paul Morley (5)
 - Tony Wilson (5)
 - Still (5)
 - Atmosphere (5)
@@ -504,7 +508,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Pennine Sound (4)
 - Hannett (4)
 - Haçienda (4)
+- John Peel (4)
 - Digital (4)
+- NME (4)
 - Atrocity Exhibition (4)
 - Moonlight Club (4)
 - A Factory Sample (4)
@@ -516,10 +522,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Strawberry Studios (3)
 - Interzone (3)
 - acid house (3)
-- John Peel (3)
 - Genetic (3)
 - Insight (3)
-- NME (3)
 - Warsaw (3)
 - Heart and Soul (3)
 - Chance (3)
@@ -709,6 +713,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | genre_scene | 1 |
 | prudence_sociale | 1 |
 | lieu_scene | 1 |
+| contexte_mediatique | 1 |
+| acteur_interpretatif | 1 |
 | festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
@@ -766,10 +772,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 126 |
+| critique | 127 |
 | non qualifiée | 123 |
 | majeur | 18 |
-| majeure | 14 |
+| majeure | 15 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |
@@ -908,6 +914,25 @@ S77 est central pour comprendre les fanzines comme contre-presse punk : alternat
 Atomes prioritaires : S77-A001 ; S77-A004 ; S77-A005 ; S77-A007 ; S77-A008 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A013 ; S77-A014 ; S77-A015 ; S77-A016.
 
 Règle d’usage : ne pas utiliser S77 comme corpus primaire. Si un item City Fun est mobilisé, partir de S21 puis interpréter avec S22 et S77.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 8
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 8"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Critique musicale et entrepreneurs d’interprétation
+
+S78 peut être mobilisé pour traiter le rôle de la critique musicale dans la fabrication du sens. Tony Wilson, Paul Morley et Jon Savage ne se contentent pas de décrire Joy Division : ils contribuent à rendre audible et lisible la mancunianité du groupe.
+
+Atomes prioritaires : S78-A005 ; S78-A010 ; S78-A011.
+
+Règle d’usage : distinguer réception critique, promotion, interprétation et intention du groupe. Ne pas transformer les récits critiques en faits bruts.
 
 ## 16. Lacunes et prochaines vérifications
 

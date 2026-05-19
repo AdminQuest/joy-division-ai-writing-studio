@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -901,6 +901,25 @@ S77 permet d’articuler critique des médias, contrôle, crise britannique, cul
 Atomes prioritaires : S77-A008 ; S77-A009 ; S77-A013 ; S77-A014.
 
 Règle d’usage : ne pas transformer la politique punk en philosophie générale. Utiliser S77 pour les médiations culturelles, les affects politiques et les formes de contre-culture.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 11
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 11"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Ville néolibérale, aliénation et écoute individualisée
+
+S78 peut nourrir le chapitre 11 lorsque la condition moderne est pensée à partir de la ville néolibérale, des technologies d’écoute, de la personnalisation des parcours et de la réification du lieu musical.
+
+Atomes prioritaires : S78-A008 ; S78-A015 ; S78-A018 ; S78-A019.
+
+Règle d’usage : ne pas utiliser S78 comme théorie générale de l’aliénation. L’article sert à analyser l’écoute urbaine contemporaine et ses conditions sociales.
 
 ## 16. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 354 |
+| Atomes | 357 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 73 |
-| Événements chronologiques | 43 |
-| Personnes | 47 |
-| Chansons | 9 |
-| Sources mobilisées | 22 |
+| Citations | 75 |
+| Événements chronologiques | 44 |
+| Personnes | 49 |
+| Chansons | 10 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -56,6 +56,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 83 | 58 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 3 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -310,6 +311,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q005** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S78-Q005** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q010** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q126** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q127** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -333,13 +336,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
+- CHR-S78-1988-001 — Compilation Substance et clip Atmosphere de Corbijn, moment fort du culte visuel posthume de Ian Curtis.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -377,7 +379,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
-- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 
 ## 9. Personnes et acteurs
 
@@ -387,6 +388,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S53-001 — Fabio La Rocca
 - PERS-S53-003 — Kevin Cummins
 - PERS-S53-004 — Peter Saville
+- PERS-S78-006 — Kevin Cummins
+- PERS-S78-007 — Anton Corbijn
 - PERS-S75-029 — Peter Saville
 - PERS-S75-030 — Rob Gretton
 - PERS-S75-031 — Marcel Proust
@@ -419,13 +422,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-036 — Bernie Binnick
 - PERS-S29-002 — Ian Curtis
 - PERS-S29-012 — Nikolai Gogol
-- PERS-S76-004 — Carole Curtis
-- PERS-S76-074 — Terry Mason
 
 ## 10. Chansons rattachées
 
 - SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S78-ATMOSPHERE — Atmosphere
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony
@@ -522,8 +524,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ### 12.1. Motifs dominants
 
 - Rob Gretton (11)
+- Kevin Cummins (7)
 - An Ideal for Living (6)
-- Kevin Cummins (6)
 - fatigue (6)
 - Rabid Records (5)
 - Shadowplay (4)
@@ -656,8 +658,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | analyse_morceau | 10 |
 | discographie | 8 |
 | concept | 8 |
+| concept_structurant | 7 |
 | analyse | 7 |
-| concept_structurant | 6 |
 | fait | 6 |
 | objet_audiovisuel | 5 |
 | production | 5 |
@@ -680,6 +682,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | acteur | 3 |
 | session | 3 |
 | performance_live | 3 |
+| image_symbolique | 3 |
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
@@ -699,7 +702,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | analyse_studio | 2 |
 | reception_interne | 2 |
 | biographie | 2 |
-| image_symbolique | 2 |
 | mythe_nomination | 2 |
 | concept_management | 2 |
 | bascule_tournee | 2 |
@@ -787,6 +789,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_posthume | 1 |
 | evenement_audiovisuel | 1 |
 | analyse_oeuvre | 1 |
+| synthese_usage_livre | 1 |
 | ecosysteme | 1 |
 | tournee_fatigue | 1 |
 | concert_incident | 1 |
@@ -859,7 +862,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 116 |
+| critique | 119 |
 | majeure | 33 |
 | majeur | 4 |
 | utile | 3 |
@@ -962,6 +965,25 @@ S53 est très utile pour penser la transformation d’une image culturelle en ob
 Atomes prioritaires : S53-A005 ; S53-A006 ; S53-A007 ; S53-A014.
 
 Règle d’usage : ne pas faire de S53 la source principale sur Saville ou sur la genèse graphique. Croiser avec S48, S50, S09, les sources Saville et les notices discographiques.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 5
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 5"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Photographies, signe indexical et ambiguïté visuelle
+
+S78 est utile pour traiter les images de Kevin Cummins et d’Anton Corbijn. Elles localisent Joy Division tout en conservant une forte ambiguïté : Epping Walk, neige, pont, tunnel, absence de signalétique, ville réelle ou paysage mental.
+
+Atomes prioritaires : S78-A004 ; S78-A012 ; REL-S78-012.
+
+Règle d’usage : ne pas faire de l’image une preuve directe du lieu. L’image devient un opérateur d’aura, de projection et de mythe.
 
 ## 16. Lacunes et prochaines vérifications
 

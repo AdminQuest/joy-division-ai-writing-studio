@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 384 |
+| Atomes | 385 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
-| Événements chronologiques | 62 |
+| Événements chronologiques | 63 |
 | Personnes | 47 |
-| Chansons | 13 |
-| Sources mobilisées | 17 |
+| Chansons | 14 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 68 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -339,6 +340,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
+- CHR-S78-1980-05-18-001 — Suicide de Ian Curtis, qui déplace la mémoire de Joy Division vers le culte de Curtis avant le retour progressif du mythe Manchester.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
@@ -372,7 +374,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
-- CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 
 ## 9. Personnes et acteurs
 
@@ -426,6 +427,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
 - She's Lost Control
@@ -542,6 +544,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - American tour (5)
 - prudence (5)
 - epilepsy (5)
+- Atmosphere (5)
 - Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
@@ -557,7 +560,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Twenty Four Hours (4)
 - Decades (4)
 - Debbie (4)
-- Atmosphere (4)
 - Sordide Sentimental (4)
 - mariage (4)
 
@@ -829,6 +831,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
+| mythification_posthume | 1 |
 | source_interne | 1 |
 | reseau_sources | 1 |
 | contradiction_biographique | 1 |
@@ -907,7 +910,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 227 |
+| critique | 228 |
 | non qualifiée | 110 |
 | majeure | 29 |
 | majeur | 12 |

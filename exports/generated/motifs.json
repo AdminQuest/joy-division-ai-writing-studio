@@ -588,6 +588,134 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-son_de_manchester",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-son_de_manchester",
+      "type_unite": "motif",
+      "source_id": "S78",
+      "nom": "son de Manchester",
+      "definition": "Formule séduisante mais dangereuse : elle condense aura, paysage, son, ville et mémoire, tout en risquant de naturaliser une construction interprétative.\n",
+      "atomes": [
+        "S78-A001",
+        "S78-A002",
+        "S78-A020"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-dark_spaces_empty_places",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-dark_spaces_empty_places",
+      "type_unite": "motif",
+      "source_id": "S78",
+      "nom": "dark spaces and empty places",
+      "definition": "Motif savageien d’un Manchester de sites vacants, lumières au sodium, friches et malaise industriel, à traiter comme écriture critique située plutôt que photographie neutre de la ville.\n",
+      "atomes": [
+        "S78-A011"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-things_arent_there_anymore",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-things_arent_there_anymore",
+      "type_unite": "motif",
+      "source_id": "S78",
+      "nom": "The Things That Aren’t There Anymore",
+      "definition": "Motif de la ville disparue : les lieux du groupe sont remplacés par pubs thématiques, appartements, régénération urbaine et dispositifs patrimoniaux.\n",
+      "atomes": [
+        "S78-A017"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-manchester_cosmic",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-manchester_cosmic",
+      "type_unite": "motif",
+      "source_id": "S78",
+      "nom": "Manchester cosmic",
+      "definition": "Formule morleyenne par laquelle Joy Division est censé rendre Manchester international, mental, sonore, futuriste et presque science-fictionnel.\n",
+      "atomes": [
+        "S78-A002",
+        "S78-A010"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-ville_ecoutee_consomme",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-ville_ecoutee_consomme",
+      "type_unite": "motif",
+      "source_id": "S78",
+      "nom": "ville écoutée, ville consommée",
+      "definition": "Motif de la conversion du passé musical en expérience urbaine organisée : expositions, tours, ponts, lieux disparus, écoute mobile et consommation d’authenticité.\n",
+      "atomes": [
+        "S78-A015",
+        "S78-A018",
+        "S78-A019"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-cut_and_paste_urgence",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Motifs",

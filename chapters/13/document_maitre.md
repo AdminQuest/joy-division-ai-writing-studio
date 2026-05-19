@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 103 |
+| Atomes | 118 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 32 |
-| Événements chronologiques | 13 |
-| Personnes | 32 |
-| Chansons | 11 |
-| Sources mobilisées | 16 |
+| Citations | 43 |
+| Événements chronologiques | 19 |
+| Personnes | 39 |
+| Chansons | 13 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 19 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 0 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 15 | 11 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -256,12 +257,36 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reconstruction_S76`.
 - **S77-A003** — S77-A003 — Cartographie nationale des fanzines : Manchester dans un archipel britannique  
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `cartographie_scene` ; importance : `critique` ; preuve : `cartographie_secondaire`.
-- **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-038** — SONG-S76-038 — Cologne Basement comme archive européenne  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD** — S41 — Chansons, album, sessions et objets — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S78-A001** — S78-A001 — S78 comme source sur la fabrication du mythe urbain, non comme preuve d’une essence sonore  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S78-A002** — S78-A002 — Naylor et Morley : Unknown Pleasures comme aura, mindscape et soundscape de Manchester  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `temoignage_reception` ; importance : `critique` ; preuve : `citations_secondaires_via_Gee`.
+- **S78-A006** — S78-A006 — Absence de références mancuniennes explicites dans les paroles de Curtis  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `demythification` ; importance : `critique` ; preuve : `constat_textuel_general`.
+- **S78-A007** — S78-A007 — Londres, centre/périphérie et retard du symbolisme urbain hors Londres  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `contexte_geographique` ; importance : `majeure` ; preuve : `synthese_contextuelle`.
+- **S78-A008** — S78-A008 — Tony Wilson, situationnisme et psychogéographie : prudence sur les influences attestées  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `prudence_interpretative` ; importance : `critique` ; preuve : `critique_historiographique`.
+- **S78-A009** — S78-A009 — What’s On et Shadowplay : refus implicite de l’illustration urbaine littérale  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `scene_media` ; importance : `majeure` ; preuve : `anecdote_media_rapportee`.
+- **S78-A010** — S78-A010 — Paul Morley comme entrepreneur d’interprétation mancunienne  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `acteur_interpretatif` ; importance : `critique` ; preuve : `analyse_d_acteur_interpretatif`.
+- **S78-A011** — S78-A011 — Jon Savage : dark spaces, empty places et regard d’outsider  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `acteur_interpretatif` ; importance : `critique` ; preuve : `analyse_d_acteur_interpretatif`.
+- **S78-A012** — S78-A012 — Cummins, Corbijn et l’ambiguïté visuelle du signe Joy Division  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `image_symbolique` ; importance : `critique` ; preuve : `lecture_iconographique`.
+- **S78-A013** — S78-A013 — No City Fun et Joy Division : psychogéographies audiovisuelles mancuniennes  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `synthese_filmique`.
+- **S78-A015** — S78-A015 — Régénération néolibérale de Manchester et retour patrimonial du mythe  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `contexte_urbain` ; importance : `critique` ; preuve : `analyse_urbaine_secondaire`.
+- **S78-A017** — S78-A017 — Things That Aren’t There Anymore : ville disparue, authenticité et boosterism  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `motif_structurant` ; importance : `critique` ; preuve : `motif_critique`.
+- **S78-A018** — S78-A018 — Écoute mobile, iPod et individualisation de l’expérience urbaine  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `ecoute_technologique` ; importance : `critique` ; preuve : `analyse_sociologique`.
+- **S78-A019** — S78-A019 — Réification du lieu : entendre la ville n’est pas innocent  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `synthese_critique` ; importance : `critique` ; preuve : `synthese_conclusive`.
+- **S78-A020** — S78-A020 — Usage final : entendre la ville comme construction sociale, non comme essence  
+  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_usage`.
 
 ## 7. Citations disponibles
 
@@ -273,6 +298,17 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q006** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q008** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q010** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q011** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q012** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q013** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q014** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -294,13 +330,16 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q161** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S52-1977-001 — Rabbito associe les premières performances de Curtis à une violence scénique et à une intensité non restituées par Control.
+- CHR-S78-1978-09-20-001 — Apparition de Joy Division dans What’s On, Granada TV, avec projection d’images urbaines pendant Shadowplay.
+- CHR-S78-1979-01-13-001 — Article de Paul Morley dans le NME sur Manchester: New Sounds, qui contribue à cadrer Joy Division comme groupe mancunien.
+- CHR-S78-1979-07-21-001 — Jon Savage publie dans Melody Maker sa recension d’Unknown Pleasures reliant le disque aux dark spaces and empty places de Manchester.
+- CHR-S78-1979-09-13-001 — Projection londonienne de films Factory Flick, dont No City Fun et Joy Division de Malcolm Whitehead, sous numéro FAC 9.
+- CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
+- CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
@@ -323,6 +362,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - PERS-S53-008 — Christian Norberg-Schulz
 - PERS-S49-002 — Ian Curtis
 - PERS-S49-003 — David Byrne
+- PERS-S78-001 — Leonard Nevarez
+- PERS-S78-002 — Liz Naylor
+- PERS-S78-003 — Paul Morley
+- PERS-S78-004 — Jon Savage
+- PERS-S78-006 — Kevin Cummins
+- PERS-S78-008 — Charles Salem
+- PERS-S78-009 — Malcolm Whitehead
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
 - PERS-S76-052 — Oz PA / Eddy et Oz
 - PERS-S34-001 — Benjamin Fraser
@@ -353,6 +399,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S78-SHADOWPLAY — Shadowplay
 - SONG-S75-028 — Dead Souls
 - SONG-S75-009 — Shadowplay
 - SONG-S34-001 — Shadowplay
@@ -450,12 +498,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ### 12.1. Motifs dominants
 
-- Salford (5)
-- Kevin Cummins (5)
-- Manchester (5)
+- Salford (6)
+- Kevin Cummins (6)
+- Manchester (6)
 - T. J. Davidson’s (4)
 - corps (4)
 - Little Peter Street (3)
+- Shadowplay (3)
 - Factory Club (3)
 - performance (3)
 - Interzone (2)
@@ -468,28 +517,27 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Control (2)
 - Jamaïque (2)
 - couleur (2)
+- Curtis (2)
 - She’s Lost Control (2)
 - répétition (2)
-- Shadowplay (2)
+- Granada TV (2)
 - image industrielle (2)
 - scènes locales (2)
 - sociabilité musicale (2)
+- Factory (2)
 - scène locale (2)
 - club (2)
+- Hulme (2)
 - Wythenshawe (2)
+- périphérie (2)
 - overspill estate (2)
+- prudence (2)
 - vulnérabilité (2)
 - ville moderne (2)
 - Hulme Crescents (2)
-- Pip’s (2)
-- Roxy Room (2)
-- Mark Reeder (2)
-- Manchester City (2)
-- transe (1)
-- transmission (1)
-- acid house (1)
-- Manchester post-industrielle (1)
-- Thatcher’s Britain (1)
+- Paul Morley (2)
+- Unknown Pleasures (2)
+- creative city (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -586,13 +634,18 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concept_structurant | 4 |
 | analyse | 3 |
 | biographie | 3 |
+| prudence_methodologique | 3 |
 | cartographie_scene | 3 |
 | lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
 | lieu_structurant | 2 |
-| prudence_methodologique | 2 |
+| motif_structurant | 2 |
+| mediation_audiovisuelle | 2 |
+| image_symbolique | 2 |
 | performance_sensible | 2 |
+| demythification | 2 |
+| acteur_interpretatif | 2 |
 | contexte_social | 2 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
@@ -617,13 +670,17 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
-| motif_structurant | 1 |
-| mediation_audiovisuelle | 1 |
-| image_symbolique | 1 |
 | lecture_performance | 1 |
 | evenement_audiovisuel | 1 |
 | analyse_performance | 1 |
-| demythification | 1 |
+| temoignage_reception | 1 |
+| contexte_geographique | 1 |
+| prudence_interpretative | 1 |
+| scene_media | 1 |
+| contexte_urbain | 1 |
+| ecoute_technologique | 1 |
+| synthese_critique | 1 |
+| synthese_usage_livre | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
 | iconographie | 1 |
@@ -653,8 +710,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 43 |
-| majeure | 31 |
+| critique | 56 |
+| majeure | 33 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |
@@ -821,6 +878,25 @@ S77 peut être utilisé pour désisoler Manchester et replacer ses fanzines dans
 Atome prioritaire : S77-A003.
 
 Règle d’usage : ne pas dissoudre Manchester dans la carte nationale. S77 sert à montrer l’archipel des scènes imprimées ; les lieux affectifs propres à Joy Division restent à établir par les sources mancuniennes.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 13
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 13"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Géographie émotionnelle, lieux disparus et ville consommée
+
+S78 est central pour la géographie émotionnelle. Nevarez montre que Manchester devient audible par des médiations : critique musicale, photographies, films, récits de lieux disparus, régénération urbaine, tours patrimoniaux et écoute mobile.
+
+Atomes prioritaires : S78-A001 ; S78-A002 ; S78-A006 ; S78-A007 ; S78-A009 ; S78-A011 ; S78-A012 ; S78-A013 ; S78-A015 ; S78-A017 ; S78-A018 ; S78-A019 ; S78-A020.
+
+Règle d’usage : ne pas traiter Manchester comme une essence sonore. Le chapitre doit montrer comment la ville est reconstruite par l’écoute, la mémoire et la consommation patrimoniale.
 
 ## 16. Lacunes et prochaines vérifications
 

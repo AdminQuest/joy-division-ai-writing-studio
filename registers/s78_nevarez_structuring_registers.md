@@ -80,7 +80,7 @@ id: CONCEPT-psychogeographie_audiovisuelle
 type_unite: concept
 source_id: S78
 nom: psychogéographie audiovisuelle
- definition: >
+definition: >
   Médiation filmique qui articule musique, ville, images de friches, déplacements, publicités, lieux disparus
   et texte critique pour produire un Manchester sensible et rétrospectif.
 sources: [S78]

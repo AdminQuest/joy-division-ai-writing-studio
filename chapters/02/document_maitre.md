@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 392 |
+| Atomes | 393 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 38 |
-| Événements chronologiques | 39 |
+| Événements chronologiques | 40 |
 | Personnes | 33 |
 | Chansons | 10 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -56,6 +56,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 30 | 22 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 8 | 5 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -341,6 +342,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-S77-1976-1977-001 — Émergence rapide de fanzines punk en Grande-Bretagne, notamment en Écosse, Manchester, Sheffield, Birmingham, Leeds, Bristol, Irlande, pays de Galles et Londres.
 - CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
+- CHR-S78-1977-05-29-001 — Premier concert mentionné comme point de départ des comptes rendus favorables de Paul Morley.
 - CHR-S76-1972-002 — Ian Curtis assiste avec Deborah Woodruff à un concert de David Bowie au Hardrock de Manchester ; S76 présente cette soirée comme leur premier rendez-vous.
 - CHR-S76-1973-002 — Ian Curtis emmène Deborah Woodruff au concert de Lou Reed au Liverpool Empire, durant la tournée *Rock’n’Roll Animal*.
 - CHR-S76-1976-001 — Ian et Deborah Curtis s’installent dans une petite maison en terrasse à Chadderton, avec l’aide financière et matérielle de la famille Curtis.
@@ -539,6 +541,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Iain Gray (3)
 - blue room (3)
 - stabilisation (3)
+- Londres (3)
 - mythe fondateur (3)
 - bootleg (3)
 - Gretton (3)
@@ -551,7 +554,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Rudolf Hess (2)
 - archive live (2)
 - reconnaissance (2)
-- Pennine Sound (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -752,6 +754,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | origine_nom | 1 |
 | analyse_developpement | 1 |
 | anecdote | 1 |
+| contexte_geographique | 1 |
 | memoire | 1 |
 | chronologie_scene | 1 |
 | lecture_biographique | 1 |
@@ -827,7 +830,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | non qualifiée | 205 |
 | critique | 121 |
-| majeure | 36 |
+| majeure | 37 |
 | majeur | 15 |
 | utile | 4 |
 | moyenne | 2 |

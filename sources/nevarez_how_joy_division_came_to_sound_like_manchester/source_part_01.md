@@ -50,7 +50,7 @@ usage_livre: [Chapitre 1, Chapitre 3, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A002
 type_unite: temoignage_reception
- titre: Naylor et Morley : Unknown Pleasures comme aura, mindscape et soundscape de Manchester
+titre: Naylor et Morley : Unknown Pleasures comme aura, mindscape et soundscape de Manchester
 source_id: S78
 pages:
   pdf: [1, 2]
@@ -161,7 +161,7 @@ usage_livre: [Chapitre 5, Chapitre 10, Chapitre 14]
 ```yaml
 id: S78-A005
 type_unite: contexte_mediatique
- titre: Sous-exposition médiatique et rareté des informations avant la mythification
+titre: Sous-exposition médiatique et rareté des informations avant la mythification
 source_id: S78
 pages:
   pdf: [4, 5]
@@ -198,7 +198,7 @@ usage_livre: [Chapitre 8, Chapitre 10, Chapitre 14]
 ```yaml
 id: S78-A006
 type_unite: demythification
- titre: Absence de références mancuniennes explicites dans les paroles de Curtis
+titre: Absence de références mancuniennes explicites dans les paroles de Curtis
 source_id: S78
 pages:
   pdf: [4, 5]
@@ -235,7 +235,7 @@ usage_livre: [Chapitre 4, Chapitre 13]
 ```yaml
 id: S78-A007
 type_unite: contexte_geographique
- titre: Londres, centre/périphérie et retard du symbolisme urbain hors Londres
+titre: Londres, centre/périphérie et retard du symbolisme urbain hors Londres
 source_id: S78
 pages:
   pdf: [5, 6]
@@ -272,7 +272,7 @@ usage_livre: [Chapitre 1, Chapitre 2, Chapitre 13]
 ```yaml
 id: S78-A008
 type_unite: prudence_interpretative
- titre: Tony Wilson, situationnisme et psychogéographie : prudence sur les influences attestées
+titre: Tony Wilson, situationnisme et psychogéographie : prudence sur les influences attestées
 source_id: S78
 pages:
   pdf: [6, 7]
@@ -309,7 +309,7 @@ usage_livre: [Chapitre 1, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A009
 type_unite: scene_media
- titre: What’s On et Shadowplay : refus implicite de l’illustration urbaine littérale
+titre: What’s On et Shadowplay : refus implicite de l’illustration urbaine littérale
 source_id: S78
 pages:
   pdf: [7]
@@ -346,7 +346,7 @@ usage_livre: [Chapitre 3, Chapitre 13]
 ```yaml
 id: S78-A010
 type_unite: acteur_interpretatif
- titre: Paul Morley comme entrepreneur d’interprétation mancunienne
+titre: Paul Morley comme entrepreneur d’interprétation mancunienne
 source_id: S78
 pages:
   pdf: [7, 8]
@@ -383,7 +383,7 @@ usage_livre: [Chapitre 8, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A011
 type_unite: acteur_interpretatif
- titre: Jon Savage : dark spaces, empty places et regard d’outsider
+titre: Jon Savage : dark spaces, empty places et regard d’outsider
 source_id: S78
 pages:
   pdf: [8, 10]
@@ -420,7 +420,7 @@ usage_livre: [Chapitre 1, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A012
 type_unite: image_symbolique
- titre: Cummins, Corbijn et l’ambiguïté visuelle du signe Joy Division
+titre: Cummins, Corbijn et l’ambiguïté visuelle du signe Joy Division
 source_id: S78
 pages:
   pdf: [10, 11]
@@ -457,7 +457,7 @@ usage_livre: [Chapitre 5, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A013
 type_unite: mediation_audiovisuelle
- titre: No City Fun et Joy Division : psychogéographies audiovisuelles mancuniennes
+titre: No City Fun et Joy Division : psychogéographies audiovisuelles mancuniennes
 source_id: S78
 pages:
   pdf: [11]
@@ -494,7 +494,7 @@ usage_livre: [Chapitre 10, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A014
 type_unite: mythification_posthume
- titre: Ian Curtis Buried : recentrage posthume sur Curtis et effacement relatif de Manchester
+titre: Ian Curtis Buried : recentrage posthume sur Curtis et effacement relatif de Manchester
 source_id: S78
 pages:
   pdf: [11, 13]
@@ -531,7 +531,7 @@ usage_livre: [Chapitre 12, Chapitre 14]
 ```yaml
 id: S78-A015
 type_unite: contexte_urbain
- titre: Régénération néolibérale de Manchester et retour patrimonial du mythe
+titre: Régénération néolibérale de Manchester et retour patrimonial du mythe
 source_id: S78
 pages:
   pdf: [13, 15, 18]
@@ -568,7 +568,7 @@ usage_livre: [Chapitre 10, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A016
 type_unite: mediation_audiovisuelle
- titre: 24 Hour Party People, Control et Joy Division : remédiations successives du mythe
+titre: 24 Hour Party People, Control et Joy Division : remédiations successives du mythe
 source_id: S78
 pages:
   pdf: [13, 16]
@@ -607,7 +607,7 @@ usage_livre: [Chapitre 10, Chapitre 14]
 ```yaml
 id: S78-A017
 type_unite: motif_structurant
- titre: Things That Aren’t There Anymore : ville disparue, authenticité et boosterism
+titre: Things That Aren’t There Anymore : ville disparue, authenticité et boosterism
 source_id: S78
 pages:
   pdf: [15, 16]
@@ -644,7 +644,7 @@ usage_livre: [Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A018
 type_unite: ecoute_technologique
- titre: Écoute mobile, iPod et individualisation de l’expérience urbaine
+titre: Écoute mobile, iPod et individualisation de l’expérience urbaine
 source_id: S78
 pages:
   pdf: [16, 18]
@@ -681,7 +681,7 @@ usage_livre: [Chapitre 10, Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A019
 type_unite: synthese_critique
- titre: Réification du lieu : entendre la ville n’est pas innocent
+titre: Réification du lieu : entendre la ville n’est pas innocent
 source_id: S78
 pages:
   pdf: [18, 19]
@@ -718,7 +718,7 @@ usage_livre: [Chapitre 13, Chapitre 14]
 ```yaml
 id: S78-A020
 type_unite: synthese_usage_livre
- titre: Usage final : entendre la ville comme construction sociale, non comme essence
+titre: Usage final : entendre la ville comme construction sociale, non comme essence
 source_id: S78
 pages:
   pdf: [1, 19]

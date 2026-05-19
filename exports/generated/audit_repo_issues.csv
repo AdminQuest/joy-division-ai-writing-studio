@@ -12445,6 +12445,206 @@ warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_w
 warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A015,Invalid value for type_unite: garde_fou,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A015,Field must be an object/dict: importance,Corriger le type YAML du champ.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Invalid value for type_unite: temoignage_reception,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A004,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A005,Invalid value for type_unite: contexte_mediatique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A006,Invalid value for type_unite: demythification,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A007,Invalid value for type_unite: contexte_geographique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A008,Invalid value for type_unite: prudence_interpretative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A009,Invalid value for type_unite: scene_media,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A010,Invalid value for type_unite: acteur_interpretatif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A011,Invalid value for type_unite: acteur_interpretatif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A012,Invalid value for type_unite: image_symbolique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A013,Invalid value for type_unite: mediation_audiovisuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A014,Invalid value for type_unite: mythification_posthume,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A015,Invalid value for type_unite: contexte_urbain,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A016,Invalid value for type_unite: mediation_audiovisuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A017,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A018,Invalid value for type_unite: ecoute_technologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A019,Invalid value for type_unite: synthese_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A020,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-016,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-017,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md,REL-S78-020,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_structurants_s15.md,MYTHE-S15-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_structurants_s15.md,MYTHE-S15-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/deluca_manchester_punk_threshold/registres_structurants_s15.md,REF-S15-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -20178,6 +20378,11 @@ warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-NEVAREZ-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-GEE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-SAVAGE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BULL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BOTTA-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s52_rabbito_specialized_registers.md,S52-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -20603,6 +20808,101 @@ warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S5
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q011,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q011,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q012,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q012,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q013,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q013,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q014,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,S78-Q014,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1977-05-29-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1977-05-29-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1977-05-29-001,Invalid value for certainty: à croiser avec chronologie concerts,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1978-09-20-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1978-09-20-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1978-09-20-001,Invalid value for certainty: à croiser avec vidéo et Ott,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-01-13-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-01-13-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-01-13-001,Invalid value for certainty: à croiser avec NME original,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-07-21-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-07-21-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-07-21-001,Invalid value for certainty: à vérifier dans l’article original,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-09-13-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-09-13-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1979-09-13-001,Invalid value for certainty: à croiser avec sources Factory,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1980-05-18-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1980-05-18-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1980-05-18-001,Invalid value for certainty: fait établi à croiser avec sources biographiques,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1988-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1988-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1988-001,Invalid value for certainty: à croiser avec discographie et vidéographie,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1997-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-1997-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-1997-001,Invalid value for certainty: à croiser avec sources urbaines,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2002-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2002-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-2002-001,Invalid value for certainty: à vérifier dans sources film et urbanisme,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2007-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2007-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-2007-001,Invalid value for certainty: à croiser avec S52 et fiches films,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2010-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,CHR-S78-2010-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s78_nevarez_specialized_registers.md,CHR-S78-2010-001,Invalid value for certainty: à croiser avec sources locales,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-007,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-008,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-009,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,PERS-S78-010,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,LIEU-S78-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,LIEU-S78-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,LIEU-S78-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,LIEU-S78-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,LIEU-S78-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,ORG-S78-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,ORG-S78-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,ORG-S78-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,ORG-S78-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,ORG-S78-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-UNKNOWN_PLEASURES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-UNKNOWN_PLEASURES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-UNKNOWN_PLEASURES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-SHADOWPLAY,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-SHADOWPLAY,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-SHADOWPLAY,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-LOVE_WILL_TEAR_US_APART,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-LOVE_WILL_TEAR_US_APART,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-LOVE_WILL_TEAR_US_APART,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-ATMOSPHERE,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-ATMOSPHERE,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-ATMOSPHERE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-NO_CITY_FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-CONTROL,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-STEYERL-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-WARBURG-MNEMOSYNE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-LECKEY-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

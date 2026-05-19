@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T11:08:00",
+  "generated_at": "2026-05-19T11:44:03",
   "status": "warning",
   "summary": {
-    "records_total": 5357,
+    "records_total": 5472,
     "records_by_kind": {
       "source": 89,
       "metadata": 158,
-      "atom": 2189,
-      "unknown": 698,
-      "concept": 304,
-      "motif": 348,
-      "myth": 70,
-      "quote": 436,
-      "chronology": 386,
-      "person": 242,
-      "song": 81,
+      "atom": 2209,
+      "unknown": 735,
+      "concept": 313,
+      "motif": 353,
+      "myth": 75,
+      "quote": 450,
+      "chronology": 397,
+      "person": 252,
+      "song": 85,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23655,
+    "diagnostics_total": 23955,
     "errors": 0,
-    "warnings": 23655,
+    "warnings": 23955,
     "sources_declared_in_registre_json": 64,
     "sources_used_in_records": 49,
     "sources_exported": 49,
@@ -1397,12 +1397,16 @@
         "auteur": "Leonard Nevarez",
         "titre": "How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City",
         "annee": "2013",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 126,
+        "atoms": 20,
+        "quotes": 14,
+        "chronology": 11,
         "files": [
-          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md"
+          "registers/s78_nevarez_specialized_registers.md",
+          "registers/s78_nevarez_structuring_registers.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md"
         ]
       }
     ]
@@ -76086,6 +76090,1206 @@
     },
     {
       "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S78-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: temoignage_reception",
+      "record_id": "S78-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S78-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S78-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_mediatique",
+      "record_id": "S78-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: demythification",
+      "record_id": "S78-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_geographique",
+      "record_id": "S78-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "record_id": "S78-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_media",
+      "record_id": "S78-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: acteur_interpretatif",
+      "record_id": "S78-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: acteur_interpretatif",
+      "record_id": "S78-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: image_symbolique",
+      "record_id": "S78-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "record_id": "S78-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: mythification_posthume",
+      "record_id": "S78-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_urbain",
+      "record_id": "S78-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "record_id": "S78-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S78-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: ecoute_technologique",
+      "record_id": "S78-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_critique",
+      "record_id": "S78-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S78-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S78-020"
+    },
+    {
+      "level": "warning",
       "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHE-S15-001"
@@ -122484,6 +123688,36 @@
     },
     {
       "level": "warning",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S78-NEVAREZ-2013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S78-GEE-2008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S78-SAVAGE-2008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S78-BULL-2007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S78-BOTTA-2009"
+    },
+    {
+      "level": "warning",
       "file": "registers/s52_rabbito_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S52-Q001"
@@ -125031,6 +126265,576 @@
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S50-BERTETTI-2009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q012"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S78-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S78-Q014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1977-05-29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1977-05-29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec chronologie concerts",
+      "record_id": "CHR-S78-1977-05-29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1978-09-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1978-09-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec vidéo et Ott",
+      "record_id": "CHR-S78-1978-09-20-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1979-01-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1979-01-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec NME original",
+      "record_id": "CHR-S78-1979-01-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1979-07-21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1979-07-21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans l’article original",
+      "record_id": "CHR-S78-1979-07-21-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1979-09-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1979-09-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec sources Factory",
+      "record_id": "CHR-S78-1979-09-13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: fait établi à croiser avec sources biographiques",
+      "record_id": "CHR-S78-1980-05-18-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1988-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1988-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec discographie et vidéographie",
+      "record_id": "CHR-S78-1988-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec sources urbaines",
+      "record_id": "CHR-S78-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à vérifier dans sources film et urbanisme",
+      "record_id": "CHR-S78-2002-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec S52 et fiches films",
+      "record_id": "CHR-S78-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S78-2010-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S78-2010-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Invalid value for certainty: à croiser avec sources locales",
+      "record_id": "CHR-S78-2010-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S78-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S78-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S78-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S78-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S78-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S78-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S78-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S78-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S78-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S78-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S78-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S78-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S78-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S78-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S78-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S78-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S78-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MEDIA-S78-NO_CITY_FUN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MEDIA-S78-CONTROL"
     },
     {
       "level": "warning",

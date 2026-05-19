@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T11:08:15"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 300 |
+| Atomes | 301 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 82 |
+| Citations | 83 |
 | Événements chronologiques | 56 |
 | Personnes | 48 |
 | Chansons | 27 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ generated_at: "2026-05-19T11:08:15"
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -324,6 +325,7 @@ generated_at: "2026-05-19T11:08:15"
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S78-Q006** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -331,7 +333,6 @@ generated_at: "2026-05-19T11:08:15"
 - **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -542,11 +543,11 @@ generated_at: "2026-05-19T11:08:15"
 - She’s Lost Control (8)
 - épilepsie (8)
 - Natalie Curtis (7)
+- paroles (6)
 - Love Will Tear Us Apart (6)
 - corps (6)
 - contrôle (6)
 - Annik Honoré (6)
-- paroles (5)
 - Atmosphere (5)
 - Burroughs (5)
 - Ballard (4)
@@ -571,11 +572,11 @@ generated_at: "2026-05-19T11:08:15"
 - Twenty Four Hours (3)
 - Iggy Pop (3)
 - Chance (3)
+- Curtis (3)
 - Macclesfield (3)
 - paternité (3)
 - fatigue (3)
 - médicaments (3)
-- Wythenshawe (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -681,6 +682,7 @@ generated_at: "2026-05-19T11:08:15"
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
+| demythification | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
 | analyse_morceau | 3 |
@@ -690,7 +692,6 @@ generated_at: "2026-05-19T11:08:15"
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | live_set_context | 3 |
-| demythification | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -846,7 +847,7 @@ generated_at: "2026-05-19T11:08:15"
 
 | Importance | Nombre |
 |---|---|
-| critique | 153 |
+| critique | 154 |
 | non qualifiée | 94 |
 | majeure | 45 |
 | utile | 4 |
@@ -977,6 +978,25 @@ S54 est central pour le chapitre. Il permet de lire Curtis comme lecteur-écriva
 Atomes prioritaires : S54-A001 ; S54-A003 ; S54-A004 ; S54-A006 ; S54-A007 ; S54-A008 ; S54-A009 ; S54-A010 ; S54-A014 ; S54-A015.
 
 Règle d’usage : distinguer influence attestée, écho lexical, proximité thématique, analogie structurale et hypothèse critique. Ne jamais citer les paroles sans le registre de citations vérifiées.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 4
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 4"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Paroles, ville et refus du document urbain direct
+
+S78 est utile pour rappeler que Ian Curtis ne chante pas explicitement les lieux ou quartiers de Manchester. La ville ne se déduit donc pas simplement des paroles ; elle est projetée par les médiations critiques, visuelles et rétrospectives.
+
+Atomes prioritaires : S78-A006 ; REL-S78-006.
+
+Règle d’usage : croiser avec S54. Les textes de Curtis doivent être traités comme écritures de condensation, d’images et d’intertextualité, non comme documents topographiques transparents.
 
 ## 16. Lacunes et prochaines vérifications
 

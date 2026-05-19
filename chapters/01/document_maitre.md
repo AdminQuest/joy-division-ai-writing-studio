@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T11:08:15"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 237 |
+| Atomes | 243 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 17 |
-| Événements chronologiques | 8 |
-| Personnes | 17 |
+| Citations | 21 |
+| Événements chronologiques | 9 |
+| Personnes | 20 |
 | Chansons | 1 |
-| Sources mobilisées | 34 |
+| Sources mobilisées | 35 |
 
 ## 4. Sources mobilisées
 
@@ -68,6 +68,7 @@ generated_at: "2026-05-19T11:08:15"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 2 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 1 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 6 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -316,6 +317,10 @@ generated_at: "2026-05-19T11:08:15"
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
@@ -328,6 +333,7 @@ generated_at: "2026-05-19T11:08:15"
 ## 8. Chronologie rattachée
 
 - CHR-S53-1976-06-04-001 — Concert des Sex Pistols à la Lesser Free Trade Hall, repris par La Rocca comme scène d’effervescence mancunienne et origine mythographique.
+- CHR-S78-1979-07-21-001 — Jon Savage publie dans Melody Maker sa recension d’Unknown Pleasures reliant le disque aux dark spaces and empty places de Manchester.
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
 - CHR-S34-1976-001 — Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.
 - CHR-S34-1977-001 — L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.
@@ -339,6 +345,9 @@ generated_at: "2026-05-19T11:08:15"
 ## 9. Personnes et acteurs
 
 - PERS-S53-006 — Tony Wilson
+- PERS-S78-001 — Leonard Nevarez
+- PERS-S78-004 — Jon Savage
+- PERS-S78-005 — Tony Wilson
 - PERS-S34-001 — Benjamin Fraser
 - PERS-S34-002 — Abby Fuoto
 - PERS-S34-003 — Grant Gee
@@ -454,14 +463,18 @@ generated_at: "2026-05-19T11:08:15"
 - scène locale (2)
 - séparation production-réception (2)
 - prudence anti-anachronique (2)
+- Londres (2)
 - travail répétitif (2)
 - désindustrialisation (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
+- périphérie (2)
 - overspill estate (2)
+- Factory (2)
 - ville moderne (2)
 - Hulme Crescents (2)
 - solitude (2)
+- Unknown Pleasures (2)
 - contre-culture (2)
 - fuite provinciale (2)
 - style comme appartenance (2)
@@ -483,10 +496,6 @@ generated_at: "2026-05-19T11:08:15"
 - conservatisme ordinaire (1)
 - contrepoint au récit social (1)
 - Manchester non homogène (1)
-- prudence citationnelle (1)
-- Thatcher (1)
-- conservatisme (1)
-- extrapolation (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -562,14 +571,14 @@ generated_at: "2026-05-19T11:08:15"
 - S34-A011 — relie → S36
 - S34-A012 — prolonge → S34-A009
 - S34-A012 — prolonge → CONCEPT-S34-002
+- S78-A001 — deconstruit → MYTH-Joy_Division_sonne_naturellement_comme_Manchester
+- S78-A002 — illustre → S78-A001
+- S78-A007 — corrobore → S42-A003
+- S78-A008 — limite → MYTH-Joy_Division_psychogeographie_intentionnelle
+- S78-A011 — prolonge → S78-A010
+- S78-A020 — synthese → CONCEPT-mythe_manchester_joy_division
 - S76-A003 — prolonge → MOTIF-002
 - S76-A003 — nuance → MYTH-003
-- S76-A003 — requiert → CONCEPT-004
-- S76-A004 — nuance → MYTH-003
-- S76-A004 — prolonge → S75-A057
-- S76-A004 — requiert → CONCEPT-004
-- S76-A075 — nuance → MYTH-003
-- S76-A075 — relie → CONCEPT-003
 
 ## 13. Distribution documentaire
 
@@ -577,9 +586,9 @@ generated_at: "2026-05-19T11:08:15"
 
 | Type | Nombre |
 |---|---|
+| prudence_methodologique | 14 |
 | source_part | 14 |
 | concept_structurant | 14 |
-| prudence_methodologique | 13 |
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
@@ -659,6 +668,11 @@ generated_at: "2026-05-19T11:08:15"
 | archive | 1 |
 | controverse | 1 |
 | comparaison_generations | 1 |
+| temoignage_reception | 1 |
+| contexte_geographique | 1 |
+| prudence_interpretative | 1 |
+| acteur_interpretatif | 1 |
+| synthese_usage_livre | 1 |
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
 | lieu_culturel | 1 |
@@ -708,8 +722,8 @@ generated_at: "2026-05-19T11:08:15"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 36 |
-| majeure | 32 |
+| critique | 41 |
+| majeure | 33 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |
@@ -859,6 +873,25 @@ S77 peut être utilisé en arrière-plan pour situer le contexte britannique des
 Atomes prioritaires : S77-A009 ; REL-S77-009.
 
 Règle d’usage : ne pas remplacer les sources urbaines et mancuniennes par une synthèse nationale. S77 sert à donner l’horizon politique britannique, non à expliquer directement Joy Division.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 1
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 1"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Manchester entendu comme construction, non comme cause
+
+S78 est utile pour éviter un déterminisme urbain trop simple. Nevarez montre que l’idée selon laquelle Joy Division « sonne comme Manchester » est une construction rétrospective, produite par des médiations critiques, visuelles, filmiques et urbaines.
+
+Atomes prioritaires : S78-A001 ; S78-A002 ; S78-A007 ; S78-A008 ; S78-A011 ; S78-A020.
+
+Règle d’usage : ne pas écrire que Manchester cause le son de Joy Division. Utiliser S78 pour distinguer ville, écoute, mythe et médiation.
 
 ## 16. Lacunes et prochaines vérifications
 

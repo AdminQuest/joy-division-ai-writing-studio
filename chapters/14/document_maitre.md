@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1025 |
+| Atomes | 1041 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 136 |
-| Événements chronologiques | 82 |
-| Personnes | 118 |
-| Chansons | 22 |
-| Sources mobilisées | 43 |
+| Citations | 146 |
+| Événements chronologiques | 88 |
+| Personnes | 125 |
+| Chansons | 25 |
+| Sources mobilisées | 44 |
 
 ## 4. Sources mobilisées
 
@@ -77,6 +77,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 16 | 10 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -379,6 +380,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
+- CHR-S78-1980-05-18-001 — Suicide de Ian Curtis, qui déplace la mémoire de Joy Division vers le culte de Curtis avant le retour progressif du mythe Manchester.
+- CHR-S78-1988-001 — Compilation Substance et clip Atmosphere de Corbijn, moment fort du culte visuel posthume de Ian Curtis.
+- CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
+- CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
+- CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
+- CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -393,12 +400,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
 - CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
 - CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
-- CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
-- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
-- CHR-S34-2007-001 — Le documentaire de Grant Gee devient dans S34 le support principal d’une lecture urbaine de Joy Division comme histoire de Manchester.
-- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
-- CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
-- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 
 ## 9. Personnes et acteurs
 
@@ -439,9 +440,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S21-002 — Cath Carroll
 - PERS-S21-006 — Tony Wilson
 - PERS-S21-007 — Paul Morley
-- PERS-S75-029 — Peter Saville
-- PERS-S75-030 — Rob Gretton
-- PERS-S75-031 — Marcel Proust
+- PERS-S78-001 — Leonard Nevarez
+- PERS-S78-003 — Paul Morley
+- PERS-S78-004 — Jon Savage
 
 ## 10. Chansons rattachées
 
@@ -456,6 +457,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S54-INTERZONE — Interzone
 - SONG-S21-JOY_DIVISION — Joy Division
+- SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
+- SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S78-ATMOSPHERE — Atmosphere
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -555,28 +559,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Tony Wilson (21)
+- Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- Factory (12)
+- Factory (13)
 - Peter Saville (10)
+- Unknown Pleasures (10)
 - Buzzcocks tour (9)
+- prudence (9)
+- Control (9)
 - Ian Curtis (9)
-- Unknown Pleasures (9)
 - Transmission (8)
-- prudence (8)
-- Control (8)
+- John Peel (8)
+- Kevin Cummins (8)
 - fatigue (8)
 - Manchester (7)
 - She’s Lost Control (7)
-- John Peel (7)
 - Electric Circus (7)
-- Kevin Cummins (7)
+- Paul Morley (7)
+- NME (6)
 - Love Will Tear Us Apart (6)
+- Atmosphere (6)
 - Haçienda (6)
-- Paul Morley (6)
-- NME (5)
-- Atmosphere (5)
 - New Order (5)
 - Plan K (5)
 - Still (5)
@@ -688,8 +692,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 25 |
-| concept_structurant | 24 |
+| prudence_methodologique | 26 |
+| concept_structurant | 26 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
@@ -707,12 +711,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | relation | 7 |
 | controverse | 7 |
 | fait | 7 |
+| mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
 | source_part | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
+| motif_structurant | 5 |
 | lecture_chanson | 5 |
 | biographie | 5 |
 | mythe | 5 |
@@ -721,7 +727,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
-| mediation_audiovisuelle | 4 |
 | limite_interpretative | 4 |
 | management | 4 |
 | economie_discographique | 4 |
@@ -730,7 +735,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | iconographie | 4 |
 | concert | 4 |
 | projet_avorte | 4 |
-| motif_structurant | 4 |
 | fait_interprete | 4 |
 | concept | 4 |
 | reprise_exterieure | 4 |
@@ -744,6 +748,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
 | mythe_prudence | 3 |
+| synthese_usage_livre | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
 | transition_posthume | 3 |
@@ -763,6 +768,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
+| image_symbolique | 3 |
 | conclusion_historiographique | 3 |
 | motif_discursif | 3 |
 | culture_materielle | 3 |
@@ -775,9 +781,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_numerique | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
+| prudence_interpretative | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
-| synthese_usage_livre | 2 |
 | rencontre_fondatrice | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
@@ -812,11 +818,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | acteur | 2 |
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
+| synthese_critique | 2 |
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
-| image_symbolique | 2 |
 | mythe_a_deconstruire | 2 |
 | analyse_chanson | 2 |
+| acteur_interpretatif | 2 |
+| contexte_urbain | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
 | reception_scene | 2 |
@@ -849,7 +857,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_fan | 1 |
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
-| prudence_interpretative | 1 |
 | prudence_temoin | 1 |
 | relation_esthetique | 1 |
 | atome_pont_document_maitre | 1 |
@@ -1027,7 +1034,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | vigilance_ocr | 1 |
 | vigilance_actualisation | 1 |
 | vigilance_interpretative | 1 |
-| synthese_critique | 1 |
 | synthese_documentaire | 1 |
 | qualification_source | 1 |
 | interpretation_historique | 1 |
@@ -1056,6 +1062,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | evenement_audiovisuel | 1 |
 | comparaison_generations | 1 |
 | garde_fou | 1 |
+| contexte_mediatique | 1 |
+| mythification_posthume | 1 |
+| ecoute_technologique | 1 |
 | appreciation_critique | 1 |
 | reseau_sources | 1 |
 | critique_filmique | 1 |
@@ -1148,7 +1157,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | controverse_scene_live | 1 |
 | scene_revelation_live | 1 |
 | scene_ecoute_prudente | 1 |
-| contexte_urbain | 1 |
 | infrastructure_scene | 1 |
 | lecture_filmique | 1 |
 | analyse_sous_culturelle | 1 |
@@ -1210,8 +1218,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 327 |
-| majeure | 93 |
+| critique | 342 |
+| majeure | 94 |
 | majeur | 28 |
 | utile | 14 |
 | structurante | 2 |
@@ -1411,6 +1419,25 @@ S77 est utile pour traiter la transformation des fanzines punk en sources histor
 Atomes prioritaires : S77-A001 ; S77-A007 ; S77-A010 ; S77-A011 ; S77-A012 ; S77-A014 ; S77-A015 ; S77-A016.
 
 Règle d’usage : articuler S77 avec S21 et S22. S77 donne le cadre national ; S21 fournit les traces archivistiques ; S22 fournit l’interprétation spécialisée de City Fun.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 14
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 14"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Mythe Manchester / Joy Division, réification et éternel retour
+
+S78 est central pour le chapitre 14. Il permet de traiter le mythe Manchester / Joy Division comme construction sociale et patrimoniale : critiques, images, films, écoute mobile, ville créative et régénération transforment le groupe en ressource mémorielle et urbaine.
+
+Atomes prioritaires : S78-A001 ; S78-A003 ; S78-A004 ; S78-A005 ; S78-A010 ; S78-A011 ; S78-A012 ; S78-A014 ; S78-A015 ; S78-A016 ; S78-A017 ; S78-A018 ; S78-A019 ; S78-A020.
+
+Règle d’usage : conserver l’ambivalence. Le mythe augmente la puissance d’écoute de Joy Division, mais il peut aussi réifier Manchester en objet culturel consommable.
 
 ## 16. Lacunes et prochaines vérifications
 

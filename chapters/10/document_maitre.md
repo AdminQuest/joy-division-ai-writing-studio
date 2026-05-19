@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T11:08:15"
+generated_at: "2026-05-19T11:44:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 245 |
+| Atomes | 253 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 36 |
-| Événements chronologiques | 18 |
-| Personnes | 37 |
-| Chansons | 10 |
-| Sources mobilisées | 25 |
+| Citations | 41 |
+| Événements chronologiques | 22 |
+| Personnes | 43 |
+| Chansons | 11 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -59,6 +59,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
+| S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 8 | 5 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -315,6 +316,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q005** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q011** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q012** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q013** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -333,7 +339,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q164** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -348,6 +353,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
+- CHR-S78-1979-09-13-001 — Projection londonienne de films Factory Flick, dont No City Fun et Joy Division de Malcolm Whitehead, sous numéro FAC 9.
+- CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
+- CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
+- CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -378,6 +387,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S54-004 — J. G. Ballard
 - PERS-S54-005 — Brion Gysin
 - PERS-S54-006 — Peter Hook
+- PERS-S78-001 — Leonard Nevarez
+- PERS-S78-005 — Tony Wilson
+- PERS-S78-007 — Anton Corbijn
+- PERS-S78-008 — Charles Salem
+- PERS-S78-009 — Malcolm Whitehead
+- PERS-S78-010 — Grant Gee
 - PERS-S75-029 — Peter Saville
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -392,9 +407,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S76-078 — Martyn Atkins
 - PERS-S76-079 — Bernard Pierre Wolff
-- PERS-S76-062 — Dave McCullough
-- PERS-S76-056 — Kevin Cummins
-- PERS-S76-059 — Martin O’Neill
 
 ## 10. Chansons rattachées
 
@@ -402,6 +414,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
@@ -499,10 +512,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Rob Gretton (9)
 - Annik Honoré (8)
 - Annik (8)
+- Control (6)
 - Peter Saville (6)
 - Natalie (5)
 - silence (5)
-- Control (5)
 - Debbie (5)
 - Candy (4)
 - Unknown Pleasures (4)
@@ -626,7 +639,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 12 |
+| concept_structurant | 14 |
 | tension_domestique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
@@ -636,6 +649,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | scene_sensible | 4 |
 | objet_discographique | 4 |
 | tension_documentaire | 4 |
+| mediation_audiovisuelle | 4 |
 | archive | 4 |
 | memoire | 4 |
 | contrepoint_domestique | 3 |
@@ -655,7 +669,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_social | 2 |
 | reception_precoce | 2 |
 | scene_management | 2 |
-| mediation_audiovisuelle | 2 |
 | reception_numerique | 2 |
 | analyse_video | 2 |
 | production | 2 |
@@ -665,6 +678,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | positionnement | 2 |
 | fait_sensible | 2 |
 | mémoire | 2 |
+| contexte_mediatique | 2 |
 | chronologie | 2 |
 | lecture_reception | 2 |
 | source_part | 2 |
@@ -724,7 +738,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | oeuvre_artistique | 1 |
-| contexte_mediatique | 1 |
 | concept | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
@@ -733,6 +746,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | analyse_materielle | 1 |
 | synthese_relationnelle | 1 |
 | citation_repere | 1 |
+| contexte_urbain | 1 |
+| ecoute_technologique | 1 |
+| synthese_usage_livre | 1 |
 | synthese | 1 |
 | reception_critique | 1 |
 | appreciation_critique | 1 |
@@ -776,10 +792,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 123 |
+| critique | 130 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 16 |
+| majeure | 17 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -916,6 +932,25 @@ S77 peut être utilisé pour penser la remédiation contemporaine des fanzines e
 Atomes prioritaires : S77-A008 ; S77-A013.
 
 Règle d’usage : distinguer le fanzine historique, la critique médiatique qu’il porte, et la patrimonialisation numérique actuelle.
+
+### source_notes_s78.md
+
+# Notes sources réinjectées — Chapitre 10
+
+```yaml
+type_unite: source_notes_chapter
+chapitre: "Chapitre 10"
+sources: [S78]
+statut: note_chapitre_sans_addenda
+```
+
+## S78 — Remédiations, technologies d’écoute et ville créative
+
+S78 est central pour analyser les remédiations du mythe Manchester / Joy Division : *24 Hour Party People*, *Control*, le documentaire de Grant Gee, l’écoute mobile, les expositions et les circuits patrimoniaux.
+
+Atomes prioritaires : S78-A003 ; S78-A004 ; S78-A005 ; S78-A013 ; S78-A015 ; S78-A016 ; S78-A018.
+
+Règle d’usage : distinguer le disque de 1979, les remédiations audiovisuelles ultérieures et les formes contemporaines d’écoute mobile et patrimoniale.
 
 ## 16. Lacunes et prochaines vérifications
 

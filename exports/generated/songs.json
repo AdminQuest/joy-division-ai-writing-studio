@@ -568,6 +568,88 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S78-UNKNOWN_PLEASURES",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-UNKNOWN_PLEASURES",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Unknown Pleasures",
+      "usage": "Objet central de S78 ; album entendu rétrospectivement comme mindscape et soundscape de Manchester.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-SHADOWPLAY",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-SHADOWPLAY",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Shadowplay",
+      "usage": "Chanson utilisée dans What’s On avec projection urbaine ; à lire avec prudence contre l’illustration psychogéographique littérale.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Love Will Tear Us Apart",
+      "usage": "Chanson posthume devenue chiffre populaire du suicide de Curtis et du recentrage mémoriel sur sa persona.",
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-ATMOSPHERE",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-ATMOSPHERE",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Atmosphere",
+      "usage": "Clip de Corbijn pour Substance ; visualisation posthume fantastique et noire et blanche du culte Curtis.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S29-001",
     "file": "registers/songs/s29_goddard_songs.md",
     "heading": "SONG-S29-001 — « Dead Souls »",
@@ -1037,7 +1119,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3471",
+    "id": "NO_ID::registers/songs/master_songs.md::3586",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

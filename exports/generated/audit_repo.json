@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T11:08:14",
+  "generated_at": "2026-05-19T11:44:17",
   "summary": {
-    "records_total": 5357,
+    "records_total": 5472,
     "records_by_kind": {
       "source": 89,
       "metadata": 158,
-      "atom": 2189,
-      "unknown": 698,
-      "concept": 304,
-      "motif": 348,
-      "myth": 70,
-      "quote": 436,
-      "chronology": 386,
-      "person": 242,
-      "song": 81,
+      "atom": 2209,
+      "unknown": 735,
+      "concept": 313,
+      "motif": 353,
+      "myth": 75,
+      "quote": 450,
+      "chronology": 397,
+      "person": 252,
+      "song": 85,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 23655,
+    "diagnostics_total": 23955,
     "errors": 0,
-    "warnings": 23655,
+    "warnings": 23955,
     "sources_declared_in_registre_json": 64,
     "sources_used_in_records": 49,
     "sources_exported": 49,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2189,
-    "chronology": 386,
-    "concept": 304,
+    "atom": 2209,
+    "chronology": 397,
+    "concept": 313,
     "metadata": 158,
-    "motif": 348,
-    "myth": 70,
-    "person": 242,
-    "quote": 436,
+    "motif": 353,
+    "myth": 75,
+    "person": 252,
+    "quote": 450,
     "quote_batch": 1,
     "rules": 1,
-    "song": 81,
+    "song": 85,
     "source": 89,
     "template": 354,
-    "unknown": 698
+    "unknown": 735
   },
   "records_by_source": {
     "S02": {
@@ -423,24 +423,33 @@
       "song": 3
     },
     "S78": {
+      "atom": 20,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 37,
+      "concept": 9,
+      "motif": 5,
+      "myth": 5,
+      "quote": 14,
+      "chronology": 11,
+      "person": 10,
+      "song": 4
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 398,
-    "Chapitre 10": 382,
+    "Chapitre 1": 414,
+    "Chapitre 10": 413,
     "Chapitre 11": 353,
-    "Chapitre 12": 583,
-    "Chapitre 13": 199,
-    "Chapitre 14": 1490,
-    "Chapitre 2": 541,
-    "Chapitre 3": 589,
-    "Chapitre 4": 470,
-    "Chapitre 5": 504,
+    "Chapitre 12": 586,
+    "Chapitre 13": 254,
+    "Chapitre 14": 1544,
+    "Chapitre 2": 543,
+    "Chapitre 3": 605,
+    "Chapitre 4": 472,
+    "Chapitre 5": 517,
     "Chapitre 6": 609,
     "Chapitre 7": 264,
-    "Chapitre 8": 495,
+    "Chapitre 8": 503,
     "Chapitre 9": 314,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -466,6 +475,10 @@
     [
       "sources/johnson_morley_an_ideal_for_living/source.md",
       53
+    ],
+    [
+      "registers/s78_nevarez_specialized_registers.md",
+      51
     ],
     [
       "sources/mike_west_joy_division/source_atomisation_03.md",
@@ -562,19 +575,15 @@
     [
       "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
       24
-    ],
-    [
-      "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
-      24
     ]
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2022,
-    "missing_required_field": 7057,
+    "invalid_controlled_value": 2053,
+    "missing_required_field": 7229,
     "schema_warning": 494,
-    "unknown_yaml_block": 698,
-    "v2_migration_debt": 13081
+    "unknown_yaml_block": 735,
+    "v2_migration_debt": 13141
   },
   "top_files_by_issue_count": [
     [
@@ -2121,6 +2130,166 @@
       "category": "unknown_yaml_block",
       "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
       "record_id": "REL-S43-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-016",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-017",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-020",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -3967,6 +4136,46 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-NEVAREZ-2013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-GEE-2008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-SAVAGE-2008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-BULL-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-BOTTA-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s52_rabbito_specialized_registers.md",
       "record_id": "LIEU-S52-001",
       "message": "Unable to infer documentary kind",
@@ -4553,6 +4762,102 @@
       "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "record_id": "REF-S50-BERTETTI-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "MEDIA-S78-NO_CITY_FUN",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "MEDIA-S78-CONTROL",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -6286,10 +6591,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2189,
+    "atoms_total": 2209,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2116,
-    "v2_missing_field_warnings": 13081
+    "atoms_v2_incomplete": 2136,
+    "v2_missing_field_warnings": 13141
   },
   "source_registry": {
     "declared_but_unused": [
@@ -7659,12 +7964,16 @@
         "auteur": "Leonard Nevarez",
         "titre": "How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City",
         "annee": "2013",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 126,
+        "atoms": 20,
+        "quotes": 14,
+        "chronology": 11,
         "files": [
-          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md"
+          "registers/s78_nevarez_specialized_registers.md",
+          "registers/s78_nevarez_structuring_registers.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md",
+          "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md"
         ]
       }
     ]
@@ -107240,6 +107549,1606 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A002",
+      "message": "Invalid value for type_unite: temoignage_reception",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A004",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A005",
+      "message": "Invalid value for type_unite: contexte_mediatique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A006",
+      "message": "Invalid value for type_unite: demythification",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A007",
+      "message": "Invalid value for type_unite: contexte_geographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A008",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A009",
+      "message": "Invalid value for type_unite: scene_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A010",
+      "message": "Invalid value for type_unite: acteur_interpretatif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A011",
+      "message": "Invalid value for type_unite: acteur_interpretatif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A012",
+      "message": "Invalid value for type_unite: image_symbolique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A013",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A014",
+      "message": "Invalid value for type_unite: mythification_posthume",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A015",
+      "message": "Invalid value for type_unite: contexte_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A016",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A017",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A018",
+      "message": "Invalid value for type_unite: ecoute_technologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A019",
+      "message": "Invalid value for type_unite: synthese_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
+      "record_id": "S78-A020",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-016",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-017",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
+      "record_id": "REL-S78-020",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
       "record_id": "MYTHE-S15-001",
@@ -169104,6 +171013,46 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-NEVAREZ-2013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-GEE-2008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-SAVAGE-2008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-BULL-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_structuring_registers.md",
+      "record_id": "REF-S78-BOTTA-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/s52_rabbito_specialized_registers.md",
       "record_id": "S52-Q001",
@@ -172499,6 +174448,766 @@
       "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "record_id": "REF-S50-BERTETTI-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q008",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q008",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q009",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q009",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q010",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q010",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q011",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q011",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q012",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q012",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q013",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q013",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q014",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "S78-Q014",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1977-05-29-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1977-05-29-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1977-05-29-001",
+      "message": "Invalid value for certainty: à croiser avec chronologie concerts",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1978-09-20-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1978-09-20-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1978-09-20-001",
+      "message": "Invalid value for certainty: à croiser avec vidéo et Ott",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-01-13-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-01-13-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-01-13-001",
+      "message": "Invalid value for certainty: à croiser avec NME original",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-07-21-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-07-21-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-07-21-001",
+      "message": "Invalid value for certainty: à vérifier dans l’article original",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-09-13-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-09-13-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1979-09-13-001",
+      "message": "Invalid value for certainty: à croiser avec sources Factory",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1980-05-18-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1980-05-18-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1980-05-18-001",
+      "message": "Invalid value for certainty: fait établi à croiser avec sources biographiques",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1988-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1988-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1988-001",
+      "message": "Invalid value for certainty: à croiser avec discographie et vidéographie",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1997-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1997-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-1997-001",
+      "message": "Invalid value for certainty: à croiser avec sources urbaines",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2002-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2002-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2002-001",
+      "message": "Invalid value for certainty: à vérifier dans sources film et urbanisme",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2007-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2007-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2007-001",
+      "message": "Invalid value for certainty: à croiser avec S52 et fiches films",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2010-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2010-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "CHR-S78-2010-001",
+      "message": "Invalid value for certainty: à croiser avec sources locales",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-006",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-007",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-008",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-009",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "PERS-S78-010",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "LIEU-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "ORG-S78-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-UNKNOWN_PLEASURES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-SHADOWPLAY",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-SHADOWPLAY",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-SHADOWPLAY",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-ATMOSPHERE",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-ATMOSPHERE",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "SONG-S78-ATMOSPHERE",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "MEDIA-S78-NO_CITY_FUN",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s78_nevarez_specialized_registers.md",
+      "record_id": "MEDIA-S78-CONTROL",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
