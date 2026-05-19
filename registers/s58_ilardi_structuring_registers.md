@@ -126,7 +126,7 @@ id: CONCEPT-bassline_postpunk_acid
 type_unite: concept
 source_id: S58
 nom: bassline post-punk / acid
-.definition: >
+definition: >
   Chaîne interprétative reliant la basse mélodique de Peter Hook, née de contraintes d’amplification, à la centralité future de la ligne de basse dans l’acid house.
 sources: [S58]
 atomes: [S58-A012]
