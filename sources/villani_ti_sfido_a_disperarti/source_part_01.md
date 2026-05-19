@@ -4,7 +4,7 @@ Périmètre : Massimo Villani, « Ti sfido a disperarti. I Joy Division e la not
 
 Passage atomisé : intégralité du chapitre S57, p. 214-219 de l’exemplaire PDF de travail. Le traitement porte uniquement sur le chapitre de Massimo Villani, non sur le volume collectif complet.
 
-Statut : atomisation sélective v2. Cette passe stabilise les nœuds utiles au manuscrit : nuit de la pensée, défi au désespoir, expérience extrême, communauté impossible, monde institué, Blanchot, cœur contre loi, Still, Heart and Soul, abandon du contrôle, corps obtenu dans la crise, mémoire immémoriale et prudence méthodologique.
+Statut : atomisation sélective v2. Cette passe stabilise les nœuds utiles au manuscrit : nuit de la pensée, défi au désespoir, expérience extrême, communauté impossible, monde institué, Blanchot, cœur contre loi, *Still*, « Heart and Soul », abandon du contrôle, corps obtenu dans la crise, mémoire immémoriale et prudence méthodologique.
 
 ---
 
@@ -50,7 +50,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A002
 type_unite: scene_memoire
-­titre: "Scène initiale : mémoire, mer, son et instant perdu"
+titre: "Scène initiale : mémoire, mer, son et instant perdu"
 source_id: S57
 pages:
   pdf: [214, 215]
@@ -83,7 +83,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A003
 type_unite: motif_album
-­titre: "Still : permanence instable et intensité qui continue"
+titre: "Still : permanence instable et intensité qui continue"
 source_id: S57
 pages:
   pdf: [215]
@@ -149,7 +149,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A005
 type_unite: critique_du_monde
-­titre: "Monde administratif et violence du langage ordinaire"
+titre: "Monde administratif et violence du langage ordinaire"
 source_id: S57
 pages:
   pdf: [215, 216]
@@ -215,7 +215,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A007
 type_unite: reference_philosophique
-­titre: "Blanchot : folie intime, inavouable et dehors de la nuit"
+titre: "Blanchot : folie intime, inavouable et dehors de la nuit"
 source_id: S57
 pages:
   pdf: [216, 217]
@@ -248,7 +248,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A008
 type_unite: analyse_chanson
-­titre: "Cœur contre loi : Heart and Soul comme pensée anti-juridique de l’intensité"
+titre: "Cœur contre loi : Heart and Soul comme pensée anti-juridique de l’intensité"
 source_id: S57
 pages:
   pdf: [216, 217]
@@ -281,7 +281,7 @@ usage_livre: [Chapitre 4, Chapitre 11]
 ```yaml
 id: S57-A009
 type_unite: concept_philosophique
-­titre: "Non-rapport à l’absolu : hétérogène, altérité, impossibilité du rapport"
+titre: "Non-rapport à l’absolu : hétérogène, altérité, impossibilité du rapport"
 source_id: S57
 pages:
   pdf: [217, 218]
@@ -314,7 +314,7 @@ usage_livre: [Chapitre 11]
 ```yaml
 id: S57-A010
 type_unite: concept_structurant
-­titre: "Présence absente et dépossession de soi"
+titre: "Présence absente et dépossession de soi"
 source_id: S57
 pages:
   pdf: [217, 218]
@@ -347,7 +347,7 @@ usage_livre: [Chapitre 11, Chapitre 14]
 ```yaml
 id: S57-A011
 type_unite: motif_structurant
-­titre: "Contrôle abandonné : laisser la vie toucher sa perfection"
+titre: "Contrôle abandonné : laisser la vie toucher sa perfection"
 source_id: S57
 pages:
   pdf: [218]
@@ -380,7 +380,7 @@ usage_livre: [Chapitre 6, Chapitre 11, Chapitre 12]
 ```yaml
 id: S57-A012
 type_unite: concept_corps
-­titre: "Paroxysme : le corps obtenu seulement dans la crise"
+titre: "Paroxysme : le corps obtenu seulement dans la crise"
 source_id: S57
 pages:
   pdf: [218]
@@ -415,7 +415,7 @@ usage_livre: [Chapitre 6, Chapitre 12]
 ```yaml
 id: S57-A013
 type_unite: concept_structurant
-­titre: "Ti sfido a disperarti : le désespoir comme défi de pensée"
+titre: "Ti sfido a disperarti : le désespoir comme défi de pensée"
 source_id: S57
 pages:
   pdf: [216, 219]
@@ -448,7 +448,7 @@ usage_livre: [Chapitre 11, Chapitre 12, Chapitre 14]
 ```yaml
 id: S57-A014
 type_unite: motif_memoire
-­titre: "Mémoire immémoriale : passé qui ne ressuscite pas, hors du temps"
+titre: "Mémoire immémoriale : passé qui ne ressuscite pas, hors du temps"
 source_id: S57
 pages:
   pdf: [214, 219]
@@ -481,7 +481,7 @@ usage_livre: [Chapitre 14]
 ```yaml
 id: S57-A015
 type_unite: synthese_usage_livre
-­titre: "Usage final : Joy Division comme expérience de nuit, non comme récit factuel"
+titre: "Usage final : Joy Division comme expérience de nuit, non comme récit factuel"
 source_id: S57
 pages:
   pdf: [214, 219]
