@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 399 |
+| Atomes | 400 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 35 |
 | Événements chronologiques | 23 |
@@ -45,7 +45,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 48 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 5 | 0 |
@@ -121,6 +121,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source :  ; type : `processus_creatif_rythmique` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
   Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A024** — S37-A024 — La question du style propre : Warsaw à l’épreuve de l’individualisation  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `probleme_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
 - **S41-A016** — S41-A016 — Apprendre faux : trois doigts, stickers Tippex et style mélodique  
@@ -133,8 +135,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `recrutement_musical` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A044** — S41-A044 — Session *An Ideal for Living* : basse fausse, Curtis auteur total et prise live  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
-- **S41-A046** — S41-A046 — Pressage raté : quatre titres, sillons trop serrés et son muffled  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 
 ## 6. Autres atomes utiles
 
@@ -494,6 +494,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - new wave (3)
 - basse (3)
 - DIY (3)
+- Warsaw (3)
 - Granada Reports (3)
 - studio comme instrument (3)
 - tension (3)
@@ -510,7 +511,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - spiritual wasteland (2)
 - kraftwerk (2)
 - synthpop (2)
-- europe froide (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -792,6 +792,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | professionnalisation | 1 |
 | media_scene | 1 |
 | transition_artistique | 1 |
+| probleme_esthetique | 1 |
 | registre_influences | 1 |
 | scene_generationnelle | 1 |
 | scene_biographique | 1 |
@@ -837,7 +838,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 123 |
+| critique | 124 |
 | majeure | 30 |
 | utile | 11 |
 | majeur | 10 |

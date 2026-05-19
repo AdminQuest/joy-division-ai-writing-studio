@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 139 |
+| Atomes | 140 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 52 |
 | Événements chronologiques | 24 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -88,6 +88,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
   Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A021** — S37-A021 — Le réseau des lieux : Electric Circus, Rafters, Oaks, Ranch Bar  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_scene` ; importance : `critique` ; preuve : `forte`.
 - **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
@@ -128,8 +130,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S58-A001** — S58-A001 — Source socio-culturelle sur survivance Factory / rave  
   Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
-- **S58-A007** — S58-A007 — Manchester et Detroit : post-apocalypse industrielle et techno  
-  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `comparaison_urbaine` ; importance : `critique` ; preuve : `comparaison_interpretative`.
 
 ## 6. Autres atomes utiles
 
@@ -201,6 +201,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `motif_affectif` ; importance : `majeure` ; preuve : `témoignage_rapporte_par_S56_depuis_Savage`.
 - **S58-A004** — S58-A004 — Haçienda comme gestion punk-situationniste impossible  
   Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `economie_culturelle` ; importance : `majeure` ; preuve : `temoignage_rapporte_depuis_Hook`.
+- **S58-A007** — S58-A007 — Manchester et Detroit : post-apocalypse industrielle et techno  
+  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `comparaison_urbaine` ; importance : `critique` ; preuve : `comparaison_interpretative`.
 - **S58-A008** — S58-A008 — Travail salarié, temps libre et créativité contre-culturelle  
   Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `contexte_socio_culturel` ; importance : `critique` ; preuve : `interpretation_sociohistorique`.
 - **S58-A009** — S58-A009 — Haçienda comme espace indéterminé et TAZ  
@@ -291,8 +293,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
 - **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
-- **S76-A085** — S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 
 ## 7. Citations disponibles
 
@@ -720,6 +720,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | sociabilite_scene | 1 |
 | portrait_social | 1 |
 | concert_europeen | 1 |
+| lieux_scene | 1 |
 | contexte_scene | 1 |
 | scene_travail_industriel | 1 |
 | interpretation | 1 |
@@ -737,7 +738,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 69 |
+| critique | 70 |
 | majeure | 41 |
 | non qualifiée | 24 |
 | majeur | 3 |

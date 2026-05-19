@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 299 |
+| Atomes | 302 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 36 |
@@ -44,7 +44,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 7 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
@@ -98,6 +98,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source :  ; type : `decision_strategique_groupe` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A010** — S37-A010 — Première scène Warsaw : Electric Circus, 29 mai 1977  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `concert_reception` ; importance : `critique` ; preuve : `forte_pour_review_contemporaine`.
+- **S37-A021** — S37-A021 — Le réseau des lieux : Electric Circus, Rafters, Oaks, Ranch Bar  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_scene` ; importance : `critique` ; preuve : `forte`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -132,8 +134,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + notice documentaire intégrée`.
 - **S41-A082** — S41-A082 — Hannett face à Joy Division : espace, batterie de Morris et groupe sans défense technique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage Hook + citation Hannett rapportée`.
-- **S41-A083** — S41-A083 — « Digital » et « Glass » : première réussite Hannett, ego de bassiste et sampler Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 
 ## 6. Autres atomes utiles
 
@@ -231,12 +231,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `ecoute_demo` ; importance : `critique pour Chapitre 3` ; preuve : `témoignage autobiographique direct`.
 - **S35-A083** — S35-A083 — Rehearsal call : Morris devient batteur-chauffeur avant d’être membre  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `transition_recrutement` ; importance : `utile` ; preuve : `témoignage autobiographique direct`.
+- **S37-A022** — S37-A022 — Fanzines et labels locaux : Ghast Up, Shy Talk, New Hormones, Rabid, Bent  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `infrastructure_editoriale` ; importance : `majeure` ; preuve : `forte_pour_liste_contemporaine`.
+- **S37-A026** — S37-A026 — John Cooper Clarke et Jon the Postman : personnages de scène et élargissement du rock  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `personnages_scene` ; importance : `utile` ; preuve : `forte_pour_reception_contemporaine`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A063** — S41-A063 — It Won’t Sell et Rainy City : Gretton pré-manager comme producteur d’infrastructure fragile  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
+- **S41-A083** — S41-A083 — « Digital » et « Glass » : première réussite Hannett, ego de bassiste et sampler Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 - **S41-A084** — S41-A084 — Assembler Factory Sample : travail manuel, Saville retardataire et Wilson en père Noël punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
 - **S41-A093** — S41-A093 — Timeline Three comme armature 1978 : de Pips au Hope & Anchor  
@@ -291,12 +297,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 - **S41-A151** — S41-A151 — « New Dawn Fades » : amp Marshall vendu, économie domestique et son perdu  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_materiel` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
-- **S41-A154** — S41-A154 — « Interzone » : chant Hook, générosité Curtis et survivance RCA  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
-- **S41-A155** — S41-A155 — « I Remember Nothing » : jam sans ordre, Transcendent 2000 et atmosphère finale  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
 
 ## 7. Citations disponibles
 
@@ -452,6 +452,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - pennine studios (2)
 - pressage (2)
 - rca sessions (2)
+- labels indépendants (2)
 - enigma (2)
 - factory (2)
 - bbc (2)
@@ -472,6 +473,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - novelty (2)
 - architecture sonore (2)
 - class (2)
+- Electric Circus (2)
 - musicien comme ressource logistique (2)
 - Madchester (2)
 - City Fun (2)
@@ -500,8 +502,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - provocation documentée (1)
 - économie domestique du disque (1)
 - matérialité financière (1)
-- objet bricolé (1)
-- DIY intégral (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -746,6 +746,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lecture_reprise | 1 |
 | fait_contractuel | 1 |
 | concert_filme | 1 |
+| lieux_scene | 1 |
+| infrastructure_editoriale | 1 |
+| personnages_scene | 1 |
 | concert_reception | 1 |
 | culture_bootleg | 1 |
 | culture_materielle | 1 |
@@ -798,14 +801,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 137 |
+| critique | 138 |
 | non qualifiée | 123 |
 | majeur | 18 |
-| majeure | 17 |
+| majeure | 18 |
+| utile | 2 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |
-| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

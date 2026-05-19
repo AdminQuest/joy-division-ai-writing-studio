@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1141 |
+| Atomes | 1147 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
@@ -53,7 +53,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 9 | 4 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 9 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 15 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -513,6 +513,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - martin hannett (11)
 - Ceremony (11)
 - mémoire (11)
+- Manchester (10)
 - Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
@@ -522,7 +523,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - rob gretton (9)
 - Closer (9)
 - authenticité (9)
-- Manchester (8)
 - suicide (8)
 - post-punk (8)
 - indépendance (8)
@@ -548,7 +548,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
+- scène mancunienne (5)
 - manchester (5)
+- scène locale (5)
 - Kevin Cummins (5)
 - noir et blanc (5)
 - Plan K (5)
@@ -566,12 +568,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - réception posthume (4)
 - sonic hauntology (4)
 - no future (4)
-- scène mancunienne (4)
 - fanzine (4)
 - paul morley (4)
 - télévision (4)
 - 1982 (4)
-- photographie (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -708,8 +708,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | concept_structurant | 39 |
+| prudence_methodologique | 35 |
 | analyse | 35 |
-| prudence_methodologique | 34 |
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
@@ -855,6 +855,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bascule_tournee | 2 |
 | concert_archive | 2 |
 | politique_urbaine | 2 |
+| citation_courte | 2 |
 | scene_sociale_style | 2 |
 | formation_culturelle | 2 |
 | scene_ecoute | 2 |
@@ -1184,13 +1185,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_vocale | 1 |
 | transition_album | 1 |
 | reception_memoire | 1 |
+| scene_fondatrice_prudente | 1 |
+| infrastructure_editoriale | 1 |
+| personnages_scene | 1 |
+| prefiguration_institutionnelle | 1 |
 | mediation_critique | 1 |
 | analogie_structurante | 1 |
 | concert_reception | 1 |
 | micro_archive | 1 |
 | contexte_biographique_critique | 1 |
 | memoire_scene | 1 |
-| citation_courte | 1 |
 | discours_religieux | 1 |
 | scene_generationnelle | 1 |
 | scene_adolescente_prudente | 1 |
@@ -1294,10 +1298,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 413 |
-| majeure | 119 |
+| critique | 415 |
+| majeure | 122 |
 | majeur | 28 |
-| utile | 17 |
+| utile | 18 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 152 |
+| Atomes | 153 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 17 |
@@ -42,7 +42,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 4 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
@@ -90,6 +90,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `matrice_musicale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S35-A095** — S35-A095 — Morris théorise la section rythmique : pont, moteur, cœur battant  
   Source :  ; type : `theorie_instrumentale` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A017** — S37-A017 — Devoto et Buzzcocks comme déclencheur d’une communauté locale  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `acteur_catalyseur` ; importance : `critique` ; preuve : `forte_pour_position_de_Morley`.
 - **S42-A003** — S42-A003 — Centre / périphérie : le post-punk comme mouvement depuis les marges industrielles  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept critique`.
 - **S42-A006** — S42-A006 — Punk contre post-punk : destruction, reconstruction et expérimentation  
@@ -128,8 +130,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -446,6 +446,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - réception interne (2)
 - design funéraire (2)
 - production sonore (2)
+- Buzzcocks (2)
 - espace (2)
 - Cargo Studios (2)
 - John Brierley (2)
@@ -460,7 +461,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - extension de l’imaginaire (1)
 - danse-transe (1)
 - expansion de sens (1)
-- traduction synesthésique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -663,6 +663,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reception_posthume | 1 |
 | contexte_scene | 1 |
 | temoignage_biographique | 1 |
+| acteur_catalyseur | 1 |
 | scene_relationnelle | 1 |
 | reception_populaire | 1 |
 | prudence_historiographique | 1 |
@@ -687,7 +688,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 53 |
+| critique | 54 |
 | majeure | 19 |
 | majeur | 3 |
 | utile | 3 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T19:03:08"
+generated_at: "2026-05-19T20:34:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-19T19:03:08"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 255 |
+| Atomes | 261 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 10 |
@@ -51,7 +51,7 @@ generated_at: "2026-05-19T19:03:08"
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 8 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -110,6 +110,12 @@ generated_at: "2026-05-19T19:03:08"
   Source :  ; type : `lecture_generationnelle` ; importance : `critique` ; preuve : `non qualifié`.
 - **S35-A097** — S35-A097 — T. J. Davidson’s : froid, piss tins et séparation Hook / Sumner  
   Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
+- **S37-A016** — S37-A016 — Le Manchester rock pré-punk comme périphérie sans identité propre  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_scene` ; importance : `critique` ; preuve : `forte_pour_reception_contemporaine`.
+- **S37-A017** — S37-A017 — Devoto et Buzzcocks comme déclencheur d’une communauté locale  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `acteur_catalyseur` ; importance : `critique` ; preuve : `forte_pour_position_de_Morley`.
+- **S37-A020** — S37-A020 — Lesser Free Trade Hall / Sex Pistols : origine pratique d’une scène, non origine absolue  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `scene_fondatrice_prudente` ; importance : `critique` ; preuve : `forte_pour_reception ; a_croiser_pour_chronologie`.
 - **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
 - **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
@@ -140,12 +146,6 @@ generated_at: "2026-05-19T19:03:08"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
-- **S53-A002** — S53-A002 — *Slancio vitale* et bain émotionnel de mythes et symboles  
-  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_theorique`.
-- **S53-A003** — S53-A003 — Manchester comme *genius loci*  
-  Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
-- **S58-A007** — S58-A007 — Manchester et Detroit : post-apocalypse industrielle et techno  
-  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `comparaison_urbaine` ; importance : `critique` ; preuve : `comparaison_interpretative`.
 
 ## 6. Autres atomes utiles
 
@@ -381,8 +381,9 @@ generated_at: "2026-05-19T19:03:08"
 
 ## 11. Concepts récurrents
 
+- Manchester (9)
 - manchester (9)
-- Manchester (8)
+- scène locale (6)
 - géographie émotionnelle (6)
 - Salford (6)
 - James Anderton (5)
@@ -395,7 +396,10 @@ generated_at: "2026-05-19T19:03:08"
 - postindustrial cityscapes (3)
 - no future (3)
 - imaginative historicism (3)
-- scène locale (3)
+- scène mancunienne (3)
+- Sex Pistols (3)
+- Buzzcocks (3)
+- Lesser Free Trade Hall (3)
 - Ian Wood (3)
 - NME (3)
 - classe ouvriere (3)
@@ -431,13 +435,9 @@ generated_at: "2026-05-19T19:03:08"
 - sheffield (2)
 - joy division (2)
 - the fall (2)
-- scène mancunienne (2)
 - city fun (2)
 - fanzine (2)
 - crise sociale (2)
-- Sex Pistols (2)
-- Buzzcocks (2)
-- Lesser Free Trade Hall (2)
 - Manchester punk (2)
 - inflation (2)
 - public expenditure (2)
@@ -596,7 +596,7 @@ generated_at: "2026-05-19T19:03:08"
 
 | Type | Nombre |
 |---|---|
-| prudence_methodologique | 15 |
+| prudence_methodologique | 16 |
 | concept_structurant | 15 |
 | source_part | 14 |
 | analyse | 9 |
@@ -608,13 +608,13 @@ generated_at: "2026-05-19T19:03:08"
 | lieu_scene | 4 |
 | contexte | 4 |
 | biographie | 4 |
+| contexte_scene | 3 |
 | methode | 3 |
 | contrepoint | 3 |
 | lieu | 3 |
 | politique_urbaine | 3 |
 | contexte_biographique | 3 |
 | tension_documentaire | 2 |
-| contexte_scene | 2 |
 | acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
 | relation_esthetique | 2 |
@@ -698,6 +698,10 @@ generated_at: "2026-05-19T19:03:08"
 | culture_urbaine | 1 |
 | paysage_urbain | 1 |
 | urbanisme_vécu | 1 |
+| acteur_catalyseur | 1 |
+| citation_courte | 1 |
+| modele_emergence | 1 |
+| scene_fondatrice_prudente | 1 |
 | memoire_scene | 1 |
 | contexte_discursif | 1 |
 | reaction_politique | 1 |
@@ -740,8 +744,8 @@ generated_at: "2026-05-19T19:03:08"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 48 |
-| majeure | 38 |
+| critique | 51 |
+| majeure | 41 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |
