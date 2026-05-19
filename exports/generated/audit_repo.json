@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-19T12:28:54",
+  "generated_at": "2026-05-19T13:19:11",
   "summary": {
-    "records_total": 5538,
+    "records_total": 5540,
     "records_by_kind": {
-      "source": 90,
-      "metadata": 159,
+      "source": 91,
+      "metadata": 160,
       "atom": 2221,
       "unknown": 756,
       "concept": 321,
@@ -21,9 +21,9 @@
     "diagnostics_total": 24112,
     "errors": 0,
     "warnings": 24112,
-    "sources_declared_in_registre_json": 65,
-    "sources_used_in_records": 50,
-    "sources_exported": 50,
+    "sources_declared_in_registre_json": 66,
+    "sources_used_in_records": 51,
+    "sources_exported": 51,
     "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,7 +32,7 @@
     "atom": 2221,
     "chronology": 399,
     "concept": 321,
-    "metadata": 159,
+    "metadata": 160,
     "motif": 357,
     "myth": 79,
     "person": 257,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 86,
-    "source": 90,
+    "source": 91,
     "template": 354,
     "unknown": 756
   },
@@ -369,6 +369,10 @@
       "concept": 8,
       "motif": 4,
       "myth": 4
+    },
+    "S56": {
+      "source": 1,
+      "metadata": 1
     },
     "S68": {
       "quote": 3,
@@ -7903,6 +7907,20 @@
           "sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md",
           "sources/romania_a_guide_to_come_universo_simbolico/source.md",
           "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S56",
+        "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+        "auteur": "Linda Barone",
+        "titre": "Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/barone_directionless_so_plain_to_see/source.md"
         ]
       },
       {
