@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T14:04:42",
+  "generated_at": "2026-05-19T14:22:54",
   "summary": {
-    "records_total": 5629,
+    "records_total": 5697,
     "records_by_kind": {
       "source": 92,
       "metadata": 161,
-      "atom": 2242,
-      "unknown": 786,
-      "concept": 332,
-      "motif": 360,
-      "myth": 82,
-      "quote": 464,
-      "chronology": 404,
-      "person": 261,
-      "song": 89,
+      "atom": 2257,
+      "unknown": 805,
+      "concept": 342,
+      "motif": 365,
+      "myth": 85,
+      "quote": 470,
+      "chronology": 406,
+      "person": 265,
+      "song": 93,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24394,
+    "diagnostics_total": 24597,
     "errors": 0,
-    "warnings": 24394,
+    "warnings": 24597,
     "sources_declared_in_registre_json": 67,
     "sources_used_in_records": 52,
     "sources_exported": 52,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2242,
-    "chronology": 404,
-    "concept": 332,
+    "atom": 2257,
+    "chronology": 406,
+    "concept": 342,
     "metadata": 161,
-    "motif": 360,
-    "myth": 82,
-    "person": 261,
-    "quote": 464,
+    "motif": 365,
+    "myth": 85,
+    "person": 265,
+    "quote": 470,
     "quote_batch": 1,
     "rules": 1,
-    "song": 89,
+    "song": 93,
     "source": 92,
     "template": 354,
-    "unknown": 786
+    "unknown": 805
   },
   "records_by_source": {
     "S02": {
@@ -384,8 +384,17 @@
       "song": 3
     },
     "S57": {
+      "unknown": 19,
+      "atom": 15,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "concept": 10,
+      "motif": 5,
+      "myth": 3,
+      "quote": 6,
+      "chronology": 2,
+      "person": 4,
+      "song": 4
     },
     "S68": {
       "quote": 3,
@@ -468,16 +477,16 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 415,
-    "Chapitre 10": 425,
-    "Chapitre 11": 377,
-    "Chapitre 12": 606,
+    "Chapitre 10": 426,
+    "Chapitre 11": 412,
+    "Chapitre 12": 615,
     "Chapitre 13": 257,
-    "Chapitre 14": 1609,
+    "Chapitre 14": 1639,
     "Chapitre 2": 543,
     "Chapitre 3": 605,
-    "Chapitre 4": 512,
+    "Chapitre 4": 516,
     "Chapitre 5": 517,
-    "Chapitre 6": 637,
+    "Chapitre 6": 647,
     "Chapitre 7": 264,
     "Chapitre 8": 527,
     "Chapitre 9": 343,
@@ -609,11 +618,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2093,
-    "missing_required_field": 7457,
+    "invalid_controlled_value": 2110,
+    "missing_required_field": 7564,
     "schema_warning": 494,
-    "unknown_yaml_block": 786,
-    "v2_migration_debt": 13261
+    "unknown_yaml_block": 805,
+    "v2_migration_debt": 13321
   },
   "top_files_by_issue_count": [
     [
@@ -1384,6 +1393,126 @@
       "category": "unknown_yaml_block",
       "file": "sources/malvezzi_dream_english_kid_lo_fi/relations_s51.md",
       "record_id": "REL-S51-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4718,6 +4847,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "record_id": "REF-S57-VILLANI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "record_id": "REF-S57-BLANCHOT-2000-2001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
       "record_id": "REF-S21-MDMARCHIVE-CITY-FUN",
       "message": "Unable to infer documentary kind",
@@ -4904,6 +5049,22 @@
       "category": "unknown_yaml_block",
       "file": "registers/s77_worley_specialized_registers.md",
       "record_id": "ORG-S77-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "ORG-S57-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "ALBUM-S57-STILL",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7029,10 +7190,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2242,
+    "atoms_total": 2257,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2169,
-    "v2_missing_field_warnings": 13261
+    "atoms_v2_incomplete": 2184,
+    "v2_missing_field_warnings": 13321
   },
   "source_registry": {
     "declared_but_unused": [
@@ -8186,12 +8347,16 @@
         "auteur": "Massimo Villani",
         "titre": "Ti sfido a disperarti. I Joy Division e la notte del pensiero",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 80,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 2,
         "files": [
-          "sources/villani_ti_sfido_a_disperarti/source.md"
+          "registers/s57_villani_specialized_registers.md",
+          "registers/s57_villani_structuring_registers.md",
+          "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+          "sources/villani_ti_sfido_a_disperarti/source.md",
+          "sources/villani_ti_sfido_a_disperarti/source_part_01.md"
         ]
       },
       {
@@ -71514,6 +71679,1326 @@
       "record_id": "S39-A007",
       "message": "Missing nested field: niveau_preuve.corroboration",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "record_id": "REL-S57-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A002",
+      "message": "Invalid value for type_unite: scene_memoire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A003",
+      "message": "Invalid value for type_unite: motif_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A004",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A005",
+      "message": "Invalid value for type_unite: critique_du_monde",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A006",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A007",
+      "message": "Invalid value for type_unite: reference_philosophique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A008",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A009",
+      "message": "Invalid value for type_unite: concept_philosophique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A010",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A011",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A012",
+      "message": "Invalid value for type_unite: concept_corps",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A013",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A014",
+      "message": "Invalid value for type_unite: motif_memoire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "record_id": "S57-A015",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -176118,6 +177603,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "record_id": "REF-S57-VILLANI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "record_id": "REF-S57-BLANCHOT-2000-2001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
       "record_id": "REF-S21-MDMARCHIVE-CITY-FUN",
       "message": "Unable to infer documentary kind",
@@ -176760,6 +178261,294 @@
       "category": "missing_required_field",
       "file": "registers/s77_worley_specialized_registers.md",
       "record_id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "S57-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-1981-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-1981-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-1981-001",
+      "message": "Invalid value for certainty: a_croiser_discographie",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-2021-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-2021-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "CHR-S57-2021-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "PERS-S57-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "PERS-S57-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "PERS-S57-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "PERS-S57-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "ORG-S57-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "ALBUM-S57-STILL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-HEART-AND-SOUL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-HEART-AND-SOUL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-HEART-AND-SOUL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-DECADES",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-DECADES",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-DECADES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ISOLATION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ISOLATION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "record_id": "SONG-S57-ISOLATION",
       "message": "Missing required field: chapters",
       "suggested_action": "Compléter le champ obligatoire."
     },

@@ -919,6 +919,130 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-nuit_du_penseur",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-nuit_du_penseur",
+      "type_unite": "motif",
+      "source_id": "S57",
+      "nom": "nuit du penseur",
+      "definition": "Motif de la pensée entrant dans la nuit, hors du discours ordinaire et hors de la maîtrise conceptuelle.\n",
+      "atomes": [
+        "S57-A007",
+        "S57-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-o_nous_ou_le_monde",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-o_nous_ou_le_monde",
+      "type_unite": "motif",
+      "source_id": "S57",
+      "nom": "O nous ou le monde",
+      "definition": "Formule de séparation entre une communauté secrète d’écoute et le monde social ordinaire.\n",
+      "atomes": [
+        "S57-A004",
+        "S57-A005"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-joie_de_rupture",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-joie_de_rupture",
+      "type_unite": "motif",
+      "source_id": "S57",
+      "nom": "joie de rupture",
+      "definition": "Joie paradoxale, explosive, ésotérique, distincte du divertissement et incompatible avec le monde lissé.\n",
+      "atomes": [
+        "S57-A006",
+        "S57-A013"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-coeur_et_loi",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-coeur_et_loi",
+      "type_unite": "motif",
+      "source_id": "S57",
+      "nom": "cœur et loi",
+      "definition": "Motif blanchotien mobilisé pour penser Heart and Soul comme opposition entre intensité et domestication normative.\n",
+      "atomes": [
+        "S57-A008"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-paroxysme_du_corps",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-paroxysme_du_corps",
+      "type_unite": "motif",
+      "source_id": "S57",
+      "nom": "paroxysme du corps",
+      "definition": "Motif où le corps surgit dans la crise, la perte de contrôle et l’expérience extrême.\n",
+      "atomes": [
+        "S57-A011",
+        "S57-A012"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-graphisme_pauvre_fanzine",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Motifs",

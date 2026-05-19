@@ -711,6 +711,81 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-joy_division_purement_desespere",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joy_division_purement_desespere",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Joy Division serait purement désespéré",
+      "deconstruction": "S57 montre une énergie explosive et une joie de rupture. Le désespoir doit être compris comme défi, non comme pure complaisance sombre.\n",
+      "atomes": [
+        "S57-A006",
+        "S57-A013"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-villani_source_factuelle",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-villani_source_factuelle",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Villani fournirait une preuve factuelle",
+      "deconstruction": "S57 est une source interprétative et lyrique. Elle doit être utilisée pour la pensée et non pour établir des faits historiques.\n",
+      "atomes": [
+        "S57-A001",
+        "S57-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-blanchot_explique_jd",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-blanchot_explique_jd",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Blanchot expliquerait directement Joy Division",
+      "deconstruction": "Blanchot fournit une grille d’interprétation chez Villani, pas une causalité ni une influence directe sur Joy Division.\n",
+      "atomes": [
+        "S57-A007",
+        "S57-A008"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-City_Fun_simplement_anti_Factory",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Mythes à déconstruire",

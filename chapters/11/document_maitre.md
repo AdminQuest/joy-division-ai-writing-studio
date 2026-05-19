@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 270 |
+| Atomes | 281 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 30 |
-| Événements chronologiques | 14 |
-| Personnes | 20 |
-| Chansons | 24 |
-| Sources mobilisées | 26 |
+| Citations | 36 |
+| Événements chronologiques | 15 |
+| Personnes | 24 |
+| Chansons | 28 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 12 | 8 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 11 | 3 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 6 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -307,6 +308,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
 - **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q002** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q003** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q006** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
@@ -334,6 +341,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
 - CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
+- CHR-S57-2021-001 — Publication du chapitre de Massimo Villani dans Our Vision Touched the Sky.
 - CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
 - CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
 - CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
@@ -350,6 +358,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 ## 9. Personnes et acteurs
 
 - PERS-S77-009 — Penny Rimbaud
+- PERS-S57-001 — Massimo Villani
+- PERS-S57-002 — Maurice Blanchot
+- PERS-S57-003 — Georg Wilhelm Friedrich Hegel
+- PERS-S57-004 — Ian Curtis
 - PERS-S54-001 — Alessandro Gnocchi
 - PERS-S54-002 — Ian Curtis
 - PERS-S54-003 — William S. Burroughs
@@ -374,6 +386,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
 - SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
+- SONG-S57-HEART-AND-SOUL — Heart and Soul
+- SONG-S57-ATROCITY-EXHIBITION — Atrocity Exhibition
+- SONG-S57-DECADES — Decades
+- SONG-S57-ISOLATION — Isolation
 - SONG-S54-DIGITAL — Digital
 - SONG-S54-INTERZONE — Interzone
 - SONG-S54-EXERCISE_ONE — Exercise One
@@ -489,16 +505,18 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - provocation (5)
 - domesticité (5)
 - silence (4)
+- prudence (4)
+- contrôle (4)
 - Electric Circus (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
 - répétition (3)
-- contrôle (3)
 - violence (3)
 - attente (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
 - Plan K (3)
+- nuit (3)
 - réception critique (3)
 - post-punk (3)
 - Ian Curtis (3)
@@ -510,7 +528,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - futur perdu (2)
 - Interzone (2)
 - transe (2)
-- prudence (2)
 - clôture (2)
 - passage (2)
 - technologie (2)
@@ -521,9 +538,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Rudolf Hess (2)
 - Rock Against Racism (2)
 - Short Circuit (2)
-- Atmosphere (2)
-- Dead Souls (2)
-- histoire (2)
+- altérité (2)
+- intensité (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -606,7 +622,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S39-A004 — prolonge → REL-S39-005
 - S39-A005 — garde_fou → REL-S39-008
 - S39-A007 — prolonge → REL-S39-007
-- S75-A064 — requiert → CONCEPT-004
+- S57-A001 — distingue → S56
 
 ## 13. Distribution documentaire
 
@@ -615,11 +631,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 15 |
+| concept_structurant | 18 |
 | lecture_chanson | 12 |
-| prudence_methodologique | 7 |
+| prudence_methodologique | 8 |
+| analyse_chanson | 8 |
 | biographie | 7 |
-| analyse_chanson | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
 | non qualifié | 5 |
@@ -630,6 +646,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | interpretation_esthetique | 3 |
 | intertextualite | 3 |
 | reception_critique | 3 |
+| motif_structurant | 3 |
 | citation_repere | 3 |
 | concept | 3 |
 | contexte_biographique | 3 |
@@ -641,6 +658,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | contrepoint | 2 |
 | synthese | 2 |
 | synthese_argumentative | 2 |
+| synthese_usage_livre | 2 |
 | reception_presse | 2 |
 | dispositif_formel | 2 |
 | domesticité | 2 |
@@ -667,7 +685,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | concept_performance | 1 |
 | motif_textuel | 1 |
 | lecture_intertextuelle | 1 |
-| synthese_usage_livre | 1 |
 | paroles_source | 1 |
 | scene_live_desillusion | 1 |
 | evenement_discographique | 1 |
@@ -698,6 +715,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | psychologie_sociale | 1 |
 | culture_domestique | 1 |
 | concept_reception | 1 |
+| scene_memoire | 1 |
+| reference_philosophique | 1 |
+| concept_philosophique | 1 |
 | concert | 1 |
 | lecture_textuelle | 1 |
 | influence | 1 |
@@ -744,7 +764,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
 | scene_litteraire | 1 |
-| motif_structurant | 1 |
 | motif_lexical | 1 |
 | memoire | 1 |
 | song_pair | 1 |
@@ -755,8 +774,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 97 |
-| majeure | 30 |
+| critique | 106 |
+| majeure | 32 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

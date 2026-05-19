@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 257 |
+| Atomes | 258 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 43 |
 | Événements chronologiques | 23 |
 | Personnes | 44 |
 | Chansons | 11 |
-| Sources mobilisées | 28 |
+| Sources mobilisées | 29 |
 
 ## 4. Sources mobilisées
 
@@ -54,6 +54,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 2 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 3 | 1 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 1 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -742,6 +743,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | oeuvre_artistique | 1 |
+| critique_du_monde | 1 |
 | concept | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
@@ -801,7 +803,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | critique | 134 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 17 |
+| majeure | 18 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

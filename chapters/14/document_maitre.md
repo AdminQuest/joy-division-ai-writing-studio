@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1059 |
+| Atomes | 1070 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 154 |
-| Événements chronologiques | 94 |
-| Personnes | 133 |
-| Chansons | 26 |
-| Sources mobilisées | 46 |
+| Citations | 157 |
+| Événements chronologiques | 96 |
+| Personnes | 135 |
+| Chansons | 27 |
+| Sources mobilisées | 47 |
 
 ## 4. Sources mobilisées
 
@@ -70,6 +70,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 6 | 2 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -380,6 +381,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
 - CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
 - CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
+- CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
+- CHR-S57-2021-001 — Publication du chapitre de Massimo Villani dans Our Vision Touched the Sky.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
@@ -400,8 +403,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
 - CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
-- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
-- CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
 
 ## 9. Personnes et acteurs
 
@@ -443,8 +444,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S77-008 — Paul Morley
 - PERS-S77-009 — Penny Rimbaud
 - PERS-S77-010 — Lucy Toothpaste / Lucy Whitman
-- PERS-S21-001 — Liz Naylor
-- PERS-S21-002 — Cath Carroll
+- PERS-S57-001 — Massimo Villani
+- PERS-S57-002 — Maurice Blanchot
 
 ## 10. Chansons rattachées
 
@@ -458,6 +459,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S50-NEW_DAWN_FADES — New Dawn Fades
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S57-DECADES — Decades
 - SONG-S54-INTERZONE — Interzone
 - SONG-S21-JOY_DIVISION — Joy Division
 - SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
@@ -565,8 +567,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
+- prudence (13)
 - Factory (13)
-- prudence (11)
 - Unknown Pleasures (11)
 - Ian Curtis (10)
 - Peter Saville (10)
@@ -585,12 +587,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Atmosphere (6)
 - Haçienda (6)
 - Plan K (6)
+- Still (6)
 - New Order (5)
 - Burroughs (5)
-- Still (5)
 - Durutti Column (5)
 - Rafters (5)
 - Sordide Sentimental (5)
+- mémoire (5)
 - Closer (5)
 - Gretton (5)
 - Mick Middles (4)
@@ -601,7 +604,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - YouTube (4)
 - Something Else (4)
 - So It Goes (4)
-- Shadowplay (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -693,9 +695,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | analyse | 35 |
+| concept_structurant | 32 |
 | reception | 30 |
-| concept_structurant | 29 |
-| prudence_methodologique | 27 |
+| prudence_methodologique | 28 |
 | non qualifié | 27 |
 | memoire | 14 |
 | reception_live | 12 |
@@ -707,11 +709,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_poll | 10 |
 | production | 8 |
 | contrepoint | 8 |
+| motif_structurant | 8 |
 | scene_fondatrice | 8 |
 | lecture | 8 |
 | methode | 7 |
 | sociologie | 7 |
-| motif_structurant | 7 |
 | relation | 7 |
 | controverse | 7 |
 | fait | 7 |
@@ -720,6 +722,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | source_part | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
+| synthese_usage_livre | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -732,7 +735,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_reception | 4 |
 | limite_interpretative | 4 |
 | management | 4 |
-| synthese_usage_livre | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
 | television | 4 |
@@ -788,6 +790,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | infrastructure | 2 |
 | lieu_institution | 2 |
 | rencontre_fondatrice | 2 |
+| scene_memoire | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
@@ -880,7 +883,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_industrielle | 1 |
 | violence_live | 1 |
 | scene_refuge | 1 |
-| scene_memoire | 1 |
 | scene_funeraire | 1 |
 | culpabilite_memorielle | 1 |
 | chronologie_factory | 1 |
@@ -967,6 +969,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_visuelle | 1 |
 | motif_majeur | 1 |
 | concept_reception | 1 |
+| motif_album | 1 |
+| critique_du_monde | 1 |
+| reference_philosophique | 1 |
+| motif_memoire | 1 |
 | videographie | 1 |
 | bibliographie | 1 |
 | performance | 1 |
@@ -1231,8 +1237,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 355 |
-| majeure | 98 |
+| critique | 364 |
+| majeure | 100 |
 | majeur | 28 |
 | utile | 15 |
 | structurante | 2 |

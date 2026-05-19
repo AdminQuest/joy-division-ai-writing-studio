@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T14:04:44"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 317 |
+| Atomes | 318 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 88 |
+| Citations | 89 |
 | Événements chronologiques | 59 |
 | Personnes | 51 |
-| Chansons | 30 |
-| Sources mobilisées | 21 |
+| Chansons | 31 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ generated_at: "2026-05-19T14:04:44"
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 2 | 2 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 15 | 15 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 16 | 5 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -309,6 +310,7 @@ generated_at: "2026-05-19T14:04:44"
 - **S52-Q010** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S53-Q010** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q002** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
@@ -333,7 +335,6 @@ generated_at: "2026-05-19T14:04:44"
 - **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -427,6 +428,7 @@ generated_at: "2026-05-19T14:04:44"
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S57-HEART-AND-SOUL — Heart and Soul
 - SONG-S54-DIGITAL — Digital
 - SONG-S54-INTERZONE — Interzone
 - SONG-S54-EXERCISE_ONE — Exercise One
@@ -676,8 +678,8 @@ generated_at: "2026-05-19T14:04:44"
 | prudence_methodologique | 9 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
+| analyse_chanson | 8 |
 | scene_fondatrice | 7 |
-| analyse_chanson | 7 |
 | biographie | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
@@ -859,7 +861,7 @@ generated_at: "2026-05-19T14:04:44"
 
 | Importance | Nombre |
 |---|---|
-| critique | 164 |
+| critique | 165 |
 | non qualifiée | 94 |
 | majeure | 50 |
 | utile | 5 |

@@ -325,6 +325,86 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S57-HEART-AND-SOUL",
+    "file": "registers/s57_villani_specialized_registers.md",
+    "heading": "Organisations, albums, chansons",
+    "data": {
+      "id": "SONG-S57-HEART-AND-SOUL",
+      "type_unite": "song",
+      "source_id": "S57",
+      "song": "Heart and Soul",
+      "usage": "Chanson mobilisée pour penser cœur contre loi et intensité non domestiquée.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S57-ATROCITY-EXHIBITION",
+    "file": "registers/s57_villani_specialized_registers.md",
+    "heading": "Organisations, albums, chansons",
+    "data": {
+      "id": "SONG-S57-ATROCITY-EXHIBITION",
+      "type_unite": "song",
+      "source_id": "S57",
+      "song": "Atrocity Exhibition",
+      "usage": "Chanson utile pour l’expérience extrême et la tension entre attraction, exposition et sortie du monde ordinaire.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S57-DECADES",
+    "file": "registers/s57_villani_specialized_registers.md",
+    "heading": "Organisations, albums, chansons",
+    "data": {
+      "id": "SONG-S57-DECADES",
+      "type_unite": "song",
+      "source_id": "S57",
+      "song": "Decades",
+      "usage": "Chanson utile pour le retour impossible, la mémoire collective et l’immémorial.",
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S57-ISOLATION",
+    "file": "registers/s57_villani_specialized_registers.md",
+    "heading": "Organisations, albums, chansons",
+    "data": {
+      "id": "SONG-S57-ISOLATION",
+      "type_unite": "song",
+      "source_id": "S57",
+      "song": "Isolation",
+      "usage": "Chanson à croiser si l’analyse de l’isolement devient centrale ; S57 ne remplace pas S58 sur isolationnisme.",
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S54-DIGITAL",
     "file": "registers/s54_gnocchi_specialized_registers.md",
     "heading": "Chansons et œuvres",
@@ -1202,7 +1282,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3743",
+    "id": "NO_ID::registers/songs/master_songs.md::3811",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

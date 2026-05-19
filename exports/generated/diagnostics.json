@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T14:04:26",
+  "generated_at": "2026-05-19T14:22:39",
   "status": "warning",
   "summary": {
-    "records_total": 5629,
+    "records_total": 5697,
     "records_by_kind": {
       "source": 92,
       "metadata": 161,
-      "atom": 2242,
-      "unknown": 786,
-      "concept": 332,
-      "motif": 360,
-      "myth": 82,
-      "quote": 464,
-      "chronology": 404,
-      "person": 261,
-      "song": 89,
+      "atom": 2257,
+      "unknown": 805,
+      "concept": 342,
+      "motif": 365,
+      "myth": 85,
+      "quote": 470,
+      "chronology": 406,
+      "person": 265,
+      "song": 93,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24394,
+    "diagnostics_total": 24597,
     "errors": 0,
-    "warnings": 24394,
+    "warnings": 24597,
     "sources_declared_in_registre_json": 67,
     "sources_used_in_records": 52,
     "sources_exported": 52,
@@ -1181,12 +1181,16 @@
         "auteur": "Massimo Villani",
         "titre": "Ti sfido a disperarti. I Joy Division e la notte del pensiero",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 80,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 2,
         "files": [
-          "sources/villani_ti_sfido_a_disperarti/source.md"
+          "registers/s57_villani_specialized_registers.md",
+          "registers/s57_villani_structuring_registers.md",
+          "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+          "sources/villani_ti_sfido_a_disperarti/source.md",
+          "sources/villani_ti_sfido_a_disperarti/source_part_01.md"
         ]
       },
       {
@@ -48747,6 +48751,996 @@
       "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
       "message": "Missing nested field: niveau_preuve.corroboration",
       "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S57-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S57-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_memoire",
+      "record_id": "S57-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_album",
+      "record_id": "S57-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S57-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: critique_du_monde",
+      "record_id": "S57-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S57-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: reference_philosophique",
+      "record_id": "S57-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "record_id": "S57-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_philosophique",
+      "record_id": "S57-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S57-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_structurant",
+      "record_id": "S57-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_corps",
+      "record_id": "S57-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S57-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_memoire",
+      "record_id": "S57-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S57-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S57-A015"
     },
     {
       "level": "warning",
@@ -127200,6 +128194,18 @@
     },
     {
       "level": "warning",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S57-VILLANI-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S57-BLANCHOT-2000-2001"
+    },
+    {
+      "level": "warning",
       "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S21-MDMARCHIVE-CITY-FUN"
@@ -127683,6 +128689,222 @@
       "file": "registers/s77_worley_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S77-WHITE_PUNKS_ON_HOPE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S57-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S57-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S57-1981-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S57-1981-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser_discographie",
+      "record_id": "CHR-S57-1981-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S57-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S57-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S57-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S57-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S57-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S57-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S57-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S57-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S57-STILL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S57-HEART-AND-SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S57-HEART-AND-SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S57-HEART-AND-SOUL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S57-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S57-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S57-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S57-DECADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S57-ISOLATION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S57-ISOLATION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s57_villani_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S57-ISOLATION"
     },
     {
       "level": "warning",

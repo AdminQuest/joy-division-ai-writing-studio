@@ -1946,6 +1946,279 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-permanence_instable_still",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-permanence_instable_still",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "permanence instable de Still",
+      "definition": "Lecture de Still comme forme de persistance inquiète : rester, continuer, tenir encore, sans transformer l’archive en stabilité.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A003"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-communaute_impossible_jd",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-communaute_impossible_jd",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "communauté impossible Joy Division",
+      "definition": "Communauté d’écoute secrète, non institutionnelle, fondée sur une passion qui refuse de commercer avec le monde ordinaire.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A004",
+        "S57-A009"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-dehors_de_la_nuit",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-dehors_de_la_nuit",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "dehors de la nuit",
+      "definition": "Espace d’expérience extrême où la pensée sort du discours diurne, sans faire de la nuit un fondement stable.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A007",
+        "S57-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-coeur_contre_loi",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-coeur_contre_loi",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "cœur contre loi",
+      "definition": "Opposition entre intensité affective et ordre normatif, mobilisée par Villani à partir de Blanchot et projetée sur Heart and Soul.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A008"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-non_rapport_a_l_absolu",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-non_rapport_a_l_absolu",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "non-rapport à l’absolu",
+      "definition": "Rapport impossible qui ne fusionne pas avec l’absolu, mais maintient hétérogénéité, distance, altérité et impossibilité.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A009"
+      ],
+      "chapitres": [
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-presence_absente_villani",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-presence_absente_villani",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "présence absente selon Villani",
+      "definition": "Intensité paradoxale par laquelle la présence passe par une absence à soi, une dépossession et une traversée par l’altérité.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A010"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-controle_comme_seuil",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-controle_comme_seuil",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "contrôle comme seuil",
+      "definition": "Lecture du contrôle comme limite esthétique et existentielle : son abandon n’est pas seulement effondrement, mais seuil d’intensité.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A011"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-corps_obtenu_dans_la_crise",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-corps_obtenu_dans_la_crise",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "corps obtenu dans la crise",
+      "definition": "Idée selon laquelle le corps scénique ou existentiel n’est pas donné immédiatement, mais surgit dans le paroxysme et la crise.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A012"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-desespoir_comme_defi",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-desespoir_comme_defi",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "désespoir comme défi",
+      "definition": "Manière de faire du désespoir non une complaisance morbide, mais une épreuve de pensée, d’écoute et de fidélité à l’intensité.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A013"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-memoire_immemoriale_jd",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-memoire_immemoriale_jd",
+      "type_unite": "concept",
+      "source_id": "S57",
+      "nom": "mémoire immémoriale Joy Division",
+      "definition": "Retour de Joy Division non comme nostalgie d’époque, mais comme intensité hors du temps, impossible à reconstituer.\n",
+      "sources": [
+        "S57"
+      ],
+      "atomes": [
+        "S57-A002",
+        "S57-A014"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_materiel_diy",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Concepts",

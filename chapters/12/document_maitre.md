@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 394 |
+| Atomes | 397 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 95 |
+| Citations | 96 |
 | Événements chronologiques | 63 |
-| Personnes | 49 |
-| Chansons | 15 |
-| Sources mobilisées | 20 |
+| Personnes | 50 |
+| Chansons | 16 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 6 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 2 | 2 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 1 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -308,6 +309,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q006** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
@@ -332,7 +334,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -387,6 +388,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S52-012 — Annik Honoré
 - PERS-S55-002 — Ian Curtis
 - PERS-S53-002 — Ian Curtis
+- PERS-S57-004 — Ian Curtis
 - PERS-S54-001 — Alessandro Gnocchi
 - PERS-S54-002 — Ian Curtis
 - PERS-S54-007 — Annik Honoré
@@ -418,13 +420,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-079 — Bernard Pierre Wolff
 - PERS-S76-061 — Natalie Curtis
 - PERS-S76-063 — Annik Honoré
-- PERS-S76-064 — Dave Pils et Jasmine
 
 ## 10. Chansons rattachées
 
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-ROCK_AND_ROLL_SUICIDE — Rock And Roll Suicide
 - SONG-S52-ALL_THE_YOUNG_DUDES — All The Young Dudes
+- SONG-S57-ISOLATION — Isolation
 - SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
@@ -557,6 +559,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (4)
 - Phenobarbitone (4)
 - maladie (4)
+- crise (4)
 - Rainbow Theatre (4)
 - honte (4)
 - Transmission (4)
@@ -564,7 +567,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Decades (4)
 - Debbie (4)
 - Sordide Sentimental (4)
-- mariage (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -656,7 +658,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
-| concept_structurant | 11 |
+| concept_structurant | 12 |
 | prudence_methodologique | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
@@ -677,6 +679,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | evenement_biographique | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
+| motif_structurant | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
 | scene_medicale_live | 3 |
@@ -716,7 +719,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | contexte_biographique | 2 |
 | fait_biographique_prudent | 2 |
-| motif_structurant | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
 | tension_tournee | 1 |
@@ -806,6 +808,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | trauma | 1 |
 | biographie_culturelle | 1 |
 | citation_clef | 1 |
+| concept_corps | 1 |
 | performance | 1 |
 | contexte_medical | 1 |
 | session | 1 |
@@ -917,9 +920,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 235 |
+| critique | 237 |
 | non qualifiée | 110 |
-| majeure | 31 |
+| majeure | 32 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

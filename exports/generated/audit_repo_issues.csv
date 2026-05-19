@@ -7880,6 +7880,171 @@ warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A007,Invalid value for type_unite: concept_reception,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A007,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/villani_ti_sfido_a_disperarti/relations_s57.md,REL-S57-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Invalid value for type_unite: scene_memoire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A003,Invalid value for type_unite: motif_album,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A004,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A005,Invalid value for type_unite: critique_du_monde,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A006,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A007,Invalid value for type_unite: reference_philosophique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A008,Invalid value for type_unite: analyse_chanson,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A009,Invalid value for type_unite: concept_philosophique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A010,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A011,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A012,Invalid value for type_unite: concept_corps,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A013,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A014,Invalid value for type_unite: motif_memoire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A015,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
 warning,v2_migration_debt,sources/flowers/source.md,S71-A001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/source.md,S71-A001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/source.md,S71-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -20955,6 +21120,8 @@ warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,S
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s53_la_rocca_specialized_registers.md,SONG-S53-LOVE_WILL_TEAR_US_APART,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s57_villani_structuring_registers.md,REF-S57-VILLANI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s57_villani_structuring_registers.md,REF-S57-BLANCHOT-2000-2001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-MDMARCHIVE-CITY-FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-CITY-FUN-FANZINE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s21_mdmarchive_city_fun_structuring_registers.md,REF-S21-WILKINSON-2018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -21036,6 +21203,42 @@ warning,missing_required_field,registers/s77_worley_specialized_registers.md,SON
 warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s77_worley_specialized_registers.md,SONG-S77-WHITE_PUNKS_ON_HOPE,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,S57-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,CHR-S57-1981-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,CHR-S57-1981-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s57_villani_specialized_registers.md,CHR-S57-1981-001,Invalid value for certainty: a_croiser_discographie,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,CHR-S57-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,CHR-S57-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s57_villani_specialized_registers.md,CHR-S57-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,PERS-S57-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,PERS-S57-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,PERS-S57-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,PERS-S57-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s57_villani_specialized_registers.md,ORG-S57-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s57_villani_specialized_registers.md,ALBUM-S57-STILL,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-HEART-AND-SOUL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-HEART-AND-SOUL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-HEART-AND-SOUL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ATROCITY-EXHIBITION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ATROCITY-EXHIBITION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ATROCITY-EXHIBITION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-DECADES,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-DECADES,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-DECADES,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ISOLATION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ISOLATION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s57_villani_specialized_registers.md,SONG-S57-ISOLATION,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-LAROCCA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-BERGSON-SLANCIO,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s53_la_rocca_structuring_registers.md,REF-S53-NORBERG-SCHULZ-GENIUS-LOCI,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

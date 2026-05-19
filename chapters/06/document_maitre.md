@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:04:44"
+generated_at: "2026-05-19T14:22:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 452 |
+| Atomes | 455 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 60 |
-| Événements chronologiques | 41 |
+| Citations | 61 |
+| Événements chronologiques | 42 |
 | Personnes | 41 |
-| Chansons | 25 |
-| Sources mobilisées | 20 |
+| Chansons | 26 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 1 | 1 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 1 |
+| S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -299,6 +300,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S56-Q002** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -332,11 +334,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
+- CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
 - CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
 - CHR-S56-1979-04-001 — Enregistrement d’Unknown Pleasures aux Strawberry Studios, seuil temporel du chapitre.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
@@ -375,7 +377,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
-- CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 
 ## 9. Personnes et acteurs
 
@@ -423,6 +424,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 ## 10. Chansons rattachées
 
 - SONG-S55-JOY_DIVISION — Joy Division
+- SONG-S57-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
@@ -574,7 +576,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
-- Sordide Sentimental (4)
+- Still (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -698,6 +700,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
+| motif_structurant | 3 |
 | concept | 3 |
 | versions_chanson | 3 |
 | release_or_session | 3 |
@@ -741,7 +744,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | acteur_mediation | 2 |
 | analyse_morceau | 2 |
 | concept_structurant | 2 |
-| motif_structurant | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
 | album | 2 |
@@ -831,6 +833,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | chanson_live | 1 |
 | interpretation_chanson | 1 |
 | archive | 1 |
+| motif_album | 1 |
+| concept_corps | 1 |
 | controverse_institutionnelle | 1 |
 | mythe_institutionnel | 1 |
 | controverse | 1 |
@@ -927,10 +931,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 215 |
+| critique | 217 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 29 |
+| majeure | 30 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |
