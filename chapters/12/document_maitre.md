@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 387 |
+| Atomes | 392 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 94 |
+| Citations | 95 |
 | Événements chronologiques | 63 |
-| Personnes | 48 |
-| Chansons | 14 |
-| Sources mobilisées | 19 |
+| Personnes | 49 |
+| Chansons | 15 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 0 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 6 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 2 | 2 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 5 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -311,6 +312,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q188** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -331,7 +333,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -391,6 +392,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S54-007 — Annik Honoré
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
+- PERS-S56-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -417,7 +419,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-061 — Natalie Curtis
 - PERS-S76-063 — Annik Honoré
 - PERS-S76-064 — Dave Pils et Jasmine
-- PERS-S76-001 — Lindsay Reade
 
 ## 10. Chansons rattachées
 
@@ -429,6 +430,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S56-PASSOVER — Passover
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
 - She's Lost Control
@@ -537,13 +539,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Love Will Tear Us Apart (7)
 - Barton Street (7)
 - Unknown Pleasures (6)
+- prudence (6)
 - Buzzcocks tour (5)
 - Factory (5)
 - perte de contrôle (5)
+- suicide (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
-- prudence (5)
 - epilepsy (5)
 - Atmosphere (5)
 - Candy (4)
@@ -562,7 +565,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Decades (4)
 - Debbie (4)
 - Sordide Sentimental (4)
-- mariage (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -654,15 +656,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
+| prudence_methodologique | 9 |
 | concept_structurant | 9 |
 | tension_domestique | 8 |
-| prudence_methodologique | 8 |
 | lecture_chanson | 8 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
 | scene_domestique | 4 |
 | evenement_medical_live | 4 |
+| analyse_chanson | 4 |
 | tension_biographique | 4 |
 | live_set_context | 4 |
 | tension_medicale | 3 |
@@ -676,7 +679,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
-| analyse_chanson | 3 |
 | scene_medicale_live | 3 |
 | memoire | 3 |
 | song_session | 3 |
@@ -714,6 +716,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | contexte_biographique | 2 |
 | fait_biographique_prudent | 2 |
+| motif_structurant | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
 | tension_tournee | 1 |
@@ -898,6 +901,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | chronologie_biographique_prudente | 1 |
 | sacralisation | 1 |
 | motif_discursif | 1 |
+| mythe_reception | 1 |
 | analyse | 1 |
 | tv_session | 1 |
 | album | 1 |
@@ -913,9 +917,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 229 |
+| critique | 233 |
 | non qualifiée | 110 |
-| majeure | 30 |
+| majeure | 31 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

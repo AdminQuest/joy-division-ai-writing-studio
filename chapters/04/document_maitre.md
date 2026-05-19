@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T13:19:13"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 301 |
+| Atomes | 308 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 83 |
-| Événements chronologiques | 56 |
-| Personnes | 48 |
-| Chansons | 27 |
-| Sources mobilisées | 20 |
+| Citations | 88 |
+| Événements chronologiques | 59 |
+| Personnes | 51 |
+| Chansons | 30 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ generated_at: "2026-05-19T13:19:13"
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 7 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 2 | 2 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 15 | 15 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 5 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -326,13 +327,13 @@ generated_at: "2026-05-19T13:19:13"
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S78-Q006** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S56-Q003** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q005** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -348,6 +349,9 @@ generated_at: "2026-05-19T13:19:13"
 - CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
+- CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
+- CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
+- CHR-S56-2021-001 — Publication du chapitre de Linda Barone dans Our Vision Touched the Sky.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
@@ -373,9 +377,6 @@ generated_at: "2026-05-19T13:19:13"
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
-- CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
-- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
-- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 
 ## 9. Personnes et acteurs
 
@@ -396,6 +397,9 @@ generated_at: "2026-05-19T13:19:13"
 - PERS-S54-009 — Pete Shelley
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
+- PERS-S56-001 — Linda Barone
+- PERS-S56-002 — Ian Curtis
+- PERS-S56-004 — William S. Burroughs
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -416,9 +420,6 @@ generated_at: "2026-05-19T13:19:13"
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S76-003 — Kevin Curtis
-- PERS-S76-004 — Carole Curtis
-- PERS-S76-005 — Barbara Lloyd / Aunt Barbara
-- PERS-S76-006 — Pete Johnson
 
 ## 10. Chansons rattachées
 
@@ -436,6 +437,9 @@ generated_at: "2026-05-19T13:19:13"
 - SONG-S54-JOHNNY_23 — Johnny 23
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S56-PASSOVER — Passover
+- SONG-S56-NOVELTY — Novelty
+- SONG-S56-DISORDER — Disorder
 - SONG-S75-028 — Dead Souls
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
@@ -542,18 +546,20 @@ generated_at: "2026-05-19T13:19:13"
 - Barton Street (8)
 - She’s Lost Control (8)
 - épilepsie (8)
+- paroles (7)
 - Natalie Curtis (7)
-- paroles (6)
 - Love Will Tear Us Apart (6)
 - corps (6)
 - contrôle (6)
 - Annik Honoré (6)
 - Atmosphere (5)
 - Burroughs (5)
+- répétition (5)
 - Ballard (4)
+- prudence (4)
 - Digital (4)
-- répétition (4)
 - Interzone (4)
+- attente (4)
 - Shadowplay (4)
 - Closer (4)
 - No Love Lost (4)
@@ -566,7 +572,6 @@ generated_at: "2026-05-19T13:19:13"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - blue room (3)
-- prudence (3)
 - Plan K (3)
 - Atrocity Exhibition (3)
 - Twenty Four Hours (3)
@@ -576,7 +581,6 @@ generated_at: "2026-05-19T13:19:13"
 - Macclesfield (3)
 - paternité (3)
 - fatigue (3)
-- médicaments (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -668,13 +672,13 @@ generated_at: "2026-05-19T13:19:13"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
+| prudence_methodologique | 9 |
 | concept_structurant | 9 |
 | fait_sensible | 9 |
-| prudence_methodologique | 8 |
 | lecture_chanson | 8 |
 | scene_fondatrice | 7 |
+| analyse_chanson | 7 |
 | biographie | 6 |
-| analyse_chanson | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
 | lecture_textuelle | 4 |
@@ -699,6 +703,7 @@ generated_at: "2026-05-19T13:19:13"
 | santé | 2 |
 | domesticité | 2 |
 | relation_conjugale | 2 |
+| lecture_litteraire | 2 |
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
@@ -712,6 +717,7 @@ generated_at: "2026-05-19T13:19:13"
 | scene_de_transition | 2 |
 | source_part | 2 |
 | fait | 2 |
+| motif_structurant | 2 |
 | tension_economique | 1 |
 | reception_domestique | 1 |
 | registre_influences | 1 |
@@ -754,7 +760,6 @@ generated_at: "2026-05-19T13:19:13"
 | image_scenique | 1 |
 | contexte_medical | 1 |
 | reception | 1 |
-| lecture_litteraire | 1 |
 | archive_visuelle | 1 |
 | lecture_chanson_espace | 1 |
 | contexte_affectif | 1 |
@@ -841,15 +846,17 @@ generated_at: "2026-05-19T13:19:13"
 | reception_scene | 1 |
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
+| geographie_textuelle | 1 |
+| motif_lexical | 1 |
 | film_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| critique | 154 |
+| critique | 159 |
 | non qualifiée | 94 |
-| majeure | 45 |
+| majeure | 47 |
 | utile | 4 |
 | majeur | 3 |
 | structurante | 1 |

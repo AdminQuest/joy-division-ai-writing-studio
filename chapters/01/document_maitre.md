@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T13:19:13"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 243 |
+| Atomes | 244 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 21 |
 | Événements chronologiques | 9 |
 | Personnes | 20 |
 | Chansons | 1 |
-| Sources mobilisées | 35 |
+| Sources mobilisées | 36 |
 
 ## 4. Sources mobilisées
 
@@ -61,6 +61,7 @@ generated_at: "2026-05-19T13:19:13"
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 0 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 4 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
@@ -715,6 +716,7 @@ generated_at: "2026-05-19T13:19:13"
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
+| motif_affectif | 1 |
 | non qualifié | 1 |
 
 ### 13.2. Importance documentaire
@@ -723,7 +725,7 @@ generated_at: "2026-05-19T13:19:13"
 |---|---|
 | non qualifiée | 151 |
 | critique | 41 |
-| majeure | 33 |
+| majeure | 34 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

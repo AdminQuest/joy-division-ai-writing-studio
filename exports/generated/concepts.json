@@ -1137,6 +1137,319 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-traduction_paratextuelle_ideologique",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-traduction_paratextuelle_ideologique",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "traduction paratextuelle idéologique",
+      "definition": "Opération par laquelle un titre, une couverture ou une quatrième de couverture traduite oriente la réception d’une source, en déplaçant le centre de gravité interprétatif vers un mythe, une biographie ou une tonalité.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A002",
+        "S56-A003"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-marketing_de_la_noirceur",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-marketing_de_la_noirceur",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "marketing de la noirceur Joy Division",
+      "definition": "Stratégie éditoriale ou médiatique qui recentre Joy Division sur le sombre, la disparition de Curtis, la fin et la légende, au risque de réduire la puissance musicale et poétique du groupe à sa tragédie terminale.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A003",
+        "S56-A004"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-contre_mythe_lumineux",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-contre_mythe_lumineux",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "contre-mythe lumineux de Joy Division",
+      "definition": "Lecture qui oppose au cliché du groupe uniquement noir une intensité de lumière, de révélation et de brûlure expressive.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A004"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-geographie_textuelle_curtis",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-geographie_textuelle_curtis",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "géographie textuelle de Curtis",
+      "definition": "Lecture des textes de Curtis par les lieux, les limites urbaines, les interzones physiques et mentales.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A005",
+        "S56-A006"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-curtis_ecrivain_de_chansons",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-curtis_ecrivain_de_chansons",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "Curtis écrivain de chansons",
+      "definition": "Position critique qui lit Curtis comme auteur doté d’un style poétique reconnaissable, et non comme simple parolier.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A007",
+        "S56-A009",
+        "S56-A013"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-constellation_litteraire_curtis",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-constellation_litteraire_curtis",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "constellation littéraire de Curtis",
+      "definition": "Ensemble de références, influences possibles et résonances critiques autour des lectures de Curtis, à manier comme constellation.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A008",
+        "S56-A010",
+        "S56-A011",
+        "S56-A012"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-chansons_recits_en_germe",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-chansons_recits_en_germe",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "chansons comme récits en germe",
+      "definition": "Fonction narrative des chansons de Joy Division, capables de produire des prolongements fictionnels comme We Were Strangers.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A013"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-corpus_poetique_curtis",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-corpus_poetique_curtis",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "corpus poétique Curtis",
+      "definition": "Traitement des paroles de Joy Division comme un corpus poétique lisible chronologiquement.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A014"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-dialogue_interieur_pronominal",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-dialogue_interieur_pronominal",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "dialogue intérieur pronominal",
+      "definition": "Lecture de l’opposition I / You dans les textes de Curtis comme dialogue avec soi-même et distance de soi.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A015",
+        "S56-A016",
+        "S56-A017"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-temps_curtisien",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-temps_curtisien",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "temps curtisien",
+      "definition": "Motif lexical et existentiel articulant attente, passage, perte, répétition, suspension et direction absente.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A018",
+        "S56-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-mind_style_curtis",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-mind_style_curtis",
+      "type_unite": "concept",
+      "source_id": "S56",
+      "nom": "mind style de Curtis",
+      "definition": "Forme cognitive et stylistique reconnaissable de l’écriture de Curtis. À ne pas confondre avec une lecture clinique.\n",
+      "sources": [
+        "S56"
+      ],
+      "atomes": [
+        "S56-A015",
+        "S56-A018",
+        "S56-A019",
+        "S56-A020"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-mythe_manchester_joy_division",
     "file": "registers/s78_nevarez_structuring_registers.md",
     "heading": "Concepts",

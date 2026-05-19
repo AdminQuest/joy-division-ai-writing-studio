@@ -588,6 +588,78 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-titre_comme_traduction_ideologique",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MOTIF-titre_comme_traduction_ideologique",
+      "type_unite": "motif",
+      "source_id": "S56",
+      "nom": "titre comme traduction idéologique",
+      "atomes": [
+        "S56-A002",
+        "S56-A003"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-lumiere_contre_noirceur",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MOTIF-lumiere_contre_noirceur",
+      "type_unite": "motif",
+      "source_id": "S56",
+      "nom": "lumière contre noirceur",
+      "atomes": [
+        "S56-A004"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-duel_pronominal",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MOTIF-duel_pronominal",
+      "type_unite": "motif",
+      "source_id": "S56",
+      "nom": "duel pronominal I / You",
+      "atomes": [
+        "S56-A015",
+        "S56-A016",
+        "S56-A017"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-son_de_manchester",
     "file": "registers/s78_nevarez_structuring_registers.md",
     "heading": "Motifs",

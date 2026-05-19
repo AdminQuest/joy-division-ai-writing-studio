@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 256 |
+| Atomes | 257 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 42 |
+| Citations | 43 |
 | Événements chronologiques | 23 |
-| Personnes | 43 |
+| Personnes | 44 |
 | Chansons | 11 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 5 | 4 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 2 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 3 | 1 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -323,6 +324,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S78-Q011** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q012** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q013** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S56-Q001** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -339,7 +341,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -395,6 +396,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S78-008 — Charles Salem
 - PERS-S78-009 — Malcolm Whitehead
 - PERS-S78-010 — Grant Gee
+- PERS-S56-003 — Jon Savage
 - PERS-S75-029 — Peter Saville
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
@@ -408,7 +410,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-016 — Bedhead
 - PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S76-078 — Martyn Atkins
-- PERS-S76-079 — Bernard Pierre Wolff
 
 ## 10. Chansons rattachées
 
@@ -783,6 +784,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_biographique | 1 |
 | corpus_methode | 1 |
 | fonction_symbolique | 1 |
+| traduction_editoriale | 1 |
 | patrimonialisation | 1 |
 | mythe | 1 |
 | album | 1 |
@@ -796,7 +798,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 133 |
+| critique | 134 |
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 17 |

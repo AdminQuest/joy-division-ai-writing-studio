@@ -19676,6 +19676,170 @@ warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/re
 warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/romania_a_guide_to_come_universo_simbolico/relations_s55.md,REL-S55-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Invalid value for type_unite: traduction_editoriale,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A003,Invalid value for type_unite: mythe_reception,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A004,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A005,Invalid value for type_unite: geographie_textuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A006,Invalid value for type_unite: motif_affectif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A007,Invalid value for type_unite: lecture_litteraire,Aligner la valeur avec le schéma contrôlé.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 32:
+    ­titre: Bibliothèque de Curtis : influence documentée et conste ... 
+                                   ^",Corriger la syntaxe YAML du bloc concerné.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A009,Invalid value for type_unite: analyse_chanson,Aligner la valeur avec le schéma contrôlé.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 20:
+    ­titre: Dostoevsky : rapprochement personnel avec c ... 
+                       ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 21:
+    ­titre: T. S. Eliot : silence, temps, commencement e ... 
+                        ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 28:
+    ­titre: Plan K / Burroughs : idolâtrie littéraire et désenc ... 
+                               ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: found undefined alias 'We'
+  in ""<unicode string>"", line 3, column 9:
+    ­titre: *We Were Strangers* : les chanso ... 
+            ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 27:
+    ­titre: Corpus de paroles : environ 8000 mots et lecture c ... 
+                              ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 17:
+    ­titre: I / You : introspection, dialogue intéri ... 
+                    ^",Corriger la syntaxe YAML du bloc concerné.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A016,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A017,Invalid value for type_unite: motif_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: titre,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A018,Invalid value for type_unite: motif_lexical,Aligner la valeur avec le schéma contrôlé.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 30:
+    ­titre: Mind style de Curtis : une voix immédiatement reconna ... 
+                                 ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 21:
+    ­titre: « Novelty » : preuve par contraste stylistiq ... 
+                        ^",Corriger la syntaxe YAML du bloc concerné.
+error,yaml_parse_error,sources/barone_directionless_so_plain_to_see/source_part_01.md,,"YAML parse error: mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 31:
+    ­titre: Divertimento critique : retour à une écriture émotionn ... 
+                                  ^",Corriger la syntaxe YAML du bloc concerné.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-016,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-017,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-020,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/barone_directionless_so_plain_to_see/relations_s56.md,REL-S56-021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/suatoni/source.md,S70-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -20467,6 +20631,9 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,registers/s56_barone_structuring_registers.md,REF-S56-BARONE-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_structuring_registers.md,REF-S56-SAVAGE-2019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_structuring_registers.md,REF-S56-WE-WERE-STRANGERS-2018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S51-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -21060,6 +21227,54 @@ warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SO
 warning,missing_required_field,registers/s78_nevarez_specialized_registers.md,SONG-S78-ATMOSPHERE,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-NO_CITY_FUN,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_specialized_registers.md,MEDIA-S78-CONTROL,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,S56-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1978-04-15-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1978-04-15-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s56_barone_specialized_registers.md,CHR-S56-1978-04-15-001,Invalid value for certainty: a_croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1979-04-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1979-04-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s56_barone_specialized_registers.md,CHR-S56-1979-04-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1979-10-16-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-1979-10-16-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s56_barone_specialized_registers.md,CHR-S56-1979-10-16-001,Invalid value for certainty: a_croiser_S41_S54,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-2018-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-2018-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s56_barone_specialized_registers.md,CHR-S56-2018-001,Invalid value for certainty: a_verifier_sur_source,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,CHR-S56-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s56_barone_specialized_registers.md,CHR-S56-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,PERS-S56-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,PERS-S56-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,PERS-S56-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,PERS-S56-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,LIEU-S56-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,LIEU-S56-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,LIEU-S56-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,ORG-S56-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,ORG-S56-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s56_barone_specialized_registers.md,ALBUM-S56-UNKNOWN-PLEASURES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-PASSOVER,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-PASSOVER,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-PASSOVER,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-NOVELTY,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-NOVELTY,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-NOVELTY,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-DISORDER,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-DISORDER,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s56_barone_specialized_registers.md,SONG-S56-DISORDER,Missing required field: chapters,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-STEYERL-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-WARBURG-MNEMOSYNE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-LECKEY-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

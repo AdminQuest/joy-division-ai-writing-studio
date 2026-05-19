@@ -379,6 +379,80 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-fin_tragique_explique_le_mythe",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-fin_tragique_explique_le_mythe",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "la fin tragique expliquerait à elle seule le mythe Joy Division",
+      "atomes": [
+        "S56-A003",
+        "S56-A004"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_simple_parolier",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-curtis_simple_parolier",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "Curtis ne serait qu’un parolier rock",
+      "atomes": [
+        "S56-A007",
+        "S56-A014",
+        "S56-A019"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-influence_litteraire_totale",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-influence_litteraire_totale",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "chaque rapprochement littéraire serait une influence certaine",
+      "atomes": [
+        "S56-A008",
+        "S56-A010",
+        "S56-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
     "file": "registers/s78_nevarez_structuring_registers.md",
     "heading": "Mythes à déconstruire",

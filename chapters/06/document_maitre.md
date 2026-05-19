@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 449 |
+| Atomes | 451 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 59 |
-| Événements chronologiques | 39 |
+| Citations | 60 |
+| Événements chronologiques | 41 |
 | Personnes | 41 |
-| Chansons | 24 |
-| Sources mobilisées | 19 |
+| Chansons | 25 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 1 | 1 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 2 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -299,6 +300,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S56-Q002** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -331,11 +333,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
+- CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
+- CHR-S56-1979-04-001 — Enregistrement d’Unknown Pleasures aux Strawberry Studios, seuil temporel du chapitre.
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
@@ -373,7 +376,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
-- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
 
 ## 9. Personnes et acteurs
 
@@ -425,6 +427,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-DECADES — Decades
+- SONG-S56-NOVELTY — Novelty
 - SONG-S75-026 — Transmission
 - SONG-S75-027 — Atmosphere
 - SONG-S75-029 — Love Will Tear Us Apart
@@ -738,6 +741,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | acteur_mediation | 2 |
 | analyse_morceau | 2 |
 | concept_structurant | 2 |
+| motif_structurant | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
 | album | 2 |
@@ -909,9 +913,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | portrait_sensible | 1 |
 | transition | 1 |
 | concept_transversal | 1 |
-| motif_structurant | 1 |
 | sacralisation | 1 |
 | synthese_usage_livre | 1 |
+| motif_affectif | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -922,10 +926,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 213 |
+| critique | 214 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 28 |
+| majeure | 29 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

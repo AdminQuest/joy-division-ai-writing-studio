@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 118 |
+| Atomes | 120 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
+| Citations | 44 |
 | Événements chronologiques | 19 |
 | Personnes | 39 |
 | Chansons | 13 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 1 |
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 2 | 1 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 6 | 5 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 2 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -108,6 +109,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
 - **S53-A015** — S53-A015 — Corps gestuel de Curtis et esthétique affective  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `lecture_performative`.
+- **S56-A005** — S56-A005 — « The cities speak » : lieux, psychogéographie et textes de Curtis  
+  Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -122,8 +125,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -185,6 +186,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `analyse_de_mediations`.
 - **S53-A014** — S53-A014 — Kevin Cummins, Epping Walk Bridge et mystère générationnel  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `image_symbolique` ; importance : `majeure` ; preuve : `lecture_iconographique`.
+- **S56-A006** — S56-A006 — La laideur des lieux comme moteur de recherche de beauté  
+  Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `motif_affectif` ; importance : `majeure` ; preuve : `témoignage_rapporte_par_S56_depuis_Savage`.
 - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
@@ -213,6 +216,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
@@ -283,10 +288,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `motif_structurant` ; importance : `critique` ; preuve : `motif_critique`.
 - **S78-A018** — S78-A018 — Écoute mobile, iPod et individualisation de l’expérience urbaine  
   Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `ecoute_technologique` ; importance : `critique` ; preuve : `analyse_sociologique`.
-- **S78-A019** — S78-A019 — Réification du lieu : entendre la ville n’est pas innocent  
-  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `synthese_critique` ; importance : `critique` ; preuve : `synthese_conclusive`.
-- **S78-A020** — S78-A020 — Usage final : entendre la ville comme construction sociale, non comme essence  
-  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `synthese_usage_livre` ; importance : `critique` ; preuve : `synthese_usage`.
 
 ## 7. Citations disponibles
 
@@ -309,6 +310,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S78-Q012** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q013** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q014** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S56-Q003** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -329,7 +331,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -537,7 +538,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Hulme Crescents (2)
 - Paul Morley (2)
 - Unknown Pleasures (2)
-- creative city (2)
+- psychogéographie (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -702,6 +703,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
+| geographie_textuelle | 1 |
+| motif_affectif | 1 |
 | non qualifié | 1 |
 | song_or_video | 1 |
 | live_set_bootleg_context | 1 |
@@ -710,8 +713,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 56 |
-| majeure | 33 |
+| critique | 57 |
+| majeure | 34 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,9 +25,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Atomes | 293 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 28 |
-| Événements chronologiques | 33 |
+| Événements chronologiques | 34 |
 | Personnes | 31 |
-| Chansons | 10 |
+| Chansons | 11 |
 | Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
@@ -335,6 +335,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S78-1977-05-29-001 — Premier concert mentionné comme point de départ des comptes rendus favorables de Paul Morley.
 - CHR-S78-1979-01-13-001 — Article de Paul Morley dans le NME sur Manchester: New Sounds, qui contribue à cadrer Joy Division comme groupe mancunien.
+- CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
@@ -402,6 +403,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
 - SONG-S21-JOY_DIVISION — Joy Division
 - SONG-S21-THE_FALL — The Fall
+- SONG-S56-DISORDER — Disorder
 - SONG-S75-022 — Autosuggestion
 - SONG-S75-023 — From Safety to Where...?
 - SONG-S75-024 — The Only Mistake

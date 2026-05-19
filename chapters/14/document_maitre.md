@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:19:13"
+generated_at: "2026-05-19T13:53:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1053 |
+| Atomes | 1056 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 152 |
-| Événements chronologiques | 90 |
-| Personnes | 130 |
+| Citations | 154 |
+| Événements chronologiques | 94 |
+| Personnes | 133 |
 | Chansons | 26 |
-| Sources mobilisées | 45 |
+| Sources mobilisées | 46 |
 
 ## 4. Sources mobilisées
 
@@ -69,6 +69,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 14 | 13 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -389,6 +390,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
 - CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
 - CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
+- CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
+- CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
+- CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
+- CHR-S56-2021-001 — Publication du chapitre de Linda Barone dans Our Vision Touched the Sky.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
@@ -397,10 +402,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
 - CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
 - CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
-- CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
-- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
-- CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
-- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
 
 ## 9. Personnes et acteurs
 
@@ -710,13 +711,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture | 8 |
 | methode | 7 |
 | sociologie | 7 |
+| motif_structurant | 7 |
 | relation | 7 |
 | controverse | 7 |
 | fait | 7 |
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
 | source_part | 6 |
-| motif_structurant | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
 | session_radio | 5 |
@@ -1206,6 +1207,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | sacralisation | 1 |
 | modele_heritage | 1 |
 | limite_critique | 1 |
+| traduction_editoriale | 1 |
+| mythe_reception | 1 |
 | prudence_ciblage | 1 |
 | voix_acteurs | 1 |
 | patrimonialisation | 1 |
@@ -1225,7 +1228,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 351 |
+| critique | 354 |
 | majeure | 97 |
 | majeur | 28 |
 | utile | 14 |

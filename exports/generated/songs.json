@@ -672,6 +672,67 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S56-PASSOVER",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S56-PASSOVER",
+      "type_unite": "song",
+      "source_id": "S56",
+      "song": "Passover",
+      "usage": "Chanson-pivot de crise, doute et rupture d’équilibre dans la lecture de Barone.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S56-NOVELTY",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S56-NOVELTY",
+      "type_unite": "song",
+      "source_id": "S56",
+      "song": "Novelty",
+      "usage": "Texte attribué à Peter Hook utilisé par Barone comme contraste stylistique avec le mind style de Curtis.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S56-DISORDER",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S56-DISORDER",
+      "type_unite": "song",
+      "source_id": "S56",
+      "song": "Disorder",
+      "usage": "Titre d’Unknown Pleasures et matrice de We Were Strangers ; à manier sans citation lyrique non vérifiée.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 8"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S29-001",
     "file": "registers/songs/s29_goddard_songs.md",
     "heading": "SONG-S29-001 — « Dead Souls »",
@@ -1141,7 +1202,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3654",
+    "id": "NO_ID::registers/songs/master_songs.md::3741",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
