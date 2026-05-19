@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T08:12:32",
+  "generated_at": "2026-05-19T08:22:51",
   "status": "warning",
   "summary": {
-    "records_total": 5200,
+    "records_total": 5202,
     "records_by_kind": {
-      "source": 86,
-      "metadata": 155,
+      "source": 87,
+      "metadata": 156,
       "atom": 2163,
       "unknown": 647,
       "concept": 291,
@@ -23,9 +23,9 @@
     "errors": 0,
     "warnings": 23286,
     "sources_declared_in_registre_json": 62,
-    "sources_used_in_records": 46,
-    "sources_exported": 46,
-    "declared_but_unused": 16,
+    "sources_used_in_records": 47,
+    "sources_exported": 47,
+    "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -84,21 +84,6 @@
           "scène mancunienne",
           "génération",
           "1976–1982"
-        ]
-      },
-      {
-        "source_id": "S21",
-        "source_label": "S21 — City Fun, fanzine, 1978–1983",
-        "auteur": "City Fun",
-        "titre": "City Fun",
-        "annee": "1978–1983",
-        "statut": "a_consolider",
-        "usage": [
-          "médias alternatifs",
-          "DIY",
-          "politique post-punk",
-          "Factory",
-          "contre-culture mancunienne"
         ]
       },
       {
@@ -587,6 +572,20 @@
           "registers/references/s20_dodge_source_canonique.md",
           "sources/dodge_manchester_geographies/source.md",
           "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md"
+        ]
+      },
+      {
+        "source_id": "S21",
+        "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+        "auteur": "Manchester Digital Music Archive",
+        "titre": "City Fun: The Hidden History of Manchester's Favourite Fanzine",
+        "annee": "s.d. / page consultée 2026",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/mdmarchive_city_fun_hidden_history/source.md"
         ]
       },
       {
