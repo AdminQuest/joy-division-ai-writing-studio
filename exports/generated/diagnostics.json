@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-19T21:00:39",
-  "status": "warning",
+  "generated_at": "2026-05-19T22:14:44",
+  "status": "error",
   "summary": {
-    "records_total": 6197,
+    "records_total": 6200,
     "records_by_kind": {
       "source": 98,
       "metadata": 176,
-      "atom": 2371,
+      "atom": 2372,
       "unknown": 984,
       "concept": 391,
       "motif": 387,
@@ -15,19 +15,19 @@
       "chronology": 429,
       "person": 289,
       "song": 109,
-      "template": 354,
+      "template": 356,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26202,
+    "diagnostics_total": 26218,
     "errors": 0,
-    "warnings": 26202,
+    "warnings": 26218,
     "sources_declared_in_registre_json": 72,
-    "sources_used_in_records": 58,
-    "sources_exported": 58,
+    "sources_used_in_records": 59,
+    "sources_exported": 59,
     "declared_but_unused": 14,
-    "used_but_missing_from_registre_json": 0,
-    "weak_source_labels": 0
+    "used_but_missing_from_registre_json": 1,
+    "weak_source_labels": 1
   },
   "controls": {
     "declared_but_unused": [
@@ -232,9 +232,32 @@
         "usage": "post-punk ; scène de Manchester"
       }
     ],
-    "used_but_missing_from_registre_json": [],
-    "weak_source_labels": [],
+    "used_but_missing_from_registre_json": [
+      "REGISTRY"
+    ],
+    "weak_source_labels": [
+      {
+        "source_id": "REGISTRY",
+        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
+        "auteur": "Inconnu",
+        "titre": "REGISTRY"
+      }
+    ],
     "exported_sources": [
+      {
+        "source_id": "REGISTRY",
+        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
+        "auteur": "Inconnu",
+        "titre": "REGISTRY",
+        "annee": "",
+        "records": 1,
+        "atoms": 1,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/songs/00_canonical_joy_division_songs.md"
+        ]
+      },
       {
         "source_id": "S02",
         "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
@@ -148578,6 +148601,102 @@
       "file": "registers/songs/s76_torn_apart_songs_part_12.md",
       "message": "Invalid value for type_unite: release_object",
       "record_id": "SONG-S76-035"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Invalid value for statut: canonique_interne",
+      "record_id": "SONG-CANON-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/00_canonical_joy_division_songs.md",
+      "message": "Invalid value for type_unite: song_canon",
+      "record_id": "SONG-CANON-JOY-DIVISION"
     },
     {
       "level": "warning",

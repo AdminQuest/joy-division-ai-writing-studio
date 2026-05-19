@@ -121460,6 +121460,21 @@
   },
   {
     "kind": "atom",
+    "id": "SONG-CANON-JOY-DIVISION",
+    "file": "registers/songs/00_canonical_joy_division_songs.md",
+    "heading": "Registre canonique des chansons — Joy Division / Warsaw",
+    "data": {
+      "id": "SONG-CANON-JOY-DIVISION",
+      "source_id": "REGISTRY",
+      "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
+      "type_unite": "song_canon",
+      "statut": "canonique_interne",
+      "scope": "Œuvre originale complète Joy Division / Warsaw, avec quelques démos, répétitions, BBC/Peel et inédits ; exclusion des reprises, chansons New Order hors corpus Joy Division et faux positifs issus des sources.",
+      "version": "2026-05-19"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "SONG-S45-SHADOWPLAY-GRANADA",
     "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
