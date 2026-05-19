@@ -1,0 +1,62 @@
+id: RAG-S77-WORLEY-PUNK-POLITICS-BRITISH-FANZINES
+source_id: S77
+source_label: "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015"
+source_path: "sources/worley_punk_politics_british_fanzines/source_part_01.md"
+relations_path: "sources/worley_punk_politics_british_fanzines/relations_s77.md"
+structuring_registers_path: "registers/s77_worley_structuring_registers.md"
+specialized_registers_path: "registers/s77_worley_specialized_registers.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s77.md"
+  - "chapters/02/source_notes_s77.md"
+  - "chapters/07/source_notes_s77.md"
+  - "chapters/08/source_notes_s77.md"
+  - "chapters/09/source_notes_s77.md"
+  - "chapters/10/source_notes_s77.md"
+  - "chapters/11/source_notes_s77.md"
+  - "chapters/13/source_notes_s77.md"
+  - "chapters/14/source_notes_s77.md"
+rag_fragments_path: "rag/fragments/s77_worley_punk_politics_british_fanzines.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité de l’article S77"
+  pdf_pages: "1-40"
+  journal_pages: "76-106"
+  scope: "article Matthew Worley uniquement"
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 7"
+  - "Chapitre 8"
+  - "Chapitre 9"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 10"
+  - "Chapitre 11"
+  - "Chapitre 13"
+key_atoms:
+  - S77-A001
+  - S77-A002
+  - S77-A003
+  - S77-A004
+  - S77-A005
+  - S77-A006
+  - S77-A007
+  - S77-A008
+  - S77-A009
+  - S77-A010
+  - S77-A011
+  - S77-A012
+  - S77-A013
+  - S77-A014
+  - S77-A015
+  - S77-A016
+writing_use: >
+  Utiliser S77 comme cadrage national sur les fanzines punk britanniques : DIY, matérialité pauvre,
+  contre-presse, réseaux de distribution, critique du star-system, critique des médias, féminisme,
+  antiracisme, City Fun et contre-public juvénile.
+verification_rules:
+  - "Ne pas utiliser S77 comme corpus primaire de fanzines."
+  - "Vérifier les numéros originaux pour toute citation de fanzine ou item précis."
+  - "Vérifier la version éditeur de History Workshop Journal avant citation définitive."
+  - "Articuler City Fun avec S21 pour les items et S22 pour l’interprétation spécialisée."
+  - "Ne pas réduire les fanzines à des objets seulement musicaux ou seulement politiques."
