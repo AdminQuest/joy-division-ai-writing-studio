@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-18T21:48:47",
+  "generated_at": "2026-05-19T07:28:37",
   "status": "warning",
   "summary": {
-    "records_total": 5190,
+    "records_total": 5192,
     "records_by_kind": {
       "atom": 2163,
-      "metadata": 150,
+      "metadata": 151,
       "unknown": 647,
-      "source": 81,
+      "source": 82,
       "concept": 291,
       "motif": 339,
       "myth": 62,
@@ -23,9 +23,9 @@
     "errors": 0,
     "warnings": 23286,
     "sources_declared_in_registre_json": 62,
-    "sources_used_in_records": 42,
-    "sources_exported": 42,
-    "declared_but_unused": 20,
+    "sources_used_in_records": 43,
+    "sources_exported": 43,
+    "declared_but_unused": 19,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -84,20 +84,6 @@
           "Salford",
           "Manchester",
           "profondeur historique"
-        ]
-      },
-      {
-        "source_id": "S08",
-        "source_label": "S08 — Debord, psychogéographie et dérive, 1955–1958",
-        "auteur": "Guy Debord",
-        "titre": "Textes sur la psychogéographie et la dérive",
-        "annee": "1955–1958",
-        "statut": "a_consolider",
-        "usage": [
-          "psychogéographie",
-          "dérive",
-          "ville",
-          "situationnisme"
         ]
       },
       {
@@ -390,6 +376,20 @@
           "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
           "sources/carter_hulme_youth_race_inner_city/source.md",
           "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md"
+        ]
+      },
+      {
+        "source_id": "S08",
+        "source_label": "S08 — Internationale situationniste, n° 2, psychogéographie et dérive, 1958",
+        "auteur": "Internationale situationniste ; Abdelhafid Khatib ; Guy Debord",
+        "titre": "Internationale situationniste, n° 2 : Essai de description psychogéographique des Halles ; Théorie de la dérive",
+        "annee": "1958",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/internationale_situationniste_2_psychogeographie_derive/source.md"
         ]
       },
       {
