@@ -1,0 +1,62 @@
+id: RAG-S78-NEVAREZ-HOW-JOY-DIVISION-CAME-TO-SOUND-LIKE-MANCHESTER
+source_id: S78
+source_label: "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013"
+source_path: "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md"
+relations_path: "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md"
+structuring_registers_path: "registers/s78_nevarez_structuring_registers.md"
+specialized_registers_path: "registers/s78_nevarez_specialized_registers.md"
+chapter_source_notes_paths:
+  - "chapters/01/source_notes_s78.md"
+  - "chapters/03/source_notes_s78.md"
+  - "chapters/04/source_notes_s78.md"
+  - "chapters/05/source_notes_s78.md"
+  - "chapters/08/source_notes_s78.md"
+  - "chapters/10/source_notes_s78.md"
+  - "chapters/11/source_notes_s78.md"
+  - "chapters/13/source_notes_s78.md"
+  - "chapters/14/source_notes_s78.md"
+rag_fragments_path: "rag/fragments/s78_nevarez_how_joy_division_came_to_sound_like_manchester.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Intégralité de l’article S78"
+  pdf_pages: "1-22"
+  journal_pages: "56-76"
+  scope: "article Leonard Nevarez uniquement"
+primary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 3"
+  - "Chapitre 5"
+  - "Chapitre 10"
+  - "Chapitre 13"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 4"
+  - "Chapitre 8"
+  - "Chapitre 11"
+key_atoms:
+  - S78-A001
+  - S78-A002
+  - S78-A003
+  - S78-A004
+  - S78-A006
+  - S78-A008
+  - S78-A010
+  - S78-A011
+  - S78-A012
+  - S78-A013
+  - S78-A015
+  - S78-A016
+  - S78-A017
+  - S78-A018
+  - S78-A019
+  - S78-A020
+writing_use: >
+  Utiliser S78 pour traiter Joy Division / Manchester comme construction d’écoute, de médiation et de patrimoine,
+  et non comme essence sonore : indexicalité, entrepreneurs d’interprétation, images, films, régénération urbaine,
+  écoute mobile et réification du lieu.
+verification_rules:
+  - "Ne pas traiter le mythe comme preuve d’une essence sonore mancunienne."
+  - "Croiser les citations indirectes de Naylor, Morley, Savage, Wozencroft, Cummins et Gee avec les sources d’origine."
+  - "Croiser Control avec S52 et les films / documentaires avec les fiches filmographiques."
+  - "Croiser la régénération de Manchester avec Botta, Peck & Ward, Hatherley et sources urbaines."
+  - "Ne pas attribuer au groupe des cadres urbains construits par critiques, films, photographies ou institutions."
