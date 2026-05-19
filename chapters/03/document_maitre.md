@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:08:36"
+generated_at: "2026-05-19T17:32:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 398 |
+| Atomes | 399 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 35 |
 | Événements chronologiques | 23 |
 | Personnes | 33 |
 | Chansons | 27 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 2 | 0 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 1 |
+| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 5 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -651,8 +652,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse_morceau | 11 |
 | analyse | 10 |
 | lecture_musicale | 10 |
+| concept | 10 |
 | processus_creatif | 9 |
-| concept | 9 |
 | fait | 9 |
 | session | 7 |
 | source_part | 7 |
@@ -835,7 +836,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 123 |
+| critique | 124 |
 | majeure | 30 |
 | majeur | 10 |
 | utile | 10 |

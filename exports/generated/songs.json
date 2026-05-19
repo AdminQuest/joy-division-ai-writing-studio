@@ -1561,7 +1561,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::4152",
+    "id": "NO_ID::registers/songs/master_songs.md::4195",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -3351,6 +3351,49 @@
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
       "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
       "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Unknown Pleasures",
+    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+    "heading": "Chansons / objets visuels",
+    "data": {
+      "song": "Unknown Pleasures",
+      "themes": [
+        "marque figurative",
+        "pochette",
+        "Peter Saville"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Closer",
+    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+    "heading": "Chansons / objets visuels",
+    "data": {
+      "song": "Closer",
+      "themes": [
+        "marque figurative",
+        "pochette",
+        "Peter Saville",
+        "Bernard Pierre Wolff"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
     }
   }
 ]

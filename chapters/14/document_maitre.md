@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T17:08:36"
+generated_at: "2026-05-19T17:32:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1116 |
+| Atomes | 1147 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
-| Événements chronologiques | 112 |
+| Événements chronologiques | 116 |
 | Personnes | 152 |
-| Chansons | 32 |
-| Sources mobilisées | 51 |
+| Chansons | 34 |
+| Sources mobilisées | 52 |
 
 ## 4. Sources mobilisées
 
@@ -75,6 +75,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 12 | 5 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 10 | 4 |
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 15 | 6 |
+| S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 31 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -485,15 +486,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Ceremony
 - SONG-S75-003 — Disorder
 - SONG-S34-003 — Transmission
+- Unknown Pleasures
+- Closer
 
 ## 11. Concepts récurrents
 
-- New Order (43)
+- New Order (45)
 - Factory (34)
-- Ian Curtis (30)
+- Ian Curtis (31)
 - Still (27)
-- Joy Division (25)
-- Unknown Pleasures (22)
+- Joy Division (26)
+- Unknown Pleasures (23)
 - Peter Saville (20)
 - Rob Gretton (17)
 - Love Will Tear Us Apart (17)
@@ -506,23 +509,24 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - new order (13)
 - factory records (13)
 - peter saville (12)
+- mémoire (12)
 - martin hannett (11)
 - Ceremony (11)
-- mémoire (11)
+- authenticité (11)
 - Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
 - An Ideal for Living (10)
+- Closer (10)
 - postérité (9)
 - rob gretton (9)
-- Closer (9)
-- authenticité (9)
 - Manchester (8)
 - post-punk (8)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
+- Peter Hook (8)
 - suicide (7)
 - archive (7)
 - Bernard Sumner (7)
@@ -539,7 +543,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - héritage (6)
 - charts (6)
 - pulsar (6)
-- Peter Hook (6)
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
@@ -574,11 +577,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Tony Wilson (22)
+- prudence (18)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- prudence (17)
 - Factory (16)
-- Unknown Pleasures (13)
+- Unknown Pleasures (14)
 - Haçienda (11)
 - Ian Curtis (10)
 - Peter Saville (10)
@@ -590,8 +593,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Kevin Cummins (8)
 - fatigue (8)
 - She’s Lost Control (7)
+- New Order (7)
 - Electric Circus (7)
 - Paul Morley (7)
+- mémoire (7)
 - pulsar (7)
 - NME (6)
 - Love Will Tear Us Apart (6)
@@ -599,20 +604,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Plan K (6)
 - Still (6)
 - Hannett (6)
-- mémoire (6)
+- Curtis (6)
 - Gretton (6)
+- Closer (6)
 - acid house (5)
-- New Order (5)
 - Burroughs (5)
 - Sex Pistols (5)
 - Durutti Column (5)
 - Rafters (5)
 - Sordide Sentimental (5)
-- Closer (5)
+- Hook (5)
 - Mick Middles (4)
 - Rainbow Theatre (4)
-- Buzzcocks (4)
-- Sounds (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -704,8 +707,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | concept_structurant | 39 |
-| analyse | 35 |
-| prudence_methodologique | 32 |
+| analyse | 39 |
+| prudence_methodologique | 33 |
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
@@ -715,21 +718,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | discographie | 11 |
 | synthese | 10 |
 | archive | 10 |
+| concept | 10 |
+| controverse | 10 |
 | reception_poll | 10 |
 | motif_structurant | 9 |
 | scene_fondatrice | 9 |
+| fait | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | lecture | 8 |
+| source_part | 7 |
 | methode | 7 |
 | sociologie | 7 |
+| synthese_usage_livre | 7 |
 | relation | 7 |
-| controverse | 7 |
-| fait | 7 |
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
-| source_part | 6 |
-| synthese_usage_livre | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
 | session_radio | 5 |
@@ -751,7 +755,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
-| concept | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | culture_materielle | 4 |
@@ -855,6 +858,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | formation_culturelle | 2 |
 | scene_ecoute | 2 |
 | marketing | 2 |
+| concept_juridique | 2 |
+| cas_comparatif | 2 |
 | album | 2 |
 | reception_starification | 1 |
 | scene_live_domestique | 1 |
@@ -1256,6 +1261,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prudence_ciblage | 1 |
 | voix_acteurs | 1 |
 | patrimonialisation | 1 |
+| qualification_juridique | 1 |
+| donnees_marques | 1 |
+| organisation_juridique | 1 |
+| conflit_juridique | 1 |
+| prudence_probatoire | 1 |
+| probleme_juridique | 1 |
+| droit_consommation | 1 |
+| limite_juridique | 1 |
+| hypothese_juridique | 1 |
 | release_or_session | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
@@ -1271,11 +1285,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 552 |
-| critique | 396 |
-| majeure | 114 |
+| non qualifiée | 553 |
+| critique | 419 |
+| majeure | 119 |
 | majeur | 28 |
-| utile | 15 |
+| utile | 17 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

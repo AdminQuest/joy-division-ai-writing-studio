@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T17:08:19",
-  "status": "warning",
+  "generated_at": "2026-05-19T17:32:24",
+  "status": "error",
   "summary": {
-    "records_total": 6038,
+    "records_total": 6098,
     "records_by_kind": {
       "source": 97,
       "metadata": 166,
-      "atom": 2317,
-      "unknown": 909,
-      "concept": 390,
-      "motif": 386,
+      "atom": 2348,
+      "unknown": 930,
+      "concept": 391,
+      "motif": 387,
       "myth": 100,
       "quote": 496,
-      "chronology": 425,
+      "chronology": 429,
       "person": 289,
-      "song": 107,
+      "song": 109,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25476,
-    "errors": 0,
-    "warnings": 25476,
+    "diagnostics_total": 25673,
+    "errors": 15,
+    "warnings": 25658,
     "sources_declared_in_registre_json": 71,
     "sources_used_in_records": 57,
     "sources_exported": 57,
@@ -1256,12 +1256,17 @@
         "auteur": "Giada Iovane ; Giovanni Maria Riccio",
         "titre": "Trademark will tear us apart again. A proposito di marchi di impresa e nomi di gruppi musicali: il caso Joy Division",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
+        "records": 62,
+        "atoms": 31,
         "quotes": 0,
-        "chronology": 0,
+        "chronology": 4,
         "files": [
-          "sources/iovane_riccio_trademark_will_tear_us_apart/source.md"
+          "registers/references/s61_iovane_riccio_trademark_registers.md",
+          "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+          "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+          "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
+          "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+          "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md"
         ]
       },
       {
@@ -130683,6 +130688,1134 @@
     },
     {
       "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: qualification_juridique",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_juridique",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: donnees_marques",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: organisation_juridique",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: conflit_juridique",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_probatoire",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: probleme_juridique",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: cas_comparatif",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: cas_comparatif",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: droit_consommation",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_juridique",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: limite_juridique",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: hypothese_juridique",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S61-PART-TRADEMARK-WILL-TEAR-US-APART-V2"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A001"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A002"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A003"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A004"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A005"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A006"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A007"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A008"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A009"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A010"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A011"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A012"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A013"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A014"
+    },
+    {
+      "level": "error",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/atoms_dm_s61_trademark_v2.md",
+      "message": "Duplicate id also found in sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
+      "record_id": "S61-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/relations_s61_trademark_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S61-012"
+    },
+    {
+      "level": "warning",
       "file": "registers/s56_barone_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S56-BARONE-2021"
@@ -152148,6 +153281,60 @@
       "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S45-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S61-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S61-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S61-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S61-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S61-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S61-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S61-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S61-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S61-004"
     },
     {
       "level": "warning",
