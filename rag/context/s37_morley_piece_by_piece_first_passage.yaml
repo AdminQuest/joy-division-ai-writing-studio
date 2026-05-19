@@ -1,0 +1,51 @@
+id: RAG-S37-MORLEY-PIECE-BY-PIECE-FIRST-PASSAGE
+source_id: S37
+source_label: "S37 — Morley, Joy Division: Piece by Piece, 2008"
+source_path: "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md"
+relations_path: "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md"
+structuring_registers_path: "sources/morley_piece_by_piece/registers_update_s37_first_passage.md"
+specialized_registers_path: "sources/morley_piece_by_piece/registers_update_s37_first_passage.md"
+chapter_source_notes_paths:
+  - "chapters/02/source_notes_s37.md"
+  - "chapters/14/source_notes_s37.md"
+rag_fragments_path: "rag/fragments/s37_morley_piece_by_piece_first_passage.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Sections III-IV de S37"
+  pdf_pages: "21-37"
+  scope: "Introduction rétrospective de Morley à Piece by Piece et première review NME de Warsaw, 29 mai 1977, publiée le 18 juin 1977"
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 5"
+  - "Chapitre 8"
+  - "Chapitre 12"
+  - "Chapitre 13"
+key_atoms:
+  - S37-A001
+  - S37-A002
+  - S37-A003
+  - S37-A004
+  - S37-A005
+  - S37-A006
+  - S37-A007
+  - S37-A008
+  - S37-A009
+  - S37-A010
+  - S37-A011
+  - S37-A012
+  - S37-A013
+  - S37-A014
+  - S37-A015
+writing_use: >
+  Utiliser ce premier passage de S37 pour établir Morley comme témoin critique et fabricant de mémoire,
+  pour écrire Warsaw avant Joy Division sans téléologie, pour montrer le rôle du NME dans l’exposition
+  nationale de la scène mancunienne, et pour traiter la première review de Warsaw comme archive involontaire.
+verification_rules:
+  - "Distinguer strictement les textes contemporains du NME et les commentaires rétrospectifs de Morley."
+  - "Ne pas utiliser Morley comme source factuelle souveraine pour les dates, lieux ou responsabilités."
+  - "Croiser Stiff Kittens, Warsaw, Electric Circus et première review avec S41, S45, S46 et S76."
+  - "Ne pas transformer le suicide du père de Morley en explication de Joy Division ; l’utiliser seulement pour qualifier le régime d’écriture de Morley."
+  - "Limiter les citations directes à des extraits courts vérifiés."
