@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 268 |
+| Atomes | 276 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 48 |
-| Événements chronologiques | 25 |
-| Personnes | 47 |
-| Chansons | 12 |
-| Sources mobilisées | 31 |
+| Citations | 51 |
+| Événements chronologiques | 29 |
+| Personnes | 51 |
+| Chansons | 14 |
+| Sources mobilisées | 32 |
 
 ## 4. Sources mobilisées
 
@@ -57,6 +57,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 0 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 9 | 4 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -316,6 +317,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S60-Q003** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
+- **S60-Q004** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
+- **S60-Q005** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
@@ -341,9 +345,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -353,6 +354,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-S58-2021-001 — Publication du chapitre d’Emiliano Ilardi dans Our Vision Touched the Sky.
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
+- CHR-S60-1980-001 — Transmission est mobilisé par Federici comme rappel de la communication, de la répétition et de la composition.
+- CHR-S60-2004-001 — Jäh Division publie Dub Will Tear Us Apart, réemploi dub et chromatique de l’imagerie Unknown Pleasures.
+- CHR-S60-2015-001 — Summertime ’06 de Vince Staples reprend la logique graphique d’Unknown Pleasures dans un autre contexte musical.
+- CHR-S60-2021-001 — Publication du chapitre de Raffaele Federici dans Our Vision Touched the Sky.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
@@ -386,6 +391,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S52-003 — Sam Riley
 - PERS-S52-004 — Samantha Morton
 - PERS-S52-010 — Grant Gee
+- PERS-S60-001 — Raffaele Federici
+- PERS-S60-003 — Jacques Attali
+- PERS-S60-004 — Raf Simons
+- PERS-S60-005 — Vince Staples
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -411,15 +420,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
-- PERS-S76-047 — Alan Wise
-- PERS-S76-049 — Peter Saville
-- PERS-S76-050 — Tony Wilson
-- PERS-S76-089 — Paul Morley
 
 ## 10. Chansons rattachées
 
 - SONG-S58-DIGITAL — Digital
 - SONG-S52-ATMOSPHERE — Atmosphere
+- SONG-S60-TRANSMISSION — Transmission
+- SONG-S60-DUB-WILL-TEAR-US-APART — Dub Will Tear Us Apart
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
@@ -521,7 +528,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Rob Gretton (9)
 - Annik Honoré (8)
 - Annik (8)
-- prudence (6)
+- prudence (7)
 - Control (6)
 - Peter Saville (6)
 - Natalie (5)
@@ -537,6 +544,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - van (3)
 - contrôle (3)
 - DIY (3)
+- pulsar (3)
 - biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -557,7 +565,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Morris Traveller (2)
 - Macclesfield (2)
 - An Ideal for Living (2)
-- indépendance (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -648,9 +655,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 16 |
+| concept_structurant | 17 |
 | tension_domestique | 8 |
-| prudence_methodologique | 7 |
+| prudence_methodologique | 8 |
 | reception | 7 |
 | scene_domestique | 6 |
 | biographie | 6 |
@@ -670,6 +677,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | concert | 3 |
 | relation | 3 |
 | objet_visuel | 3 |
+| synthese_usage_livre | 3 |
 | analyse | 3 |
 | tension_interne | 2 |
 | scene_live_domestique | 2 |
@@ -690,7 +698,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | contexte_mediatique | 2 |
 | chronologie | 2 |
 | lecture_reception | 2 |
-| synthese_usage_livre | 2 |
 | source_part | 2 |
 | analyse_morceau | 2 |
 | song | 2 |
@@ -763,6 +770,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | espace_culturel | 1 |
 | concept_mediologique | 1 |
 | synthese_conceptuelle | 1 |
+| reference_theorique | 1 |
+| analyse_formelle | 1 |
+| reception_reemploi | 1 |
+| mode_design | 1 |
+| concept_musique | 1 |
 | contexte_urbain | 1 |
 | ecoute_technologique | 1 |
 | synthese | 1 |
@@ -812,10 +824,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 142 |
+| critique | 146 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 20 |
+| majeure | 24 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

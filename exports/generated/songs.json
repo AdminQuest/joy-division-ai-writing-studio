@@ -222,6 +222,46 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S60-TRANSMISSION",
+    "file": "registers/s60_federici_specialized_registers.md",
+    "heading": "Albums, chansons, objets",
+    "data": {
+      "id": "SONG-S60-TRANSMISSION",
+      "type_unite": "song",
+      "source_id": "S60",
+      "song": "Transmission",
+      "usage": "Chanson mobilisée par Federici autour de communication, répétition, représentation et composition.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+    "file": "registers/s60_federici_specialized_registers.md",
+    "heading": "Albums, chansons, objets",
+    "data": {
+      "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+      "type_unite": "song_or_project",
+      "source_id": "S60",
+      "song": "Dub Will Tear Us Apart",
+      "usage": "Projet Jäh Division utilisé comme réemploi dub et chromatique de l’imaginaire Joy Division.",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S50-SHADOWPLAY",
     "file": "registers/s50_bertetti_morreale_specialized_registers.md",
     "heading": "Lieux, organisations et chansons",
@@ -1521,7 +1561,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::4063",
+    "id": "NO_ID::registers/songs/master_songs.md::4150",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1101 |
+| Atomes | 1116 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 170 |
-| Événements chronologiques | 107 |
-| Personnes | 147 |
-| Chansons | 31 |
-| Sources mobilisées | 50 |
+| Citations | 176 |
+| Événements chronologiques | 112 |
+| Personnes | 152 |
+| Chansons | 32 |
+| Sources mobilisées | 51 |
 
 ## 4. Sources mobilisées
 
@@ -74,6 +74,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 3 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 12 | 5 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 10 | 4 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 15 | 6 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -362,7 +363,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q006** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S60-Q001** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -377,6 +378,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
+- CHR-S60-1979-06-001 — Publication d’Unknown Pleasures ; le motif pulsar devient la matrice de la future icône textile étudiée par Federici.
+- CHR-S60-2004-001 — Jäh Division publie Dub Will Tear Us Apart, réemploi dub et chromatique de l’imagerie Unknown Pleasures.
+- CHR-S60-2014-001 — Federici visite Manchester, passe par Sifter Records et achète un t-shirt Unknown Pleasures.
+- CHR-S60-2015-001 — Summertime ’06 de Vince Staples reprend la logique graphique d’Unknown Pleasures dans un autre contexte musical.
+- CHR-S60-2021-001 — Publication du chapitre de Raffaele Federici dans Our Vision Touched the Sky.
 - CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
@@ -401,11 +407,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S78-1980-05-18-001 — Suicide de Ian Curtis, qui déplace la mémoire de Joy Division vers le culte de Curtis avant le retour progressif du mythe Manchester.
 - CHR-S78-1988-001 — Compilation Substance et clip Atmosphere de Corbijn, moment fort du culte visuel posthume de Ian Curtis.
 - CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
-- CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
-- CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
-- CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
-- CHR-S31-1978-05-001 — Premières soirées The Factory / Factory Show selon Allegri ; émergence d’un dispositif local de production culturelle.
-- CHR-S31-1982-001 — Ouverture de The Haçienda ; Allegri la relie à l’héritage Factory et au Formulaire situationniste pour un nouveau urbanisme.
 
 ## 9. Personnes et acteurs
 
@@ -428,6 +429,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S55-003 — Peter Hook
 - PERS-S55-004 — Bernard Sumner
 - PERS-S55-005 — Stephen Morris
+- PERS-S60-001 — Raffaele Federici
+- PERS-S60-002 — Peter Saville
+- PERS-S60-003 — Jacques Attali
+- PERS-S60-004 — Raf Simons
+- PERS-S60-005 — Vince Staples
 - PERS-S50-001 — Paolo Bertetti
 - PERS-S50-002 — Domenico Morreale
 - PERS-S50-003 — Orian Williams
@@ -444,11 +450,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S53-010 — Friedrich Nietzsche
 - PERS-S53-011 — Michael Winterbottom
 - PERS-S77-001 — Matthew Worley
-- PERS-S77-003 — Jon Savage
-- PERS-S77-004 — Tony Drayton / Tony D / Tony Puppy
-- PERS-S77-005 — Liz Naylor
-- PERS-S77-006 — Cath Carroll
-- PERS-S77-008 — Paul Morley
 
 ## 10. Chansons rattachées
 
@@ -458,6 +459,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S58-DIGITAL — Digital
 - SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S55-JOY_DIVISION — Joy Division
+- SONG-S60-DUB-WILL-TEAR-US-APART — Dub Will Tear Us Apart
 - SONG-S50-SHADOWPLAY — Shadowplay
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-INSIGHT — Insight
@@ -574,28 +576,30 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- prudence (16)
-- Factory (15)
+- prudence (17)
+- Factory (16)
 - Unknown Pleasures (13)
-- Haçienda (10)
+- Haçienda (11)
 - Ian Curtis (10)
 - Peter Saville (10)
 - Buzzcocks tour (9)
 - Control (9)
 - Transmission (8)
+- Manchester (8)
 - John Peel (8)
 - Kevin Cummins (8)
 - fatigue (8)
-- Manchester (7)
 - She’s Lost Control (7)
 - Electric Circus (7)
 - Paul Morley (7)
+- pulsar (7)
 - NME (6)
 - Love Will Tear Us Apart (6)
 - Atmosphere (6)
 - Plan K (6)
 - Still (6)
 - Hannett (6)
+- mémoire (6)
 - Gretton (6)
 - acid house (5)
 - New Order (5)
@@ -604,13 +608,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Durutti Column (5)
 - Rafters (5)
 - Sordide Sentimental (5)
-- mémoire (5)
 - Closer (5)
 - Mick Middles (4)
 - Rainbow Theatre (4)
 - Buzzcocks (4)
 - Sounds (4)
-- Strawberry Studios (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -701,9 +703,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 38 |
+| concept_structurant | 39 |
 | analyse | 35 |
-| prudence_methodologique | 31 |
+| prudence_methodologique | 32 |
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
@@ -727,9 +729,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
 | source_part | 6 |
+| synthese_usage_livre | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
-| synthese_usage_livre | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -752,6 +754,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
+| culture_materielle | 4 |
 | session_studio | 4 |
 | concert_europeen | 4 |
 | motif_discursif | 4 |
@@ -767,6 +770,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_posthume | 3 |
 | analyse_morceau | 3 |
 | dernier_concert | 3 |
+| scene_memoire | 3 |
 | esthétique_visuelle | 3 |
 | evenement_medical_live | 3 |
 | archive_visuelle | 3 |
@@ -778,12 +782,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
+| reference_theorique | 3 |
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | image_symbolique | 3 |
 | conclusion_historiographique | 3 |
-| culture_materielle | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
@@ -797,7 +801,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | infrastructure | 2 |
 | lieu_institution | 2 |
 | rencontre_fondatrice | 2 |
-| scene_memoire | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
@@ -812,13 +815,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | changement_nom | 2 |
 | objet_merchandising | 2 |
 | dispositif_formel | 2 |
+| analyse_formelle | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
 | prudence_historiographique | 2 |
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
-| reference_theorique | 2 |
 | controverse_biographique | 2 |
 | comparaison_critique | 2 |
 | analyse_pochette | 2 |
@@ -835,6 +838,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
 | synthese_conceptuelle | 2 |
+| motif_visuel | 2 |
 | mythe_a_deconstruire | 2 |
 | analyse_chanson | 2 |
 | acteur_interpretatif | 2 |
@@ -959,7 +963,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation_posthume | 1 |
 | intertextualite_occultiste | 1 |
 | chanson_seuil | 1 |
-| analyse_formelle | 1 |
 | iconographie_polemique | 1 |
 | interpretation_theorique | 1 |
 | industrie_musicale | 1 |
@@ -1087,6 +1090,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | filiation_sonore | 1 |
 | production_sonore | 1 |
 | contre_mythe | 1 |
+| dispositif_esthetique | 1 |
+| reception_reemploi | 1 |
+| mode_design | 1 |
+| concept_musique | 1 |
+| motif_urbain | 1 |
+| critique_urbaine | 1 |
+| synthese_iconique | 1 |
 | lecture_generationnelle | 1 |
 | evenement_audiovisuel | 1 |
 | comparaison_generations | 1 |
@@ -1198,7 +1208,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | sociologie_scene | 1 |
 | chronologie_biographique_prudente | 1 |
 | source_visuelle | 1 |
-| motif_visuel | 1 |
 | image_groupe | 1 |
 | reseau_visuel | 1 |
 | droit_image | 1 |
@@ -1263,8 +1272,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 388 |
-| majeure | 107 |
+| critique | 396 |
+| majeure | 114 |
 | majeur | 28 |
 | utile | 15 |
 | structurante | 2 |

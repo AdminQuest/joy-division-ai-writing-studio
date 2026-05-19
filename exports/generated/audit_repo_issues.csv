@@ -12564,6 +12564,171 @@ warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.m
 warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Invalid value for type_unite: scene_memoire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A004,Invalid value for type_unite: motif_visuel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A005,Invalid value for type_unite: reference_theorique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A006,Invalid value for type_unite: dispositif_esthetique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A007,Invalid value for type_unite: analyse_formelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A008,Invalid value for type_unite: reception_reemploi,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A009,Invalid value for type_unite: mode_design,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A010,Invalid value for type_unite: concept_musique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A011,Invalid value for type_unite: culture_materielle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A012,Invalid value for type_unite: motif_urbain,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A013,Invalid value for type_unite: critique_urbaine,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A014,Invalid value for type_unite: synthese_iconique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A015,Invalid value for type_unite: synthese_usage_livre,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md,REL-S60-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -21563,6 +21728,57 @@ warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-
 warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-NEW_WAVE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-DARK_WAVE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s55_romania_specialized_registers.md,GENRE-S55-INDUSTRIAL_ROCK,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,S60-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-1979-06-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-1979-06-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-1979-06-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-1980-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-1980-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-1980-001,Invalid value for certainty: a_croiser_discographie,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2004-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2004-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-2004-001,Invalid value for certainty: a_verifier,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2014-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2014-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-2014-001,Invalid value for certainty: interne_a_S60,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2015-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2015-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-2015-001,Invalid value for certainty: a_verifier,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,CHR-S60-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s60_federici_specialized_registers.md,CHR-S60-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,PERS-S60-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,PERS-S60-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,PERS-S60-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,PERS-S60-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,PERS-S60-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,LIEU-S60-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,LIEU-S60-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,LIEU-S60-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,LIEU-S60-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,ORG-S60-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,ORG-S60-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,ALBUM-S60-UNKNOWN-PLEASURES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,ALBUM-S60-SUMMERTIME-06,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-TRANSMISSION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-TRANSMISSION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-TRANSMISSION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-DUB-WILL-TEAR-US-APART,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-DUB-WILL-TEAR-US-APART,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s60_federici_specialized_registers.md,SONG-S60-DUB-WILL-TEAR-US-APART,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,OBJ-S60-TSHIRT-UNKNOWN-PLEASURES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_specialized_registers.md,OBJ-S60-PULSAR,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s59_ferrara_structuring_registers.md,REF-S59-FERRARA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s59_ferrara_structuring_registers.md,REF-S59-PARMAR-2018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s59_ferrara_structuring_registers.md,REF-S59-HOOK-ANTI-IMAGE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -21957,6 +22173,10 @@ warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S5
 warning,unknown_yaml_block,registers/s52_rabbito_structuring_registers.md,REF-S52-GEE-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s55_romania_structuring_registers.md,REF-S55-ROMANIA-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s55_romania_structuring_registers.md,REF-S55-ONDAROCK-CORPUS,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-FEDERICI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-ATTALI-1977,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-RAF-SIMONS-INTERZONE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-VINCE-STAPLES-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-RAGONE-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-MARRONE-2010-2011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s50_bertetti_morreale_structuring_registers.md,REF-S50-BERTETTI-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 297 |
+| Atomes | 298 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 30 |
-| Événements chronologiques | 35 |
+| Citations | 31 |
+| Événements chronologiques | 36 |
 | Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 2 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -302,6 +303,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S60-Q001** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
 - **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q003** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
@@ -333,6 +335,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - CHR-S58-1997-001 — Fermeture définitive de l’Haçienda et découverte par Peter Hook d’un master d’Unknown Pleasures sous la scène.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
+- CHR-S60-2014-001 — Federici visite Manchester, passe par Sifter Records et achète un t-shirt Unknown Pleasures.
 - CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
 - CHR-S77-1977-001 — Les fanzines accompagnent la codification et la récupération médiatique du punk ; se développe une conscience de la commodification.
 - CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
@@ -731,6 +734,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | genre_scene | 1 |
 | prudence_sociale | 1 |
 | lieu_scene | 1 |
+| scene_memoire | 1 |
 | contexte_mediatique | 1 |
 | acteur_interpretatif | 1 |
 | media_trace | 1 |
@@ -795,7 +799,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | critique | 136 |
 | non qualifiée | 123 |
 | majeur | 18 |
-| majeure | 16 |
+| majeure | 17 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |

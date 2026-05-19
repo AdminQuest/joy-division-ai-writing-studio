@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T16:34:50",
+  "generated_at": "2026-05-19T16:55:59",
   "status": "warning",
   "summary": {
-    "records_total": 5949,
+    "records_total": 6036,
     "records_by_kind": {
       "source": 96,
       "metadata": 165,
-      "atom": 2302,
-      "unknown": 880,
-      "concept": 375,
-      "motif": 381,
-      "myth": 96,
-      "quote": 490,
-      "chronology": 419,
-      "person": 284,
-      "song": 105,
+      "atom": 2317,
+      "unknown": 909,
+      "concept": 390,
+      "motif": 386,
+      "myth": 100,
+      "quote": 496,
+      "chronology": 425,
+      "person": 289,
+      "song": 107,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25256,
+    "diagnostics_total": 25476,
     "errors": 0,
-    "warnings": 25256,
+    "warnings": 25476,
     "sources_declared_in_registre_json": 70,
     "sources_used_in_records": 56,
     "sources_exported": 56,
@@ -1238,12 +1238,16 @@
         "auteur": "Raffaele Federici",
         "titre": "Unknown Pleasures: Pulsar di una t-shirt iconica",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 104,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 6,
         "files": [
-          "sources/federici_unknown_pleasures_pulsar_tshirt/source.md"
+          "registers/s60_federici_specialized_registers.md",
+          "registers/s60_federici_structuring_registers.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/source.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md"
         ]
       },
       {
@@ -76911,6 +76915,996 @@
     },
     {
       "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S60-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_memoire",
+      "record_id": "S60-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S60-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_visuel",
+      "record_id": "S60-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: reference_theorique",
+      "record_id": "S60-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: dispositif_esthetique",
+      "record_id": "S60-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_formelle",
+      "record_id": "S60-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_reemploi",
+      "record_id": "S60-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: mode_design",
+      "record_id": "S60-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_musique",
+      "record_id": "S60-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: culture_materielle",
+      "record_id": "S60-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_urbain",
+      "record_id": "S60-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: critique_urbaine",
+      "record_id": "S60-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_iconique",
+      "record_id": "S60-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "record_id": "S60-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S60-015"
+    },
+    {
+      "level": "warning",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S49-A001"
@@ -130905,6 +131899,312 @@
     },
     {
       "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S60-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S60-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S60-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser_discographie",
+      "record_id": "CHR-S60-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-2004-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-2004-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: a_verifier",
+      "record_id": "CHR-S60-2004-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-2014-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-2014-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: interne_a_S60",
+      "record_id": "CHR-S60-2014-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: a_verifier",
+      "record_id": "CHR-S60-2015-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S60-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S60-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S60-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S60-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S60-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S60-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S60-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S60-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S60-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S60-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S60-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S60-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S60-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S60-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S60-UNKNOWN-PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S60-SUMMERTIME-06"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S60-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S60-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S60-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "OBJ-S60-TSHIRT-UNKNOWN-PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "OBJ-S60-PULSAR"
+    },
+    {
+      "level": "warning",
       "file": "registers/s59_ferrara_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S59-FERRARA-2021"
@@ -133266,6 +134566,30 @@
       "file": "registers/s55_romania_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S55-ONDAROCK-CORPUS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S60-FEDERICI-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S60-ATTALI-1977"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S60-RAF-SIMONS-INTERZONE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S60-VINCE-STAPLES-2015"
     },
     {
       "level": "warning",

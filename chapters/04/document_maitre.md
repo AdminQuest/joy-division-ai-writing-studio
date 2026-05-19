@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T16:35:06"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 326 |
+| Atomes | 327 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
-| Événements chronologiques | 60 |
+| Événements chronologiques | 61 |
 | Personnes | 53 |
-| Chansons | 35 |
-| Sources mobilisées | 23 |
+| Chansons | 36 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -52,6 +52,7 @@ generated_at: "2026-05-19T16:35:06"
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 16 | 5 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -344,6 +345,7 @@ generated_at: "2026-05-19T16:35:06"
 - CHR-S52-1977-001 — Rabbito associe les premières performances de Curtis à une violence scénique et à une intensité non restituées par Control.
 - CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
 - CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
+- CHR-S60-1980-001 — Transmission est mobilisé par Federici comme rappel de la communication, de la répétition et de la composition.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
 - CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
@@ -378,7 +380,6 @@ generated_at: "2026-05-19T16:35:06"
 - CHR-S76-1980-031 — Deborah Curtis découvre le corps de Ian Curtis à Barton Street en fin de matinée. Le voisin Kevin Wood intervient, coupe la corde et appelle police et ambulance.
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
-- CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 
 ## 9. Personnes et acteurs
 
@@ -429,6 +430,7 @@ generated_at: "2026-05-19T16:35:06"
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S58-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S60-TRANSMISSION — Transmission
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S57-HEART-AND-SOUL — Heart and Soul
 - SONG-S54-DIGITAL — Digital
@@ -576,6 +578,7 @@ generated_at: "2026-05-19T16:35:06"
 - Curtis (4)
 - Bowie (4)
 - domesticité (4)
+- performance (4)
 - mariage (4)
 - Tony Wilson (4)
 - Mark Reeder (4)
@@ -587,7 +590,6 @@ generated_at: "2026-05-19T16:35:06"
 - Iggy Pop (3)
 - Chance (3)
 - Novelty (3)
-- Macclesfield (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -783,6 +785,7 @@ generated_at: "2026-05-19T16:35:06"
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
 | figure_mythique | 1 |
+| concept_musique | 1 |
 | lecture_performance | 1 |
 | analyse_performance | 1 |
 | lecture_scene_et_chanson | 1 |
@@ -873,7 +876,7 @@ generated_at: "2026-05-19T16:35:06"
 |---|---|
 | critique | 171 |
 | non qualifiée | 94 |
-| majeure | 52 |
+| majeure | 53 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |

@@ -1948,6 +1948,128 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-pulsar_icone_coton",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-pulsar_icone_coton",
+      "type_unite": "motif",
+      "source_id": "S60",
+      "nom": "pulsar comme icône en coton",
+      "atomes": [
+        "S60-A003",
+        "S60-A004",
+        "S60-A011"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-pochette_devenue_vetement",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-pochette_devenue_vetement",
+      "type_unite": "motif",
+      "source_id": "S60",
+      "nom": "pochette devenue vêtement",
+      "atomes": [
+        "S60-A003",
+        "S60-A004",
+        "S60-A015"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-reemploi_postproductif_pulsar",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-reemploi_postproductif_pulsar",
+      "type_unite": "motif",
+      "source_id": "S60",
+      "nom": "réemploi postproductif du pulsar",
+      "atomes": [
+        "S60-A007",
+        "S60-A008",
+        "S60-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-marchandise_memoire_identite",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-marchandise_memoire_identite",
+      "type_unite": "motif",
+      "source_id": "S60",
+      "nom": "marchandise, mémoire, identité",
+      "atomes": [
+        "S60-A003",
+        "S60-A011",
+        "S60-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-ville_postmoderne_requiem",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-ville_postmoderne_requiem",
+      "type_unite": "motif",
+      "source_id": "S60",
+      "nom": "ville postmoderne comme requiem",
+      "atomes": [
+        "S60-A012",
+        "S60-A013"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-reimagination_imaginaire",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Motifs",

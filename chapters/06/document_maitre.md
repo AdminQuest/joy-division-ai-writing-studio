@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 473 |
+| Atomes | 475 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 67 |
-| Événements chronologiques | 46 |
-| Personnes | 52 |
+| Citations | 68 |
+| Événements chronologiques | 47 |
+| Personnes | 53 |
 | Chansons | 32 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -52,6 +52,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 5 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 2 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -304,6 +305,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S60-Q004** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
 - **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S59-Q001** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
@@ -336,12 +338,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S58-1983-001 — Blue Monday marque, dans l’argument d’Ilardi, un seuil de la mutation New Order vers l’électronique et la culture club.
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
+- CHR-S60-1979-06-001 — Publication d’Unknown Pleasures ; le motif pulsar devient la matrice de la future icône textile étudiée par Federici.
 - CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
 - CHR-S59-1979-06-001 — Publication d’Unknown Pleasures ; Ferrara mobilise l’album pour l’anonymat visuel, la distance graphique et la construction d’une anti-image.
 - CHR-S59-1980-07-001 — Publication de Closer ; Ferrara mobilise l’album dans une lecture de la distance, de l’absence et de l’aura posthume.
@@ -379,7 +381,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
 - CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
-- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
 
 ## 9. Personnes et acteurs
 
@@ -388,6 +389,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S58-006 — Martin Hannett
 - PERS-S55-001 — Vincenzo Romania
 - PERS-S55-002 — Ian Curtis
+- PERS-S60-002 — Peter Saville
 - PERS-S59-001 — Francesca Ferrara
 - PERS-S59-003 — Peter Hook
 - PERS-S59-004 — Peter Saville
@@ -422,7 +424,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-077 — Dave Pils
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
-- PERS-S76-034 — John Anderson
 
 ## 10. Chansons rattachées
 
@@ -547,7 +548,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 ### 12.1. Motifs dominants
 
 - Rob Gretton (25)
-- Factory (15)
+- Factory (16)
 - Tony Wilson (14)
 - Martin Hannett (12)
 - Hannett (12)
@@ -881,6 +882,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | probleme_historique | 1 |
 | filiation_sonore | 1 |
 | contre_mythe | 1 |
+| dispositif_esthetique | 1 |
+| analyse_formelle | 1 |
 | prudence_interpretative | 1 |
 | concept_visuel | 1 |
 | analyse_graphique | 1 |
@@ -949,7 +952,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 233 |
+| critique | 235 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 32 |

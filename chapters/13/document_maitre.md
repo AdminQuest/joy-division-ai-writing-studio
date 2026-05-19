@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T16:35:06"
+generated_at: "2026-05-19T16:56:21"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 135 |
+| Atomes | 138 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 51 |
-| Événements chronologiques | 23 |
+| Citations | 52 |
+| Événements chronologiques | 24 |
 | Personnes | 46 |
 | Chansons | 13 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 2 | 1 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 7 | 3 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
+| S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 3 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -207,6 +208,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `production_sonore` ; importance : `critique` ; preuve : `analyse_production_secondaire`.
 - **S59-A012** — S59-A012 — Hannett et distance sonore  
   Source : S59 — Ferrara, Joy Division: una poetica della distanza, 2021 ; type : `production_sonore` ; importance : `critique` ; preuve : `analyse_production_secondaire`.
+- **S60-A002** — S60-A002 — Manchester 2014 : pèlerinage, Sifter Records et t-shirt  
+  Source : S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 ; type : `scene_memoire` ; importance : `majeure` ; preuve : `scene_essayistique`.
+- **S60-A012** — S60-A012 — Unknown Pleasures comme requiem pour la ville postmoderne  
+  Source : S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 ; type : `motif_urbain` ; importance : `majeure` ; preuve : `lecture_socio_urbaine`.
+- **S60-A013** — S60-A013 — Haçienda détruite : gentrification, luxe immobilier et fin des diversités  
+  Source : S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 ; type : `critique_urbaine` ; importance : `majeure` ; preuve : `observation_interpretative`.
 - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
@@ -285,12 +292,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
-- **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
-- **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
-- **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
 
 ## 7. Citations disponibles
 
@@ -299,6 +300,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S58-Q006** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S60-Q001** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
 - **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
@@ -333,12 +335,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S58-1982-001 — Ouverture de l’Haçienda, espace culturel indéterminé qui devient ensuite laboratoire de club culture et de rave.
 - CHR-S52-1977-001 — Rabbito associe les premières performances de Curtis à une violence scénique et à une intensité non restituées par Control.
+- CHR-S60-2014-001 — Federici visite Manchester, passe par Sifter Records et achète un t-shirt Unknown Pleasures.
 - CHR-S78-1978-09-20-001 — Apparition de Joy Division dans What’s On, Granada TV, avec projection d’images urbaines pendant Shadowplay.
 - CHR-S78-1979-01-13-001 — Article de Paul Morley dans le NME sur Manchester: New Sounds, qui contribue à cadrer Joy Division comme groupe mancunien.
 - CHR-S78-1979-07-21-001 — Jon Savage publie dans Melody Maker sa recension d’Unknown Pleasures reliant le disque aux dark spaces and empty places de Manchester.
@@ -507,10 +509,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ### 12.1. Motifs dominants
 
-- Manchester (8)
+- Manchester (9)
 - Salford (7)
+- Haçienda (6)
 - Kevin Cummins (6)
-- Haçienda (5)
 - T. J. Davidson’s (4)
 - Factory (4)
 - Hannett (4)
@@ -546,7 +548,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Wythenshawe (2)
 - périphérie (2)
 - overspill estate (2)
-- vulnérabilité (2)
+- urbanité (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -689,6 +691,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | comparaison_urbaine | 1 |
 | contexte_socio_culturel | 1 |
 | espace_culturel | 1 |
+| scene_memoire | 1 |
+| motif_urbain | 1 |
+| critique_urbaine | 1 |
 | lecture_performance | 1 |
 | evenement_audiovisuel | 1 |
 | analyse_performance | 1 |
@@ -731,7 +736,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | critique | 69 |
-| majeure | 37 |
+| majeure | 40 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

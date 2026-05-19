@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T16:35:04",
+  "generated_at": "2026-05-19T16:56:18",
   "summary": {
-    "records_total": 5949,
+    "records_total": 6036,
     "records_by_kind": {
       "source": 96,
       "metadata": 165,
-      "atom": 2302,
-      "unknown": 880,
-      "concept": 375,
-      "motif": 381,
-      "myth": 96,
-      "quote": 490,
-      "chronology": 419,
-      "person": 284,
-      "song": 105,
+      "atom": 2317,
+      "unknown": 909,
+      "concept": 390,
+      "motif": 386,
+      "myth": 100,
+      "quote": 496,
+      "chronology": 425,
+      "person": 289,
+      "song": 107,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25256,
+    "diagnostics_total": 25476,
     "errors": 0,
-    "warnings": 25256,
+    "warnings": 25476,
     "sources_declared_in_registre_json": 70,
     "sources_used_in_records": 56,
     "sources_exported": 56,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2302,
-    "chronology": 419,
-    "concept": 375,
+    "atom": 2317,
+    "chronology": 425,
+    "concept": 390,
     "metadata": 165,
-    "motif": 381,
-    "myth": 96,
-    "person": 284,
-    "quote": 490,
+    "motif": 386,
+    "myth": 100,
+    "person": 289,
+    "quote": 496,
     "quote_batch": 1,
     "rules": 1,
-    "song": 105,
+    "song": 107,
     "source": 96,
     "template": 354,
-    "unknown": 880
+    "unknown": 909
   },
   "records_by_source": {
     "S02": {
@@ -436,8 +436,17 @@
       "song": 5
     },
     "S60": {
+      "atom": 15,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 29,
+      "quote": 6,
+      "chronology": 6,
+      "person": 5,
+      "song": 2,
+      "concept": 15,
+      "motif": 5,
+      "myth": 4
     },
     "S68": {
       "quote": 3,
@@ -520,18 +529,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 441,
-    "Chapitre 10": 458,
+    "Chapitre 10": 493,
     "Chapitre 11": 465,
     "Chapitre 12": 626,
-    "Chapitre 13": 312,
-    "Chapitre 14": 1754,
+    "Chapitre 13": 323,
+    "Chapitre 14": 1813,
     "Chapitre 2": 543,
     "Chapitre 3": 605,
-    "Chapitre 4": 539,
+    "Chapitre 4": 543,
     "Chapitre 5": 517,
-    "Chapitre 6": 722,
+    "Chapitre 6": 730,
     "Chapitre 7": 264,
-    "Chapitre 8": 538,
+    "Chapitre 8": 542,
     "Chapitre 9": 343,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -643,29 +652,29 @@
       29
     ],
     [
+      "registers/s60_federici_specialized_registers.md",
+      29
+    ],
+    [
       "registers/s31_allegri_specialized_registers.md",
       29
     ],
     [
+      "registers/s60_federici_structuring_registers.md",
+      28
+    ],
+    [
       "registers/s58_ilardi_structuring_registers.md",
       27
-    ],
-    [
-      "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
-      26
-    ],
-    [
-      "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
-      26
     ]
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2168,
-    "missing_required_field": 7910,
+    "invalid_controlled_value": 2189,
+    "missing_required_field": 8020,
     "schema_warning": 494,
-    "unknown_yaml_block": 880,
-    "v2_migration_debt": 13501
+    "unknown_yaml_block": 909,
+    "v2_migration_debt": 13561
   },
   "top_files_by_issue_count": [
     [
@@ -2300,6 +2309,126 @@
       "category": "unknown_yaml_block",
       "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
       "record_id": "REL-S58-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -5210,6 +5339,86 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ORG-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ORG-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ALBUM-S60-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ALBUM-S60-SUMMERTIME-06",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "OBJ-S60-TSHIRT-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "OBJ-S60-PULSAR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s59_ferrara_structuring_registers.md",
       "record_id": "REF-S59-FERRARA-2021",
       "message": "Unable to infer documentary kind",
@@ -5804,6 +6013,38 @@
       "category": "unknown_yaml_block",
       "file": "registers/s55_romania_structuring_registers.md",
       "record_id": "REF-S55-ONDAROCK-CORPUS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-FEDERICI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-ATTALI-1977",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-RAF-SIMONS-INTERZONE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-VINCE-STAPLES-2015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7833,10 +8074,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2302,
+    "atoms_total": 2317,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2229,
-    "v2_missing_field_warnings": 13501
+    "atoms_v2_incomplete": 2244,
+    "v2_missing_field_warnings": 13561
   },
   "source_registry": {
     "declared_but_unused": [
@@ -9047,12 +9288,16 @@
         "auteur": "Raffaele Federici",
         "titre": "Unknown Pleasures: Pulsar di una t-shirt iconica",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 104,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 6,
         "files": [
-          "sources/federici_unknown_pleasures_pulsar_tshirt/source.md"
+          "registers/s60_federici_specialized_registers.md",
+          "registers/s60_federici_structuring_registers.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/source.md",
+          "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md"
         ]
       },
       {
@@ -109851,6 +110096,1326 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A002",
+      "message": "Invalid value for type_unite: scene_memoire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A004",
+      "message": "Invalid value for type_unite: motif_visuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A005",
+      "message": "Invalid value for type_unite: reference_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A006",
+      "message": "Invalid value for type_unite: dispositif_esthetique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A007",
+      "message": "Invalid value for type_unite: analyse_formelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A008",
+      "message": "Invalid value for type_unite: reception_reemploi",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A009",
+      "message": "Invalid value for type_unite: mode_design",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A010",
+      "message": "Invalid value for type_unite: concept_musique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A011",
+      "message": "Invalid value for type_unite: culture_materielle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A012",
+      "message": "Invalid value for type_unite: motif_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A013",
+      "message": "Invalid value for type_unite: critique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A014",
+      "message": "Invalid value for type_unite: synthese_iconique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
+      "record_id": "S60-A015",
+      "message": "Invalid value for type_unite: synthese_usage_livre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/relations_s60.md",
+      "record_id": "REL-S60-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "record_id": "S49-A001",
       "message": "Missing required field: auteur",
@@ -181842,6 +183407,414 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "S60-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1979-06-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1979-06-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1979-06-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1980-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1980-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-1980-001",
+      "message": "Invalid value for certainty: a_croiser_discographie",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2004-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2004-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2004-001",
+      "message": "Invalid value for certainty: a_verifier",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2014-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2014-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2014-001",
+      "message": "Invalid value for certainty: interne_a_S60",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2015-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2015-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2015-001",
+      "message": "Invalid value for certainty: a_verifier",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2021-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2021-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "CHR-S60-2021-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "PERS-S60-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "PERS-S60-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "PERS-S60-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "PERS-S60-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "PERS-S60-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "LIEU-S60-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ORG-S60-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ORG-S60-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ALBUM-S60-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "ALBUM-S60-SUMMERTIME-06",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-TRANSMISSION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-TRANSMISSION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-TRANSMISSION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "OBJ-S60-TSHIRT-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_specialized_registers.md",
+      "record_id": "OBJ-S60-PULSAR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s59_ferrara_structuring_registers.md",
       "record_id": "REF-S59-FERRARA-2021",
@@ -184989,6 +186962,38 @@
       "category": "unknown_yaml_block",
       "file": "registers/s55_romania_structuring_registers.md",
       "record_id": "REF-S55-ONDAROCK-CORPUS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-FEDERICI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-ATTALI-1977",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-RAF-SIMONS-INTERZONE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s60_federici_structuring_registers.md",
+      "record_id": "REF-S60-VINCE-STAPLES-2015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
