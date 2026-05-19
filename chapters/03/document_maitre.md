@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T14:22:55"
+generated_at: "2026-05-19T14:42:24"
 ```
 
 ## 1. Fonction du chapitre

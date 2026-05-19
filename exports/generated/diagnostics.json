@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T14:22:39",
+  "generated_at": "2026-05-19T14:42:08",
   "status": "warning",
   "summary": {
-    "records_total": 5697,
+    "records_total": 5699,
     "records_by_kind": {
-      "source": 92,
-      "metadata": 161,
+      "source": 93,
+      "metadata": 162,
       "atom": 2257,
       "unknown": 805,
       "concept": 342,
@@ -23,9 +23,9 @@
     "errors": 0,
     "warnings": 24597,
     "sources_declared_in_registre_json": 67,
-    "sources_used_in_records": 52,
-    "sources_exported": 52,
-    "declared_but_unused": 15,
+    "sources_used_in_records": 53,
+    "sources_exported": 53,
+    "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -159,21 +159,6 @@
           "rock",
           "subculture",
           "politique de la musique"
-        ]
-      },
-      {
-        "source_id": "S31",
-        "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-        "auteur": "Giuseppe Allegri",
-        "titre": "Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo",
-        "annee": "2021",
-        "statut": "a_consolider",
-        "usage": [
-          "froid",
-          "modernité",
-          "incertitude",
-          "anxiété",
-          "post-situationnisme"
         ]
       },
       {
@@ -673,6 +658,20 @@
           "sources/goddard_missions_dead_souls/source.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md"
+        ]
+      },
+      {
+        "source_id": "S31",
+        "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+        "auteur": "Giuseppe Allegri",
+        "titre": "Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/allegri_living_in_the_ice_age/source.md"
         ]
       },
       {
