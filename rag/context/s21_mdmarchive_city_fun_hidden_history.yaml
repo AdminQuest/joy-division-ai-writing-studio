@@ -1,0 +1,60 @@
+id: RAG-S21-MDMARCHIVE-CITY-FUN-HIDDEN-HISTORY
+source_id: S21
+source_label: "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026"
+source_path: "sources/mdmarchive_city_fun_hidden_history/source_part_01.md"
+relations_path: "sources/mdmarchive_city_fun_hidden_history/relations_s21.md"
+structuring_registers_path: "registers/s21_mdmarchive_city_fun_structuring_registers.md"
+specialized_registers_path: "registers/s21_mdmarchive_city_fun_specialized_registers.md"
+master_docs_addendum_path: "chapters/addenda/s21_dm_addendum_mdmarchive_city_fun.md"
+rag_fragments_path: "rag/fragments/s21_mdmarchive_city_fun_hidden_history.jsonl"
+status: "integrated_manual_pass_pending_generated_exports"
+coverage:
+  passage: "Exposition web complète, exploitation sélective des passages et items utiles au livre"
+  pages: "sans pagination papier"
+  scope: "MDMArchive City Fun exhibition uniquement ; non l’article S22 Wilkinson"
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 7"
+  - "Chapitre 8"
+  - "Chapitre 9"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 3"
+  - "Chapitre 10"
+key_atoms:
+  - S21-A001
+  - S21-A002
+  - S21-A003
+  - S21-A004
+  - S21-A005
+  - S21-A006
+  - S21-A007
+  - S21-A008
+  - S21-A009
+  - S21-A010
+key_concepts:
+  - CONCEPT-fanzine_materiel_diy
+  - CONCEPT-corpus_primaire_mediatise
+  - CONCEPT-fanzine_observatoire_local
+  - CONCEPT-patrimonialisation_fanzine
+  - CONCEPT-chaine_probatoire_fanzine
+key_motifs:
+  - MOTIF-graphisme_pauvre_fanzine
+  - MOTIF-scene_au_ras_du_sol
+  - MOTIF-rire_oppositionnel
+  - MOTIF-archive_de_contre_culture
+key_myths:
+  - MYTH-City_Fun_simplement_anti_Factory
+  - MYTH-scene_post_punk_deja_canonisee
+  - MYTH-archive_numerique_neutre
+writing_use: >
+  Utiliser S21 comme accès archivistique numérique à City Fun : items, scans, notices, graphisme,
+  matérialité DIY, contributeurs, voix locales, satire, mémoire de scène et patrimonialisation numérique.
+  Croiser systématiquement avec S22 Wilkinson pour l’interprétation universitaire.
+verification_rules:
+  - "Ne pas citer S21 globalement lorsqu’un item précis est requis."
+  - "Identifier item, numéro, date, crédit, légende et capture avant citation finale."
+  - "Ne pas confondre S21 MDMArchive avec S22 Wilkinson."
+  - "Ne pas réduire City Fun à une opposition anti-Factory."
+  - "Croiser les affirmations factuelles avec les numéros originaux, S22 et les sources de presse."
+  - "Distinguer l’objet historique City Fun et sa patrimonialisation numérique par MDMArchive."
