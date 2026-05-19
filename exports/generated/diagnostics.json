@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T16:23:08",
+  "generated_at": "2026-05-19T16:34:50",
   "status": "warning",
   "summary": {
-    "records_total": 5947,
+    "records_total": 5949,
     "records_by_kind": {
-      "source": 95,
-      "metadata": 164,
+      "source": 96,
+      "metadata": 165,
       "atom": 2302,
       "unknown": 880,
       "concept": 375,
@@ -22,9 +22,9 @@
     "diagnostics_total": 25256,
     "errors": 0,
     "warnings": 25256,
-    "sources_declared_in_registre_json": 69,
-    "sources_used_in_records": 55,
-    "sources_exported": 55,
+    "sources_declared_in_registre_json": 70,
+    "sources_used_in_records": 56,
+    "sources_exported": 56,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1230,6 +1230,20 @@
           "sources/ferrara_poetica_della_distanza/relations_s59.md",
           "sources/ferrara_poetica_della_distanza/source.md",
           "sources/ferrara_poetica_della_distanza/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S60",
+        "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+        "auteur": "Raffaele Federici",
+        "titre": "Unknown Pleasures: Pulsar di una t-shirt iconica",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/federici_unknown_pleasures_pulsar_tshirt/source.md"
         ]
       },
       {
