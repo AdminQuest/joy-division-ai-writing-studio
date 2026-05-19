@@ -18,6 +18,8 @@ body {
 
 .subtitle {
   color: #b8c0cc;
+  max-width: 880px;
+  line-height: 1.55;
 }
 
 .back a {
@@ -27,7 +29,7 @@ body {
 
 .layout {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 340px 1fr;
   gap: 24px;
   padding: 24px;
 }
@@ -37,6 +39,22 @@ body {
   border: 1px solid #2a313d;
   border-radius: 14px;
   padding: 20px;
+}
+
+.toolbar {
+  align-self: start;
+  position: sticky;
+  top: 18px;
+}
+
+.status-card {
+  border: 1px solid #30425d;
+  background: #111827;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 18px;
+  color: #dbeafe;
+  line-height: 1.45;
 }
 
 .filters {
@@ -51,6 +69,10 @@ body {
   gap: 6px;
 }
 
+.primary-field label {
+  color: #bfdbfe;
+}
+
 input, select, button {
   border-radius: 8px;
   border: 1px solid #3b4453;
@@ -59,16 +81,30 @@ input, select, button {
   padding: 10px;
 }
 
+select optgroup {
+  background: #111827;
+  color: #93c5fd;
+}
+
 .actions {
   display: flex;
   gap: 10px;
   margin-top: 18px;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #93c5fd;
+}
+
 .note {
   margin-top: 18px;
   color: #aab2bf;
   font-size: 0.92rem;
+  line-height: 1.55;
 }
 
 .results-header {
@@ -92,6 +128,12 @@ input, select, button {
 
 .song-card h3 {
   margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+}
+
+.canonical-card {
+  border-color: #3b4f70;
 }
 
 .meta {
@@ -108,20 +150,66 @@ input, select, button {
   font-size: 0.82rem;
 }
 
+.badge.canonical {
+  background: #1d4ed8;
+  color: #eff6ff;
+}
+
+.badge.muted {
+  background: #2d333d;
+  color: #9ca3af;
+}
+
 .section-title {
   margin-top: 14px;
   margin-bottom: 6px;
   color: #93c5fd;
   font-size: 0.9rem;
   text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.record-list {
+  display: grid;
+  gap: 10px;
+}
+
+.record-row {
+  border: 1px solid #263241;
+  background: #0d1117;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.record-row p {
+  margin: 8px 0;
+  color: #d1d5db;
+  line-height: 1.45;
+}
+
+.small {
+  color: #9ca3af;
+  font-size: 0.82rem;
 }
 
 ul {
   margin-top: 4px;
+  padding-left: 20px;
+}
+
+li {
+  margin: 3px 0;
+}
+
+code {
+  color: #c7d2fe;
 }
 
 @media (max-width: 960px) {
   .layout {
     grid-template-columns: 1fr;
+  }
+  .toolbar {
+    position: static;
   }
 }
