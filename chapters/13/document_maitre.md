@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 127 |
+| Atomes | 128 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 47 |
+| Citations | 48 |
 | Événements chronologiques | 22 |
-| Personnes | 43 |
+| Personnes | 44 |
 | Chansons | 13 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 2 | 1 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 6 | 5 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 2 | 1 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
@@ -122,10 +123,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `lecture_performative`.
 - **S56-A005** — S56-A005 — The cities speak  
   Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
+- **S59-A012** — S59-A012 — Hannett et distance sonore  
+  Source : S59 — Ferrara, Joy Division: una poetica della distanza, 2021 ; type : `production_sonore` ; importance : `critique` ; preuve : `analyse_production_secondaire`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -215,6 +216,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
@@ -287,8 +290,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `contexte_geographique` ; importance : `majeure` ; preuve : `synthese_contextuelle`.
 - **S78-A008** — S78-A008 — Tony Wilson, situationnisme et psychogéographie : prudence sur les influences attestées  
   Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `prudence_interpretative` ; importance : `critique` ; preuve : `critique_historiographique`.
-- **S78-A009** — S78-A009 — What’s On et Shadowplay : refus implicite de l’illustration urbaine littérale  
-  Source : S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 ; type : `scene_media` ; importance : `majeure` ; preuve : `anecdote_media_rapportee`.
 
 ## 7. Citations disponibles
 
@@ -300,6 +301,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q014** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S59-Q005** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q006** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
@@ -331,7 +333,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -367,6 +368,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - PERS-S53-008 — Christian Norberg-Schulz
 - PERS-S49-002 — Ian Curtis
 - PERS-S49-003 — David Byrne
+- PERS-S59-005 — Martin Hannett
 - PERS-S78-001 — Leonard Nevarez
 - PERS-S78-002 — Liz Naylor
 - PERS-S78-003 — Paul Morley
@@ -399,7 +401,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - PERS-S76-039 — Donald Johnson
 - PERS-S76-040 — Eddie Garrity / Ed Banger
 - PERS-S76-011 — Mark Reeder
-- PERS-S76-014 — Vini Reilly
 
 ## 10. Chansons rattachées
 
@@ -512,6 +513,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Haçienda (3)
 - Little Peter Street (3)
 - Factory (3)
+- Hannett (3)
 - psychogéographie (3)
 - Shadowplay (3)
 - Factory Club (3)
@@ -528,7 +530,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Curtis (2)
 - She’s Lost Control (2)
 - Macclesfield (2)
-- Hannett (2)
 - situationnisme (2)
 - isolation sonore (2)
 - répétition (2)
@@ -647,6 +648,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contrepoint | 2 |
 | lieu_structurant | 2 |
 | geographie_sociale | 2 |
+| production_sonore | 2 |
 | motif_structurant | 2 |
 | mediation_audiovisuelle | 2 |
 | image_symbolique | 2 |
@@ -670,7 +672,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | organisation_culturelle | 1 |
 | concept_socio_culturel | 1 |
 | reference_situationniste | 1 |
-| production_sonore | 1 |
 | lecture_textuelle | 1 |
 | archive | 1 |
 | lecture_chanson_espace | 1 |
@@ -723,7 +724,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 62 |
+| critique | 63 |
 | majeure | 36 |
 | non qualifiée | 24 |
 | majeur | 3 |

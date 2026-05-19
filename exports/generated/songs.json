@@ -670,6 +670,108 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S59-TRANSMISSION",
+    "file": "registers/s59_ferrara_specialized_registers.md",
+    "heading": "Albums, chansons et médias",
+    "data": {
+      "id": "SONG-S59-TRANSMISSION",
+      "type_unite": "song",
+      "source_id": "S59",
+      "song": "Transmission",
+      "usage": "Chanson mobilisée pour le toucher à distance et les métaphores spatiales.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S59-NEW-DAWN-FADES",
+    "file": "registers/s59_ferrara_specialized_registers.md",
+    "heading": "Albums, chansons et médias",
+    "data": {
+      "id": "SONG-S59-NEW-DAWN-FADES",
+      "type_unite": "song",
+      "source_id": "S59",
+      "song": "New Dawn Fades",
+      "usage": "Chanson mobilisée pour admirer la distance et penser la relation paradoxale entre regard, espace et affect.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S59-ISOLATION",
+    "file": "registers/s59_ferrara_specialized_registers.md",
+    "heading": "Albums, chansons et médias",
+    "data": {
+      "id": "SONG-S59-ISOLATION",
+      "type_unite": "song",
+      "source_id": "S59",
+      "song": "Isolation",
+      "usage": "Chanson mobilisable pour la distance affective, l’éloignement et la tension présence / absence.",
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S59-THE-ETERNAL",
+    "file": "registers/s59_ferrara_specialized_registers.md",
+    "heading": "Albums, chansons et médias",
+    "data": {
+      "id": "SONG-S59-THE-ETERNAL",
+      "type_unite": "song",
+      "source_id": "S59",
+      "song": "The Eternal",
+      "usage": "Chanson mobilisable pour la froideur, l’espace, la lenteur et l’architecture de l’absence.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S59-LOVE-WILL-TEAR-US-APART",
+    "file": "registers/s59_ferrara_specialized_registers.md",
+    "heading": "Albums, chansons et médias",
+    "data": {
+      "id": "SONG-S59-LOVE-WILL-TEAR-US-APART",
+      "type_unite": "song",
+      "source_id": "S59",
+      "song": "Love Will Tear Us Apart",
+      "usage": "Chanson liée à la distance affective et à la tension de présence / séparation ; paroles à vérifier avant citation.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S78-UNKNOWN_PLEASURES",
     "file": "registers/s78_nevarez_specialized_registers.md",
     "heading": "Chansons / albums / films",
@@ -1340,7 +1442,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3897",
+    "id": "NO_ID::registers/songs/master_songs.md::3972",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

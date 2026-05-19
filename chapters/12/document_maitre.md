@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 397 |
+| Atomes | 400 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 96 |
+| Citations | 97 |
 | Événements chronologiques | 63 |
-| Personnes | 50 |
-| Chansons | 16 |
-| Sources mobilisées | 21 |
+| Personnes | 51 |
+| Chansons | 18 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 2 | 2 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 3 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -314,6 +315,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S59-Q003** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q187** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -333,7 +335,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -394,6 +395,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S54-007 — Annik Honoré
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
+- PERS-S59-002 — Ian Curtis
 - PERS-S56-002 — Ian Curtis
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
@@ -419,7 +421,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-078 — Martyn Atkins
 - PERS-S76-079 — Bernard Pierre Wolff
 - PERS-S76-061 — Natalie Curtis
-- PERS-S76-063 — Annik Honoré
 
 ## 10. Chansons rattachées
 
@@ -431,6 +432,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S59-ISOLATION — Isolation
+- SONG-S59-LOVE-WILL-TEAR-US-APART — Love Will Tear Us Apart
 - SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S56-PASSOVER — Passover
 - SONG-S75-030 — Passover
@@ -545,6 +548,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Buzzcocks tour (5)
 - Factory (5)
 - perte de contrôle (5)
+- crise (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
@@ -559,7 +563,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (4)
 - Phenobarbitone (4)
 - maladie (4)
-- crise (4)
 - Rainbow Theatre (4)
 - honte (4)
 - Transmission (4)
@@ -658,7 +661,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
-| concept_structurant | 12 |
+| concept_structurant | 13 |
 | prudence_methodologique | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
@@ -702,6 +705,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | dispositif_formel | 2 |
 | santé | 2 |
 | lecture_biographique | 2 |
+| performance | 2 |
 | reception | 2 |
 | chronologie_sensible | 2 |
 | scene_fondatrice | 2 |
@@ -809,7 +813,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | biographie_culturelle | 1 |
 | citation_clef | 1 |
 | concept_corps | 1 |
-| performance | 1 |
 | contexte_medical | 1 |
 | session | 1 |
 | temoignage | 1 |
@@ -839,6 +842,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | concept_chanson | 1 |
 | garde_fou | 1 |
 | mythification_posthume | 1 |
+| role_acteur | 1 |
 | source_interne | 1 |
 | reseau_sources | 1 |
 | contradiction_biographique | 1 |
@@ -920,9 +924,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 237 |
+| critique | 239 |
 | non qualifiée | 110 |
-| majeure | 32 |
+| majeure | 33 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

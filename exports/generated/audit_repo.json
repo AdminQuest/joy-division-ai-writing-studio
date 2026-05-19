@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T15:15:41",
+  "generated_at": "2026-05-19T15:36:45",
   "summary": {
-    "records_total": 5783,
+    "records_total": 5858,
     "records_by_kind": {
       "source": 94,
       "metadata": 163,
-      "atom": 2272,
-      "unknown": 831,
-      "concept": 352,
-      "motif": 370,
-      "myth": 89,
-      "quote": 476,
-      "chronology": 411,
-      "person": 273,
-      "song": 96,
+      "atom": 2287,
+      "unknown": 854,
+      "concept": 362,
+      "motif": 375,
+      "myth": 92,
+      "quote": 482,
+      "chronology": 414,
+      "person": 278,
+      "song": 101,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24817,
+    "diagnostics_total": 25031,
     "errors": 0,
-    "warnings": 24817,
+    "warnings": 25031,
     "sources_declared_in_registre_json": 68,
     "sources_used_in_records": 54,
     "sources_exported": 54,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2272,
-    "chronology": 411,
-    "concept": 352,
+    "atom": 2287,
+    "chronology": 414,
+    "concept": 362,
     "metadata": 163,
-    "motif": 370,
-    "myth": 89,
-    "person": 273,
-    "quote": 476,
+    "motif": 375,
+    "myth": 92,
+    "person": 278,
+    "quote": 482,
     "quote_batch": 1,
     "rules": 1,
-    "song": 96,
+    "song": 101,
     "source": 94,
     "template": 354,
-    "unknown": 831
+    "unknown": 854
   },
   "records_by_source": {
     "S02": {
@@ -410,8 +410,17 @@
       "song": 4
     },
     "S59": {
+      "atom": 15,
+      "unknown": 23,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "concept": 10,
+      "motif": 5,
+      "myth": 3,
+      "quote": 6,
+      "chronology": 3,
+      "person": 5,
+      "song": 5
     },
     "S68": {
       "quote": 3,
@@ -494,18 +503,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 435,
-    "Chapitre 10": 426,
-    "Chapitre 11": 434,
-    "Chapitre 12": 615,
-    "Chapitre 13": 285,
-    "Chapitre 14": 1670,
+    "Chapitre 10": 428,
+    "Chapitre 11": 457,
+    "Chapitre 12": 624,
+    "Chapitre 13": 289,
+    "Chapitre 14": 1706,
     "Chapitre 2": 543,
     "Chapitre 3": 605,
-    "Chapitre 4": 516,
+    "Chapitre 4": 538,
     "Chapitre 5": 517,
-    "Chapitre 6": 671,
+    "Chapitre 6": 702,
     "Chapitre 7": 264,
-    "Chapitre 8": 527,
+    "Chapitre 8": 530,
     "Chapitre 9": 343,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -635,11 +644,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2130,
-    "missing_required_field": 7678,
+    "invalid_controlled_value": 2148,
+    "missing_required_field": 7791,
     "schema_warning": 494,
-    "unknown_yaml_block": 831,
-    "v2_migration_debt": 13381
+    "unknown_yaml_block": 854,
+    "v2_migration_debt": 13441
   },
   "top_files_by_issue_count": [
     [
@@ -2754,6 +2763,126 @@
       "category": "unknown_yaml_block",
       "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
       "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4888,6 +5017,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-FERRARA-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-PARMAR-2018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-HOOK-ANTI-IMAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "record_id": "LIEU-S50-001",
       "message": "Unable to infer documentary kind",
@@ -5482,6 +5635,46 @@
       "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "record_id": "REF-S50-BERTETTI-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ORG-S59-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ORG-S59-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ALBUM-S59-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ALBUM-S59-CLOSER",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "MEDIA-S59-BOOTLEGS-VIDEO",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7415,10 +7608,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2272,
+    "atoms_total": 2287,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2199,
-    "v2_missing_field_warnings": 13381
+    "atoms_v2_incomplete": 2214,
+    "v2_missing_field_warnings": 13441
   },
   "source_registry": {
     "declared_but_unused": [
@@ -8593,12 +8786,16 @@
         "auteur": "Francesca Ferrara",
         "titre": "Joy Division: una poetica della distanza",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 87,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 3,
         "files": [
-          "sources/ferrara_poetica_della_distanza/source.md"
+          "registers/s59_ferrara_specialized_registers.md",
+          "registers/s59_ferrara_structuring_registers.md",
+          "sources/ferrara_poetica_della_distanza/relations_s59.md",
+          "sources/ferrara_poetica_della_distanza/source.md",
+          "sources/ferrara_poetica_della_distanza/source_part_01.md"
         ]
       },
       {
@@ -114013,6 +114210,1326 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A002",
+      "message": "Invalid value for type_unite: reception_historique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A004",
+      "message": "Invalid value for type_unite: role_acteur",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A005",
+      "message": "Invalid value for type_unite: concept_visuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A006",
+      "message": "Invalid value for type_unite: analyse_graphique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A007",
+      "message": "Invalid value for type_unite: reception_esthetique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A008",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A009",
+      "message": "Invalid value for type_unite: media_trace",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A010",
+      "message": "Invalid value for type_unite: performance",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A011",
+      "message": "Invalid value for type_unite: analyse_textuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A012",
+      "message": "Invalid value for type_unite: production_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A013",
+      "message": "Invalid value for type_unite: analyse_formelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A014",
+      "message": "Invalid value for type_unite: motif_textuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "record_id": "S59-A015",
+      "message": "Invalid value for type_unite: synthese_conceptuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "record_id": "REL-S59-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
       "record_id": "S52-A001",
       "message": "Missing required field: auteur",
@@ -178300,6 +179817,30 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-FERRARA-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-PARMAR-2018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "record_id": "REF-S59-HOOK-ANTI-IMAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "record_id": "S50-Q001",
@@ -181447,6 +182988,374 @@
       "category": "unknown_yaml_block",
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "record_id": "REF-S50-BERTETTI-2009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "S59-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1979-06-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1979-06-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1979-06-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1980-07-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1980-07-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-1980-07-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-2021-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-2021-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "CHR-S59-2021-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "PERS-S59-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "PERS-S59-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "PERS-S59-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "PERS-S59-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "PERS-S59-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ORG-S59-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ORG-S59-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ALBUM-S59-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "ALBUM-S59-CLOSER",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-TRANSMISSION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-TRANSMISSION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-TRANSMISSION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-NEW-DAWN-FADES",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-NEW-DAWN-FADES",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-NEW-DAWN-FADES",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-ISOLATION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-ISOLATION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-ISOLATION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-THE-ETERNAL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-THE-ETERNAL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-THE-ETERNAL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "record_id": "MEDIA-S59-BOOTLEGS-VIDEO",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

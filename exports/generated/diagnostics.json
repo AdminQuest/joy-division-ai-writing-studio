@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T15:15:27",
+  "generated_at": "2026-05-19T15:36:30",
   "status": "warning",
   "summary": {
-    "records_total": 5783,
+    "records_total": 5858,
     "records_by_kind": {
       "source": 94,
       "metadata": 163,
-      "atom": 2272,
-      "unknown": 831,
-      "concept": 352,
-      "motif": 370,
-      "myth": 89,
-      "quote": 476,
-      "chronology": 411,
-      "person": 273,
-      "song": 96,
+      "atom": 2287,
+      "unknown": 854,
+      "concept": 362,
+      "motif": 375,
+      "myth": 92,
+      "quote": 482,
+      "chronology": 414,
+      "person": 278,
+      "song": 101,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24817,
+    "diagnostics_total": 25031,
     "errors": 0,
-    "warnings": 24817,
+    "warnings": 25031,
     "sources_declared_in_registre_json": 68,
     "sources_used_in_records": 54,
     "sources_exported": 54,
@@ -1202,12 +1202,16 @@
         "auteur": "Francesca Ferrara",
         "titre": "Joy Division: una poetica della distanza",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 87,
+        "atoms": 15,
+        "quotes": 6,
+        "chronology": 3,
         "files": [
-          "sources/ferrara_poetica_della_distanza/source.md"
+          "registers/s59_ferrara_specialized_registers.md",
+          "registers/s59_ferrara_structuring_registers.md",
+          "sources/ferrara_poetica_della_distanza/relations_s59.md",
+          "sources/ferrara_poetica_della_distanza/source.md",
+          "sources/ferrara_poetica_della_distanza/source_part_01.md"
         ]
       },
       {
@@ -80337,6 +80341,996 @@
     },
     {
       "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S59-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_historique",
+      "record_id": "S59-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S59-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: role_acteur",
+      "record_id": "S59-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_visuel",
+      "record_id": "S59-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_graphique",
+      "record_id": "S59-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: reception_esthetique",
+      "record_id": "S59-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S59-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: media_trace",
+      "record_id": "S59-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: performance",
+      "record_id": "S59-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_textuelle",
+      "record_id": "S59-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: production_sonore",
+      "record_id": "S59-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: analyse_formelle",
+      "record_id": "S59-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: motif_textuel",
+      "record_id": "S59-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_conceptuelle",
+      "record_id": "S59-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ferrara_poetica_della_distanza/relations_s59.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S59-015"
+    },
+    {
+      "level": "warning",
       "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S52-A001"
@@ -128553,6 +129547,24 @@
     },
     {
       "level": "warning",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S59-FERRARA-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S59-PARMAR-2018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S59-HOOK-ANTI-IMAGE"
+    },
+    {
+      "level": "warning",
       "file": "registers/s50_bertetti_morreale_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S50-Q001"
@@ -130914,6 +131926,282 @@
       "file": "registers/s50_bertetti_morreale_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S50-BERTETTI-2009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S59-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S59-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S59-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S59-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S59-1979-06-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S59-1980-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S59-1980-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S59-1980-07-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S59-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S59-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S59-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S59-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S59-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S59-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S59-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S59-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S59-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S59-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S59-UNKNOWN-PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S59-CLOSER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S59-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S59-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S59-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S59-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S59-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S59-NEW-DAWN-FADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S59-ISOLATION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S59-ISOLATION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S59-ISOLATION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S59-THE-ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S59-THE-ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S59-THE-ETERNAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S59-LOVE-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s59_ferrara_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MEDIA-S59-BOOTLEGS-VIDEO"
     },
     {
       "level": "warning",

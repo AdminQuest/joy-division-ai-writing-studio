@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 460 |
+| Atomes | 468 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 63 |
-| Événements chronologiques | 43 |
-| Personnes | 45 |
-| Chansons | 29 |
-| Sources mobilisées | 22 |
+| Citations | 66 |
+| Événements chronologiques | 45 |
+| Personnes | 49 |
+| Chansons | 30 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -303,6 +304,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
 - **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S59-Q001** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q002** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q005** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S31-Q004** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S31-Q005** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S56-Q002** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
@@ -332,14 +336,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
 - CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
+- CHR-S59-1979-06-001 — Publication d’Unknown Pleasures ; Ferrara mobilise l’album pour l’anonymat visuel, la distance graphique et la construction d’une anti-image.
+- CHR-S59-1980-07-001 — Publication de Closer ; Ferrara mobilise l’album dans une lecture de la distance, de l’absence et de l’aura posthume.
 - CHR-S31-1979-04-001 — Sessions d’Unknown Pleasures avec Martin Hannett ; Allegri insiste sur l’isolation du son, le froid et la spatialisation.
 - CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
 - CHR-S56-1979-04-001 — Enregistrement d’Unknown Pleasures aux Strawberry Studios, seuil temporel du chapitre.
@@ -376,13 +379,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
 - CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
 - CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
-- CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
-- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 
 ## 9. Personnes et acteurs
 
 - PERS-S55-001 — Vincenzo Romania
 - PERS-S55-002 — Ian Curtis
+- PERS-S59-001 — Francesca Ferrara
+- PERS-S59-003 — Peter Hook
+- PERS-S59-004 — Peter Saville
+- PERS-S59-005 — Martin Hannett
 - PERS-S31-004 — Martin Hannett
 - PERS-S31-005 — Tony Wilson
 - PERS-S31-007 — Rob Gretton
@@ -417,10 +422,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-035 — Bob Auger
 - PERS-S76-036 — Bernie Binnick
 - PERS-S76-065 — Steve Harley
-- PERS-S76-057 — John Peel
-- PERS-S76-058 — Martin Rushent
-- PERS-S76-060 — Paul Hanley
-- PERS-S76-073 — Tony Wilson
 
 ## 10. Chansons rattachées
 
@@ -430,6 +431,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - SONG-S54-HEART_AND_SOUL — Heart and Soul
 - SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S49-DECADES — Decades
+- SONG-S59-THE-ETERNAL — The Eternal
 - SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
 - SONG-S31-NEW-DAWN-FADES — New Dawn Fades
 - SONG-S31-I-REMEMBER-NOTHING — I Remember Nothing
@@ -545,8 +547,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Factory (15)
 - Tony Wilson (14)
 - Martin Hannett (12)
-- Hannett (10)
-- Unknown Pleasures (10)
+- Hannett (11)
+- Unknown Pleasures (11)
 - Rafters (9)
 - Transmission (9)
 - Buzzcocks tour (7)
@@ -693,6 +695,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | analyse | 4 |
 | scene_reseau | 4 |
 | reception_critique | 4 |
+| concept_structurant | 4 |
 | motif_structurant | 4 |
 | fait_interprete | 4 |
 | tension_management | 3 |
@@ -705,10 +708,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
-| concept_structurant | 3 |
+| production_sonore | 3 |
 | analyse_album | 3 |
 | concept | 3 |
 | versions_chanson | 3 |
+| prudence_methodologique | 3 |
 | release_or_session | 3 |
 | tension_interne | 2 |
 | infrastructure_scene | 2 |
@@ -733,7 +737,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | chanson_seuil | 2 |
 | réception | 2 |
 | chronologie | 2 |
-| production_sonore | 2 |
 | lecture | 2 |
 | temoignage | 2 |
 | outtakes | 2 |
@@ -746,7 +749,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_repetition | 2 |
 | concept_management | 2 |
 | source_part | 2 |
-| prudence_methodologique | 2 |
 | acteur_mediation | 2 |
 | analyse_morceau | 2 |
 | live_set_context | 2 |
@@ -874,6 +876,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
 | prudence_interpretative | 1 |
+| concept_visuel | 1 |
+| analyse_graphique | 1 |
+| reception_esthetique | 1 |
+| performance | 1 |
+| synthese_conceptuelle | 1 |
 | ecosysteme | 1 |
 | concert_incident | 1 |
 | bifurcation_industrielle | 1 |
@@ -936,10 +943,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 221 |
+| critique | 228 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 31 |
+| majeure | 32 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

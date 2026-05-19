@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 258 |
+| Atomes | 259 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
+| Citations | 44 |
 | Événements chronologiques | 23 |
 | Personnes | 44 |
 | Chansons | 11 |
-| Sources mobilisées | 29 |
+| Sources mobilisées | 30 |
 
 ## 4. Sources mobilisées
 
@@ -55,6 +55,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 3 | 1 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 0 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -320,6 +321,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S59-Q002** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q005** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q011** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
@@ -341,7 +343,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -755,6 +756,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | contexte_urbain | 1 |
 | ecoute_technologique | 1 |
 | synthese | 1 |
+| concept_visuel | 1 |
 | reception_critique | 1 |
 | appreciation_critique | 1 |
 | motif_structurant | 1 |
@@ -800,7 +802,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 134 |
+| critique | 135 |
 | non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 18 |

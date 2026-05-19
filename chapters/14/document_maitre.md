@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1079 |
+| Atomes | 1089 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 161 |
-| Événements chronologiques | 99 |
-| Personnes | 139 |
-| Chansons | 27 |
-| Sources mobilisées | 48 |
+| Citations | 165 |
+| Événements chronologiques | 102 |
+| Personnes | 143 |
+| Chansons | 29 |
+| Sources mobilisées | 49 |
 
 ## 4. Sources mobilisées
 
@@ -72,6 +72,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 6 | 2 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 3 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 10 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -388,6 +389,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
 - CHR-S21-1978-1984-001 — Période probable d’activité de City Fun à vérifier par les numéros originaux, MDMArchive et S22 Wilkinson.
 - CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
+- CHR-S59-1979-06-001 — Publication d’Unknown Pleasures ; Ferrara mobilise l’album pour l’anonymat visuel, la distance graphique et la construction d’une anti-image.
+- CHR-S59-1980-07-001 — Publication de Closer ; Ferrara mobilise l’album dans une lecture de la distance, de l’absence et de l’aura posthume.
+- CHR-S59-2021-001 — Publication du chapitre de Francesca Ferrara dans Our Vision Touched the Sky.
 - CHR-S78-1980-05-18-001 — Suicide de Ian Curtis, qui déplace la mémoire de Joy Division vers le culte de Curtis avant le retour progressif du mythe Manchester.
 - CHR-S78-1988-001 — Compilation Substance et clip Atmosphere de Corbijn, moment fort du culte visuel posthume de Ian Curtis.
 - CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
@@ -401,9 +405,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
 - CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
 - CHR-S56-2021-001 — Publication du chapitre de Linda Barone dans Our Vision Touched the Sky.
-- CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
-- CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
-- CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 
 ## 9. Personnes et acteurs
 
@@ -463,6 +464,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - SONG-S57-DECADES — Decades
 - SONG-S54-INTERZONE — Interzone
 - SONG-S21-JOY_DIVISION — Joy Division
+- SONG-S59-TRANSMISSION — Transmission
+- SONG-S59-NEW-DAWN-FADES — New Dawn Fades
 - SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S78-ATMOSPHERE — Atmosphere
@@ -568,9 +571,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- prudence (14)
+- prudence (15)
 - Factory (14)
-- Unknown Pleasures (11)
+- Unknown Pleasures (12)
 - Ian Curtis (10)
 - Peter Saville (10)
 - Buzzcocks tour (9)
@@ -695,10 +698,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 35 |
+| concept_structurant | 37 |
 | analyse | 35 |
+| prudence_methodologique | 30 |
 | reception | 30 |
-| prudence_methodologique | 29 |
 | non qualifié | 27 |
 | memoire | 14 |
 | reception_live | 12 |
@@ -1079,6 +1082,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | contexte_mediatique | 1 |
 | mythification_posthume | 1 |
 | ecoute_technologique | 1 |
+| reception_historique | 1 |
+| role_acteur | 1 |
+| concept_visuel | 1 |
+| analyse_graphique | 1 |
+| media_trace | 1 |
+| motif_textuel | 1 |
+| synthese_conceptuelle | 1 |
 | appreciation_critique | 1 |
 | reseau_sources | 1 |
 | critique_filmique | 1 |
@@ -1242,8 +1252,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 371 |
-| majeure | 102 |
+| critique | 378 |
+| majeure | 105 |
 | majeur | 28 |
 | utile | 15 |
 | structurante | 2 |

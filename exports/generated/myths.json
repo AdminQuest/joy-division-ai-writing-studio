@@ -682,6 +682,81 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-distance_simple_froideur",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-distance_simple_froideur",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "la distance serait seulement de la froideur",
+      "deconstruction": "S59 montre que la distance est une stratégie active de relation : elle crée l’aura, intensifie l’adresse et organise le toucher à distance.\n",
+      "atomes": [
+        "S59-A003",
+        "S59-A012",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-presence_absente_diagnostic",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-presence_absente_diagnostic",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "la présence absente serait un diagnostic clinique",
+      "deconstruction": "La présence absente est une notion esthétique et médiatique. Elle ne doit pas être transformée en diagnostic psychologique ou médical de Curtis.\n",
+      "atomes": [
+        "S59-A008",
+        "S59-A010"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-anti_image_absence_de_strategie",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-anti_image_absence_de_strategie",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "l’anti-image serait une absence de stratégie",
+      "deconstruction": "Chez Ferrara, l’anti-image est une stratégie esthétique de retrait qui produit une présence conceptuelle et une aura durable.\n",
+      "atomes": [
+        "S59-A005",
+        "S59-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-Manchester_exception_absolue",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Mythes à déconstruire",

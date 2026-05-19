@@ -1996,6 +1996,293 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-poetique_de_la_distance",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-poetique_de_la_distance",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "poétique de la distance",
+      "definition": "Principe esthétique transversal qui organise image publique, scène, son, textes et réception de Joy Division autour d’un écart actif.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A003",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-anti_image_joy_division",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-anti_image_joy_division",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "anti-image Joy Division",
+      "definition": "Stratégie de rareté, de retrait et de refus des codes promotionnels qui produit une aura par l’absence plutôt que par l’exposition.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A005",
+        "S59-A006",
+        "S59-A009"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-presence_absente_curtis",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-presence_absente_curtis",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "présence absente de Curtis",
+      "definition": "Présence paradoxale dans laquelle le retrait, la distance psychique, la spectralité vidéo et l’inappartenance renforcent l’intensité de Curtis.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A004",
+        "S59-A008",
+        "S59-A009",
+        "S59-A010"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-anonymat_visuel_unknown_pleasures",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-anonymat_visuel_unknown_pleasures",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "anonymat visuel d’Unknown Pleasures",
+      "definition": "Fonction esthétique de la pochette d’Unknown Pleasures : abstraction, retrait de la figure humaine, absence de représentation directe et puissance de projection.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-intimisme_postpunk",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-intimisme_postpunk",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "intimisme post-punk",
+      "definition": "Basculement vers une forme post-punk plus intérieure, lacunaire et distante, opposée à l’exubérance promotionnelle du rock et à certains clichés punk.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A005",
+        "S59-A007"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-spectralite_video_curtis",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-spectralite_video_curtis",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "spectralité vidéo de Curtis",
+      "definition": "Effet produit par les rares images live, pauvres, instables ou bootleg, où l’image fragile transforme Curtis en trace spectrale.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A009"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-danse_convulsive_distance",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-danse_convulsive_distance",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "danse convulsive et distance",
+      "definition": "Lecture de la gestuelle de Curtis comme tension entre performance, crise corporelle, adresse au public et maintien d’un écart irréductible.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A010"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-distance_textuelle_curtis",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-distance_textuelle_curtis",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "distance textuelle de Curtis",
+      "definition": "Médiation par laquelle références littéraires, images spatiales et procédés formels distancient l’expérience existentielle sans l’annuler.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A011",
+        "S59-A013",
+        "S59-A014"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-distance_sonore_hannett",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-distance_sonore_hannett",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "distance sonore de Hannett",
+      "definition": "Construction sonore de l’écart par réverbération, delay, spatialisation, batterie artificielle, froideur et séparation des plans instrumentaux.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A012"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-toucher_a_distance",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-toucher_a_distance",
+      "type_unite": "concept",
+      "source_id": "S59",
+      "nom": "toucher à distance",
+      "definition": "Synthèse de la poétique Ferrara : Joy Division touche l’auditeur en maintenant l’écart entre présence et absence, son et silence, image et retrait.\n",
+      "sources": [
+        "S59"
+      ],
+      "atomes": [
+        "S59-A014",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_agence_diy",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Concepts",

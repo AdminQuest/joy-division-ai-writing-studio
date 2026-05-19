@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T15:15:43"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 318 |
+| Atomes | 326 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 89 |
-| Événements chronologiques | 59 |
-| Personnes | 51 |
-| Chansons | 31 |
-| Sources mobilisées | 22 |
+| Citations | 92 |
+| Événements chronologiques | 60 |
+| Personnes | 53 |
+| Chansons | 34 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -51,6 +51,7 @@ generated_at: "2026-05-19T15:15:43"
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 15 | 15 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 16 | 5 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 1 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -328,13 +329,13 @@ generated_at: "2026-05-19T15:15:43"
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
 - **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S59-Q001** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q003** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q006** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S78-Q006** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S56-Q003** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
 - **S56-Q005** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -350,6 +351,7 @@ generated_at: "2026-05-19T15:15:43"
 - CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
 - CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
+- CHR-S59-2021-001 — Publication du chapitre de Francesca Ferrara dans Our Vision Touched the Sky.
 - CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
 - CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
 - CHR-S56-2021-001 — Publication du chapitre de Linda Barone dans Our Vision Touched the Sky.
@@ -377,7 +379,6 @@ generated_at: "2026-05-19T15:15:43"
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
-- CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 
 ## 9. Personnes et acteurs
 
@@ -398,6 +399,8 @@ generated_at: "2026-05-19T15:15:43"
 - PERS-S54-009 — Pete Shelley
 - PERS-S49-001 — Manolo Farci
 - PERS-S49-002 — Ian Curtis
+- PERS-S59-001 — Francesca Ferrara
+- PERS-S59-002 — Ian Curtis
 - PERS-S56-001 — Linda Barone
 - PERS-S56-002 — Ian Curtis
 - PERS-S56-004 — William S. Burroughs
@@ -419,8 +422,6 @@ generated_at: "2026-05-19T15:15:43"
 - PERS-S76-015 — Kelvin Briggs
 - PERS-S76-061 — Natalie Curtis
 - PERS-S76-001 — Lindsay Reade
-- PERS-S76-002 — Doreen Curtis
-- PERS-S76-003 — Kevin Curtis
 
 ## 10. Chansons rattachées
 
@@ -439,6 +440,9 @@ generated_at: "2026-05-19T15:15:43"
 - SONG-S54-JOHNNY_23 — Johnny 23
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S59-TRANSMISSION — Transmission
+- SONG-S59-NEW-DAWN-FADES — New Dawn Fades
+- SONG-S59-LOVE-WILL-TEAR-US-APART — Love Will Tear Us Apart
 - SONG-S56-PASSOVER — Passover
 - SONG-S56-NOVELTY — Novelty
 - SONG-S56-DISORDER — Disorder
@@ -545,20 +549,20 @@ generated_at: "2026-05-19T15:15:43"
 
 - Deborah Curtis (10)
 - Ian Curtis (9)
+- paroles (8)
 - Barton Street (8)
 - She’s Lost Control (8)
 - épilepsie (8)
-- paroles (7)
 - Natalie Curtis (7)
 - Love Will Tear Us Apart (6)
 - corps (6)
 - contrôle (6)
 - Burroughs (6)
+- répétition (6)
 - Annik Honoré (6)
 - Atmosphere (5)
-- répétition (5)
+- prudence (5)
 - Ballard (4)
-- prudence (4)
 - Plan K (4)
 - Digital (4)
 - Interzone (4)
@@ -568,6 +572,7 @@ generated_at: "2026-05-19T15:15:43"
 - No Love Lost (4)
 - Transmission (4)
 - Disorder (4)
+- Curtis (4)
 - Bowie (4)
 - domesticité (4)
 - mariage (4)
@@ -581,7 +586,6 @@ generated_at: "2026-05-19T15:15:43"
 - Iggy Pop (3)
 - Chance (3)
 - Novelty (3)
-- Curtis (3)
 - Macclesfield (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
@@ -674,8 +678,8 @@ generated_at: "2026-05-19T15:15:43"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
-| concept_structurant | 11 |
-| prudence_methodologique | 9 |
+| concept_structurant | 13 |
+| prudence_methodologique | 10 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | analyse_chanson | 8 |
@@ -786,6 +790,11 @@ generated_at: "2026-05-19T15:15:43"
 | analyse_album | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
+| role_acteur | 1 |
+| analyse_textuelle | 1 |
+| analyse_formelle | 1 |
+| motif_textuel | 1 |
+| synthese_conceptuelle | 1 |
 | source_interne | 1 |
 | reseau_sources | 1 |
 | critique_filmique | 1 |
@@ -861,9 +870,9 @@ generated_at: "2026-05-19T15:15:43"
 
 | Importance | Nombre |
 |---|---|
-| critique | 165 |
+| critique | 171 |
 | non qualifiée | 94 |
-| majeure | 50 |
+| majeure | 52 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |

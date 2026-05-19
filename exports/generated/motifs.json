@@ -914,6 +914,130 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-distance_active",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-distance_active",
+      "type_unite": "motif",
+      "source_id": "S59",
+      "nom": "distance active",
+      "atomes": [
+        "S59-A003",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-retrait_visuel",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-retrait_visuel",
+      "type_unite": "motif",
+      "source_id": "S59",
+      "nom": "retrait visuel",
+      "atomes": [
+        "S59-A005",
+        "S59-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-presence_absence",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-presence_absence",
+      "type_unite": "motif",
+      "source_id": "S59",
+      "nom": "présence / absence",
+      "atomes": [
+        "S59-A008",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-architecture_sonore_absence",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-architecture_sonore_absence",
+      "type_unite": "motif",
+      "source_id": "S59",
+      "nom": "architecture sonore de l’absence",
+      "atomes": [
+        "S59-A012",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-metaphore_spatiale_distance",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-metaphore_spatiale_distance",
+      "type_unite": "motif",
+      "source_id": "S59",
+      "nom": "métaphore spatiale de la distance",
+      "atomes": [
+        "S59-A014",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-cut_and_paste_urgence",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Motifs",

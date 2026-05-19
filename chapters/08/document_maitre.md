@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 294 |
+| Atomes | 295 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 28 |
+| Citations | 29 |
 | Événements chronologiques | 34 |
 | Personnes | 31 |
 | Chansons | 11 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -312,6 +313,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q004** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S59-Q004** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -516,6 +518,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sordide Sentimental (5)
 - bootleg (5)
 - Pennine Sound (4)
+- bootlegs (4)
 - Hannett (4)
 - Haçienda (4)
 - John Peel (4)
@@ -529,7 +532,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Dead Souls (4)
 - prudence (4)
 - Rudolf Hess (3)
-- bootlegs (3)
 - Strawberry Studios (3)
 - Interzone (3)
 - acid house (3)
@@ -726,6 +728,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lieu_scene | 1 |
 | contexte_mediatique | 1 |
 | acteur_interpretatif | 1 |
+| media_trace | 1 |
 | festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
@@ -788,7 +791,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | critique | 134 |
 | non qualifiée | 123 |
 | majeur | 18 |
-| majeure | 15 |
+| majeure | 16 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |
 | critique pour Chapitre 3 | 1 |

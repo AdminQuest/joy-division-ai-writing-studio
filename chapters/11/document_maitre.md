@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:15:43"
+generated_at: "2026-05-19T15:36:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 288 |
+| Atomes | 296 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 39 |
+| Citations | 42 |
 | Événements chronologiques | 16 |
-| Personnes | 27 |
-| Chansons | 29 |
-| Sources mobilisées | 28 |
+| Personnes | 29 |
+| Chansons | 33 |
+| Sources mobilisées | 29 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 12 | 8 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 11 | 3 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 6 |
+| S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -324,6 +325,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S59-Q001** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q003** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S59-Q006** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
@@ -338,8 +342,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -373,6 +375,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - PERS-S54-004 — J. G. Ballard
 - PERS-S54-008 — Daniel Odier
 - PERS-S49-001 — Manolo Farci
+- PERS-S59-001 — Francesca Ferrara
+- PERS-S59-002 — Ian Curtis
 - PERS-S31-001 — Giuseppe Allegri
 - PERS-S31-002 — Franco Berardi Bifo
 - PERS-S31-003 — Greil Marcus
@@ -404,6 +408,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - SONG-S54-ATROCITY_EXHIBITION — Atrocity Exhibition
 - SONG-S49-DISORDER — Disorder
 - SONG-S49-DECADES — Decades
+- SONG-S59-TRANSMISSION — Transmission
+- SONG-S59-NEW-DAWN-FADES — New Dawn Fades
+- SONG-S59-ISOLATION — Isolation
+- SONG-S59-THE-ETERNAL — The Eternal
 - SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
 - SONG-S56-PASSOVER — Passover
 - SONG-S29-001 — Dead Souls
@@ -510,16 +518,17 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 ### 12.1. Motifs dominants
 
 - Burroughs (7)
+- prudence (6)
 - Ballard (5)
 - provocation (5)
-- prudence (5)
 - domesticité (5)
 - silence (4)
+- répétition (4)
 - contrôle (4)
 - Electric Circus (4)
+- post-punk (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
-- répétition (3)
 - violence (3)
 - attente (3)
 - House of Dolls (3)
@@ -527,7 +536,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Plan K (3)
 - nuit (3)
 - réception critique (3)
-- post-punk (3)
+- retrait (3)
 - Ian Curtis (3)
 - John Heartfield (2)
 - imagerie nazie (2)
@@ -547,8 +556,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Rudolf Hess (2)
 - Rock Against Racism (2)
 - Short Circuit (2)
-- altérité (2)
-- intensité (2)
+- présence absente (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -640,9 +648,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 21 |
+| concept_structurant | 23 |
 | lecture_chanson | 12 |
-| prudence_methodologique | 9 |
+| prudence_methodologique | 10 |
 | analyse_chanson | 8 |
 | biographie | 7 |
 | analyse_morceau | 7 |
@@ -666,6 +674,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mythe_prudence | 2 |
 | contrepoint | 2 |
 | synthese | 2 |
+| motif_textuel | 2 |
 | synthese_argumentative | 2 |
 | synthese_usage_livre | 2 |
 | reception_presse | 2 |
@@ -692,7 +701,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | atome_pont_document_maitre | 1 |
 | concept_affectif | 1 |
 | concept_performance | 1 |
-| motif_textuel | 1 |
 | lecture_intertextuelle | 1 |
 | paroles_source | 1 |
 | scene_live_desillusion | 1 |
@@ -754,6 +762,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse_oeuvre | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
+| reception_esthetique | 1 |
+| analyse_textuelle | 1 |
+| analyse_formelle | 1 |
+| synthese_conceptuelle | 1 |
 | mythe_nomination | 1 |
 | contexte_social | 1 |
 | portrait_relationnel | 1 |
@@ -785,8 +797,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 111 |
-| majeure | 34 |
+| critique | 117 |
+| majeure | 36 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
