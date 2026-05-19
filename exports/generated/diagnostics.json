@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T07:46:25",
+  "generated_at": "2026-05-19T07:58:44",
   "status": "warning",
   "summary": {
-    "records_total": 5196,
+    "records_total": 5198,
     "records_by_kind": {
-      "source": 84,
-      "metadata": 153,
+      "source": 85,
+      "metadata": 154,
       "atom": 2163,
       "unknown": 647,
       "concept": 291,
@@ -23,9 +23,9 @@
     "errors": 0,
     "warnings": 23286,
     "sources_declared_in_registre_json": 62,
-    "sources_used_in_records": 45,
-    "sources_exported": 45,
-    "declared_but_unused": 17,
+    "sources_used_in_records": 46,
+    "sources_exported": 46,
+    "declared_but_unused": 16,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -69,20 +69,6 @@
           "histoire urbaine",
           "désindustrialisation",
           "emplois manufacturiers",
-          "Manchester"
-        ]
-      },
-      {
-        "source_id": "S17",
-        "source_label": "S17 — The Fall, « Rowche Rumble », 1979",
-        "auteur": "The Fall",
-        "titre": "« Rowche Rumble »",
-        "annee": "1979",
-        "statut": "a_consolider",
-        "usage": [
-          "critique sociale",
-          "médicaments",
-          "surmédication",
           "Manchester"
         ]
       },
@@ -548,6 +534,20 @@
         "chronology": 0,
         "files": [
           "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
+        ]
+      },
+      {
+        "source_id": "S17",
+        "source_label": "S17 — Wikipedia, Rowche Rumble, page consultée 2026",
+        "auteur": "Wikipedia contributors",
+        "titre": "Rowche Rumble",
+        "annee": "s.d. / page consultée 2026",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/wikipedia_rowche_rumble/source.md"
         ]
       },
       {
