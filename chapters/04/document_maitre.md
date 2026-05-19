@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-19T13:53:48"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 308 |
+| Atomes | 317 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 88 |
 | Événements chronologiques | 59 |
@@ -49,7 +49,7 @@ generated_at: "2026-05-19T13:53:48"
 | S52 | S52 — Rabbito, Control e l’infrangimento del vetro, 2021 | 14 | 7 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 2 | 2 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 15 | 15 |
-| S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 5 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 16 | 5 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
@@ -551,12 +551,13 @@ generated_at: "2026-05-19T13:53:48"
 - Love Will Tear Us Apart (6)
 - corps (6)
 - contrôle (6)
+- Burroughs (6)
 - Annik Honoré (6)
 - Atmosphere (5)
-- Burroughs (5)
 - répétition (5)
 - Ballard (4)
 - prudence (4)
+- Plan K (4)
 - Digital (4)
 - Interzone (4)
 - attente (4)
@@ -572,15 +573,14 @@ generated_at: "2026-05-19T13:53:48"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - blue room (3)
-- Plan K (3)
 - Atrocity Exhibition (3)
 - Twenty Four Hours (3)
+- Unknown Pleasures (3)
 - Iggy Pop (3)
 - Chance (3)
+- Novelty (3)
 - Curtis (3)
 - Macclesfield (3)
-- paternité (3)
-- fatigue (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -672,8 +672,8 @@ generated_at: "2026-05-19T13:53:48"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
+| concept_structurant | 11 |
 | prudence_methodologique | 9 |
-| concept_structurant | 9 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | scene_fondatrice | 7 |
@@ -696,6 +696,7 @@ generated_at: "2026-05-19T13:53:48"
 | scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | live_set_context | 3 |
+| registre_influences | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -717,10 +718,10 @@ generated_at: "2026-05-19T13:53:48"
 | scene_de_transition | 2 |
 | source_part | 2 |
 | fait | 2 |
+| rapprochement_litteraire_prudent | 2 |
 | motif_structurant | 2 |
 | tension_economique | 1 |
 | reception_domestique | 1 |
-| registre_influences | 1 |
 | lieu | 1 |
 | lieu_creatif | 1 |
 | mediation_audiovisuelle | 1 |
@@ -847,17 +848,21 @@ generated_at: "2026-05-19T13:53:48"
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
 | geographie_textuelle | 1 |
+| scene_litteraire | 1 |
+| reception_litteraire | 1 |
+| corpus_methode | 1 |
 | motif_lexical | 1 |
+| contraste_stylistique | 1 |
 | film_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| critique | 159 |
+| critique | 164 |
 | non qualifiée | 94 |
-| majeure | 47 |
-| utile | 4 |
+| majeure | 50 |
+| utile | 5 |
 | majeur | 3 |
 | structurante | 1 |
 

@@ -108171,7 +108171,7 @@
     "kind": "atom",
     "id": "S56-A001",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A001 — S56 comme source stylistique, traductive et littéraire, non comme source primaire",
+    "heading": "S56-A001 — S56 comme source stylistique, traductive et littéraire",
     "data": {
       "id": "S56-A001",
       "type_unite": "prudence_methodologique",
@@ -108187,8 +108187,7 @@
       "resume": "Barone n’écrit ni une biographie de Joy Division ni une histoire primaire des sessions ou de Factory. Elle propose un essai hybride qui articule traduction, stylistique, lecture littéraire, linguistique textuelle et réaction émotionnelle aux textes de Curtis.\n",
       "role_argumentatif": [
         "verrouiller le statut documentaire de S56",
-        "distinguer analyse textuelle et source biographique",
-        "éviter de transformer des rapprochements littéraires en preuves d’influence"
+        "distinguer analyse textuelle et source biographique"
       ],
       "niveau_preuve": {
         "statut": "cadrage_methodologique",
@@ -108197,9 +108196,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "faible"
       },
       "motifs": [
         "stylistique",
@@ -108222,10 +108218,6 @@
           "type": "distingue",
           "cible": "S52"
         }
-      ],
-      "couche_narrative": [
-        "methodologique",
-        "ecriture"
       ],
       "usage_livre": [
         "Chapitre 4",
@@ -108254,10 +108246,9 @@
         ]
       },
       "citation": null,
-      "resume": "Barone part de l’écart entre le titre original du livre de Jon Savage, *This Searing Light, the Sun and Everything Else*, et son édition italienne sous le titre *Joy Division. Autobiografia di una band*. Elle y voit une opération éditoriale qui déplace la lecture vers le groupe comme objet légendaire et biographique.\n",
+      "resume": "Barone part de l’écart entre le titre original du livre de Jon Savage, This Searing Light, the Sun and Everything Else, et son édition italienne sous le titre Joy Division. Autobiografia di una band. Elle y voit une opération éditoriale qui déplace la lecture vers le groupe comme objet légendaire et biographique.\n",
       "role_argumentatif": [
         "montrer que la traduction du paratexte produit une interprétation",
-        "introduire la question de la légende noire de Joy Division",
         "documenter la réception éditoriale italienne"
       ],
       "niveau_preuve": {
@@ -108267,9 +108258,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "faible"
       },
       "motifs": [
         "traduction éditoriale",
@@ -108285,10 +108273,6 @@
           "cible": "CONCEPT-traduction_paratextuelle_ideologique"
         }
       ],
-      "couche_narrative": [
-        "reception",
-        "edition"
-      ],
       "usage_livre": [
         "Chapitre 10",
         "Chapitre 14"
@@ -108302,11 +108286,11 @@
     "kind": "atom",
     "id": "S56-A003",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A003 — Le marketing de la noirceur : suicide, fin et légende",
+    "heading": "S56-A003 — Le marketing de la noirceur",
     "data": {
       "id": "S56-A003",
       "type_unite": "mythe_reception",
-      "titre": "Le marketing de la noirceur : suicide, fin et légende",
+      "titre": "Le marketing de la noirceur : fin et légende",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108315,11 +108299,10 @@
         ]
       },
       "citation": null,
-      "resume": "Barone critique la quatrième de couverture italienne, qui recentre le livre de Savage sur le suicide de Curtis, la fin du groupe et la légende. Cette stratégie risque de confirmer l’idée que la résonance de Joy Division tiendrait d’abord à la mort du chanteur.\n",
+      "resume": "Barone critique la quatrième de couverture italienne, qui recentre le livre de Savage sur la fin de Curtis, la fin du groupe et la légende. Cette stratégie risque de confirmer l’idée que la résonance de Joy Division tiendrait d’abord à la tragédie.\n",
       "role_argumentatif": [
         "déconstruire la réduction tragique de Joy Division",
-        "opposer légende noire et qualité musicale / poétique",
-        "nourrir une prudence anti-téléologique"
+        "opposer légende noire et qualité musicale ou poétique"
       ],
       "niveau_preuve": {
         "statut": "analyse_paratextuelle",
@@ -108329,11 +108312,7 @@
       "importance": {
         "niveau": "critique"
       },
-      "risque_surinterpretation": {
-        "niveau": "faible"
-      },
       "motifs": [
-        "suicide",
         "légende noire",
         "marketing éditorial"
       ],
@@ -108343,12 +108322,8 @@
       "relations": [
         {
           "type": "limite",
-          "cible": "MYTH-suicide_explique_le_mythe"
+          "cible": "MYTH-fin_tragique_explique_le_mythe"
         }
-      ],
-      "couche_narrative": [
-        "mythique",
-        "reception"
       ],
       "usage_livre": [
         "Chapitre 12",
@@ -108363,11 +108338,11 @@
     "kind": "atom",
     "id": "S56-A004",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A004 — Le contre-mythe lumineux : « this searing light »",
+    "heading": "S56-A004 — Le contre-mythe lumineux",
     "data": {
       "id": "S56-A004",
       "type_unite": "motif_structurant",
-      "titre": "Le contre-mythe lumineux : « this searing light »",
+      "titre": "Le contre-mythe lumineux : this searing light",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108376,11 +108351,10 @@
         ]
       },
       "citation": null,
-      "resume": "Barone lit le titre original du livre de Savage comme un contrepoint à la mythologie obscure du groupe : Joy Division n’est pas seulement associé à la noirceur, mais à une lumière expressive qui tranche avec l’obscurité environnante.\n",
+      "resume": "Barone lit le titre original du livre de Savage comme un contrepoint à la mythologie obscure du groupe. Joy Division n’est pas seulement associé à la noirceur, mais à une lumière expressive qui tranche avec l’obscurité environnante.\n",
       "role_argumentatif": [
         "rompre avec le cliché du groupe seulement sombre",
-        "penser l’intensité comme lumière violente",
-        "articuler ombre et révélation"
+        "penser l’intensité comme lumière violente"
       ],
       "niveau_preuve": {
         "statut": "lecture_paratextuelle",
@@ -108389,9 +108363,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
       },
       "motifs": [
         "lumière",
@@ -108407,10 +108378,6 @@
           "cible": "S56-A003"
         }
       ],
-      "couche_narrative": [
-        "esthetique",
-        "reception"
-      ],
       "usage_livre": [
         "Chapitre 6",
         "Chapitre 14"
@@ -108424,11 +108391,11 @@
     "kind": "atom",
     "id": "S56-A005",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A005 — « The cities speak » : lieux, psychogéographie et textes de Curtis",
+    "heading": "S56-A005 — The cities speak",
     "data": {
       "id": "S56-A005",
       "type_unite": "geographie_textuelle",
-      "titre": "« The cities speak » : lieux, psychogéographie et textes de Curtis",
+      "titre": "The cities speak : lieux, psychogéographie et textes de Curtis",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108440,8 +108407,7 @@
       "resume": "Barone relie le livre de Savage à l’idée que les villes parlent. Manchester, les interzones physiques et mentales, les limites urbaines et la recherche de sortie apparaissent comme des conditions de lecture des textes de Curtis.\n",
       "role_argumentatif": [
         "relier paroles et géographie émotionnelle",
-        "croiser Curtis avec la psychogéographie sans déterminisme urbain",
-        "préparer l’analyse des lieux comme opérateurs textuels"
+        "croiser Curtis avec la psychogéographie sans déterminisme urbain"
       ],
       "niveau_preuve": {
         "statut": "lecture_interpretative",
@@ -108450,9 +108416,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
       },
       "motifs": [
         "psychogéographie",
@@ -108476,10 +108439,6 @@
           "type": "a_croiser",
           "cible": "S54"
         }
-      ],
-      "couche_narrative": [
-        "geographique",
-        "textuelle"
       ],
       "usage_livre": [
         "Chapitre 4",
@@ -108509,9 +108468,8 @@
       "citation": null,
       "resume": "À partir d’un propos de Bernard Sumner cité par Savage, Barone insiste sur le lien entre environnement brutal, privation sensorielle et désir de beauté. La ville laide ne produit pas mécaniquement le son ; elle crée une tension de recherche esthétique.\n",
       "role_argumentatif": [
-        "éviter le déterminisme Manchester = noirceur",
-        "construire la beauté comme réaction à la laideur",
-        "relier environnement et désir esthétique"
+        "éviter le déterminisme Manchester égale noirceur",
+        "construire la beauté comme réaction à la laideur"
       ],
       "niveau_preuve": {
         "statut": "témoignage_rapporte_par_S56_depuis_Savage",
@@ -108520,9 +108478,6 @@
       },
       "importance": {
         "niveau": "majeure"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
       },
       "motifs": [
         "laideur",
@@ -108538,10 +108493,6 @@
           "cible": "S56-A005"
         }
       ],
-      "couche_narrative": [
-        "affective",
-        "esthetique"
-      ],
       "usage_livre": [
         "Chapitre 1",
         "Chapitre 6",
@@ -108556,7 +108507,7 @@
     "kind": "atom",
     "id": "S56-A007",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A007 — Curtis écrivain : les paroles comme poèmes",
+    "heading": "S56-A007 — Curtis écrivain",
     "data": {
       "id": "S56-A007",
       "type_unite": "lecture_litteraire",
@@ -108572,8 +108523,7 @@
       "resume": "Barone reprend l’idée que Curtis aurait pu devenir écrivain, mais la déplace : il l’est déjà par la densité de ses textes, qui peuvent être lus comme des compositions poétiques dotées d’un style reconnaissable.\n",
       "role_argumentatif": [
         "stabiliser Curtis comme écrivain de chansons",
-        "légitimer l’analyse textuelle sans rabattement biographique",
-        "fonder la lecture du corpus de paroles"
+        "légitimer l’analyse textuelle sans rabattement biographique"
       ],
       "niveau_preuve": {
         "statut": "lecture_critique_appuyee_sur_temoignage_Sumner",
@@ -108582,9 +108532,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "faible"
       },
       "motifs": [
         "Curtis écrivain",
@@ -108600,9 +108547,62 @@
           "cible": "CONCEPT-curtis_ecrivain_de_chansons"
         }
       ],
-      "couche_narrative": [
-        "textuelle",
-        "litteraire"
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A008",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A008 — Bibliothèque de Curtis",
+    "data": {
+      "id": "S56-A008",
+      "type_unite": "registre_influences",
+      "titre": "Bibliothèque de Curtis : influence documentée et constellation littéraire",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          195,
+          197
+        ]
+      },
+      "citation": null,
+      "resume": "Barone rappelle la présence de livres et d’auteurs dans l’univers de Curtis : Ballard, Burroughs, Poe, Lovecraft, Kafka, Gogol, Nietzsche, Sartre, Wilde, Rimbaud, Huxley, Burgess, Hesse. Elle distingue implicitement références visibles, influences probables et résonances interprétatives.\n",
+      "role_argumentatif": [
+        "cartographier la bibliothèque de Curtis",
+        "préparer des croisements littéraires prudents"
+      ],
+      "niveau_preuve": {
+        "statut": "synthese_secondaire",
+        "corroboration": "a_croiser_S45_S54_S76",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "motifs": [
+        "bibliothèque",
+        "littérature",
+        "influences"
+      ],
+      "concepts_derives": [
+        "constellation_litteraire_curtis"
+      ],
+      "relations": [
+        {
+          "type": "a_croiser",
+          "cible": "S54"
+        },
+        {
+          "type": "a_croiser",
+          "cible": "S45-A099"
+        }
       ],
       "usage_livre": [
         "Chapitre 4",
@@ -108617,11 +108617,11 @@
     "kind": "atom",
     "id": "S56-A009",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A009 — « Passover » comme nœud de crise et de représentation de soi",
+    "heading": "S56-A009 — Passover comme nœud de crise",
     "data": {
       "id": "S56-A009",
       "type_unite": "analyse_chanson",
-      "­titre": "« Passover » comme nœud de crise et de représentation de soi",
+      "titre": "Passover comme nœud de crise et de représentation de soi",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108630,11 +108630,10 @@
         ]
       },
       "citation": null,
-      "resume": "Barone accorde une place structurante à « Passover », qu’elle lit comme un texte de crise, d’interrogation, de doute, de rupture d’équilibre et d’anticipation de ce qui vient. Le morceau devient un nœud pour comprendre la voix de Curtis.\n",
+      "resume": "Barone accorde une place structurante à Passover, qu’elle lit comme un texte de crise, d’interrogation, de doute, de rupture d’équilibre et d’anticipation de ce qui vient.\n",
       "role_argumentatif": [
         "isoler un texte pivot pour le chapitre sur les paroles",
-        "articuler crise, doute et forme poétique",
-        "croiser lecture littéraire et analyse existentielle"
+        "articuler crise, doute et forme poétique"
       ],
       "niveau_preuve": {
         "statut": "analyse_textuelle",
@@ -108643,9 +108642,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
       },
       "motifs": [
         "crise",
@@ -108661,9 +108657,333 @@
           "cible": "S56-A007"
         }
       ],
-      "couche_narrative": [
-        "textuelle",
-        "existentielle"
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A010",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A010 — Dostoevsky",
+    "data": {
+      "id": "S56-A010",
+      "type_unite": "rapprochement_litteraire_prudent",
+      "titre": "Dostoevsky : rapprochement personnel avec crise, confusion et commencement impossible",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          197
+        ]
+      },
+      "citation": null,
+      "resume": "Barone signale un rapprochement personnel avec Dostoevsky, notamment autour de la confusion, de l’amour de la vie, du commencement sans cesse empêché et de la difficulté à discerner fin et début. Ce rapprochement est utile mais ne doit pas être converti en influence certaine.\n",
+      "role_argumentatif": [
+        "ouvrir une analogie littéraire contrôlée",
+        "préciser les limites entre résonance et influence"
+      ],
+      "niveau_preuve": {
+        "statut": "rapprochement_interpretatif_personnel",
+        "corroboration": "non_documentee_comme_influence_directe",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "utile"
+      },
+      "motifs": [
+        "Dostoevsky",
+        "confusion",
+        "commencement"
+      ],
+      "concepts_derives": [
+        "rapprochement_litteraire_prudent"
+      ],
+      "relations": [
+        {
+          "type": "prudence",
+          "cible": "S56-A008"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A011",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A011 — T. S. Eliot",
+    "data": {
+      "id": "S56-A011",
+      "type_unite": "rapprochement_litteraire_prudent",
+      "titre": "T. S. Eliot : silence, temps, commencement et fin",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          197,
+          201
+        ]
+      },
+      "citation": null,
+      "resume": "Barone rapproche les textes de Curtis de The Waste Land et surtout des Four Quartets, autour du silence, du temps, de la tension entre commencement et fin, du mouvement immobile et de l’expérience d’une désolation vide.\n",
+      "role_argumentatif": [
+        "introduire une lecture temporelle et poétique de Curtis",
+        "maintenir la prudence sur le statut du rapprochement"
+      ],
+      "niveau_preuve": {
+        "statut": "rapprochement_interpretatif_personnel",
+        "corroboration": "non_documentee_comme_influence_directe",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "motifs": [
+        "T. S. Eliot",
+        "temps",
+        "silence",
+        "commencement",
+        "fin"
+      ],
+      "concepts_derives": [
+        "temps_et_silence_curtis"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S56-A018"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A012",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A012 — Plan K et Burroughs",
+    "data": {
+      "id": "S56-A012",
+      "type_unite": "scene_litteraire",
+      "titre": "Plan K et Burroughs : idolâtrie littéraire et désenchantement comique",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          201
+        ]
+      },
+      "citation": null,
+      "resume": "Barone retient l’anecdote du Plan K : Curtis, admirateur de Burroughs, tente d’obtenir un livre dédicacé et se heurte au refus de l’écrivain. La scène désacralise l’idole littéraire et déplace le mythe vers le comique.\n",
+      "role_argumentatif": [
+        "humaniser Curtis lecteur",
+        "désamorcer l’idolâtrie littéraire"
+      ],
+      "niveau_preuve": {
+        "statut": "anecdote_rapportee_depuis_Savage_Hook",
+        "corroboration": "a_croiser_S41_S54",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "motifs": [
+        "Plan K",
+        "Burroughs",
+        "désenchantement"
+      ],
+      "concepts_derives": [
+        "desacralisation_litteraire"
+      ],
+      "relations": [
+        {
+          "type": "a_croiser",
+          "cible": "S54"
+        },
+        {
+          "type": "a_croiser",
+          "cible": "S41-A141"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A013",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A013 — We Were Strangers",
+    "data": {
+      "id": "S56-A013",
+      "type_unite": "reception_litteraire",
+      "titre": "We Were Strangers : les chansons d’Unknown Pleasures comme récits en germe",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          201,
+          203
+        ]
+      },
+      "citation": null,
+      "resume": "Barone présente We Were Strangers, recueil de dix nouvelles inspirées des dix titres d’Unknown Pleasures. Le projet confirme que les textes de Curtis peuvent être reçus comme des récits en germe, porteurs d’isolement, d’angoisse, de recherche et d’attente.\n",
+      "role_argumentatif": [
+        "montrer le passage des paroles vers la fiction",
+        "documenter la réception littéraire d’Unknown Pleasures"
+      ],
+      "niveau_preuve": {
+        "statut": "reception_litteraire_secondaire",
+        "corroboration": "a_verifier_sur_source_WWS",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "motifs": [
+        "We Were Strangers",
+        "Unknown Pleasures",
+        "fiction"
+      ],
+      "concepts_derives": [
+        "chansons_comme_recits_en_germe"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S56-A007"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A014",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A014 — Corpus de paroles",
+    "data": {
+      "id": "S56-A014",
+      "type_unite": "corpus_methode",
+      "titre": "Corpus de paroles : environ 8000 mots et lecture chronologique",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          204
+        ]
+      },
+      "citation": null,
+      "resume": "Barone rassemble les textes de Joy Division dans un fichier d’environ 8000 mots et les lit chronologiquement comme un corpus poétique. Cette méthode donne une base simple mais opératoire à la lecture stylistique.\n",
+      "role_argumentatif": [
+        "fonder l’analyse lexicale de S56",
+        "traiter les paroles comme corpus"
+      ],
+      "niveau_preuve": {
+        "statut": "donnée_methodologique_interne",
+        "corroboration": "interne_a_S56",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "motifs": [
+        "corpus",
+        "8000 mots",
+        "lecture chronologique"
+      ],
+      "concepts_derives": [
+        "corpus_poetique_curtis"
+      ],
+      "relations": [
+        {
+          "type": "fonde",
+          "cible": "S56-A015"
+        },
+        {
+          "type": "fonde",
+          "cible": "S56-A016"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A015",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A015 — I / You",
+    "data": {
+      "id": "S56-A015",
+      "type_unite": "concept_structurant",
+      "titre": "I / You : introspection, dialogue intérieur et distance de soi",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          204,
+          210
+        ]
+      },
+      "citation": null,
+      "resume": "Barone observe la fréquence des pronoms I et You dans les textes de Curtis. Contrairement à Bowie, où l’opposition peut porter l’altérité, elle lit chez Curtis beaucoup de You comme des formes de dialogue intérieur et de distance de soi.\n",
+      "role_argumentatif": [
+        "donner une clé stylistique forte pour le chapitre 4",
+        "faire du pronom un opérateur d’analyse"
+      ],
+      "niveau_preuve": {
+        "statut": "analyse_stylistique_interne",
+        "corroboration": "corpus_S56",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "motifs": [
+        "I",
+        "You",
+        "introspection",
+        "dialogue intérieur"
+      ],
+      "concepts_derives": [
+        "dialogue_interieur_pronominal"
+      ],
+      "relations": [
+        {
+          "type": "fonde",
+          "cible": "CONCEPT-dialogue_interieur_pronominal"
+        }
       ],
       "usage_livre": [
         "Chapitre 4",
@@ -108679,11 +108999,11 @@
     "kind": "atom",
     "id": "S56-A016",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A016 — Le I de Curtis comme attente, recherche et faible espérance",
+    "heading": "S56-A016 — Le I comme attente",
     "data": {
       "id": "S56-A016",
       "type_unite": "motif_structurant",
-      "­titre": "Le I de Curtis comme attente, recherche et faible espérance",
+      "titre": "Le I de Curtis comme attente, recherche et faible espérance",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108696,8 +109016,7 @@
       "resume": "Barone lit dans de nombreux emplois de I une faible persistance de l’attente, de la recherche et d’une espérance fragile. Cette lecture nuance le cliché d’un pur désespoir sans reste.\n",
       "role_argumentatif": [
         "complexifier la lecture de l’obscurité",
-        "introduire une ligne d’espérance ténue",
-        "éviter le réductionnisme morbide"
+        "introduire une ligne d’espérance ténue"
       ],
       "niveau_preuve": {
         "statut": "lecture_stylistique",
@@ -108706,9 +109025,6 @@
       },
       "importance": {
         "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
       },
       "motifs": [
         "attente",
@@ -108724,10 +109040,6 @@
           "cible": "S56-A015"
         }
       ],
-      "couche_narrative": [
-        "existentielle",
-        "textuelle"
-      ],
       "usage_livre": [
         "Chapitre 4",
         "Chapitre 11",
@@ -108742,11 +109054,11 @@
     "kind": "atom",
     "id": "S56-A017",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A017 — Le You comme certitude de la détresse et du suicide",
+    "heading": "S56-A017 — Le You comme détresse",
     "data": {
       "id": "S56-A017",
       "type_unite": "motif_structurant",
-      "­titre": "Le You comme certitude de la détresse et du suicide",
+      "titre": "Le You comme certitude de la détresse et de la fin",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108758,8 +109070,7 @@
       "resume": "Barone propose que le You soit souvent plus négatif, plus effrayé et plus désespéré que le I. Le You devient parfois le lieu textuel de la mort, de la noyade, de la direction impossible ou de l’auto-observation funèbre.\n",
       "role_argumentatif": [
         "construire une tension intrapsychique textuelle sans diagnostic",
-        "faire apparaître la distance de soi dans l’écriture",
-        "soutenir la lecture du duel de personnalités"
+        "faire apparaître la distance de soi dans l’écriture"
       ],
       "niveau_preuve": {
         "statut": "lecture_stylistique",
@@ -108769,13 +109080,9 @@
       "importance": {
         "niveau": "majeure"
       },
-      "risque_surinterpretation": {
-        "niveau": "moyen"
-      },
       "motifs": [
         "You",
         "détresse",
-        "suicide",
         "distance"
       ],
       "concepts_derives": [
@@ -108786,10 +109093,6 @@
           "type": "contraste",
           "cible": "S56-A016"
         }
-      ],
-      "couche_narrative": [
-        "stylistique",
-        "trauma"
       ],
       "usage_livre": [
         "Chapitre 4",
@@ -108804,11 +109107,11 @@
     "kind": "atom",
     "id": "S56-A018",
     "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-    "heading": "S56-A018 — Le temps comme fil conducteur lexical et existentiel",
+    "heading": "S56-A018 — Le temps",
     "data": {
       "id": "S56-A018",
       "type_unite": "motif_lexical",
-      "­titre": "Le temps comme fil conducteur lexical et existentiel",
+      "titre": "Le temps comme fil conducteur lexical et existentiel",
       "source_id": "S56",
       "pages": {
         "pdf": [
@@ -108819,8 +109122,7 @@
       "resume": "Dans le vocabulaire plein du corpus, Barone souligne l’importance de time, qui compterait environ cinquante occurrences. Le temps devient un fil conducteur existentiel : attente, passage, perte, répétition, direction impossible.\n",
       "role_argumentatif": [
         "fournir une clé lexicale pour les paroles",
-        "relier attente, histoire et désorientation",
-        "nourrir le chapitre sur la condition moderne"
+        "relier attente, histoire et désorientation"
       ],
       "niveau_preuve": {
         "statut": "donnée_lexicale_interne",
@@ -108829,9 +109131,6 @@
       },
       "importance": {
         "niveau": "majeure"
-      },
-      "risque_surinterpretation": {
-        "niveau": "faible"
       },
       "motifs": [
         "time",
@@ -108848,13 +109147,171 @@
           "cible": "S56-A014"
         }
       ],
-      "couche_narrative": [
-        "lexicale",
-        "existentielle"
-      ],
       "usage_livre": [
         "Chapitre 4",
         "Chapitre 11"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A019",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A019 — Mind style",
+    "data": {
+      "id": "S56-A019",
+      "type_unite": "concept_structurant",
+      "titre": "Mind style de Curtis : une voix immédiatement reconnaissable",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          211,
+          212
+        ]
+      },
+      "citation": null,
+      "resume": "Barone mobilise la notion de mind style pour désigner la forme cognitive et stylistique reconnaissable des textes de Curtis. La notion permet de parler d’une voix sans la transformer en diagnostic psychologique.\n",
+      "role_argumentatif": [
+        "stabiliser un concept central pour l’analyse des paroles",
+        "distinguer style et psychologie clinique"
+      ],
+      "niveau_preuve": {
+        "statut": "concept_stylistique_interne",
+        "corroboration": "interne_a_S56",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "motifs": [
+        "mind style",
+        "voix",
+        "style"
+      ],
+      "concepts_derives": [
+        "mind_style_curtis"
+      ],
+      "relations": [
+        {
+          "type": "synthese",
+          "cible": "S56-A015"
+        },
+        {
+          "type": "synthese",
+          "cible": "S56-A018"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A020",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A020 — Novelty",
+    "data": {
+      "id": "S56-A020",
+      "type_unite": "contraste_stylistique",
+      "titre": "Novelty : preuve par contraste stylistique Hook / Curtis",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          211
+        ]
+      },
+      "citation": null,
+      "resume": "Barone conclut son analyse stylistique par contraste : Novelty, attribuée à Peter Hook, présente des rimes et un registre qui excluent la présence du style de Curtis. L’exception confirme l’identifiabilité du mind style curtisien.\n",
+      "role_argumentatif": [
+        "fournir une preuve négative de la singularité stylistique",
+        "éviter d’attribuer indistinctement tous les textes à Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "lecture_stylistique_par_contraste",
+        "corroboration": "a_croiser_discographie_et_temoin",
+        "confiance": "moyenne"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "motifs": [
+        "Novelty",
+        "Peter Hook",
+        "contraste stylistique"
+      ],
+      "concepts_derives": [
+        "preuve_par_contraste_stylistique"
+      ],
+      "relations": [
+        {
+          "type": "illustre",
+          "cible": "S56-A019"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 6"
+      ],
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S56-A021",
+    "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+    "heading": "S56-A021 — Divertimento critique",
+    "data": {
+      "id": "S56-A021",
+      "type_unite": "posture_critique",
+      "titre": "Divertimento critique : retour à une écriture émotionnelle contrôlée",
+      "source_id": "S56",
+      "pages": {
+        "pdf": [
+          211,
+          212
+        ]
+      },
+      "citation": null,
+      "resume": "Barone assume une écriture hybride, où la présence sentimentale de l’autrice, les digressions et l’ironie ne détruisent pas nécessairement la validité critique. Cette posture résonne avec le projet du livre : rigueur sans dessèchement.\n",
+      "role_argumentatif": [
+        "légitimer une écriture critique située",
+        "distinguer subjectivité assumée et faiblesse documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "posture_auteur_S56",
+        "corroboration": "interne_a_S56",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "utile"
+      },
+      "motifs": [
+        "divertimento",
+        "écriture hybride",
+        "présence sentimentale"
+      ],
+      "concepts_derives": [
+        "critique_emotionnelle_controlee"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S56-A001"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 14"
       ],
       "source_label": "S56 — Barone, Directionless so plain to see, 2021",
       "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",

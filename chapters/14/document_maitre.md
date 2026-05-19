@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1056 |
+| Atomes | 1059 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 154 |
 | Événements chronologiques | 94 |
@@ -69,7 +69,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 14 | 13 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 3 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
-| S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 2 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 6 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -567,9 +567,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (17)
 - Factory (13)
 - prudence (11)
+- Unknown Pleasures (11)
 - Ian Curtis (10)
 - Peter Saville (10)
-- Unknown Pleasures (10)
 - Buzzcocks tour (9)
 - Control (9)
 - Transmission (8)
@@ -584,8 +584,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Love Will Tear Us Apart (6)
 - Atmosphere (6)
 - Haçienda (6)
+- Plan K (6)
 - New Order (5)
-- Plan K (5)
+- Burroughs (5)
 - Still (5)
 - Durutti Column (5)
 - Rafters (5)
@@ -601,7 +602,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Something Else (4)
 - So It Goes (4)
 - Shadowplay (4)
-- Burroughs (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -1209,6 +1209,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | limite_critique | 1 |
 | traduction_editoriale | 1 |
 | mythe_reception | 1 |
+| scene_litteraire | 1 |
+| reception_litteraire | 1 |
+| posture_critique | 1 |
 | prudence_ciblage | 1 |
 | voix_acteurs | 1 |
 | patrimonialisation | 1 |
@@ -1228,10 +1231,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 354 |
-| majeure | 97 |
+| critique | 355 |
+| majeure | 98 |
 | majeur | 28 |
-| utile | 14 |
+| utile | 15 |
 | structurante | 2 |
 | moyenne | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

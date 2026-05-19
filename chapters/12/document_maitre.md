@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 392 |
+| Atomes | 394 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 95 |
 | Événements chronologiques | 63 |
@@ -48,7 +48,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 1 | 0 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 6 | 3 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 2 | 2 |
-| S56 | S56 — Barone, Directionless so plain to see, 2021 | 5 | 1 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
@@ -543,7 +543,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Buzzcocks tour (5)
 - Factory (5)
 - perte de contrôle (5)
-- suicide (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
@@ -565,6 +564,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Decades (4)
 - Debbie (4)
 - Sordide Sentimental (4)
+- mariage (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -656,8 +656,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
+| concept_structurant | 11 |
 | prudence_methodologique | 9 |
-| concept_structurant | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
 | tension_documentaire | 5 |
@@ -917,7 +917,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 233 |
+| critique | 235 |
 | non qualifiée | 110 |
 | majeure | 31 |
 | majeur | 12 |

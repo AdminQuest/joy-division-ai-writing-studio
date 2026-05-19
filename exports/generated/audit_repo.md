@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T20:59:35`
+Généré le : `2026-05-19T13:59:08`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 325 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1783 atome(s) incomplet(s) sur 1844.
+Le repo est techniquement exploitable, mais 786 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 2169 atome(s) incomplet(s) sur 2242.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 4087
+- Enregistrements : 5627
 - Erreurs : 0
-- Avertissements : 19233
-- Sources déclarées : 51
-- Sources utilisées : 27
-- Sources exportées : 27
+- Avertissements : 24394
+- Sources déclarées : 66
+- Sources utilisées : 51
+- Sources exportées : 51
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,31 +22,31 @@ La dette principale reste la migration v2 : 1783 atome(s) incomplet(s) sur 1844.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1844 |
-| chronology | 343 |
-| concept | 221 |
-| metadata | 74 |
-| motif | 291 |
-| myth | 34 |
-| person | 157 |
-| quote | 358 |
+| atom | 2242 |
+| chronology | 404 |
+| concept | 332 |
+| metadata | 160 |
+| motif | 360 |
+| myth | 82 |
+| person | 261 |
+| quote | 464 |
 | quote_batch | 1 |
 | rules | 1 |
-| song | 41 |
-| source | 61 |
-| template | 336 |
-| unknown | 325 |
+| song | 89 |
+| source | 91 |
+| template | 354 |
+| unknown | 786 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| field_type_error | 149 |
-| invalid_controlled_value | 1625 |
-| missing_required_field | 5111 |
-| schema_warning | 400 |
-| unknown_yaml_block | 325 |
-| v2_migration_debt | 11623 |
+| field_type_error | 303 |
+| invalid_controlled_value | 2093 |
+| missing_required_field | 7457 |
+| schema_warning | 494 |
+| unknown_yaml_block | 786 |
+| v2_migration_debt | 13261 |
 
 ## 5. Erreurs bloquantes
 
@@ -71,30 +71,30 @@ Aucune.
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-001] : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-002] : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-003] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/dm_rag_update_s50.md` [DM-RAG-S50] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-001] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-002] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-003] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-004] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-005] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-006] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-007] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-008] : Unable to infer documentary kind
+- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-009] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-001] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-002] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-003] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-004] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-005] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-006] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-007] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-008] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-009] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-010] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-011] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-012] : Unable to infer documentary kind
 - `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
-- `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md` [REF-S11-001] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-001] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-002] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-003] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-004] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-005] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-006] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-007] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-008] : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- … 285 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 746 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -104,36 +104,27 @@ Sources déclarées mais non utilisées :
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — verifie
 - S03 — Demographia, England Largest Cities, s.d. — a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — verifie
-- S07 — Engels, The Condition of the Working Class in England, 1845 — a_consolider
-- S08 — Debord, psychogéographie et dérive, 1955–1958 — a_consolider
-- S17 — The Fall, « Rowche Rumble », 1979 — a_consolider
 - S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
-- S19 — Bourdieu, Les trois états du capital culturel, 1979 — verifie
-- S21 — City Fun, fanzine, 1978–1983 — a_consolider
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
 - S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — a_consolider
-- S29 — Goddard, Missions of Dead Souls, 2011 — verifie
 - S30 — Frith, Sound Effects, 1981 — verifie
 - S31 — Allegri, Living in the Ice Age, 2021 — a_consolider
 - S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977 — a_consolider
 - S33 — Can, Tago Mago, 1971 — a_consolider
-- S34 — Fraser & Fuoto, Manchester, 1976, 2012 — verifie
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
-- S39 — Bauman, Liquid Modernity / La vie liquide, 2000–2006 — verifie
-- S40 — Cacciatore, Waiting for Something to Happen, 2019 — verifie
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
 
 Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1844
-- Atomes v2 complets : 61
-- Atomes v2 incomplets : 1783
-- Avertissements de champs v2 manquants : 11623
+- Atomes : 2242
+- Atomes v2 complets : 73
+- Atomes v2 incomplets : 2169
+- Avertissements de champs v2 manquants : 13261
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -160,7 +151,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/reynolds_rip_it_up/source.md | 285 |
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
-| sources/hook/atomisation_04_unknown_pleasures_track_by_track.md | 237 |
+| sources/morris_record_play_pause/source_part_06.md | 251 |
 
 ## 10. Commandes utiles
 

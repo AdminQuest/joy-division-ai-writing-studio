@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-19T13:53:46",
+  "generated_at": "2026-05-19T13:59:08",
   "summary": {
     "records_total": 5627,
     "records_by_kind": {
       "source": 91,
       "metadata": 160,
-      "atom": 2232,
-      "unknown": 796,
+      "atom": 2242,
+      "unknown": 786,
       "concept": 332,
       "motif": 360,
       "myth": 82,
@@ -18,9 +18,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 24297,
-    "errors": 10,
-    "warnings": 24287,
+    "diagnostics_total": 24394,
+    "errors": 0,
+    "warnings": 24394,
     "sources_declared_in_registre_json": 66,
     "sources_used_in_records": 51,
     "sources_exported": 51,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2232,
+    "atom": 2242,
     "chronology": 404,
     "concept": 332,
     "metadata": 160,
@@ -42,7 +42,7 @@
     "song": 89,
     "source": 91,
     "template": 354,
-    "unknown": 796
+    "unknown": 786
   },
   "records_by_source": {
     "S02": {
@@ -371,7 +371,7 @@
       "myth": 4
     },
     "S56": {
-      "atom": 11,
+      "atom": 21,
       "unknown": 30,
       "source": 1,
       "metadata": 1,
@@ -605,12 +605,11 @@
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2083,
-    "missing_required_field": 7411,
+    "invalid_controlled_value": 2093,
+    "missing_required_field": 7457,
     "schema_warning": 494,
     "unknown_yaml_block": 786,
-    "v2_migration_debt": 13210,
-    "yaml_parse_error": 10
+    "v2_migration_debt": 13261
   },
   "top_files_by_issue_count": [
     [
@@ -730,92 +729,11 @@
       210
     ],
     [
-      "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
-      200
+      "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      210
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 32:\n    ­titre: Bibliothèque de Curtis : influence documentée et conste ... \n                                   ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 20:\n    ­titre: Dostoevsky : rapprochement personnel avec c ... \n                       ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 21:\n    ­titre: T. S. Eliot : silence, temps, commencement e ... \n                        ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 28:\n    ­titre: Plan K / Burroughs : idolâtrie littéraire et désenc ... \n                               ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: found undefined alias 'We'\n  in \"<unicode string>\", line 3, column 9:\n    ­titre: *We Were Strangers* : les chanso ... \n            ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 27:\n    ­titre: Corpus de paroles : environ 8000 mots et lecture c ... \n                              ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 17:\n    ­titre: I / You : introspection, dialogue intéri ... \n                    ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 30:\n    ­titre: Mind style de Curtis : une voix immédiatement reconna ... \n                                 ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 21:\n    ­titre: « Novelty » : preuve par contraste stylistiq ... \n                        ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 31:\n    ­titre: Divertimento critique : retour à une écriture émotionn ... \n                                  ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -7107,10 +7025,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2232,
+    "atoms_total": 2242,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2159,
-    "v2_missing_field_warnings": 13210
+    "atoms_v2_incomplete": 2169,
+    "v2_missing_field_warnings": 13261
   },
   "source_registry": {
     "declared_but_unused": [
@@ -8246,8 +8164,8 @@
         "auteur": "Linda Barone",
         "titre": "Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive",
         "annee": "2021",
-        "records": 90,
-        "atoms": 11,
+        "records": 100,
+        "atoms": 21,
         "quotes": 7,
         "chronology": 5,
         "files": [
@@ -166000,6 +165918,14 @@
       "category": "v2_migration_debt",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A001",
       "message": "Missing required field: liens_interchapitres",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
@@ -166065,6 +165991,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A002",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A002",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166144,6 +166078,14 @@
       "category": "v2_migration_debt",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A003",
       "message": "Missing required field: liens_interchapitres",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
@@ -166216,6 +166158,14 @@
       "category": "v2_migration_debt",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A004",
       "message": "Missing required field: liens_interchapitres",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
@@ -166281,6 +166231,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A005",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A005",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166360,6 +166318,14 @@
       "category": "v2_migration_debt",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A006",
       "message": "Missing required field: liens_interchapitres",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
@@ -166432,6 +166398,14 @@
       "category": "v2_migration_debt",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A007",
       "message": "Missing required field: liens_interchapitres",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
@@ -166452,18 +166426,10 @@
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 32:\n    ­titre: Bibliothèque de Curtis : influence documentée et conste ... \n                                   ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
       "level": "warning",
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": "S56-A009",
+      "record_id": "S56-A008",
       "message": "Missing required field: auteur",
       "suggested_action": "Compléter le champ obligatoire."
     },
@@ -166471,8 +166437,80 @@
       "level": "warning",
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A008",
+      "message": "Invalid value for type_unite: registre_influences",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A009",
-      "message": "Missing required field: titre",
+      "message": "Missing required field: auteur",
       "suggested_action": "Compléter le champ obligatoire."
     },
     {
@@ -166513,6 +166551,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A009",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A009",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166540,58 +166586,10 @@
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 20:\n    ­titre: Dostoevsky : rapprochement personnel avec c ... \n                       ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 21:\n    ­titre: T. S. Eliot : silence, temps, commencement e ... \n                        ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 28:\n    ­titre: Plan K / Burroughs : idolâtrie littéraire et désenc ... \n                               ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: found undefined alias 'We'\n  in \"<unicode string>\", line 3, column 9:\n    ­titre: *We Were Strangers* : les chanso ... \n            ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 27:\n    ­titre: Corpus de paroles : environ 8000 mots et lecture c ... \n                              ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 17:\n    ­titre: I / You : introspection, dialogue intéri ... \n                    ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    },
-    {
       "level": "warning",
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": "S56-A016",
+      "record_id": "S56-A010",
       "message": "Missing required field: auteur",
       "suggested_action": "Compléter le champ obligatoire."
     },
@@ -166599,8 +166597,480 @@
       "level": "warning",
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A010",
+      "message": "Invalid value for type_unite: rapprochement_litteraire_prudent",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A011",
+      "message": "Invalid value for type_unite: rapprochement_litteraire_prudent",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A012",
+      "message": "Invalid value for type_unite: scene_litteraire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A013",
+      "message": "Invalid value for type_unite: reception_litteraire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A014",
+      "message": "Invalid value for type_unite: corpus_methode",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A015",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A016",
-      "message": "Missing required field: titre",
+      "message": "Missing required field: auteur",
       "suggested_action": "Compléter le champ obligatoire."
     },
     {
@@ -166641,6 +167111,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A016",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A016",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166680,14 +167158,6 @@
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A017",
-      "message": "Missing required field: titre",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": "S56-A017",
       "message": "Missing required field: concepts",
       "suggested_action": "Compléter le champ obligatoire."
     },
@@ -166721,6 +167191,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A017",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A017",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166760,14 +167238,6 @@
       "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A018",
-      "message": "Missing required field: titre",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": "S56-A018",
       "message": "Missing required field: concepts",
       "suggested_action": "Compléter le champ obligatoire."
     },
@@ -166801,6 +167271,14 @@
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "record_id": "S56-A018",
       "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A018",
+      "message": "Missing required field: risque_surinterpretation",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
@@ -166828,28 +167306,244 @@
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
-      "level": "error",
-      "category": "yaml_parse_error",
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 30:\n    ­titre: Mind style de Curtis : une voix immédiatement reconna ... \n                                 ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
+      "record_id": "S56-A019",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
-      "level": "error",
-      "category": "yaml_parse_error",
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 21:\n    ­titre: « Novelty » : preuve par contraste stylistiq ... \n                        ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
+      "record_id": "S56-A019",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
-      "level": "error",
-      "category": "yaml_parse_error",
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": null,
-      "message": "YAML parse error: mapping values are not allowed here\n  in \"<unicode string>\", line 3, column 31:\n    ­titre: Divertimento critique : retour à une écriture émotionn ... \n                                  ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
+      "record_id": "S56-A019",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A019",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A020",
+      "message": "Invalid value for type_unite: contraste_stylistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      "record_id": "S56-A021",
+      "message": "Invalid value for type_unite: posture_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",

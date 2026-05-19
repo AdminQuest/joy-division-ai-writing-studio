@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 293 |
+| Atomes | 294 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 28 |
 | Événements chronologiques | 34 |
 | Personnes | 31 |
 | Chansons | 11 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -496,7 +497,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- Unknown Pleasures (9)
+- Unknown Pleasures (10)
 - Factory (8)
 - An Ideal for Living (7)
 - Rob Gretton (7)
@@ -768,6 +769,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | politique_identitaire | 1 |
 | corpus_methode | 1 |
 | limite_critique | 1 |
+| reception_litteraire | 1 |
 | source_primaire_mediatisee | 1 |
 | reseau_acteurs | 1 |
 | observation_scene | 1 |
@@ -783,7 +785,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 133 |
+| critique | 134 |
 | non qualifiée | 123 |
 | majeur | 18 |
 | majeure | 15 |

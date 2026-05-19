@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 264 |
+| Atomes | 270 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 30 |
 | Événements chronologiques | 14 |
@@ -50,7 +50,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 8 | 1 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 12 | 8 |
-| S56 | S56 — Barone, Directionless so plain to see, 2021 | 5 | 3 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 11 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -484,20 +484,21 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ### 12.1. Motifs dominants
 
-- Burroughs (6)
+- Burroughs (7)
 - Ballard (5)
 - provocation (5)
 - domesticité (5)
+- silence (4)
 - Electric Circus (4)
 - An Ideal for Living (3)
 - prudence anti-anachronique (3)
-- silence (3)
 - répétition (3)
 - contrôle (3)
 - violence (3)
 - attente (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
+- Plan K (3)
 - réception critique (3)
 - post-punk (3)
 - Ian Curtis (3)
@@ -520,7 +521,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Rudolf Hess (2)
 - Rock Against Racism (2)
 - Short Circuit (2)
-- Plan K (2)
 - Atmosphere (2)
 - Dead Souls (2)
 - histoire (2)
@@ -615,7 +615,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 13 |
+| concept_structurant | 15 |
 | lecture_chanson | 12 |
 | prudence_methodologique | 7 |
 | biographie | 7 |
@@ -633,6 +633,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | citation_repere | 3 |
 | concept | 3 |
 | contexte_biographique | 3 |
+| registre_influences | 2 |
 | concept_critique | 2 |
 | motif_majeur | 2 |
 | source_part | 2 |
@@ -654,7 +655,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse_album | 2 |
 | tension_biographique | 2 |
 | fait | 2 |
-| registre_influences | 1 |
+| rapprochement_litteraire_prudent | 2 |
 | scene_soin_amateur | 1 |
 | prudence_conceptuelle | 1 |
 | santé | 1 |
@@ -742,6 +743,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
+| scene_litteraire | 1 |
 | motif_structurant | 1 |
 | motif_lexical | 1 |
 | memoire | 1 |
@@ -753,10 +755,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 95 |
-| majeure | 27 |
+| critique | 97 |
+| majeure | 30 |
 | majeur | 5 |
-| utile | 3 |
+| utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 451 |
+| Atomes | 452 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 60 |
 | Événements chronologiques | 41 |
@@ -47,7 +47,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 1 | 1 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
-| S56 | S56 — Barone, Directionless so plain to see, 2021 | 2 | 1 |
+| S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -552,6 +552,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Electric Circus (6)
 - Peter Saville (6)
 - Russell Club (5)
+- Peter Hook (5)
 - Strawberry Studios (5)
 - RCA (5)
 - fatigue (5)
@@ -560,7 +561,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - van (4)
-- Peter Hook (4)
 - télévision (4)
 - Shadowplay (4)
 - Bernard Sumner (4)
@@ -916,6 +916,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | sacralisation | 1 |
 | synthese_usage_livre | 1 |
 | motif_affectif | 1 |
+| contraste_stylistique | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -926,7 +927,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 214 |
+| critique | 215 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 29 |

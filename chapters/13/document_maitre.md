@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T13:53:48"
+generated_at: "2026-05-19T13:59:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -109,7 +109,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
 - **S53-A015** — S53-A015 — Corps gestuel de Curtis et esthétique affective  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `lecture_performative`.
-- **S56-A005** — S56-A005 — « The cities speak » : lieux, psychogéographie et textes de Curtis  
+- **S56-A005** — S56-A005 — The cities speak  
   Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
