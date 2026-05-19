@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 140 |
+| Atomes | 144 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 52 |
 | Événements chronologiques | 24 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -90,6 +90,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source :  ; type : `lieu_structurant` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A021** — S37-A021 — Le réseau des lieux : Electric Circus, Rafters, Oaks, Ranch Bar  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_scene` ; importance : `critique` ; preuve : `forte`.
+- **S37-A029** — S37-A029 — Pop culture et transformation urbaine : une causalité séduisante mais fragile  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prudence_causale` ; importance : `critique` ; preuve : `moyenne`.
+- **S37-A032** — S37-A032 — Manchester moderne : zone commerciale plus qu’utopie post-punk  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `limite_interpretative` ; importance : `critique` ; preuve : `moyenne`.
 - **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
@@ -126,10 +130,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
 - **S53-A015** — S53-A015 — Corps gestuel de Curtis et esthétique affective  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `performance_sensible` ; importance : `critique` ; preuve : `lecture_performative`.
-- **S56-A005** — S56-A005 — The cities speak  
-  Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
-- **S58-A001** — S58-A001 — Source socio-culturelle sur survivance Factory / rave  
-  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
 
 ## 6. Autres atomes utiles
 
@@ -153,6 +153,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `cartographie_scene` ; importance : `critique pour Chapitre 2` ; preuve : `témoignage autobiographique direct`.
 - **S37-A005** — S37-A005 — Manchester post-industrielle comme contrainte à fuir et à inventer  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `contexte_scene` ; importance : `majeure` ; preuve : `moyenne_comme_description_retrospective`.
+- **S37-A030** — S37-A030 — La fiction Manchester : entre réalité de la ville et idée produite par Factory  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `concept_urbain_culturel` ; importance : `majeure` ; preuve : `moyenne`.
+- **S37-A038** — S37-A038 — Lesser Free Trade Hall 1976 / Factory Club 1978 : deux scènes comme points de présence permanente  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_memoire` ; importance : `majeure` ; preuve : `moyenne_comme_memoire`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
@@ -197,8 +201,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `analyse_de_mediations`.
 - **S53-A014** — S53-A014 — Kevin Cummins, Epping Walk Bridge et mystère générationnel  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `image_symbolique` ; importance : `majeure` ; preuve : `lecture_iconographique`.
+- **S56-A005** — S56-A005 — The cities speak  
+  Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `geographie_textuelle` ; importance : `critique` ; preuve : `lecture_interpretative`.
 - **S56-A006** — S56-A006 — La laideur des lieux comme moteur de recherche de beauté  
   Source : S56 — Barone, Directionless so plain to see, 2021 ; type : `motif_affectif` ; importance : `majeure` ; preuve : `témoignage_rapporte_par_S56_depuis_Savage`.
+- **S58-A001** — S58-A001 — Source socio-culturelle sur survivance Factory / rave  
+  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
 - **S58-A004** — S58-A004 — Haçienda comme gestion punk-situationniste impossible  
   Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `economie_culturelle` ; importance : `majeure` ; preuve : `temoignage_rapporte_depuis_Hook`.
 - **S58-A007** — S58-A007 — Manchester et Detroit : post-apocalypse industrielle et techno  
@@ -285,14 +293,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 - **S76-A060** — S76-A060 — Gretton : catholicisme scolaire, Manchester City et style terrace  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
-- **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
-- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
-- **S76-A077** — S76-A077 — Troisième Factory night : le regard de Londres se déplace vers le Nord  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
-- **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 
 ## 7. Citations disponibles
 
@@ -452,6 +452,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - urbanization of consciousness (2)
 - David Harvey (2)
 - urban alienation (2)
+- Factory Records (2)
 - noir et blanc (2)
 - j g ballard (1)
 - paysages de ruine (1)
@@ -504,7 +505,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - échec (1)
 - romantisme industriel (1)
 - Russell Club (1)
-- Moss Side (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -722,6 +722,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concert_europeen | 1 |
 | lieux_scene | 1 |
 | contexte_scene | 1 |
+| prudence_causale | 1 |
+| concept_urbain_culturel | 1 |
+| limite_interpretative | 1 |
+| lieux_memoire | 1 |
 | scene_travail_industriel | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
@@ -738,8 +742,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 70 |
-| majeure | 41 |
+| critique | 72 |
+| majeure | 43 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

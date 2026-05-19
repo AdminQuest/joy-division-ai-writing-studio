@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-19T20:34:40",
+  "generated_at": "2026-05-19T21:00:39",
   "status": "warning",
   "summary": {
-    "records_total": 6162,
+    "records_total": 6197,
     "records_by_kind": {
       "source": 98,
-      "metadata": 173,
-      "atom": 2360,
-      "unknown": 966,
+      "metadata": 176,
+      "atom": 2371,
+      "unknown": 984,
       "concept": 391,
       "motif": 387,
       "myth": 100,
-      "quote": 504,
+      "quote": 507,
       "chronology": 429,
       "person": 289,
       "song": 109,
@@ -19,9 +19,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26045,
+    "diagnostics_total": 26202,
     "errors": 0,
-    "warnings": 26045,
+    "warnings": 26202,
     "sources_declared_in_registre_json": 72,
     "sources_used_in_records": 58,
     "sources_exported": 58,
@@ -768,17 +768,21 @@
         "auteur": "Paul Morley",
         "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
         "annee": "2008",
-        "records": 59,
-        "atoms": 27,
-        "quotes": 8,
+        "records": 84,
+        "atoms": 38,
+        "quotes": 11,
         "chronology": 0,
         "files": [
+          "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
           "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
           "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
           "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+          "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
           "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
           "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+          "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
           "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+          "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
           "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md",
           "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
           "sources/morley_piece_by_piece/source.md"
@@ -101309,6 +101313,774 @@
     },
     {
       "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: moyenne_comme_interpretation",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: patrimonialisation_urbaine",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: prudence_causale",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: concept_urbain_culturel",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_position_de_Morley",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: limite_interpretative",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: interpretation_historique",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_position_de_Morley",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: historiographie_memorielle",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_position_de_Morley",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: theorie_memoire",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_position_de_Morley",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: historiographie_pluraliste",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_position_de_Morley",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: philosophie_du_temps",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for fiabilite: moyenne_comme_memoire",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Invalid value for type_unite: lieux_memoire",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S37-A038"
+    },
+    {
+      "level": "warning",
       "file": "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "R-S37-008"
@@ -101360,6 +102132,120 @@
       "file": "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "R-S37-016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S37-024"
     },
     {
       "level": "warning",
@@ -101486,6 +102372,66 @@
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "YAML block is not a mapping/object",
+      "record_id": null
     },
     {
       "level": "warning",

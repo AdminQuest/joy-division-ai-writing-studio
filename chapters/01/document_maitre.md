@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-19T20:34:58"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 261 |
+| Atomes | 266 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 10 |
@@ -51,7 +51,7 @@ generated_at: "2026-05-19T20:34:58"
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 29 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 8 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 13 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -116,6 +116,12 @@ generated_at: "2026-05-19T20:34:58"
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `acteur_catalyseur` ; importance : `critique` ; preuve : `forte_pour_position_de_Morley`.
 - **S37-A020** — S37-A020 — Lesser Free Trade Hall / Sex Pistols : origine pratique d’une scène, non origine absolue  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `scene_fondatrice_prudente` ; importance : `critique` ; preuve : `forte_pour_reception ; a_croiser_pour_chronologie`.
+- **S37-A028** — S37-A028 — Manchester comme ville musicale historicisée après coup  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `patrimonialisation_urbaine` ; importance : `critique` ; preuve : `moyenne_comme_interpretation`.
+- **S37-A029** — S37-A029 — Pop culture et transformation urbaine : une causalité séduisante mais fragile  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prudence_causale` ; importance : `critique` ; preuve : `moyenne`.
+- **S37-A032** — S37-A032 — Manchester moderne : zone commerciale plus qu’utopie post-punk  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `limite_interpretative` ; importance : `critique` ; preuve : `moyenne`.
 - **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
 - **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
@@ -140,12 +146,6 @@ generated_at: "2026-05-19T20:34:58"
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `evenement_scene` ; importance : `critique` ; preuve : `forte`.
 - **S44-A011** — S44-A011 — Joy Division : les diseredati et la nouvelle citoyenneté punk  
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `forte`.
-- **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
-- **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
 
 ## 6. Autres atomes utiles
 
@@ -381,7 +381,7 @@ generated_at: "2026-05-19T20:34:58"
 
 ## 11. Concepts récurrents
 
-- Manchester (9)
+- Manchester (10)
 - manchester (9)
 - scène locale (6)
 - géographie émotionnelle (6)
@@ -396,6 +396,7 @@ generated_at: "2026-05-19T20:34:58"
 - postindustrial cityscapes (3)
 - no future (3)
 - imaginative historicism (3)
+- post-punk (3)
 - scène mancunienne (3)
 - Sex Pistols (3)
 - Buzzcocks (3)
@@ -405,6 +406,7 @@ generated_at: "2026-05-19T20:34:58"
 - classe ouvriere (3)
 - Manchester post-industrielle (3)
 - slum clearance (3)
+- Factory Records (3)
 - mémoire culturelle (3)
 - biographie contre mythe social (2)
 - hauntologie (2)
@@ -417,6 +419,7 @@ generated_at: "2026-05-19T20:34:58"
 - accountability (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
+- régénération (2)
 - Manchester post-industriel (2)
 - source critique (2)
 - Joy Division (2)
@@ -426,7 +429,6 @@ generated_at: "2026-05-19T20:34:58"
 - dyschronia (2)
 - mythologisation (2)
 - atemporality (2)
-- post-punk (2)
 - factory records (2)
 - new hormones (2)
 - buzzcocks (2)
@@ -459,8 +461,6 @@ generated_at: "2026-05-19T20:34:58"
 - Manchester industriel (2)
 - géographie sociale (2)
 - logement social (2)
-- shrinking city (2)
-- Factory Records (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -703,6 +703,11 @@ generated_at: "2026-05-19T20:34:58"
 | modele_emergence | 1 |
 | scene_fondatrice_prudente | 1 |
 | memoire_scene | 1 |
+| patrimonialisation_urbaine | 1 |
+| prudence_causale | 1 |
+| concept_urbain_culturel | 1 |
+| limite_interpretative | 1 |
+| interpretation_historique | 1 |
 | contexte_discursif | 1 |
 | reaction_politique | 1 |
 | conflit_institutionnel | 1 |
@@ -744,8 +749,8 @@ generated_at: "2026-05-19T20:34:58"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 51 |
-| majeure | 41 |
+| critique | 54 |
+| majeure | 43 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

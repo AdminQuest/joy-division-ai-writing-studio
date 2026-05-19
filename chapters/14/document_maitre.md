@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1147 |
+| Atomes | 1158 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
@@ -53,7 +53,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 9 | 4 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 36 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 15 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 26 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -496,35 +496,35 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory (34)
 - Ian Curtis (30)
 - Still (27)
-- Joy Division (25)
+- Joy Division (26)
 - Unknown Pleasures (22)
-- Peter Saville (20)
+- Peter Saville (21)
 - NME (17)
 - Rob Gretton (17)
 - Love Will Tear Us Apart (17)
 - prudence historiographique (17)
+- Factory Records (15)
 - Atmosphere (14)
 - Tony Wilson (14)
-- Factory Records (14)
 - réception (13)
 - new order (13)
 - factory records (13)
+- mémoire (13)
 - peter saville (12)
+- Manchester (11)
 - martin hannett (11)
 - Ceremony (11)
-- mémoire (11)
-- Manchester (10)
 - Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
 - An Ideal for Living (10)
+- post-punk (9)
 - postérité (9)
 - rob gretton (9)
 - Closer (9)
 - authenticité (9)
 - suicide (8)
-- post-punk (8)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
@@ -736,6 +736,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | synthese_argumentative | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
+| limite_interpretative | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -746,7 +747,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
-| limite_interpretative | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -768,6 +768,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_video | 3 |
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
+| prudence_interpretative | 3 |
 | mythe_prudence | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
@@ -802,7 +803,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_numerique | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
-| prudence_interpretative | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
 | rencontre_fondatrice | 2 |
@@ -839,6 +839,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | synthese_critique | 2 |
+| interpretation_historique | 2 |
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
 | synthese_conceptuelle | 2 |
@@ -1067,7 +1068,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | vigilance_interpretative | 1 |
 | synthese_documentaire | 1 |
 | qualification_source | 1 |
-| interpretation_historique | 1 |
 | qualification_esthetique | 1 |
 | gouvernance | 1 |
 | institution | 1 |
@@ -1195,6 +1195,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_archive | 1 |
 | contexte_biographique_critique | 1 |
 | memoire_scene | 1 |
+| patrimonialisation_urbaine | 1 |
+| prudence_causale | 1 |
+| concept_urbain_culturel | 1 |
+| historiographie_memorielle | 1 |
+| theorie_memoire | 1 |
+| historiographie_pluraliste | 1 |
+| philosophie_du_temps | 1 |
+| lieux_memoire | 1 |
 | discours_religieux | 1 |
 | scene_generationnelle | 1 |
 | scene_adolescente_prudente | 1 |
@@ -1298,8 +1306,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 415 |
-| majeure | 122 |
+| critique | 421 |
+| majeure | 127 |
 | majeur | 28 |
 | utile | 18 |
 | structurante | 2 |

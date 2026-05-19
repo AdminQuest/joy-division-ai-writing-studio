@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 419 |
+| Atomes | 421 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 38 |
 | Événements chronologiques | 40 |
@@ -41,7 +41,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 34 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 26 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 28 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
 | S44 | S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 | 10 | 0 |
@@ -292,8 +292,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `personnages_scene` ; importance : `utile` ; preuve : `forte_pour_reception_contemporaine`.
 - **S37-A027** — S37-A027 — Le manque d’une « central factory » avant Factory  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prefiguration_institutionnelle` ; importance : `critique` ; preuve : `forte_pour_formulation_contemporaine`.
-- **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S37-A033** — S37-A033 — Punk et post-punk comme relais d’un esprit progressif mancunien  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `interpretation_historique` ; importance : `majeure` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -435,19 +435,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Sex Pistols (12)
 - Joy Division (12)
 - Rob Gretton (12)
+- punk (12)
 - Rafters (11)
-- punk (11)
 - Manchester (10)
 - An Ideal for Living (10)
 - Buzzcocks (9)
 - scène locale (9)
+- Lesser Free Trade Hall (8)
 - Stiff Kittens (8)
 - Stephen Morris (8)
 - Ian Curtis (8)
 - DIY (8)
 - electric circus (7)
 - warsaw (7)
-- Lesser Free Trade Hall (7)
 - Tony Wilson (7)
 - Short Circuit (7)
 - an ideal for living (6)
@@ -789,6 +789,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | micro_archive | 1 |
 | memoire_scene | 1 |
 | scene_relationnelle | 1 |
+| interpretation_historique | 1 |
+| lieux_memoire | 1 |
 | reception_populaire | 1 |
 | mediation_culturelle | 1 |
 | experience_groupe_avant_punk | 1 |
@@ -849,7 +851,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | non qualifiée | 205 |
 | critique | 134 |
-| majeure | 47 |
+| majeure | 49 |
 | majeur | 15 |
 | utile | 7 |
 | moyenne | 2 |

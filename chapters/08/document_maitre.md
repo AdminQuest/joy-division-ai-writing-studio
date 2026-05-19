@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 302 |
+| Atomes | 303 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 36 |
@@ -44,7 +44,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 7 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 4 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
@@ -235,6 +235,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `infrastructure_editoriale` ; importance : `majeure` ; preuve : `forte_pour_liste_contemporaine`.
 - **S37-A026** — S37-A026 — John Cooper Clarke et Jon the Postman : personnages de scène et élargissement du rock  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `personnages_scene` ; importance : `utile` ; preuve : `forte_pour_reception_contemporaine`.
+- **S37-A038** — S37-A038 — Lesser Free Trade Hall 1976 / Factory Club 1978 : deux scènes comme points de présence permanente  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `lieux_memoire` ; importance : `majeure` ; preuve : `moyenne_comme_memoire`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -295,8 +297,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_session` ; importance : `critique` ; preuve : `témoignage direct + détail technique à croiser`.
 - **S41-A150** — S41-A150 — « Insight » : basse motrice, lift Strawberry et vocal pumping  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
-- **S41-A151** — S41-A151 — « New Dawn Fades » : amp Marshall vendu, économie domestique et son perdu  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_materiel` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -750,6 +750,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | infrastructure_editoriale | 1 |
 | personnages_scene | 1 |
 | concert_reception | 1 |
+| lieux_memoire | 1 |
 | culture_bootleg | 1 |
 | culture_materielle | 1 |
 | cartographie_scene | 1 |
@@ -803,8 +804,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 |---|---|
 | critique | 138 |
 | non qualifiée | 123 |
+| majeure | 19 |
 | majeur | 18 |
-| majeure | 18 |
 | utile | 2 |
 | critique pour Chapitre 8 | 1 |
 | critique pour Chapitre 2 | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 359 |
+| Atomes | 361 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 75 |
 | Événements chronologiques | 44 |
@@ -38,7 +38,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 4 | 0 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 2 | 0 |
-| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 2 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S43 | S43 — Capozzi, The weight on their shoulders, 2021 | 1 | 0 |
@@ -148,6 +148,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S35-A026** — S35-A026 — Jersey et bunkers : guerre, ruines et imaginaire matériel  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `motif_historique` ; importance : `majeure pour les prudences sur l’imagerie de guerre` ; preuve : `témoignage autobiographique direct`.
+- **S37-A030** — S37-A030 — La fiction Manchester : entre réalité de la ville et idée produite par Factory  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `concept_urbain_culturel` ; importance : `majeure` ; preuve : `moyenne`.
+- **S37-A031** — S37-A031 — La limite de la thèse Saville / skyline : design et ville ne se superposent pas  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `prudence_interpretative` ; importance : `majeure` ; preuve : `forte_pour_position_de_Morley`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-018** — S41-018 — Apprendre « mal » : naissance d’un style mélodique  
@@ -290,10 +294,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-016** — S45-016 — Factory introduit une nouvelle hiérarchie affective  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -445,14 +445,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Unknown Pleasures (25)
 - Tony Wilson (21)
 - Rob Gretton (18)
-- Peter Saville (15)
+- Peter Saville (16)
 - Transmission (12)
 - Atmosphere (11)
 - An Ideal for Living (11)
+- Factory Records (11)
 - Digital (10)
 - A Factory Sample (10)
 - production (10)
-- Factory Records (10)
 - martin hannett (10)
 - Dead Souls (8)
 - Ian Curtis (8)
@@ -689,6 +689,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | contexte_technique | 3 |
 | reception | 3 |
 | lecture_chanson | 2 |
+| prudence_interpretative | 2 |
 | construction_esthetique | 2 |
 | economie_discographique | 2 |
 | iconographie | 2 |
@@ -717,7 +718,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | seuil_identitaire | 1 |
 | canon_visuel | 1 |
 | modernisme_litteraire | 1 |
-| prudence_interpretative | 1 |
 | paroles_source | 1 |
 | transition_nominale | 1 |
 | reception_nominale | 1 |
@@ -838,6 +838,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | controverse_visuelle | 1 |
 | prefiguration_institutionnelle | 1 |
 | construction_nominale | 1 |
+| concept_urbain_culturel | 1 |
 | motif_historique | 1 |
 | controverse_scene_live | 1 |
 | decision_strategique_groupe | 1 |
@@ -867,7 +868,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 197 |
 | critique | 121 |
-| majeure | 33 |
+| majeure | 35 |
 | majeur | 4 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

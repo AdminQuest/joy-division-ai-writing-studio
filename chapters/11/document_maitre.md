@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T20:34:58"
+generated_at: "2026-05-19T21:00:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 299 |
+| Atomes | 300 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 43 |
 | Événements chronologiques | 16 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 30 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
 | S31 | S31 — Allegri, Living in the Ice Age, 2021 | 7 | 3 |
 | S35 | S35 — Morris, Record Play Pause, 2019 | 3 | 0 |
+| S37 | S37 — Morley, Joy Division: Piece by Piece, 2008 | 1 | 0 |
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
@@ -168,6 +169,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `motif_historique` ; importance : `majeure pour les prudences sur l’imagerie de guerre` ; preuve : `témoignage autobiographique direct`.
 - **S35-A058** — S35-A058 — House on the Borderland, Percival’s, Burroughs, Ballard : librairies et contre-savoirs  
   Source : S35 — Morris, Record Play Pause, 2019 ; type : `formation_culturelle` ; importance : `majeure` ; preuve : `témoignage autobiographique direct`.
+- **S37-A037** — S37-A037 — Les Sex Pistols et Joy Division enseignent une autre relation au temps  
+  Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `philosophie_du_temps` ; importance : `majeure` ; preuve : `forte_pour_position_de_Morley`.
 - **S39-A003** — S39-A003 — Mobilité, flexibilité et individualisation de l’incertitude  
   Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `source secondaire théorique`.
 - **S39-A004** — S39-A004 — Fragilité des liens sociaux et précarité des appartenances  
@@ -298,8 +301,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-116** — S46-116 — William Burroughs comme figure tutélaire distante  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `rencontre_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-158** — S46-158 — Morley : Joy Division et la chance  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_mythographique` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -436,10 +437,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - Ian Curtis (19)
 - ian curtis (13)
+- Joy Division (7)
 - NME (7)
 - suicide (6)
 - isolement (6)
-- Joy Division (6)
 - épilepsie (5)
 - House of Dolls (5)
 - post-punk (5)
@@ -779,6 +780,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_reception | 1 |
 | contraste_biographique | 1 |
 | concert_europeen | 1 |
+| philosophie_du_temps | 1 |
 | formation_culturelle | 1 |
 | principe_groupe | 1 |
 | motif_historique | 1 |
@@ -803,7 +805,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | non qualifiée | 133 |
 | critique | 119 |
-| majeure | 37 |
+| majeure | 38 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
