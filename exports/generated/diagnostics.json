@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-19T15:36:30",
+  "generated_at": "2026-05-19T15:55:18",
   "status": "warning",
   "summary": {
-    "records_total": 5858,
+    "records_total": 5860,
     "records_by_kind": {
-      "source": 94,
-      "metadata": 163,
+      "source": 95,
+      "metadata": 164,
       "atom": 2287,
       "unknown": 854,
       "concept": 362,
@@ -22,9 +22,9 @@
     "diagnostics_total": 25031,
     "errors": 0,
     "warnings": 25031,
-    "sources_declared_in_registre_json": 68,
-    "sources_used_in_records": 54,
-    "sources_exported": 54,
+    "sources_declared_in_registre_json": 69,
+    "sources_used_in_records": 55,
+    "sources_exported": 55,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -1194,6 +1194,20 @@
           "sources/villani_ti_sfido_a_disperarti/relations_s57.md",
           "sources/villani_ti_sfido_a_disperarti/source.md",
           "sources/villani_ti_sfido_a_disperarti/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S58",
+        "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+        "auteur": "Emiliano Ilardi",
+        "titre": "Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories",
+        "annee": "2021",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/ilardi_ian_curtis_is_not_dead/source.md"
         ]
       },
       {
