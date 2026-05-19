@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-19T15:55:18",
+  "generated_at": "2026-05-19T16:23:08",
   "status": "warning",
   "summary": {
-    "records_total": 5860,
+    "records_total": 5947,
     "records_by_kind": {
       "source": 95,
       "metadata": 164,
-      "atom": 2287,
-      "unknown": 854,
-      "concept": 362,
-      "motif": 375,
-      "myth": 92,
-      "quote": 482,
-      "chronology": 414,
-      "person": 278,
-      "song": 101,
+      "atom": 2302,
+      "unknown": 880,
+      "concept": 375,
+      "motif": 381,
+      "myth": 96,
+      "quote": 490,
+      "chronology": 419,
+      "person": 284,
+      "song": 105,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25031,
+    "diagnostics_total": 25256,
     "errors": 0,
-    "warnings": 25031,
+    "warnings": 25256,
     "sources_declared_in_registre_json": 69,
     "sources_used_in_records": 55,
     "sources_exported": 55,
@@ -1202,12 +1202,16 @@
         "auteur": "Emiliano Ilardi",
         "titre": "Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 102,
+        "atoms": 15,
+        "quotes": 8,
+        "chronology": 5,
         "files": [
-          "sources/ilardi_ian_curtis_is_not_dead/source.md"
+          "registers/s58_ilardi_specialized_registers.md",
+          "registers/s58_ilardi_structuring_registers.md",
+          "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+          "sources/ilardi_ian_curtis_is_not_dead/source.md",
+          "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md"
         ]
       },
       {
@@ -75903,6 +75907,996 @@
     },
     {
       "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S58-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S58-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S58-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: economie_culturelle",
+      "record_id": "S58-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: probleme_historique",
+      "record_id": "S58-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: matrice_politique_culturelle",
+      "record_id": "S58-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: comparaison_urbaine",
+      "record_id": "S58-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: contexte_socio_culturel",
+      "record_id": "S58-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: espace_culturel",
+      "record_id": "S58-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_mediologique",
+      "record_id": "S58-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S58-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: filiation_sonore",
+      "record_id": "S58-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: production_sonore",
+      "record_id": "S58-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: contre_mythe",
+      "record_id": "S58-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "message": "Invalid value for type_unite: synthese_conceptuelle",
+      "record_id": "S58-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S58-015"
+    },
+    {
+      "level": "warning",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S49-A001"
@@ -128871,6 +129865,342 @@
     },
     {
       "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S58-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S58-Q008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S58-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S58-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser",
+      "record_id": "CHR-S58-1982-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S58-1983-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S58-1983-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S58-1983-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S58-1988-1989-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S58-1988-1989-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser",
+      "record_id": "CHR-S58-1988-1989-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S58-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S58-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Invalid value for certainty: a_croiser_Hook",
+      "record_id": "CHR-S58-1997-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S58-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S58-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Invalid value for certainty: forte",
+      "record_id": "CHR-S58-2021-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S58-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S58-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S58-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S58-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S58-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S58-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S58-UNKNOWN-PLEASURES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S58-BLUE-MONDAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S58-BLUE-MONDAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S58-BLUE-MONDAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S58-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S58-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S58-DIGITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Missing required field: chapters",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MEDIA-S58-RAVE-MANIFESTO"
+    },
+    {
+      "level": "warning",
       "file": "registers/s78_nevarez_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S78-NEVAREZ-2013"
@@ -133398,6 +134728,30 @@
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S51-LECKEY-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S58-ILARDI-2021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S58-HOOK-HACIENDA-2019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S58-ATTIMONELLI-2018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S58-ILARDI-LUCCI-2008"
     },
     {
       "level": "warning",

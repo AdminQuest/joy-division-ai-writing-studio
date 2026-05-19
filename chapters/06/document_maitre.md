@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 468 |
+| Atomes | 473 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 66 |
-| Événements chronologiques | 45 |
-| Personnes | 49 |
-| Chansons | 30 |
-| Sources mobilisées | 23 |
+| Citations | 67 |
+| Événements chronologiques | 46 |
+| Personnes | 52 |
+| Chansons | 32 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 3 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 5 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -299,6 +300,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S58-Q003** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
@@ -335,10 +337,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S58-1983-001 — Blue Monday marque, dans l’argument d’Ilardi, un seuil de la mutation New Order vers l’électronique et la culture club.
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
 - CHR-S57-1981-001 — Still devient pour Villani un objet de persistance, de mémoire et de permanence instable.
 - CHR-S59-1979-06-001 — Publication d’Unknown Pleasures ; Ferrara mobilise l’album pour l’anonymat visuel, la distance graphique et la construction d’une anti-image.
@@ -378,10 +380,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
 - CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
 - CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
-- CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
 
 ## 9. Personnes et acteurs
 
+- PERS-S58-002 — Peter Hook
+- PERS-S58-003 — Bernard Sumner
+- PERS-S58-006 — Martin Hannett
 - PERS-S55-001 — Vincenzo Romania
 - PERS-S55-002 — Ian Curtis
 - PERS-S59-001 — Francesca Ferrara
@@ -419,12 +423,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
 - PERS-S76-034 — John Anderson
-- PERS-S76-035 — Bob Auger
-- PERS-S76-036 — Bernie Binnick
-- PERS-S76-065 — Steve Harley
 
 ## 10. Chansons rattachées
 
+- SONG-S58-BLUE-MONDAY — Blue Monday
+- SONG-S58-SHES-LOST-CONTROL — She’s Lost Control
 - SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S57-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
@@ -547,7 +550,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Factory (15)
 - Tony Wilson (14)
 - Martin Hannett (12)
-- Hannett (11)
+- Hannett (12)
 - Unknown Pleasures (11)
 - Rafters (9)
 - Transmission (9)
@@ -565,6 +568,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Strawberry Studios (5)
 - RCA (5)
 - fatigue (5)
+- Kraftwerk (5)
 - manager (5)
 - She’s Lost Control (5)
 - studio (5)
@@ -580,7 +584,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Twinny (4)
 - radio (4)
 - T. J. Davidson’s (4)
-- Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
 
@@ -690,12 +693,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | biographie | 5 |
 | session_radio | 5 |
 | discographie | 5 |
+| concept_structurant | 5 |
 | fait_sensible | 5 |
 | processus_creatif | 4 |
 | analyse | 4 |
 | scene_reseau | 4 |
 | reception_critique | 4 |
-| concept_structurant | 4 |
+| production_sonore | 4 |
 | motif_structurant | 4 |
 | fait_interprete | 4 |
 | tension_management | 3 |
@@ -708,7 +712,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
-| production_sonore | 3 |
 | analyse_album | 3 |
 | concept | 3 |
 | versions_chanson | 3 |
@@ -875,6 +878,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_retrospectif | 1 |
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
+| probleme_historique | 1 |
+| filiation_sonore | 1 |
+| contre_mythe | 1 |
 | prudence_interpretative | 1 |
 | concept_visuel | 1 |
 | analyse_graphique | 1 |
@@ -943,7 +949,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 228 |
+| critique | 233 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 32 |

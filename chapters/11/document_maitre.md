@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 296 |
+| Atomes | 299 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 42 |
+| Citations | 43 |
 | Événements chronologiques | 16 |
 | Personnes | 29 |
-| Chansons | 33 |
-| Sources mobilisées | 29 |
+| Chansons | 34 |
+| Sources mobilisées | 30 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S54 | S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 | 12 | 8 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 11 | 3 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 6 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 3 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
@@ -308,6 +309,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
@@ -341,7 +343,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -396,6 +397,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 10. Chansons rattachées
 
+- SONG-S58-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
 - SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
 - SONG-S57-HEART-AND-SOUL — Heart and Soul
@@ -755,6 +757,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_interne | 1 |
 | reception_posthume | 1 |
 | temoignage | 1 |
+| comparaison_urbaine | 1 |
+| contexte_socio_culturel | 1 |
+| concept_mediologique | 1 |
 | contexte_scene | 1 |
 | lecture_scene_et_chanson | 1 |
 | comparaison_generations | 1 |
@@ -797,8 +802,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 117 |
-| majeure | 36 |
+| critique | 119 |
+| majeure | 37 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

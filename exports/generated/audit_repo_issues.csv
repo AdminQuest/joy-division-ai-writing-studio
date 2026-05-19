@@ -12399,6 +12399,171 @@ warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/
 warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A016,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Invalid value for type_unite: scene_fondatrice,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A003,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A004,Invalid value for type_unite: economie_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A005,Invalid value for type_unite: probleme_historique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A006,Invalid value for type_unite: matrice_politique_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A007,Invalid value for type_unite: comparaison_urbaine,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A008,Invalid value for type_unite: contexte_socio_culturel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A009,Invalid value for type_unite: espace_culturel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A010,Invalid value for type_unite: concept_mediologique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A011,Invalid value for type_unite: concept_structurant,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A012,Invalid value for type_unite: filiation_sonore,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A013,Invalid value for type_unite: production_sonore,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A014,Invalid value for type_unite: contre_mythe,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A015,Invalid value for type_unite: synthese_conceptuelle,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-011,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/ilardi_ian_curtis_is_not_dead/relations_s58.md,REL-S58-015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A001,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -21227,6 +21392,62 @@ warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,S
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s51_malvezzi_specialized_registers.md,SONG-S51-SHES_LOST_CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,S58-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1982-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1982-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s58_ilardi_specialized_registers.md,CHR-S58-1982-001,Invalid value for certainty: a_croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1983-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1983-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s58_ilardi_specialized_registers.md,CHR-S58-1983-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1988-1989-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1988-1989-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s58_ilardi_specialized_registers.md,CHR-S58-1988-1989-001,Invalid value for certainty: a_croiser,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1997-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-1997-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s58_ilardi_specialized_registers.md,CHR-S58-1997-001,Invalid value for certainty: a_croiser_Hook,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-2021-001,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,CHR-S58-2021-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,invalid_controlled_value,registers/s58_ilardi_specialized_registers.md,CHR-S58-2021-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-001,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-002,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-003,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-004,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-005,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,PERS-S58-006,Missing required field: sources,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,ORG-S58-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,ORG-S58-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,ORG-S58-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,LIEU-S58-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,LIEU-S58-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,ALBUM-S58-UNKNOWN-PLEASURES,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-BLUE-MONDAY,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-BLUE-MONDAY,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-BLUE-MONDAY,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-DIGITAL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-DIGITAL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-DIGITAL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-ATROCITY-EXHIBITION,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-ATROCITY-EXHIBITION,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-ATROCITY-EXHIBITION,Missing required field: chapters,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-SHES-LOST-CONTROL,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-SHES-LOST-CONTROL,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s58_ilardi_specialized_registers.md,SONG-S58-SHES-LOST-CONTROL,Missing required field: chapters,Compléter le champ obligatoire.
+warning,unknown_yaml_block,registers/s58_ilardi_specialized_registers.md,MEDIA-S58-RAVE-MANIFESTO,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-NEVAREZ-2013,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-GEE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-SAVAGE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -21982,6 +22203,10 @@ warning,missing_required_field,registers/s56_barone_specialized_registers.md,SON
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-STEYERL-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-WARBURG-MNEMOSYNE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s51_malvezzi_structuring_registers.md,REF-S51-LECKEY-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_structuring_registers.md,REF-S58-ILARDI-2021,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_structuring_registers.md,REF-S58-HOOK-HACIENDA-2019,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_structuring_registers.md,REF-S58-ATTIMONELLI-2018,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/s58_ilardi_structuring_registers.md,REF-S58-ILARDI-LUCCI-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md,ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md,ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/organizations/s20_dodge_organizations_housing_geographies_v2.md,ORGS-S20-HOUSING-GEOGRAPHIES-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

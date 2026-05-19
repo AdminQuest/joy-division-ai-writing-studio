@@ -42,6 +42,85 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S58-BLUE-MONDAY",
+    "file": "registers/s58_ilardi_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S58-BLUE-MONDAY",
+      "type_unite": "song",
+      "source_id": "S58",
+      "song": "Blue Monday",
+      "usage": "Seuil de mutation New Order vers l’électronique et la culture club.",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S58-DIGITAL",
+    "file": "registers/s58_ilardi_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S58-DIGITAL",
+      "type_unite": "song",
+      "source_id": "S58",
+      "song": "Digital",
+      "usage": "Exemple de texte et de forme pouvant être lus comme anticipation du code binaire et de la sensibilité protodigitale.",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S58-ATROCITY-EXHIBITION",
+    "file": "registers/s58_ilardi_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S58-ATROCITY-EXHIBITION",
+      "type_unite": "song",
+      "source_id": "S58",
+      "song": "Atrocity Exhibition",
+      "usage": "Point de contact Ballard / science-fiction / distopie urbaine dans la lecture d’Ilardi.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S58-SHES-LOST-CONTROL",
+    "file": "registers/s58_ilardi_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
+    "data": {
+      "id": "SONG-S58-SHES-LOST-CONTROL",
+      "type_unite": "song",
+      "source_id": "S58",
+      "song": "She’s Lost Control",
+      "usage": "Exemple de studio-instrument et d’expérimentation Hannett autour de la texture sonore.",
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S52-ATMOSPHERE",
     "file": "registers/s52_rabbito_specialized_registers.md",
     "heading": "Chansons",
@@ -1442,7 +1521,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::3974",
+    "id": "NO_ID::registers/songs/master_songs.md::4061",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {

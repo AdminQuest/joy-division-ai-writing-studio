@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-19T15:55:33",
+  "generated_at": "2026-05-19T16:23:22",
   "summary": {
-    "records_total": 5860,
+    "records_total": 5947,
     "records_by_kind": {
       "source": 95,
       "metadata": 164,
-      "atom": 2287,
-      "unknown": 854,
-      "concept": 362,
-      "motif": 375,
-      "myth": 92,
-      "quote": 482,
-      "chronology": 414,
-      "person": 278,
-      "song": 101,
+      "atom": 2302,
+      "unknown": 880,
+      "concept": 375,
+      "motif": 381,
+      "myth": 96,
+      "quote": 490,
+      "chronology": 419,
+      "person": 284,
+      "song": 105,
       "template": 354,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 25031,
+    "diagnostics_total": 25256,
     "errors": 0,
-    "warnings": 25031,
+    "warnings": 25256,
     "sources_declared_in_registre_json": 69,
     "sources_used_in_records": 55,
     "sources_exported": 55,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2287,
-    "chronology": 414,
-    "concept": 362,
+    "atom": 2302,
+    "chronology": 419,
+    "concept": 375,
     "metadata": 164,
-    "motif": 375,
-    "myth": 92,
-    "person": 278,
-    "quote": 482,
+    "motif": 381,
+    "myth": 96,
+    "person": 284,
+    "quote": 490,
     "quote_batch": 1,
     "rules": 1,
-    "song": 101,
+    "song": 105,
     "source": 95,
     "template": 354,
-    "unknown": 854
+    "unknown": 880
   },
   "records_by_source": {
     "S02": {
@@ -410,8 +410,17 @@
       "song": 4
     },
     "S58": {
+      "atom": 15,
       "source": 1,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 26,
+      "quote": 8,
+      "chronology": 5,
+      "person": 6,
+      "song": 4,
+      "concept": 13,
+      "motif": 6,
+      "myth": 4
     },
     "S59": {
       "atom": 15,
@@ -506,19 +515,19 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 435,
-    "Chapitre 10": 428,
-    "Chapitre 11": 457,
-    "Chapitre 12": 624,
-    "Chapitre 13": 289,
-    "Chapitre 14": 1706,
+    "Chapitre 1": 441,
+    "Chapitre 10": 458,
+    "Chapitre 11": 465,
+    "Chapitre 12": 626,
+    "Chapitre 13": 312,
+    "Chapitre 14": 1754,
     "Chapitre 2": 543,
     "Chapitre 3": 605,
-    "Chapitre 4": 538,
+    "Chapitre 4": 539,
     "Chapitre 5": 517,
-    "Chapitre 6": 702,
+    "Chapitre 6": 722,
     "Chapitre 7": 264,
-    "Chapitre 8": 530,
+    "Chapitre 8": 538,
     "Chapitre 9": 343,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -618,6 +627,10 @@
       34
     ],
     [
+      "registers/s58_ilardi_specialized_registers.md",
+      30
+    ],
+    [
       "sources/hook/atomisation_03_unknown_pleasures_1979.md",
       29
     ],
@@ -630,29 +643,25 @@
       29
     ],
     [
+      "registers/s58_ilardi_structuring_registers.md",
+      27
+    ],
+    [
       "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
       26
     ],
     [
       "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
       26
-    ],
-    [
-      "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
-      25
-    ],
-    [
-      "registers/s54_gnocchi_structuring_registers.md",
-      25
     ]
   ],
   "issue_categories": {
     "field_type_error": 303,
-    "invalid_controlled_value": 2148,
-    "missing_required_field": 7791,
+    "invalid_controlled_value": 2168,
+    "missing_required_field": 7910,
     "schema_warning": 494,
-    "unknown_yaml_block": 854,
-    "v2_migration_debt": 13441
+    "unknown_yaml_block": 880,
+    "v2_migration_debt": 13501
   },
   "top_files_by_issue_count": [
     [
@@ -2167,6 +2176,126 @@
       "category": "unknown_yaml_block",
       "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
       "record_id": "REL-S53-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -4853,6 +4982,62 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "LIEU-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "LIEU-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ALBUM-S58-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "MEDIA-S58-RAVE-MANIFESTO",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s78_nevarez_structuring_registers.md",
       "record_id": "REF-S78-NEVAREZ-2013",
       "message": "Unable to infer documentary kind",
@@ -5903,6 +6088,38 @@
       "category": "unknown_yaml_block",
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "record_id": "REF-S51-LECKEY-2015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ILARDI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-HOOK-HACIENDA-2019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ATTIMONELLI-2018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ILARDI-LUCCI-2008",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7612,10 +7829,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2287,
+    "atoms_total": 2302,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2214,
-    "v2_missing_field_warnings": 13441
+    "atoms_v2_incomplete": 2229,
+    "v2_missing_field_warnings": 13501
   },
   "source_registry": {
     "declared_but_unused": [
@@ -8790,12 +9007,16 @@
         "auteur": "Emiliano Ilardi",
         "titre": "Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories",
         "annee": "2021",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 102,
+        "atoms": 15,
+        "quotes": 8,
+        "chronology": 5,
         "files": [
-          "sources/ilardi_ian_curtis_is_not_dead/source.md"
+          "registers/s58_ilardi_specialized_registers.md",
+          "registers/s58_ilardi_structuring_registers.md",
+          "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+          "sources/ilardi_ian_curtis_is_not_dead/source.md",
+          "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md"
         ]
       },
       {
@@ -108292,6 +108513,1326 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A002",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A004",
+      "message": "Invalid value for type_unite: economie_culturelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A005",
+      "message": "Invalid value for type_unite: probleme_historique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A006",
+      "message": "Invalid value for type_unite: matrice_politique_culturelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A007",
+      "message": "Invalid value for type_unite: comparaison_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A008",
+      "message": "Invalid value for type_unite: contexte_socio_culturel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A009",
+      "message": "Invalid value for type_unite: espace_culturel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A010",
+      "message": "Invalid value for type_unite: concept_mediologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A011",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A012",
+      "message": "Invalid value for type_unite: filiation_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A013",
+      "message": "Invalid value for type_unite: production_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A014",
+      "message": "Invalid value for type_unite: contre_mythe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
+      "record_id": "S58-A015",
+      "message": "Invalid value for type_unite: synthese_conceptuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-013",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/ilardi_ian_curtis_is_not_dead/relations_s58.md",
+      "record_id": "REL-S58-015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "record_id": "S49-A001",
       "message": "Missing required field: auteur",
@@ -178915,6 +180456,454 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q008",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "S58-Q008",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1982-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1982-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1982-001",
+      "message": "Invalid value for certainty: a_croiser",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1983-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1983-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1983-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1988-1989-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1988-1989-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1988-1989-001",
+      "message": "Invalid value for certainty: a_croiser",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1997-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1997-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-1997-001",
+      "message": "Invalid value for certainty: a_croiser_Hook",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-2021-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-2021-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "CHR-S58-2021-001",
+      "message": "Invalid value for certainty: forte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-001",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-002",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-003",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-004",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-005",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "PERS-S58-006",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ORG-S58-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "LIEU-S58-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "LIEU-S58-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "ALBUM-S58-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-BLUE-MONDAY",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-BLUE-MONDAY",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-BLUE-MONDAY",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-DIGITAL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-DIGITAL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-DIGITAL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-ATROCITY-EXHIBITION",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "SONG-S58-SHES-LOST-CONTROL",
+      "message": "Missing required field: chapters",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_specialized_registers.md",
+      "record_id": "MEDIA-S58-RAVE-MANIFESTO",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s78_nevarez_structuring_registers.md",
       "record_id": "REF-S78-NEVAREZ-2013",
@@ -184950,6 +186939,38 @@
       "category": "unknown_yaml_block",
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "record_id": "REF-S51-LECKEY-2015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ILARDI-2021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-HOOK-HACIENDA-2019",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ATTIMONELLI-2018",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s58_ilardi_structuring_registers.md",
+      "record_id": "REF-S58-ILARDI-LUCCI-2008",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 259 |
+| Atomes | 268 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 44 |
-| Événements chronologiques | 23 |
-| Personnes | 44 |
-| Chansons | 11 |
-| Sources mobilisées | 30 |
+| Citations | 48 |
+| Événements chronologiques | 25 |
+| Personnes | 47 |
+| Chansons | 12 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -55,6 +55,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 3 | 1 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 1 | 0 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 9 | 4 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
@@ -306,6 +307,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S58-Q002** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q008** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
@@ -339,15 +344,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S58-1988-1989-001 — Second Summer of Love ; Ilardi l’inscrit dans la transformation de Manchester en Madchester et dans la centralité de l’Haçienda.
+- CHR-S58-2021-001 — Publication du chapitre d’Emiliano Ilardi dans Our Vision Touched the Sky.
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
@@ -375,6 +378,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S51-001 — Jennifer Malvezzi
 - PERS-S51-002 — Mark Leckey
 - PERS-S51-003 — Hito Steyerl
+- PERS-S58-001 — Emiliano Ilardi
+- PERS-S58-004 — Tony Wilson
+- PERS-S58-005 — Rob Gretton
 - PERS-S52-001 — Andrea Rabbito
 - PERS-S52-002 — Anton Corbijn
 - PERS-S52-003 — Sam Riley
@@ -409,12 +415,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
 - PERS-S76-089 — Paul Morley
-- PERS-016 — Bedhead
-- PERS-S76-066 — Jean-Pierre Turmel
-- PERS-S76-078 — Martyn Atkins
 
 ## 10. Chansons rattachées
 
+- SONG-S58-DIGITAL — Digital
 - SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
@@ -517,21 +521,22 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Rob Gretton (9)
 - Annik Honoré (8)
 - Annik (8)
+- prudence (6)
 - Control (6)
 - Peter Saville (6)
 - Natalie (5)
 - silence (5)
-- prudence (5)
 - Debbie (5)
 - Candy (4)
+- Factory (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
 - YouTube (4)
 - Burroughs (4)
 - van (3)
-- Factory (3)
 - contrôle (3)
+- DIY (3)
 - biopic (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -553,7 +558,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Macclesfield (2)
 - An Ideal for Living (2)
 - indépendance (2)
-- Sue Barlow (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -644,11 +648,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 14 |
+| concept_structurant | 16 |
 | tension_domestique | 8 |
+| prudence_methodologique | 7 |
 | reception | 7 |
 | scene_domestique | 6 |
-| prudence_methodologique | 6 |
 | biographie | 6 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
@@ -753,6 +757,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | analyse_materielle | 1 |
 | synthese_relationnelle | 1 |
 | citation_repere | 1 |
+| economie_culturelle | 1 |
+| probleme_historique | 1 |
+| matrice_politique_culturelle | 1 |
+| espace_culturel | 1 |
+| concept_mediologique | 1 |
+| synthese_conceptuelle | 1 |
 | contexte_urbain | 1 |
 | ecoute_technologique | 1 |
 | synthese | 1 |
@@ -802,10 +812,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 135 |
+| critique | 142 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 18 |
+| majeure | 20 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

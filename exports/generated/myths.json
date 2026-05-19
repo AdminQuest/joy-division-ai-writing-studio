@@ -1698,6 +1698,105 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-electronique_possible_seulement_apres_curtis",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-electronique_possible_seulement_apres_curtis",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "l’électronique de New Order n’aurait été possible qu’après Curtis",
+      "deconstruction": "S58 réintègre Curtis dans un continuum : Kraftwerk, science-fiction, dub, reggae, longues introductions instrumentales et gestuelle robotique.\n",
+      "atomes": [
+        "S58-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-rave_simple_hedonisme",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-rave_simple_hedonisme",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "les raves seraient un simple hédonisme apolitique",
+      "deconstruction": "S58 traite les raves comme formes de communauté, espaces autonomes temporaires, réappropriations d’usines et relais collectif d’une culture post-industrielle.\n",
+      "atomes": [
+        "S58-A006",
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-hacienda_simple_club",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-hacienda_simple_club",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "l’Haçienda serait seulement un club",
+      "deconstruction": "S58 lit l’Haçienda comme tombeau, laboratoire, espace indéterminé, proto-TAZ et relais matériel de Joy Division / Factory.\n",
+      "atomes": [
+        "S58-A002",
+        "S58-A004",
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-joy_division_cause_unique_rave",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joy_division_cause_unique_rave",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "Joy Division serait la cause unique de la rave mancunienne",
+      "deconstruction": "S58 construit un faisceau de médiations : ville post-industrielle, Factory, Hannett, New Order, technologies, club culture et espaces industriels reconvertis.\n",
+      "atomes": [
+        "S58-A005",
+        "S58-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

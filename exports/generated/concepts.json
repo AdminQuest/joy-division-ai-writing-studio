@@ -4150,6 +4150,370 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-joy_division_perno_hacienda",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-joy_division_perno_hacienda",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "Joy Division comme perno de l’Haçienda",
+      "definition": "Lecture de Joy Division comme pivot caché, matériel, économique et symbolique de l’Haçienda et de la culture club Factory.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A002",
+        "S58-A003"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-economie_punk_situationniste_hacienda",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-economie_punk_situationniste_hacienda",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "économie punk-situationniste de l’Haçienda",
+      "definition": "Gestion du club comme grande fête collective, idéaliste et anti-entrepreneuriale, génératrice d’innovation mais aussi de déficit.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A004"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-mutation_postpunk_electronique",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-mutation_postpunk_electronique",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "mutation post-punk vers l’électronique",
+      "definition": "Passage de Joy Division / New Order du punk électrique vers Blue Monday, acid house et culture électronique, sans causalité linéaire simple.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A005",
+        "S58-A015"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-acid_house_nouveau_punk",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-acid_house_nouveau_punk",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "acid house comme nouveau punk inclusif",
+      "definition": "Rapprochement entre punk et acid house par DIY, technologies accessibles, marges urbaines et liberté d’expression, avec passage de l’agressivité à l’inclusivité festive.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A006"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-comparaison_manchester_detroit",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-comparaison_manchester_detroit",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "comparaison Manchester / Detroit",
+      "definition": "Mise en parallèle de deux villes post-industrielles, Manchester et Detroit, où crise urbaine, vide communautaire et marges sociales favorisent de nouvelles formes électroniques.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A007"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-temps_libre_fordiste_creativite",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-temps_libre_fordiste_creativite",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "temps libre fordiste et créativité contre-culturelle",
+      "definition": "Contradiction du fordisme : le travail salarié contraint les jeunes cultures, mais la séparation travail / temps libre rend possible une créativité non immédiatement productivisée.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A008"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-hacienda_proto_TAZ",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-hacienda_proto_TAZ",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "Haçienda comme proto-TAZ",
+      "definition": "Lecture de l’Haçienda comme espace indéterminé, brutaliste et temporairement autonome, susceptible d’accueillir musique, danse, rencontre, café, bar et expérimentation.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-esthetique_digitale_anticipee",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-esthetique_digitale_anticipee",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "esthétique digitale anticipée",
+      "definition": "Lecture de Joy Division comme anticipation de paradigmes digitaux : aliénation, solitude, corps, espace, paysages urbains et sonorités protodigitales.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A010"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-technologie_liberation_marges",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-technologie_liberation_marges",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "technologie comme libération des marges",
+      "definition": "Appropriation libre des technologies musicales par des marges urbaines qui n’ont rien à perdre, et qui transforment contrainte sociale en expérimentation sonore.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A011"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-bassline_postpunk_acid",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-bassline_postpunk_acid",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "bassline post-punk / acid",
+      "definition": "Chaîne interprétative reliant la basse mélodique de Peter Hook, née de contraintes d’amplification, à la centralité future de la ligne de basse dans l’acid house.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A012"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-hannett_studio_instrument_futur",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-hannett_studio_instrument_futur",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "Hannett et le studio-instrument du futur",
+      "definition": "Martin Hannett comme opérateur de dé-punkisation, spatialisation, sampling, réverbération, delay et transformation du studio en instrument musical.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A013"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-curtis_et_futur_electronique",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-curtis_et_futur_electronique",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "Curtis et futur électronique",
+      "definition": "Hypothèse selon laquelle Curtis n’est pas extérieur au futur électronique de New Order : science-fiction, dub, reggae, Kraftwerk, intro instrumentale longue et danse robotique l’y relient déjà.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-joy_division_noeud_ere_electronique",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-joy_division_noeud_ere_electronique",
+      "type_unite": "concept",
+      "source_id": "S58",
+      "nom": "Joy Division comme nœud de passage vers l’ère électronique",
+      "definition": "Joy Division et Manchester comme points de transition entre paysage sonore post-punk, technologies protodigitales, New Order, acid house et techno.\n",
+      "sources": [
+        "S58"
+      ],
+      "atomes": [
+        "S58-A005",
+        "S58-A015"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

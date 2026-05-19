@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 295 |
+| Atomes | 297 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 29 |
-| Événements chronologiques | 34 |
-| Personnes | 31 |
+| Citations | 30 |
+| Événements chronologiques | 35 |
+| Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 6 | 3 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 2 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -297,6 +298,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 7. Citations disponibles
 
+- **S58-Q001** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
@@ -329,6 +331,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
+- CHR-S58-1997-001 — Fermeture définitive de l’Haçienda et découverte par Peter Hook d’un master d’Unknown Pleasures sous la scène.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
 - CHR-S77-1977-001 — Les fanzines accompagnent la codification et la récupération médiatique du punk ; se développe une conscience de la commodification.
@@ -366,6 +369,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 9. Personnes et acteurs
 
+- PERS-S58-002 — Peter Hook
 - PERS-S55-001 — Vincenzo Romania
 - PERS-S77-001 — Matthew Worley
 - PERS-S77-002 — Mark Perry / Mark P
@@ -499,12 +503,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- Unknown Pleasures (10)
-- Factory (8)
+- Unknown Pleasures (11)
+- Factory (9)
 - An Ideal for Living (7)
 - Rob Gretton (7)
 - Transmission (7)
 - RCA (6)
+- Haçienda (6)
 - Paul Morley (6)
 - Martin Hannett (6)
 - Earcom 2 (5)
@@ -517,10 +522,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Atmosphere (5)
 - Sordide Sentimental (5)
 - bootleg (5)
+- prudence (5)
 - Pennine Sound (4)
 - bootlegs (4)
 - Hannett (4)
-- Haçienda (4)
 - John Peel (4)
 - Digital (4)
 - NME (4)
@@ -530,7 +535,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Peter Saville (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
-- prudence (4)
 - Rudolf Hess (3)
 - Strawberry Studios (3)
 - Interzone (3)
@@ -638,9 +642,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | analyse_morceau | 6 |
 | analyse | 5 |
 | concept_structurant | 5 |
+| prudence_methodologique | 5 |
 | economie_discographique | 4 |
 | session_radio | 4 |
-| prudence_methodologique | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
 | analyse_morceau_studio | 3 |
@@ -657,6 +661,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | chanson_single | 2 |
 | discographie | 2 |
 | bootleg | 2 |
+| scene_fondatrice | 2 |
 | concert_archive | 2 |
 | motif_structurant | 2 |
 | synthese_usage_livre | 2 |
@@ -746,7 +751,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_recrutement_logistique | 1 |
 | archive_live | 1 |
 | decision_strategique_groupe | 1 |
-| scene_fondatrice | 1 |
 | critique_media | 1 |
 | critique_culturelle | 1 |
 | politique_culturelle | 1 |
@@ -788,7 +792,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 134 |
+| critique | 136 |
 | non qualifiée | 123 |
 | majeur | 18 |
 | majeure | 16 |

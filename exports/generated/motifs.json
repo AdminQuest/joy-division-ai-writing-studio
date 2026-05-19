@@ -2098,6 +2098,149 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-master_sous_la_scene",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-master_sous_la_scene",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "master sous la scène",
+      "atomes": [
+        "S58-A002",
+        "S58-A003"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-factory_vers_rave",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-factory_vers_rave",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "Factory vers rave",
+      "atomes": [
+        "S58-A003",
+        "S58-A004",
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-acid_nouveau_punk",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-acid_nouveau_punk",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "acid house comme nouveau punk",
+      "atomes": [
+        "S58-A006"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-bassline_futur",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-bassline_futur",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "bassline du futur",
+      "atomes": [
+        "S58-A012"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-studio_comme_instrument",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-studio_comme_instrument",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "studio comme instrument",
+      "atomes": [
+        "S58-A013"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-digital_par_l_oreille",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-digital_par_l_oreille",
+      "type_unite": "motif",
+      "source_id": "S58",
+      "nom": "digital par l’oreille",
+      "atomes": [
+        "S58-A010",
+        "S58-A015"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "stabilise",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

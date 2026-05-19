@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-19T15:55:37"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 251 |
+| Atomes | 253 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 23 |
+| Citations | 24 |
 | Événements chronologiques | 10 |
 | Personnes | 22 |
 | Chansons | 1 |
-| Sources mobilisées | 37 |
+| Sources mobilisées | 38 |
 
 ## 4. Sources mobilisées
 
@@ -63,6 +63,7 @@ generated_at: "2026-05-19T15:55:37"
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 1 | 0 |
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 4 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
@@ -142,8 +143,8 @@ generated_at: "2026-05-19T15:55:37"
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_theorique`.
 - **S53-A003** — S53-A003 — Manchester comme *genius loci*  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `interpretation_socio_spatiale`.
-- **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S58-A007** — S58-A007 — Manchester et Detroit : post-apocalypse industrielle et techno  
+  Source : S58 — Ilardi, Ian Curtis is not dead, 2021 ; type : `comparaison_urbaine` ; importance : `critique` ; preuve : `comparaison_interpretative`.
 
 ## 6. Autres atomes utiles
 
@@ -314,6 +315,7 @@ generated_at: "2026-05-19T15:55:37"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
@@ -463,7 +465,7 @@ generated_at: "2026-05-19T15:55:37"
 
 ### 12.1. Motifs dominants
 
-- Manchester (8)
+- Manchester (9)
 - Salford (4)
 - Shadowplay (2)
 - politique (2)
@@ -677,6 +679,8 @@ generated_at: "2026-05-19T15:55:37"
 | biographie_collective | 1 |
 | temoignage | 1 |
 | evenement_symbolique | 1 |
+| comparaison_urbaine | 1 |
+| contexte_socio_culturel | 1 |
 | archive | 1 |
 | controverse | 1 |
 | comparaison_generations | 1 |
@@ -734,7 +738,7 @@ generated_at: "2026-05-19T15:55:37"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 46 |
+| critique | 48 |
 | majeure | 36 |
 | utile | 10 |
 | majeur | 2 |

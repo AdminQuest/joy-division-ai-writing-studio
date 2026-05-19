@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -27,7 +27,7 @@ generated_at: "2026-05-19T15:55:37"
 | Citations | 92 |
 | Événements chronologiques | 60 |
 | Personnes | 53 |
-| Chansons | 34 |
+| Chansons | 35 |
 | Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
@@ -427,6 +427,7 @@ generated_at: "2026-05-19T15:55:37"
 
 - SONG-S51-DIGITAL — Digital
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S58-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S57-HEART-AND-SOUL — Heart and Soul

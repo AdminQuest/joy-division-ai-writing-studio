@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1089 |
+| Atomes | 1101 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 165 |
-| Événements chronologiques | 102 |
-| Personnes | 143 |
-| Chansons | 29 |
-| Sources mobilisées | 49 |
+| Citations | 170 |
+| Événements chronologiques | 107 |
+| Personnes | 147 |
+| Chansons | 31 |
+| Sources mobilisées | 50 |
 
 ## 4. Sources mobilisées
 
@@ -72,6 +72,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 12 | 6 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 6 | 2 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 3 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 12 | 5 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 10 | 4 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
@@ -344,6 +345,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
 - **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S58-Q001** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q003** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q006** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q008** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
 - **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
@@ -357,17 +363,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S55-Q006** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q004** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S51-1978-001 — « Digital » est mobilisée en exergue du chapitre S51 autour du motif du fade away.
 - CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
 - CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S58-1982-001 — Ouverture de l’Haçienda, espace culturel indéterminé qui devient ensuite laboratoire de club culture et de rave.
+- CHR-S58-1983-001 — Blue Monday marque, dans l’argument d’Ilardi, un seuil de la mutation New Order vers l’électronique et la culture club.
+- CHR-S58-1988-1989-001 — Second Summer of Love ; Ilardi l’inscrit dans la transformation de Manchester en Madchester et dans la centralité de l’Haçienda.
+- CHR-S58-1997-001 — Fermeture définitive de l’Haçienda et découverte par Peter Hook d’un master d’Unknown Pleasures sous la scène.
+- CHR-S58-2021-001 — Publication du chapitre d’Emiliano Ilardi dans Our Vision Touched the Sky.
 - CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
 - CHR-S55-2021-001 — Publication du chapitre de Vincenzo Romania dans Our Vision Touched the Sky.
@@ -400,11 +406,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S78-2010-001 — Exposition Unknown Pleasures à Macclesfield Silk Museum et campagne pour renommer Epping Walk Bridge en hommage à Ian Curtis.
 - CHR-S31-1978-05-001 — Premières soirées The Factory / Factory Show selon Allegri ; émergence d’un dispositif local de production culturelle.
 - CHR-S31-1982-001 — Ouverture de The Haçienda ; Allegri la relie à l’héritage Factory et au Formulaire situationniste pour un nouveau urbanisme.
-- CHR-S31-2021-001 — Publication du chapitre de Giuseppe Allegri dans Our Vision Touched the Sky.
-- CHR-S56-1978-04-15-001 — Tony Wilson entend Joy Division au Rafters de Manchester ; Barone mobilise cet épisode à partir de Savage pour discuter la formule lumineuse du titre original.
-- CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
-- CHR-S56-2018-001 — Publication de We Were Strangers, recueil de nouvelles inspirées par les titres d’Unknown Pleasures.
-- CHR-S56-2021-001 — Publication du chapitre de Linda Barone dans Our Vision Touched the Sky.
 
 ## 9. Personnes et acteurs
 
@@ -412,6 +413,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S51-002 — Mark Leckey
 - PERS-S51-003 — Hito Steyerl
 - PERS-S51-004 — Aby Warburg
+- PERS-S58-001 — Emiliano Ilardi
+- PERS-S58-002 — Peter Hook
+- PERS-S58-003 — Bernard Sumner
+- PERS-S58-006 — Martin Hannett
 - PERS-S52-001 — Andrea Rabbito
 - PERS-S52-002 — Anton Corbijn
 - PERS-S52-003 — Sam Riley
@@ -444,15 +449,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S77-005 — Liz Naylor
 - PERS-S77-006 — Cath Carroll
 - PERS-S77-008 — Paul Morley
-- PERS-S77-009 — Penny Rimbaud
-- PERS-S77-010 — Lucy Toothpaste / Lucy Whitman
-- PERS-S57-001 — Massimo Villani
-- PERS-S57-002 — Maurice Blanchot
 
 ## 10. Chansons rattachées
 
 - SONG-S51-DIGITAL — Digital
 - SONG-S51-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S58-BLUE-MONDAY — Blue Monday
+- SONG-S58-DIGITAL — Digital
 - SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S55-JOY_DIVISION — Joy Division
 - SONG-S50-SHADOWPLAY — Shadowplay
@@ -571,9 +574,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (22)
 - Annik Honoré (18)
 - Rob Gretton (17)
-- prudence (15)
-- Factory (14)
-- Unknown Pleasures (12)
+- prudence (16)
+- Factory (15)
+- Unknown Pleasures (13)
+- Haçienda (10)
 - Ian Curtis (10)
 - Peter Saville (10)
 - Buzzcocks tour (9)
@@ -584,7 +588,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fatigue (8)
 - Manchester (7)
 - She’s Lost Control (7)
-- Haçienda (7)
 - Electric Circus (7)
 - Paul Morley (7)
 - NME (6)
@@ -592,13 +595,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Atmosphere (6)
 - Plan K (6)
 - Still (6)
+- Hannett (6)
 - Gretton (6)
+- acid house (5)
 - New Order (5)
 - Burroughs (5)
 - Sex Pistols (5)
 - Durutti Column (5)
 - Rafters (5)
-- Hannett (5)
 - Sordide Sentimental (5)
 - mémoire (5)
 - Closer (5)
@@ -607,7 +611,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
-- YouTube (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -698,9 +701,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 37 |
+| concept_structurant | 38 |
 | analyse | 35 |
-| prudence_methodologique | 30 |
+| prudence_methodologique | 31 |
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
@@ -712,9 +715,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive | 10 |
 | reception_poll | 10 |
 | motif_structurant | 9 |
+| scene_fondatrice | 9 |
 | production | 8 |
 | contrepoint | 8 |
-| scene_fondatrice | 8 |
 | lecture | 8 |
 | methode | 7 |
 | sociologie | 7 |
@@ -831,6 +834,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | synthese_critique | 2 |
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
+| synthese_conceptuelle | 2 |
 | mythe_a_deconstruire | 2 |
 | analyse_chanson | 2 |
 | acteur_interpretatif | 2 |
@@ -1075,6 +1079,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | evenement_symbolique | 1 |
 | figure_mythique | 1 |
 | performance_sensible | 1 |
+| economie_culturelle | 1 |
+| probleme_historique | 1 |
+| matrice_politique_culturelle | 1 |
+| espace_culturel | 1 |
+| concept_mediologique | 1 |
+| filiation_sonore | 1 |
+| production_sonore | 1 |
+| contre_mythe | 1 |
 | lecture_generationnelle | 1 |
 | evenement_audiovisuel | 1 |
 | comparaison_generations | 1 |
@@ -1088,7 +1100,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_graphique | 1 |
 | media_trace | 1 |
 | motif_textuel | 1 |
-| synthese_conceptuelle | 1 |
 | appreciation_critique | 1 |
 | reseau_sources | 1 |
 | critique_filmique | 1 |
@@ -1252,8 +1263,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 378 |
-| majeure | 105 |
+| critique | 388 |
+| majeure | 107 |
 | majeur | 28 |
 | utile | 15 |
 | structurante | 2 |

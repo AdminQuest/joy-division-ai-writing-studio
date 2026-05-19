@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-19T15:55:37"
+generated_at: "2026-05-19T16:23:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 400 |
+| Atomes | 401 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -50,6 +50,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S55 | S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 | 2 | 2 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 7 | 1 |
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 3 | 1 |
+| S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 1 | 0 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 3 | 1 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
@@ -837,6 +838,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | figure_mythique | 1 |
+| contre_mythe | 1 |
 | analyse_performance | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
@@ -924,7 +926,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 239 |
+| critique | 240 |
 | non qualifiée | 110 |
 | majeure | 33 |
 | majeur | 12 |
