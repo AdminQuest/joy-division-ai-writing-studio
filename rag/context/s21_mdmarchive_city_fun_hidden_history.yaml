@@ -5,7 +5,15 @@ source_path: "sources/mdmarchive_city_fun_hidden_history/source_part_01.md"
 relations_path: "sources/mdmarchive_city_fun_hidden_history/relations_s21.md"
 structuring_registers_path: "registers/s21_mdmarchive_city_fun_structuring_registers.md"
 specialized_registers_path: "registers/s21_mdmarchive_city_fun_specialized_registers.md"
-master_docs_addendum_path: "chapters/addenda/s21_dm_addendum_mdmarchive_city_fun.md"
+chapter_source_notes_paths:
+  - "chapters/02/source_notes_s21_s42.md"
+  - "chapters/03/source_notes_s21_s42_s53_s54.md"
+  - "chapters/07/source_notes_s21_s42.md"
+  - "chapters/08/source_notes_s21_s42.md"
+  - "chapters/09/source_notes_s21_s42.md"
+  - "chapters/10/source_notes_s21_s42_s52_s53_s54.md"
+  - "chapters/13/source_notes_s21_s42_s52_s53.md"
+  - "chapters/14/source_notes_s21_s42_s52_s53_s54.md"
 rag_fragments_path: "rag/fragments/s21_mdmarchive_city_fun_hidden_history.jsonl"
 status: "integrated_manual_pass_pending_generated_exports"
 coverage:
@@ -21,6 +29,7 @@ primary_chapters:
 secondary_chapters:
   - "Chapitre 3"
   - "Chapitre 10"
+  - "Chapitre 13"
 key_atoms:
   - S21-A001
   - S21-A002
