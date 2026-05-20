@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 144 |
+| Atomes | 145 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 52 |
 | Événements chronologiques | 24 |
 | Personnes | 46 |
 | Chansons | 13 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -57,6 +57,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 19 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 0 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 15 | 11 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -454,6 +455,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - urban alienation (2)
 - Factory Records (2)
 - noir et blanc (2)
+- appendice (1)
+- version alternative (1)
+- archive (1)
+- contexte materiel (1)
 - j g ballard (1)
 - paysages de ruine (1)
 - ballardian manchester (1)
@@ -501,10 +506,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - couleur contre smog (1)
 - déclassement retour (1)
 - Ian Curtis (1)
-- Tony Wilson (1)
-- échec (1)
-- romantisme industriel (1)
-- Russell Club (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -661,6 +662,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | demythification | 2 |
 | acteur_interpretatif | 2 |
 | contexte_social | 2 |
+| architecture_archive | 1 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | lieu_studio | 1 |
@@ -743,7 +745,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | critique | 72 |
-| majeure | 43 |
+| majeure | 44 |
 | non qualifiée | 24 |
 | majeur | 3 |
 | critique pour Chapitre 3 | 1 |

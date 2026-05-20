@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1158 |
+| Atomes | 1168 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
 | Personnes | 152 |
 | Chansons | 34 |
-| Sources mobilisées | 53 |
+| Sources mobilisées | 54 |
 
 ## 4. Sources mobilisées
 
@@ -87,6 +87,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 16 | 10 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 10 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -524,12 +525,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - rob gretton (9)
 - Closer (9)
 - authenticité (9)
+- archive (8)
 - suicide (8)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
 - Warsaw (8)
-- archive (7)
 - Bernard Sumner (7)
 - Martin Hannett (7)
 - Peter Hook (7)
@@ -566,12 +567,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Birmingham University (5)
 - culte (5)
 - réception posthume (4)
+- canonisation (4)
 - sonic hauntology (4)
 - no future (4)
 - fanzine (4)
 - paul morley (4)
 - télévision (4)
-- 1982 (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -881,6 +882,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | periodisation_mediatique | 1 |
 | canon_visuel | 1 |
 | reception_fan | 1 |
+| source_canonique_songbook | 1 |
+| cadrage_corpus | 1 |
+| genealogie_editoriale | 1 |
+| lacune_documentaire | 1 |
+| attribution_textuelle | 1 |
+| materialite_documentaire | 1 |
+| prudence_chronologique | 1 |
+| sequence_carnets | 1 |
+| methode_genetique | 1 |
+| architecture_archive | 1 |
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
 | prudence_temoin | 1 |
@@ -1306,8 +1317,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 421 |
-| majeure | 127 |
+| critique | 427 |
+| majeure | 131 |
 | majeur | 28 |
 | utile | 18 |
 | structurante | 2 |

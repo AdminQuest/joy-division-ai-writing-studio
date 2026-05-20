@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 303 |
+| Atomes | 304 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 36 |
 | Personnes | 32 |
 | Chansons | 11 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -61,6 +61,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 9 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 13 | 9 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 2 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -463,6 +464,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - richard boon (2)
 - paradiso (2)
 - france (2)
+- archive (2)
 - survivance corporelle (2)
 - filiation oblique (2)
 - seuil sonore (2)
@@ -501,7 +503,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - honneur ambigu (1)
 - provocation documentée (1)
 - économie domestique du disque (1)
-- matérialité financière (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -681,6 +682,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | concept_sociologique | 1 |
 | renversement_question | 1 |
 | prudence_documentaire | 1 |
+| architecture_archive | 1 |
 | concept_theorique | 1 |
 | mediation_audiovisuelle | 1 |
 | atome_pont_document_maitre | 1 |
@@ -804,7 +806,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 |---|---|
 | critique | 138 |
 | non qualifiée | 123 |
-| majeure | 19 |
+| majeure | 20 |
 | majeur | 18 |
 | utile | 2 |
 | critique pour Chapitre 8 | 1 |

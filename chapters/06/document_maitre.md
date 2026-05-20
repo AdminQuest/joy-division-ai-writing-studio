@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 477 |
+| Atomes | 485 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 47 |
 | Personnes | 53 |
 | Chansons | 33 |
-| Sources mobilisées | 26 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -60,6 +60,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 91 | 43 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 8 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -536,14 +537,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - birmingham (2)
 - ceremony (2)
 - decades (2)
+- carnets (2)
+- chronologie relative (2)
 - stabilisation rythmique (2)
 - Sordide Sentimental (2)
 - Manchester (2)
 - Granada TV (2)
 - Colony (2)
 - The Kill (2)
-- Stephen Morris (2)
-- tracklist (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -783,6 +784,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_live_sante | 1 |
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
+| source_canonique_songbook | 1 |
+| cadrage_corpus | 1 |
+| lacune_documentaire | 1 |
+| attribution_textuelle | 1 |
+| materialite_documentaire | 1 |
+| prudence_chronologique | 1 |
+| sequence_carnets | 1 |
+| methode_genetique | 1 |
 | tension_sante | 1 |
 | tension_industrie | 1 |
 | transition_nominale | 1 |
@@ -956,10 +965,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 237 |
+| critique | 243 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 32 |
+| majeure | 34 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

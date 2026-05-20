@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 293 |
+| Atomes | 301 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 51 |
 | Événements chronologiques | 29 |
 | Personnes | 51 |
 | Chansons | 14 |
-| Sources mobilisées | 34 |
+| Sources mobilisées | 35 |
 
 ## 4. Sources mobilisées
 
@@ -68,6 +68,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 8 | 5 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 8 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -450,6 +451,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - ian curtis (4)
 - new order (4)
 - suicide (4)
+- archive (3)
 - postérité (3)
 - mythe Curtis (3)
 - Closer (3)
@@ -463,6 +465,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - ceremony (2)
 - tournée américaine (2)
 - still (2)
+- carnets (2)
+- chronologie relative (2)
 - epilepsie (2)
 - Rainbow Theatre (2)
 - stroboscopes (2)
@@ -475,7 +479,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - foyer (2)
 - deuil (2)
 - Factory (2)
-- archive (2)
 - Love Will Tear Us Apart (2)
 - rainbow theatre (2)
 - moonlight club (2)
@@ -520,8 +523,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Curtis être de passage (1)
 - crédit domestique transféré (1)
 - économie asymétrique de tournée (1)
-- épouse exclue / maîtresse financée (1)
-- dissimulation collective locale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -732,6 +733,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | periodisation_mediatique | 1 |
 | reception_fan | 1 |
 | santé | 1 |
+| source_canonique_songbook | 1 |
+| genealogie_editoriale | 1 |
+| lacune_documentaire | 1 |
+| materialite_documentaire | 1 |
+| prudence_chronologique | 1 |
+| sequence_carnets | 1 |
+| methode_genetique | 1 |
+| architecture_archive | 1 |
 | chanson_conceptuelle | 1 |
 | scene_mythographique | 1 |
 | processus_creatif | 1 |
@@ -838,9 +847,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 159 |
+| critique | 164 |
 | non qualifiée | 82 |
-| majeure | 26 |
+| majeure | 29 |
 | majeur | 24 |
 | utile | 2 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:04:27"
+generated_at: "2026-05-20T10:33:27"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 361 |
+| Atomes | 362 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 75 |
 | Événements chronologiques | 44 |
 | Personnes | 49 |
 | Chansons | 11 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -58,6 +58,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 83 | 58 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 3 | 2 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -717,6 +718,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | strategie_mediatique | 1 |
 | seuil_identitaire | 1 |
 | canon_visuel | 1 |
+| architecture_archive | 1 |
 | modernisme_litteraire | 1 |
 | paroles_source | 1 |
 | transition_nominale | 1 |
@@ -868,7 +870,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 197 |
 | critique | 121 |
-| majeure | 35 |
+| majeure | 36 |
 | majeur | 4 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

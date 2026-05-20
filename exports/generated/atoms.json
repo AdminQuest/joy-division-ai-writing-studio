@@ -14164,6 +14164,309 @@
   },
   {
     "kind": "atom",
+    "id": "S79-A001",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A001 — S79 comme source canonique du Songbook",
+    "data": {
+      "id": "S79-A001",
+      "source_id": "S79",
+      "type_unite": "source_canonique_songbook",
+      "importance": "critique",
+      "pages_pdf": "29-30",
+      "pages_livre": "xxix-xxx",
+      "concepts": [
+        "source canonique",
+        "Songbook",
+        "documents autographes",
+        "appareil editorial"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A002",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A002 — Périmètre éditorial du corpus Joy Division",
+    "data": {
+      "id": "S79-A002",
+      "source_id": "S79",
+      "type_unite": "cadrage_corpus",
+      "importance": "critique",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "corpus Joy Division",
+        "canon textuel",
+        "perimetre"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A003",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A003 — Continuité avec des publications antérieures",
+    "data": {
+      "id": "S79-A003",
+      "source_id": "S79",
+      "type_unite": "genealogie_editoriale",
+      "importance": "majeure",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "publication anterieure",
+        "coffret discographique",
+        "canonisation"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A004",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A004 — Les absences de documents sont des faits documentaires",
+    "data": {
+      "id": "S79-A004",
+      "source_id": "S79",
+      "type_unite": "lacune_documentaire",
+      "importance": "critique",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "document absent",
+        "preuve negative",
+        "lacune"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A005",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A005 — Les attributions doivent être qualifiées titre par titre",
+    "data": {
+      "id": "S79-A005",
+      "source_id": "S79",
+      "type_unite": "attribution_textuelle",
+      "importance": "majeure",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "attribution",
+        "exception",
+        "auteur du texte"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A006",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A006 — Les supports matériels organisent la chronologie relative",
+    "data": {
+      "id": "S79-A006",
+      "source_id": "S79",
+      "type_unite": "materialite_documentaire",
+      "importance": "critique",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "classeur",
+        "carnets",
+        "feuilles libres",
+        "chronologie relative"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A007",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A007 — La datation doit rester prudente",
+    "data": {
+      "id": "S79-A007",
+      "source_id": "S79",
+      "type_unite": "prudence_chronologique",
+      "importance": "critique",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "datation",
+        "chronologie relative",
+        "prudence"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A008",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A008 — Les carnets fournissent une séquence de travail",
+    "data": {
+      "id": "S79-A008",
+      "source_id": "S79",
+      "type_unite": "sequence_carnets",
+      "importance": "majeure",
+      "pages_pdf": "29",
+      "pages_livre": "xxix",
+      "concepts": [
+        "carnets",
+        "sequence",
+        "maturation"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A009",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A009 — La genèse est fragmentaire et non linéaire",
+    "data": {
+      "id": "S79-A009",
+      "source_id": "S79",
+      "type_unite": "methode_genetique",
+      "importance": "critique",
+      "pages_pdf": "30",
+      "pages_livre": "xxx",
+      "concepts": [
+        "genese",
+        "fragment",
+        "reemploi",
+        "variante"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A010",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+    "heading": "S79-A010 — Les appendices forment deux couches d’archive",
+    "data": {
+      "id": "S79-A010",
+      "source_id": "S79",
+      "type_unite": "architecture_archive",
+      "importance": "majeure",
+      "pages_pdf": "30",
+      "pages_livre": "xxx",
+      "concepts": [
+        "appendice",
+        "version alternative",
+        "archive",
+        "contexte materiel"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2",
     "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
     "heading": "S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism",

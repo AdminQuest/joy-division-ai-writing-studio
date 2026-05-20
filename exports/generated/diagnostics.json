@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-20T10:04:05",
+  "generated_at": "2026-05-20T10:33:08",
   "status": "error",
   "summary": {
-    "records_total": 6201,
+    "records_total": 6212,
     "records_by_kind": {
       "source": 99,
-      "metadata": 176,
-      "atom": 2372,
+      "metadata": 177,
+      "atom": 2382,
       "unknown": 984,
       "concept": 391,
       "motif": 387,
@@ -19,9 +19,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26218,
+    "diagnostics_total": 26338,
     "errors": 0,
-    "warnings": 26218,
+    "warnings": 26338,
     "sources_declared_in_registre_json": 73,
     "sources_used_in_records": 60,
     "sources_exported": 60,
@@ -1593,11 +1593,12 @@
         "auteur": "Ian Curtis",
         "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
         "annee": "2014",
-        "records": 1,
-        "atoms": 0,
+        "records": 12,
+        "atoms": 10,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
           "sources/curtis_savage_so_this_is_permanence/source.md"
         ]
       }
@@ -15211,6 +15212,726 @@
       "file": "sources/marco_broll/source.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "S68-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: source_canonique_songbook",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: cadrage_corpus",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: genealogie_editoriale",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: lacune_documentaire",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: attribution_textuelle",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: materialite_documentaire",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: prudence_chronologique",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: sequence_carnets",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: methode_genetique",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Invalid value for type_unite: architecture_archive",
+      "record_id": "S79-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A010"
     },
     {
       "level": "warning",
