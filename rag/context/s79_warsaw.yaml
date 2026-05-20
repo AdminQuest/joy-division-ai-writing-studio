@@ -1,0 +1,32 @@
+id: RAG-S79-WARSAW
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md"
+relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md"
+coverage:
+  passage: "The handwritten lyrics — Warsaw"
+  pdf_pages: "32-35"
+  book_pages: "2-5"
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 6"
+  - "Chapitre 14"
+key_atoms:
+  - S79-A011
+  - S79-A012
+  - S79-A013
+  - S79-A014
+  - S79-A015
+  - S79-A016
+songbook:
+  song_id: JD-SONG-043
+  canonical_song: "Warsaw"
+  folder: "songs/warsaw/"
+writing_use: >
+  Utiliser ce passage pour traiter Warsaw comme premier document manuscrit du corpus S79,
+  comme pièce du premier âge Warsaw / Joy Division, et comme cas de travail sur le support,
+  la transcription éditée, les motifs courts et le canon élargi du Songbook.
+verification_rules:
+  - "Ne pas reproduire les paroles complètes dans le repo."
+  - "Conserver les transcriptions longues dans local_data/songbook_lyrics/warsaw/full_lyrics.txt."
+  - "Employer uniquement des courts extraits et des notes de motifs dans lyrics_editorial.md."
