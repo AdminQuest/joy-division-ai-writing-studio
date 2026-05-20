@@ -1,0 +1,36 @@
+# Day of the Lords — Sessions et versions enregistrées
+
+```yaml
+id: JD-SONG-011-SESSIONS
+song_id: JD-SONG-011
+type_unite: song_sessions
+canonical_song: "Day of the Lords"
+slug: "day-of-the-lords"
+verification_status: "à renseigner"
+last_update: "2026-05-20"
+```
+
+## 1. Règle d’usage
+
+Ce fichier distingue la chanson canonique de ses versions enregistrées : sessions studio, BBC, Peel, radio, répétitions, démos et prises alternatives.
+
+## 2. Sessions connues
+
+```yaml
+sessions: []
+```
+
+## 3. Versions rattachées
+
+```yaml
+versions: []
+```
+
+## 4. Points de vérification
+
+- date exacte ;
+- studio ou lieu ;
+- producteur / ingénieur ;
+- source primaire ou secondaire ;
+- existence d’une publication officielle ;
+- statut d’une version : studio, Peel, BBC, radio, demo, rehearsal, live.
