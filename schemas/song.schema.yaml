@@ -1,8 +1,9 @@
 schema: song
-version: 1.0
+version: 2.0
 
 description: >
-  Schéma documentaire des chansons et morceaux.
+  Schéma documentaire des chansons et morceaux. La version 2 distingue le registre léger des chansons
+  et les dossiers chanson riches du Songbook critique.
 
 required:
   - song
@@ -47,3 +48,34 @@ warnings:
   - ne pas réduire une chanson à l’autobiographie
   - éviter les analyses purement impressionnistes
   - distinguer texte, production et réception
+
+song_dossier_v2:
+  required:
+    - id
+    - type_unite
+    - canonical_song
+    - slug
+  controlled_type_unite:
+    - song_dossier
+    - song_lyrics
+    - song_sessions
+    - song_live_occurrences
+    - song_releases
+    - song_bootlegs
+    - song_source_notes
+  fields:
+    id: "Identifiant canonique JD-SONG-XXX ou sous-identifiant JD-SONG-XXX-LYRICS / SESSIONS / LIVE / RELEASES / BOOTLEGS / SOURCE-NOTES."
+    canonical_song: "Titre canonique affiché dans le registre public."
+    slug: "Identifiant URL / dossier dans songs/<slug>/."
+    category: "Catégorie : œuvre originale complète ; Warsaw / pré-Joy Division ; démo / répétition ; inédit / instrumental ; terminal Joy Division / transition New Order."
+    period: "Warsaw, Joy Division, Joy Division / New Order."
+    albums: "Occurrences officielles ou corpus de rattachement."
+    aliases: "Variantes de titre à rattacher au titre canonique."
+    include_variants: "Types de variantes acceptées : studio, single, album, Peel, BBC, live, demo, rehearsal, lyrics_divergence, instrumental."
+    verification_status: "Niveau de consolidation du dossier."
+  rules:
+    - "Une chanson canonique n’est pas une version."
+    - "Une version n’est pas une occurrence discographique ou live."
+    - "Une occurrence bootleg ne vaut pas preuve autonome sans source et vérification."
+    - "Les paroles complètes doivent rester dans lyrics.md avec source et statut de vérification."
+    - "Les citations longues de paroles ne doivent pas être réinjectées dans les atomes."
