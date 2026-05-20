@@ -1,0 +1,52 @@
+{
+  "id": "S79",
+  "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+  "auteur": "Ian Curtis",
+  "editeurs": [
+    "Deborah Curtis",
+    "Jon Savage"
+  ],
+  "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
+  "annee": "2014",
+  "reference_complete": "Curtis, Ian. So This Is Permanence: Joy Division Lyrics and Notebooks. Edited by Deborah Curtis and Jon Savage. San Francisco: Chronicle Books, 2014. First published in Great Britain by Faber & Faber, 2014.",
+  "nature": "ouvrage canonique / paroles / carnets / fac-similés / appareil éditorial",
+  "statut": "verifie",
+  "fiabilite": "forte pour les textes édités, fac-similés et l’appareil éditorial ; interprétation biographique à croiser",
+  "usage": [
+    "Songbook Joy Division",
+    "paroles de référence",
+    "variantes textuelles",
+    "carnets et brouillons",
+    "fac-similés manuscrits",
+    "chronologie d’écriture",
+    "notes éditoriales",
+    "sources littéraires de Curtis",
+    "matérialité des manuscrits"
+  ],
+  "chapitres": [
+    "Chapitre 3",
+    "Chapitre 6",
+    "Chapitre 10",
+    "Chapitre 11",
+    "Chapitre 12",
+    "Chapitre 14"
+  ],
+  "chapitres_secondaires": [
+    "Chapitre 1",
+    "Chapitre 2",
+    "Chapitre 5",
+    "Chapitre 7",
+    "Chapitre 8",
+    "Chapitre 13"
+  ],
+  "dossier_source": "sources/curtis_savage_so_this_is_permanence/",
+  "fichier_source_local": "local_data/sources/S79/Ian Curtis - So This is Permanence (optimise).pdf",
+  "source_origin": [
+    "fichier utilisateur",
+    "source locale non versionnée",
+    "Songbook"
+  ],
+  "niveau_preuve": "source canonique de référence pour les paroles et manuscrits",
+  "arbitrage": "S79 est la source canonique de référence pour les paroles, manuscrits, brouillons, variantes et notes éditoriales d’Ian Curtis. Les transcriptions longues destinées au travail personnel restent dans l’espace local non versionné ; le repo conserve l’appareil critique, les courts extraits, les variantes décrites, les motifs et les liens au Songbook.",
+  "prudence": "Distinguer Ian Curtis comme auteur et Deborah Curtis / Jon Savage comme éditeurs. Ne pas confondre texte édité, fac-similé, brouillon, variante et note préparatoire. Ne pas utiliser S79 comme source unique d’interprétation psychologique. Qualifier les absences de manuscrits comme absences documentaires."
+}
