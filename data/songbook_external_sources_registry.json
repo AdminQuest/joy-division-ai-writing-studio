@@ -1,0 +1,102 @@
+{
+  "type_unite": "songbook_external_sources_registry",
+  "version": "1.0",
+  "status": "step_6_external_sources_framework",
+  "updated_at": "2026-05-20",
+  "scope": "Sources externes mobilisables pour enrichir les dossiers chanson Joy Division / Warsaw",
+  "rules": [
+    "Ne jamais importer une donnée externe sans source_id externe, URL ou référence bibliographique, date de consultation et statut de vérification.",
+    "Distinguer source de repérage, source discographique, source de paroles, source de setlist, source bootleg et source officielle.",
+    "Ne pas confondre occurrence de chanson, version enregistrée, publication officielle et bootleg.",
+    "Les paroles complètes ne doivent être intégrées qu’après vérification sur une source autorisée ou un livre de paroles atomisé.",
+    "Les bootlegs issus de la collection personnelle doivent être rattachés à un fichier source et, si possible, à une date de concert."
+  ],
+  "trust_levels": {
+    "A": "source officielle, livret officiel, édition discographique contrôlée, source primaire ou archive institutionnelle",
+    "B": "site spécialisé très utile mais à recouper ; base discographique robuste ; source de repérage avancé",
+    "C": "source fan, bootleg, transcription non officielle, donnée à confirmer",
+    "D": "indice faible ou non vérifié"
+  },
+  "external_sources": [
+    {
+      "external_source_id": "EXT-JOYDIV-ORG",
+      "label": "JoyDiv.org",
+      "url": "https://www.joydiv.org/",
+      "type": ["site_specialise", "discographie", "concerts", "sessions", "chansons"],
+      "trust_level": "B",
+      "use_for": ["repérage des concerts", "repérage des versions", "discographie", "setlists à vérifier"],
+      "limits": ["site spécialisé non institutionnel", "données à recouper avant consolidation finale"],
+      "consultation_status": "à consulter titre par titre"
+    },
+    {
+      "external_source_id": "EXT-JOYD-SONGS-EPIZY",
+      "label": "Joy Division — songs pages / joyd_songs",
+      "url": "https://joydivision.epizy.com/joyd_songs.html?i=1",
+      "type": ["site_specialise", "chansons", "paroles", "versions"],
+      "trust_level": "B",
+      "use_for": ["repérage des titres", "repérage des paroles ou variantes", "première cartographie des versions"],
+      "limits": ["à vérifier contre sources imprimées et livrets", "ne pas recopier automatiquement les paroles"],
+      "consultation_status": "à consulter titre par titre"
+    },
+    {
+      "external_source_id": "EXT-DISCOGS-JD",
+      "label": "Discogs — Joy Division artist page",
+      "url": "https://www.discogs.com/artist/3898-Joy-Division",
+      "type": ["base_discographique", "releases", "editions", "catalogue"],
+      "trust_level": "B",
+      "use_for": ["références de sorties", "formats", "labels", "numéros de catalogue", "variantes d’édition"],
+      "limits": ["base collaborative", "à croiser avec livrets et éditions officielles"],
+      "consultation_status": "à consulter release par release"
+    },
+    {
+      "external_source_id": "EXT-JD-OFFICIAL",
+      "label": "Joy Division official site",
+      "url": "https://www.joydivisionofficial.com/",
+      "type": ["site_officiel", "discographie", "actualité_catalogue"],
+      "trust_level": "A",
+      "use_for": ["discographie officielle", "rééditions", "informations publiques contrôlées"],
+      "limits": ["niveau de détail potentiellement limité", "ne remplace pas les livrets"],
+      "consultation_status": "à consulter pour contrôle officiel"
+    },
+    {
+      "external_source_id": "EXT-BBC-PEEL",
+      "label": "BBC / Peel Sessions references",
+      "url": "https://www.bbc.co.uk/",
+      "type": ["archive_radio", "sessions", "diffusion"],
+      "trust_level": "A",
+      "use_for": ["dates de sessions", "dates de diffusion", "lieux BBC", "versions radio"],
+      "limits": ["pages exactes à identifier", "à compléter par livrets et bases spécialisées"],
+      "consultation_status": "à rechercher par session"
+    },
+    {
+      "external_source_id": "EXT-OFFICIAL-BOOKLETS",
+      "label": "Livrets officiels et éditions physiques",
+      "url": "LOCAL_OR_PHYSICAL_SOURCE",
+      "type": ["livret_officiel", "source_discographique", "sessionography"],
+      "trust_level": "A",
+      "use_for": ["crédits", "sessions", "dates", "lieux", "versions", "catalogue"],
+      "limits": ["nécessite numérisation ou saisie manuelle contrôlée"],
+      "consultation_status": "à constituer depuis la collection"
+    },
+    {
+      "external_source_id": "EXT-LYRICS-BOOK",
+      "label": "Livre de paroles à atomiser",
+      "url": "PHYSICAL_OR_UPLOADED_SOURCE_PENDING",
+      "type": ["paroles", "variantes", "source_imprimee"],
+      "trust_level": "A",
+      "use_for": ["paroles de référence", "variantes textuelles", "statut des fragments citables"],
+      "limits": ["à atomiser avant intégration", "vérifier édition et pagination"],
+      "consultation_status": "source à intégrer"
+    },
+    {
+      "external_source_id": "EXT-PERSONAL-BOOTLEGS",
+      "label": "Collection personnelle de bootlegs Joy Division",
+      "url": "PRIVATE_COLLECTION",
+      "type": ["bootlegs", "collection_personnelle", "versions_live"],
+      "trust_level": "C",
+      "use_for": ["repérage des versions bootleg", "présence d’un titre dans un bootleg", "croisement avec ventes et fichiers alphabétiques"],
+      "limits": ["à rattacher à une date, une source et un fichier de collection", "ne vaut pas preuve sans recoupement"],
+      "consultation_status": "à intégrer progressivement"
+    }
+  ]
+}
