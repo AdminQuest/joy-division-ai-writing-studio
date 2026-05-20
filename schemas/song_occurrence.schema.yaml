@@ -1,0 +1,50 @@
+schema: song_occurrence
+version: 1.0
+
+description: >
+  Schéma des occurrences d’une chanson ou d’une version : publication officielle, compilation,
+  concert, session radio, bootleg, archive, collection personnelle.
+
+required:
+  - occurrence_id
+  - song_id
+  - canonical_song
+  - occurrence_type
+
+fields:
+  occurrence_id: "Identifiant stable : JD-SONG-XXX-REL-001, JD-SONG-XXX-LIVE-OCC-YYYYMMDD-001, JD-SONG-XXX-BOOT-001."
+  song_id: "Identifiant canonique JD-SONG-XXX."
+  canonical_song: "Titre canonique."
+  version_id: "Version rattachée, si connue."
+  occurrence_type: "official_release | compilation | single | album | live_event | bootleg | radio_broadcast | archive | personal_collection."
+  title: "Titre de l’objet contenant l’occurrence : album, single, bootleg, concert, émission."
+  date: "Date de publication, concert, diffusion ou acquisition, au format ISO si possible."
+  place: "Lieu du concert ou de la session, si applicable."
+  catalogue: "Référence catalogue officielle ou bootleg, si applicable."
+  track_position: "Position de piste ou rang dans la setlist."
+  source_ids: "Sources justificatives."
+  verification_status: "verifie | a_verifier | conflit | hypothese."
+  notes: "Prudences, contradictions, arbitrages."
+
+controlled_values:
+  occurrence_type:
+    - official_release
+    - compilation
+    - single
+    - album
+    - live_event
+    - bootleg
+    - radio_broadcast
+    - archive
+    - personal_collection
+  verification_status:
+    - verifie
+    - a_verifier
+    - conflit
+    - hypothese
+
+rules:
+  - "Une occurrence ne crée pas une chanson nouvelle."
+  - "Une occurrence bootleg doit être reliée à un bootleg_id et, si possible, à un live_event_id."
+  - "Une occurrence live doit être rattachée à un événement daté, même si la date reste à vérifier."
+  - "Les doublons entre release officielle et bootleg doivent être signalés."
