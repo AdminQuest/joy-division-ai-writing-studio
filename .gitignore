@@ -5,6 +5,10 @@ sources/**/*.pdf
 sources/**/scans/
 sources/**/raw/
 
+# Local-only workspaces
+local_data/
+local_exports/
+
 # Generated exports
 exports/generated/
 
