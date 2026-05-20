@@ -1,0 +1,56 @@
+schema: song_external_evidence
+version: 1.0
+
+description: >
+  Schéma des preuves externes mobilisées pour enrichir les dossiers chanson Joy Division / Warsaw.
+  Une preuve externe ne consolide pas automatiquement une donnée : elle doit être qualifiée, datée et recoupée.
+
+required:
+  - evidence_id
+  - song_id
+  - canonical_song
+  - external_source_id
+  - evidence_type
+  - verification_status
+
+fields:
+  evidence_id: "Identifiant stable : JD-SONG-XXX-EXT-001."
+  song_id: "Identifiant canonique JD-SONG-XXX."
+  canonical_song: "Titre canonique."
+  external_source_id: "Identifiant déclaré dans data/songbook_external_sources_registry.json."
+  evidence_type: "lyrics | session | release | live_occurrence | bootleg | bibliography | image | contradiction."
+  url: "URL directe ou LOCAL_OR_PHYSICAL_SOURCE si source physique."
+  consulted_at: "Date de consultation ISO."
+  extracted_claim: "Donnée extraite sous forme courte et paraphrasée."
+  target_file: "Fichier Songbook à enrichir : lyrics.md, sessions.md, releases.md, live_occurrences.md, bootlegs.md ou source_notes.md."
+  trust_level: "A | B | C | D."
+  verification_status: "to_check | checked | conflicting | rejected."
+  crosscheck_required: "true | false."
+  notes: "Prudences, limites, arbitrages."
+
+controlled_values:
+  evidence_type:
+    - lyrics
+    - session
+    - release
+    - live_occurrence
+    - bootleg
+    - bibliography
+    - image
+    - contradiction
+  trust_level:
+    - A
+    - B
+    - C
+    - D
+  verification_status:
+    - to_check
+    - checked
+    - conflicting
+    - rejected
+
+rules:
+  - "Toute preuve externe doit citer sa source et sa date de consultation."
+  - "Les sources de niveau B ou C doivent être recoupées avant consolidation finale."
+  - "Les paroles complètes ne doivent pas être importées automatiquement depuis internet."
+  - "Un bootleg doit être relié à un bootleg_id et si possible à un concert ou une session."
