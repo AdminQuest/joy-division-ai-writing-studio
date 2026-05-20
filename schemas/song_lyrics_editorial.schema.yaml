@@ -1,0 +1,36 @@
+schema: song_lyrics_editorial
+version: 1.0
+
+description: >
+  Schéma de sortie éditoriale construite depuis un dossier local non versionné contenant les paroles complètes.
+  Le repo ne conserve que l’appareil critique : source, courts extraits, variantes décrites, motifs, notes et prudences.
+
+required:
+  - id
+  - song_id
+  - canonical_song
+  - type_unite
+  - verification_status
+
+fields:
+  id: "Identifiant : JD-SONG-XXX-LYRICS-EDITORIAL."
+  song_id: "Identifiant canonique JD-SONG-XXX."
+  canonical_song: "Titre canonique."
+  slug: "Dossier chanson."
+  type_unite: "song_lyrics_editorial"
+  canonical_lyrics_source: "Source canonique des paroles : source_id ou référence locale."
+  source_page: "Page, item ou localisation dans la source canonique."
+  full_lyrics_local_path: "Chemin local indicatif non versionné, jamais lu par l’app publique."
+  completeness: "complete_local_not_versioned | partial | unknown."
+  short_excerpts: "Fragments courts exploitables pour commentaire critique."
+  variants: "Variantes décrites sans reproduction intégrale."
+  motifs: "Motifs lyriques ou lexicaux."
+  editorial_notes: "Notes de signification et prudences."
+  chapters: "Chapitres liés."
+  verification_status: "a_verifier | verifie | conflit | rejeté."
+
+rules:
+  - "Ne jamais versionner les paroles complètes."
+  - "Ne pas recopier dans le repo un couplet, une chanson entière ou une large portion substantielle."
+  - "Les courts extraits doivent être strictement utiles à l’analyse."
+  - "Toute variante doit être rattachée à une source ou à une version identifiée."
