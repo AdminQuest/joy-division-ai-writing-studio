@@ -1,0 +1,99 @@
+{
+  "type_unite": "songbook_internal_sources_index",
+  "version": "1.0",
+  "updated_at": "2026-05-20",
+  "input_seed": "data/songbook_priority_seed_v1.json",
+  "input_generated_songs": "exports/generated/songs.json",
+  "priority_songs": [
+    {
+      "priority": 1,
+      "song_id": "JD-SONG-020",
+      "song": "Transmission",
+      "slug": "transmission",
+      "matched_records": 6,
+      "source_notes": "songs/transmission/source_notes.md",
+      "priority_notes": "songs/transmission/priority_notes.md"
+    },
+    {
+      "priority": 2,
+      "song_id": "JD-SONG-016",
+      "song": "Shadowplay",
+      "slug": "shadowplay",
+      "matched_records": 4,
+      "source_notes": "songs/shadowplay/source_notes.md",
+      "priority_notes": "songs/shadowplay/priority_notes.md"
+    },
+    {
+      "priority": 3,
+      "song_id": "JD-SONG-015",
+      "song": "She’s Lost Control",
+      "slug": "shes-lost-control",
+      "matched_records": 7,
+      "source_notes": "songs/shes-lost-control/source_notes.md",
+      "priority_notes": "songs/shes-lost-control/priority_notes.md"
+    },
+    {
+      "priority": 4,
+      "song_id": "JD-SONG-034",
+      "song": "Atmosphere",
+      "slug": "atmosphere",
+      "matched_records": 5,
+      "source_notes": "songs/atmosphere/source_notes.md",
+      "priority_notes": "songs/atmosphere/priority_notes.md"
+    },
+    {
+      "priority": 5,
+      "song_id": "JD-SONG-035",
+      "song": "Love Will Tear Us Apart",
+      "slug": "love-will-tear-us-apart",
+      "matched_records": 5,
+      "source_notes": "songs/love-will-tear-us-apart/source_notes.md",
+      "priority_notes": "songs/love-will-tear-us-apart/priority_notes.md"
+    },
+    {
+      "priority": 6,
+      "song_id": "JD-SONG-022",
+      "song": "Digital",
+      "slug": "digital",
+      "matched_records": 4,
+      "source_notes": "songs/digital/source_notes.md",
+      "priority_notes": "songs/digital/priority_notes.md"
+    },
+    {
+      "priority": 7,
+      "song_id": "JD-SONG-033",
+      "song": "Dead Souls",
+      "slug": "dead-souls",
+      "matched_records": 3,
+      "source_notes": "songs/dead-souls/source_notes.md",
+      "priority_notes": "songs/dead-souls/priority_notes.md"
+    },
+    {
+      "priority": 8,
+      "song_id": "JD-SONG-009",
+      "song": "Decades",
+      "slug": "decades",
+      "matched_records": 4,
+      "source_notes": "songs/decades/source_notes.md",
+      "priority_notes": "songs/decades/priority_notes.md"
+    },
+    {
+      "priority": 9,
+      "song_id": "JD-SONG-001",
+      "song": "Atrocity Exhibition",
+      "slug": "atrocity-exhibition",
+      "matched_records": 3,
+      "source_notes": "songs/atrocity-exhibition/source_notes.md",
+      "priority_notes": "songs/atrocity-exhibition/priority_notes.md"
+    },
+    {
+      "priority": 10,
+      "song_id": "JD-SONG-010",
+      "song": "Disorder",
+      "slug": "disorder",
+      "matched_records": 6,
+      "source_notes": "songs/disorder/source_notes.md",
+      "priority_notes": "songs/disorder/priority_notes.md"
+    }
+  ]
+}
