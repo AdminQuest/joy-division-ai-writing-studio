@@ -1,0 +1,223 @@
+{
+  "type_unite": "songbook_priority_seed",
+  "version": "1.0",
+  "status": "manual_seed_to_apply",
+  "scope": "Étape 4 — amorçage progressif de dix dossiers chanson prioritaires",
+  "updated_at": "2026-05-20",
+  "principles": [
+    "Ne pas recopier les paroles complètes dans cette passe.",
+    "Créer des axes de vérification, non des certitudes non sourcées.",
+    "Distinguer chanson, version, occurrence, source et commentaire critique.",
+    "Rattacher les titres aux sources internes déjà atomisées avant enrichissement externe."
+  ],
+  "priority_songs": [
+    {
+      "id": "JD-SONG-020",
+      "song": "Transmission",
+      "slug": "transmission",
+      "priority": 1,
+      "chapters": ["Chapitre 2", "Chapitre 3", "Chapitre 6", "Chapitre 7", "Chapitre 14"],
+      "axes": [
+        "single comme seuil de visibilité indépendante",
+        "impératif collectif et motif de transmission",
+        "versions studio, live, Peel/BBC et occurrences télévisuelles à distinguer",
+        "titre pivot pour l’économie Factory / NME / John Peel"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S70", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets officiels", "BBC / Peel session references"],
+      "lyrics_tasks": [
+        "vérifier la version de référence des paroles",
+        "repérer les variantes live ou radio éventuelles",
+        "isoler uniquement les fragments citables utiles au manuscrit"
+      ],
+      "sessions_tasks": [
+        "identifier la session studio du single",
+        "identifier les éventuelles versions Peel/BBC",
+        "distinguer version studio officielle, versions live et versions radiophoniques"
+      ],
+      "releases_tasks": ["single", "Substance", "compilations et coffrets à vérifier"],
+      "live_tasks": ["rattacher les occurrences aux setlists vérifiées", "identifier les performances filmées ou télévisuelles"],
+      "bootlegs_tasks": ["repérer les bootlegs contenant Transmission", "lier chaque occurrence à une date live quand possible"]
+    },
+    {
+      "id": "JD-SONG-016",
+      "song": "Shadowplay",
+      "slug": "shadowplay",
+      "priority": 2,
+      "chapters": ["Chapitre 1", "Chapitre 2", "Chapitre 3", "Chapitre 13", "Chapitre 14"],
+      "axes": [
+        "chanson de seuil spatial et urbain",
+        "objet télévisuel Granada Reports à vérifier",
+        "motifs de ville, centre, errance, attente et disparition",
+        "titre utile pour articuler son, image et Manchester"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S42", "S45", "S46", "S47", "S51", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "archives Granada / So It Goes à vérifier"],
+      "lyrics_tasks": ["vérifier la version album", "repérer les variantes live ou télévisuelles"],
+      "sessions_tasks": ["rattacher Unknown Pleasures", "vérifier les éventuelles versions radio ou live significatives"],
+      "releases_tasks": ["Unknown Pleasures", "compilations et coffrets à vérifier"],
+      "live_tasks": ["repérer les occurrences live dans les setlists structurantes", "vérifier la performance Granada"],
+      "bootlegs_tasks": ["repérer les versions live circulant en bootlegs"]
+    },
+    {
+      "id": "JD-SONG-015",
+      "song": "She’s Lost Control",
+      "slug": "shes-lost-control",
+      "priority": 3,
+      "chapters": ["Chapitre 3", "Chapitre 4", "Chapitre 6", "Chapitre 12", "Chapitre 14"],
+      "axes": [
+        "épilepsie, contrôle et prudence biographique",
+        "différencier texte, interprétation médicale et réception scénique",
+        "versions album, single, live, TV/BBC à distinguer",
+        "motif du corps, du rythme et de la crise"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S51", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets officiels", "BBC / TV references"],
+      "lyrics_tasks": ["vérifier les paroles de référence", "ne pas réduire la chanson à une anecdote médicale", "repérer les variantes single / album / live"],
+      "sessions_tasks": ["distinguer version Unknown Pleasures et version single", "vérifier sessions TV/BBC éventuelles"],
+      "releases_tasks": ["Unknown Pleasures", "single / 12 inch à vérifier", "Substance", "coffrets"],
+      "live_tasks": ["rattacher aux performances où la danse de Curtis est documentée", "qualifier les interprétations rétrospectives"],
+      "bootlegs_tasks": ["repérer les versions live à valeur documentaire forte"]
+    },
+    {
+      "id": "JD-SONG-034",
+      "song": "Atmosphere",
+      "slug": "atmosphere",
+      "priority": 4,
+      "chapters": ["Chapitre 6", "Chapitre 10", "Chapitre 12", "Chapitre 14"],
+      "axes": [
+        "chanson terminale et atmosphère funéraire rétrospective",
+        "rattacher Chance comme alias / titre de travail",
+        "Sordide Sentimental et Licht und Blindheit",
+        "postérité, réemploi et mémoire visuelle"
+      ],
+      "internal_sources_to_mobilize": ["S10", "S37", "S41", "S45", "S46", "S47", "S50", "S58", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "Sordide Sentimental references", "livrets officiels"],
+      "lyrics_tasks": ["vérifier les paroles de référence", "documenter l’alias Chance", "repérer les variantes live éventuelles"],
+      "sessions_tasks": ["identifier session studio et contexte Sordide Sentimental", "vérifier versions live documentées"],
+      "releases_tasks": ["Licht und Blindheit", "Still", "Substance", "rééditions et clips postérieurs à vérifier"],
+      "live_tasks": ["recenser les occurrences live confirmées"],
+      "bootlegs_tasks": ["repérer les versions sous le titre Atmosphere ou Chance"]
+    },
+    {
+      "id": "JD-SONG-035",
+      "song": "Love Will Tear Us Apart",
+      "slug": "love-will-tear-us-apart",
+      "priority": 5,
+      "chapters": ["Chapitre 6", "Chapitre 10", "Chapitre 12", "Chapitre 14"],
+      "axes": [
+        "single posthume et tube paradoxal",
+        "versions Pennine / Strawberry à vérifier et distinguer",
+        "paroles et biographie : prudence maximale",
+        "postérité, cliché, merchandising et canonisation"
+      ],
+      "internal_sources_to_mobilize": ["S10", "S37", "S41", "S45", "S46", "S47", "S58", "S61", "S69", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets officiels", "BBC / radio references"],
+      "lyrics_tasks": ["vérifier la version de référence", "documenter les variantes de versions", "éviter l’autobiographisme simpliste"],
+      "sessions_tasks": ["distinguer Pennine et Strawberry si confirmé", "identifier versions single, radio, live"],
+      "releases_tasks": ["single", "Substance", "compilations", "rééditions"],
+      "live_tasks": ["recenser les occurrences live tardives", "documenter les versions incomplètes ou divergentes"],
+      "bootlegs_tasks": ["repérer versions live et répétitions tardives"]
+    },
+    {
+      "id": "JD-SONG-022",
+      "song": "Digital",
+      "slug": "digital",
+      "priority": 6,
+      "chapters": ["Chapitre 2", "Chapitre 3", "Chapitre 6", "Chapitre 10", "Chapitre 14"],
+      "axes": [
+        "Factory Sample et premier seuil Hannett / Factory",
+        "dernier titre joué en concert selon plusieurs récits à vérifier",
+        "motif digital / disparition / fade away",
+        "objet central pour articuler origine et clôture"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S51", "S58", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets Factory Sample", "BBC / Peel references"],
+      "lyrics_tasks": ["vérifier paroles de référence", "repérer variantes live / BBC"],
+      "sessions_tasks": ["rattacher A Factory Sample", "vérifier Peel/BBC et versions live"],
+      "releases_tasks": ["A Factory Sample", "Still", "Substance", "coffrets"],
+      "live_tasks": ["vérifier le statut de dernier morceau joué", "rattacher à Birmingham / High Hall si confirmé"],
+      "bootlegs_tasks": ["identifier les versions live finales et leurs supports"]
+    },
+    {
+      "id": "JD-SONG-033",
+      "song": "Dead Souls",
+      "slug": "dead-souls",
+      "priority": 7,
+      "chapters": ["Chapitre 6", "Chapitre 7", "Chapitre 10", "Chapitre 12", "Chapitre 14"],
+      "axes": [
+        "Sordide Sentimental / Licht und Blindheit",
+        "références spirituelles, hantise et voix d’outre-monde à manier prudemment",
+        "postérité et reprises à distinguer de l’œuvre originale",
+        "versions studio et live à structurer"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S58", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "Sordide Sentimental references"],
+      "lyrics_tasks": ["vérifier version de référence", "repérer lectures critiques non littérales"],
+      "sessions_tasks": ["identifier session studio et versions live"],
+      "releases_tasks": ["Licht und Blindheit", "Still", "Substance", "coffrets"],
+      "live_tasks": ["recenser occurrences live confirmées"],
+      "bootlegs_tasks": ["repérer versions live et reprises exclues du canon"]
+    },
+    {
+      "id": "JD-SONG-009",
+      "song": "Decades",
+      "slug": "decades",
+      "priority": 8,
+      "chapters": ["Chapitre 6", "Chapitre 10", "Chapitre 11", "Chapitre 12", "Chapitre 14"],
+      "axes": [
+        "clôture de Closer et temporalité générationnelle",
+        "motif de mémoire, jeunesse perdue, cortège et éternel retour",
+        "analyse sonore et synthétique de la fin",
+        "postérité critique forte"
+      ],
+      "internal_sources_to_mobilize": ["S10", "S37", "S41", "S45", "S46", "S47", "S57", "S59", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets Closer / Heart and Soul"],
+      "lyrics_tasks": ["vérifier paroles de référence", "qualifier les motifs sans surinterprétation funéraire"],
+      "sessions_tasks": ["rattacher Britannia Row / Closer si confirmé", "vérifier versions live ou répétitions"],
+      "releases_tasks": ["Closer", "compilations et coffrets"],
+      "live_tasks": ["vérifier si et où le titre est joué live"],
+      "bootlegs_tasks": ["repérer occurrences rares ou absentes"]
+    },
+    {
+      "id": "JD-SONG-001",
+      "song": "Atrocity Exhibition",
+      "slug": "atrocity-exhibition",
+      "priority": 9,
+      "chapters": ["Chapitre 3", "Chapitre 6", "Chapitre 7", "Chapitre 11", "Chapitre 14"],
+      "axes": [
+        "ouverture de Closer et référence Ballard à vérifier",
+        "rythmique disloquée, exposition du corps et spectacle de la catastrophe",
+        "distinction entre source littéraire, titre et interprétation sonore",
+        "titre structurant pour la modernité noire du groupe"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S54", "S57", "S59", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets Closer", "références Ballard"],
+      "lyrics_tasks": ["vérifier paroles de référence", "distinguer référence littéraire et contenu lyrique"],
+      "sessions_tasks": ["rattacher Closer", "vérifier versions live significatives"],
+      "releases_tasks": ["Closer", "compilations et coffrets"],
+      "live_tasks": ["recenser performances live documentées"],
+      "bootlegs_tasks": ["repérer versions live à valeur sonore forte"]
+    },
+    {
+      "id": "JD-SONG-010",
+      "song": "Disorder",
+      "slug": "disorder",
+      "priority": 10,
+      "chapters": ["Chapitre 3", "Chapitre 6", "Chapitre 7", "Chapitre 11", "Chapitre 14"],
+      "axes": [
+        "ouverture de Unknown Pleasures et entrée dans le son Hannett",
+        "motif du trouble, de l’appel sensoriel et de la tension corporelle",
+        "versions album, live, BBC/Peel à vérifier",
+        "titre utile pour présenter l’architecture sonore du premier album"
+      ],
+      "internal_sources_to_mobilize": ["S37", "S41", "S45", "S46", "S47", "S72", "S75", "S76"],
+      "external_sources_to_verify": ["joydiv.org", "discogs", "livrets Unknown Pleasures / Heart and Soul", "BBC / Peel references"],
+      "lyrics_tasks": ["vérifier paroles de référence", "repérer variantes live ou radio éventuelles"],
+      "sessions_tasks": ["rattacher Unknown Pleasures", "vérifier Peel/BBC et versions live"],
+      "releases_tasks": ["Unknown Pleasures", "compilations et coffrets"],
+      "live_tasks": ["recenser occurrences live structurantes"],
+      "bootlegs_tasks": ["identifier bootlegs contenant des versions documentaires utiles"]
+    }
+  ]
+}
