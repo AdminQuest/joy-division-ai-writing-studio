@@ -1,0 +1,136 @@
+{
+  "type_unite": "songbook_external_evidence_index",
+  "version": "1.0",
+  "updated_at": "2026-05-20",
+  "registry": "data/songbook_external_sources_registry.json",
+  "schema": "schemas/song_external_evidence.schema.yaml",
+  "priority_songs": [
+    {
+      "song_id": "JD-SONG-020",
+      "song": "Transmission",
+      "slug": "transmission",
+      "priority": 1,
+      "external_evidence_file": "songs/transmission/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets officiels",
+        "BBC / Peel session references"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-016",
+      "song": "Shadowplay",
+      "slug": "shadowplay",
+      "priority": 2,
+      "external_evidence_file": "songs/shadowplay/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "archives Granada / So It Goes à vérifier"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-015",
+      "song": "She’s Lost Control",
+      "slug": "shes-lost-control",
+      "priority": 3,
+      "external_evidence_file": "songs/shes-lost-control/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets officiels",
+        "BBC / TV references"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-034",
+      "song": "Atmosphere",
+      "slug": "atmosphere",
+      "priority": 4,
+      "external_evidence_file": "songs/atmosphere/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "Sordide Sentimental references",
+        "livrets officiels"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-035",
+      "song": "Love Will Tear Us Apart",
+      "slug": "love-will-tear-us-apart",
+      "priority": 5,
+      "external_evidence_file": "songs/love-will-tear-us-apart/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets officiels",
+        "BBC / radio references"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-022",
+      "song": "Digital",
+      "slug": "digital",
+      "priority": 6,
+      "external_evidence_file": "songs/digital/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets Factory Sample",
+        "BBC / Peel references"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-033",
+      "song": "Dead Souls",
+      "slug": "dead-souls",
+      "priority": 7,
+      "external_evidence_file": "songs/dead-souls/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "Sordide Sentimental references"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-009",
+      "song": "Decades",
+      "slug": "decades",
+      "priority": 8,
+      "external_evidence_file": "songs/decades/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets Closer / Heart and Soul"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-001",
+      "song": "Atrocity Exhibition",
+      "slug": "atrocity-exhibition",
+      "priority": 9,
+      "external_evidence_file": "songs/atrocity-exhibition/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets Closer",
+        "références Ballard"
+      ]
+    },
+    {
+      "song_id": "JD-SONG-010",
+      "song": "Disorder",
+      "slug": "disorder",
+      "priority": 10,
+      "external_evidence_file": "songs/disorder/external_evidence.md",
+      "preferred_external_sources": [
+        "joydiv.org",
+        "discogs",
+        "livrets Unknown Pleasures / Heart and Soul",
+        "BBC / Peel references"
+      ]
+    }
+  ]
+}
