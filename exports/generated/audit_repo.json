@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-20T08:53:28",
+  "generated_at": "2026-05-20T09:27:40",
   "summary": {
-    "records_total": 6200,
+    "records_total": 6201,
     "records_by_kind": {
-      "source": 98,
+      "source": 99,
       "metadata": 176,
       "atom": 2372,
       "unknown": 984,
@@ -21,9 +21,9 @@
     "diagnostics_total": 26218,
     "errors": 0,
     "warnings": 26218,
-    "sources_declared_in_registre_json": 72,
-    "sources_used_in_records": 59,
-    "sources_exported": 59,
+    "sources_declared_in_registre_json": 73,
+    "sources_used_in_records": 60,
+    "sources_exported": 60,
     "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 109,
-    "source": 98,
+    "source": 99,
     "template": 356,
     "unknown": 984
   },
@@ -545,6 +545,9 @@
       "chronology": 11,
       "person": 10,
       "song": 4
+    },
+    "S79": {
+      "source": 1
     }
   },
   "records_by_chapter": {
@@ -10015,6 +10018,20 @@
           "sources/nevarez_how_joy_division_came_to_sound_like_manchester/relations_s78.md",
           "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md",
           "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S79",
+        "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+        "auteur": "Ian Curtis",
+        "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
+        "annee": "2014",
+        "records": 1,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/curtis_savage_so_this_is_permanence/source.md"
         ]
       }
     ]
