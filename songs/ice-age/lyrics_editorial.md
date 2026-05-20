@@ -33,13 +33,16 @@ variants: []
 ## 4. Motifs et champs lexicaux
 
 ```yaml
-motifs: []
+motifs: 
+  - "sequence_carnets"
+  - "chronologie_relative"
 ```
 
 ## 5. Notes éditoriales
 
 ```yaml
-editorial_notes: []
+editorial_notes: 
+  - "S79 signale ce titre dans la séquence relative des carnets. Utiliser comme indice de position documentaire, non comme datation exacte."
 ```
 
 ## 6. Chapitres liés

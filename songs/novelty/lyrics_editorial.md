@@ -33,13 +33,15 @@ variants: []
 ## 4. Motifs et champs lexicaux
 
 ```yaml
-motifs: []
+motifs: 
+  - "attribution_a_qualifier"
 ```
 
 ## 5. Notes éditoriales
 
 ```yaml
-editorial_notes: []
+editorial_notes: 
+  - "S79 signale un statut d’attribution distinct pour ce titre. Qualifier l’auteur du texte avant toute analyse."
 ```
 
 ## 6. Chapitres liés

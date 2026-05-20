@@ -33,13 +33,16 @@ variants: []
 ## 4. Motifs et champs lexicaux
 
 ```yaml
-motifs: []
+motifs: 
+  - "lacune_documentaire"
+  - "manuscrit_absent"
 ```
 
 ## 5. Notes éditoriales
 
 ```yaml
-editorial_notes: []
+editorial_notes: 
+  - "S79 signale l’absence du manuscrit conservé pour ce titre. Traiter comme lacune documentaire, non comme absence d’écriture."
 ```
 
 ## 6. Chapitres liés
