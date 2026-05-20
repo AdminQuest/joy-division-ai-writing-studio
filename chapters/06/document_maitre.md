@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:33:27"
+generated_at: "2026-05-20T11:44:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 485 |
+| Atomes | 491 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 47 |
@@ -60,7 +60,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 91 | 43 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 8 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 14 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -481,6 +481,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Britannia Row (7)
 - rob gretton (7)
 - love will tear us apart (6)
+- Warsaw (6)
 - factory records (6)
 - epilepsie (6)
 - closer (5)
@@ -506,7 +507,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - joy division (4)
 - unknown pleasures (3)
 - tournée américaine (3)
-- Warsaw (3)
 - Something Must Break (3)
 - scène (3)
 - autonomie négociée (3)
@@ -537,14 +537,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - birmingham (2)
 - ceremony (2)
 - decades (2)
+- source canonique (2)
+- Songbook (2)
 - carnets (2)
 - chronologie relative (2)
+- manuscrit (2)
+- anti-téléologie (2)
+- Joy Division (2)
 - stabilisation rythmique (2)
-- Sordide Sentimental (2)
-- Manchester (2)
-- Granada TV (2)
-- Colony (2)
-- The Kill (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -792,6 +792,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | prudence_chronologique | 1 |
 | sequence_carnets | 1 |
 | methode_genetique | 1 |
+| lyrics_reference | 1 |
+| manuscript_materiality | 1 |
+| motif_lyrique | 1 |
+| analyse_motif | 1 |
+| prudence_historique | 1 |
+| songbook_instruction | 1 |
 | tension_sante | 1 |
 | tension_industrie | 1 |
 | transition_nominale | 1 |
@@ -965,10 +971,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 243 |
+| critique | 245 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 34 |
+| majeure | 38 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

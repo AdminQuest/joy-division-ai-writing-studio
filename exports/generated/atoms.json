@@ -14467,6 +14467,204 @@
   },
   {
     "kind": "atom",
+    "id": "S79-A011",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A011 — « Warsaw » ouvre le corpus manuscrit principal",
+    "data": {
+      "id": "S79-A011",
+      "source_id": "S79",
+      "type_unite": "lyrics_reference",
+      "importance": "critique",
+      "pages_pdf": "32-35",
+      "pages_livre": "2-5",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "Warsaw",
+        "premier corpus",
+        "manuscrit",
+        "source canonique"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A012",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A012 — Le fac-similé montre une écriture manuscrite travaillée",
+    "data": {
+      "id": "S79-A012",
+      "source_id": "S79",
+      "type_unite": "manuscript_materiality",
+      "importance": "majeure",
+      "pages_pdf": "32-34",
+      "pages_livre": "2-4",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "fac-simile",
+        "ratures",
+        "support manuscrit",
+        "génétique"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A013",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A013 — La numération fait signe vers le nom même du groupe",
+    "data": {
+      "id": "S79-A013",
+      "source_id": "S79",
+      "type_unite": "motif_lyrique",
+      "importance": "majeure",
+      "pages_pdf": "32-35",
+      "pages_livre": "2-5",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "numération",
+        "code",
+        "Warsaw",
+        "nom de groupe"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "citation_courte": "31G",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A014",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A014 — Le texte travaille la faute, la contradiction et le contact rompu",
+    "data": {
+      "id": "S79-A014",
+      "source_id": "S79",
+      "type_unite": "analyse_motif",
+      "importance": "majeure",
+      "pages_pdf": "35",
+      "pages_livre": "5",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "faute",
+        "contradiction",
+        "contact",
+        "échec relationnel"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A015",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A015 — « Warsaw » appartient au premier âge du groupe sans se réduire à une ébauche",
+    "data": {
+      "id": "S79-A015",
+      "source_id": "S79",
+      "type_unite": "prudence_historique",
+      "importance": "critique",
+      "pages_pdf": "32-35",
+      "pages_livre": "2-5",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "pré-Joy Division",
+        "premier âge",
+        "anti-téléologie"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A016",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+    "heading": "S79-A016 — Le Songbook doit rattacher « Warsaw » à la fois au canon Warsaw et à l’histoire Joy Division",
+    "data": {
+      "id": "S79-A016",
+      "source_id": "S79",
+      "type_unite": "songbook_instruction",
+      "importance": "majeure",
+      "pages_pdf": "32-35",
+      "pages_livre": "2-5",
+      "song_id": "JD-SONG-043",
+      "canonical_song": "Warsaw",
+      "concepts": [
+        "Songbook",
+        "Warsaw",
+        "Joy Division",
+        "canon élargi"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2",
     "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
     "heading": "S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism",

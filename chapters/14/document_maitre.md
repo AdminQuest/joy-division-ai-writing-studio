@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:33:27"
+generated_at: "2026-05-20T11:44:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1168 |
+| Atomes | 1172 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
@@ -87,7 +87,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 16 | 10 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 10 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 14 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -496,8 +496,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - New Order (43)
 - Factory (34)
 - Ian Curtis (30)
+- Joy Division (27)
 - Still (27)
-- Joy Division (26)
 - Unknown Pleasures (22)
 - Peter Saville (21)
 - NME (17)
@@ -515,6 +515,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Manchester (11)
 - martin hannett (11)
 - Ceremony (11)
+- Warsaw (10)
 - Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
@@ -530,7 +531,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
-- Warsaw (8)
 - Bernard Sumner (7)
 - Martin Hannett (7)
 - Peter Hook (7)
@@ -892,6 +892,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | sequence_carnets | 1 |
 | methode_genetique | 1 |
 | architecture_archive | 1 |
+| lyrics_reference | 1 |
+| manuscript_materiality | 1 |
+| prudence_historique | 1 |
+| songbook_instruction | 1 |
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
 | prudence_temoin | 1 |
@@ -1317,8 +1321,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 427 |
-| majeure | 131 |
+| critique | 429 |
+| majeure | 133 |
 | majeur | 28 |
 | utile | 18 |
 | structurante | 2 |

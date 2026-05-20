@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:33:27"
+generated_at: "2026-05-20T11:44:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 300 |
+| Atomes | 301 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 43 |
 | Événements chronologiques | 16 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 31 |
+| Sources mobilisées | 32 |
 
 ## 4. Sources mobilisées
 
@@ -65,6 +65,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -698,6 +699,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_soin_amateur | 1 |
 | prudence_conceptuelle | 1 |
 | santé | 1 |
+| analyse_motif | 1 |
 | depression_politique | 1 |
 | prudence_interpretative | 1 |
 | prudence_temoin | 1 |
@@ -805,7 +807,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | non qualifiée | 133 |
 | critique | 119 |
-| majeure | 38 |
+| majeure | 39 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

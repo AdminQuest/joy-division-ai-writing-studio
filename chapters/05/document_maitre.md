@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:33:27"
+generated_at: "2026-05-20T11:44:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 362 |
+| Atomes | 363 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 75 |
 | Événements chronologiques | 44 |
@@ -58,7 +58,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 83 | 58 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 3 | 2 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -481,6 +481,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - synthétiseur (4)
 - factory records (4)
 - studio (4)
+- Warsaw (3)
 - basse (3)
 - Earcom 2 (3)
 - Joy Division (3)
@@ -505,6 +506,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Martin Rushent (3)
 - contextualisation sans excuse (2)
 - provocation nominale (2)
+- nom de groupe (2)
 - Interzone (2)
 - possession (2)
 - past lives (2)
@@ -519,8 +521,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Stiff Test (2)
 - Chiswick Challenge (2)
 - badges (2)
-- merchandising (2)
-- Richard Boon (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -719,6 +719,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | seuil_identitaire | 1 |
 | canon_visuel | 1 |
 | architecture_archive | 1 |
+| motif_lyrique | 1 |
 | modernisme_litteraire | 1 |
 | paroles_source | 1 |
 | transition_nominale | 1 |
@@ -870,7 +871,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 197 |
 | critique | 121 |
-| majeure | 36 |
+| majeure | 37 |
 | majeur | 4 |
 | utile | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |

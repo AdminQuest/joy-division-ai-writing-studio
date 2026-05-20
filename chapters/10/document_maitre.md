@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T10:33:27"
+generated_at: "2026-05-20T11:44:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 301 |
+| Atomes | 302 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 51 |
 | Événements chronologiques | 29 |
@@ -68,7 +68,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 8 | 5 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 8 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -741,6 +741,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | sequence_carnets | 1 |
 | methode_genetique | 1 |
 | architecture_archive | 1 |
+| manuscript_materiality | 1 |
 | chanson_conceptuelle | 1 |
 | scene_mythographique | 1 |
 | processus_creatif | 1 |
@@ -849,7 +850,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | critique | 164 |
 | non qualifiée | 82 |
-| majeure | 29 |
+| majeure | 30 |
 | majeur | 24 |
 | utile | 2 |
 
