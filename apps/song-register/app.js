@@ -12,6 +12,7 @@ const downloadButton = document.getElementById('download-csv');
 
 let canonicalSongs = [];
 let rawSongRecords = [];
+let lyricsEditorialRecords = [];
 let songGroups = [];
 let sourceLabels = {};
 let aliasIndex = new Map();
@@ -23,7 +24,7 @@ const U = v => DynamicRegisters.uniq(v);
 const sourceIds = item => DynamicRegisters.sourceIds(item);
 const sourceLabel = id => sourceLabels[id] || id || '';
 const chaptersOf = d => A(d.chapters || d.chapitres);
-const rawSongTitle = d => d.song || d.titre || d.title || d.id || '';
+const rawSongTitle = d => d.song || d.titre || d.title || d.canonical_song || d.id || '';
 const typesOf = d => A(d.type || d.type_unite);
 const themesOf = d => A(d.themes || d.keywords || d.motifs || d.related_motifs || d.usage);
 const norm = value => T(value)
@@ -40,16 +41,19 @@ async function loadSongs() {
   try {
     sourceLabels = await DynamicRegisters.sourceLabels();
     const allSongs = await DynamicRegisters.loadRecords({ prefixes: ['registers/songs/', 'registers/', 'sources/'], kinds: ['song'] });
+    const songbookRecords = await DynamicRegisters.loadRecords({ prefixes: ['songs/'] });
+    lyricsEditorialRecords = songbookRecords.filter(item => (item.data || {}).type_unite === 'song_lyrics_editorial');
     canonicalSongs = extractCanonicalSongs(allSongs);
     rawSongRecords = allSongs.filter(item => !isCanonControlRecord(item));
     buildAliasIndexes(canonicalSongs);
-    songGroups = groupSongRecords(canonicalSongs, rawSongRecords);
+    songGroups = groupSongRecords(canonicalSongs, rawSongRecords, lyricsEditorialRecords);
     songGroups.sort((a, b) => a.canonical.song.localeCompare(b.canonical.song, undefined, { numeric: true }));
     hydrateFilters(songGroups);
     render(songGroups);
     const linked = songGroups.reduce((acc, g) => acc + g.records.length, 0);
+    const editorial = songGroups.reduce((acc, g) => acc + g.lyricsEditorial.length, 0);
     const orphan = rawSongRecords.filter(r => !canonicalForRecord(r)).length;
-    statusCard.textContent = canonicalSongs.length + ' titre(s) canoniques Joy Division / Warsaw ; ' + linked + ' mention(s) atomisées rattachée(s) ; ' + orphan + ' mention(s) exclue(s) ou hors canon.';
+    statusCard.textContent = canonicalSongs.length + ' titre(s) canoniques Joy Division / Warsaw ; ' + linked + ' mention(s) atomisées rattachée(s) ; ' + editorial + ' fiche(s) éditoriale(s) lyrics ; ' + orphan + ' mention(s) exclue(s) ou hors canon.';
   } catch (err) {
     console.error(err);
     statusCard.textContent = 'Erreur de chargement dynamique du registre des chansons : ' + err.message;
@@ -87,17 +91,15 @@ function buildAliasIndexes(canon) {
   canon.forEach(song => {
     song.aliases.forEach(alias => aliasIndex.set(norm(alias), song));
   });
-  // aliases explicitly handled as non-canonical display items
   ['blue monday','boredom','love battery','louie louie','sister ray','the passenger'].forEach(x => excludedAliases.set(norm(x), true));
 }
 
 function canonicalForRecord(item) {
   const d = item.data || {};
+  if (d.song_id) return canonicalSongs.find(s => s.id === d.song_id) || null;
   const title = rawSongTitle(d);
   const direct = aliasIndex.get(norm(title));
   if (direct) return direct;
-
-  // Small set of cautious normalizations for known apostrophe / article / punctuation variants.
   const simplified = norm(title).replace(/^the /, '');
   for (const [alias, song] of aliasIndex.entries()) {
     const a = alias.replace(/^the /, '');
@@ -106,16 +108,20 @@ function canonicalForRecord(item) {
   return null;
 }
 
-function groupSongRecords(canon, records) {
+function groupSongRecords(canon, records, editorialRecords) {
   return canon.map(song => {
     const linked = records.filter(record => canonicalForRecord(record)?.id === song.id);
+    const lyricsEditorial = editorialRecords.filter(record => (record.data || {}).song_id === song.id);
+    const editorialThemes = lyricsEditorial.flatMap(x => A((x.data || {}).motifs));
+    const editorialChapters = lyricsEditorial.flatMap(x => chaptersOf(x.data || {}));
     return {
       canonical: song,
       records: linked,
+      lyricsEditorial,
       sourceIds: U(linked.flatMap(sourceIds)),
-      types: U([song.category, ...linked.flatMap(x => typesOf(x.data || {}))]),
-      themes: U(linked.flatMap(x => themesOf(x.data || {}))),
-      chapters: U(linked.flatMap(x => chaptersOf(x.data || {})))
+      types: U([song.category, ...linked.flatMap(x => typesOf(x.data || {})), ...lyricsEditorial.flatMap(x => typesOf(x.data || {}))]),
+      themes: U([...linked.flatMap(x => themesOf(x.data || {})), ...editorialThemes]),
+      chapters: U([...linked.flatMap(x => chaptersOf(x.data || {})), ...editorialChapters])
     };
   });
 }
@@ -168,7 +174,15 @@ function list(arr) {
   if (!values.length) return '';
   return '<ul>' + values.map(x => '<li>' + T(x) + '</li>').join('') + '</ul>';
 }
-function inlineList(arr) { return A(arr).filter(Boolean).map(T).join(', '); }
+function objectList(arr, fields) {
+  const values = A(arr).filter(Boolean);
+  if (!values.length) return '';
+  return '<ul>' + values.map(item => {
+    if (typeof item !== 'object') return '<li>' + T(item) + '</li>';
+    const bits = fields.map(field => item[field] ? '<strong>' + field + ' :</strong> ' + T(item[field]) : '').filter(Boolean);
+    return '<li>' + (bits.join(' — ') || T(JSON.stringify(item))) + '</li>';
+  }).join('') + '</ul>';
+}
 function production(p) {
   if (!p) return '';
   const rows = [];
@@ -192,6 +206,21 @@ function lyrics(l) {
   if (l.recurring_motifs) rows.push('<li><strong>Motifs :</strong> ' + A(l.recurring_motifs).join(', ') + '</li>');
   return rows.length ? '<ul>' + rows.join('') + '</ul>' : '';
 }
+function renderLyricsEditorial(records) {
+  if (!records.length) return '';
+  return records.map(record => {
+    const d = record.data || {};
+    return '<div class="record-row editorial-row">'
+      + '<div><strong>Appareil éditorial des paroles</strong> <span class="small">' + T(d.id || record.id) + '</span></div>'
+      + (d.canonical_lyrics_source ? '<p><strong>Source :</strong> ' + T(d.canonical_lyrics_source) + (d.source_page ? ', ' + T(d.source_page) : '') + '</p>' : '')
+      + section('Courts extraits citables', objectList(d.short_excerpts, ['excerpt','usage','source_page','verification_status']))
+      + section('Variantes décrites', objectList(d.variants, ['variant_type','description','source','verification_status']))
+      + section('Motifs', list(d.motifs))
+      + section('Notes éditoriales', list(d.editorial_notes))
+      + '<p class="small"><code>' + record.file + '</code></p>'
+      + '</div>';
+  }).join('');
+}
 
 function render(items) {
   songsList.innerHTML = '';
@@ -200,6 +229,7 @@ function render(items) {
     const song = group.canonical;
     const card = document.createElement('article');
     card.className = 'song-card canonical-card';
+    const editorialBlocks = renderLyricsEditorial(group.lyricsEditorial);
     const recordBlocks = group.records.slice(0, 12).map(record => renderRecord(record)).join('');
     const more = group.records.length > 12 ? '<p class="small">+' + (group.records.length - 12) + ' autre(s) mention(s) atomisée(s) masquée(s) dans cette vue.</p>' : '';
     card.innerHTML = '<h3>' + T(song.song) + '</h3>'
@@ -208,6 +238,7 @@ function render(items) {
       + (song.period ? '<span class="badge">' + T(song.period) + '</span>' : '')
       + (song.status ? '<span class="badge">' + T(song.status) + '</span>' : '')
       + (group.records.length ? '<span class="badge">' + group.records.length + ' mention(s)</span>' : '<span class="badge muted">aucune mention atomisée</span>')
+      + (group.lyricsEditorial.length ? '<span class="badge editorial">lyrics éditorial</span>' : '')
       + '</div>'
       + section('Catégorie', '<p>' + T(song.category) + '</p>')
       + section('Albums / corpus', list(song.albums))
@@ -215,7 +246,8 @@ function render(items) {
       + section('Types de variantes retenues', list(song.variants))
       + section('Sources liées', list(group.sourceIds.map(sourceLabel)))
       + section('Chapitres liés', list(group.chapters))
-      + section('Thèmes / mots-clés issus des atomes', list(group.themes.slice(0, 24)))
+      + section('Thèmes / mots-clés issus des atomes et lyrics', list(group.themes.slice(0, 24)))
+      + (editorialBlocks ? '<div class="section-title">Appareil éditorial des paroles</div><div class="record-list">' + editorialBlocks + '</div>' : '')
       + (recordBlocks ? '<div class="section-title">Mentions atomisées rattachées</div><div class="record-list">' + recordBlocks + more + '</div>' : '')
       + '<p class="small"><code>' + song.id + '</code></p>';
     songsList.appendChild(card);
@@ -249,6 +281,7 @@ function applyFilters() {
       group.canonical.aliases.join(' '),
       group.canonical.albums.join(' '),
       group.canonical.variants.join(' '),
+      group.lyricsEditorial.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '),
       group.records.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '),
       group.sourceIds.join(' '),
       group.sourceIds.map(sourceLabel).join(' ')
@@ -273,6 +306,7 @@ function exportCSV() {
     albums: group.canonical.albums.join('; '),
     variants: group.canonical.variants.join('; '),
     atomized_mentions: group.records.length,
+    lyrics_editorial: group.lyricsEditorial.length,
     sources: group.sourceIds.map(sourceLabel).join('; '),
     chapters: group.chapters.join('; ')
   }));
