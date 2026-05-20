@@ -1,0 +1,50 @@
+schema: song_version
+version: 1.0
+
+description: >
+  Schéma des versions enregistrées ou jouées d’une chanson Joy Division / Warsaw.
+  Une version est distincte de la chanson canonique et de ses occurrences de publication.
+
+required:
+  - version_id
+  - song_id
+  - canonical_song
+  - version_type
+
+fields:
+  version_id: "Identifiant stable : JD-SONG-XXX-STUDIO-001, JD-SONG-XXX-PEEL-001, JD-SONG-XXX-LIVE-YYYYMMDD-001."
+  song_id: "Identifiant canonique JD-SONG-XXX."
+  canonical_song: "Titre canonique."
+  version_type: "studio | single | album | Peel | BBC | radio | demo | rehearsal | live | instrumental | lyrics_divergence."
+  recording_date: "Date ou intervalle de date, au format ISO quand possible."
+  recording_place: "Studio, salle, radio, lieu de répétition ou lieu live."
+  session_id: "Identifiant transversal éventuel d’une session contenant plusieurs titres."
+  producer: "Producteur ou ingénieur quand connu."
+  source_ids: "Sources internes ou externes justifiant la version."
+  verification_status: "verifie | a_verifier | conflit | hypothese."
+  notes: "Prudences, contradictions, liens vers sources."
+
+controlled_values:
+  version_type:
+    - studio
+    - single
+    - album
+    - Peel
+    - BBC
+    - radio
+    - demo
+    - rehearsal
+    - live
+    - instrumental
+    - lyrics_divergence
+  verification_status:
+    - verifie
+    - a_verifier
+    - conflit
+    - hypothese
+
+rules:
+  - "Une version ne doit pas être créée sans source ou statut de vérification."
+  - "Les versions Peel/BBC doivent être rattachées à une session transversale."
+  - "Les versions live doivent pointer vers un événement live, pas seulement vers un bootleg."
+  - "Une variante de paroles peut justifier une version si elle est sourcee."
