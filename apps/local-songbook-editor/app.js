@@ -15,14 +15,24 @@ function linesToArray(text) {
   return text.split('\n').map(x => x.trim()).filter(Boolean);
 }
 
-function blockToObjects(text, type) {
-  return text.trim()
-    ? [{ type, description: text.trim(), verification_status: 'to_check' }]
-    : [];
+function blockToObjects(text, type, existing=[]) {
+  const trimmed = text.trim();
+  if (!trimmed) return existing || [];
+  return linesToArray(trimmed).map(line => ({
+    type,
+    description: line,
+    verification_status: 'to_check'
+  }));
 }
 
-function excerptsFromText(text) {
-  return linesToArray(text).map(line => ({ excerpt: line, usage: 'court extrait cité ou marqueur lyrique', verification_status: 'to_check' }));
+function excerptsFromText(text, existing=[]) {
+  const rows = linesToArray(text);
+  if (!rows.length) return existing || [];
+  return rows.map(line => ({
+    excerpt: line,
+    usage: 'court extrait cité ou marqueur lyrique',
+    verification_status: 'to_check'
+  }));
 }
 
 function objectsToBlock(items) {
@@ -98,8 +108,9 @@ async function openSong(slug) {
 async function saveCurrent() {
   if (!state.current) return;
 
+  const existingNotes = state.current.notes || {};
   const notes = {
-    ...(state.current.notes || {}),
+    ...existingNotes,
     canonical_lyrics_source: el('source').value,
     source_page: el('page').value,
     motifs: linesToArray(el('motifs').value),
@@ -107,11 +118,11 @@ async function saveCurrent() {
     chapters: linesToArray(el('chapters').value),
     rag_notes: linesToArray(el('ragnotes').value),
     web_source_links: linesToArray(el('web_source_links').value),
-    short_excerpts: excerptsFromText(el('quotes_text').value),
-    variants: blockToObjects(el('variants_text').value, 'lyrics_variants'),
-    sessions: blockToObjects(el('sessions_text').value, 'sessions_versions'),
-    releases: blockToObjects(el('releases_text').value, 'releases'),
-    bootlegs: blockToObjects(el('bootlegs_text').value, 'bootlegs_live_covers'),
+    short_excerpts: excerptsFromText(el('quotes_text').value, existingNotes.short_excerpts || []),
+    variants: blockToObjects(el('variants_text').value, 'lyrics_variants', existingNotes.variants || []),
+    sessions: blockToObjects(el('sessions_text').value, 'sessions_versions', existingNotes.sessions || []),
+    releases: blockToObjects(el('releases_text').value, 'releases', existingNotes.releases || []),
+    bootlegs: blockToObjects(el('bootlegs_text').value, 'bootlegs_live_covers', existingNotes.bootlegs || []),
   };
 
   const payload = {
