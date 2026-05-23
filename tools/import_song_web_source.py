@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Import a song-oriented external web source into the Songbook workflow.
 
-Supports either direct URL fetch or a locally saved HTML page.
+Supports direct URL fetch or locally saved HTML pages. The parser includes a
+specific section parser for Joy Division song pages, whose useful structure is:
+Track history / Lyrics / Other information / Covers.
 """
 
 from __future__ import annotations
@@ -19,15 +21,11 @@ from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parents[1]
 PRIVATE_ROOT = Path(os.environ.get("SONGBOOK_LYRICS_ROOT", ROOT / "local_data" / "songbook_lyrics")).expanduser()
 RAW_ROOT = PRIVATE_ROOT.parent / "web_captures"
-
-HEADINGS = {
-    "credits": ["credit", "credits", "written", "written by", "composition", "composer"],
-    "versions": ["version", "versions", "recording", "recordings", "session", "sessions", "studio", "peel", "bbc"],
-    "releases": ["release", "releases", "released", "appears", "album", "single", "compilation"],
-    "live_occurrences": ["live", "concert", "concerts", "performed", "gig", "gigs", "setlist"],
-    "bootlegs": ["bootleg", "bootlegs", "unofficial", "tape", "tapes"],
-    "bibliography": ["source", "sources", "references", "bibliography", "links"],
-    "notes": ["note", "notes", "comment", "comments", "information"],
+SECTION_ALIASES = {
+    "track history": "track_history",
+    "lyrics": "lyrics_source",
+    "other information": "other_information",
+    "covers": "covers",
 }
 
 
@@ -54,10 +52,9 @@ def text_from_html(raw: str) -> str:
     text = re.sub(r"(?is)<script.*?</script>", "\n", text)
     text = re.sub(r"(?is)<style.*?</style>", "\n", text)
     text = re.sub(r"(?i)<br\s*/?>", "\n", text)
-    text = re.sub(r"(?i)</(p|div|li|tr|td|th|h1|h2|h3|h4|table|blockquote)>", "\n", text)
+    text = re.sub(r"(?i)</(p|div|li|tr|td|th|h1|h2|h3|h4|table|blockquote|pre)>", "\n", text)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
-    text = html_lib.unescape(text)
-    text = text.replace("\xa0", " ")
+    text = html_lib.unescape(text).replace("\xa0", " ")
     lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
     return "\n".join(line for line in lines if line)
 
@@ -66,63 +63,124 @@ def split_lines(text: str) -> list[str]:
     return [line.strip(" -\t") for line in text.splitlines() if line.strip(" -\t")]
 
 
-def classify_line(line: str) -> str | None:
-    lower = line.lower().strip(":")
-    for field, keys in HEADINGS.items():
-        if any(lower == k or lower.startswith(k + ":") or lower.startswith(k + " ") for k in keys):
-            return field
-    return None
+def sectionize(lines: list[str]) -> dict[str, list[str]]:
+    sections: dict[str, list[str]] = {v: [] for v in SECTION_ALIASES.values()}
+    sections["unclassified"] = []
+    current = "unclassified"
+    for line in lines:
+        key = line.lower().strip().strip(":")
+        if key in SECTION_ALIASES:
+            current = SECTION_ALIASES[key]
+            continue
+        sections.setdefault(current, []).append(line)
+    return sections
+
+
+def parse_track_history(lines: list[str]) -> tuple[list[dict], list[dict], list[dict]]:
+    sessions, releases, live = [], [], []
+    for line in lines:
+        lower = line.lower()
+        item = {"description": line, "verification_status": "to_check"}
+        if "recorded" in lower:
+            sessions.append(item)
+        if "released" in lower or "substance" in lower or "heart and soul" in lower or "warsaw" in lower or "ideal for living" in lower:
+            releases.append(item)
+        if "live" in lower or "warehouse" in lower or "preston" in lower:
+            live.append(item)
+    return sessions, releases, live
+
+
+def parse_lyrics_variants(lines: list[str]) -> tuple[list[dict], list[str], list[str]]:
+    variants, short_excerpts, notes = [], [], []
+    current_note = None
+    buffer = []
+    for line in lines:
+        if line.startswith("[") and line.endswith("]"):
+            text = line.strip("[]")
+            variants.append({"variant_type": "lyrics_note", "description": text, "verification_status": "to_check"})
+            current_note = text
+            buffer = []
+            continue
+        if line.startswith("["):
+            current_note = line.strip("[").strip()
+            buffer = []
+            continue
+        if current_note:
+            if line.endswith("]"):
+                buffer.append(line.strip("]").strip())
+                variants.append({"variant_type": "lyrics_variant", "description": current_note, "text": " / ".join(buffer), "verification_status": "to_check"})
+                current_note = None
+                buffer = []
+            else:
+                buffer.append(line)
+        if re.search(r"\b3[-, ]?1[-, ]?G\b", line, re.I) or "350125" in line or "3-5-0-1-2-5" in line:
+            short_excerpts.append(line)
+    if current_note and buffer:
+        variants.append({"variant_type": "lyrics_variant", "description": current_note, "text": " / ".join(buffer), "verification_status": "to_check"})
+    notes.append("Lyrics block includes at least one original-version note and several variant readings. Compare with S79 before canonical use.")
+    return variants, list(dict.fromkeys(short_excerpts))[:10], notes
+
+
+def parse_other_information(lines: list[str]) -> list[str]:
+    return lines[:40]
+
+
+def parse_covers(lines: list[str]) -> list[dict]:
+    covers = []
+    current_artist = None
+    for line in lines:
+        if not line:
+            continue
+        # Many saved pages flatten table cells. Treat lines with catalogue/year info as release lines.
+        has_release_hint = bool(re.search(r"\b(19|20)\d{2}\b|\(|\bSub Pop\b|\bMerge\b|\bCleopatra\b|\bWestworld\b|\bFidel\b|\bbootleg\b|\bdownload\b", line, re.I))
+        if has_release_hint and current_artist:
+            covers.append({"artist": current_artist, "release": line, "verification_status": "to_check"})
+            current_artist = None
+        elif has_release_hint:
+            covers.append({"artist": "", "release": line, "verification_status": "to_check"})
+        else:
+            if current_artist:
+                current_artist = current_artist + " " + line
+            else:
+                current_artist = line
+    if current_artist:
+        covers.append({"artist": current_artist, "release": "", "verification_status": "to_check"})
+    return covers
 
 
 def parse_external_fields(raw_html: str, title: str) -> dict:
     text = text_from_html(raw_html)
     lines = split_lines(text)
-    fields = {
+    sections = sectionize(lines)
+    sessions, releases, live = parse_track_history(sections.get("track_history", []))
+    variants, excerpts, lyrics_notes = parse_lyrics_variants(sections.get("lyrics_source", []))
+    other = parse_other_information(sections.get("other_information", []))
+    covers = parse_covers(sections.get("covers", []))
+
+    notes = [
+        "Parsed from explicit Joy Division song-page sections: Track history, Lyrics, Other information, Covers.",
+        "Check all web-derived data before treating it as verified evidence.",
+    ]
+    notes.extend(other)
+    notes.extend(lyrics_notes)
+
+    return {
         "title": title,
         "aliases": [],
         "credits": [],
-        "versions": [],
-        "releases": [],
-        "live_occurrences": [],
+        "track_history": sections.get("track_history", []),
+        "versions": sessions,
+        "releases": releases,
+        "live_occurrences": live,
         "bootlegs": [],
+        "covers": covers,
+        "lyrics_variants": variants,
+        "short_excerpts": [{"excerpt": x, "usage": "web-source lyric marker or variant line", "verification_status": "to_check"} for x in excerpts],
+        "other_information": other,
         "bibliography": [],
-        "notes": [],
+        "notes": notes,
         "raw_text_preview": lines[:80],
     }
-
-    current = "notes"
-    for line in lines:
-        if len(line) > 500:
-            continue
-        field = classify_line(line)
-        if field:
-            current = field
-            remainder = re.sub(r"^[^:]{1,40}:\s*", "", line).strip()
-            if remainder and remainder.lower() != line.lower():
-                fields[current].append(remainder)
-            continue
-        lower = line.lower()
-        if any(k in lower for k in ["peel", "bbc", "session", "recorded", "studio", "version"]):
-            fields["versions"].append(line)
-        elif any(k in lower for k in ["factory", "album", "single", "released", "lp", "ep", "cassette", "cd"]):
-            fields["releases"].append(line)
-        elif any(k in lower for k in ["live", "concert", "gig", "performance", "setlist"]):
-            fields["live_occurrences"].append(line)
-        elif any(k in lower for k in ["bootleg", "unofficial", "audience tape", "soundboard"]):
-            fields["bootlegs"].append(line)
-        elif any(k in lower for k in ["written by", "lyrics", "music", "published", "copyright"]):
-            fields["credits"].append(line)
-        elif current in fields and current != "raw_text_preview":
-            fields[current].append(line)
-
-    for key in ["credits", "versions", "releases", "live_occurrences", "bootlegs", "bibliography", "notes"]:
-        seen = []
-        for item in fields[key]:
-            if item and item not in seen:
-                seen.append(item)
-        fields[key] = seen[:80]
-    fields["notes"].append("Parsed heuristically from saved or fetched HTML. Check before relying on any field.")
-    return fields
 
 
 def write_local_capture(song_slug: str, url: str, raw_html: str) -> Path:
