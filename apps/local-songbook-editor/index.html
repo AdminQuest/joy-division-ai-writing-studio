@@ -9,7 +9,7 @@
 <body>
   <header class="hero">
     <h1>Local Songbook Editor</h1>
-    <p class="subtitle">Éditeur privé des paroles, motifs, variantes, sessions, releases, bootlegs et notes éditoriales. Les paroles complètes restent dans le workspace synchronisé privé ; seules les sorties éditoriales sont extraites vers le repo.</p>
+    <p class="subtitle">Éditeur privé du Songbook. Les paroles complètes et les brouillons restent dans le workspace synchronisé privé. Les champs de travail sont de simples zones de texte ; l’application les convertit ensuite en données exploitables pour le repo et le RAG.</p>
     <div id="config" class="config"></div>
   </header>
 
@@ -34,7 +34,11 @@
           <h2>Paroles complètes (privé)</h2>
           <textarea id="lyrics"></textarea>
 
-          <h2>Sources web</h2>
+          <h2>Sources web / liens HTML</h2>
+          <label>Liens ou chemins HTML sources (un par ligne)</label>
+          <textarea id="web_source_links" class="smallbox"></textarea>
+
+          <label>Sources web importées (lecture technique)</label>
           <textarea id="websources" class="smallbox"></textarea>
         </div>
 
@@ -53,20 +57,20 @@
           <label>Notes éditoriales (une par ligne)</label>
           <textarea id="notes" class="smallbox"></textarea>
 
-          <label>Courts extraits (JSON léger)</label>
-          <textarea id="quotes" class="smallbox"></textarea>
+          <label>Courts extraits citables (un par ligne)</label>
+          <textarea id="quotes_text" class="smallbox"></textarea>
 
-          <label>Variantes décrites (JSON léger)</label>
-          <textarea id="variants" class="smallbox"></textarea>
+          <label>Variantes décrites (copier-coller libre)</label>
+          <textarea id="variants_text" class="smallbox"></textarea>
 
-          <label>Sessions / versions (JSON léger)</label>
-          <textarea id="sessions" class="smallbox"></textarea>
+          <label>Sessions / versions (copier-coller libre)</label>
+          <textarea id="sessions_text" class="smallbox"></textarea>
 
-          <label>Releases (JSON léger)</label>
-          <textarea id="releases" class="smallbox"></textarea>
+          <label>Releases / parutions (copier-coller libre)</label>
+          <textarea id="releases_text" class="smallbox"></textarea>
 
-          <label>Bootlegs / live occurrences (JSON léger)</label>
-          <textarea id="bootlegs" class="smallbox"></textarea>
+          <label>Bootlegs / live occurrences / reprises (copier-coller libre)</label>
+          <textarea id="bootlegs_text" class="smallbox"></textarea>
 
           <label>Notes RAG / usage rédactionnel</label>
           <textarea id="ragnotes" class="smallbox"></textarea>
