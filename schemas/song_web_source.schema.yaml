@@ -1,0 +1,46 @@
+schema: song_web_source
+version: 1.0
+
+description: >
+  Schema for external song pages used by the Joy Division Songbook. This layer captures
+  bibliographic and discographic evidence from web pages without treating them as canonical
+  lyrics sources. Full page captures and full lyrics, when needed for private work, stay in
+  local_data or in the private lyrics workspace.
+
+required:
+  - web_source_id
+  - song_id
+  - canonical_song
+  - url
+  - source_name
+  - verification_status
+
+fields:
+  web_source_id: "Stable id, e.g. WEB-JOYD-SONGS-WARSAW."
+  song_id: "Canonical JD-SONG-XXX id."
+  canonical_song: "Canonical song title."
+  slug: "Song folder slug."
+  url: "Exact source URL."
+  source_name: "External source label."
+  consulted_at: "ISO date of local consultation/import."
+  captured_html_local_path: "Private local raw HTML path, never committed."
+  target_song_folder: "songs/<slug>/"
+  extracted_fields:
+    title: "Title as displayed by source."
+    aliases: "Alternative titles or labels."
+    credits: "Authors, publisher, copyright, credits as stated by source."
+    versions: "Versions, sessions, takes, live/radio/studio variants."
+    releases: "Official releases and appearances."
+    live_occurrences: "Concert or broadcast occurrences."
+    bootlegs: "Bootleg or unofficial appearances, if listed."
+    bibliography: "External references and source notes."
+    notes: "Editorial comments or warnings."
+  private_lyrics_action: "none | seed_private_full_lyrics | compare_with_private_lyrics."
+  verification_status: "to_check | checked | conflicting | rejected."
+  trust_level: "A | B | C | D."
+
+rules:
+  - "Do not make this web page the canonical lyrics source when S79 is available."
+  - "Store raw HTML and full lyrics only in local private folders."
+  - "Versioned repo files keep metadata, variants, short excerpts, source notes and evidence."
+  - "Cross-check sessions, releases and live occurrences with joydiv.org, Discogs and official booklets."
