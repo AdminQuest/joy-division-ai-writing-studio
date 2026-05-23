@@ -68,21 +68,7 @@ function isCanonControlRecord(item) {
 }
 
 function extractCanonicalSongs(records) {
-  return records
-    .filter(item => item.file === 'registers/songs/00_canonical_joy_division_songs.md')
-    .map(item => item.data || {})
-    .filter(d => d.type_unite === 'song' && d.canonical_song === true && d.exclude !== true)
-    .map(d => ({
-      id: d.id,
-      song: d.song,
-      slug: d.slug,
-      category: d.category || '',
-      period: d.period || '',
-      status: d.status || '',
-      aliases: U([d.song, ...(d.aliases || [])]),
-      albums: A(d.albums),
-      variants: A(d.include_variants)
-    }));
+  return records.filter(item => item.file === 'registers/songs/00_canonical_joy_division_songs.md').map(item => item.data || {}).filter(d => d.type_unite === 'song' && d.canonical_song === true && d.exclude !== true).map(d => ({ id: d.id, song: d.song, slug: d.slug, category: d.category || '', period: d.period || '', status: d.status || '', aliases: U([d.song, ...(d.aliases || [])]), albums: A(d.albums), variants: A(d.include_variants) }));
 }
 
 function buildAliasIndexes(canon) {
@@ -108,21 +94,20 @@ function groupSongRecords(canon, records, editorialRecords) {
     const lyricsEditorial = editorialRecords.filter(record => (record.data || {}).song_id === song.id);
     const editorialThemes = lyricsEditorial.flatMap(x => A((x.data || {}).motifs));
     const editorialChapters = lyricsEditorial.flatMap(x => chaptersOf(x.data || {}));
-    return {
-      canonical: song,
-      records: linked,
-      lyricsEditorial,
-      sourceIds: U(linked.flatMap(sourceIds)),
-      types: U([song.category, ...linked.flatMap(x => typesOf(x.data || {})), ...lyricsEditorial.flatMap(x => typesOf(x.data || {}))]),
-      themes: U([...linked.flatMap(x => themesOf(x.data || {})), ...editorialThemes]),
-      chapters: U([...linked.flatMap(x => chaptersOf(x.data || {})), ...editorialChapters])
-    };
+    const editorialSourceIds = lyricsEditorial.flatMap(x => {
+      const d = x.data || {};
+      const ids = A(d.source_id || d.sources);
+      const m = T(d.canonical_lyrics_source).match(/^(S\d+)/);
+      if (m) ids.push(m[1]);
+      return ids;
+    });
+    return { canonical: song, records: linked, lyricsEditorial, sourceIds: U([...linked.flatMap(sourceIds), ...editorialSourceIds]), types: U([song.category, ...linked.flatMap(x => typesOf(x.data || {})), ...lyricsEditorial.flatMap(x => typesOf(x.data || {}))]), themes: U([...linked.flatMap(x => themesOf(x.data || {})), ...editorialThemes]), chapters: U([...linked.flatMap(x => chaptersOf(x.data || {})), ...editorialChapters]) };
   });
 }
 
 function hydrateFilters(items) {
   fillSongFilter(songFilter, items);
-  fill(sourceFilter, U(items.flatMap(x => x.sourceIds)), sourceLabel);
+  fill(sourceFilter, U([...Object.keys(sourceLabels), ...items.flatMap(x => x.sourceIds)]), sourceLabel);
   fill(typeFilter, U(items.flatMap(x => x.types)));
   fill(themeFilter, U(items.flatMap(x => x.themes)).slice(0, 250));
   fill(chapterFilter, U(items.flatMap(x => x.chapters)));
@@ -151,114 +136,38 @@ function fillSongFilter(select, groups) {
 
 function fill(select, values, labeler = v => v) {
   select.innerHTML = '<option value="">Tous</option>';
-  values.forEach(v => {
-    const opt = document.createElement('option');
-    opt.value = v;
-    opt.textContent = labeler(v);
-    select.appendChild(opt);
-  });
+  values.forEach(v => { const opt = document.createElement('option'); opt.value = v; opt.textContent = labeler(v); select.appendChild(opt); });
 }
 
-function section(title, content) {
-  if (!content || content === '<ul></ul>') return '';
-  return '<div class="section-title">' + title + '</div>' + content;
-}
-function list(arr) {
-  const values = A(arr).filter(Boolean);
-  return values.length ? '<ul>' + values.map(x => '<li>' + T(x) + '</li>').join('') + '</ul>' : '';
-}
+function section(title, content) { if (!content || content === '<ul></ul>') return ''; return '<div class="section-title">' + title + '</div>' + content; }
+function list(arr) { const values = A(arr).filter(Boolean); return values.length ? '<ul>' + values.map(x => '<li>' + T(x) + '</li>').join('') + '</ul>' : ''; }
 function objectList(arr, fields) {
-  const values = A(arr).filter(Boolean);
-  if (!values.length) return '';
-  return '<ul>' + values.map(item => {
-    if (typeof item !== 'object') return '<li>' + T(item) + '</li>';
-    const bits = fields.map(field => item[field] ? '<strong>' + field + ' :</strong> ' + T(item[field]) : '').filter(Boolean);
-    return '<li>' + (bits.join(' — ') || T(JSON.stringify(item))) + '</li>';
-  }).join('') + '</ul>';
+  const values = A(arr).filter(Boolean); if (!values.length) return '';
+  return '<ul>' + values.map(item => { if (typeof item !== 'object') return '<li>' + T(item) + '</li>'; const bits = fields.map(field => item[field] ? '<strong>' + field + ' :</strong> ' + T(item[field]) : '').filter(Boolean); return '<li>' + (bits.join(' — ') || T(JSON.stringify(item))) + '</li>'; }).join('') + '</ul>';
 }
-function compactList(d) {
-  return list(d.themes || d.motifs || d.related_motifs || d.concepts || d.keywords);
-}
+function compactList(d) { return list(d.themes || d.motifs || d.related_motifs || d.concepts || d.keywords); }
 function renderLyricsEditorial(records) {
-  return records.map(record => {
-    const d = record.data || {};
-    return '<div class="record-row editorial-row">'
-      + '<div><strong>Appareil éditorial des paroles</strong> <span class="small">' + T(d.id || record.id) + '</span></div>'
-      + (d.canonical_lyrics_source ? '<p><strong>Source :</strong> ' + T(d.canonical_lyrics_source) + (d.source_page ? ', ' + T(d.source_page) : '') + '</p>' : '')
-      + section('Courts extraits citables', objectList(d.short_excerpts, ['excerpt','usage','source_page','verification_status']))
-      + section('Variantes décrites', objectList(d.variants, ['variant_type','type','description','source','verification_status']))
-      + section('Motifs', list(d.motifs))
-      + section('Notes éditoriales', list(d.editorial_notes))
-      + '<p class="small"><code>' + record.file + '</code></p>'
-      + '</div>';
-  }).join('');
+  return records.map(record => { const d = record.data || {}; return '<div class="record-row editorial-row">' + '<div><strong>Appareil éditorial des paroles</strong> <span class="small">' + T(d.id || record.id) + '</span></div>' + (d.canonical_lyrics_source ? '<p><strong>Source :</strong> ' + T(d.canonical_lyrics_source) + (d.source_page ? ', ' + T(d.source_page) : '') + '</p>' : '') + section('Courts extraits citables', objectList(d.short_excerpts, ['excerpt','usage','source_page','verification_status'])) + section('Variantes décrites', objectList(d.variants, ['variant_type','type','description','source','verification_status'])) + section('Motifs', list(d.motifs)) + section('Notes éditoriales', list(d.editorial_notes)) + '<p class="small"><code>' + record.file + '</code></p>' + '</div>'; }).join('');
 }
-
 function renderRecord(item) {
-  const d = item.data || {};
-  const ids = sourceIds(item);
-  const label = item.kind === 'atom' ? 'Atome v2' : 'Mention';
-  return '<div class="record-row">'
-    + '<div><strong>' + label + ' — ' + T(rawSongTitle(d)) + '</strong> <span class="small">' + T(d.id || item.id) + '</span></div>'
-    + '<div class="small">' + ids.map(sourceLabel).join(' ; ') + (d.type_unite ? ' ; ' + T(d.type_unite) : '') + (d.importance ? ' ; ' + T(d.importance) : '') + '</div>'
-    + (d.usage ? '<p>' + T(d.usage) + '</p>' : '')
-    + section('Thèmes / concepts', compactList(d))
-    + section('Chapitres', list(chaptersOf(d)))
-    + '<p class="small"><code>' + item.file + '</code></p>'
-    + '</div>';
+  const d = item.data || {}; const ids = sourceIds(item); const label = item.kind === 'atom' ? 'Atome v2' : 'Mention';
+  return '<div class="record-row">' + '<div><strong>' + label + ' — ' + T(rawSongTitle(d)) + '</strong> <span class="small">' + T(d.id || item.id) + '</span></div>' + '<div class="small">' + ids.map(sourceLabel).join(' ; ') + (d.type_unite ? ' ; ' + T(d.type_unite) : '') + (d.importance ? ' ; ' + T(d.importance) : '') + '</div>' + (d.usage ? '<p>' + T(d.usage) + '</p>' : '') + section('Thèmes / concepts', compactList(d)) + section('Chapitres', list(chaptersOf(d))) + '<p class="small"><code>' + item.file + '</code></p>' + '</div>';
 }
 
 function render(items) {
-  songsList.innerHTML = '';
-  resultsMeta.textContent = items.length + ' titre(s) canonique(s)';
-  items.forEach(group => {
-    const song = group.canonical;
-    const card = document.createElement('article');
-    card.className = 'song-card canonical-card';
-    const editorialBlocks = renderLyricsEditorial(group.lyricsEditorial);
-    const recordBlocks = group.records.slice(0, 30).map(record => renderRecord(record)).join('');
-    const more = group.records.length > 30 ? '<p class="small">+' + (group.records.length - 30) + ' autre(s) mention(s) masquée(s) dans cette vue.</p>' : '';
-    card.innerHTML = '<h3>' + T(song.song) + '</h3>'
-      + '<div class="meta">'
-      + '<span class="badge canonical">canon</span>'
-      + (song.period ? '<span class="badge">' + T(song.period) + '</span>' : '')
-      + (song.status ? '<span class="badge">' + T(song.status) + '</span>' : '')
-      + (group.records.length ? '<span class="badge">' + group.records.length + ' mention(s)</span>' : '<span class="badge muted">aucune mention atomisée</span>')
-      + (group.lyricsEditorial.length ? '<span class="badge editorial">lyrics éditorial</span>' : '')
-      + '</div>'
-      + section('Catégorie', '<p>' + T(song.category) + '</p>')
-      + section('Albums / corpus', list(song.albums))
-      + section('Alias et variantes de titre', list(song.aliases.filter(x => x !== song.song)))
-      + section('Types de variantes retenues', list(song.variants))
-      + section('Sources liées', list(group.sourceIds.map(sourceLabel)))
-      + section('Chapitres liés', list(group.chapters))
-      + section('Thèmes / mots-clés issus des atomes et lyrics', list(group.themes.slice(0, 24)))
-      + (editorialBlocks ? '<div class="section-title">Appareil éditorial des paroles</div><div class="record-list">' + editorialBlocks + '</div>' : '')
-      + (recordBlocks ? '<div class="section-title">Mentions atomisées rattachées</div><div class="record-list">' + recordBlocks + more + '</div>' : '')
-      + '<p class="small"><code>' + song.id + '</code></p>';
-    songsList.appendChild(card);
-  });
+  songsList.innerHTML = ''; resultsMeta.textContent = items.length + ' titre(s) canonique(s)';
+  items.forEach(group => { const song = group.canonical; const card = document.createElement('article'); card.className = 'song-card canonical-card'; const editorialBlocks = renderLyricsEditorial(group.lyricsEditorial); const recordBlocks = group.records.slice(0, 30).map(record => renderRecord(record)).join(''); const more = group.records.length > 30 ? '<p class="small">+' + (group.records.length - 30) + ' autre(s) mention(s) masquée(s) dans cette vue.</p>' : ''; card.innerHTML = '<h3>' + T(song.song) + '</h3>' + '<div class="meta">' + '<span class="badge canonical">canon</span>' + (song.period ? '<span class="badge">' + T(song.period) + '</span>' : '') + (song.status ? '<span class="badge">' + T(song.status) + '</span>' : '') + (group.records.length ? '<span class="badge">' + group.records.length + ' mention(s)</span>' : '<span class="badge muted">aucune mention atomisée</span>') + (group.lyricsEditorial.length ? '<span class="badge editorial">lyrics éditorial</span>' : '') + '</div>' + section('Catégorie', '<p>' + T(song.category) + '</p>') + section('Albums / corpus', list(song.albums)) + section('Alias et variantes de titre', list(song.aliases.filter(x => x !== song.song))) + section('Types de variantes retenues', list(song.variants)) + section('Sources liées', list(group.sourceIds.map(sourceLabel))) + section('Chapitres liés', list(group.chapters)) + section('Thèmes / mots-clés issus des atomes et lyrics', list(group.themes.slice(0, 24))) + (editorialBlocks ? '<div class="section-title">Appareil éditorial des paroles</div><div class="record-list">' + editorialBlocks + '</div>' : '') + (recordBlocks ? '<div class="section-title">Mentions atomisées rattachées</div><div class="record-list">' + recordBlocks + more + '</div>' : '') + '<p class="small"><code>' + song.id + '</code></p>'; songsList.appendChild(card); });
 }
 
 function applyFilters() {
   const q = searchInput.value.toLowerCase();
-  const filtered = songGroups.filter(group => {
-    const haystack = [group.canonical.song, group.canonical.category, group.canonical.period, group.canonical.status, group.canonical.aliases.join(' '), group.canonical.albums.join(' '), group.canonical.variants.join(' '), group.lyricsEditorial.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '), group.records.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '), group.sourceIds.join(' '), group.sourceIds.map(sourceLabel).join(' ')].join(' ').toLowerCase();
-    return (!q || haystack.includes(q)) && (!songFilter.value || group.canonical.id === songFilter.value) && (!sourceFilter.value || group.sourceIds.includes(sourceFilter.value)) && (!typeFilter.value || group.types.includes(typeFilter.value)) && (!themeFilter.value || group.themes.includes(themeFilter.value)) && (!chapterFilter.value || group.chapters.includes(chapterFilter.value));
-  });
+  const filtered = songGroups.filter(group => { const haystack = [group.canonical.song, group.canonical.category, group.canonical.period, group.canonical.status, group.canonical.aliases.join(' '), group.canonical.albums.join(' '), group.canonical.variants.join(' '), group.lyricsEditorial.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '), group.records.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '), group.sourceIds.join(' '), group.sourceIds.map(sourceLabel).join(' ')].join(' ').toLowerCase(); return (!q || haystack.includes(q)) && (!songFilter.value || group.canonical.id === songFilter.value) && (!sourceFilter.value || group.sourceIds.includes(sourceFilter.value)) && (!typeFilter.value || group.types.includes(typeFilter.value)) && (!themeFilter.value || group.themes.includes(themeFilter.value)) && (!chapterFilter.value || group.chapters.includes(chapterFilter.value)); });
   render(filtered);
 }
 
 function exportCSV() {
   const rows = songGroups.map(group => ({ song: group.canonical.song, category: group.canonical.category, period: group.canonical.period, status: group.canonical.status, aliases: group.canonical.aliases.join('; '), albums: group.canonical.albums.join('; '), variants: group.canonical.variants.join('; '), atomized_mentions: group.records.length, lyrics_editorial: group.lyricsEditorial.length, sources: group.sourceIds.map(sourceLabel).join('; '), chapters: group.chapters.join('; ') }));
-  const header = Object.keys(rows[0] || {}).join(',');
-  const body = rows.map(r => Object.values(r).map(v => '"' + String(v || '').replace(/"/g, '""') + '"').join(',')).join('\n');
-  const blob = new Blob([header + '\n' + body], { type: 'text/csv;charset=utf-8;' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'joy_division_songs_canonical_register.csv';
-  a.click();
-  URL.revokeObjectURL(a.href);
+  const header = Object.keys(rows[0] || {}).join(','); const body = rows.map(r => Object.values(r).map(v => '"' + String(v || '').replace(/"/g, '""') + '"').join(',')).join('\n'); const blob = new Blob([header + '\n' + body], { type: 'text/csv;charset=utf-8;' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'joy_division_songs_canonical_register.csv'; a.click(); URL.revokeObjectURL(a.href);
 }
 
 [searchInput, songFilter, sourceFilter, typeFilter, themeFilter, chapterFilter].forEach(el => el.addEventListener('input', applyFilters));
