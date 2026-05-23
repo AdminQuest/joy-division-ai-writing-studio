@@ -38,6 +38,15 @@
       const songId = songIdFromCard(card);
       const atoms = atomsBySongId.get(songId) || [];
       if (!atoms.length) return;
+      const meta = card.querySelector('.meta');
+      const mutedBadge = [...card.querySelectorAll('.badge')].find(x => x.textContent.includes('aucune mention atomisée'));
+      if (mutedBadge) mutedBadge.textContent = atoms.length + ' atome(s) v2';
+      else if (meta && ![...meta.querySelectorAll('.badge')].some(x => x.textContent.includes('atome(s) v2'))) {
+        const badge = document.createElement('span');
+        badge.className = 'badge editorial';
+        badge.textContent = atoms.length + ' atome(s) v2';
+        meta.appendChild(badge);
+      }
       const block = document.createElement('div');
       block.className = 'atoms-v2-block';
       block.innerHTML = '<div class="section-title">Atomes v2 rattachés</div><div class="record-list">'
@@ -63,13 +72,7 @@
     injectAtoms();
   }
 
-  const previousRender = window.render;
-  if (typeof previousRender === 'function') {
-    window.render = function patchedRender(items) {
-      previousRender(items);
-      injectAtoms();
-    };
-  }
-
+  const target = document.getElementById('songs-list') || document.body;
+  new MutationObserver(() => injectAtoms()).observe(target, { childList: true, subtree: true });
   loadAtomRecords().catch(err => console.error('Atomes v2 song-register:', err));
 })();
