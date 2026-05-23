@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0f1115;
+  color: #e5e7eb;
+}
+
+.hero {
+  padding: 24px 32px;
+  border-bottom: 1px solid #2d3748;
+  background: #111827;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  max-width: 960px;
+}
+
+.config {
+  margin-top: 12px;
+  color: #93c5fd;
+  font-size: 0.9rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: calc(100vh - 150px);
+}
+
+.sidebar {
+  border-right: 1px solid #2d3748;
+  overflow: auto;
+  background: #111827;
+}
+
+.sidebar-head {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  background: #111827;
+}
+
+.sidebar input,
+.sidebar button {
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.songs {
+  padding: 8px;
+}
+
+.song-item {
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  background: #0f172a;
+}
+
+.song-item.active {
+  border-color: #60a5fa;
+  background: #172554;
+}
+
+.song-item .meta {
+  color: #94a3b8;
+  font-size: 0.82rem;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #2d3748;
+  background: #111827;
+}
+
+.toolbar button {
+  background: #1e293b;
+  border: 1px solid #475569;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.status {
+  color: #93c5fd;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  overflow: auto;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea,
+input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+#lyrics {
+  min-height: 70vh;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.smallbox {
+  min-height: 100px;
+}
+
+label {
+  color: #93c5fd;
+  font-size: 0.92rem;
+}
