@@ -15,66 +15,29 @@ function linesToArray(text) {
   return text.split('\n').map(x => x.trim()).filter(Boolean);
 }
 
-function parseJsonField(text, fallback=[]) {
+function blockToObjects(text, type) {
+  return text.trim()
+    ? [{ type, description: text.trim(), verification_status: 'to_check' }]
+    : [];
+}
+
+function excerptsFromText(text) {
+  return linesToArray(text).map(line => ({ excerpt: line, usage: 'court extrait cité ou marqueur lyrique', verification_status: 'to_check' }));
+}
+
+function objectsToBlock(items) {
+  if (!items || !items.length) return '';
+  return items.map(item => {
+    if (typeof item === 'string') return item;
+    return item.description || item.text || item.excerpt || JSON.stringify(item);
+  }).join('\n');
+}
+
+function safeJson(text, fallback=[]) {
   const trimmed = text.trim();
   if (!trimmed) return fallback;
-  try {
-    return JSON.parse(trimmed);
-  } catch (err) {
-    alert('JSON invalide : ' + err.message);
-    throw err;
-  }
-}
-
-function uniq(items) {
-  const out = [];
-  for (const item of items || []) {
-    if (item === undefined || item === null || item === '') continue;
-    const key = typeof item === 'string' ? item : JSON.stringify(item);
-    if (!out.some(x => (typeof x === 'string' ? x : JSON.stringify(x)) === key)) out.push(item);
-  }
-  return out;
-}
-
-function sourceProjection(webSources) {
-  const sessions = [];
-  const releases = [];
-  const bootlegs = [];
-  const variants = [];
-  const ragNotes = [];
-  const motifs = [];
-
-  for (const source of webSources || []) {
-    const f = source.extracted_fields || {};
-    const sourceRef = source.source_name || source.url || 'source web';
-
-    for (const item of f.versions || []) sessions.push({ source: sourceRef, description: item, verification_status: source.verification_status || 'to_check' });
-    for (const item of f.releases || []) releases.push({ source: sourceRef, description: item, verification_status: source.verification_status || 'to_check' });
-    for (const item of f.bootlegs || []) bootlegs.push({ source: sourceRef, type: 'bootleg', description: item, verification_status: source.verification_status || 'to_check' });
-    for (const item of f.live_occurrences || []) bootlegs.push({ source: sourceRef, type: 'live_occurrence', description: item, verification_status: source.verification_status || 'to_check' });
-    for (const item of f.aliases || []) variants.push({ source: sourceRef, variant_type: 'alias', description: item, verification_status: source.verification_status || 'to_check' });
-
-    if ((f.versions || []).length) motifs.push('versions documentées');
-    if ((f.releases || []).length) motifs.push('discographie');
-    if ((f.live_occurrences || []).length) motifs.push('occurrences live');
-    if ((f.bootlegs || []).length) motifs.push('bootlegs');
-
-    if (source.url) ragNotes.push(`Source web à vérifier : ${source.source_name || 'source web'} — ${source.url}`);
-    if ((f.notes || []).length) ragNotes.push(...f.notes.slice(0, 10));
-  }
-
-  return {
-    sessions: uniq(sessions),
-    releases: uniq(releases),
-    bootlegs: uniq(bootlegs),
-    variants: uniq(variants),
-    ragNotes: uniq(ragNotes),
-    motifs: uniq(motifs),
-  };
-}
-
-function mergeIfEmpty(current, projected) {
-  return (current && current.length) ? current : projected;
+  try { return JSON.parse(trimmed); }
+  catch { return fallback; }
 }
 
 async function loadConfig() {
@@ -112,31 +75,22 @@ function renderSongs() {
 async function openSong(slug) {
   const payload = await api('/api/song?slug=' + encodeURIComponent(slug));
   state.current = payload;
-
   const notes = payload.notes || {};
-  const webSources = payload.web_sources || [];
-  const projected = sourceProjection(webSources);
-
-  const motifs = mergeIfEmpty(notes.motifs || [], projected.motifs);
-  const variants = mergeIfEmpty(notes.variants || [], projected.variants);
-  const sessions = mergeIfEmpty(notes.sessions || [], projected.sessions);
-  const releases = mergeIfEmpty(notes.releases || [], projected.releases);
-  const bootlegs = mergeIfEmpty(notes.bootlegs || [], projected.bootlegs);
-  const ragNotes = mergeIfEmpty(notes.rag_notes || [], projected.ragNotes);
 
   el('lyrics').value = payload.full_lyrics || '';
   el('source').value = notes.canonical_lyrics_source || '';
   el('page').value = notes.source_page || '';
-  el('motifs').value = motifs.join('\n');
+  el('motifs').value = (notes.motifs || []).join('\n');
   el('notes').value = (notes.editorial_notes || []).join('\n');
   el('chapters').value = (notes.chapters || []).join('\n');
-  el('quotes').value = JSON.stringify(notes.short_excerpts || [], null, 2);
-  el('variants').value = JSON.stringify(variants, null, 2);
-  el('sessions').value = JSON.stringify(sessions, null, 2);
-  el('releases').value = JSON.stringify(releases, null, 2);
-  el('bootlegs').value = JSON.stringify(bootlegs, null, 2);
-  el('ragnotes').value = ragNotes.join('\n');
-  el('websources').value = JSON.stringify(webSources, null, 2);
+  el('ragnotes').value = (notes.rag_notes || []).join('\n');
+  el('quotes_text').value = objectsToBlock(notes.short_excerpts || []);
+  el('variants_text').value = objectsToBlock(notes.variants || []);
+  el('sessions_text').value = objectsToBlock(notes.sessions || []);
+  el('releases_text').value = objectsToBlock(notes.releases || []);
+  el('bootlegs_text').value = objectsToBlock(notes.bootlegs || []);
+  el('web_source_links').value = (notes.web_source_links || []).join('\n');
+  el('websources').value = JSON.stringify(payload.web_sources || [], null, 2);
 
   renderSongs();
 }
@@ -152,17 +106,18 @@ async function saveCurrent() {
     editorial_notes: linesToArray(el('notes').value),
     chapters: linesToArray(el('chapters').value),
     rag_notes: linesToArray(el('ragnotes').value),
-    short_excerpts: parseJsonField(el('quotes').value, []),
-    variants: parseJsonField(el('variants').value, []),
-    sessions: parseJsonField(el('sessions').value, []),
-    releases: parseJsonField(el('releases').value, []),
-    bootlegs: parseJsonField(el('bootlegs').value, []),
+    web_source_links: linesToArray(el('web_source_links').value),
+    short_excerpts: excerptsFromText(el('quotes_text').value),
+    variants: blockToObjects(el('variants_text').value, 'lyrics_variants'),
+    sessions: blockToObjects(el('sessions_text').value, 'sessions_versions'),
+    releases: blockToObjects(el('releases_text').value, 'releases'),
+    bootlegs: blockToObjects(el('bootlegs_text').value, 'bootlegs_live_covers'),
   };
 
   const payload = {
     full_lyrics: el('lyrics').value,
     notes,
-    web_sources: parseJsonField(el('websources').value, []),
+    web_sources: safeJson(el('websources').value, []),
   };
 
   await api('/api/song?slug=' + encodeURIComponent(state.current.slug), {
@@ -202,7 +157,6 @@ el('sync').addEventListener('click', syncRepo);
 (async () => {
   await loadConfig();
   await loadSongs();
-
   const params = new URLSearchParams(window.location.search);
   const slug = params.get('slug');
   if (slug) await openSong(slug);
