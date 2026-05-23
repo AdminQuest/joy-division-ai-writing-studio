@@ -11,67 +11,41 @@
     <div class="hero-inner">
       <h1>Registre des chansons</h1>
       <p class="subtitle">Vue canonique des chansons Joy Division / Warsaw, avec agrégation des variantes, démos, Peel/BBC, lives et mentions atomisées.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
+      <p class="back"><a href="../../">Retour au portail</a></p>
     </div>
   </header>
 
   <main class="layout">
     <section class="toolbar">
       <div class="status-card" id="status-card">Chargement du corpus canonique…</div>
-
       <div class="filters">
         <div class="field primary-field">
           <label for="song-filter">Chanson canonique</label>
           <select id="song-filter"><option value="">Toutes les chansons Joy Division / Warsaw</option></select>
         </div>
-
         <div class="field">
           <label for="search">Recherche dans les variantes et atomes</label>
           <input id="search" type="search" placeholder="Transmission, Peel, RCA, live, paroles divergentes…">
         </div>
-
-        <div class="field">
-          <label for="source-filter">Source</label>
-          <select id="source-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="type-filter">Type</label>
-          <select id="type-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="theme-filter">Thème</label>
-          <select id="theme-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="chapter-filter">Chapitre</label>
-          <select id="chapter-filter"><option value="">Tous</option></select>
-        </div>
+        <div class="field"><label for="source-filter">Source</label><select id="source-filter"><option value="">Toutes</option></select></div>
+        <div class="field"><label for="type-filter">Type</label><select id="type-filter"><option value="">Tous</option></select></div>
+        <div class="field"><label for="theme-filter">Thème</label><select id="theme-filter"><option value="">Tous</option></select></div>
+        <div class="field"><label for="chapter-filter">Chapitre</label><select id="chapter-filter"><option value="">Tous</option></select></div>
       </div>
-
       <div class="actions">
         <button id="reset-filters" type="button">Réinitialiser</button>
         <button id="download-csv" type="button">Exporter CSV</button>
       </div>
-
-      <p class="note">
-        Le menu est limité au canon interne <code>registers/songs/00_canonical_joy_division_songs.md</code> : œuvres originales Joy Division / Warsaw, quelques démos ou répétitions utiles, Peel/BBC, inédits et deux titres terminaux Joy Division / New Order. Les reprises, faux positifs et titres New Order hors corpus sont exclus de l’affichage principal.
-      </p>
+      <p class="note">Le menu est limité au canon interne <code>registers/songs/00_canonical_joy_division_songs.md</code>.</p>
     </section>
-
     <section class="register-panel">
-      <div class="results-header">
-        <h2>Chansons canoniques</h2>
-        <div id="results-meta"></div>
-      </div>
+      <div class="results-header"><h2>Chansons canoniques</h2><div id="results-meta"></div></div>
       <div id="songs-list" class="songs-list"></div>
     </section>
   </main>
-
   <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
+  <script src="app-atoms.js"></script>
   <script src="local-editor-links.js"></script>
 </body>
 </html>
