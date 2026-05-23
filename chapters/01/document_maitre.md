@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T11:44:03"
+generated_at: "2026-05-23T22:02:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-20T11:44:03"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 266 |
+| Atomes | 267 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 10 |
 | Personnes | 22 |
 | Chansons | 1 |
-| Sources mobilisées | 39 |
+| Sources mobilisées | 40 |
 
 ## 4. Sources mobilisées
 
@@ -73,6 +73,7 @@ generated_at: "2026-05-20T11:44:03"
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 2 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 6 | 4 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -644,6 +645,7 @@ generated_at: "2026-05-20T11:44:03"
 | contexte_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
+| analyse_motif | 1 |
 | modernisme_litteraire | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
@@ -750,7 +752,7 @@ generated_at: "2026-05-20T11:44:03"
 |---|---|
 | non qualifiée | 151 |
 | critique | 54 |
-| majeure | 43 |
+| majeure | 44 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

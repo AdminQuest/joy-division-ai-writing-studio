@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T11:44:03"
+generated_at: "2026-05-23T22:02:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 404 |
+| Atomes | 407 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -59,6 +59,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 68 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -473,6 +474,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - vérité conjugale différée (2)
 - corps exposé (2)
 - paternité empêchée (2)
+- surveillance (2)
 - écoute différée des paroles (2)
 - seuil clinique (2)
 - epilepsie (2)
@@ -527,7 +529,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mort de Curtis (2)
 - Parkside (2)
 - témoins d’autorité (2)
-- légitimité mémorielle (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -664,7 +665,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 16 |
-| concept_structurant | 13 |
+| concept_structurant | 15 |
 | prudence_methodologique | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
@@ -748,6 +749,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | objet_audiovisuel | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
+| analyse_motif | 1 |
 | concept_performance | 1 |
 | chanson_conceptuelle | 1 |
 | synthese_usage_livre | 1 |
@@ -931,9 +933,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 242 |
+| critique | 244 |
 | non qualifiée | 110 |
-| majeure | 34 |
+| majeure | 35 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |

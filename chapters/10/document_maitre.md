@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T11:44:03"
+generated_at: "2026-05-23T22:02:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 302 |
+| Atomes | 304 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 51 |
 | Événements chronologiques | 29 |
@@ -68,7 +68,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 8 | 5 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 9 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 11 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -451,6 +451,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - ian curtis (4)
 - new order (4)
 - suicide (4)
+- fac-simile (3)
 - archive (3)
 - postérité (3)
 - mythe Curtis (3)
@@ -465,8 +466,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - ceremony (2)
 - tournée américaine (2)
 - still (2)
+- fragment (2)
+- génétique (2)
 - carnets (2)
 - chronologie relative (2)
+- datation (2)
+- manuscrit (2)
 - epilepsie (2)
 - Rainbow Theatre (2)
 - stroboscopes (2)
@@ -518,11 +523,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - liberté comme abandon (1)
 - parole sèche de rupture (1)
 - couple vidé (1)
-- famille performée (1)
-- témoin transnational intime (1)
-- Curtis être de passage (1)
-- crédit domestique transféré (1)
-- économie asymétrique de tournée (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -679,6 +679,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_management | 3 |
 | synthese_argumentative | 3 |
 | concert | 3 |
+| manuscript_materiality | 3 |
 | relation | 3 |
 | objet_visuel | 3 |
 | source_part | 3 |
@@ -741,7 +742,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | sequence_carnets | 1 |
 | methode_genetique | 1 |
 | architecture_archive | 1 |
-| manuscript_materiality | 1 |
 | chanson_conceptuelle | 1 |
 | scene_mythographique | 1 |
 | processus_creatif | 1 |
@@ -850,7 +850,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | critique | 164 |
 | non qualifiée | 82 |
-| majeure | 30 |
+| majeure | 32 |
 | majeur | 24 |
 | utile | 2 |
 

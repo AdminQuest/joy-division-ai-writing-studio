@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T11:44:03"
+generated_at: "2026-05-23T22:02:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-20T11:44:03"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 327 |
+| Atomes | 337 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 61 |
 | Personnes | 53 |
 | Chansons | 36 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -58,6 +58,7 @@ generated_at: "2026-05-20T11:44:03"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 1 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 10 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -474,6 +475,7 @@ generated_at: "2026-05-20T11:44:03"
 - factory (6)
 - danse (5)
 - tony wilson (5)
+- anti-téléologie (4)
 - voix (4)
 - architecture sonore (4)
 - rob gretton (4)
@@ -482,8 +484,11 @@ generated_at: "2026-05-20T11:44:03"
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
-- anti-téléologie (3)
 - fragmentation (3)
+- premier corpus (2)
+- prudence (2)
+- surveillance (2)
+- foule (2)
 - corps technologique (2)
 - écoute différée des paroles (2)
 - Rainbow Theatre (2)
@@ -541,10 +546,6 @@ generated_at: "2026-05-20T11:44:03"
 - bibliothèque de souffrance (1)
 - influence attestée/plausible/projetée (1)
 - archive domestique des lectures (1)
-- anti-confessionnalisme (1)
-- poétique d’assemblage (1)
-- multidimensionnalité (1)
-- auteur-catalyseur (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -681,8 +682,8 @@ generated_at: "2026-05-20T11:44:03"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
-| concept_structurant | 13 |
-| prudence_methodologique | 10 |
+| concept_structurant | 15 |
+| prudence_methodologique | 12 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | analyse_chanson | 8 |
@@ -706,6 +707,8 @@ generated_at: "2026-05-20T11:44:03"
 | contexte_biographique | 3 |
 | live_set_context | 3 |
 | registre_influences | 2 |
+| lyrics_reference | 2 |
+| analyse_motif | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -735,6 +738,8 @@ generated_at: "2026-05-20T11:44:03"
 | lieu_creatif | 1 |
 | mediation_audiovisuelle | 1 |
 | analyse_video | 1 |
+| motif_lyrique | 1 |
+| songbook_instruction | 1 |
 | scene_mythographique | 1 |
 | lecture_intertextuelle | 1 |
 | lecture_chansons | 1 |
@@ -874,9 +879,9 @@ generated_at: "2026-05-20T11:44:03"
 
 | Importance | Nombre |
 |---|---|
-| critique | 171 |
+| critique | 178 |
 | non qualifiée | 94 |
-| majeure | 53 |
+| majeure | 56 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |

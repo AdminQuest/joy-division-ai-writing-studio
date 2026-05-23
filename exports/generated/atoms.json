@@ -14164,6 +14164,272 @@
   },
   {
     "kind": "atom",
+    "id": "S79-A025",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A025 — « No Love Lost » fixe dans le corpus manuscrit un lien direct avec *House of Dolls*",
+    "data": {
+      "id": "S79-A025",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "lyrics_reference",
+      "importance": "critique",
+      "pages_pdf": "41-43",
+      "pages_livre": "11-13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "House of Dolls",
+        "emprunt textuel",
+        "premier corpus",
+        "source littéraire"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A026",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A026 — Le fac-similé montre une page d’atelier plutôt qu’un manuscrit continu",
+    "data": {
+      "id": "S79-A026",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "manuscript_materiality",
+      "importance": "majeure",
+      "pages_pdf": "41-42",
+      "pages_livre": "11-12",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "fac-simile",
+        "fragment",
+        "carnet",
+        "génétique"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A027",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A027 — La chanson articule attente, avertissement et mise à nu du regard",
+    "data": {
+      "id": "S79-A027",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "analyse_motif",
+      "importance": "majeure",
+      "pages_pdf": "42-43",
+      "pages_livre": "12-13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "attente",
+        "avertissement",
+        "regard",
+        "exposition"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A028",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A028 — Le passage cité de *House of Dolls* impose une prudence intertextuelle",
+    "data": {
+      "id": "S79-A028",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "prudence_methodologique",
+      "importance": "critique",
+      "pages_pdf": "43",
+      "pages_livre": "13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "intertextualité",
+        "citation intégrée",
+        "Holocauste",
+        "prudence"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A029",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A029 — La version éditée signale une strate additionnelle rattachée à l’album *Warsaw*",
+    "data": {
+      "id": "S79-A029",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "variante_lyrique",
+      "importance": "majeure",
+      "pages_pdf": "43",
+      "pages_livre": "13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "version Warsaw",
+        "variante",
+        "second verse",
+        "surveillance"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A030",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A030 — « No Love Lost » condense enfermement, observation et dispositif technique",
+    "data": {
+      "id": "S79-A030",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "concept_structurant",
+      "importance": "critique",
+      "pages_pdf": "43",
+      "pages_livre": "13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "surveillance",
+        "enfermement",
+        "dispositif",
+        "wire screen"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "citation_courte": "wire screen",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A031",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A031 — Le refrain réduit l’expérience à une formule de perte affective",
+    "data": {
+      "id": "S79-A031",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "motif_lyrique",
+      "importance": "majeure",
+      "pages_pdf": "43",
+      "pages_livre": "13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "perte",
+        "affect",
+        "formule",
+        "titre-refrain"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "citation_courte": "No love lost",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A032",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+    "heading": "S79-A032 — Le Songbook doit traiter « No Love Lost » comme cas de chanson intertextuelle et variante",
+    "data": {
+      "id": "S79-A032",
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "songbook_instruction",
+      "importance": "critique",
+      "pages_pdf": "41-43",
+      "pages_livre": "11-13",
+      "song_id": "JD-SONG-040",
+      "canonical_song": "No Love Lost",
+      "concepts": [
+        "Songbook",
+        "intertextualité",
+        "variante",
+        "canon élargi"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S79-A001",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
     "heading": "S79-A001 — S79 comme source canonique du Songbook",
@@ -14455,6 +14721,270 @@
         "Chapitre 8",
         "Chapitre 10",
         "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A017",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A017 — « Leaders of Men » installe une politique de la contrainte dès le premier âge",
+    "data": {
+      "id": "S79-A017",
+      "source_id": "S79",
+      "type_unite": "lyrics_reference",
+      "importance": "critique",
+      "pages_pdf": "36-39",
+      "pages_livre": "6-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "premier âge",
+        "contrainte",
+        "commandement",
+        "foule"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A018",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A018 — Le fac-similé conserve une datation interne et une signature d’auteur",
+    "data": {
+      "id": "S79-A018",
+      "source_id": "S79",
+      "type_unite": "manuscript_materiality",
+      "importance": "majeure",
+      "pages_pdf": "37-38",
+      "pages_livre": "7-8",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "fac-simile",
+        "datation",
+        "signature",
+        "manuscrit"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A019",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A019 — La naissance individuelle est rabattue sur une fabrique de victime",
+    "data": {
+      "id": "S79-A019",
+      "source_id": "S79",
+      "type_unite": "analyse_motif",
+      "importance": "majeure",
+      "pages_pdf": "37-39",
+      "pages_livre": "7-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "naissance",
+        "victimisation",
+        "conditionnement",
+        "aliénation"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A020",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A020 — Le texte oppose conduite des foules et refus du salut collectif",
+    "data": {
+      "id": "S79-A020",
+      "source_id": "S79",
+      "type_unite": "motif_lyrique",
+      "importance": "critique",
+      "pages_pdf": "37-39",
+      "pages_livre": "7-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "foule",
+        "anti-salut",
+        "manipulation",
+        "discours collectif"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A021",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A021 — L’avenir est présenté comme espace bouché, non comme horizon punk héroïque",
+    "data": {
+      "id": "S79-A021",
+      "source_id": "S79",
+      "type_unite": "analyse_motif",
+      "importance": "majeure",
+      "pages_pdf": "37-39",
+      "pages_livre": "7-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "avenir bloqué",
+        "non-futur",
+        "errance urbaine",
+        "désorientation"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A022",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A022 — Le vocabulaire de l’opération annonce une écriture du corps administré",
+    "data": {
+      "id": "S79-A022",
+      "source_id": "S79",
+      "type_unite": "concept_structurant",
+      "importance": "critique",
+      "pages_pdf": "37-39",
+      "pages_livre": "7-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "corps administré",
+        "opération",
+        "ultimatum",
+        "interne"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A023",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A023 — « Leaders of Men » exige une prudence anti-téléologique",
+    "data": {
+      "id": "S79-A023",
+      "source_id": "S79",
+      "type_unite": "prudence_methodologique",
+      "importance": "critique",
+      "pages_pdf": "37-39",
+      "pages_livre": "7-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "anti-téléologie",
+        "premier corpus",
+        "prudence",
+        "lecture politique"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S79-A024",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
+    "heading": "S79-A024 — Le Songbook doit stabiliser « Leaders of Men » comme chanson de seuil",
+    "data": {
+      "id": "S79-A024",
+      "source_id": "S79",
+      "type_unite": "songbook_instruction",
+      "importance": "majeure",
+      "pages_pdf": "36-39",
+      "pages_livre": "6-9",
+      "song_id": "JD-SONG-041",
+      "canonical_song": "Leaders of Men",
+      "concepts": [
+        "Songbook",
+        "chanson de seuil",
+        "corpus 1977",
+        "canon élargi"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4",
         "Chapitre 14"
       ],
       "statut": "verifie",

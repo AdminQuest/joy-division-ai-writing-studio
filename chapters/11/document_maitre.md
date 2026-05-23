@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-20T11:44:03"
+generated_at: "2026-05-23T22:02:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 301 |
+| Atomes | 309 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 43 |
 | Événements chronologiques | 16 |
@@ -65,7 +65,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -476,6 +476,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - réception posthume (2)
 - nom du groupe (2)
 - macclesfield (2)
+- foule (2)
+- manipulation (2)
+- opération (2)
 - Dead Souls (2)
 - possession (2)
 - past lives (2)
@@ -513,9 +516,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - destin (2)
 - mélancolie (2)
 - Adorno (2)
-- Horkheimer (2)
-- tension (2)
-- transe (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -652,7 +652,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
-| concept_structurant | 23 |
+| concept_structurant | 25 |
 | lecture_chanson | 12 |
 | prudence_methodologique | 10 |
 | analyse_chanson | 8 |
@@ -662,6 +662,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
+| analyse_motif | 4 |
 | motif_structurant | 4 |
 | reception | 3 |
 | interpretation | 3 |
@@ -674,6 +675,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | registre_influences | 2 |
 | concept_critique | 2 |
 | motif_majeur | 2 |
+| motif_lyrique | 2 |
 | source_part | 2 |
 | mythe_prudence | 2 |
 | contrepoint | 2 |
@@ -699,7 +701,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_soin_amateur | 1 |
 | prudence_conceptuelle | 1 |
 | santé | 1 |
-| analyse_motif | 1 |
+| lyrics_reference | 1 |
 | depression_politique | 1 |
 | prudence_interpretative | 1 |
 | prudence_temoin | 1 |
@@ -806,8 +808,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 119 |
-| majeure | 39 |
+| critique | 123 |
+| majeure | 43 |
 | majeur | 5 |
 | utile | 4 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
