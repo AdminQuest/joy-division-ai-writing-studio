@@ -1,0 +1,36 @@
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+unit_id: s79_failures
+unit_type: rag_context
+coverage: "The handwritten lyrics — Failures ; p. PDF 45-47 ; p. livre 15-17"
+song_id: JD-SONG-042
+canonical_song: "Failures"
+status: verified_selective_atomization
+atoms_file: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md"
+relations_file: "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md"
+registers_update_file: "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md"
+songbook_file: "songs/failures/lyrics_editorial.md"
+chapters:
+  - "Chapitre 2"
+  - "Chapitre 4"
+  - "Chapitre 6"
+  - "Chapitre 10"
+  - "Chapitre 11"
+  - "Chapitre 12"
+  - "Chapitre 14"
+keywords:
+  - "S79-A033"
+  - "S79-A034"
+  - "S79-A035"
+  - "S79-A036"
+  - "S79-A037"
+  - "S79-A038"
+  - "S79-A039"
+  - "S79-A040"
+  - "Failures"
+  - "modern man"
+  - "échec"
+  - "choix impossible"
+  - "héroïsme ambigu"
+  - "premier corpus"
+usage: "Contexte RAG pour rattacher Failures à S79, au premier corpus Warsaw, aux motifs d’échec, de modern man, de filiation, de choix impossible et d’héroïsme défait."
