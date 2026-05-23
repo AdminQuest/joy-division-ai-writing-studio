@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-23T22:11:55",
+  "generated_at": "2026-05-23T22:36:41",
   "summary": {
-    "records_total": 6254,
+    "records_total": 6273,
     "records_by_kind": {
       "source": 99,
-      "metadata": 184,
-      "atom": 2404,
-      "unknown": 997,
+      "metadata": 187,
+      "atom": 2412,
+      "unknown": 1005,
       "concept": 391,
       "motif": 387,
       "myth": 100,
@@ -18,9 +18,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26615,
+    "diagnostics_total": 26719,
     "errors": 0,
-    "warnings": 26615,
+    "warnings": 26719,
     "sources_declared_in_registre_json": 73,
     "sources_used_in_records": 60,
     "sources_exported": 60,
@@ -29,10 +29,10 @@
     "weak_source_labels": 1
   },
   "records_by_kind": {
-    "atom": 2404,
+    "atom": 2412,
     "chronology": 429,
     "concept": 391,
-    "metadata": 184,
+    "metadata": 187,
     "motif": 387,
     "myth": 100,
     "person": 289,
@@ -42,7 +42,7 @@
     "song": 109,
     "source": 99,
     "template": 356,
-    "unknown": 997
+    "unknown": 1005
   },
   "records_by_source": {
     "REGISTRY": {
@@ -547,24 +547,24 @@
       "song": 4
     },
     "S79": {
-      "metadata": 8,
-      "atom": 32,
-      "unknown": 11,
+      "metadata": 11,
+      "atom": 40,
+      "unknown": 17,
       "source": 1
     }
   },
   "records_by_chapter": {
     "Chapitre 1": 463,
-    "Chapitre 10": 514,
-    "Chapitre 11": 480,
-    "Chapitre 12": 633,
+    "Chapitre 10": 516,
+    "Chapitre 11": 487,
+    "Chapitre 12": 635,
     "Chapitre 13": 335,
-    "Chapitre 14": 1911,
-    "Chapitre 2": 612,
+    "Chapitre 14": 1918,
+    "Chapitre 2": 620,
     "Chapitre 3": 609,
-    "Chapitre 4": 557,
+    "Chapitre 4": 567,
     "Chapitre 5": 529,
-    "Chapitre 6": 757,
+    "Chapitre 6": 763,
     "Chapitre 7": 269,
     "Chapitre 8": 553,
     "Chapitre 9": 343,
@@ -695,12 +695,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 373,
-    "invalid_controlled_value": 2311,
-    "missing_required_field": 8238,
+    "field_type_error": 381,
+    "invalid_controlled_value": 2319,
+    "missing_required_field": 8254,
     "schema_warning": 527,
-    "unknown_yaml_block": 967,
-    "v2_migration_debt": 14199
+    "unknown_yaml_block": 975,
+    "v2_migration_debt": 14263
   },
   "top_files_by_issue_count": [
     [
@@ -1093,6 +1093,54 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-020",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-022",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-023",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-024",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-025",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
       "record_id": "R-S79-015",
       "message": "Unable to infer documentary kind",
@@ -1142,6 +1190,22 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
       "record_id": null,
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -8564,10 +8628,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2404,
+    "atoms_total": 2412,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2331,
-    "v2_missing_field_warnings": 14199
+    "atoms_v2_incomplete": 2339,
+    "v2_missing_field_warnings": 14263
   },
   "source_registry": {
     "declared_but_unused": [
@@ -10133,16 +10197,19 @@
         "auteur": "Ian Curtis",
         "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
         "annee": "2014",
-        "records": 52,
-        "atoms": 32,
+        "records": 69,
+        "atoms": 40,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
+          "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
@@ -29115,10 +29182,826 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-020",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-021",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-022",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-023",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-024",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+      "record_id": "R-S79-025",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
       "record_id": "R-S79-015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Invalid value for type_unite: lyrics_reference",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A033",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Invalid value for type_unite: manuscript_materiality",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A034",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Invalid value for type_unite: analyse_motif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A035",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Invalid value for type_unite: motif_lyrique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A036",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Invalid value for type_unite: analyse_reference",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A037",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A038",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Invalid value for type_unite: relation_interne_source",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A039",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Invalid value for type_unite: songbook_instruction",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+      "record_id": "S79-A040",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
     },
     {
       "level": "warning",
@@ -31471,6 +32354,22 @@
       "record_id": "S79-A016",
       "message": "Field must be an object/dict: importance",
       "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

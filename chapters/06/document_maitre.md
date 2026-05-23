@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:11:58"
+generated_at: "2026-05-23T22:36:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 497 |
+| Atomes | 500 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 47 |
@@ -60,7 +60,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 91 | 43 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 20 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 23 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -496,6 +496,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - John Peel (5)
 - studio (5)
 - versions alternatives (4)
+- Songbook (4)
 - Peel Session (4)
 - Sound of Music (4)
 - Insight (4)
@@ -507,8 +508,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - joy division (4)
 - unknown pleasures (3)
 - tournée américaine (3)
+- premier corpus (3)
+- fac-simile (3)
 - variante (3)
-- Songbook (3)
+- canon élargi (3)
 - Something Must Break (3)
 - scène (3)
 - autonomie négociée (3)
@@ -540,11 +543,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - ceremony (2)
 - decades (2)
 - House of Dolls (2)
-- premier corpus (2)
-- fac-simile (2)
 - fragment (2)
-- génétique (2)
-- canon élargi (2)
+- carnet (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -707,6 +707,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | motif_structurant | 4 |
 | fait_interprete | 4 |
 | tension_management | 3 |
+| manuscript_materiality | 3 |
+| analyse_motif | 3 |
+| songbook_instruction | 3 |
 | scene_live | 3 |
 | economie_tournee | 3 |
 | scene_collective | 3 |
@@ -728,10 +731,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception | 2 |
 | relation | 2 |
 | lyrics_reference | 2 |
-| manuscript_materiality | 2 |
-| analyse_motif | 2 |
 | motif_lyrique | 2 |
-| songbook_instruction | 2 |
 | lecture_chansons | 2 |
 | management | 2 |
 | reception_radio | 2 |
@@ -975,7 +975,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | critique | 247 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 42 |
+| majeure | 45 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

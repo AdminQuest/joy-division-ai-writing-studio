@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:11:58"
+generated_at: "2026-05-23T22:36:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 407 |
+| Atomes | 408 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
@@ -59,7 +59,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 68 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 3 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 4 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -749,6 +749,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | objet_audiovisuel | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
+| motif_lyrique | 1 |
 | analyse_motif | 1 |
 | concept_performance | 1 |
 | chanson_conceptuelle | 1 |
@@ -933,7 +934,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 244 |
+| critique | 245 |
 | non qualifiée | 110 |
 | majeure | 35 |
 | majeur | 12 |

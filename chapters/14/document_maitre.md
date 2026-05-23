@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:11:58"
+generated_at: "2026-05-23T22:36:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1180 |
+| Atomes | 1184 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
@@ -87,7 +87,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 16 | 10 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 22 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 26 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -549,6 +549,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
+- Songbook (5)
 - scène mancunienne (5)
 - manchester (5)
 - scène locale (5)
@@ -568,11 +569,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - culte (5)
 - réception posthume (4)
 - House of Dolls (4)
-- Songbook (4)
-- canonisation (4)
-- sonic hauntology (4)
-- no future (4)
-- fanzine (4)
+- premier corpus (4)
+- fac-simile (4)
+- prudence (4)
+- canon élargi (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -709,7 +709,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | concept_structurant | 39 |
-| prudence_methodologique | 37 |
+| prudence_methodologique | 38 |
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
@@ -748,6 +748,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | lecture_reception | 4 |
+| manuscript_materiality | 4 |
+| songbook_instruction | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -767,8 +769,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_critique | 3 |
 | acteur_mediation | 3 |
 | analyse_video | 3 |
-| manuscript_materiality | 3 |
-| songbook_instruction | 3 |
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
 | prudence_interpretative | 3 |
@@ -886,6 +886,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | canon_visuel | 1 |
 | reception_fan | 1 |
 | variante_lyrique | 1 |
+| analyse_reference | 1 |
 | source_canonique_songbook | 1 |
 | cadrage_corpus | 1 |
 | genealogie_editoriale | 1 |
@@ -1322,8 +1323,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 553 |
-| critique | 433 |
-| majeure | 137 |
+| critique | 434 |
+| majeure | 140 |
 | majeur | 28 |
 | utile | 18 |
 | structurante | 2 |

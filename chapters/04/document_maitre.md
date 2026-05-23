@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:11:58"
+generated_at: "2026-05-23T22:36:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-23T22:11:58"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 337 |
+| Atomes | 343 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 61 |
@@ -58,7 +58,7 @@ generated_at: "2026-05-23T22:11:58"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 1 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 10 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 16 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -480,20 +480,24 @@ generated_at: "2026-05-23T22:11:58"
 - architecture sonore (4)
 - rob gretton (4)
 - Closer (4)
+- premier corpus (3)
+- prudence (3)
+- Warsaw (3)
 - stroboscopes (3)
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
 - fragmentation (3)
-- premier corpus (2)
-- prudence (2)
 - surveillance (2)
+- échec (2)
+- modernité (2)
+- force (2)
+- premier âge (2)
 - foule (2)
 - corps technologique (2)
 - écoute différée des paroles (2)
 - Rainbow Theatre (2)
 - perte de contrôle (2)
-- Warsaw (2)
 - Electric Circus (2)
 - NME (2)
 - vulnérabilité (2)
@@ -542,10 +546,6 @@ generated_at: "2026-05-23T22:11:58"
 - dépossession conjugale économique (1)
 - herméneutique conjugale (1)
 - angoisse interprétative (1)
-- non-confirmation des paroles (1)
-- bibliothèque de souffrance (1)
-- influence attestée/plausible/projetée (1)
-- archive domestique des lectures (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -683,7 +683,7 @@ generated_at: "2026-05-23T22:11:58"
 |---|---|
 | non qualifié | 19 |
 | concept_structurant | 15 |
-| prudence_methodologique | 12 |
+| prudence_methodologique | 13 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | analyse_chanson | 8 |
@@ -696,6 +696,8 @@ generated_at: "2026-05-23T22:11:58"
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
+| lyrics_reference | 3 |
+| analyse_motif | 3 |
 | demythification | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
@@ -707,8 +709,7 @@ generated_at: "2026-05-23T22:11:58"
 | contexte_biographique | 3 |
 | live_set_context | 3 |
 | registre_influences | 2 |
-| lyrics_reference | 2 |
-| analyse_motif | 2 |
+| motif_lyrique | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -738,7 +739,8 @@ generated_at: "2026-05-23T22:11:58"
 | lieu_creatif | 1 |
 | mediation_audiovisuelle | 1 |
 | analyse_video | 1 |
-| motif_lyrique | 1 |
+| analyse_reference | 1 |
+| relation_interne_source | 1 |
 | songbook_instruction | 1 |
 | scene_mythographique | 1 |
 | lecture_intertextuelle | 1 |
@@ -879,9 +881,9 @@ generated_at: "2026-05-23T22:11:58"
 
 | Importance | Nombre |
 |---|---|
-| critique | 178 |
+| critique | 181 |
 | non qualifiée | 94 |
-| majeure | 56 |
+| majeure | 59 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |
