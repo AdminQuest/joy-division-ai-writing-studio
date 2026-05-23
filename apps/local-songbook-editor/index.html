@@ -9,7 +9,7 @@
 <body>
   <header class="hero">
     <h1>Local Songbook Editor</h1>
-    <p class="subtitle">Éditeur privé des paroles, motifs, variantes et notes éditoriales. Les paroles complètes restent dans le workspace synchronisé privé ; seules les sorties éditoriales sont extraites vers le repo.</p>
+    <p class="subtitle">Éditeur privé des paroles, motifs, variantes, sessions, releases, bootlegs et notes éditoriales. Les paroles complètes restent dans le workspace synchronisé privé ; seules les sorties éditoriales sont extraites vers le repo.</p>
     <div id="config" class="config"></div>
   </header>
 
@@ -33,6 +33,9 @@
         <div class="panel">
           <h2>Paroles complètes (privé)</h2>
           <textarea id="lyrics"></textarea>
+
+          <h2>Sources web</h2>
+          <textarea id="websources" class="smallbox"></textarea>
         </div>
 
         <div class="panel">
@@ -55,6 +58,18 @@
 
           <label>Variantes décrites (JSON léger)</label>
           <textarea id="variants" class="smallbox"></textarea>
+
+          <label>Sessions / versions (JSON léger)</label>
+          <textarea id="sessions" class="smallbox"></textarea>
+
+          <label>Releases (JSON léger)</label>
+          <textarea id="releases" class="smallbox"></textarea>
+
+          <label>Bootlegs / live occurrences (JSON léger)</label>
+          <textarea id="bootlegs" class="smallbox"></textarea>
+
+          <label>Notes RAG / usage rédactionnel</label>
+          <textarea id="ragnotes" class="smallbox"></textarea>
 
           <label>Chapitres liés (un par ligne)</label>
           <textarea id="chapters" class="smallbox"></textarea>
