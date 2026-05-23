@@ -7,17 +7,12 @@ const el = id => document.getElementById(id);
 
 async function api(path, options={}) {
   const res = await fetch(path, options);
-  if (!res.ok) {
-    throw new Error(await res.text());
-  }
+  if (!res.ok) throw new Error(await res.text());
   return res.json();
 }
 
 function linesToArray(text) {
-  return text
-    .split('\n')
-    .map(x => x.trim())
-    .filter(Boolean);
+  return text.split('\n').map(x => x.trim()).filter(Boolean);
 }
 
 function parseJsonField(text, fallback=[]) {
@@ -56,6 +51,7 @@ function renderSongs() {
         <strong>${song.canonical_song}</strong>
         <div class="meta">${song.song_id || ''}</div>
         <div class="meta">lyrics: ${song.has_full_lyrics ? 'oui' : 'non'}</div>
+        <div class="meta">web sources: ${song.has_web_sources ? 'oui' : 'non'}</div>
       `;
       div.onclick = () => openSong(song.slug);
       root.appendChild(div);
@@ -76,6 +72,11 @@ async function openSong(slug) {
   el('chapters').value = (notes.chapters || []).join('\n');
   el('quotes').value = JSON.stringify(notes.short_excerpts || [], null, 2);
   el('variants').value = JSON.stringify(notes.variants || [], null, 2);
+  el('sessions').value = JSON.stringify(notes.sessions || [], null, 2);
+  el('releases').value = JSON.stringify(notes.releases || [], null, 2);
+  el('bootlegs').value = JSON.stringify(notes.bootlegs || [], null, 2);
+  el('ragnotes').value = (notes.rag_notes || []).join('\n');
+  el('websources').value = JSON.stringify(payload.web_sources || [], null, 2);
 
   renderSongs();
 }
@@ -90,13 +91,18 @@ async function saveCurrent() {
     motifs: linesToArray(el('motifs').value),
     editorial_notes: linesToArray(el('notes').value),
     chapters: linesToArray(el('chapters').value),
+    rag_notes: linesToArray(el('ragnotes').value),
     short_excerpts: parseJsonField(el('quotes').value, []),
     variants: parseJsonField(el('variants').value, []),
+    sessions: parseJsonField(el('sessions').value, []),
+    releases: parseJsonField(el('releases').value, []),
+    bootlegs: parseJsonField(el('bootlegs').value, []),
   };
 
   const payload = {
     full_lyrics: el('lyrics').value,
     notes,
+    web_sources: parseJsonField(el('websources').value, []),
   };
 
   await api('/api/song?slug=' + encodeURIComponent(state.current.slug), {
@@ -140,4 +146,10 @@ el('sync').addEventListener('click', syncRepo);
 (async () => {
   await loadConfig();
   await loadSongs();
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('slug');
+  if (slug) {
+    await openSong(slug);
+  }
 })();
