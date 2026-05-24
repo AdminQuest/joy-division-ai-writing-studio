@@ -408,14 +408,27 @@ songs:
   - id: JD-SONG-030
     type_unite: song
     canonical_song: true
-    song: "The Kill"
+    song: "The Kill (Still)"
     slug: "the-kill"
     category: "œuvre originale complète"
     period: "Joy Division"
     status: "canonique"
     albums: ["Still"]
-    aliases: ["Kill"]
+    aliases: ["The Kill", "Kill"]
     include_variants: ["studio", "live", "lyrics_divergence"]
+    exclude: false
+
+  - id: JD-SONG-051
+    type_unite: song
+    canonical_song: true
+    song: "The Kill (Warsaw)"
+    slug: "the-kill-warsaw"
+    category: "Warsaw / pré-Joy Division"
+    period: "Warsaw"
+    status: "canonique distinct"
+    albums: ["Warsaw / early corpus"]
+    aliases: ["The Kill", "Kill"]
+    include_variants: ["Warsaw", "manuscript", "lyrics_divergence"]
     exclude: false
 
   - id: JD-SONG-031
