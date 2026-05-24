@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Local Songbook editor server."""
 from __future__ import annotations
-import json, mimetypes, os, subprocess, sys
+import json, mimetypes, os, re, subprocess, sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
@@ -24,24 +24,95 @@ def read_json(path: Path, fallback):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def repo_editorial_notes(slug: str) -> dict:
+    """Read the first YAML fence from songs/<slug>/lyrics_editorial.md.
+
+    This is intentionally small and conservative: it extracts scalar keys and a few
+    list blocks used by the local editor. The private JSON file remains the write
+    target; repo markdown is only a read fallback so new Songbook dossiers appear
+    before a private file exists.
+    """
+    path = ROOT / "songs" / slug / "lyrics_editorial.md"
+    if not path.exists():
+        return {}
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    blocks = re.findall(r"```yaml\n(.*?)\n```", text, flags=re.S)
+    data: dict = {}
+    for block in blocks:
+        lines = block.splitlines()
+        key = None
+        for raw in lines:
+            line = raw.rstrip()
+            if not line.strip() or line.lstrip().startswith("#"):
+                continue
+            if re.match(r"^[A-Za-z0-9_]+:\s*\[\]\s*$", line):
+                k = line.split(":", 1)[0].strip()
+                data.setdefault(k, [])
+                key = None
+                continue
+            m = re.match(r"^([A-Za-z0-9_]+):\s*(.*)$", line)
+            if m and not line.startswith(" "):
+                key, value = m.group(1), m.group(2).strip()
+                if value == "":
+                    data.setdefault(key, [])
+                elif value.startswith('"') and value.endswith('"'):
+                    data[key] = value[1:-1]
+                elif value.startswith("[") and value.endswith("]"):
+                    try:
+                        data[key] = json.loads(value.replace("'", '"'))
+                    except Exception:
+                        data[key] = value
+                else:
+                    data[key] = value
+                continue
+            item = re.match(r"^\s*-\s+(.+)$", line)
+            if item and key:
+                data.setdefault(key, [])
+                value = item.group(1).strip()
+                if value.startswith('"') and value.endswith('"'):
+                    value = value[1:-1]
+                if isinstance(data[key], list):
+                    data[key].append(value)
+    return data
+
+
 def list_songs():
-    items = []
+    items_by_slug = {}
+
+    repo_songs = ROOT / "songs"
+    if repo_songs.exists():
+        for folder in sorted(p for p in repo_songs.iterdir() if p.is_dir()):
+            notes = repo_editorial_notes(folder.name)
+            song_md = folder / "song.md"
+            if not notes and not song_md.exists():
+                continue
+            items_by_slug[folder.name] = {
+                "slug": folder.name,
+                "song_id": notes.get("song_id", ""),
+                "canonical_song": notes.get("canonical_song", folder.name),
+                "verification_status": notes.get("verification_status", "repo_only"),
+                "has_full_lyrics": False,
+                "has_web_sources": (folder / "web_sources.json").exists(),
+                "notes_path": str(folder / "lyrics_editorial.md"),
+                "full_lyrics_path": str(PRIVATE_ROOT / folder.name / "full_lyrics.txt"),
+            }
+
     if PRIVATE_ROOT.exists():
         for folder in sorted(p for p in PRIVATE_ROOT.iterdir() if p.is_dir()):
             notes_path = folder / "editorial_notes.json"
             full_path = folder / "full_lyrics.txt"
             data = read_json(notes_path, {})
-            items.append({
+            items_by_slug[folder.name] = {
                 "slug": folder.name,
-                "song_id": data.get("song_id", ""),
-                "canonical_song": data.get("canonical_song", folder.name),
-                "verification_status": data.get("verification_status", ""),
+                "song_id": data.get("song_id", items_by_slug.get(folder.name, {}).get("song_id", "")),
+                "canonical_song": data.get("canonical_song", items_by_slug.get(folder.name, {}).get("canonical_song", folder.name)),
+                "verification_status": data.get("verification_status", items_by_slug.get(folder.name, {}).get("verification_status", "")),
                 "has_full_lyrics": full_path.exists() and full_path.read_text(encoding="utf-8", errors="ignore").strip() != "",
                 "has_web_sources": (ROOT / "songs" / folder.name / "web_sources.json").exists(),
                 "notes_path": str(notes_path),
                 "full_lyrics_path": str(full_path),
-            })
-    return items
+            }
+    return sorted(items_by_slug.values(), key=lambda x: (x.get("canonical_song") or x["slug"]).lower())
 
 
 def song_payload(slug: str):
@@ -50,11 +121,13 @@ def song_payload(slug: str):
     notes_path = folder / "editorial_notes.json"
     full_path = folder / "full_lyrics.txt"
     web_sources_path = ROOT / "songs" / slug / "web_sources.json"
+    private_notes = read_json(notes_path, {})
+    notes = private_notes if private_notes else repo_editorial_notes(slug)
     return {
         "slug": slug,
         "private_root": str(PRIVATE_ROOT),
         "full_lyrics": full_path.read_text(encoding="utf-8", errors="ignore") if full_path.exists() else "",
-        "notes": read_json(notes_path, {}),
+        "notes": notes,
         "web_sources": read_json(web_sources_path, []),
         "web_sources_path": str(web_sources_path),
     }
