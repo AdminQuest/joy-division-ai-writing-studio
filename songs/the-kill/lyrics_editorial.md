@@ -13,6 +13,8 @@ full_lyrics_local_path: "local_data/songbook_lyrics/the-kill/full_lyrics.txt"
 completeness: "complete_local_not_versioned"
 verification_status: "verifie_s79"
 last_update: "2026-05-24"
+version_context: "The Kill (Warsaw / early handwritten version), à distinguer de The Kill (Still)"
+canonical_recording_context: "The Kill (Still)"
 ```
 
 ## 1. Règle d’usage
@@ -39,14 +41,21 @@ variants:
     source_id: S79
     pages_pdf: "50"
     pages_livre: "20"
-    description: "Fac-similé raturé, avec titre repris, segments corrigés et stabilisation partielle."
+    version_label: "The Kill (Warsaw / early handwritten version)"
+    description: "Fac-similé raturé, avec titre repris, segments corrigés et stabilisation partielle. À distinguer de la version canonique publiée sur Still."
     verification_status: "verifie_s79"
   - type: "transcription_editee"
     source_id: S79
     pages_pdf: "51"
     pages_livre: "21"
-    description: "Transcription éditée de The Kill, donnée comme texte de 1977."
+    version_label: "The Kill (Warsaw / early text)"
+    description: "Transcription éditée de The Kill donnée comme texte de 1977. Elle doit être rattachée au dossier canonique JD-SONG-030, mais traitée comme strate Warsaw / premier corpus."
     verification_status: "verifie_s79"
+  - type: "canonical_recording_context"
+    source_id: "songbook"
+    version_label: "The Kill (Still)"
+    description: "Version canonique publiée sur Still ; à ne pas confondre avec la strate manuscrite S79."
+    verification_status: "a_verifier_source_discographique"
 ```
 
 ## 4. Motifs et champs lexicaux
@@ -56,6 +65,8 @@ motifs:
   - "sequence_carnets"
   - "chronologie_relative"
   - "premier_age_warsaw"
+  - "version_warsaw"
+  - "version_still_a_distinguer"
   - "acte_contraint"
   - "impulsion"
   - "regard"
@@ -69,7 +80,8 @@ motifs:
 
 ```yaml
 editorial_notes:
-  - "S79 constitue la source canonique à utiliser pour le fac-similé et la transcription éditée de The Kill."
+  - "S79 constitue la source canonique à utiliser pour le fac-similé et la transcription éditée de la strate Warsaw / premier corpus de The Kill."
+  - "Ne pas confondre The Kill (Warsaw / early handwritten version) et The Kill (Still). Le rattachement technique reste JD-SONG-030, mais l’appareil éditorial doit conserver la distinction de version."
   - "La chanson doit être traitée comme pièce d’impulsion contrainte du premier corpus."
   - "Le titre et le vocabulaire de mise en ordre doivent être lus avec prudence : le texte ne se réduit pas à une célébration simple de la violence."
   - "Ne pas reproduire les paroles complètes dans le repo ; conserver les transcriptions longues dans l’espace local non versionné."
