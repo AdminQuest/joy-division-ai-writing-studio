@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:36:43"
+generated_at: "2026-05-24T12:51:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-23T22:36:43"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 267 |
+| Atomes | 269 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 10 |
@@ -73,7 +73,7 @@ generated_at: "2026-05-23T22:36:43"
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 2 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 6 | 4 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -422,6 +422,7 @@ generated_at: "2026-05-23T22:36:43"
 - police-community relations (2)
 - régénération (2)
 - Manchester post-industriel (2)
+- non-futur (2)
 - source critique (2)
 - Joy Division (2)
 - industrial music (2)
@@ -461,7 +462,6 @@ generated_at: "2026-05-23T22:36:43"
 - David Harvey (2)
 - Manchester industriel (2)
 - géographie sociale (2)
-- logement social (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -598,7 +598,7 @@ generated_at: "2026-05-23T22:36:43"
 | Type | Nombre |
 |---|---|
 | prudence_methodologique | 16 |
-| concept_structurant | 15 |
+| concept_structurant | 16 |
 | source_part | 14 |
 | analyse | 9 |
 | concept | 9 |
@@ -645,6 +645,7 @@ generated_at: "2026-05-23T22:36:43"
 | contexte_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
+| geographie_affective | 1 |
 | analyse_motif | 1 |
 | modernisme_litteraire | 1 |
 | infrastructure | 1 |
@@ -751,8 +752,8 @@ generated_at: "2026-05-23T22:36:43"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 54 |
-| majeure | 44 |
+| critique | 55 |
+| majeure | 45 |
 | utile | 10 |
 | majeur | 2 |
 | critique pour Chapitres 1 et 3 | 1 |

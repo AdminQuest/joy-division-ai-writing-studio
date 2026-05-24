@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:36:43"
+generated_at: "2026-05-24T12:51:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 441 |
+| Atomes | 446 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 38 |
 | Événements chronologiques | 40 |
@@ -58,7 +58,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 30 | 22 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 8 | 5 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 20 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 25 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -453,6 +453,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Short Circuit (7)
 - an ideal for living (6)
 - tony wilson (6)
+- premier corpus (6)
 - At a Later Date (6)
 - Warsaw Pakt (6)
 - management (6)
@@ -462,7 +463,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - industrie musicale (5)
 - rob gretton (5)
 - House of Dolls (5)
-- premier corpus (5)
+- Songbook (5)
+- canon élargi (5)
 - Pennine Sound (5)
 - Manchester punk (5)
 - batterie (5)
@@ -478,8 +480,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - house of dolls (4)
 - rca (4)
 - factory (4)
-- Songbook (4)
-- canon élargi (4)
+- prudence (4)
 - anti-téléologie (4)
 - buzzcocks (4)
 - RCA (4)
@@ -497,7 +498,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - nom du groupe (3)
 - derek branwood (3)
 - russell club (3)
-- prudence (3)
+- guerre froide (3)
+- non-futur (3)
 - échec (3)
 - premier âge (3)
 - joy division nom (3)
@@ -509,8 +511,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Virgin Records (3)
 - controverse (3)
 - répétitions (3)
-- manchester (3)
-- peter hook (3)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -654,15 +654,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | non qualifié | 14 |
 | objet_discographique | 10 |
 | analyse | 10 |
-| prudence_methodologique | 9 |
+| prudence_methodologique | 10 |
 | biographie | 8 |
 | session | 7 |
 | controverse | 7 |
 | relation | 7 |
+| lyrics_reference | 5 |
+| songbook_instruction | 5 |
 | lecture | 5 |
 | reception_critique | 4 |
-| lyrics_reference | 4 |
-| songbook_instruction | 4 |
+| concept_structurant | 4 |
 | formation_groupe | 4 |
 | mythe | 4 |
 | fait_interprete | 4 |
@@ -675,18 +676,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_scene | 3 |
 | source_part | 3 |
 | lieu_scene | 3 |
+| analyse_motif | 3 |
 | rencontre_fondatrice | 3 |
 | discographie | 3 |
 | evenement | 3 |
 | evenement_scene | 3 |
 | contexte | 3 |
 | reception | 3 |
-| concept_structurant | 3 |
 | acteur_musical | 3 |
 | sociologie_scene | 2 |
 | temoignage | 2 |
 | motif_lyrique | 2 |
-| analyse_motif | 2 |
 | scene_revelation | 2 |
 | scene_recrutement | 2 |
 | reception_presse | 2 |
@@ -860,8 +860,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 205 |
-| critique | 144 |
-| majeure | 59 |
+| critique | 148 |
+| majeure | 60 |
 | majeur | 15 |
 | utile | 7 |
 | moyenne | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:36:43"
+generated_at: "2026-05-24T12:51:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-23T22:36:43"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 343 |
+| Atomes | 347 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 61 |
@@ -58,7 +58,7 @@ generated_at: "2026-05-23T22:36:43"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 1 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 16 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 20 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -475,13 +475,13 @@ generated_at: "2026-05-23T22:36:43"
 - factory (6)
 - danse (5)
 - tony wilson (5)
+- premier corpus (4)
+- prudence (4)
 - anti-téléologie (4)
 - voix (4)
 - architecture sonore (4)
 - rob gretton (4)
 - Closer (4)
-- premier corpus (3)
-- prudence (3)
 - Warsaw (3)
 - stroboscopes (3)
 - performance (3)
@@ -489,6 +489,7 @@ generated_at: "2026-05-23T22:36:43"
 - wythenshawe (3)
 - fragmentation (3)
 - surveillance (2)
+- guerre froide (2)
 - échec (2)
 - modernité (2)
 - force (2)
@@ -545,7 +546,6 @@ generated_at: "2026-05-23T22:36:43"
 - économie du crédit (1)
 - dépossession conjugale économique (1)
 - herméneutique conjugale (1)
-- angoisse interprétative (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -683,7 +683,7 @@ generated_at: "2026-05-23T22:36:43"
 |---|---|
 | non qualifié | 19 |
 | concept_structurant | 15 |
-| prudence_methodologique | 13 |
+| prudence_methodologique | 14 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | analyse_chanson | 8 |
@@ -691,13 +691,13 @@ generated_at: "2026-05-23T22:36:43"
 | biographie | 6 |
 | processus_creatif | 5 |
 | interpretation | 5 |
+| lyrics_reference | 4 |
+| analyse_motif | 4 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
-| lyrics_reference | 3 |
-| analyse_motif | 3 |
 | demythification | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
@@ -739,6 +739,7 @@ generated_at: "2026-05-23T22:36:43"
 | lieu_creatif | 1 |
 | mediation_audiovisuelle | 1 |
 | analyse_video | 1 |
+| geographie_affective | 1 |
 | analyse_reference | 1 |
 | relation_interne_source | 1 |
 | songbook_instruction | 1 |
@@ -881,9 +882,9 @@ generated_at: "2026-05-23T22:36:43"
 
 | Importance | Nombre |
 |---|---|
-| critique | 181 |
+| critique | 184 |
 | non qualifiée | 94 |
-| majeure | 59 |
+| majeure | 60 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-23T22:36:43"
+generated_at: "2026-05-24T12:51:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 500 |
+| Atomes | 503 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 47 |
@@ -60,7 +60,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 91 | 43 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 23 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 26 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -486,6 +486,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - epilepsie (6)
 - closer (5)
 - ian curtis (5)
+- Songbook (5)
 - single (5)
 - live (5)
 - épilepsie (5)
@@ -496,7 +497,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - John Peel (5)
 - studio (5)
 - versions alternatives (4)
-- Songbook (4)
+- fac-simile (4)
+- canon élargi (4)
 - Peel Session (4)
 - Sound of Music (4)
 - Insight (4)
@@ -509,9 +511,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - unknown pleasures (3)
 - tournée américaine (3)
 - premier corpus (3)
-- fac-simile (3)
+- carnet (3)
 - variante (3)
-- canon élargi (3)
 - Something Must Break (3)
 - scène (3)
 - autonomie négociée (3)
@@ -544,7 +545,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - decades (2)
 - House of Dolls (2)
 - fragment (2)
-- carnet (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -701,15 +701,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_sensible | 5 |
 | processus_creatif | 4 |
 | analyse | 4 |
+| manuscript_materiality | 4 |
+| songbook_instruction | 4 |
 | scene_reseau | 4 |
 | reception_critique | 4 |
 | production_sonore | 4 |
 | motif_structurant | 4 |
 | fait_interprete | 4 |
 | tension_management | 3 |
-| manuscript_materiality | 3 |
 | analyse_motif | 3 |
-| songbook_instruction | 3 |
+| motif_lyrique | 3 |
 | scene_live | 3 |
 | economie_tournee | 3 |
 | scene_collective | 3 |
@@ -731,7 +732,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception | 2 |
 | relation | 2 |
 | lyrics_reference | 2 |
-| motif_lyrique | 2 |
 | lecture_chansons | 2 |
 | management | 2 |
 | reception_radio | 2 |
@@ -974,8 +974,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|
 | critique | 247 |
 | non qualifiée | 157 |
+| majeure | 48 |
 | majeur | 47 |
-| majeure | 45 |
 | secondaire utile | 1 |
 | utile | 1 |
 | critique pour Chapitre 3 | 1 |

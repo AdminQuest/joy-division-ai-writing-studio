@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-23T22:36:24",
+  "generated_at": "2026-05-24T12:51:23",
   "status": "error",
   "summary": {
-    "records_total": 6273,
+    "records_total": 6292,
     "records_by_kind": {
       "source": 99,
-      "metadata": 187,
-      "atom": 2412,
-      "unknown": 1005,
+      "metadata": 190,
+      "atom": 2420,
+      "unknown": 1013,
       "concept": 391,
       "motif": 387,
       "myth": 100,
@@ -19,9 +19,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26719,
+    "diagnostics_total": 26823,
     "errors": 0,
-    "warnings": 26719,
+    "warnings": 26823,
     "sources_declared_in_registre_json": 73,
     "sources_used_in_records": 60,
     "sources_exported": 60,
@@ -1593,19 +1593,22 @@
         "auteur": "Ian Curtis",
         "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
         "annee": "2014",
-        "records": 69,
-        "atoms": 40,
+        "records": 86,
+        "atoms": 48,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
+          "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
@@ -15837,6 +15840,582 @@
     },
     {
       "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: lyrics_reference",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: manuscript_materiality",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: analyse_motif",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: geographie_affective",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: motif_lyrique",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Invalid value for type_unite: songbook_instruction",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A048"
+    },
+    {
+      "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "R-S79-020"
@@ -17199,6 +17778,18 @@
     },
     {
       "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
@@ -17208,6 +17799,42 @@
       "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-031"
     },
     {
       "level": "warning",
