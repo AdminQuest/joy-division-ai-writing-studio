@@ -1,12 +1,15 @@
-# Relations stabilisées — S79 — TK
+# Relations stabilisées — S79 — The Kill (Warsaw)
 
 ```yaml
 source_id: S79
 source_label: "S79 — Curtis, So This Is Permanence, 2014"
 type_unite: relations
 statut: stabilise
-coverage: "p. PDF 50-51 ; p. livre 20-21"
+coverage: "The Kill (Warsaw) ; p. PDF 50-51 ; p. livre 20-21"
 atoms_file: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md"
+song_id: JD-SONG-051
+canonical_song: "The Kill (Warsaw)"
+distinct_from: "JD-SONG-030 — The Kill (Still)"
 ```
 
 ## R-S79-032 — Acte contraint et premier corpus
@@ -22,7 +25,7 @@ chapitres: ["Chapitre 2", "Chapitre 4", "Chapitre 11"]
 force: forte
 ```
 
-La chanson prolonge la série S79 des actions sans sortie nette.
+La chanson distincte « The Kill (Warsaw) » prolonge la série S79 des actions sans sortie nette.
 
 ## R-S79-033 — Fac-similé raturé et atelier
 
@@ -52,7 +55,7 @@ chapitres: ["Chapitre 4", "Chapitre 11", "Chapitre 12"]
 force: forte
 ```
 
-Le regard maintenu rattache la chanson aux motifs de dispositif déjà relevés dans S79.
+Le regard maintenu rattache « The Kill (Warsaw) » aux motifs de dispositif déjà relevés dans S79.
 
 ## R-S79-035 — Mise en ordre morale ambiguë
 
@@ -69,17 +72,17 @@ force: moyenne
 
 La relation retient l’ambivalence du titre et évite une lecture univoque.
 
-## R-S79-036 — Songbook et impulsion contrainte
+## R-S79-036 — Songbook et chanson distincte
 
 ```yaml
 id: R-S79-036
 source_id: S79
 relation_type: instruction_songbook
 from_atoms: [S79-A056]
-to_atoms: [JD-SONG-030]
-concepts: ["Songbook", "impulsion contrainte", "canon élargi"]
+to_atoms: [JD-SONG-051]
+concepts: ["Songbook", "The Kill (Warsaw)", "chanson distincte", "canon élargi"]
 chapitres: ["Chapitre 2", "Chapitre 6", "Chapitre 14"]
 force: forte
 ```
 
-Le dossier Songbook `songs/the-kill/` doit rattacher S79, le fac-similé raturé, la transcription éditée et les motifs de regard.
+Le dossier Songbook `songs/the-kill-warsaw/` doit rattacher S79, le fac-similé raturé, la transcription éditée et les motifs de regard. Ne pas fusionner avec `JD-SONG-030 — The Kill (Still)`.
