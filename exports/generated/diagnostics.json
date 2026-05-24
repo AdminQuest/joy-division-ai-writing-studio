@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T12:51:23",
+  "generated_at": "2026-05-24T14:39:22",
   "status": "error",
   "summary": {
-    "records_total": 6292,
+    "records_total": 6310,
     "records_by_kind": {
       "source": 99,
-      "metadata": 190,
-      "atom": 2420,
-      "unknown": 1013,
+      "metadata": 193,
+      "atom": 2428,
+      "unknown": 1020,
       "concept": 391,
       "motif": 387,
       "myth": 100,
@@ -19,9 +19,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 26823,
+    "diagnostics_total": 26926,
     "errors": 0,
-    "warnings": 26823,
+    "warnings": 26926,
     "sources_declared_in_registre_json": 73,
     "sources_used_in_records": 60,
     "sources_exported": 60,
@@ -1593,8 +1593,8 @@
         "auteur": "Ian Curtis",
         "titre": "So This Is Permanence: Joy Division Lyrics and Notebooks",
         "annee": "2014",
-        "records": 86,
-        "atoms": 48,
+        "records": 102,
+        "atoms": 56,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -1603,14 +1603,17 @@
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
           "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md",
+          "sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md",
           "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
+          "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
           "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
           "sources/curtis_savage_so_this_is_permanence/source.md"
         ]
@@ -15840,6 +15843,582 @@
     },
     {
       "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: lyrics_reference",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: manuscript_materiality",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: motif_lyrique",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: analyse_motif",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: relation_interne_source",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Invalid value for type_unite: songbook_instruction",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S79-A056"
+    },
+    {
+      "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
       "message": "Missing required field: auteur",
       "record_id": "S79-A041"
@@ -17790,6 +18369,36 @@
     },
     {
       "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S79-036"
+    },
+    {
+      "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
@@ -18853,6 +19462,18 @@
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
     },

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-24T12:51:41"
+generated_at: "2026-05-24T14:39:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1187 |
+| Atomes | 1190 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 176 |
 | Événements chronologiques | 116 |
@@ -87,7 +87,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 65 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 9 | 4 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 16 | 10 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 29 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 32 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -531,12 +531,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
+- Songbook (7)
 - Bernard Sumner (7)
 - Martin Hannett (7)
 - Peter Hook (7)
 - management (7)
 - factory (7)
-- Songbook (6)
+- fac-simile (6)
+- prudence (6)
+- canon élargi (6)
 - critique musicale (6)
 - joy division (6)
 - new pop (6)
@@ -550,9 +553,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - tony wilson (6)
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
-- fac-simile (5)
-- prudence (5)
-- canon élargi (5)
+- premier corpus (5)
 - scène mancunienne (5)
 - manchester (5)
 - scène locale (5)
@@ -572,7 +573,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - culte (5)
 - réception posthume (4)
 - House of Dolls (4)
-- premier corpus (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -708,7 +708,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| prudence_methodologique | 39 |
+| prudence_methodologique | 40 |
 | concept_structurant | 39 |
 | analyse | 35 |
 | reception | 30 |
@@ -735,11 +735,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | fait | 7 |
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
+| manuscript_materiality | 6 |
+| songbook_instruction | 6 |
 | objet_audiovisuel | 5 |
 | tension_documentaire | 5 |
 | limite_interpretative | 5 |
-| manuscript_materiality | 5 |
-| songbook_instruction | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -1324,7 +1324,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | non qualifiée | 553 |
 | critique | 435 |
-| majeure | 142 |
+| majeure | 145 |
 | majeur | 28 |
 | utile | 18 |
 | structurante | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-24T12:51:41"
+generated_at: "2026-05-24T14:39:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-24T12:51:41"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 347 |
+| Atomes | 353 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 61 |
@@ -58,7 +58,7 @@ generated_at: "2026-05-24T12:51:41"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 1 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 20 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 26 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -470,25 +470,30 @@ generated_at: "2026-05-24T12:51:41"
 - prudence historiographique (21)
 - epilepsie (10)
 - épilepsie (9)
+- premier corpus (7)
 - scène (6)
 - fatigue (6)
 - factory (6)
+- prudence (5)
 - danse (5)
 - tony wilson (5)
-- premier corpus (4)
-- prudence (4)
 - anti-téléologie (4)
 - voix (4)
 - architecture sonore (4)
 - rob gretton (4)
 - Closer (4)
+- regard (3)
+- surveillance (3)
+- contrainte (3)
 - Warsaw (3)
 - stroboscopes (3)
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
 - fragmentation (3)
-- surveillance (2)
+- dispositif (2)
+- impulsion (2)
+- ambiguïté (2)
 - guerre froide (2)
 - échec (2)
 - modernité (2)
@@ -541,11 +546,6 @@ generated_at: "2026-05-24T12:51:41"
 - paroles (2)
 - Rob Gretton (2)
 - Tony Wilson (2)
-- avril 1980 (2)
-- auteur collectif négocié (1)
-- économie du crédit (1)
-- dépossession conjugale économique (1)
-- herméneutique conjugale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -682,22 +682,23 @@ generated_at: "2026-05-24T12:51:41"
 | Type | Nombre |
 |---|---|
 | non qualifié | 19 |
-| concept_structurant | 15 |
-| prudence_methodologique | 14 |
+| concept_structurant | 16 |
+| prudence_methodologique | 15 |
 | fait_sensible | 9 |
 | lecture_chanson | 8 |
 | analyse_chanson | 8 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
 | processus_creatif | 5 |
+| lyrics_reference | 5 |
+| analyse_motif | 5 |
 | interpretation | 5 |
-| lyrics_reference | 4 |
-| analyse_motif | 4 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
+| motif_lyrique | 3 |
 | demythification | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
@@ -709,7 +710,7 @@ generated_at: "2026-05-24T12:51:41"
 | contexte_biographique | 3 |
 | live_set_context | 3 |
 | registre_influences | 2 |
-| motif_lyrique | 2 |
+| relation_interne_source | 2 |
 | chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -741,7 +742,6 @@ generated_at: "2026-05-24T12:51:41"
 | analyse_video | 1 |
 | geographie_affective | 1 |
 | analyse_reference | 1 |
-| relation_interne_source | 1 |
 | songbook_instruction | 1 |
 | scene_mythographique | 1 |
 | lecture_intertextuelle | 1 |
@@ -882,9 +882,9 @@ generated_at: "2026-05-24T12:51:41"
 
 | Importance | Nombre |
 |---|---|
-| critique | 184 |
+| critique | 186 |
 | non qualifiée | 94 |
-| majeure | 60 |
+| majeure | 64 |
 | utile | 5 |
 | majeur | 3 |
 | structurante | 1 |

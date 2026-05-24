@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-24T12:51:41"
+generated_at: "2026-05-24T14:39:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 306 |
+| Atomes | 307 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 51 |
 | Événements chronologiques | 29 |
@@ -68,7 +68,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 2 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 8 | 5 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 13 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 14 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -445,7 +445,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - Ian Curtis (17)
 - épilepsie (8)
-- fac-simile (5)
+- fac-simile (6)
 - mémoire (5)
 - closer (4)
 - love will tear us apart (4)
@@ -469,6 +469,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - still (2)
 - fragment (2)
 - génétique (2)
+- rature (2)
+- atelier (2)
 - carnets (2)
 - chronologie relative (2)
 - datation (2)
@@ -521,8 +523,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - scène à lectures concurrentes (1)
 - herméneutique domestique erronée (1)
 - religiosité mise en récit (1)
-- liberté comme abandon (1)
-- parole sèche de rupture (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -664,7 +664,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | reception | 7 |
 | scene_domestique | 6 |
 | biographie | 6 |
-| manuscript_materiality | 5 |
+| manuscript_materiality | 6 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
@@ -850,7 +850,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | critique | 164 |
 | non qualifiée | 82 |
-| majeure | 34 |
+| majeure | 35 |
 | majeur | 24 |
 | utile | 2 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-24T12:51:41"
+generated_at: "2026-05-24T14:39:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 408 |
+| Atomes | 410 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
@@ -59,7 +59,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 68 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 1 | 0 |
-| S79 | S79 — Curtis, So This Is Permanence, 2014 | 4 | 0 |
+| S79 | S79 — Curtis, So This Is Permanence, 2014 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -463,6 +463,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mythe (4)
 - anti-téléologie (4)
 - réception corporelle (3)
+- surveillance (3)
 - Stroszek (3)
 - Werner Herzog (3)
 - Rainbow Theatre (3)
@@ -474,7 +475,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - vérité conjugale différée (2)
 - corps exposé (2)
 - paternité empêchée (2)
-- surveillance (2)
+- dispositif (2)
+- regard (2)
 - écoute différée des paroles (2)
 - seuil clinique (2)
 - epilepsie (2)
@@ -527,8 +529,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - mort de Curtis (2)
-- Parkside (2)
-- témoins d’autorité (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -700,6 +700,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
+| motif_lyrique | 2 |
 | lecture_chansons | 2 |
 | synthese_argumentative | 2 |
 | transition_posthume | 2 |
@@ -749,7 +750,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | objet_audiovisuel | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
-| motif_lyrique | 1 |
+| relation_interne_source | 1 |
 | analyse_motif | 1 |
 | concept_performance | 1 |
 | chanson_conceptuelle | 1 |
@@ -934,9 +935,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 245 |
+| critique | 246 |
 | non qualifiée | 110 |
-| majeure | 35 |
+| majeure | 36 |
 | majeur | 12 |
 | utile | 3 |
 | majeure pour la prudence santé | 1 |
