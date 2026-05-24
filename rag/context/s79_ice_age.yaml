@@ -1,0 +1,36 @@
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+unit_id: s79_ice_age
+unit_type: rag_context
+coverage: "The handwritten lyrics — Ice Age ; p. PDF 48-49 ; p. livre 18-19"
+song_id: JD-SONG-032
+canonical_song: "Ice Age"
+status: verified_selective_atomization
+atoms_file: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md"
+relations_file: "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md"
+registers_update_file: "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md"
+songbook_file: "songs/ice-age/lyrics_editorial.md"
+chapters:
+  - "Chapitre 1"
+  - "Chapitre 2"
+  - "Chapitre 4"
+  - "Chapitre 6"
+  - "Chapitre 10"
+  - "Chapitre 11"
+  - "Chapitre 14"
+keywords:
+  - "S79-A041"
+  - "S79-A042"
+  - "S79-A043"
+  - "S79-A044"
+  - "S79-A045"
+  - "S79-A046"
+  - "S79-A047"
+  - "S79-A048"
+  - "Ice Age"
+  - "post-catastrophe"
+  - "non-futur"
+  - "abri dégradé"
+  - "sécurité sélective"
+  - "souterrain"
+usage: "Contexte RAG pour rattacher Ice Age à S79, au premier corpus, aux motifs post-catastrophiques, au non-futur, à la sécurité sélective et à l’abri dégradé."
