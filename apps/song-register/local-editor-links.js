@@ -1,5 +1,5 @@
 (() => {
-  const LOCAL_EDITOR_BASE = 'http://127.0.0.1:8765/apps/local-songbook-editor/';
+  const LOCAL_EDITOR_BASE = 'https://adminquest.github.io/joy-division-studio-private/apps/local-songbook-editor/';
 
   function slugifySongTitle(title) {
     return String(title || '')
@@ -53,8 +53,8 @@
       a.href = LOCAL_EDITOR_BASE + '?slug=' + encodeURIComponent(slug);
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
-      a.textContent = 'ouvrir éditeur local';
-      a.title = 'Accessible seulement si le serveur local Songbook tourne sur ce poste.';
+      a.textContent = 'ouvrir éditeur';
+      a.title = 'Éditeur de Songbook — GitHub Pages (token requis).';
       meta.appendChild(a);
     });
   }
