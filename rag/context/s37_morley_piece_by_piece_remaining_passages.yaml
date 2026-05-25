@@ -1,0 +1,84 @@
+id: RAG-S37-MORLEY-PIECE-BY-PIECE-REMAINING-PASSAGES
+source_id: S37
+source_label: "S37 — Morley, Joy Division: Piece by Piece, 2008"
+source_path: "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md"
+source_path_two: "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md"
+relations_path_one: "sources/morley_piece_by_piece/relations_s37_part_one_remaining_v2.md"
+relations_path_two: "sources/morley_piece_by_piece/relations_s37_part_two_three_v2.md"
+rag_fragments_path: "rag/fragments/s37_morley_piece_by_piece_remaining_passages.jsonl"
+status: "integrated_complete"
+coverage:
+  passage_one: "Sections VII–XXXV — PART ONE: Before/Life (pages ~53-370)"
+  passage_two: "Sections XXXVI–LXX — PART TWO: After/Life + PART THREE: Future/Life (pages ~370-452)"
+  pdf_pages: "~53-452 (environ 400 pages)"
+  scope: >
+    Deuxième et troisième passe d'atomisation de S37. Couvre la quasi-totalité du livre :
+    reviews NME contemporaines 1977-1981, interviews survivants 1991, notes de pochette Factory
+    Palatine et Short Circuit, textes Morley ZTT 1984-1985, manuscrits inédits 1997, articles
+    Observer/Guardian/City Life 2001-2007, reportages sur les tournages 24HPP et Control,
+    essai Frieze/Saville 2003, et clôture du livre avec dédicace triple.
+atoms:
+  part_one_remaining:
+    range: "S37-A039 — S37-A061"
+    count: 23
+    sections: "VII–XXXV"
+  part_two_three:
+    range: "S37-A062 — S37-A078"
+    count: 17
+    sections: "XXXVI–LXX"
+  total_new_atoms: 40
+relations:
+  part_one_remaining:
+    range: "R-S37-010 — R-S37-020"
+    count: 11
+  part_two_three:
+    range: "R-S37-021 — R-S37-030"
+    count: 10
+  total_new_relations: 21
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 5"
+  - "Chapitre 6"
+  - "Chapitre 7"
+  - "Chapitre 9"
+  - "Chapitre 10"
+  - "Chapitre 13"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 3"
+  - "Chapitre 11"
+  - "Chapitre 12"
+key_atoms:
+  - S37-A042  # NME Warsaw Electric Circus 1977
+  - S37-A043  # Short Circuit sleeve notes — Warsaw "half formulated"
+  - S37-A044  # Nom Joy Division → programme musical
+  - S37-A045  # Rafters / Factory Club 1978
+  - S37-A048  # NME JD Sept 1978 — "learnt to sculpt"
+  - S37-A051  # Premier NME interview JD + Ian Curtis cover photo
+  - S37-A052  # Unknown Pleasures réception — "greatest album ever made"
+  - S37-A054  # NME live fév. 1980 — Curtis "trapped butterfly"
+  - S37-A056  # Closer enregistrement Britannia Row mars 1980
+  - S37-A058  # Obituaire NME juin 1980
+  - S37-A059  # Wilson emmène Morley à Macclesfield
+  - S37-A065  # Notes Palatine — "greatest song ever written"
+  - S37-A067  # Listen to the Silence 1997 — Joy Division comme Elvis de Morley
+  - S37-A072  # Wilson mort pendant l'écriture du livre
+  - S37-A074  # Fragments LXV — Sumner idée pochette UP + Hook/Curtis dernière rencontre
+  - S37-A075  # Formation New Order
+  - S37-A077  # NME New Order Heaven 1981 — Morley pleure
+writing_use: >
+  Utiliser ces atomes pour :
+  (1) Chapitre 2 — trajectoire critique Warsaw → Joy Division (A039-A044) ;
+  (2) Chapitre 5 — réception et genèse Unknown Pleasures, idée de la pochette par Sumner (A052, A070, A074) ;
+  (3) Chapitres 6-7-9-10 — analyse des chansons via les sleeve notes Palatine et les recensions NME (A054, A058, A065) ;
+  (4) Chapitre 13 — écosystème Factory/ZTT, New Order, 24HPP, Control (A063, A069, A073, A075-A077) ;
+  (5) Chapitre 14 — Morley comme constructeur de mythe, réflexivité critique, relation Morley-Wilson-Curtis (A028, A052, A064, A067, A071, A072, A078).
+verification_rules:
+  - "Distinguer rigoureusement les textes NME contemporains (1977-1981) des rétrospections de Morley (1984-2008)."
+  - "Ne pas traiter Morley comme source factuelle souveraine pour dates, lieux ou responsabilités collectives."
+  - "Bernard Sumner comme auteur de l'idée de la pochette d'UP : croiser avec témoignages de Sumner (S41) et Saville."
+  - "La dernière rencontre Hook-Curtis (joie) : croiser avec témoignages de Hook (S41) et autres sources."
+  - "Les superlatives Palatine ('greatest song ever written') : stylistiques, pas analytiques — utiliser pour documenter la rhétorique de Morley."
+  - "La mort de Wilson pendant l'écriture : ne pas sur-dramatiser — utiliser pour qualifier le statut du livre."
+  - "Lien père-Morley/Curtis : déclarer méthodologiquement sans réduire la valeur analytique des textes."
