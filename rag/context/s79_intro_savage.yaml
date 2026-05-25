@@ -4,9 +4,9 @@ source_label: "S79 — Curtis, So This Is Permanence, 2014"
 source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_v2.md"
 relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md"
 coverage:
-  passage: "Introduction by Jon Savage"
-  pdf_pages: "~9-20"
-  book_pages: "xiii-xx"
+  passage: "Introduction by Jon Savage (complète)"
+  pdf_pages: "~9-28"
+  book_pages: "xiii-xxviii"
   editeur: "Jon Savage"
 primary_chapters:
   - "Chapitre 1"
@@ -32,6 +32,18 @@ key_atoms:
   - S79-A073
   - S79-A074
   - S79-A075
+  - S79-A076
+  - S79-A077
+  - S79-A078
+  - S79-A079
+  - S79-A080
+  - S79-A081
+  - S79-A082
+  - S79-A083
+  - S79-A084
+  - S79-A085
+  - S79-A086
+  - S79-A087
 songbook:
   - song_id: JD-SONG-035
     canonical_song: "Love Will Tear Us Apart"
@@ -42,22 +54,58 @@ songbook:
   - song_id: JD-SONG-019
     canonical_song: "I Remember Nothing"
     folder: "songs/i-remember-nothing/"
+  - song_id: JD-SONG-014
+    canonical_song: "New Dawn Fades"
+    folder: "songs/new-dawn-fades/"
+  - song_id: JD-SONG-008
+    canonical_song: "The Eternal"
+    folder: "songs/the-eternal/"
+  - song_id: JD-SONG-037
+    canonical_song: "Komakino"
+    folder: "songs/komakino/"
 key_concepts:
   - autodidaxie-pop
   - autobiographie-fiction
   - pulp-history
   - architecture sonore
+  - mystique-groupe
+  - politique-de-rétention
+  - angle-mort-collectif
+  - angle-mort-culturel
+  - confessionnel-lyrique
+  - connexion-humaine
+  - neo-liberalisme-et-culture
+  - genèse-chanson
+  - automatisme-lyrique
+  - manuscrit-autographe
 key_motifs:
   - culture-de-niche
   - seuil
   - provocation
+  - dissimulation
+  - withholding
+  - confession
+  - whirlpool
+  - jeunesse-oubliée
+  - temps-suspendu
+  - rêve
 writing_use: >
-  Utiliser ce passage pour l'écosystème culturel manchestérien des années 1970 (librairies,
-  paperback culture), la formation autodidacte de Curtis via Burroughs, l'origine du nom
-  Joy Division (House of Dolls), la chronologie LWTUA, la tension fiction/autobiographie
-  dans les paroles, et le rôle de Curtis comme directeur aux répétitions.
+  Utiliser ce passage pour : l'écosystème culturel manchestérien des années 1970
+  (librairies, paperback culture) ; la formation autodidacte de Curtis via Burroughs ;
+  l'origine du nom Joy Division (House of Dolls) ; la chronologie LWTUA ;
+  la tension fiction/autobiographie dans les paroles ; le rôle de Curtis comme directeur
+  aux répétitions ; la politique de rétention Gretton sur les paroles (automne 1979) ;
+  l'aveuglement collectif de l'entourage documenté par Hook et Morris ; la confrontation
+  Deborah/Curtis sur New Dawn Fades ; la genèse de The Eternal (enfant trisomique,
+  Macclesfield, Sumner) ; l'origine berlinoise de Komakino ; les sessions Britannia Row
+  et le témoignage du tourbillon (Sumner) ; la thèse finale de Savage sur la connexion
+  humaine et la jeunesse néo-libérale ; la note manuscrite « Reality is only a term ».
 verification_rules:
   - "Butterworth et Morris sont cités indirectement via Savage."
   - "Dates LWTUA à vérifier contre S35 (Morris) et S41 (Hook)."
   - "Ne pas réduire le nom Joy Division à un positionnement idéologique."
   - "Distinguer Ian Curtis auteur et Jon Savage éditeur-critique."
+  - "Genèse de The Eternal (S79-A083) : source indirecte — Sumner rapporte à Savage ce que Curtis lui a dit."
+  - "Témoignage Britannia Row (S79-A085) : source indirecte (Sumner → Savage). Croiser avec S35."
+  - "Ne pas reproduire les paroles complètes des chansons depuis ce passage."
+  - "La note manuscrite (S79-A087) est une trace, pas une clé d'interprétation fermée."
