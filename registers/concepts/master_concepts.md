@@ -527,3 +527,125 @@ concepts_derives:
   - honte médicale
   - seuil clinique
 ```
+
+
+---
+
+# CONCEPT-010 — matérialité-manuscrite
+
+```yaml
+id: CONCEPT-010
+
+nom: matérialité-manuscrite
+
+origine:
+  auteur: critique génétique (Hay, de Biasi)
+  filiation:
+    - génétique textuelle
+    - archivistique littéraire
+
+statut:
+  type:
+    - concept_analytique
+  stabilite: stable
+  niveau_consensus: fort
+
+definition: >
+  Concept désignant l'ensemble des propriétés physiques des manuscrits d'Ian Curtis
+  — supports, encre, format, traces de correction, supports de fortune — comme données
+  documentaires autonomes. La matérialité n'est pas un simple accident ; elle porte
+  des informations sur les conditions de production, la datation relative et les
+  pratiques d'écriture.
+
+usage_repo:
+  fonction:
+    - datation indirecte des manuscrits
+    - analyse des conditions de production
+    - lien entre pratique d'écriture et contexte biographique
+
+chapitres:
+  - Chapitre 6
+  - Chapitre 11
+
+motifs_associes:
+  - artefact-porteur
+  - espace-d-ecriture
+
+risques:
+  - fétichisation des objets
+  - confusion entre support et intention
+  - surinterprétation des accidents matériels
+
+atomes_lies:
+  - S79-A057
+  - S79-A058
+  - S79-A061
+  - S79-A062
+
+concepts_derives:
+  - support comme indice de datation
+  - archive comme matière
+```
+
+---
+
+# CONCEPT-011 — autodidaxie-pop
+
+```yaml
+id: CONCEPT-011
+
+nom: autodidaxie-pop
+
+origine:
+  auteur: Jon Savage (S79)
+  filiation:
+    - cultural studies
+    - histoire de la lecture
+
+statut:
+  type:
+    - concept_descriptif
+  stabilite: assez_stable
+  niveau_consensus: moyen
+
+definition: >
+  Concept décrivant le mode de formation intellectuelle et esthétique d'Ian Curtis
+  — et plus largement de la génération post-punk manchestérienne — à travers les
+  objets culturels de masse accessibles (livres de poche, magazines, librairies
+  de niche) plutôt que par l'institution scolaire. L'autodidaxie pop implique
+  une bricolage créatif des sources plutôt qu'une appropriation académique.
+
+usage_repo:
+  fonction:
+    - généalogie des influences lyriques de Curtis
+    - contextualisation culturelle Manchester années 1970
+    - critique du mythe du génie solitaire
+
+chapitres:
+  - Chapitre 1
+  - Chapitre 11
+
+motifs_associes:
+  - culture-de-niche
+  - isolement
+
+risques:
+  - romantisation de l'autodidaxie
+  - sur-attribution à Curtis de ce qui est collectif
+  - anachronisme (projeter les cultural studies rétroactivement)
+
+critiques:
+  - ne pas confondre autodidaxie et absence de culture : Curtis était cultivé,
+    sa formation était simplement non institutionnelle
+
+atomes_lies:
+  - S79-A069
+  - S79-A070
+  - S79-A071
+  - S79-A072
+  - S79-A073
+
+concepts_derives:
+  - écosystème culturel de niche
+  - formation par la pop culture
+```

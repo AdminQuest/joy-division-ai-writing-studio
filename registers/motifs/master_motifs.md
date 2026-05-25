@@ -315,3 +315,74 @@ atomes_lies:
   - S76-A077
   - S76-A080
 ```
+
+---
+
+# MOTIF-009 — espace-d-ecriture
+
+```yaml
+id: MOTIF-009
+
+nom: espace-d-ecriture
+
+definition: >
+  Motif désignant les espaces physiques dédiés ou appropriés à l'écriture par Ian Curtis :
+  la « blue room » de Barton Street comme lieu canonique, mais aussi les espaces de
+  fortune (van de tournée, coulisses, domicile familial). La configuration spatiale
+  est une condition de production de l'œuvre.
+
+occurences_principales:
+  - Blue room de Barton Street (S79-A057)
+  - Canapé bleu Habitat, radiogramme, spots rouges
+
+chapitres:
+  - Chapitre 3
+  - Chapitre 10
+  - Chapitre 11
+
+concepts_associes:
+  - CONCEPT-010
+
+risques:
+  - fétichisation du lieu
+  - confusion entre condition spatiale et condition psychologique
+
+atomes_lies:
+  - S79-A057
+```
+
+---
+
+# MOTIF-010 — artefact-porteur
+
+```yaml
+id: MOTIF-010
+
+nom: artefact-porteur
+
+definition: >
+  Motif désignant les objets matériels porteurs des manuscrits de Curtis —
+  en premier lieu le « plastic carrier bag » ordinaire dans lequel il transportait
+  ses textes. L'objet banal comme conteneur de l'œuvre en cours : antithèse
+  de la sacralisation de l'archive, mais aussi condition de la mobilité créatrice.
+
+occurences_principales:
+  - Plastic carrier bag (S79-A058)
+  - Supports de fortune : papier de bureau, carnet de journaliste, foolscap (S79-A062)
+
+chapitres:
+  - Chapitre 6
+  - Chapitre 11
+  - Chapitre 14
+
+concepts_associes:
+  - CONCEPT-010
+
+risques:
+  - esthétisation de la pauvreté matérielle
+  - surinterprétation symbolique (le sac comme emblème d'humilité)
+
+atomes_lies:
+  - S79-A058
+  - S79-A062
+```

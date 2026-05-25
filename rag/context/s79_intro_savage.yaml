@@ -1,0 +1,63 @@
+id: RAG-S79-INTRO-SAVAGE
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_v2.md"
+relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md"
+coverage:
+  passage: "Introduction by Jon Savage"
+  pdf_pages: "~9-20"
+  book_pages: "xiii-xx"
+  editeur: "Jon Savage"
+primary_chapters:
+  - "Chapitre 1"
+  - "Chapitre 2"
+  - "Chapitre 3"
+  - "Chapitre 11"
+secondary_chapters:
+  - "Chapitre 5"
+  - "Chapitre 6"
+  - "Chapitre 8"
+  - "Chapitre 10"
+  - "Chapitre 14"
+key_atoms:
+  - S79-A064
+  - S79-A065
+  - S79-A066
+  - S79-A067
+  - S79-A068
+  - S79-A069
+  - S79-A070
+  - S79-A071
+  - S79-A072
+  - S79-A073
+  - S79-A074
+  - S79-A075
+songbook:
+  - song_id: JD-SONG-035
+    canonical_song: "Love Will Tear Us Apart"
+    folder: "songs/love-will-tear-us-apart/"
+  - song_id: JD-SONG-040
+    canonical_song: "No Love Lost"
+    folder: "songs/no-love-lost/"
+  - song_id: JD-SONG-019
+    canonical_song: "I Remember Nothing"
+    folder: "songs/i-remember-nothing/"
+key_concepts:
+  - autodidaxie-pop
+  - autobiographie-fiction
+  - pulp-history
+  - architecture sonore
+key_motifs:
+  - culture-de-niche
+  - seuil
+  - provocation
+writing_use: >
+  Utiliser ce passage pour l'écosystème culturel manchestérien des années 1970 (librairies,
+  paperback culture), la formation autodidacte de Curtis via Burroughs, l'origine du nom
+  Joy Division (House of Dolls), la chronologie LWTUA, la tension fiction/autobiographie
+  dans les paroles, et le rôle de Curtis comme directeur aux répétitions.
+verification_rules:
+  - "Butterworth et Morris sont cités indirectement via Savage."
+  - "Dates LWTUA à vérifier contre S35 (Morris) et S41 (Hook)."
+  - "Ne pas réduire le nom Joy Division à un positionnement idéologique."
+  - "Distinguer Ian Curtis auteur et Jon Savage éditeur-critique."

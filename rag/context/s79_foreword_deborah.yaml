@@ -1,0 +1,54 @@
+id: RAG-S79-FOREWORD-DEBORAH
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_foreword_deborah_v2.md"
+relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md"
+coverage:
+  passage: "Foreword by Deborah Curtis"
+  pdf_pages: "~4-8"
+  book_pages: "vii-xi"
+  editeur: "Deborah Curtis"
+primary_chapters:
+  - "Chapitre 3"
+  - "Chapitre 10"
+  - "Chapitre 11"
+  - "Chapitre 12"
+secondary_chapters:
+  - "Chapitre 6"
+  - "Chapitre 14"
+key_atoms:
+  - S79-A057
+  - S79-A058
+  - S79-A059
+  - S79-A060
+  - S79-A061
+  - S79-A062
+  - S79-A063
+songbook:
+  - song_id: JD-SONG-035
+    canonical_song: "Love Will Tear Us Apart"
+    folder: "songs/love-will-tear-us-apart/"
+  - song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+    folder: "songs/ceremony/"
+  - song_id: JD-SONG-050
+    canonical_song: "In a Lonely Place"
+    folder: "songs/in-a-lonely-place/"
+key_concepts:
+  - matérialité-manuscrite
+  - non-monocausalité médicale
+  - autobiographie-fiction
+key_motifs:
+  - espace-d-ecriture
+  - artefact-porteur
+  - isolement
+writing_use: >
+  Utiliser ce passage pour documenter les conditions matérielles de l'écriture de Curtis
+  (blue room, plastic carrier bag, supports de fortune), l'épilepsie comme barrière conjugale,
+  la révélation de LWTUA comme chanson sur Deborah, et les lacunes documentaires pour
+  Ceremony et In a Lonely Place.
+verification_rules:
+  - "Témoignage rétrospectif de 2014 : qualifier comme tel."
+  - "Ne pas construire d'interprétation monocausale de la mort de Curtis."
+  - "Ne jamais reproduire les paroles complètes."
+  - "Distinguer Ian Curtis auteur et Deborah Curtis éditrice."
