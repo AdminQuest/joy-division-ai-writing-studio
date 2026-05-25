@@ -10869,6 +10869,61 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-010",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-010 — matérialité-manuscrite",
+    "data": {
+      "id": "CONCEPT-010",
+      "nom": "matérialité-manuscrite",
+      "origine": {
+        "auteur": "critique génétique (Hay, de Biasi)",
+        "filiation": [
+          "génétique textuelle",
+          "archivistique littéraire"
+        ]
+      },
+      "statut": {
+        "type": [
+          "concept_analytique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "fort"
+      },
+      "definition": "Concept désignant l'ensemble des propriétés physiques des manuscrits d'Ian Curtis — supports, encre, format, traces de correction, supports de fortune — comme données documentaires autonomes. La matérialité n'est pas un simple accident ; elle porte des informations sur les conditions de production, la datation relative et les pratiques d'écriture.\n",
+      "usage_repo": {
+        "fonction": [
+          "datation indirecte des manuscrits",
+          "analyse des conditions de production",
+          "lien entre pratique d'écriture et contexte biographique"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "motifs_associes": [
+        "artefact-porteur",
+        "espace-d-ecriture"
+      ],
+      "risques": [
+        "fétichisation des objets",
+        "confusion entre support et intention",
+        "surinterprétation des accidents matériels"
+      ],
+      "atomes_lies": [
+        "S79-A057",
+        "S79-A058",
+        "S79-A061",
+        "S79-A062"
+      ],
+      "concepts_derives": [
+        "support comme indice de datation",
+        "archive comme matière"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S35-013",
     "file": "registers/concepts/s35_morris_concepts_part_03.md",
     "heading": "CONCEPT-S35-013 — Futur technique provincial",

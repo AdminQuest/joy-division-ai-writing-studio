@@ -1,0 +1,192 @@
+id: RAG-S79-HANDWRITTEN-SONGS
+source_id: S79
+source_label: "S79 — Curtis, So This Is Permanence, 2014"
+source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md"
+relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_handwritten_songs_v2.md"
+coverage:
+  passage: "The handwritten lyrics — chansons restantes (29 sections non atomisées)"
+  pdf_pages: "~54-131"
+  book_pages: "23-101"
+  note: "Section des fac-similés manuscrits + versions typographiées. Règle absolue : aucune reproduction de paroles complètes."
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 5"
+secondary_chapters:
+  - "Chapitre 8"
+  - "Chapitre 10"
+  - "Chapitre 11"
+  - "Chapitre 14"
+key_atoms:
+  - S79-A105
+  - S79-A106
+  - S79-A107
+  - S79-A108
+  - S79-A109
+  - S79-A110
+  - S79-A111
+  - S79-A112
+  - S79-A113
+  - S79-A114
+  - S79-A115
+  - S79-A116
+  - S79-A117
+  - S79-A118
+  - S79-A119
+  - S79-A120
+  - S79-A121
+  - S79-A122
+  - S79-A123
+  - S79-A124
+  - S79-A125
+  - S79-A126
+  - S79-A127
+  - S79-A128
+  - S79-A129
+  - S79-A130
+  - S79-A131
+  - S79-A132
+  - S79-A133
+songbook:
+  - song_id: JD-SONG-029
+    canonical_song: "They Walked In Line"
+    folder: "songs/walked-in-line/"
+    atom: S79-A105
+  - song_id: JD-SONG-026
+    canonical_song: "Exercise One"
+    folder: "songs/exercise-one/"
+    atom: S79-A106
+  - song_id: JD-SONG-023
+    canonical_song: "Glass"
+    folder: "songs/glass/"
+    atom: S79-A107
+  - song_id: JD-SONG-010
+    canonical_song: "Disorder"
+    folder: "songs/disorder/"
+    atom: S79-A108
+  - song_id: JD-SONG-011
+    canonical_song: "Day of the Lords"
+    folder: "songs/day-of-the-lords/"
+    atom: S79-A109
+  - song_id: JD-SONG-012
+    canonical_song: "Candidate"
+    folder: "songs/candidate/"
+    atom: S79-A110
+  - song_id: JD-SONG-014
+    canonical_song: "New Dawn Fades"
+    folder: "songs/new-dawn-fades/"
+    atom: S79-A111
+  - song_id: JD-SONG-015
+    canonical_song: "She's Lost Control"
+    folder: "songs/shes-lost-control/"
+    atom: S79-A112
+  - song_id: JD-SONG-016
+    canonical_song: "Shadowplay"
+    folder: "songs/shadowplay/"
+    atom: S79-A113
+  - song_id: JD-SONG-018
+    canonical_song: "Interzone"
+    folder: "songs/interzone/"
+    atom: S79-A114
+  - song_id: JD-SONG-019
+    canonical_song: "I Remember Nothing"
+    folder: "songs/i-remember-nothing/"
+    atom: S79-A115
+  - song_id: JD-SONG-020
+    canonical_song: "Transmission"
+    folder: "songs/transmission/"
+    atom: S79-A116
+  - song_id: JD-SONG-024
+    canonical_song: "Autosuggestion"
+    folder: "songs/autosuggestion/"
+    atom: S79-A117
+  - song_id: JD-SONG-025
+    canonical_song: "From Safety to Where...?"
+    folder: "songs/from-safety-to-where/"
+    atom: S79-A118
+  - song_id: JD-SONG-034
+    canonical_song: "Atmosphere"
+    folder: "songs/atmosphere/"
+    atom: S79-A119
+  - song_id: JD-SONG-033
+    canonical_song: "Dead Souls"
+    folder: "songs/dead-souls/"
+    atom: S79-A120
+  - song_id: JD-SONG-027
+    canonical_song: "The Sound of Music"
+    folder: "songs/the-sound-of-music/"
+    atom: S79-A121
+  - song_id: JD-SONG-028
+    canonical_song: "The Only Mistake"
+    folder: "songs/the-only-mistake/"
+    atom: S79-A122
+  - song_id: JD-SONG-031
+    canonical_song: "Something Must Break"
+    folder: "songs/something-must-break/"
+    atom: S79-A123
+  - song_id: JD-SONG-035
+    canonical_song: "Love Will Tear Us Apart"
+    folder: "songs/love-will-tear-us-apart/"
+    atom: S79-A124
+  - song_id: JD-SONG-036
+    canonical_song: "These Days"
+    folder: "songs/these-days/"
+    atom: S79-A125
+  - song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    folder: "songs/atrocity-exhibition/"
+    atom: S79-A126
+  - song_id: JD-SONG-002
+    canonical_song: "Isolation"
+    folder: "songs/isolation/"
+    atom: S79-A127
+  - song_id: JD-SONG-003
+    canonical_song: "Passover"
+    folder: "songs/passover/"
+    atom: S79-A128
+  - song_id: JD-SONG-004
+    canonical_song: "Colony"
+    folder: "songs/colony/"
+    atom: S79-A129
+  - song_id: JD-SONG-005
+    canonical_song: "A Means to an End"
+    folder: "songs/a-means-to-an-end/"
+    atom: S79-A130
+  - song_id: JD-SONG-007
+    canonical_song: "Twenty Four Hours"
+    folder: "songs/twenty-four-hours/"
+    atom: S79-A131
+  - song_id: JD-SONG-008
+    canonical_song: "The Eternal"
+    folder: "songs/the-eternal/"
+    atom: S79-A132
+  - song_id: JD-SONG-037
+    canonical_song: "Komakino"
+    folder: "songs/komakino/"
+    atom: S79-A133
+key_concepts:
+  - datation-1978
+  - datation-1979
+  - datation-1980
+  - fac-simile
+  - manuscrit-materiel
+  - genetique-textuelle
+  - titre-alternatif
+  - ratures-intensives
+key_motifs:
+  - Allure-to-Romance
+  - Staying
+  - Succed-Atmospheres
+verification_rules:
+  - "Ne jamais reproduire les paroles complètes des chansons depuis cette section."
+  - "Les fac-similés sont des images : l'extraction textuelle (pdftotext) n'en capte pas le contenu manuscrit."
+  - "Les observations visuelles sur les fac-similés (ratures, annotations) sont à statut a_verifier. Vérifier sur l'original."
+  - "Les datations viennent des légendes des versions typographiées — source éditée, pas les manuscrits eux-mêmes."
+  - "Transmission est daté 1978 dans S79 (non 1979)."
+  - "Interzone est daté 1978 dans S79."
+  - "Passover figurait dans la liste des titres alternatifs d'Unknown Pleasures (A091)."
+writing_use: >
+  Utiliser ce contexte pour : la datation des chansons dans S79 (source éditée 2014) ;
+  les observations de génétique textuelle (ratures, titres barrés, annotations) pour
+  Disorder, Candidate, New Dawn Fades, Transmission, Atmosphere, From Safety to Where...? ;
+  la cartographie de l'ensemble du corpus de Curtis par album et par période ;
+  la présence des fac-similés comme matérialisation des archives primaires dans le volume S79.

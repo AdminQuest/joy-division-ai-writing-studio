@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-23T22:02:41`
+Généré le : `2026-05-25T15:40:05`
 
 ## 1. Verdict
 
-Le repo présente des sources utilisées mais absentes du registre canonique.
-La dette principale reste la migration v2 : 2331 atome(s) incomplet(s) sur 2404.
+Le repo n’est pas strict-compliant : 14 erreur(s) bloquante(s) subsistent.
+La dette principale reste la migration v2 : 2432 atome(s) incomplet(s) sur 2505.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 6254
-- Erreurs : 0
-- Avertissements : 26615
+- Enregistrements : 6448
+- Erreurs : 14
+- Avertissements : 27855
 - Sources déclarées : 73
 - Sources utilisées : 60
 - Sources exportées : 60
@@ -22,35 +22,57 @@ La dette principale reste la migration v2 : 2331 atome(s) incomplet(s) sur 2404.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2404 |
+| atom | 2505 |
 | chronology | 429 |
-| concept | 391 |
-| metadata | 184 |
-| motif | 387 |
+| concept | 392 |
+| metadata | 203 |
+| motif | 389 |
 | myth | 100 |
 | person | 289 |
 | quote | 507 |
 | quote_batch | 1 |
 | rules | 1 |
-| song | 109 |
+| song | 110 |
 | source | 99 |
-| template | 356 |
-| unknown | 997 |
+| template | 357 |
+| unknown | 1066 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| field_type_error | 373 |
-| invalid_controlled_value | 2311 |
-| missing_required_field | 8238 |
+| duplicate_id | 13 |
+| field_type_error | 474 |
+| invalid_controlled_value | 2414 |
+| missing_required_field | 8443 |
 | schema_warning | 527 |
-| unknown_yaml_block | 967 |
-| v2_migration_debt | 14199 |
+| unknown_yaml_block | 1036 |
+| v2_migration_debt | 14961 |
+| yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
 
-Aucune.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-007] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-008] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-009] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-010] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-011] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-012] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-013] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-014] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-005] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-006] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-009] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-010] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `registers/concepts/master_concepts.md` [CONCEPT-010] : Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
+- **yaml_parse_error** — `registers/concepts/master_concepts.md` : YAML parse error: while scanning a simple key
+  in "<unicode string>", line 45, column 5:
+        sa formation était simplement no ... 
+        ^
+could not find expected ':'
+  in "<unicode string>", line 47, column 1:
+    atomes_lies:
+    ^ → Corriger la syntaxe YAML du bloc concerné.
 
 ## 6. Blocs YAML non classés
 
@@ -87,14 +109,14 @@ Aucune.
 - `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-012] : Unable to infer documentary kind
 - `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-013] : Unable to infer documentary kind
 - `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-014] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md` [R-S79-015] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md` [R-S79-005] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md` [R-S79-006] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md` [R-S79-007] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md` [R-S79-008] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md` : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md` : Unable to infer documentary kind
-- … 927 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-037] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-038] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-039] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-040] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-041] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-042] : Unable to infer documentary kind
+- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-043] : Unable to infer documentary kind
+- … 996 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -122,10 +144,10 @@ Libellés faibles :
 
 ## 8. Migration v2
 
-- Atomes : 2404
+- Atomes : 2505
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2331
-- Avertissements de champs v2 manquants : 14199
+- Atomes v2 incomplets : 2432
+- Avertissements de champs v2 manquants : 14961
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -144,6 +166,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/suatoni/source.md | 363 |
 | sources/marco_broll/source.md | 351 |
 | sources/johnson_morley_an_ideal_for_living/source_suite_05.md | 350 |
+| sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md | 348 |
 | sources/johnson_morley_an_ideal_for_living/source_suite_03.md | 345 |
 | sources/johnson_morley_an_ideal_for_living/source_suite_02.md | 340 |
 | sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md | 336 |
@@ -152,7 +175,6 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/reynolds_rip_it_up/source.md | 285 |
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
-| sources/morris_record_play_pause/source_part_06.md | 251 |
 
 ## 10. Commandes utiles
 

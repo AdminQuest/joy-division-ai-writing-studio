@@ -338,7 +338,7 @@
     "kind": "metadata",
     "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md::343",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
-    "heading": "Atomes v2 — S79 — « The Kill »",
+    "heading": "Atomes v2 — S79 — « The Kill (Warsaw) »",
     "data": {
       "source_id": "S79",
       "source_label": "S79 — Curtis, So This Is Permanence, 2014",
@@ -347,8 +347,9 @@
       "pages_pdf": "50-51",
       "pages_livre": "20-21",
       "passage": "The handwritten lyrics — The Kill",
-      "song_id": "JD-SONG-030",
-      "canonical_song": "The Kill",
+      "song_id": "JD-SONG-051",
+      "canonical_song": "The Kill (Warsaw)",
+      "distinct_from": "JD-SONG-030 — The Kill (Still)",
       "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
       "source_year": "2014"
     }
@@ -374,7 +375,54 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md::361",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md::361",
+    "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md",
+    "heading": "Relations stabilisées — S79 — Introduction de Jon Savage (fin, pp. xxv–xxviii)",
+    "data": {
+      "source_id": "S79",
+      "passage": "Introduction by Jon Savage (fin)",
+      "pages_livre": "xxv-xxviii",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_milieu_v2.md::369",
+    "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_milieu_v2.md",
+    "heading": "Relations stabilisées — S79 — Introduction Savage (milieu, pp. xxi–xxiv)",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "pages_pdf": "~21-24",
+      "pages_livre": "xxi-xxiv",
+      "passage": "Introduction by Jon Savage (milieu)",
+      "relations_ids": "R-S79-044 à R-S79-056",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md::383",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md",
+    "heading": "Atomes v2 — S79 — Section manuscrits : chansons restantes",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "pages_pdf": "~54-131",
+      "pages_livre": "23-101",
+      "passage": "The handwritten lyrics — chansons restantes (non atomisées)",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md::413",
     "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_failures_v2.md",
     "heading": "Relations stabilisées — S79 — « Failures »",
     "data": {
@@ -390,7 +438,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md::368",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md::420",
     "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_nll_v2.md",
     "heading": "Relations stabilisées — S79 — NLL",
     "data": {
@@ -406,7 +454,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md::371",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md::423",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
     "heading": "Atomes v2 — S79 — « Failures »",
     "data": {
@@ -425,7 +473,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md::380",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md::432",
     "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
     "heading": "Relations stabilisées — S79 — « Warsaw »",
     "data": {
@@ -441,7 +489,26 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md::385",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_fin_v2.md::437",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_fin_v2.md",
+    "heading": "Atomes v2 — S79 — Introduction de Jon Savage (fin, pp. xxv–xxviii)",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "pages_pdf": "~25-28",
+      "pages_livre": "xxv-xxviii",
+      "passage": "Introduction by Jon Savage (fin)",
+      "editeur": "Jon Savage",
+      "note_passage": "Dernière partie de l'introduction de Savage. Elle documente la politique éditoriale de Gretton (refus de publier les paroles), l'aveuglement collectif de l'entourage, l'auto-dissimulation de Curtis, la confrontation Deborah/New Dawn Fades, la chronologie 1980, le glissement lyrique de Closer, la genèse de The Eternal et de Komakino, les sessions Britannia Row, la thèse finale sur la connexion humaine et la note manuscrite « Reality is only a term ». Fiabilité historiographique forte ; témoignages Sumner et Hook à croiser avec S35/S41.",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md::450",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_editorial_note_v2.md",
     "heading": "Atomes v2 — S79 — note éditoriale",
     "data": {
@@ -458,7 +525,37 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md::396",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_handwritten_songs_v2.md::461",
+    "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_handwritten_songs_v2.md",
+    "heading": "Relations stabilisées — S79 — Section manuscrits : chansons restantes",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "pages_pdf": "~54-131",
+      "pages_livre": "23-101",
+      "passage": "The handwritten lyrics — chansons restantes",
+      "relations_ids": "R-S79-057 à R-S79-068",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md::474",
+    "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
+    "heading": "Relations stabilisées — S79 — Introduction de Jon Savage",
+    "data": {
+      "source_id": "S79",
+      "passage": "Introduction by Jon Savage",
+      "pages_livre": "xiii-xx",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md::483",
     "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_ice_age.md",
     "heading": "Compléments de registres — S79 — « Ice Age »",
     "data": {
@@ -474,23 +571,26 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md::399",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md::486",
     "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_the_kill_v2.md",
-    "heading": "Relations stabilisées — S79 — TK",
+    "heading": "Relations stabilisées — S79 — The Kill (Warsaw)",
     "data": {
       "source_id": "S79",
       "source_label": "S79 — Curtis, So This Is Permanence, 2014",
       "type_unite": "relations",
       "statut": "stabilise",
-      "coverage": "p. PDF 50-51 ; p. livre 20-21",
+      "coverage": "The Kill (Warsaw) ; p. PDF 50-51 ; p. livre 20-21",
       "atoms_file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
+      "song_id": "JD-SONG-051",
+      "canonical_song": "The Kill (Warsaw)",
+      "distinct_from": "JD-SONG-030 — The Kill (Still)",
       "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
       "source_year": "2014"
     }
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md::405",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md::492",
     "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_warsaw.md",
     "heading": "Compléments de registres — S79 — « Warsaw »",
     "data": {
@@ -506,7 +606,26 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md::408",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_foreword_deborah_v2.md::495",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_foreword_deborah_v2.md",
+    "heading": "Atomes v2 — S79 — Préface de Deborah Curtis (pp. vii–xi)",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "pages_pdf": "~4-8",
+      "pages_livre": "vii-xi",
+      "passage": "Foreword by Deborah Curtis",
+      "editeur": "Deborah Curtis",
+      "note_passage": "La préface est un témoignage direct de Deborah Curtis sur les pratiques d'écriture d'Ian, la matérialité des manuscrits, les silences conjugaux, l'épilepsie et la révélation de LWTUA. Source de première main, fiabilité forte pour les faits domestiques et biographiques ; à croiser avec les sources secondaires pour les interprétations.",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md::503",
     "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_ice_age_v2.md",
     "heading": "Relations stabilisées — S79 — Ice Age",
     "data": {
@@ -522,7 +641,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md::415",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md::510",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
     "heading": "Atomes v2 — S79 — « Leaders of Men »",
     "data": {
@@ -541,7 +660,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md::424",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md::519",
     "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_warsaw_v2.md",
     "heading": "Atomes v2 — S79 — « Warsaw »",
     "data": {
@@ -560,7 +679,43 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md::431",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_v2.md::526",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_v2.md",
+    "heading": "Atomes v2 — S79 — Introduction de Jon Savage (pp. xiii–xx)",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "pages_pdf": "~9-20",
+      "pages_livre": "xiii-xx",
+      "passage": "Introduction by Jon Savage",
+      "editeur": "Jon Savage",
+      "note_passage": "L'introduction de Savage est un texte critique argumenté, non biographique. Elle propose une lecture analytique de LWTUA, une histoire culturelle de l'autodidaxie manchestérienne, une généalogie du nom « Joy Division » et une théorie de la tension fiction/autobiographie dans les paroles de Curtis. Fiabilité historiographique forte ; interprétations à qualifier.",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_milieu_v2.md::539",
+    "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_milieu_v2.md",
+    "heading": "Atomes v2 — S79 — Introduction Savage (milieu, pp. xxi–xxiv)",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "pages_pdf": "~21-24",
+      "pages_livre": "xxi-xxiv",
+      "passage": "Introduction by Jon Savage (milieu)",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md::557",
     "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_failures.md",
     "heading": "Compléments de registres — S79 — « Failures »",
     "data": {
@@ -576,23 +731,38 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md::434",
-    "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md",
-    "heading": "Compléments de registres — S79 — « The Kill »",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md::560",
+    "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
+    "heading": "Relations stabilisées — S79 — Préface de Deborah Curtis",
     "data": {
       "source_id": "S79",
+      "passage": "Foreword by Deborah Curtis",
+      "pages_livre": "vii-xi",
       "source_label": "S79 — Curtis, So This Is Permanence, 2014",
-      "type_unite": "registers_update",
-      "coverage": "The handwritten lyrics — The Kill ; p. PDF 50-51 ; p. livre 20-21",
-      "song_id": "JD-SONG-030",
-      "canonical_song": "The Kill",
       "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
       "source_year": "2014"
     }
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/goddard_missions_dead_souls/source.md::438",
+    "id": "NO_ID::sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md::567",
+    "file": "sources/curtis_savage_so_this_is_permanence/registers_update_s79_the_kill.md",
+    "heading": "Compléments de registres — S79 — « The Kill (Warsaw) »",
+    "data": {
+      "source_id": "S79",
+      "source_label": "S79 — Curtis, So This Is Permanence, 2014",
+      "type_unite": "registers_update",
+      "coverage": "The handwritten lyrics — The Kill (Warsaw) ; p. PDF 50-51 ; p. livre 20-21",
+      "song_id": "JD-SONG-051",
+      "canonical_song": "The Kill (Warsaw)",
+      "distinct_from": "JD-SONG-030 — The Kill (Still)",
+      "source_short_title": "Ian Curtis, So This Is Permanence: Joy Division Lyrics and Notebooks, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/goddard_missions_dead_souls/source.md::571",
     "file": "sources/goddard_missions_dead_souls/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -607,7 +777,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/goddard_missions_dead_souls/relations_stabilisees.md::452",
+    "id": "NO_ID::sources/goddard_missions_dead_souls/relations_stabilisees.md::585",
     "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
     "heading": "Relations stabilisées — S29 — Goddard, « Missions of Dead Souls », 2018",
     "data": {
@@ -637,7 +807,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::560",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::693",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -654,7 +824,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::561",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::694",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -709,7 +879,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::562",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::695",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -730,7 +900,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::563",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::696",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -744,7 +914,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::564",
+    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::697",
     "file": "sources/tomeo_dance_dance_dance/source.md",
     "heading": "S13 — Tomeo, « Dance Dance Dance! », 2021",
     "data": {
@@ -782,7 +952,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::565",
+    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::698",
     "file": "sources/tomeo_dance_dance_dance/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -797,7 +967,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/gnocchi_interzona_burroughs_ballard/source.md::595",
+    "id": "NO_ID::sources/gnocchi_interzona_burroughs_ballard/source.md::728",
     "file": "sources/gnocchi_interzona_burroughs_ballard/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -815,7 +985,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md::1045",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md::1178",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Compléments aux registres structurants — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -830,7 +1000,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/source.md::1071",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/source.md::1204",
     "file": "sources/uk_treasury_fsbr_1987_88/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -845,7 +1015,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md::1072",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md::1205",
     "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
     "heading": "Relations stabilisées — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -872,7 +1042,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md::1081",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md::1214",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
     "heading": "Compléments aux registres spécialisés — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -887,7 +1057,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/malvezzi_dream_english_kid_lo_fi/source.md::1153",
+    "id": "NO_ID::sources/malvezzi_dream_english_kid_lo_fi/source.md::1286",
     "file": "sources/malvezzi_dream_english_kid_lo_fi/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -905,7 +1075,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/allegri_living_in_the_ice_age/source.md::1180",
+    "id": "NO_ID::sources/allegri_living_in_the_ice_age/source.md::1313",
     "file": "sources/allegri_living_in_the_ice_age/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -922,7 +1092,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md::1196",
+    "id": "NO_ID::sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md::1329",
     "file": "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md",
     "heading": "S39 — Compléments aux registres — *Liquid Modernity*, 2000",
     "data": {
@@ -938,7 +1108,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/bauman_liquid_modernity/source.md::1198",
+    "id": "NO_ID::sources/bauman_liquid_modernity/source.md::1331",
     "file": "sources/bauman_liquid_modernity/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -953,7 +1123,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/bauman_liquid_modernity/relations_stabilisees.md::1199",
+    "id": "NO_ID::sources/bauman_liquid_modernity/relations_stabilisees.md::1332",
     "file": "sources/bauman_liquid_modernity/relations_stabilisees.md",
     "heading": "S39 — Relations stabilisées — *Liquid Modernity*, 2000",
     "data": {
@@ -969,7 +1139,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/villani_ti_sfido_a_disperarti/source.md::1239",
+    "id": "NO_ID::sources/villani_ti_sfido_a_disperarti/source.md::1372",
     "file": "sources/villani_ti_sfido_a_disperarti/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -986,7 +1156,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::1334",
+    "id": "NO_ID::sources/flowers/README.md::1467",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -1003,7 +1173,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::1335",
+    "id": "NO_ID::sources/flowers/README.md::1468",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1063,7 +1233,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::1336",
+    "id": "NO_ID::sources/flowers/README.md::1469",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1084,7 +1254,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::1337",
+    "id": "NO_ID::sources/flowers/README.md::1470",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -1097,7 +1267,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1419",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1552",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1109,7 +1279,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md::1456",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md::1589",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
     "heading": "Compléments aux registres spécialisés — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -1124,7 +1294,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/source.md::1464",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/source.md::1597",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1139,7 +1309,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md::1465",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md::1598",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
     "heading": "Relations stabilisées — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -1173,7 +1343,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md::1495",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md::1628",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
     "heading": "Compléments aux registres structurants — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -1188,7 +1358,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/desia_segno_grafica_visione/source.md::1522",
+    "id": "NO_ID::sources/desia_segno_grafica_visione/source.md::1655",
     "file": "sources/desia_segno_grafica_visione/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1206,7 +1376,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/desia_segno_grafica_visione/relations_stabilisees.md::1523",
+    "id": "NO_ID::sources/desia_segno_grafica_visione/relations_stabilisees.md::1656",
     "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
     "heading": "Relations stabilisées — S48 — De Sia, *Il segno, la grafica, la visione*, 2021",
     "data": {
@@ -1236,7 +1406,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/desia_segno_grafica_visione/registres_specialises_s48.md::1534",
+    "id": "NO_ID::sources/desia_segno_grafica_visione/registres_specialises_s48.md::1667",
     "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
     "heading": "Registres spécialisés — S48 — De Sia, *Il segno, la grafica, la visione*, 2021",
     "data": {
@@ -1252,7 +1422,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md::1542",
+    "id": "NO_ID::sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md::1675",
     "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
     "heading": "Atomes v2 — S48 — De Sia, *Il segno, la grafica, la visione*, 2021",
     "data": {
@@ -1271,7 +1441,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/dm_rag_update_s42_metropoli_spazio_periferico.md::1556",
+    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/dm_rag_update_s42_metropoli_spazio_periferico.md::1689",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/dm_rag_update_s42_metropoli_spazio_periferico.md",
     "heading": "S42 — Mise à jour documents maîtres et RAG — Centre/périphérie, focal places, géographie post-punk",
     "data": {
@@ -1286,7 +1456,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md::1557",
+    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md::1690",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
     "heading": "S42 — Relations stabilisées v2 — Amendola & Troianiello, centre/périphérie et focal places",
     "data": {
@@ -1301,7 +1471,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/source.md::1569",
+    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/source.md::1702",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1319,7 +1489,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md::1570",
+    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md::1703",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
     "heading": "S42 — Atomes v2 — Amendola & Troianiello, « Metropoli e spazio periferico nell’underground post-punk inglese », 2021",
     "data": {
@@ -1335,7 +1505,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md::1584",
+    "id": "NO_ID::sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md::1717",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md",
     "heading": "S42 — Compléments aux registres — Centre/périphérie, focal places et géographie post-punk",
     "data": {
@@ -1351,7 +1521,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md::1913",
+    "id": "NO_ID::sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md::2046",
     "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1369,7 +1539,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ilardi_ian_curtis_is_not_dead/source.md::1930",
+    "id": "NO_ID::sources/ilardi_ian_curtis_is_not_dead/source.md::2063",
     "file": "sources/ilardi_ian_curtis_is_not_dead/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1386,7 +1556,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/federici_unknown_pleasures_pulsar_tshirt/source.md::1962",
+    "id": "NO_ID::sources/federici_unknown_pleasures_pulsar_tshirt/source.md::2095",
     "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1403,7 +1573,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/farci_danza_esistenziale_ian_curtis/source.md::2004",
+    "id": "NO_ID::sources/farci_danza_esistenziale_ian_curtis/source.md::2137",
     "file": "sources/farci_danza_esistenziale_ian_curtis/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1421,7 +1591,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/fraser_fuoto_manchester_1976/source.md::2018",
+    "id": "NO_ID::sources/fraser_fuoto_manchester_1976/source.md::2151",
     "file": "sources/fraser_fuoto_manchester_1976/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1436,7 +1606,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/fraser_fuoto_manchester_1976/relations_stabilisees.md::2019",
+    "id": "NO_ID::sources/fraser_fuoto_manchester_1976/relations_stabilisees.md::2152",
     "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
     "heading": "Relations stabilisées — S34 — Fraser & Fuoto, « Manchester, 1976 », 2012",
     "data": {
@@ -1466,7 +1636,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md::2032",
+    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md::2165",
     "file": "sources/capozzi_weight_on_their_shoulders/registres_specialises_s43.md",
     "heading": "Registres spécialisés — S43 — Capozzi, *The weight on their shoulders*, 2021",
     "data": {
@@ -1482,7 +1652,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/source.md::2044",
+    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/source.md::2177",
     "file": "sources/capozzi_weight_on_their_shoulders/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1500,7 +1670,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md::2045",
+    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md::2178",
     "file": "sources/capozzi_weight_on_their_shoulders/relations_stabilisees.md",
     "heading": "Relations stabilisées — S43 — Capozzi, *The weight on their shoulders*, 2021",
     "data": {
@@ -1532,7 +1702,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md::2055",
+    "id": "NO_ID::sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md::2188",
     "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
     "heading": "Atomes v2 — S43 — Capozzi, *The weight on their shoulders*, 2021",
     "data": {
@@ -1551,7 +1721,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/songfacts_buzzcocks_boredom/source.md::2072",
+    "id": "NO_ID::sources/songfacts_buzzcocks_boredom/source.md::2205",
     "file": "sources/songfacts_buzzcocks_boredom/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1568,7 +1738,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wikipedia_rowche_rumble/source.md::2074",
+    "id": "NO_ID::sources/wikipedia_rowche_rumble/source.md::2207",
     "file": "sources/wikipedia_rowche_rumble/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1585,7 +1755,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md::2096",
+    "id": "NO_ID::sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md::2229",
     "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1602,7 +1772,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::2117",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::2250",
     "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
     "heading": "Compléments aux registres structurants — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -1617,7 +1787,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::2136",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::2269",
     "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
     "heading": "Atomes v2 — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -1636,7 +1806,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::2166",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::2299",
     "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
     "heading": "Relations stabilisées — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -1668,7 +1838,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::2177",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::2310",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Compléments aux registres spécialisés — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -1683,7 +1853,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ferrara_poetica_della_distanza/source.md::2214",
+    "id": "NO_ID::sources/ferrara_poetica_della_distanza/source.md::2347",
     "file": "sources/ferrara_poetica_della_distanza/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1700,7 +1870,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/rabbito_control_infrangimento_vetro/source.md::2251",
+    "id": "NO_ID::sources/rabbito_control_infrangimento_vetro/source.md::2384",
     "file": "sources/rabbito_control_infrangimento_vetro/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1718,7 +1888,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::2267",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::2400",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "S20 — Martin Dodge, *Manchester Geographies*, chapitre 3",
     "data": {
@@ -1753,7 +1923,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::2268",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::2401",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1768,7 +1938,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::2457",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::2590",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "S02 — Sueur, *Villes du futur, futur des villes*, 2011",
     "data": {
@@ -1802,7 +1972,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::2458",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::2591",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "Règle d’usage",
     "data": {
@@ -1818,7 +1988,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::2496",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::2629",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "S10 — Bernard Sumner, *Chapter and Verse*, 2014/2015",
     "data": {
@@ -1860,7 +2030,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::2497",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::2630",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1875,7 +2045,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md::2510",
+    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md::2643",
     "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
     "heading": "Atomes v2 — S37 — Morley, scène mancunienne post-Sex Pistols, NME 1977",
     "data": {
@@ -1895,7 +2065,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md::2523",
+    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md::2656",
     "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
     "heading": "Compléments de registres — S37 — Manchester post-Sex Pistols, NME 1977",
     "data": {
@@ -1912,7 +2082,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md::2534",
+    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md::2667",
     "file": "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
     "heading": "Relations stabilisées — S37 — Morley, *Piece by Piece*, premier passage",
     "data": {
@@ -1928,7 +2098,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md::2542",
+    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md::2675",
     "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
     "heading": "Atomes v2 — S37 — Morley, *Joy Division: Piece by Piece*, premier passage",
     "data": {
@@ -1948,7 +2118,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/source.md::2559",
+    "id": "NO_ID::sources/morley_piece_by_piece/source.md::2692",
     "file": "sources/morley_piece_by_piece/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -1965,7 +2135,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md::2565",
+    "id": "NO_ID::sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md::2698",
     "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
     "heading": "Atomes v2 — S37 — Morley, Manchester mémoire et réécriture, Observer 2006",
     "data": {
@@ -1985,7 +2155,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md::2577",
+    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md::2710",
     "file": "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md",
     "heading": "Relations stabilisées — S37 — Manchester post-Sex Pistols, NME 1977",
     "data": {
@@ -2001,7 +2171,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md::2590",
+    "id": "NO_ID::sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md::2723",
     "file": "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
     "heading": "Relations stabilisées — S37 — Manchester mémoire et réécriture, Observer 2006",
     "data": {
@@ -2017,7 +2187,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_first_passage.md::2599",
+    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_first_passage.md::2732",
     "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
     "heading": "Compléments de registres — S37 — Morley, *Piece by Piece*, premier passage",
     "data": {
@@ -2034,7 +2204,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md::2613",
+    "id": "NO_ID::sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md::2746",
     "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
     "heading": "Compléments de registres — S37 — Manchester mémoire et réécriture, Observer 2006",
     "data": {
@@ -2051,7 +2221,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::2624",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::2757",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
     "data": {
@@ -2090,7 +2260,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::2625",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::2758",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2105,7 +2275,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::2648",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::2781",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "S06 — Carter, « Youth, race and the inner-city estate », 2021/2023",
     "data": {
@@ -2141,7 +2311,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::2649",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::2782",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2156,7 +2326,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morris_record_play_pause/atomes_s35_record_play_pause.md::2711",
+    "id": "NO_ID::sources/morris_record_play_pause/atomes_s35_record_play_pause.md::2844",
     "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
     "heading": "Atomes v2 — S35 — Morris, *Record Play Pause*, 2019",
     "data": {
@@ -2175,7 +2345,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morris_record_play_pause/source.md::2739",
+    "id": "NO_ID::sources/morris_record_play_pause/source.md::2872",
     "file": "sources/morris_record_play_pause/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2192,7 +2362,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morris_record_play_pause/relations_stabilisees.md::2745",
+    "id": "NO_ID::sources/morris_record_play_pause/relations_stabilisees.md::2878",
     "file": "sources/morris_record_play_pause/relations_stabilisees.md",
     "heading": "Relations stabilisées — S35 — Morris, *Record Play Pause*, 2019",
     "data": {
@@ -2229,7 +2399,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/morris_record_play_pause/registres_specialises_s35.md::2820",
+    "id": "NO_ID::sources/morris_record_play_pause/registres_specialises_s35.md::2953",
     "file": "sources/morris_record_play_pause/registres_specialises_s35.md",
     "heading": "Registres spécialisés — S35 — Morris, *Record Play Pause*, 2019",
     "data": {
@@ -2245,7 +2415,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md::2860",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md::2993",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
     "heading": "Atomes v2 — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
     "data": {
@@ -2264,7 +2434,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/source.md::2878",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/source.md::3011",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2282,7 +2452,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md::2879",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md::3012",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/relations_stabilisees.md",
     "heading": "Relations stabilisées — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
     "data": {
@@ -2315,7 +2485,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md::2890",
+    "id": "NO_ID::sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md::3023",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/registres_specialises_s44.md",
     "heading": "Registres spécialisés — S44 — Guarino, *I Joy Division tra vomito culturale e ideali sottoculturali*, 2021",
     "data": {
@@ -2331,7 +2501,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::2899",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::3032",
     "file": "sources/cummins_joy_division_visual_corpus/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2346,7 +2516,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::2900",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::3033",
     "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
     "heading": "Relations stabilisées — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -2373,7 +2543,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::2908",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::3041",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Compléments aux registres spécialisés — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -2388,7 +2558,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::2915",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::3048",
     "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
     "heading": "Compléments aux registres structurants — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -2403,7 +2573,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/worley_punk_politics_british_fanzines/source.md::2973",
+    "id": "NO_ID::sources/worley_punk_politics_british_fanzines/source.md::3106",
     "file": "sources/worley_punk_politics_british_fanzines/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2420,7 +2590,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::2983",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::3116",
     "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
     "heading": "Compléments aux registres structurants — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -2435,7 +2605,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::2997",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::3130",
     "file": "sources/happy_mondays_gods_cop/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2450,7 +2620,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::2998",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::3131",
     "file": "sources/happy_mondays_gods_cop/relations_stabilisees.md",
     "heading": "Relations stabilisées — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -2475,7 +2645,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::3005",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::3138",
     "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
     "heading": "Compléments aux registres spécialisés — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -2490,7 +2660,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::3012",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::3145",
     "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
     "heading": "Compléments aux registres spécialisés — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -2505,7 +2675,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::3020",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::3153",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2520,7 +2690,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::3021",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::3154",
     "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
     "heading": "Relations stabilisées — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -2552,7 +2722,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::3048",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::3181",
     "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
     "heading": "Compléments aux registres structurants — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -2567,7 +2737,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/internationale_situationniste_2_psychogeographie_derive/source.md::3249",
+    "id": "NO_ID::sources/internationale_situationniste_2_psychogeographie_derive/source.md::3382",
     "file": "sources/internationale_situationniste_2_psychogeographie_derive/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2584,7 +2754,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/romania_a_guide_to_come_universo_simbolico/source.md::3263",
+    "id": "NO_ID::sources/romania_a_guide_to_come_universo_simbolico/source.md::3396",
     "file": "sources/romania_a_guide_to_come_universo_simbolico/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2601,7 +2771,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/barone_directionless_so_plain_to_see/source.md::3319",
+    "id": "NO_ID::sources/barone_directionless_so_plain_to_see/source.md::3452",
     "file": "sources/barone_directionless_so_plain_to_see/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2618,7 +2788,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::3393",
+    "id": "NO_ID::sources/suatoni/README.md::3526",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -2635,7 +2805,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::3394",
+    "id": "NO_ID::sources/suatoni/README.md::3527",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -2673,7 +2843,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::3395",
+    "id": "NO_ID::sources/suatoni/README.md::3528",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -2693,7 +2863,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/mdmarchive_city_fun_hidden_history/source.md::3407",
+    "id": "NO_ID::sources/mdmarchive_city_fun_hidden_history/source.md::3540",
     "file": "sources/mdmarchive_city_fun_hidden_history/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2710,7 +2880,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::3472",
+    "id": "NO_ID::sources/greig_strong/README.md::3605",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -2727,7 +2897,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::3473",
+    "id": "NO_ID::sources/greig_strong/README.md::3606",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -2760,7 +2930,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::3474",
+    "id": "NO_ID::sources/greig_strong/README.md::3607",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -2775,7 +2945,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/engels_condition_working_class_england/source.md::3476",
+    "id": "NO_ID::sources/engels_condition_working_class_england/source.md::3609",
     "file": "sources/engels_condition_working_class_england/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2792,7 +2962,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/iovane_riccio_trademark_will_tear_us_apart/source.md::3493",
+    "id": "NO_ID::sources/iovane_riccio_trademark_will_tear_us_apart/source.md::3626",
     "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
     "heading": "9. Consignes pour les futurs atomes",
     "data": {
@@ -2809,7 +2979,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/organizations/s35_morris_organizations_part_03.md::4302",
+    "id": "NO_ID::registers/organizations/s35_morris_organizations_part_03.md::4435",
     "file": "registers/organizations/s35_morris_organizations_part_03.md",
     "heading": "Registre organisations — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -2825,7 +2995,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/organizations/s35_morris_organizations_part_04.md::4308",
+    "id": "NO_ID::registers/organizations/s35_morris_organizations_part_04.md::4441",
     "file": "registers/organizations/s35_morris_organizations_part_04.md",
     "heading": "Registre organisations — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -2841,7 +3011,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::4345",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::4478",
     "file": "registers/songs/s35_morris_songs_part_03.md",
     "heading": "Registre chansons — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -2857,7 +3027,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::4549",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::4683",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Registre chansons et albums — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -2873,7 +3043,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::4610",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::4744",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -2887,7 +3057,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::4636",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::4770",
     "file": "registers/quotes/s35_morris_quotes_part_05.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -2903,7 +3073,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::4666",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::4800",
     "file": "registers/quotes/s35_morris_quotes_part_04.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -2919,7 +3089,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::4903",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5037",
     "file": "registers/quotes/s35_morris_quotes_part_03.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -2935,7 +3105,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::5001",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::5135",
     "file": "registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md",
     "heading": "Registre références — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -2951,7 +3121,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5009",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5143",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2966,7 +3136,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::5032",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::5166",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2981,7 +3151,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::5036",
+    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::5170",
     "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -2996,7 +3166,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::5039",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::5173",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3011,7 +3181,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::5052",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::5186",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3026,7 +3196,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::5062",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::5196",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3041,7 +3211,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::5066",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::5200",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3056,7 +3226,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::5068",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::5202",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3071,7 +3241,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5072",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5206",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3086,7 +3256,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::5073",
+    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::5207",
     "file": "registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -3104,7 +3274,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::5075",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::5209",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3119,7 +3289,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::5078",
+    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::5212",
     "file": "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -3134,7 +3304,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::5083",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::5217",
     "file": "registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md",
     "heading": "Registre références — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3150,7 +3320,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::5093",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::5227",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3166,7 +3336,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::5094",
+    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::5228",
     "file": "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -3184,7 +3354,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::5098",
+    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::5232",
     "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3199,7 +3369,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::5104",
+    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::5238",
     "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3214,7 +3384,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::5122",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::5256",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -3229,7 +3399,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5129",
+    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5263",
     "file": "registers/places/s35_morris_places_part_04.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3245,7 +3415,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5137",
+    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5271",
     "file": "registers/places/s35_morris_places_part_03.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -3261,7 +3431,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md::5143",
+    "id": "NO_ID::registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md::5277",
     "file": "registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md",
     "heading": "S40 - Motifs - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -3277,7 +3447,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_04.md::5234",
+    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_04.md::5368",
     "file": "registers/motifs/s35_morris_motifs_part_04.md",
     "heading": "Registre motifs — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3293,7 +3463,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_05.md::5302",
+    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_05.md::5436",
     "file": "registers/motifs/s35_morris_motifs_part_05.md",
     "heading": "Registre motifs — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -3309,7 +3479,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s39_bauman_liquid_modernity_motifs.md::5379",
+    "id": "NO_ID::registers/motifs/s39_bauman_liquid_modernity_motifs.md::5513",
     "file": "registers/motifs/s39_bauman_liquid_modernity_motifs.md",
     "heading": "S39 — Motifs — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -3325,7 +3495,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_03.md::5384",
+    "id": "NO_ID::registers/motifs/s35_morris_motifs_part_03.md::5518",
     "file": "registers/motifs/s35_morris_motifs_part_03.md",
     "heading": "Registre motifs — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -3341,7 +3511,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::5444",
+    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::5580",
     "file": "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
     "heading": "S40 - Registres specialises - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -3357,7 +3527,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::5445",
+    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::5581",
     "file": "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
     "heading": "S39 — Registres spécialisés — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -3373,7 +3543,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/people/s35_morris_people_part_04.md::5476",
+    "id": "NO_ID::registers/people/s35_morris_people_part_04.md::5612",
     "file": "registers/people/s35_morris_people_part_04.md",
     "heading": "Registre acteurs — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3389,7 +3559,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/people/s35_morris_people_part_05.md::5512",
+    "id": "NO_ID::registers/people/s35_morris_people_part_05.md::5648",
     "file": "registers/people/s35_morris_people_part_05.md",
     "heading": "Registre acteurs — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -3405,7 +3575,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/people/s35_morris_people_part_03.md::5664",
+    "id": "NO_ID::registers/people/s35_morris_people_part_03.md::5800",
     "file": "registers/people/s35_morris_people_part_03.md",
     "heading": "Registre acteurs — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -3421,7 +3591,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s39_bauman_liquid_modernity_concepts.md::5730",
+    "id": "NO_ID::registers/concepts/s39_bauman_liquid_modernity_concepts.md::5866",
     "file": "registers/concepts/s39_bauman_liquid_modernity_concepts.md",
     "heading": "S39 — Concepts — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -3437,7 +3607,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_04.md::5731",
+    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_04.md::5867",
     "file": "registers/concepts/s35_morris_concepts_part_04.md",
     "heading": "Registre concepts — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3453,7 +3623,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md::5766",
+    "id": "NO_ID::registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md::5902",
     "file": "registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md",
     "heading": "S40 - Concepts - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -3469,7 +3639,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_05.md::5767",
+    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_05.md::5903",
     "file": "registers/concepts/s35_morris_concepts_part_05.md",
     "heading": "Registre concepts — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -3485,7 +3655,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_03.md::5830",
+    "id": "NO_ID::registers/concepts/s35_morris_concepts_part_03.md::5968",
     "file": "registers/concepts/s35_morris_concepts_part_03.md",
     "heading": "Registre concepts — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -3501,7 +3671,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s35_morris_mythes_part_03.md::5942",
+    "id": "NO_ID::registers/myths/s35_morris_mythes_part_03.md::6080",
     "file": "registers/myths/s35_morris_mythes_part_03.md",
     "heading": "Registre mythes — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -3517,7 +3687,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s40_cacciatore_hauntologie_no_future_myths.md::5953",
+    "id": "NO_ID::registers/myths/s40_cacciatore_hauntologie_no_future_myths.md::6091",
     "file": "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md",
     "heading": "S40 - Mythes et garde-fous - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
@@ -3533,7 +3703,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s39_bauman_liquid_modernity_myths.md::5977",
+    "id": "NO_ID::registers/myths/s39_bauman_liquid_modernity_myths.md::6115",
     "file": "registers/myths/s39_bauman_liquid_modernity_myths.md",
     "heading": "S39 — Mythes et garde-fous — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -3549,7 +3719,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s35_morris_mythes_part_04.md::5998",
+    "id": "NO_ID::registers/myths/s35_morris_mythes_part_04.md::6136",
     "file": "registers/myths/s35_morris_mythes_part_04.md",
     "heading": "Registre mythes — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3565,7 +3735,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/myths/s35_morris_mythes_part_05.md::6018",
+    "id": "NO_ID::registers/myths/s35_morris_mythes_part_05.md::6156",
     "file": "registers/myths/s35_morris_mythes_part_05.md",
     "heading": "Registre mythes — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -3581,7 +3751,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_04.md::6118",
+    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_04.md::6256",
     "file": "registers/chronology/s35_morris_chronology_part_04.md",
     "heading": "Registre chronologie — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -3597,7 +3767,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_05.md::6142",
+    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_05.md::6280",
     "file": "registers/chronology/s35_morris_chronology_part_05.md",
     "heading": "Registre chronologie — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -3613,7 +3783,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_03.md::6269",
+    "id": "NO_ID::registers/chronology/s35_morris_chronology_part_03.md::6407",
     "file": "registers/chronology/s35_morris_chronology_part_03.md",
     "heading": "Registre chronologie — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {

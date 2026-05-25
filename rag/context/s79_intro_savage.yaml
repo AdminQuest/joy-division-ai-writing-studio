@@ -4,7 +4,7 @@ source_label: "S79 — Curtis, So This Is Permanence, 2014"
 source_path: "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_intro_savage_v2.md"
 relations_path: "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md"
 coverage:
-  passage: "Introduction by Jon Savage (complète)"
+  passage: "Introduction by Jon Savage (complète, pages xxi-xxiv incluses)"
   pdf_pages: "~9-28"
   book_pages: "xiii-xxviii"
   editeur: "Jon Savage"
@@ -44,6 +44,23 @@ key_atoms:
   - S79-A085
   - S79-A086
   - S79-A087
+  - S79-A088
+  - S79-A089
+  - S79-A090
+  - S79-A091
+  - S79-A092
+  - S79-A093
+  - S79-A094
+  - S79-A095
+  - S79-A096
+  - S79-A097
+  - S79-A098
+  - S79-A099
+  - S79-A100
+  - S79-A101
+  - S79-A102
+  - S79-A103
+  - S79-A104
 songbook:
   - song_id: JD-SONG-035
     canonical_song: "Love Will Tear Us Apart"
@@ -63,6 +80,18 @@ songbook:
   - song_id: JD-SONG-037
     canonical_song: "Komakino"
     folder: "songs/komakino/"
+  - song_id: JD-SONG-015
+    canonical_song: "She's Lost Control"
+    folder: "songs/shes-lost-control/"
+  - song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    folder: "songs/atrocity-exhibition/"
+  - song_id: JD-SONG-033
+    canonical_song: "Dead Souls"
+    folder: "songs/dead-souls/"
+  - song_id: JD-SONG-018
+    canonical_song: "Interzone"
+    folder: "songs/interzone/"
 key_concepts:
   - autodidaxie-pop
   - autobiographie-fiction
@@ -78,6 +107,13 @@ key_concepts:
   - genèse-chanson
   - automatisme-lyrique
   - manuscrit-autographe
+  - extremites-de-la-vie
+  - je-fictif
+  - intertexte-fondateur
+  - titre-alternatif-album
+  - oeuvre-d-art-totale
+  - livres-comme-portails
+  - point-de-bascule
 key_motifs:
   - culture-de-niche
   - seuil
@@ -89,6 +125,11 @@ key_motifs:
   - jeunesse-oubliée
   - temps-suspendu
   - rêve
+  - folie-et-insanité
+  - narrateur-piege
+  - voyant
+  - chanson-passerelle
+  - ombre-de-personnalite
 writing_use: >
   Utiliser ce passage pour : l'écosystème culturel manchestérien des années 1970
   (librairies, paperback culture) ; la formation autodidacte de Curtis via Burroughs ;
@@ -99,7 +140,14 @@ writing_use: >
   Deborah/Curtis sur New Dawn Fades ; la genèse de The Eternal (enfant trisomique,
   Macclesfield, Sumner) ; l'origine berlinoise de Komakino ; les sessions Britannia Row
   et le témoignage du tourbillon (Sumner) ; la thèse finale de Savage sur la connexion
-  humaine et la jeunesse néo-libérale ; la note manuscrite « Reality is only a term ».
+  humaine et la jeunesse néo-libérale ; la note manuscrite « Reality is only a term » ;
+  le programme esthétique des extrémités (Sumner 1994) ; les titres alternatifs d'Unknown
+  Pleasures (liste manuscrite Curtis) ; la genèse de She's Lost Control (centre de
+  rééducation, témoignage Sumner) ; la genèse d'Interzone (Burroughs/Manchester) ;
+  No City Fun (film Salem) ; l'imagerie totalitaire (fascination sans adhésion idéologique) ;
+  Atrocity Exhibition (Ballard/Hesse/Hempsall) ; Dead Souls comme gateway song ;
+  l'incident de Bournemouth (Sumner : ombre sur la personnalité) ; la note en prose
+  de Curtis (Nothing seems real anymore).
 verification_rules:
   - "Butterworth et Morris sont cités indirectement via Savage."
   - "Dates LWTUA à vérifier contre S35 (Morris) et S41 (Hook)."
@@ -109,3 +157,8 @@ verification_rules:
   - "Témoignage Britannia Row (S79-A085) : source indirecte (Sumner → Savage). Croiser avec S35."
   - "Ne pas reproduire les paroles complètes des chansons depuis ce passage."
   - "La note manuscrite (S79-A087) est une trace, pas une clé d'interprétation fermée."
+  - "Sumner 1994 (S79-A088) : source rétrospective à 14 ans de distance. Fiabilité moyenne."
+  - "Genèse de She's Lost Control (S79-A094) : Sumner → Savage. Témoignage indirect à deux niveaux."
+  - "Imagerie totalitaire (S79-A096) : fascination documentée par Savage, non adhésion idéologique."
+  - "Atrocity Exhibition/Hempsall (S79-A098) : déclaration de Curtis via Hempsall → Savage. Deux niveaux de médiation."
+  - "Incident de Bournemouth (S79-A104) : témoignage rétrospectif de Sumner. Ne pas en faire preuve de tentative de suicide."

@@ -1268,6 +1268,36 @@
   },
   {
     "kind": "song",
+    "id": "JD-SONG-051",
+    "file": "registers/songs/51_the_kill_warsaw_canonical.md",
+    "heading": "The Kill (Warsaw) — entrée canonique distincte",
+    "data": {
+      "id": "JD-SONG-051",
+      "type_unite": "song",
+      "canonical_song": true,
+      "song": "The Kill (Warsaw)",
+      "slug": "the-kill-warsaw",
+      "category": "Warsaw / pré-Joy Division",
+      "period": "Warsaw",
+      "status": "canonique distinct",
+      "albums": [
+        "Warsaw / early corpus"
+      ],
+      "aliases": [
+        "The Kill (Warsaw)",
+        "Kill (Warsaw)"
+      ],
+      "include_variants": [
+        "Warsaw",
+        "manuscript",
+        "lyrics_divergence"
+      ],
+      "exclude": false,
+      "separate_from": "JD-SONG-030 — The Kill (Still)"
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S75-026",
     "file": "registers/songs/s75_ott_songs_part_04.md",
     "heading": "SONG-S75-026 — « Transmission »",
@@ -1561,7 +1591,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::4404",
+    "id": "NO_ID::registers/songs/master_songs.md::4538",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
