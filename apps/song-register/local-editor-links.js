@@ -44,17 +44,20 @@
   function addLinks() {
     document.querySelectorAll('.song-card').forEach(card => {
       if (card.querySelector('.local-editor-link')) return;
-      const h3 = card.querySelector('h3');
+      const h3   = card.querySelector('h3');
       const meta = card.querySelector('.meta');
       if (!h3 || !meta) return;
-      const slug = slugFor(h3.textContent);
+      // Slug canonique injecté par app.js via data-slug (prioritaire),
+      // sinon dérivé du titre par slugifySongTitle() + table overrides.
+      const slug = card.dataset.slug || slugFor(h3.textContent.trim());
+      if (!slug) return;
       const a = document.createElement('a');
       a.className = 'badge editorial local-editor-link';
-      a.href = LOCAL_EDITOR_BASE + '?slug=' + encodeURIComponent(slug);
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
+      a.href      = LOCAL_EDITOR_BASE + '?slug=' + encodeURIComponent(slug);
+      a.target    = '_blank';
+      a.rel       = 'noopener noreferrer';
       a.textContent = 'ouvrir éditeur';
-      a.title = 'Éditeur de Songbook — GitHub Pages (token requis).';
+      a.title     = 'Éditeur de Songbook — GitHub Pages (token requis).';
       meta.appendChild(a);
     });
   }
