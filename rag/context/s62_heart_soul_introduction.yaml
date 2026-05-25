@@ -1,0 +1,53 @@
+id: RAG-S62-HEART-SOUL-INTRODUCTION
+source_id: S62
+source_label: "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018"
+source_path: "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md"
+relations_path: "sources/heart_soul_introduction/relations_s62_introduction_v2.md"
+structuring_registers_path: "registers/s62_introduction_structuring_registers.md"
+specialized_registers_path: "registers/s62_introduction_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s62_heart_soul_introduction.jsonl"
+status: "integrated"
+coverage:
+  passage: "Introduction — p. xvii–xxx"
+  pdf_pages: "21–33 (approximatif)"
+  scope: >
+    Introduction éditoriale de l'ouvrage collectif Heart and Soul: Critical Essays on Joy Division (2018).
+    Couvre : données factuelles consensuelles sur Joy Division, premier concert de New Order (30 juillet 1980),
+    philosophie de Hannett (espace/absence), True Faith exhibition (MIF 2017), symposium Atrocity Exhibition
+    (Limerick 2015), structure thématique du volume en six parties, posture épistémologique fan/chercheur,
+    formule conclusive 'touching from a distance'.
+primary_chapters:
+  - "Chapitre 14"
+  - "Chapitre 13"
+secondary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 3"
+  - "Chapitre 5"
+  - "Chapitre 12"
+key_atoms:
+  - S62-A001  # posture fan/chercheur
+  - S62-A002  # données factuelles Joy Division
+  - S62-A003  # premier concert New Order 30 juillet 1980
+  - S62-A004  # Hannett et l'absence
+  - S62-A005  # True Faith (MIF 2017), absent-présent de Curtis
+  - S62-A006  # Atrocity Exhibition symposium Limerick 2015
+  - S62-A007  # structure thématique Heart and Soul
+  - S62-A008  # MIF 2017, New Order à Granada Studios, Morley
+  - S62-A009  # 'touching from a distance'
+writing_use: >
+  Utiliser S62 pour :
+  (1) Chapitre 2 — données factuelles consensuelles sur la formation du groupe (Salford, 43 chansons,
+  120 concerts, première sous le nom JD en janvier 1978) ;
+  (2) Chapitre 3 — philosophie de Hannett (espace/absence) comme cadrage analytique ;
+  (3) Chapitre 13 — premier concert de New Order (30 juillet 1980) et gallows humour de Sumner ;
+  (4) Chapitre 14 — institutionnalisation académique de Joy Division (symposium Limerick 2015),
+  True Faith exhibition (MIF 2017), formule 'touching from a distance', posture fan/chercheur.
+verification_rules:
+  - "Les données biographiques (43 chansons, 120 concerts) sont issues de sources secondaires — croiser avec S41, S35."
+  - "La formule 'art is sometimes found in the absence' est des éditeurs, non de Hannett."
+  - "La posture fan/chercheur est déclarée et réflexive — ne pas l'utiliser pour relativiser les analyses."
+  - "'Touching from a distance' : double intertexte (Deborah Curtis / Valdés Miyares) — préciser selon le contexte d'usage."
+  - "True Faith (MIF 2017) et So It Goes ∑(No,12k,Lg,17Mif) sont deux événements distincts du même festival."
+note_structure: >
+  L'ouvrage Heart and Soul est atomisé chapitre par chapitre. S62 est l'introduction.
+  Les autres chapitres : S29 (Ch.1/Goddard), S63–S67 (Ch.2–6), S80–S88 (Ch.7–15).

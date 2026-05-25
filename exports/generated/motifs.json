@@ -660,6 +660,31 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S62-001",
+    "file": "registers/s62_introduction_structuring_registers.md",
+    "heading": "MOTIF-S62-001 — « touching from a distance » (double sens)",
+    "data": {
+      "id": "MOTIF-S62-001",
+      "type_unite": "motif",
+      "nom": "touching from a distance",
+      "source_id": "S62",
+      "occurrences": [
+        "S62-A009 (clôture de l'introduction)",
+        "S80 (Valdés Miyares — formule analytique sur l'inarticulacy)",
+        "Deborah Curtis (titre de la biographie, 1995)"
+      ],
+      "fonction_argumentative": "Ce motif signale l'impossibilité d'une connaissance complète et directe de Joy Division/Curtis : la connaissance est toujours médiatisée, partielle, à distance. Utilisable pour qualifier le statut épistémologique de tout travail sur Joy Division, qu'il soit académique, journalistique ou mémoriel.\n",
+      "chapitres": [
+        "Chapitre 14",
+        "Chapitre 12"
+      ],
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-son_de_manchester",
     "file": "registers/s78_nevarez_structuring_registers.md",
     "heading": "Motifs",

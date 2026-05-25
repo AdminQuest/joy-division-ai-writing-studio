@@ -1,6 +1,307 @@
 [
   {
     "kind": "atom",
+    "id": "S62-A001",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A001 — S62 comme source de cadrage académique : statut épistémologique et prudences",
+    "data": {
+      "id": "S62-A001",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "declaration_methodologique",
+      "importance": "critique",
+      "pages_pdf": "21–33",
+      "pages_livre": "xvii–xxx",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "source académique rétrospective",
+        "posture fan/critique",
+        "réflexivité déclarée"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Martin J. Power",
+        "Aileen Dillane",
+        "Eoin Devereux"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A002",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A002 — Joy Division : données factuelles stabilisées et point de départ consensuel",
+    "data": {
+      "id": "S62-A002",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "synthese_factuelle",
+      "importance": "majeure",
+      "pages_pdf": "21–22",
+      "pages_livre": "xvii–xviii",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "concepts": [
+        "données biographiques consensuelles",
+        "formation du groupe",
+        "discographie synthétique"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_pour_cadrage_à_croiser_pour_exactitude",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Stephen Morris",
+        "Rob Gretton",
+        "Tony Wilson",
+        "Peter Saville",
+        "Martin Hannett"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A003",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A003 — Premier concert de New Order : 30 juillet 1980, Oozits Bar, Shudehill, Manchester",
+    "data": {
+      "id": "S62-A003",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "fait_evenementiel",
+      "importance": "majeure",
+      "pages_pdf": "21",
+      "pages_livre": "xvii",
+      "chapitres": [
+        "Chapitre 13"
+      ],
+      "concepts": [
+        "premier concert New Order",
+        "humour noir post-Curtis",
+        "transition Joy Division / New Order"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_à_croiser_avec_sources_primaires",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Stephen Morris",
+        "Bernard Sumner",
+        "Ian Curtis"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A004",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A004 — Hannett et l'espace comme cinquième instrument : « art is sometimes found in the absence »",
+    "data": {
+      "id": "S62-A004",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "formulation_critique",
+      "importance": "majeure",
+      "pages_pdf": "22",
+      "pages_livre": "xviii",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5"
+      ],
+      "concepts": [
+        "Hannett production",
+        "espace sonore",
+        "absence comme matériau"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A005",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A005 — True Faith (MIF 2017) et l'absent-présent de Curtis comme problème curatorial",
+    "data": {
+      "id": "S62-A005",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "evenement_reception",
+      "importance": "majeure",
+      "pages_pdf": "24–25",
+      "pages_livre": "xxi–xxiii",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "absent-présent de Curtis",
+        "héritage culturel",
+        "muséification de Joy Division",
+        "True Faith (exposition)"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "related_people": [
+        "Ian Curtis",
+        "Slater B. Bradley"
+      ],
+      "related_organisations": [
+        "Manchester International Festival",
+        "Manchester Art Gallery"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A006",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A006 — Atrocity Exhibition symposium (Limerick, novembre 2015) : genèse académique du volume",
+    "data": {
+      "id": "S62-A006",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "contexte_editorial",
+      "importance": "majeure",
+      "pages_pdf": "23–24",
+      "pages_livre": "xx–xxi",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "académisation de Joy Division",
+        "approche multidisciplinaire",
+        "symposium comme origine du volume"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organisations": [
+        "Université de Limerick",
+        "Popular Music and Popular Culture Research Cluster"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A007",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A007 — Structure thématique de Heart and Soul : six parties et leurs problématiques",
+    "data": {
+      "id": "S62-A007",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "cartographie_analytique",
+      "importance": "critique",
+      "pages_pdf": "26–29",
+      "pages_livre": "xxiii–xxviii",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "structure thématique",
+        "hauntologie",
+        "littérature et Joy Division",
+        "santé mentale et Curtis",
+        "héritage culturel"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A008",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A008 — MIF 2017 : New Order à Granada Studios — Morley sur le retour au lieu originel",
+    "data": {
+      "id": "S62-A008",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "evenement_reception",
+      "importance": "utile",
+      "pages_pdf": "25",
+      "pages_livre": "xxii–xxiii",
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "New Order héritage",
+        "lieu de mémoire",
+        "Morley comme commentateur"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_organisations": [
+        "Granada Studios",
+        "Manchester International Festival"
+      ],
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S62-A009",
+    "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+    "heading": "S62-A009 — « Touching from a Distance » : la formule de clôture et son double sens",
+    "data": {
+      "id": "S62-A009",
+      "source_id": "S62",
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "type_unite": "formulation_critique",
+      "importance": "majeure",
+      "pages_pdf": "29",
+      "pages_livre": "xxix–xxx",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "touching from a distance",
+        "héritage de Curtis",
+        "médiation de la connaissance"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-A102",
     "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
     "heading": "S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical",
@@ -102046,6 +102347,1689 @@
         "Ne pas isoler Warsaw de l’écosystème Buzzcocks / Electric Circus / NME."
       ],
       "notes": "La review est d’abord une review Buzzcocks ; Warsaw apparaît dans un réseau, non comme centre immédiat.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A062",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A062 — Sections XXXVI-XXXIX : Morley reprend l'écriture — articles NME sur la scène Factory post-Curtis",
+    "data": {
+      "id": "S37-A062",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~370-395",
+      "type_unite": "contexte_editorial",
+      "importance": "moyenne",
+      "preuve": "textes_NME_contemporains_1980",
+      "section": "XXXVI — introduction ; XXXVII — A Certain Ratio NME sept. 1980 ; XXXVIII — OMD NME ; XXXIX — Cabaret Voltaire NME",
+      "concepts": [
+        "post-Joy Division scène Factory",
+        "A Certain Ratio",
+        "OMD",
+        "Cabaret Voltaire",
+        "continuation Factory"
+      ],
+      "chapitres": [
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_NME_1980",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Sections XXXVI-XXXIX : contexte immédiat post-Curtis. Articles NME contemporains sur les groupes Factory-adjacent.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A063",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A063 — Section XL : Morley chez ZTT (1983-1985) — Factory comme modèle et Joy Division maintenu à distance",
+    "data": {
+      "id": "S37-A063",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~395-435",
+      "type_unite": "temoignage_autobiographique",
+      "importance": "haute",
+      "preuve": "essai_retrospectif",
+      "section": "XL — Morley à Zang Tuum Tumb",
+      "concepts": [
+        "Zang Tuum Tumb",
+        "Factory comme modèle de ZTT",
+        "Trevor Horn",
+        "Frankie Goes to Hollywood",
+        "JD maintenu à distance"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Trevor Horn",
+        "Tony Wilson"
+      ],
+      "related_songs": [],
+      "notes": "Section XL : Morley chez ZTT, 1982-1985. Relation à Factory Records comme inspiration.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A064",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A064 — Section XLI : « Pre-Face » (An Ideal for Living, 1984) — Morley et Warsaw : le rendez-vous manqué",
+    "data": {
+      "id": "S37-A064",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~435-455",
+      "type_unite": "texte_editorial_retrospectif",
+      "importance": "haute",
+      "preuve": "extrait_livre_1984",
+      "section": "XLI — 'Pre-Face', An Ideal for Living, 1984",
+      "concepts": [
+        "Morley manque session Warsaw",
+        "rôle de diariste",
+        "chance et prédestination"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_1984_retrospectif_7_ans",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Morley reconnaît que la session Warsaw qu'il aurait dû produire n'est qu'une demi-vérité ('about five or six people can vouch for this, one or two who are not with us anymore')."
+      ],
+      "notes": "Section XLI : extrait du livre An Ideal for Living (1984) — texte publié 7 ans après les faits.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A065",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A065 — Sections XLV-XLVII : Notes pochette Palatine — « Transmission », « Love Will Tear Us Apart », « Atmosphere »",
+    "data": {
+      "id": "S37-A065",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~465-490",
+      "type_unite": "texte_editorial",
+      "importance": "critique",
+      "preuve": "sleeve_notes_Palatine",
+      "section": "XLV — On 'Transmission' ; XLVI — On 'Love Will Tear Us Apart' ; XLVII — On 'Atmosphere'",
+      "concepts": [
+        "Transmission critique superlative",
+        "LWTUA analyse",
+        "Atmosphere NME ban",
+        "Morley comme fan absolu"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 9",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_editorial_Factory_compilation",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [
+        "Transmission",
+        "Love Will Tear Us Apart",
+        "Atmosphere"
+      ],
+      "methodological_warnings": [
+        "Superlatives de Morley ('greatest song ever written') à contextualiser : style rhétorique assumé."
+      ],
+      "notes": "Sections XLV-XLVII : notes de pochette pour la compilation Factory Palatine. Contexte : mi-1980s.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A066",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A066 — Section L : 1997 — Savage demande des notes pour compilation Joy Division (Saville / major label)",
+    "data": {
+      "id": "S37-A066",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~500-515",
+      "type_unite": "temoignage_autobiographique",
+      "importance": "moyenne",
+      "preuve": "essai_retrospectif",
+      "section": "L — transition 1997",
+      "concepts": [
+        "Jon Savage compilations",
+        "Peter Saville référence",
+        "Joy Division major label",
+        "pop criticism decline 1990s"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Jon Savage",
+        "Peter Saville"
+      ],
+      "related_songs": [],
+      "notes": "Section L : 1997, demande de Savage pour des notes de compilation JD. Réflexion sur la critique musicale.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A067",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A067 — Sections LI-LIII : « Listen to the Silence » (1997) — Joy Division comme Elvis de Morley pour les ténèbres",
+    "data": {
+      "id": "S37-A067",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~515-570",
+      "type_unite": "analyse_critique",
+      "importance": "critique",
+      "preuve": "manuscrit_inedit_1997",
+      "section": "LI — intro ; LII — transition Wilson ; LIII — 'Listen to the Silence' extract, 23/10/97",
+      "concepts": [
+        "Joy Division comme bande-son de vie",
+        "influences Joy Division",
+        "Curtis paroles personnelles",
+        "Factory comme garde du corps existentiel",
+        "Marc Bolan vs Joy Division"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_1997_retrospectif",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis",
+        "Martin Hannett",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Texte 1997 de style très personnel et philosophique — pas analytique au sens journalistique."
+      ],
+      "notes": "Section LIII : extrait d'un manuscrit inachevé 'Out There is still moving but I'm still in here' (23/10/97).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A068",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A068 — Section LIV : « Because » — liste analytique-poétique des raisons de la signification de Joy Division",
+    "data": {
+      "id": "S37-A068",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~570-590",
+      "type_unite": "texte_poetique_analytique",
+      "importance": "haute",
+      "preuve": "essai_Morley",
+      "section": "LIV — Because",
+      "concepts": [
+        "Hannett production philosophie",
+        "Curtis visions épilepsie",
+        "Factory humour conceptuel",
+        "24 Hour Party People annoncé",
+        "liste poétique"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_poétique_analytique",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Martin Hannett",
+        "Ian Curtis",
+        "Tony Wilson",
+        "Rob Gretton",
+        "Peter Saville"
+      ],
+      "related_songs": [
+        "Transmission",
+        "Atmosphere",
+        "Love Will Tear Us Apart"
+      ],
+      "notes": "Section LIV : liste de clauses 'because' sur les raisons de l'importance de Joy Division/Factory.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A069",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A069 — Section LV : Reportage sur le tournage de 24 Hour Party People (Guardian, 2001)",
+    "data": {
+      "id": "S37-A069",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~590-640",
+      "type_unite": "reportage_contemporain",
+      "importance": "haute",
+      "preuve": "article_Guardian_2001",
+      "section": "LV — Guardian article, tournage 24HPP",
+      "concepts": [
+        "24 Hour Party People film",
+        "Winterbottom",
+        "Coogan comme Wilson",
+        "Simon Pegg comme proxy Morley",
+        "Sean Harris comme Curtis",
+        "Curtis ghost Morley"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_reportage_contemporain_2001",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Tony Wilson",
+        "Ian Curtis",
+        "Michael Winterbottom",
+        "Steve Coogan",
+        "Sean Harris"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Article de reportage 2001 — perspectives des acteurs/réalisateur sur le film, pas sur Joy Division directement."
+      ],
+      "notes": "Section LV : article Guardian sur le tournage de 24 Hour Party People (2001, publié environ 2001).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A070",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A070 — Section LVIII : Essai Peter Saville (Frieze, 2003) — Unknown Pleasures comme « visual sound »",
+    "data": {
+      "id": "S37-A070",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~650-695",
+      "type_unite": "analyse_critique",
+      "importance": "haute",
+      "preuve": "essai_Frieze_2003",
+      "section": "LVIII — essay for Designed by Peter Saville, Frieze, 2003",
+      "concepts": [
+        "Unknown Pleasures pochette",
+        "Saville design",
+        "Factory catalogue",
+        "pochette comme annonce de grandeur"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_2003",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Peter Saville",
+        "Bernard Sumner"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Morley confirme dans la section LXV que Bernard Sumner est à l'origine de l'idée de la pochette d'Unknown Pleasures."
+      ],
+      "notes": "Section LVIII : essai pour le livre Designed by Peter Saville (Frieze, 2003). Écrit en sections numérotées (style J.G. Ballard, selon Morley).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A071",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A071 — Section LIX : Curtis comme plus grand chanteur de Manchester — City Life 2003",
+    "data": {
+      "id": "S37-A071",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~695-710",
+      "type_unite": "texte_editorial",
+      "importance": "haute",
+      "preuve": "texte_City_Life_2003",
+      "section": "LIX — City Life 2003, 'Who Was Manchester's Greatest Ever Front Man?'",
+      "concepts": [
+        "Curtis comme plus grand",
+        "rock sérieux",
+        "liste Hendrix/Cobain/Morrison/Lennon",
+        "danse Curtis",
+        "Warsaw → légende"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain_2003",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "notes": "Section LIX : réponse de Morley à la question City Life 2003. Style de litanie conditionnelle (If rock and roll is...).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A072",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A072 — Section LXI : Tony Wilson sur sa relation avec Morley, mort de Curtis, et la raison de ce livre",
+    "data": {
+      "id": "S37-A072",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~720-790",
+      "type_unite": "temoignage_retrospectif",
+      "importance": "critique",
+      "preuve": "interview_Wilson_Independent_2003",
+      "section": "LXI — Wilson est décédé pendant l'écriture ; article The Independent, 31 août 2003",
+      "concepts": [
+        "Wilson comme figure centrale",
+        "Wilson mort pendant écriture du livre",
+        "Wilson et Curtis",
+        "Wilson-Morley relation",
+        {
+          "défi de Wilson à Morley": "écrire le livre"
+        }
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_article_contemporain_2003",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Tony Wilson",
+        "Ian Curtis",
+        "Rob Gretton"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Wilson est mort pendant l'écriture de Piece by Piece — la section LXIV documentera ses conséquences."
+      ],
+      "notes": "Section LXI : Wilson meurt au moment où Morley prépare son chapitre. Article Independent 2003 : Wilson sur Morley.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A073",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A073 — Section LXIV : Observer Music Monthly sept. 2007 — Control (Corbijn), Stephen Morris, Anton Corbijn",
+    "data": {
+      "id": "S37-A073",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~800-870",
+      "type_unite": "reportage_contemporain",
+      "importance": "haute",
+      "preuve": "article_Observer_sept_2007",
+      "section": "LXIV — Observer Music Monthly, September 2007",
+      "concepts": [
+        "Control film Corbijn",
+        "Sam Riley comme Curtis",
+        "Anton Corbijn",
+        "Stephen Morris",
+        "Peter Hook",
+        "Annik Honoré"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain_2007",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Stephen Morris",
+        "Peter Hook",
+        "Anton Corbijn",
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "Atmosphere"
+      ],
+      "methodological_warnings": [
+        "Perspectives des survivants sur les films — source tertiaire sur Joy Division lui-même."
+      ],
+      "notes": "Section LXIV : article Observer Music Monthly septembre 2007 sur le film Control d'Anton Corbijn.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A074",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A074 — Section LXV : « Last lines » collectées 1987-2007 — fragments et datations finales",
+    "data": {
+      "id": "S37-A074",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~870-890",
+      "type_unite": "fragments_editoriaux",
+      "importance": "haute",
+      "preuve": "collection_fragments_1987_2007",
+      "section": "LXV — Last lines collected 1987-2007",
+      "concepts": [
+        "dernière vue de Curtis par Hook",
+        "Sumner et pochette UP",
+        "Gretton manager technique",
+        "fragments analytiques"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "fragments_varies",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Peter Hook",
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Rob Gretton"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Fragments collectés sur 20 ans — sources et dates de chaque fragment non précisées."
+      ],
+      "notes": "Section LXV : collection de dernières lignes pour un livre JD non écrit intitulé 'Where Will It End?'",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A075",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A075 — Section LXVI : Après le funeral Curtis — New Order, Gillian, choix du nom",
+    "data": {
+      "id": "S37-A075",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~893-930",
+      "type_unite": "analyse_historique",
+      "importance": "critique",
+      "preuve": "temoignages_survivants",
+      "section": "LXVI — PART THREE: Future/Life — formation de New Order",
+      "concepts": [
+        "formation New Order",
+        "Gillian Gilbert",
+        "nom New Order Khmer Rouge",
+        "Gretton au funeral",
+        "Bernard comme chanteur"
+      ],
+      "chapitres": [
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_retrospective_survivants",
+      "citation_directe": false,
+      "related_people": [
+        "Rob Gretton",
+        "Stephen Morris",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Gillian Gilbert",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Témoignages rétrospectifs des survivants — à croiser avec autres sources."
+      ],
+      "notes": "Section LXVI : formation de New Order immédiatement après la mort de Curtis.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A076",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A076 — Section LXVII : Introduction documentaire New Order Story (1991) — Joy Division → New Order",
+    "data": {
+      "id": "S37-A076",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~930-950",
+      "type_unite": "texte_editorial",
+      "importance": "moyenne",
+      "preuve": "intro_documentaire_1991",
+      "section": "LXVII — intro documentaire Neworderstory, 1991",
+      "concepts": [
+        "New Order trajectoire",
+        "Joy Division → New Order",
+        "Factory Records",
+        "anti-stardom"
+      ],
+      "chapitres": [
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_1991",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Section LXVII : introduction lue par Jenny Seagrove pour le documentaire Neworderstory (1991).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A077",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A077 — Section LXIX : NME live review New Order Heaven, 9 février 1981",
+    "data": {
+      "id": "S37-A077",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~960-985",
+      "type_unite": "recension_contemporaine",
+      "importance": "critique",
+      "preuve": "texte_NME_contemporain_1981",
+      "section": "LXIX — NME live review New Order, Heaven, 9 February 1981, published 14 February",
+      "concepts": [
+        "New Order premier concert Londres",
+        "Morley pleure à l'entrée en scène",
+        "chansons JD au soundcheck",
+        "Gillian Gilbert intégrée",
+        "héritage Joy Division"
+      ],
+      "chapitres": [
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain_1981",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Gillian Gilbert"
+      ],
+      "related_songs": [
+        "Transmission",
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "related_songs_soundcheck": [
+        "Transmission",
+        "Control",
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "methodological_warnings": [
+        "Texte contemporain — réaction immédiate. A_verifier contre dates et set list."
+      ],
+      "notes": "Section LXIX : recension NME du 14 février 1981. Premier concert londonien de New Order.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A078",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
+    "heading": "S37-A078 — Section LXX : Clôture du livre — Joy Division comme aide à la mémoire",
+    "data": {
+      "id": "S37-A078",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~985-988",
+      "type_unite": "texte_de_cloture",
+      "importance": "basse",
+      "preuve": "texte_Morley_2008",
+      "section": "LXX — clôture",
+      "concepts": [
+        "clôture",
+        "Joy Division comme mémoire",
+        "structure du livre"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Section LXX : quatre phrases de clôture du livre. Dédicace : Tony Wilson, Ian Curtis, Martin Hannett.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A039",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A039 — Observer Music Monthly, mai 2006 : Manchester/Liverpool 1976-77 et Joy Division comme aboutissement",
+    "data": {
+      "id": "S37-A039",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
+      "pages_pdf": "~53-65",
+      "type_unite": "analyse_contextuelle",
+      "importance": "haute",
+      "preuve": "essai_retrospectif",
+      "section": "VII — Observer Music Monthly, May 2006",
+      "concepts": [
+        "Manchester vs Liverpool",
+        "scène post-punk",
+        "Buzzcocks",
+        "électricité créatrice",
+        "Warsaw transitoire"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2006",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Howard Devoto",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Essai rétrospectif 2006 écrit 30 ans après les faits — témoignage recomposé, pas journalisme contemporain.",
+        "Perspective Morley sur Manchester/Liverpool : biais Manchester assumé."
+      ],
+      "notes": "Section VII : essai Observer Music Monthly mai 2006 commandé pour la compilation North by North West (Warner).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A040",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A040 — Essay Kevin Cummins / Introduction North by North West : Manchester comme émergence punk",
+    "data": {
+      "id": "S37-A040",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~65-75",
+      "type_unite": "analyse_contextuelle",
+      "importance": "moyenne",
+      "preuve": "essai_retrospectif",
+      "section": "VIII — variante/extension Observer essay, introduction livre Cummins (2008)",
+      "concepts": [
+        "Manchester scène",
+        "Buzzcocks comme matrice",
+        "Hannett comme producteur fondateur",
+        "Spiral Scratch"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Martin Hannett"
+      ],
+      "related_songs": [],
+      "notes": "Variante de VII pour le livre de photos de Kevin Cummins. Contenu similaire mais plus détaillé sur la scène 1976-77.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A041",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A041 — Morley sur la fermeture de l'Electric Circus (1977) et la place marginale de Warsaw",
+    "data": {
+      "id": "S37-A041",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~75-82",
+      "type_unite": "analyse_contextuelle",
+      "importance": "moyenne",
+      "preuve": "essai_retrospectif",
+      "section": "IX — réflexion sur l'Electric Circus",
+      "concepts": [
+        "Electric Circus",
+        "Warsaw marginalité",
+        "mémoire imprecise",
+        "père suicide Morley"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008_subjectif",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Morley reconnaît avoir confondu les dates de fermeture de l'Electric Circus (novembre au lieu d'octobre) dans les notes de pochette — aveu d'imprécision mémorielle primaire."
+      ],
+      "notes": "Section IX : Morley sur le sens communautaire de l'Electric Circus et sa disparition.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A042",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A042 — NME live review Electric Circus dernier week-end, 22 octobre 1977 : Warsaw « pleasant surprise »",
+    "data": {
+      "id": "S37-A042",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~82-87",
+      "type_unite": "recension_contemporaine",
+      "importance": "haute",
+      "preuve": "texte_NME_contemporain_1977",
+      "section": "X — NME live review Electric Circus, 22 October 1977",
+      "concepts": [
+        "Warsaw Electric Circus",
+        "recension NME 1977",
+        "première évaluation positive"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Texte NME publié 22 octobre 1977 — texte contemporain.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A043",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A043 — Notes de pochette Short Circuit (avril 1978) : Warsaw « half formulated »",
+    "data": {
+      "id": "S37-A043",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~87-95",
+      "type_unite": "texte_editorial_contemporain",
+      "importance": "haute",
+      "preuve": "notes_pochette_1978",
+      "section": "XI — Sleeve notes, Short Circuit: Live at the Electric Circus, April 1978",
+      "concepts": [
+        "Warsaw short circuit",
+        "Electric Circus sleeve notes",
+        "évaluation provisoire"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain_1978",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Notes de pochette rédigées quelques semaines après les concerts d'octobre 1977.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A044",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A044 — Changement de nom Warsaw→Joy Division : analyse par Morley",
+    "data": {
+      "id": "S37-A044",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~95-100",
+      "type_unite": "analyse_historique",
+      "importance": "critique",
+      "preuve": "essai_retrospectif_2008",
+      "section": "XII — Warsaw forced to change their name",
+      "concepts": [
+        "changement de nom Joy Division",
+        "Holocaust connotations",
+        "imagerie totalitaire",
+        "nom comme programme musical"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Bernard Sumner",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Analyse 2008 de Morley — reconstruction interprétative, pas témoignage contemporain direct.",
+        "Sur l'imagerie totalitaire : ne pas convertir fascination documentée en adhésion idéologique."
+      ],
+      "notes": "Section XII : analyse rétrospective du nom Joy Division.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A045",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A045 — North by North West sleeve notes (sect. XIII) : Rafters 1978, Factory Club, Curtis en performance",
+    "data": {
+      "id": "S37-A045",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~100-115",
+      "type_unite": "analyse_historique",
+      "importance": "critique",
+      "preuve": "texte_editorial_retrospectif",
+      "section": "XIII — North by North West sleeve notes, letter J",
+      "concepts": [
+        "Rafters Battle of the Bands 1978",
+        "Factory Club juin 1978",
+        "Curtis en scène",
+        "RCA recordings avortés",
+        "Gretton discovery"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_forte",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis",
+        "Rob Gretton",
+        "Tony Wilson",
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Transmission"
+      ],
+      "methodological_warnings": [
+        "Mémoire personnelle de Morley, incluant épisode du Rafters avec les Negatives — vérifier contre autres sources."
+      ],
+      "notes": "Section XIII : extrait des notes de pochette pour la compilation North by North West (Warner).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A046",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A046 — Section XIV : Morley « pas encore convaincu » — Joy Division en devenir (1978)",
+    "data": {
+      "id": "S37-A046",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~115-117",
+      "type_unite": "reflexion_critique_autobiographique",
+      "importance": "basse",
+      "preuve": "essai_retrospectif",
+      "section": "XIV — réflexion de transition",
+      "concepts": [
+        "trajectoire Joy Division",
+        "Gretton comme manager",
+        "Morley comme diariste"
+      ],
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Rob Gretton"
+      ],
+      "related_songs": [],
+      "notes": "Section XIV courte : Morley sur sa propre position de critique-témoin.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A047",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A047 — NME live review Joy Division, Manchester, 20 mai 1978 : « dry, doomy group »",
+    "data": {
+      "id": "S37-A047",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~117-120",
+      "type_unite": "recension_contemporaine",
+      "importance": "haute",
+      "preuve": "texte_NME_contemporain_1978",
+      "section": "XV — NME live review, 20 May 1978, published 3 June",
+      "concepts": [
+        "première recension Joy Division NME",
+        "An Ideal for Living",
+        "groupe en devenir"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Recension NME publiée le 3 juin 1978. Première critique de Joy Division dans le NME.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A048",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A048 — NME live review Joy Division, Manchester, 4 septembre 1978 : « learnt to sculpt »",
+    "data": {
+      "id": "S37-A048",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~120-126",
+      "type_unite": "recension_contemporaine",
+      "importance": "critique",
+      "preuve": "texte_NME_contemporain_1978",
+      "section": "XVI — NME live review, 4 September 1978, published 9 September",
+      "concepts": [
+        "maturité Joy Division 1978",
+        "Curtis voix comme quatrième instrument",
+        "progression depuis Warsaw",
+        "comparaison Magazine/Fall"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Texte contemporain : représente la réception NME de septembre 1978, pas une évaluation rétrospective."
+      ],
+      "notes": "Deuxième recension NME de Joy Division — texte contemporain majeur sur la progression 1978.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A049",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A049 — Section XVII-XIX : Factory Records fondation, Alan Erasmus, Factory Sampler preview NME (2 décembre 1978)",
+    "data": {
+      "id": "S37-A049",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~126-140",
+      "type_unite": "analyse_historique",
+      "importance": "haute",
+      "preuve": "texte_contemporain_et_retrospectif",
+      "section": "XVII — Alan Erasmus ; XVIII — NME preview Factory Sampler, 2 Dec 1978 ; XIX — transition",
+      "concepts": [
+        "Factory Records fondation",
+        "Alan Erasmus rôle",
+        "FAC 2 Factory Sampler",
+        "Martin Zero pseudonyme Hannett"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_pour_texte_NME_1978 ; moyenne_retrospective_Erasmus",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Alan Erasmus",
+        "Tony Wilson",
+        "Peter Saville",
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Digital",
+        "Glass"
+      ],
+      "notes": "Trois sections liées : XVII (réflexion sur Erasmus), XVIII (preview NME), XIX (transition narrative).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A050",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A050 — NME record review A Factory Sampler, 31 mars 1979 : Joy Division et Digital/Glass",
+    "data": {
+      "id": "S37-A050",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~140-148",
+      "type_unite": "recension_contemporaine",
+      "importance": "critique",
+      "preuve": "texte_NME_contemporain_1979",
+      "section": "XX — NME record review, 31 March 1979",
+      "concepts": [
+        "Factory Sampler review",
+        "Digital Glass critique",
+        "Joy Division comparaisons",
+        "développement intelligent"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [
+        "Digital",
+        "Glass"
+      ],
+      "notes": "Recension NME du 31 mars 1979 — texte contemporain sur A Factory Sampler (FAC 2).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A051",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A051 — Section XXI et XXII : Première interview NME de Joy Division (janvier 1979) et première couverture Ian Curtis",
+    "data": {
+      "id": "S37-A051",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~148-175",
+      "type_unite": "temoignage_contemporain",
+      "importance": "critique",
+      "preuve": "memoire_retrospective_plus_texte_NME_1979",
+      "section": "XXI — rétrospective interview janvier 1979 ; XXII — NME article 13 January 1979",
+      "concepts": [
+        "première interview Joy Division NME",
+        "Curtis première couverture de presse",
+        "silence de Joy Division en interview",
+        "Gretton protecteur",
+        "photo dans la neige Manchester"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_NME_1979 ; moyenne_retrospective_Morley_2008",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis",
+        "Rob Gretton",
+        "Stephen Morris"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "La rétrospective de Morley (section XXI) entoure et recompose le texte NME de 1979.",
+        "La décision de la couverture : Morley reconnaît avoir hésité avant de recommander Curtis."
+      ],
+      "notes": "Section XXI : réflexion rétrospective sur la première interview NME. Section XXII : article NME 13 janvier 1979 (couverture Curtis).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A052",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A052 — Réception d'Unknown Pleasures : « le plus grand album jamais fait »",
+    "data": {
+      "id": "S37-A052",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~175-200",
+      "type_unite": "analyse_critique",
+      "importance": "critique",
+      "preuve": "essai_retrospectif",
+      "section": "XXIV — Morley sur Unknown Pleasures",
+      "concepts": [
+        "Unknown Pleasures réception",
+        "Hannett espace comme cinquième instrument",
+        "album de l'année NME 1979",
+        "Joy Division troisième album hypothétique",
+        "Morley comme diariste mythifiant"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_forte",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Martin Hannett",
+        "Ian Curtis",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "I Remember Nothing",
+        "Love Will Tear Us Apart"
+      ],
+      "methodological_warnings": [
+        "Rétrospective de Morley construisant une mythologie — rôle déclaré de bâtisseur de mythe assumé.",
+        "UP troisième au sondage NME 1979 (derrière Fear of Music et Metal Box) : contextualiser."
+      ],
+      "notes": "Section XXIV : Morley sur Unknown Pleasures. Atome analytique central pour la réception contemporaine.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A053",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A053 — Section XXV : Morley entend LWTUA live pour la première fois (Univ. of London, 1980)",
+    "data": {
+      "id": "S37-A053",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~200-210",
+      "type_unite": "temoignage_autobiographique",
+      "importance": "haute",
+      "preuve": "memoire_retrospective",
+      "section": "XXV — Morley sur LWTUA live",
+      "concepts": [
+        "Love Will Tear Us Apart live",
+        "Curtis guitare larme",
+        "conversation banal avant show",
+        "suicide et fils de suicide"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_2008_subjectif",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "methodological_warnings": [
+        "Rétrospective personnelle très chargée — double implication suicide Curtis/père de Morley.",
+        "Ne pas traiter comme récit factuel précis — c'est une mémoire émotionnelle reconstruite."
+      ],
+      "notes": "Section XXV : Morley entend LWTUA live pour la première fois à l'Université de Londres.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A054",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A054 — NME live review Univ. of London, 8 février 1980 : Curtis « trapped butterfly »",
+    "data": {
+      "id": "S37-A054",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~210-225",
+      "type_unite": "recension_contemporaine",
+      "importance": "critique",
+      "preuve": "texte_NME_contemporain_1980",
+      "section": "XXVI — NME live review, University of London, 8 February 1980, published 16 February",
+      "concepts": [
+        "Joy Division live 1980",
+        "Curtis danse",
+        "LWTUA single",
+        "Isolation",
+        "nouvelles chansons Closer"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "Isolation",
+        "Colony",
+        "Sound of Music"
+      ],
+      "notes": "Recension NME du 16 février 1980 — texte contemporain crucial sur le Joy Division de 1980.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A055",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A055 — Interview survivants 1991 : épilepsie de Curtis dans la voiture (anecdote Morris/Hook/Sumner)",
+    "data": {
+      "id": "S37-A055",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~225-228",
+      "type_unite": "temoignage_retrospectif",
+      "importance": "haute",
+      "preuve": "interview_1991_documentaire",
+      "section": "XXVII — interview membres Joy Division, 1991, documentaire New Order",
+      "concepts": [
+        "épilepsie Curtis",
+        "crise en voiture",
+        "témoignage Morris/Hook/Sumner",
+        "Luton Hospital"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moderee_retrospective_1991",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Stephen Morris",
+        "Peter Hook",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Témoignage 1991 pour un documentaire — source indirecte à 11 ans de distance.",
+        "Ton humoristique de Morris (cigarettes) ne minimise pas la gravité de l'épilepsie."
+      ],
+      "notes": "Section XXVII : dialogue verbatim des trois survivants tiré d'un documentaire 1991 sur New Order.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A056",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A056 — Sections XXVIII-XXIX : Closer — contexte, enregistrement, notes de pochette réécrites",
+    "data": {
+      "id": "S37-A056",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~228-280",
+      "type_unite": "analyse_historique",
+      "importance": "critique",
+      "preuve": "texte_editorial_retrospectif_2007_plus_interviews_2006",
+      "section": "XXVIII — introduction ; XXIX — notes de pochette Closer réédition 2007",
+      "concepts": [
+        "Closer enregistrement",
+        "Britannia Row Studios mars 1980",
+        "12 jours d'enregistrement",
+        "Rob Gretton politique studios",
+        "Morris/Hook/Sumner testimonies",
+        "Morley en Inde avec Police"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_retrospective_membres_vivants",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Stephen Morris",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Rob Gretton",
+        "Martin Hannett"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Morley était en Inde avec les Police pendant l'enregistrement de Closer — pas témoin direct.",
+        "Notes de pochette commandées pour la réédition 2007 — 27 ans après les faits.",
+        "Curtis n'est pas disponible pour sa perspective : coiled up dans les chansons selon Morley."
+      ],
+      "notes": "Section XXIX : notes de pochette Closer réédition 2007, commandées par Warners (lié au film Corbijn).",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A057",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A057 — Section XXX : Morley rédige l'obituaire de Curtis, parallèle avec le suicide de son père",
+    "data": {
+      "id": "S37-A057",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~280-295",
+      "type_unite": "temoignage_autobiographique",
+      "importance": "haute",
+      "preuve": "essai_retrospectif",
+      "section": "XXX — contexte de l'obituaire Curtis",
+      "concepts": [
+        "obituaire Curtis",
+        "parallèle suicides",
+        "père Morley suicide",
+        "NME 1980"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_autobiographique",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Récit rétrospectif très personnel — double implication suicide Curtis / père de Morley.",
+        "Ne pas réduire la réception critique de Morley à sa biographie personnelle."
+      ],
+      "notes": "Section XXX : réflexion de Morley sur l'écriture de l'obituaire de Curtis.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A058",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A058 — Section XXXI : « Don't Walk Away in Silence » — obituaire NME 14 juin 1980 (Morley/Thrills)",
+    "data": {
+      "id": "S37-A058",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~295-330",
+      "type_unite": "texte_editorial_contemporain",
+      "importance": "critique",
+      "preuve": "texte_NME_contemporain_1980",
+      "section": "XXXI — 'Don't Walk Away in Silence', NME 14 June 1980, avec Adrian Thrills",
+      "concepts": [
+        "obituaire NME Curtis",
+        "réception immédiate post-mort",
+        "Joy Division évaluation finale"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte_texte_contemporain_1980",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "Document fondateur de la réception post-mort — constitutif du mythe Curtis.",
+        "Co-écrit avec Adrian Thrills : deux voix mêlées."
+      ],
+      "notes": "Section XXXI : obituaire NME du 14 juin 1980 — texte contemporain fondateur.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A059",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A059 — Section XXXIII : Tony Wilson montre à Morley le corps de Curtis",
+    "data": {
+      "id": "S37-A059",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~330-345",
+      "type_unite": "temoignage_autobiographique",
+      "importance": "haute",
+      "preuve": "memoire_retrospective",
+      "section": "XXXIII — Wilson montre le corps de Curtis à Morley",
+      "concepts": [
+        "corps de Curtis",
+        "Tony Wilson",
+        "Morley témoin du deuil",
+        "Macclesfield"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "retrospective_forte_Wilson_confirme_dans_LXI",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Tony Wilson",
+        "Ian Curtis"
+      ],
+      "related_songs": [],
+      "methodological_warnings": [
+        "L'épisode est différemment décrit dans 24 Hour Party People et dans l'interview Wilson (section LXI) : Wilson nie avoir emmené Morley voir le corps mais admet l'avoir conduit à Macclesfield.",
+        "Source : mémoire de Morley + confirmation partielle de Wilson en LXI."
+      ],
+      "notes": "Section XXXIII courte : Wilson conduit Morley à Macclesfield le soir du wake de Curtis.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A060",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A060 — Section XXXIV : Extrait de *Nothing* (Faber, 2000) — le cadavre",
+    "data": {
+      "id": "S37-A060",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~345-365",
+      "type_unite": "texte_litteraire",
+      "importance": "moyenne",
+      "preuve": "extrait_livre_Nothing_2000",
+      "section": "XXXIV — extrait de Nothing, memoir, Faber 2000",
+      "concepts": [
+        "mort",
+        "corps en cercueil",
+        "prose mémorielle"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "texte_litteraire_2000",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley"
+      ],
+      "related_songs": [],
+      "notes": "Extrait de Nothing (Faber, 2000) : Morley sur le premier et unique mort qu'il a vu en vie. Pas nécessairement Curtis — mais contextualisé dans la section post-mort de Curtis.",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-A061",
+    "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+    "heading": "S37-A061 — Section XXXV : Rob Gretton — « We've all got our idiosyncrasies »",
+    "data": {
+      "id": "S37-A061",
+      "source_id": "S37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_year": "2008",
+      "auteur": "Paul Morley",
+      "pages_pdf": "~365-367",
+      "type_unite": "temoignage_retrospectif",
+      "importance": "moyenne",
+      "preuve": "interview_1991_documentaire",
+      "section": "XXXV — extrait interview Rob Gretton, 1991",
+      "concepts": [
+        "Rob Gretton manager",
+        "technique Gretton",
+        "garder le groupe pauvre/affamé"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moderee_retrospective_1991",
+      "citation_directe": false,
+      "related_people": [
+        "Rob Gretton",
+        "Peter Hook"
+      ],
+      "related_songs": [],
+      "notes": "Section XXXV ultra-courte — Rob Gretton, interview 1991, sur son propre rôle.",
       "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
     }
   },

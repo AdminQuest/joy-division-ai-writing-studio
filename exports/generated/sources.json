@@ -546,13 +546,15 @@
     "auteur": "Paul Morley",
     "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
     "annee": "2008",
-    "records": 84,
-    "atoms": 38,
+    "records": 128,
+    "atoms": 78,
     "quotes": 11,
     "chronology": 0,
     "files": [
       "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
       "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
+      "sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md",
+      "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
       "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
       "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
       "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
@@ -562,6 +564,8 @@
       "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
       "sources/morley_piece_by_piece/relations_s37_manchester_memory_observer_2006_v2.md",
       "sources/morley_piece_by_piece/relations_s37_manchester_scene_nme_1977_v2.md",
+      "sources/morley_piece_by_piece/relations_s37_part_one_remaining_v2.md",
+      "sources/morley_piece_by_piece/relations_s37_part_two_three_v2.md",
       "sources/morley_piece_by_piece/relations_s37_piece_by_piece_first_passage_v2.md",
       "sources/morley_piece_by_piece/source.md"
     ]
@@ -1070,6 +1074,23 @@
       "sources/iovane_riccio_trademark_will_tear_us_apart/source.md",
       "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
       "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_trademark_v2.md"
+    ]
+  },
+  {
+    "source_id": "S62",
+    "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+    "auteur": "Martin J. Power, Aileen Dillane, Eoin Devereux",
+    "titre": "This Is the Way, Step Inside: Understanding Joy Division",
+    "annee": "2018",
+    "records": 30,
+    "atoms": 9,
+    "quotes": 0,
+    "chronology": 0,
+    "files": [
+      "registers/s62_introduction_specialized_registers.md",
+      "registers/s62_introduction_structuring_registers.md",
+      "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
+      "sources/heart_soul_introduction/relations_s62_introduction_v2.md"
     ]
   },
   {

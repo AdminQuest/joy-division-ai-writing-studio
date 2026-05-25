@@ -1450,6 +1450,103 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S62-001",
+    "file": "registers/s62_introduction_structuring_registers.md",
+    "heading": "CONCEPT-S62-001 — absent-présent de Curtis",
+    "data": {
+      "id": "CONCEPT-S62-001",
+      "type_unite": "concept",
+      "nom": "absent-présent de Curtis",
+      "nom_en": "absent presence of Ian Curtis",
+      "source_id": "S62",
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_transversal"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "fort"
+      },
+      "definition": "Figure rhétorique et analytique désignant la manière dont Ian Curtis, mort en mai 1980, continue de structurer et de hanter les œuvres, les concerts, les expositions et les analyses de Joy Division et de New Order. L'absent-présent n'est pas une nostalgie mais une présence spectrale active qui oriente les réceptions et les productions culturelles ultérieures.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyser le rôle de Curtis dans la réception posthume de Joy Division",
+          "connecter True Faith (MIF 2017), Control (2007), 24HPP (2002) comme manifestations de ce motif",
+          "relier à la hauntologie (S29, S63, S88)"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 14",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S62-A005",
+        "S62-A008",
+        "S62-A009"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-Curtis"
+        },
+        {
+          "type": "converge_avec",
+          "cible": "CONCEPT-S29-002"
+        }
+      ],
+      "risques": [
+        "transformer l'absent-présent en simple nostalgie",
+        "sur-psychologiser la réception académique"
+      ],
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S62-002",
+    "file": "registers/s62_introduction_structuring_registers.md",
+    "heading": "CONCEPT-S62-002 — posture fan/chercheur (fan-scholar)",
+    "data": {
+      "id": "CONCEPT-S62-002",
+      "type_unite": "concept",
+      "nom": "posture fan/chercheur",
+      "nom_en": "fan-scholar posture",
+      "source_id": "S62",
+      "statut": {
+        "type": [
+          "concept_methodologique",
+          "concept_source_specifique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "fort"
+      },
+      "definition": "Position épistémologique assumée par les auteurs de Heart and Soul : le chercheur sur la musique populaire est souvent aussi un fan déclaré, et cette double position ne compromet pas l'objectivité mais la rend plus réflexive. Les éditeurs affirment : « any perceived line between objective, critical engagement and fandom is not clear-cut. »\n",
+      "usage_repo": {
+        "fonction": [
+          "qualifier le statut épistémologique de l'ensemble du volume Heart and Soul (S62-S88)",
+          "distinguer cette posture de la pure apologétique ou du reportage journalistique"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S62-A001",
+        "S62-A009"
+      ],
+      "risques": [
+        "utiliser ce concept pour relativiser toute critique des auteurs",
+        "confondre réflexivité déclarée et neutralité"
+      ],
+      "source_label": "S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018",
+      "source_short_title": "Martin J. Power, Aileen Dillane, Eoin Devereux, This Is the Way, Step Inside: Understanding Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-mythe_manchester_joy_division",
     "file": "registers/s78_nevarez_structuring_registers.md",
     "heading": "Concepts",
