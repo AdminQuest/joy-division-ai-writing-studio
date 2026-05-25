@@ -7,6 +7,11 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+# Repo privé : songs/ et apps/local-songbook-editor/ sont dans le repo privé depuis la migration.
+# Par défaut, on cherche le repo privé en tant que sibling du repo public.
+PRIVATE_REPO_ROOT = Path(os.environ.get("PRIVATE_REPO_ROOT", ROOT.parent / "joy-division-studio-private")).expanduser()
+# Répertoire songs/ — désormais dans le repo privé.
+SONGS_ROOT = Path(os.environ.get("SONGBOOK_SONGS_ROOT", PRIVATE_REPO_ROOT / "songs")).expanduser()
 PRIVATE_ROOT = Path(os.environ.get("SONGBOOK_LYRICS_ROOT", ROOT / "local_data" / "songbook_lyrics")).expanduser()
 HOST = "127.0.0.1"
 PORT = int(os.environ.get("SONGBOOK_EDITOR_PORT", "8765"))
@@ -32,7 +37,7 @@ def repo_editorial_notes(slug: str) -> dict:
     target; repo markdown is only a read fallback so new Songbook dossiers appear
     before a private file exists.
     """
-    path = ROOT / "songs" / slug / "lyrics_editorial.md"
+    path = SONGS_ROOT / slug / "lyrics_editorial.md"
     if not path.exists():
         return {}
     text = path.read_text(encoding="utf-8", errors="ignore")
@@ -79,7 +84,7 @@ def repo_editorial_notes(slug: str) -> dict:
 def list_songs():
     items_by_slug = {}
 
-    repo_songs = ROOT / "songs"
+    repo_songs = SONGS_ROOT
     if repo_songs.exists():
         for folder in sorted(p for p in repo_songs.iterdir() if p.is_dir()):
             notes = repo_editorial_notes(folder.name)
@@ -108,7 +113,7 @@ def list_songs():
                 "canonical_song": data.get("canonical_song", items_by_slug.get(folder.name, {}).get("canonical_song", folder.name)),
                 "verification_status": data.get("verification_status", items_by_slug.get(folder.name, {}).get("verification_status", "")),
                 "has_full_lyrics": full_path.exists() and full_path.read_text(encoding="utf-8", errors="ignore").strip() != "",
-                "has_web_sources": (ROOT / "songs" / folder.name / "web_sources.json").exists(),
+                "has_web_sources": (SONGS_ROOT / folder.name / "web_sources.json").exists(),
                 "notes_path": str(notes_path),
                 "full_lyrics_path": str(full_path),
             }
@@ -120,7 +125,7 @@ def song_payload(slug: str):
     folder = PRIVATE_ROOT / slug
     notes_path = folder / "editorial_notes.json"
     full_path = folder / "full_lyrics.txt"
-    web_sources_path = ROOT / "songs" / slug / "web_sources.json"
+    web_sources_path = SONGS_ROOT / slug / "web_sources.json"
     private_notes = read_json(notes_path, {})
     notes = private_notes if private_notes else repo_editorial_notes(slug)
     return {
@@ -144,7 +149,7 @@ def write_song(slug: str, payload: dict):
         (folder / "full_lyrics.txt").write_text(str(lyrics), encoding="utf-8")
     (folder / "editorial_notes.json").write_text(json.dumps(notes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if web_sources is not None:
-        target = ROOT / "songs" / slug / "web_sources.json"
+        target = SONGS_ROOT / slug / "web_sources.json"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(json.dumps(web_sources, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return {"ok": True, "slug": slug}
@@ -177,7 +182,10 @@ class Handler(BaseHTTPRequestHandler):
         rel = parsed.path.lstrip("/") or "apps/local-songbook-editor/index.html"
         if rel == "apps/local-songbook-editor/": rel = "apps/local-songbook-editor/index.html"
         target = (ROOT / rel).resolve()
-        if not str(target).startswith(str(ROOT)) or not target.exists() or target.is_dir():
+        if not target.exists() or target.is_dir():
+            target = (PRIVATE_REPO_ROOT / rel).resolve()
+        allowed = str(target).startswith(str(ROOT)) or str(target).startswith(str(PRIVATE_REPO_ROOT))
+        if not allowed or not target.exists() or target.is_dir():
             self.send_response(404); self.end_headers(); return
         raw = target.read_bytes(); mime = mimetypes.guess_type(str(target))[0] or "application/octet-stream"
         self.send_response(200); self.send_header("Content-Type", mime); self.send_header("Content-Length", str(len(raw))); self.end_headers(); self.wfile.write(raw)
@@ -195,8 +203,10 @@ class Handler(BaseHTTPRequestHandler):
 def main():
     PRIVATE_ROOT.mkdir(parents=True, exist_ok=True)
     print("Local Songbook editor")
-    print(f"Repo root: {ROOT}")
-    print(f"Private lyrics root: {PRIVATE_ROOT}")
+    print(f"Repo root (public)  : {ROOT}")
+    print(f"Repo root (private) : {PRIVATE_REPO_ROOT}")
+    print(f"Songs root          : {SONGS_ROOT}")
+    print(f"Private lyrics root : {PRIVATE_ROOT}")
     print(f"Open: http://{HOST}:{PORT}/apps/local-songbook-editor/")
     ThreadingHTTPServer((HOST, PORT), Handler).serve_forever()
 
