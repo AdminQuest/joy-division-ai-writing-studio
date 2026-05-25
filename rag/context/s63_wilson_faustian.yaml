@@ -1,0 +1,54 @@
+id: RAG-S63-WILSON-FAUSTIAN
+source_id: S63
+source_label: "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018"
+source_path: "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md"
+relations_path: "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md"
+structuring_registers_path: "registers/s63_wilson_faustian_structuring_registers.md"
+specialized_registers_path: "registers/s63_wilson_faustian_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s63_wilson_faustian.jsonl"
+status: "integrated"
+coverage:
+  passage: "Chapitre 2 — p. 17–32"
+  pdf_pages: "48–61"
+  scope: >
+    Chapitre 2 de Heart and Soul (2018), intégralement atomisé.
+    Analyse de la scène du contrat au sang dans 24 Hour Party People (Winterbottom, 2002)
+    comme pacte faustien inversé. Couvre : mythologisation de Factory Records, archétype
+    faustien appliqué à Wilson, double conscience de Curtis / épisode RCA (1977),
+    concept duchampien de l'infrathin appliqué à l'objet disque, paradigme de
+    l'authenticité punk (Williams, Hebdige), débâcle RCA, philosophie du no-contract
+    contract et mort de Wilson.
+primary_chapters:
+  - "Chapitre 3"
+  - "Chapitre 12"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 2"
+key_atoms:
+  - S63-A001  # scène du contrat / 24 Hour Party People / mythologisation
+  - S63-A002  # pacte faustien inversé / Wilson signe seul
+  - S63-A003  # Curtis à la MSC / épisode RCA / double conscience
+  - S63-A004  # infrathin duchampien / étiquette de disque
+  - S63-A005  # paradigme authenticité punk / Williams / Hebdige
+  - S63-A006  # débâcle RCA / son cabaret / passage Factory
+  - S63-A007  # no-contract contract / mort Wilson / effondrement dualisme
+writing_use: >
+  Utiliser S63 pour :
+  (1) Chapitre 2 — épisode RCA de Joy Division (Curtis à la MSC 1977, Brandwood,
+  An Ideal for Living, enregistrements avortés) ;
+  (2) Chapitre 3 — philosophie fondatrice de Factory Records (no-contract contract,
+  Gretton, droits d'édition, Wilson comme figure ambivalente) ;
+  (3) Chapitre 12 — mythe Factory dans la longue durée (Wilson comme Faust rock,
+  Factory comme expérience culturelle auto-consciente) ;
+  (4) Chapitre 14 — mythologisation via le cinéma (24 Hour Party People), infrathin
+  et culture matérielle du disque, authenticité comme piège.
+verification_rules:
+  - "La scène du contrat au sang est filmique — aucun témoin direct ne la confirme."
+  - "Le vrai contrat fut établi entre Wilson et Gretton 'on dinner napkins' (Middles 2002)."
+  - "Note 13 : Joy Division possédait son catalogue grâce à l'absence de contrat formel."
+  - "Les données sur l'épisode RCA (Brandwood, Anderson) viennent de sources secondaires — croiser avec S41 et S45."
+  - "Citation Hook (2013a, 119) transmise par S63 — vérifier dans S41 directement."
+  - "La mort de Wilson (cancer, médicaments onéreux) est documentée mais ses mots exacts passent par Nice (2010)."
+note_structure: >
+  S63 est le chapitre 2 de Heart and Soul. L'introduction est S62.
+  Chapitre 1 (Goddard) est S29. Chapitres 3–6 : S64–S67. Chapitres 7–15 : S80–S88.

@@ -2380,6 +2380,83 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S63-001",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "CONCEPT-S63-001 — pacte faustien inversé (Factory Records)",
+    "data": {
+      "id": "CONCEPT-S63-001",
+      "label": "pacte faustien inversé",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A001",
+        "S63-A002",
+        "S63-A007"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "fonction_argumentative": "Le mythe faustien (l'artiste cède son âme au label) est structuralement inversé dans le cas Factory : Wilson signe seul, libère le groupe, et devient simultanément artiste et exécutif. Ce renversement est le moteur de l'argument central de S63 et un concept réutilisable pour analyser l'exception Factory dans l'industrie musicale.",
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S63-002",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "CONCEPT-S63-002 — infrathin (Duchamp) appliqué à l'objet disque",
+    "data": {
+      "id": "CONCEPT-S63-002",
+      "label": "infrathin duchampien / différence dans l'identique",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A004"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 14"
+      ],
+      "fonction_argumentative": "Duchamp : l'infrathin désigne les différences imperceptibles entre deux objets supposés identiques dans la production de masse. Appliqué par Jacobson & Jeffrey à l'étiquette de disque : deux pressages du même album peuvent être sémiotiquement distincts selon le label, le circuit de distribution, le moment de commercialisation. Curtis collectionneur est sensible à ces différences — son désir d'être sur RCA est une pratique de l'infrathin. Concept réutilisable pour analyser la culture matérielle du disque et la relation de Joy Division à ses propres objets.\n",
+      "liens": [
+        "CONCEPT-S63-001",
+        "CONCEPT-S62-001"
+      ],
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S63-003",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "CONCEPT-S63-003 — double conscience de Curtis (authenticité / notoriété)",
+    "data": {
+      "id": "CONCEPT-S63-003",
+      "label": "double conscience de Curtis — authenticité par association vs notoriété",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A003",
+        "S63-A006"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "fonction_argumentative": "Curtis voulait simultanément la légitimité d'un label majeur (RCA, l'étiquette de ses héros) et l'authenticité punk que valorisaient ses pairs. Ce dualisme — que Jacobson & Jeffrey lisent comme une « double consciousness » — est structurant pour comprendre la trajectoire de Joy Division avant Factory. La débâcle RCA révèle que les deux formes d'authenticité sont incompatibles dans la réalité de l'industrie.\n",
+      "liens": [
+        "CONCEPT-S63-001"
+      ],
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_agence_diy",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Concepts",

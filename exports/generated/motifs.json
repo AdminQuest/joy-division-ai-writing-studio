@@ -1063,6 +1063,56 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S63-001",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "MOTIF-S63-001 — « there is no contract » (Wilson / Factory)",
+    "data": {
+      "id": "MOTIF-S63-001",
+      "label": "there is no contract",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A001",
+        "S63-A002",
+        "S63-A007"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "description": "Formule-clé du contrat wilsonien : le contrat atteste de sa propre inexistence. Motif circulant dans le film (Winterbottom, 2002), la novelization de Wilson (2002) et les commentaires académiques. Utilisable comme emblème de la philosophie Factory et comme cas-limite de la performativité contractuelle dans l'industrie musicale.",
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S63-002",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "MOTIF-S63-002 — l'authenticité comme piège",
+    "data": {
+      "id": "MOTIF-S63-002",
+      "label": "l'authenticité comme piège",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A005",
+        "S63-A006"
+      ],
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "description": "Curtis « was unable to escape the trap of authenticity, even as he sacrificed himself to the unattainable » (Jacobson & Jeffrey, p. 25). L'authenticité punk est un piège parce que ses critères sont définis par d'autres (labels, journalistes, fans) et non par l'artiste lui-même. Motif transversal utilisable dans les chapitres sur la réception critique et la mythification posthume.\n",
+      "liens": [
+        "MOTIF-S63-001"
+      ],
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-cut_and_paste_urgence",
     "file": "registers/s77_worley_structuring_registers.md",
     "heading": "Motifs",

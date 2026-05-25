@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-26T00:20:25",
+  "generated_at": "2026-05-26T00:39:29",
   "status": "error",
   "summary": {
-    "records_total": 6537,
+    "records_total": 6570,
     "records_by_kind": {
       "source": 114,
       "metadata": 209,
-      "unknown": 1082,
-      "atom": 2554,
-      "concept": 394,
-      "motif": 390,
-      "myth": 100,
+      "unknown": 1102,
+      "atom": 2561,
+      "concept": 397,
+      "motif": 392,
+      "myth": 101,
       "quote": 507,
       "chronology": 429,
       "person": 289,
@@ -19,13 +19,13 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 28473,
+    "diagnostics_total": 28584,
     "errors": 14,
-    "warnings": 28459,
+    "warnings": 28570,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 61,
-    "sources_exported": 61,
-    "declared_but_unused": 28,
+    "sources_used_in_records": 62,
+    "sources_exported": 62,
+    "declared_but_unused": 27,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -220,20 +220,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S63",
-        "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
-        "auteur": "Dan Jacobson, Ian Jeffrey",
-        "titre": "Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "Tony Wilson",
-          "pacte faustien",
-          "Factory Records",
-          "mythopoïèse"
         ]
       },
       {
@@ -1538,6 +1524,23 @@
           "registers/s62_introduction_structuring_registers.md",
           "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
           "sources/heart_soul_introduction/relations_s62_introduction_v2.md"
+        ]
+      },
+      {
+        "source_id": "S63",
+        "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+        "auteur": "Dan Jacobson, Ian Jeffrey",
+        "titre": "Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain",
+        "annee": "2018",
+        "records": 33,
+        "atoms": 7,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/s63_wilson_faustian_specialized_registers.md",
+          "registers/s63_wilson_faustian_structuring_registers.md",
+          "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+          "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md"
         ]
       },
       {
@@ -12965,6 +12968,594 @@
       "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
       "message": "Invalid value for type_unite: conclusion_historiographique",
       "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: forte comme analyse de réception ; prudence pour les données factuelles",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: analyse_filmique",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage analytique",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: analyse_conceptuelle",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: secondaire — données issues de Middles (2002) et Curtis D. (2007), pas de première main",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage analytique",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: analyse_conceptuelle",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: secondaire — repose sur Hook (2013a, 119)",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for fiabilite: forte comme analyse ; données biographiques sur Wilson à vérifier",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Invalid value for type_unite: analyse_conceptuelle",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S63-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S63-007"
     },
     {
       "level": "warning",
@@ -150548,6 +151139,18 @@
     },
     {
       "level": "warning",
+      "file": "registers/s63_wilson_faustian_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORG-S63-002"
+    },
+    {
+      "level": "warning",
       "file": "registers/s77_worley_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S77-WORLEY-2015"
@@ -152963,6 +153566,72 @@
       "file": "registers/s59_ferrara_specialized_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MEDIA-S59-BOOTLEGS-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S63-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S63-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S63-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S63-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S63-003"
     },
     {
       "level": "warning",
