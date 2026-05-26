@@ -15,10 +15,12 @@ date_creation: "2026-05-26"
 ```yaml
 id: CIT-S82-001
 source_id: S82
-pages_pdf: "170"
-pages_livre: "138-139"
+pages_pdf: "169"
+pages_livre: "138"
 locuteur: "Peter Hook"
 contexte: "Première écoute d'Unknown Pleasures — réaction à la production de Hannett"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.169 (ch.9, livre p.138). Phrase exacte : 'Oh my god, he's taken all the guts out of it. All the balls. How could he do that?' (Hook 2012, 174). CORRECTION PAGINATION : pages_pdf 170→169, pages_livre 138-139→138."
 ```
 
 « Oh my god, he's taken all the guts out of it. All the balls. How could he do that? » (Hook 2012, 174)
@@ -34,6 +36,8 @@ pages_pdf: "168"
 pages_livre: "137"
 locuteur: "Martin Hannett"
 contexte: "Description de son son caractéristique — entretien van de Kamp 1981"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.168 (ch.9, livre p.137). Phrase source : 'he ventured only that his sound was typified by \"a certain disorder in the treble range\" (van de Kamp 1981).' Citation courte extraite de l'entretien van de Kamp 1981 via Parmar."
 ```
 
 Hannett : son typifié par « a certain disorder in the treble range » (van de Kamp 1981)
@@ -49,6 +53,8 @@ pages_pdf: "174"
 pages_livre: "143"
 locuteur: "Peter Saville"
 contexte: "Sur la pochette Unknown Pleasures — vague CP1919 et batterie de Morris"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.174 (ch.9, livre p.143). Texte source : 'The wave pattern was so appropriate. . . . It's tight, like Stephen Morris's drumming, but it's also fluid' (Grundy 2011). Le registre utilise [...] pour l'ellipse [. . .] du PDF — acceptable."
 ```
 
 « The wave pattern was so appropriate. [...] It's tight, like Stephen Morris's drumming, but it's also fluid. » (Grundy 2011, cité dans S82 p. 143)
@@ -64,6 +70,8 @@ pages_pdf: "183"
 pages_livre: "152"
 locuteur: "Robin Parmar"
 contexte: "Conclusions — la fonction de la production de Hannett"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.183 (ch.9, livre p.152). Phrase source complète : 'This is the function of Hannett's production: to occlude the source, to hold something in reserve, to obscure the referent. And in doing so, to call attention to this very process as artifice.' ATTENTION : le [T] du registre est une interpolation incorrecte — le PDF a 'to' en minuscule après deux-points. En contexte rédigé, citer depuis 'to occlude...' sans [T] ou avec contexte complet."
 ```
 
 « [T]o occlude the source, to hold something in reserve, to obscure the referent. And in doing so, to call attention to this very process as artifice. »
@@ -75,10 +83,12 @@ contexte: "Conclusions — la fonction de la production de Hannett"
 ```yaml
 id: CIT-S82-005
 source_id: S82
-pages_pdf: "167"
-pages_livre: "136"
+pages_pdf: "168"
+pages_livre: "137"
 locuteur: "Martin Hannett"
 contexte: "Méthode de travail — son mort puis placement dans l'espace"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.168 (ch.9, livre p.137). Phrase source : 'When tracking an instrument, Hannett favoured a \"completely dead, raw sound\" so that he could subsequently \"put those sounds in a space that was in his head\" (Reynolds 2009, 236).' CORRECTION PAGINATION : pages_pdf 167→168, pages_livre 136→137."
 ```
 
 Hannett : son « completely dead, raw sound » permettant de « put those sounds in a space that was in his head » (Reynolds 2009, 236)
@@ -94,6 +104,8 @@ pages_pdf: "179"
 pages_livre: "148"
 locuteur: "Peter Hook"
 contexte: "Soundcheck Transmission au Mayflower Club, 20 mai 1978"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.179 (ch.9, livre p.148). Blockquote exact dans le PDF. Texte source complet identique au registre (Hook 2012, 122)."
 ```
 
 « (W)e'd never experienced that kind of reaction before. Looking at each other we were thinking that, maybe, just maybe, we might be able to make a go of this, a living out of it. We might just be able to pull this off. It was a big moment for the band. A big confidence-booster. » (Hook 2012, 122)
@@ -105,10 +117,12 @@ contexte: "Soundcheck Transmission au Mayflower Club, 20 mai 1978"
 ```yaml
 id: CIT-S82-007
 source_id: S82
-pages_pdf: "182"
-pages_livre: "151"
+pages_pdf: "181"
+pages_livre: "150"
 locuteur: "Robin Parmar"
 contexte: "Description de la danse de Curtis dans Something Else (BBC, 15 sept. 1979)"
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.181 (ch.9, livre p.150). Phrase source complète : 'Rather, Curtis's dance erupts unbidden from some primal core, transgressive rather than attractive. We wish to look away but remain transfixed.' Citation partielle — 'Rather, ' omis en début. CORRECTION PAGINATION : pages_pdf 182→181, pages_livre 151→150."
 ```
 
 « Curtis's dance erupts unbidden from some primal core, transgressive rather than attractive. We wish to look away but remain transfixed. »
