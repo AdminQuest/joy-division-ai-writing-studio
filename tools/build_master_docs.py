@@ -18,6 +18,7 @@ Outputs:
 
 from __future__ import annotations
 
+import argparse
 import json
 from collections import Counter, defaultdict
 from datetime import datetime
@@ -453,6 +454,29 @@ def chapter_document(chapter_number: int, title: str, context: Dict[str, Any]) -
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Generate chapter master documents from documentary exports.",
+    )
+    parser.add_argument(
+        "--chapters-dir",
+        type=Path,
+        default=None,
+        help=(
+            "Target directory for generated document_maitre.md files and master_docs.json. "
+            "Defaults to <repo_root>/chapters/ (public repo). "
+            "Use ~/repos/joy-division-studio-private/chapters for the private repo."
+        ),
+    )
+    args = parser.parse_args()
+
+    # Resolve target chapters directory
+    if args.chapters_dir is not None:
+        target_chapters_dir = args.chapters_dir.expanduser().resolve()
+        target_manifest_path = target_chapters_dir / "master_docs.json"
+    else:
+        target_chapters_dir = CHAPTERS_DIR
+        target_manifest_path = MANIFEST_PATH
+
     atoms = load_json("atoms.json")
     quotes = load_json("quotes.json")
     chronology = load_json("chronology.json")
@@ -477,7 +501,7 @@ def main() -> int:
         }
 
         content = chapter_document(chapter_number, title, context)
-        chapter_dir = CHAPTERS_DIR / f"{chapter_number:02d}"
+        chapter_dir = target_chapters_dir / f"{chapter_number:02d}"
         chapter_dir.mkdir(parents=True, exist_ok=True)
         rel_path = f"chapters/{chapter_number:02d}/document_maitre.md"
         (chapter_dir / "document_maitre.md").write_text(content, encoding="utf-8")
@@ -494,11 +518,13 @@ def main() -> int:
             "people": len(context["people"]),
         })
 
-    write_json(MANIFEST_PATH, manifest)
+    write_json(target_manifest_path, manifest)
     write_json(MASTER_INDEX_PATH, index)
     print("Master documents generated from atoms.")
-    print(f"Manifest: {MANIFEST_PATH.relative_to(REPO_ROOT)}")
+    print(f"Manifest: {target_manifest_path}")
     print(f"Index: {MASTER_INDEX_PATH.relative_to(REPO_ROOT)}")
+    if args.chapters_dir is not None:
+        print(f"Note: chapters written to custom target: {target_chapters_dir}")
     return 0
 
 
