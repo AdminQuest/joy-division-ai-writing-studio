@@ -16,11 +16,12 @@ date_creation: "2026-05-26"
 id: CIT-S81-001
 source_id: S81
 atome: S81-A001
-pages_pdf: "147"
-pages_livre: "116"
+pages_pdf: "151"
+pages_livre: "120"
 auteur_cite: "Edwin Shneidman"
 reference: "cité in Knoll 2008, 393-397"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.151 (ch.8, livre p.120, section CURTIS'S SUICIDE: A PSYCHOLOGICAL AUTOPSY APPROACH). Blockquote exact : 'A postmortem investigative procedure requiring the identification and assessment of suicide risk factors present at the time of death, with the goal of enabling a determination of the manner of death to as high a degree of certainty as possible.' (cited in Knoll 2008, 393–397). CORRECTION PAGINATION : pages_livre 116→120, pages_pdf 147→151."
 ```
 
 « A postmortem investigative procedure requiring the identification and assessment of suicide risk factors present at the time of death, with the goal of enabling a determination of the manner of death to as high a degree of certainty as possible. »
@@ -40,6 +41,7 @@ pages_livre: "116"
 auteur_cite: "Devereux, Cullen & Meagher"
 reference: "S81, p. 116"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.147 (ch.8, livre p.116). Texte source : 'our analysis and interpretation demonstrate that there was nothing inevitable about Ian Curtis's suicide. Seeing it as inevitable is to do considerable disservice to Curtis's legacy in that such a position simply rehearses the well-worn and overly romanticized trope of the \"tortured artist\" for whom suicide is the only final outcome.' Italiques sur 'inevitable' et 'only' conformes au PDF."
 ```
 
 « There was nothing *inevitable* about Ian Curtis's suicide. Seeing it as inevitable is to do considerable disservice to Curtis's legacy in that such a position simply rehearses the well-worn and overly romanticized trope of the "tortured artist" for whom suicide is the *only* final outcome. »
@@ -59,6 +61,7 @@ pages_livre: "117"
 auteur_cite: "Paul McCullough"
 reference: "McCullough, Sounds, 1980 — cité par Devereux, Cullen & Meagher (emphase des auteurs)"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.148 (ch.8, livre p.117). Texte source : '[T]hink of Ian Curtis, let his soul fill you. That man cared for you, that man died for you, that man saw the madness in your area' (Sounds 1980 – our emphasis). Italiques sur 'that man died for you' = emphase signalée par les auteurs du chapitre (« our emphasis »)."
 ```
 
 « [T]hink of Ian Curtis, let his soul fill you. That man cared for you, *that man died for you*, that man saw the madness in your area. »
@@ -78,6 +81,7 @@ pages_livre: "124"
 auteur_cite: "Ian Curtis"
 reference: "cité in Middles & Reade 2006, 243-244 (à Annik Honoré)"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.155 (ch.8, livre p.124). Texte source : 'I felt so responsible and so sick with myself . . . I wanted to retreat' (Middles and Reade 2006, 243–244). Contexte : Curtis écrivant à Annik Honoré après l'overdose de Phénobarbitone du 6 avril 1980."
 ```
 
 « I felt so responsible and so sick with myself . . . I wanted to retreat. »
@@ -97,6 +101,7 @@ pages_livre: "124"
 auteur_cite: "Ian Curtis"
 reference: "cité in Middles & Reade 2006, 239 (à Vini Reilly)"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.155 (ch.8, livre p.124). Texte source : 'I actually meant it you know . . . it wasn't a cry for help . . . I actually want out' (Middles and Reade 2006, 239). Curtis se confiant à Vini Reilly (Durutti Column) après l'overdose."
 ```
 
 « I actually meant it you know . . . it wasn't a cry for help . . . I actually want out. »
@@ -116,6 +121,7 @@ pages_livre: "124"
 auteur_cite: "Bernard Sumner"
 reference: "Sumner 2015, 132"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.155 (ch.8, livre p.124). Texte source : 'I definitely intended to kill myself . . . the only reason that I bottled out was because I didn't think I had enough tablets' (Sumner 2015, 132). Italiques sur 'because' conformes au PDF. Il s'agit de Sumner rapportant les propos de Curtis."
 ```
 
 « I definitely intended to kill myself . . . the only reason that I bottled out was *because* I didn't think I had enough tablets. »
@@ -130,11 +136,12 @@ statut: verifie
 id: CIT-S81-007
 source_id: S81
 atome: S81-A009
-pages_pdf: "159"
+pages_pdf: "151"
 pages_livre: "120"
 auteur_cite: "Natalie Curtis"
 reference: "Curtis, Natalie (2007) — citée par Devereux, Cullen & Meagher, p. 120"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.151 (ch.8, livre p.120). Blockquote exact dans le PDF : ''Control' doesn't go far enough to convey my father's mental health problems . . . His depression and mood swings are simply not addressed. Given the fervor to discover why he killed himself, this is something of an oversight.' (Curtis 2007). CORRECTION PAGINATION : pages_pdf 159→151."
 ```
 
 « "Control" doesn't go far enough to convey my father's mental health problems . . . His depression and mood swings are simply not addressed. Given the fervor to discover why he killed himself, this is something of an oversight. »
