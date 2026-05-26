@@ -1864,6 +1864,91 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-archive-lacunaire",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-archive-lacunaire",
+      "nom": "Archive lacunaire",
+      "occurrences": [
+        "S84-A001",
+        "S84-A002",
+        "S84-A015",
+        "S84-A017"
+      ],
+      "description": "Motif de l'insuffisance documentaire comme condition constitutive de la réception et de la mémorialisation de Joy Division — le peu qui reste acquiert une valeur démesurée.",
+      "chapitres": [
+        8,
+        10,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-wilson-mediateur",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-wilson-mediateur",
+      "nom": "Wilson comme médiateur culturel",
+      "occurrences": [
+        "S84-A003",
+        "S84-A004",
+        "S84-A005"
+      ],
+      "description": "Tony Wilson comme figure pivot entre la scène post-punk manchesterienne et les institutions médiatiques (Granada TV, Factory Records), rendant visible ce qui resterait invisible sans sa double position de journaliste et entrepreneur culturel.",
+      "chapitres": [
+        1,
+        2,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-danse-curtis-television",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-danse-curtis-television",
+      "nom": "Danse de Curtis à la télévision",
+      "occurrences": [
+        "S84-A004",
+        "S84-A006"
+      ],
+      "description": "La danse de Curtis — mouvement compulsif, brutal, confiné — comme signature visuelle du groupe documentée dès la première apparition télévisée (Granada Reports, 1978) et consacrée par Something Else (BBC2, 1979).",
+      "chapitres": [
+        2,
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-ikon-fcl-pionnier",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-ikon-fcl-pionnier",
+      "nom": "Ikon FCL pionnier vidéo indépendant",
+      "occurrences": [
+        "S84-A013",
+        "S84-A014",
+        "S84-A017"
+      ],
+      "description": "Factory Records et Ikon FCL comme acteurs précurseurs de la distribution vidéo alternative au Royaume-Uni, devançant Doublevision (Cabaret Voltaire) et Jettisoundz d'au moins deux ans.",
+      "chapitres": [
+        5,
+        8,
+        10
+      ]
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-rejet_inevitabilite",
     "file": "registers/s81_curtis_suicide_structuring_registers.md",
     "heading": "rejet_inevitabilite",

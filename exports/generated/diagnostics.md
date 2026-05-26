@@ -1,37 +1,37 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T12:22:29`
+Généré le : `2026-05-26T12:54:11`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 6956
+- Enregistrements : 7029
 - Erreurs : 14
-- Avertissements : 29991
+- Avertissements : 30351
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 70
-- Sources exportées : 70
-- Sources déclarées mais non utilisées : 19
+- Sources utilisées dans les enregistrements : 71
+- Sources exportées : 71
+- Sources déclarées mais non utilisées : 18
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2644
+- atom : 2667
 - chronology : 454
-- concept : 431
-- metadata : 240
-- motif : 408
+- concept : 435
+- metadata : 241
+- motif : 412
 - myth : 101
-- person : 289
-- quote : 507
+- person : 297
+- quote : 512
 - quote_batch : 1
 - rules : 1
 - song : 110
 - source : 114
 - template : 357
-- unknown : 1299
+- unknown : 1327
 
 ## Sources utilisées mais absentes du registre
 
@@ -53,7 +53,6 @@ Statut : **error**
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — statut : référence historique déplacée depuis S41 ; à consolider
-- S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : a_atomiser
 - S85 — Malcolm, Mining for Counterculture, 2018 — statut : a_atomiser
 - S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : a_atomiser
 - S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : a_atomiser
@@ -165,4 +164,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 29905 problèmes supplémentaires dans `diagnostics.json`.
+- … 30265 problèmes supplémentaires dans `diagnostics.json`.

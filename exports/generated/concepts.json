@@ -3832,6 +3832,99 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-archive-audiovisuelle-independante",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "CONCEPTS",
+    "data": {
+      "id": "CONCEPT-archive-audiovisuelle-independante",
+      "nom": "Archive audiovisuelle indépendante",
+      "label": "Archive audiovisuelle indépendante (independent moving image archive)",
+      "definition": "Corpus d'enregistrements visuels réalisés hors des structures industrielles de radiodiffusion, sur des équipements domestiques ou semi-professionnels (Super 8, VHS, Betamax), par des individus motivés par l'engagement culturel plutôt que par une commande commerciale. Dans le cas Joy Division : 9 documents entre 1978-1980.",
+      "fonction_argumentative": "Fonde la spécificité de la mémoire visuelle de Joy Division comme archive lacunaire et impure, distincte des productions télévisuelles professionnelles — ce qui conditionne toutes les mémorialisations ultérieures (documentaires, expositions, plateformes).",
+      "atomes": [
+        "S84-A001",
+        "S84-A002",
+        "S84-A007",
+        "S84-A009",
+        "S84-A010",
+        "S84-A015"
+      ],
+      "chapitres": [
+        8,
+        10,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-culture-diy-multimedia",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "CONCEPTS",
+    "data": {
+      "id": "CONCEPT-culture-diy-multimedia",
+      "nom": "Culture DIY multimédia post-punk",
+      "label": "Culture DIY multimédia post-punk (punk/DIY multimedia culture)",
+      "definition": "Pratique culturelle issue du mouvement punk-post-punk consistant à produire, distribuer et diffuser des artefacts visuels et sonores avec des moyens artisanaux et des budgets infimes, en contournant les structures industrielles des grands médias. Reynolds (2005) : 'samizdat culture'. Welsh (1984) : 'populist tendency'.",
+      "fonction_argumentative": "Situe Factory Records, Ikon FCL et les filmeurs amateurs de Joy Division dans un écosystème alternatif cohérent (Cabaret Voltaire/Doublevision, Throbbing Gristle/Industrial, Derek Jarman) — leur pratique est le résultat d'une orientation idéologique, pas seulement de contraintes budgétaires.",
+      "atomes": [
+        "S84-A014",
+        "S84-A013",
+        "S84-A007"
+      ],
+      "chapitres": [
+        1,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-qualite-degradee-authenticite",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "CONCEPTS",
+    "data": {
+      "id": "CONCEPT-qualite-degradee-authenticite",
+      "nom": "Qualité dégradée comme authenticité",
+      "label": "Qualité dégradée comme authenticité (degraded quality as authenticity)",
+      "definition": "Réévaluation esthétique et historiographique selon laquelle la qualité technique déficiente des enregistrements amateurs (image brûlée, son saturé, montage grossier) constitue non un défaut mais une marque d'authenticité contextuelle, témoignage direct des conditions réelles de performance plutôt que d'une représentation idéalisée.",
+      "fonction_argumentative": "Cadre critique pour aborder les archives audiovisuelles live de Joy Division comme sources primaires valides malgré leurs limitations — et pour comprendre la réévaluation posthume de ce matériau dans les années 2000-2010.",
+      "atomes": [
+        "S84-A015",
+        "S84-A016"
+      ],
+      "chapitres": [
+        8,
+        10,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-pre-ere-video-clip",
+    "file": "registers/s84_cope_structuring_registers.md",
+    "heading": "CONCEPTS",
+    "data": {
+      "id": "CONCEPT-pre-ere-video-clip",
+      "nom": "Pré-ère du clip vidéo",
+      "label": "Pré-ère du clip vidéo (pre-promo video age)",
+      "definition": "Période (fin des années 1970 - début des années 1980) antérieure à la généralisation du clip promotionnel imposée par MTV (lancé en août 1981) et à la multiplication des chaînes musicales, caractérisée par une présence audiovisuelle très limitée des groupes pop/rock dans les médias grand public.",
+      "fonction_argumentative": "Explique structurellement la rareté des enregistrements Joy Division et positionne leur héritage visuel comme artefact d'un moment de bascule médiatique — le groupe existe juste avant que la visibilité télévisuelle ne devienne normative pour les groupes de rock.",
+      "atomes": [
+        "S84-A001",
+        "S84-A003"
+      ],
+      "chapitres": [
+        2,
+        8,
+        10
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-autopsie_psychologique",
     "file": "registers/s81_curtis_suicide_structuring_registers.md",
     "heading": "autopsie_psychologique",
