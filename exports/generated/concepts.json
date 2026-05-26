@@ -5295,12 +5295,13 @@
     "kind": "concept",
     "id": "CONCEPT-S82-001",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
-    "heading": "CONCEPT-S82-001",
+    "heading": "CONCEPT-S82-001 — Esthétique de l'étrangement",
     "data": {
       "id": "CONCEPT-S82-001",
-      "label": "aesthetics_estrangement",
+      "nom": "Esthétique de l'étrangement",
+      "label": "Esthétique de l'étrangement (aesthetics of estrangement)",
       "source_id": "S82",
-      "atomes": [
+      "atomes_associes": [
         "S82-A001",
         "S82-A009"
       ],
@@ -5310,6 +5311,7 @@
         6,
         14
       ],
+      "fonction_argumentative": "Concept central de S82 : la présentation de Joy Division en 1978-1979 constitue une rupture délibérée avec les conventions de genre (authenticité punk, réplication du live, identification listener-performer), opérant simultanément dans trois registres — sonore (Hannett), visuel (Saville), lyrique (Curtis). Le terme s'inspire du Verfremdungseffekt brechtien et de l'ostranenie shklovskienne, appliqués ici à la production musicale et visuelle populaire.",
       "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
       "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
       "source_year": "2018"
@@ -5319,12 +5321,13 @@
     "kind": "concept",
     "id": "CONCEPT-S82-002",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
-    "heading": "CONCEPT-S82-002",
+    "heading": "CONCEPT-S82-002 — Production non-indexicale",
     "data": {
       "id": "CONCEPT-S82-002",
-      "label": "production_non_indexicale",
+      "nom": "Production non-indexicale",
+      "label": "Production non-indexicale (Hannett)",
       "source_id": "S82",
-      "atomes": [
+      "atomes_associes": [
         "S82-A002",
         "S82-A003"
       ],
@@ -5332,6 +5335,7 @@
         3,
         6
       ],
+      "fonction_argumentative": "Désigne la stratégie de Hannett consistant à dépouiller les enregistrements de leurs relations au lieu d'origine, à la performance live et aux musiciens comme corps présents. Contraire de la production normative qui cherche à créer un \"perceived performance environment\" (Moylan 2012, 179) répliquant le live : chez Hannett, chaque instrument est enregistré séparément, son \"completely dead\", delay/réverbération créant une distance virtuelle perceptible uniquement comme artifice.",
       "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
       "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
       "source_year": "2018"
@@ -5341,17 +5345,19 @@
     "kind": "concept",
     "id": "CONCEPT-S82-003",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
-    "heading": "CONCEPT-S82-003",
+    "heading": "CONCEPT-S82-003 — Sound stage (espace sonore — deux axes)",
     "data": {
       "id": "CONCEPT-S82-003",
-      "label": "sound_stage",
+      "nom": "Sound stage",
+      "label": "Sound stage — les deux axes de l'espace sonore en studio",
       "source_id": "S82",
-      "atomes": [
+      "atomes_associes": [
         "S82-A003"
       ],
       "chapitres": [
         3
       ],
+      "fonction_argumentative": "Cadre théorique de Moylan (2012) : l'espace sonore en production studio se définit par deux axes — (1) le positionnement latéral gauche-droite (sound stage = scène perçue répliquant le live) et (2) la distance virtuelle listener-musicien (créée par delay, réverbération, manipulation du timbre). Hannett subvertit les deux axes, utilisant l'espace acoustique comme \"primary musical idea in itself\" plutôt que comme miroir de la performance.",
       "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
       "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
       "source_year": "2018"
@@ -5361,18 +5367,20 @@
     "kind": "concept",
     "id": "CONCEPT-S82-004",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
-    "heading": "CONCEPT-S82-004",
+    "heading": "CONCEPT-S82-004 — Espace métaphorique lyrique",
     "data": {
       "id": "CONCEPT-S82-004",
-      "label": "espace_metaphorique_lyrique",
+      "nom": "Espace métaphorique lyrique",
+      "label": "Espace métaphorique lyrique (paroles sans ancrage)",
       "source_id": "S82",
-      "atomes": [
+      "atomes_associes": [
         "S82-A007"
       ],
       "chapitres": [
         5,
         6
       ],
+      "fonction_argumentative": "Concept forgé par Parmar pour désigner la stratégie des paroles de Curtis consistant à éviter les noms propres, les lieux précis et les ancrages temporels. Cette absence de spécificité transforme les espaces décrits en \"conteneurs génériques\" dans lesquels les auditeurs projettent leur propre subjectivité — mécanisme inverse de la chanson populaire normative qui invite à l'identification avec une position subjective précise.",
       "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
       "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
       "source_year": "2018"
@@ -5382,18 +5390,20 @@
     "kind": "concept",
     "id": "CONCEPT-S82-005",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
-    "heading": "CONCEPT-S82-005",
+    "heading": "CONCEPT-S82-005 — Inversion temporelle sonore",
     "data": {
       "id": "CONCEPT-S82-005",
-      "label": "inversion_temporelle_sonore",
+      "nom": "Inversion temporelle sonore",
+      "label": "Inversion temporelle sonore (supplément avant l'original)",
       "source_id": "S82",
-      "atomes": [
+      "atomes_associes": [
         "S82-A005"
       ],
       "chapitres": [
         3,
         5
       ],
+      "fonction_argumentative": "Désigne le dispositif de \"Glass\" où Hannett place l'écho/supplément avant le signal original — \"sonic time travel\" selon Parmar. La pulsation qui ouvre la chanson précède la chanson proprement dite, reconnaissant explicitement l'artificialité de l'enregistrement. Relié à Eisenberg (2005) : l'objet d'une session studio est de créer un \"ideal event\" et non de documenter un événement réel.",
       "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
       "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
       "source_year": "2018"

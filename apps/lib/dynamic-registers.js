@@ -88,6 +88,8 @@ window.DynamicRegisters = (() => {
   function normalizeRecord(data, file, heading) {
     const d = { ...data, __file: file };
     if (d.source_id && !d.sources) d.sources = [normalizeSourceId(d.source_id)];
+    // Also handle source_ids (plural) used in S80/S81 structuring registers
+    if (d.source_ids && !d.sources) d.sources = array(d.source_ids).map(normalizeSourceId).filter(Boolean);
     if (Array.isArray(d.sources)) d.sources = d.sources.map(normalizeSourceId).filter(Boolean);
     if (d.evenement && !d.event) d.event = d.evenement;
     if (d.chapitres && !d.chapters) d.chapters = d.chapitres;
