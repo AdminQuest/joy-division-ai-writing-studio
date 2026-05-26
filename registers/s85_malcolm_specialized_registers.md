@@ -22,6 +22,7 @@ source_secondaire: "Wilson 1978, cité in Malcolm 2018, p. 195"
 pages_livre: "195"
 pages_pdf: "226"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.226 (ch.11, livre p.195). Blockquote complet dans le PDF : '\"We like to keep people informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting sound we have come across in the last six months.\"' Texte et pagination corrects."
 atomes: [S85-A002]
 chapitres: [1, 2]
 ```
@@ -37,6 +38,7 @@ source_secondaire: "Hook cité in Bainbridge 2014, 251, repris in Malcolm 2018, 
 pages_livre: "195"
 pages_pdf: "226"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.226 (ch.11, livre p.195). Blockquote complet dans le PDF : '\"Without Ian Curtis there would have been no Hacienda and without the Hacienda there would have been no Rave scene. The whole indie music merging with dance, the fashion, everything: it came from the Hacienda.\"' (Hook cité in Bainbridge 2014, 251). Texte et pagination corrects."
 atomes: [S85-A004]
 chapitres: [1, 8, 13, 14]
 ```
@@ -52,6 +54,7 @@ source_secondaire: "Saville 2013, cité in Malcolm 2018, p. 199"
 pages_livre: "199"
 pages_pdf: "230"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.230 (ch.11, livre p.199). Phrase source : 'Saville (2013) argued that the sleeve was designed to elicit a reaction of \"It's there and it exists – you can have it if you want but it doesn't care if you buy it.\"' Texte et pagination corrects."
 atomes: [S85-A006]
 chapitres: [5, 10]
 ```
@@ -67,6 +70,7 @@ source_secondaire: "Sumner 2013, cité in Malcolm 2018, p. 200"
 pages_livre: "200"
 pages_pdf: "231"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.231 (ch.11, livre p.200). Blockquote dans le PDF : '\"I believe creativity is not an analytical thing, it's not a conscious thing. It comes from the soul.\"' (Sumner, London Electronic Arts Festival 2013). Texte et pagination corrects."
 atomes: [S85-A008]
 chapitres: [5, 13]
 ```
@@ -82,6 +86,7 @@ source_secondaire: "Sumner 2013, cité in Malcolm 2018, p. 200"
 pages_livre: "200"
 pages_pdf: "231"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.231 (ch.11, livre p.200). Blockquote dans le PDF : '\"We didn't talk about design too deeply with Peter (Saville) we just asked ourselves, do we like it? Yes, do we like it? No. That's how we felt the general public viewed things. They didn't care about all the meaning and reasoning behind something, they just made their mind up in a split second.\"' (Sumner, London Electronic Arts Festival 2013). Texte et pagination corrects."
 atomes: [S85-A008]
 chapitres: [5, 10, 13]
 ```
@@ -97,6 +102,7 @@ source_secondaire: "Buckle 2014, cité in Malcolm 2018, p. 202"
 pages_livre: "202"
 pages_pdf: "233"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.233 (ch.11, livre p.202). Blockquote dans le PDF : '\"There is no underground now. There's a guy walking in with a CD of some young band trying to sell it, the day you would had heard of them, they wouldn't have just produced a CD like that, they would have had some history.\"' (Buckle 2014). Texte et pagination corrects."
 atomes: [S85-A010]
 chapitres: [13, 14]
 ```
@@ -112,6 +118,7 @@ source_secondaire: "Hingley 2014, cité in Malcolm 2018, p. 206"
 pages_livre: "206"
 pages_pdf: "237"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.237 (ch.11, livre p.206). Blockquote dans le PDF : '\"The Hacienda was a phoenix eating its own tail, the punters who came eventually bought the flats that replaced it when it was knocked down. The club created the scene that would eventually pull it down.\"' (Hingley 2014). Texte et pagination corrects."
 atomes: [S85-A012]
 chapitres: [8, 13, 14]
 ```
@@ -127,6 +134,7 @@ source_secondaire: "Wilson 2007, cité in Malcolm 2018, p. 206"
 pages_livre: "206"
 pages_pdf: "237"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.237 (ch.11, livre p.206). ATTENTION : le texte du registre est une paraphrase de Malcolm encadrant une citation partielle. Phrase source dans le PDF : 'Wilson states that on seeing Joy Division live for the first time he saw a band that had to be there, not because they wanted to be in a band and put records out but because they had no other way of expressing their suppressed creativity in a \"dirty northern town with high unemployment\".' Seul le passage entre guillemets est la citation directe de Wilson 2007 — le reste est la paraphrase de Malcolm. Texte et pagination corrects pour la citation incluse."
 atomes: [S85-A013]
 chapitres: [1, 13, 14]
 ```
