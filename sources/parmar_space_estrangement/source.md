@@ -14,8 +14,8 @@ date_pdf: "2021-01-15"
 pagination: "p. 133–154"
 partie: "PART 4: Interzone: Sounds, Images and Style"
 nature: "chapitre d'ouvrage collectif"
-statut: "a_atomiser"
-fiabilite: "a_evaluer"
+statut: "atomisee"
+fiabilite: "haute"
 dossier_source: "sources/parmar_space_estrangement/"
 ```
 

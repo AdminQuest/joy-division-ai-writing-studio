@@ -2578,6 +2578,50 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S82-001",
+    "file": "registers/s82_space_estrangement_structuring_registers.md",
+    "heading": "MOTIF-S82-001",
+    "data": {
+      "id": "MOTIF-S82-001",
+      "label": "presentation_hermetique",
+      "source_id": "S82",
+      "atomes": [
+        "S82-A006",
+        "S82-A001"
+      ],
+      "chapitres": [
+        5,
+        14
+      ],
+      "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
+      "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S82-002",
+    "file": "registers/s82_space_estrangement_structuring_registers.md",
+    "heading": "MOTIF-S82-002",
+    "data": {
+      "id": "MOTIF-S82-002",
+      "label": "dialectique_non_resolue",
+      "source_id": "S82",
+      "atomes": [
+        "S82-A004",
+        "S82-A007"
+      ],
+      "chapitres": [
+        5,
+        6
+      ],
+      "source_label": "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018",
+      "source_short_title": "Robin Parmar, Joy Division in Space: The Aesthetics of Estrangement, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-master_sous_la_scene",
     "file": "registers/s58_ilardi_structuring_registers.md",
     "heading": "Motifs",

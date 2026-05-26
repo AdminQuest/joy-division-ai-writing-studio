@@ -1,0 +1,79 @@
+source_id: S82
+source_label: "S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018"
+auteur: "Robin Parmar"
+titre: "Joy Division in Space: The Aesthetics of Estrangement"
+ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+editeur: "Rowman & Littlefield International"
+annee: "2018"
+pages_livre: "133-154"
+pages_pdf: "164-185"
+nature: "chapitre d'ouvrage collectif"
+partie: "PART 4: Interzone: Sounds, Images and Style"
+statut: atomisee
+fiabilite: haute
+date_atomisation: "2026-05-26"
+
+description: >
+  Analyse de la présentation de Joy Division en 1978-1979 comme aesthetics of
+  estrangement — rupture délibérée avec les conventions de genre (authenticité
+  punk, réplication du live, identification listener-performer). Trois sessions
+  couvertes : Cargo Studios octobre 1978 (Digital, Glass / A Factory Sample),
+  Strawberry Studios avril 1979 (Unknown Pleasures), Strawberry Studios juillet
+  1979 (Transmission single). Trois registres analysés : production sonore
+  non-indexicale de Hannett (delay, reverb, DMX 15-80 S, son "completely dead"),
+  espace visuel hermétique de Saville (CP1919, absence de marqueurs identifiants),
+  paroles de Curtis sans ancrage spatio-temporel (espace métaphorique de projection).
+  Cadres théoriques : Moylan (sound stage, deux axes), Eisenberg (studio = ideal event),
+  Lefebvre (espace social), Frith (genre et authenticité). Contre-argument explicite
+  à la lecture psychogéographique de Manchester.
+
+songs:
+  - song_id: JD-SONG-022
+    canonical_song: "Digital"
+  - song_id: JD-SONG-023
+    canonical_song: "Glass"
+  - song_id: JD-SONG-020
+    canonical_song: "Transmission"
+
+chapitres: [3, 5, 6, 14]
+
+concepts_principaux:
+  - aesthetics_estrangement
+  - production_non_indexicale
+  - sound_stage
+  - espace_metaphorique_lyrique
+  - inversion_temporelle_sonore
+  - cp1919_espace_visuel
+
+motifs_principaux:
+  - presentation_hermetique
+  - dialectique_non_resolue
+
+atomes:
+  - S82-A001
+  - S82-A002
+  - S82-A003
+  - S82-A004
+  - S82-A005
+  - S82-A006
+  - S82-A007
+  - S82-A008
+  - S82-A009
+
+relations:
+  - R-S82-001
+  - R-S82-002
+  - R-S82-003
+  - R-S82-004
+  - R-S82-005
+  - R-S82-006
+  - R-S82-007
+  - R-S82-008
+
+avertissements:
+  - "L'approche est esthétique et théorique (Brecht, Shklovsky) — cadre analytique à déclarer, non partagé par les acteurs eux-mêmes."
+  - "'Espace' ici est une métaphore analytique sonore et phénoménologique, pas un espace géographique (Manchester)."
+  - "La psychogéographie est utilisée comme foil — ne pas lire ce chapitre comme une réfutation mais comme un déplacement d'angle analytique."
+  - "Note 10 : les masters des sessions Cargo Studios n'ont pas survécu — l'analyse des premières sessions repose sur l'expérience d'écoute de l'auteur."
+  - "van de Kamp 1981 cité mais non référencé dans la bibliographie du chapitre — prudence sur cette citation."
+  - "À articuler avec S83 (Greenwood & Tarpey) qui traite également de Hannett et de l'architecture sonore."
