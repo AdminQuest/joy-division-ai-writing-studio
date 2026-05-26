@@ -19,7 +19,7 @@ const labelOf = data => data.label || data.nom || data.name || data.id || '';
 const typeOf = data => data.type || data.type_organisation || data.category || '';
 async function loadItems() {
   sourceLabels = await DynamicRegisters.sourceLabels();
-  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/organizations/'], kinds: ['organization'] });
+  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/organizations/', 'registers/'], kinds: ['organization'] });
   items.sort((a, b) => T(labelOf(a.data || {})).localeCompare(T(labelOf(b.data || {})), undefined, { numeric: true }));
   populateFilters(); render(items);
   statusCard.textContent = items.length + ' organisation(s) chargée(s) depuis registers/organizations/';

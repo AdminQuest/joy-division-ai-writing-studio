@@ -22,7 +22,7 @@ const conceptName = d => d.nom || d.name || d.concept || d.mythe || d.motif || d
 async function loadConcepts() {
   try {
     sourceLabels = await DynamicRegisters.sourceLabels();
-    const explicit = await DynamicRegisters.loadRecords({ prefixes: ['registers/concepts/', 'registers/myths/', 'registers/motifs/'], kinds: ['concept', 'myth', 'motif'] });
+    const explicit = await DynamicRegisters.loadRecords({ prefixes: ['registers/concepts/', 'registers/myths/', 'registers/motifs/', 'registers/'], kinds: ['concept', 'myth', 'motif'] });
     const atoms = await DynamicRegisters.loadRecords({ prefixes: ['sources/', 'registers/'], kinds: ['atom'] });
     concepts = buildConcepts(explicit, atoms);
     hydrateFilters(concepts);

@@ -23,7 +23,7 @@ const li = values => A(values).map(v => '<li>' + T(v) + '</li>').join('') || '<l
 async function loadChronology() {
   try {
     sourceLabels = await DynamicRegisters.sourceLabels();
-    events = await DynamicRegisters.loadRecords({ prefixes: ['registers/chronology/', 'sources/'], kinds: ['chronology'] });
+    events = await DynamicRegisters.loadRecords({ prefixes: ['registers/chronology/', 'registers/', 'sources/'], kinds: ['chronology'] });
     events.sort((a, b) => eventDate(a).localeCompare(eventDate(b), undefined, { numeric: true }));
     populateFilters();
     renderEvents(events);

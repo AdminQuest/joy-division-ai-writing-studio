@@ -22,7 +22,7 @@ const chaptersOf = data => A(data.chapitres || data.chapters);
 async function loadQuotes() {
   try {
     sourceLabels = await DynamicRegisters.sourceLabels();
-    quotes = await DynamicRegisters.loadRecords({ prefixes: ['registers/quotes/', 'sources/'], kinds: ['quote'] });
+    quotes = await DynamicRegisters.loadRecords({ prefixes: ['registers/quotes/', 'registers/', 'sources/'], kinds: ['quote'] });
     quotes.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
     populateFilters();
     renderQuotes(quotes);

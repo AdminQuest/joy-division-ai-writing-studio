@@ -21,7 +21,7 @@ const typeOf = data => data.type || data.type_lieu || data.category || '';
 
 async function loadItems() {
   sourceLabels = await DynamicRegisters.sourceLabels();
-  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/places/'], kinds: ['place'] });
+  items = await DynamicRegisters.loadRecords({ prefixes: ['registers/places/', 'registers/'], kinds: ['place'] });
   items.sort((a, b) => T(labelOf(a.data || {})).localeCompare(T(labelOf(b.data || {})), undefined, { numeric: true }));
   populateFilters();
   render(items);

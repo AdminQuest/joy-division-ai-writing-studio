@@ -72,15 +72,15 @@ window.DynamicRegisters = (() => {
     const id = text(data.id);
     const file = text(data.__file);
     if (id.startsWith('CHR-')) return 'chronology';
-    if (id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
+    if (id.startsWith('ACT-') || id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
     if (id.startsWith('PLACE-') || /places\//.test(file)) return 'place';
     if (id.startsWith('ORG-') || /organizations\//.test(file)) return 'organization';
     if (id.startsWith('SONG-') || id.startsWith('ALBUM-') || data.song || data.titre && /songs?\//.test(file)) return 'song';
     if (id.startsWith('CONCEPT-')) return 'concept';
     if (id.startsWith('MOTIF-')) return 'motif';
     if (id.startsWith('MYTH-') || id.startsWith('MYTHE-')) return 'myth';
-    if (id.startsWith('REG-') || id.startsWith('REL-RAG-')) return 'reference';
-    if (id.includes('-Q')) return 'quote';
+    if (id.startsWith('REF-') || id.startsWith('REG-') || id.startsWith('REL-RAG-')) return 'reference';
+    if (id.startsWith('CIT-') || id.includes('-Q')) return 'quote';
     if (id.startsWith('S') && id.includes('-')) return 'atom';
     return 'unknown';
   }

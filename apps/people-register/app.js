@@ -23,7 +23,7 @@ const nameOf = data => data.name || data.nom || data.full_name || data.person ||
 async function loadPeople() {
   try {
     sourceLabels = await DynamicRegisters.sourceLabels();
-    people = await DynamicRegisters.loadRecords({ prefixes: ['registers/people/', 'sources/'], kinds: ['person'] });
+    people = await DynamicRegisters.loadRecords({ prefixes: ['registers/people/', 'registers/', 'sources/'], kinds: ['person'] });
     people.sort((a, b) => T(nameOf(a.data || {})).localeCompare(T(nameOf(b.data || {})), undefined, { numeric: true }));
     populateFilters();
     renderPeople(people);
