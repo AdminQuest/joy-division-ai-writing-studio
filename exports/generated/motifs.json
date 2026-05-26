@@ -588,6 +588,63 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-twind-snatches-of-sound",
+    "file": "registers/s88_cashell_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-twind-snatches-of-sound",
+      "nom": "Tordre des bribes de son autour de l'espace où Curtis n'est pas",
+      "label": "Wind snatches of sound — l'espace absent de Curtis",
+      "description": "Formule critique de Debra Rae Cohen (Soho News, 1980) sur le concert du Hurrah Club : 'ils tordent des bribes de son autour de l'espace où Ian Curtis n'est pas'. Cette métaphore acoustique de l'absence est l'une des plus percutantes dans la littérature critique sur Joy Division / New Order — elle formule exactement la dimension spatiale et sonore de la perte. Motif réutilisable pour illustrer le concept d''absence centrale de New Order'.",
+      "atomes": [
+        "S88-A003"
+      ],
+      "chapitres": [
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-group-performing-under-erasure",
+    "file": "registers/s88_cashell_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-group-performing-under-erasure",
+      "nom": "Jouer sous rature",
+      "label": "Performing under erasure — le groupe sous rature",
+      "description": "Formule analytique de Cashell (adaptée de Derrida) : New Order joue 'under erasure' (sous rature), c'est-à-dire que son identité se constitue dans le maintien paradoxal d'une identité annulée — Joy Division performant en sachant que Joy Division n'existe plus. L'espace négatif au centre de la scène est le symbole visuel de cette performance sous rature. Motif articulable à la hauntologie derridienne.",
+      "atomes": [
+        "S88-A002",
+        "S88-A004"
+      ],
+      "chapitres": [
+        11,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-son-d-un-homme-mort",
+    "file": "registers/s88_cashell_structuring_registers.md",
+    "heading": "MOTIFS",
+    "data": {
+      "id": "MOTIF-son-d-un-homme-mort",
+      "nom": "Le son d'un homme mort",
+      "label": "Le son d'un homme mort — Fisher sur la cassette de Curtis",
+      "description": "Formule de Mark Fisher (2014, 52) commentant la cassette de Curtis en transe hypnotique (documentaire Gee 2007) : 'le son d'un homme mort errant dans le pays des morts'. Cette formule cristallise la thèse du Curtis médiumique — sa voix est prénaturellement ancienne, 'impossible à rattacher à aucun être vivant, encore moins à un jeune homme à peine dans sa vingtaine' (Fisher 2014, 61-62). Motif réutilisable pour les analyses de la voix de Curtis.",
+      "atomes": [
+        "S88-A008"
+      ],
+      "chapitres": [
+        4,
+        11
+      ]
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-titre_comme_traduction_ideologique",
     "file": "registers/s56_barone_structuring_registers.md",
     "heading": "Motifs et mythes",

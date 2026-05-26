@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T14:56:18",
+  "generated_at": "2026-05-26T15:25:10",
   "status": "error",
   "summary": {
-    "records_total": 7203,
+    "records_total": 7260,
     "records_by_kind": {
-      "metadata": 258,
-      "atom": 2701,
+      "metadata": 264,
+      "atom": 2712,
       "source": 114,
-      "unknown": 1380,
-      "concept": 449,
-      "motif": 422,
+      "unknown": 1396,
+      "concept": 455,
+      "motif": 425,
       "myth": 101,
-      "quote": 532,
-      "chronology": 469,
+      "quote": 539,
+      "chronology": 476,
       "person": 305,
       "song": 110,
-      "template": 360,
+      "template": 361,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 30982,
+    "diagnostics_total": 31183,
     "errors": 15,
-    "warnings": 30967,
+    "warnings": 31168,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 74,
-    "sources_exported": 74,
-    "declared_but_unused": 15,
+    "sources_used_in_records": 75,
+    "sources_exported": 75,
+    "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -230,22 +230,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S88",
-        "source_label": "S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018",
-        "auteur": "Kieran Cashell",
-        "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "hauntologie",
-          "New Order",
-          "Ceremony",
-          "transition Joy Division vers New Order",
-          "absences musicales",
-          "Saville"
-        ]
       }
     ],
     "used_but_missing_from_registre_json": [
@@ -1888,6 +1872,25 @@
           "registers/s87_otter_bickerdike_structuring_registers.md",
           "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
           "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md"
+        ]
+      },
+      {
+        "source_id": "S88",
+        "source_label": "S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018",
+        "auteur": "Kieran Cashell",
+        "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
+        "annee": "2018",
+        "records": 54,
+        "atoms": 11,
+        "quotes": 7,
+        "chronology": 14,
+        "files": [
+          "registers/people/s88_cashell_people.md",
+          "registers/quotes/s88_cashell_quotes.md",
+          "registers/s88_cashell_specialized_registers.md",
+          "registers/s88_cashell_structuring_registers.md",
+          "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+          "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md"
         ]
       }
     ]
@@ -31058,6 +31061,912 @@
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S88-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: titre",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S88-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S88-A011"
     },
     {
       "level": "warning",
@@ -168731,6 +169640,180 @@
     },
     {
       "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-BENJAMIN-1970"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-BENJAMIN-ARCADES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-DERRIDA-1994"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-FISHER-2014"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-KRISTEVA-1989"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-CRITCHLEY-1997"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-GEE-2007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S88-SAVILLE-2007"
+    },
+    {
+      "level": "warning",
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S51-STEYERL-2009"
@@ -180836,6 +181919,132 @@
       "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S88-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S88-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S88-Q007"
     },
     {
       "level": "warning",

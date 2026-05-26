@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T14:56:43`
+Généré le : `2026-05-26T15:25:32`
 
 ## 1. Verdict
 
 Le repo n’est pas strict-compliant : 15 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 2628 atome(s) incomplet(s) sur 2701.
+La dette principale reste la migration v2 : 2639 atome(s) incomplet(s) sur 2712.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7203
+- Enregistrements : 7260
 - Erreurs : 15
-- Avertissements : 30967
+- Avertissements : 31168
 - Sources déclarées : 88
-- Sources utilisées : 74
-- Sources exportées : 74
+- Sources utilisées : 75
+- Sources exportées : 75
 - Sources utilisées absentes du registre : 1
 - Libellés faibles : 1
 
@@ -22,32 +22,32 @@ La dette principale reste la migration v2 : 2628 atome(s) incomplet(s) sur 2701.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2701 |
-| chronology | 469 |
-| concept | 449 |
-| metadata | 258 |
-| motif | 422 |
+| atom | 2712 |
+| chronology | 476 |
+| concept | 455 |
+| metadata | 264 |
+| motif | 425 |
 | myth | 101 |
 | person | 305 |
-| quote | 532 |
+| quote | 539 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 110 |
 | source | 114 |
-| template | 360 |
-| unknown | 1380 |
+| template | 361 |
+| unknown | 1396 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | duplicate_id | 14 |
-| field_type_error | 647 |
-| invalid_controlled_value | 2752 |
-| missing_required_field | 9139 |
+| field_type_error | 658 |
+| invalid_controlled_value | 2774 |
+| missing_required_field | 9203 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1350 |
-| v2_migration_debt | 16552 |
+| unknown_yaml_block | 1366 |
+| v2_migration_debt | 16640 |
 | yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
@@ -117,7 +117,7 @@ could not find expected ':'
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
-- … 1310 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1326 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -139,17 +139,16 @@ Sources déclarées mais non utilisées :
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
-- S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — a_atomiser
 
 Libellés faibles :
 - REGISTRY : Registre canonique interne — chansons Joy Division / Warsaw
 
 ## 8. Migration v2
 
-- Atomes : 2701
+- Atomes : 2712
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2628
-- Avertissements de champs v2 manquants : 16552
+- Atomes v2 incomplets : 2639
+- Avertissements de champs v2 manquants : 16640
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-05-26T14:56:43",
+  "generated_at": "2026-05-26T15:25:32",
   "summary": {
-    "records_total": 7203,
+    "records_total": 7260,
     "records_by_kind": {
-      "metadata": 258,
-      "atom": 2701,
+      "metadata": 264,
+      "atom": 2712,
       "source": 114,
-      "unknown": 1380,
-      "concept": 449,
-      "motif": 422,
+      "unknown": 1396,
+      "concept": 455,
+      "motif": 425,
       "myth": 101,
-      "quote": 532,
-      "chronology": 469,
+      "quote": 539,
+      "chronology": 476,
       "person": 305,
       "song": 110,
-      "template": 360,
+      "template": 361,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 30982,
+    "diagnostics_total": 31183,
     "errors": 15,
-    "warnings": 30967,
+    "warnings": 31168,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 74,
-    "sources_exported": 74,
-    "declared_but_unused": 15,
+    "sources_used_in_records": 75,
+    "sources_exported": 75,
+    "declared_but_unused": 14,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
   "records_by_kind": {
-    "atom": 2701,
-    "chronology": 469,
-    "concept": 449,
-    "metadata": 258,
-    "motif": 422,
+    "atom": 2712,
+    "chronology": 476,
+    "concept": 455,
+    "metadata": 264,
+    "motif": 425,
     "myth": 101,
     "person": 305,
-    "quote": 532,
+    "quote": 539,
     "quote_batch": 1,
     "rules": 1,
     "song": 110,
     "source": 114,
-    "template": 360,
-    "unknown": 1380
+    "template": 361,
+    "unknown": 1396
   },
   "records_by_source": {
     "REGISTRY": {
@@ -644,19 +644,26 @@
       "unknown": 14,
       "chronology": 8,
       "quote": 6
+    },
+    "S88": {
+      "metadata": 6,
+      "unknown": 16,
+      "atom": 11,
+      "chronology": 7,
+      "quote": 7
     }
   },
   "records_by_chapter": {
     "1": 68,
     "10": 48,
-    "11": 32,
+    "11": 57,
     "12": 51,
     "13": 91,
-    "14": 206,
+    "14": 250,
     "2": 41,
     "3": 98,
-    "4": 61,
-    "5": 61,
+    "4": 75,
+    "5": 68,
     "6": 138,
     "7": 24,
     "8": 81,
@@ -803,12 +810,12 @@
   ],
   "issue_categories": {
     "duplicate_id": 14,
-    "field_type_error": 647,
-    "invalid_controlled_value": 2752,
-    "missing_required_field": 9139,
+    "field_type_error": 658,
+    "invalid_controlled_value": 2774,
+    "missing_required_field": 9203,
     "schema_warning": 527,
-    "unknown_yaml_block": 1350,
-    "v2_migration_debt": 16552,
+    "unknown_yaml_block": 1366,
+    "v2_migration_debt": 16640,
     "yaml_parse_error": 1
   },
   "top_files_by_issue_count": [
@@ -2237,6 +2244,70 @@
       "category": "unknown_yaml_block",
       "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
       "record_id": "REL-S29-012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-008",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -9851,6 +9922,70 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-BENJAMIN-1970",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-BENJAMIN-ARCADES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-DERRIDA-1994",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-FISHER-2014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-KRISTEVA-1989",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-CRITCHLEY-1997",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-GEE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-SAVILLE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "record_id": "REF-S51-STEYERL-2009",
       "message": "Unable to infer documentary kind",
@@ -11858,10 +11993,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2701,
+    "atoms_total": 2712,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2628,
-    "v2_missing_field_warnings": 16552
+    "atoms_v2_incomplete": 2639,
+    "v2_missing_field_warnings": 16640
   },
   "source_registry": {
     "declared_but_unused": [
@@ -12064,22 +12199,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S88",
-        "source_label": "S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018",
-        "auteur": "Kieran Cashell",
-        "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "hauntologie",
-          "New Order",
-          "Ceremony",
-          "transition Joy Division vers New Order",
-          "absences musicales",
-          "Saville"
-        ]
       }
     ],
     "used_but_missing_from_registre_json": [
@@ -13722,6 +13841,25 @@
           "registers/s87_otter_bickerdike_structuring_registers.md",
           "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
           "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md"
+        ]
+      },
+      {
+        "source_id": "S88",
+        "source_label": "S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018",
+        "auteur": "Kieran Cashell",
+        "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
+        "annee": "2018",
+        "records": 54,
+        "atoms": 11,
+        "quotes": 7,
+        "chronology": 14,
+        "files": [
+          "registers/people/s88_cashell_people.md",
+          "registers/quotes/s88_cashell_quotes.md",
+          "registers/s88_cashell_specialized_registers.md",
+          "registers/s88_cashell_structuring_registers.md",
+          "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+          "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md"
         ]
       }
     ]
@@ -52612,6 +52750,1214 @@
       "category": "field_type_error",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
       "record_id": "S29-A020",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/cashell_spectral_presences_new_order/relations_s88_cashell_spectral_presences.md",
+      "record_id": "R-S88-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A001",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A002",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A003",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A004",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A005",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A006",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A007",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A008",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A009",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A010",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/cashell_spectral_presences_new_order/atoms_s88_cashell_spectral_presences.md",
+      "record_id": "S88-A011",
       "message": "Field must be an object/dict: importance",
       "suggested_action": "Corriger le type YAML du champ."
     },
@@ -236177,6 +237523,238 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-001",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-001",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-002",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-002",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-002",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-003",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-003",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-003",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-004",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-004",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-004",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-005",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-005",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-005",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-006",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-006",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-006",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-007",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-007",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CHR-S88-007",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-BENJAMIN-1970",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-BENJAMIN-ARCADES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-DERRIDA-1994",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-FISHER-2014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-KRISTEVA-1989",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-CRITCHLEY-1997",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-GEE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "REF-S88-SAVILLE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "record_id": "REF-S51-STEYERL-2009",
@@ -252318,6 +253896,174 @@
       "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s88_cashell_quotes.md",
+      "record_id": "S88-Q007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",

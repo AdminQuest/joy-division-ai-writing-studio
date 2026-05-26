@@ -4322,8 +4322,10 @@
     "editeur": "Rowman & Littlefield International",
     "annee": "2018",
     "pagination": "p. 245–266",
-    "statut": "a_atomiser",
-    "fiabilite": "a_evaluer",
+    "statut": "atomisee",
+    "fiabilite": "haute",
+    "chapitres": [4, 5, 11, 14],
+    "atomes": ["S88-A001", "S88-A002", "S88-A003", "S88-A004", "S88-A005", "S88-A006", "S88-A007", "S88-A008", "S88-A009", "S88-A010", "S88-A011"],
     "dossier_source": "sources/cashell_spectral_presences_new_order/",
     "usage": [
       "hauntologie",

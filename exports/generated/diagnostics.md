@@ -1,37 +1,37 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T14:56:18`
+Généré le : `2026-05-26T15:25:10`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 7203
+- Enregistrements : 7260
 - Erreurs : 15
-- Avertissements : 30967
+- Avertissements : 31168
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 74
-- Sources exportées : 74
-- Sources déclarées mais non utilisées : 15
+- Sources utilisées dans les enregistrements : 75
+- Sources exportées : 75
+- Sources déclarées mais non utilisées : 14
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2701
-- chronology : 469
-- concept : 449
-- metadata : 258
-- motif : 422
+- atom : 2712
+- chronology : 476
+- concept : 455
+- metadata : 264
+- motif : 425
 - myth : 101
 - person : 305
-- quote : 532
+- quote : 539
 - quote_batch : 1
 - rules : 1
 - song : 110
 - source : 114
-- template : 360
-- unknown : 1380
+- template : 361
+- unknown : 1396
 
 ## Sources utilisées mais absentes du registre
 
@@ -53,7 +53,6 @@ Statut : **error**
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — statut : référence historique déplacée depuis S41 ; à consolider
-- S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : a_atomiser
 
 ## Libellés faibles
 
@@ -161,4 +160,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 30882 problèmes supplémentaires dans `diagnostics.json`.
+- … 31083 problèmes supplémentaires dans `diagnostics.json`.

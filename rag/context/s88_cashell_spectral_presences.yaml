@@ -1,0 +1,127 @@
+source_id: S88
+source_label: "S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018"
+auteur: "Kieran Cashell"
+titre: "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order"
+titre_ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+partie: "PART 6: Temptation, Transmission and Transitions"
+editeur: "Rowman & Littlefield International"
+annee: "2018"
+pagination: "p. 245–266"
+date_atomisation: "2026-05-26"
+
+themes_principaux:
+  - "Image dialectique benjaminienne comme méthode pour la transition JD→New Order"
+  - "Photographie Ebet Rhodes (Hurrah Club, 26 sept. 1980) comme image dialectique"
+  - "New Order comme gnomon — identité structurée autour de l'absence centrale"
+  - "Vacuité lyrique de New Order — Kristeva, Critchley — mort asymptotiquement imprimée"
+  - "Ceremony comme chanson-seuil liminale — lacune documentaire des paroles Curtis"
+  - "Deux enregistrements inchoatifs de Ceremony (Birmingham 1980 + Graveyard Studios 14 mai 1980)"
+  - "Curtis comme performeur médiumique — danse macabre — Fisher 'nécromanciens involontaires'"
+  - "Cassette de Curtis en transe hypnotique (Gee 2007) — 'son d'un homme mort'"
+  - "Pochette FAC 33 — Saville/Wickens — gnomonic cipher ΙΙΙ O — Albertus/Berthold Wolpe"
+  - "Hauntologie derridienne — Fisher 'catatonically channelling our present, their future'"
+
+chapitres_concernes: [4, 5, 11, 14]
+
+atomes:
+  - id: S88-A001
+    type: cadre_analytique
+    chapitres: [11, 14]
+    resume: "Cadre analytique — Benjamin's dialectical image ; chronologie EARS studios sept 1980 ; New Order a.k.a. Joy Division"
+  - id: S88-A002
+    type: noeud_critique
+    chapitres: [14]
+    resume: "Photographie Ebet Rhodes, Hurrah Club 26/09/1980 — drums déplacés — groupe sous rature — 'band sans identity'"
+    song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+  - id: S88-A003
+    type: scene_historiographique
+    chapitres: [14]
+    resume: "Cohen (Soho News) + Bohn — concert Hurrah — 'l'espace où Ian Curtis n'est pas' — gelé 'au bord de la découverte'"
+  - id: S88-A004
+    type: noeud_critique
+    chapitres: [11, 14]
+    resume: "New Order comme gnomon — Joyce/Dubliners — absence structurelle — vacuité lyrique — Rachel Whiteread"
+  - id: S88-A005
+    type: noeud_critique
+    chapitres: [11, 14]
+    resume: "Vacuité lyrique de New Order — Kristeva (blancs/effacements) — Critchley (mort irreprésentable) — Sumner defensif"
+  - id: S88-A006
+    type: noeud_critique
+    chapitres: [4, 14]
+    resume: "Ceremony comme chanson-seuil — étymologie — lacune paroles — Deborah Curtis — status nascendi — 7 songs unaccounted"
+    song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+  - id: S88-A007
+    type: scene_historiographique
+    chapitres: [4, 14]
+    resume: "Deux enregistrements précoces Ceremony — Birmingham High Hall (final JD concert) + Graveyard Studios 14 mai 1980"
+    song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+  - id: S88-A008
+    type: noeud_critique
+    chapitres: [4, 11]
+    resume: "Curtis performeur médiumique — danse macabre/synaesthésie — Fisher 'nécromanciens involontaires' — cassette transe (Gee 2007)"
+  - id: S88-A009
+    type: noeud_critique
+    chapitres: [5, 14]
+    resume: "FAC 33 Ceremony sleeve — Saville/Wickens — Albertus/Wolpe — gnomonic cipher ΙΙΙ O — image dialectique benjaminienne"
+    song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+  - id: S88-A010
+    type: tension_documentaire
+    chapitres: [5, 14]
+    resume: "Saville mémoire involontaire — 'In a Lonely Place' concert — espace vide instinctif — l'image dialectique en acte"
+    song_id: JD-SONG-050
+    canonical_song: "In a Lonely Place"
+  - id: S88-A011
+    type: noeud_critique
+    chapitres: [11, 14]
+    resume: "[NO] CONCLUSION — Derrida hauntologie — Fisher 'esprit déprimé de notre temps' — 'channelling our present, their future'"
+
+concepts_cles:
+  - image_dialectique_benjamin
+  - gnomon_new_order
+  - absence_centrale_new_order
+  - derrida_hauntologie
+  - curtis_performeur_mediumnique
+  - ceremony_chanson_seuil
+  - hauntologie_heritage_curtis
+  - vacuite_lyrique_new_order
+
+acteurs_cles:
+  - "Kieran Cashell (auteur)"
+  - "Debra Rae Cohen (journaliste, Soho News, 1980)"
+  - "Ebet Rhodes (photographe, Hurrah Club 1980)"
+  - "Bernard Sumner (chanteur New Order)"
+  - "Stephen Morris (batteur — déplacement drums)"
+  - "Peter Saville + Brett Wickens (FAC 33 sleeve)"
+  - "Berthold Wolpe (typographe Albertus, 1937)"
+  - "Martin Hannett (producteur EARS sessions)"
+
+evenements_cles:
+  - "1940 — Benjamin, Sur le concept d'histoire (Ange de l'Histoire)"
+  - "1980-05-14 — Graveyard Studios, Prestwich — 4 jours avant la mort de Curtis"
+  - "1980-05-18 — Mort d'Ian Curtis"
+  - "1980-07-29 — Premier concert New Order, The Beach, Manchester"
+  - "1980-09-22/23 — EARS studios, East Orange NJ — Hannett — 'Ceremony' + IALP"
+  - "1980-09-26 — Hurrah Club, New York — photographie Ebet Rhodes"
+  - "1981-01-22 — Sortie FAC 33 'Ceremony' / 'In a Lonely Place'"
+
+songs_concernes:
+  - song_id: JD-SONG-049
+    canonical_song: "Ceremony"
+  - song_id: JD-SONG-050
+    canonical_song: "In a Lonely Place"
+  - song_id: JD-SONG-022
+    canonical_song: "Digital"
+  - song_id: JD-SONG-028
+    canonical_song: "The Only Mistake"
+
+notes_methodologiques:
+  - "Approche hauntologique — à distinguer de l'approche musicologique ou biographique"
+  - "Le cadre benjaminien est mobilisé de façon philosophique — pas d'analyse musicologique détaillée"
+  - "La figure du gnomon est un dispositif analytique emprunté à Joyce — ne pas citer hors contexte"
+  - "Curtis en transe hypnotique (cassette) : épisode documenté dans Gee 2007 et confirmé par Sumner"
+  - "FAC 33 sleeve : le déchiffrement du sous-signifiant ΙΙΙ O est une lecture de Cashell — pas la déclaration de Saville"
+  - "À croiser avec S87 (Otter Bickerdike) sur la postéconomie et S85/S86 (Malcolm/Breyley) sur l'héritage"
