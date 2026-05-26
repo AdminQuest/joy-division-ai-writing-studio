@@ -9,6 +9,90 @@ date_creation: "2026-05-26"
 
 ---
 
+## CITATIONS
+
+```yaml
+id: CIT-S86-001
+source_id: S86
+type: citation
+pages_livre: "211"
+pages_pdf: "242"
+auteur_cite: "Paul Hegarty"
+reference: "Hegarty 2015 — cité in Breyley 2018, p. 211 (sans numéro de page source précisé)"
+texte: "In the winter of 1978, Britain saw the beginning of mass strikes, lasting well into 1979, presaging the arrival of Margaret Thatcher's free market authoritarian regime. Bodies remained unburied, rubbish uncollected, and the army awaited the call to step in where strikers had refused to tread. Joy Division's first album is the sonic equivalent of the incredible and visible meltdown of a decaying post-imperial, soon to be post-work society, and this is nowhere more the case than in the repeated crashes of 'I Know Nothing' and the misfiring lift in 'Insight'."
+contexte: "Blockquote introduisant la section 'New Dawn Fades: Postrevolutionary Iran' — parallèle entre contexte politique britannique 1978-1979 et contexte iranien pré-révolutionnaire."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.242 (ch.13, livre p.211). Blockquote complet dans le PDF. Breyley introduit : 'Hegarty (2015) links the sounds of Joy Division's first album, Unknown Pleasures, with its historical context:'. Pagination source (Hegarty 2015) non précisée par Breyley. Correspond au citation_cle de REF-S86-HEGARTY-2015."
+atomes: [S86-A003]
+chapitres: [1, 3, 14]
+```
+
+```yaml
+id: CIT-S86-002
+source_id: S86
+type: citation
+pages_livre: "212"
+pages_pdf: "243"
+auteur_cite: "Walter Benjamin"
+reference: "Benjamin 1992, 84 — cité in Breyley 2018, p. 212"
+texte: "Was it not noticeable at the end of the war that men returned from the battlefield grown silent – not richer, but poorer in communicable experience? What ten years later was poured out in the flood of war books was anything but experience that goes from mouth to mouth. And there was nothing remarkable about that. For never has experience been contradicted more thoroughly than strategic experience by tactical warfare, economic experience by inflation, bodily experience by mechanical warfare, moral experience by those in power."
+contexte: "Blockquote sur l'effet de la guerre sur l'expérience communicable — mobilisé par Breyley pour établir un parallèle entre génération post-Première Guerre mondiale et génération iranienne post-Iran-Irak."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.243 (ch.13, livre p.212). Blockquote complet dans le PDF. Breyley introduit : 'In an earlier period, with reference to World War I, Benjamin (1992, 84) observes the effects of war on \"communicable experience\"'. Correspond au citation_cle de REF-S86-BENJAMIN-1992."
+atomes: [S86-A003]
+chapitres: [1, 14]
+```
+
+```yaml
+id: CIT-S86-003
+source_id: S86
+type: citation
+pages_livre: "225"
+pages_pdf: "256"
+auteur_cite: "Yi"
+reference: "Yi 2015 — cité in Breyley 2018, p. 225 (sans numéro de page source précisé)"
+texte: "The disillusionment is decisive. But Curtis's resignation rarely feels listless. . . . The words are electric with awareness, almost earnest – there is resignation because there once was passion. It's this earnestness that makes Curtis's writing tender and expansive under what can seem like mere bleakness."
+contexte: "Section 'The Beauty (Curtis 2014, 83): Siavash Amini' — analyse des paroles de Curtis mise en regard de l'œuvre d'Amini."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.256 (ch.13, livre p.225). Citation introduite par : 'Of Curtis, Yi (2015) writes:'. Pagination source (Yi 2015) non précisée par Breyley. Correspond partiellement au citation_cle de REF-S86-YI-2015."
+atomes: [S86-A008]
+chapitres: [3, 14]
+```
+
+```yaml
+id: CIT-S86-004
+source_id: S86
+type: citation
+pages_livre: "226"
+pages_pdf: "257"
+auteur_cite: "Bernard Sumner"
+reference: "Kennedy 2006, 145-146 — cité in Breyley 2018, p. 226"
+texte: "You're an investment . . . They've got money to make. That's the way capitalist society works. Fortunately, we were insulated from that and were allowed to develop in our own daft little way. Which was a very good thing for Joy Division. There weren't the pressures of delivering a commercial single or a commercial video, or you must play whatever territory. We were allowed to be like childish brats for most of our twenties."
+contexte: "Section 'Conclusions' — Sumner sur l'indépendance de Joy Division vis-à-vis de l'industrie musicale, mis en regard avec les musiciens iraniens contemporains."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.257 (ch.13, livre p.226). Blockquote complet dans le PDF. Breyley introduit : 'On the music industry, Sumner (cited in Kennedy 2006 145–146) reflects:'. Citation de second niveau : Breyley → Kennedy 2006 → Sumner."
+atomes: [S86-A007, S86-A011]
+chapitres: [1, 5, 14]
+```
+
+```yaml
+id: CIT-S86-005
+source_id: S86
+type: citation
+pages_livre: "226"
+pages_pdf: "257"
+auteur_cite: "Simon Frith"
+reference: "Frith 2003, 100 — cité in Breyley 2018, p. 226"
+texte: "music making is less about managing one's own emotional life than about enjoying being together in groups, real and imagined"
+contexte: "Section 'Conclusions' — Frith sur la musique comme pratique communautaire, appliqué aux musiciens iraniens et à Joy Division."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.257 (ch.13, livre p.226). Citation intégrée dans : 'Frith (2003, 100) makes the point that people not only \"form rock and pop groups, play around with record decks, and set up home studios, but also that these musical activities are central to their understanding of who they are. Music making provides . . . critical pathways through life [Finnegan 1989]. And music making is less about managing one's own emotional life than about enjoying being together in groups, real and imagined\".' Le texte_cite est la partie finale entre guillemets seuls. Correspond au citation_cle de REF-S86-FRITH-2003."
+atomes: [S86-A011]
+chapitres: [14]
+```
+
+---
+
 ## CHRONOLOGIE
 
 ```yaml

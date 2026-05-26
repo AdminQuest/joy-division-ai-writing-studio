@@ -9,6 +9,170 @@ date_creation: "2026-05-26"
 
 ---
 
+## CITATIONS
+
+```yaml
+id: CIT-S88-001
+source_id: S88
+type: citation
+pages_livre: "247"
+pages_pdf: "278"
+auteur_cite: "Walter Benjamin"
+reference: "Benjamin 1970, 247 — cité in Cashell 2018, p. 247"
+texte: "The past can be seized as an image that flashes up at the moment of its recognisability and is never seen again . . . For every image of the past that is not recognised by the present as one of its own concerns threatens to disappear irretrievably."
+contexte: "Blockquote central du cadre théorique — la dialectical image benjaminienne comme outil d'analyse de la photographie Rhodes (Hurrah Club, New York, 26 septembre 1980)."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.278 (ch.15, livre p.247). Blockquote dans le PDF dans la section 'Eidos'. Correspond au premier citation_cle de REF-S88-BENJAMIN-1970 : 'The past can be seized as an image that flashes up at the moment of its recognisability and is never seen again'."
+atomes: [S88-A001, S88-A002]
+chapitres: [11, 14]
+```
+
+```yaml
+id: CIT-S88-002
+source_id: S88
+type: citation
+pages_livre: "249"
+pages_pdf: "280"
+auteur_cite: "Stephen Morris"
+reference: "Scanlon 2005, 81 — cité in Cashell 2018, p. 249"
+texte: "didn't exactly have a long period of mourning [—] Everything was decided at the so-called 'wake' at the Factory office on the Palatine Road"
+contexte: "Morris sur les décisions prises immédiatement après la mort de Curtis — deuil court, continuité rapide sous New Order."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.280 (ch.15, livre p.249). Deux passages distincts d'une même source (Scanlon 2005, 81) cités dans la même phrase par Cashell : 'Percussionist Stephen Morris admits that they \"didn't exactly have a long period of mourning\" following Ian's death. \"Everything was decided at the so-called \"wake\" at the Factory office on the Palatine Road\".' La barre oblique sépare les deux extraits non continus."
+atomes: [S88-A004]
+chapitres: [14]
+```
+
+```yaml
+id: CIT-S88-003
+source_id: S88
+type: citation
+pages_livre: "249"
+pages_pdf: "280"
+auteur_cite: "Peter Hook"
+reference: "Sweeney 2005, 26 — cité in Cashell 2018, p. 249"
+texte: "found the bit about Ian very moving. It was something us lot hadn't really addressed for a long time, and that bit shocked me [—] My feelings about THAT bit, we were fucking knocked for six, we were fucking floored by it. We don't talk about that bit"
+contexte: "Peter Hook à Tanya Sweeney, sur sa réaction en visionnant 24 Hour Party People (Winterbottom 2002) — l'absence de Curtis jamais adressée directement."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.280 (ch.15, livre p.249). Deux passages consécutifs cités in Cashell : 'Peter Hook confessed to Tanya Sweeney that, watching 24 Hour Party People [...], he \"found the bit about Ian very moving. It was something us lot hadn't really addressed for a long time, and that bit shocked me\". He continues, \"My feelings about THAT bit, we were fucking knocked for six, we were fucking floored by it. We don't talk about that bit\" (Sweeney 2005, 26).' La barre oblique sépare les deux extraits."
+atomes: [S88-A004]
+chapitres: [14]
+```
+
+```yaml
+id: CIT-S88-004
+source_id: S88
+type: citation
+pages_livre: "253"
+pages_pdf: "284"
+auteur_cite: "Neil Rowland"
+reference: "NME 1981, 32 — cité in Cashell 2018, p. 253"
+texte: "weak to the point of emotional nudity"
+contexte: "Critique NME du single 'Ceremony' — la voix de Sumner comme absence émotionnelle par excès de fragilité."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.284 (ch.15, livre p.253). Citation courte dans : 'In his review of the single for NME, Rowland remarked the fragility of Sumner's voice: sounding utterly fatigued, he says, his vocals are \"weak to the point of emotional nudity\" (1981, 32).' Le prénom de Rowland n'est pas précisé dans S88. Correspond à la description de CHR-S88-006."
+atomes: [S88-A009]
+chapitres: [14]
+```
+
+```yaml
+id: CIT-S88-005
+source_id: S88
+type: citation
+pages_livre: "254"
+pages_pdf: "285"
+auteur_cite: "Bernard Sumner"
+reference: "Savage 1997 — cité in Cashell 2018, p. 254"
+texte: "We never talked about the music... we had an understanding which we never felt the need to vocalise. In the same way, we never talked about Ian's lyrics or Ian's performance"
+contexte: "Sumner sur le silence délibéré autour des paroles et de la performance de Curtis — la division du travail dans Joy Division et le tabou de l'analyse."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.285 (ch.15, livre p.254). Citation en deux parties dans Cashell : '\"We never talked about the music\", Sumner admits, \"we had an understanding which we never felt the need to vocalise\". \"In the same way, we never talked about Ian's lyrics or Ian's performance\" (in Savage 1997).' Les ellipses représentent la jonction des deux extraits non continus dans la source."
+atomes: [S88-A005]
+chapitres: [4, 14]
+```
+
+```yaml
+id: CIT-S88-006
+source_id: S88
+type: citation
+pages_livre: "256"
+pages_pdf: "287"
+auteur_cite: "Mark Fisher"
+reference: "Fisher 2014, 53 — cité in Cashell 2018, p. 256"
+texte: "unwitting necromancers who had stumbled on a formula for channelling voices [—] themselves as mindless golems animated by Curtis's vision(s)"
+contexte: "Fisher sur les musiciens restants de Joy Division comme médiums involontaires de la vision de Curtis."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.287 (ch.15, livre p.256). Deux extraits non continus de Fisher 2014, p.53, cités in Cashell : 'Fisher identifies the trio as \"unwitting necromancers who had stumbled on a formula for channelling voices\", concluding that they regarded \"themselves as mindless golems animated by Curtis's vision(s)\" (2014, 53).' La barre oblique sépare les deux extraits. Correspond au citation_cle de REF-S88-FISHER-2014."
+atomes: [S88-A008, S88-A011]
+chapitres: [4, 11, 14]
+```
+
+```yaml
+id: CIT-S88-007
+source_id: S88
+type: citation
+pages_livre: "256"
+pages_pdf: "287"
+auteur_cite: "Mark Fisher"
+reference: "Fisher 2014, 61-62 — cité in Cashell 2018, p. 256"
+texte: "His voice – from the very start terrifying in its fatalism, in its acceptance of the worst – sounds like the voice of a man who is already dead, or who has entered an appalling state of suspended animation, death within life. It sounds preternaturally ancient, a voice that cannot be sourced back to any living being, still less to a young man barely in his twenties."
+contexte: "Blockquote central sur la voix de Curtis — lecture hauntologique par Fisher, soutenue par l'épisode de la cassette d'hypnose dans le documentaire Gee (2007)."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.287 (ch.15, livre p.256). Blockquote complet dans le PDF (Fisher 2014, 61–62). Introduit dans le contexte de l'épisode de la cassette hypnotique du documentaire Gee (2007). Distinct du texte Fisher p.52 ('sound of a dead man wandering') également cité dans REF-S88-FISHER-2014."
+atomes: [S88-A008, S88-A011]
+chapitres: [4, 11, 14]
+```
+
+```yaml
+id: CIT-S88-008
+source_id: S88
+type: citation
+pages_livre: "260"
+pages_pdf: "291"
+auteur_cite: "Peter Saville"
+reference: "Saville 2007, 38 — cité in Cashell 2018, p. 260"
+texte: "The sleeve is perfectly transitional . . . it marked the shifting territory towards what New Order would become [—] What I was trying to do was find analogous moments – things from the past I thought would be interesting to bring back into the public conscience [sic], to resonate with the now. For 'Ceremony', I looked back to a '30s school of Germanic art with revisited traditionalism, but with the lessons of the modernists."
+contexte: "Saville sur la pochette FAC 33 ('Ceremony') — transition esthétique de Joy Division à New Order, lue comme instance de la dialectical image benjaminienne."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.291 (ch.15, livre p.260). Deux passages de Saville 2007, p.38 dans le PDF : première phrase hors blockquote (dans la phrase d'intro), puis blockquote complet. La barre oblique sépare les deux passages. La mention [sic] après 'conscience' est dans le PDF. Correspond aux deux citation_cle de REF-S88-SAVILLE-2007."
+atomes: [S88-A009, S88-A010]
+chapitres: [5, 14]
+```
+
+```yaml
+id: CIT-S88-009
+source_id: S88
+type: citation
+pages_livre: "261"
+pages_pdf: "292"
+auteur_cite: "Jacques Derrida"
+reference: "Derrida 1994, 51 — cité in Cashell 2018, p. 261"
+texte: "this element itself is neither living nor dead, present nor absent: [rather] it spectralizes [—] It does not belong to ontology, to the discourse on the Being of beings, or to the essence of life or death"
+contexte: "Section '[No] Conclusion' — définition derridienne du spectral appliquée au son New Order comme présence-absence de Curtis."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.292 (ch.15, livre p.261). Deux extraits de Derrida 1994, p.51 cités par Cashell : '\"this element itself\", he writes, \"is neither living nor dead, present nor absent: [rather] it spectralizes\". Indeed, strictly speaking, \"It does not belong to ontology, to the discourse on the Being of beings, or to the essence of life or death\" (Derrida 1994, 51).' Correspond au citation_cle de REF-S88-DERRIDA-1994."
+atomes: [S88-A011]
+chapitres: [11, 14]
+```
+
+```yaml
+id: CIT-S88-010
+source_id: S88
+type: citation
+pages_livre: "261"
+pages_pdf: "292"
+auteur_cite: "Mark Fisher"
+reference: "Fisher 2014, 50 — cité in Cashell 2018, p. 261"
+texte: "Listen to Joy Division now, and you have the inescapable impression that the group were catatonically channelling our present, their future"
+contexte: "Section '[No] Conclusion' — Fisher sur la prescience temporelle de Joy Division, fondement de leur hauntologie."
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.292 (ch.15, livre p.261). Citation introduite par : '\"Listen to Joy Division now\", he observes, \"and you have the inescapable impression that the group were catatonically channelling our present, their future\" (Fisher 2014, 50).' Correspond au citation_cle de REF-S88-FISHER-2014."
+atomes: [S88-A011, S88-A008]
+chapitres: [4, 11, 14]
+```
+
+---
+
 ## CHRONOLOGIE
 
 ```yaml
