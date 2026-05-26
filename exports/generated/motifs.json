@@ -660,6 +660,55 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-grain_de_la_voix",
+    "file": "registers/s80_transmission_structuring_registers.md",
+    "heading": "grain_de_la_voix",
+    "data": {
+      "id": "MOTIF-grain_de_la_voix",
+      "label": "Grain de la voix",
+      "source_ids": [
+        "S80",
+        "S67"
+      ],
+      "atomes_associes": [
+        "S80-A004",
+        "S67-A003",
+        "S67-A004"
+      ],
+      "chapitres": [
+        3,
+        4,
+        6,
+        12
+      ],
+      "fonction_argumentative": "Présence corporelle irréductible dans la voix chantée — la matérialité du corps parlant (Barthes 1977, 182). Motif récurrent entre Naiman (traces physiologiques de la maladie) et Valdés Miyares (inarticulacy made physical, Haslam). Permet de relier production Hannett, performance live et dimension pathologique."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-communication_manquee",
+    "file": "registers/s80_transmission_structuring_registers.md",
+    "heading": "communication_manquee",
+    "data": {
+      "id": "MOTIF-communication_manquee",
+      "label": "Communication manquée",
+      "source_ids": [
+        "S80"
+      ],
+      "atomes_associes": [
+        "S80-A004",
+        "S80-A005",
+        "S80-A006"
+      ],
+      "chapitres": [
+        4,
+        6
+      ],
+      "fonction_argumentative": "Motif structurel dans les paroles de Curtis : \"say\", \"tell\", \"who gives a damn\", \"Confusion in her eyes that say it all\", \"No words could explain, no actions determine\". La communication manquée est simultanément biographique (Curtis difficile à rejoindre affectivement) et générique (Curtis n'utilise jamais le mot \"communication\" dans ses textes)."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-S62-001",
     "file": "registers/s62_introduction_structuring_registers.md",
     "heading": "MOTIF-S62-001 — « touching from a distance » (double sens)",

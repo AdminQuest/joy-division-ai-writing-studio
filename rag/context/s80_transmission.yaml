@@ -1,0 +1,59 @@
+source_id: S80
+source_label: "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018"
+auteur: "J. Rubén Valdés Miyares"
+titre: "Communication Breakdown: Inarticulacy and the Significance of 'Transmission'"
+ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+editeur: "Rowman & Littlefield International"
+annee: "2018"
+pages_livre: "99-114"
+pages_pdf: "130-145"
+nature: "chapitre d'ouvrage collectif"
+partie: "PART 3: Joy Division and Mental Health"
+statut: atomisee
+fiabilite: haute
+date_atomisation: "2026-05-26"
+
+description: >
+  Analyse linguistique et communicationnelle de Joy Division et de « Transmission »
+  à travers le métamodèle constitutif de la communication de Robert T. Craig (1999),
+  décliné en sept traditions théoriques. Examine l'inarticulacy comme stratégie
+  expressive, la production de Hannett comme conversion du pheno-song en geno-song
+  (Barthes), la politique d'anti-image, la transformation illocutoire des paroles
+  après la mort de Curtis, et l'héritage filmic et numérique de Joy Division.
+  Source-pivot pour les chapitres 4, 6 et 14.
+
+songs:
+  - song_id: JD-SONG-020
+    canonical_song: "Transmission"
+
+chapitres: [3, 4, 6, 12, 14]
+
+concepts_principaux:
+  - communication_musicale
+  - inarticulacy
+  - geno_song
+  - force_illocutoire_posthume
+  - anti_image
+  - grain_de_la_voix
+
+motifs_principaux:
+  - grain_de_la_voix
+  - communication_manquee
+
+atomes:
+  - S80-A001
+  - S80-A002
+  - S80-A003
+  - S80-A004
+  - S80-A005
+  - S80-A006
+  - S80-A007
+
+relations:
+  - R-S80-001
+  - R-S80-002
+  - R-S80-003
+  - R-S80-004
+  - R-S80-005
+  - R-S80-006
+  - R-S80-007

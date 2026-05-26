@@ -14,8 +14,8 @@ date_pdf: "2021-01-15"
 pagination: "p. 99–114"
 partie: "PART 3: Joy Division and Mental Health"
 nature: "chapitre d'ouvrage collectif"
-statut: "a_atomiser"
-fiabilite: "a_evaluer"
+statut: "atomisee"
+fiabilite: "haute"
 dossier_source: "sources/valdes_miyares_transmission/"
 ```
 

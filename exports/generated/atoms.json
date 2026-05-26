@@ -1,6 +1,238 @@
 [
   {
     "kind": "atom",
+    "id": "S80-A001",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A001 — Cadre méthodologique : Craig's constitutive metamodel, 7 traditions de communication",
+    "data": {
+      "id": "S80-A001",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "cadre_methodologique",
+      "importance": "critique",
+      "pages_pdf": "130-132",
+      "pages_livre": "99-100",
+      "chapitres": [
+        4,
+        6
+      ],
+      "concepts": [
+        "communication_musicale",
+        "craig_metamodel",
+        "inarticulacy",
+        "transmission_model"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": false,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A002",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A002 — Sémiotique : pheno-song → geno-song — Barthes, Hannett et la jouissance Joy Division",
+    "data": {
+      "id": "S80-A002",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "analyse_semiotique",
+      "importance": "critique",
+      "pages_pdf": "132-133",
+      "pages_livre": "101-102",
+      "chapitres": [
+        3,
+        6
+      ],
+      "concepts": [
+        "geno_song",
+        "pheno_song",
+        "jouissance",
+        "signifiance_barthes",
+        "hannett_production",
+        "semiotique_peirce"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": true,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A003",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A003 — Phénoménologie : construction du mythe de l'obscurité, anti-image, refus de communiquer",
+    "data": {
+      "id": "S80-A003",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "analyse_phenomenologique",
+      "importance": "majeure",
+      "pages_pdf": "133-135",
+      "pages_livre": "102-103",
+      "chapitres": [
+        6,
+        14
+      ],
+      "concepts": [
+        "anti_image",
+        "obscurite_joy_division",
+        "phenomenologie_communication",
+        "communication_design"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": true,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A004",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A004 — Sociopsychologie : inarticulacy, grain de la voix, communication affective et corporelle",
+    "data": {
+      "id": "S80-A004",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "analyse_sociopsychologique",
+      "importance": "critique",
+      "pages_pdf": "134-137",
+      "pages_livre": "103-104",
+      "chapitres": [
+        4,
+        6,
+        12
+      ],
+      "concepts": [
+        "inarticulacy",
+        "grain_de_la_voix",
+        "signifiance_barthes",
+        "communication_affective",
+        "proxemique",
+        "paralanguage"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": true,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A005",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A005 — Rhétorique : la mort de Curtis transforme la force illocutoire des paroles",
+    "data": {
+      "id": "S80-A005",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "analyse_rhetorique",
+      "importance": "critique",
+      "pages_pdf": "136-137",
+      "pages_livre": "105",
+      "chapitres": [
+        4,
+        14
+      ],
+      "concepts": [
+        "force_illocutoire",
+        "speech_act_theory",
+        "acte_de_parole_posthume",
+        "inarticulacy",
+        "rhetoriques_curtis"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": true,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A006",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A006 — Socioculturel : Durutti Column, inarticulacy dans la culture rock, 'No Communication' vs 'Transmission'",
+    "data": {
+      "id": "S80-A006",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "analyse_intertextuelle",
+      "importance": "majeure",
+      "pages_pdf": "137-138",
+      "pages_livre": "105-106",
+      "chapitres": [
+        3,
+        6
+      ],
+      "concepts": [
+        "inarticulacy",
+        "communication_musicale",
+        "durutti_column",
+        "intertextualite_sonore",
+        "factory_sample"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": false,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S80-A007",
+    "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+    "heading": "S80-A007 — Conclusions et héritage numérique : le vrai langage de Joy Division",
+    "data": {
+      "id": "S80-A007",
+      "source_id": "S80",
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "type_unite": "conclusion_analytique",
+      "importance": "majeure",
+      "pages_pdf": "138-141",
+      "pages_livre": "107-109",
+      "chapitres": [
+        6,
+        14
+      ],
+      "concepts": [
+        "communication_musicale",
+        "heritage_numerique",
+        "firstness_peirce",
+        "films_joy_division",
+        "inarticulacy"
+      ],
+      "statut": "verifie",
+      "fiabilite": "haute",
+      "citation_directe": true,
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S62-A001",
     "file": "sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md",
     "heading": "S62-A001 — S62 comme source de cadrage académique : statut épistémologique et prudences",
@@ -126729,6 +126961,37 @@
         7
       ],
       "note": "Kafka 'In the Penal Colony' comme précurseur littéraire établi (Crockett 2014). Lecture foucaldienne : école pensionnaire comme colonie pénale. Analogie sonore : rythme discordant → aiguilles de la machine de Kafka sur le vinyle (Crockett 2014, 32). Règle stricte : aucune parole reproduite."
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S80-001",
+    "file": "registers/s80_transmission_specialized_registers.md",
+    "heading": "SONG-S80-001",
+    "data": {
+      "id": "SONG-S80-001",
+      "source_id": "S80",
+      "song_id": "JD-SONG-020",
+      "canonical_song": "Transmission",
+      "atomes_associes": [
+        "S80-A001",
+        "S80-A002",
+        "S80-A003",
+        "S80-A004",
+        "S80-A005",
+        "S80-A006",
+        "S80-A007"
+      ],
+      "chapitres": [
+        3,
+        4,
+        6,
+        12,
+        14
+      ],
+      "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+      "source_short_title": "J. Rubén Valdés Miyares, Communication Breakdown: Inarticulacy and the Significance of 'Transmission', 2018",
+      "source_year": "2018"
     }
   },
   {

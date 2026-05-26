@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T09:07:18",
+  "generated_at": "2026-05-26T09:36:46",
   "status": "error",
   "summary": {
-    "records_total": 6752,
+    "records_total": 6796,
     "records_by_kind": {
+      "metadata": 225,
+      "atom": 2614,
       "source": 114,
-      "metadata": 221,
-      "unknown": 1200,
-      "atom": 2606,
-      "concept": 411,
-      "motif": 401,
+      "unknown": 1221,
+      "concept": 416,
+      "motif": 403,
       "myth": 101,
       "quote": 507,
-      "chronology": 433,
+      "chronology": 437,
       "person": 289,
       "song": 110,
       "template": 357,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 29324,
+    "diagnostics_total": 29467,
     "errors": 14,
-    "warnings": 29310,
+    "warnings": 29453,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 66,
-    "sources_exported": 66,
-    "declared_but_unused": 23,
+    "sources_used_in_records": 67,
+    "sources_exported": 67,
+    "declared_but_unused": 22,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -230,20 +230,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S80",
-        "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
-        "auteur": "J. Rubén Valdés Miyares",
-        "titre": "Communication Breakdown: Inarticulacy and the Significance of 'Transmission'",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "Transmission",
-          "inarticulacy",
-          "rhétorique",
-          "communication musicale"
-        ]
       },
       {
         "source_id": "S81",
@@ -1864,10 +1850,615 @@
           "sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
           "sources/curtis_savage_so_this_is_permanence/source.md"
         ]
+      },
+      {
+        "source_id": "S80",
+        "source_label": "S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018",
+        "auteur": "J. Rubén Valdés Miyares",
+        "titre": "Communication Breakdown: Inarticulacy and the Significance of 'Transmission'",
+        "annee": "2018",
+        "records": 33,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 4,
+        "files": [
+          "registers/s80_transmission_specialized_registers.md",
+          "registers/s80_transmission_structuring_registers.md",
+          "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+          "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md"
+        ]
       }
     ]
   },
   "issues": [
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: cadre_methodologique",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: analyse_semiotique",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: analyse_phenomenologique",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: analyse_sociopsychologique",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: analyse_rhetorique",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: analyse_intertextuelle",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Invalid value for type_unite: conclusion_analytique",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S80-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S80-007"
+    },
     {
       "level": "warning",
       "file": "sources/heart_soul_introduction/relations_s62_introduction_v2.md",
@@ -152140,6 +152731,30 @@
     },
     {
       "level": "warning",
+      "file": "registers/s80_transmission_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Craig1999"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Schafer1993"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Frith1983"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Haslam1999"
+    },
+    {
+      "level": "warning",
       "file": "registers/s58_ilardi_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S58-Q001"
@@ -159265,6 +159880,252 @@
       "file": "registers/s51_malvezzi_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S51-LECKEY-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S80-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S80-001"
     },
     {
       "level": "warning",
