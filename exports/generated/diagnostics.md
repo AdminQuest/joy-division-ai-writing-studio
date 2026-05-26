@@ -1,20 +1,20 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T18:53:34`
+Généré le : `2026-05-26T21:04:35`
 
-Statut : **error**
+Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7274
-- Erreurs : 15
-- Avertissements : 31228
-- Sources déclarées dans `data/registre.json` : 88
+- Enregistrements : 7292
+- Erreurs : 0
+- Avertissements : 31249
+- Sources déclarées dans `data/registre.json` : 89
 - Sources utilisées dans les enregistrements : 75
 - Sources exportées : 75
 - Sources déclarées mais non utilisées : 14
-- Sources utilisées mais absentes du registre : 1
-- Libellés faibles : 1
+- Sources utilisées mais absentes du registre : 0
+- Libellés faibles : 0
 
 ## Enregistrements par type
 
@@ -22,7 +22,7 @@ Statut : **error**
 - chronology : 476
 - concept : 456
 - metadata : 264
-- motif : 426
+- motif : 424
 - myth : 101
 - person : 305
 - quote : 539
@@ -30,12 +30,12 @@ Statut : **error**
 - rules : 1
 - song : 110
 - source : 114
-- template : 361
-- unknown : 1404
+- template : 360
+- unknown : 1425
 
 ## Sources utilisées mais absentes du registre
 
-- REGISTRY
+Aucune.
 
 ## Sources déclarées mais non utilisées
 
@@ -56,108 +56,108 @@ Statut : **error**
 
 ## Libellés faibles
 
-- REGISTRY : Registre canonique interne — chansons Joy Division / Warsaw
+Aucun.
 
 ## Problèmes YAML / schéma
 
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Invalid value for type_unite: cadre_methodologique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Invalid value for type_unite: analyse_semiotique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Invalid value for type_unite: analyse_phenomenologique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Invalid value for type_unite: analyse_sociopsychologique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Invalid value for type_unite: analyse_rhetorique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Invalid value for type_unite: analyse_intertextuelle
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: auteur
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: titre
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: role_argumentatif
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: niveau_preuve
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: stabilite
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: liens_interchapitres
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: liens_citations
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: motifs
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: concepts_derives
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Invalid value for fiabilite: haute
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Invalid value for type_unite: conclusion_analytique
-- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Field must be an object/dict: importance
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-001] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-002] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-003] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-004] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-005] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-006] : Unable to infer documentary kind
-- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 31143 problèmes supplémentaires dans `diagnostics.json`.
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: concepts
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for statut: integration_directe
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for fiabilite: forte, mais témoignage rétrospectif à croiser
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for type_unite: source_part
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Invalid value for type_unite: transition_artistique
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Invalid value for type_unite: analyse_morceau
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Invalid value for type_unite: session_studio
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Invalid value for type_unite: production_album
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Invalid value for type_unite: crise_creative
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: motifs
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: concepts_derives
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Invalid value for fiabilite: source_primaire_retrospective
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Invalid value for type_unite: transition_morceaux
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: auteur
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: titre
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: role_argumentatif
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: niveau_preuve
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: stabilite
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: importance
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_interchapitres
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_citations
+- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: motifs
+- … 31149 problèmes supplémentaires dans `diagnostics.json`.
