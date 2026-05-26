@@ -1,28 +1,28 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T07:20:33`
+Généré le : `2026-05-26T11:56:22`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 6604
+- Enregistrements : 6956
 - Erreurs : 14
-- Avertissements : 28695
+- Avertissements : 29991
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 63
-- Sources exportées : 63
-- Sources déclarées mais non utilisées : 26
+- Sources utilisées dans les enregistrements : 70
+- Sources exportées : 70
+- Sources déclarées mais non utilisées : 19
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2569
-- chronology : 429
-- concept : 400
-- metadata : 209
-- motif : 394
+- atom : 2644
+- chronology : 454
+- concept : 431
+- metadata : 240
+- motif : 408
 - myth : 101
 - person : 289
 - quote : 507
@@ -31,7 +31,7 @@ Statut : **error**
 - song : 110
 - source : 114
 - template : 357
-- unknown : 1123
+- unknown : 1299
 
 ## Sources utilisées mais absentes du registre
 
@@ -52,14 +52,7 @@ Statut : **error**
 - S33 — Can, Tago Mago, 1971 — statut : a_consolider
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
-- S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : a_atomiser
-- S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : a_atomiser
-- S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 — statut : a_atomiser
 - S73 — Blue Orchids, référence historique à consolider, s.d. — statut : référence historique déplacée depuis S41 ; à consolider
-- S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 — statut : a_atomiser
-- S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018 — statut : a_atomiser
-- S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 — statut : a_atomiser
-- S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : a_atomiser
 - S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : a_atomiser
 - S85 — Malcolm, Mining for Counterculture, 2018 — statut : a_atomiser
 - S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : a_atomiser
@@ -72,104 +65,104 @@ Statut : **error**
 
 ## Problèmes YAML / schéma
 
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Invalid value for type_unite: cadre_methodologique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A001] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Invalid value for type_unite: analyse_semiotique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A002] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Invalid value for type_unite: analyse_phenomenologique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A003] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Invalid value for type_unite: analyse_sociopsychologique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A004] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Invalid value for type_unite: analyse_rhetorique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A005] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Invalid value for type_unite: analyse_intertextuelle
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A006] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: auteur
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: titre
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: role_argumentatif
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: niveau_preuve
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: stabilite
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: liens_interchapitres
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: liens_citations
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: motifs
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Missing required field: concepts_derives
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Invalid value for fiabilite: haute
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Invalid value for type_unite: conclusion_analytique
+- **WARNING** `sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md` [S80-A007] : Field must be an object/dict: importance
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-001] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-002] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-003] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-004] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-005] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-006] : Unable to infer documentary kind
+- **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-003] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-004] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-005] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-006] : Unable to infer documentary kind
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Invalid value for type_unite: declaration_methodologique
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A001] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Invalid value for fiabilite: forte_pour_cadrage_à_croiser_pour_exactitude
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Invalid value for type_unite: synthese_factuelle
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A002] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Invalid value for fiabilite: forte_à_croiser_avec_sources_primaires
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Invalid value for type_unite: fait_evenementiel
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A003] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Invalid value for type_unite: formulation_critique
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A004] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Invalid value for type_unite: evenement_reception
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A005] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Invalid value for type_unite: contexte_editorial
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A006] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: liens_citations
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: motifs
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Missing required field: concepts_derives
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Invalid value for type_unite: cartographie_analytique
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A007] : Field must be an object/dict: importance
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: auteur
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: titre
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: role_argumentatif
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: niveau_preuve
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: stabilite
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: liens_interchapitres
-- **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: liens_citations
-- … 28609 problèmes supplémentaires dans `diagnostics.json`.
+- … 29905 problèmes supplémentaires dans `diagnostics.json`.

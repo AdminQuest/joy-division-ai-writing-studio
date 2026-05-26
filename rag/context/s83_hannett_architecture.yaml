@@ -1,0 +1,66 @@
+source_id: S83
+source_label: "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018"
+auteurs: ["John S. Greenwood", "Paul Tarpey"]
+titre: "Manchester, Martin Hannett and Joy Division's Pungent Architecture"
+ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+annee: 2018
+pagination: "p. 155–170"
+partie: "PART 4: Interzone: Sounds, Images and Style"
+chapitres_manuscrit: [1, 3, 5, 6]
+statut: atomisee
+atomes:
+  - id: S83-A001
+    label: "Textscape et hétérotopie : le cadre analytique"
+    chapitres: [1, 3]
+    concepts: [textscape, hétérotopie, espace_disjointed_manchester]
+  - id: S83-A002
+    label: "Architecture pungente : définition du concept central"
+    chapitres: [1, 3]
+    concepts: [architecture_pungente, hannett_pantheon_manchester_sound]
+  - id: S83-A003
+    label: "Manchester post-industrielle : Curtis et les interzones de la reconstruction"
+    chapitres: [1, 3]
+    concepts: [interzone_manchester, Hulme_dystopie, Curtis_lyrique_urbaine]
+  - id: S83-A004
+    label: "L'ADN industriel de Manchester : les sons trouvés de Hannett"
+    chapitres: [1, 3]
+    concepts: [adn_industriel_manchester, sons_trouves_hannett, formation_auditive_hannett]
+  - id: S83-A005
+    label: "Hannett comme artiste sonore : hologrammes soniques et studio-Zen"
+    chapitres: [3, 5]
+    concepts: [hannett_artiste_sonore, hologrammes_soniques, studio_zen_hannett, AMS1560]
+  - id: S83-A006
+    label: "Unknown Pleasures vs Closer : deux stades de l'espace claustrophobique"
+    chapitres: [3, 5, 6]
+    concepts: [architecture_pungente, claustrophobie_sonore_closer, espace_stereo_hannett]
+  - id: S83-A007
+    label: "Digital : l'enregistrement séparé des batteries"
+    chapitres: [3, 5]
+    song_id: JD-SONG-022
+    canonical_song: "Digital"
+    concepts: [separation_hannett, montage_modulaire]
+  - id: S83-A008
+    label: "Atrocity Exhibition : seule chanson où Curtis mentionne un architecte"
+    chapitres: [1, 3, 5, 6]
+    song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    concepts: [Ballard_Curtis_architecture, interiors_miroir_interieur]
+  - id: S83-A009
+    label: "Insight : la voix de Curtis comme objet électroacoustique"
+    chapitres: [3, 5]
+    song_id: JD-SONG-013
+    canonical_song: "Insight"
+    concepts: [hannett_artiste_sonore, electroacoustique_hannett]
+  - id: S83-A010
+    label: "Love Will Tear Us Apart : clip dans l'usine de Little Peter Street (avril 1980)"
+    chapitres: [1, 3]
+    song_id: JD-SONG-035
+    canonical_song: "Love Will Tear Us Apart"
+    concepts: [adn_industriel_manchester, espace_usine_reprise]
+concepts_nouveaux:
+  - CONCEPT-textscape
+  - CONCEPT-architecture-pungente
+  - CONCEPT-adn-industriel-manchester
+  - CONCEPT-hannett-artiste-sonore
+motifs_nouveaux:
+  - MOTIF-studio-zen-hannett

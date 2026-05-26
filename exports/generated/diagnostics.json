@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T11:15:34",
+  "generated_at": "2026-05-26T11:56:22",
   "status": "error",
   "summary": {
-    "records_total": 6901,
+    "records_total": 6956,
     "records_by_kind": {
-      "metadata": 236,
-      "atom": 2632,
+      "metadata": 240,
+      "atom": 2644,
       "source": 114,
-      "unknown": 1270,
-      "concept": 427,
-      "motif": 407,
+      "unknown": 1299,
+      "concept": 431,
+      "motif": 408,
       "myth": 101,
       "quote": 507,
-      "chronology": 449,
+      "chronology": 454,
       "person": 289,
       "song": 110,
       "template": 357,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 29798,
+    "diagnostics_total": 30005,
     "errors": 14,
-    "warnings": 29784,
+    "warnings": 29991,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 69,
-    "sources_exported": 69,
-    "declared_but_unused": 20,
+    "sources_used_in_records": 70,
+    "sources_exported": 70,
+    "declared_but_unused": 19,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -230,20 +230,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S83",
-        "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
-        "auteur": "John S. Greenwood, Paul Tarpey",
-        "titre": "Manchester, Martin Hannett and Joy Division's Pungent Architecture",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "Hannett architecture sonore",
-          "Manchester post-industrielle",
-          "production musicale",
-          "Unknown Pleasures"
-        ]
       },
       {
         "source_id": "S84",
@@ -1870,6 +1856,23 @@
           "registers/s82_space_estrangement_structuring_registers.md",
           "sources/parmar_space_estrangement/atoms_dm_s82_space_estrangement_v2.md",
           "sources/parmar_space_estrangement/relations_s82_space_estrangement_v2.md"
+        ]
+      },
+      {
+        "source_id": "S83",
+        "source_label": "S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018",
+        "auteur": "John S. Greenwood, Paul Tarpey",
+        "titre": "Manchester, Martin Hannett and Joy Division's Pungent Architecture",
+        "annee": "2018",
+        "records": 50,
+        "atoms": 12,
+        "quotes": 0,
+        "chronology": 5,
+        "files": [
+          "registers/s83_hannett_architecture_specialized_registers.md",
+          "registers/s83_hannett_architecture_structuring_registers.md",
+          "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+          "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md"
         ]
       }
     ]
@@ -90491,6 +90494,846 @@
     },
     {
       "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: cadre_theorique",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: argument_central",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_urbaine_musicale",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute — plusieurs points sont des spéculations signalées comme telles par les auteurs",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: biographie_formation",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_production",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_comparee_albums",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: moyenne — microphone setup non confirmé dans la configuration studio (signalé comme probable par les auteurs)",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: analyse_chanson",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for fiabilite: haute — confirmé en note 9 du chapitre",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Invalid value for type_unite: chronologie_production",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/atoms_dm_s83_hannett_architecture_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S83-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/greenwood_tarpey_hannett_architecture/relations_s83_hannett_architecture_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S83-010"
+    },
+    {
+      "level": "warning",
       "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/relations_s53.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S53-001"
@@ -158597,6 +159440,36 @@
     },
     {
       "level": "warning",
+      "file": "registers/s83_hannett_architecture_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S83-005"
+    },
+    {
+      "level": "warning",
       "file": "registers/s77_worley_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S77-Q001"
@@ -160142,6 +161015,378 @@
       "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S21-THE_FALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S83-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACE-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACE-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACE-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACE-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S83-002"
     },
     {
       "level": "warning",

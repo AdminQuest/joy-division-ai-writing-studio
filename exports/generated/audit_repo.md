@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T00:09:22`
+Généré le : `2026-05-26T11:56:43`
 
 ## 1. Verdict
 
 Le repo n’est pas strict-compliant : 14 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 2481 atome(s) incomplet(s) sur 2554.
+La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2644.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 6537
+- Enregistrements : 6956
 - Erreurs : 14
-- Avertissements : 28459
+- Avertissements : 29991
 - Sources déclarées : 88
-- Sources utilisées : 61
-- Sources exportées : 61
+- Sources utilisées : 70
+- Sources exportées : 70
 - Sources utilisées absentes du registre : 1
 - Libellés faibles : 1
 
@@ -22,12 +22,12 @@ La dette principale reste la migration v2 : 2481 atome(s) incomplet(s) sur 2554.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2554 |
-| chronology | 429 |
-| concept | 394 |
-| metadata | 209 |
-| motif | 390 |
-| myth | 100 |
+| atom | 2644 |
+| chronology | 454 |
+| concept | 431 |
+| metadata | 240 |
+| motif | 408 |
+| myth | 101 |
 | person | 289 |
 | quote | 507 |
 | quote_batch | 1 |
@@ -35,19 +35,19 @@ La dette principale reste la migration v2 : 2481 atome(s) incomplet(s) sur 2554.
 | song | 110 |
 | source | 114 |
 | template | 357 |
-| unknown | 1082 |
+| unknown | 1299 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | duplicate_id | 13 |
-| field_type_error | 523 |
-| invalid_controlled_value | 2504 |
-| missing_required_field | 8500 |
+| field_type_error | 596 |
+| invalid_controlled_value | 2650 |
+| missing_required_field | 8859 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1052 |
-| v2_migration_debt | 15353 |
+| unknown_yaml_block | 1269 |
+| v2_migration_debt | 16090 |
 | yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
@@ -76,6 +76,13 @@ could not find expected ':'
 
 ## 6. Blocs YAML non classés
 
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-001] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-002] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-003] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-004] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-005] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-006] : Unable to infer documentary kind
+- `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-003] : Unable to infer documentary kind
@@ -99,24 +106,17 @@ could not find expected ':'
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-001] : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-002] : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-003] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-004] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-005] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-006] : Unable to infer documentary kind
+- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-007] : Unable to infer documentary kind
 - `sources/bertetti_morreale_reimmaginare_immaginario/dm_rag_update_s50.md` [DM-RAG-S50] : Unable to infer documentary kind
 - `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-001] : Unable to infer documentary kind
 - `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-002] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-003] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-004] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-005] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-006] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-007] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-008] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-009] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-009] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-010] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-011] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-012] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-013] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md` [R-S79-014] : Unable to infer documentary kind
-- `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_fin_v2.md` [R-S79-037] : Unable to infer documentary kind
-- … 1012 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1229 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -137,16 +137,7 @@ Sources déclarées mais non utilisées :
 - S33 — Can, Tago Mago, 1971 — a_consolider
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
-- S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018 — a_atomiser
-- S64 — Bottà, European Imaginary of Joy Division, 2018 — a_atomiser
-- S65 — Martínez, Literary Influences on Joy Division, 2018 — a_atomiser
-- S66 — Schütte, On Ian Curtis's Lyrics, 2018 — a_atomiser
-- S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 — a_atomiser
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
-- S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 — a_atomiser
-- S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018 — a_atomiser
-- S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 — a_atomiser
-- S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — a_atomiser
 - S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — a_atomiser
 - S85 — Malcolm, Mining for Counterculture, 2018 — a_atomiser
 - S86 — Breyley, Iranian Musicians and Joy Division, 2018 — a_atomiser
@@ -158,10 +149,10 @@ Libellés faibles :
 
 ## 8. Migration v2
 
-- Atomes : 2554
+- Atomes : 2644
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2481
-- Avertissements de champs v2 manquants : 15353
+- Atomes v2 incomplets : 2571
+- Avertissements de champs v2 manquants : 16090
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
