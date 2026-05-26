@@ -21,7 +21,8 @@ pages_livre: "155"
 auteur: Martin Hannett
 via: Reynolds 2008
 citation_directe: false
-statut: a_verifier — citation de second niveau (Reynolds 2008)
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.186 (ch.10, livre p.155). La phrase 'working into this space' apparaît en note de bas de page 1 du chapitre (renvoi dans le texte principal). Attribuée à Reynolds 2008 via note 1. Citation de second niveau : Greenwood & Tarpey → Reynolds 2008 → Hannett."
 chapitres: [1, 3]
 ```
 
@@ -39,7 +40,8 @@ pages_livre: "157"
 auteur: Bernard Sumner
 via: Reynolds 2008
 citation_directe: true
-statut: a_verifier — citation de second niveau (Reynolds 2008)
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.188 (ch.10, livre p.157). Texte source : 'Joy Division's Bernard Sumner (cited in Reynolds 2008) has registered the grim transitional landscape of Salford growing up. \"The old factories were coming down. Unoccupied buildings, all the windows smashed in. It was virtually a ghost town.\"' Citation de second niveau : Greenwood & Tarpey → Reynolds 2008 → Sumner."
 chapitres: [1]
 ```
 
@@ -52,12 +54,13 @@ Bernard Sumner, cité dans Reynolds 2008 : **« The old factories were coming do
 ```yaml
 id: CIT-S83-003
 source_id: S83
-pages_pdf: "196"
-pages_livre: "165"
+pages_pdf: "195"
+pages_livre: "164"
 auteur: Peter Hook
 via: Hook 2013, p. 248
 citation_directe: true
-statut: a_verifier — à croiser avec le texte original de Hook 2013
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.195 (ch.10, livre p.164). Phrase source : 'Peter Hook states that he initially disliked the mix of the album Unknown Pleasures as its dark clarity took away from a band that \"wanted a harder, harsher more metallic sound, like a group playing in a garage with metal walls, like The Stooges or the Velvet Underground\" (2013, 248).' CORRECTION PAGINATION : pages_pdf 196→195, pages_livre 165→164."
 chapitres: [3, 5]
 ```
 
@@ -75,7 +78,8 @@ pages_livre: "161"
 auteur: Martin Hannett
 via: Reynolds 2005, p. 87
 citation_directe: true
-statut: a_verifier — à croiser avec Reynolds 2005 p. 87
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.192 (ch.10, livre p.161). Phrase source : 'Shortly before his death, the producer spoke of Unknown Pleasures as being the most mysterious album he had ever recorded. It was, he said, \"locked in its own mysterious world\" (cited in Reynolds 2005, 87).' Citation de second niveau : Greenwood & Tarpey → Reynolds 2005 → Hannett."
 chapitres: [3, 5]
 ```
 
@@ -93,7 +97,8 @@ pages_livre: "165"
 auteur: Tony Wilson
 via: Wilson 2007
 citation_directe: true
-statut: a_verifier
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.196 (ch.10, livre p.165). Phrase source : 'As Tony Wilson (2007) said, \"What Joy Division did was to use the simple form of punk to express more complex emotions.\"' Phrase exacte reproduite telle quelle."
 chapitres: [3]
 ```
 
@@ -111,7 +116,8 @@ pages_livre: "165"
 auteur: Mark E. Smith
 via: Smith 2009, p. 41
 citation_directe: true
-statut: a_verifier
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.196 (ch.10, livre p.165). Phrase source : 'The late Mark E. Smith (2009, 41) astutely called the version of punk produced by Manchester punk bands a \"refuge of sorts from the reality of what was 70s Britain\".' Texte exact reproduit tel quel."
 chapitres: [1, 3]
 ```
 
@@ -129,7 +135,8 @@ pages_livre: "162"
 auteur: Tommy Hannett (frère de Martin)
 via: Hannett 2017
 citation_directe: true
-statut: a_verifier
+statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.193 (ch.10, livre p.162). Texte source : 'He continues, \"Funfairs are forever tainted in my psyche and more than likely were in Martin's too\" (Hannett 2017). It is, of course, mere speculation that this grim detail fed into the psyche of a young Martin Hannett.' Statut spéculatif explicitement signalé par les auteurs dans le texte suivant."
 chapitres: [1, 3]
 ```
 
