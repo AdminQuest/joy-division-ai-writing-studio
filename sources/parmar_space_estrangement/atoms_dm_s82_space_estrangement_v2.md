@@ -20,7 +20,7 @@ type_unite: argument_central
 importance: critique
 pages_pdf: "164-165"
 pages_livre: "133-134"
-chapitres: [3, 5, 6, 14]
+chapitres: [3, 4, 5, 6, 13, 14]
 concepts: [aesthetics_estrangement, espace_sonore, presentation_non_indexicale, psychogeographie_comme_foil]
 statut: verifie
 fiabilite: haute
@@ -151,7 +151,7 @@ type_unite: analyse_corpus_lyrique
 importance: critique
 pages_pdf: "175-179"
 pages_livre: "144-148"
-chapitres: [5, 6]
+chapitres: [4, 5, 6, 13]
 concepts: [espace_metaphorique_lyrique, absence_ancrage_spatio_temporel, projection_auditeur]
 statut: verifie
 fiabilite: haute
@@ -195,7 +195,7 @@ type_unite: conclusions
 importance: critique
 pages_pdf: "182-183"
 pages_livre: "151-152"
-chapitres: [3, 5, 14]
+chapitres: [3, 4, 5, 13, 14]
 concepts: [presentation_integree_jd_hannett_saville, trace_energies_distantes, occlusion_referent]
 statut: verifie
 fiabilite: haute

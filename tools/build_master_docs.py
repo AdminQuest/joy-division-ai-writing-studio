@@ -31,7 +31,7 @@ CHAPTERS_DIR = REPO_ROOT / "chapters"
 MANIFEST_PATH = CHAPTERS_DIR / "master_docs.json"
 MASTER_INDEX_PATH = EXPORT_DIR / "master_docs_index.json"
 
-MAX_CRITICAL_ATOMS = 35
+MAX_CRITICAL_ATOMS = 60
 MAX_OTHER_ATOMS = 80
 MAX_CONCEPTS = 80
 MAX_QUOTES = 40
@@ -286,6 +286,27 @@ def record_label(record: Dict[str, Any]) -> str:
     return f"{rid} — {title}" if title and rid and title != rid else rid or title
 
 
+def people_table_rows(records: List[Dict[str, Any]]) -> List[List[str]]:
+    """Return table rows [ID, Nom, Description] for people records."""
+    rows = []
+    for record in records:
+        data = record.get("data", {})
+        rid = text(record.get("id") or data.get("id") or data.get("name"))
+        name = text(data.get("full_name") or data.get("name") or record.get("heading") or "")
+        if not name or name == rid:
+            label = record_label(record)
+            if " — " in label:
+                rid, name = label.split(" — ", 1)
+            else:
+                rid = label
+                name = ""
+        description = text(data.get("description") or data.get("role") or data.get("role_dans_chapitre") or "")
+        if not description:
+            description = "description à compléter"
+        rows.append([rid, name, description])
+    return rows
+
+
 def motif_values(atoms: List[Dict[str, Any]]) -> List[str]:
     counter: Counter[str] = Counter()
     for atom in atoms:
@@ -406,7 +427,7 @@ def chapter_document(chapter_number: int, title: str, context: Dict[str, Any]) -
         "",
         "## 9. Personnes et acteurs",
         "",
-        bullets([record_label(record) for record in people[:MAX_PEOPLE]], "Aucune personne rattachée."),
+        table(people_table_rows(people[:MAX_PEOPLE]), ["ID", "Nom", "Description"]) if people else "Aucune personne rattachée.",
         "",
         "## 10. Chansons rattachées",
         "",
