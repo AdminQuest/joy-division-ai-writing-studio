@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T09:36:46",
+  "generated_at": "2026-05-26T10:09:35",
   "status": "error",
   "summary": {
-    "records_total": 6796,
+    "records_total": 6850,
     "records_by_kind": {
-      "metadata": 225,
-      "atom": 2614,
+      "metadata": 229,
+      "atom": 2623,
       "source": 114,
-      "unknown": 1221,
-      "concept": 416,
-      "motif": 403,
+      "unknown": 1247,
+      "concept": 422,
+      "motif": 405,
       "myth": 101,
       "quote": 507,
-      "chronology": 437,
+      "chronology": 444,
       "person": 289,
       "song": 110,
       "template": 357,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 29467,
+    "diagnostics_total": 29638,
     "errors": 14,
-    "warnings": 29453,
+    "warnings": 29624,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 67,
-    "sources_exported": 67,
-    "declared_but_unused": 22,
+    "sources_used_in_records": 68,
+    "sources_exported": 68,
+    "declared_but_unused": 21,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -230,21 +230,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S81",
-        "source_label": "S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018",
-        "auteur": "Eoin Devereux, Walter Cullen, David Meagher",
-        "titre": "This Is the Crisis I Knew Had to Come: Revisiting Ian Curtis's Suicide",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "autopsie psychologique Curtis",
-          "SADPERSONS scale",
-          "suicide",
-          "santé mentale",
-          "épilepsie"
-        ]
       },
       {
         "source_id": "S82",
@@ -1866,6 +1851,23 @@
           "registers/s80_transmission_structuring_registers.md",
           "sources/valdes_miyares_transmission/atoms_dm_s80_transmission_v2.md",
           "sources/valdes_miyares_transmission/relations_s80_transmission_v2.md"
+        ]
+      },
+      {
+        "source_id": "S81",
+        "source_label": "S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018",
+        "auteur": "Eoin Devereux, Walter Cullen, David Meagher",
+        "titre": "This Is the Crisis I Knew Had to Come: Revisiting Ian Curtis's Suicide",
+        "annee": "2018",
+        "records": 41,
+        "atoms": 9,
+        "quotes": 0,
+        "chronology": 7,
+        "files": [
+          "registers/s81_curtis_suicide_specialized_registers.md",
+          "registers/s81_curtis_suicide_structuring_registers.md",
+          "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+          "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md"
         ]
       }
     ]
@@ -73744,6 +73746,756 @@
       "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S26-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: cadre_methodologique",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: analyse_receptologie",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: synthese_bibliographique",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: cadre_theorique",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: tableau_clinique",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: analyse_clinique",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: analyse_clinique",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: analyse_clinique",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Invalid value for type_unite: conclusion_analytique",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/atoms_dm_s81_curtis_suicide_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S81-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/devereux_cullen_meagher_curtis_suicide/relations_s81_curtis_suicide_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S81-008"
     },
     {
       "level": "warning",
@@ -154315,6 +155067,252 @@
     },
     {
       "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S81-006"
+    },
+    {
+      "level": "warning",
       "file": "registers/s55_romania_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S55-Q001"
@@ -158212,6 +159210,36 @@
       "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S21-THE_FALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Shneidman1993"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Fazel2013"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Christensen2007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Spijker2002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-Patterson1983"
     },
     {
       "level": "warning",

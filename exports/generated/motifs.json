@@ -1843,6 +1843,52 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-rejet_inevitabilite",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "rejet_inevitabilite",
+    "data": {
+      "id": "MOTIF-rejet_inevitabilite",
+      "label": "Rejet de l'inévitabilité",
+      "source_ids": [
+        "S81"
+      ],
+      "atomes_associes": [
+        "S81-A001",
+        "S81-A009"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "fonction_argumentative": "Motif argumentatif transversal de S81 : chaque section du chapitre contribue à démontrer que rien n'était inévitable dans la mort de Curtis — ni la dépression (traitable), ni les crises (améliorables avec un traitement adéquat), ni le geste lui-même (majorité des individus similaires survivent). Motif à résonance dans le chapitre 14 pour contrer les lectures fatalistes."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-culte_martyr_rock",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "culte_martyr_rock",
+    "data": {
+      "id": "MOTIF-culte_martyr_rock",
+      "label": "Culte du martyr rock",
+      "source_ids": [
+        "S81",
+        "S80"
+      ],
+      "atomes_associes": [
+        "S81-A002",
+        "S80-A003",
+        "S80-A007"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "fonction_argumentative": "Récurrence de la figure du chanteur rock se sacrifiant pour son public/son art. S81 documente la dimension quasi-religieuse dans le cas Joy Division (pèlerinages, nécrologe McCullough, imagerie gothique). À mettre en regard avec le concept d'anti-image délibérée de Joy Division (S80-A003)."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-infrangimento_vetro",
     "file": "registers/s52_rabbito_structuring_registers.md",
     "heading": "Motifs",

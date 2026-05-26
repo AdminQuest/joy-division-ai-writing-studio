@@ -3744,6 +3744,141 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-autopsie_psychologique",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "autopsie_psychologique",
+    "data": {
+      "id": "CONCEPT-autopsie_psychologique",
+      "label": "Autopsie psychologique (PA — Psychological Autopsy)",
+      "source_ids": [
+        "S81"
+      ],
+      "atomes_associes": [
+        "S81-A001",
+        "S81-A005",
+        "S81-A008",
+        "S81-A009"
+      ],
+      "chapitres": [
+        12
+      ],
+      "fonction_argumentative": "Méthode postmortem d'identification et d'évaluation des facteurs de risque suicidaires au moment du décès (Shneidman, cité in Knoll 2008). Permet de passer des récits biographiques dispersés à une analyse systématique. La PA couvre 16 aspects du parcours de vie, de la personnalité et des circonstances de la mort. Concept-pivot de S81 — à mobiliser dans le chapitre 12 pour ancrer l'analyse clinique du suicide de Curtis dans une méthode reconnue en suicidologie. Limite inhérente : méthode rétrospective, sources de seconde main — à présenter comme analyse rigoureuse, non comme vérité clinique absolue."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-inevitabilite_suicide",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "inevitabilite_suicide",
+    "data": {
+      "id": "CONCEPT-inevitabilite_suicide",
+      "label": "Inévitabilité du suicide (contra-concept)",
+      "source_ids": [
+        "S81"
+      ],
+      "atomes_associes": [
+        "S81-A001",
+        "S81-A009"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "fonction_argumentative": "Concept négatif — l'idée que le suicide de Curtis était inévitable, inscrit dans son destin d'artiste maudit. S81 démontre systématiquement que cette lecture est une sur-simplification : le MDD est hautement réversible, la majorité des individus partageant les mêmes défis ne meurent pas par suicide, d'autres artistes traitant les mêmes thèmes ont survécu. Mobilisable dans le chapitre 14 pour contrer le mythe du génie maudit et dans le chapitre 12 pour ouvrir la question de la prévention."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-depression_clinique_MDD",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "depression_clinique_MDD",
+    "data": {
+      "id": "CONCEPT-depression_clinique_MDD",
+      "label": "Dépression clinique (MDD — Major Depressive Disorder)",
+      "source_ids": [
+        "S81",
+        "S67"
+      ],
+      "atomes_associes": [
+        "S81-A006",
+        "S81-A007",
+        "S81-A009",
+        "S67-A001"
+      ],
+      "chapitres": [
+        12
+      ],
+      "fonction_argumentative": "Les auteurs concluent que Curtis satisfaisait pleinement aux critères DSM-5 du MDD dans les semaines précédant son décès. Concept clé pour le chapitre 12 : permet de déplacer l'analyse du registre symbolique/biographique vers le registre clinique documenté. Articulation avec l'épilepsie pharmacorésistante (interaction bidirectionnelle dépression-crises) et avec l'ill style de Naiman. Important : le MDD est hautement réversible — durée médiane 3 mois, rémission 50 % à 3 mois, 76 % à un an (Spijker et al. 2002)."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-pharmacoresistance_epilepsie",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "pharmacoresistance_epilepsie",
+    "data": {
+      "id": "CONCEPT-pharmacoresistance_epilepsie",
+      "label": "Pharmacorésistance de l'épilepsie",
+      "source_ids": [
+        "S81",
+        "S67"
+      ],
+      "atomes_associes": [
+        "S81-A007",
+        "S81-A003",
+        "S67-A001"
+      ],
+      "chapitres": [
+        12
+      ],
+      "fonction_argumentative": "Épilepsie de Curtis diagnostiquée début 1979 et restée mal contrôlée malgré polythérapie (Phénytoïne, Phénobarbital, Valproate, Carbamazépine). Les AED (anti-epileptic drugs) utilisés avaient des effets psychotropes dépressogènes reconnus — aggravant probablement la dépression. Tuft/Gjelsvik/Nakken (2015) : épilepsie focale pharmacorésistante récurrente \"probable\". Concept mobilisable pour expliquer scientifiquement la spirale maladie → aggravation → suicide."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-psychache",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "psychache",
+    "data": {
+      "id": "CONCEPT-psychache",
+      "label": "Psychache (Shneidman 1993)",
+      "source_ids": [
+        "S81"
+      ],
+      "atomes_associes": [
+        "S81-A009"
+      ],
+      "chapitres": [
+        12
+      ],
+      "fonction_argumentative": "Concept de Shneidman (1993) désignant un niveau d'angoisse psychologique suffisamment intense pour rendre le suicide une option perçue comme logique — « especially to the disinhibited and vulnerable, intoxicated mind ». Complémentaire de la notion de hopelessness caractérisant le MDD. Mobilisable dans le chapitre 12 pour articuler les dimensions cognitive (hopelessness, MDD) et affective (douleur psychologique insurmontable) du suicide de Curtis."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-romanticisation_suicide",
+    "file": "registers/s81_curtis_suicide_structuring_registers.md",
+    "heading": "romanticisation_suicide",
+    "data": {
+      "id": "CONCEPT-romanticisation_suicide",
+      "label": "Romanticisation du suicide",
+      "source_ids": [
+        "S81"
+      ],
+      "atomes_associes": [
+        "S81-A001",
+        "S81-A002",
+        "S81-A009"
+      ],
+      "chapitres": [
+        12,
+        14
+      ],
+      "fonction_argumentative": "Mécanisme culturel par lequel le suicide de Curtis est présenté comme l'aboutissement naturel et inévitable du génie créatif — le trope du \"tortured artist\". S81 documente et critique ce mécanisme (sacralisation, culte du martyr, imagerie gothique) tout en le rejetant analytiquement. Concept central pour le chapitre 14 (héritage/mythe) et utile pour le chapitre 12 (dimension réceptologique du suicide)."
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-surface_biographique",
     "file": "registers/s52_rabbito_structuring_registers.md",
     "heading": "Concepts",
