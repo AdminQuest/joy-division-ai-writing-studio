@@ -16,11 +16,12 @@ date_creation: "2026-05-26"
 id: CIT-S80-001
 source_id: S80
 atome: S80-A007
-pages_pdf: "138"
-pages_livre: "107"
+pages_pdf: "140"
+pages_livre: "109"
 auteur_cite: "R. Murray Schafer"
 reference: "Schafer 1993, 11"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.140 (ch.7, livre p.109, section CONCLUSIONS). Phrase exacte : 'Hearing is a way of touching at a distance' (Schafer 1993, 11). Citation de clôture du chapitre — précédée de 'since, as composer and music writer R. Murray Schafer (1993, 11) said'. Italiques sur 'at' conformes au PDF."
 ```
 
 « Hearing is a way of touching *at* a distance. »
@@ -40,6 +41,7 @@ pages_livre: "101"
 auteur_cite: "Roland Barthes"
 reference: "Barthes 1977, 182"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.132 (ch.7, livre p.101). Blockquote complet dans le PDF : 'forms a signifying play having nothing to do with communication, representation (of feelings), expression; it is that apex (or that depth) of production where the melody really works at the language – not at what it says, but the voluptuousness of its sound-signifiers, of its letters.' Citation partielle — le registre ne reproduit que la seconde moitié à partir de 'The melody really works'. Acceptable ; le contexte complet doit accompagner l'usage."
 ```
 
 « The melody really works at the language – not at what it says, but the voluptuousness of its sound-signifiers, of its letters. »
@@ -55,10 +57,11 @@ id: CIT-S80-003
 source_id: S80
 atome: S80-A004
 pages_pdf: "135"
-pages_livre: "103"
+pages_livre: "104"
 auteur_cite: "Roland Barthes"
 reference: "Barthes 1977, 182"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.135 (ch.7, livre p.104). Phrase source : 'the materiality of the body speaking its mother tongue, perhaps the letter, almost certainly signifiance'. Valdés Miyares l'introduit : 'what audiences perceived above all was the grain of his voice, as Barthes (1977, 182) called it'. Italiques sur 'signifiance' conformes au PDF."
 ```
 
 « The materiality of the body speaking its mother tongue, perhaps the letter, almost certainly *signifiance*. »
@@ -74,10 +77,11 @@ id: CIT-S80-004
 source_id: S80
 atome: S80-A004
 pages_pdf: "136"
-pages_livre: "103-104"
+pages_livre: "105"
 auteur_cite: "Peter Hook"
 reference: "Hook 2012, 256"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.136 (ch.7, livre p.105). Texte source : 'I wasn't really paying that much attention to the lyrics. . . . There is no analysis going on. . . . He delivered his vocals with the maximum of passion and spirit, exactly what we wanted' (Hook 2012, 256). Ellipses [. . .] dans le PDF remplacées par […] dans le registre — acceptable."
 ```
 
 « I wasn't really paying that much attention to the lyrics… There is no analysis going on. He delivered his vocals with the maximum of passion and spirit, exactly what we wanted. »
@@ -93,13 +97,14 @@ id: CIT-S80-005
 source_id: S80
 atome: S80-A004
 pages_pdf: "136"
-pages_livre: "103-104"
+pages_livre: "105"
 auteur_cite: "Bernard Sumner"
 reference: "Sumner 2014, 79"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.136 (ch.7, livre p.105). CORRECTION TEXTUELLE : le texte source dit 'we studiously ignored what he was writing about' — la version initiale du registre avait une erreur ('ignored it'). Texte complet : 'Of course, we studiously ignored what he was writing about. It all sounded so bloody personal [emphasis in the original] (Sumner 2014, 79)'. Italiques sur 'personal' conformes au PDF."
 ```
 
-« Of course, we studiously ignored it. It all sounded so bloody *personal*. »
+« Of course, we studiously ignored what he was writing about. It all sounded so bloody *personal*. »
 
 *Note* : témoignage de Sumner sur les paroles de Curtis — confirme que la communication intrabande passait par l'affect et la musique, non par le sens verbal.
 
@@ -112,10 +117,11 @@ id: CIT-S80-006
 source_id: S80
 atome: S80-A003
 pages_pdf: "134"
-pages_livre: "102"
+pages_livre: "103"
 auteur_cite: "Rob Gretton"
 reference: "Savage, in Curtis D. 2014a, xxv"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.134 (ch.7, livre p.103). Phrase exacte : 'We do not particularly like publishing our lyrics, because we would like the listener to put some effort in trying to understand them' (cité par Savage in Curtis, D. 2014a, xxv). Contexte : Valdés Miyares introduit la citation comme 'Gretton wrote in 1979'."
 ```
 
 « We do not particularly like publishing our lyrics, because we would like the listener to put some effort in trying to understand them. »
@@ -130,11 +136,12 @@ statut: verifie
 id: CIT-S80-007
 source_id: S80
 atome: S80-A005
-pages_pdf: "137"
+pages_pdf: "136"
 pages_livre: "105"
 auteur_cite: "Ian Curtis"
 reference: "Middles & Reade 2006, 249 (carte postale à Annik Honoré)"
 statut: verifie
+note_verification: "Texte confirmé dans H&S PDF p.136 (ch.7, livre p.105). Phrase source : 'as he stated in a postcard to Annik Honoré: IT'S HARD FOR ANYONE TO SEE HOW I REALLY FEEL (Middles and Reade 2006, 249)'. Capitales dans le PDF conformes à la carte postale originale."
 ```
 
 « IT'S HARD FOR ANYONE TO SEE HOW I REALLY FEEL. »
