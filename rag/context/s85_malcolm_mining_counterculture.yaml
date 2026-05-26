@@ -1,0 +1,96 @@
+source_id: S85
+source_label: "S85 — Malcolm, Mining for Counterculture, 2018"
+auteur: "Colin Malcolm"
+titre: "Mining for Counterculture"
+titre_ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+partie: "PART 5: Cultural Legacies"
+editeur: "Rowman & Littlefield International"
+annee: "2018"
+pagination: "p. 195–208"
+date_atomisation: "2026-05-26"
+
+themes_principaux:
+  - "Autoethnographie positionnée — ageing subculturalist"
+  - "Appropriation et commodification de l'héritage Factory Records"
+  - "Capital subculturel (Thornton 1995) appliqué à Joy Division/New Order"
+  - "Philosophie Factory comme anti-École de Francfort"
+  - "Hacianda design / gentrification"
+  - "Mutation numérique de la subculture (Buckle, Saville, Stein)"
+  - "Mode haute couture et récupération esthétique (Raf Simons, YSL)"
+  - "True Faith exhibition — réception institutionnelle"
+  - "MIF 2017 / New Order aux studios Granada"
+
+chapitres_concernes: [1, 5, 8, 10, 13, 14]
+
+atomes:
+  - id: S85-A001
+    type: cadre_methodologique
+    chapitres: [1, 13]
+  - id: S85-A002
+    type: evenement_culturel
+    chapitres: [1, 2, 14]
+  - id: S85-A003
+    type: reception_institutionnelle
+    chapitres: [13, 14]
+  - id: S85-A004
+    type: citation_acteur
+    chapitres: [1, 8, 13, 14]
+  - id: S85-A005
+    type: contexte_label
+    chapitres: [5, 10]
+  - id: S85-A006
+    type: cadre_theorique
+    chapitres: [5, 10, 13]
+  - id: S85-A007
+    type: design_subculturel
+    chapitres: [5, 8, 13]
+  - id: S85-A008
+    type: capital_subculturel
+    chapitres: [5, 10, 13]
+  - id: S85-A009
+    type: appropriation_mode
+    chapitres: [10, 13, 14]
+  - id: S85-A010
+    type: mutation_subculture
+    chapitres: [13, 14]
+  - id: S85-A011
+    type: scene_rave_hacianda
+    chapitres: [8, 13, 14]
+  - id: S85-A012
+    type: gentrification_culturelle
+    chapitres: [8, 13, 14]
+  - id: S85-A013
+    type: conclusions
+    chapitres: [1, 5, 10, 13, 14]
+
+concepts_cles:
+  - commodification_underground
+  - anti_frankfurt_school_factory
+  - capital_subculturel_thornton
+  - phoenix_hacianda
+  - subculture_numerique_vs_organique
+  - authenticite_non_achetable
+  - legacy_joy_division
+  - hacianda_design_industriel
+
+acteurs_cles:
+  - Tony Wilson (présentateur Granada 1978 / résistance à la préservation Hacianda)
+  - Peter Hook (thèse causale Curtis → Hacianda → rave)
+  - Bernard Sumner (capital subculturel, créativité subconsciente)
+  - Peter Saville (philosophie Blue Monday / récupération graphique)
+  - Kevin Buckle (Avalanche Records, disparition de l'underground)
+  - Tom Hingley (Inspiral Carpets, Hacianda phoenix)
+  - Raf Simons (parka Factory Records £20 000)
+
+evenements_cles:
+  - "Granada Reports 1978 — première apparition télévisée Joy Division (Wilson)"
+  - "True Faith exhibition 2017 — 161 000 visiteurs, Manchester Art Gallery"
+  - "MIF 2017 — New Order aux anciens studios Granada Television"
+  - "Raf Simons parka Factory Records £20 000 — Open Eye Gallery 2017"
+  - "Hacianda vendue à Crosby Homes 1997 — gentrification"
+
+notes_methodologiques:
+  - "Autoethnographie : biais de nostalgie possible — prudence sur les généralisations"
+  - "Entretiens (Buckle, Hingley, Haslam) : témoignages d'acteurs, à croiser"
+  - "La parka Raf Simons est un cas extrême de commodification — ne pas généraliser"
+  - "Pas de chansons Joy Division individuellement analysées dans ce chapitre"
