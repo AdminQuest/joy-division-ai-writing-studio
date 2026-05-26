@@ -1,37 +1,37 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T14:40:27`
+Généré le : `2026-05-26T14:56:18`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 7150
+- Enregistrements : 7203
 - Erreurs : 15
-- Avertissements : 30781
+- Avertissements : 30967
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 73
-- Sources exportées : 73
-- Sources déclarées mais non utilisées : 16
+- Sources utilisées dans les enregistrements : 74
+- Sources exportées : 74
+- Sources déclarées mais non utilisées : 15
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2691
-- chronology : 461
-- concept : 444
-- metadata : 252
-- motif : 419
+- atom : 2701
+- chronology : 469
+- concept : 449
+- metadata : 258
+- motif : 422
 - myth : 101
 - person : 305
-- quote : 526
+- quote : 532
 - quote_batch : 1
 - rules : 1
 - song : 110
 - source : 114
-- template : 359
-- unknown : 1366
+- template : 360
+- unknown : 1380
 
 ## Sources utilisées mais absentes du registre
 
@@ -53,7 +53,6 @@ Statut : **error**
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — statut : référence historique déplacée depuis S41 ; à consolider
-- S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : a_atomiser
 - S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : a_atomiser
 
 ## Libellés faibles
@@ -162,4 +161,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 30696 problèmes supplémentaires dans `diagnostics.json`.
+- … 30882 problèmes supplémentaires dans `diagnostics.json`.

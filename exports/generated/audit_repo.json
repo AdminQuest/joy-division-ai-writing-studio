@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-05-26T14:40:52",
+  "generated_at": "2026-05-26T14:56:43",
   "summary": {
-    "records_total": 7150,
+    "records_total": 7203,
     "records_by_kind": {
-      "metadata": 252,
-      "atom": 2691,
+      "metadata": 258,
+      "atom": 2701,
       "source": 114,
-      "unknown": 1366,
-      "concept": 444,
-      "motif": 419,
+      "unknown": 1380,
+      "concept": 449,
+      "motif": 422,
       "myth": 101,
-      "quote": 526,
-      "chronology": 461,
+      "quote": 532,
+      "chronology": 469,
       "person": 305,
       "song": 110,
-      "template": 359,
+      "template": 360,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 30796,
+    "diagnostics_total": 30982,
     "errors": 15,
-    "warnings": 30781,
+    "warnings": 30967,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 73,
-    "sources_exported": 73,
-    "declared_but_unused": 16,
+    "sources_used_in_records": 74,
+    "sources_exported": 74,
+    "declared_but_unused": 15,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
   "records_by_kind": {
-    "atom": 2691,
-    "chronology": 461,
-    "concept": 444,
-    "metadata": 252,
-    "motif": 419,
+    "atom": 2701,
+    "chronology": 469,
+    "concept": 449,
+    "metadata": 258,
+    "motif": 422,
     "myth": 101,
     "person": 305,
-    "quote": 526,
+    "quote": 532,
     "quote_batch": 1,
     "rules": 1,
     "song": 110,
     "source": 114,
-    "template": 359,
-    "unknown": 1366
+    "template": 360,
+    "unknown": 1380
   },
   "records_by_source": {
     "REGISTRY": {
@@ -637,6 +637,13 @@
       "unknown": 15,
       "chronology": 7,
       "quote": 6
+    },
+    "S87": {
+      "metadata": 6,
+      "atom": 10,
+      "unknown": 14,
+      "chronology": 8,
+      "quote": 6
     }
   },
   "records_by_chapter": {
@@ -644,8 +651,8 @@
     "10": 48,
     "11": 32,
     "12": 51,
-    "13": 50,
-    "14": 160,
+    "13": 91,
+    "14": 206,
     "2": 41,
     "3": 98,
     "4": 61,
@@ -796,12 +803,12 @@
   ],
   "issue_categories": {
     "duplicate_id": 14,
-    "field_type_error": 637,
-    "invalid_controlled_value": 2732,
-    "missing_required_field": 9077,
+    "field_type_error": 647,
+    "invalid_controlled_value": 2752,
+    "missing_required_field": 9139,
     "schema_warning": 527,
-    "unknown_yaml_block": 1336,
-    "v2_migration_debt": 16472,
+    "unknown_yaml_block": 1350,
+    "v2_migration_debt": 16552,
     "yaml_parse_error": 1
   },
   "top_files_by_issue_count": [
@@ -1150,6 +1157,62 @@
       "category": "unknown_yaml_block",
       "file": "sources/heart_soul_introduction/relations_s62_introduction_v2.md",
       "record_id": "R-S62-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7508,6 +7571,62 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-ADORNO-HORKHEIMER-1944",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-BAUDRILLARD-1981",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-KLOSTERMAN-2005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-WEI-ZHAO-2015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-LACHNO-2014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-PELLY-2012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-SAVILLE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-001",
       "message": "Unable to infer documentary kind",
@@ -11739,10 +11858,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2691,
+    "atoms_total": 2701,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 2618,
-    "v2_missing_field_warnings": 16472
+    "atoms_v2_incomplete": 2628,
+    "v2_missing_field_warnings": 16552
   },
   "source_registry": {
     "declared_but_unused": [
@@ -11945,22 +12064,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S87",
-        "source_label": "S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018",
-        "auteur": "Jennifer Otter Bickerdike",
-        "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "postéconomie",
-          "héritage posthume Curtis",
-          "merchandising",
-          "celebrity studies",
-          "24HPP",
-          "Control"
-        ]
       },
       {
         "source_id": "S88",
@@ -13600,6 +13703,25 @@
           "registers/s86_breyley_structuring_registers.md",
           "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
           "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md"
+        ]
+      },
+      {
+        "source_id": "S87",
+        "source_label": "S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018",
+        "auteur": "Jennifer Otter Bickerdike",
+        "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
+        "annee": "2018",
+        "records": 52,
+        "atoms": 10,
+        "quotes": 6,
+        "chronology": 16,
+        "files": [
+          "registers/people/s87_otter_bickerdike_people.md",
+          "registers/quotes/s87_otter_bickerdike_quotes.md",
+          "registers/s87_otter_bickerdike_specialized_registers.md",
+          "registers/s87_otter_bickerdike_structuring_registers.md",
+          "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+          "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md"
         ]
       }
     ]
@@ -28644,6 +28766,1102 @@
       "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
       "message": "Invalid value for type_unite: source_part",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A001",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A002",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A003",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A004",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A005",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A006",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A007",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A008",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A009",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Invalid value for fiabilite: haute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "S87-A010",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md",
+      "record_id": "R-S87-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -224559,6 +225777,254 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-001",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-001",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-001",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-002",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-002",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-002",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-003",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-003",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-003",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-004",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-004",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-004",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-005",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-005",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-005",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-006",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-006",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-006",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-007",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-007",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-007",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-008",
+      "message": "Missing required field: event",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-008",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CHR-S87-008",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-ADORNO-HORKHEIMER-1944",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-BAUDRILLARD-1981",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-KLOSTERMAN-2005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-WEI-ZHAO-2015",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-LACHNO-2014",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-PELLY-2012",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "REF-S87-SAVILLE-2007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-001",
@@ -254546,6 +256012,150 @@
       "category": "missing_required_field",
       "file": "registers/quotes/s76_torn_apart_quotes_part_10.md",
       "record_id": "S76-Q111",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
+      "record_id": "S87-Q006",
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
     },

@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T14:40:52`
+Généré le : `2026-05-26T14:56:43`
 
 ## 1. Verdict
 
 Le repo n’est pas strict-compliant : 15 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 2618 atome(s) incomplet(s) sur 2691.
+La dette principale reste la migration v2 : 2628 atome(s) incomplet(s) sur 2701.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7150
+- Enregistrements : 7203
 - Erreurs : 15
-- Avertissements : 30781
+- Avertissements : 30967
 - Sources déclarées : 88
-- Sources utilisées : 73
-- Sources exportées : 73
+- Sources utilisées : 74
+- Sources exportées : 74
 - Sources utilisées absentes du registre : 1
 - Libellés faibles : 1
 
@@ -22,32 +22,32 @@ La dette principale reste la migration v2 : 2618 atome(s) incomplet(s) sur 2691.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2691 |
-| chronology | 461 |
-| concept | 444 |
-| metadata | 252 |
-| motif | 419 |
+| atom | 2701 |
+| chronology | 469 |
+| concept | 449 |
+| metadata | 258 |
+| motif | 422 |
 | myth | 101 |
 | person | 305 |
-| quote | 526 |
+| quote | 532 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 110 |
 | source | 114 |
-| template | 359 |
-| unknown | 1366 |
+| template | 360 |
+| unknown | 1380 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | duplicate_id | 14 |
-| field_type_error | 637 |
-| invalid_controlled_value | 2732 |
-| missing_required_field | 9077 |
+| field_type_error | 647 |
+| invalid_controlled_value | 2752 |
+| missing_required_field | 9139 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1336 |
-| v2_migration_debt | 16472 |
+| unknown_yaml_block | 1350 |
+| v2_migration_debt | 16552 |
 | yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
@@ -90,6 +90,13 @@ could not find expected ':'
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-004] : Unable to infer documentary kind
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-005] : Unable to infer documentary kind
 - `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-006] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-001] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-002] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-003] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-004] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-005] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-006] : Unable to infer documentary kind
+- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-007] : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
 - `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
@@ -110,14 +117,7 @@ could not find expected ':'
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-004] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-005] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-006] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-007] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/dm_rag_update_s50.md` [DM-RAG-S50] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-001] : Unable to infer documentary kind
-- `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-002] : Unable to infer documentary kind
-- … 1296 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1310 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -139,7 +139,6 @@ Sources déclarées mais non utilisées :
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
-- S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — a_atomiser
 - S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — a_atomiser
 
 Libellés faibles :
@@ -147,10 +146,10 @@ Libellés faibles :
 
 ## 8. Migration v2
 
-- Atomes : 2691
+- Atomes : 2701
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2618
-- Avertissements de champs v2 manquants : 16472
+- Atomes v2 incomplets : 2628
+- Avertissements de champs v2 manquants : 16552
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
