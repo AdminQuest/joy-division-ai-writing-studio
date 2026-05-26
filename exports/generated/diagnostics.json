@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T13:10:00",
+  "generated_at": "2026-05-26T14:40:27",
   "status": "error",
   "summary": {
-    "records_total": 7093,
+    "records_total": 7150,
     "records_by_kind": {
-      "metadata": 244,
-      "atom": 2680,
+      "metadata": 252,
+      "atom": 2691,
       "source": 114,
-      "unknown": 1351,
-      "concept": 439,
-      "motif": 416,
+      "unknown": 1366,
+      "concept": 444,
+      "motif": 419,
       "myth": 101,
-      "quote": 520,
-      "chronology": 454,
+      "quote": 526,
+      "chronology": 461,
       "person": 305,
       "song": 110,
-      "template": 357,
+      "template": 359,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 30599,
+    "diagnostics_total": 30796,
     "errors": 15,
-    "warnings": 30584,
+    "warnings": 30781,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 72,
-    "sources_exported": 72,
-    "declared_but_unused": 17,
+    "sources_used_in_records": 73,
+    "sources_exported": 73,
+    "declared_but_unused": 16,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -230,20 +230,6 @@
         "annee": "s.d.",
         "statut": "référence historique déplacée depuis S41 ; à consolider",
         "usage": "post-punk ; scène de Manchester"
-      },
-      {
-        "source_id": "S86",
-        "source_label": "S86 — Breyley, Iranian Musicians and Joy Division, 2018",
-        "auteur": "Gay Jennifer Breyley",
-        "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "réception internationale",
-          "musiciens iraniens",
-          "Joy Division héritage transculturel",
-          "musique indépendante Iran"
-        ]
       },
       {
         "source_id": "S87",
@@ -1854,13 +1840,14 @@
         "auteur": "Nick Cope",
         "titre": "Nothing Here Now but the Recordings: The Moving Image Record of Joy Division and the Factory Video Unit",
         "annee": "2018",
-        "records": 65,
+        "records": 67,
         "atoms": 23,
         "quotes": 5,
-        "chronology": 0,
+        "chronology": 1,
         "files": [
           "registers/s84_cope_specialized_registers.md",
           "registers/s84_cope_structuring_registers.md",
+          "registers/s86_breyley_specialized_registers.md",
           "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md"
         ]
       },
@@ -1878,6 +1865,26 @@
           "registers/s85_malcolm_specialized_registers.md",
           "registers/s85_malcolm_structuring_registers.md",
           "sources/malcolm_mining_counterculture/atoms_dm_s85_mining_counterculture_v2.md"
+        ]
+      },
+      {
+        "source_id": "S86",
+        "source_label": "S86 — Breyley, Iranian Musicians and Joy Division, 2018",
+        "auteur": "Gay Jennifer Breyley",
+        "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
+        "annee": "2018",
+        "records": 53,
+        "atoms": 11,
+        "quotes": 6,
+        "chronology": 14,
+        "files": [
+          "registers/organizations/s86_breyley_organizations.md",
+          "registers/people/s86_breyley_people.md",
+          "registers/quotes/s86_breyley_quotes.md",
+          "registers/s86_breyley_specialized_registers.md",
+          "registers/s86_breyley_structuring_registers.md",
+          "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+          "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md"
         ]
       }
     ]
@@ -30226,6 +30233,918 @@
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: contexte",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: etude_de_cas",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: etude_de_cas",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: etude_de_cas",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: contexte_institutionnel",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: titre",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Invalid value for type_unite: noeud_critique",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S86-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S86-009"
     },
     {
       "level": "warning",
@@ -161299,6 +162218,168 @@
     },
     {
       "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S86-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S86-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S86-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-HEGARTY-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-YI-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-LINDLEY-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-CASTORIADIS-1975"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-BENJAMIN-1992"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S86-FRITH-2003"
+    },
+    {
+      "level": "warning",
       "file": "registers/s53_la_rocca_specialized_registers.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S53-Q001"
@@ -178630,6 +179711,114 @@
       "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S76-Q195"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S86-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S86-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s86_breyley_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S86-Q006"
     },
     {
       "level": "warning",

@@ -1563,13 +1563,14 @@
     "auteur": "Nick Cope",
     "titre": "Nothing Here Now but the Recordings: The Moving Image Record of Joy Division and the Factory Video Unit",
     "annee": "2018",
-    "records": 65,
+    "records": 67,
     "atoms": 23,
     "quotes": 5,
-    "chronology": 0,
+    "chronology": 1,
     "files": [
       "registers/s84_cope_specialized_registers.md",
       "registers/s84_cope_structuring_registers.md",
+      "registers/s86_breyley_specialized_registers.md",
       "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md"
     ]
   },
@@ -1587,6 +1588,26 @@
       "registers/s85_malcolm_specialized_registers.md",
       "registers/s85_malcolm_structuring_registers.md",
       "sources/malcolm_mining_counterculture/atoms_dm_s85_mining_counterculture_v2.md"
+    ]
+  },
+  {
+    "source_id": "S86",
+    "source_label": "S86 — Breyley, Iranian Musicians and Joy Division, 2018",
+    "auteur": "Gay Jennifer Breyley",
+    "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
+    "annee": "2018",
+    "records": 53,
+    "atoms": 11,
+    "quotes": 6,
+    "chronology": 14,
+    "files": [
+      "registers/organizations/s86_breyley_organizations.md",
+      "registers/people/s86_breyley_people.md",
+      "registers/quotes/s86_breyley_quotes.md",
+      "registers/s86_breyley_specialized_registers.md",
+      "registers/s86_breyley_structuring_registers.md",
+      "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
+      "sources/breyley_iranian_musicians_jd/relations_s86_breyley_iranian_musicians.md"
     ]
   }
 ]
