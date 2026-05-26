@@ -1001,6 +1001,7 @@ related_songs:
   - Confusion
 methodological_warnings:
   - À détailler en seconde passe si le chapitre 14 mobilise fortement New Order.
+note_echantillonnage: "Passe de complétion 2026-05-26 : pp.300-302 échantillonnées — contenu B-52s/Club 57 (Athens, GA). Contenu New Order/Factory mutation probablement pp.330-360. Aucune citation extractable dans cet échantillon. Plage à affiner en seconde passe."
 ```
 
 La seconde partie du livre permet d’inscrire New Order dans la mutation du post-punk vers la new pop, la dance music, le club et l’image vidéo.
@@ -1035,6 +1036,7 @@ related_songs:
   - Love Will Tear Us Apart
 methodological_warnings:
   - Passage à détailler en seconde passe seulement si l’héritage gothique devient central.
+note_echantillonnage: "Passe de complétion 2026-05-26 : pp.360-362 échantillonnées — contenu Scritti Politti (fin) + 2-Tone (ska revival) + début ch.15 (Sex Gang Children / Malcolm McLaren). Contenu goth probablement pp.370-390. Aucune citation extractable dans cet échantillon."
 ```
 
 Reynolds inscrit le goth dans le retour d’un rock sombre après la phase new pop ; ce cadre peut servir à distinguer l’héritage Joy Division de ses simplifications gothiques.
@@ -1071,6 +1073,7 @@ related_people:
   - Brian Eno
 related_songs:
   - Warszawa
+note_echantillonnage: "Passe de complétion 2026-05-26 : pp.20-25 déjà vérifiées (prologue Bowie/Eno/Kraftwerk — section Europe froide confirmée, cf. Q001-Q003). pp.280-282 échantillonnées = contenu Scritti Politti (desire, 1981) — pas de synthpop. Contenu pp.280-320 couvre new pop / 2-Tone, pas Kraftwerk directement. Kraftwerk/synthpop documenté dans pp.20-25 (prologue)."
 ```
 
 Le livre fournit un arrière-plan indispensable pour comprendre l’attrait de Bowie, Eno, Kraftwerk et de l’Europe froide dans l’imaginaire de Warsaw/Joy Division.
@@ -1102,6 +1105,7 @@ chapitres:
 statut: a_consolider
 fiabilite: forte
 citation_directe: false
+note_echantillonnage: "Passe de complétion 2026-05-26 : pp.153-155 échantillonnées — contenu COUM Transmissions (origines) + fondation TG (1975) + technique sonore (Gristle-izer, found sounds). Aucune citation courte directement transférable pour JD. Contenu pertinent pour contrepoint industriel (ch.7/11) mais nécessite un usage paraphrastique plutôt que citation directe."
 ```
 
 Le chapitre sur Throbbing Gristle sert de contrepoint à Joy Division : même paysage industriel, mais basculement vers une stratégie beaucoup plus explicite de choc, bruit, transgression et documentation du malaise.
