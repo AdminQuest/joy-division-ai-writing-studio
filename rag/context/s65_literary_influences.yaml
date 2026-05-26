@@ -1,0 +1,79 @@
+source_id: S65
+source_label: "S65 — Martínez, Literary Influences on Joy Division, 2018"
+auteur: "Sara Martínez"
+titre_article: "Literary Influences on Joy Division: J. G. Ballard, Franz Kafka, Dostoevsky"
+titre_ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+annee: "2018"
+pagination: "p. 47–62"
+statut: atomisee
+date_atomisation: 2026-05-26
+
+description: >
+  Analyse des influences littéraires directement attestées sur Joy Division et les paroles de Ian
+  Curtis. Martínez construit une trilogie analytique : trois chansons (The Kill, Colony, Atrocity
+  Exhibition) mises en parallèle avec trois textes (Dostoevsky, Kafka, Ballard). Quatre motifs
+  transversaux : pouvoir, contrôle, trauma, dislocation psychologique. Thèse centrale : la lecture
+  était pour Curtis un vecteur de catharsis, non une contrainte — l'authenticité devient
+  "fictionnalisée". Le chapitre conclut sur l'héritage post-punk de Joy Division, Manchester
+  comme marqueur d'authenticité, l'anti-image, et l'exposition True Faith (2017).
+
+atomes:
+  - id: S65-A001
+    resume: "Curtis autodidacte et praxis culturelle contre-culturelle (NME, Re:Search, Burroughs, stream of consciousness, méthode collagiste)"
+    chapitres: [4, 6, 11]
+    concepts: [autodidaxie, contre-culture, stream_of_consciousness, cut-up]
+
+  - id: S65-A002
+    resume: "Trilogie analytique : The Kill/Dostoevsky, Colony/Kafka, Atrocity Exhibition/Ballard — quatre motifs : pouvoir, contrôle, trauma, dislocation psychologique"
+    chapitres: [4, 6]
+    concepts: [intertextualite, influences_litteraires, motifs_recurrents]
+
+  - id: S65-A003
+    resume: "Dostoevsky et 'The Kill' (Still, 1981) : Crime et châtiment comme substrat psychologique — pouvoir, contrôle, displacement"
+    chapitres: [4, 6]
+    song_id: JD-SONG-030
+    canonical_song: "The Kill"
+
+  - id: S65-A004
+    resume: "Kafka et 'Colony' (Closer, 1980) : 'In the Penal Colony' — quatre motifs (agonie, punition, religion/pouvoir, tradition), dimension prémonitoie"
+    chapitres: [4, 6]
+    song_id: JD-SONG-004
+    canonical_song: "Colony"
+
+  - id: S65-A005
+    resume: "Rencontre Curtis/Burroughs au Plan K (16 oct. 1979) — témoin Middles ; The Atrocity Exhibition de Ballard comme template expérimental ; Hook sur la prise de risque créative"
+    chapitres: [3, 4, 6, 14]
+    concepts: [plan_k, burroughs, ballard, cut-up]
+
+  - id: S65-A006
+    resume: "'Atrocity Exhibition' (chanson, Closer) : hôpital-amusement-park, premier personne, 8 couplets, son sombre, dislocation psychologique"
+    chapitres: [4, 6, 11]
+    song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+
+  - id: S65-A007
+    resume: "Lecture comme catharsis — fiction/réalité, authenticité fictionnalisée ; Middles sur la littérarité ; Deborah Curtis sur 'New Dawn Fades'"
+    chapitres: [4, 6]
+    concepts: [catharsis, fiction_realite, authenticite_fictionnalisee]
+
+  - id: S65-A008
+    resume: "Héritage post-punk : Manchester (Morra), anti-image (Hook), exposition True Faith 2017 (Saville)"
+    chapitres: [6, 11, 14]
+    concepts: [post-punk, manchester, anti-image, heritage, reception_museale]
+
+songs_referenced:
+  - song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    atomes: [S65-A005, S65-A006]
+  - song_id: JD-SONG-004
+    canonical_song: "Colony"
+    atomes: [S65-A004]
+  - song_id: JD-SONG-030
+    canonical_song: "The Kill"
+    atomes: [S65-A003]
+
+sources_liees:
+  - S64  # Bottà, European Imaginary — complément sur les lectures européennes de Curtis et le Plan K
+  - S41  # Hook, Unknown Pleasures — vérification Still et Closer
+  - S45  # Deborah Curtis, Touching from a Distance — vérification citation New Dawn Fades
+  - S62  # Devereux et al., Introduction Heart & Soul — cadre éditorial général

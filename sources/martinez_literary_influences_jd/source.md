@@ -14,8 +14,8 @@ date_pdf: "2021-01-15"
 pagination: "p. 47–62"
 partie: "PART 2: Ballard, Burroughs, Dostoevsky and Gogol: Literary (and Visual) Influences on Joy Division"
 nature: "chapitre d'ouvrage collectif"
-statut: "a_atomiser"
-fiabilite: "a_evaluer"
+statut: "atomisee"
+fiabilite: "forte_comme_lecture_analytique_a_croiser_avec_sources_primaires_pour_citations_directes"
 dossier_source: "sources/martinez_literary_influences_jd/"
 ```
 
@@ -29,11 +29,19 @@ Analyse des influences littéraires directement attestées sur Joy Division et l
 
 ## Usages prioritaires
 
+- Chapitre 4 (poésie et influences littéraires de Ian Curtis)
 - Chapitre 6 (paroles de Curtis et influences littéraires)
 - Chapitre 11 (Joy Division et dystopie, modernisme)
+- Chapitre 14 (héritage post-punk, anti-image, exposition True Faith 2017)
+
+## Atomes produits
+
+S65-A001, S65-A002, S65-A003, S65-A004, S65-A005, S65-A006, S65-A007, S65-A008
 
 ## Avertissements méthodologiques
 
 1. Les « influences » sont à documenter avec prudence : certaines sont déclarées par Curtis lui-même, d'autres sont inférées. Distinguer les deux.
 2. À croiser avec S79 (paroles manuscrites de Curtis) pour vérifier les références littéraires dans les textes.
 3. Ne pas utiliser S65 comme preuve directe d'une intention de Curtis — c'est une lecture critique.
+4. Martínez orthographie incorrectement le nom de Ka-Tzetnik (écrit « Karol Cetinsy ») — l'auteur réel est Yehiel Feiner De-Nur.
+5. La dimension « prémonitoie » de Colony est une interprétation rétrospective de Martínez, non un fait biographique.

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-26T07:20:33",
+  "generated_at": "2026-05-26T07:36:27",
   "status": "error",
   "summary": {
-    "records_total": 6604,
+    "records_total": 6652,
     "records_by_kind": {
       "source": 114,
-      "metadata": 209,
-      "unknown": 1123,
-      "atom": 2569,
-      "concept": 400,
-      "motif": 394,
+      "metadata": 213,
+      "unknown": 1150,
+      "atom": 2580,
+      "concept": 403,
+      "motif": 397,
       "myth": 101,
       "quote": 507,
       "chronology": 429,
@@ -19,13 +19,13 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 28709,
+    "diagnostics_total": 28888,
     "errors": 14,
-    "warnings": 28695,
+    "warnings": 28874,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 63,
-    "sources_exported": 63,
-    "declared_but_unused": 26,
+    "sources_used_in_records": 64,
+    "sources_exported": 64,
+    "declared_but_unused": 25,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -220,21 +220,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S65",
-        "source_label": "S65 — Martínez, Literary Influences on Joy Division, 2018",
-        "auteur": "Sara Martínez",
-        "titre": "Literary Influences on Joy Division: J. G. Ballard, Franz Kafka, Dostoevsky",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "Ballard",
-          "Kafka",
-          "Dostoevsky",
-          "influences littéraires Curtis",
-          "paroles"
         ]
       },
       {
@@ -1544,6 +1529,23 @@
           "registers/s64_european_imaginary_structuring_registers.md",
           "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
           "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md"
+        ]
+      },
+      {
+        "source_id": "S65",
+        "source_label": "S65 — Martínez, Literary Influences on Joy Division, 2018",
+        "auteur": "Sara Martínez",
+        "titre": "Literary Influences on Joy Division: J. G. Ballard, Franz Kafka, Dostoevsky",
+        "annee": "2018",
+        "records": 20,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/s65_literary_influences_specialized_registers.md",
+          "registers/s65_literary_influences_structuring_registers.md",
+          "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+          "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md"
         ]
       },
       {
@@ -93518,6 +93520,678 @@
     },
     {
       "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S65-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_lecture_analytique_a_croiser_avec_sources_primaires",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: cadre_theorique",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: cadre_analytique_de_l_auteur_non_declamatoire_pour_Curtis",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: lecture_analytique_de_Martinez_a_distinguer_de_l_intention_de_Curtis",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_intertextuelle",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: lecture_analytique_de_Martinez_citation_kafka_directe_a_verifier",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_intertextuelle",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: temoignage_de_Middles_2006_a_croiser_avec_S64_A006",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: scene_historiographique",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: lecture_analytique_de_Martinez",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_musicale",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: these_de_Martinez_soutenue_par_temoignages_a_nuancer",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: these_analytique",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for fiabilite: conclusions_de_synthese_de_Martinez_sources_a_verifier",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Invalid value for type_unite: reception_heritage",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S65-A008"
+    },
+    {
+      "level": "warning",
       "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHE-S15-001"
@@ -150584,6 +151258,396 @@
     },
     {
       "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S65-003"
+    },
+    {
+      "level": "warning",
       "file": "registers/s31_allegri_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S31-ALLEGRI-2021"
@@ -154955,6 +156019,18 @@
       "file": "registers/s78_nevarez_specialized_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MEDIA-S78-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S65-002"
     },
     {
       "level": "warning",
