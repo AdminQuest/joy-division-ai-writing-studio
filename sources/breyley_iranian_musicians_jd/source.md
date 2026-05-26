@@ -14,7 +14,7 @@ date_pdf: "2021-01-15"
 pagination: "p. 209–228"
 partie: "PART 5: Cultural Legacies"
 nature: "chapitre d'ouvrage collectif"
-statut: "a_atomiser"
+statut: "atomisee"
 fiabilite: "a_evaluer"
 dossier_source: "sources/breyley_iranian_musicians_jd/"
 ```

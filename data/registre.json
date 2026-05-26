@@ -3908,7 +3908,7 @@
     "editeur": "Rowman & Littlefield International",
     "annee": "2018",
     "pagination": "p. 17–32",
-    "statut": "en_cours",
+    "statut": "atomisee",
     "fiabilite": "haute — source secondaire pour les données biographiques et factuelles",
     "dossier_source": "sources/jacobson_jeffrey_wilson_faustian/",
     "usage": [
@@ -4298,9 +4298,23 @@
     "pagination": "p. 229–242",
     "statut": "atomisee",
     "fiabilite": "haute",
-    "chapitres": [13, 14],
+    "chapitres": [
+      13,
+      14
+    ],
     "dossier_source": "sources/otter_bickerdike_posteconomy_curtis/",
-    "atomes": ["S87-A001", "S87-A002", "S87-A003", "S87-A004", "S87-A005", "S87-A006", "S87-A007", "S87-A008", "S87-A009", "S87-A010"],
+    "atomes": [
+      "S87-A001",
+      "S87-A002",
+      "S87-A003",
+      "S87-A004",
+      "S87-A005",
+      "S87-A006",
+      "S87-A007",
+      "S87-A008",
+      "S87-A009",
+      "S87-A010"
+    ],
     "usage": [
       "postéconomie",
       "héritage posthume Curtis",
@@ -4324,8 +4338,25 @@
     "pagination": "p. 245–266",
     "statut": "atomisee",
     "fiabilite": "haute",
-    "chapitres": [4, 5, 11, 14],
-    "atomes": ["S88-A001", "S88-A002", "S88-A003", "S88-A004", "S88-A005", "S88-A006", "S88-A007", "S88-A008", "S88-A009", "S88-A010", "S88-A011"],
+    "chapitres": [
+      4,
+      5,
+      11,
+      14
+    ],
+    "atomes": [
+      "S88-A001",
+      "S88-A002",
+      "S88-A003",
+      "S88-A004",
+      "S88-A005",
+      "S88-A006",
+      "S88-A007",
+      "S88-A008",
+      "S88-A009",
+      "S88-A010",
+      "S88-A011"
+    ],
     "dossier_source": "sources/cashell_spectral_presences_new_order/",
     "usage": [
       "hauntologie",
