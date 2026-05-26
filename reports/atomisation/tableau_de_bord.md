@@ -1,235 +1,259 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **2026-05-26** depuis `data/registre.json`, `exports/generated/atoms.json` et `registers/`. Corrections : S63 (en_cours → atomisee), S84–S88 (source.md a_atomiser → atomisee), S86–S88 (données réelles après atomisation complète).
+> Régénéré le **26 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> État vérifié : 0 erreur bloquante · 2 716 atomes · 7 292 enregistrements · 89 sources déclarées.
+
+---
 
 ## Synthèse générale
 
 | Indicateur | Valeur |
-|---|---|
-| Total sources déclarées | **88** |
-| Sources avec atomes | **69** |
-| Sources atomisées complètement (✅) | **5** |
-| Sources partiellement atomisées (🟡/🔵) | **64** |
-| Sources non démarrées (⭕) | **19** |
-| **Total atomes dans le corpus** | **2711** |
+|---|---:|
+| Total sources déclarées | **89** |
+| Sources avec atomes | **70** |
+| Total atomes dans le corpus | **2 716** |
+| Total enregistrements (toutes types) | **7 292** |
+| Erreurs bloquantes (audit) | **0** ✅ |
+| Avertissements (audit) | 31 249 |
+| Dette migration v2 (atomes incomplets) | 2 643 / 2 716 |
 
-### Répartition par statut déclaré (registre.json)
+### Répartition des enregistrements par type
+
+| Type | Nombre |
+|---|---:|
+| atom | 2 716 |
+| chronology | 476 |
+| concept | 456 |
+| metadata | 264 |
+| motif | 424 |
+| myth | 101 |
+| person | 305 |
+| quote | 539 |
+| song | 110 |
+| source | 114 |
+| template | 360 |
+| unknown | 1 425 |
+| autres | 103 |
+
+### Répartition des sources par statut (registre.json)
 
 | Statut | Nb sources |
-|---|---|
-| ✅ Atomisé | 23 |
-| 🔄 2e passe | 2 |
-| ⭕ À atomiser | 0 |
-| 🟢 Vérifié | 20 |
-| 📌 Fixée | 28 |
-| 🟡 À consolider | 11 |
-| 🔵 Autre | 4 |
+|---|---:|
+| ✅ `atomisee` | 27 |
+| 🔄 `2e_passe` / seconde passe | 2 |
+| 🟢 `verifie` | 20 |
+| 📌 `fixee` / autre | 30 |
+| 🟡 `a_consolider` | 11 |
+| 🔵 Référence interne | 1 |
+| **Total** | **89** (+ REGISTRY) |
 
 ---
 
 ## Tableau principal
 
-| ID | Auteur | Titre abrégé | Statut | Pages atomisées | Chap. couverts | Atomes | Cit. | Act. | Conc. | Chans. | Lieux | Atomisation |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| S01 | Blakeley | The Regeneration of East Manchester: A… | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S02 | Sénat | Villes du futur, futur des villes : qu… | 🟢 Vérifié | — | — | 11 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S03 | Demographia | England Largest Cities: Population & D… | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S04 | Kidd | Manchester: A History | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S05 | Jeffery | Policing and the Reproduction of Local… | 🟢 Vérifié | 1–18, 20–23 | — | 14 | 0 | 0 | 0 | 0 | 0 | 🟡 Partielle (0%) ⚠️ _Manque : pp. 118–128_ |
-| S06 | Carter | Youth, race and the inner-city estate:… | 🟢 Vérifié | 248–263 | — | 13 | 0 | 0 | 0 | 0 | 0 | ✅ Complète |
-| S07 | Engels | The Condition of the Working Class in … | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S08 | situationniste | Internationale situationniste, n° 2 : … | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S09 | Cummins | Joy Division | 🟢 Vérifié | — | — | 11 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S10 | Sumner | Chapter and Verse: New Order, Joy Divi… | 🟢 Vérifié | 7, 11–15, 23–29, 31–36, 38–41, 52–64, 67–110 | — | 40 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S11 | Treasury | Financial Statement and Budget Report … | 🟢 Vérifié | 1–67 | — | 11 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S12 | Times | Bundle of press articles re AIDS | 🟢 Vérifié | — | — | 9 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S13 | Tomeo | Dance Dance Dance! L'Interzone tra il … | 🟢 Vérifié | — | — | 11 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S14 | Mondays | God's Cop | 🟢 Vérifié | — | — | 9 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S15 | Luca | The Sound and the Fury. Manchester, i … | ✅ Atomisé | 54–63 | — | 15 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S16 | Songfacts | Boredom by Buzzcocks | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S17 | contributors | Rowche Rumble | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S18 | Fédida | Manchester : L'éveil d'une scène music… | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S19 | Bourdieu | Les trois états du capital culturel | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S20 | Dodge | Mapping the geographies of Manchester'… | 🟡 À consolider | 19–36 | — | 15 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S21 | Archive | City Fun: The Hidden History of Manche… | 📌 Fixée | — | — | 10 | 3 | 7 | 5 | 2 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S22 | Wilkinson | 'Pam ponders Paul Morley's cat': City … | 🟢 Vérifié | 91–109 | — | 16 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S23 | Press | Rochdale Alternative Press / RAP newsp… | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S24 | Boon | New Hormones / Spiral Scratch EP | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S25 | Records | Factory Records : écosystème et philos… | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S26 | Butt | Post-Punk Then and Now | 🟢 Vérifié | 5–95 | — | 18 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S27 | Riom | Nick CROSSLEY, Networks of Sound, Styl… | 🟢 Vérifié | 223–225 | — | 11 | 0 | 0 | 0 | 0 | 0 | ✅ Complète |
-| S28 | Television | So It Goes | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S29 | Goddard | Missions of Dead Souls: A Hauntology o… | 🟢 Vérifié | 34–47 | — | 23 | 0 | 0 | 0 | 0 | 0 | 🟡 Partielle (0%) ⚠️ _Manque : pp. 3–16_ |
-| S30 | Frith | Sound Effects: Youth, Leisure, and the… | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S31 | Allegri | Living in the Ice Age. Joy Division: u… | 📌 Fixée | — | — | 15 | 6 | 8 | 10 | 3 | 4 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S32 | Kraftwerk | Trans-Europe Express ; Radio-Activity | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S33 | Can | Tago Mago | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S34 | Fraser | Manchester, 1976: Documenting the urba… | 🟢 Vérifié | — | — | 12 | 0 | 0 | 0 | 0 | 0 | 🟡 Partielle (0%) ⚠️ _Manque : pp. 139–154_ |
-| S35 | Morris | Record Play Pause: Confessions of a Po… | 📌 Fixée | 1–358 | — | 107 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S36 | Crosthwaite | Trauma and Degeneration: Joy Division … | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S38 | Saville | Pulsebeat of Manchester collection | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S39 | Bauman | Liquid Modernity | 🟢 Vérifié | — | — | 8 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S40 | Cacciatore | ...waiting for something to happen... | 🟢 Vérifié | — | — | 9 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S41 | Hook | Unknown Pleasures: Inside Joy Division | ✅ Atomisé | 10–15, 17–26, 35–40, 47–64, 77–83, 85–105, 107–204, 207–297 | — | 430 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S42 | Troianiello | Metropoli e spazio periferico nell und… | 📌 Fixée | — | — | 13 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S43 | Capozzi | The weight on their shoulders. Ian Cur… | 📌 Fixée | 64–75 | — | 15 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S44 | Guarino | I Joy Division tra vomito culturale e … | 📌 Fixée | 76–92 | — | 16 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S45 | Curtis | Touching from a Distance: Ian Curtis a… | ✅ Atomisé | 17–25, 30–72, 75–218 | — | 205 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S46 | Johnson | An Ideal for Living: An History of Joy… | ✅ Atomisé | 2, 4–22, 24, 29–36, 41, 47–49, 53, 64, 77, 106–107, 110, 112–114, 120, 122 | — | 190 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S47 | West | Joy Division | 🟡 À consolider | — | — | 200 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S48 | Sia | Il segno, la grafica, la visione | 📌 Fixée | 94–98 | — | 13 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S49 | Farci | Here are the Young Men, the weight on … | 📌 Fixée | — | — | 17 | 3 | 3 | 3 | 3 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S50 | Bertetti | Reimmaginare l'immaginario. Traduzioni… | 📌 Fixée | — | — | 19 | 4 | 5 | 5 | 4 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S51 | Malvezzi | Dream English Kid 1978-1980. L'immagin… | 📌 Fixée | — | — | 15 | 4 | 4 | 5 | 2 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S68 | Broll | Joy Division | ✅ Atomisé | 1–3 | — | 39 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S69 | Greig | But We Remember When We Were Young | ✅ Atomisé | 2–13 | — | 36 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S70 | Suatoni | Joy Division: Dal cuore della città / … | ✅ Atomisé | 1–12 | — | 40 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S71 | Flowers | New Order + Joy Division: Dreams Never… | 🔄 2e passe | 8–12, 16–23, 28–62, 66–70, 72–83, 85–91, 98–107, 146–152, 158–181, 183–194, 196–205, 210–214, 216–224 | — | 75 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S72 | Reynolds | Rip It Up and Start Again: Postpunk 19… | 🔄 2e passe | 7–17, 20–30, 33–44, 46–52, 54–91, 93–235, 255–390, 395–402, 410–440 | — | 61 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S73 | Orchids | Référence historique à consolider | 🔵 Déplacée | — | — | 0 | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
-| S74 | Middles | From Joy Division to New Order | ✅ Atomisé | — | — | 61 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S75 | Ott | Joy Division's Unknown Pleasures | ✅ Atomisé | — | — | 75 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S76 | Middles | Torn Apart: The Life of Ian Curtis | ✅ Atomisé | — | — | 229 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S52 | Rabbito | Control e l'infrangimento del vetro. O… | 📌 Fixée | — | — | 20 | 8 | 12 | 6 | 4 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S53 | Rocca | Immagini e simboli nell'incarnazione m… | 📌 Fixée | — | — | 16 | 14 | 11 | 7 | 2 | 4 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S54 | Gnocchi | Interzona. Burroughs e Ballard nei tes… | 📌 Fixée | — | — | 15 | 14 | 9 | 8 | 6 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S77 | Worley | 'While the world was dying, did you wo… | 📌 Fixée | — | — | 16 | 10 | 10 | 8 | 3 | 4 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S78 | Nevarez | How Joy Division Came to Sound Like Ma… | 📌 Fixée | — | — | 20 | 11 | 10 | 9 | 4 | 5 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S55 | Romania | A guide to come: i Joy Division come u… | 📌 Fixée | — | — | 12 | 6 | 5 | 8 | 1 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S56 | Barone | Directionless so plain to see. (Di)Ver… | 📌 Fixée | — | — | 21 | 7 | 4 | 11 | 3 | 3 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S57 | Villani | Ti sfido a disperarti. I Joy Division … | 📌 Fixée | — | — | 15 | 6 | 4 | 10 | 4 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S59 | Ferrara | Joy Division: una poetica della distan… | 📌 Fixée | — | — | 15 | 6 | 5 | 10 | 5 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S58 | Ilardi | Ian Curtis is not dead. Dalla Factory … | 📌 Fixée | — | — | 15 | 7 | 6 | 13 | 4 | 2 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S60 | Federici | Unknown Pleasures: Pulsar di una t-shi… | 📌 Fixée | — | — | 15 | 6 | 5 | 15 | 2 | 4 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S61 | Iovane | Trademark will tear us apart again. A … | 📌 Fixée | 287–307 | — | 16 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S37 | Morley | Joy Division: Piece by Piece: Writing … | 📌 Fixée | 21–41, 43–52 | — | 78 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S79 | Curtis | So This Is Permanence: Joy Division Ly… | 🟢 Vérifié | 2–9, 11–13, 15–21, 23–27, 29–31, 33–37, 39–45, 47–49, 51–55, 57–61, 63–91, 94–95, 98–101 | — | 133 | 0 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S62 | Power | This Is the Way, Step Inside: Understa… | ✅ Atomisé | 21–33 | — | 9 | 0 | 0 | 2 | 0 | 0 | 🔵 Partielle (pag. NR) ⚠️ _Pagination non déclarée_ |
-| S63 | Jacobson | Tony Wilson's Bloody Contract: A Re-en… | ✅ Atomisé | 17, 19–26 | — | 7 | 0 | 0 | 3 | 0 | 0 | 🟡 Partielle (56%) ⚠️ _Manque : pp. 18, 27–32_ |
-| S64 | Bottà | Trying to Find a Clue, Trying to Find … | ✅ Atomisé | 33–44 | — | 8 | 0 | 0 | 3 | 0 | 0 | 🟡 Partielle (85%) ⚠️ _Manque : pp. 45–46_ |
-| S65 | Martínez | Literary Influences on Joy Division: J… | ✅ Atomisé | 47–49, 51–61 | 3, 4, 6, 11, 14 | 8 | 0 | 0 | 3 | 3 | 0 | 🟡 Partielle (87%) ⚠️ _Manque : pp. 50, 62_ |
-| S66 | Schütte | 'Possessed by a Fury That Burns from I… | ✅ Atomisé | 63–78 | 1, 2, 4, 6, 7, 11, 14 | 8 | 0 | 0 | 5 | 9 | 0 | 🟡 Partielle (88%) ⚠️ _Manque : pp. 79–80_ |
-| S67 | Naiman | In a Lonely Place: Illness and the Tem… | ✅ Atomisé | 83–95 | 3, 4, 12, 14 | 9 | 0 | 0 | 3 | 2 | 0 | 🟡 Partielle (81%) ⚠️ _Manque : pp. 96–98_ |
-| S80 | Miyares | Communication Breakdown: Inarticulacy … | ✅ Atomisé | 99–109 | 3, 4, 6, 12, 14 | 8 | 0 | 0 | 5 | 1 | 0 | 🟡 Partielle (68%) ⚠️ _Manque : pp. 110–114_ |
-| S81 | Devereux | This Is the Crisis I Knew Had to Come:… | ✅ Atomisé | 115–128 | 12, 14 | 9 | 0 | 0 | 6 | 0 | 0 | 🟡 Partielle (87%) ⚠️ _Manque : pp. 129–130_ |
-| S82 | Parmar | Joy Division in Space: The Aesthetics … | ✅ Atomisé | 133–134, 136–152 | 3, 4, 5, 6, 13, 14 | 9 | 0 | 0 | 5 | 0 | 0 | 🟡 Partielle (86%) ⚠️ _Manque : pp. 135, 153–154_ |
-| S83 | Greenwood | Manchester, Martin Hannett and Joy Div… | ✅ Atomisé | 155–159, 161–167 | 1, 3, 5, 6 | 12 | 0 | 0 | 4 | 2 | 0 | 🟡 Partielle (75%) ⚠️ _Manque : pp. 160, 168–170_ |
-| S84 | Cope | Nothing Here Now but the Recordings: T… | ✅ Atomisé | 171–182, 185–189 | 1, 2, 3, 5, 6, 8, 9, 10, 14 | 23 | 5 | 8 | 4 | 6 | 5 | 🟡 Partielle (77%) ⚠️ _Manque : pp. 183–184, 190–192_ |
-| S85 | Malcolm | Mining for Counterculture | ✅ Atomisé | 195–207 | 1, 2, 5, 8, 10, 13, 14 | 13 | 8 | 8 | 4 | 0 | 5 | 🟡 Partielle (92%) ⚠️ _Manque : pp. 208_ |
-| S86 | Breyley | 'I Hung around in Your Soundtrack': Af… | ✅ Atomisé | 209–228 | 14 | 11 | 6 | 7 | 5 | 0 | 0 | ✅ Complète |
-| S87 | Bickerdike | As If It Never Happened: The Postecono… | ✅ Atomisé | 229–242 | 13, 14 | 10 | 6 | 7 | 5 | 0 | 0 | ✅ Complète |
-| S88 | Cashell | Things That Aren't There: Spectral Pre… | ✅ Atomisé | 245–266 | 4, 5, 11, 14 | 11 | 7 | 7 | 6 | 0 | 0 | ✅ Complète |
+_Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes · Chapitres v2 · Atomes · Cit. · Act. · Conc. · Chans. · Couverture_
+
+| ID | Auteur | Titre abrégé | Statut | Pages atomisées | Chap. v2 | At. | Cit. | Act. | Conc. | Ch. | Couverture |
+|---|---|---|---|---|---|---:|---:|---:|---:|---:|---|
+| S01 | Blakeley | The Regeneration of East Manchester | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S02 | Sénat | Villes du futur, futur des villes | 🟢 Vérifié | — | — | 11 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S03 | Demographia | England Largest Cities | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S04 | Kidd | Manchester: A History | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S05 | Jeffery | Policing and the Reproduction of Locality | 🟢 Vérifié | 1–18, 20–23 | — | 14 | 0 | 0 | 1 | 0 | 🟡 Partielle ⚠️ _Manque pp. 118–128_ |
+| S06 | Carter | Youth, race and the inner-city estate | 🟢 Vérifié | 248–263 | — | 13 | 0 | 0 | 0 | 0 | ✅ Complète |
+| S07 | Engels | The Condition of the Working Class | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S08 | I.S. | Internationale situationniste, n° 2 | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S09 | Cummins | Joy Division (photo) | 🟢 Vérifié | — | — | 11 | 0 | 0 | 5 | 0 | 🔵 Partielle (pag. NR) |
+| S10 | Sumner | Chapter and Verse | 🟢 Vérifié | 7, 11–15, 23–41, 52–110 | — | 40 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S11 | Treasury | Budget Report 1987–88 | 🟢 Vérifié | 1–67 | — | 11 | 0 | 0 | 5 | 0 | 🔵 Partielle (pag. NR) |
+| S12 | Times | Bundle AIDS / Anderton 1986 | 🟢 Vérifié | — | — | 9 | 0 | 0 | 1 | 0 | 🔵 Partielle (pag. NR) |
+| S13 | Tomeo | Dance Dance Dance! L'Interzone | 🟢 Vérifié | — | — | 11 | 0 | 0 | 1 | 0 | 🔵 Partielle (pag. NR) |
+| S14 | Mondays | God's Cop | 🟢 Vérifié | — | — | 9 | 0 | 0 | 4 | 0 | 🔵 Partielle (pag. NR) |
+| S15 | De Luca | The Sound and the Fury | ✅ Atomisé | 54–63 | — | 15 | 5 | 0 | 8 | 0 | 🔵 Partielle (pag. NR) |
+| S16 | Songfacts | Boredom by Buzzcocks | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S17 | Contrib. | Rowche Rumble (Wikipedia) | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S18 | Fédida | Manchester : L'éveil d'une scène | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S19 | Bourdieu | Les trois états du capital culturel | 📌 Fixée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S20 | Dodge | Mapping Manchester's housing | 🟡 À consolider | 19–36 | — | 15 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S21 | MDMArchive | City Fun: The Hidden History | 📌 Fixée | — | — | 10 | 4 | 7 | 5 | 2 | 🔵 Partielle (pag. NR) |
+| S22 | Wilkinson | City Fun and the politics of post-punk | 🟢 Vérifié | 91–109 | — | 16 | 0 | 0 | 9 | 0 | 🔵 Partielle (pag. NR) |
+| S23 | Press | Rochdale Alternative Press / RAP | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S24 | Boon | New Hormones / Spiral Scratch EP | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S25 | Factory | Factory Records : philosophie | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S26 | Butt | Post-Punk Then and Now | 🟢 Vérifié | 5–95 | — | 18 | 0 | 0 | 10 | 0 | 🔵 Partielle (pag. NR) |
+| S27 | Riom | Compte rendu Crossley | 🟢 Vérifié | 223–225 | — | 11 | 0 | 0 | 6 | 0 | ✅ Complète |
+| S28 | Granada | So It Goes | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S29 | Goddard | Missions of Dead Souls | 🟢 Vérifié | 34–47 | — | 23 | 5 | 12 | 4 | 5 | 🟡 Partielle ⚠️ _Manque pp. 3–16_ |
+| S30 | Frith | Sound Effects | 🟢 Vérifié | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S31 | Allegri | Living in the Ice Age | 📌 Fixée | — | — | 15 | 6 | 8 | 10 | 3 | 🔵 Partielle (pag. NR) |
+| S32 | Kraftwerk | Trans-Europe Express / Radio-Activity | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S33 | Can | Tago Mago | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S34 | Fraser | Manchester, 1976 | 🟢 Vérifié | — | — | 12 | 6 | 12 | 3 | 7 | 🟡 Partielle ⚠️ _Manque pp. 139–154_ |
+| S35 | Morris | Record Play Pause | 📌 Fixée | 1–358 | — | 90 | 0 | 0 | 24 | 0 | 🔵 Partielle (pag. NR) |
+| S36 | Crosthwaite | Trauma and Degeneration | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S38 | Saville | Pulsebeat of Manchester | 🟡 À consolider | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S39 | Bauman | Liquid Modernity | 🟢 Vérifié | — | — | 8 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S40 | Cacciatore | …waiting for something to happen | 🟢 Vérifié | — | — | 9 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S41 | Hook | Unknown Pleasures | ✅ Atomisé | 10–297 (sélectif) | — | 430 | 9 | 9 | 0 | 7 | 🔵 Partielle (pag. NR) |
+| S42 | Troianiello | Metropoli e spazio periferico | 📌 Fixée | — | — | 13 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S43 | Capozzi | The weight on their shoulders | 📌 Fixée | 64–75 | — | 15 | 0 | 0 | 5 | 0 | 🔵 Partielle (pag. NR) |
+| S44 | Guarino | I Joy Division tra vomito culturale | 📌 Fixée | 76–92 | — | 16 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S45 | Curtis D. | Touching from a Distance | ✅ Atomisé | 17–218 (sélectif) | — | 205 | 56 | 37 | 0 | 5 | 🔵 Partielle (pag. NR) |
+| S46 | Johnson | An Ideal for Living | ✅ Atomisé | 2–122 (sélectif) | — | 190 | 5 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S47 | West | Joy Division | 🟡 Consolidée | — | — | 200 | 15 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S48 | De Sia | Il segno, la grafica, la visione | 📌 Fixée | 94–98 | — | 13 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S49 | Farci | Here are the Young Men | 📌 Fixée | — | — | 17 | 3 | 3 | 3 | 3 | 🔵 Partielle (pag. NR) |
+| S50 | Bertetti | Reimmaginare l'immaginario | 📌 Fixée | — | — | 19 | 4 | 5 | 5 | 4 | 🔵 Partielle (pag. NR) |
+| S51 | Malvezzi | Dream English Kid 1978–1980 | 📌 Fixée | — | — | 15 | 4 | 4 | 5 | 2 | 🔵 Partielle (pag. NR) |
+| S52 | Rabbito | Control e l'infrangimento del vetro | 📌 Fixée | — | — | 20 | 12 | 12 | 6 | 4 | 🔵 Partielle (pag. NR) |
+| S53 | La Rocca | Immagini e simboli | 📌 Fixée | — | — | 16 | 15 | 11 | 7 | 2 | 🔵 Partielle (pag. NR) |
+| S54 | Gnocchi | Interzona. Burroughs e Ballard | 📌 Fixée | — | — | 15 | 15 | 9 | 8 | 6 | 🔵 Partielle (pag. NR) |
+| S55 | Romania | A guide to come | 📌 Fixée | — | — | 12 | 7 | 5 | 8 | 1 | 🔵 Partielle (pag. NR) |
+| S56 | Barone | Directionless so plain to see | 📌 Fixée | — | — | 21 | 7 | 4 | 11 | 3 | 🔵 Partielle (pag. NR) |
+| S57 | Villani | Ti sfido a disperarti | 📌 Fixée | — | — | 15 | 6 | 4 | 10 | 4 | 🔵 Partielle (pag. NR) |
+| S58 | Ilardi | Ian Curtis is not dead | 📌 Fixée | — | — | 15 | 8 | 6 | 13 | 4 | 🔵 Partielle (pag. NR) |
+| S59 | Ferrara | Joy Division: una poetica della distanza | 📌 Fixée | — | — | 15 | 6 | 5 | 10 | 5 | 🔵 Partielle (pag. NR) |
+| S60 | Federici | Unknown Pleasures: Pulsar di una t-shirt | 📌 Fixée | — | — | 15 | 6 | 5 | 15 | 2 | 🔵 Partielle (pag. NR) |
+| S61 | Iovane | Trademark will tear us apart again | 📌 Fixée | 287–307 | — | 16 | 0 | 0 | 1 | 2 | 🔵 Partielle (pag. NR) |
+| S68 | Broll | Joy Division (1988) | ✅ Atomisé | 1–3 | — | 39 | 3 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S69 | Greig | But We Remember When We Were Young | ✅ Atomisé | 2–13 | — | 36 | 6 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S70 | Suatoni | Dal cuore della città | ✅ Atomisé | 1–12 | — | 40 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S71 | Flowers | Dreams Never End | 🔄 2e passe | 8–224 (sélectif) | — | 75 | 20 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S72 | Reynolds | Rip It Up and Start Again | 🔄 2e passe | 7–440 (sélectif) | — | 61 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S73 | Orchids | Référence historique à consolider | 🔵 Déplacée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
+| S74 | Middles | From Joy Division to New Order | ✅ Atomisé | — | — | 61 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S75 | Ott | Joy Division's Unknown Pleasures | ✅ Atomisé | — | — | 75 | 21 | 27 | 0 | 33 | 🔵 Partielle (pag. NR) |
+| S76 | Middles | Torn Apart: The Life of Ian Curtis | ✅ Atomisé | — | — | 229 | 195 | 89 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S77 | Worley | Punk, Politics and British (fan)zines | 📌 Fixée | — | — | 16 | 10 | 10 | 8 | 3 | 🔵 Partielle (pag. NR) |
+| S78 | Nevarez | How Joy Division Came to Sound Like Manchester | 📌 Fixée | — | — | 20 | 14 | 10 | 9 | 4 | 🔵 Partielle (pag. NR) |
+| S37 | Morley | Joy Division: Piece by Piece | 📌 Fixée | 21–52 (sélectif) | — | 78 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S79 | Curtis/Savage | So This Is Permanence | 🟢 Vérifié | 2–101 (sélectif) | — | 133 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+
+---
+
+## Sources Heart & Soul (S62–S88) — état détaillé
+
+_Volume Heart & Soul (H&S) : Power, Devereux, Dillane (dir.), Rowman & Littlefield, 2018. PDF partagé. Offset pagination : pages_pdf = pages_livre + 31._
+
+| ID | Auteur | Titre abrégé | Pages livre | Pages PDF | At. | Cit. | Act. | Conc. | Chap. couverts | Couverture |
+|---|---|---|---|---|---:|---:|---:|---:|---|---|
+| S62 | Power et al. | Introduction H&S | xvii–xxx | 48–61 | 9 | 0 | 0 | 2 | 14 | ✅ Complète (citations section absente) |
+| S63 | Jacobson & Jeffrey | Tony Wilson's Bloody Contract | p. 17–32 | 48–63 | 11 | 0 | 0 | 3 | 2, 3, 12, 14 | ✅ Complète |
+| S64 | Bottà | European Imaginary of Joy Division | p. 33–46 | 64–77 | 8 | 0 | 0 | 3 | 1, 4, 14 | 🟡 Partielle (85%) ⚠️ _Manque pp. 45–46_ |
+| S65 | Martínez | Literary Influences on Joy Division | p. 47–62 | 78–93 | 8 | 0 | 0 | 3 | 3, 4, 6, 11, 14 | 🟡 Partielle (87%) ⚠️ _Manque pp. 50, 62_ |
+| S66 | Schütte | On Ian Curtis's Lyrics | p. 63–80 | 94–111 | 8 | 0 | 0 | 5 | 1, 2, 4, 6, 7, 11, 14 | 🟡 Partielle (88%) ⚠️ _Manque pp. 79–80_ |
+| S67 | Naiman | Illness and Temporal Exile | p. 83–98 | 114–129 | 9 | 0 | 0 | 3 | 3, 4, 12, 14 | 🟡 Partielle (81%) ⚠️ _Manque pp. 96–98_ |
+| S80 | Valdés Miyares | Communication Breakdown / Transmission | p. 99–114 | 130–145 | 8 | 0 | 0 | 5 | 3, 4, 6, 12, 14 | 🟡 Partielle (68%) ⚠️ _Manque pp. 110–114_ |
+| S81 | Devereux et al. | Revisiting Ian Curtis's Suicide | p. 115–130 | 146–161 | 9 | 0 | 0 | 6 | 12, 14 | 🟡 Partielle (87%) ⚠️ _Manque pp. 129–130_ |
+| S82 | Parmar | Joy Division in Space | p. 133–154 | 164–185 | 9 | 0 | 0 | 5 | 3, 4, 5, 6, 13, 14 | 🟡 Partielle (86%) ⚠️ _Manque pp. 135, 153–154_ |
+| S83 | Greenwood & Tarpey | Hannett's Pungent Architecture | p. 155–170 | 186–201 | 12 | 0 | 0 | 4 | 1, 3, 5, 6 | 🟡 Partielle (75%) ⚠️ _Manque pp. 160, 168–170_ |
+| S84 | Cope | Moving Image Record (Factory Video) | p. 171–192 | 202–223 | 23 | 5 | 8 | 4 | 1, 2, 3, 5, 6, 8, 9, 10, 14 | 🟡 Partielle (77%) ⚠️ _Manque pp. 183–184, 190–192_ |
+| S85 | Malcolm | Mining for Counterculture | p. 195–208 | 226–239 | 13 | 8 ✅ | 8 | 4 | 1, 2, 5, 8, 10, 13, 14 | 🟡 Partielle (92%) ⚠️ _Manque p. 208_ |
+| S86 | Breyley | Iranian Musicians and Joy Division | p. 209–228 | 240–259 | 11 | 5 ✅ | 7 | 5 | 14 | ✅ Complète |
+| S87 | Otter Bickerdike | Posteconomy of Joy Division | p. 229–242 | 260–273 | 10 | 6 ✅ | 7 | 5 | 13, 14 | ✅ Complète |
+| S88 | Cashell | Spectral Presences / Joy Division → New Order | p. 245–266 | 276–297 | 11 | 10 ✅ | 7 | 6 | 4, 5, 11, 14 | ✅ Complète |
+
+> ✅ dans colonne Citations = section CITATIONS vérifiée sur PDF (note_verification présente sur chaque entrée).  
+> Chapitres = champs `chapitres:` dans les atomes v2 ou les relations.
+
+---
+
+## Couverture par chapitre du manuscrit
+
+_Sources atomisées couvrant chaque chapitre (ch. 1–14), d'après les champs `chapitres:` déclarés dans les atomes v2._
+
+| Chapitre | Records totaux | Sources H&S couvrantes | Nb H&S |
+|---|---:|---|---:|
+| Ch. 01 | 541 | S66, S83, S84, S85 | 4 |
+| Ch. 02 | 750 | S66, S84, S85 | 3 |
+| Ch. 03 | 777 | S65, S67, S80, S82, S83, S84 | 6 |
+| Ch. 04 | 672 | S65, S66, S67, S80, S82, S88 | 6 |
+| Ch. 05 | 672 | S82, S83, S84, S85, S88 | 5 |
+| Ch. 06 | 933 | S65, S66, S80, S82, S83, S84 | 6 |
+| Ch. 07 | 298 | S66 | 1 ⚠️ |
+| Ch. 08 | 658 | S84, S85 | 2 ⚠️ |
+| Ch. 09 | 364 | S84 | 1 ⚠️ |
+| Ch. 10 | 605 | S84, S85 | 2 ⚠️ |
+| Ch. 11 | 650 | S65, S66, S88 | 3 |
+| Ch. 12 | 717 | S67, S80, S81 | 3 |
+| Ch. 13 | 443 | S82, S85, S87 | 3 |
+| Ch. 14 | 2 285 | S62, S63, S64, S65, S66, S67, S80, S81, S82, S84, S85, S86, S87, S88 | 14 |
+
+### Chapitres avec couverture H&S < 4 sources
+
+- **Ch. 02** — 3 sources : `S66, S84, S85`  
+- **Ch. 07** — 1 source : `S66` ← **lacune critique**  
+- **Ch. 08** — 2 sources : `S84, S85`  
+- **Ch. 09** — 1 source : `S84` ← **lacune critique**  
+- **Ch. 10** — 2 sources : `S84, S85`  
+- **Ch. 11** — 3 sources : `S65, S66, S88`  
+- **Ch. 12** — 3 sources : `S67, S80, S81`  
+- **Ch. 13** — 3 sources : `S82, S85, S87`  
+
+> Ch. 07 et 09 sont couverts par d'autres sources du corpus (S41, S45, S46, S47, S75, S76…) mais dans le périmètre H&S, la couverture reste très limitée.
+
+---
+
+## Sources prioritaires — actions restantes
+
+### A — Sources avec pages manquantes (H&S)
+
+| ID | Auteur | Pages manquantes | % couvert |
+|---|---|---|---|
+| S64 | Bottà | pp. 45–46 | 85% |
+| S65 | Martínez | pp. 50, 62 | 87% |
+| S66 | Schütte | pp. 79–80 | 88% |
+| S67 | Naiman | pp. 96–98 | 81% |
+| S80 | Valdés Miyares | pp. 110–114 | 68% |
+| S81 | Devereux et al. | pp. 129–130 | 87% |
+| S82 | Parmar | pp. 135, 153–154 | 86% |
+| S83 | Greenwood & Tarpey | pp. 160, 168–170 | 75% |
+| S84 | Cope | pp. 183–184, 190–192 | 77% |
+| S85 | Malcolm | p. 208 | 92% |
+
+### B — Sources `deuxième_passe` engagées
+
+| ID | Auteur | Titre | Atomes actuels |
+|---|---|---|---:|
+| S71 | Flowers | New Order + Joy Division: Dreams Never End | 75 |
+| S72 | Reynolds | Rip It Up and Start Again | 61 |
+
+### C — Sources fixées sans atomes (non démarrées)
+
+| ID | Auteur | Titre | Note |
+|---|---|---|---|
+| S07 | Engels | The Condition of the Working Class | PDF identifié |
+| S08 | I.S. | Internationale situationniste, n° 2 | OCR faible |
+| S16 | Songfacts | Boredom by Buzzcocks | Web, évolutif |
+| S17 | Contrib. | Rowche Rumble (Wikipedia) | Web, évolutif |
+| S19 | Bourdieu | Les trois états du capital culturel | PDF identifié |
+
+### D — Sources à consolider (aucun atome)
+
+S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
+
+---
+
+## État de l'audit
+
+| Métrique | Valeur | Delta session |
+|---|---|---|
+| Erreurs bloquantes | **0** | -15 (était 15) |
+| Doublons d'identifiants | **0** | -14 (supprimés / renommés) |
+| YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
+| Avertissements | 31 249 | stable |
+| unknown_yaml_blocks | 1 425 | stable (type: ajoutés → reste warn.) |
+| v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
 
 ---
 
 ## Notes d'interprétation
 
-> **Discordance statut / atomes** : plusieurs sources affichent 🔵 Partielle dans la colonne Atomisation mais ont des atomes réels. La colonne Statut reflète le champ `statut` de `data/registre.json` ; la colonne Atomisation reflète la couverture réelle des pages déclarées.  
-> **Pagination non déclarée** : de nombreuses sources n'ont pas de champ `pagination` dans `registre.json`. L'état "🔵 Partielle (pag. NR)" signifie que des atomes existent mais qu'il est impossible de calculer la couverture sans borne déclarée.  
-> **Chapitres** : la colonne "Chap. couverts" ne reflète que les chapitres déclarés dans les atomes v2 (champ `chapitres`). Les sources atomisées en v1 (sans ce champ) affichent "—".
+- **Pagination non déclarée** : les sources sans champ `pages_atomisees` dans `source.md` affichent "pag. NR". Des atomes existent mais la couverture est incalculable.
+- **Chapitres v2** : la colonne "Chap. v2" ne compte que les atomes déclarant explicitement un champ `chapitres:` (format v2). Les atomes v1 affichent "—".
+- **Dette migration v2** : 2 643 atomes sur 2 716 manquent de champs v2 obligatoires. Cette dette ne doit pas être corrigée mécaniquement — elle relève d'une migration progressive source par source.
+- **REGISTRY** : identifiant interne de référence pour les chansons, ajouté au registre le 26/05/2026.
 
 ---
 
-## Sources prioritaires restantes
-
-### A — Sources `deuxième_passe` ou avec pages manquantes significatives
-
-> Les sources S62–S67 et S80–S85 ont été atomisées (statut `atomisee` dans `registre.json`). Des pages restent manquantes pour certaines d'entre elles — voir colonne Atomisation.
-
-| ID | Auteur | Titre | Pagination | Statut |
-|---|---|---|---|---|
-| S71 | Flowers | New Order + Joy Division: Dreams Never End | — | 🔄 2e passe |
-| S72 | Reynolds | Rip It Up and Start Again: Postpunk 1978–1984 | — | 🔄 2e passe |
-| S63 | Jacobson | Tony Wilson's Bloody Contract: A Re-enactment of the Faustia… | p. 17–32 | ⚠️ Partielle (56%) — manque pp. 18, 27–32 |
-| S64 | Bottà | Trying to Find a Clue, Trying to Find a Way to Get Out! The … | p. 33–46 | ⚠️ Partielle (85%) — manque pp. 45–46 |
-| S65 | Martínez | Literary Influences on Joy Division: J. G. Ballard, Franz Ka… | p. 47–62 | ⚠️ Partielle (87%) — manque pp. 50, 62 |
-| S66 | Schütte | 'Possessed by a Fury That Burns from Inside': On Ian Curtis'… | p. 63–80 | ⚠️ Partielle (88%) — manque pp. 79–80 |
-| S67 | Naiman | In a Lonely Place: Illness and the Temporal Exile of Ian Cur… | p. 83–98 | ⚠️ Partielle (81%) — manque pp. 96–98 |
-| S80 | Miyares | Communication Breakdown: Inarticulacy and the Significance o… | p. 99–114 | ⚠️ Partielle (68%) — manque pp. 110–114 |
-| S81 | Devereux | This Is the Crisis I Knew Had to Come: Revisiting Ian Curtis… | p. 115–130 | ⚠️ Partielle (87%) — manque pp. 129–130 |
-| S82 | Parmar | Joy Division in Space: The Aesthetics of Estrangement | p. 133–154 | ⚠️ Partielle (86%) — manque pp. 135, 153–154 |
-| S83 | Greenwood | Manchester, Martin Hannett and Joy Division's Pungent Archit… | p. 155–170 | ⚠️ Partielle (75%) — manque pp. 160, 168–170 |
-| S84 | Cope | Nothing Here Now but the Recordings: The Moving Image… | p. 171–192 | ⚠️ Partielle (77%) — manque pp. 183–184, 190–192 |
-| S85 | Malcolm | Mining for Counterculture | p. 195–208 | ⚠️ Partielle (92%) — manque p. 208 |
-
-### B — Sources `fixée` sans atomes (non démarrées)
-
-| ID | Auteur | Titre | Pagination |
-|---|---|---|---|
-| S07 | Engels | The Condition of the Working Class in England | — |
-| S08 | situationniste | Internationale situationniste, n° 2 : Essai de description p… | — |
-| S16 | Songfacts | Boredom by Buzzcocks | — |
-| S17 | contributors | Rowche Rumble | — |
-| S19 | Bourdieu | Les trois états du capital culturel | — |
-
-### C — Sources `atomisé` avec pages manquantes (couverture incomplète)
-
-| ID | Auteur | Titre | Complétude | Pages manquantes |
-|---|---|---|---|---|
-| S15 | Luca | The Sound and the Fury. Manchester, i Joy Division… | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S41 | Hook | Unknown Pleasures: Inside Joy Division | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S45 | Curtis | Touching from a Distance: Ian Curtis and Joy Divis… | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S46 | Johnson | An Ideal for Living: An History of Joy Division | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S68 | Broll | Joy Division | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S69 | Greig | But We Remember When We Were Young | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S70 | Suatoni | Joy Division: Dal cuore della città / From the Cen… | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S71 | Flowers | New Order + Joy Division: Dreams Never End | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S72 | Reynolds | Rip It Up and Start Again: Postpunk 1978–1984 | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S74 | Middles | From Joy Division to New Order | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S75 | Ott | Joy Division's Unknown Pleasures | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S76 | Middles | Torn Apart: The Life of Ian Curtis | 🔵 Partielle (pag. NR) | Pagination non déclarée |
-| S84 | Cope | Nothing Here Now but the Recordings: The Moving Im… | 🟡 Partielle (77%) | Manque : pp. 183–184, 190–192 |
-| S85 | Malcolm | Mining for Counterculture | 🟡 Partielle (92%) | Manque : pp. 208 |
-
----
-
-## Sources avec citations majoritairement vides
-
-Sources atomisées ou fixées dont le registre spécialisé contient > 50 % de champs `à_compléter` :
-
-_Aucune source avec > 50 % de citations vides détectée._
-
----
-
-## Couverture par chapitre
-
-Nombre de sources apportant des atomes à chaque chapitre du manuscrit (ch. 1–14) :
-
-| Chapitre | Sources atomisées couvrant ce chapitre | Nb |
-|---|---|---|
-| Ch. 01 | ✅ S66, S83, S84, S85 | 4 |
-| Ch. 02 | 🟡 S66, S84, S85 | 3 |
-| Ch. 03 | ✅ S65, S67, S80, S82, S83, S84 | 6 |
-| Ch. 04 | ✅ S65, S66, S67, S80, S82, S88 | 6 |
-| Ch. 05 | ✅ S82, S83, S84, S85, S88 | 5 |
-| Ch. 06 | ✅ S65, S66, S80, S82, S83, S84 | 6 |
-| Ch. 07 | ⚠️ S66 | 1 |
-| Ch. 08 | 🟡 S84, S85 | 2 |
-| Ch. 09 | ⚠️ S84 | 1 |
-| Ch. 10 | 🟡 S84, S85 | 2 |
-| Ch. 11 | 🟡 S65, S66, S88 | 3 |
-| Ch. 12 | 🟡 S67, S80, S81 | 3 |
-| Ch. 13 | 🟡 S82, S85, S87 | 3 |
-| Ch. 14 | ✅ S65, S66, S67, S80, S81, S82, S84, S85, S86, S87, S88 | 11 |
-
-### Chapitres avec couverture < 4 sources — lacunes critiques
-
-**Ch. 02** — 3 source(s) couvrante(s) : `S66, S84, S85`
-
-**Ch. 07** — 1 source(s) couvrante(s) : `S66`
-
-**Ch. 08** — 2 source(s) couvrante(s) : `S84, S85`
-
-**Ch. 09** — 1 source(s) couvrante(s) : `S84`
-
-**Ch. 10** — 2 source(s) couvrante(s) : `S84, S85`
-
-**Ch. 11** — 3 source(s) couvrante(s) : `S65, S66, S88`
-
-**Ch. 12** — 3 source(s) couvrante(s) : `S67, S80, S81`
-
-**Ch. 13** — 3 source(s) couvrante(s) : `S82, S85, S87`
-
----
-
-_Rapport régénéré le 2026-05-26. Sources S86 (Breyley), S87 (Bickerdike), S88 (Cashell) atomisées dans cette session. S63 (Jacobson) corrigé en_cours → atomisee._
+_Tableau régénéré le 26 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
