@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T15:25:32`
+Généré le : `2026-05-26T16:26:50`
 
 ## 1. Verdict
 
 Le repo n’est pas strict-compliant : 15 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 2639 atome(s) incomplet(s) sur 2712.
+La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7260
+- Enregistrements : 7274
 - Erreurs : 15
-- Avertissements : 31168
+- Avertissements : 31228
 - Sources déclarées : 88
 - Sources utilisées : 75
 - Sources exportées : 75
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 2639 atome(s) incomplet(s) sur 2712.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2712 |
+| atom | 2716 |
 | chronology | 476 |
-| concept | 455 |
+| concept | 456 |
 | metadata | 264 |
-| motif | 425 |
+| motif | 426 |
 | myth | 101 |
 | person | 305 |
 | quote | 539 |
@@ -35,19 +35,19 @@ La dette principale reste la migration v2 : 2639 atome(s) incomplet(s) sur 2712.
 | song | 110 |
 | source | 114 |
 | template | 361 |
-| unknown | 1396 |
+| unknown | 1404 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | duplicate_id | 14 |
-| field_type_error | 658 |
-| invalid_controlled_value | 2774 |
-| missing_required_field | 9203 |
+| field_type_error | 662 |
+| invalid_controlled_value | 2782 |
+| missing_required_field | 9211 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1366 |
-| v2_migration_debt | 16640 |
+| unknown_yaml_block | 1374 |
+| v2_migration_debt | 16672 |
 | yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
@@ -117,7 +117,7 @@ could not find expected ':'
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
-- … 1326 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1334 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -145,10 +145,10 @@ Libellés faibles :
 
 ## 8. Migration v2
 
-- Atomes : 2712
+- Atomes : 2716
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2639
-- Avertissements de champs v2 manquants : 16640
+- Atomes v2 incomplets : 2643
+- Avertissements de champs v2 manquants : 16672
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

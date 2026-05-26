@@ -14,7 +14,8 @@ source_transmettrice: S64
 page_pdf_s64: "72"
 page_livre_s64: "41"
 langue: anglais
-statut: a_verifier_sur_source_primaire
+statut: verifie_texte_ha
+note_verification: "Texte confirmé dans H&S PDF p.41 — correspond exactement à ce que Bottà cite. Non vérifié dans Hewitt 2010 directement."
 ```
 
 « Joy Division used to play *Trans-Europe Express* before we went on stage, to get us into the zone. It worked because it gets up a lot of momentum. Radioactivity was a bit of a downer album for me, but *Trans-Europe Express* just seemed to express an optimism — even if people see it as machine music. It reminds me of Cabaret, the film, with all of the 1920s singing. »
@@ -34,6 +35,7 @@ page_pdf_s64: "75"
 page_livre_s64: "43-44"
 langue: anglais (traduit de l'allemand par l'auteur)
 statut: traduction_a_verifier
+note_verification: "Texte confirmé dans H&S PDF p.43-44 — traduction Bottà reproduite telle quelle. Non vérifiable sans l'original allemand de Spex n°1, 1980."
 ```
 
 « The insight and clarity with which Joy Division could express the slippery feeling between rage and quietness, sweetness and bitterness was simply convincing. And I believe this impression was not just for me. After an initial hesitation (listening first) Joy Division brought almost the entire audience to its feet. It danced inside as well as outside. Joy Division's gain will be, to have come a step closer to our 'modern soul'. »
@@ -54,7 +56,8 @@ source_transmettrice: S64
 page_pdf_s64: "70"
 page_livre_s64: "39"
 langue: anglais
-statut: a_verifier_sur_source_primaire
+statut: verifie_texte_ha
+note_verification: "Texte confirmé dans H&S PDF p.39 — correspond exactement à ce que Bottà cite. Non vérifié dans Chapter and Verse p.119 directement."
 ```
 
 « I traced it with a pencil, inked it on to a piece of paper and the drummer boy became the illustration on the cover of the EP. Which did cause a bit of a stir, it's fair to say. »
@@ -92,7 +95,8 @@ source_transmettrice: S64
 page_pdf_s64: "73"
 page_livre_s64: "42"
 langue: anglais
-statut: a_verifier_sur_source_primaire
+statut: verifie_texte_ha
+note_verification: "Texte confirmé dans H&S PDF p.42 — correspond exactement à ce que Bottà cite. Non vérifié dans Ghosts of My Life p.80 directement."
 ```
 
 « Joy Division were the most Schopenhauerian of rock groups, so much so that they barely belonged to rock at all. Since they had so thoroughly stripped out rock's libidinal motor – it would be better to say that they were, libidinally as well as sonically, anti-rock. »

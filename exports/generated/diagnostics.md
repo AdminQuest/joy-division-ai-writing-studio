@@ -1,14 +1,14 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T15:25:10`
+Généré le : `2026-05-26T18:36:56`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 7260
+- Enregistrements : 7274
 - Erreurs : 15
-- Avertissements : 31168
+- Avertissements : 31228
 - Sources déclarées dans `data/registre.json` : 88
 - Sources utilisées dans les enregistrements : 75
 - Sources exportées : 75
@@ -18,11 +18,11 @@ Statut : **error**
 
 ## Enregistrements par type
 
-- atom : 2712
+- atom : 2716
 - chronology : 476
-- concept : 455
+- concept : 456
 - metadata : 264
-- motif : 425
+- motif : 426
 - myth : 101
 - person : 305
 - quote : 539
@@ -31,7 +31,7 @@ Statut : **error**
 - song : 110
 - source : 114
 - template : 361
-- unknown : 1396
+- unknown : 1404
 
 ## Sources utilisées mais absentes du registre
 
@@ -160,4 +160,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 31083 problèmes supplémentaires dans `diagnostics.json`.
+- … 31143 problèmes supplémentaires dans `diagnostics.json`.

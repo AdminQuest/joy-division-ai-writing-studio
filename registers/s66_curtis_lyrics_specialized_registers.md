@@ -71,7 +71,7 @@ atome: S66-A003
 chapitres: [1, 11]
 ```
 
-Sebald décrit les scènes de délabrement urbain manchestérien qui le plongeaient « often into a quasi/sub-lunary state of deep melancholia ».
+Sebald décrit les scènes de délabrement urbain manchestérien qui le plongeaient « often plunged me into a quasi/sub-lunary state of deep melancholia ».
 
 ---
 

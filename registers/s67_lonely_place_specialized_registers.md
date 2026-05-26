@@ -71,7 +71,8 @@ page_livre: "87"
 atomes: [S67-A002]
 locuteur: "Annik Honoré"
 source_primaire: "Middles et Reade 2006, 202"
-fiabilite: a_verifier
+fiabilite: forte
+note_verification: "Texte confirmé dans H&S PDF p.87 (Naiman cite Middles et Reade 2006, 202). Le texte est correctement transcrit dans H&S ; non vérifié dans Middles/Reade directement."
 ```
 
 > « When he had a fit, it made him surreal, terribly frightening: … But it's almost something magical like a connection between the conscious and the unconscious. Suddenly, he goes into a world with no relation to reality. »
