@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-26T07:36:27",
+  "generated_at": "2026-05-26T07:59:47",
   "status": "error",
   "summary": {
-    "records_total": 6652,
+    "records_total": 6712,
     "records_by_kind": {
       "source": 114,
-      "metadata": 213,
-      "unknown": 1150,
-      "atom": 2580,
-      "concept": 403,
-      "motif": 397,
+      "metadata": 217,
+      "unknown": 1182,
+      "atom": 2597,
+      "concept": 408,
+      "motif": 399,
       "myth": 101,
       "quote": 507,
       "chronology": 429,
@@ -19,13 +19,13 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 28888,
+    "diagnostics_total": 29168,
     "errors": 14,
-    "warnings": 28874,
+    "warnings": 29154,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 64,
-    "sources_exported": 64,
-    "declared_but_unused": 25,
+    "sources_used_in_records": 65,
+    "sources_exported": 65,
+    "declared_but_unused": 24,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -220,20 +220,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S66",
-        "source_label": "S66 — Schütte, On Ian Curtis's Lyrics, 2018",
-        "auteur": "Uwe Schütte",
-        "titre": "'Possessed by a Fury That Burns from Inside': On Ian Curtis's Lyrics",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "paroles de Curtis comme corpus littéraire",
-          "poétique des paroles",
-          "philologie",
-          "dimension autobiographique"
         ]
       },
       {
@@ -1546,6 +1532,23 @@
           "registers/s65_literary_influences_structuring_registers.md",
           "sources/martinez_literary_influences_jd/atoms_dm_s65_literary_influences_v2.md",
           "sources/martinez_literary_influences_jd/relations_s65_literary_influences_v2.md"
+        ]
+      },
+      {
+        "source_id": "S66",
+        "source_label": "S66 — Schütte, On Ian Curtis's Lyrics, 2018",
+        "auteur": "Uwe Schütte",
+        "titre": "'Possessed by a Fury That Burns from Inside': On Ian Curtis's Lyrics",
+        "annee": "2018",
+        "records": 20,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/s66_curtis_lyrics_specialized_registers.md",
+          "registers/s66_curtis_lyrics_structuring_registers.md",
+          "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+          "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md"
         ]
       },
       {
@@ -32281,6 +32284,678 @@
       "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
       "message": "Unable to infer documentary kind",
       "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_cadrage_methodologique",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: cadre_theorique",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_cadrage_contextuel_a_croiser_pour_citations_biographiques",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_lecture_analytique",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: cadre_analytique",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_pour_les_faits_historiques_et_l_analyse_textuelle_a_verifier_pour_ka-tzetnik",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_intertextuelle",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_lecture_analytique_a_croiser_avec_S64_A003_S64_A004",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_contextuelle",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_lecture_analytique",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_poetique",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_lecture_analytique",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: analyse_oeuvre_intertextuelle",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for fiabilite: forte_comme_synthese_de_Schutte",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Invalid value for type_unite: these_conclusive",
+      "record_id": "S66-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S66-A008"
     },
     {
       "level": "warning",
@@ -152614,6 +153289,990 @@
     },
     {
       "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S66-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S66-009"
+    },
+    {
+      "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CIT-S64-001"
@@ -155089,6 +156748,30 @@
       "file": "registers/s64_european_imaginary_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "LIEU-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S66-004"
     },
     {
       "level": "warning",

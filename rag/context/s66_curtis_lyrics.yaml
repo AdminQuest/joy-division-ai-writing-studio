@@ -1,0 +1,106 @@
+source_id: S66
+source_label: "S66 — Schütte, On Ian Curtis's Lyrics, 2018"
+auteur: "Uwe Schütte"
+titre_article: "'Possessed by a Fury That Burns from Inside': On Ian Curtis's Lyrics"
+titre_ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+annee: "2018"
+pagination: "p. 63–80"
+statut: atomisee
+date_atomisation: 2026-05-26
+
+description: >
+  Analyse des paroles de Ian Curtis comme corpus littéraire autonome depuis une perspective
+  philologique et littéraire (Schütte est germaniste, spécialiste de Sebald et du post-punk).
+  Chapitres thématiques : (1) Portrait du jeune poète ouvrier / contexte générationnel ;
+  (2) Manchester comme paysage intérieur — genius loci, généalogie cachée Sebald/Butor ;
+  (3) House of Dolls et 'No Love Lost' — Stalag literature, Sprechgesang, décontextualisation ;
+  (4) An Ideal for Living et la fascination nazie — dialectique punk/fascisme, Fournier ;
+  (5) Stratégie lyrique d'ouverture à l'interprétation — 'The Eternal', 'Dead Souls'/Gogol ;
+  (6) 'Atrocity Exhibition' (Ballard titre ≠ contenu ; Dante, House of Dolls) et 'Colony'
+  (Crockett : performance foucaldienne, analogie sonore vinyle/aiguilles) ;
+  (7) Conclusions — Gesamtkunstwerk littéraire, Artaud comme piste, prudence biographique.
+
+atomes:
+  - id: S66-A001
+    resume: "Cadre littéraire : paroles de Curtis comme textes littéraires, surplus poétique, Gesamtkunstwerk (Deborah Curtis 2014a, xi)"
+    chapitres: [6, 7]
+    concepts: [critique_litteraire, gesamtkunstwerk, autonomie_lyrique]
+
+  - id: S66-A002
+    resume: "Portrait du jeune poète ouvrier : Fisher, Lay, mots avant la musique, lectures littéraires, nuance hagiographique, comparaison Büchner"
+    chapitres: [2, 4, 6]
+    concepts: [autodidaxie, classe_ouvriere, modernisme_populaire, mots_avant_musique]
+
+  - id: S66-A003
+    resume: "Manchester comme paysage intérieur : genius loci, jamais nommé, Fisher sur la mélancolie sans objet ; généalogie cachée Sebald (1966) et Butor (1951–53)"
+    chapitres: [1, 6, 11]
+    concepts: [genius_loci, manchester, melancolie, genealogie_litteraire_cachee]
+
+  - id: S66-A004
+    resume: "House of Dolls et 'No Love Lost' : Stalag literature, Ka-Tzetnik, historique Auschwitz, source textuelle Sprechgesang, décontextualisation/universalisation"
+    chapitres: [2, 6, 7]
+    song_id: JD-SONG-040
+    canonical_song: "No Love Lost"
+    concepts: [house_of_dolls, stalag_literature, sprechgesang, decontextualisation]
+
+  - id: S66-A005
+    resume: "An Ideal for Living et la fascination nazie : Hitlerjugend, photo ghetto Varsovie, Leaders of Men, Walked in Line, intro Warsaw/Heß, lecture dialectique Schütte"
+    chapitres: [2, 6]
+    song_id: JD-SONG-041
+    canonical_song: "Leaders of Men"
+    concepts: [nazi_imagery, holocaust_impiety, dialectique_fascisme, an_ideal_for_living]
+
+  - id: S66-A006
+    resume: "Stratégie lyrique : 'open to interpretation', Middles 1978 ; 'The Eternal' (inspiration obscurcie, deux strophes 8 lignes) ; 'Dead Souls'/Gogol — intertextualité nominale"
+    chapitres: [6, 7]
+    song_id: JD-SONG-008
+    canonical_song: "The Eternal"
+    concepts: [ambivalence_lyrique, intertextualite_nominale, autonomie_poetique]
+
+  - id: S66-A007
+    resume: "'Atrocity Exhibition' : Ballard titre ≠ contenu ; House of Dolls + Dante (Virgile/Dante, Benjamin) ; Heiner Müller ; 'Colony' : Crockett foucaldien, analogie sonore vinyle/aiguilles"
+    chapitres: [6, 7]
+    song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    concepts: [intertextualite_nominale, dante, heiner_muller, crockett_foucault]
+
+  - id: S66-A008
+    resume: "Conclusions : Gesamtkunstwerk littéraire, Manchester transnational, Artaud comme piste, carnets Curtis, prudence biographique"
+    chapitres: [6, 11, 14]
+    concepts: [gesamtkunstwerk_litteraire, manchester_transnational, artaud, prudence_biographique]
+
+songs_referenced:
+  - song_id: JD-SONG-040
+    canonical_song: "No Love Lost"
+    atomes: [S66-A004]
+  - song_id: JD-SONG-041
+    canonical_song: "Leaders of Men"
+    atomes: [S66-A005]
+  - song_id: JD-SONG-029
+    canonical_song: "Walked in Line"
+    atomes: [S66-A005]
+  - song_id: JD-SONG-043
+    canonical_song: "Warsaw"
+    atomes: [S66-A005]
+  - song_id: JD-SONG-008
+    canonical_song: "The Eternal"
+    atomes: [S66-A006]
+  - song_id: JD-SONG-015
+    canonical_song: "She's Lost Control"
+    atomes: [S66-A006]
+  - song_id: JD-SONG-033
+    canonical_song: "Dead Souls"
+    atomes: [S66-A006]
+  - song_id: JD-SONG-001
+    canonical_song: "Atrocity Exhibition"
+    atomes: [S66-A007]
+  - song_id: JD-SONG-004
+    canonical_song: "Colony"
+    atomes: [S66-A007]
+
+sources_liees:
+  - S64  # Bottà — Nazi imagery, signifiant vide, House of Dolls, An Ideal for Living
+  - S65  # Martínez — influences littéraires, trilogie Dostoevsky/Kafka/Ballard
+  - S79  # Curtis, So This Is Permanence — carnets, feuille de notes No Love Lost
+  - S45  # Deborah Curtis — citations biographiques à vérifier
+  - S41  # Hook — mots avant la musique, An Ideal for Living

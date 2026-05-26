@@ -2192,6 +2192,43 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S66-001",
+    "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+    "heading": "MOTIF — Corps en douleur ou en mort",
+    "data": {
+      "id": "MOTIF-S66-001",
+      "label": "Corps en douleur ou en mort",
+      "atomes": [
+        "S66-A008"
+      ],
+      "chapitres": [
+        6,
+        11
+      ],
+      "fonction_argumentative": "Schütte signale que les paroles font mention répétée de corps en douleur ou en mort, pré-emption de la couverture de Closer. Les notes de Curtis (So This Is Permanence) font souvent référence à des enfants en états de détresse ou confusion. Motif traversant l'ensemble de l'œuvre — à articuler avec la couverture de Closer (Peter Saville)."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S66-002",
+    "file": "registers/s66_curtis_lyrics_structuring_registers.md",
+    "heading": "MOTIF — Décontextualisation / universalisation de la souffrance",
+    "data": {
+      "id": "MOTIF-S66-002",
+      "label": "Décontextualisation / universalisation de la souffrance",
+      "atomes": [
+        "S66-A004",
+        "S66-A007"
+      ],
+      "chapitres": [
+        6,
+        7
+      ],
+      "fonction_argumentative": "Procédé récurrent dans les paroles de Curtis : une source concrète et spécifique (scène de House of Dolls, roman de Ballard, Kafka) est dépouillée de ses références particulières pour devenir un paradigme universel d'agonie ou de violence. Boswell (2011, 119) : \"penchant for generalisation and abstraction over particularity and local detail.\""
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-reimagination_imaginaire",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Motifs",
