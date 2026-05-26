@@ -478,6 +478,7 @@ concepts:
   - sheffield
 chapitres:
   - Chapitre 1
+  - Chapitre 6
   - Chapitre 11
   - Chapitre 13
 statut: verifie
@@ -512,6 +513,7 @@ concepts:
 chapitres:
   - Chapitre 1
   - Chapitre 3
+  - Chapitre 6
   - Chapitre 11
   - Chapitre 13
 statut: verifie
@@ -621,6 +623,7 @@ concepts:
   - première période joy division
 chapitres:
   - Chapitre 3
+  - Chapitre 6
   - Chapitre 7
   - Chapitre 8
 statut: verifie
@@ -693,6 +696,7 @@ concepts:
 chapitres:
   - Chapitre 3
   - Chapitre 5
+  - Chapitre 6
   - Chapitre 7
 statut: verifie
 fiabilite: forte
@@ -800,6 +804,7 @@ concepts:
   - factory records
 chapitres:
   - Chapitre 3
+  - Chapitre 6
   - Chapitre 8
   - Chapitre 9
 statut: verifie
