@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-26T07:59:47",
+  "generated_at": "2026-05-26T09:07:18",
   "status": "error",
   "summary": {
-    "records_total": 6712,
+    "records_total": 6752,
     "records_by_kind": {
       "source": 114,
-      "metadata": 217,
-      "unknown": 1182,
-      "atom": 2597,
-      "concept": 408,
-      "motif": 399,
+      "metadata": 221,
+      "unknown": 1200,
+      "atom": 2606,
+      "concept": 411,
+      "motif": 401,
       "myth": 101,
       "quote": 507,
-      "chronology": 429,
+      "chronology": 433,
       "person": 289,
       "song": 110,
       "template": 357,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 29168,
+    "diagnostics_total": 29324,
     "errors": 14,
-    "warnings": 29154,
+    "warnings": 29310,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 65,
-    "sources_exported": 65,
-    "declared_but_unused": 24,
+    "sources_used_in_records": 66,
+    "sources_exported": 66,
+    "declared_but_unused": 23,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -220,20 +220,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S67",
-        "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
-        "auteur": "Tiffany Naiman",
-        "titre": "In a Lonely Place: Illness and the Temporal Exile of Ian Curtis",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "épilepsie de Curtis",
-          "disability studies",
-          "exil temporel",
-          "Love Will Tear Us Apart notation musicale"
         ]
       },
       {
@@ -1549,6 +1535,23 @@
           "registers/s66_curtis_lyrics_structuring_registers.md",
           "sources/schutte_curtis_lyrics/atoms_dm_s66_curtis_lyrics_v2.md",
           "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md"
+        ]
+      },
+      {
+        "source_id": "S67",
+        "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+        "auteur": "Tiffany Naiman",
+        "titre": "In a Lonely Place: Illness and the Temporal Exile of Ian Curtis",
+        "annee": "2018",
+        "records": 40,
+        "atoms": 9,
+        "quotes": 0,
+        "chronology": 4,
+        "files": [
+          "registers/s67_lonely_place_specialized_registers.md",
+          "registers/s67_lonely_place_structuring_registers.md",
+          "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+          "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md"
         ]
       },
       {
@@ -73150,6 +73153,594 @@
       "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S26-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/relations_s67_lonely_place_illness_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S67-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: cadre_theorique",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: fait_biographique_medical",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: analyse_musicologique",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: analyse_musicologique",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: analyse_discographique",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: analyse_musicologique",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for fiabilite: haute",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Invalid value for type_unite: conclusion_analytique",
+      "record_id": "S67-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/naiman_lonely_place_illness/atoms_dm_s67_lonely_place_illness_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S67-A007"
     },
     {
       "level": "warning",
@@ -152323,6 +152914,342 @@
     },
     {
       "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S67-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: date",
+      "record_id": "CHR-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S67-002"
+    },
+    {
+      "level": "warning",
       "file": "registers/s31_allegri_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S31-ALLEGRI-2021"
@@ -157714,6 +158641,18 @@
       "file": "registers/s65_literary_influences_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S67-002"
     },
     {
       "level": "warning",

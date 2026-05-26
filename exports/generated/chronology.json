@@ -4443,6 +4443,93 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S67-001",
+    "file": "registers/s67_lonely_place_specialized_registers.md",
+    "heading": "CHR-S67-001 — 1977 : concert Warsaw, Rock Garden, Middlesbrough",
+    "data": {
+      "id": "CHR-S67-001",
+      "date": "1977",
+      "source_id": "S67",
+      "page_pdf": "119",
+      "page_livre": "88",
+      "atomes": [
+        "S67-A003"
+      ],
+      "type_evenement": "concert",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S67-002",
+    "file": "registers/s67_lonely_place_specialized_registers.md",
+    "heading": "CHR-S67-002 — 8 janvier 1980 : première session LWTUA, Pennine Sound Studios",
+    "data": {
+      "id": "CHR-S67-002",
+      "date": "1980-01-08",
+      "source_id": "S67",
+      "page_pdf": "121",
+      "page_livre": "90",
+      "atomes": [
+        "S67-A004"
+      ],
+      "type_evenement": "session_studio",
+      "song_id": "JD-SONG-035",
+      "canonical_song": "Love Will Tear Us Apart",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S67-003",
+    "file": "registers/s67_lonely_place_specialized_registers.md",
+    "heading": "CHR-S67-003 — 18-30 mars 1980 : sessions Britannia Row, Islington — finalisation LWTUA",
+    "data": {
+      "id": "CHR-S67-003",
+      "date_debut": "1980-03-18",
+      "date_fin": "1980-03-30",
+      "source_id": "S67",
+      "page_pdf": "121-122",
+      "page_livre": "90",
+      "atomes": [
+        "S67-A004",
+        "S67-A005"
+      ],
+      "type_evenement": "session_studio",
+      "lieu": "Britannia Row Studios, Islington, Londres",
+      "song_id": "JD-SONG-035",
+      "canonical_song": "Love Will Tear Us Apart",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S67-004",
+    "file": "registers/s67_lonely_place_specialized_registers.md",
+    "heading": "CHR-S67-004 — Mars 1980 : enregistrement *Closer*, un mois avant première tentative de suicide",
+    "data": {
+      "id": "CHR-S67-004",
+      "date": "1980-03",
+      "source_id": "S67",
+      "page_pdf": "125",
+      "page_livre": "93",
+      "atomes": [
+        "S67-A006"
+      ],
+      "type_evenement": "session_studio",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S52-1972-001",
     "file": "registers/s52_rabbito_specialized_registers.md",
     "heading": "Chronologie",

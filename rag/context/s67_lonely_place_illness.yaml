@@ -1,0 +1,74 @@
+source_id: S67
+source_label: "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018"
+auteur: "Tiffany Naiman"
+titre: "In a Lonely Place: Illness and the Temporal Exile of Ian Curtis"
+titre_ouvrage: "Heart and Soul: Critical Essays on Joy Division"
+direction: "Martin J. Power, Eoin Devereux, Aileen Dillane"
+editeur: "Rowman & Littlefield International"
+annee: "2018"
+pages_livre: "83-98"
+pages_pdf: "114-129"
+partie: "PART 3: Joy Division and Mental Health"
+nature: "chapitre d'ouvrage collectif"
+statut: "atomisee"
+fiabilite: "haute"
+date_atomisation: "2026-05-26"
+
+concepts_cles:
+  - ill_style
+  - temporalite_maladie
+  - late_style_adorno_said
+  - epilepsie_curtis
+  - mutation_vocale
+  - hannett_production
+  - voix_malade_aestheticisee
+  - exil_temporel
+  - absence_musicale
+  - disability_studies
+
+chansons:
+  - song_id: JD-SONG-035
+    canonical_song: "Love Will Tear Us Apart"
+    atomes: [S67-A004, S67-A005]
+  - song_id: JD-SONG-009
+    canonical_song: "Decades"
+    atomes: [S67-A006]
+
+chapitres_concernes: [3, 4, 12, 14]
+
+atomes:
+  - id: S67-A001
+    label: "Cadre théorique : ill style et temporalité de la maladie"
+    importance: critique
+  - id: S67-A002
+    label: "Épilepsie de Curtis : diagnostic, stigma, risque suicidaire"
+    importance: critique
+  - id: S67-A003
+    label: "Mutation vocale : Warsaw punk shouter → Joy Division ill style"
+    importance: critique
+  - id: S67-A004
+    label: "Love Will Tear Us Apart : analyse piste vocale isolée"
+    importance: critique
+  - id: S67-A005
+    label: "Production Hannett : ré-esthétisation technologique de la voix malade"
+    importance: critique
+  - id: S67-A006
+    label: "Decades : voix en décalage temporel, exil sonore"
+    importance: majeure
+  - id: S67-A007
+    label: "Conclusions : ill style comme héritage, désegrégation de la maladie"
+    importance: majeure
+
+note_methodologique: >
+  Naiman mobilise les vocal studies (Sterne, Kriedman & Sidtis, Dyson),
+  la disability studies (Butler) et les cultural studies pour produire
+  une lecture de la voix de Curtis qui évite à la fois la romantisation
+  du génie maudit et le réductionnisme clinique. L'ill style est une
+  métaphore analytique à employer avec précision, non un terme généralisant.
+
+prudences:
+  - "L'ill style est une métaphore analytique de Naiman, non une déclaration de Curtis."
+  - "La piste vocale isolée de LWTUA analysée est celle de la réédition 2013."
+  - "Figure 6.1 (notation musicale originale) : transcription analytique, non source de paroles."
+  - "Natalie Curtis (Guardian, 2007) : seul témoignage de la fille dans le corpus — employer avec circonspection."
+  - "Complémentarité avec S66-A008 (Schütte) : tension productive entre ill style (Naiman) et prudence biographiste (Schütte)."

@@ -14,8 +14,8 @@ date_pdf: "2021-01-15"
 pagination: "p. 83–98"
 partie: "PART 3: Joy Division and Mental Health"
 nature: "chapitre d'ouvrage collectif"
-statut: "a_atomiser"
-fiabilite: "a_evaluer"
+statut: "atomisee"
+fiabilite: "haute"
 dossier_source: "sources/naiman_lonely_place_illness/"
 note: "Le chapitre contient une notation musicale originale de la mélodie de 'Love Will Tear Us Apart' (fig. 6.1, p. 91)."
 ```
@@ -30,8 +30,20 @@ Analyse de l'épilepsie de Curtis comme condition produisant un « exil temporel
 
 ## Usages prioritaires
 
-- Chapitre 12 (Curtis, épilepsie, rapport au corps)
-- Chapitre 9 (Love Will Tear Us Apart — analyse musicale)
+- Chapitre 12 (Curtis, épilepsie, rapport au corps, disability studies)
+- Chapitre 3 (innovations sonores — analyse vocale LWTUA, production Hannett)
+- Chapitre 4 (poésie de l'aliénation — ill style comme cadre créatif)
+- Chapitre 14 (héritage — désegrégation de la maladie)
+
+## Atomes créés (2026-05-26)
+
+- S67-A001 : cadre théorique ill style
+- S67-A002 : épilepsie, stigma, risque suicidaire
+- S67-A003 : mutation vocale Warsaw → Joy Division
+- S67-A004 : LWTUA piste vocale isolée (JD-SONG-035)
+- S67-A005 : production Hannett — ré-esthétisation (JD-SONG-035)
+- S67-A006 : Decades — temporalité de la maladie (JD-SONG-009)
+- S67-A007 : conclusions — ill style et héritage
 
 ## Avertissements méthodologiques
 

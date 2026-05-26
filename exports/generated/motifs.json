@@ -2362,6 +2362,52 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S67-001",
+    "file": "registers/s67_lonely_place_structuring_registers.md",
+    "heading": "MOTIF-S67-001 — Vibrato absent / tone plat comme signature de l'ill style",
+    "data": {
+      "id": "MOTIF-S67-001",
+      "label": "vibrato absent — tone plat",
+      "source_id": "S67",
+      "atomes": [
+        "S67-A004",
+        "S67-A005",
+        "S67-A006"
+      ],
+      "chapitres": [
+        3,
+        12
+      ],
+      "fonction_argumentative": "Le vibrato signale l'excitation, l'implication émotionnelle ; son absence produit froideur, monotonie, mystère et présage — marqueur sonore de l'ill style et de l'exil temporel.",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S67-002",
+    "file": "registers/s67_lonely_place_structuring_registers.md",
+    "heading": "MOTIF-S67-002 — Distance sonore comme fiction de contrôle",
+    "data": {
+      "id": "MOTIF-S67-002",
+      "label": "distance sonore — fiction de contrôle",
+      "source_id": "S67",
+      "atomes": [
+        "S67-A005",
+        "S67-A006"
+      ],
+      "chapitres": [
+        3
+      ],
+      "fonction_argumentative": "La réverb, la suppression des inspirations et le delay créent une distance artificielle qui masque la vulnérabilité corporelle et projette une image de maîtrise distante — persona Joy Division.",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-fade_away_survivance",
     "file": "registers/s51_malvezzi_structuring_registers.md",
     "heading": "Motifs",

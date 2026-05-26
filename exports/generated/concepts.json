@@ -4821,6 +4821,82 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S67-001",
+    "file": "registers/s67_lonely_place_structuring_registers.md",
+    "heading": "CONCEPT-S67-001 — Ill style",
+    "data": {
+      "id": "CONCEPT-S67-001",
+      "label": "ill style",
+      "source_id": "S67",
+      "atomes": [
+        "S67-A001",
+        "S67-A003",
+        "S67-A004",
+        "S67-A005",
+        "S67-A006",
+        "S67-A007"
+      ],
+      "chapitres": [
+        3,
+        4,
+        12,
+        14
+      ],
+      "fonction_argumentative": "Cadre analytique pour lire la créativité de Curtis comme produit de sa temporalité de malade plutôt que comme expression d'un génie ou d'une psychologie individuelle.",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S67-002",
+    "file": "registers/s67_lonely_place_structuring_registers.md",
+    "heading": "CONCEPT-S67-002 — Temporalité de la maladie / exil temporel",
+    "data": {
+      "id": "CONCEPT-S67-002",
+      "label": "temporalité de la maladie",
+      "source_id": "S67",
+      "atomes": [
+        "S67-A001",
+        "S67-A002",
+        "S67-A006",
+        "S67-A007"
+      ],
+      "chapitres": [
+        4,
+        12
+      ],
+      "fonction_argumentative": "Nomme la dissociation entre le temps vécu du corps malade et le temps normatif de la culture — exil temporel qui n'est pas métaphorique mais somatique.",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S67-003",
+    "file": "registers/s67_lonely_place_structuring_registers.md",
+    "heading": "CONCEPT-S67-003 — Voix malade esthétisée / voix désincarnée",
+    "data": {
+      "id": "CONCEPT-S67-003",
+      "label": "voix malade esthétisée",
+      "source_id": "S67",
+      "atomes": [
+        "S67-A004",
+        "S67-A005"
+      ],
+      "chapitres": [
+        3
+      ],
+      "fonction_argumentative": "Distingue la voix brute de Curtis (traces du corps malade dans la piste isolée) de la version produite par Hannett (persona distante et non malade).",
+      "source_label": "S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018",
+      "source_short_title": "Tiffany Naiman, In a Lonely Place: Illness and the Temporal Exile of Ian Curtis, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-image_pauvre_joy_division",
     "file": "registers/s51_malvezzi_structuring_registers.md",
     "heading": "Concepts",
