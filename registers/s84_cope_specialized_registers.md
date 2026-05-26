@@ -8,12 +8,13 @@
 id: S84-Q001
 source_id: S84
 source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
-pages_pdf: "175"
+pages_pdf: "206"
 pages_livre: "175"
 locuteur: "Tony Wilson"
 contexte: "Présentation du groupe sur bande préenregistrée pour Granada Reports, 20 septembre 1978"
 citation_originale: "We do like to keep our hand in and keep you informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting new sound we've come across in the last six months"
 statut_verification: verifie
+note_verification: "Texte confirmé dans H&S PDF p.206 (ch.11, livre p.175). Phrase source exacte : 'We do like to keep our hand in and keep you informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting new sound we've come across in the last six months' (Nolan 2009, 55). CORRECTION : pages_pdf 175→206 (offset +31 manquant)."
 source_secondaire: "Nolan 2009, 55"
 chapitres: [2, 8]
 ```
@@ -22,12 +23,13 @@ chapitres: [2, 8]
 id: S84-Q002
 source_id: S84
 source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
-pages_pdf: "176"
+pages_pdf: "207"
 pages_livre: "176"
 locuteur: "Peter Hook"
 contexte: "À propos de l'apparition Something Else BBC2, septembre 1979"
 citation_originale: "You could see how much we were coming along when you see the Something Else footage. We were feeling very confident by this point, and even had a backdrop."
 statut_verification: verifie
+note_verification: "Texte confirmé dans H&S PDF p.207 (ch.11, livre p.176). Blockquote plus long dans le PDF (Hook 2012, 175) — registre ne conserve que le début. Texte extrait exact. CORRECTION : pages_pdf 176→207."
 source_secondaire: "Hook 2012, 175"
 chapitres: [6, 8]
 ```
@@ -36,12 +38,13 @@ chapitres: [6, 8]
 id: S84-Q003
 source_id: S84
 source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
-pages_pdf: "180"
+pages_pdf: "211"
 pages_livre: "180"
 locuteur: "Peter Hook"
 contexte: "À propos du clip Love Will Tear Us Apart, tourné à T.J. Davidson's"
 citation_originale: "We hated the whole idea of a video where you mimed or acted to the track [...] so what we decided to do was hire a PA and a mixing desk [...] and record while we filmed"
 statut_verification: verifie
+note_verification: "Texte confirmé dans H&S PDF p.211 (ch.11, livre p.180). Blockquote plus long dans le PDF (Hook 2012, 264) — registre en conserve le début seulement. [...] remplace [. . .] du PDF. CORRECTION : pages_pdf 180→211."
 source_secondaire: "Hook 2012, 264"
 chapitres: [8, 14]
 song_id: JD-SONG-035
@@ -52,12 +55,13 @@ canonical_song: "Love Will Tear Us Apart"
 id: S84-Q004
 source_id: S84
 source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
-pages_pdf: "175"
+pages_pdf: "206"
 pages_livre: "175"
 locuteur: "Middles & Reade"
 contexte: "Description de la performance Granada Reports, septembre 1978"
 citation_originale: "curious little film — not terribly sophisticated but, in that naïve state, seemed to perfectly suit the band"
 statut_verification: verifie
+note_verification: "Texte confirmé dans H&S PDF p.206 (ch.11, livre p.175). Phrase source : 'Middles and Reade (2006, 93) describe it as a \"curious little film\" not \"terribly sophisticated but, in that naïve state, seemed to perfectly suit the band\"'. Le tiret — du registre remplace la structure de double guillemet du PDF. Frontières exactes de la citation ambiguës dans Cope (cad. si 'not terribly sophisticated' est la voix de Cope ou de Middles & Reade). CORRECTION : pages_pdf 175→206."
 source_secondaire: "Middles & Reade 2006, 93"
 chapitres: [2, 8]
 song_id: JD-SONG-016
@@ -68,12 +72,13 @@ canonical_song: "Shadowplay"
 id: S84-Q005
 source_id: S84
 source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
-pages_pdf: "181"
+pages_pdf: "212"
 pages_livre: "181"
 locuteur: "Jon Savage"
 contexte: "Extrait publié dans The Independent, 2010, sur le footage Apollo projeté au Unknown Pleasures Festival, Macclesfield"
 citation_originale: "a rare intensity that still burns, three decades later"
 statut_verification: verifie
+note_verification: "Texte confirmé dans H&S PDF p.212 (ch.11, livre p.181). Phrase source : 'The murky videotape captures a rare intensity that still burns, three decades later.' Citation partielle — début de phrase omis. CORRECTION : pages_pdf 181→212."
 source_secondaire: "Savage 2010"
 chapitres: [10, 14]
 ```
