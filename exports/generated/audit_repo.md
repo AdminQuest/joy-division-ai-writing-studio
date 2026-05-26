@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T11:56:43`
+Généré le : `2026-05-26T14:40:52`
 
 ## 1. Verdict
 
-Le repo n’est pas strict-compliant : 14 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2644.
+Le repo n’est pas strict-compliant : 15 erreur(s) bloquante(s) subsistent.
+La dette principale reste la migration v2 : 2618 atome(s) incomplet(s) sur 2691.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 6956
-- Erreurs : 14
-- Avertissements : 29991
+- Enregistrements : 7150
+- Erreurs : 15
+- Avertissements : 30781
 - Sources déclarées : 88
-- Sources utilisées : 70
-- Sources exportées : 70
+- Sources utilisées : 73
+- Sources exportées : 73
 - Sources utilisées absentes du registre : 1
 - Libellés faibles : 1
 
@@ -22,32 +22,32 @@ La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2644.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2644 |
-| chronology | 454 |
-| concept | 431 |
-| metadata | 240 |
-| motif | 408 |
+| atom | 2691 |
+| chronology | 461 |
+| concept | 444 |
+| metadata | 252 |
+| motif | 419 |
 | myth | 101 |
-| person | 289 |
-| quote | 507 |
+| person | 305 |
+| quote | 526 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 110 |
 | source | 114 |
-| template | 357 |
-| unknown | 1299 |
+| template | 359 |
+| unknown | 1366 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| duplicate_id | 13 |
-| field_type_error | 596 |
-| invalid_controlled_value | 2650 |
-| missing_required_field | 8859 |
+| duplicate_id | 14 |
+| field_type_error | 637 |
+| invalid_controlled_value | 2732 |
+| missing_required_field | 9077 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1269 |
-| v2_migration_debt | 16090 |
+| unknown_yaml_block | 1336 |
+| v2_migration_debt | 16472 |
 | yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
@@ -62,6 +62,7 @@ La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2644.
 - **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-014] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
 - **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-005] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
 - **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-006] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
+- **duplicate_id** — `registers/s84_cope_structuring_registers.md` [MOTIF-wilson-mediateur] : Duplicate id also found in registers/s85_malcolm_structuring_registers.md → Renommer ou fusionner l’identifiant en doublon.
 - **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-009] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
 - **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-010] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
 - **duplicate_id** — `registers/concepts/master_concepts.md` [CONCEPT-010] : Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
@@ -116,7 +117,7 @@ could not find expected ':'
 - `sources/bertetti_morreale_reimmaginare_immaginario/dm_rag_update_s50.md` [DM-RAG-S50] : Unable to infer documentary kind
 - `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-001] : Unable to infer documentary kind
 - `sources/bertetti_morreale_reimmaginare_immaginario/relations_s50.md` [REL-S50-002] : Unable to infer documentary kind
-- … 1229 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1296 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -138,9 +139,6 @@ Sources déclarées mais non utilisées :
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
-- S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — a_atomiser
-- S85 — Malcolm, Mining for Counterculture, 2018 — a_atomiser
-- S86 — Breyley, Iranian Musicians and Joy Division, 2018 — a_atomiser
 - S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — a_atomiser
 - S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — a_atomiser
 
@@ -149,10 +147,10 @@ Libellés faibles :
 
 ## 8. Migration v2
 
-- Atomes : 2644
+- Atomes : 2691
 - Atomes v2 complets : 73
-- Atomes v2 incomplets : 2571
-- Avertissements de champs v2 manquants : 16090
+- Atomes v2 incomplets : 2618
+- Avertissements de champs v2 manquants : 16472
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

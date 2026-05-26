@@ -1,37 +1,37 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T13:10:00`
+Généré le : `2026-05-26T14:40:27`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 7093
+- Enregistrements : 7150
 - Erreurs : 15
-- Avertissements : 30584
+- Avertissements : 30781
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 72
-- Sources exportées : 72
-- Sources déclarées mais non utilisées : 17
+- Sources utilisées dans les enregistrements : 73
+- Sources exportées : 73
+- Sources déclarées mais non utilisées : 16
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2680
-- chronology : 454
-- concept : 439
-- metadata : 244
-- motif : 416
+- atom : 2691
+- chronology : 461
+- concept : 444
+- metadata : 252
+- motif : 419
 - myth : 101
 - person : 305
-- quote : 520
+- quote : 526
 - quote_batch : 1
 - rules : 1
 - song : 110
 - source : 114
-- template : 357
-- unknown : 1351
+- template : 359
+- unknown : 1366
 
 ## Sources utilisées mais absentes du registre
 
@@ -53,7 +53,6 @@ Statut : **error**
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — statut : référence historique déplacée depuis S41 ; à consolider
-- S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : a_atomiser
 - S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : a_atomiser
 - S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : a_atomiser
 
@@ -163,4 +162,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 30499 problèmes supplémentaires dans `diagnostics.json`.
+- … 30696 problèmes supplémentaires dans `diagnostics.json`.
