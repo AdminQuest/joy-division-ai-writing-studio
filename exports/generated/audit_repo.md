@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T20:38:33`
+Généré le : `2026-05-26T20:02:56`
 
 ## 1. Verdict
 
@@ -54,6 +54,33 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-001] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-002] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-003] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-004] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-005] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-006] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-007] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-008] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-009] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-010] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-011] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-012] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-013] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-014] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-015] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-001] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-002] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-003] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-004] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-005] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-006] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-007] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-008] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-009] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-010] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-011] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-012] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-001] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-002] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-003] : Unable to infer documentary kind
@@ -61,39 +88,12 @@ Aucune.
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-005] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-006] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-003] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-004] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-005] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-006] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-001] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-002] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-003] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-004] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-005] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-006] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-007] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-001] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-002] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-003] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-004] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-005] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-006] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-007] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-008] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-001] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-002] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-003] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-001] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-002] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-003] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-004] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-005] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-006] : Unable to infer documentary kind
 - … 1355 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
