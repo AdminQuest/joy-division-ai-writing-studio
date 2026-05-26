@@ -8,22 +8,26 @@ specialized_registers_path: "registers/s63_wilson_faustian_specialized_registers
 rag_fragments_path: "rag/fragments/s63_wilson_faustian.jsonl"
 status: "integrated"
 coverage:
-  passage: "Chapitre 2 — p. 17–32"
-  pdf_pages: "48–61"
+  passage: "Chapitre 2 — p. 17–32 (texte p. 17–26 ; notes p. 27–29 ; p. 30–32 : vide/titre de partie)"
+  pdf_pages: "48–63"
+  atomized_pages: "17–29 (notes 1–14 incluses)"
   scope: >
-    Chapitre 2 de Heart and Soul (2018), intégralement atomisé.
+    Chapitre 2 de Heart and Soul (2018), intégralement atomisé (texte + notes analytiques).
     Analyse de la scène du contrat au sang dans 24 Hour Party People (Winterbottom, 2002)
     comme pacte faustien inversé. Couvre : mythologisation de Factory Records, archétype
     faustien appliqué à Wilson, double conscience de Curtis / épisode RCA (1977),
     concept duchampien de l'infrathin appliqué à l'objet disque, paradigme de
     l'authenticité punk (Williams, Hebdige), débâcle RCA, philosophie du no-contract
-    contract et mort de Wilson.
+    contract et mort de Wilson ; Lust for Life / Kramer sur le statut mythique de l'artiste ;
+    Sumner comme architecte du groupe (méthode de production) ; Wilson s'anticipant comme
+    audience historique ; Corbijn Control vs Winterbottom (deux mythologies filmiques).
 primary_chapters:
   - "Chapitre 3"
   - "Chapitre 12"
   - "Chapitre 14"
 secondary_chapters:
   - "Chapitre 2"
+  - "Chapitre 4"
 key_atoms:
   - S63-A001  # scène du contrat / 24 Hour Party People / mythologisation
   - S63-A002  # pacte faustien inversé / Wilson signe seul
@@ -32,16 +36,24 @@ key_atoms:
   - S63-A005  # paradigme authenticité punk / Williams / Hebdige
   - S63-A006  # débâcle RCA / son cabaret / passage Factory
   - S63-A007  # no-contract contract / mort Wilson / effondrement dualisme
+  - S63-A008  # Lust for Life (1977) / Kramer / statut mythique de l'artiste
+  - S63-A009  # Sumner « singer's job » / méthode de production prédéterminée
+  - S63-A010  # Wilson audience historique de lui-même / Gretton droits d'édition
+  - S63-A011  # Corbijn Control vs Winterbottom / Wilson gatekeeper vs Curtis génie
 writing_use: >
   Utiliser S63 pour :
   (1) Chapitre 2 — épisode RCA de Joy Division (Curtis à la MSC 1977, Brandwood,
-  An Ideal for Living, enregistrements avortés) ;
+  An Ideal for Living, enregistrements avortés) ; Lust for Life comme chef-d'œuvre
+  méconnu/culte (note 7) ; Sumner et la conception fonctionnelle du rôle de chanteur ;
   (2) Chapitre 3 — philosophie fondatrice de Factory Records (no-contract contract,
-  Gretton, droits d'édition, Wilson comme figure ambivalente) ;
-  (3) Chapitre 12 — mythe Factory dans la longue durée (Wilson comme Faust rock,
-  Factory comme expérience culturelle auto-consciente) ;
-  (4) Chapitre 14 — mythologisation via le cinéma (24 Hour Party People), infrathin
-  et culture matérielle du disque, authenticité comme piège.
+  Gretton motivation pragmatique / droits d'édition, Wilson comme figure ambivalente ;
+  Joy Division comme méthode de production prédéterminée) ;
+  (3) Chapitre 4 — influences de Curtis : Lust for Life / Kramer sur le statut mythique
+  de l'artiste qui transcende l'esthétique ;
+  (4) Chapitre 12 — mythe Factory dans la longue durée (Wilson auto-mythologisation /
+  audience historique anticipée ; Corbijn vs Winterbottom) ;
+  (5) Chapitre 14 — mythologisation via le cinéma (24 Hour Party People vs Control),
+  infrathin et culture matérielle du disque, authenticité comme piège.
 verification_rules:
   - "La scène du contrat au sang est filmique — aucun témoin direct ne la confirme."
   - "Le vrai contrat fut établi entre Wilson et Gretton 'on dinner napkins' (Middles 2002)."
@@ -49,6 +61,9 @@ verification_rules:
   - "Les données sur l'épisode RCA (Brandwood, Anderson) viennent de sources secondaires — croiser avec S41 et S45."
   - "Citation Hook (2013a, 119) transmise par S63 — vérifier dans S41 directement."
   - "La mort de Wilson (cancer, médicaments onéreux) est documentée mais ses mots exacts passent par Nice (2010)."
+  - "Sumner 'singer's job' : analyse linguistique de S63, non déclaration explicite de Sumner — croiser avec S42."
+  - "Lust for Life comme influence centrale JD : affirmation de S63 — corroborer avec S79 et S41."
+  - "Citation Gretton (Middles 2002, 108) : 3 niveaux de filtrage — à utiliser avec attribution explicite."
 note_structure: >
   S63 est le chapitre 2 de Heart and Soul. L'introduction est S62.
   Chapitre 1 (Goddard) est S29. Chapitres 3–6 : S64–S67. Chapitres 7–15 : S80–S88.

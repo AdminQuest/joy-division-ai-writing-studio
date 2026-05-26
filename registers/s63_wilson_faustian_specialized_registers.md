@@ -65,6 +65,54 @@ statut: a_verifier_sur_source_primaire
 
 ---
 
+### CIT-S63-006 — Coogan sur sa relation à *24 Hour Party People* (note 6)
+
+```yaml
+id: CIT-S63-006
+source_id: S63
+source_primaire: "Coogan, Steve, Easily Distracted, 2017, p. 284"
+source_transmettrice: S63
+page_pdf_s63: "59"
+page_livre_s63: "28"
+langue: anglais
+statut: a_verifier_sur_source_primaire
+lien_atome: S63-A001
+```
+
+« I haven't watched 24 Hour Party People for a decade because it seems so real to me. It's part of my identity. Watching it would be like looking through those old photos. I don't want to go there, not yet. »
+
+(Steve Coogan, *Easily Distracted*, 2017, p. 284 — cité par Jacobson & Jeffrey, note 6, p. 28)
+
+**Usage** : La confusion entre fiction et identité vécue chez Coogan reflète la logique d'indistinction entre mythe et réalité que S63 analyse pour Wilson. Le film est devenu « part of his identity » — ce qui est exactement le processus que les auteurs décrivent pour la légende Factory.
+
+**Prudence** : À vérifier dans Coogan (2017). Note 6 signale par ailleurs que les « affinités entre les deux hommes » (Coogan/Wilson) tiennent à « a kind of doubleness that they both shared » — pas de citation explicite sur ce point.
+
+---
+
+### CIT-S63-007 — Gretton sur la motivation de Factory Records (note 13)
+
+```yaml
+id: CIT-S63-007
+source_id: S63
+source_primaire: "Middles, Mick, From Joy Division to New Order, 2002, p. 108"
+source_transmettrice: S63
+page_pdf_s63: "60"
+page_livre_s63: "29"
+langue: anglais
+statut: a_verifier_sur_source_primaire
+lien_atome: S63-A010
+```
+
+« spend the next five years traveling to London to talk to cunts »
+
+(Rob Gretton, motivant la création de Factory Records pour conserver les droits d'édition de Joy Division — cité via Middles, 2002, p. 108, dans Jacobson & Jeffrey, note 13, p. 29)
+
+**Usage** : Contrepoint pragmatique à la rhétorique idéaliste de Wilson. L'idéalisme wilsonien (« do it for yourself, be your own customer ») recouvre une décision fonctionnelle de Gretton sur la propriété intellectuelle.
+
+**Prudence** : Citation de Gretton transmise par Middles (2002) via S63. Niveau de filtrage : trois niveaux (Gretton → Middles → Jacobson & Jeffrey). À utiliser avec attribution explicite à Middles.
+
+---
+
 ### CIT-S63-004 — Sumner sur Coogan dans le rôle de Wilson
 
 ```yaml
@@ -121,6 +169,26 @@ sources_croisees:
   - S45 (Deborah Curtis)
   - Middles 2002 p. 75-76
 pages_livre_s63: "22"
+```
+
+### CHRON-S63-004 — *Lust for Life* (1977) : échec commercial initial et statut culte rétroactif
+
+```yaml
+id: CHRON-S63-004
+source_id: S63
+date: "1977 (été-automne)"
+date_certitude: probable
+evenement: >
+  Sortie de Lust for Life (Iggy Pop, prod. David Bowie), automne 1977. L'album ne se classe
+  pas : les stratégies promotionnelles de RCA sont accaparées par les rééditions d'Elvis Presley,
+  mort en août 1977. Lust for Life devient un « unpromoted bargain bin masterpiece » dont le
+  statut souterrain/culte est précisément ce qui fascine ses admirateurs — dont Curtis.
+  C'est l'album que Bowie et Pop ont créé ensemble et dans lequel ils ont incorporé un
+  commentaire sur leur propre statut mythique (Hilton Kramer, 1988, via S63 note 2).
+sources_croisees:
+  - S63 note 7 (p. 28)
+  - S63-A008
+lien_atome: S63-A008
 ```
 
 ### CHRON-S63-002 — Enregistrements RCA Joy Division (avortés)
@@ -192,6 +260,24 @@ pages_livre_s63: "22"
 note: >
   Mentionné par Hook (2013a, 118) via Jacobson & Jeffrey. À ne pas confondre
   avec d'autres producteurs de l'époque.
+```
+
+### ACT-S63-004 — Anton Corbijn (réalisateur, *Control*, 2007)
+
+```yaml
+id: ACT-S63-004
+source_id: S63
+nom: "Anton Corbijn"
+role: "réalisateur de Control (2007), biopic de Ian Curtis"
+lien_atome: S63-A011
+pages_livre_s63: "note 14, p. 29"
+note: >
+  Dans *Control*, Corbijn représente Wilson comme un gatekeeper industriel unidimensionnel
+  (« fast-talking industry suit »), en contraste avec la profondeur émotionnelle et
+  intellectuelle de Curtis (« tragic figure, artistic genius »). Jacobson & Jeffrey
+  comparent ce traitement à celui de *The Doors* (Oliver Stone) : deux films qui reproduisent
+  la narrative rock conventionnelle du génie exploité par l'industrie. À mettre en regard
+  avec la représentation de Wilson par Winterbottom dans *24 Hour Party People* (2002).
 ```
 
 ### ACT-S63-003 — Steve Coogan (acteur, rôle de Wilson)

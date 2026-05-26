@@ -183,3 +183,116 @@ note: >
   finit par constituer une nouvelle couche de médiation. La connaissance de Wilson
   passe par le film, la novelization, les mémoires — jamais directement.
 ```
+
+---
+
+## R-S63-008 — *Lust for Life* contexte mythique ↔ épisode RCA de Curtis
+
+```yaml
+id: R-S63-008
+source_id: S63
+relation_type: articulation_intertextuelle
+from_atoms:
+  - S63-A008
+to_atoms:
+  - S63-A003
+concepts:
+  - Lust for Life / influence centrale Joy Division
+  - Curtis / fascination pour l'étiquette RCA
+  - statut mythique transcendant l'esthétique
+chapitres:
+  - Chapitre 2
+  - Chapitre 4
+force: forte
+note: >
+  S63-A008 (note 2 : Kramer, statut mythique de l'artiste / Lust for Life comme chef-d'œuvre
+  méconnu) est le cadrage conceptuel qui explique la fascination de Curtis pour l'étiquette RCA
+  documentée dans S63-A003. Curtis ne cherchait pas seulement la notoriété d'un label — il voulait
+  s'inscrire dans une mythologie artistique qui intègre sa propre inaccessibilité.
+```
+
+---
+
+## R-S63-009 — Sumner « méthode de production » ↔ pacte faustien inversé de Wilson
+
+```yaml
+id: R-S63-009
+source_id: S63
+relation_type: parallele_structural
+from_atoms:
+  - S63-A009
+to_atoms:
+  - S63-A002
+concepts:
+  - Joy Division comme méthode de production prédéterminée
+  - Factory Records comme expérience culturelle auto-consciente
+  - division du travail / rôle fonctionnel
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+force: moyenne
+note: >
+  Sumner conçoit Joy Division comme une méthode de production avec une division du travail
+  prédéterminée (A009) ; Wilson fonde Factory comme « a self-aware experiment in cultural
+  production and circulation » (A002). Les deux gestes sont parallèles : l'un au niveau du
+  groupe, l'autre au niveau du label. Joy Division est doublement une « méthode » —
+  une architecture musicale ET une philosophie contractuelle.
+```
+
+---
+
+## R-S63-010 — Wilson audience historique ↔ mythologisation cinématographique
+
+```yaml
+id: R-S63-010
+source_id: S63
+relation_type: prolongement_analytique
+from_atoms:
+  - S63-A010
+to_atoms:
+  - S63-A001
+  - S63-A007
+concepts:
+  - Wilson / auto-mythologisation consciente
+  - anticipation de l'audience historique
+  - no-contract contract comme performance narrative
+chapitres:
+  - Chapitre 3
+  - Chapitre 12
+force: forte
+note: >
+  L'analyse de l'audio DVD (A010 : Wilson « anticipating a later historical audience ») est
+  le corollaire analytique de A001 (la scène filmique du contrat au sang) et de A007 (la mort
+  de Wilson comme acte mythique final). Wilson performait pour la postérité lors de la signature
+  — ce geste auto-mythologisant rend compréhensible qu'il ait fourni lui-même la matière
+  narrative du film de Winterbottom.
+```
+
+---
+
+## R-S63-011 — Corbijn *Control* ↔ Wilson comme Faust Rock / Winterbottom
+
+```yaml
+id: R-S63-011
+source_id: S63
+relation_type: tension_filmique
+from_atoms:
+  - S63-A011
+to_atoms:
+  - S63-A001
+  - S63-A007
+concepts:
+  - Control (Corbijn) vs 24HPP (Winterbottom)
+  - Wilson gatekeeper unidimensionnel vs Wilson philosophe ambigu
+  - mythe de Curtis génie tragique
+chapitres:
+  - Chapitre 3
+  - Chapitre 12
+  - Chapitre 14
+force: forte
+note: >
+  A011 (Corbijn : Wilson comme gatekeeper unidimensionnel) est en tension directe avec A001
+  (Winterbottom : Wilson comme philosophe qui déconstruit le mythe faustien). Les deux films
+  construisent deux mythologies antagonistes du même personnage — un cas exemplaire de la
+  polarisation de la mémoire culturelle autour de Joy Division.
+```

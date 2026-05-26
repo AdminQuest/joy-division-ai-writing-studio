@@ -51,6 +51,32 @@ liens:
   - CONCEPT-S62-001
 ```
 
+### CONCEPT-S63-004 — Joy Division comme méthode de production prédéterminée (Sumner)
+
+```yaml
+id: CONCEPT-S63-004
+nom: "Joy Division comme méthode de production prédéterminée"
+label: "Joy Division comme méthode de production prédéterminée"
+definition: >
+  Avant que Joy Division ne soit formalisé, il existait dans l'imagination de Sumner
+  comme une méthode de production avec une division du travail prédéterminée : le chanteur
+  est un rôle fonctionnel, non une identité organique. L'architecture sonore précède
+  et conditionne l'identité du groupe.
+fonction_argumentative: >
+  Ce concept remet en cause la mythologie de la naissance organique du groupe et articule
+  la conception fonctionnelle du chanteur chez Sumner avec la philosophie de Wilson
+  (Factory comme expérience en production culturelle). Joy Division est doublement une
+  méthode — au niveau du groupe et au niveau du label.
+atomes:
+  - S63-A009
+  - S63-A002
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+liens:
+  - CONCEPT-S63-001
+```
+
 ### CONCEPT-S63-003 — double conscience de Curtis (authenticité / notoriété)
 
 ```yaml
@@ -96,6 +122,31 @@ description: >
   Motif circulant dans le film (Winterbottom, 2002), la novelization de Wilson (2002)
   et les commentaires académiques. Utilisable comme emblème de la philosophie Factory
   et comme cas-limite de la performativité contractuelle dans l'industrie musicale.
+```
+
+### MOTIF-S63-003 — Wilson s'anticipant comme audience historique de lui-même
+
+```yaml
+id: MOTIF-S63-003
+label: "Wilson / anticipation de l'audience historique"
+source_id: S63
+atomes_associes:
+  - S63-A010
+  - S63-A001
+  - S63-A007
+chapitres:
+  - Chapitre 3
+  - Chapitre 12
+  - Chapitre 14
+description: >
+  Wilson ne signait pas seulement un contrat — il performait pour une audience future
+  imaginée. Sa signature solitaire (sans témoins) devient « an even more onanistic and
+  peculiar activity » précisément parce qu'il « seems to be anticipating a later
+  historical audience » (Jacobson & Jeffrey, note 11). Ce motif de l'auto-mythologisation
+  consciente traverse toute la figure wilsonienne : de la signature du contrat à la
+  phrase sur « l'histoire contre l'argent » prononcée dans le mois avant sa mort.
+liens:
+  - MYTH-S63-001
 ```
 
 ### MOTIF-S63-002 — l'authenticité comme piège
