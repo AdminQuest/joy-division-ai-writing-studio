@@ -1,28 +1,28 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T00:39:29`
+Généré le : `2026-05-26T07:20:33`
 
 Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 6570
+- Enregistrements : 6604
 - Erreurs : 14
-- Avertissements : 28570
+- Avertissements : 28695
 - Sources déclarées dans `data/registre.json` : 88
-- Sources utilisées dans les enregistrements : 62
-- Sources exportées : 62
-- Sources déclarées mais non utilisées : 27
+- Sources utilisées dans les enregistrements : 63
+- Sources exportées : 63
+- Sources déclarées mais non utilisées : 26
 - Sources utilisées mais absentes du registre : 1
 - Libellés faibles : 1
 
 ## Enregistrements par type
 
-- atom : 2561
+- atom : 2569
 - chronology : 429
-- concept : 397
+- concept : 400
 - metadata : 209
-- motif : 392
+- motif : 394
 - myth : 101
 - person : 289
 - quote : 507
@@ -31,7 +31,7 @@ Statut : **error**
 - song : 110
 - source : 114
 - template : 357
-- unknown : 1102
+- unknown : 1123
 
 ## Sources utilisées mais absentes du registre
 
@@ -52,7 +52,6 @@ Statut : **error**
 - S33 — Can, Tago Mago, 1971 — statut : a_consolider
 - S36 — Crosthwaite, Trauma and Degeneration, 2016 — statut : a_consolider
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — statut : a_consolider
-- S64 — Bottà, European Imaginary of Joy Division, 2018 — statut : a_atomiser
 - S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : a_atomiser
 - S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : a_atomiser
 - S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 — statut : a_atomiser
@@ -173,4 +172,4 @@ Statut : **error**
 - **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: risque_surinterpretation
 - **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: liens_interchapitres
 - **WARNING** `sources/heart_soul_introduction/atoms_dm_s62_introduction_v2.md` [S62-A008] : Missing required field: liens_citations
-- … 28484 problèmes supplémentaires dans `diagnostics.json`.
+- … 28609 problèmes supplémentaires dans `diagnostics.json`.

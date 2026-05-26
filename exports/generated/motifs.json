@@ -2145,6 +2145,53 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S64-001",
+    "file": "registers/s64_european_imaginary_structuring_registers.md",
+    "heading": "MOTIF-S64-001 — *future days* vs *no future*",
+    "data": {
+      "id": "MOTIF-S64-001",
+      "label": "future days vs no future (kraut-rock contre punk britannique)",
+      "source_id": "S64",
+      "atomes_associes": [
+        "S64-A005"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7"
+      ],
+      "description": "Opposition structurante chez Bottà : le punk de 1976 ferme le futur (« no future »), tandis que le kraut-rock l'ouvre (Can : *Future Days*, 1973 ; Kraftwerk : « es wird immer weitergehen »). Joy Division s'inscrit dans le second régime : leur rapport à la musique allemande est une façon d'imaginer un futur postnational et cosmopolite au-delà de la Grande-Bretagne thatchérienne. Motif utile pour les chapitres sur les influences musicales et l'héritage.",
+      "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+      "source_short_title": "Giacomo Bottà, Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S64-002",
+    "file": "registers/s64_european_imaginary_structuring_registers.md",
+    "heading": "MOTIF-S64-002 — *Gesamtkunstwerk* cosmopolite",
+    "data": {
+      "id": "MOTIF-S64-002",
+      "label": "Gesamtkunstwerk cosmopolite",
+      "source_id": "S64",
+      "atomes_associes": [
+        "S64-A008"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "description": "Formule conclusive de Bottà : Joy Division est un « cosmopolitan Gesamtkunstwerk — a total work of art ». Le concept wagnérien d'œuvre d'art totale (musique, texte, performance, image) est appliqué à la pratique de Joy Division dans sa dimension européenne et transnationale. À distinguer du mythe de la «  totale originalité britannique » : le Gesamtkunstwerk de JD est délibérément cosmopolite.\n",
+      "liens": [
+        "CONCEPT-S64-001",
+        "MOTIF-S62-001"
+      ],
+      "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+      "source_short_title": "Giacomo Bottà, Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-reimagination_imaginaire",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Motifs",

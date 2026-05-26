@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-26T00:39:29",
+  "generated_at": "2026-05-26T07:20:33",
   "status": "error",
   "summary": {
-    "records_total": 6570,
+    "records_total": 6604,
     "records_by_kind": {
       "source": 114,
       "metadata": 209,
-      "unknown": 1102,
-      "atom": 2561,
-      "concept": 397,
-      "motif": 392,
+      "unknown": 1123,
+      "atom": 2569,
+      "concept": 400,
+      "motif": 394,
       "myth": 101,
       "quote": 507,
       "chronology": 429,
@@ -19,13 +19,13 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 28584,
+    "diagnostics_total": 28709,
     "errors": 14,
-    "warnings": 28570,
+    "warnings": 28695,
     "sources_declared_in_registre_json": 88,
-    "sources_used_in_records": 62,
-    "sources_exported": 62,
-    "declared_but_unused": 27,
+    "sources_used_in_records": 63,
+    "sources_exported": 63,
+    "declared_but_unused": 26,
     "used_but_missing_from_registre_json": 1,
     "weak_source_labels": 1
   },
@@ -220,20 +220,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S64",
-        "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
-        "auteur": "Giacomo Bottà",
-        "titre": "Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division",
-        "annee": "2018",
-        "statut": "a_atomiser",
-        "usage": [
-          "imaginaire européen",
-          "influences continentales",
-          "Berlin/Bowie/Kraftwerk",
-          "désindustrialisation urbaine"
         ]
       },
       {
@@ -1541,6 +1527,23 @@
           "registers/s63_wilson_faustian_structuring_registers.md",
           "sources/jacobson_jeffrey_wilson_faustian/atoms_dm_s63_wilson_faustian_v2.md",
           "sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md"
+        ]
+      },
+      {
+        "source_id": "S64",
+        "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+        "auteur": "Giacomo Bottà",
+        "titre": "Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division",
+        "annee": "2018",
+        "records": 34,
+        "atoms": 8,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/s64_european_imaginary_specialized_registers.md",
+          "registers/s64_european_imaginary_structuring_registers.md",
+          "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+          "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md"
         ]
       },
       {
@@ -60764,6 +60767,678 @@
       "file": "sources/allegri_living_in_the_ice_age/relations_s31.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S31-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "R-S64-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage analytique",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: cadrage_analytique",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: secondaire — Bottà relaie Deborah Curtis (2010) et Stubbs (2014)",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: secondaire — Bottà relaie Hook, Sumner et Curtis D. ; certains détails à croiser",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage analytique",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: analyse_conceptuelle",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte comme documentation événementielle ; certains détails (Burroughs) à croiser",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte pour les faits événementiels ; citation Spex traduite par l'auteur",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: document_historique",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for fiabilite: forte comme formule conclusive",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Invalid value for type_unite: analyse_conceptuelle",
+      "record_id": "S64-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S64-A008"
     },
     {
       "level": "warning",
@@ -150875,6 +151550,72 @@
     },
     {
       "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S64-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S64-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S64-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRON-S64-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ACT-S64-003"
+    },
+    {
+      "level": "warning",
       "file": "registers/s59_ferrara_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S59-FERRARA-2021"
@@ -153272,6 +154013,18 @@
       "file": "registers/s60_federici_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S60-VINCE-STAPLES-2015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_structuring_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIEU-S64-002"
     },
     {
       "level": "warning",

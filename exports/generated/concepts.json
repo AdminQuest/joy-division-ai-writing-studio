@@ -4442,6 +4442,85 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S64-001",
+    "file": "registers/s64_european_imaginary_structuring_registers.md",
+    "heading": "CONCEPT-S64-001 — imaginaire européen de Joy Division",
+    "data": {
+      "id": "CONCEPT-S64-001",
+      "label": "imaginaire européen de Joy Division",
+      "source_id": "S64",
+      "atomes_associes": [
+        "S64-A001",
+        "S64-A002",
+        "S64-A005",
+        "S64-A008"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "fonction_argumentative": "Concept central de S64 : Joy Division s'est construit à partir d'un imaginaire continental (lectures, musique, espaces, politiques) irréductible à la seule tradition britannique post-punk. Ce concept recouvre à la fois les influences littéraires de Curtis (Dostoevsky, Nietzsche, Sartre, Hesse, Ballard), les influences musicales (Kraftwerk, Can, Neu!, Bowie/Berlin) et les espaces de performance européens (Plan K, Bains Douches). Réutilisable pour articuler Joy Division à l'histoire culturelle européenne des années 1970–1980.",
+      "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+      "source_short_title": "Giacomo Bottà, Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S64-002",
+    "file": "registers/s64_european_imaginary_structuring_registers.md",
+    "heading": "CONCEPT-S64-002 — signifiant vide / esthétisation postwar du nazisme",
+    "data": {
+      "id": "CONCEPT-S64-002",
+      "label": "signifiant vide / esthétisation postwar du nazisme dans le rock britannique",
+      "source_id": "S64",
+      "atomes_associes": [
+        "S64-A003",
+        "S64-A004"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5"
+      ],
+      "fonction_argumentative": "Cadrage théorique de Hebdige (via Eco) : le swastika dans le punk est un signifiant vide, détaché de son signifié historique (Nazisme). S64 applique ce cadre à Warsaw/Joy Division pour distinguer l'usage esthétique-provocateur des symboles de l'adhésion idéologique. Concept essentiel pour le chapitre 2 (contextualisation de la période Warsaw) et le chapitre 5 (esthétique visuelle).\n",
+      "liens": [
+        "CONCEPT-S63-003"
+      ],
+      "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+      "source_short_title": "Giacomo Bottà, Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S64-003",
+    "file": "registers/s64_european_imaginary_structuring_registers.md",
+    "heading": "CONCEPT-S64-003 — espace postindustriel comme révélateur performatif",
+    "data": {
+      "id": "CONCEPT-S64-003",
+      "label": "espace postindustriel comme révélateur de la performance de Curtis",
+      "source_id": "S64",
+      "atomes_associes": [
+        "S64-A006",
+        "S64-A008"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 14"
+      ],
+      "fonction_argumentative": "Argument central de Bottà : c'est dans l'espace vide d'une ancienne usine (Plan K) que la performance physique de Curtis — corps convulsif, marche de soldat, robot — prend enfin sens comme performance artistique ET musicale. L'espace postindustriel permet une résonance (au sens de Bachelard) impossible dans les pubs britanniques aux moquettes tachées. Concept réutilisable pour analyser la relation de Joy Division à ses espaces de performance et à l'architecture industrielle.\n",
+      "liens": [
+        "CONCEPT-S64-001",
+        "CONCEPT-S63-001"
+      ],
+      "source_label": "S64 — Bottà, European Imaginary of Joy Division, 2018",
+      "source_short_title": "Giacomo Bottà, Trying to Find a Clue, Trying to Find a Way to Get Out! The European Imaginary of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-imaginaire_collectif_joy_division",
     "file": "registers/s50_bertetti_morreale_structuring_registers.md",
     "heading": "Concepts",

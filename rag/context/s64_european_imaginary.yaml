@@ -1,0 +1,63 @@
+id: RAG-S64-EUROPEAN-IMAGINARY
+source_id: S64
+source_label: "S64 — Bottà, European Imaginary of Joy Division, 2018"
+source_path: "sources/botta_european_imaginary/atoms_dm_s64_european_imaginary_v2.md"
+relations_path: "sources/botta_european_imaginary/relations_s64_european_imaginary_v2.md"
+structuring_registers_path: "registers/s64_european_imaginary_structuring_registers.md"
+specialized_registers_path: "registers/s64_european_imaginary_specialized_registers.md"
+rag_fragments_path: "rag/fragments/s64_european_imaginary.jsonl"
+status: "integrated"
+coverage:
+  passage: "Chapitre 3 — p. 33–46"
+  pdf_pages: "64–77"
+  scope: >
+    Chapitre 3 de Heart and Soul (2018), intégralement atomisé.
+    Couvre : cadrage post-Brexit et article de Sumner (The New European) ;
+    lectures européennes de Curtis (Dostoevsky, Nietzsche, Sartre, Hesse, Ballard,
+    Heartfield) ; esthétisation postwar du nazisme dans le rock britannique (Hebdige,
+    signifiant vide) ; nom Warsaw / nom Joy Division / An Ideal for Living / Hess /
+    abandon de l'imagerie nazie par Gretton ; kraut-rock comme imaginaire postnational
+    (Kraftwerk, Can, Neu!, Bowie, Morris/Trans-Europe Express) ; Plan K, Bruxelles
+    (16 octobre 1979, premier concert hors UK, Annik Honoré, photos Carly) ;
+    Les Bains Douches Paris (18 décembre 1979) ; tournée européenne janvier 1980 ;
+    critique Spex n°1 (Bömmels 1980) ; conclusion : Joy Division comme Gesamtkunstwerk
+    cosmopolite.
+primary_chapters:
+  - "Chapitre 2"
+  - "Chapitre 3"
+  - "Chapitre 14"
+secondary_chapters:
+  - "Chapitre 4"
+  - "Chapitre 5"
+  - "Chapitre 7"
+key_atoms:
+  - S64-A001  # imaginaire européen / Brexit / Sumner / New European
+  - S64-A002  # lectures de Curtis / europhilie / Dostoevsky, Nietzsche, Ballard
+  - S64-A003  # esthétisation postwar nazisme dans le rock / Hebdige signifiant vide
+  - S64-A004  # Warsaw / Joy Division / An Ideal for Living / Hess / Gretton
+  - S64-A005  # kraut-rock postnational / Kraftwerk / Can / Neu! / future days
+  - S64-A006  # Plan K Bruxelles 16 oct. 1979 / espace postindustriel / Annik / Carly
+  - S64-A007  # réception européenne / Bains Douches / tournée jan. 1980 / Spex
+  - S64-A008  # Gesamtkunstwerk cosmopolite / conclusion Bottà
+writing_use: >
+  Utiliser S64 pour :
+  (1) Chapitre 2 — nom Warsaw (Bowie/'Warszawa'), nom Joy Division (House of Dolls),
+  An Ideal for Living cover (Hitlerjugend/Sumner Albrecht), Hess, abandon par Gretton ;
+  (2) Chapitre 3 — lectures de Curtis, kraut-rock (Kraftwerk/Can/Neu!), Plan K
+  comme contexte Factory/Europe, Morris jouant Trans-Europe Express en pre-show ;
+  (3) Chapitre 4 — lectures littéraires européennes de Curtis (Dostoevsky, Nietzsche,
+  Sartre, Hesse, Ballard) comme substrat de la poésie de l'aliénation ;
+  (4) Chapitre 5 — imagerie visuelle An Ideal for Living (Saville/Sumner Albrecht,
+  typographie gothique, photo ghetto Varsovie) ;
+  (5) Chapitre 14 — réception européenne (Plan K, Bains Douches, Spex), Gesamtkunstwerk
+  cosmopolite comme formule d'héritage, Brexit comme révélateur de la dimension européenne.
+verification_rules:
+  - "L'attribution du nom 'Joy Division' à Ian ou Bernard : comptes rendus divergents — ne pas trancher sans source primaire directe."
+  - "La couverture An Ideal for Living : 'Albrecht' est le nom germanisé de Sumner, temporairement adopté."
+  - "L'épisode Burroughs au Plan K est une légende — plusieurs versions, non établie."
+  - "La critique Spex est traduite de l'allemand par Bottà — non vérifiable sans l'original."
+  - "Annik Honoré au Plan K : confirmé dans S45 ; S64 donne le contexte institutionnel (Crépuscule/Factory Benelux)."
+  - "Note 4 de S64 : l'auteur de House of Dolls (Ka-Tzetnik 135633) est Yehiel Feiner, dit De-Nur."
+note_structure: >
+  S64 est le chapitre 3 de Heart and Soul. Introduction = S62. Ch.1 = S29. Ch.2 = S63.
+  Ch.4 = S65. Ch.5 = S66. Ch.6 = S67. Ch.7–15 = S80–S88.
