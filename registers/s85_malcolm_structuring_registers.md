@@ -80,8 +80,8 @@ chapitres: [10, 13, 14]
 ```
 
 ```yaml
-id: MOTIF-wilson-mediateur
-label: "wilson_mediateur"
+id: MOTIF-wilson-mediateur-s85
+label: "wilson_mediateur_s85"
 description: "Tony Wilson comme médiateur culturel entre Joy Division/Factory et le grand public — de la présentation sur Granada Reports (1978) à la résistance contre la préservation de la Hacianda comme musée. Motif partagé avec S84 et S85."
 atomes: [S85-A002, S85-A005, S85-A012]
 chapitres: [1, 5, 8, 14]

@@ -13,6 +13,7 @@ nb_relations: 7
 
 ```yaml
 id: R-S80-001
+type: relation
 source_id: S80
 relation_type: enrichissement_methodologique
 from_atoms: ["S80-A001"]
@@ -30,6 +31,7 @@ Le métamodèle de Craig (S80-A001) enrichit la lecture de Joy Division en compl
 
 ```yaml
 id: R-S80-002
+type: relation
 source_id: S80
 relation_type: convergence_analytique
 from_atoms: ["S80-A002"]
@@ -47,6 +49,7 @@ S80-A002 (Barthes pheno/geno-song : Hannett comme artisan du geno-song) converge
 
 ```yaml
 id: R-S80-003
+type: relation
 source_id: S80
 relation_type: tension_interpretative
 from_atoms: ["S80-A003"]
@@ -64,6 +67,7 @@ La construction délibérée de l'obscurité comme anti-image (S80-A003 : Gretto
 
 ```yaml
 id: R-S80-004
+type: relation
 source_id: S80
 relation_type: complementarite_analytique
 from_atoms: ["S80-A004"]
@@ -81,6 +85,7 @@ S80-A004 (inarticulacy made physical, Haslam 1999 ; grain de la voix, Barthes 19
 
 ```yaml
 id: R-S80-005
+type: relation
 source_id: S80
 relation_type: articulation_argumentative
 from_atoms: ["S80-A005"]
@@ -98,6 +103,7 @@ La transformation illocutoire des paroles après le suicide de Curtis (S80-A005 
 
 ```yaml
 id: R-S80-006
+type: relation
 source_id: S80
 relation_type: intertextualite_documentaire
 from_atoms: ["S80-A006"]
@@ -115,6 +121,7 @@ La relation documentaire entre 'Transmission' et 'No Communication' du Durutti C
 
 ```yaml
 id: R-S80-007
+type: relation
 source_id: S80
 relation_type: articulation_argumentative
 from_atoms: ["S80-A007"]

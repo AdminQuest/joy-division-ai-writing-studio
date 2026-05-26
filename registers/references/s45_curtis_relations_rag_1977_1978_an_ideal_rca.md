@@ -95,10 +95,10 @@ relations:
       La rupture politique avec Tony Nuttall complète le vote conservateur rapporté
       par Deborah Curtis.
 
-  - id: REL-S45-A048-CONCEPT-011
+  - id: REL-S45-A048-CONCEPT-auto-habilitation-artistique
     source: S45-A048
     type: prolonge
-    cible: CONCEPT-011
+    cible: CONCEPT-auto-habilitation-artistique
     justification: >
       Le Manchester Musicians’ Collective donne une forme concrète à l’auto-
       habilitation artistique.

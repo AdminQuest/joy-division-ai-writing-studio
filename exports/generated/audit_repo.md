@@ -1,22 +1,22 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T16:26:50`
+Généré le : `2026-05-26T20:38:33`
 
 ## 1. Verdict
 
-Le repo n’est pas strict-compliant : 15 erreur(s) bloquante(s) subsistent.
+Le repo est techniquement exploitable, mais 1395 bloc(s) YAML ne sont pas classés.
 La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7274
-- Erreurs : 15
-- Avertissements : 31228
-- Sources déclarées : 88
+- Enregistrements : 7292
+- Erreurs : 0
+- Avertissements : 31249
+- Sources déclarées : 89
 - Sources utilisées : 75
 - Sources exportées : 75
-- Sources utilisées absentes du registre : 1
-- Libellés faibles : 1
+- Sources utilisées absentes du registre : 0
+- Libellés faibles : 0
 
 ## 3. Enregistrements par type
 
@@ -26,7 +26,7 @@ La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 | chronology | 476 |
 | concept | 456 |
 | metadata | 264 |
-| motif | 426 |
+| motif | 424 |
 | myth | 101 |
 | person | 305 |
 | quote | 539 |
@@ -34,46 +34,23 @@ La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 | rules | 1 |
 | song | 110 |
 | source | 114 |
-| template | 361 |
-| unknown | 1404 |
+| template | 360 |
+| unknown | 1425 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| duplicate_id | 14 |
 | field_type_error | 662 |
 | invalid_controlled_value | 2782 |
 | missing_required_field | 9211 |
 | schema_warning | 527 |
-| unknown_yaml_block | 1374 |
+| unknown_yaml_block | 1395 |
 | v2_migration_debt | 16672 |
-| yaml_parse_error | 1 |
 
 ## 5. Erreurs bloquantes
 
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-007] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-008] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-009] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-010] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-011] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-012] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-013] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md` [R-S79-014] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-005] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md` [R-S79-006] : Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/s84_cope_structuring_registers.md` [MOTIF-wilson-mediateur] : Duplicate id also found in registers/s85_malcolm_structuring_registers.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-009] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/motifs/master_motifs.md` [MOTIF-010] : Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/concepts/master_concepts.md` [CONCEPT-010] : Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md → Renommer ou fusionner l’identifiant en doublon.
-- **yaml_parse_error** — `registers/concepts/master_concepts.md` : YAML parse error: while scanning a simple key
-  in "<unicode string>", line 45, column 5:
-        sa formation était simplement no ... 
-        ^
-could not find expected ':'
-  in "<unicode string>", line 47, column 1:
-    atomes_lies:
-    ^ → Corriger la syntaxe YAML du bloc concerné.
+Aucune.
 
 ## 6. Blocs YAML non classés
 
@@ -117,12 +94,11 @@ could not find expected ':'
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
 - `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
-- … 1334 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1355 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
-Sources utilisées mais absentes de `data/registre.json` :
-- REGISTRY
+Aucune source utilisée n’est absente de `data/registre.json`.
 
 Sources déclarées mais non utilisées :
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — verifie
@@ -140,8 +116,7 @@ Sources déclarées mais non utilisées :
 - S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024 — a_consolider
 - S73 — Blue Orchids, référence historique à consolider, s.d. — référence historique déplacée depuis S41 ; à consolider
 
-Libellés faibles :
-- REGISTRY : Registre canonique interne — chansons Joy Division / Warsaw
+Aucun libellé faible.
 
 ## 8. Migration v2
 

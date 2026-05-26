@@ -23,7 +23,7 @@ formes:
 chapitres:
   - Chapitre 2
 concepts_associes:
-  - CONCEPT-011
+  - CONCEPT-auto-habilitation-artistique
   - CONCEPT-005
 risques:
   - téléologie du choc punk
@@ -93,7 +93,7 @@ chapitres:
   - Chapitre 2
   - Chapitre 6
 concepts_associes:
-  - CONCEPT-011
+  - CONCEPT-auto-habilitation-artistique
 risques:
   - reconstruction nostalgique
   - survalorisation de la cohérence de scène

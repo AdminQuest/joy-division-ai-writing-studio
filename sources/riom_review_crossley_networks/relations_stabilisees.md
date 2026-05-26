@@ -23,6 +23,7 @@ atomes_source:
 
 ```yaml
 id: REL-S27-001
+type: relation
 source_id: S27
 relation_type: prudence_source
 de:
@@ -47,6 +48,7 @@ S27 est utile comme synthèse critique, mais ne se substitue pas au livre recens
 
 ```yaml
 id: REL-S27-002
+type: relation
 source_id: S27
 relation_type: scene_network
 de:
@@ -72,6 +74,7 @@ Riom montre que l’analyse de réseaux n’est pas abstraite : elle s’incarne
 
 ```yaml
 id: REL-S27-003
+type: relation
 source_id: S27
 relation_type: dynamique_collective
 de:
@@ -97,6 +100,7 @@ Une scène ne naît pas seulement de goûts partagés. Elle suppose un nombre cr
 
 ```yaml
 id: REL-S27-004
+type: relation
 source_id: S27
 relation_type: mediation_scene
 de:
@@ -124,6 +128,7 @@ Le personnel renfort n’est pas périphérique. Il organise des accès, fournit
 
 ```yaml
 id: REL-S27-005
+type: relation
 source_id: S27
 relation_type: concept_sociologique
 de:
@@ -147,6 +152,7 @@ Le concept de music world permet d’éviter la réduction des genres musicaux a
 
 ```yaml
 id: REL-S27-006
+type: relation
 source_id: S27
 relation_type: renversement_question
 de:
@@ -171,6 +177,7 @@ La force méthodologique de Crossley, selon Riom, est de déplacer la question c
 
 ```yaml
 id: REL-S27-007
+type: relation
 source_id: S27
 relation_type: limite_methodologique
 de:
@@ -194,6 +201,7 @@ Riom signale que l’analyse de Crossley reste plus forte sur production et diff
 
 ```yaml
 id: REL-S27-008
+type: relation
 source_id: S27
 relation_type: limite_theorique
 de:

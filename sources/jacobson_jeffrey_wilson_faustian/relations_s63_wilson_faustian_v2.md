@@ -6,6 +6,7 @@
 
 ```yaml
 id: R-S63-001
+type: relation
 source_id: S63
 relation_type: analyse_source_primaire_cinematographique
 from_atoms:
@@ -33,6 +34,7 @@ note: >
 
 ```yaml
 id: R-S63-002
+type: relation
 source_id: S63
 relation_type: articulation_conceptuelle
 from_atoms:
@@ -59,6 +61,7 @@ note: >
 
 ```yaml
 id: R-S63-003
+type: relation
 source_id: S63
 relation_type: tension_documentaire
 from_atoms:
@@ -86,6 +89,7 @@ note: >
 
 ```yaml
 id: R-S63-004
+type: relation
 source_id: S63
 relation_type: progression_argumentative
 from_atoms:
@@ -113,6 +117,7 @@ note: >
 
 ```yaml
 id: R-S63-005
+type: relation
 source_id: S63
 relation_type: cross_source_verification
 from_atoms:
@@ -139,6 +144,7 @@ note: >
 
 ```yaml
 id: R-S63-006
+type: relation
 source_id: S63
 relation_type: cross_source_verification
 from_atoms:
@@ -164,6 +170,7 @@ note: >
 
 ```yaml
 id: R-S63-007
+type: relation
 source_id: S63
 relation_type: articulation_epistemologique
 from_atoms:
@@ -190,6 +197,7 @@ note: >
 
 ```yaml
 id: R-S63-008
+type: relation
 source_id: S63
 relation_type: articulation_intertextuelle
 from_atoms:
@@ -217,6 +225,7 @@ note: >
 
 ```yaml
 id: R-S63-009
+type: relation
 source_id: S63
 relation_type: parallele_structural
 from_atoms:
@@ -245,6 +254,7 @@ note: >
 
 ```yaml
 id: R-S63-010
+type: relation
 source_id: S63
 relation_type: prolongement_analytique
 from_atoms:
@@ -274,6 +284,7 @@ note: >
 
 ```yaml
 id: R-S63-011
+type: relation
 source_id: S63
 relation_type: tension_filmique
 from_atoms:

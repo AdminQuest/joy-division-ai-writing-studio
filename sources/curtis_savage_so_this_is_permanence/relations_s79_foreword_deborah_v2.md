@@ -102,10 +102,10 @@ Le sac plastique contient des feuilles hétérogènes (S79-A058). Ces supports p
 
 ---
 
-## R-S79-005 — Absence Ceremony/IaLP → non-sentimentalité de Curtis : lecture prudente
+## R-S79-069 — Absence Ceremony/IaLP → non-sentimentalité de Curtis : lecture prudente
 
 ```yaml
-id: R-S79-005
+id: R-S79-069
 source_id: S79
 relation_type: interpretation_a_qualifier
 from_atoms:
@@ -128,10 +128,10 @@ L'absence de manuscrits pour Ceremony et In a Lonely Place (S79-A063) rejoint la
 
 ---
 
-## R-S79-006 — Blue room → Curtis directeur aux répétitions : deux espaces d'autorité
+## R-S79-070 — Blue room → Curtis directeur aux répétitions : deux espaces d'autorité
 
 ```yaml
-id: R-S79-006
+id: R-S79-070
 source_id: S79
 relation_type: complementarite_structurelle
 from_atoms:

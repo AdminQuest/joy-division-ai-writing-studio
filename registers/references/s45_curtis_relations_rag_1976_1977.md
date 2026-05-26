@@ -32,10 +32,10 @@ relations:
       Le concert donne à Curtis une autorisation punk : la scène devient accessible
       sans virtuosité préalable.
 
-  - id: REL-S45-A023-CONCEPT-011
+  - id: REL-S45-A023-CONCEPT-auto-habilitation-artistique
     source: S45-A023
     type: prolonge
-    cible: CONCEPT-011
+    cible: CONCEPT-auto-habilitation-artistique
     justification: >
       Mont de Marsan est lu par Deborah comme élément d’une stratégie de carrière
       fantasmée, avant toute compétence stabilisée.

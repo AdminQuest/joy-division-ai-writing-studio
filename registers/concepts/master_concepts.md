@@ -635,8 +635,7 @@ risques:
   - anachronisme (projeter les cultural studies rétroactivement)
 
 critiques:
-  - ne pas confondre autodidaxie et absence de culture : Curtis était cultivé,
-    sa formation était simplement non institutionnelle
+  - "ne pas confondre autodidaxie et absence de culture : Curtis était cultivé, sa formation était simplement non institutionnelle"
 
 atomes_lies:
   - S79-A069

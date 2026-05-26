@@ -4,10 +4,10 @@ Concepts spécialisés issus de l’atomisation `sources/curtis_touching_from_a_
 
 ---
 
-# CONCEPT-011 — auto-habilitation artistique
+# CONCEPT-auto-habilitation-artistique — auto-habilitation artistique
 
 ```yaml
-id: CONCEPT-011
+id: CONCEPT-auto-habilitation-artistique
 nom: auto-habilitation artistique
 origine:
   auteur: méthode interne du repo

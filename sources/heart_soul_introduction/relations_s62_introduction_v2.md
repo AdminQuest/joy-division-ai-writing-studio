@@ -13,6 +13,7 @@ date_passe: 2026-05-25
 
 ```yaml
 id: R-S62-001
+type: relation
 source_id: S62
 relation_type: prudence_epistemologique
 from_atoms:
@@ -37,6 +38,7 @@ Les éditeurs déclarent que la frontière entre engagement critique objectif et
 
 ```yaml
 id: R-S62-002
+type: relation
 source_id: S62
 relation_type: convergence_analytique
 from_atoms:
@@ -61,6 +63,7 @@ La formule de S62 (« art is sometimes found in the absence ») converge avec la
 
 ```yaml
 id: R-S62-003
+type: relation
 source_id: S62
 relation_type: motif_transversal
 from_atoms:
@@ -85,6 +88,7 @@ L'« absent presence » de Curtis structure l'introduction de bout en bout : pre
 
 ```yaml
 id: R-S62-004
+type: relation
 source_id: S62
 relation_type: contexte_institutionnel
 from_atoms:
@@ -109,6 +113,7 @@ Le symposium « Atrocity Exhibition » (Limerick, 2015) est le contexte institut
 
 ```yaml
 id: R-S62-005
+type: relation
 source_id: S62
 relation_type: prudence_factuelle
 from_atoms:
@@ -132,6 +137,7 @@ Les données biographiques de S62 (43 chansons, 120 concerts, formation à Salfo
 
 ```yaml
 id: R-S62-006
+type: relation
 source_id: S62
 relation_type: intertextualite
 from_atoms:

@@ -11,6 +11,7 @@ date_creation: "2026-05-26"
 
 ```yaml
 id: R-S87-001
+type: relation
 source_id: S87
 relation_type: complemente
 from_atoms: [S87-A005]
@@ -23,6 +24,7 @@ force: forte
 
 ```yaml
 id: R-S87-002
+type: relation
 source_id: S87
 relation_type: enrichit
 from_atoms: [S87-A002, S87-A007]
@@ -35,6 +37,7 @@ force: forte
 
 ```yaml
 id: R-S87-003
+type: relation
 source_id: S87
 relation_type: dialogue
 from_atoms: [S87-A004]
@@ -47,6 +50,7 @@ force: moyenne
 
 ```yaml
 id: R-S87-004
+type: relation
 source_id: S87
 relation_type: confirme
 from_atoms: [S87-A008]
@@ -59,6 +63,7 @@ force: forte
 
 ```yaml
 id: R-S87-005
+type: relation
 source_id: S87
 relation_type: contraste
 from_atoms: [S87-A003, S87-A010]
@@ -71,6 +76,7 @@ force: moyenne
 
 ```yaml
 id: R-S87-006
+type: relation
 source_id: S87
 relation_type: enrichit
 from_atoms: [S87-A009]
@@ -83,6 +89,7 @@ force: forte
 
 ```yaml
 id: R-S87-007
+type: relation
 source_id: S87
 relation_type: confirme
 from_atoms: [S87-A006]

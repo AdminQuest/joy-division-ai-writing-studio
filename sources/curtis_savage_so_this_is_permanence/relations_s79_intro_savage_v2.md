@@ -8,10 +8,10 @@ pages_livre: "xiii-xx"
 
 ---
 
-## R-S79-007 — Plan K LWTUA → sessions LWTUA : première occurrence et suite
+## R-S79-071 — Plan K LWTUA → sessions LWTUA : première occurrence et suite
 
 ```yaml
-id: R-S79-007
+id: R-S79-071
 source_id: S79
 relation_type: sequence_chronologique
 from_atoms:
@@ -32,10 +32,10 @@ La première performance enregistrée (Plan K, 16 octobre 1979, S79-A064) ouvre 
 
 ---
 
-## R-S79-008 — Synthé → Curtis guitare → LWTUA : causalité matérielle
+## R-S79-072 — Synthé → Curtis guitare → LWTUA : causalité matérielle
 
 ```yaml
-id: R-S79-008
+id: R-S79-072
 source_id: S79
 relation_type: relation_causale
 from_atoms:
@@ -56,10 +56,10 @@ L'introduction du synthétiseur (été 1979) a forcé Curtis à prendre la guita
 
 ---
 
-## R-S79-009 — Deborah sur LWTUA vs Savage sur LWTUA : tension autobiographie/fiction
+## R-S79-073 — Deborah sur LWTUA vs Savage sur LWTUA : tension autobiographie/fiction
 
 ```yaml
-id: R-S79-009
+id: R-S79-073
 source_id: S79
 relation_type: tension_documentaire
 from_atoms:
@@ -82,10 +82,10 @@ Deborah Curtis (S79-A060) affirme que la chanson la vise directement, et réagit
 
 ---
 
-## R-S79-010 — Nom Joy Division → No Love Lost cite House of Dolls : double intertexte
+## R-S79-074 — Nom Joy Division → No Love Lost cite House of Dolls : double intertexte
 
 ```yaml
-id: R-S79-010
+id: R-S79-074
 source_id: S79
 relation_type: intertextualite
 from_atoms:
@@ -108,10 +108,10 @@ force: forte
 
 ---
 
-## R-S79-011 — Écosystème paperback → autodidaxie Curtis → style lyrique
+## R-S79-075 — Écosystème paperback → autodidaxie Curtis → style lyrique
 
 ```yaml
-id: R-S79-011
+id: R-S79-075
 source_id: S79
 relation_type: chaine_formative
 from_atoms:
@@ -131,10 +131,10 @@ L'écosystème des librairies manchestériennes (S79-A069) et la figure de Butte
 
 ---
 
-## R-S79-012 — Autodidaxie Burroughs → rejet au Plan K : asymétrie de la filiation
+## R-S79-076 — Autodidaxie Burroughs → rejet au Plan K : asymétrie de la filiation
 
 ```yaml
-id: R-S79-012
+id: R-S79-076
 source_id: S79
 relation_type: tension_documentaire
 from_atoms:
@@ -155,10 +155,10 @@ Curtis se forme sur Burroughs (S79-A071) et se retrouve rejeté par lui au Plan 
 
 ---
 
-## R-S79-013 — Premier corpus 1977 → LWTUA : trajectoire d'apprentissage documentée
+## R-S79-077 — Premier corpus 1977 → LWTUA : trajectoire d'apprentissage documentée
 
 ```yaml
-id: R-S79-013
+id: R-S79-077
 source_id: S79
 relation_type: trajectoire_qualitative
 from_atoms:
@@ -178,10 +178,10 @@ Savage décrit le corpus 1977 comme « barely digested regurgitations » (S79-A0
 
 ---
 
-## R-S79-014 — Curtis directeur aux répétitions → Collins atomes antérieurs : cohérence collective
+## R-S79-078 — Curtis directeur aux répétitions → Collins atomes antérieurs : cohérence collective
 
 ```yaml
-id: R-S79-014
+id: R-S79-078
 source_id: S79
 relation_type: recoupement
 from_atoms:

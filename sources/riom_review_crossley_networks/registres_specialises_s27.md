@@ -11,6 +11,7 @@ fiabilite: forte
 ## Citations candidates
 
 ```yaml
+type: citations_specialisees
 citations:
   - id: S27-Q001
     source_id: S27
@@ -46,6 +47,7 @@ citations:
 ## Chronologie
 
 ```yaml
+type: chronologie
 events:
   - id: CHR-S27-1975-1980-001
     date: "1975-1980"
@@ -77,6 +79,7 @@ events:
 ## Acteurs
 
 ```yaml
+type: acteurs
 people:
   - id: PERSONNE-S27-001
     name: "Loïc Riom"
@@ -107,6 +110,7 @@ people:
 ## Lieux
 
 ```yaml
+type: lieux
 places:
   - id: PLACE-S27-001
     name: "London"
@@ -136,6 +140,7 @@ places:
 ## Organisations
 
 ```yaml
+type: organisations
 organizations:
   - id: ORG-S27-001
     name: "Volume ! La revue des musiques populaires"
@@ -153,6 +158,7 @@ organizations:
 ## Chansons / albums
 
 ```yaml
+type: chansons
 songs_and_albums: []
 ```
 

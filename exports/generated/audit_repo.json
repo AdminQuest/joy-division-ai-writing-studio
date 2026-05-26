@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-05-26T16:26:50",
+  "generated_at": "2026-05-26T20:38:33",
   "summary": {
-    "records_total": 7274,
+    "records_total": 7292,
     "records_by_kind": {
       "metadata": 264,
       "atom": 2716,
       "source": 114,
-      "unknown": 1404,
+      "unknown": 1425,
       "concept": 456,
-      "motif": 426,
+      "motif": 424,
       "myth": 101,
       "quote": 539,
       "chronology": 476,
       "person": 305,
       "song": 110,
-      "template": 361,
+      "template": 360,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 31243,
-    "errors": 15,
-    "warnings": 31228,
-    "sources_declared_in_registre_json": 88,
+    "diagnostics_total": 31249,
+    "errors": 0,
+    "warnings": 31249,
+    "sources_declared_in_registre_json": 89,
     "sources_used_in_records": 75,
     "sources_exported": 75,
     "declared_but_unused": 14,
-    "used_but_missing_from_registre_json": 1,
-    "weak_source_labels": 1
+    "used_but_missing_from_registre_json": 0,
+    "weak_source_labels": 0
   },
   "records_by_kind": {
     "atom": 2716,
     "chronology": 476,
     "concept": 456,
     "metadata": 264,
-    "motif": 426,
+    "motif": 424,
     "myth": 101,
     "person": 305,
     "quote": 539,
@@ -41,8 +41,8 @@
     "rules": 1,
     "song": 110,
     "source": 114,
-    "template": 361,
-    "unknown": 1404
+    "template": 360,
+    "unknown": 1425
   },
   "records_by_source": {
     "REGISTRY": {
@@ -634,43 +634,43 @@
     "S86": {
       "metadata": 7,
       "atom": 11,
-      "unknown": 15,
+      "unknown": 20,
       "chronology": 7,
       "quote": 6
     },
     "S87": {
       "metadata": 6,
       "atom": 10,
-      "unknown": 14,
+      "unknown": 20,
       "chronology": 8,
       "quote": 6
     },
     "S88": {
       "metadata": 6,
-      "unknown": 16,
+      "unknown": 26,
       "atom": 11,
       "chronology": 7,
       "quote": 7
     }
   },
   "records_by_chapter": {
-    "1": 68,
+    "1": 71,
     "10": 48,
-    "11": 57,
+    "11": 62,
     "12": 51,
-    "13": 91,
-    "14": 250,
-    "2": 41,
-    "3": 98,
-    "4": 75,
-    "5": 68,
+    "13": 97,
+    "14": 271,
+    "2": 42,
+    "3": 100,
+    "4": 79,
+    "5": 72,
     "6": 138,
     "7": 24,
     "8": 81,
     "9": 18,
-    "Chapitre 1": 472,
-    "Chapitre 10": 560,
-    "Chapitre 11": 587,
+    "Chapitre 1": 470,
+    "Chapitre 10": 557,
+    "Chapitre 11": 588,
     "Chapitre 12": 666,
     "Chapitre 13": 346,
     "Chapitre 14": 2014,
@@ -678,7 +678,7 @@
     "Chapitre 3": 677,
     "Chapitre 4": 593,
     "Chapitre 5": 600,
-    "Chapitre 6": 790,
+    "Chapitre 6": 795,
     "Chapitre 7": 274,
     "Chapitre 8": 577,
     "Chapitre 9": 346,
@@ -809,14 +809,12 @@
     ]
   ],
   "issue_categories": {
-    "duplicate_id": 14,
     "field_type_error": 662,
     "invalid_controlled_value": 2782,
     "missing_required_field": 9211,
     "schema_warning": 527,
-    "unknown_yaml_block": 1374,
-    "v2_migration_debt": 16672,
-    "yaml_parse_error": 1
+    "unknown_yaml_block": 1395,
+    "v2_migration_debt": 16672
   },
   "top_files_by_issue_count": [
     [
@@ -940,128 +938,7 @@
       210
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-007",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-008",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-009",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-010",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-011",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-012",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-013",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-014",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-005",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-006",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/s84_cope_structuring_registers.md",
-      "record_id": "MOTIF-wilson-mediateur",
-      "message": "Duplicate id also found in registers/s85_malcolm_structuring_registers.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/motifs/master_motifs.md",
-      "record_id": "MOTIF-009",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/motifs/master_motifs.md",
-      "record_id": "MOTIF-010",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/master_concepts.md",
-      "record_id": "CONCEPT-010",
-      "message": "Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "registers/concepts/master_concepts.md",
-      "record_id": null,
-      "message": "YAML parse error: while scanning a simple key\n  in \"<unicode string>\", line 45, column 5:\n        sa formation était simplement no ... \n        ^\ncould not find expected ':'\n  in \"<unicode string>\", line 47, column 1:\n    atomes_lies:\n    ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -1923,7 +1800,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-007",
+      "record_id": "R-S79-071",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1931,7 +1808,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-008",
+      "record_id": "R-S79-072",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1939,7 +1816,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-009",
+      "record_id": "R-S79-073",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1947,7 +1824,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-010",
+      "record_id": "R-S79-074",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1955,7 +1832,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-011",
+      "record_id": "R-S79-075",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1963,7 +1840,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-012",
+      "record_id": "R-S79-076",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1971,7 +1848,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-013",
+      "record_id": "R-S79-077",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1979,7 +1856,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-014",
+      "record_id": "R-S79-078",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -2155,7 +2032,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-005",
+      "record_id": "R-S79-069",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -2163,7 +2040,7 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-006",
+      "record_id": "R-S79-070",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -7675,6 +7552,54 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "REF-S87-ADORNO-HORKHEIMER-1944",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -8316,6 +8241,46 @@
       "category": "unknown_yaml_block",
       "file": "registers/s77_worley_structuring_registers.md",
       "record_id": "REF-S77-FRASER-1990",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -9980,6 +9945,86 @@
       "category": "unknown_yaml_block",
       "file": "registers/s56_barone_specialized_registers.md",
       "record_id": "ALBUM-S56-UNKNOWN-PLEASURES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-010",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -12265,24 +12310,15 @@
         "usage": "post-punk ; scène de Manchester"
       }
     ],
-    "used_but_missing_from_registre_json": [
-      "REGISTRY"
-    ],
-    "weak_source_labels": [
-      {
-        "source_id": "REGISTRY",
-        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
-        "auteur": "Inconnu",
-        "titre": "REGISTRY"
-      }
-    ],
+    "used_but_missing_from_registre_json": [],
+    "weak_source_labels": [],
     "exported_sources": [
       {
         "source_id": "REGISTRY",
-        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
-        "auteur": "Inconnu",
-        "titre": "REGISTRY",
-        "annee": "",
+        "source_label": "REGISTRY — Registre canonique interne Joy Division / Warsaw",
+        "auteur": "AdminQuest",
+        "titre": "Registre canonique des chansons Joy Division et Warsaw",
+        "annee": "2024",
         "records": 1,
         "atoms": 1,
         "quotes": 0,
@@ -13874,7 +13910,7 @@
         "auteur": "Gay Jennifer Breyley",
         "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
         "annee": "2018",
-        "records": 53,
+        "records": 58,
         "atoms": 11,
         "quotes": 6,
         "chronology": 14,
@@ -13894,7 +13930,7 @@
         "auteur": "Jennifer Otter Bickerdike",
         "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
         "annee": "2018",
-        "records": 52,
+        "records": 58,
         "atoms": 10,
         "quotes": 6,
         "chronology": 16,
@@ -13913,7 +13949,7 @@
         "auteur": "Kieran Cashell",
         "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
         "annee": "2018",
-        "records": 54,
+        "records": 64,
         "atoms": 11,
         "quotes": 7,
         "chronology": 14,
@@ -46149,129 +46185,65 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-007",
+      "record_id": "R-S79-071",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-007",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-008",
+      "record_id": "R-S79-072",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-008",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-009",
+      "record_id": "R-S79-073",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-009",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-010",
+      "record_id": "R-S79-074",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-010",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-011",
+      "record_id": "R-S79-075",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-011",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-012",
+      "record_id": "R-S79-076",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-012",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-013",
+      "record_id": "R-S79-077",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-013",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-014",
+      "record_id": "R-S79-078",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "record_id": "R-S79-014",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
@@ -50989,33 +50961,17 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-005",
+      "record_id": "R-S79-069",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-005",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-006",
+      "record_id": "R-S79-070",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "record_id": "R-S79-006",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",
@@ -227635,6 +227591,54 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CHR-S87-001",
@@ -230694,6 +230698,46 @@
       "category": "unknown_yaml_block",
       "file": "registers/s77_worley_structuring_registers.md",
       "record_id": "REF-S77-FRASER-1990",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -235746,14 +235790,6 @@
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/s84_cope_structuring_registers.md",
-      "record_id": "MOTIF-wilson-mediateur",
-      "message": "Duplicate id also found in registers/s85_malcolm_structuring_registers.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s84_cope_structuring_registers.md",
@@ -238064,6 +238100,86 @@
       "record_id": "SONG-S56-DISORDER",
       "message": "Missing required field: chapters",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -261298,22 +261414,6 @@
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/motifs/master_motifs.md",
-      "record_id": "MOTIF-009",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/motifs/master_motifs.md",
-      "record_id": "MOTIF-010",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/people/s20_dodge_people_housing_geographies_v2.md",
@@ -262280,22 +262380,6 @@
       "record_id": "CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/master_concepts.md",
-      "record_id": "CONCEPT-010",
-      "message": "Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "yaml_parse_error",
-      "file": "registers/concepts/master_concepts.md",
-      "record_id": null,
-      "message": "YAML parse error: while scanning a simple key\n  in \"<unicode string>\", line 45, column 5:\n        sa formation était simplement no ... \n        ^\ncould not find expected ':'\n  in \"<unicode string>\", line 47, column 1:\n    atomes_lies:\n    ^",
-      "suggested_action": "Corriger la syntaxe YAML du bloc concerné."
     },
     {
       "level": "warning",

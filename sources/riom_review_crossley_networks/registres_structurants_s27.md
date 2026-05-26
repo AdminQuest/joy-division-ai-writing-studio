@@ -12,6 +12,7 @@ fiabilite: forte
 
 ```yaml
 id: CONCEPT-S27-001
+type: concept
 concept: "source secondaire au second degré"
 sources:
   - S27
@@ -27,6 +28,7 @@ usage_chapitres:
 
 ```yaml
 id: CONCEPT-S27-002
+type: concept
 concept: "analyse relationnelle des scènes"
 sources:
   - S27
@@ -41,6 +43,7 @@ usage_chapitres:
 
 ```yaml
 id: CONCEPT-S27-003
+type: concept
 concept: "effervescence collective musicale"
 sources:
   - S27
@@ -55,6 +58,7 @@ usage_chapitres:
 
 ```yaml
 id: CONCEPT-S27-004
+type: concept
 concept: "personnel renfort des scènes musicales"
 sources:
   - S27
@@ -69,6 +73,7 @@ usage_chapitres:
 
 ```yaml
 id: CONCEPT-S27-005
+type: concept
 concept: "music world crossleyen"
 sources:
   - S27
@@ -82,6 +87,7 @@ usage_chapitres:
 
 ```yaml
 id: CONCEPT-S27-006
+type: concept
 concept: "émergence comme processus"
 sources:
   - S27
@@ -97,6 +103,7 @@ usage_chapitres:
 
 ```yaml
 id: MOTIF-S27-001
+type: motif
 motif: "lieux qui font réseau"
 sources:
   - S27
@@ -107,6 +114,7 @@ description: "Clubs, espaces éphémères et points de rencontre produisent les 
 
 ```yaml
 id: MOTIF-S27-002
+type: motif
 motif: "coopération et rivalité"
 sources:
   - S27
@@ -117,6 +125,7 @@ description: "Une scène se nourrit autant d’alliances que de conflits, de sti
 
 ```yaml
 id: MOTIF-S27-003
+type: motif
 motif: "gatekeepers invisibles"
 sources:
   - S27
@@ -127,6 +136,7 @@ description: "Les médiateurs non musiciens conditionnent l’accès aux ressour
 
 ```yaml
 id: MOTIF-S27-004
+type: motif
 motif: "comment plutôt que pourquoi"
 sources:
   - S27
@@ -139,6 +149,7 @@ description: "La question processuelle remplace la recherche d’une origine uni
 
 ```yaml
 id: MYTH-S27-001
+type: mythe
 mythe: "le compte rendu vaut le livre"
 sources:
   - S27
@@ -151,6 +162,7 @@ position: "S27 oriente vers Crossley, mais ne peut pas remplacer l’ouvrage de 
 
 ```yaml
 id: MYTH-S27-002
+type: mythe
 mythe: "analyse de réseaux purement quantitative"
 sources:
   - S27
@@ -162,6 +174,7 @@ position: "Riom souligne que Crossley combine mesures de réseau et analyse qual
 
 ```yaml
 id: MYTH-S27-003
+type: mythe
 mythe: "punk comme essence stable"
 sources:
   - S27
@@ -175,6 +188,7 @@ position: "Riom signale le risque d’essentialiser le punk, alors que son carac
 
 ```yaml
 id: REF-S27-001
+type: reference
 auteur: "Loïc Riom"
 titre: "Nick CROSSLEY, Networks of Sound, Style and Subversion"
 annee: "2016"
@@ -184,6 +198,7 @@ fonction: "Compte rendu critique du livre de Nick Crossley dans Volume !."
 
 ```yaml
 id: REF-S27-002
+type: reference
 auteur: "Nick Crossley"
 titre: "Networks of Sound, Style and Subversion"
 annee: "2015"
@@ -193,6 +208,7 @@ fonction: "Ouvrage recensé par Riom ; source à consulter pour les données fin
 
 ```yaml
 id: REF-S27-003
+type: reference
 auteur: "Howard S. Becker"
 titre: "Les Mondes de l’art"
 source_id: S27

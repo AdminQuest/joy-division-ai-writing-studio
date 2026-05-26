@@ -27,7 +27,7 @@ chapitres:
   - Chapitre 6
 concepts_associes:
   - CONCEPT-015
-  - CONCEPT-011
+  - CONCEPT-auto-habilitation-artistique
 risques:
   - romantisation de l’impolitesse
   - confusion entre accident relationnel et stratégie consciente
@@ -124,7 +124,7 @@ chapitres:
   - Chapitre 2
   - Chapitre 6
 concepts_associes:
-  - CONCEPT-011
+  - CONCEPT-auto-habilitation-artistique
   - CONCEPT-004
 risques:
   - romantisation du chaos
