@@ -1,5 +1,12 @@
 # Registres structurants — S84 — Cope, « Nothing Here Now but the Recordings », 2018
 
+```yaml
+source_id: S84
+source_label: "S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018"
+type: registres_structurants
+date_creation: "2026-05-26"
+```
+
 ---
 
 ## CONCEPTS

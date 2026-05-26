@@ -108,6 +108,13 @@ window.DynamicRegisters = (() => {
   async function parseMarkdown(path, markdown) {
     const yaml = await ensureYaml();
     const out = [];
+    // Track document-level source_id from header blocks so it can be
+    // inherited by sub-records (e.g. CONCEPT-* / MOTIF-* blocks in
+    // sXX_*_structuring_registers.md) that don't carry their own source_id.
+    // This is generic: any file whose first YAML block has source_id but no id
+    // field is treated as a document header; all subsequent records without an
+    // explicit source reference inherit that source_id automatically.
+    let contextSourceId = null;
     const re = /```yaml\s*([\s\S]*?)\s*```/gi;
     let m;
     while ((m = re.exec(markdown))) {
@@ -115,14 +122,30 @@ window.DynamicRegisters = (() => {
       let loaded;
       try { loaded = yaml.load(m[1]); } catch { continue; }
       if (!loaded || typeof loaded !== 'object' || Array.isArray(loaded)) continue;
+      // Document header: has source_id but no record id → capture context, don't emit
+      if (loaded.source_id && !loaded.id) {
+        contextSourceId = text(loaded.source_id);
+        continue;
+      }
       const containerKeys = ['chronology','events','people','persons','places','organizations','organisations','orgs','songs','citations','quotes','concepts','motifs','mythes','myths','records'];
       const key = containerKeys.find(k => Array.isArray(loaded[k]));
       if (key) {
         loaded[key].forEach(item => {
-          if (item && typeof item === 'object' && !Array.isArray(item)) out.push(normalizeRecord(item, path, heading));
+          if (item && typeof item === 'object' && !Array.isArray(item)) {
+            // Inherit document source_id when the item has no own source reference
+            if (contextSourceId && !item.source_id && !item.source_ids && !item.sources) {
+              item = { ...item, source_id: contextSourceId };
+            }
+            out.push(normalizeRecord(item, path, heading));
+          }
         });
       } else {
-        out.push(normalizeRecord(loaded, path, heading));
+        // Inherit document source_id when the record has no own source reference
+        let record = loaded;
+        if (contextSourceId && record.id && !record.source_id && !record.source_ids && !record.sources) {
+          record = { ...record, source_id: contextSourceId };
+        }
+        out.push(normalizeRecord(record, path, heading));
       }
     }
     return out;

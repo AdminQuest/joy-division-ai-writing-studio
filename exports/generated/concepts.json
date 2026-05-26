@@ -3077,6 +3077,93 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-commodification-underground",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "CONCEPTS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "CONCEPT-commodification-underground",
+      "nom": "Commodification de l'underground",
+      "label": "Commodification de l'underground (subcultural commodification)",
+      "definition": "Processus par lequel une esthétique originellement contre-culturelle — produite dans un contexte d'autonomie, de refus du marché et de classe ouvrière — est récupérée, vidée de son contenu oppositionnelle et revendue à des prix de marché de luxe (parka Raf Simons £20 000, appartements Hacianda). Implique une dissociation entre le signe (le look) et l'attitude (l'autonomie).",
+      "fonction_argumentative": "Permet d'articuler la tension entre la persistance organique du legs Joy Division/Factory et son exploitation commerciale par la mode et la gentrification. Éclaire pourquoi l'authenticité ne peut être achetée mais seulement 'possédée'.",
+      "atomes": [
+        "S85-A009",
+        "S85-A012",
+        "S85-A013"
+      ],
+      "chapitres": [
+        10,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-anti-frankfurt-school-factory",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "CONCEPTS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "CONCEPT-anti-frankfurt-school-factory",
+      "nom": "Anti-École de Francfort — esthétique Factory",
+      "label": "Anti-École de Francfort (Factory Records philosophy)",
+      "definition": "Philosophie implicite de Factory Records consistant à retourner les thèses d'Adorno et MacDonald sur la musique populaire comme distraction passive : Factory produisait un objet qui 'ne se souciait pas' d'être acheté, exigeant un engagement actif plutôt que la consommation passive. L'esthétique confiante de Saville fonctionnait comme un défi lancé à la passivité culturelle.",
+      "fonction_argumentative": "Permet de distinguer la culture Factory de la simple commodité culturelle et d'expliquer pourquoi la récupération marchande trahit la nature même du projet. Utile pour les chapitres sur la production (5) et le legs (10).",
+      "atomes": [
+        "S85-A006",
+        "S85-A008"
+      ],
+      "chapitres": [
+        5,
+        10,
+        13
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-phoenix-hacianda",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "CONCEPTS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "CONCEPT-phoenix-hacianda",
+      "nom": "Le phénix mange sa queue — Hacianda",
+      "label": "Hacianda autodestruction (phoenix eating its own tail)",
+      "definition": "Formulation de Tom Hingley (2014) : la Hacianda a créé la scène (rave, mode) qui a ensuite attiré les promoteurs immobiliers, et les clients qui fréquentaient le club sont devenus les acheteurs des appartements qui l'ont remplacé. L'espace contre-culturel produit les conditions de sa propre dissolution par le marché.",
+      "fonction_argumentative": "Paradigme de la gentrification culturelle appliqué à Joy Division/Factory — illustre que le problème n'est pas seulement la récupération externe mais la transformation interne du public lui-même.",
+      "atomes": [
+        "S85-A012"
+      ],
+      "chapitres": [
+        8,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-subculture-numerique-vs-organique",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "CONCEPTS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "CONCEPT-subculture-numerique-vs-organique",
+      "nom": "Subculture numérique vs. organique",
+      "label": "Subculture numérique vs. organique (digital vs. organic subculture)",
+      "definition": "Opposition entre la subculture des années 1980 — lente, résidentielle, construite par la répétition des espaces physiques, des disquaires, des fanzines et des concerts — et la subculture numérique actuelle, instantanée, nomade et fondée sur l'identité affichée plutôt que l'expérience accumulée. La 'scène organique' nécessite le temps, la friction et la limitation — conditions que l'Internet annule.",
+      "fonction_argumentative": "Articule le diagnostic de la perte d'authenticité subculturelle au chapitre 13 et 14, et permet d'expliquer pourquoi la persistance organique du legs Joy Division (Thornton) résiste à la récupération numérique.",
+      "atomes": [
+        "S85-A010",
+        "S85-A011"
+      ],
+      "chapitres": [
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-fanzine_materiel_diy",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Concepts",

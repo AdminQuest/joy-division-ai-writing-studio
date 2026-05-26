@@ -1718,7 +1718,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md::2920",
+    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md::2934",
     "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
     "heading": "Citations exactes courtes — S37 — Manchester post-Sex Pistols, NME 1977",
     "data": {
@@ -1809,7 +1809,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md::2971",
+    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md::2985",
     "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
     "heading": "Citations exactes courtes — S37 — Manchester mémoire et réécriture, Observer 2006",
     "data": {
@@ -1862,7 +1862,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md::2994",
+    "id": "NO_ID::sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md::3008",
     "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
     "heading": "Citations exactes courtes — S37 — premier passage",
     "data": {
@@ -2340,7 +2340,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::3560",
+    "id": "NO_ID::sources/hook/citations_exactes.md::3574",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -5038,6 +5038,235 @@
       "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
       "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
       "source_year": "2021"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q001",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q001",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Tony Wilson",
+      "texte": "We like to keep people informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting sound we have come across in the last six months.",
+      "contexte": "Présentation de Joy Division sur Granada Reports, 1978, rappelée par Malcolm en cadrage du chapitre.",
+      "source_secondaire": "Wilson 1978, cité in Malcolm 2018, p. 195",
+      "pages_livre": "195",
+      "pages_pdf": "226",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A002"
+      ],
+      "chapitres": [
+        1,
+        2
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q002",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q002",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Peter Hook",
+      "texte": "Without Ian Curtis there would have been no Hacienda and without the Hacienda there would have been no Rave scene. The whole indie music merging with dance, the fashion, everything: it came from the Hacienda.",
+      "contexte": "Thèse causale centrale du chapitre — chaîne Curtis → Hacienda → rave → mode.",
+      "source_secondaire": "Hook cité in Bainbridge 2014, 251, repris in Malcolm 2018, p. 195",
+      "pages_livre": "195",
+      "pages_pdf": "226",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A004"
+      ],
+      "chapitres": [
+        1,
+        8,
+        13,
+        14
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q003",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q003",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Peter Saville",
+      "texte": "It's there and it exists – you can have it if you want but it doesn't care if you buy it.",
+      "contexte": "Sur la pochette zéro-information de Blue Monday — philosophie Factory contre la consommation passive.",
+      "source_secondaire": "Saville 2013, cité in Malcolm 2018, p. 199",
+      "pages_livre": "199",
+      "pages_pdf": "230",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A006"
+      ],
+      "chapitres": [
+        5,
+        10
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q004",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q004",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Bernard Sumner",
+      "texte": "I believe creativity is not an analytical thing, it's not a conscious thing. It comes from the soul.",
+      "contexte": "London Electronic Arts Festival, Sumner 2013 — sur la créativité subconsciente comme méthode de travail avec Saville.",
+      "source_secondaire": "Sumner 2013, cité in Malcolm 2018, p. 200",
+      "pages_livre": "200",
+      "pages_pdf": "231",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A008"
+      ],
+      "chapitres": [
+        5,
+        13
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q005",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q005",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Bernard Sumner",
+      "texte": "We didn't talk about design too deeply with Peter (Saville) we just asked ourselves, do we like it? Yes, do we like it? No. That's how we felt the general public viewed things. They didn't care about all the meaning and reasoning behind something, they just made their mind up in a split second.",
+      "contexte": "Sumner 2013, London Electronic Arts Festival — méthode de travail instinctive avec Saville.",
+      "source_secondaire": "Sumner 2013, cité in Malcolm 2018, p. 200",
+      "pages_livre": "200",
+      "pages_pdf": "231",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A008"
+      ],
+      "chapitres": [
+        5,
+        10,
+        13
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q006",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q006",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Kevin Buckle",
+      "texte": "There is no underground now. There's a guy walking in with a CD of some young band trying to sell it, the day you would had heard of them, they wouldn't have just produced a CD like that, they would have had some history.",
+      "contexte": "Avalanche Records, Edinburgh — témoignage sur la disparition de la scène underground authentique.",
+      "source_secondaire": "Buckle 2014, cité in Malcolm 2018, p. 202",
+      "pages_livre": "202",
+      "pages_pdf": "233",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A010"
+      ],
+      "chapitres": [
+        13,
+        14
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q007",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q007",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Tom Hingley",
+      "texte": "The Hacienda was a phoenix eating its own tail, the punters who came eventually bought the flats that replaced it when it was knocked down. The club created the scene that would eventually pull it down.",
+      "contexte": "Inspiral Carpets, sur la Hacienda comme phénomène auto-destructeur — gentrification.",
+      "source_secondaire": "Hingley 2014, cité in Malcolm 2018, p. 206",
+      "pages_livre": "206",
+      "pages_pdf": "237",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A012"
+      ],
+      "chapitres": [
+        8,
+        13,
+        14
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S85-Q008",
+    "file": "registers/s85_malcolm_specialized_registers.md",
+    "heading": "CITATIONS",
+    "data": {
+      "id": "S85-Q008",
+      "source_id": "S85",
+      "type": "citation",
+      "auteur": "Tony Wilson",
+      "texte": "On seeing Joy Division live for the first time he saw a band that had to be there, not because they wanted to be in a band and put records out but because they had no other way of expressing their suppressed creativity in a 'dirty northern town with high unemployment'.",
+      "contexte": "Wilson 2007, cité dans les conclusions de Malcolm — Joy Division comme expression de la créativité comprimée ouvrière.",
+      "source_secondaire": "Wilson 2007, cité in Malcolm 2018, p. 206",
+      "pages_livre": "206",
+      "pages_pdf": "237",
+      "statut": "verifie",
+      "atomes": [
+        "S85-A013"
+      ],
+      "chapitres": [
+        1,
+        13,
+        14
+      ],
+      "source_label": "S85 — Malcolm, Mining for Counterculture, 2018",
+      "source_short_title": "Colin Malcolm, Mining for Counterculture, 2018",
+      "source_year": "2018"
     }
   },
   {

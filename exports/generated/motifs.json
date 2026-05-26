@@ -1417,6 +1417,92 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-legs-factory-double",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "MOTIFS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "MOTIF-legs-factory-double",
+      "label": "legs_factory_double",
+      "description": "Le legs de Factory est double : la musique ET le package (design, philosophie, autonomie). Ce motif traverse les analyses de réception de Joy Division — on ne peut pas séparer la musique de son dispositif visuel et éthique sans trahir l'un et l'autre.",
+      "atomes": [
+        "S85-A006",
+        "S85-A008",
+        "S85-A013"
+      ],
+      "chapitres": [
+        5,
+        10,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-hacianda-gentrification",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "MOTIFS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "MOTIF-hacianda-gentrification",
+      "label": "hacianda_gentrification",
+      "description": "La Hacianda comme paradigme de la gentrification culturelle : site contre-culturel démoli et remplacé par des appartements de luxe, avec récupération du capital symbolique (tag line marketing). Ce motif relie Factory Records à la question plus large de l'urbanisme post-industriel manchesterien.",
+      "atomes": [
+        "S85-A007",
+        "S85-A011",
+        "S85-A012"
+      ],
+      "chapitres": [
+        8,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-authenticite-non-achetable",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "MOTIFS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "MOTIF-authenticite-non-achetable",
+      "label": "authenticite_non_achetable",
+      "description": "La contre-culture authentique ne peut être achetée, seulement 'possédée' (Malcolm, conclusion). Motif central du chapitre reliant Baudrillard, Sumner ('it comes from the soul'), la parka Raf Simons et Kevin Buckle. Pose la question de si la résistance à la commodification est encore possible.",
+      "atomes": [
+        "S85-A008",
+        "S85-A009",
+        "S85-A013"
+      ],
+      "chapitres": [
+        10,
+        13,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-wilson-mediateur",
+    "file": "registers/s85_malcolm_structuring_registers.md",
+    "heading": "MOTIFS NOUVEAUX OU COMPLÉTÉS",
+    "data": {
+      "id": "MOTIF-wilson-mediateur",
+      "label": "wilson_mediateur",
+      "description": "Tony Wilson comme médiateur culturel entre Joy Division/Factory et le grand public — de la présentation sur Granada Reports (1978) à la résistance contre la préservation de la Hacianda comme musée. Motif partagé avec S84 et S85.",
+      "atomes": [
+        "S85-A002",
+        "S85-A005",
+        "S85-A012"
+      ],
+      "chapitres": [
+        1,
+        5,
+        8,
+        14
+      ]
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-graphisme_pauvre_fanzine",
     "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
     "heading": "Motifs",
