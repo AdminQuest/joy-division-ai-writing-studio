@@ -4778,5 +4778,45 @@
       "titres canoniques",
       "registre interne"
     ]
+  },
+  {
+    "id": "REGISTRY-CONCERTS",
+    "source_label": "REGISTRY-CONCERTS — joydiv.org/concerts.htm",
+    "auteur": "Tony Nuttall",
+    "titre": "Joy Division Concert List",
+    "url": "https://joydiv.org/concerts.htm",
+    "statut": "reference_externe",
+    "fiabilite": "haute",
+    "usage": [
+      "concerts",
+      "dates de concerts",
+      "lieux",
+      "setlists",
+      "alias groupe (Warsaw, Stiff Kittens)",
+      "chronologie live Joy Division"
+    ],
+    "schema": "schemas/concert_v1.yaml",
+    "registre": "registers/concerts/00_canonical_concerts.md",
+    "notes": "Site de référence maintenu par Tony Nuttall. Liste exhaustive des concerts Joy Division et Warsaw. Consulter joydiv.org pour la version la plus récente. Consultation en attente (accès réseau à activer dans l'environnement)."
+  },
+  {
+    "id": "REGISTRY-SESSIONS",
+    "source_label": "REGISTRY-SESSIONS — joydiv.org/sessrehears.htm",
+    "auteur": "Tony Nuttall",
+    "titre": "Joy Division Sessions & Rehearsals",
+    "url": "https://joydiv.org/sessrehears.htm",
+    "statut": "reference_externe",
+    "fiabilite": "haute",
+    "usage": [
+      "sessions studio",
+      "répétitions",
+      "enregistrements radio",
+      "Peel sessions",
+      "enregistrements TV",
+      "chronologie des enregistrements Joy Division"
+    ],
+    "schema": "schemas/session_v1.yaml",
+    "registre": "registers/sessions/00_canonical_sessions.md",
+    "notes": "Site de référence maintenu par Tony Nuttall. Liste exhaustive des sessions, répétitions et enregistrements diffusés (radio, TV, BBC Peel). Consulter joydiv.org pour la version la plus récente. Consultation en attente (accès réseau à activer dans l'environnement)."
   }
 ]
