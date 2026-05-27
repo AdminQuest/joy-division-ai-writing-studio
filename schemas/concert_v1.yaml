@@ -1,0 +1,178 @@
+schema: concert
+version: 1.0
+
+description: >
+  Schéma documentaire des concerts Joy Division (et Warsaw).
+  Chaque entrée représente un concert identifiable, daté, localisé.
+  Source canonique primaire : joydiv.org (Tony Nuttall).
+  Ce schéma régit le fichier registers/concerts/00_canonical_concerts.md
+  et tout fichier de registre concert ultérieur.
+
+required:
+  - id
+  - date
+  - date_display
+  - lieu
+  - ville
+  - pays
+  - sources
+
+recommended:
+  - setlist
+  - atomes_lies
+  - chronologie_id
+  - notes
+
+optional:
+  - nom_tournee
+  - premiere_partie
+  - support_act
+  - annule
+  - alias_groupe
+
+# ─── Détail des champs ──────────────────────────────────────────────
+
+fields:
+
+  id:
+    type: string
+    pattern: "JD-CONCERT-YYYYMMDD-NNN"
+    description: >
+      Identifiant canonique unique. Format : JD-CONCERT-YYYYMMDD-NNN
+      où NNN est un index sur 3 chiffres (001, 002…) pour les doublons
+      de même date. Pour les concerts datés seulement au mois ou à
+      l'année, utiliser YYYYMM00 ou YYYY0000.
+    example: "JD-CONCERT-19770529-001"
+
+  date:
+    type: string
+    format: "YYYY-MM-DD"
+    description: >
+      Date ISO 8601. Si jour inconnu, utiliser YYYY-MM-00.
+      Si mois inconnu, utiliser YYYY-00-00.
+    example: "1977-05-29"
+
+  date_display:
+    type: string
+    description: >
+      Date telle qu'affichée dans la source (lisible, en français).
+    example: "29 mai 1977"
+
+  lieu:
+    type: string
+    description: >
+      Nom canonique de la salle, du club ou du lieu.
+      Si le nom a changé, utiliser le nom contemporain à l'événement.
+    example: "Electric Circus"
+
+  ville:
+    type: string
+    example: "Manchester"
+
+  pays:
+    type: string
+    example: "Royaume-Uni"
+
+  setlist:
+    type: list
+    items: string
+    description: >
+      Liste ordonnée des titres joués. Vide ([]) si inconnue.
+      Les titres doivent correspondre aux identifiants canoniques
+      chansons du REGISTRY quand possible (ex. SONG-JD-TRANSMISSION).
+    default: []
+
+  sources:
+    type: list
+    items: string
+    description: >
+      Identifiants des sources documentaires. Toujours inclure
+      REGISTRY-CONCERTS pour les entrées issues de joydiv.org.
+    example: ["REGISTRY-CONCERTS"]
+
+  atomes_lies:
+    type: list
+    items: string
+    description: >
+      Identifiants des atomes documentaires (ex. S41-A012) qui
+      mentionnent ce concert ou ce gig.
+    default: []
+
+  chronologie_id:
+    type: string
+    description: >
+      Identifiant de l'entrée correspondante dans
+      registers/chronology/master_chronology.md (ex. CHR-1980-001).
+      Laisser vide si pas d'entrée correspondante — signaler dans
+      registers/concerts/lacunes_chronologie.md.
+    example: "CHR-1980-001"
+
+  notes:
+    type: string
+    description: >
+      Informations complémentaires : alias du groupe (Warsaw, Stiff Kittens),
+      annulation, état de Ian Curtis, contexte exceptionnel…
+    default: ""
+
+  nom_tournee:
+    type: string
+    description: "Nom de la tournée si applicable."
+    example: "A Factory Sample tour"
+
+  premiere_partie:
+    type: list
+    items: string
+    description: "Groupes en première partie."
+
+  annule:
+    type: boolean
+    description: "true si le concert a été annulé."
+    default: false
+
+  alias_groupe:
+    type: string
+    description: >
+      Nom sous lequel le groupe se produisait (Warsaw, Stiff Kittens,
+      Joy Division). Utile pour les concerts de 1977.
+    controlled_values:
+      - "Joy Division"
+      - "Warsaw"
+      - "Stiff Kittens"
+
+# ─── Conventions de nommage des fichiers ───────────────────────────
+
+file_naming:
+  canonical: "00_canonical_concerts.md"
+  source_specific: "concerts_<source_id>_<descripteur>.md"
+  example: "concerts_s41_hook_selected.md"
+
+# ─── Règles éditoriales ────────────────────────────────────────────
+
+rules:
+  - un id unique par concert (même date = suffixe 001, 002…)
+  - date toujours en ISO 8601 même si approximative (YYYY-MM-00)
+  - sources toujours renseignées, minimum REGISTRY-CONCERTS
+  - setlist vide ([]) si inconnue, jamais omis
+  - atomes_lies à enrichir progressivement, jamais vide définitivement
+  - alias_groupe obligatoire pour tous les concerts antérieurs à
+    janvier 1978 (période Warsaw / Stiff Kittens)
+  - un concert annulé garde son entrée avec annule: true
+
+warnings:
+  - ne pas fusionner deux concerts distincts en une seule entrée
+  - ne pas inventer de setlist — laisser [] si non documentée
+  - signaler toute contradiction de date entre sources dans notes
+  - les dates approximatives ne doivent pas être présentées comme exactes
+
+relations_with_other_registers:
+  chronology: >
+    Tout concert déjà présent dans master_chronology.md doit avoir
+    un chronologie_id. Les concerts sans entrée chronologique sont
+    à signaler dans lacunes_chronologie.md pour enrichissement futur.
+  atoms: >
+    Les atomes des sources S41 (Hook), S45 (Curtis), S29 (Goddard),
+    S35 (Morris), S34 (Fraser-Fuoto), S84 (Cope) contiennent les
+    mentions de concerts les plus fréquentes.
+  songs: >
+    Les setlists utilisent de préférence les identifiants canoniques
+    chansons du REGISTRY (data/registre.json id=REGISTRY).
