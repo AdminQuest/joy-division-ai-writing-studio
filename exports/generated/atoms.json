@@ -64579,7 +64579,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "19-20",
-      "type_unite": "reception_discographique",
+      "type_unite": "reception",
       "concepts": [
         "A Factory Sample",
         "Digital",
@@ -64594,6 +64594,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "montrer la vitesse exceptionnelle d’évolution du groupe.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "a_factory_sample",
+        "digital",
+        "glass",
+        "john_peel_session",
+        "obsolescence"
+      ],
+      "concepts_derives": [
+        "a_factory_sample"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64610,7 +64641,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 20,
-      "type_unite": "reception_radio",
+      "type_unite": "reception",
       "concepts": [
         "Peel Session",
         "BBC",
@@ -64625,6 +64656,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "point décisif pour la reconnaissance nationale.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "peel_session",
+        "bbc",
+        "maida_vale",
+        "puissance_intérieure",
+        "développement_rapide"
+      ],
+      "concepts_derives": [
+        "peel_session"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64641,7 +64703,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "20; 54",
-      "type_unite": "session_radio",
+      "type_unite": "production",
       "concepts": [
         "Exercise One",
         "Insight",
@@ -64656,6 +64718,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "référentiel radio pour les versions alternatives.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "exercise_one",
+        "insight",
+        "transmission",
+        "she's_lost_control",
+        "john_peel"
+      ],
+      "concepts_derives": [
+        "exercise_one"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64672,7 +64765,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "20-21",
-      "type_unite": "economie_factory",
+      "type_unite": "sociologie",
       "concepts": [
         "Factory Records",
         "contrat",
@@ -64686,6 +64779,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "central pour l’économie morale et financière de Factory.",
+        "analyser l'économie et les réseaux"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory_records",
+        "contrat",
+        "profit-sharing",
+        "indépendance",
+        "tony_wilson"
+      ],
+      "concepts_derives": [
+        "factory_records"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64702,7 +64826,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 20,
-      "type_unite": "live_strategy",
+      "type_unite": "production",
       "concepts": [
         "tournées",
         "Factory Nights",
@@ -64716,6 +64840,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour distinguer Joy Division de l’économie rock conventionnelle.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "tournées",
+        "factory_nights",
+        "buzzcocks",
+        "concerts_isolés",
+        "stratégie_live"
+      ],
+      "concepts_derives": [
+        "tournées"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64732,7 +64887,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "20; 54",
-      "type_unite": "bootleg_culture",
+      "type_unite": "culture_musicale",
       "concepts": [
         "bootlegs",
         "rareté",
@@ -64744,9 +64899,40 @@
         "Chapitre 9",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "expliquer la culture bootleg Joy Division comme effet de rareté documentaire.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "bootlegs",
+        "rareté",
+        "live_tapes",
+        "peel_sessions",
+        "circulation"
+      ],
+      "concepts_derives": [
+        "bootlegs"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64763,7 +64949,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 20,
-      "type_unite": "reception_critique",
+      "type_unite": "reception",
       "concepts": [
         "Ian Wood",
         "NME",
@@ -64779,6 +64965,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "matériau de réception essentiel sur l’association entre musique et ville industrielle.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ian_wood",
+        "nme",
+        "urban_malaise",
+        "ian_curtis",
+        "humanité"
+      ],
+      "concepts_derives": [
+        "ian_wood"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64795,7 +65012,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "20-21",
-      "type_unite": "reception_album",
+      "type_unite": "reception",
       "concepts": [
         "Unknown Pleasures",
         "attente critique",
@@ -64807,9 +65024,40 @@
         "Chapitre 5",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour contrer l’idée d’une reconnaissance uniquement posthume.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "unknown_pleasures",
+        "attente_critique",
+        "factory",
+        "premier_album",
+        "indépendance"
+      ],
+      "concepts_derives": [
+        "unknown_pleasures"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64826,7 +65074,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 20,
-      "type_unite": "discographie_album",
+      "type_unite": "archive",
       "concepts": [
         "Unknown Pleasures",
         "She's Lost Control",
@@ -64840,6 +65088,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "éclairer la circulation des titres entre radio, live et album.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "unknown_pleasures",
+        "she's_lost_control",
+        "insight",
+        "peel_session",
+        "tracklist"
+      ],
+      "concepts_derives": [
+        "unknown_pleasures"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64856,7 +65135,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 20,
-      "type_unite": "outtakes",
+      "type_unite": "archive",
       "concepts": [
         "Exercise One",
         "Auto-Suggestion",
@@ -64871,6 +65150,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour la cartographie des leftovers.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "exercise_one",
+        "auto-suggestion",
+        "from_safety_to_where",
+        "the_kill",
+        "walked_in_line"
+      ],
+      "concepts_derives": [
+        "exercise_one"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64887,7 +65197,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 21,
-      "type_unite": "reception_critique",
+      "type_unite": "reception",
       "concepts": [
         "Max Bell",
         "NME",
@@ -64902,6 +65212,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour la réception critique associant Curtis à Morrison et Joy Division à une tradition rock sombre.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "max_bell",
+        "nme",
+        "unknown_pleasures",
+        "the_doors",
+        "strange_days"
+      ],
+      "concepts_derives": [
+        "max_bell"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64918,7 +65259,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 21,
-      "type_unite": "reception_critique",
+      "type_unite": "reception",
       "concepts": [
         "John Savage",
         "Melody Maker",
@@ -64931,6 +65272,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la reconnaissance critique immédiate.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_savage",
+        "melody_maker",
+        "unknown_pleasures",
+        "premier_album",
+        "chapitre_14"
+      ],
+      "concepts_derives": [
+        "john_savage"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64947,7 +65319,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 21,
-      "type_unite": "reception_comparative",
+      "type_unite": "reception",
       "concepts": [
         "Ian Curtis",
         "Jim Morrison",
@@ -64959,9 +65331,40 @@
         "Chapitre 4",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour traiter les comparaisons rock qui précèdent la canonisation propre de Curtis.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ian_curtis",
+        "jim_morrison",
+        "iggy_pop",
+        "danse",
+        "voix"
+      ],
+      "concepts_derives": [
+        "ian_curtis"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -64978,7 +65381,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 21,
-      "type_unite": "interpretation_esthetique",
+      "type_unite": "analyse",
       "concepts": [
         "originalité",
         "influences",
@@ -64990,9 +65393,40 @@
         "Chapitre 3",
         "Chapitre 11"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour éviter l’explication par accumulation d’influences.",
+        "fournir une lecture critique secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "originalité",
+        "influences",
+        "chimie_musicale",
+        "irréductibilité",
+        "post-punk"
+      ],
+      "concepts_derives": [
+        "originalité"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65009,7 +65443,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "21-22",
-      "type_unite": "economie_factory",
+      "type_unite": "sociologie",
       "concepts": [
         "Unknown Pleasures",
         "ventes",
@@ -65023,6 +65457,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "fondamental sur le plafond matériel de l’indépendance.",
+        "analyser l'économie et les réseaux"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "unknown_pleasures",
+        "ventes",
+        "pressage",
+        "distribution",
+        "factory"
+      ],
+      "concepts_derives": [
+        "unknown_pleasures"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65039,7 +65504,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "21-22",
-      "type_unite": "economie_musicale",
+      "type_unite": "sociologie",
       "concepts": [
         "Factory",
         "royalties",
@@ -65054,6 +65519,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour expliquer l’indépendance comme rationalité économique, pas seulement éthique.",
+        "analyser l'économie et les réseaux"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory",
+        "royalties",
+        "revenus",
+        "major_labels",
+        "profit-sharing"
+      ],
+      "concepts_derives": [
+        "factory"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65070,7 +65566,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "23; 44",
-      "type_unite": "strategie_discographique",
+      "type_unite": "production",
       "concepts": [
         "Earcom 2",
         "Auto-Suggestion",
@@ -65082,9 +65578,40 @@
         "Chapitre 5",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour la politique de rareté et de dispersion du catalogue.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "earcom_2",
+        "auto-suggestion",
+        "from_safety_to_where",
+        "fast_products",
+        "anti-star_attitude"
+      ],
+      "concepts_derives": [
+        "earcom_2"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65101,7 +65628,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 23,
-      "type_unite": "tournee",
+      "type_unite": "concert",
       "concepts": [
         "Buzzcocks",
         "tournée 1979",
@@ -65115,6 +65642,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour comprendre l’élargissement du public sans dilution esthétique.",
+        "chronologier les performances scéniques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "buzzcocks",
+        "tournée_1979",
+        "pete_shelley",
+        "contraste",
+        "public"
+      ],
+      "concepts_derives": [
+        "buzzcocks"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65131,7 +65689,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 23,
-      "type_unite": "strategie_discographique",
+      "type_unite": "production",
       "concepts": [
         "Transmission",
         "Factory",
@@ -65146,6 +65704,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "exemple net de stratégie anti-industrielle.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "transmission",
+        "factory",
+        "buzzcocks_tour",
+        "anti-commercialisme",
+        "novelty"
+      ],
+      "concepts_derives": [
+        "transmission"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65162,7 +65751,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 24,
-      "type_unite": "reception_commerciale",
+      "type_unite": "reception",
       "concepts": [
         "Transmission",
         "Factory",
@@ -65175,6 +65764,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour distinguer succès commercial et succès stratégique.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "transmission",
+        "factory",
+        "ventes",
+        "succès_relatif",
+        "chapitre_5"
+      ],
+      "concepts_derives": [
+        "transmission"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65191,7 +65811,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 24,
-      "type_unite": "session_enregistrement",
+      "type_unite": "production",
       "concepts": [
         "Cargo Studios",
         "Ice Age",
@@ -65206,6 +65826,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "session majeure de fin 1979.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "cargo_studios",
+        "ice_age",
+        "dead_souls",
+        "atmosphere",
+        "martin_hannett"
+      ],
+      "concepts_derives": [
+        "cargo_studios"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65222,7 +65873,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "24; 48",
-      "type_unite": "projet_avorte",
+      "type_unite": "production",
       "concepts": [
         "Ice Age",
         "Futurama",
@@ -65237,6 +65888,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "exemple de circulation contrariée des archives.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ice_age",
+        "futurama",
+        "leeds",
+        "projet_avorté",
+        "still"
+      ],
+      "concepts_derives": [
+        "ice_age"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65253,7 +65935,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "24; 44",
-      "type_unite": "objet_artistique",
+      "type_unite": "culture_musicale",
       "concepts": [
         "Sordide Sentimental",
         "Atmosphere",
@@ -65268,6 +65950,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "central pour la sacralisation matérielle de Joy Division.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "sordide_sentimental",
+        "atmosphere",
+        "dead_souls",
+        "jean-pierre_turmel",
+        "jean-françois_jamoul"
+      ],
+      "concepts_derives": [
+        "sordide_sentimental"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65284,7 +65997,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "24; 54",
-      "type_unite": "session_radio",
+      "type_unite": "production",
       "concepts": [
         "John Peel",
         "Love Will Tear Us Apart",
@@ -65299,6 +66012,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "clé pour la période pré-*Closer*.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "love_will_tear_us_apart",
+        "colony",
+        "twenty-four_hours",
+        "sound_of_music"
+      ],
+      "concepts_derives": [
+        "john_peel"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65315,7 +66059,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 24,
-      "type_unite": "reception_presse",
+      "type_unite": "reception",
       "concepts": [
         "NME",
         "Sounds",
@@ -65329,6 +66073,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la reconnaissance avant décès.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "nme",
+        "sounds",
+        "new_act",
+        "unknown_pleasures",
+        "presse_musicale"
+      ],
+      "concepts_derives": [
+        "nme"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65345,7 +66120,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "29-30",
-      "type_unite": "session_album",
+      "type_unite": "production",
       "concepts": [
         "Closer",
         "Britannia Row",
@@ -65360,6 +66135,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "chronologie essentielle de l’album.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "britannia_row",
+        "islington",
+        "londres",
+        "mars_1980"
+      ],
+      "concepts_derives": [
+        "closer"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65376,7 +66182,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "29-30",
-      "type_unite": "session_album",
+      "type_unite": "production",
       "concepts": [
         "Closer",
         "treize jours",
@@ -65391,6 +66197,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "à employer avec prudence, mais riche narrativement.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "treize_jours",
+        "treize_nuits",
+        "britannia_row",
+        "tension"
+      ],
+      "concepts_derives": [
+        "closer"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65407,7 +66244,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "30; 34",
-      "type_unite": "interpretation_album",
+      "type_unite": "analyse",
       "concepts": [
         "Closer",
         "réussite artistique",
@@ -65419,9 +66256,40 @@
         "Chapitre 6",
         "Chapitre 12"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour éviter la réduction nécrologique de l’album.",
+        "fournir une lecture critique secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "réussite_artistique",
+        "tension",
+        "ian_curtis",
+        "groupe"
+      ],
+      "concepts_derives": [
+        "closer"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65438,7 +66306,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 30,
-      "type_unite": "concert_sequence",
+      "type_unite": "concert",
       "concepts": [
         "Moonlight Club",
         "Ian Curtis",
@@ -65453,6 +66321,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "préparer le récit des derniers concerts.",
+        "chronologier les performances scéniques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "moonlight_club",
+        "ian_curtis",
+        "factory_evenings",
+        "avril_1980",
+        "fatigue"
+      ],
+      "concepts_derives": [
+        "moonlight_club"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65469,7 +66368,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 30,
-      "type_unite": "concert_incident",
+      "type_unite": "concert",
       "concepts": [
         "Rainbow Theatre",
         "The Stranglers",
@@ -65484,6 +66383,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "jalon des dernières semaines.",
+        "chronologier les performances scéniques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "rainbow_theatre",
+        "the_stranglers",
+        "ian_curtis",
+        "crise",
+        "4_avril_1980"
+      ],
+      "concepts_derives": [
+        "rainbow_theatre"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65500,7 +66430,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "30; 48",
-      "type_unite": "dernier_concert",
+      "type_unite": "concert",
       "concepts": [
         "Birmingham University",
         "High Hall",
@@ -65516,6 +66446,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "repère terminal de la chronologie scénique.",
+        "chronologier les performances scéniques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "birmingham_university",
+        "high_hall",
+        "2_mai_1980",
+        "dernier_concert",
+        "still"
+      ],
+      "concepts_derives": [
+        "birmingham_university"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65532,7 +66493,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "30; 48; 54",
-      "type_unite": "projet_avorte",
+      "type_unite": "production",
       "concepts": [
         "album live allemand",
         "Still",
@@ -65547,6 +66508,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "important pour les archives live.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "album_live_allemand",
+        "still",
+        "birmingham_university",
+        "moonlight_club",
+        "archives_live"
+      ],
+      "concepts_derives": [
+        "album_live_allemand"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65563,7 +66555,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "biographie_finale",
+      "type_unite": "biographie",
       "concepts": [
         "Stroszek",
         "Werner Herzog",
@@ -65577,6 +66569,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "élément biographique très sensible, à croiser avec Deborah Curtis.",
+        "établir les faits biographiques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "stroszek",
+        "werner_herzog",
+        "ian_curtis",
+        "suicide",
+        "macclesfield"
+      ],
+      "concepts_derives": [
+        "stroszek"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65593,7 +66616,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "reception_deces",
+      "type_unite": "reception",
       "concepts": [
         "presse musicale",
         "grève",
@@ -65608,6 +66631,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "expliquer la temporalité étrange de la réception du décès.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "presse_musicale",
+        "grève",
+        "ian_curtis",
+        "mort",
+        "rumeur"
+      ],
+      "concepts_derives": [
+        "presse_musicale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65624,7 +66678,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "reception_radio",
+      "type_unite": "reception",
       "concepts": [
         "John Peel",
         "Ian Curtis",
@@ -65639,6 +66693,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "fort sur Peel comme médiateur affectif du public Joy Division.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "ian_curtis",
+        "radio_1",
+        "annonce",
+        "décès"
+      ],
+      "concepts_derives": [
+        "john_peel"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65655,7 +66740,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "critique_mythologie",
+      "type_unite": "mythe",
       "concepts": [
         "death cult",
         "Ian Curtis",
@@ -65667,9 +66752,40 @@
         "Chapitre 12",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "très utile dans une section de démystification.",
+        "analyser la construction mythologique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "death_cult",
+        "ian_curtis",
+        "atmosphere",
+        "new_dawn_fades",
+        "romantisme_noir"
+      ],
+      "concepts_derives": [
+        "death_cult"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65686,7 +66802,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "fin_groupe",
+      "type_unite": "biographie",
       "concepts": [
         "Ian Curtis",
         "fin de Joy Division",
@@ -65701,6 +66817,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "clé sur l’intégrité collective.",
+        "établir les faits biographiques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ian_curtis",
+        "fin_de_joy_division",
+        "intégrité",
+        "nom",
+        "new_order"
+      ],
+      "concepts_derives": [
+        "ian_curtis"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65717,7 +66864,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 31,
-      "type_unite": "demythification",
+      "type_unite": "mythe",
       "concepts": [
         "Bernard Sumner",
         "Peter Hook",
@@ -65729,9 +66876,40 @@
         "Chapitre 3",
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "majeur pour rééquilibrer le récit du groupe.",
+        "analyser la construction mythologique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "bernard_sumner",
+        "peter_hook",
+        "stephen_morris",
+        "ian_curtis",
+        "partenariat"
+      ],
+      "concepts_derives": [
+        "bernard_sumner"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65748,7 +66926,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "30; 34",
-      "$type_unite": "objet_factory",
+      "type_unite": "culture_musicale",
       "concepts": [
         "Komakino",
         "Incubation",
@@ -65763,6 +66941,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "exemple extrême de l’économie singulière Factory.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "komakino",
+        "incubation",
+        "and_then_again",
+        "flexi_disc",
+        "gratuité"
+      ],
+      "concepts_derives": [
+        "komakino"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65779,7 +66988,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 34,
-      "type_unite": "discographie_single",
+      "type_unite": "archive",
       "concepts": [
         "Love Will Tear Us Apart",
         "7 inch",
@@ -65794,6 +67003,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour l’histoire matérielle du single.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "love_will_tear_us_apart",
+        "7_inch",
+        "12_inch",
+        "mixage",
+        "martin_hannett"
+      ],
+      "concepts_derives": [
+        "love_will_tear_us_apart"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65810,7 +67050,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "34; 59",
-      "$type_unite": "reception_commerciale",
+      "type_unite": "reception",
       "concepts": [
         "Closer",
         "charts",
@@ -65823,6 +67063,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "données de réception commerciale.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "charts",
+        "posthume",
+        "album",
+        "chapitre_14"
+      ],
+      "concepts_derives": [
+        "closer"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65839,7 +67110,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "36-38",
-      "type_unite": "transition_new_order",
+      "type_unite": "biographie",
       "concepts": [
         "New Order",
         "Joy Division",
@@ -65850,9 +67121,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "central pour le chapitre sur la survivance culturelle.",
+        "établir les faits biographiques"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "new_order",
+        "joy_division",
+        "héritage",
+        "ombre_portée",
+        "identité"
+      ],
+      "concepts_derives": [
+        "new_order"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65869,7 +67171,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "36; 38",
-      "type_unite": "reception_new_order",
+      "type_unite": "reception",
       "concepts": [
         "New Order",
         "USA",
@@ -65880,9 +67182,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour différencier réception britannique et américaine.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "new_order",
+        "usa",
+        "new_york",
+        "audience",
+        "rupture"
+      ],
+      "concepts_derives": [
+        "new_order"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65899,7 +67232,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "36-37",
-      "type_unite": "evolution_esthetique",
+      "type_unite": "esthétique",
       "concepts": [
         "New Order",
         "mélodie",
@@ -65910,9 +67243,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour la continuité transformée vers la dance music.",
+        "analyser l'évolution esthétique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "new_order",
+        "mélodie",
+        "danse",
+        "peter_hook",
+        "stephen_morris"
+      ],
+      "concepts_derives": [
+        "new_order"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65929,7 +67293,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 38,
-      "type_unite": "critique_discographique",
+      "type_unite": "analyse",
       "concepts": [
         "Still",
         "catalogue",
@@ -65940,9 +67304,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour évaluer *Still* comme archive imparfaite.",
+        "fournir une lecture critique secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "still",
+        "catalogue",
+        "leftovers",
+        "finalité",
+        "compilation"
+      ],
+      "concepts_derives": [
+        "still"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65959,7 +67354,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 41,
-      "type_unite": "equipment_file",
+      "type_unite": "production",
       "concepts": [
         "Bernard Sumner",
         "Gibson SG",
@@ -65973,6 +67368,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "données techniques pour l’analyse sonore.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "bernard_sumner",
+        "gibson_sg",
+        "shergold_masquerader",
+        "vox_phantom",
+        "powertran_transcendent_2000"
+      ],
+      "concepts_derives": [
+        "bernard_sumner"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -65989,7 +67415,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 41,
-      "type_unite": "equipment_file",
+      "type_unite": "production",
       "concepts": [
         "Peter Hook",
         "Yamaha RB 1200",
@@ -66003,6 +67429,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour l’identité sonore de la basse.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "peter_hook",
+        "yamaha_rb_1200",
+        "shergold_marathon",
+        "marshall",
+        "hiwatt"
+      ],
+      "concepts_derives": [
+        "peter_hook"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66019,7 +67476,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 41,
-      "type_unite": "equipment_file",
+      "type_unite": "production",
       "concepts": [
         "Stephen Morris",
         "Rogers Concert kit",
@@ -66033,6 +67490,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "données utiles pour la transition rythmique vers New Order.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "stephen_morris",
+        "rogers_concert_kit",
+        "simmonds_drum_synth",
+        "synare_3",
+        "drum_machine"
+      ],
+      "concepts_derives": [
+        "stephen_morris"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66049,7 +67537,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 41,
-      "type_unite": "equipment_file",
+      "type_unite": "production",
       "concepts": [
         "Ian Curtis",
         "Vox Teardrop",
@@ -66064,6 +67552,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "matériau pour la dimension instrumentale secondaire de Curtis.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ian_curtis",
+        "vox_teardrop",
+        "vox_phantom",
+        "guitare",
+        "amplification"
+      ],
+      "concepts_derives": [
+        "ian_curtis"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66080,7 +67599,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 48,
-      "type_unite": "discographie_album",
+      "type_unite": "archive",
       "concepts": [
         "Still",
         "outtakes",
@@ -66095,6 +67614,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "structurant pour l’album-archive.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "still",
+        "outtakes",
+        "live",
+        "peel_sessions",
+        "birmingham_university"
+      ],
+      "concepts_derives": [
+        "still"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66111,7 +67661,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "48; 58",
-      "type_unite": "reprise",
+      "type_unite": "culture_musicale",
       "concepts": [
         "Sister Ray",
         "Velvet Underground",
@@ -66126,6 +67676,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour la statistique et la filiation rock.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "sister_ray",
+        "velvet_underground",
+        "still",
+        "moonlight_club",
+        "reprise"
+      ],
+      "concepts_derives": [
+        "sister_ray"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66142,7 +67723,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "52; 58",
-      "type_unite": "reprise_exterieure",
+      "type_unite": "culture_musicale",
       "concepts": [
         "Grace Jones",
         "She's Lost Control",
@@ -66156,6 +67737,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "important pour la circulation culturelle hors post-punk.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "grace_jones",
+        "she's_lost_control",
+        "private_life",
+        "cover",
+        1980
+      ],
+      "concepts_derives": [
+        "grace_jones"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66172,7 +67784,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "reprise_exterieure",
+      "type_unite": "culture_musicale",
       "concepts": [
         "Paul Young",
         "Love Will Tear Us Apart",
@@ -66186,6 +67798,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour l’entrée de Joy Division dans une pop plus large.",
+        "tracer la circulation culturelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "paul_young",
+        "love_will_tear_us_apart",
+        "no_parlez",
+        "reprise",
+        1983
+      ],
+      "concepts_derives": [
+        "paul_young"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66202,7 +67845,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "contexte_nom",
+      "type_unite": "biographie",
       "concepts": [
         "Warsaw Pakt",
         "Needle Time",
@@ -66217,6 +67860,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour éviter de mythifier excessivement le changement de nom.",
+        "établir les faits biographiques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "warsaw_pakt",
+        "needle_time",
+        "trident_studios",
+        "direct-cut",
+        "changement_de_nom"
+      ],
+      "concepts_derives": [
+        "warsaw_pakt"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66233,7 +67907,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "clarification_nom",
+      "type_unite": "biographie",
       "concepts": [
         "The New Order",
         "Detroit",
@@ -66247,6 +67921,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "clarification discographique et nominale.",
+        "établir les faits biographiques"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "the_new_order",
+        "detroit",
+        "ron_asheton",
+        "mc5",
+        "homonymie"
+      ],
+      "concepts_derives": [
+        "the_new_order"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66263,7 +67968,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "52; 57",
-      "type_unite": "reception_musicale",
+      "type_unite": "reception",
       "concepts": [
         "The Passage",
         "Devils and Angels",
@@ -66277,6 +67982,37 @@
       "statut": "verifie",
       "fiabilite": "faible",
       "citation_directe": false,
+      "role_argumentatif": [
+        "indice de circulation intertextuelle locale.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "hypothese_faible",
+        "corroboration": "absente",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "fragile",
+        "risque_revision": "fort"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "fort"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "the_passage",
+        "devils_and_angels",
+        "heart_and_soul",
+        "réponse",
+        "manchester"
+      ],
+      "concepts_derives": [
+        "the_passage"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66293,7 +68029,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "reseau_factory",
+      "type_unite": "sociologie",
       "concepts": [
         "Pete Petrol",
         "Spizz Oil",
@@ -66307,6 +68043,37 @@
       "statut": "verifie",
       "fiabilite": "faible",
       "citation_directe": false,
+      "role_argumentatif": [
+        "détail de réseau post-Joy Division.",
+        "analyser l'économie et les réseaux"
+      ],
+      "niveau_preuve": {
+        "statut": "hypothese_faible",
+        "corroboration": "absente",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "fragile",
+        "risque_revision": "fort"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "fort"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "pete_petrol",
+        "spizz_oil",
+        "repetition",
+        "rob_gretton",
+        "les_disques_du_crépuscule"
+      ],
+      "concepts_derives": [
+        "pete_petrol"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66323,7 +68090,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 54,
-      "type_unite": "archives_live",
+      "type_unite": "archive",
       "concepts": [
         "live recordings",
         "8mm",
@@ -66338,6 +68105,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "important pour la culture audiovisuelle et bootleg.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "live_recordings",
+        "8mm",
+        "16mm",
+        "here_are_the_young_men",
+        "bootlegs"
+      ],
+      "concepts_derives": [
+        "live_recordings"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66354,7 +68152,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 54,
-      "type_unite": "projet_avorte",
+      "type_unite": "production",
       "concepts": [
         "Factory",
         "Peel Sessions",
@@ -66368,6 +68166,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "important pour les contraintes juridiques de l’archive radio.",
+        "documenter la chronologie de production"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory",
+        "peel_sessions",
+        "bbc",
+        "droits",
+        "still"
+      ],
+      "concepts_derives": [
+        "factory"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66384,7 +68213,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 54,
-      "type_unite": "archive_radio",
+      "type_unite": "archive",
       "concepts": [
         "Peel Sessions",
         "versions alternatives",
@@ -66399,6 +68228,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "justifie leur traitement comme corpus à part entière.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "peel_sessions",
+        "versions_alternatives",
+        "bbc",
+        "différence",
+        "interprétation"
+      ],
+      "concepts_derives": [
+        "peel_sessions"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66415,7 +68275,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "56-57",
-      "type_unite": "index_chansons",
+      "type_unite": "archive",
       "concepts": [
         "index des chansons",
         "corpus",
@@ -66430,6 +68290,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "outil de cartographie du corpus.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "index_des_chansons",
+        "corpus",
+        "versions",
+        "studio",
+        "live"
+      ],
+      "concepts_derives": [
+        "index_des_chansons"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66446,7 +68337,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "56-57",
-      "type_unite": "chanson_transition",
+      "type_unite": "fait",
       "concepts": [
         "Ceremony",
         "Joy Division",
@@ -66460,6 +68351,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "chanson-frontière entre mort et reprise.",
+        "établir un fait documentaire précis"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ceremony",
+        "joy_division",
+        "new_order",
+        "still",
+        "transition"
+      ],
+      "concepts_derives": [
+        "ceremony"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66476,7 +68398,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 57,
-      "type_unite": "chanson_transition",
+      "type_unite": "fait",
       "concepts": [
         "In a Lonely Place",
         "Ian Curtis",
@@ -66490,6 +68412,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "transition textuelle et musicale après Curtis.",
+        "établir un fait documentaire précis"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "in_a_lonely_place",
+        "ian_curtis",
+        "new_order",
+        "joy_division",
+        "non_enregistré"
+      ],
+      "concepts_derives": [
+        "in_a_lonely_place"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66506,7 +68459,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "statistique_corpus",
+      "type_unite": "archive",
       "concepts": [
         "statistiques",
         "corpus",
@@ -66520,6 +68473,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "mesurer l’étroitesse du corpus publié.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_secondaire",
+        "corroboration": "partielle",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "statistiques",
+        "corpus",
+        "sister_ray",
+        "compositions",
+        "discographie"
+      ],
+      "concepts_derives": [
+        "statistiques"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66536,7 +68520,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "statistique_discographique",
+      "type_unite": "archive",
       "concepts": [
         "Factory",
         "Virgin",
@@ -66552,6 +68536,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour casser l’idée d’une appartenance exclusivement Factory.",
+        "cartographier l'archive documentaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory",
+        "virgin",
+        "fast",
+        "sordide_sentimentale",
+        "enigma"
+      ],
+      "concepts_derives": [
+        "factory"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66568,7 +68583,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "John Peel",
         "Festive Fifty",
@@ -66582,6 +68597,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "mesure de la réception affective des auditeurs de Peel.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "festive_fifty",
+        "atmosphere",
+        "love_will_tear_us_apart",
+        "transmission"
+      ],
+      "concepts_derives": [
+        "john_peel"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66598,7 +68644,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "John Peel",
         "Festive Fifty",
@@ -66612,6 +68658,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "canonisation rapide du corpus Joy Division/New Order.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "festive_fifty",
+        "atmosphere",
+        "ceremony",
+        "dead_souls"
+      ],
+      "concepts_derives": [
+        "john_peel"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66628,7 +68705,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "ZigZag",
         1980,
@@ -66642,6 +68719,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "argument contre l’idée d’une renommée purement posthume.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "zigzag",
+        1980,
+        "avant_décès",
+        "joy_division",
+        "reconnaissance"
+      ],
+      "concepts_derives": [
+        "zigzag"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66658,7 +68766,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "NME",
         1980,
@@ -66672,6 +68780,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "mesurer la cristallisation posthume du mythe.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "nme",
+        1980,
+        "closer",
+        "love_will_tear_us_apart",
+        "ian_curtis"
+      ],
+      "concepts_derives": [
+        "nme"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66688,7 +68827,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "NME",
         1981,
@@ -66702,6 +68841,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "utile pour l’analyse de la continuité mémorielle.",
+        "documenter la réception critique et publique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "nme",
+        1981,
+        "still",
+        "ceremony",
+        "new_order"
+      ],
+      "concepts_derives": [
+        "nme"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66718,7 +68888,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "38; 59",
-      "type_unite": "interpretation_reception",
+      "type_unite": "analyse",
       "concepts": [
         "brièveté",
         "culte",
@@ -66729,9 +68899,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "structurer une réflexion sur le mythe des œuvres inachevées.",
+        "fournir une lecture critique secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "brièveté",
+        "culte",
+        "corpus_restreint",
+        "légende",
+        "postérité"
+      ],
+      "concepts_derives": [
+        "brièveté"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -66748,7 +68949,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 38,
-      "type_unite": "conclusion_critique",
+      "type_unite": "analyse",
       "concepts": [
         "mythe",
         "hyperbole",
@@ -66759,9 +68960,40 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "conclusion critique très utile pour ton propre positionnement d’auteur.",
+        "fournir une lecture critique secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "interne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "a_consolider",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "mythe",
+        "hyperbole",
+        "backlash",
+        "musique",
+        "révérence"
+      ],
+      "concepts_derives": [
+        "mythe"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"

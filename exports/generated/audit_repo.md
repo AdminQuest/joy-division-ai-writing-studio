@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T20:38:33`
+Généré le : `2026-05-27T00:18:46`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1395 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
+La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2716.
 
 ## 2. Synthèse chiffrée
 
 - Enregistrements : 7292
 - Erreurs : 0
-- Avertissements : 31249
+- Avertissements : 30515
 - Sources déclarées : 89
 - Sources utilisées : 75
 - Sources exportées : 75
@@ -42,11 +42,11 @@ La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 662 |
-| invalid_controlled_value | 2782 |
-| missing_required_field | 9211 |
+| invalid_controlled_value | 2698 |
+| missing_required_field | 9209 |
 | schema_warning | 527 |
 | unknown_yaml_block | 1395 |
-| v2_migration_debt | 16672 |
+| v2_migration_debt | 16024 |
 
 ## 5. Erreurs bloquantes
 
@@ -54,6 +54,33 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-001] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-002] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-003] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-004] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-005] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-006] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-007] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-008] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-009] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-010] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-011] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-012] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-013] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-014] : Unable to infer documentary kind
+- `sources/villani_ti_sfido_a_disperarti/relations_s57.md` [REL-S57-015] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-001] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-002] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-003] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-004] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-005] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-006] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-007] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-008] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-009] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-010] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-011] : Unable to infer documentary kind
+- `sources/goddard_missions_dead_souls/relations_stabilisees.md` [REL-S29-012] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-001] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-002] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-003] : Unable to infer documentary kind
@@ -61,39 +88,12 @@ Aucune.
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-005] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-006] : Unable to infer documentary kind
 - `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-003] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-004] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-005] : Unable to infer documentary kind
-- `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-006] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-001] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-002] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-003] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-004] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-005] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-006] : Unable to infer documentary kind
-- `sources/otter_bickerdike_posteconomy_curtis/relations_s87_otter_bickerdike_posteconomy.md` [R-S87-007] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-001] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-002] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-003] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-004] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-005] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-006] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-007] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-008] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-001] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-002] : Unable to infer documentary kind
-- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-003] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-001] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-002] : Unable to infer documentary kind
-- `sources/jacobson_jeffrey_wilson_faustian/relations_s63_wilson_faustian_v2.md` [R-S63-003] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-001] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-002] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-003] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-004] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-005] : Unable to infer documentary kind
+- `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-006] : Unable to infer documentary kind
 - … 1355 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
@@ -121,9 +121,9 @@ Aucun libellé faible.
 ## 8. Migration v2
 
 - Atomes : 2716
-- Atomes v2 complets : 73
-- Atomes v2 incomplets : 2643
-- Avertissements de champs v2 manquants : 16672
+- Atomes v2 complets : 145
+- Atomes v2 incomplets : 2571
+- Avertissements de champs v2 manquants : 16024
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -131,7 +131,6 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 
 | Fichier | Problèmes |
 |---|---:|
-| sources/mike_west_joy_division/source_atomisation_02.md | 734 |
 | sources/mike_west_joy_division/source_atomisation_03.md | 483 |
 | sources/flowers/source.md | 432 |
 | sources/mike_west_joy_division/source_atomisation_04.md | 417 |
@@ -151,6 +150,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/reynolds_rip_it_up/source.md | 285 |
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md | 275 |
+| sources/flowers/second_pass_new_order_late_discography.md | 261 |
 
 ## 10. Commandes utiles
 
