@@ -21,7 +21,6 @@ doi: "10.1017/S0963926821000754"
 licence: "CC BY"
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 chapitres_secondaires:
   - Chapitre 14
 niveau_preuve: "source secondaire universitaire ; histoire orale ; article open access"

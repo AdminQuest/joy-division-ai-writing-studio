@@ -24,7 +24,6 @@ pieces_incluses:
 chapitres:
   - Chapitre 1
 chapitres_secondaires:
-  - Chapitre 9
   - Chapitre 14
 niveau_preuve: "source primaire journalistique / dossier de presse contemporain"
 ```

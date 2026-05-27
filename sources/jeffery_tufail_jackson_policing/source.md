@@ -19,8 +19,7 @@ pagination: "118-128"
 version: "Submitted Version / SHURA"
 chapitres:
   - Chapitre 1
-chapitres_secondaires:
-  - Chapitre 9
+chapitres_secondaires: []
 niveau_preuve: "source secondaire universitaire"
 ```
 

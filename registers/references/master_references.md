@@ -890,3 +890,95 @@ chapitres: [Chapitre 1]
 source_origin: [registre historique, data/registre.json]
 arbitrage: "Blue Orchids est déplacé en S73 afin de laisser S41 à Peter Hook, dont les fichiers atomisés utilisent déjà cet identifiant."
 ```
+
+## S89 — Savage, England's Dreaming, 1991
+
+```yaml
+id: S89
+source_label: "S89 — Savage, England's Dreaming, 1991"
+auteur: Jon Savage
+titre: "England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond"
+annee: "1991"
+reference_complete: "SAVAGE, Jon, England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond, Londres, Faber and Faber, 1991."
+nature: histoire critique du punk britannique / source secondaire critique majeure
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Jon Savage, Sex Pistols, McLaren, Westwood, Lesser Free Trade Hall, 4 juin 1976, 20 juillet 1976, Manchester punk, Buzzcocks, Devoto, Shelley, Spiral Scratch, New Hormones, Tony Wilson, Factory Records, So It Goes, Sniffin' Glue, fanzines, no future, post-punk, contexte chapitres 1-4]
+chapitres: [Chapitre 1, Chapitre 2, Chapitre 3, Chapitre 4]
+chapitres_secondaires: [Chapitre 11, Chapitre 14]
+source_origin: [data/registre.json, registers/references/s89_savage_englands_dreaming_source_canonique.md]
+arbitrage: "S89 désigne exclusivement l'édition Faber and Faber 1991 (hardback, ISBN 0-571-13975-6). Les éditions révisées (St. Martin's Griffin 1992, Faber paperback 2001, Faber 2005) doivent être citées explicitement. Ne pas confondre avec les autres ouvrages de Jon Savage (Teenage, 1966, This Searing Light), ni avec son foreword à S45, ni avec sa coédition de S79. Atomisation à démarrer."
+```
+
+## S90 — Fisher, Ghosts of My Life, 2014
+
+```yaml
+id: S90
+source_label: "S90 — Fisher, Ghosts of My Life, 2014"
+auteur: Mark Fisher
+titre: "Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures"
+annee: "2014"
+editeur: Zero Books
+isbn: "978-1-78099-226-6"
+reference_complete: "FISHER, Mark, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, Winchester (UK) ; Washington (US), Zero Books, 2014, ISBN 978-1-78099-226-6."
+nature: recueil d'essais critiques / source théorique primaire pour la hauntologie et les lost futures
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Mark Fisher, K-Punk, hauntology, lost futures, slow cancellation of the future, popular modernism, capitalist realism, depression, Joy Division, Closer, Atmosphere, Decades, Burial, Caretaker, John Foxx, Derrida, Berardi, Reynolds, Patrick Keiller, Sapphire and Steel, dyschronia, Zero Books]
+chapitres: [Chapitre 7, Chapitre 11, Chapitre 12, Chapitre 14]
+chapitres_secondaires: [Chapitre 6, Chapitre 9, Chapitre 13]
+croisements_corpus: [S26 (coédition Fisher), S29 Goddard (médiation hauntologie), S88 Cashell (Fisher×3), S72 Reynolds (Retromania débat), S52 Rabbito (Control), S87 Otter Bickerdike (posteconomy)]
+source_origin: [data/registre.json, registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md]
+arbitrage: "S90 désigne exclusivement le recueil Ghosts of My Life (Zero Books, 2014). Ne pas confondre avec Capitalist Realism (2009), The Weird and the Eerie (2016), K-Punk (2018 posthume), Postcapitalist Desire (2020 posthume), les billets K-Punk en ligne, ni avec la coédition S26 Post-Punk Then and Now (où Fisher est coéditeur, statut distinct). Socle théorique fisherien primaire du corpus ; S29 et S88 le citent au second degré et doivent être recroisés avec S90 lors de l'atomisation. Distinguer hauntologie fisherienne (culture populaire) de hantologie derridienne (Specters of Marx, 1993)."
+```
+
+## S91 — Reynolds, Retromania, 2011
+
+```yaml
+id: S91
+source_label: "S91 — Reynolds, Retromania, 2011"
+auteur: Simon Reynolds
+titre: "Retromania: Pop Culture's Addiction to Its Own Past"
+annee: "2011"
+editeur: Faber and Faber
+isbn: "978-0-571-23269-1"
+reference_complete: "REYNOLDS, Simon, Retromania: Pop Culture's Addiction to Its Own Past, Londres, Faber and Faber, 2011, ISBN 978-0-571-23269-1."
+nature: essai de critique culturelle / théorie de la culture pop des années 2000
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Simon Reynolds, Retromania, hyperstasis, revival, post-punk revival, Interpol, Editors, Bloc Party, Franz Ferdinand, vinyl revival, archive fever, YouTube, reunion economy, hypnagogic pop, chillwave, vaporwave, Ariel Pink, slow cancellation of the future, Mark Fisher dialogue, Jameson, Huyssen, Boym, nostalgia, Faber 2011]
+chapitres: [Chapitre 7, Chapitre 14]
+chapitres_secondaires: [Chapitre 9, Chapitre 11, Chapitre 13]
+distinction_critique:
+  s72_vs_s91: "S72 Reynolds Rip It Up and Start Again (2005, chronologie post-punk 1978-1984) et S91 Reynolds Retromania (2011, essai sur le revival 2000-2010) sont DEUX OUVRAGES DISTINCTS du même auteur. NE JAMAIS confondre. Vérifier titre + année avant attribution."
+  s91_vs_autres_reynolds: "S91 ne désigne pas Energy Flash (1998), Bring the Noise (2007), Shock and Awe (2016), Futuromania (2024)."
+croisements_corpus: [S72 (distinction critique), S90 Fisher (paire critique indissociable), S26 (post-punk studies), S29 Goddard (citation à recroiser), S88 Cashell (citation à recroiser), S78 Nevarez (citation à recroiser)]
+source_origin: [data/registre.json, registers/references/s91_reynolds_retromania_source_canonique.md]
+arbitrage: "S91 désigne exclusivement Retromania (Faber and Faber, 2011, ISBN 978-0-571-23269-1). Distinction stricte avec S72 Rip It Up (2005) du même auteur — ouvrages, objets et méthodes radicalement distincts (chronologie 1978-1984 vs théorie du revival 2000-2010). Paire critique indissociable avec S90 Fisher : Reynolds (hyperstasis, addiction archivistique) et Fisher (hauntologie, lost futures) forment le dyptique théorique de l'épuisement futural pop. Toute attribution conceptuelle commune doit identifier l'auteur source précis. Atomisation à démarrer."
+```
+
+## S92 — Corbijn, Inwards and Onwards, 2005
+
+```yaml
+id: S92
+source_label: "S92 — Corbijn, Inwards and Onwards, 2005"
+auteur: Anton Corbijn
+titre: "Inwards and Onwards"
+annee: "2005"
+lieu_edition: Munich
+editeur: Schirmer/Mosel
+isbn: "978-3-8296-0184-4 (à vérifier sur exemplaire)"
+reference_complete: "CORBIJN, Anton, Inwards and Onwards, Munich, Schirmer/Mosel, 2005. ISBN à verrouiller sur exemplaire."
+nature: monographie photographique / source primaire visuelle / rétrospective de portraits 1979-2005
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Anton Corbijn, Inwards and Onwards, Schirmer/Mosel, Joy Division, Lancaster Gate, métro de Londres, 5 janvier 1979, Ian Curtis portraits, noir et blanc, regard néerlandais, NME, U2, Depeche Mode, R.E.M., Tom Waits, Atmosphere clip 1988, Control film 2007, rétrospective, iconographie internationale]
+chapitres: [Chapitre 7, Chapitre 9, Chapitre 14]
+chapitres_secondaires: [Chapitre 4, Chapitre 6, Chapitre 8, Chapitre 13]
+distinction_critique:
+  s92_vs_autres_corbijn: "S92 ne désigne pas Famouz (1989), Star Trak (1996), 33 Still Lives (1999), U2 & I (2005, distinct), In Control (2007, livre compagnon du film), Waits/Corbijn (2013), Mood/Mode (2013), 1-2-3-4 (2019), Depeche Mode by Anton Corbijn (2020). Une même image peut apparaître dans plusieurs monographies avec recadrages et légendes différents — toujours identifier le livre source précis."
+  livre_vs_film: "S92 (livre photographique, 2005) ne désigne ni Control (film, 2007) ni In Control (livre compagnon, 2007). Trois œuvres distinctes."
+croisements_corpus: [S09 Cummins (dyptique iconographique fondateur, miroir interne/externe), S45 Curtis (Corbijn réalise Control 2007 d'après Touching from a Distance), S52 Rabbito (analyse italienne du film Control), S88 Cashell (réseau Saville/Corbijn), S87 Otter Bickerdike (posteconomy visuelle), S48 De Sia (graphisme JD complémentaire), S37 Morley (presse NME contemporaine)]
+source_origin: [data/registre.json, registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md]
+arbitrage: "S92 désigne exclusivement la monographie Inwards and Onwards (Schirmer/Mosel, 2005). Aucune absorption des autres monographies Corbijn ni du film Control ni du livre In Control (2007). Dyptique iconographique fondateur avec S09 Cummins : Cummins = regard interne mancunien NME ; Corbijn = regard externe néerlandais Londres/continental. Tout atome iconographique du corpus doit identifier le photographe source. Identifié comme lacune critique du Ch.09 dans l'audit du 2026-05-27 (diffusion visuelle internationale). ISBN et pagination à verrouiller sur exemplaire lors de l'atomisation."
+```

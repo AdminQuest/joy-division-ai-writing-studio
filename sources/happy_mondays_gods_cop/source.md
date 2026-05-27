@@ -29,7 +29,6 @@ chapitres:
   - Chapitre 14
 chapitres_secondaires:
   - Chapitre 8
-  - Chapitre 9
 niveau_preuve: "source musicale primaire ; référence discographique"
 citation_directe: false
 ```

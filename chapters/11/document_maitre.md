@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-26T00:09:44"
+generated_at: "2026-05-27T07:13:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 373 |
-| Atomes critiques / majeurs | 35 |
-| Citations | 43 |
-| Événements chronologiques | 16 |
+| Atomes | 384 |
+| Atomes critiques / majeurs | 60 |
+| Citations | 45 |
+| Événements chronologiques | 17 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 32 |
+| Sources mobilisées | 35 |
 
 ## 4. Sources mobilisées
 
@@ -56,6 +56,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 6 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 3 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 3 | 0 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 2 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
@@ -66,6 +68,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 70 | 0 |
+| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 5 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -139,6 +142,56 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `cadre théorique secondaire`.
 - **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
+- **S43-A001** — S43-A001 — S43 comme essai générationnel, non source primaire  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S43-A003** — S43-A003 — 1968 / 1977 : utopie communautaire contre no future subjectiviste  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
+- **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
+- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
+- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
+- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
+  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
+- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
+- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
+- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
+- **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception` ; importance : `critique` ; preuve : `fait_secondaire`.
+- **S49-A001** — S49-A001 — Le post-punk comme déconstruction de l’idéal viril rock  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source_secondaire_critique`.
+- **S49-A015** — S49-A015 — Mélancolie masculine : forteresse, perte et narcissisme  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `lecture_theorique_secondaire`.
+- **S49-A017** — S49-A017 — *There’s No Turning Back* : le rock dépouillé de ses illusions  
+  Source : S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 ; type : `synthese_argumentative` ; importance : `critique` ; preuve : `synthese_critique`.
+- **S54-A001** — S54-A001 — S54 comme source intertextuelle, non comme preuve primaire des lectures de Curtis  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S54-A004** — S54-A004 — « Digital » et Burroughs : clôture, chaleur et logique binaire  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `hypothese_intertextuelle`.
+- **S54-A006** — S54-A006 — « Interzone » : titre burroughsien, espace de passage et zone psychique instable  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_intertextuel`.
+- **S54-A007** — S54-A007 — Ballard, *Crash* et « Exercise One » : cicatrices, voiture, technologie et désir  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `hypothese_intertextuelle_forte`.
+- **S54-A008** — S54-A008 — « Atrocity Exhibition » : violence, médias et exposition intérieure du désastre  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `intertextualite_titulaire_et_thematique`.
+- **S54-A009** — S54-A009 — Dystopie intérieure : les pathologies sociales traduites dans le sujet  
+  Source : S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_critique_central`.
 
 ## 6. Autres atomes utiles
 
@@ -218,36 +271,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_corps_tournee` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S43-A001** — S43-A001 — S43 comme essai générationnel, non source primaire  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S43-A002** — S43-A002 — Les seconds baby-boomers : golden age devenue ordinaire  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `forte`.
-- **S43-A003** — S43-A003 — 1968 / 1977 : utopie communautaire contre no future subjectiviste  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `comparaison_generations` ; importance : `critique` ; preuve : `forte`.
-- **S43-A004** — S43-A004 — Curtis comme enfant de la seconde sub-génération baby-boomer  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `lecture_biographique_prudente` ; importance : `critique` ; preuve : `forte`.
-- **S43-A005** — S43-A005 — *An Ideal for Living* : révolte camusienne et désillusion des religions séculières  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_oeuvre` ; importance : `critique` ; preuve : `forte`.
 - **S43-A006** — S43-A006 — « Leaders of Men » : antipolitique précoce et faillite des messianismes modernes  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
-- **S43-A007** — S43-A007 — *Unknown Pleasures* : de la révolte à la nostalgie  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
-- **S43-A008** — S43-A008 — « Disorder » : appel au guide et désir de normalité  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A009** — S43-A009 — « Insight » : jeunesse déjà perdue et sénescence anticipée  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A010** — S43-A010 — *Closer* : troisième stade, la resa  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_album` ; importance : `critique` ; preuve : `forte`.
 - **S43-A011** — S43-A011 — « Isolation » : isolement métaphysique et self-preservation  
   Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `majeure` ; preuve : `forte`.
-- **S43-A012** — S43-A012 — « Twenty Four Hours » : sympathie comme thérapie impossible  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `concept_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A013** — S43-A013 — « The Eternal » : communion perdue et contemplation de la chute  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A014** — S43-A014 — « Decades » : dernière parole au « nous » générationnel  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `analyse_chanson` ; importance : `critique` ; preuve : `forte`.
-- **S43-A015** — S43-A015 — Garde-fou : ne pas transformer Capozzi en preuve clinique ou biographique  
-  Source : S43 — Capozzi, The weight on their shoulders, 2021 ; type : `garde_fou` ; importance : `critique` ; preuve : `forte`.
 - **S44-A009** — S44-A009 — Curtis lecteur de Burroughs : avant-garde et cut-up  
   Source : S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021 ; type : `mediation_litteraire` ; importance : `utile` ; preuve : `moyenne`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
@@ -274,12 +303,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-A026** — S45-A026 — Outburst raciste et veste « HATE » : provocation, préjugé et contradiction  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
-- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
-- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
-- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
 - **S45-A140** — S45-A140 — Yeats et hypnose : substituts culturels au soin professionnel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_soin_amateur` ; importance : `majeur` ; preuve : `témoignage direct indirect + souvenirs rapportés`.
 - **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
@@ -302,24 +325,54 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `changement_nom` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reference_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S46-113** — S46-113 — « Insight » et l’obsession de l’intériorité  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_lyrique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-114** — S46-114 — « I Remember Nothing » et la dissolution finale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-116** — S46-116 — William Burroughs comme figure tutélaire distante  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `rencontre_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-158** — S46-158 — Morley : Joy Division et la chance  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_mythographique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-159** — S46-159 — Morley : Joy Division et la régénération du langage rock  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-160** — S46-160 — Morley : impossibilité de parler de l’intérieur  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `epistemologie_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-161** — S46-161 — Morley : écouter Joy Division seulement en bonne santé  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_affective` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-162** — S46-162 — « Glass : Mesh » : le livre comme montage filmique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-164** — S46-164 — Camus, Nietzsche, Adorno : Joy Division encadré par la haute culture  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-167** — S46-167 — « About-Face » : The Noise comme concept critique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-168** — S46-168 — The Noise : art plus réel que le réel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-169** — S46-169 — The Noise : espace minimal et tension maximale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_scenique` ; importance : `non qualifiée` ; preuve : `faible`.
+- **S46-174** — S46-174 — Steve Taylor : sujets banals, opération urgente  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-175** — S46-175 — « Auto-Suggestion : The Him » : musique et langage symbolique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
-- **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
 - **S45-Q001** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "a_stabiliser"}` — « working nine to five »
 - **S45-Q005** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « increasingly isolated »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
-- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
 - **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q002** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q003** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q006** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
+- **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
 - **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
@@ -328,194 +381,197 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S54-Q012** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
 - **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
+- **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q002** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q003** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S57-Q006** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 - **S59-Q001** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S59-Q003** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
 - **S59-Q006** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
-- **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S88-Q003** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
+- **S88-Q004** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
+- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S77-1979-001 — Crass affirme une orientation anarchiste plus explicite ; l’anarcho-punk nourrit fortement les fanzines politiques du début des années 1980.
 - CHR-S77-1980-1984-001 — Déploiement de fanzines anarchistes et politiques : Toxic Graffitti, Kill Your Pet Puppy, Cobalt Hate, Anathema, réseaux autonomes, CND et Stop the City.
-- CHR-S57-2021-001 — Publication du chapitre de Massimo Villani dans Our Vision Touched the Sky.
+- CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
+- CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
+- CHR-S31-2021-001 — Publication du chapitre de Giuseppe Allegri dans Our Vision Touched the Sky.
 - CHR-S54-1959-001 — Publication de Naked Lunch, matrice burroughsienne de l’Interzone et des zones de contrôle / langage mobilisées par S54.
 - CHR-S54-1970-001 — Publication de The Atrocity Exhibition de J. G. Ballard et de The Job de Daniel Odier avec Burroughs, deux références structurantes pour S54.
 - CHR-S54-1973-001 — Publication de Crash de J. G. Ballard, matrice critique mobilisée par S54 pour lire « Exercise One ».
-- CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
-- CHR-S31-2021-001 — Publication du chapitre de Giuseppe Allegri dans Our Vision Touched the Sky.
-- CHR-S56-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles ; Barone retient l’anecdote de la rencontre manquée de Curtis avec William S. Burroughs.
-- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
-- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
-- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
-- CHR-S29-2017-001 — Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.
+- CHR-S88-002 — CHRONOLOGIE
+- CHR-S57-2021-001 — Publication du chapitre de Massimo Villani dans Our Vision Touched the Sky.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
+- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
+- CHR-S29-2017-001 — Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.
+- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
+- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 
 ## 9. Personnes et acteurs
 
-- PERS-S77-009 — Penny Rimbaud
-- PERS-S57-001 — Massimo Villani
-- PERS-S57-002 — Maurice Blanchot
-- PERS-S57-003 — Georg Wilhelm Friedrich Hegel
-- PERS-S57-004 — Ian Curtis
-- PERS-S54-001 — Alessandro Gnocchi
-- PERS-S54-002 — Ian Curtis
-- PERS-S54-003 — William S. Burroughs
-- PERS-S54-004 — J. G. Ballard
-- PERS-S54-008 — Daniel Odier
-- PERS-S49-001 — Manolo Farci
-- PERS-S59-001 — Francesca Ferrara
-- PERS-S59-002 — Ian Curtis
-- PERS-S31-001 — Giuseppe Allegri
-- PERS-S31-002 — Franco Berardi Bifo
-- PERS-S31-003 — Greil Marcus
-- PERS-S56-001 — Linda Barone
-- PERS-S56-002 — Ian Curtis
-- PERS-S56-004 — William S. Burroughs
-- PERS-001 — Ian Curtis
-- PERS-S76-041 — Ian Wood
-- PERS-S29-001 — Michael Goddard
-- PERS-S29-002 — Ian Curtis
-- PERS-S29-003 — Genesis P-Orridge
-- PERS-S29-005 — Mark Fisher
-- PERS-S29-012 — Nikolai Gogol
-- PERS-S76-006 — Pete Johnson
-- PERS-S76-029 — Mark Reeder
-- PERS-S75-033 — William S. Burroughs
+| ID | Nom | Description |
+|---|---|---|
+| PERS-S77-009 | Penny Rimbaud | Membre de Crass, associé à l’International Anthem et à la formulation d’un anarcho-punk articulé. |
+| PERS-S49-001 | Manolo Farci | Auteur du chapitre S49 ; sociologie culturelle, masculinité post-punk, performance de Ian Curtis. |
+| PERS-S56-001 | Linda Barone | Autrice de S56 ; propose une lecture stylistique, traductive, littéraire et émotionnelle des textes de Curtis. |
+| PERS-S56-002 | Ian Curtis | Auteur lu comme écrivain de chansons, voix stylistique reconnaissable et centre du corpus poétique étudié par Barone. |
+| PERS-S56-004 | William S. Burroughs | Auteur admiré par Curtis ; figure de l’anecdote du Plan K. |
+| PERS-S31-001 | Giuseppe Allegri | Auteur de S31 ; propose une lecture politico-culturelle de Joy Division entre post-situationnisme et isolationnisme. |
+| PERS-S31-002 | Franco Berardi Bifo | Référence théorique sur No Future, fin de la modernité et effacement du futur. |
+| PERS-S31-003 | Greil Marcus | Référence critique sur punk, Sex Pistols et possibilité de recommencement. |
+| PERS-S54-001 | Alessandro Gnocchi | Auteur de S54 ; analyse les matrices Burroughs et Ballard dans les textes de Ian Curtis. |
+| PERS-S54-002 | Ian Curtis | Lecteur-écrivain ; transforme des matrices littéraires en idiome poétique de dystopie intérieure, contrôle et temporalité suspendue. |
+| PERS-S54-003 | William S. Burroughs | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentation. |
+| PERS-S54-004 | J. G. Ballard | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et violence médiatisée. |
+| PERS-S54-008 | Daniel Odier | Auteur associé à The Job, anthologie d’entretiens avec Burroughs mobilisée par Gnocchi. |
+| PERS-S57-001 | Massimo Villani | Auteur de S57 ; propose une lecture philosophique et lyrique de Joy Division comme nuit de pensée. |
+| PERS-S57-002 | Maurice Blanchot | Référence philosophique centrale de S57 pour l’inavouable, le dehors, la nuit, le cœur et la loi. |
+| PERS-S57-003 | Georg Wilhelm Friedrich Hegel | Référence indirecte à la nuit du penseur, à manier avec prudence et à vérifier si le motif devient structurant. |
+| PERS-S57-004 | Ian Curtis | Présence centrale mais non traitée biographiquement ; figure d’une intensité, d’un corps et d’une voix pris dans la nuit de la pensée. |
+| PERS-S59-001 | Francesca Ferrara | Autrice de S59 ; propose une lecture esthétique de Joy Division par la poétique de la distance. |
+| PERS-S59-002 | Ian Curtis | Figure centrale de la présence absente, de la distance scénique, textuelle et psychique. |
+| PERS-S76-029 | Mark Reeder | ["témoin de Rare Records/Virgin", "ami de Ian Curtis", "témoin du changement de nom et de l’intérêt allemand de Curtis"] |
+| PERS-001 | Ian Kevin Curtis | ["chanteur", "parolier", "figure centrale"] |
+| PERS-S76-041 | Ian Wood | ["journaliste local pour Sounds", "inspecteur des impôts selon S76", "observateur de Joy Division au Band On The Wall"] |
+| PERS-S29-001 | Michael Goddard | Auteur du chapitre « Missions of Dead Souls » ; source critique hauntologique. |
+| PERS-S29-002 | Ian Curtis | Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti-mythologique. |
+| PERS-S29-003 | Genesis P-Orridge | Figure de Throbbing Gristle et Psychic TV ; témoin revendiquant une affinité avec Ian Curtis. |
+| PERS-S29-005 | Mark Fisher | Théoricien de la sonic hauntology, du capitalist realism et des lost futures ; figure critique majeure de S29. |
+| PERS-S29-012 | Nikolai Gogol | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas une adaptation de Gogol. |
+| PERS-S76-006 | Pete Johnson | ["ami d'enfance de Ian Curtis", "témoin scolaire et adolescent"] |
+| PERS-S75-033 | William S. Burroughs | ["écrivain", "figure d'admiration pour Ian Curtis"] |
 
 ## 10. Chansons rattachées
 
-- SONG-S58-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S77-ANARCHY_IN_THE_UK — Anarchy in the UK
 - SONG-S77-WHITE_PUNKS_ON_HOPE — White Punks on Hope
-- SONG-S57-HEART-AND-SOUL — Heart and Soul
-- SONG-S57-ATROCITY-EXHIBITION — Atrocity Exhibition
-- SONG-S57-DECADES — Decades
-- SONG-S57-ISOLATION — Isolation
+- SONG-S49-DISORDER — Disorder
+- SONG-S49-DECADES — Decades
+- SONG-S56-PASSOVER — Passover
+- SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
 - SONG-S54-DIGITAL — Digital
 - SONG-S54-INTERZONE — Interzone
 - SONG-S54-EXERCISE_ONE — Exercise One
 - SONG-S54-ATROCITY_EXHIBITION — Atrocity Exhibition
-- SONG-S49-DISORDER — Disorder
-- SONG-S49-DECADES — Decades
+- SONG-S57-HEART-AND-SOUL — Heart and Soul
+- SONG-S57-ATROCITY-EXHIBITION — Atrocity Exhibition
+- SONG-S57-DECADES — Decades
+- SONG-S57-ISOLATION — Isolation
+- SONG-S58-ATROCITY-EXHIBITION — Atrocity Exhibition
 - SONG-S59-TRANSMISSION — Transmission
 - SONG-S59-NEW-DAWN-FADES — New Dawn Fades
 - SONG-S59-ISOLATION — Isolation
 - SONG-S59-THE-ETERNAL — The Eternal
-- SONG-S31-LIVING-IN-THE-ICE-AGE — Living in the Ice Age
-- SONG-S56-PASSOVER — Passover
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
+- SONG-S75-002 — At a Later Date
+- SONG-S75-006 — Gutz
 - SONG-S75-027 — Atmosphere
 - SONG-S75-028 — Dead Souls
+- SONG-S75-012 — Transmission
 - Transmission
 - She's Lost Control
 - Disorder
 - Love Will Tear Us Apart
 - Decades
-- SONG-S75-002 — At a Later Date
-- SONG-S75-006 — Gutz
-- SONG-S75-012 — Transmission
 
 ## 11. Concepts récurrents
 
 - Ian Curtis (19)
 - ian curtis (13)
 - fac-simile (9)
-- genese-chanson (7)
-- Joy Division (7)
 - NME (7)
-- datation-1979 (6)
-- autobiographie-fiction (6)
-- prudence historiographique (6)
+- Joy Division (7)
+- genese-chanson (7)
 - suicide (6)
 - isolement (6)
-- épilepsie (5)
+- post-punk (6)
+- prudence historiographique (6)
+- autobiographie-fiction (6)
+- datation-1979 (6)
+- domesticité (5)
 - répétition (5)
+- épilepsie (5)
+- House of Dolls (5)
+- epilepsie (5)
 - datation-1980 (5)
 - autodidaxie-pop (5)
-- House of Dolls (5)
-- post-punk (5)
-- domesticité (5)
-- epilepsie (5)
-- house of dolls (4)
-- nazisme (4)
-- premier corpus (4)
-- titre-alternatif (4)
-- Closer (4)
-- joy division (4)
-- martin hannett (4)
 - Ian Wood (4)
 - humanité (4)
+- manchester (4)
+- joy division (4)
+- house of dolls (4)
+- nazisme (4)
 - closer (4)
+- martin hannett (4)
 - paroles (4)
-- fatigue (3)
-- regard (3)
-- contrainte (3)
-- ambiguïté (3)
-- non-futur (3)
-- matérialité-manuscrite (3)
+- Closer (4)
+- premier corpus (4)
+- titre-alternatif (4)
 - depression (3)
-- joy division nom (3)
-- goth (3)
-- bruit (3)
-- film (3)
-- The Noise (3)
 - solitude (3)
-- unknown pleasures (3)
-- love will tear us apart (3)
 - réception (3)
 - authenticité (3)
-- fragmentation (3)
+- cut-up (3)
+- joy division nom (3)
+- fatigue (3)
+- unknown pleasures (3)
+- love will tear us apart (3)
+- ambiguïté (3)
 - communication (3)
-- contextualisation sans excuse (2)
-- hauntologie (2)
-- réception posthume (2)
-- nom du groupe (2)
-- macclesfield (2)
-- attente (2)
-- surveillance (2)
-- dispositif (2)
-- impulsion (2)
-- guerre froide (2)
-- froid (2)
-- epilepsie-comme-source (2)
-- datation-1978 (2)
-- intertexte-Burroughs (2)
-- paysage-mancunien (2)
-- intertexte-Gogol (2)
-- point-de-bascule (2)
-- modernité (2)
-- Warsaw (2)
-- premier âge (2)
-- genèse-chanson (2)
-- prose-de-Curtis (2)
-- variante-textuelle (2)
-- foule (2)
-- manipulation (2)
-- opération (2)
-- glissement-autobiographique (2)
+- film (3)
+- The Noise (3)
+- bruit (3)
+- goth (3)
+- fragmentation (3)
+- contrainte (3)
+- non-futur (3)
+- regard (3)
+- matérialité-manuscrite (3)
+- postmortem myth (2)
 - Dead Souls (2)
-- possession (2)
 - past lives (2)
+- possession (2)
 - hypnosis (2)
+- silence (2)
+- couple (2)
+- mémoire (2)
+- intériorité (2)
+- paternité (2)
+- Warsaw (2)
+- influence (2)
+- Neil Norman (2)
+- God (2)
+- volonté (2)
+- urban malaise (2)
+- scène (2)
+- vulnérabilité (2)
+- mystère (2)
+- originalité (2)
+- hauntologie_heritage_curtis (2)
+- absence_centrale_new_order (2)
+- nostalgie (2)
+- provocation post-punk (2)
+- esthétique du choc (2)
+- spectralité (2)
+- presse musicale (2)
+- ka-tzetnik (2)
+- rainbow theatre (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -523,81 +579,106 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - Burroughs (7)
 - prudence (6)
-- Ballard (5)
-- provocation (5)
+- post-punk (5)
 - domesticité (5)
-- silence (4)
-- répétition (4)
+- provocation (5)
+- Ballard (5)
 - contrôle (4)
 - Electric Circus (4)
-- post-punk (4)
+- silence (4)
+- répétition (4)
+- nuit (3)
+- Throbbing Gristle (3)
+- House of Dolls (3)
 - An Ideal for Living (3)
+- réception critique (3)
+- violence (3)
+- attente (3)
 - prudence anti-anachronique (3)
+- Plan K (3)
+- Ian Curtis (3)
+- retrait (3)
 - dissimulation (3)
 - dépersonnalisation-lyrique (3)
 - culture-de-niche (3)
-- violence (3)
-- attente (3)
-- House of Dolls (3)
-- Throbbing Gristle (3)
-- Plan K (3)
-- nuit (3)
-- réception critique (3)
-- retrait (3)
-- Ian Curtis (3)
-- John Heartfield (2)
-- imagerie nazie (2)
-- Hitler Youth (2)
-- séparation production-réception (2)
+- présence absente (2)
+- altérité (2)
+- intensité (2)
+- influences (2)
 - futur fermé (2)
-- futur perdu (2)
-- enfance (2)
-- artefact-porteur (2)
-- seuil (2)
-- Interzone (2)
-- transe (2)
-- clôture (2)
-- passage (2)
-- technologie (2)
-- Atrocity Exhibition (2)
-- médias (2)
+- désajustement (2)
+- disco (2)
+- No Love Lost (2)
+- Short Circuit (2)
+- Warsaw Pakt (2)
+- Joy Division (2)
+- imagerie nazie (2)
+- Atmosphere (2)
+- Dead Souls (2)
+- histoire (2)
+- communication (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S45-A099 — alimente → REGISTRE-INFLUENCES-LITTERAIRES
-- S45-A099 — prolonge → S45-A018
-- S45-A099 — alerte → RISQUE-INFLUENCE-FALLACY
-- S45-A100 — prolonge → MYTH-007
-- S45-A100 — prolonge → S45-A042
-- S45-A100 — requiert → CONCEPT-004
-- S45-A042 — prolonge → MYTH-007
-- S45-A042 — prolonge → MOTIF-005
-- S45-A042 — nuance → MYTH-006
-- S45-A042 — requiert → CONCEPT-004
-- S45-A026 — prolonge → MOTIF-009
-- S45-A026 — requiert → CONCEPT-004
-- S45-A026 — nuance → MYTH-002
-- S45-A140 — prolonge → CONCEPT-035
-- S45-A140 — prolonge → CONCEPT-030
-- S45-A140 — nuance → MYTH-002
-- S40-A001 — garde_fou → REL-S40-001
-- S40-A003 — prolonge → REL-S40-003
-- S40-A004 — nuance → REL-S40-007
-- S40-A005 — structure → REL-S40-004
-- S40-A007 — garde_fou → REL-S40-006
-- S40-A008 — garde_fou → REL-S40-007
-- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
-- S13-DM-A001 — prolonge → S13-A003
-- S13-DM-A001 — prolonge → S13-A004
-- S13-DM-A001 — prolonge → S13-A010
-- S13-A002 — prolonge → CONCEPT-no-future
-- S13-A002 — prépare → S13-A010
-- S13-A004 — prolonge → S41-A003
-- S13-A004 — prolonge → S45-performance-Curtis
-- S13-A004 — nuance → MYTH-Curtis-prophète
-- S13-A006 — prolonge → S13-A005
-- S13-A006 — prolonge → MOTIF-silence
-- S13-A006 — prolonge → MOTIF-radio
+- S57-A001 — distingue → S56
+- S57-A001 — distingue → S58
+- S57-A001 — distingue → S54
+- S57-A002 — prépare → S57-A014
+- S57-A004 — fonde → CONCEPT-communaute_impossible_jd
+- S57-A006 — nuance → MYTH-joy_division_purement_desespere
+- S57-A007 — fonde → CONCEPT-dehors_de_la_nuit
+- S57-A008 — illustre → S57-A007
+- S57-A009 — prolonge → S57-A004
+- S57-A010 — synthese → S57-A007
+- S57-A011 — prolonge → S57-A010
+- S57-A013 — synthese → S57-A006
+- S57-A015 — synthese → S57-A007
+- S77-A008 — a_croiser → S54-A012
+- S77-A009 — corrobore → CONCEPT-structure_of_feeling_punk
+- S77-A013 — a_croiser → S54
+- S77-A013 — a_croiser → S08
+- S77-A014 — nuance → MYTH-DIY_simple_technique
+- S42-A004 — nuance → REL-S42-004
+- S42-A011 — alimente → REL-S42-009
+- S49-A001 — fonde → CONCEPT-masculinite_post_punk
+- S49-A001 — nuance → MYTH-joy_division_groupe_depressif
+- S49-A002 — prolonge → CONCEPT-condition_moderne
+- S49-A002 — relie → S43
+- S49-A005 — relie → SONG-Disorder
+- S49-A005 — prolonge → CONCEPT-alienation
+- S49-A008 — prolonge → CONCEPT-post_punk
+- S49-A011 — distingue → S49-A007
+- S49-A013 — relie → S41-A045
+- S49-A015 — fonde → CONCEPT-melancolie_masculine
+- S49-A015 — conceptualise → S49-A014
+- S49-A017 — deconstruit → MYTH-curtis_sacrifice_legendaire
+- S49-A017 — boucle_argumentative → S49-A002
+- S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
+- S75-A010 — corrobore → S45
+- S75-A013 — prolonge → S75-A018
+- S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
+- S75-A016 — prolonge → S75-A013
+- S75-A016 — annonce → S75-A018
+- S75-A017 — nuance → S75-A006
+- S75-A017 — corrobore → MYTH-warsaw_cover_up
+- S75-A017 — prolonge → S75-A018
+- S75-A018 — prolonge → S75-A016
+- S75-A018 — prolonge → S75-A017
+- S75-A018 — nuance → MYTH-fascination_fasciste
+- S75-A056 — nuance → MYTH-003
+- S75-A056 — prolonge → CONCEPT-002
+- S75-A056 — prolonge → CONCEPT-001
+- S75-A064 — requiert → CONCEPT-004
+- S75-A064 — nuance → MYTH-002
+- S75-A064 — prolonge → S75-A057
+- S75-A070 — prolonge → S75-A069
+- S75-A070 — prolonge → CONCEPT-006
+- S75-A070 — prolonge → MOTIF-001
+- S75-A071 — prolonge → MOTIF-001
+- S75-A071 — requiert → CONCEPT-004
+- S75-A071 — nuance → MYTH-002
+- S75-A034 — prolonge → CONCEPT-006
+- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
 - S54-A001 — limite → MYTH-Burroughs_Ballard_cause_unique
 - S54-A004 — illustre → CONCEPT-langage_virus_controle
 - S54-A005 — prolonge → S54-A004
@@ -613,37 +694,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S54-A014 — synthese → S54-A012
 - S54-A014 — synthese → S54-A013
 - S54-A015 — synthese → CONCEPT-Curtis_lecteur_ecrivain
-- S41-A045 — prolonge → S41-A001
-- S41-A045 — prolonge → CONCEPT-025
-- S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
-- S41-A050 — prolonge → CONCEPT-025
-- S41-A050 — prolonge → MYTH-007
-- S41-A050 — prolonge → S41-A040
-- S41-A028 — nuance → CONCEPT-048
-- S41-A028 — prolonge → S41-A021
-- S41-A040 — prolonge → CONCEPT-025
-- S41-A040 — prolonge → MYTH-007
-- S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
-- S41-A021 — prolonge → CONCEPT-041
-- S41-A021 — prépare → S41-A026
-- S41-A098 — prolonge → CONCEPT-062
-- S41-A098 — prolonge → MYTH-007
-- S41-A141 — prolonge → CONCEPT-085
-- S41-A141 — prépare → S41-A142
-- S41-A174 — prolonge → CONCEPT-108
-- S41-A174 — prolonge → CONCEPT-110
-- S41-A001 — prolonge → MYTH-007
-- S41-A001 — prolonge → CONCEPT-025
-- S41-A001 — prolonge → S45-A100
-- S41-A012 — alimente → REGISTRE-INFLUENCES-MUSICALES
-- S41-A012 — prépare → S41-A013
-- S39-A001 — garde_fou → REL-S39-001
-- S39-A002 — structure → REL-S39-002
-- S39-A003 — prolonge → REL-S39-004
-- S39-A004 — prolonge → REL-S39-005
-- S39-A005 — garde_fou → REL-S39-008
-- S39-A007 — prolonge → REL-S39-007
-- S57-A001 — distingue → S56
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
+- S13-A002 — prolonge → CONCEPT-no-future
+- S13-A002 — prépare → S13-A010
 
 ## 13. Distribution documentaire
 
@@ -651,7 +707,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Type | Nombre |
 |---|---|
-| analyse | 32 |
+| analyse | 33 |
 | concept_structurant | 27 |
 | manuscript_materiality | 13 |
 | lecture_chanson | 12 |
@@ -659,125 +715,133 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse_editoriale | 9 |
 | analyse_chanson | 8 |
 | biographie | 7 |
-| analyse_motif | 7 |
 | analyse_morceau | 7 |
+| analyse_motif | 7 |
+| non qualifié | 6 |
 | controverse | 6 |
 | motif_lyrique | 5 |
-| non qualifié | 5 |
 | song | 5 |
+| motif_structurant | 4 |
+| reception | 4 |
+| noeud_critique | 4 |
 | tension_documentaire | 4 |
 | lyrics_reference | 4 |
-| motif_structurant | 4 |
-| position_critique | 3 |
-| temoignage_indirect | 3 |
-| reception | 3 |
-| interpretation | 3 |
-| interpretation_esthetique | 3 |
-| intertextualite | 3 |
-| reception_critique | 3 |
 | citation_repere | 3 |
 | concept | 3 |
+| intertextualite | 3 |
+| interpretation | 3 |
 | contexte_biographique | 3 |
-| registre_influences | 2 |
-| concept_critique | 2 |
-| motif_majeur | 2 |
-| relation_interne_source | 2 |
-| temoignage | 2 |
-| genese_chanson | 2 |
+| position_critique | 3 |
+| temoignage_indirect | 3 |
+| synthese_usage_livre | 2 |
 | source_part | 2 |
 | mythe_prudence | 2 |
-| contrepoint | 2 |
-| synthese | 2 |
-| motif_textuel | 2 |
-| synthese_argumentative | 2 |
-| synthese_usage_livre | 2 |
-| reception_presse | 2 |
-| dispositif_formel | 2 |
-| domesticité | 2 |
-| citation_clef | 2 |
 | relation_conjugale | 2 |
+| citation_clef | 2 |
+| domesticité | 2 |
+| cadre_analytique | 2 |
+| lecture_generationnelle | 2 |
+| comparaison_critique | 2 |
+| synthese_argumentative | 2 |
+| synthese | 2 |
+| lecture | 2 |
 | lecture_litteraire | 2 |
 | lecture_musicale | 2 |
-| lecture | 2 |
-| comparaison_critique | 2 |
-| temoignage_direct_rapporte | 2 |
-| lecture_generationnelle | 2 |
 | analyse_album | 2 |
-| tension_biographique | 2 |
-| fait | 2 |
+| motif_textuel | 2 |
+| concept_critique | 2 |
+| motif_majeur | 2 |
+| registre_influences | 2 |
+| reception_presse | 2 |
+| interpretation_esthetique | 2 |
+| dispositif_formel | 2 |
+| reception_critique | 2 |
+| contrepoint | 2 |
 | rapprochement_litteraire_prudent | 2 |
-| scene_soin_amateur | 1 |
-| prudence_conceptuelle | 1 |
-| santé | 1 |
-| geographie_affective | 1 |
-| strategie_d_enonciation | 1 |
-| scene_biographique | 1 |
-| analyse_lyrique | 1 |
-| document_manuscrit | 1 |
-| espace_ecriture | 1 |
-| artefact_ecriture | 1 |
-| temoignage_reception | 1 |
-| variante_textuelle | 1 |
-| methode_datation | 1 |
-| contexte_culturel | 1 |
-| temoignage_culturel | 1 |
-| genealogie_influence | 1 |
-| anecdote_significative | 1 |
-| intertextualite_documentee | 1 |
-| temoignage_direct | 1 |
-| document_archive | 1 |
+| fait | 2 |
+| temoignage_direct_rapporte | 2 |
+| temoignage | 2 |
+| tension_biographique | 2 |
+| genese_chanson | 2 |
+| relation_interne_source | 2 |
+| scene_memoire | 1 |
+| reference_philosophique | 1 |
+| concept_philosophique | 1 |
+| prudence_temoin | 1 |
 | depression_politique | 1 |
 | prudence_interpretative | 1 |
-| prudence_temoin | 1 |
+| mémoire_sensible | 1 |
+| psychologie_sociale | 1 |
+| culture_domestique | 1 |
+| sociologie_scene | 1 |
+| famille | 1 |
+| contexte_historique | 1 |
+| culture_intellectuelle | 1 |
+| politique_punk | 1 |
+| genealogie_culturelle | 1 |
+| acteur_critique | 1 |
+| analyse_culturelle | 1 |
+| evolution_esthetique | 1 |
+| these_conclusive | 1 |
+| contexte_affectif | 1 |
+| contexte_scene | 1 |
+| lecture_scene_et_chanson | 1 |
+| comparaison_urbaine | 1 |
+| contexte_socio_culturel | 1 |
+| concept_mediologique | 1 |
+| cadre_theorique | 1 |
+| analyse_oeuvre_musicale | 1 |
+| reception_heritage | 1 |
+| influence | 1 |
+| contexte | 1 |
+| lecture_textuelle | 1 |
+| memoire | 1 |
+| lecture_intertextuelle | 1 |
+| matrice_politique | 1 |
+| contexte_socio_politique | 1 |
+| comparaison_generations | 1 |
+| lecture_biographique_prudente | 1 |
+| analyse_oeuvre | 1 |
+| concept_chanson | 1 |
+| garde_fou | 1 |
 | atome_pont_document_maitre | 1 |
 | concept_affectif | 1 |
 | concept_performance | 1 |
-| lecture_intertextuelle | 1 |
-| paroles_source | 1 |
-| scene_live_desillusion | 1 |
-| evenement_discographique | 1 |
-| scene_live_violence | 1 |
-| tension_politique_live | 1 |
-| evenement_europeen | 1 |
-| economie_corps_tournee | 1 |
-| scene_ecoute | 1 |
-| chronologie | 1 |
-| reference_litteraire | 1 |
-| interpretation_lyrique | 1 |
-| interpretation_album | 1 |
-| rencontre_culturelle | 1 |
-| citation_contextualisee | 1 |
-| changement_nom | 1 |
+| prudence_conceptuelle | 1 |
+| principe_groupe | 1 |
+| formation_culturelle | 1 |
+| controverse_scene_live | 1 |
+| motif_historique | 1 |
+| concept_reception | 1 |
+| recension_contemporaine | 1 |
+| analyse_historique | 1 |
+| analyse_critique | 1 |
+| philosophie_du_temps | 1 |
+| santé | 1 |
+| scene_soin_amateur | 1 |
+| iconographie_polemique | 1 |
+| performance | 1 |
+| interpretation_theorique | 1 |
 | interpretation_mythographique | 1 |
 | epistemologie_critique | 1 |
 | reception_affective | 1 |
 | chanson_seuil | 1 |
 | interpretation_scenique | 1 |
 | theorie_rythmique | 1 |
-| iconographie_polemique | 1 |
-| performance | 1 |
-| interpretation_theorique | 1 |
-| sociologie_scene | 1 |
-| famille | 1 |
-| mémoire_sensible | 1 |
-| psychologie_sociale | 1 |
-| culture_domestique | 1 |
-| matrice_politique | 1 |
-| contexte_socio_politique | 1 |
-| concept_reception | 1 |
-| scene_memoire | 1 |
-| reference_philosophique | 1 |
-| concept_philosophique | 1 |
-| concert | 1 |
-| lecture_textuelle | 1 |
-| influence | 1 |
-| contexte | 1 |
-| contexte_affectif | 1 |
-| genealogie_culturelle | 1 |
-| acteur_critique | 1 |
-| analyse_culturelle | 1 |
-| evolution_esthetique | 1 |
-| scene_fondatrice | 1 |
+| citation_contextualisee | 1 |
+| changement_nom | 1 |
+| chronologie | 1 |
+| reference_litteraire | 1 |
+| interpretation_lyrique | 1 |
+| interpretation_album | 1 |
+| rencontre_culturelle | 1 |
+| scene_litteraire | 1 |
+| motif_lexical | 1 |
+| mediation_litteraire | 1 |
+| concept_transversal | 1 |
+| chanson_contexte | 1 |
+| fait_sensible | 1 |
+| portrait_sensible | 1 |
 | performance_live | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
@@ -785,110 +849,105 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | interpretation_critique | 1 |
 | reception_interne | 1 |
 | reception_posthume | 1 |
-| comparaison_urbaine | 1 |
-| contexte_socio_culturel | 1 |
-| concept_mediologique | 1 |
-| contexte_scene | 1 |
-| lecture_scene_et_chanson | 1 |
-| comparaison_generations | 1 |
-| lecture_biographique_prudente | 1 |
-| analyse_oeuvre | 1 |
-| concept_chanson | 1 |
-| garde_fou | 1 |
+| scene_fondatrice | 1 |
+| contexte_social | 1 |
+| portrait_relationnel | 1 |
+| mythe_nomination | 1 |
+| concert_europeen | 1 |
+| scene_reception | 1 |
+| contraste_biographique | 1 |
+| lecture_chansons | 1 |
+| scene_de_transition | 1 |
+| concert | 1 |
 | reception_esthetique | 1 |
 | analyse_textuelle | 1 |
 | analyse_formelle | 1 |
 | synthese_conceptuelle | 1 |
-| mythe_nomination | 1 |
-| contexte_social | 1 |
-| portrait_relationnel | 1 |
-| lecture_chansons | 1 |
-| scene_de_transition | 1 |
-| scene_reception | 1 |
-| contraste_biographique | 1 |
-| concert_europeen | 1 |
-| analyse_critique | 1 |
-| recension_contemporaine | 1 |
-| analyse_historique | 1 |
-| philosophie_du_temps | 1 |
-| formation_culturelle | 1 |
-| principe_groupe | 1 |
-| motif_historique | 1 |
-| controverse_scene_live | 1 |
-| mediation_litteraire | 1 |
-| contexte_historique | 1 |
-| culture_intellectuelle | 1 |
-| politique_punk | 1 |
-| chanson_contexte | 1 |
-| fait_sensible | 1 |
-| portrait_sensible | 1 |
-| concept_transversal | 1 |
-| scene_litteraire | 1 |
-| motif_lexical | 1 |
-| memoire | 1 |
-| song_pair | 1 |
+| strategie_d_enonciation | 1 |
+| scene_biographique | 1 |
+| analyse_lyrique | 1 |
+| document_manuscrit | 1 |
+| geographie_affective | 1 |
+| espace_ecriture | 1 |
+| artefact_ecriture | 1 |
+| temoignage_reception | 1 |
+| variante_textuelle | 1 |
+| methode_datation | 1 |
+| temoignage_direct | 1 |
+| document_archive | 1 |
+| contexte_culturel | 1 |
+| temoignage_culturel | 1 |
+| genealogie_influence | 1 |
+| anecdote_significative | 1 |
+| intertextualite_documentee | 1 |
+| scene_ecoute | 1 |
+| economie_corps_tournee | 1 |
+| evenement_europeen | 1 |
+| paroles_source | 1 |
+| scene_live_desillusion | 1 |
+| evenement_discographique | 1 |
+| tension_politique_live | 1 |
+| scene_live_violence | 1 |
 | live_set_bootleg_context | 1 |
+| song_pair | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| critique | 157 |
-| non qualifiée | 133 |
-| majeure | 72 |
+| critique | 165 |
+| non qualifiée | 132 |
+| majeure | 75 |
+| utile | 6 |
 | majeur | 5 |
-| utile | 5 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- S45-A099 [très élevé] — Risque d’influence fallacy : faire dériver les chansons directement d’auteurs cités.
-- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
-- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
-- S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
-- S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S42-A004 [moyen] — Ne pas faire disparaître la matérialité sociale derrière la seule performance identitaire.
+- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
+- S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
+- S49-A002 [moyen] — risque de généraliser une lecture de genre à toute une génération
+- S49-A005 [moyen] — paroles à vérifier et à ne pas rabattre sur une confession immédiate
+- S49-A008 [moyen] — risque de simplifier les circulations entre scènes blanches et musiques noires
+- S49-A011 [moyen] — comparaison stimulante mais dépendante du cadre théorique de Farci
+- S49-A013 [moyen] — nécessite vérification des paroles et de leur source littéraire
+- S49-A015 [eleve] — concept théorique puissant mais à manier sans diagnostiquer Curtis
+- S49-A017 [moyen] — la force de la formule ne doit pas devenir une explication totale du groupe
+- S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
+- S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
+- S75-A016 [eleve] — risque d'assimiler toute référence WWII à une sympathie politique ; risque inverse d'excuser trop vite la provocation
+- S75-A017 [eleve] — tension entre correction factuelle sur Warsaw et condamnation éthique du nom Joy Division
+- S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
+- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
+- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
+- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
+- S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
+- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
+- S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
+- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
+- S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
 - S40-A001 [élevé] — Risque de convertir S40 en clé totale ou en preuve historique.
 - S40-A003 [moyen] — Éviter de faire du punk ou de Joy Division une théorie constituée du capitalisme globalisé.
 - S40-A004 [élevé] — La disparition du futur ne doit pas devenir une formule automatique.
 - S40-A005 [moyen] — Ne pas réduire toutes les chansons de Joy Division à l’attente.
 - S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
 - S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
-- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
-- S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
-- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
-- S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
-- S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
-- S41-A050 [très élevé] — Risque d’excuser ou d’accuser trop vite ; l’atome impose la distinction intention / effet / contexte politique.
-- S41-A028 [moyen] — Ne pas généraliser la scène à tout le punk américain ; c’est une expérience située.
-- S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
-- S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
-- S41-A098 [très élevé] — La formule doit être lue comme mémoire de danger et ironie politique.
-- S41-A141 [moyen] — Ne pas réduire Plan K à la potacherie ; maintenir la coexistence avant-garde / pauvreté / désordre.
-- S41-A174 [moyen] — Ne pas folkloriser l’ignorance alimentaire ; l’enjeu est la matérialité sociale du déplacement.
-- S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
-- S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
+- S35-A070 [faible] — Principe explicite de Morris sur ce qu’exige un groupe.
+- S35-A058 [moyen] — Ne pas surcharger l’occultisme ; Morris insiste aussi sur l’humour et la curiosité adolescente.
+- S35-A026 [élevé] — Ne pas transformer ce goût enfantin pour les traces de guerre en adhésion idéologique.
 - S39-A001 [élevé] — Risque de substituer une théorie générale à des sources historiques sur le groupe.
 - S39-A002 [moyen] — Ne pas projeter directement le concept sur Manchester 1976-1980.
 - S39-A003 [moyen] — Ne pas psychologiser le concept ni le rabattre sur Ian Curtis.
 - S39-A004 [moyen] — Ne pas faire de S39 une source lyrique ou biographique.
 - S39-A005 [très élevé] — Risque d’écrire que Joy Division annonce la modernité liquide.
 - S39-A007 [moyen] — Ne pas transformer la brièveté du groupe en destin métaphysique.
-- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
-- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
-- S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
-- S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
-- S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
-- S75-A016 [eleve] — risque d'assimiler toute référence WWII à une sympathie politique ; risque inverse d'excuser trop vite la provocation
-- S75-A017 [eleve] — tension entre correction factuelle sur Warsaw et condamnation éthique du nom Joy Division
-- S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
-- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
-- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
-- S42-A004 [moyen] — Ne pas faire disparaître la matérialité sociale derrière la seule performance identitaire.
-- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
-- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
-- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
-- S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
-- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
+- S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
+- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
+- S45-A099 [très élevé] — Risque d’influence fallacy : faire dériver les chansons directement d’auteurs cités.
+- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
 - S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
 - S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque
@@ -898,10 +957,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
+- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
+- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
+- S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
+- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
-- S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
-- S49-A002 [moyen] — risque de généraliser une lecture de genre à toute une génération
+- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 
 ## 15. Lacunes et prochaines vérifications
 

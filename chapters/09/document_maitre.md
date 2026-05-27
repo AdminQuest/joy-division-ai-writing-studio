@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-26T00:09:44"
+generated_at: "2026-05-27T07:13:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,27 +22,20 @@ generated_at: "2026-05-26T00:09:44"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 262 |
-| Atomes critiques / majeurs | 26 |
-| Citations | 10 |
+| Atomes | 219 |
+| Atomes critiques / majeurs | 36 |
+| Citations | 13 |
 | Événements chronologiques | 3 |
-| Personnes | 12 |
+| Personnes | 14 |
 | Chansons | 4 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
-| S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 6 | 0 |
-| S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 13 | 0 |
 | S09 | S09 — Cummins, Joy Division, 2010 | 6 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
-| S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
-| S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
-| S14 | S14 — Happy Mondays, God’s Cop, 1990 | 2 | 0 |
-| S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S21 | S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 1 | 0 |
@@ -57,10 +50,11 @@ generated_at: "2026-05-26T00:09:44"
 | S68 | S68 — Broll, Joy Division, 1988 | 6 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
-| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 11 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 12 | 3 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 2 |
+| S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -74,6 +68,8 @@ generated_at: "2026-05-26T00:09:44"
   Source :  ; type : `scene_conflit_scene_locale` ; importance : `critique` ; preuve : `non qualifié`.
 - **S37-A065** — S37-A065 — Sections XLV-XLVII : Notes pochette Palatine — « Transmission », « Love Will Tear Us Apart », « Atmosphere »  
   Source : S37 — Morley, Joy Division: Piece by Piece, 2008 ; type : `texte_editorial` ; importance : `critique` ; preuve : `texte_editorial_Factory_compilation`.
+- **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  
+  Source : S47 — West, Joy Division, 1984 ; type : `concert` ; importance : `critique` ; preuve : `fait_documente`.
 - **S50-A004** — S50-A004 — Liberté créative, bas budget et géographie globale des images  
   Source : S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 ; type : `dispositif_creation` ; importance : `critique` ; preuve : `synthese_critique`.
 - **S50-A010** — S50-A010 — Détacher *Unknown Pleasures* de Manchester : universalisation ou déracinement  
@@ -102,6 +98,12 @@ generated_at: "2026-05-26T00:09:44"
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `ancrage_source` ; importance : `critique` ; preuve : `source_secondaire_sur_City_Fun`.
 - **S77-A015** — S77-A015 — Fanzines comme contre-public subalterne  
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `concept_structurant` ; importance : `critique` ; preuve : `synthese_conclusive_appuyee_sur_Fraser`.
+- **S84-A002** — S84-A002  
+  Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `inventaire_audiovisuel` ; importance : `critique` ; preuve : `haute`.
+- **S84-A009** — S84-A009  
+  Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `archive_concert` ; importance : `critique` ; preuve : `haute`.
+- **S84-A010** — S84-A010  
+  Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `evenement_audiovisuel` ; importance : `critique` ; preuve : `haute`.
 - **S21-A004** — S21-A004 — City Fun comme réseau de contributeurs et de sociabilités locales  
   Source : S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 ; type : `reseau_acteurs` ; importance : `majeure` ; preuve : `reseau_a_verifier_par_notice`.
 - **S21-A007** — S21-A007 — Voix féminines, camp et critique des normes  
@@ -110,73 +112,27 @@ generated_at: "2026-05-26T00:09:44"
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
 - **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_relationnelle` ; importance : `majeure` ; preuve : `cartographie critique ; faits à croiser`.
+- **S47-045** — S47-045 — Joy Division ne tourne presque jamais au sens classique  
+  Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `majeure` ; preuve : `fait_documente`.
+- **S47-058** — S47-058 — Buzzcocks Tour : contraste productif  
+  Source : S47 — West, Joy Division, 1984 ; type : `concert` ; importance : `majeure` ; preuve : `fait_secondaire`.
+- **S47-072** — S47-072 — Projet d’album live allemand  
+  Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `majeure` ; preuve : `fait_secondaire`.
+- **S47-098** — S47-098 — Les archives live existent en quantité importante  
+  Source : S47 — West, Joy Division, 1984 ; type : `archive` ; importance : `majeure` ; preuve : `fait_secondaire`.
 - **S55-A006** — S55-A006 — Composante existentielle : malaise, solitude, aliénation, obscurité  
   Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `motif_structurant` ; importance : `majeure` ; preuve : `axe_thematique_S55`.
 - **S55-A010** — S55-A010 — Gemmation et greffe : deux directions de l’héritage critique Joy Division  
   Source : S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 ; type : `modele_heritage` ; importance : `majeure` ; preuve : `modele_interpretatif`.
+- **S71-A077** — S71-A077 — Hannett, logique d'indépendance et Factory comme refus du marché  
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `infrastructure_culturelle` ; importance : `majeure` ; preuve : `moyenne`.
 - **S77-A006** — S77-A006 — Fanzines comme réseaux : concerts, disquaires, postalité et distribution indépendante  
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `reseau_distribution` ; importance : `majeure` ; preuve : `synthese_documentee`.
+- **S84-A014** — S84-A014  
+  Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `cadre_theorique` ; importance : `majeure` ; preuve : `haute`.
 
 ## 6. Autres atomes utiles
 
-- **S02-A001** — S02-A001 — Manchester comme archétype de la shrinking city industrielle  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A003** — S02-A003 — Changement d’échelle : City of Manchester, Greater Manchester et aire urbaine  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A004** — S02-A004 — La ville rétrécie : vacance, réseaux et coût des infrastructures  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A005** — S02-A005 — Le renouvellement urbain comme réponse politique au déclin  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A006** — S02-A006 — Manchester entrepreneuriale : partenariats, événements et compétition territoriale  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A007** — S02-A007 — La bombe de l’IRA de 1996 comme accélérateur de recomposition du centre-ville  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A008** — S02-A008 — Hulme comme laboratoire et limite du renouvellement urbain  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A009** — S02-A009 — Cultures urbaines, post-punk et régénération symbolique de Manchester  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-A010** — S02-A010 — Le modèle Manchester reste traversé par des inégalités et des limites sociales  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
-  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A004** — S05-A004 — Tactical Aid Group : force mobile, centralisée et paramilitaire  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `institution_policiere` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A006** — S05-A006 — Racisme policier et Moss Side 1981  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A009** — S05-A009 — Ordsall 1992 : désindustrialisation, inner city et anti-police riot  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A011** — S05-A011 — Régénération, sécuritisation et policing de la ville attractive  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A012** — S05-A012 — Barton Moss : police, anti-fracking et défense de l’ordre local  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S05-A013** — S05-A013 — Police, ordre local et Manchester post-industriel  
-  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A001** — S06-A001 — Hulme comme inner-city estate : espace vécu et espace discursif  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A002** — S06-A002 — Hulme Crescents : démolition, redevelopment et récit de renaissance familiale  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A003** — S06-A003 — Jeunesse, race et fabrication médiatique de l’inner-city crisis  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A004** — S06-A004 — « Concrete jungle », « ghetto », « Bronx » : lexique de stigmatisation territoriale  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A005** — S06-A005 — Deck-access estates, défensible space et causalité architecturale du crime  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A006** — S06-A006 — Les habitants contre les clichés : oral history et récits contradictoires  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A007** — S06-A007 — Jason et Conor : contradictions entre défense de Hulme et reconnaissance du crime  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A008** — S06-A008 — Réappropriation du mot « ghetto » : communauté, acceptation et contre-récit  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A009** — S06-A009 — Hulme comme bulle multiculturelle : diversité, antiracisme vécu et limites  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A010** — S06-A010 — Shaima : communauté, racisme ordinaire et position minoritaire asiatique  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A011** — S06-A011 — Hulme entre mythe, spectacle et abstraction : méthode historiographique  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
-  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S09-A001** — S09-A001 — Kevin Cummins comme témoin visuel de Joy Division  
   Source : S09 — Cummins, Joy Division, 2010 ; type : `source_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S09-A003** — S09-A003 — Epping Walk / Hulme : architecture, hauteur, vide et posture du groupe  
@@ -199,48 +155,6 @@ generated_at: "2026-05-26T00:09:44"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `media_scene` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
-- **S11-A009** — S11-A009 — Local authorities et public expenditure : place des collectivités dans le cadrage budgétaire  
-  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `finances_locales` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S12-A001** — S12-A001 — Décembre 1986 : sida, morale publique et controverse nationale  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `contexte_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S12-A003** — S12-A003 — Gouvernement Thatcher : pragmatisme sanitaire contre croisade morale  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `reaction_politique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S12-A004** — S12-A004 — Greater Manchester Police Authority : menace de censure et conflit d’accountability  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `conflit_institutionnel` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S12-A006** — S12-A006 — Langage de la dégénérescence : homosexualité, drogue, prostitution et ordre moral  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S12-A007** — S12-A007 — Anderton au croisement de police, morale, religion et santé publique  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S12-A008** — S12-A008 — S12 comme source de presse à croiser avec S05  
-  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
-- **S14-A003** — S14-A003 — Satire, drogue, rave et police : la morale d’Anderton retournée par Shaun Ryder  
-  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `satire_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S14-A004** — S14-A004 — Du policing moral à la dérision club : continuité oblique S05 / S12 / S14  
-  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A005** — S20-A005 — La ceinture de taudis autour du cœur commercial de Manchester  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A007** — S20-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A008** — S20-A008 — Le plan de 1945 et la dédensification programmée de Hulme  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A009** — S20-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A010** — S20-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A011** — S20-A011 — Beswick / Fort Beswick : échec des mégastructures et des streets-in-the-sky  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `cas_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A012** — S20-A012 — Désindustrialisation, chômage masculin et crise des estates  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A013** — S20-A013 — Démolition et retour aux maisons conventionnelles dans les années 1980  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-PART-HOUSING-GEOGRAPHIES-V2** — S20 — Passe v2 — Manchester, géographies du logement et solutions du XXe siècle  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S27-A003** — S27-A003 — Lieux de convergence : clubs, points de rencontre et formation des réseaux  
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A006** — S29-A006 — Ruines du modernisme : postindustrial cityscapes, Ballard, Kafka, Burroughs, Gogol  
@@ -279,6 +193,106 @@ generated_at: "2026-05-26T00:09:44"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-053** — S41-053 — Le Transit bleu : autonomie matérielle du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_materiel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-054** — S41-054 — Rob Gretton comme accélérateur systémique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-055** — S41-055 — « Transmission » comme premier moment d’évidence collective  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-056** — S41-056 — Oz PA et la professionnalisation du son live  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-058** — S41-058 — Premier concert Factory de Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-059** — S41-059 — Manchester Musicians’ Collective : coopération contrainte  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-060** — S41-060 — Gretton dépense pour le son : philosophie d’investissement  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-061** — S41-061 — Tension Ian Curtis / Rob Gretton : double autorité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-063** — S41-063 — Rob Gretton comme figure maternelle autoritaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-065** — S41-065 — Huddersfield : concert devant une personne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-075** — S41-075 — Le van de Hook et l’enquête Yorkshire Ripper  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-076** — S41-076 — Tour Rezillos / Undertones : inadéquation d’affiche  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-077** — S41-077 — Spitting et violence du public punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-078** — S41-078 — Éjection de la tournée et confrontation avec Chelsea  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-079** — S41-079 — Hope & Anchor : premier concert londonien décevant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-082** — S41-082 — Le dilemme Genetic / Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-088** — S41-088 — L’anecdote des autoradios : persistance du registre scally  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-102** — S41-102 — La scène comme aggravateur physique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-104** — S41-104 — Live : le décalage entre puissance scénique et image studio  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-105** — S41-105 — La tournée comme apprentissage accéléré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-106** — S41-106 — Rob Gretton comme pare-chocs contre l’industrie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_fonctionnel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-107** — S41-107 — Les débuts de la mythologie Curtis sur scène  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-109** — S41-109 — Le succès indépendant comme reconnaissance sans sécurité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_economique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-123** — S41-123 — Le succès grandissant et l’intensification des tournées  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-124** — S41-124 — Curtis sur scène : ambiguïté entre performance et crise  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-135** — S41-135 — Le Moonlight Club : concentration finale de l’énergie live  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-137** — S41-137 — Malvern, 5 avril 1980 : trace extérieure d’un Curtis fatigué mais disponible  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `témoignage_externe` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-139** — S41-139 — Derby Hall, Bury, 8 avril 1980 : concert empêché et émeute  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-141** — S41-141 — Ajanta Theatre, Derby, 19 avril 1980 : encore une capacité scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-142** — S41-142 — Birmingham University, 2 mai 1980 : dernier concert officiel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-145** — S41-145 — Martin Hannett devait mixer le son live de la tournée américaine  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S45-012** — S45-012 — Warsaw puis Joy Division : intrusion du groupe dans le foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-016** — S45-016 — Factory introduit une nouvelle hiérarchie affective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S45-025** — S45-025 — Le public ne comprend pas les crises de Ian Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-035** — S45-035 — Derby Hall devient un moment de rupture visible  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-009** — S46-009 — Premier concert sous le nom Joy Division  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S46-012** — S46-012 — Rob Gretton devient manager  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S46-014** — S46-014 — Factory I, Russell Club, 9 juin 1978  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S46-018** — S46-018 — Bowdon Vale, provocation publique et accusations de nazisme  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-019** — S46-019 — Rob Gretton formule l’ambition nationale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S46-023** — S46-023 — *Transmission* comme single de relance et attraction des majors  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-025** — S46-025 — Europe 1979-1980 et Les Bains-Douches  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_tournee` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-026** — S46-026 — Paradiso : double set du 11 janvier 1980  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_tournee` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -286,12 +300,15 @@ generated_at: "2026-05-26T00:09:44"
 - **S46-Q005** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « South. »
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S71-Q023** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « on Christmas Eve he photocopied Saville's cover designs and made his own sleeves with paper and glue, sliding the already-pressed discs in and delivering them himself to the homes of twenty musicians, including Ian Curti… »
+- **S71-Q024** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Each lot of ten thousand albums had to completely sell out before Factory could finance another pressing of Unknown Pleasures. With only ten thousand copies available at any given time, the public was unable to buy enoug… »
+- **S71-Q025** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was just going out to independent record stores. I used to deal with twenty-four different accounts. In those days, you went and acted as virtually your own distributor… At that level of work, you'll never get a chart… »
 
 ## 8. Chronologie rattachée
 
@@ -301,18 +318,22 @@ generated_at: "2026-05-26T00:09:44"
 
 ## 9. Personnes et acteurs
 
-- PERS-S55-001 — Vincenzo Romania
-- PERS-S55-003 — Peter Hook
-- PERS-S55-004 — Bernard Sumner
-- PERS-S55-005 — Stephen Morris
-- PERS-S77-005 — Liz Naylor
-- PERS-S77-006 — Cath Carroll
-- PERS-S77-007 — Andy Zero / Andy Waide
-- PERS-S21-001 — Liz Naylor
-- PERS-S21-002 — Cath Carroll
-- PERS-002 — Peter Hook
-- PERS-006 — Rob Gretton
-- PERS-007 — Tony Wilson
+| ID | Nom | Description |
+|---|---|---|
+| PERS-S77-005 | Liz Naylor | Contributrice de City Fun, associée par Worley aux voix critiques et libertaires mancuniennes. |
+| PERS-S77-006 | Cath Carroll | Contributrice de City Fun ; exemple de passage du fanzine vers la critique musicale et culturelle. |
+| PERS-S77-007 | Andy Zero / Andy Waide | Contributeur de City Fun cité par Worley comme acteur d’une critique post-punk locale et libertaire. |
+| PERS-S21-001 | Liz Naylor | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. |
+| PERS-S21-002 | Cath Carroll | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. |
+| PERS-S55-001 | Vincenzo Romania | Auteur de S55 ; analyse Joy Division comme univers symbolique dans les recensions musicales. |
+| PERS-S55-003 | Peter Hook | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
+| PERS-S55-004 | Bernard Sumner | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
+| PERS-S55-005 | Stephen Morris | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
+| PERS-S84-004 | Michel Isbecque | Filma le concert de Joy Division au Plan K, Bruxelles, le 16 octobre 1979 sur caméra VHS portable lors d'un événement multimédias (musique, art, littérature) incluant William Burroughs. |
+| PERS-S84-005 | Dik Verdult | Filma le dernier concert enregistré de Joy Division à l'Effenaar, Eindhoven, le 18 janvier 1980, sur Super 8 pour VPRO. Extraits diffusés dans Neon épisode 6 (17 février 1980). En litige de longue date avec le groupe et Factory concernant l'usage de ses images. |
+| PERS-002 | Peter Hook | ["musicien", "bassiste", "témoin", "mémorialiste"] |
+| PERS-006 | Robert Leo Gretton | ["manager", "stratège", "médiateur"] |
+| PERS-007 | Anthony Howard Wilson | ["journaliste", "entrepreneur culturel", "fondateur Factory", "médiateur"] |
 
 ## 10. Chansons rattachées
 
@@ -329,146 +350,139 @@ generated_at: "2026-05-26T00:09:44"
 - Manchester (12)
 - Warsaw (11)
 - management (9)
-- factory records (8)
+- factory records (9)
 - Tony Wilson (8)
 - Joy Division (8)
-- Rafters (7)
 - scène (7)
+- Rafters (7)
 - tournée (7)
-- Hulme (7)
-- manchester (6)
-- Electric Circus (6)
 - fatigue (6)
-- Transmission (5)
+- Electric Circus (6)
+- manchester (6)
 - public (5)
-- Buzzcocks (5)
-- Londres (5)
+- Transmission (5)
 - Still (5)
-- rob gretton (4)
-- tony wilson (4)
-- peter saville (4)
-- diy (4)
-- buzzcocks (4)
-- scène locale (4)
-- Plan K (4)
-- organisation (4)
-- Russell Club (4)
-- Bowdon Vale (4)
+- Buzzcocks (5)
+- buzzcocks (5)
+- Londres (5)
 - Birmingham University (4)
 - concerts (4)
 - authenticité (4)
-- bootleg (3)
-- indépendance (3)
-- paul morley (3)
+- scène locale (4)
+- rob gretton (4)
+- tony wilson (4)
+- peter saville (4)
+- Russell Club (4)
+- Bowdon Vale (4)
+- Plan K (4)
+- organisation (4)
+- diy (4)
+- indépendance (4)
 - Granada Reports (3)
-- presse musicale (3)
-- professionnalisation (3)
-- tournée européenne (3)
-- Bruxelles (3)
-- logistique (3)
-- premier concert (3)
-- Pete Shelley (3)
-- electric circus (3)
-- Moonlight Club (3)
-- dernier concert (3)
 - Here Are the Young Men (3)
+- premier concert (3)
+- dernier concert (3)
+- Pete Shelley (3)
 - Unknown Pleasures (3)
-- Factory Records (3)
-- performance (3)
+- bootlegs (3)
+- Moonlight Club (3)
+- electric circus (3)
+- tournée européenne (3)
+- presse musicale (3)
+- bootleg (3)
+- Bruxelles (3)
+- professionnalisation (3)
+- logistique (3)
+- paul morley (3)
 - live (3)
-- son live (3)
 - epilepsie (3)
-- police-community relations (2)
-- désindustrialisation (2)
-- ordre local (2)
-- Manchester post-industriel (2)
+- performance (3)
+- son live (3)
+- Shadowplay (2)
+- Derby Hall (2)
+- Bury (2)
+- crise (2)
+- tournée américaine (2)
+- scène post-punk (2)
+- 8mm (2)
+- 16mm (2)
+- Short Circuit (2)
+- fermeture (2)
+- High Hall (2)
+- 2 mai 1980 (2)
+- stratégie (2)
+- Peel Session (2)
+- Atmosphere (2)
+- tournées (2)
+- guitare (2)
+- non-nostalgie (2)
+- commercialisation (2)
+- fanzines (2)
+- russell club (2)
 - futurama (2)
+- here are the young men (2)
 - warner bros (2)
 - wea (2)
 - marché américain (2)
-- paradiso (2)
-- sordide sentimental (2)
-- atmosphere (2)
-- dead souls (2)
-- france (2)
-- rough trade (2)
-- new hormones (2)
-- the fall (2)
-- joy division (2)
-- scène post-punk (2)
-- scène mancunienne (2)
-- city fun (2)
-- fanzine (2)
-- critique musicale (2)
-- sounds (2)
-- autonomie (2)
-- fanzines (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - Manchester (3)
+- ian_curtis (3)
 - scènes locales (2)
-- Rafters (2)
 - Liz Naylor (2)
 - Cath Carroll (2)
+- buzzcocks (2)
+- bootlegs (2)
+- moonlight_club (2)
+- birmingham_university (2)
+- still (2)
 - prudence (2)
-- géographie globale (1)
-- bas budget (1)
-- liberté créative (1)
-- tournage local (1)
-- déracinement (1)
-- universalisation (1)
-- recontextualisation (1)
-- Day of the Lords (1)
-- Berlin (1)
-- Guerre froide (1)
-- Teufelsberg (1)
-- Mauerpark (1)
-- Ceremony (1)
-- In a Lonely Place (1)
-- New Order (1)
-- absence (1)
-- transition (1)
-- triangulation du Nord (1)
-- autonomie périphérique (1)
-- rhizome (1)
-- dispersion des scènes (1)
-- expérimentation électronique (1)
-- Record Mirror (1)
-- Rob Gretton avant Rob (1)
-- Rabid (1)
-- Fast Breeder (1)
-- us against the world (1)
-- Rob Gretton (1)
+- Rafters (2)
 - archipel fanzine (1)
 - Rough Trade (1)
 - Better Badges (1)
 - disquaires (1)
 - concerts (1)
 - féminisme (1)
+- Rock Against Sexism (1)
+- Brass Lip (1)
+- Jolt (1)
+- City Fun (1)
+- Factory (1)
+- Paul Morley (1)
+- subaltern counterpublic (1)
+- agency (1)
+- jeunesse (1)
+- alternative press (1)
+- tournées (1)
+- factory_nights (1)
+- concerts_isolés (1)
+- stratégie_live (1)
+- rareté (1)
+- live_tapes (1)
+- peel_sessions (1)
+- circulation (1)
+- tournée_1979 (1)
+- pete_shelley (1)
+- contraste (1)
+- public (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S50-A004 — prepare → S50-A009
-- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
-- S50-A016 — contre_exemple → S50-A011
-- S75-A074 — prolonge → MOTIF-001
-- S75-A074 — requiert → CONCEPT-004
-- S75-A074 — nuance → MYTH-002
-- S42-A007 — cartographie → REL-S42-007
-- S42-A012 — cartographie → REL-S42-007
-- S35-A088 — prolonge → S35-A077
-- S35-A088 — prepare → S35-A090
-- S35-A090 — prolonge → S35-A088
-- S35-A090 — croise → S41-A032
 - S77-A003 — nuance → MYTH-Manchester_exception_absolue
 - S77-A006 — prolonge → CONCEPT-fanzine_observatoire_local
 - S77-A011 — corrobore → S21-A007
 - S77-A012 — corrobore → S21-A007
 - S77-A012 — corrobore → S22
 - S77-A015 — fonde → CONCEPT-fanzine_contre_public
+- S42-A007 — cartographie → REL-S42-007
+- S42-A012 — cartographie → REL-S42-007
+- S75-A074 — prolonge → MOTIF-001
+- S75-A074 — requiert → CONCEPT-004
+- S75-A074 — nuance → MYTH-002
 - S55-A001 — distingue → S53
 - S55-A001 — distingue → S78
 - S55-A003 — fonde → CONCEPT-recension_classificatoire
@@ -479,10 +493,17 @@ generated_at: "2026-05-26T00:09:44"
 - S55-A010 — prolonge → S55-A009
 - S55-A011 — limite → CONCEPT-joy_division_categorie_critique
 - S55-A012 — synthese → S55-A004
+- S50-A004 — prepare → S50-A009
+- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A016 — contre_exemple → S50-A011
 - S21-A002 — complete → S22-A001
 - S21-A004 — a_croiser → S22
 - S21-A007 — a_croiser → S22-A009
 - S21-A010 — articule → S22
+- S35-A088 — prolonge → S35-A077
+- S35-A088 — prepare → S35-A090
+- S35-A090 — prolonge → S35-A088
+- S35-A090 — croise → S41-A032
 
 ## 13. Distribution documentaire
 
@@ -490,87 +511,50 @@ generated_at: "2026-05-26T00:09:44"
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 12 |
+| concert | 11 |
 | fait | 10 |
-| reception | 9 |
 | chronologie | 9 |
+| reception | 9 |
+| production | 8 |
 | sociologie | 8 |
-| concert | 7 |
 | evenement | 6 |
-| prudence_methodologique | 6 |
 | interpretation | 6 |
 | relation | 5 |
-| production | 5 |
 | contexte_scene | 5 |
-| source_part | 5 |
+| concept_structurant | 4 |
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
-| politique_urbaine | 4 |
 | anecdote_significative | 4 |
-| evenement_politique | 3 |
-| conclusion_historiographique | 3 |
-| acteur | 3 |
-| concert_incident | 3 |
-| lieu | 3 |
-| industrie_musicale | 3 |
 | evenement_live | 3 |
-| evenement_urbain | 3 |
-| motif_discursif | 3 |
-| temoignage_analyse | 3 |
+| acteur | 3 |
+| non qualifié | 3 |
+| archive | 3 |
+| industrie_musicale | 3 |
 | fait_sensible | 3 |
-| lieu_scene | 2 |
-| limite_interpretative | 2 |
-| methode | 2 |
-| infrastructure | 2 |
-| chronologie_tournee | 2 |
-| projet_avorte | 2 |
-| dynamique_collective | 2 |
-| archive | 2 |
-| cartographie_scene | 2 |
-| urbanisme | 2 |
+| source_part | 2 |
 | scene_fondatrice | 2 |
-| contexte | 2 |
-| chronologie_live | 2 |
-| concept_transversal | 2 |
-| synthese_usage_livre | 2 |
+| dynamique_collective | 2 |
+| cartographie_scene | 2 |
+| lieu_scene | 2 |
 | memoire | 2 |
-| institution_policiere | 1 |
-| dispositif_creation | 1 |
-| tension_documentaire | 1 |
+| prudence_methodologique | 2 |
+| synthese_usage_livre | 2 |
+| concert_incident | 2 |
+| lieu | 2 |
+| chronologie_tournee | 2 |
+| infrastructure | 2 |
+| concept_transversal | 2 |
+| chronologie_live | 2 |
+| contexte | 2 |
+| urbanisme_vécu | 1 |
+| media_scene | 1 |
 | modernisme_litteraire | 1 |
-| contrepoint | 1 |
-| archive_broadcast | 1 |
-| television | 1 |
-| radio_broadcast | 1 |
-| iconographie_photographe | 1 |
-| methodologie_critique | 1 |
-| discographie_strategie | 1 |
-| reception_europeenne | 1 |
-| evenement_scene | 1 |
-| concert_bascule | 1 |
-| portrait_acteur | 1 |
-| chanson_live | 1 |
-| concert_detail | 1 |
-| interpretation_scenique | 1 |
-| reception_temoin | 1 |
-| strategie_management | 1 |
-| scene_detail | 1 |
-| concert_broadcast | 1 |
-| concert_exceptionnel | 1 |
-| concert_international | 1 |
-| finances_locales | 1 |
 | sociologie_scene | 1 |
 | réception_scene | 1 |
-| lecture_discographique | 1 |
-| cartographie_relationnelle | 1 |
-| live_strategy | 1 |
-| bootleg_culture | 1 |
-| tournee | 1 |
-| concert_sequence | 1 |
-| dernier_concert | 1 |
-| equipment_file | 1 |
-| archives_live | 1 |
+| reseau_distribution | 1 |
+| genre_politique | 1 |
+| ancrage_source | 1 |
 | archive_video | 1 |
 | video | 1 |
 | versions_chanson | 1 |
@@ -579,65 +563,84 @@ generated_at: "2026-05-26T00:09:44"
 | lieu_terminal | 1 |
 | acteur_scene | 1 |
 | micro_chronologie | 1 |
-| non qualifié | 1 |
-| lieu_memoire_urbain | 1 |
-| cas_urbain | 1 |
-| contexte_social | 1 |
-| culture_urbaine | 1 |
-| urbanisme_vécu | 1 |
-| media_scene | 1 |
-| texte_editorial | 1 |
-| temoignage_autobiographique | 1 |
-| temoignage_retrospectif | 1 |
-| contexte_discursif | 1 |
-| reaction_politique | 1 |
-| conflit_institutionnel | 1 |
+| culture_musicale | 1 |
+| cartographie_relationnelle | 1 |
+| controverse | 1 |
+| lecture_discographique | 1 |
+| fonction_symbolique | 1 |
+| motif_structurant | 1 |
+| modele_heritage | 1 |
+| limite_critique | 1 |
+| dispositif_creation | 1 |
+| tension_documentaire | 1 |
+| limite_interpretative | 1 |
+| source_primaire_mediatisee | 1 |
+| reseau_acteurs | 1 |
+| voix_acteurs | 1 |
 | scene_mediation_reseau | 1 |
 | scene_conflit_scene_locale | 1 |
+| temoignage_autobiographique | 1 |
+| temoignage_retrospectif | 1 |
+| texte_editorial | 1 |
+| inventaire_audiovisuel | 1 |
+| archive_concert | 1 |
+| evenement_audiovisuel | 1 |
+| cadre_theorique | 1 |
+| reception_temoin | 1 |
+| strategie_management | 1 |
+| scene_detail | 1 |
+| concert_broadcast | 1 |
+| concert_exceptionnel | 1 |
+| concert_international | 1 |
+| projet_avorte | 1 |
+| interpretation_scenique | 1 |
+| evenement_scene | 1 |
+| concert_bascule | 1 |
+| portrait_acteur | 1 |
+| chanson_live | 1 |
+| concert_detail | 1 |
+| archive_broadcast | 1 |
+| television | 1 |
+| radio_broadcast | 1 |
+| iconographie_photographe | 1 |
+| methodologie_critique | 1 |
+| discographie_strategie | 1 |
+| reception_europeenne | 1 |
+| contrepoint | 1 |
+| methode | 1 |
 | source_visuelle | 1 |
 | lieu_image | 1 |
 | concept_visuel | 1 |
 | relation_son_image | 1 |
-| reseau_distribution | 1 |
-| genre_politique | 1 |
-| ancrage_source | 1 |
-| satire_culturelle | 1 |
-| relation_inter_sources | 1 |
-| contexte_materiel | 1 |
-| témoignage_externe | 1 |
 | decision_strategique | 1 |
 | concept | 1 |
 | portrait_fonctionnel | 1 |
 | reception_scene | 1 |
 | contexte_economique | 1 |
+| témoignage_externe | 1 |
+| contexte_materiel | 1 |
 | portrait | 1 |
-| fonction_symbolique | 1 |
-| motif_structurant | 1 |
-| modele_heritage | 1 |
-| limite_critique | 1 |
-| source_primaire_mediatisee | 1 |
-| reseau_acteurs | 1 |
-| voix_acteurs | 1 |
-| controverse | 1 |
+| infrastructure_culturelle | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 233 |
-| critique | 19 |
-| majeure | 7 |
+| non qualifiée | 176 |
+| critique | 23 |
+| majeure | 13 |
+| secondaire | 4 |
 | haute | 2 |
 | utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 - S50-A004 [moyen] — la globalisation des images ne signifie pas nécessairement universalisation réussie du sens
 - S50-A010 [moyen] — ne pas condamner d’emblée toute déterritorialisation
 - S50-A016 [moyen] — la critique dépend de la cohérence perçue entre chanson et images
-- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
-- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
-- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
 
 ## 15. Lacunes et prochaines vérifications
 

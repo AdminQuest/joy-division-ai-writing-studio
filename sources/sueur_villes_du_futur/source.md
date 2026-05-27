@@ -17,7 +17,6 @@ section_utile: "« Manchester : shrinking city et renouveau urbain »"
 pages_utiles: "p. 303-316 du rapport"
 chapitres:
   - Chapitre 1
-  - Chapitre 9
   - Chapitre 14
 chapitres_secondaires:
   - Chapitre 2

@@ -37,8 +37,8 @@ related_atoms:
   - S14-A004
 definition: "Réappropriation par la culture club / Madchester d’une figure de police morale, par satire, argot, fête et mémoire populaire."
 usage_chapitres:
-  - Chapitre 9
   - Chapitre 14
+
 ```
 
 ```yaml

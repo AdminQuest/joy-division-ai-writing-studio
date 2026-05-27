@@ -14,8 +14,8 @@ citation_directe: false
 passage_atomise: "Section « Manchester : shrinking city et renouveau urbain », p. 303-316 du rapport ; reste du rapport exclu de cette passe."
 chapitres:
   - Chapitre 1
-  - Chapitre 9
   - Chapitre 14
+
 ```
 
 ## Fonction de cette passe
@@ -45,7 +45,6 @@ concepts:
   - Manchester post-industriel
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -114,7 +113,6 @@ concepts:
   - aire métropolitaine
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -148,7 +146,6 @@ concepts:
   - base fiscale
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -181,7 +178,7 @@ concepts:
   - politiques publiques
   - recomposition territoriale
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -215,7 +212,7 @@ concepts:
   - compétition territoriale
   - événementialisation
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -249,7 +246,7 @@ concepts:
   - régénération urbaine
   - événement déclencheur
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -286,7 +283,7 @@ concepts:
   - coût social de la régénération
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -323,7 +320,6 @@ concepts:
   - régénération symbolique
 chapitres:
   - Chapitre 1
-  - Chapitre 9
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -361,7 +357,7 @@ concepts:
   - attractivité
   - limites du modèle
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
   - Chapitre 14
 statut: verifie
 fiabilite: forte

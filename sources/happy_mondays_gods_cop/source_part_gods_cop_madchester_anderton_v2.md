@@ -22,7 +22,7 @@ chapitres:
   - Chapitre 14
 chapitres_secondaires:
   - Chapitre 8
-  - Chapitre 9
+
 ```
 
 ## Fonction de cette passe
@@ -115,7 +115,7 @@ concepts:
   - police morale
   - Shaun Ryder
 chapitres:
-  - Chapitre 9
+  - Chapitre 13
   - Chapitre 14
 statut: a_verifier_paroles
 fiabilite: moyenne
@@ -147,7 +147,7 @@ concepts:
   - sources croisées
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
   - Chapitre 14
 statut: verifie
 fiabilite: forte
