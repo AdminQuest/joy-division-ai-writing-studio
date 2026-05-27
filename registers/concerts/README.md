@@ -3,18 +3,16 @@
 ## Fonction du registre
 
 Ce registre centralise l'ensemble des concerts et gigs de Joy Division
-(et Warsaw / Stiff Kittens) dans leur chronologie documentée.
+(et Warsaw / Stiff Kittens) dans leur chronologie documentée, ainsi que
+les concerts annulés et les captations TV en public.
 
 Il sert à :
 - stabiliser les dates et lieux de concerts ;
-- constituer une base factuelle pour les analyses live (présence scénique,
-  diffusion géographique, évolution du répertoire) ;
+- distinguer concerts confirmés, annulés, douteux et passages TV ;
 - relier concerts, atomes documentaires, chronologie maître et chansons ;
-- préparer les exports CSV/JSON et alimenter le moteur RAG ;
+- préparer les exports CSV/JSON (`exports/generated/concerts.{json,csv}`)
+  et alimenter le moteur RAG ;
 - identifier les lacunes dans le registre chronologique maître.
-
-Le registre ne doit pas devenir une encyclopédie de setlists ou un journal
-de tournée narratif. Il reste factuel, traçable, relationnel.
 
 ---
 
@@ -27,40 +25,37 @@ de tournée narratif. Il reste factuel, traçable, relationnel.
 | Auteur | Tony Nuttall |
 | Statut | `reference_externe` |
 | Fiabilité | `haute` |
-| Consultation | en attente (accès réseau limité dans l'environnement) |
+| Date consultation | 27 mai 2026 |
 
 ---
 
 ## Structure normalisée d'une entrée
 
 ```yaml
-id: JD-CONCERT-YYYYMMDD-001
-date: YYYY-MM-DD
-date_display: "jour mois année"
-lieu: "Nom de la salle"
-ville: "Ville"
-pays: "Pays"
-alias_groupe: "Joy Division"  # obligatoire avant janv. 1978
-setlist: []
-sources: [REGISTRY-CONCERTS]
-atomes_lies: []
-chronologie_id: ""            # CHR-XXXX-XXX si entrée dans master_chronology
-notes: ""
+- id: JD-CONCERT-YYYYMMDD-NNN
+  date: YYYY-MM-DD
+  statut: confirme        # confirme | annule | reporte | douteux | tv
+  lieu: "Nom de la salle"
+  ville: "Ville"
+  pays: "UK"              # UK | FRANCE | BELGIQUE | PAYS-BAS | ALLEMAGNE | USA | CANADA | IRLANDE
+  ere: "Joy Division"     # Warsaw | Stiff Kittens | Joy Division
+  source: joydiv.org
+  url_detail: "https://joydiv.org/cDDMMYY.htm"  # optionnel
+  atomes_lies: []
+  chronologie_id: ""      # CHR-XXXX-XXX si lié à master_chronology
+  notes: ""
+  # optionnels :
+  nom_tournee: "Buzzcocks tour"
+  setlist: []
 ```
 
 ### Conventions d'identifiant
 
 - Format : `JD-CONCERT-YYYYMMDD-NNN`
-- NNN = index sur 3 chiffres si plusieurs concerts le même jour (001, 002…)
-- Date de jour inconnue : `YYYYMM00` (ex. `JD-CONCERT-197706000-001`)
-- Date de mois inconnu : `YYYY0000` (ex. `JD-CONCERT-197700000-001`)
-
-### Valeurs contrôlées
-
-**alias_groupe**
-- `Joy Division` — à partir de janvier 1978
-- `Warsaw` — de mai 1977 à décembre 1977
-- `Stiff Kittens` — 29 mai 1977 (premier concert officiel, affiche)
+- NNN = index (001, 002…) si plusieurs concerts le même jour
+- Pour les concerts annulés, utiliser le suffixe `-A01` (au lieu de `-001`)
+  afin de les distinguer d'un éventuel concert confirmé le même jour
+- Date du jour inconnue : `YYYYMM00` dans l'id et `YYYY-MM-00` dans `date`
 
 ---
 
@@ -68,8 +63,8 @@ notes: ""
 
 | Fichier | Contenu |
 |---------|---------|
-| `00_canonical_concerts.md` | Registre canonique complet — source joydiv.org |
-| `lacunes_chronologie.md` | Concerts sans entrée dans master_chronology.md |
+| `00_canonical_concerts.md` | Registre canonique complet (joydiv.org) |
+| `lacunes_chronologie.md` | À créer : concerts sans entrée dans master_chronology.md |
 
 Les fichiers de registre source-spécifiques suivent la convention :
 `concerts_<source_id>_<descripteur>.md`
@@ -79,29 +74,18 @@ Les fichiers de registre source-spécifiques suivent la convention :
 
 ## Schéma
 
-Voir [`schemas/concert_v1.yaml`](../../schemas/concert_v1.yaml) pour
-la documentation complète des champs, valeurs contrôlées et règles éditoriales.
+Voir [`schemas/concert_v1.yaml`](../../schemas/concert_v1.yaml) pour la
+documentation complète des champs, valeurs contrôlées et règles éditoriales.
 
 ---
 
 ## Relations avec les autres registres
 
 - **Chronologie** : `registers/chronology/master_chronology.md` contient
-  les entrées `type: concert` pour les concerts documentés par les sources
-  déjà indexées. Croiser via le champ `chronologie_id`.
-- **Atomes** : les sources S41 (Hook), S45 (Curtis/Deborah), S35 (Morris),
-  S29 (Goddard), S84 (Cope) contiennent les mentions de concerts les plus
-  nombreuses.
+  les entrées `type: concert` pour les concerts déjà indexés (notamment
+  CHR-1980-001 — Bury 8 avril 1980). Croiser via `chronologie_id`.
+- **Atomes** : S41 (Hook), S45 (Curtis), S35 (Morris), S29 (Goddard),
+  S84 (Cope) contiennent les mentions de concerts les plus nombreuses
+  — à enrichir progressivement dans `atomes_lies`.
 - **Chansons** : les setlists utilisent de préférence les identifiants
   canoniques du REGISTRY (`data/registre.json`, id `REGISTRY`).
-
----
-
-## Statut
-
-> ⏳ **En attente de données** — Le fichier `00_canonical_concerts.md` sera
-> créé lors de la prochaine session avec accès réseau à `joydiv.org`
-> (domaine à ajouter à l'allowlist de l'environnement).
->
-> Voir `lacunes_chronologie.md` pour le suivi des manques détectés
-> dans `master_chronology.md`.

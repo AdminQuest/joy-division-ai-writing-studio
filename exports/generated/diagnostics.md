@@ -1,26 +1,27 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-27T07:13:47`
+Généré le : `2026-05-27T09:13:39`
 
-Statut : **warning**
+Statut : **error**
 
 ## Synthèse
 
-- Enregistrements : 7321
-- Erreurs : 0
-- Avertissements : 30562
-- Sources déclarées dans `data/registre.json` : 93
+- Enregistrements : 7596
+- Erreurs : 8
+- Avertissements : 30832
+- Sources déclarées dans `data/registre.json` : 95
 - Sources utilisées dans les enregistrements : 79
 - Sources exportées : 79
-- Sources déclarées mais non utilisées : 14
+- Sources déclarées mais non utilisées : 16
 - Sources utilisées mais absentes du registre : 0
 - Libellés faibles : 0
 
 ## Enregistrements par type
 
-- atom : 2719
+- atom : 2733
 - chronology : 476
 - concept : 456
+- concert : 197
 - metadata : 269
 - motif : 424
 - myth : 101
@@ -28,10 +29,11 @@ Statut : **warning**
 - quote : 551
 - quote_batch : 1
 - rules : 1
+- session : 18
 - song : 110
 - source : 118
 - template : 360
-- unknown : 1430
+- unknown : 1476
 
 ## Sources utilisées mais absentes du registre
 
@@ -39,6 +41,8 @@ Aucune.
 
 ## Sources déclarées mais non utilisées
 
+- REGISTRY-CONCERTS — joydiv.org/concerts.htm — statut : reference_externe
+- REGISTRY-SESSIONS — joydiv.org/sessions.htm — statut : reference_externe
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — statut : verifie
 - S03 — Demographia, England Largest Cities, s.d. — statut : a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — statut : verifie
@@ -160,4 +164,4 @@ Aucun.
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_interchapitres
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_citations
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: motifs
-- … 30462 problèmes supplémentaires dans `diagnostics.json`.
+- … 30740 problèmes supplémentaires dans `diagnostics.json`.

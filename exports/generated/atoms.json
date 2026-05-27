@@ -54395,6 +54395,72 @@
   },
   {
     "kind": "atom",
+    "id": "S37-CIT-007",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-007",
+      "source_id": "S37",
+      "atom_id": "S37-A028",
+      "citation": "historic music city",
+      "traduction_usage": "ville musicale historique",
+      "pages_pdf": "48",
+      "statut": "verifie_sur_pdf",
+      "usage": "Qualifier Manchester comme objet patrimonial dans le regard rétrospectif de Morley.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-008",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-008",
+      "source_id": "S37",
+      "atom_id": "S37-A037",
+      "citation": "The past doesn’t necessarily have to stay in the past",
+      "traduction_usage": "Le passé ne doit pas nécessairement rester dans le passé",
+      "pages_pdf": "51-52",
+      "statut": "verifie_sur_pdf",
+      "usage": "Formule structurante pour le passé actif et l’éternel retour de Joy Division.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-006",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-006",
+      "date": "2006-05",
+      "source_id": "S37",
+      "label": "Morley écrit pour The Observer Music Monthly un essai rétrospectif sur Manchester, Liverpool et la mémoire des origines punk/post-punk",
+      "pages_pdf": "48-52",
+      "atoms": [
+        "S37-A028",
+        "S37-A034"
+      ],
+      "organisations": [
+        "The Observer"
+      ],
+      "lieux": [
+        "Manchester",
+        "Liverpool"
+      ],
+      "statut": "verifie_sur_s37 ; à croiser si citation de l’article original",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S37-A062",
     "file": "sources/morley_piece_by_piece/atoms_dm_s37_part_two_three_v2.md",
     "heading": "S37-A062 — Sections XXXVI-XXXIX : Morley reprend l'écriture — articles NME sur la scène Factory post-Curtis",
@@ -56148,6 +56214,255 @@
       ],
       "notes": "La formule de Morley précède Factory Records et rend visible le besoin d’une instance d’organisation de la scène.",
       "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-001",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-001",
+      "source_id": "S37",
+      "atom_id": "S37-A014",
+      "citation": "I liked them",
+      "traduction_usage": "Je les ai aimés / Je les ai appréciés",
+      "pages_pdf": "37",
+      "statut": "verifie_sur_pdf",
+      "usage": "Antidote à la prophétie rétrospective ; première réception favorable mais minimale.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-002",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-002",
+      "source_id": "S37",
+      "atom_id": "S37-A011",
+      "citation": "The bass player had a moustache",
+      "traduction_usage": "Le bassiste avait une moustache",
+      "pages_pdf": "37",
+      "statut": "verifie_sur_pdf",
+      "usage": "Micro-archive ; perception triviale avant canonisation de Peter Hook.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-001",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-001",
+      "date": "1977-05-29",
+      "source_id": "S37",
+      "label": "Premier concert de Warsaw à l’Electric Circus, Manchester, en support de Buzzcocks et Penetration",
+      "pages_pdf": "27, 36-37",
+      "atoms": [
+        "S37-A010",
+        "S37-A015"
+      ],
+      "lieux": [
+        "Electric Circus",
+        "Manchester"
+      ],
+      "organisations": [
+        "Warsaw",
+        "Buzzcocks",
+        "Penetration"
+      ],
+      "statut": "à croiser avec chronologies existantes",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-002",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-002",
+      "date": "1977-06-18",
+      "source_id": "S37",
+      "label": "Publication dans le New Musical Express de la review Buzzcocks / Penetration / Warsaw",
+      "pages_pdf": "36",
+      "atoms": [
+        "S37-A010",
+        "S37-A014"
+      ],
+      "organisations": [
+        "New Musical Express"
+      ],
+      "statut": "verifie_sur_s37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-003",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-003",
+      "source_id": "S37",
+      "atom_id": "S37-A018",
+      "citation": "Manchester is a great place to be now",
+      "traduction_usage": "Manchester est maintenant un endroit formidable où être",
+      "pages_pdf": "38",
+      "statut": "verifie_sur_pdf",
+      "usage": "Trace d’euphorie critique située ; à ne pas transformer en diagnostic objectif total.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-004",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-004",
+      "source_id": "S37",
+      "atom_id": "S37-A019",
+      "citation": "unfolded rather than exploded",
+      "traduction_usage": "s’est dépliée plutôt qu’elle n’a explosé",
+      "pages_pdf": "38",
+      "statut": "verifie_sur_pdf",
+      "usage": "Motif anti-mythe pour l’émergence progressive de la scène.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-005",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-005",
+      "source_id": "S37",
+      "atom_id": "S37-A023",
+      "citation": "doomed maybe to eternal support spots",
+      "traduction_usage": "peut-être condamnés aux éternelles premières parties",
+      "pages_pdf": "44",
+      "statut": "verifie_sur_pdf",
+      "usage": "Antidote à la lecture rétrospective de Warsaw comme groupe déjà central.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CIT-006",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Citations exactes courtes",
+    "data": {
+      "id": "S37-CIT-006",
+      "source_id": "S37",
+      "atom_id": "S37-A027",
+      "citation": "a central ‘factory’",
+      "traduction_usage": "une « factory » centrale",
+      "pages_pdf": "47",
+      "statut": "verifie_sur_pdf",
+      "usage": "Préfiguration du besoin d’organisation locale avant Factory Records.",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-003",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-003",
+      "date": "1977-07-30",
+      "source_id": "S37",
+      "label": "Publication dans le New Musical Express de l’article de Morley sur la scène mancunienne post-Sex Pistols",
+      "pages_pdf": "38-47",
+      "atoms": [
+        "S37-A016",
+        "S37-A017",
+        "S37-A023"
+      ],
+      "organisations": [
+        "New Musical Express"
+      ],
+      "lieux": [
+        "Manchester"
+      ],
+      "statut": "verifie_sur_s37",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-004",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-004",
+      "date": "1976-06",
+      "source_id": "S37",
+      "label": "Premiers concerts des Sex Pistols à Manchester, présentés par Morley comme déclencheurs de la réputation mancunienne pour les groupes punk",
+      "pages_pdf": "39-40, 45",
+      "atoms": [
+        "S37-A020"
+      ],
+      "organisations": [
+        "Sex Pistols",
+        "Buzzcocks"
+      ],
+      "lieux": [
+        "Lesser Free Trade Hall",
+        "Manchester"
+      ],
+      "statut": "à croiser avec chronologies spécialisées",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S37-CHR-005",
+    "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+    "heading": "Chronologie",
+    "data": {
+      "id": "S37-CHR-005",
+      "date": "1977-01",
+      "source_id": "S37",
+      "label": "Sortie de Spiral Scratch par Buzzcocks sur New Hormones, événement structurant dans le récit de Morley",
+      "pages_pdf": "40-41, 43, 45",
+      "atoms": [
+        "S37-A017",
+        "S37-A022"
+      ],
+      "organisations": [
+        "Buzzcocks",
+        "New Hormones"
+      ],
+      "statut": "à croiser avec discographie",
+      "source_label": "S37 — Morley, Joy Division: Piece by Piece, 2008",
+      "source_short_title": "Paul Morley, Joy Division: Piece by Piece: Writing About Joy Division 1977–2007, 2008",
+      "source_year": "2008"
     }
   },
   {

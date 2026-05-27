@@ -2,34 +2,32 @@ schema: session
 version: 1.0
 
 description: >
-  Schéma documentaire des sessions studio, répétitions, Peel sessions,
-  enregistrements radio et TV de Joy Division (et Warsaw).
-  Chaque entrée représente une session identifiable, datée, localisée.
+  Schéma documentaire des sessions studio, Peel sessions, démos et
+  répétitions enregistrées de Joy Division (et Warsaw).
   Source canonique primaire : joydiv.org (Tony Nuttall).
-  Ce schéma régit le fichier registers/sessions/00_canonical_sessions.md
-  et tout fichier de registre session ultérieur.
+  Régit registers/sessions/00_canonical_sessions.md.
 
 required:
   - id
+  - numero
+  - label
   - date
-  - type
-  - sources
+  - studio
+  - ville
+  - producteur
+  - ere
+  - source
 
 recommended:
-  - date_display
-  - lieu
-  - ville
-  - titres_enregistres
-  - statut
+  - titres
+  - premiere_sortie_officielle
   - atomes_lies
+  - chronologie_id
   - notes
 
 optional:
-  - producteur
   - ingenieur_son
-  - chronologie_id
-  - diffusion
-  - alias_groupe
+  - statut_session
 
 # ─── Détail des champs ──────────────────────────────────────────────
 
@@ -39,96 +37,94 @@ fields:
     type: string
     pattern: "JD-SESSION-YYYYMMDD-NNN"
     description: >
-      Identifiant canonique unique. Format : JD-SESSION-YYYYMMDD-NNN
-      où NNN est un index sur 3 chiffres (001, 002…) pour les doublons
-      de même date. Pour les sessions datées seulement au mois ou à
-      l'année, utiliser YYYYMM00 ou YYYY0000.
-    example: "JD-SESSION-19781211-001"
+      Identifiant canonique unique. Format : JD-SESSION-YYYYMMDD-NNN.
+      Pour sessions au mois sans jour précis, utiliser YYYYMM00
+      (ex. JD-SESSION-19771200-001 pour décembre 1977).
+      Pour sessions à date entièrement inconnue dans l'année,
+      utiliser YYYY0000.
+    example: "JD-SESSION-19770718-001"
+
+  numero:
+    type: integer
+    description: >
+      Numéro d'ordre dans la chronologie canonique des sessions
+      (1 à 17 dans le registre joydiv.org). Permet de retrouver
+      rapidement la session par son rang historique.
+    example: 1
+
+  label:
+    type: string
+    description: >
+      Libellé court et reconnaissable de la session
+      (ex. "Warsaw demo", "Unknown Pleasures sessions",
+      "John Peel Session 1", "Closer sessions").
+    example: "Warsaw demo"
 
   date:
     type: string
     format: "YYYY-MM-DD"
     description: >
-      Date ISO 8601. Si jour inconnu, utiliser YYYY-MM-00.
-      Si mois inconnu, utiliser YYYY-00-00.
-    example: "1978-12-11"
+      Date ISO 8601 de début de session. Si mois seulement, YYYY-MM-00.
+      Pour une plage (ex. 3-4 mai 1978), utiliser la date de début et
+      préciser la plage dans notes.
+    example: "1977-07-18"
 
-  date_display:
+  studio:
     type: string
-    description: >
-      Date telle qu'affichée dans la source (lisible, en français).
-    example: "11 décembre 1978"
-
-  type:
-    type: string
-    description: "Nature de la session."
-    controlled_values:
-      - studio
-      - repetition
-      - peel
-      - radio
-      - tv
-      - demo
-      - soundcheck
-    notes: >
-      - studio : session d'enregistrement en studio (demo, album, single)
-      - repetition : répétition, sans intention d'enregistrement
-        discographique (peut être enregistrée pour archive)
-      - peel : BBC Peel Session (Maida Vale ou similaire, pour John Peel)
-      - radio : autre émission radio (Granada, BBC autre que Peel…)
-      - tv : émission ou captation télévisée
-      - demo : démo autonome, souvent home-recording ou location informelle
-      - soundcheck : balance avant concert, enregistrée par accident ou bootleg
-
-  lieu:
-    type: string
-    description: >
-      Nom du studio, de la salle ou du lieu d'enregistrement.
-    example: "Strawberry Studios"
+    description: "Nom canonique du studio."
+    example: "Pennine Sound Studios"
 
   ville:
     type: string
-    example: "Manchester"
+    example: "Oldham"
 
-  titres_enregistres:
+  producteur:
+    type: string
+    description: >
+      Nom du ou des producteurs. "Inconnu" si non documenté.
+      Plusieurs producteurs séparés par des virgules.
+    example: "Martin Hannett"
+
+  ere:
+    type: string
+    description: "Nom du groupe à la date de la session."
+    controlled_values:
+      - "Warsaw"
+      - "Joy Division"
+
+  source:
+    type: string
+    description: "Source primaire de la donnée."
+    default: "joydiv.org"
+
+  titres:
     type: list
     items: string
     description: >
-      Liste des titres enregistrés ou répétés lors de cette session.
-      Vide ([]) si inconnue. Utiliser de préférence les identifiants
-      canoniques chansons du REGISTRY (SONG-JD-xxx).
+      Liste des titres enregistrés lors de la session, dans l'ordre
+      documenté quand disponible. Utiliser de préférence les
+      identifiants canoniques chansons du REGISTRY.
     default: []
 
-  statut:
-    type: string
-    description: "Statut de publication de la session ou de ses enregistrements."
-    controlled_values:
-      - officiel
-      - inedit
-      - bootleg
-      - perdu
-      - partiel
-    notes: >
-      - officiel : publié sur album, single, compilation officielle,
-        ou archive BBC officielle
-      - inedit : jamais publié mais connu, existence documentée
-      - bootleg : circulant uniquement en version non officielle
-      - perdu : existence documentée mais aucun enregistrement connu
-      - partiel : partiellement publié, partiellement perdu ou inédit
-
-  sources:
-    type: list
-    items: string
+  premiere_sortie_officielle:
+    type: object
     description: >
-      Identifiants des sources documentaires. Toujours inclure
-      REGISTRY-SESSIONS pour les entrées issues de joydiv.org.
-    example: ["REGISTRY-SESSIONS"]
+      Description de la première publication officielle des
+      enregistrements (titre, format, label, année). {} si jamais
+      publié officiellement.
+    fields:
+      titre: "Nom de la sortie (album, single, EP, compilation)"
+      format: "album | single | EP | compilation | BBC release | inédit"
+      label: "Label éditeur"
+      annee: "Année de sortie (YYYY)"
+    default: {}
 
   atomes_lies:
     type: list
     items: string
     description: >
-      Identifiants des atomes documentaires qui mentionnent cette session.
+      Identifiants des atomes documentaires qui mentionnent cette
+      session.
     default: []
 
   chronologie_id:
@@ -136,89 +132,42 @@ fields:
     description: >
       Identifiant de l'entrée correspondante dans
       registers/chronology/master_chronology.md (ex. CHR-1978-001).
-      Laisser vide si pas d'entrée correspondante — signaler dans
-      registers/sessions/lacunes_chronologie.md.
     example: "CHR-1978-001"
-
-  producteur:
-    type: string
-    description: "Producteur de la session."
-    example: "Martin Hannett"
 
   ingenieur_son:
     type: string
-    description: "Ingénieur du son."
-    example: "Chris Nagle"
+    description: "Ingénieur du son si documenté."
+    example: "Jon Caffery"
 
-  diffusion:
+  statut_session:
     type: string
-    description: >
-      Date de première diffusion ou publication (radio, TV, album).
-      Format ISO 8601 (YYYY-MM-DD ou YYYY-MM ou YYYY).
-    example: "1979-06-11"
+    description: "Statut de publication des enregistrements."
+    controlled_values:
+      - officiel
+      - inedit
+      - bootleg
+      - perdu
+      - partiel
 
   notes:
     type: string
     description: >
-      Informations complémentaires : contexte, contradictions de date,
-      alias du groupe, lien avec une sortie discographique précise…
+      Informations complémentaires : plage de dates, contexte,
+      remixes ultérieurs, contradictions de sources.
     default: ""
-
-  alias_groupe:
-    type: string
-    description: >
-      Nom sous lequel le groupe se produisait (Warsaw, Stiff Kittens,
-      Joy Division). Utile pour les sessions de 1977.
-    controlled_values:
-      - "Joy Division"
-      - "Warsaw"
-      - "Stiff Kittens"
-
-# ─── Conventions de nommage des fichiers ───────────────────────────
-
-file_naming:
-  canonical: "00_canonical_sessions.md"
-  source_specific: "sessions_<source_id>_<descripteur>.md"
-  example: "sessions_s41_hook_peel.md"
 
 # ─── Règles éditoriales ────────────────────────────────────────────
 
 rules:
-  - un id unique par session (même date = suffixe 001, 002…)
-  - date toujours en ISO 8601 même si approximative
-  - type toujours renseigné parmi les valeurs contrôlées
-  - sources toujours renseignées, minimum REGISTRY-SESSIONS
-  - statut obligatoire ; utiliser "inedit" si non publié mais connu
-  - titres_enregistres vide ([]) si inconnus, jamais omis
-  - alias_groupe obligatoire pour toutes les sessions antérieures
-    à janvier 1978 (période Warsaw / Stiff Kittens)
-  - une session radio et une session TV le même jour = deux entrées
-    distinctes si les enregistrements sont indépendants
+  - numero unique et croissant dans la chronologie canonique
+  - date ISO 8601 (YYYY-MM-00 si jour inconnu)
+  - producteur "Inconnu" si non documenté, jamais omis
+  - titres [] si inconnus
+  - premiere_sortie_officielle {} si jamais publié officiellement
+  - ere obligatoire (Warsaw pour les sessions de 1977 jusqu'à
+    An Ideal for Living incluse, Joy Division à partir de mai 1978)
 
 warnings:
-  - ne pas regrouper plusieurs sessions de studio en une seule entrée
-    si elles ont des dates distinctes
-  - ne pas confondre date de session et date de diffusion
-  - ne pas inventer de tracklist — laisser [] si non documentée
-  - les répétitions non enregistrées restent documentables si leur
-    existence est attestée par une source fiable
-
-relations_with_other_registers:
-  chronology: >
-    Les sessions déjà présentes dans master_chronology.md (type
-    enregistrement) doivent avoir un chronologie_id. Les sessions
-    sans entrée chronologique sont à signaler dans
-    registers/sessions/lacunes_chronologie.md.
-  atoms: >
-    Les atomes des sources S41 (Hook), S83 (Hannett), S45 (Curtis),
-    S35 (Morris), S84 (Cope) contiennent les mentions de sessions
-    les plus fréquentes.
-  concerts: >
-    Certains soundchecks documentés dans le registre concerts peuvent
-    correspondre à une entrée session de type soundcheck.
-
-related_schemas:
-  - concert_v1.yaml : partage la logique id, date, alias_groupe,
-    atomes_lies, chronologie_id
-  - chronology.schema.yaml : les champs date, certainty, sources,
-    related_atoms sont alignés
+  - ne pas confondre date de session et date de diffusion / sortie
+  - ne pas inventer de tracklist
+  - une plage de dates (ex. 18-30 mars 1980) reste une seule session

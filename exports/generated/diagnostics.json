@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-27T07:13:47",
-  "status": "warning",
+  "generated_at": "2026-05-27T09:13:39",
+  "status": "error",
   "summary": {
-    "records_total": 7321,
+    "records_total": 7596,
     "records_by_kind": {
-      "atom": 2719,
+      "atom": 2733,
       "metadata": 269,
-      "unknown": 1430,
+      "unknown": 1476,
       "source": 118,
       "quote": 551,
       "chronology": 476,
@@ -17,20 +17,54 @@
       "song": 110,
       "template": 360,
       "quote_batch": 1,
-      "rules": 1
+      "rules": 1,
+      "concert": 197,
+      "session": 18
     },
-    "diagnostics_total": 30562,
-    "errors": 0,
-    "warnings": 30562,
-    "sources_declared_in_registre_json": 93,
+    "diagnostics_total": 30840,
+    "errors": 8,
+    "warnings": 30832,
+    "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
-    "declared_but_unused": 14,
+    "declared_but_unused": 16,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
   "controls": {
     "declared_but_unused": [
+      {
+        "source_id": "REGISTRY-CONCERTS",
+        "source_label": "REGISTRY-CONCERTS — joydiv.org/concerts.htm",
+        "auteur": "Tony Nuttall",
+        "titre": "Joy Division Concert List",
+        "annee": "",
+        "statut": "reference_externe",
+        "usage": [
+          "concerts",
+          "dates de concerts",
+          "lieux",
+          "setlists",
+          "alias groupe (Warsaw, Stiff Kittens)",
+          "chronologie live Joy Division"
+        ]
+      },
+      {
+        "source_id": "REGISTRY-SESSIONS",
+        "source_label": "REGISTRY-SESSIONS — joydiv.org/sessions.htm",
+        "auteur": "Tony Nuttall",
+        "titre": "Joy Division Studio Sessions",
+        "annee": "",
+        "statut": "reference_externe",
+        "usage": [
+          "sessions studio",
+          "répétitions",
+          "enregistrements radio",
+          "Peel sessions",
+          "enregistrements TV",
+          "chronologie des enregistrements Joy Division"
+        ]
+      },
       {
         "source_id": "S01",
         "source_label": "S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013",
@@ -782,8 +816,8 @@
         "auteur": "Paul Morley",
         "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
         "annee": "2008",
-        "records": 128,
-        "atoms": 78,
+        "records": 218,
+        "atoms": 92,
         "quotes": 11,
         "chronology": 0,
         "files": [
@@ -71849,62 +71883,422 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_manchester_ville_musicale_historicisee"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_causalite_pop_urbanisme_fragile"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_fiction_manchester_factory"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_memoire_comme_montage"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_passe_actif"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_historiciser_sans_eteindre"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_versions_multiples_verite"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_lieux_superposes_memoire"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_pop_culture_a_transforme_directement_manchester"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_saville_explique_skyline_manchester"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_une_version_definitive_des_origines"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_passe_clos"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ref_s37_morley_observer_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Invalid value for statut: verifie_sur_s37 ; à croiser si citation de l’article original",
+      "record_id": "S37-CHR-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_morley_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_peter_saville_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_tony_wilson_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_manchester_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_lesser_free_trade_hall_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_factory_club_hulme_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_factory_records_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_the_observer_s37_memory_2006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_no_specific_song_s37_memory_2006"
     },
     {
       "level": "warning",
@@ -74915,62 +75309,524 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_source_mixte"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_premiere_reception_non_teleologique"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_critique_comme_mediation"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_ecriture_et_apprentissage"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_nom_comme_operateur_identitaire"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_archive_involontaire"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_manchester_scene_repli_reprise"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_faveur_sans_prophetie"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_morley_aurait_vu_Joy_Division_d_emblee"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_warsaw_etait_deja_joy_division"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_critique_ne_fait_que_decrire"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ref_s37_piece_by_piece_first_passage"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "record_id": "S37-CIT-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
+      "record_id": "S37-CIT-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Invalid value for statut: à croiser avec chronologies existantes",
+      "record_id": "S37-CHR-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Invalid value for statut: verifie_sur_s37",
+      "record_id": "S37-CHR-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_paul_morley_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_peter_hook_s37_first_review"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_richard_boon_s37_stiff_kittens"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_electric_circus_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_heaton_moor_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_nme_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_warsaw_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_boredom_s37"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_first_passage.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_love_battery_s37"
     },
     {
       "level": "warning",
@@ -75171,6 +76027,12 @@
       "record_id": "S37-CIT-007"
     },
     {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "record_id": "S37-CIT-007"
+    },
+    {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
       "message": "Missing required field: citation_originale",
@@ -75189,64 +76051,904 @@
       "record_id": "S37-CIT-008"
     },
     {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/registers_update_s37_manchester_memory_observer_2006.md",
+      "record_id": "S37-CIT-008"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_manchester_peripherie_rock"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_devoto_buzzcocks_catalyseurs"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_emergence_cumulative_scene"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_warsaw_non_singularise"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "concept_s37_central_factory_prefiguration"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_unfolded_not_exploded"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_lieux_pauvres_scene_riche"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_warsaw_support_band"
     },
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
-      "message": "YAML block is not a mapping/object",
-      "record_id": null
+      "message": "Unable to infer documentary kind",
+      "record_id": "motif_s37_factory_avant_factory"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_manchester_explosion_spontanee"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_sex_pistols_concert_unique_origine_totale"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_warsaw_deja_au_centre_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "mythe_s37_factory_surgit_ex_nihilo"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ref_s37_nme_manchester_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
+      "record_id": "S37-CIT-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
+      "record_id": "S37-CIT-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
+      "record_id": "S37-CIT-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: verifie_sur_pdf",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "error",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Duplicate id also found in sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
+      "record_id": "S37-CIT-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: verifie_sur_s37",
+      "record_id": "S37-CHR-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: à croiser avec chronologies spécialisées",
+      "record_id": "S37-CHR-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: titre",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: importance",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Invalid value for statut: à croiser avec discographie",
+      "record_id": "S37-CHR-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_howard_devoto_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_pete_shelley_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_john_cooper_clarke_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "actor_jon_the_postman_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_manchester_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_electric_circus_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_rafters_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_oaks_chorlton_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "place_ranch_bar_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_buzzcocks_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_new_hormones_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_rabid_records_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_warsaw_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_ghast_up_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "org_shy_talk_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_boredom_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "release_spiral_scratch_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_cranked_up_really_high_s37_scene_1977"
+    },
+    {
+      "level": "warning",
+      "file": "sources/morley_piece_by_piece/registers_update_s37_manchester_scene_nme_1977.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "song_louie_louie_s37_scene_1977"
     },
     {
       "level": "warning",

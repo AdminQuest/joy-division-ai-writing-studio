@@ -258,6 +258,10 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
             if is_empty_template(loaded):
                 continue
             blocks.append((enrich_source_label(loaded), heading))
+        elif isinstance(loaded, list):
+            for item in loaded:
+                if isinstance(item, dict) and not is_empty_template(item):
+                    blocks.append((enrich_source_label(item), heading))
         else:
             blocks.append(({"__non_mapping__": loaded, "__raw__": raw}, heading))
     return blocks
@@ -269,6 +273,10 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
     record_id = str(data.get("id", ""))
     if record_id.startswith("CHR-"):
         return "chronology"
+    if record_id.startswith("JD-CONCERT-"):
+        return "concert"
+    if record_id.startswith("JD-SESSION-"):
+        return "session"
     if record_id.startswith("PERS-"):
         return "person"
     if record_id.startswith("CONCEPT-"):
@@ -306,7 +314,7 @@ def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Di
     if kind == "unknown":
         diagnostics.append(Diagnostic("warning", file_rel, "Unable to infer documentary kind", record_id))
         return diagnostics
-    if kind in {"schema", "source", "concept", "myth", "motif", "quote_batch", "rules", "metadata", "template"}:
+    if kind in {"schema", "source", "concept", "myth", "motif", "quote_batch", "rules", "metadata", "template", "concert", "session"}:
         return diagnostics
     if kind != "song" and not data.get("id"):
         diagnostics.append(Diagnostic("warning", file_rel, "Missing id", record_id))
@@ -604,6 +612,8 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     rules = records_by_kind(records, "rules")
     metadata = records_by_kind(records, "metadata")
     templates = records_by_kind(records, "template")
+    concerts = records_by_kind(records, "concert")
+    sessions = records_by_kind(records, "session")
     sources = build_source_registry(records)
     diagnostics_payload = build_diagnostics_payload(records, diagnostics, sources)
 
@@ -620,6 +630,8 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "rules.json", [asdict(r) for r in rules])
     write_json(EXPORT_DIR / "metadata.json", [asdict(r) for r in metadata])
     write_json(EXPORT_DIR / "templates.json", [asdict(r) for r in templates])
+    write_json(EXPORT_DIR / "concerts.json", [asdict(r) for r in concerts])
+    write_json(EXPORT_DIR / "sessions.json", [asdict(r) for r in sessions])
     write_json(EXPORT_DIR / "sources.json", sources)
     write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in records])
     write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in records})
@@ -645,6 +657,8 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_csv(EXPORT_DIR / "rules.csv", rules, ["id", "statut_consolidation", "rules"])
     write_csv(EXPORT_DIR / "metadata.csv", metadata, ["source_id", "source_label", "coverage", "chapters", "nature", "status", "priority"])
     write_csv(EXPORT_DIR / "templates.csv", templates, ["id", "name", "role", "sources", "certainty", "date", "event", "type"])
+    write_csv(EXPORT_DIR / "concerts.csv", concerts, ["date", "statut", "lieu", "ville", "pays", "ere", "source", "url_detail", "atomes_lies", "notes"])
+    write_csv(EXPORT_DIR / "sessions.csv", sessions, ["numero", "label", "date", "studio", "ville", "producteur", "ere", "titres", "premiere_sortie_officielle", "source", "atomes_lies"])
     source_csv_records = [ParsedRecord("source", e["source_id"], "exports/generated/sources.json", None, e) for e in sources]
     write_csv(EXPORT_DIR / "sources.csv", source_csv_records, ["source_id", "source_label", "auteur", "titre", "annee", "records", "atoms", "quotes", "chronology", "files"])
     diagnostic_csv_records = [ParsedRecord("diagnostic", f"D{idx:04d}", "exports/generated/diagnostics.json", None, asdict(diag)) for idx, diag in enumerate(diagnostics, start=1)]
