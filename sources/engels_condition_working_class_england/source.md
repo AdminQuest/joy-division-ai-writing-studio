@@ -1,10 +1,10 @@
-# S07 — Source canonique — Engels, *The Condition of the Working Class in England*, 1845 / édition anglaise autorisée
+# S07 — Source canonique — Engels, *The Condition of the Working Class in England*, 1845 / éd. Penguin Classics 1987
 
 ```yaml
 id: S07
 source_id: S07
 type_unite: source
-source_label: "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée"
+source_label: "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987"
 source_short_title: "Engels, The Condition of the Working Class in England, 1845"
 auteur: "Friedrich Engels"
 titre: "The Condition of the Working Class in England"
@@ -24,7 +24,7 @@ S07
 ## 2. Libellé source
 
 ```text
-S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée
+S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987
 ```
 
 ## 3. Dossier source
@@ -35,9 +35,9 @@ sources/engels_condition_working_class_england/
 
 ## 4. Référence complète
 
-ENGELS, Friedrich, *The Condition of the Working Class in England*, written September 1844 to March 1845, first published Leipzig, 1845. English authorised edition published New York, 1887, and London, 1891. Version de travail : Panther Edition, 1969, from text provided by the Institute of Marxism-Leninism, Moscow ; transcription / markup Zodiac Tim Delaney, 1998 ; proofed and corrected by Mark Harris, 2010, 206 p.
+ENGELS, Friedrich, *The Condition of the Working Class in England*, written September 1844 to March 1845, first published Leipzig, 1845. English authorised edition published New York, 1887, and London, 1891. **Édition recommandée : Penguin Classics, London, 1987.** Version de travail disponible : Panther Edition, 1969, from text provided by the Institute of Marxism-Leninism, Moscow ; transcription / markup Zodiac Tim Delaney, 1998 ; proofed and corrected by Mark Harris, 2010, 206 p.
 
-Note bibliographique interne : le fichier transmis est `condition-working-class-england.pdf`. La page 1 du PDF donne les métadonnées éditoriales utiles : rédaction entre septembre 1844 et mars 1845 ; première publication à Leipzig en 1845 ; édition anglaise autorisée publiée en 1887 à New York et en 1891 à Londres ; source Panther Edition, 1969.
+Note bibliographique interne : le fichier transmis est `condition-working-class-england.pdf` (Panther Edition, 1969). L'édition de référence recommandée pour les citations et usages manuscrits est l'édition Penguin Classics, London, 1987. La page 1 du PDF donne les métadonnées éditoriales utiles : rédaction entre septembre 1844 et mars 1845 ; première publication à Leipzig en 1845 ; édition anglaise autorisée publiée en 1887 à New York et en 1891 à Londres ; source Panther Edition, 1969.
 
 ## 5. Décision canonique
 
@@ -85,7 +85,7 @@ Elle peut nourrir secondairement le chapitre 11 sur la condition moderne, l’al
 1. Ne pas utiliser S07 comme source directe sur Joy Division, Factory Records, Ian Curtis ou le post-punk.
 2. Ne pas projeter mécaniquement le Manchester de 1844 sur le Manchester des années 1970.
 3. Ne pas traiter Engels comme une source neutre d’urbanisme : son texte est une enquête sociale et politique, écrite depuis un point de vue communiste en formation.
-4. Ne pas citer Engels sans préciser l’édition de travail et, si nécessaire, l’écart entre rédaction 1844-1845, première publication 1845, édition anglaise autorisée 1887/1891 et version Panther 1969.
+4. Ne pas citer Engels sans préciser l’édition utilisée. L’édition recommandée est Penguin Classics, London, 1987 ; la version de travail disponible en PDF est la Panther Edition, 1969. Distinguer rédaction 1844-1845, première publication Leipzig 1845, édition anglaise autorisée 1887/1891, Panther Edition 1969 et Penguin Classics 1987.
 5. Ne pas reprendre les descriptions des quartiers ouvriers comme décor gothique ou pittoresque : elles relèvent d’une critique sociale de l’exploitation industrielle.
 6. Ne pas confondre valeur documentaire et actualité directe : S07 fournit une généalogie et un soubassement historique, non une preuve de continuité immédiate entre 1845 et Joy Division.
 7. Ne pas utiliser les passages sur Londres, Dublin, Glasgow ou Leeds comme s’ils décrivaient Manchester ; isoler les sections géographiques.
@@ -116,7 +116,7 @@ Bloc d’usage recommandé :
 
 ```yaml
 source_id: S07
-source_label: "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée"
+source_label: "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987"
 source_author: "Friedrich Engels"
 source_title: "The Condition of the Working Class in England"
 preuve: "source primaire classique / enquête sociale et politique sur la révolution industrielle anglaise, Manchester, prolétariat, quartiers ouvriers, ville manufacturière"
