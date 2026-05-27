@@ -164,25 +164,7 @@ relations_file: "sources/morley_piece_by_piece/relations_s37_piece_by_piece_firs
 
 ### Citations exactes courtes
 
-```yaml
-- id: S37-CIT-001
-  source_id: S37
-  atom_id: S37-A014
-  citation: "I liked them"
-  traduction_usage: "Je les ai aimés / Je les ai appréciés"
-  pages_pdf: "37"
-  statut: verifie_sur_pdf
-  usage: "Antidote à la prophétie rétrospective ; première réception favorable mais minimale."
-
-- id: S37-CIT-002
-  source_id: S37
-  atom_id: S37-A011
-  citation: "The bass player had a moustache"
-  traduction_usage: "Le bassiste avait une moustache"
-  pages_pdf: "37"
-  statut: verifie_sur_pdf
-  usage: "Micro-archive ; perception triviale avant canonisation de Peter Hook."
-```
+> Citations canoniques : voir [`citations_exactes_s37_first_passage.md`](citations_exactes_s37_first_passage.md) (S37-CIT-001, S37-CIT-002). Le bloc YAML autrefois dupliqué ici a été retiré pour éviter le doublon d'identifiants.
 
 ### Chronologie
 

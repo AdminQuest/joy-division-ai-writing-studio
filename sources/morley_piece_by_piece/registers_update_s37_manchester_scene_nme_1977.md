@@ -183,43 +183,7 @@ relations_file: "sources/morley_piece_by_piece/relations_s37_manchester_scene_nm
 
 ### Citations exactes courtes
 
-```yaml
-- id: S37-CIT-003
-  source_id: S37
-  atom_id: S37-A018
-  citation: "Manchester is a great place to be now"
-  traduction_usage: "Manchester est maintenant un endroit formidable où être"
-  pages_pdf: "38"
-  statut: verifie_sur_pdf
-  usage: "Trace d’euphorie critique située ; à ne pas transformer en diagnostic objectif total."
-
-- id: S37-CIT-004
-  source_id: S37
-  atom_id: S37-A019
-  citation: "unfolded rather than exploded"
-  traduction_usage: "s’est dépliée plutôt qu’elle n’a explosé"
-  pages_pdf: "38"
-  statut: verifie_sur_pdf
-  usage: "Motif anti-mythe pour l’émergence progressive de la scène."
-
-- id: S37-CIT-005
-  source_id: S37
-  atom_id: S37-A023
-  citation: "doomed maybe to eternal support spots"
-  traduction_usage: "peut-être condamnés aux éternelles premières parties"
-  pages_pdf: "44"
-  statut: verifie_sur_pdf
-  usage: "Antidote à la lecture rétrospective de Warsaw comme groupe déjà central."
-
-- id: S37-CIT-006
-  source_id: S37
-  atom_id: S37-A027
-  citation: "a central ‘factory’"
-  traduction_usage: "une « factory » centrale"
-  pages_pdf: "47"
-  statut: verifie_sur_pdf
-  usage: "Préfiguration du besoin d’organisation locale avant Factory Records."
-```
+> Citations canoniques : voir [`citations_exactes_s37_manchester_scene_nme_1977.md`](citations_exactes_s37_manchester_scene_nme_1977.md) (S37-CIT-003, S37-CIT-004, S37-CIT-005, S37-CIT-006). Le bloc YAML autrefois dupliqué ici a été retiré pour éviter le doublon d'identifiants.
 
 ### Chronologie
 

@@ -171,25 +171,7 @@ relations_file: "sources/morley_piece_by_piece/relations_s37_manchester_memory_o
 
 ### Citations exactes courtes
 
-```yaml
-- id: S37-CIT-007
-  source_id: S37
-  atom_id: S37-A028
-  citation: "historic music city"
-  traduction_usage: "ville musicale historique"
-  pages_pdf: "48"
-  statut: verifie_sur_pdf
-  usage: "Qualifier Manchester comme objet patrimonial dans le regard rétrospectif de Morley."
-
-- id: S37-CIT-008
-  source_id: S37
-  atom_id: S37-A037
-  citation: "The past doesn’t necessarily have to stay in the past"
-  traduction_usage: "Le passé ne doit pas nécessairement rester dans le passé"
-  pages_pdf: "51-52"
-  statut: verifie_sur_pdf
-  usage: "Formule structurante pour le passé actif et l’éternel retour de Joy Division."
-```
+> Citations canoniques : voir [`citations_exactes_s37_manchester_memory_observer_2006.md`](citations_exactes_s37_manchester_memory_observer_2006.md) (S37-CIT-007, S37-CIT-008). Le bloc YAML autrefois dupliqué ici a été retiré pour éviter le doublon d'identifiants.
 
 ### Chronologie
 
