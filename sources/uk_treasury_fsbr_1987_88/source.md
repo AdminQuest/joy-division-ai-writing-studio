@@ -24,7 +24,6 @@ dossier_source: "sources/uk_treasury_fsbr_1987_88/"
 chapitres:
   - Chapitre 1
 chapitres_secondaires:
-  - Chapitre 9
   - Chapitre 14
 niveau_preuve: "source primaire gouvernementale contemporaine"
 citation_directe: false

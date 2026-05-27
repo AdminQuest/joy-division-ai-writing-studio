@@ -182,7 +182,6 @@ atomes:
   - S11-A009
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 stabilite: forte
 ```
 

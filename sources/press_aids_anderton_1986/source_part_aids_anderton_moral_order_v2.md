@@ -12,8 +12,8 @@ passage_atomise: "Dossier de presse HSOC0015800 du 13 décembre 1986 : articles 
 chapitres:
   - Chapitre 1
 chapitres_secondaires:
-  - Chapitre 9
   - Chapitre 14
+
 ```
 
 ## Fonction de cette passe
@@ -36,7 +36,6 @@ concepts:
   - Grande-Bretagne années 1980
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: source_primaire_journalistique
 citation_directe: false
@@ -96,7 +95,6 @@ concepts:
   - croisade morale
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: source_primaire_journalistique
 citation_directe: false
@@ -125,7 +123,6 @@ concepts:
   - conflit police autorité locale
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: source_primaire_journalistique
 citation_directe: false
@@ -187,7 +184,7 @@ concepts:
   - ordre moral
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
   - Chapitre 14
 statut: verifie
 fiabilite: source_primaire_journalistique
@@ -216,7 +213,6 @@ concepts:
   - ordre social local
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: source_primaire_journalistique
 citation_directe: false
@@ -244,7 +240,6 @@ concepts:
   - méthode critique
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: source_primaire_journalistique
 citation_directe: false

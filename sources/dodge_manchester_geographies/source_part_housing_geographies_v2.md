@@ -14,7 +14,6 @@ citation_directe: false
 passage_atomise: "Chapitre 3, « Mapping the geographies of Manchester’s housing problems and the twentieth century solutions », p. 19-36 du PDF ; further reading exclu de l’atomisation principale."
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 chapitres_secondaires:
   - Chapitre 14
 ```
@@ -74,7 +73,6 @@ concepts:
   - Engels
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -139,7 +137,6 @@ concepts:
   - logement insalubre
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -172,7 +169,6 @@ concepts:
   - Manchester compact
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -234,7 +230,6 @@ concepts:
   - désancrage urbain
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -266,7 +261,6 @@ concepts:
   - reconstruction d’après-guerre
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -300,7 +294,6 @@ concepts:
   - transports
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -336,7 +329,6 @@ concepts:
   - Hulme
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -371,7 +363,6 @@ concepts:
   - mégastructure
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -406,7 +397,6 @@ concepts:
   - crise sociale
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -435,7 +425,7 @@ concepts:
   - retour au low-rise
   - critique du modernisme
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -467,7 +457,7 @@ concepts:
   - tours résidentielles
   - pression foncière
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
   - Chapitre 14
 statut: verifie
 fiabilite: forte

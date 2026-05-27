@@ -16,8 +16,8 @@ passage_atomise: "Financial Statement and Budget Report 1987-88, House of Common
 chapitres:
   - Chapitre 1
 chapitres_secondaires:
-  - Chapitre 9
   - Chapitre 14
+
 ```
 
 ## Fonction de cette passe
@@ -269,7 +269,6 @@ concepts:
   - borrowing
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false

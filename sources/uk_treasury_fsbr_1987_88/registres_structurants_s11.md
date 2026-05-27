@@ -79,7 +79,7 @@ related_atoms:
 definition: "Principe méthodologique : les indicateurs nationaux de croissance, compétitivité ou emploi ne prouvent pas directement la condition sociale de Manchester ou Salford."
 usage_chapitres:
   - Chapitre 1
-  - Chapitre 9
+
 ```
 
 ## Motifs

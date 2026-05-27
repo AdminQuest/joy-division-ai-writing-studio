@@ -20,7 +20,6 @@ fichier_source_recommande: "S20_dodge_manchester_geographies_housing_problems.pd
 pages_utiles_pdf: "19-36"
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 chapitres_secondaires:
   - Chapitre 14
 niveau_preuve: "source secondaire universitaire"

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-26T00:09:44"
+generated_at: "2026-05-27T07:13:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 154 |
-| Atomes critiques / majeurs | 35 |
-| Citations | 15 |
+| Atomes | 166 |
+| Atomes critiques / majeurs | 60 |
+| Citations | 16 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -50,8 +50,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S49 | S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 | 1 | 0 |
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 5 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 3 | 0 |
+| S64 | S64 — Bottà, European Imaginary of Joy Division, 2018 | 2 | 0 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 4 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
-| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
@@ -118,6 +120,18 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `oeuvre_artistique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S51-A014** — S51-A014 — Leckey ne retrouve pas seulement un souvenir : il fabrique une mémoire commune  
   Source : S51 — Malvezzi, Dream English Kid 1978-1980, 2021 ; type : `synthese_argumentative` ; importance : `critique` ; preuve : `synthese_critique`.
+- **S64-A005** — S64-A005 — Kraut-rock comme imaginaire postnational : Kraftwerk, Can, Neu! et la « future days » contre le « no future »  
+  Source : S64 — Bottà, European Imaginary of Joy Division, 2018 ; type : `analyse_conceptuelle` ; importance : `critique` ; preuve : `forte comme cadrage analytique`.
+- **S64-A008** — S64-A008 — Joy Division comme *Gesamtkunstwerk* cosmopolite : la conclusion de Bottà  
+  Source : S64 — Bottà, European Imaginary of Joy Division, 2018 ; type : `analyse_conceptuelle` ; importance : `critique` ; preuve : `forte comme formule conclusive`.
+- **S66-A001** — S66-A001 — Cadre littéraire : les paroles de Curtis comme textes, *Gesamtkunstwerk* et posture critique  
+  Source : S66 — Schütte, On Ian Curtis's Lyrics, 2018 ; type : `cadre_theorique` ; importance : `critique` ; preuve : `forte_comme_cadrage_methodologique`.
+- **S66-A004** — S66-A004 — *House of Dolls* et 'No Love Lost' : Stalag literature, source textuelle, *Sprechgesang*, décontextualisation  
+  Source : S66 — Schütte, On Ian Curtis's Lyrics, 2018 ; type : `analyse_oeuvre_intertextuelle` ; importance : `critique` ; preuve : `forte_pour_les_faits_historiques_et_l_analyse_textuelle_a_verifier_pour_ka-tzetnik`.
+- **S66-A006** — S66-A006 — Stratégie lyrique de Curtis : « open to interpretation », ambivalence wilful, 'The Eternal', 'Dead Souls'/Gogol  
+  Source : S66 — Schütte, On Ian Curtis's Lyrics, 2018 ; type : `analyse_oeuvre_poetique` ; importance : `critique` ; preuve : `forte_comme_lecture_analytique`.
+- **S66-A007** — S66-A007 — 'Atrocity Exhibition' et 'Colony' : intertextualités complexes, Dante, Heiner Müller, Crockett  
+  Source : S66 — Schütte, On Ian Curtis's Lyrics, 2018 ; type : `analyse_oeuvre_intertextuelle` ; importance : `critique` ; preuve : `forte_comme_lecture_analytique`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -130,6 +144,44 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A058** — S75-A058 — La « dead fly dance » : présence scénique, crise et méprise esthétique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `performance` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_temoin_et_image`.
+- **S75-A060** — S75-A060 — « Transmission » comme accomplissement Hannett / Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A062** — S75-A062 — Presse de 1979 : possession, attraction et méprise médicale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
+- **S75-A066** — S75-A066 — Buzzcocks tour, Plan K et bascule vers la reconnaissance nationale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A073** — S75-A073 — Rainbow, Derby Hall et le dispositif impossible de substitution vocale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_evenementielle`.
+- **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
+- **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
+- **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A027** — S76-A027 — Iggy Pop à l’Apollo : modèle de physicalité scénique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S77-A001** — S77-A001 — S77 comme cadrage universitaire, non comme corpus primaire de fanzines  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `cadrage_methodologique`.
+- **S77-A002** — S77-A002 — Sniffin’ Glue : modèle initial du fanzine punk DIY  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `synthese_historique_appuyee_sur_sources_primaires`.
+- **S77-A004** — S77-A004 — Matérialité pauvre : cut-and-paste, Xerox et urgence  
+  Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `motif_structurant` ; importance : `critique` ; preuve : `synthese_appuyee_sur_nombreux_exemples`.
 
 ## 6. Autres atomes utiles
 
@@ -299,64 +351,67 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
-- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
+- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S71-Q022** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was a match made in Hell. No other group could come close to sculpting nightmares so detailed or believable. »
 - **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 - **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 - **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
-- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
-- CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
 - CHR-S77-1976-07-001 — Premier numéro de Sniffin’ Glue, modèle initial du fanzine punk britannique selon Worley.
 - CHR-S49-1979-002 — Farci mobilise la Disco Demolition Night de Chicago comme contrepoint culturel pour expliquer les tensions entre punk, disco, black culture et masculinité blanche.
+- CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
+- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
+- CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
+- CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
+- CHR-1980-004 — Sortie posthume de l’album Closer.
+- CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
+- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
+- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-005 — Concert au Rainbow Theatre de Londres ; les stroboscopes déclenchent une crise pendant le set selon Ott.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
-- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
-- CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
-- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
-- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
-- CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
-- CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
-- CHR-1980-004 — Sortie posthume de l’album Closer.
 
 ## 9. Personnes et acteurs
 
-- PERS-S51-002 — Mark Leckey
-- PERS-S51-004 — Aby Warburg
-- PERS-S50-001 — Paolo Bertetti
-- PERS-S50-005 — Vincent Moon
-- PERS-S77-002 — Mark Perry / Mark P
-- PERS-S77-003 — Jon Savage
-- PERS-S49-003 — David Byrne
-- PERS-004 — Stephen Morris
-- PERS-008 — Martin Hannett
-- PERS-012 — John Brierley
-- PERS-016 — Bedhead
-- PERS-S76-010 — David Bowie
-- PERS-S29-001 — Michael Goddard
-- PERS-S29-002 — Ian Curtis
-- PERS-S29-003 — Genesis P-Orridge
-- PERS-S29-004 — Cosey Fanni Tutti
-- PERS-S29-005 — Mark Fisher
-- PERS-S29-006 — Simon Reynolds
-- PERS-S29-007 — Jacques Derrida
-- PERS-S29-008 — Franco Berardi
-- PERS-S29-012 — Nikolai Gogol
-- PERS-S76-030 — John The Postman
-- PERS-S75-035 — Alan Hempsall
+| ID | Nom | Description |
+|---|---|---|
+| PERS-S77-002 | Mark Perry / Mark P | Fondateur de Sniffin’ Glue ; figure du fanzine punk DIY et de l’appel à produire ses propres médias. |
+| PERS-S77-003 | Jon Savage | Journaliste, auteur de London’s Outrage et témoin critique des fanzines comme langage visuel et verbal punk. |
+| PERS-S49-003 | David Byrne | Point de comparaison pour la gestuelle nerveuse new wave, opposée à la fonction du corps de Curtis. |
+| PERS-S50-001 | Paolo Bertetti | Co-auteur de S50 ; paragraphes 3 et 4 matériellement écrits par lui ; analyse sémiotique de la réinvention et de ses limites. |
+| PERS-S50-005 | Vincent Moon | Réalisateur de la vidéo Reimagined de « Shadowplay » ; cas d’expansion de sens par danse, rave et transe rituelle. |
+| PERS-S51-002 | Mark Leckey | Artiste anglais ; découvre sur YouTube une captation amateur de Joy Division à Eric’s et réalise Dream English Kid 1964-1999. |
+| PERS-S51-004 | Aby Warburg | Référence méthodologique via le Mnemosyne Atlas, mobilisée pour penser la juxtaposition et la recomposition mémorielle. |
+| PERS-S76-030 | John The Postman | ["figure de la scène mancunienne", "performer punk local", "témoin sensible des concerts Joy Division"] |
+| PERS-004 | Stephen Paul David Morris | ["musicien", "batteur", "témoin"] |
+| PERS-008 | James Martin Hannett | ["producteur", "ingénieur sonore", "expérimentateur"] |
+| PERS-012 | John Brierley | ["ingénieur du son", "producteur"] |
+| PERS-S76-010 | David Bowie | ["artiste formateur pour Ian Curtis", "figure glam et scénique pré-punk"] |
+| PERS-S29-001 | Michael Goddard | Auteur du chapitre « Missions of Dead Souls » ; source critique hauntologique. |
+| PERS-S29-002 | Ian Curtis | Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti-mythologique. |
+| PERS-S29-003 | Genesis P-Orridge | Figure de Throbbing Gristle et Psychic TV ; témoin revendiquant une affinité avec Ian Curtis. |
+| PERS-S29-004 | Cosey Fanni Tutti | Figure de Throbbing Gristle ; son témoignage fragilise le récit de Genesis P-Orridge mobilisé par Goddard. |
+| PERS-S29-005 | Mark Fisher | Théoricien de la sonic hauntology, du capitalist realism et des lost futures ; figure critique majeure de S29. |
+| PERS-S29-006 | Simon Reynolds | Critique mobilisé pour la retromania et la spectralité de l’enregistrement. |
+| PERS-S29-007 | Jacques Derrida | Origine théorique de la hauntology mobilisée par Goddard via Fisher. |
+| PERS-S29-008 | Franco Berardi | Auteur mobilisé pour penser l’après-futur, 1977 et l’épuisement des horizons modernistes. |
+| PERS-S29-012 | Nikolai Gogol | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas une adaptation de Gogol. |
+| PERS-016 | Bedhead | ["groupe", "héritier critique"] |
+| PERS-S75-035 | Alan Hempsall | ["chanteur de Crispy Ambulance", "substitut vocal ponctuel à Derby Hall"] |
 
 ## 10. Chansons rattachées
 
@@ -367,100 +422,100 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - SONG-S29-003 — Colony
 - SONG-S29-004 — The Eternal
 - SONG-S29-005 — Decades
+- SONG-S75-003 — Disorder
 - SONG-S75-026 — Transmission
 - SONG-S75-029 — Love Will Tear Us Apart
 - SONG-S75-031 — Ceremony
 - SONG-S75-032 — In a Lonely Place
-- She's Lost Control
-- SONG-S75-003 — Disorder
 - SONG-S75-012 — Transmission
 - SONG-S34-002 — Interzone
 - SONG-S34-003 — Transmission
 - SONG-S34-005 — Dead Souls
 - SONG-S34-006 — Atmosphere
+- She's Lost Control
 
 ## 11. Concepts récurrents
 
 - Martin Hannett (15)
 - martin hannett (11)
 - unknown pleasures (7)
-- closer (5)
 - prudence historiographique (5)
-- dub (4)
-- espace sonore (4)
+- closer (5)
 - Closer (4)
 - peter saville (4)
 - love will tear us apart (4)
-- Unknown Pleasures (4)
+- dub (4)
+- espace sonore (4)
 - Peter Saville (4)
 - production (4)
-- industrial music (3)
+- Unknown Pleasures (4)
+- Ian Curtis (3)
 - Throbbing Gristle (3)
+- industrial music (3)
 - sonic hauntology (3)
 - capitalist realism (3)
-- Ian Curtis (3)
-- post-punk (3)
-- digital (3)
-- basse (3)
-- factory records (3)
-- pulsar (3)
 - architecture sonore (3)
 - pochette (3)
-- studio (3)
+- post-punk (3)
 - son live (3)
+- basse (3)
 - batterie (3)
+- digital (3)
+- studio (3)
+- factory records (3)
+- pulsar (3)
 - postindustrial cityscapes (2)
 - spiritual wasteland (2)
 - no future (2)
 - dyschronia (2)
 - Dead Souls (2)
-- possession (2)
 - past lives (2)
+- possession (2)
 - hypnosis (2)
-- electronics (2)
-- funk (2)
-- bernard sumner (2)
-- throbbing gristle (2)
-- death factory (2)
-- bruit (2)
-- anti-rock (2)
-- sheffield (2)
-- minimalisme (2)
-- survivance corporelle (2)
-- filiation oblique (2)
-- seuil sonore (2)
 - froideur (2)
 - distance (2)
 - Digital (2)
 - Glass (2)
-- novelty (2)
-- glass (2)
-- réception corporelle (2)
-- producteur catalyseur (2)
 - Joy Division (2)
 - source secondaire critique (2)
-- répétition (2)
-- factory (2)
-- austérité visuelle (2)
-- spatialisation sonore (2)
-- réception interne (2)
-- design funéraire (2)
-- production sonore (2)
+- producteur catalyseur (2)
+- réception corporelle (2)
+- survivance corporelle (2)
+- filiation oblique (2)
+- seuil sonore (2)
 - Buzzcocks (2)
+- anti-rock (2)
+- funk (2)
+- sheffield (2)
+- electronics (2)
+- throbbing gristle (2)
+- death factory (2)
+- bruit (2)
+- minimalisme (2)
+- bernard sumner (2)
+- austérité visuelle (2)
 - espace (2)
-- Cargo Studios (2)
-- John Brierley (2)
+- studio comme instrument (2)
 - Strawberry Studios (2)
 - Stephen Morris (2)
-- studio comme instrument (2)
-- patrimonialisation audiovisuelle (1)
-- album-matrice (1)
-- accroissement de sens (1)
-- dispositif relationnel (1)
-- traduction audiovisuelle (1)
-- extension de l’imaginaire (1)
-- danse-transe (1)
-- expansion de sens (1)
+- répétition (2)
+- production sonore (2)
+- réception interne (2)
+- Cargo Studios (2)
+- John Brierley (2)
+- factory (2)
+- design funéraire (2)
+- glass (2)
+- spatialisation sonore (2)
+- novelty (2)
+- Genesis P-Orridge (1)
+- témoignage problématique (1)
+- affinité construite (1)
+- modernist ruins (1)
+- recorded sound (1)
+- spectrality (1)
+- sampling (1)
+- archive sonore (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -468,53 +523,95 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 - DIY (5)
 - Transmission (4)
-- transe (3)
 - danse (3)
 - radio (3)
+- transe (3)
 - silence (3)
-- texte-chanson (2)
-- Shadowplay (2)
-- Interzone (2)
-- acid house (2)
-- rave era (2)
-- post-punk (2)
-- Hannett (2)
-- Mark Leckey (2)
-- pré-internet (2)
-- électronique (2)
-- objet disque (2)
-- disco (2)
 - prudence (2)
 - photocopie (2)
-- Unknown Pleasures Reimagined (1)
-- anniversaire (1)
-- Warner (1)
-- vidéo (1)
-- patrimoine (1)
-- traduction intersémiotique (1)
-- virtualités de sens (1)
-- recontextualisation (1)
-- Vincent Moon (1)
-- rave (1)
-- Madchester (1)
-- Rana Gorgani (1)
-- Insight (1)
-- Makoto Nagahisa (1)
-- fabrique-prison (1)
-- jeunesse (1)
-- libération (1)
-- synesthésie (1)
-- degré zéro (1)
-- investissement de sens (1)
+- Mark Leckey (2)
+- pré-internet (2)
+- disco (2)
+- Interzone (2)
+- Shadowplay (2)
+- électronique (2)
+- Hannett (2)
+- post-punk (2)
+- acid house (2)
+- rave era (2)
+- texte-chanson (2)
+- objet disque (2)
+- fanzines (1)
+- source secondaire (1)
+- Sniffin’ Glue (1)
+- Mark Perry (1)
+- cut-and-paste (1)
+- Xerox (1)
+- graphisme pauvre (1)
+- urgence (1)
+- Rough Trade (1)
+- Better Badges (1)
+- disquaires (1)
+- concerts (1)
+- agency (1)
+- participation (1)
+- expression (1)
+- alternative press (1)
+- Dream English Kid (1)
+- culture populaire (1)
+- Warburg (1)
+- Mnemosyne (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S50-A002 — fonde → CONCEPT-patrimonialisation_audiovisuelle
-- S50-A011 — fonde → CONCEPT-traduction_intersemiotique
-- S50-A012 — illustre → S50-A011
-- S50-A014 — modele → CONCEPT-traduction_intersemiotique
-- S50-A019 — boucle_argumentative → S50-A002
-- S50-A019 — synthese → S50-A011
+- S77-A001 — articule → S21
+- S77-A001 — articule → S22
+- S77-A002 — fonde → CONCEPT-fanzine_agence_diy
+- S77-A004 — corrobore → CONCEPT-fanzine_materiel_diy
+- S77-A006 — prolonge → CONCEPT-fanzine_observatoire_local
+- S77-A016 — synthese → S77-A015
+- S51-A003 — prolonge → S51-A002
+- S51-A005 — conceptualise → S51-A003
+- S51-A014 — boucle_argumentative → S51-A003
+- S42-A003 — structure → REL-S42-003
+- S42-A006 — oppose_et_prolonge → REL-S42-006
+- S42-A007 — cartographie → REL-S42-007
+- S42-A010 — prolonge → REL-S42-008
+- S42-A012 — cartographie → REL-S42-007
+- S42-A013 — synthese → REL-S42-010
+- S49-A008 — prolonge → CONCEPT-post_punk
+- S34-A007 — prolonge → S34-A004
+- S34-A007 — relie → S13
+- S34-A009 — prolonge → S13
+- S34-A009 — prépare → S34-A012
+- S75-A001 — prolonge → MOTIF-heritage
+- S75-A001 — nuance → MYTH-culte_sombre
+- S75-A048 — illustre → CONCEPT-006
+- S75-A048 — nuance → MYTH-002
+- S75-A048 — nuance → MYTH-004
+- S75-A052 — nuance → MYTH-004
+- S75-A052 — prolonge → CONCEPT-006
+- S75-A052 — nuance → MYTH-003
+- S75-A058 — requiert → CONCEPT-004
+- S75-A058 — nuance → MYTH-002
+- S75-A058 — prolonge → S75-A047
+- S75-A060 — prolonge → CONCEPT-006
+- S75-A060 — prolonge → S75-A034
+- S75-A060 — nuance → MYTH-004
+- S75-A062 — prolonge → S75-A058
+- S75-A062 — requiert → CONCEPT-004
+- S75-A062 — nuance → MYTH-002
+- S75-A066 — prolonge → S75-A033
+- S75-A066 — nuance → MYTH-003
+- S75-A066 — prépare → S75-A073
+- S75-A073 — prolonge → S75-A068
+- S75-A073 — requiert → CONCEPT-004
+- S75-A073 — nuance → MYTH-005
+- S75-A074 — prolonge → MOTIF-001
+- S75-A074 — requiert → CONCEPT-004
+- S75-A074 — nuance → MYTH-002
+- S75-A034 — prolonge → CONCEPT-006
+- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
 - S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
 - S13-DM-A001 — prolonge → S13-A003
 - S13-DM-A001 — prolonge → S13-A004
@@ -539,56 +636,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
 - S13-A007 — prolonge → S45-Hannett-catalyseur
 - S13-A007 — prépare → S13-A008
-- S51-A003 — prolonge → S51-A002
-- S51-A005 — conceptualise → S51-A003
-- S51-A014 — boucle_argumentative → S51-A003
-- S75-A058 — requiert → CONCEPT-004
-- S75-A058 — nuance → MYTH-002
-- S75-A058 — prolonge → S75-A047
-- S75-A060 — prolonge → CONCEPT-006
-- S75-A060 — prolonge → S75-A034
-- S75-A060 — nuance → MYTH-004
-- S75-A062 — prolonge → S75-A058
-- S75-A062 — requiert → CONCEPT-004
-- S75-A062 — nuance → MYTH-002
-- S75-A066 — prolonge → S75-A033
-- S75-A066 — nuance → MYTH-003
-- S75-A066 — prépare → S75-A073
-- S75-A073 — prolonge → S75-A068
-- S75-A073 — requiert → CONCEPT-004
-- S75-A073 — nuance → MYTH-005
-- S75-A074 — prolonge → MOTIF-001
-- S75-A074 — requiert → CONCEPT-004
-- S75-A074 — nuance → MYTH-002
-- S75-A001 — prolonge → MOTIF-heritage
-- S75-A001 — nuance → MYTH-culte_sombre
-- S75-A034 — prolonge → CONCEPT-006
-- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
-- S75-A048 — illustre → CONCEPT-006
-- S75-A048 — nuance → MYTH-002
-- S75-A048 — nuance → MYTH-004
-- S75-A052 — nuance → MYTH-004
-- S75-A052 — prolonge → CONCEPT-006
-- S75-A052 — nuance → MYTH-003
-- S42-A003 — structure → REL-S42-003
-- S42-A006 — oppose_et_prolonge → REL-S42-006
-- S42-A007 — cartographie → REL-S42-007
-- S42-A010 — prolonge → REL-S42-008
-- S42-A012 — cartographie → REL-S42-007
-- S42-A013 — synthese → REL-S42-010
-- S74-A024 — nuance → MYTH-002
-- S74-A024 — prolonge → S74-A017
-- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
-- S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
-- S74-A029 — nuance → MYTH-003
-- S74-A029 — prolonge → S74-A015
-- S74-A031 — prolonge → S74-A007
-- S74-A031 — complète → S74-A030
-- S74-A031 — annonce → CONCEPT_FACTORY_VISUAL_IDENTITY
-- S74-A032 — prolonge → S74-A001
-- S74-A032 — complète → S74-A031
-- S74-A032 — annonce → S74-A033
-- S74-A033 — nuance → MYTH-004
+- S50-A002 — fonde → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A011 — fonde → CONCEPT-traduction_intersemiotique
+- S50-A012 — illustre → S50-A011
+- S50-A014 — modele → CONCEPT-traduction_intersemiotique
+- S50-A019 — boucle_argumentative → S50-A002
+- S50-A019 — synthese → S50-A011
+- S21-A001 — distingue → S22
+- S21-A003 — fonde → CONCEPT-fanzine_materiel_diy
 
 ## 13. Distribution documentaire
 
@@ -598,36 +653,54 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | analyse | 19 |
 | source_part | 6 |
-| contrepoint | 6 |
 | production | 6 |
+| contrepoint | 6 |
+| non qualifié | 6 |
 | scene_fondatrice | 5 |
-| lecture_musicale | 4 |
-| reception | 4 |
 | prudence_methodologique | 4 |
-| concept_structurant | 3 |
+| reception | 4 |
+| lecture_musicale | 4 |
 | synthese_argumentative | 3 |
+| concept_structurant | 3 |
 | lecture | 3 |
-| analyse_video | 2 |
 | relation_esthetique | 2 |
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
 | lecture_chanson | 2 |
-| analyse_pochette | 2 |
+| motif_structurant | 2 |
+| analyse_oeuvre_intertextuelle | 2 |
+| analyse_conceptuelle | 2 |
+| analyse_video | 2 |
+| transition | 2 |
+| contexte_technique | 2 |
+| reception_interne | 2 |
+| fait | 2 |
+| portrait | 2 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
-| reception_interne | 2 |
-| motif_structurant | 2 |
-| contexte_technique | 2 |
-| portrait | 2 |
-| fait | 2 |
-| transition | 2 |
-| evenement_mediatique | 1 |
+| analyse_pochette | 2 |
+| prudence_temoin | 1 |
 | relation_inter_sources | 1 |
 | memoire_spectrale | 1 |
-| prudence_temoin | 1 |
-| contexte | 1 |
-| synthese | 1 |
+| réception | 1 |
+| reseau_distribution | 1 |
+| oeuvre_artistique | 1 |
+| reference_theorique | 1 |
+| cadre_theorique | 1 |
+| analyse_oeuvre_poetique | 1 |
+| rupture_esthetique | 1 |
+| cartographie_scene | 1 |
+| institution_scene | 1 |
+| cartographie_relationnelle | 1 |
+| lecture_reception | 1 |
+| contexte_scene | 1 |
+| cadrage_historiographique | 1 |
+| concept_critique | 1 |
+| concept_pratique | 1 |
+| comparaison_critique | 1 |
+| performance | 1 |
+| lecture_discographique | 1 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | concept_affectif | 1 |
@@ -636,60 +709,47 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | chanson_conceptuelle | 1 |
 | motif_textuel | 1 |
 | economie_sonore | 1 |
-| réception | 1 |
-| oeuvre_artistique | 1 |
-| reference_theorique | 1 |
+| evenement_mediatique | 1 |
+| synthese_usage_livre | 1 |
+| reception_populaire | 1 |
+| prudence_historiographique | 1 |
+| matrice_punk | 1 |
+| matrice_musicale | 1 |
+| theorie_instrumentale | 1 |
+| scene_relationnelle | 1 |
+| texte_editorial | 1 |
+| acteur_catalyseur | 1 |
+| contexte | 1 |
+| synthese | 1 |
+| motif_visuel | 1 |
+| acteur_image | 1 |
+| relation_son_image | 1 |
+| reseau_visuel | 1 |
+| concept_transversal | 1 |
+| conflit_esthetique | 1 |
+| concept | 1 |
+| réception_interne | 1 |
+| portrait_technique | 1 |
+| discographie | 1 |
+| reception_posthume | 1 |
+| lieu | 1 |
+| institution | 1 |
+| session | 1 |
+| temoignage_biographique | 1 |
 | memoire | 1 |
-| performance | 1 |
-| lecture_discographique | 1 |
-| cadrage_historiographique | 1 |
-| concept_critique | 1 |
-| concept_pratique | 1 |
-| comparaison_critique | 1 |
 | analyse_objet_discographique | 1 |
 | concept_graphique | 1 |
 | point_a_verifier | 1 |
 | analyse_materielle | 1 |
 | transition_visuelle | 1 |
 | synthese_relationnelle | 1 |
-| rupture_esthetique | 1 |
-| cartographie_scene | 1 |
-| institution_scene | 1 |
-| cartographie_relationnelle | 1 |
-| lecture_reception | 1 |
-| lieu | 1 |
-| institution | 1 |
-| session | 1 |
-| reception_posthume | 1 |
-| contexte_scene | 1 |
-| temoignage_biographique | 1 |
-| acteur_catalyseur | 1 |
-| scene_relationnelle | 1 |
-| texte_editorial | 1 |
-| reception_populaire | 1 |
-| prudence_historiographique | 1 |
-| matrice_punk | 1 |
-| matrice_musicale | 1 |
-| theorie_instrumentale | 1 |
-| motif_visuel | 1 |
-| acteur_image | 1 |
-| relation_son_image | 1 |
-| reseau_visuel | 1 |
-| reseau_distribution | 1 |
-| discographie | 1 |
-| conflit_esthetique | 1 |
-| concept | 1 |
-| réception_interne | 1 |
-| portrait_technique | 1 |
-| concept_transversal | 1 |
-| synthese_usage_livre | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 73 |
-| critique | 55 |
+| non qualifiée | 79 |
+| critique | 61 |
 | majeure | 19 |
 | majeur | 3 |
 | utile | 3 |
@@ -697,11 +757,28 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- S50-A002 [moyen] — les informations web et vidéos doivent être revérifiées au moment de l’usage
-- S50-A011 [faible] — c’est la grille d’analyse centrale du chapitre
-- S50-A012 [moyen] — l’analyse dépend de la lecture des auteurs et des crédits du projet
-- S50-A014 [moyen] — jugement esthétique fort des auteurs, à contextualiser
-- S50-A019 [faible] — synthèse directement alignée sur la conclusion des auteurs
+- S51-A003 [moyen] — ne pas réduire l’œuvre de Leckey au seul fragment Joy Division
+- S51-A005 [moyen] — la comparaison doit rester méthodologique et non généalogique
+- S51-A014 [faible] — la distinction mémoire personnelle / mémoire collective est explicite
+- S42-A003 [élevé] — Risque de faire de la périphérie une cause totale du son Joy Division.
+- S42-A006 [moyen] — Ne pas réduire le punk à la seule destruction ni le post-punk à une simple sophistication.
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A010 [moyen] — Ne pas faire de Factory l’unique moteur de la scène mancunienne.
+- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
+- S42-A013 [moyen] — Ne pas confondre réification et trahison simple.
+- S49-A008 [moyen] — risque de simplifier les circulations entre scènes blanches et musiques noires
+- S34-A007 [eleve] — risque de citer trop longuement les paroles et de réduire la chanson à son contenu urbain
+- S34-A009 [moyen] — risque de surcharger « Transmission » d’une fonction théorique unique
+- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
+- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
+- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
+- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
+- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
+- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
+- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
+- S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
+- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
@@ -710,25 +787,18 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
 - S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
-- S51-A003 [moyen] — ne pas réduire l’œuvre de Leckey au seul fragment Joy Division
-- S51-A005 [moyen] — la comparaison doit rester méthodologique et non généalogique
-- S51-A014 [faible] — la distinction mémoire personnelle / mémoire collective est explicite
-- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
-- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
-- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
-- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
-- S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
-- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
-- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
-- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
-- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
-- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
-- S42-A003 [élevé] — Risque de faire de la périphérie une cause totale du son Joy Division.
-- S42-A006 [moyen] — Ne pas réduire le punk à la seule destruction ni le post-punk à une simple sophistication.
-- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
-- S42-A010 [moyen] — Ne pas faire de Factory l’unique moteur de la scène mancunienne.
-- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
-- S42-A013 [moyen] — Ne pas confondre réification et trahison simple.
+- S50-A002 [moyen] — les informations web et vidéos doivent être revérifiées au moment de l’usage
+- S50-A011 [faible] — c’est la grille d’analyse centrale du chapitre
+- S50-A012 [moyen] — l’analyse dépend de la lecture des auteurs et des crédits du projet
+- S50-A014 [moyen] — jugement esthétique fort des auteurs, à contextualiser
+- S50-A019 [faible] — synthèse directement alignée sur la conclusion des auteurs
+- S35-A066 [moyen] — Ne pas traiter cette haine du disco comme doctrine esthétique durable.
+- S35-A072 [faible] — Le passage déconstruit explicitement la pureté des origines.
+- S35-A074 [faible] — Atome de réception personnelle appuyé sur faits connus.
+- S35-A075 [faible] — Influence explicitement formulée par Morris.
+- S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
+- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
+- S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure
@@ -737,20 +807,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A039 [moyen] — risque de transformer le digital delay en explication unique du son Joy Division
 - S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
 - S74-A043 [moyen] — risque de mythifier l’ignorance de Sumner comme preuve d’une œuvre purement accidentelle
-- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
-- S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
-- S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
-- S49-A008 [moyen] — risque de simplifier les circulations entre scènes blanches et musiques noires
-- S34-A007 [eleve] — risque de citer trop longuement les paroles et de réduire la chanson à son contenu urbain
-- S34-A009 [moyen] — risque de surcharger « Transmission » d’une fonction théorique unique
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
-- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 - S76-A027 [moyen] — risque de causalité trop directe entre Iggy et la danse de Curtis
-- S35-A066 [moyen] — Ne pas traiter cette haine du disco comme doctrine esthétique durable.
-- S35-A072 [faible] — Le passage déconstruit explicitement la pureté des origines.
-- S35-A074 [faible] — Atome de réception personnelle appuyé sur faits connus.
-- S35-A075 [faible] — Influence explicitement formulée par Morris.
+- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 
 ## 15. Lacunes et prochaines vérifications
 

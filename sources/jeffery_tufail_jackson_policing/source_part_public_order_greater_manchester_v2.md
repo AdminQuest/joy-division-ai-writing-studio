@@ -13,8 +13,8 @@ citation_directe: false
 passage_atomise: "Article complet utile au livre : cadre théorique sur ordre social local, section historique Greater Manchester Police 1974-2014, conclusion ; bibliographie exclue de l’atomisation principale."
 chapitres:
   - Chapitre 1
-chapitres_secondaires:
-  - Chapitre 9
+chapitres_secondaires: []
+
 ```
 
 ## Fonction de cette passe
@@ -135,7 +135,6 @@ concepts:
   - police centralisée
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -202,7 +201,6 @@ concepts:
   - police-community relations
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -302,7 +300,6 @@ concepts:
   - régénération
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -368,7 +365,6 @@ concepts:
   - policing privé
 chapitres:
   - Chapitre 1
-  - Chapitre 9
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -399,7 +395,7 @@ concepts:
   - ordre local
   - protest policing
 chapitres:
-  - Chapitre 9
+  - Chapitre 1
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -433,7 +429,6 @@ concepts:
   - police-community relations
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false

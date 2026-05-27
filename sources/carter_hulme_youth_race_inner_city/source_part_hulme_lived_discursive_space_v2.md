@@ -13,7 +13,7 @@ citation_directe: false
 passage_atomise: "Article complet utile au livre : introduction, représentations d’inner-city Hulme, témoignages des résidents, conclusion ; bibliographie exclue de l’atomisation principale."
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 chapitres_secondaires:
   - Chapitre 14
 ```
@@ -43,7 +43,7 @@ concepts:
   - oral history
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -75,7 +75,6 @@ concepts:
   - récit de renaissance
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -108,7 +107,6 @@ concepts:
   - minorités ethniques
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -139,7 +137,7 @@ concepts:
   - racialisation du paysage
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -170,7 +168,6 @@ concepts:
   - Alice Coleman
 chapitres:
   - Chapitre 1
-  - Chapitre 9
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -203,7 +200,7 @@ concepts:
   - représentation
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -233,7 +230,7 @@ concepts:
   - contradictions mémorielles
   - défense du quartier
 chapitres:
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -266,7 +263,7 @@ concepts:
   - contre-récit
   - Hulme Views Project
 chapitres:
-  - Chapitre 9
+  - Chapitre 13
   - Chapitre 14
 statut: verifie
 fiabilite: forte
@@ -297,7 +294,7 @@ concepts:
   - bulle
   - Hulme
 chapitres:
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -331,7 +328,7 @@ concepts:
   - minorité dans la minorité
   - Hulme
 chapitres:
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -364,7 +361,7 @@ concepts:
   - méthode historiographique
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
 statut: verifie
 fiabilite: forte
 citation_directe: false
@@ -394,7 +391,7 @@ concepts:
   - récit contre-stigmatisant
 chapitres:
   - Chapitre 1
-  - Chapitre 9
+  - Chapitre 13
   - Chapitre 14
 statut: verifie
 fiabilite: forte
