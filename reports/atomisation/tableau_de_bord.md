@@ -1,7 +1,7 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **26 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
-> État vérifié : 0 erreur bloquante · 2 716 atomes · 7 292 enregistrements · 89 sources déclarées.
+> Régénéré le **27 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> État vérifié : 0 erreur bloquante · 2 719 atomes · 7 307 enregistrements · 89 sources déclarées.
 
 ---
 
@@ -11,24 +11,24 @@
 |---|---:|
 | Total sources déclarées | **89** |
 | Sources avec atomes | **70** |
-| Total atomes dans le corpus | **2 716** |
-| Total enregistrements (toutes types) | **7 292** |
+| Total atomes dans le corpus | **2 719** |
+| Total enregistrements (toutes types) | **7 307** |
 | Erreurs bloquantes (audit) | **0** ✅ |
-| Avertissements (audit) | 31 249 |
-| Dette migration v2 (atomes incomplets) | 2 643 / 2 716 |
+| Avertissements (audit) | 30 557 |
+| Dette migration v2 (atomes incomplets) | 2 643 / 2 719 |
 
 ### Répartition des enregistrements par type
 
 | Type | Nombre |
 |---|---:|
-| atom | 2 716 |
+| atom | 2 719 |
 | chronology | 476 |
 | concept | 456 |
 | metadata | 264 |
 | motif | 424 |
 | myth | 101 |
 | person | 305 |
-| quote | 539 |
+| quote | 551 |
 | song | 110 |
 | source | 114 |
 | template | 360 |
@@ -118,7 +118,7 @@ _Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes
 | S68 | Broll | Joy Division (1988) | ✅ Atomisé | 1–3 | — | 39 | 3 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S69 | Greig | But We Remember When We Were Young | ✅ Atomisé | 2–13 | — | 36 | 6 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S70 | Suatoni | Dal cuore della città | ✅ Atomisé | 1–12 | — | 40 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
-| S71 | Flowers | Dreams Never End | 🔄 2e passe | 8–224 (sélectif) | — | 75 | 20 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S71 | Flowers | Dreams Never End | 🔄 2e passe | 8–224 (sélectif) | — | 78 | 20 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S72 | Reynolds | Rip It Up and Start Again | 🔄 2e passe | 7–440 (sélectif) | — | 61 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S73 | Orchids | Référence historique à consolider | 🔵 Déplacée | — | — | 0 | 0 | 0 | 0 | 0 | ⭕ Non démarrée |
 | S74 | Middles | From Joy Division to New Order | ✅ Atomisé | — | — | 61 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
@@ -215,7 +215,7 @@ _Sources atomisées couvrant chaque chapitre (ch. 1–14), d'après les champs `
 
 | ID | Auteur | Titre | Atomes actuels |
 |---|---|---|---:|
-| S71 | Flowers | New Order + Joy Division: Dreams Never End | 75 |
+| S71 | Flowers | New Order + Joy Division: Dreams Never End | 78 |
 | S72 | Reynolds | Rip It Up and Start Again | 61 |
 
 ### C — Sources fixées sans atomes (non démarrées)
@@ -241,7 +241,7 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 | Erreurs bloquantes | **0** | -15 (était 15) |
 | Doublons d'identifiants | **0** | -14 (supprimés / renommés) |
 | YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
-| Avertissements | 31 249 | stable |
+| Avertissements | 30 557 | -692 (était 31 249) |
 | unknown_yaml_blocks | 1 425 | stable (type: ajoutés → reste warn.) |
 | v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
 
@@ -256,4 +256,6 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 ---
 
-_Tableau régénéré le 26 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+_Tableau régénéré le 27 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+
+_Synchronisation automatique morning_sync — 2026-05-27_

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-27T00:18:46",
+  "generated_at": "2026-05-27T05:07:10",
   "summary": {
-    "records_total": 7292,
+    "records_total": 7307,
     "records_by_kind": {
-      "atom": 2716,
+      "atom": 2719,
       "metadata": 264,
       "unknown": 1425,
       "source": 114,
-      "quote": 539,
+      "quote": 551,
       "chronology": 476,
       "concept": 456,
       "motif": 424,
@@ -18,9 +18,9 @@
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 30515,
+    "diagnostics_total": 30557,
     "errors": 0,
-    "warnings": 30515,
+    "warnings": 30557,
     "sources_declared_in_registre_json": 89,
     "sources_used_in_records": 75,
     "sources_exported": 75,
@@ -29,14 +29,14 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2716,
+    "atom": 2719,
     "chronology": 476,
     "concept": 456,
     "metadata": 264,
     "motif": 424,
     "myth": 101,
     "person": 305,
-    "quote": 539,
+    "quote": 551,
     "quote_batch": 1,
     "rules": 1,
     "song": 110,
@@ -529,9 +529,9 @@
     },
     "S71": {
       "metadata": 1,
-      "quote": 20,
+      "quote": 32,
       "source": 1,
-      "atom": 75,
+      "atom": 78,
       "chronology": 39
     },
     "S72": {
@@ -668,20 +668,20 @@
     "7": 24,
     "8": 81,
     "9": 18,
-    "Chapitre 1": 470,
+    "Chapitre 1": 473,
     "Chapitre 10": 557,
     "Chapitre 11": 588,
     "Chapitre 12": 666,
-    "Chapitre 13": 346,
-    "Chapitre 14": 2014,
+    "Chapitre 13": 348,
+    "Chapitre 14": 2019,
     "Chapitre 2": 708,
     "Chapitre 3": 677,
     "Chapitre 4": 593,
     "Chapitre 5": 600,
     "Chapitre 6": 795,
-    "Chapitre 7": 274,
-    "Chapitre 8": 577,
-    "Chapitre 9": 346,
+    "Chapitre 7": 275,
+    "Chapitre 8": 586,
+    "Chapitre 9": 350,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -809,12 +809,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 662,
-    "invalid_controlled_value": 2698,
-    "missing_required_field": 9209,
+    "field_type_error": 665,
+    "invalid_controlled_value": 2701,
+    "missing_required_field": 9221,
     "schema_warning": 527,
     "unknown_yaml_block": 1395,
-    "v2_migration_debt": 16024
+    "v2_migration_debt": 16048
   },
   "top_files_by_issue_count": [
     [
@@ -12102,10 +12102,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2716,
+    "atoms_total": 2719,
     "atoms_v2_complete": 145,
-    "atoms_v2_incomplete": 2571,
-    "v2_missing_field_warnings": 16024
+    "atoms_v2_incomplete": 2574,
+    "v2_missing_field_warnings": 16048
   },
   "source_registry": {
     "declared_but_unused": [
@@ -12401,7 +12401,7 @@
       },
       {
         "source_id": "S07",
-        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée",
+        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987",
         "auteur": "Friedrich Engels",
         "titre": "The Condition of the Working Class in England",
         "annee": "1845",
@@ -13555,15 +13555,17 @@
         "auteur": "Claude Flowers",
         "titre": "New Order + Joy Division: Dreams Never End",
         "annee": "1995/2012",
-        "records": 136,
-        "atoms": 75,
-        "quotes": 20,
+        "records": 151,
+        "atoms": 78,
+        "quotes": 32,
         "chronology": 39,
         "files": [
+          "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
           "sources/flowers/README.md",
           "sources/flowers/citations_exactes.md",
           "sources/flowers/second_pass_new_order_late_discography.md",
-          "sources/flowers/source.md"
+          "sources/flowers/source.md",
+          "sources/flowers/third_pass_ch01_ch08_ch14_citations.md"
         ]
       },
       {
@@ -184832,6 +184834,246 @@
     {
       "level": "warning",
       "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Invalid value for type_unite: contexte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A076",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Invalid value for type_unite: infrastructure_culturelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A077",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Invalid value for type_unite: chronologie",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "record_id": "S71-A078",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
       "file": "sources/flowers/second_pass_new_order_late_discography.md",
       "record_id": "S71-A048",
       "message": "Missing required field: role_argumentatif",
@@ -253650,6 +253892,102 @@
       "category": "missing_required_field",
       "file": "registers/quotes/s76_torn_apart_quotes_part_04.md",
       "record_id": "S76-Q044",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q021",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q022",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q023",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q024",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q025",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q026",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q027",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q028",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q029",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q030",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q031",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "record_id": "S71-Q032",
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
     },

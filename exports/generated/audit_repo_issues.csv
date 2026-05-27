@@ -21357,6 +21357,36 @@ warning,v2_migration_debt,sources/flowers/source.md,S71-A047,Missing required fi
 warning,v2_migration_debt,sources/flowers/source.md,S71-A047,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/source.md,S71-A047,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/source.md,S71-A047,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Invalid value for type_unite: contexte,Aligner la valeur avec le schéma contrôlé.
+warning,field_type_error,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A076,Field must be an object/dict: importance,Corriger le type YAML du champ.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Invalid value for type_unite: infrastructure_culturelle,Aligner la valeur avec le schéma contrôlé.
+warning,field_type_error,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A077,Field must be an object/dict: importance,Corriger le type YAML du champ.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Invalid value for type_unite: chronologie,Aligner la valeur avec le schéma contrôlé.
+warning,field_type_error,sources/flowers/third_pass_ch01_ch08_ch14_citations.md,S71-A078,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,v2_migration_debt,sources/flowers/second_pass_new_order_late_discography.md,S71-A048,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/second_pass_new_order_late_discography.md,S71-A048,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/flowers/second_pass_new_order_late_discography.md,S71-A048,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -29960,6 +29990,18 @@ warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_04.md
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_04.md,S76-Q044,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_04.md,S76-Q044,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_04.md,S76-Q044,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q021,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q022,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q023,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q024,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q025,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q026,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q027,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q028,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q029,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q030,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q031,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md,S71-Q032,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s45_curtis_quotes_1976_1977.md,S45-Q008,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s45_curtis_quotes_1976_1977.md,S45-Q008,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s45_curtis_quotes_1976_1977.md,S45-Q008,Missing required field: statut_verification,Compléter le champ obligatoire.
