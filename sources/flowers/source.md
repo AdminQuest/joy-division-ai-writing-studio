@@ -238,6 +238,7 @@ concepts:
   - jg ballard
   - william burroughs
 chapitres:
+  - Chapitre 1
   - Chapitre 2
   - Chapitre 11
 statut: verifie
@@ -253,7 +254,7 @@ related_songs:
   - At a Later Date
 ```
 
-Flowers insiste sur l’écart culturel initial entre Curtis et ses futurs camarades : il connaît mieux le rock, lit Ballard, Burroughs, Eliot et des philosophes, puis réorganise ses poèmes pour les adapter aux répétitions.
+Flowers insiste sur l’écart culturel initial entre Curtis et ses futurs camarades : il connaît mieux le rock, lit Ballard, Burroughs, Eliot et des philosophes, puis réorganise ses poèmes pour les adapter aux répétitions. Cet écart de culture — ouvrier de jour, lecteur de Ballard la nuit — est central pour ch.01 (terreau de la colère, formation intellectuelle en milieu de désindustrialisation).
 
 ---
 

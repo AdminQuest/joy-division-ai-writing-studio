@@ -6,6 +6,7 @@
     "heading": "Motifs",
     "data": {
       "id": "MOTIF-S27-001",
+      "type": "motif",
       "motif": "lieux qui font réseau",
       "sources": [
         "S27"
@@ -23,6 +24,7 @@
     "heading": "Motifs",
     "data": {
       "id": "MOTIF-S27-002",
+      "type": "motif",
       "motif": "coopération et rivalité",
       "sources": [
         "S27"
@@ -40,6 +42,7 @@
     "heading": "Motifs",
     "data": {
       "id": "MOTIF-S27-003",
+      "type": "motif",
       "motif": "gatekeepers invisibles",
       "sources": [
         "S27"
@@ -57,6 +60,7 @@
     "heading": "Motifs",
     "data": {
       "id": "MOTIF-S27-004",
+      "type": "motif",
       "motif": "comment plutôt que pourquoi",
       "sources": [
         "S27"
@@ -1566,12 +1570,12 @@
   },
   {
     "kind": "motif",
-    "id": "MOTIF-wilson-mediateur",
+    "id": "MOTIF-wilson-mediateur-s85",
     "file": "registers/s85_malcolm_structuring_registers.md",
     "heading": "MOTIFS NOUVEAUX OU COMPLÉTÉS",
     "data": {
-      "id": "MOTIF-wilson-mediateur",
-      "label": "wilson_mediateur",
+      "id": "MOTIF-wilson-mediateur-s85",
+      "label": "wilson_mediateur_s85",
       "description": "Tony Wilson comme médiateur culturel entre Joy Division/Factory et le grand public — de la présentation sur Granada Reports (1978) à la résistance contre la préservation de la Hacianda comme musée. Motif partagé avec S84 et S85.",
       "atomes": [
         "S85-A002",
@@ -5625,7 +5629,7 @@
       ],
       "concepts_associes": [
         "CONCEPT-015",
-        "CONCEPT-011"
+        "CONCEPT-auto-habilitation-artistique"
       ],
       "risques": [
         "romantisation de l’impolitesse",
@@ -5731,7 +5735,7 @@
         "Chapitre 6"
       ],
       "concepts_associes": [
-        "CONCEPT-011",
+        "CONCEPT-auto-habilitation-artistique",
         "CONCEPT-004"
       ],
       "risques": [
@@ -8653,73 +8657,6 @@
   },
   {
     "kind": "motif",
-    "id": "MOTIF-009",
-    "file": "registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-    "heading": "MOTIF-009 — contradiction biographique",
-    "data": {
-      "id": "MOTIF-009",
-      "nom": "contradiction biographique",
-      "definition": "Détail de vie qui résiste à la cohérence rétrospective du mythe Joy Division et empêche de transformer un membre du groupe en pure émanation de son milieu, de son esthétique ou de sa réception posthume.\n",
-      "formes": [
-        "vote conservateur rapporté",
-        "décalage entre œuvre et opinion",
-        "attitude privée discordante",
-        "biographie contre mythe social"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 10"
-      ],
-      "concepts_associes": [
-        "CONCEPT-004",
-        "CONCEPT-010"
-      ],
-      "risques": [
-        "survalorisation de l’anecdote",
-        "contre-mythe individualiste",
-        "disqualification abusive de la lecture sociale"
-      ],
-      "atomes_lies": [
-        "S45-A019"
-      ]
-    }
-  },
-  {
-    "kind": "motif",
-    "id": "MOTIF-010",
-    "file": "registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-    "heading": "MOTIF-010 — politique domestique",
-    "data": {
-      "id": "MOTIF-010",
-      "nom": "politique domestique",
-      "definition": "Apparition du politique non comme doctrine, engagement ou discours militant, mais comme scène conjugale, ordinaire, électorale, parfois contradictoire, où se jouent autorité, ironie, conformité et désaccord intime.\n",
-      "formes": [
-        "vote local",
-        "discussion de couple",
-        "argument de l’annulation du vote",
-        "absence de militantisme explicite"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 10"
-      ],
-      "concepts_associes": [
-        "CONCEPT-010",
-        "CONCEPT-004"
-      ],
-      "risques": [
-        "psychologisation conjugale",
-        "moralisation rétrospective",
-        "confusion entre scène domestique et doctrine politique"
-      ],
-      "atomes_lies": [
-        "S45-A019",
-        "S45-A020"
-      ]
-    }
-  },
-  {
-    "kind": "motif",
     "id": "MOTIF-111",
     "file": "registers/motifs/s41_hook_motifs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "MOTIF-111 — Digital sacrifié au sampler",
@@ -9708,7 +9645,7 @@
         "Chapitre 2"
       ],
       "concepts_associes": [
-        "CONCEPT-011",
+        "CONCEPT-auto-habilitation-artistique",
         "CONCEPT-005"
       ],
       "risques": [
@@ -9783,7 +9720,7 @@
         "Chapitre 6"
       ],
       "concepts_associes": [
-        "CONCEPT-011"
+        "CONCEPT-auto-habilitation-artistique"
       ],
       "risques": [
         "reconstruction nostalgique",

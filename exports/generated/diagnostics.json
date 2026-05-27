@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-05-26T18:53:34",
-  "status": "error",
+  "generated_at": "2026-05-27T06:48:52",
+  "status": "warning",
   "summary": {
-    "records_total": 7274,
+    "records_total": 7307,
     "records_by_kind": {
       "metadata": 264,
-      "atom": 2716,
+      "atom": 2719,
       "source": 114,
-      "unknown": 1404,
+      "unknown": 1425,
       "concept": 456,
-      "motif": 426,
+      "motif": 424,
       "myth": 101,
-      "quote": 539,
+      "quote": 551,
       "chronology": 476,
       "person": 305,
       "song": 110,
-      "template": 361,
+      "template": 360,
       "quote_batch": 1,
       "rules": 1
     },
-    "diagnostics_total": 31243,
-    "errors": 15,
-    "warnings": 31228,
-    "sources_declared_in_registre_json": 88,
+    "diagnostics_total": 31291,
+    "errors": 0,
+    "warnings": 31291,
+    "sources_declared_in_registre_json": 89,
     "sources_used_in_records": 75,
     "sources_exported": 75,
     "declared_but_unused": 14,
-    "used_but_missing_from_registre_json": 1,
-    "weak_source_labels": 1
+    "used_but_missing_from_registre_json": 0,
+    "weak_source_labels": 0
   },
   "controls": {
     "declared_but_unused": [
@@ -232,24 +232,15 @@
         "usage": "post-punk ; scène de Manchester"
       }
     ],
-    "used_but_missing_from_registre_json": [
-      "REGISTRY"
-    ],
-    "weak_source_labels": [
-      {
-        "source_id": "REGISTRY",
-        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
-        "auteur": "Inconnu",
-        "titre": "REGISTRY"
-      }
-    ],
+    "used_but_missing_from_registre_json": [],
+    "weak_source_labels": [],
     "exported_sources": [
       {
         "source_id": "REGISTRY",
-        "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
-        "auteur": "Inconnu",
-        "titre": "REGISTRY",
-        "annee": "",
+        "source_label": "REGISTRY — Registre canonique interne Joy Division / Warsaw",
+        "auteur": "AdminQuest",
+        "titre": "Registre canonique des chansons Joy Division et Warsaw",
+        "annee": "2024",
         "records": 1,
         "atoms": 1,
         "quotes": 0,
@@ -332,7 +323,7 @@
       },
       {
         "source_id": "S07",
-        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée",
+        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987",
         "auteur": "Friedrich Engels",
         "titre": "The Condition of the Working Class in England",
         "annee": "1845",
@@ -1486,15 +1477,17 @@
         "auteur": "Claude Flowers",
         "titre": "New Order + Joy Division: Dreams Never End",
         "annee": "1995/2012",
-        "records": 136,
-        "atoms": 75,
-        "quotes": 20,
+        "records": 151,
+        "atoms": 78,
+        "quotes": 32,
         "chronology": 39,
         "files": [
+          "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
           "sources/flowers/README.md",
           "sources/flowers/citations_exactes.md",
           "sources/flowers/second_pass_new_order_late_discography.md",
-          "sources/flowers/source.md"
+          "sources/flowers/source.md",
+          "sources/flowers/third_pass_ch01_ch08_ch14_citations.md"
         ]
       },
       {
@@ -1841,7 +1834,7 @@
         "auteur": "Gay Jennifer Breyley",
         "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
         "annee": "2018",
-        "records": 53,
+        "records": 58,
         "atoms": 11,
         "quotes": 6,
         "chronology": 14,
@@ -1861,7 +1854,7 @@
         "auteur": "Jennifer Otter Bickerdike",
         "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
         "annee": "2018",
-        "records": 52,
+        "records": 58,
         "atoms": 10,
         "quotes": 6,
         "chronology": 16,
@@ -1880,7 +1873,7 @@
         "auteur": "Kieran Cashell",
         "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
         "annee": "2018",
-        "records": 54,
+        "records": 64,
         "atoms": 11,
         "quotes": 7,
         "chronology": 14,
@@ -26062,97 +26055,49 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-007"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "record_id": "R-S79-007"
+      "record_id": "R-S79-071"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-008"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "record_id": "R-S79-008"
+      "record_id": "R-S79-072"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-009"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-009"
+      "record_id": "R-S79-073"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-010"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-010"
+      "record_id": "R-S79-074"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-011"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-011"
+      "record_id": "R-S79-075"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-012"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-012"
+      "record_id": "R-S79-076"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-013"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-013"
+      "record_id": "R-S79-077"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-014"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_intro_savage_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_leaders_of_men_v2.md",
-      "record_id": "R-S79-014"
+      "record_id": "R-S79-078"
     },
     {
       "level": "warning",
@@ -29692,25 +29637,13 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-005"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "record_id": "R-S79-005"
+      "record_id": "R-S79-069"
     },
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "R-S79-006"
-    },
-    {
-      "level": "error",
-      "file": "sources/curtis_savage_so_this_is_permanence/relations_s79_foreword_deborah_v2.md",
-      "message": "Duplicate id also found in sources/curtis_savage_so_this_is_permanence/relations_s79_warsaw_v2.md",
-      "record_id": "R-S79-006"
+      "record_id": "R-S79-070"
     },
     {
       "level": "warning",
@@ -71885,6 +71818,186 @@
       "file": "sources/flowers/source.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "S71-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Invalid value for type_unite: contexte",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S71-A076"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Invalid value for type_unite: infrastructure_culturelle",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S71-A077"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Invalid value for type_unite: chronologie",
+      "record_id": "S71-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S71-A078"
     },
     {
       "level": "warning",
@@ -162177,6 +162290,42 @@
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S87-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "message": "Missing required field: event",
       "record_id": "CHR-S87-001"
     },
@@ -164471,6 +164620,36 @@
       "file": "registers/s77_worley_structuring_registers.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S77-FRASER-1990"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S86-005"
     },
     {
       "level": "warning",
@@ -168259,12 +168438,6 @@
       "record_id": "SONG-S83-002"
     },
     {
-      "level": "error",
-      "file": "registers/s84_cope_structuring_registers.md",
-      "message": "Duplicate id also found in registers/s85_malcolm_structuring_registers.md",
-      "record_id": "MOTIF-wilson-mediateur"
-    },
-    {
       "level": "warning",
       "file": "registers/s84_cope_structuring_registers.md",
       "message": "Unable to infer documentary kind",
@@ -169997,6 +170170,66 @@
       "file": "registers/s56_barone_specialized_registers.md",
       "message": "Missing required field: chapters",
       "record_id": "SONG-S56-DISORDER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CIT-S88-010"
     },
     {
       "level": "warning",
@@ -186800,6 +187033,78 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q030"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q031"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S71-Q032"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S45-Q015"
@@ -187421,18 +187726,6 @@
       "file": "registers/motifs/s06_carter_motifs_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MOTIFS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
-    },
-    {
-      "level": "error",
-      "file": "registers/motifs/master_motifs.md",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "record_id": "MOTIF-009"
-    },
-    {
-      "level": "error",
-      "file": "registers/motifs/master_motifs.md",
-      "message": "Duplicate id also found in registers/motifs/s45_curtis_motifs_vote_conservateur.md",
-      "record_id": "MOTIF-010"
     },
     {
       "level": "warning",
@@ -188159,18 +188452,6 @@
       "file": "registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/master_concepts.md",
-      "message": "Duplicate id also found in registers/concepts/s45_curtis_concepts_vote_conservateur.md",
-      "record_id": "CONCEPT-010"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/master_concepts.md",
-      "message": "YAML parse error: while scanning a simple key\n  in \"<unicode string>\", line 45, column 5:\n        sa formation était simplement no ... \n        ^\ncould not find expected ':'\n  in \"<unicode string>\", line 47, column 1:\n    atomes_lies:\n    ^",
-      "record_id": null
     },
     {
       "level": "warning",

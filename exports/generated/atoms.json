@@ -53074,6 +53074,7 @@
         "william burroughs"
       ],
       "chapitres": [
+        "Chapitre 1",
         "Chapitre 2",
         "Chapitre 11"
       ],
@@ -54780,6 +54781,109 @@
       "related_songs": [
         "Fine Time"
       ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A076",
+    "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+    "heading": "S71-A076 — Manchester : la formule Flowers — ville industrielle détruite, terreau social de Joy Division",
+    "data": {
+      "id": "S71-A076",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "13-14",
+      "type_unite": "contexte",
+      "importance": "majeure",
+      "concepts": [
+        "manchester",
+        "révolution industrielle",
+        "déclin industriel",
+        "bombardements",
+        "fermeture d'usines",
+        "ville manufacturière",
+        "terreau culturel"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "notes": "La formule de Flowers est directement exploitable pour ch.01 comme ancrage du récit dans la longue histoire de la désindustrialisation mancunienne. À croiser avec S07 (Engels, profondeur industrielle) et S34 (Fraser & Fuoto, 1976, ville comme matrice)."
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A077",
+    "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+    "heading": "S71-A077 — Hannett, logique d'indépendance et Factory comme refus du marché",
+    "data": {
+      "id": "S71-A077",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "42-44",
+      "type_unite": "infrastructure_culturelle",
+      "importance": "majeure",
+      "concepts": [
+        "factory records",
+        "indépendance",
+        "gretton",
+        "wilson",
+        "majors",
+        "distribution",
+        "underground"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "notes": "Passage clé sur la décision de Rob Gretton de rester sur Factory plutôt que de signer chez Warner/Radar. Les citations de Wilson sur la distribution et les 10 000 exemplaires sont directement utilisables pour ch.08."
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A078",
+    "file": "sources/flowers/third_pass_ch01_ch08_ch14_citations.md",
+    "heading": "S71-A078 — La mort de Ian Curtis : dissémination de la nouvelle et naissance du culte",
+    "data": {
+      "id": "S71-A078",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "66-68",
+      "type_unite": "chronologie",
+      "importance": "critique",
+      "concepts": [
+        "mort de ian curtis",
+        "john peel",
+        "annonce",
+        "death cult",
+        "rob gretton",
+        "transition new order"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "notes": "Passage central pour ch.14. Trois citations directes disponibles : Peel (annonce radio), Gretton (fierté et regret), Gretton (volonté de prendre le temps). Toutes trois sont dans le registre des citations S71-Q030 à S71-Q032."
     }
   },
   {
@@ -132592,7 +132696,9 @@
       "type_unite": "song_canon",
       "statut": "canonique_interne",
       "scope": "Œuvre originale complète Joy Division / Warsaw, avec quelques démos, répétitions, BBC/Peel et inédits ; exclusion des reprises, chansons New Order hors corpus Joy Division et faux positifs issus des sources.",
-      "version": "2026-05-19"
+      "version": "2026-05-19",
+      "source_short_title": "AdminQuest, Registre canonique des chansons Joy Division et Warsaw, 2024",
+      "source_year": "2024"
     }
   },
   {

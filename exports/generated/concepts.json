@@ -6,6 +6,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-001",
+      "type": "concept",
       "concept": "source secondaire au second degré",
       "sources": [
         "S27"
@@ -29,6 +30,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-002",
+      "type": "concept",
       "concept": "analyse relationnelle des scènes",
       "sources": [
         "S27"
@@ -51,6 +53,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-003",
+      "type": "concept",
       "concept": "effervescence collective musicale",
       "sources": [
         "S27"
@@ -73,6 +76,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-004",
+      "type": "concept",
       "concept": "personnel renfort des scènes musicales",
       "sources": [
         "S27"
@@ -95,6 +99,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-005",
+      "type": "concept",
       "concept": "music world crossleyen",
       "sources": [
         "S27"
@@ -116,6 +121,7 @@
     "heading": "Concepts",
     "data": {
       "id": "CONCEPT-S27-006",
+      "type": "concept",
       "concept": "émergence comme processus",
       "sources": [
         "S27"
@@ -7324,68 +7330,6 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-010",
-    "file": "registers/concepts/s45_curtis_concepts_vote_conservateur.md",
-    "heading": "CONCEPT-010 — anti-déterminisme sociologique",
-    "data": {
-      "id": "CONCEPT-010",
-      "nom": "anti-déterminisme sociologique",
-      "origine": {
-        "auteur": "méthode interne du repo"
-      },
-      "statut": {
-        "type": [
-          "concept_methodologique",
-          "concept_critique"
-        ],
-        "stabilite": "assez_stable",
-        "niveau_consensus": "interne"
-      },
-      "definition": "Principe méthodologique selon lequel Manchester, la désindustrialisation, la classe sociale et la scène post-punk conditionnent fortement Joy Division sans expliquer mécaniquement les opinions, gestes, votes ou trajectoires intimes des membres du groupe.\n",
-      "usage_repo": {
-        "fonction": [
-          "limiter les lectures contextuelles trop causales",
-          "distinguer climat social et position individuelle",
-          "encadrer les anecdotes biographiques politiquement sensibles"
-        ]
-      },
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 10"
-      ],
-      "motifs_associes": [
-        "contradiction biographique",
-        "politique domestique",
-        "Manchester non homogène"
-      ],
-      "risques": [
-        "minimisation excessive du contexte social",
-        "usage défensif pour neutraliser toute lecture politique",
-        "transformation d’une anecdote en contre-mythe"
-      ],
-      "atomes_lies": [
-        "S45-A019",
-        "S45-A020"
-      ],
-      "concepts_derives": [
-        "complexité politique de Curtis",
-        "discordance entre œuvre et opinion",
-        "seuil de preuve politique"
-      ],
-      "relations": [
-        {
-          "type": "nuance",
-          "cible": "MYTH-003"
-        },
-        {
-          "type": "requiert",
-          "cible": "CONCEPT-004"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "concept",
     "id": "CONCEPT-015",
     "file": "registers/concepts/s45_curtis_concepts_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "CONCEPT-015 — médiation audiovisuelle mancunienne",
@@ -11329,11 +11273,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-011",
+    "id": "CONCEPT-auto-habilitation-artistique",
     "file": "registers/concepts/s45_curtis_concepts_1976_1977.md",
-    "heading": "CONCEPT-011 — auto-habilitation artistique",
+    "heading": "CONCEPT-auto-habilitation-artistique — auto-habilitation artistique",
     "data": {
-      "id": "CONCEPT-011",
+      "id": "CONCEPT-auto-habilitation-artistique",
       "nom": "auto-habilitation artistique",
       "origine": {
         "auteur": "méthode interne du repo"
@@ -12412,6 +12356,65 @@
       "concepts_derives": [
         "support comme indice de datation",
         "archive comme matière"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-011",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-011 — autodidaxie-pop",
+    "data": {
+      "id": "CONCEPT-011",
+      "nom": "autodidaxie-pop",
+      "origine": {
+        "auteur": "Jon Savage (S79)",
+        "filiation": [
+          "cultural studies",
+          "histoire de la lecture"
+        ]
+      },
+      "statut": {
+        "type": [
+          "concept_descriptif"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "moyen"
+      },
+      "definition": "Concept décrivant le mode de formation intellectuelle et esthétique d'Ian Curtis — et plus largement de la génération post-punk manchestérienne — à travers les objets culturels de masse accessibles (livres de poche, magazines, librairies de niche) plutôt que par l'institution scolaire. L'autodidaxie pop implique une bricolage créatif des sources plutôt qu'une appropriation académique.\n",
+      "usage_repo": {
+        "fonction": [
+          "généalogie des influences lyriques de Curtis",
+          "contextualisation culturelle Manchester années 1970",
+          "critique du mythe du génie solitaire"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11"
+      ],
+      "motifs_associes": [
+        "culture-de-niche",
+        "isolement"
+      ],
+      "risques": [
+        "romantisation de l'autodidaxie",
+        "sur-attribution à Curtis de ce qui est collectif",
+        "anachronisme (projeter les cultural studies rétroactivement)"
+      ],
+      "critiques": [
+        "ne pas confondre autodidaxie et absence de culture : Curtis était cultivé, sa formation était simplement non institutionnelle"
+      ],
+      "atomes_lies": [
+        "S79-A069",
+        "S79-A070",
+        "S79-A071",
+        "S79-A072",
+        "S79-A073"
+      ],
+      "concepts_derives": [
+        "écosystème culturel de niche",
+        "formation par la pop culture"
       ]
     }
   },

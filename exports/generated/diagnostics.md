@@ -1,41 +1,41 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-26T18:53:34`
+Généré le : `2026-05-27T06:48:52`
 
-Statut : **error**
+Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7274
-- Erreurs : 15
-- Avertissements : 31228
-- Sources déclarées dans `data/registre.json` : 88
+- Enregistrements : 7307
+- Erreurs : 0
+- Avertissements : 31291
+- Sources déclarées dans `data/registre.json` : 89
 - Sources utilisées dans les enregistrements : 75
 - Sources exportées : 75
 - Sources déclarées mais non utilisées : 14
-- Sources utilisées mais absentes du registre : 1
-- Libellés faibles : 1
+- Sources utilisées mais absentes du registre : 0
+- Libellés faibles : 0
 
 ## Enregistrements par type
 
-- atom : 2716
+- atom : 2719
 - chronology : 476
 - concept : 456
 - metadata : 264
-- motif : 426
+- motif : 424
 - myth : 101
 - person : 305
-- quote : 539
+- quote : 551
 - quote_batch : 1
 - rules : 1
 - song : 110
 - source : 114
-- template : 361
-- unknown : 1404
+- template : 360
+- unknown : 1425
 
 ## Sources utilisées mais absentes du registre
 
-- REGISTRY
+Aucune.
 
 ## Sources déclarées mais non utilisées
 
@@ -56,7 +56,7 @@ Statut : **error**
 
 ## Libellés faibles
 
-- REGISTRY : Registre canonique interne — chansons Joy Division / Warsaw
+Aucun.
 
 ## Problèmes YAML / schéma
 
@@ -160,4 +160,4 @@ Statut : **error**
 - **WARNING** `sources/valdes_miyares_transmission/relations_s80_transmission_v2.md` [R-S80-007] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-001] : Unable to infer documentary kind
 - **WARNING** `sources/heart_soul_introduction/relations_s62_introduction_v2.md` [R-S62-002] : Unable to infer documentary kind
-- … 31143 problèmes supplémentaires dans `diagnostics.json`.
+- … 31191 problèmes supplémentaires dans `diagnostics.json`.

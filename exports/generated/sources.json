@@ -1,10 +1,10 @@
 [
   {
     "source_id": "REGISTRY",
-    "source_label": "Registre canonique interne — chansons Joy Division / Warsaw",
-    "auteur": "Inconnu",
-    "titre": "REGISTRY",
-    "annee": "",
+    "source_label": "REGISTRY — Registre canonique interne Joy Division / Warsaw",
+    "auteur": "AdminQuest",
+    "titre": "Registre canonique des chansons Joy Division et Warsaw",
+    "annee": "2024",
     "records": 1,
     "atoms": 1,
     "quotes": 0,
@@ -87,7 +87,7 @@
   },
   {
     "source_id": "S07",
-    "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. anglaise autorisée",
+    "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845 / éd. Penguin Classics 1987",
     "auteur": "Friedrich Engels",
     "titre": "The Condition of the Working Class in England",
     "annee": "1845",
@@ -1241,15 +1241,17 @@
     "auteur": "Claude Flowers",
     "titre": "New Order + Joy Division: Dreams Never End",
     "annee": "1995/2012",
-    "records": 136,
-    "atoms": 75,
-    "quotes": 20,
+    "records": 151,
+    "atoms": 78,
+    "quotes": 32,
     "chronology": 39,
     "files": [
+      "registers/quotes/s71_flowers_quotes_ch01_ch08_ch14.md",
       "sources/flowers/README.md",
       "sources/flowers/citations_exactes.md",
       "sources/flowers/second_pass_new_order_late_discography.md",
-      "sources/flowers/source.md"
+      "sources/flowers/source.md",
+      "sources/flowers/third_pass_ch01_ch08_ch14_citations.md"
     ]
   },
   {
@@ -1596,7 +1598,7 @@
     "auteur": "Gay Jennifer Breyley",
     "titre": "'I Hung around in Your Soundtrack': Affinities with Joy Division among Contemporary Iranian Musicians",
     "annee": "2018",
-    "records": 53,
+    "records": 58,
     "atoms": 11,
     "quotes": 6,
     "chronology": 14,
@@ -1616,7 +1618,7 @@
     "auteur": "Jennifer Otter Bickerdike",
     "titre": "As If It Never Happened: The Posteconomy of Joy Division and Ian Curtis",
     "annee": "2018",
-    "records": 52,
+    "records": 58,
     "atoms": 10,
     "quotes": 6,
     "chronology": 16,
@@ -1635,7 +1637,7 @@
     "auteur": "Kieran Cashell",
     "titre": "Things That Aren't There: Spectral Presences in Musical Absences – The Transition from Joy Division to New Order",
     "annee": "2018",
-    "records": 54,
+    "records": 64,
     "atoms": 11,
     "quotes": 7,
     "chronology": 14,
