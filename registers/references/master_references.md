@@ -890,3 +890,22 @@ chapitres: [Chapitre 1]
 source_origin: [registre historique, data/registre.json]
 arbitrage: "Blue Orchids est déplacé en S73 afin de laisser S41 à Peter Hook, dont les fichiers atomisés utilisent déjà cet identifiant."
 ```
+
+## S89 — Savage, England's Dreaming, 1991
+
+```yaml
+id: S89
+source_label: "S89 — Savage, England's Dreaming, 1991"
+auteur: Jon Savage
+titre: "England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond"
+annee: "1991"
+reference_complete: "SAVAGE, Jon, England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond, Londres, Faber and Faber, 1991."
+nature: histoire critique du punk britannique / source secondaire critique majeure
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Jon Savage, Sex Pistols, McLaren, Westwood, Lesser Free Trade Hall, 4 juin 1976, 20 juillet 1976, Manchester punk, Buzzcocks, Devoto, Shelley, Spiral Scratch, New Hormones, Tony Wilson, Factory Records, So It Goes, Sniffin' Glue, fanzines, no future, post-punk, contexte chapitres 1-4]
+chapitres: [Chapitre 1, Chapitre 2, Chapitre 3, Chapitre 4]
+chapitres_secondaires: [Chapitre 11, Chapitre 14]
+source_origin: [data/registre.json, registers/references/s89_savage_englands_dreaming_source_canonique.md]
+arbitrage: "S89 désigne exclusivement l'édition Faber and Faber 1991 (hardback, ISBN 0-571-13975-6). Les éditions révisées (St. Martin's Griffin 1992, Faber paperback 2001, Faber 2005) doivent être citées explicitement. Ne pas confondre avec les autres ouvrages de Jon Savage (Teenage, 1966, This Searing Light), ni avec son foreword à S45, ni avec sa coédition de S79. Atomisation à démarrer."
+```
