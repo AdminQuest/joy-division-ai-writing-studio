@@ -956,3 +956,29 @@ croisements_corpus: [S72 (distinction critique), S90 Fisher (paire critique indi
 source_origin: [data/registre.json, registers/references/s91_reynolds_retromania_source_canonique.md]
 arbitrage: "S91 désigne exclusivement Retromania (Faber and Faber, 2011, ISBN 978-0-571-23269-1). Distinction stricte avec S72 Rip It Up (2005) du même auteur — ouvrages, objets et méthodes radicalement distincts (chronologie 1978-1984 vs théorie du revival 2000-2010). Paire critique indissociable avec S90 Fisher : Reynolds (hyperstasis, addiction archivistique) et Fisher (hauntologie, lost futures) forment le dyptique théorique de l'épuisement futural pop. Toute attribution conceptuelle commune doit identifier l'auteur source précis. Atomisation à démarrer."
 ```
+
+## S92 — Corbijn, Inwards and Onwards, 2005
+
+```yaml
+id: S92
+source_label: "S92 — Corbijn, Inwards and Onwards, 2005"
+auteur: Anton Corbijn
+titre: "Inwards and Onwards"
+annee: "2005"
+lieu_edition: Munich
+editeur: Schirmer/Mosel
+isbn: "978-3-8296-0184-4 (à vérifier sur exemplaire)"
+reference_complete: "CORBIJN, Anton, Inwards and Onwards, Munich, Schirmer/Mosel, 2005. ISBN à verrouiller sur exemplaire."
+nature: monographie photographique / source primaire visuelle / rétrospective de portraits 1979-2005
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Anton Corbijn, Inwards and Onwards, Schirmer/Mosel, Joy Division, Lancaster Gate, métro de Londres, 5 janvier 1979, Ian Curtis portraits, noir et blanc, regard néerlandais, NME, U2, Depeche Mode, R.E.M., Tom Waits, Atmosphere clip 1988, Control film 2007, rétrospective, iconographie internationale]
+chapitres: [Chapitre 7, Chapitre 9, Chapitre 14]
+chapitres_secondaires: [Chapitre 4, Chapitre 6, Chapitre 8, Chapitre 13]
+distinction_critique:
+  s92_vs_autres_corbijn: "S92 ne désigne pas Famouz (1989), Star Trak (1996), 33 Still Lives (1999), U2 & I (2005, distinct), In Control (2007, livre compagnon du film), Waits/Corbijn (2013), Mood/Mode (2013), 1-2-3-4 (2019), Depeche Mode by Anton Corbijn (2020). Une même image peut apparaître dans plusieurs monographies avec recadrages et légendes différents — toujours identifier le livre source précis."
+  livre_vs_film: "S92 (livre photographique, 2005) ne désigne ni Control (film, 2007) ni In Control (livre compagnon, 2007). Trois œuvres distinctes."
+croisements_corpus: [S09 Cummins (dyptique iconographique fondateur, miroir interne/externe), S45 Curtis (Corbijn réalise Control 2007 d'après Touching from a Distance), S52 Rabbito (analyse italienne du film Control), S88 Cashell (réseau Saville/Corbijn), S87 Otter Bickerdike (posteconomy visuelle), S48 De Sia (graphisme JD complémentaire), S37 Morley (presse NME contemporaine)]
+source_origin: [data/registre.json, registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md]
+arbitrage: "S92 désigne exclusivement la monographie Inwards and Onwards (Schirmer/Mosel, 2005). Aucune absorption des autres monographies Corbijn ni du film Control ni du livre In Control (2007). Dyptique iconographique fondateur avec S09 Cummins : Cummins = regard interne mancunien NME ; Corbijn = regard externe néerlandais Londres/continental. Tout atome iconographique du corpus doit identifier le photographe source. Identifié comme lacune critique du Ch.09 dans l'audit du 2026-05-27 (diffusion visuelle internationale). ISBN et pagination à verrouiller sur exemplaire lors de l'atomisation."
+```
