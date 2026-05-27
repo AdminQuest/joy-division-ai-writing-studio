@@ -931,3 +931,28 @@ croisements_corpus: [S26 (coédition Fisher), S29 Goddard (médiation hauntologi
 source_origin: [data/registre.json, registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md]
 arbitrage: "S90 désigne exclusivement le recueil Ghosts of My Life (Zero Books, 2014). Ne pas confondre avec Capitalist Realism (2009), The Weird and the Eerie (2016), K-Punk (2018 posthume), Postcapitalist Desire (2020 posthume), les billets K-Punk en ligne, ni avec la coédition S26 Post-Punk Then and Now (où Fisher est coéditeur, statut distinct). Socle théorique fisherien primaire du corpus ; S29 et S88 le citent au second degré et doivent être recroisés avec S90 lors de l'atomisation. Distinguer hauntologie fisherienne (culture populaire) de hantologie derridienne (Specters of Marx, 1993)."
 ```
+
+## S91 — Reynolds, Retromania, 2011
+
+```yaml
+id: S91
+source_label: "S91 — Reynolds, Retromania, 2011"
+auteur: Simon Reynolds
+titre: "Retromania: Pop Culture's Addiction to Its Own Past"
+annee: "2011"
+editeur: Faber and Faber
+isbn: "978-0-571-23269-1"
+reference_complete: "REYNOLDS, Simon, Retromania: Pop Culture's Addiction to Its Own Past, Londres, Faber and Faber, 2011, ISBN 978-0-571-23269-1."
+nature: essai de critique culturelle / théorie de la culture pop des années 2000
+statut: source_canonique_fixee
+fiabilite: forte
+usage: [Simon Reynolds, Retromania, hyperstasis, revival, post-punk revival, Interpol, Editors, Bloc Party, Franz Ferdinand, vinyl revival, archive fever, YouTube, reunion economy, hypnagogic pop, chillwave, vaporwave, Ariel Pink, slow cancellation of the future, Mark Fisher dialogue, Jameson, Huyssen, Boym, nostalgia, Faber 2011]
+chapitres: [Chapitre 7, Chapitre 14]
+chapitres_secondaires: [Chapitre 9, Chapitre 11, Chapitre 13]
+distinction_critique:
+  s72_vs_s91: "S72 Reynolds Rip It Up and Start Again (2005, chronologie post-punk 1978-1984) et S91 Reynolds Retromania (2011, essai sur le revival 2000-2010) sont DEUX OUVRAGES DISTINCTS du même auteur. NE JAMAIS confondre. Vérifier titre + année avant attribution."
+  s91_vs_autres_reynolds: "S91 ne désigne pas Energy Flash (1998), Bring the Noise (2007), Shock and Awe (2016), Futuromania (2024)."
+croisements_corpus: [S72 (distinction critique), S90 Fisher (paire critique indissociable), S26 (post-punk studies), S29 Goddard (citation à recroiser), S88 Cashell (citation à recroiser), S78 Nevarez (citation à recroiser)]
+source_origin: [data/registre.json, registers/references/s91_reynolds_retromania_source_canonique.md]
+arbitrage: "S91 désigne exclusivement Retromania (Faber and Faber, 2011, ISBN 978-0-571-23269-1). Distinction stricte avec S72 Rip It Up (2005) du même auteur — ouvrages, objets et méthodes radicalement distincts (chronologie 1978-1984 vs théorie du revival 2000-2010). Paire critique indissociable avec S90 Fisher : Reynolds (hyperstasis, addiction archivistique) et Fisher (hauntologie, lost futures) forment le dyptique théorique de l'épuisement futural pop. Toute attribution conceptuelle commune doit identifier l'auteur source précis. Atomisation à démarrer."
+```
