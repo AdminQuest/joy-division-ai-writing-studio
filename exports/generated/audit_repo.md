@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-26T20:02:56`
+Généré le : `2026-05-27T00:18:46`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1395 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
+La dette principale reste la migration v2 : 2571 atome(s) incomplet(s) sur 2716.
 
 ## 2. Synthèse chiffrée
 
 - Enregistrements : 7292
 - Erreurs : 0
-- Avertissements : 31249
+- Avertissements : 30515
 - Sources déclarées : 89
 - Sources utilisées : 75
 - Sources exportées : 75
@@ -42,11 +42,11 @@ La dette principale reste la migration v2 : 2643 atome(s) incomplet(s) sur 2716.
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 662 |
-| invalid_controlled_value | 2782 |
-| missing_required_field | 9211 |
+| invalid_controlled_value | 2698 |
+| missing_required_field | 9209 |
 | schema_warning | 527 |
 | unknown_yaml_block | 1395 |
-| v2_migration_debt | 16672 |
+| v2_migration_debt | 16024 |
 
 ## 5. Erreurs bloquantes
 
@@ -121,9 +121,9 @@ Aucun libellé faible.
 ## 8. Migration v2
 
 - Atomes : 2716
-- Atomes v2 complets : 73
-- Atomes v2 incomplets : 2643
-- Avertissements de champs v2 manquants : 16672
+- Atomes v2 complets : 145
+- Atomes v2 incomplets : 2571
+- Avertissements de champs v2 manquants : 16024
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -131,7 +131,6 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 
 | Fichier | Problèmes |
 |---|---:|
-| sources/mike_west_joy_division/source_atomisation_02.md | 734 |
 | sources/mike_west_joy_division/source_atomisation_03.md | 483 |
 | sources/flowers/source.md | 432 |
 | sources/mike_west_joy_division/source_atomisation_04.md | 417 |
@@ -151,6 +150,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/reynolds_rip_it_up/source.md | 285 |
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md | 275 |
+| sources/flowers/second_pass_new_order_late_discography.md | 261 |
 
 ## 10. Commandes utiles
 
