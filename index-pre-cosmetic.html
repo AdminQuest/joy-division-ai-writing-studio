@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0f1115">
+<title>Joy Division — Portail documentaire</title>
+<link rel="stylesheet" href="assets/hub.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <h1>Joy Division — Portail documentaire</h1>
+    <p class="subtitle">Registres, outils et collection — un écosystème documentaire dédié au groupe.</p>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Sections du portail">
+  <button class="tab" id="tab-registers" role="tab" aria-selected="true" aria-controls="panel-registers" data-tab="registers">Registres</button>
+  <button class="tab" id="tab-tools" role="tab" aria-selected="false" aria-controls="panel-tools" data-tab="tools" tabindex="-1">Outils du livre</button>
+  <button class="tab" id="tab-collection" role="tab" aria-selected="false" aria-controls="panel-collection" data-tab="collection" tabindex="-1">Collection</button>
+</nav>
+
+<main class="hub-main">
+
+<!-- ════════════════════════════════════════════
+     ONGLET 1 — REGISTRES
+     ════════════════════════════════════════════ -->
+<section id="panel-registers" class="panel theme-registers" role="tabpanel" aria-labelledby="tab-registers" data-panel="registers">
+<div class="cards-grid">
+
+<!-- 1. Chronologique -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-chrono">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h5"/><path d="M17.5 17.5 16 16.3V14"/><circle cx="16" cy="16" r="6"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre chronologique</h3>
+      <p class="card-summary">Concerts, sessions, événements biographiques, transitions.</p>
+      <span class="card-counter">433 entrées</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-chrono" hidden>
+      <ul>
+        <li>timeline documentaire</li>
+        <li>filtres par année</li>
+        <li>lieux et acteurs</li>
+        <li>export CSV</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/chronology-register/">Ouvrir</a>
+</article>
+
+<!-- 2. Releases (externe) -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-releases">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M6 12c0-1.7.7-3.2 1.8-4.2"/><circle cx="12" cy="12" r="2"/><path d="M18 12c0 1.7-.7 3.2-1.8 4.2"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des releases</h3>
+      <p class="card-summary">Catalogue des éditions officielles, pirates, bootlegs, vidéos, livres et matériel para-discographique.</p>
+      <span class="card-counter">1669 variantes</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-releases" hidden>
+      <ul>
+        <li>7 catégories (officiel, pirate, bootleg, vidéo, coffret, livre, para)</li>
+        <li>couvertures Discogs</li>
+        <li>mode éclaté / consolidé</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-releases/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 3. Concerts (à venir) -->
+<article class="card card-soon" aria-disabled="true">
+  <span class="card-badge-soon">Bientôt disponible</span>
+  <div class="card-toggle is-static">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des concerts</h3>
+      <p class="card-summary">Concerts documentés, setlists, lieux, dates et personnel.</p>
+    </div>
+  </div>
+</article>
+
+<!-- 4. Acteurs -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-people">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des acteurs</h3>
+      <p class="card-summary">Personnes, rôles, réseaux, contradictions documentaires et précautions méthodologiques.</p>
+      <span class="card-counter">661 acteurs</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-people" hidden>
+      <ul>
+        <li>sources croisées</li>
+        <li>rôles et fonctions</li>
+        <li>événements liés</li>
+        <li>contradictions</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/people-register/">Ouvrir</a>
+</article>
+
+<!-- 5. Lieux -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-places">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des lieux</h3>
+      <p class="card-summary">Villes, quartiers, salles, studios, estates, lieux de mémoire liés au corpus.</p>
+      <span class="card-counter">65 lieux</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-places" hidden>
+      <ul>
+        <li>géographie documentaire</li>
+        <li>types de lieux</li>
+        <li>sources et chapitres</li>
+        <li>prudences d'usage</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/places-register/">Ouvrir</a>
+</article>
+
+<!-- 6. Organisations -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-orgs">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des organisations</h3>
+      <p class="card-summary">Labels, institutions, groupes, médias, forces de police et organisations politiques.</p>
+      <span class="card-counter">142 organisations</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-orgs" hidden>
+      <ul>
+        <li>Factory, Granada, GMP</li>
+        <li>organisations musicales et politiques</li>
+        <li>types et usages</li>
+        <li>sources associées</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/organizations-register/">Ouvrir</a>
+</article>
+
+<!-- 7. Chansons -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-songs">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des chansons</h3>
+      <p class="card-summary">Vue analytique des chansons : thèmes, motifs, production, live history, sources et chapitres liés.</p>
+      <span class="card-counter">52 titres</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-songs" hidden>
+      <ul>
+        <li>thèmes récurrents</li>
+        <li>présence et motifs</li>
+        <li>production</li>
+        <li>liens intertextuels</li>
+        <li>52 titres canoniques Joy Division et Warsaw, 440 mentions au total dans les atomes</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/song-register/">Ouvrir</a>
+</article>
+
+<!-- 8. Citations -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-quotes">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Registre des citations</h3>
+      <p class="card-summary">Vue documentaire dynamique construite automatiquement depuis les citations structurées du corpus.</p>
+      <span class="card-counter">909 citations</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-quotes" hidden>
+      <ul>
+        <li>citation originale</li>
+        <li>traduction éditoriale</li>
+        <li>niveau de vérification</li>
+        <li>chapitres liés</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/quote-register/">Ouvrir</a>
+</article>
+
+</div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     ONGLET 2 — OUTILS DU LIVRE
+     ════════════════════════════════════════════ -->
+<section id="panel-tools" class="panel theme-tools" role="tabpanel" aria-labelledby="tab-tools" data-panel="tools" hidden>
+<div class="cards-grid">
+
+<!-- 1. Documents maîtres -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-master">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Documents maîtres</h3>
+      <p class="card-summary">Consultation pleine page des documents maîtres générés automatiquement depuis les atomes, citations et registres consolidés.</p>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-master" hidden>
+      <ul>
+        <li>lecture chapitre par chapitre</li>
+        <li>Markdown intégral</li>
+        <li>consolidation documentaire</li>
+        <li>navigation structurée</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/master-docs/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 2. Éditeur de Songbook -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-songbook">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Éditeur de Songbook</h3>
+      <p class="card-summary">Interface locale d'édition des dossiers chansons : paroles, sessions, notes éditoriales, variantes et sources.</p>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-songbook" hidden>
+      <ul>
+        <li>dossier chanson complet</li>
+        <li>édition locale</li>
+        <li>notes éditoriales</li>
+        <li>synchronisation repo privé</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/local-songbook-editor/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 3. Tableau de bord du corpus -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-dashboard">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Tableau de bord du corpus</h3>
+      <p class="card-summary">Vue d'ensemble de toutes les sources du corpus : statut d'atomisation, pages couvertes, atomes et registres produits, couverture par chapitre.</p>
+      <span class="card-counter">89 sources</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-dashboard" hidden>
+      <ul>
+        <li>statut par source</li>
+        <li>analyse des lacunes</li>
+        <li>couverture chapitres</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/corpus-dashboard/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 4. Prompt Studio -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-prompt">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72"/><path d="m14 7 3 3"/><path d="M5 6v4"/><path d="M19 14v4"/><path d="M10 2v2"/><path d="M7 8H3"/><path d="M21 16h-4"/><path d="M11 3H9"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Prompt Studio</h3>
+      <p class="card-summary">Atelier de création de prompts contraints pour l'écriture du livre.</p>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-prompt" hidden>
+      <ul>
+        <li>prompts</li>
+        <li>structuration</li>
+        <li>production</li>
+        <li>contrôle</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-studio-private/apps/prompt-studio/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+<!-- 5. Concepts, motifs et mythes -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concepts">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Concepts, motifs et mythes</h3>
+      <p class="card-summary">Vue d'ensemble des concepts analytiques, motifs argumentatifs et mythes à déconstruire ou nuancer.</p>
+      <span class="card-counter">1034 noms</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-concepts" hidden>
+      <ul>
+        <li>concepts critiques</li>
+        <li>motifs argumentatifs</li>
+        <li>mythes et corrections</li>
+        <li>liens par sources et chapitres</li>
+        <li>1034 noms uniques après dédoublonnage des concepts, motifs et mythes</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concept-register/">Ouvrir</a>
+</article>
+
+<!-- 6. RAG Studio -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-rag">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">RAG Studio</h3>
+      <p class="card-summary">Interface documentaire pour interroger les atomes, citations, chansons, personnes, lieux et événements.</p>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-rag" hidden>
+      <ul>
+        <li>recherche texte entière</li>
+        <li>filtrage documentaire</li>
+        <li>navigation par sources</li>
+        <li>requêtes bilingues FR / EN</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/rag-studio/">Ouvrir</a>
+</article>
+
+</div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     ONGLET 3 — COLLECTION
+     ════════════════════════════════════════════ -->
+<section id="panel-collection" class="panel theme-collection" role="tabpanel" aria-labelledby="tab-collection" data-panel="collection" hidden>
+<div class="cards-grid cards-grid-single">
+
+<!-- Collection personnelle -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-collection">
+    <span class="card-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" x2="12" y1="22" y2="12"/></svg>
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">Collection personnelle</h3>
+      <p class="card-summary">Inventaire personnel de la collection — 504 exemplaires possédés, photos personnelles, notes d'acquisition. Accès restreint, authentification GitHub requise.</p>
+      <span class="card-counter">504 exemplaires</span>
+    </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-collection" hidden>
+      <ul>
+        <li>jointure runtime avec le registre public (variantes + covers)</li>
+        <li>filtres : type, lettre, photo perso, prix</li>
+        <li>mode B3 : possédés + variantes manquantes</li>
+        <li>photos perso avec fallback Google Photos</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-collection/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
+</article>
+
+</div>
+</section>
+
+</main>
+
+<script src="assets/hub.js"></script>
+</body>
+</html>
