@@ -283,8 +283,9 @@ Greenwood & Tarpey proposent le concept de textscape comme cadre analytique orig
 ```yaml
 id: PLACE-S83-001
 source_id: S83
-nom: "Little Peter Street — T.J. Davidson's studio"
-type: studio_espace_industriel
+label: "Little Peter Street — T.J. Davidson's studio"
+type: studio
+type_detail: studio_espace_industriel
 pages_pdf: "193"
 pages_livre: "162"
 chapitres: [1, 3]
@@ -301,8 +302,9 @@ Ancien espace d'usine dans Little Peter Street, Manchester, où Joy Division tou
 ```yaml
 id: PLACE-S83-002
 source_id: S83
-nom: "Hulme Crescents"
-type: cité_habitation_post_guerre
+label: "Hulme Crescents"
+type: habitat
+type_detail: cité_habitation_post_guerre
 pages_pdf: "190–192"
 pages_livre: "159–161"
 chapitres: [1]
@@ -318,8 +320,9 @@ Ensemble d'habitation de Manchester, complété en 1972, initialement vénéré 
 ```yaml
 id: PLACE-S83-003
 source_id: S83
-nom: "Ferranti's manufacturing plant"
-type: usine_manufacturiere
+label: "Ferranti's manufacturing plant"
+type: industrie
+type_detail: usine_manufacturiere
 pages_pdf: "194"
 pages_livre: "163"
 chapitres: [3]
@@ -335,8 +338,9 @@ Usine de fabrication de climatiseurs à Manchester. Hannett y passait des heures
 ```yaml
 id: PLACE-S83-004
 source_id: S83
-nom: "Salford Technical School"
-type: lieu_historique_rencontre
+label: "Salford Technical School"
+type: education
+type_detail: lieu_historique_rencontre
 pages_pdf: "186, 201"
 pages_livre: "155, 169"
 chapitres: [1, 3]

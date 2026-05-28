@@ -88,11 +88,12 @@ prudence: >
 ```yaml
 id: PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET
 source_id: S41
-titre: "T. J. Davidson’s, Little Peter Street"
-nature: lieu de répétition / lieu-image
+label: "T. J. Davidson’s, Little Peter Street"
+type: studio
+type_detail: lieu_repetition
 usage: >
   Lieu central de répétition, de cristallisation sonore, de photographies célèbres et de tournage de la vidéo de « Love Will Tear Us Apart ».
-atomes_lies:
+atoms:
   - S41-A053
 chapitres:
   - Chapitre 3
