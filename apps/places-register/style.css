@@ -1,0 +1,261 @@
+/* Registre des lieux — feuille de style dédiée.
+   Identité propre (ocre rouille / brique mancunienne) alignée sur
+   l'écosystème clair crème du hub. Strictement local : n'importe et ne
+   référence aucun autre registre. */
+
+:root {
+  --bg: #fafaf7;
+  --bg-card: #ffffff;
+  --text: #1f2937;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #b8845a;            /* ocre rouille — brique mancunienne */
+  --accent-bg: rgba(184, 132, 90, .10);
+
+  --radius-card: 8px;
+  --radius-ctrl: 6px;
+  --transition: 200ms ease;
+  --shadow-rest: 0 1px 2px rgba(0, 0, 0, .04);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, .06);
+
+  --page-px: 32px;
+}
+@media (min-width: 720px)  { :root { --page-px: 64px; } }
+@media (min-width: 1024px) { :root { --page-px: 96px; } }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.places-hero {
+  padding: 40px var(--page-px) 0;
+}
+.places-hero__inner { max-width: 1400px; margin: 0 auto; }
+.places-hero__back {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.places-hero__back:hover { color: var(--accent); }
+.places-hero h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.places-hero__subtitle {
+  margin: 8px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-muted);
+  max-width: 70ch;
+}
+
+/* ── Layout ─────────────────────────────────────────────── */
+.places-layout {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px var(--page-px) 64px;
+}
+
+/* ── Toolbar ────────────────────────────────────────────── */
+.places-toolbar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.places-toolbar__filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+.places-field { display: flex; flex-direction: column; gap: 6px; }
+.places-field label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.places-field input,
+.places-field select {
+  width: 100%;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-ctrl);
+  padding: 8px 12px;
+  transition: border-color var(--transition);
+}
+.places-field input:focus,
+.places-field select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.places-toolbar__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 14px;
+}
+.places-btn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: var(--radius-ctrl);
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text);
+  transition: border-color var(--transition), background var(--transition);
+}
+.places-btn:hover { border-color: var(--accent); }
+.places-btn--primary {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+.places-toolbar__meta {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* ── Sections par type ──────────────────────────────────── */
+.places-section { margin-top: 32px; }
+.places-section:first-of-type { margin-top: 0; }
+.places-section__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.places-section__header svg { width: 24px; height: 24px; color: var(--accent); flex: none; }
+.places-section__title { font-size: 20px; font-weight: 600; margin: 0; }
+.places-section__count { font-size: 13px; font-weight: 400; color: var(--text-muted); }
+
+/* ── Grille de cards ────────────────────────────────────── */
+.places-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+@media (min-width: 720px)  { .places-list { grid-template-columns: repeat(2, 1fr); gap: 18px; } }
+@media (min-width: 1024px) { .places-list { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+
+/* ── Card ───────────────────────────────────────────────── */
+.place-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-rest);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+.place-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+.place-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.place-card__header svg { width: 20px; height: 20px; color: var(--accent); flex: none; margin-top: 2px; }
+.place-card__heading { flex: 1; min-width: 0; }
+.place-card__title { font-size: 18px; font-weight: 600; margin: 0; word-wrap: break-word; }
+.place-card__subtitle {
+  font-size: 13px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 2px 0 0;
+}
+.place-card__usage {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 12px 0 0;
+}
+.place-card__more {
+  display: inline;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0 0 0 4px;
+  cursor: pointer;
+}
+.place-card__more:hover { text-decoration: underline; }
+.place-card__more:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+.place-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.place-badge {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+.place-card__file {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--text-muted);
+  word-break: break-all;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity var(--transition);
+}
+.place-card:hover .place-card__file,
+.place-card:focus-within .place-card__file {
+  opacity: 1;
+  max-height: 60px;
+}
+.place-card__file code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+/* ── États ──────────────────────────────────────────────── */
+.places-status {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding: 24px 0;
+}
+.places-empty {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding: 32px 0;
+  text-align: center;
+}
