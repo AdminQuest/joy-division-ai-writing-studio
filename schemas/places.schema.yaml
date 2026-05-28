@@ -134,6 +134,21 @@ properties:
     items:
       type: string
 
+  lat:
+    type: number
+    minimum: -90
+    maximum: 90
+    description: >
+      Latitude en degrés décimaux (WGS84). Optionnel ; vide pour l'instant,
+      renseigné par l'étape 12b-1.c (carte Leaflet).
+  lng:
+    type: number
+    minimum: -180
+    maximum: 180
+    description: >
+      Longitude en degrés décimaux (WGS84). Optionnel ; vide pour l'instant,
+      renseigné par l'étape 12b-1.c (carte Leaflet).
+
   pages_pdf:
     type: [string, integer]
     description: "Provenance : page(s) PDF de la source."
