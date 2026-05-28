@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-27T05:07:10`
+Généré le : `2026-05-28T00:07:41`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 1395 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2574 atome(s) incomplet(s) sur 2719.
+Le repo est techniquement exploitable, mais 1476 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 2532 atome(s) incomplet(s) sur 2725.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7307
+- Enregistrements : 7588
 - Erreurs : 0
-- Avertissements : 30557
-- Sources déclarées : 89
-- Sources utilisées : 75
-- Sources exportées : 75
+- Avertissements : 30221
+- Sources déclarées : 95
+- Sources utilisées : 79
+- Sources exportées : 79
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,31 +22,33 @@ La dette principale reste la migration v2 : 2574 atome(s) incomplet(s) sur 2719.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2719 |
+| atom | 2725 |
 | chronology | 476 |
 | concept | 456 |
-| metadata | 264 |
+| concert | 197 |
+| metadata | 269 |
 | motif | 424 |
 | myth | 101 |
 | person | 305 |
 | quote | 551 |
 | quote_batch | 1 |
 | rules | 1 |
+| session | 18 |
 | song | 110 |
-| source | 114 |
+| source | 118 |
 | template | 360 |
-| unknown | 1425 |
+| unknown | 1476 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 665 |
-| invalid_controlled_value | 2701 |
-| missing_required_field | 9221 |
-| schema_warning | 527 |
-| unknown_yaml_block | 1395 |
-| v2_migration_debt | 16048 |
+| invalid_controlled_value | 2656 |
+| missing_required_field | 9257 |
+| schema_warning | 497 |
+| unknown_yaml_block | 1476 |
+| v2_migration_debt | 15670 |
 
 ## 5. Erreurs bloquantes
 
@@ -94,13 +96,15 @@ Aucune.
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-004] : Unable to infer documentary kind
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-005] : Unable to infer documentary kind
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-006] : Unable to infer documentary kind
-- … 1355 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1436 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
 Aucune source utilisée n’est absente de `data/registre.json`.
 
 Sources déclarées mais non utilisées :
+- REGISTRY-CONCERTS — joydiv.org/concerts.htm — reference_externe
+- REGISTRY-SESSIONS — joydiv.org/sessions.htm — reference_externe
 - S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013 — verifie
 - S03 — Demographia, England Largest Cities, s.d. — a_consolider
 - S04 — Kidd, Manchester: A History, 2006 — verifie
@@ -120,10 +124,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2719
-- Atomes v2 complets : 145
-- Atomes v2 incomplets : 2574
-- Avertissements de champs v2 manquants : 16048
+- Atomes : 2725
+- Atomes v2 complets : 193
+- Atomes v2 incomplets : 2532
+- Avertissements de champs v2 manquants : 15670
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -131,7 +135,6 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 
 | Fichier | Problèmes |
 |---|---:|
-| sources/mike_west_joy_division/source_atomisation_03.md | 483 |
 | sources/flowers/source.md | 432 |
 | sources/mike_west_joy_division/source_atomisation_04.md | 417 |
 | sources/mike_west_joy_division/source_atomisation_01.md | 417 |
@@ -151,6 +154,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |
 | sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md | 275 |
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
+| sources/morris_record_play_pause/source_part_06.md | 251 |
 
 ## 10. Commandes utiles
 
