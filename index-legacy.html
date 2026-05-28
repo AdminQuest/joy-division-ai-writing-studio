@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy Division — AI Writing Studio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f1115;color:#f1f1f1}
+
+/* ── Header ── */
+header{background:linear-gradient(to bottom,#1b2029,#101319);border-bottom:1px solid #2a2f38;padding:42px 28px}
+.header-inner{max-width:1100px;margin:auto}
+h1{margin:0;font-size:2.2rem;letter-spacing:-.03em}
+.subtitle{margin:10px 0 0;color:#aab2bd;max-width:780px;line-height:1.55}
+
+/* ── Legend ── */
+.legend{display:flex;flex-wrap:wrap;gap:10px;max-width:1100px;margin:26px auto 0;padding:0 28px}
+.legend-item{display:flex;align-items:center;gap:8px;padding:8px 16px;border-radius:10px;font-size:.86rem;font-weight:600;border:1px solid transparent;white-space:nowrap}
+.legend-item.priv{background:#1e0d13;border-color:#6b2030;color:#e08090}
+.legend-item.struct{background:#0e1422;border-color:#2d4f90;color:#7aabdf}
+.legend-item.spec{background:#0b1a15;border-color:#1e5540;color:#5aab85}
+.legend-icon{font-size:1.1rem}
+.legend-label{line-height:1}
+
+/* ── Layout ── */
+main{max-width:1100px;margin:auto;padding:30px 28px}
+.block{margin:0 0 38px}
+.block-header{margin:0 0 16px}
+.block-header h2{margin:0;font-size:1.35rem;display:flex;align-items:center;gap:10px}
+.block-header h2 .cat-icon{font-size:1.25rem}
+.block-header p{margin:8px 0 0;color:#aab2bd;line-height:1.55;max-width:860px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+
+/* ── Cards (base) ── */
+.card{background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:24px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between;border-left-width:3px}
+.card.compact{min-height:190px}
+.card h3{margin:0 0 10px;font-size:1.15rem}
+.card p{color:#c8d0da;line-height:1.55;margin:0 0 18px}
+.card ul{color:#aeb7c2;margin:0 0 22px;padding-left:20px;line-height:1.55}
+
+/* ── Private cards — bordeaux ── */
+.card.priv{background:#1a0e12;border-color:#5a2030;border-left-color:#8b2035}
+.card.priv h3{color:#f0c0c8}
+
+/* ── Structuring cards — indigo ── */
+.card.struct{background:#101828;border-color:#2a3f70;border-left-color:#4060c0}
+.card.struct h3{color:#a8c4e8}
+
+/* ── Specialized cards — teal ── */
+.card.spec{background:#0d1a16;border-color:#1c4e3a;border-left-color:#35806a}
+.card.spec h3{color:#98d4b8}
+
+/* ── Section header accent lines ── */
+.block-header.priv h2{color:#e08090}
+.block-header.struct h2{color:#7aabdf}
+.block-header.spec h2{color:#5aab85}
+
+/* ── Buttons ── */
+a.button{display:inline-block;text-decoration:none;border-radius:10px;padding:12px 16px;font-weight:700;width:max-content}
+a.button.btn-priv{background:#7a1a2a;color:#f5d5da}
+a.button.btn-priv:hover{background:#8f2030}
+a.button.btn-struct{background:#1a3a70;color:#c8daf0}
+a.button.btn-struct:hover{background:#224890}
+a.button.btn-spec{background:#1a5040;color:#c0e5d5}
+a.button.btn-spec:hover{background:#226050}
+
+/* ── Badges ── */
+.badge{display:inline-block;border:1px solid #394252;border-radius:999px;color:#c8d0da;padding:4px 9px;font-size:.78rem;margin:0 6px 10px 0}
+.badge.struct{border-color:#546a95;color:#9ab8e0}
+.badge.spec{border-color:#4a7a60;color:#7ac8a0}
+.badge.priv{border-color:#7a3040;color:#e0a0b0}
+
+@media(max-width:850px){.grid{grid-template-columns:1fr}h1{font-size:1.8rem}.legend{gap:8px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="header-inner">
+  <h1>Joy Division — AI Writing Studio</h1>
+  <p class="subtitle">Portail documentaire et rédactionnel. Les registres deviennent des vues dynamiques générées automatiquement depuis les atomes.</p>
+</div>
+<div class="legend">
+  <div class="legend-item priv">
+    <span class="legend-icon">🔒</span>
+    <span class="legend-label">Applications privées — accès authentifié, repo privé</span>
+  </div>
+  <div class="legend-item struct">
+    <span class="legend-icon">🧭</span>
+    <span class="legend-label">Registres structurants — concepts, motifs, mythes, références</span>
+  </div>
+  <div class="legend-item spec">
+    <span class="legend-icon">📋</span>
+    <span class="legend-label">Registres spécialisés — citations, chronologie, acteurs, lieux, organisations, chansons, RAG</span>
+  </div>
+</div>
+</header>
+
+<main>
+
+<!-- ════════════════════════════════════════════
+     ESPACE PRIVÉ
+     ════════════════════════════════════════════ -->
+<section class="block">
+<div class="block-header priv">
+  <h2><span class="cat-icon">🔒</span> Espace privé</h2>
+  <p>Applications hébergées dans le repo privé. Accès authentifié requis.</p>
+  <span class="badge priv">repo privé</span><span class="badge priv">accès restreint</span>
+</div>
+<div class="grid">
+
+<article class="card priv">
+<div>
+  <h3>Documents maîtres</h3>
+  <p>Consultation pleine page des documents maîtres générés automatiquement depuis les atomes, citations et registres consolidés.</p>
+  <ul><li>lecture chapitre par chapitre ;</li><li>Markdown intégral ;</li><li>consolidation documentaire ;</li><li>navigation structurée.</li></ul>
+</div>
+<a class="button btn-priv" href="https://adminquest.github.io/joy-division-studio-private/apps/master-docs/">Ouvrir les documents maîtres</a>
+</article>
+
+<article class="card priv">
+<div>
+  <h3>Prompt Studio</h3>
+  <p>Atelier de construction de prompts contraints pour l'écriture du livre.</p>
+  <ul><li>sources ;</li><li>structuration ;</li><li>production ;</li><li>contrôle.</li></ul>
+</div>
+<a class="button btn-priv" href="https://adminquest.github.io/joy-division-studio-private/apps/prompt-studio/">Ouvrir le Prompt Studio</a>
+</article>
+
+<article class="card priv">
+<div>
+  <h3>Éditeur de Songbook</h3>
+  <p>Interface locale d'édition des dossiers chansons : paroles, sessions, notes éditoriales, variantes et sources.</p>
+  <ul><li>dossier chanson complet ;</li><li>édition locale ;</li><li>notes éditoriales ;</li><li>synchronisation repo privé.</li></ul>
+</div>
+<a class="button btn-priv" href="https://adminquest.github.io/joy-division-studio-private/apps/local-songbook-editor/">Ouvrir l'éditeur de Songbook</a>
+</article>
+
+<article class="card priv">
+<div>
+  <h3>📊 Tableau de bord du corpus</h3>
+  <p>Vue d'ensemble de toutes les sources du corpus : statut d'atomisation, pages couvertes, atomes et registres produits, couverture par chapitre.</p>
+  <ul><li>88 sources du corpus ;</li><li>statut par source ;</li><li>analyse des lacunes ;</li><li>couverture chapitres.</li></ul>
+</div>
+<a class="button btn-priv" href="https://adminquest.github.io/joy-division-studio-private/apps/corpus-dashboard/" target="_blank">Ouvrir le tableau de bord</a>
+</article>
+
+</div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     REGISTRES STRUCTURANTS
+     ════════════════════════════════════════════ -->
+<section class="block">
+<div class="block-header struct">
+  <h2><span class="cat-icon">🧭</span> Registres structurants</h2>
+  <p>Ils organisent l'argumentation du livre : concepts, motifs, mythes et références canoniques. Ils servent à stabiliser les catégories d'analyse et les relations documentaires.</p>
+  <span class="badge struct">concepts</span><span class="badge struct">motifs</span><span class="badge struct">mythes</span><span class="badge struct">références</span>
+</div>
+<div class="grid">
+
+<article class="card struct compact">
+<div>
+  <h3>Concepts, motifs et mythes</h3>
+  <p>Vue structurante des concepts analytiques, motifs récurrents et mythes à déconstruire ou nuancer.</p>
+  <ul><li>concepts critiques ;</li><li>motifs argumentatifs ;</li><li>mythes et corrections ;</li><li>liens par sources et chapitres.</li></ul>
+</div>
+<a class="button btn-struct" href="apps/concept-register/">Ouvrir le registre structurant</a>
+</article>
+
+<article class="card struct compact">
+<div>
+  <h3>Références et relations RAG</h3>
+  <p>Accès au registre consolidé des références, aux notes RAG et aux arbitrages canoniques de sources.</p>
+  <ul><li>sources canoniques ;</li><li>relations stabilisées ;</li><li>arbitrages ;</li><li>redirections documentaires.</li></ul>
+</div>
+<a class="button btn-struct" href="registers/references/master_references.md">Ouvrir les références</a>
+</article>
+
+</div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     REGISTRES SPÉCIALISÉS
+     ════════════════════════════════════════════ -->
+<section class="block">
+<div class="block-header spec">
+  <h2><span class="cat-icon">📋</span> Registres spécialisés</h2>
+  <p>Ils classent les objets documentaires par nature : citations, chronologie, personnes, lieux, organisations, chansons et corpus RAG.</p>
+  <span class="badge spec">citations</span><span class="badge spec">chronologie</span><span class="badge spec">acteurs</span><span class="badge spec">lieux</span><span class="badge spec">organisations</span><span class="badge spec">chansons</span><span class="badge spec">RAG</span>
+</div>
+<div class="grid">
+
+<article class="card spec compact">
+<div>
+  <h3>Registre des citations</h3>
+  <p>Vue documentaire dynamique construite automatiquement depuis les citations structurées du corpus.</p>
+  <ul><li>citation originale ;</li><li>traduction éditoriale ;</li><li>niveau de vérification ;</li><li>chapitres liés.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/quote-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>Registre chronologique</h3>
+  <p>Vue consolidée des concerts, sessions, sorties, événements biographiques et transitions.</p>
+  <ul><li>timeline documentaire ;</li><li>filtres par année ;</li><li>lieux et acteurs ;</li><li>export CSV.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/chronology-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>Registre des acteurs</h3>
+  <p>Vue consolidée des personnes, rôles, réseaux, contradictions documentaires et précautions méthodologiques.</p>
+  <ul><li>sources croisées ;</li><li>rôles et fonctions ;</li><li>événements liés ;</li><li>contradictions.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/people-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>Registre des lieux</h3>
+  <p>Vue des villes, quartiers, salles, studios, estates et lieux de mémoire liés au corpus.</p>
+  <ul><li>géographie documentaire ;</li><li>types de lieux ;</li><li>sources et chapitres ;</li><li>prudences d'usage.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/places-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>Registre des organisations</h3>
+  <p>Vue des labels, institutions, groupes, médias, forces de police et organisations politiques.</p>
+  <ul><li>Factory, Granada, GMP ;</li><li>organisations musicales et politiques ;</li><li>types et usages ;</li><li>sources associées.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/organizations-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>Registre des chansons</h3>
+  <p>Vue analytique des chansons : thèmes, motifs, production, live history, sources et chapitres liés.</p>
+  <ul><li>thèmes récurrents ;</li><li>citations et motifs ;</li><li>production ;</li><li>liens interchapitres.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/song-register/">Ouvrir le registre</a>
+</article>
+
+<article class="card spec compact">
+<div>
+  <h3>RAG Studio</h3>
+  <p>Interface documentaire pour interroger les atomes, citations, chansons, personnes, lieux et événements.</p>
+  <ul><li>recherche texte simple ;</li><li>filtrage documentaire ;</li><li>navigation par sources ;</li><li>requêtes bilingues FR / EN.</li></ul>
+</div>
+<a class="button btn-spec" href="apps/rag-studio/">Ouvrir le RAG Studio</a>
+</article>
+
+</div>
+</section>
+
+</main>
+</body>
+</html>
