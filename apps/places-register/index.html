@@ -3,36 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre des lieux — Joy Division</title>
-  <link rel="stylesheet" href="../people-register/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre des lieux</h1>
-      <p class="subtitle">Vue documentaire dynamique des villes, quartiers, salles, studios, estates et lieux de mémoire.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des lieux…</div>
-      <div class="filters">
-        <div class="field"><label for="search">Recherche</label><input id="search" type="search" placeholder="Hulme, Moss Side, Wythenshawe, Factory, Strawberry…"></div>
-        <div class="field"><label for="source-filter">Source</label><select id="source-filter"><option value="">Toutes</option></select></div>
-        <div class="field"><label for="type-filter">Type</label><select id="type-filter"><option value="">Tous</option></select></div>
-        <div class="field"><label for="chapter-filter">Chapitre</label><select id="chapter-filter"><option value="">Tous</option></select></div>
+  <div id="places-app">
+    <header class="places-hero">
+      <div class="places-hero__inner">
+        <a class="places-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des lieux</h1>
+        <p class="places-hero__subtitle">Villes, quartiers, salles, studios, habitat, industrie, lieux de mémoire — la géographie documentaire du corpus Joy Division, groupée par type.</p>
       </div>
-      <div class="actions"><button id="reset-filters" type="button">Réinitialiser</button><button id="download-csv" type="button">Exporter CSV</button></div>
-      <p class="note">Ce registre lit directement les fichiers <code>registers/places/*.md</code>.</p>
-    </section>
-    <section class="register-panel">
-      <div class="results-header"><h2>Lieux</h2><div id="results-meta"></div></div>
-      <div id="items-list" class="people-list"></div>
-    </section>
-  </main>
+    </header>
+
+    <main class="places-layout">
+      <section class="places-toolbar" aria-label="Filtres et recherche">
+        <div class="places-toolbar__filters">
+          <div class="places-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Hulme, Moss Side, Factory, Strawberry…" autocomplete="off">
+          </div>
+          <div class="places-field">
+            <label for="type-filter">Type</label>
+            <select id="type-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="places-field">
+            <label for="detail-filter">Détail</label>
+            <select id="detail-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="places-field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="places-field">
+            <label for="chapter-filter">Chapitre</label>
+            <select id="chapter-filter"><option value="">Tous</option></select>
+          </div>
+        </div>
+        <div class="places-toolbar__actions">
+          <button id="reset-filters" class="places-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="places-btn places-btn--primary" type="button">Exporter CSV</button>
+          <span class="places-toolbar__meta" id="results-meta"></span>
+        </div>
+      </section>
+
+      <div id="places-status" class="places-status">Chargement des lieux…</div>
+      <div id="places-sections"></div>
+    </main>
+  </div>
+
   <script src="../lib/dynamic-registers.js"></script>
+  <script src="icons.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
