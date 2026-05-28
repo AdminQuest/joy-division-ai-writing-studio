@@ -8,7 +8,6 @@
   /* Texte */
   --text:#1f2937;
   --text-muted:#6b7280;
-  --text-dim:#6b7280;
 
   /* Bordures neutres */
   --border:#e5e7eb;
@@ -18,25 +17,22 @@
 
   /* Accents par onglet — atténués */
   --c-registers:#5b8ebf;        /* bleu poudre */
-  --c-registers-light:#5b8ebf;
   --c-registers-bg:rgba(91,142,191,.10);
-
   --c-tools:#8a7ebd;            /* lavande */
-  --c-tools-light:#8a7ebd;
   --c-tools-bg:rgba(138,126,189,.10);
-
   --c-collection:#d49872;       /* sable abricoté */
-  --c-collection-light:#d49872;
   --c-collection-bg:rgba(212,152,114,.10);
 
   --accent:var(--c-registers);
+  --accent-bg:var(--c-registers-bg);
 
   /* Échelle de padding latéral (32 / 64 / 96 px) */
   --page-px:32px;
 
-  --radius:14px;
-  --radius-sm:8px;
-  --transition:.18s ease;
+  /* Forme */
+  --radius-card:8px;
+  --radius-btn:6px;
+  --transition:200ms ease;
 }
 
 @media(min-width:720px){
@@ -104,7 +100,7 @@ h1{
   padding:12px 24px;
   background:transparent;
   border:0;
-  border-radius:var(--radius-sm);
+  border-radius:var(--radius-btn);
   color:var(--text-muted);
   font:inherit;
   font-weight:500;
@@ -149,9 +145,9 @@ h1{
 }
 .panel[hidden]{display:none}
 
-.theme-registers{--accent:var(--c-registers)}
-.theme-tools{--accent:var(--c-tools)}
-.theme-collection{--accent:var(--c-collection)}
+.theme-registers{--accent:var(--c-registers);--accent-bg:var(--c-registers-bg)}
+.theme-tools{--accent:var(--c-tools);--accent-bg:var(--c-tools-bg)}
+.theme-collection{--accent:var(--c-collection);--accent-bg:var(--c-collection-bg)}
 
 /* ── Cards grid ─────────────────────────────── */
 .cards-grid{
@@ -176,14 +172,17 @@ h1{
   position:relative;
   background:var(--bg-card);
   border:1px solid var(--border);
-  border-radius:var(--radius);
+  border-left:3px solid var(--accent);
+  border-radius:var(--radius-card);
   display:flex;
   flex-direction:column;
   overflow:hidden;
-  transition:border-color var(--transition),background var(--transition);
+  box-shadow:0 1px 2px rgba(0,0,0,0.04);
+  transition:box-shadow var(--transition),transform var(--transition);
 }
 .card:hover{
-  border-color:var(--border-strong);
+  box-shadow:0 4px 12px rgba(0,0,0,0.06);
+  transform:translateY(-1px);
 }
 
 /* Card toggle (clickable expand region) */
@@ -198,18 +197,20 @@ h1{
   font:inherit;
   cursor:pointer;
   display:grid;
-  grid-template-columns:auto 1fr auto;
+  grid-template-columns:1fr auto;
   grid-template-areas:
-    "icon body chevron"
-    "details details details";
+    "icon chevron"
+    "body body"
+    "details details";
   column-gap:14px;
   row-gap:0;
   align-items:start;
 }
 .card-toggle.is-static{
   cursor:default;
-  grid-template-columns:auto 1fr;
-  grid-template-areas:"icon body";
+  grid-template-areas:
+    "icon icon"
+    "body body";
 }
 .card-toggle:focus-visible{
   outline:2px solid var(--accent);
@@ -220,14 +221,12 @@ h1{
   grid-area:icon;
   display:inline-flex;
   align-items:center;
-  justify-content:center;
-  width:42px;
-  height:42px;
-  border-radius:10px;
-  background:var(--c-registers-bg);
-  color:var(--c-registers);
-  flex-shrink:0;
+  justify-content:flex-start;
+  color:var(--text);
+  margin-bottom:12px;
 }
+.card-icon svg{width:32px;height:32px}
+
 .card-body{
   grid-area:body;
   min-width:0;
@@ -260,7 +259,6 @@ h1{
   justify-content:center;
   color:var(--text-muted);
   transition:transform var(--transition);
-  margin-top:8px;
 }
 .card-toggle[aria-expanded="true"] .card-chevron{
   transform:rotate(180deg);
@@ -285,22 +283,28 @@ h1{
 
 /* ── Card CTA ───────────────────────────────── */
 .card-cta{
-  display:block;
-  padding:13px 24px;
-  background:var(--bg-surface-2);
-  border-top:1px solid var(--border);
-  color:var(--c-registers);
+  display:inline-block;
+  margin:0 24px 24px;
+  padding:8px 16px;
+  background:transparent;
+  border:1px solid var(--border);
+  border-radius:var(--radius-btn);
+  color:var(--text);
   text-decoration:none;
   font-weight:500;
   font-size:13px;
   text-align:center;
-  transition:background var(--transition),color var(--transition);
-  margin-top:auto;
+  transition:background var(--transition),border-color var(--transition),color var(--transition);
+  align-self:flex-start;
 }
-.card-cta:hover{background:var(--c-registers-bg)}
+.card-cta:hover{
+  background:var(--accent-bg);
+  border-color:var(--accent);
+  color:var(--accent);
+}
 .card-cta:focus-visible{
-  outline:2px solid currentColor;
-  outline-offset:-2px;
+  outline:2px solid var(--accent);
+  outline-offset:2px;
 }
 
 /* ── External badge ─────────────────────────── */
@@ -308,20 +312,19 @@ h1{
   position:absolute;
   top:14px;
   right:14px;
-  width:24px;
-  height:24px;
+  width:20px;
+  height:20px;
   display:inline-flex;
   align-items:center;
   justify-content:center;
   color:var(--icon-external);
   background:transparent;
-  border-radius:6px;
   z-index:1;
   pointer-events:none;
 }
 
 /* ── Soon card ──────────────────────────────── */
-.card-soon{opacity:.78}
+.card-soon{opacity:.7}
 .card-badge-soon{
   display:inline-block;
   margin:24px 24px 0;
@@ -335,31 +338,13 @@ h1{
   font-weight:500;
 }
 
-/* ── Theme overrides ────────────────────────── */
-.theme-tools .card-icon{
-  background:var(--c-tools-bg);
-  color:var(--c-tools);
-}
-.theme-tools .card-cta{color:var(--c-tools)}
-.theme-tools .card-cta:hover{background:var(--c-tools-bg)}
-.theme-tools .card-toggle:focus-visible{outline-color:var(--c-tools)}
-
-.theme-collection .card-icon{
-  background:var(--c-collection-bg);
-  color:var(--c-collection);
-}
-.theme-collection .card-cta{color:var(--c-collection)}
-.theme-collection .card-cta:hover{background:var(--c-collection-bg)}
-.theme-collection .card-toggle:focus-visible{outline-color:var(--c-collection)}
-
 /* ── Responsive ─────────────────────────────── */
 @media(max-width:719px){
   h1{font-size:26px}
   .subtitle{font-size:15px}
   .tab{padding:12px 16px;font-size:14px}
   .card-toggle{padding:20px;column-gap:12px}
-  .card-icon{width:38px;height:38px}
-  .card-cta{padding:12px 20px}
+  .card-cta{margin:0 20px 20px}
   .card-badge-soon{margin:20px 20px 0}
 }
 
@@ -367,4 +352,5 @@ h1{
 @media(prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
   html{scroll-behavior:auto}
+  .card:hover{transform:none}
 }
