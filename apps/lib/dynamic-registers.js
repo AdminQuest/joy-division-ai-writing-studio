@@ -165,7 +165,13 @@ window.DynamicRegisters = (() => {
       const markdown = await fetch(`${RAW_BASE}${path}`, { cache: 'no-store' }).then(r => r.ok ? r.text() : '');
       return parseMarkdown(path, markdown);
     }));
-    const records = chunks.flat();
+    const records = chunks.flat()
+      // Drop document-header parasites: a place-kind record carrying a
+      // type_unite other than "place" (e.g. type_unite: registre_lieux) is
+      // register metadata, not an actual place. Scoped to kind 'place' so
+      // other registers that use type_unite legitimately (song dossiers,
+      // person/chronology/concept records, etc.) are left untouched.
+      .filter(r => !(r.kind === 'place' && r.data && r.data.type_unite && r.data.type_unite !== 'place'));
     return kinds ? records.filter(r => kinds.includes(r.kind)) : records;
   }
 
