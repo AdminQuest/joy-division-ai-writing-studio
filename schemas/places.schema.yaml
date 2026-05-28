@@ -51,16 +51,19 @@ properties:
     type: string
     description: "Famille canonique du lieu."
     enum:
-      - ville          # échelles urbaines : ville, municipalité, comté, centralité
-      - quartier       # quartiers, rues, axes urbains
-      - logement       # estates, tower blocks, suburbs, cités
-      - studio         # studios, espaces de répétition / production
-      - salle          # salles de concert, clubs, youth clubs
-      - commerce       # disquaires, hubs marchands
+      - ville           # échelles urbaines : ville, municipalité, comté, centralité
+      - quartier        # quartiers, rues, axes urbains
+      - habitat         # estates, tower blocks, suburbs, cités, domiciles
+      - studio          # studios, espaces de répétition / production
+      - salle           # salles de concert, clubs, youth clubs
+      - commerce        # disquaires, librairies, grands magasins, hubs marchands
       - education       # écoles, universités
-      - sante          # hôpitaux, lieux de soin
-      - industrie      # sites industriels, usines
-      - lieu_memoire   # lieux symboliques, de témoignage, de projection, sites historiques
+      - sante           # hôpitaux, lieux de soin
+      - industrie       # sites industriels, usines, manufactures
+      - science         # observatoires, sites scientifiques
+      - infrastructure  # gares, ponts, seuils ferroviaires, réseaux
+      - pouvoir         # commissariats, institutions d'ordre public
+      - lieu_memoire    # lieux symboliques, de témoignage, de projection, sites historiques
 
   type_detail:
     type: string
