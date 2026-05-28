@@ -82,13 +82,11 @@ h1{
   top:0;
   z-index:10;
   display:flex;
-  gap:4px;
+  gap:0;
   max-width:1200px;
   margin:32px auto 32px;
   padding:0 var(--page-px);
-  background:rgba(250,250,247,.94);
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
+  background:var(--bg);
   border-bottom:1px solid var(--border);
   overflow-x:auto;
   scrollbar-width:none;
@@ -100,22 +98,20 @@ h1{
   padding:12px 24px;
   background:transparent;
   border:0;
-  border-radius:var(--radius-btn);
+  border-bottom:2px solid transparent;
+  margin-bottom:-1px;
   color:var(--text-muted);
   font:inherit;
   font-weight:500;
   font-size:15px;
   white-space:nowrap;
   cursor:pointer;
-  transition:background var(--transition),color var(--transition),box-shadow var(--transition);
-  position:relative;
+  transition:color var(--transition),border-color var(--transition);
 }
 .tab:hover{
-  background:var(--bg-surface-2);
   color:var(--text);
 }
 .tab[aria-selected="true"]{
-  background:var(--bg-surface-2);
   color:var(--text);
 }
 .tab:focus-visible{
@@ -123,16 +119,13 @@ h1{
   outline-offset:2px;
 }
 .tab[aria-selected="true"][data-tab="registers"]{
-  box-shadow:inset 0 -3px 0 var(--c-registers);
-  color:var(--c-registers);
+  border-bottom-color:var(--c-registers);
 }
 .tab[aria-selected="true"][data-tab="tools"]{
-  box-shadow:inset 0 -3px 0 var(--c-tools);
-  color:var(--c-tools);
+  border-bottom-color:var(--c-tools);
 }
 .tab[aria-selected="true"][data-tab="collection"]{
-  box-shadow:inset 0 -3px 0 var(--c-collection);
-  color:var(--c-collection);
+  border-bottom-color:var(--c-collection);
 }
 .tab[data-tab="tools"]:focus-visible{outline-color:var(--c-tools)}
 .tab[data-tab="collection"]:focus-visible{outline-color:var(--c-collection)}
