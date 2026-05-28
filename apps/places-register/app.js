@@ -18,6 +18,14 @@ const sourceLabel = id => sourceLabels[id] || id || '';
 const chaptersOf = data => A(data.chapters || data.chapitres);
 const labelOf = data => data.label || data.nom || data.name || data.id || '';
 const typeOf = data => data.type || data.type_lieu || data.category || '';
+const resolveUsage = place => {
+  if (place.usage) return place.usage;
+  const usageKeys = Object.keys(place).filter(k => k.startsWith('usage_'));
+  for (const key of usageKeys) {
+    if (place[key]) return place[key];
+  }
+  return place.description || place.note || '';
+};
 
 async function loadItems() {
   sourceLabels = await DynamicRegisters.sourceLabels();
@@ -46,7 +54,7 @@ function render(rows) {
     const data = item.data || {};
     const card = document.createElement('article');
     card.className = 'person-card';
-    const usage = data.usage || data.usage_s02 || data.usage_s05 || data.usage_s20 || data.description || data.note || '';
+    const usage = resolveUsage(data);
     card.innerHTML = '<div class="person-header"><div><div class="person-name">' + T(labelOf(data)) + '</div><div class="person-period">' + T(typeOf(data)) + '</div></div><div><code>' + T(item.id) + '</code></div></div>'
       + '<div class="badges">' + sourceBadges(item) + '</div>'
       + '<div class="columns"><div><h4>Usage</h4><ul>' + list(usage) + '</ul><h4>Sources</h4><div class="badges">' + sourceBadges(item) + '</div></div><div><h4>Prudences</h4><ul>' + list(data.prudence || data.methodological_warnings) + '</ul><h4>Chapitres</h4><ul>' + list(chaptersOf(data)) + '</ul></div></div>'

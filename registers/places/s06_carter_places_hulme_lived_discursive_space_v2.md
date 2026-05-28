@@ -12,7 +12,8 @@ statut: integration_directe
 places:
   - id: PLACE-HULME
     label: "Hulme"
-    type: quartier_inner_city
+    type: quartier
+    type_detail: quartier_inner_city
     sources:
       - S06-A001
       - S06-A003
@@ -22,7 +23,8 @@ places:
 
   - id: PLACE-HULME-CRESCENTS
     label: "Hulme Crescents"
-    type: estate_moderniste
+    type: habitat
+    type_detail: estate_moderniste
     sources:
       - S06-A002
       - S06-A005
@@ -31,7 +33,8 @@ places:
 
   - id: PLACE-MOSS-SIDE
     label: "Moss Side"
-    type: quartier_inner_city
+    type: quartier
+    type_detail: quartier_inner_city
     sources:
       - S06-A004
     usage_s06: "Quartier voisin souvent amalgamé à Hulme par la presse dans les récits du Bronx of Britain."
@@ -39,21 +42,24 @@ places:
 
   - id: PLACE-SALE
     label: "Sale"
-    type: suburb
+    type: habitat
+    type_detail: suburb
     sources:
       - S06-A007
     usage_s06: "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme."
 
   - id: PLACE-ALTRINCHAM
     label: "Altrincham"
-    type: suburb
+    type: habitat
+    type_detail: suburb
     sources:
       - S06-A007
     usage_s06: "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme."
 
   - id: PLACE-WALES-SEASIDE-TOWN
     label: "Ville balnéaire galloise non nommée"
-    type: lieu_temoignage
+    type: lieu_memoire
+    type_detail: lieu_temoignage
     sources:
       - S06-A009
     usage_s06: "Lieu extérieur à Hulme où Stephanie et Alison perçoivent plus nettement le racisme vécu par leurs pairs."

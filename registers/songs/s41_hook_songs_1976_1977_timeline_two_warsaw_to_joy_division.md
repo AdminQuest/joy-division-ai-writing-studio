@@ -5,11 +5,12 @@
 ```yaml
 id: PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD
 source_id: S41
-titre: "Swan pub, Eccles New Road, Salford"
-nature: lieu de répétition / archive affective
+label: "Swan pub, Eccles New Road, Salford"
+type: studio
+type_detail: lieu_repetition
 usage: >
   L’un des premiers lieux de répétition, réactivé des années plus tard comme lieu de mémoire brutale de Ian et Joy Division.
-atomes_lies:
+atoms:
   - S41-A057
 chapitres:
   - Chapitre 13

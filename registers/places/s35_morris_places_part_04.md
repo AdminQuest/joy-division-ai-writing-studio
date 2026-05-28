@@ -11,73 +11,158 @@ passage_atomise: "PDF p. 75-102"
 ## Lieux structurants
 
 ```yaml
-lieux:
-  - nom: "Ivy Lane"
-    fonction: "chambre, disques, batterie, repli adolescent"
+places:
+  - id: PLACE-IVY-LANE
+    label: "Ivy Lane"
+    type: habitat
+    type_detail: domicile_adolescent
+    sources: [S35]
+    usage: "Chambre, disques, batterie, repli adolescent."
     atoms: [S35-A052, S35-A053]
     chapitres: [Chapitre 1, Chapitre 3]
-  - nom: "Southport Floral Hall"
-    fonction: "pacte paternel ; Basie et Dietrich"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-SOUTHPORT-FLORAL-HALL
+    label: "Southport Floral Hall"
+    type: salle
+    type_detail: salle_spectacle
+    sources: [S35]
+    usage: "Pacte paternel ; Basie et Dietrich."
     atoms: [S35-A050]
     chapitres: [Chapitre 1, Chapitre 14]
-  - nom: "Pips"
-    fonction: "sophistication glam ; contraste social avec le public rock"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-PIPS
+    label: "Pips"
+    type: salle
+    type_detail: club
+    sources: [S35]
+    usage: "Sophistication glam ; contraste social avec le public rock."
     atoms: [S35-A051]
     chapitres: [Chapitre 2, Chapitre 14]
-  - nom: "Audenshaw Grammar School"
-    fonction: "bannissement scolaire ; trajet vers Manchester"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-AUDENSHAW-GRAMMAR-SCHOOL
+    label: "Audenshaw Grammar School"
+    type: education
+    type_detail: grammar_school
+    sources: [S35]
+    usage: "Bannissement scolaire ; trajet vers Manchester."
     atoms: [S35-A057]
     chapitres: [Chapitre 1]
-  - nom: "Guide Bridge"
-    fonction: "seuil ferroviaire vers l’auto-éducation mancunienne"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-GUIDE-BRIDGE
+    label: "Guide Bridge"
+    type: infrastructure
+    type_detail: seuil_ferroviaire
+    sources: [S35]
+    usage: "Seuil ferroviaire vers l’auto-éducation mancunienne."
     atoms: [S35-A057]
     chapitres: [Chapitre 1]
-  - nom: "House on the Borderland"
-    fonction: "librairie de contre-savoirs ; science-fiction, occultisme, underground"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-HOUSE-ON-THE-BORDERLAND
+    label: "House on the Borderland"
+    type: commerce
+    type_detail: librairie
+    sources: [S35]
+    usage: "Librairie de contre-savoirs ; science-fiction, occultisme, underground."
     atoms: [S35-A058]
     chapitres: [Chapitre 1, Chapitre 11, Chapitre 14]
-  - nom: "Percival’s"
-    fonction: "librairie ; Ballard, Burroughs, presse marginale"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-PERCIVALS
+    label: "Percival’s"
+    type: commerce
+    type_detail: librairie
+    sources: [S35]
+    usage: "Librairie ; Ballard, Burroughs, presse marginale."
     atoms: [S35-A058]
     chapitres: [Chapitre 1, Chapitre 11, Chapitre 14]
-  - nom: "Black Sedan"
-    fonction: "disquaire / bootlegs ; rareté et déception matérielle"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-BLACK-SEDAN
+    label: "Black Sedan"
+    type: commerce
+    type_detail: disquaire
+    sources: [S35]
+    usage: "Disquaire / bootlegs ; rareté et déception matérielle."
     atoms: [S35-A059]
     chapitres: [Chapitre 8, Chapitre 14]
-  - nom: "Rare Records"
-    fonction: "disquaire ; non-rencontre mémorielle avec Curtis ; chasse au disque"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-RARE-RECORDS
+    label: "Rare Records"
+    type: commerce
+    type_detail: disquaire
+    sources: [S35]
+    usage: "Disquaire ; non-rencontre mémorielle avec Curtis ; chasse au disque."
     atoms: [S35-A061]
     chapitres: [Chapitre 2, Chapitre 8, Chapitre 14]
-  - nom: "Atwell and Jenner’s mill"
-    fonction: "travail textile ; rythme industriel vécu"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-ATWELL-AND-JENNERS-MILL
+    label: "Atwell and Jenner’s mill"
+    type: industrie
+    type_detail: usine_textile
+    sources: [S35]
+    usage: "Travail textile ; rythme industriel vécu."
     atoms: [S35-A060]
     chapitres: [Chapitre 1, Chapitre 3, Chapitre 13]
-  - nom: "Stoneground / Mayflower"
-    fonction: "lieu-palimpseste ; scène pré-punk et futur lieu Joy Division"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-STONEGROUND-MAYFLOWER
+    label: "Stoneground / Mayflower"
+    type: salle
+    type_detail: salle_concert
+    sources: [S35]
+    usage: "Lieu-palimpseste ; scène pré-punk et futur lieu Joy Division."
     atoms: [S35-A062]
     chapitres: [Chapitre 2, Chapitre 3, Chapitre 13]
-  - nom: "Hardrock"
-    fonction: "écoute live non segmentée ; Bowie, Genesis, Hawkwind, Lou Reed"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-HARDROCK
+    label: "Hardrock"
+    type: salle
+    type_detail: salle_concert
+    sources: [S35]
+    usage: "Écoute live non segmentée ; Bowie, Genesis, Hawkwind, Lou Reed."
     atoms: [S35-A062]
     chapitres: [Chapitre 2, Chapitre 3]
-  - nom: "Buxton"
-    fonction: "festival pluvieux ; anti-utopie contre-culturelle"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-BUXTON
+    label: "Buxton"
+    type: ville
+    type_detail: ville_provinciale
+    sources: [S35]
+    usage: "Festival pluvieux ; anti-utopie contre-culturelle."
     atoms: [S35-A063]
     chapitres: [Chapitre 14]
-  - nom: "White City"
-    fonction: "festival ; Children of God ; désillusion contre-culturelle"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-WHITE-CITY
+    label: "White City"
+    type: salle
+    type_detail: salle_concert
+    sources: [S35]
+    usage: "Festival ; Children of God ; désillusion contre-culturelle."
     atoms: [S35-A063]
     chapitres: [Chapitre 14]
-  - nom: "Lewis’s"
-    fonction: "grand magasin ; Great Vinyl Robbery"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-LEWISS
+    label: "Lewis’s"
+    type: commerce
+    type_detail: grand_magasin
+    sources: [S35]
+    usage: "Grand magasin ; Great Vinyl Robbery."
     atoms: [S35-A064]
     chapitres: [Chapitre 8, Chapitre 14]
-  - nom: "Bootle Street"
-    fonction: "arrestation ; retour brutal au réel"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-BOOTLE-STREET
+    label: "Bootle Street"
+    type: pouvoir
+    type_detail: commissariat
+    sources: [S35]
+    usage: "Arrestation ; retour brutal au réel."
     atoms: [S35-A064]
     chapitres: [Chapitre 8, Chapitre 14]
-  - nom: "Macclesfield"
-    fonction: "espace d’étouffement, danger local, désir de rupture"
+    _legacy_format: s35-lieux-fonction
+  - id: PLACE-MACCLESFIELD
+    label: "Macclesfield"
+    type: ville
+    type_detail: ville_provinciale
+    sources: [S35]
+    usage: "Espace d’étouffement, danger local, désir de rupture."
     atoms: [S35-A065]
     chapitres: [Chapitre 1, Chapitre 12, Chapitre 14]
+    _legacy_format: s35-lieux-fonction
 ```

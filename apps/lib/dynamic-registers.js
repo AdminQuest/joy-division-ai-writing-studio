@@ -159,14 +159,78 @@ window.DynamicRegisters = (() => {
       .filter(path => prefixes.some(prefix => path.startsWith(prefix)));
   }
 
+  function recordLabel(d) { return text(d.label || d.nom || d.name || d.id); }
+  function recordOrigin(rec) {
+    const s = array(rec.data.sources)[0] || rec.data.source_id || '';
+    return text(s).split('-')[0];
+  }
+  // Merge several records that share the same id into one consolidated entry:
+  // longest label, unioned sources/chapters/atoms/song_ids, usage concatenated
+  // with its source of origin ("Selon S02 : … | Selon S05 : …"), distinct
+  // prudences joined. Scalars fall back to the first record; a divergent
+  // canonical type is reported via console.warn.
+  function mergeGroup(group) {
+    const data = { ...group[0].data };
+    data.label = group.map(r => recordLabel(r.data)).reduce((a, b) => b.length > a.length ? b : a, '');
+
+    const types = uniq(group.map(r => text(r.data.type)).filter(Boolean));
+    if (types.length > 1) console.warn(`[places] type conflict for ${group[0].id}: ${types.join(' / ')} — keeping "${types[0]}"`);
+
+    data.sources = uniq(group.flatMap(r => sourceIds(r)));
+    const chapters = uniq(group.flatMap(r => array(r.data.chapters || r.data.chapitres)));
+    if (chapters.length) { data.chapters = chapters; delete data.chapitres; }
+    const atoms = uniq(group.flatMap(r => array(r.data.atoms)));
+    if (atoms.length) data.atoms = atoms;
+    const songIds = uniq(group.flatMap(r => array(r.data.song_ids)));
+    if (songIds.length) data.song_ids = songIds;
+
+    const usages = [];
+    group.forEach(r => {
+      const u = text(r.data.usage || Object.keys(r.data).filter(k => k.startsWith('usage_')).map(k => r.data[k]).find(Boolean) || '').trim();
+      if (u) usages.push({ origin: recordOrigin(r), usage: u });
+    });
+    const distinctUsages = uniq(usages.map(x => x.usage));
+    if (distinctUsages.length === 1) data.usage = distinctUsages[0];
+    else if (distinctUsages.length > 1) data.usage = usages.map(x => `Selon ${x.origin} : ${x.usage}`).join(' | ');
+
+    const prudences = uniq(group.flatMap(r => array(r.data.prudence || r.data.methodological_warnings)));
+    if (prudences.length) data.prudence = prudences.join(' | ');
+
+    return { ...group[0], data };
+  }
+  // Deduplicate place records by id. Scoped to kind 'place' only: records of
+  // other registers (which may carry their own legitimate duplicate ids) are
+  // passed through untouched, preserving their current behaviour.
+  function dedupeById(records) {
+    const others = records.filter(r => r.kind !== 'place');
+    const places = records.filter(r => r.kind === 'place');
+    const groups = new Map(); const order = [];
+    places.forEach(r => {
+      if (!groups.has(r.id)) { groups.set(r.id, []); order.push(r.id); }
+      groups.get(r.id).push(r);
+    });
+    const merged = order.map(id => { const g = groups.get(id); return g.length === 1 ? g[0] : mergeGroup(g); });
+    return others.concat(merged);
+  }
+
   async function loadRecords({ prefixes, kinds }) {
     const paths = await listMarkdown(prefixes);
     const chunks = await Promise.all(paths.map(async path => {
       const markdown = await fetch(`${RAW_BASE}${path}`, { cache: 'no-store' }).then(r => r.ok ? r.text() : '');
       return parseMarkdown(path, markdown);
     }));
-    const records = chunks.flat();
-    return kinds ? records.filter(r => kinds.includes(r.kind)) : records;
+    const records = chunks.flat()
+      // Drop document-header parasites: a place-kind record carrying a
+      // type_unite other than "place" (e.g. type_unite: registre_lieux) is
+      // register metadata, not an actual place. Scoped to kind 'place' so
+      // other registers that use type_unite legitimately (song dossiers,
+      // person/chronology/concept records, etc.) are left untouched.
+      .filter(r => !(r.kind === 'place' && r.data && r.data.type_unite && r.data.type_unite !== 'place'));
+    const filtered = kinds ? records.filter(r => kinds.includes(r.kind)) : records;
+    // Consolidate records sharing the same id (e.g. PLACE-HULME documented by
+    // S02, S06 and S20). Applied to the kind-filtered set, so dedup is scoped
+    // per register call.
+    return dedupeById(filtered);
   }
 
   function sourceIds(item) {

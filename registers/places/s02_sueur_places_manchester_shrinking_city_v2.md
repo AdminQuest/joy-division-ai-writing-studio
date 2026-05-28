@@ -12,7 +12,8 @@ statut: integration_directe
 places:
   - id: PLACE-MANCHESTER-CITY
     label: "City of Manchester"
-    type: municipalite
+    type: ville
+    type_detail: municipalite
     sources:
       - S02-A003
     usage: "Échelle municipale à distinguer de Greater Manchester et de l’aire urbaine."
@@ -20,7 +21,8 @@ places:
 
   - id: PLACE-GREATER-MANCHESTER
     label: "Greater Manchester"
-    type: comte_metropolitain
+    type: ville
+    type_detail: comte_metropolitain
     sources:
       - S02-A003
     usage: "Échelle métropolitaine utile pour comprendre la recomposition de Manchester au-delà de son centre municipal."
@@ -29,6 +31,7 @@ places:
   - id: PLACE-HULME
     label: "Hulme"
     type: quartier
+    type_detail: quartier
     sources:
       - S02-A008
       - S06
@@ -37,7 +40,8 @@ places:
 
   - id: PLACE-MANCHESTER-CENTRE
     label: "Centre-ville de Manchester"
-    type: centralite_urbaine
+    type: ville
+    type_detail: centralite_urbaine
     sources:
       - S02-A005
       - S02-A006

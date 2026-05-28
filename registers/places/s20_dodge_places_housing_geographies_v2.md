@@ -12,7 +12,8 @@ statut: integration_directe
 places:
   - id: PLACE-LITTLE-IRELAND
     label: "Little Ireland"
-    type: quartier_taudis_victorien
+    type: quartier
+    type_detail: quartier_taudis_victorien
     sources:
       - S20-A002
       - S07
@@ -21,28 +22,32 @@ places:
 
   - id: PLACE-ANGEL-MEADOW
     label: "Angel Meadow"
-    type: quartier_taudis_victorien
+    type: quartier
+    type_detail: quartier_taudis_victorien
     sources:
       - S20-A002
     usage: "Lieu emblématique du taudis victorien mancunien, utile pour la profondeur historique de l’insalubrité urbaine."
 
   - id: PLACE-VICTORIA-PARK-MANCHESTER
     label: "Victoria Park"
-    type: suburb_bourgeois
+    type: habitat
+    type_detail: suburb_bourgeois
     sources:
       - S20-A003
     usage: "Exemple de ségrégation résidentielle bourgeoise au XIXe siècle."
 
   - id: PLACE-CHORLTONVILLE
     label: "Chorltonville"
-    type: garden_suburb
+    type: habitat
+    type_detail: garden_suburb
     sources:
       - S20-A006
     usage: "Exemple de solution garden suburb à portée sociale limitée."
 
   - id: PLACE-WYTHENSHAWE
     label: "Wythenshawe"
-    type: ville_satellite
+    type: ville
+    type_detail: ville_satellite
     sources:
       - S20-A007
       - S20-A008
@@ -51,7 +56,8 @@ places:
 
   - id: PLACE-HULME
     label: "Hulme"
-    type: quartier_inner_city
+    type: quartier
+    type_detail: quartier_inner_city
     sources:
       - S20-A008
       - S20-A010
@@ -61,14 +67,16 @@ places:
 
   - id: PLACE-HATTERSLEY
     label: "Hattersley"
-    type: overspill_estate
+    type: habitat
+    type_detail: overspill_estate
     sources:
       - S20-A009
     usage: "Grand estate périphérique illustrant le déplacement de la pauvreté et le désancrage social."
 
   - id: PLACE-BESWICK
     label: "Beswick"
-    type: quartier_inner_city
+    type: quartier
+    type_detail: quartier_inner_city
     sources:
       - S20-A010
       - S20-A011
@@ -76,7 +84,8 @@ places:
 
   - id: PLACE-FORT-BESWICK
     label: "Fort Beswick"
-    type: estate_moderniste
+    type: habitat
+    type_detail: estate_moderniste
     sources:
       - S20-A011
       - S20-A013
@@ -84,7 +93,8 @@ places:
 
   - id: PLACE-WELLINGTON-STREET-ESTATE
     label: "Wellington Street estate"
-    type: deck_access_estate
+    type: habitat
+    type_detail: deck_access_estate
     sources:
       - S20-A011
       - S20-A013
@@ -92,7 +102,8 @@ places:
 
   - id: PLACE-STRETFORD-ROAD
     label: "Stretford Road"
-    type: axe_urbain
+    type: quartier
+    type_detail: axe_urbain
     sources:
       - S20-A010
     usage: "Axe associé à la renewal de Hulme et à l’effacement du tissu urbain ancien."

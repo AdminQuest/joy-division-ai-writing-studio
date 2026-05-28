@@ -1,0 +1,159 @@
+# JSON Schema (Draft 2020-12) du registre des lieux.
+#
+# Contrairement aux autres *.schema.yaml du dossier (normes documentaires
+# lisibles), ce fichier est un schéma JSON formel, destiné à une validation
+# programmatique (tools/validate_places.py, FormatChecker actif).
+#
+# Convention d'identifiant :
+#   - PLACE-*  : un lieu réel (validé par ce schéma).
+#   - PLACES-* : un en-tête de document (type_unite: registre_lieux) — ce
+#                n'est PAS un lieu et il est explicitement rejeté ci-dessous.
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://joy-division.local/schemas/places.schema.yaml"
+title: "Registre des lieux — Joy Division"
+description: >
+  Schéma d'un lieu documentaire (ville, quartier, logement, studio, salle,
+  commerce, lieu d'éducation, de santé, industriel ou de mémoire) du corpus
+  Joy Division.
+type: object
+
+# ── Champs requis ────────────────────────────────────────────────
+required:
+  - id
+  - label
+  - type
+
+# ── Rejet explicite des en-têtes de document ─────────────────────
+# Un enregistrement porteur de type_unite n'est un lieu que si
+# type_unite == "place". Les en-têtes (type_unite: registre_lieux) sont
+# rejetés.
+if:
+  required: [type_unite]
+then:
+  properties:
+    type_unite:
+      const: place
+
+# ── Propriétés ───────────────────────────────────────────────────
+properties:
+
+  id:
+    type: string
+    description: "Identifiant canonique du lieu."
+    pattern: "^PLACE-[A-Z0-9][A-Z0-9-]*$"
+
+  label:
+    type: string
+    description: "Libellé affiché du lieu."
+    minLength: 1
+
+  type:
+    type: string
+    description: "Famille canonique du lieu."
+    enum:
+      - ville           # échelles urbaines : ville, municipalité, comté, centralité
+      - quartier        # quartiers, rues, axes urbains
+      - habitat         # estates, tower blocks, suburbs, cités, domiciles
+      - studio          # studios, espaces de répétition / production
+      - salle           # salles de concert, clubs, youth clubs
+      - commerce        # disquaires, librairies, grands magasins, hubs marchands
+      - education       # écoles, universités
+      - sante           # hôpitaux, lieux de soin
+      - industrie       # sites industriels, usines, manufactures
+      - science         # observatoires, sites scientifiques
+      - infrastructure  # gares, ponts, seuils ferroviaires, réseaux
+      - pouvoir         # commissariats, institutions d'ordre public
+      - lieu_memoire    # lieux symboliques, de témoignage, de projection, sites historiques
+
+  type_detail:
+    type: string
+    description: >
+      Valeur fine d'origine (ex. quartier_inner_city, estate_moderniste,
+      disquaire_hub_punk). Préserve la nuance absorbée par la famille `type`.
+
+  sources:
+    type: array
+    description: "Références sources (S02, S05-A003, S35…)."
+    items:
+      type: string
+      minLength: 1
+
+  source_id:
+    type: string
+    description: "Source unique (legacy ; préférer `sources`)."
+
+  source_label:
+    type: string
+    description: "Libellé long de la source."
+
+  usage:
+    type: string
+    description: "Champ canonique d'usage / fonction documentaire du lieu."
+
+  # ── Variantes d'usage héritées (tolérées en transition) ────────
+  usage_s02:
+    type: string
+    deprecated: true
+    description: "Hérité — fusionné dans `usage` côté rendu."
+  usage_s05:
+    type: string
+    deprecated: true
+    description: "Hérité — fusionné dans `usage` côté rendu."
+  usage_s06:
+    type: string
+    deprecated: true
+    description: "Hérité — fusionné dans `usage` côté rendu."
+  usage_s10:
+    type: string
+    deprecated: true
+    description: "Hérité — fusionné dans `usage` côté rendu."
+  usage_s20:
+    type: string
+    deprecated: true
+    description: "Hérité — fusionné dans `usage` côté rendu."
+
+  prudence:
+    type: string
+    description: "Avertissement méthodologique / précaution d'usage."
+
+  chapitres:
+    type: array
+    description: "Chapitres du manuscrit où le lieu intervient."
+    items:
+      type: [string, integer]
+
+  atoms:
+    type: array
+    description: "Références vers les atomes documentaires (S35-A033…)."
+    items:
+      type: string
+
+  song_ids:
+    type: array
+    description: "Liens croisés vers le registre des chansons (JD-SONG-035…)."
+    items:
+      type: string
+
+  pages_pdf:
+    type: [string, integer]
+    description: "Provenance : page(s) PDF de la source."
+  pages_livre:
+    type: [string, integer]
+    description: "Provenance : page(s) du livre imprimé."
+
+  statut:
+    type: string
+    description: "Statut d'intégration (legacy, provenance)."
+
+  type_unite:
+    type: string
+    description: "Présent uniquement si == 'place' (cf. règle if/then)."
+
+  _legacy_format:
+    type: string
+    description: >
+      Traçabilité : format d'origine avant normalisation
+      (ex. 's35-lieux-fonction', 's41-titre-nature').
+
+# ── Strict mais tolérant : liste blanche fermée ──────────────────
+additionalProperties: false
