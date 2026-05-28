@@ -411,18 +411,33 @@
 <section id="panel-collection" class="panel theme-collection" role="tabpanel" aria-labelledby="tab-collection" data-panel="collection" hidden>
 <div class="cards-grid cards-grid-single">
 
-<!-- Collection placeholder -->
-<article class="card card-soon" aria-disabled="true">
-  <span class="card-badge-soon">Bientôt disponible — étape 10 du projet</span>
-  <div class="card-toggle is-static">
+<!-- Collection personnelle -->
+<article class="card card-external">
+  <span class="card-external-badge" aria-label="Lien externe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </span>
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-collection">
     <span class="card-icon" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" x2="12" y1="22" y2="12"/></svg>
     </span>
     <div class="card-body">
       <h3 class="card-title">Collection personnelle</h3>
-      <p class="card-summary">Cette section affichera prochainement l'inventaire personnel de la collection — 504 exemplaires possédés, photos personnelles, notes d'acquisition, statut de la wishlist.</p>
+      <p class="card-summary">Inventaire personnel de la collection — 504 exemplaires possédés, photos personnelles, notes d'acquisition. Accès restreint, authentification GitHub requise.</p>
+      <span class="card-counter">504 exemplaires</span>
     </div>
-  </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-collection" hidden>
+      <ul>
+        <li>jointure runtime avec le registre public (variantes + covers)</li>
+        <li>filtres : type, lettre, photo perso, prix</li>
+        <li>mode B3 : possédés + variantes manquantes</li>
+        <li>photos perso avec fallback Google Photos</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="https://adminquest.github.io/joy-division-collection/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
 </article>
 
 </div>
