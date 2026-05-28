@@ -191,38 +191,56 @@ acteurs:
 ## Lieux
 
 ```yaml
-lieux:
-  - id: PLACE-S13-001
-    nom: Manchester
+places:
+  - id: PLACE-MANCHESTER
+    label: Manchester
     type: ville
+    type_detail: ville
+    sources: [S13]
     usage: "ville post-industrielle, scène punk/post-punk/rave, matrice critique du passage."
+    _legacy_format: s13-lieux
 
-  - id: PLACE-S13-002
-    nom: Lesser Free Trade Hall
+  - id: PLACE-LESSER-FREE-TRADE-HALL
+    label: Lesser Free Trade Hall
     type: salle
+    type_detail: salle_concert
+    sources: [S13]
     usage: "seuil punk de 1976, mentionné comme origine de la séquence culturelle mancunienne."
+    _legacy_format: s13-lieux
 
-  - id: PLACE-S13-003
-    nom: Haçienda / FAC 51
-    type: club
+  - id: PLACE-HACIENDA
+    label: Haçienda / FAC 51
+    type: salle
+    type_detail: club
+    sources: [S13]
     usage: "lieu de translation Factory / New Order / acid house."
+    _legacy_format: s13-lieux
 
-  - id: PLACE-S13-004
-    nom: Warehouse, Chicago
-    type: club
+  - id: PLACE-WAREHOUSE-CHICAGO
+    label: Warehouse, Chicago
+    type: salle
+    type_detail: club
+    sources: [S13]
     usage: "repère de la house mobilisé par Tomeo."
     prudence: "À vérifier si l’événement ou la date sont cités en rédaction finale."
+    _legacy_format: s13-lieux
 
-  - id: PLACE-S13-005
-    nom: Chicago
+  - id: PLACE-CHICAGO
+    label: Chicago
     type: ville
+    type_detail: ville
+    sources: [S13]
     usage: "origine house dans l’argumentaire Tomeo."
+    _legacy_format: s13-lieux
 
-  - id: PLACE-S13-006
-    nom: Detroit
+  - id: PLACE-DETROIT
+    label: Detroit
     type: ville
+    type_detail: ville
+    sources: [S13]
     usage: "horizon techno à ne pas effacer si l’on parle de rave era."
     prudence: "Detroit n’est pas le centre de S13 mais doit servir de garde-fou contre l’anglocentrisme."
+    _legacy_format: s13-lieux
 ```
 
 ---
