@@ -36,6 +36,27 @@ def is_parasite(record: dict) -> bool:
     return tu is not None and tu != "place"
 
 
+def find_rogue_lieux_containers():
+    """Locate any remaining French `lieux:` container blocks under registers/**.
+
+    dynamic-registers.js only recognizes the canonical `places:` container, so a
+    surviving `lieux:` key means a file was never normalized and its places are
+    silently dropped (neither displayed nor validated). Such a file must fail
+    loudly rather than pass as a false positive.
+    """
+    offenders = []
+    for path in sorted(glob.glob(str(ROOT / "registers" / "**" / "*.md"), recursive=True)):
+        rel = path.replace(str(ROOT) + "/", "")
+        for block in YAML_BLOCK.findall(Path(path).read_text(encoding="utf-8")):
+            try:
+                data = yaml.safe_load(block)
+            except yaml.YAMLError:
+                continue
+            if isinstance(data, dict) and isinstance(data.get("lieux"), list):
+                offenders.append((rel, len(data["lieux"])))
+    return offenders
+
+
 def collect_records():
     records = []
     for path in sorted(glob.glob(str(ROOT / "registers" / "**" / "*.md"), recursive=True)):
@@ -57,6 +78,15 @@ def collect_records():
 
 
 def main() -> int:
+    rogue = find_rogue_lieux_containers()
+    if rogue:
+        print("FAIL: residual legacy `lieux:` container(s) found — these files were not")
+        print("normalized to `places:` and their places are silently dropped:")
+        for rel, count in rogue:
+            print(f"  - {rel}  ({count} entries under lieux:)")
+        print("\nNormalize them (lieux: -> places:) before validation can pass.")
+        return 1
+
     records = collect_records()
     invalid = []
     for record, rel in records:
