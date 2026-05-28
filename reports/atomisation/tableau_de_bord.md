@@ -1,7 +1,7 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **27 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
-> État vérifié : 0 erreur bloquante · 2 719 atomes · 7 307 enregistrements · 89 sources déclarées.
+> Régénéré le **28 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> État vérifié : 0 erreur bloquante · 2 725 atomes · 7 588 enregistrements · 95 sources déclarées.
 
 ---
 
@@ -9,43 +9,43 @@
 
 | Indicateur | Valeur |
 |---|---:|
-| Total sources déclarées | **89** |
-| Sources avec atomes | **70** |
-| Total atomes dans le corpus | **2 719** |
-| Total enregistrements (toutes types) | **7 307** |
+| Total sources déclarées | **95** |
+| Sources avec atomes | **79** |
+| Total atomes dans le corpus | **2 725** |
+| Total enregistrements (toutes types) | **7 588** |
 | Erreurs bloquantes (audit) | **0** ✅ |
-| Avertissements (audit) | 30 557 |
-| Dette migration v2 (atomes incomplets) | 2 643 / 2 719 |
+| Avertissements (audit) | 30 221 |
+| Dette migration v2 (atomes incomplets) | 2 643 / 2 725 |
 
 ### Répartition des enregistrements par type
 
 | Type | Nombre |
 |---|---:|
-| atom | 2 719 |
+| atom | 2 725 |
 | chronology | 476 |
 | concept | 456 |
-| metadata | 264 |
+| metadata | 269 |
 | motif | 424 |
 | myth | 101 |
 | person | 305 |
 | quote | 551 |
 | song | 110 |
-| source | 114 |
+| source | 118 |
 | template | 360 |
-| unknown | 1 425 |
-| autres | 103 |
+| unknown | 1 476 |
+| autres | 217 |
 
 ### Répartition des sources par statut (registre.json)
 
 | Statut | Nb sources |
 |---|---:|
-| ✅ `atomisee` | 27 |
-| 🔄 `2e_passe` / seconde passe | 2 |
+| ✅ `atomisee` | 21 |
+| 🔄 `2e_passe` / seconde passe | 3 |
 | 🟢 `verifie` | 20 |
-| 📌 `fixee` / autre | 30 |
-| 🟡 `a_consolider` | 11 |
-| 🔵 Référence interne | 1 |
-| **Total** | **89** (+ REGISTRY) |
+| 📌 `fixee` / autre | 36 |
+| 🟡 `a_consolider` | 12 |
+| 🔵 Référence interne / externe | 3 |
+| **Total** | **95** (+ REGISTRY) |
 
 ---
 
@@ -126,7 +126,7 @@ _Colonnes : ID · Auteur · Titre abrégé · Statut registre · Pages couvertes
 | S76 | Middles | Torn Apart: The Life of Ian Curtis | ✅ Atomisé | — | — | 229 | 195 | 89 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S77 | Worley | Punk, Politics and British (fan)zines | 📌 Fixée | — | — | 16 | 10 | 10 | 8 | 3 | 🔵 Partielle (pag. NR) |
 | S78 | Nevarez | How Joy Division Came to Sound Like Manchester | 📌 Fixée | — | — | 20 | 14 | 10 | 9 | 4 | 🔵 Partielle (pag. NR) |
-| S37 | Morley | Joy Division: Piece by Piece | 📌 Fixée | 21–52 (sélectif) | — | 78 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
+| S37 | Morley | Joy Division: Piece by Piece | 📌 Fixée | 21–52 (sélectif) | — | 84 | 11 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 | S79 | Curtis/Savage | So This Is Permanence | 🟢 Vérifié | 2–101 (sélectif) | — | 133 | 0 | 0 | 0 | 0 | 🔵 Partielle (pag. NR) |
 
 ---
@@ -241,8 +241,8 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 | Erreurs bloquantes | **0** | -15 (était 15) |
 | Doublons d'identifiants | **0** | -14 (supprimés / renommés) |
 | YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
-| Avertissements | 30 557 | -692 (était 31 249) |
-| unknown_yaml_blocks | 1 425 | stable (type: ajoutés → reste warn.) |
+| Avertissements | 30 221 | -336 (était 30 557) |
+| unknown_yaml_blocks | 1 476 | +51 (était 1 425) |
 | v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
 
 ---
@@ -256,6 +256,6 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 ---
 
-_Tableau régénéré le 27 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+_Tableau régénéré le 28 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
 
-_Synchronisation automatique morning_sync — 2026-05-27_
+_Synchronisation automatique morning_sync — 2026-05-28_
