@@ -203,6 +203,53 @@ L'orchestrateur est conçu pour échouer **proprement** plutôt que de produire 
 
 ---
 
+## 6 ter. Limitations connues — différences Mac / cloud
+
+Le comportement de `--finalize` (archivage du PDF) **dépend de l'environnement
+d'exécution**, car les deux modes n'ont pas les mêmes capacités sur Google Drive.
+
+### Exécution sur Mac (Drive monté localement)
+
+Avec Google Drive Desktop, `Registre_sources/` est un dossier de fichiers
+locaux. `--finalize SXX` effectue alors un **vrai déplacement** (`shutil.move`) :
+
+- copie du PDF vers `Registre_sources/atomized/{YYYY-MM-DD}-{nom-original}.pdf` ;
+- **suppression de l'original** dans `Registre_sources/SXX_.../`.
+
+Le dossier racine ne conserve donc que les PDF en attente, comme prévu.
+
+### Exécution en cloud (Remote Control depuis Android, sans montage local)
+
+Sans montage Drive local, `--finalize` passe en **mode MCP** et s'appuie sur les
+outils du MCP Google Drive. **À ce jour, ce MCP ne fournit ni outil de
+suppression ni outil de déplacement (`update parents`)** : seulement `copy_file`
+et `create_file`.
+
+Conséquence : l'archivage en cloud est une **COPIE**, pas un déplacement.
+L'agent :
+
+1. crée si besoin le sous-dossier `Registre_sources/atomized/` ;
+2. **copie** le PDF vers `atomized/{YYYY-MM-DD}-{source}.pdf` ;
+3. **ne peut pas supprimer l'original** : l'utilisateur doit **supprimer
+   manuellement** le PDF d'origine côté Drive (interface web ou Finder), après
+   avoir vérifié que la copie archivée est correcte (nom et taille identiques).
+
+### ⚠️ Ne pas mélanger les deux modes pour une même source
+
+Si une copie a déjà été faite en **cloud**, **ne pas relancer `--finalize` sur le
+Mac** pour la même source : le mode Mac déplacerait l'original sous un nom basé
+sur le nom de fichier d'origine (`{date}-{nom-original}.pdf`), distinct du nom
+généré en cloud (`{date}-{source}.pdf`) — ce qui produirait un **doublon** dans
+`atomized/`.
+
+**Règle : choisir un seul mode de finalisation par source.**
+
+- Source finalisée en cloud → terminer en supprimant l'original à la main.
+- Source finalisée sur Mac → laisser le script faire le déplacement complet, ne
+  rien finaliser en cloud.
+
+---
+
 ## 7. Aide-mémoire des commandes
 
 | But | Commande |
