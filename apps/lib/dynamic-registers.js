@@ -219,18 +219,18 @@ window.DynamicRegisters = (() => {
       const markdown = await fetch(`${RAW_BASE}${path}`, { cache: 'no-store' }).then(r => r.ok ? r.text() : '');
       return parseMarkdown(path, markdown);
     }));
-    const records = chunks.flat()
-      // Drop document-header parasites: a place-kind record carrying a
-      // type_unite other than "place" (e.g. type_unite: registre_lieux) is
-      // register metadata, not an actual place. Scoped to kind 'place' so
-      // other registers that use type_unite legitimately (song dossiers,
-      // person/chronology/concept records, etc.) are left untouched.
-      .filter(r => !(r.kind === 'place' && r.data && r.data.type_unite && r.data.type_unite !== 'place'));
-    const filtered = kinds ? records.filter(r => kinds.includes(r.kind)) : records;
-    // Consolidate records sharing the same id (e.g. PLACE-HULME documented by
-    // S02, S06 and S20). Applied to the kind-filtered set, so dedup is scoped
-    // per register call.
-    return dedupeById(filtered);
+    const filtered = kinds ? chunks.flat().filter(r => kinds.includes(r.kind)) : chunks.flat();
+    // The remaining normalization (header-parasite drop + same-id dedup/merge,
+    // incl. the [places] console.warn in mergeGroup) is place-register-specific.
+    // Scope it to calls that actually surface place records: other registers
+    // (songs, atoms, people, …) return untouched here, so the song register no
+    // longer triggers a needless merge pass nor risks places-only warnings.
+    if (!filtered.some(r => r.kind === 'place')) return filtered;
+    // Drop document-header parasites: a place-kind record carrying a type_unite
+    // other than "place" (e.g. type_unite: registre_lieux) is register metadata,
+    // not an actual place. Then consolidate records sharing the same id (e.g.
+    // PLACE-HULME documented by S02, S06 and S20).
+    return dedupeById(filtered.filter(r => !(r.kind === 'place' && r.data && r.data.type_unite && r.data.type_unite !== 'place')));
   }
 
   function sourceIds(item) {

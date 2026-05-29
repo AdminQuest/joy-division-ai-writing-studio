@@ -1,6 +1,12 @@
 schema: song
 version: 2.0
 
+# NOTE (12b-2.a) : ce fichier est la norme DOCUMENTAIRE (lisible) du modèle de
+# chanson, couvrant aussi les couches privées du Songbook (song_dossier_v2).
+# Le contrat PUBLIC exécutable, validé en CI sur les 51 entrées canoniques de
+# registers/songs/, vit dans schemas/song.schema.json (JSON Schema Draft
+# 2020-12) et est vérifié par tools/validate_songs.py.
+
 description: >
   Schéma documentaire des chansons et morceaux. La version 2 distingue le registre léger des chansons
   et les dossiers chanson riches du Songbook critique.

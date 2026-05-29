@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adminquest/joy-division-ai-writing-studio/schemas/song.schema.json",
+  "title": "Registre canonique des chansons — Joy Division / Warsaw",
+  "description": "Schéma JSON exécutable (Draft 2020-12, FormatChecker actif) du contrat public d'une chanson canonique. Contrairement à song.schema.yaml (norme documentaire lisible), ce fichier est destiné à une validation programmatique (tools/validate_songs.py, cohérent avec schemas/places.schema.yaml et joy-division-releases/schema/variant.schema.json). Il décrit les 51 enregistrements canoniques (canonical_song: true, exclude: false) de registers/songs/. Les mentions atomisées et les titres exclus suivent un contrat plus souple et ne sont pas validés contre ce schéma. `id` (JD-SONG-NNN) et `slug` sont les clés de jointure cross-repo avec joy-division-studio-private — leurs patterns sont stricts et ne doivent pas changer.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type_unite",
+    "canonical_song",
+    "song",
+    "slug",
+    "category",
+    "period",
+    "status",
+    "albums",
+    "aliases",
+    "include_variants",
+    "exclude"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identifiant canonique et clé de jointure cross-repo (= song_id côté privé). Zero-padded sur 3 chiffres.",
+      "pattern": "^JD-SONG-\\d{3}$"
+    },
+    "type_unite": {
+      "type": "string",
+      "description": "Type structurel d'un enregistrement canonique de chanson.",
+      "const": "song"
+    },
+    "canonical_song": {
+      "type": "boolean",
+      "description": "Drapeau de canonicité. Toujours true pour une entrée du canon.",
+      "const": true
+    },
+    "song": {
+      "type": "string",
+      "description": "Titre canonique affiché.",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "description": "Clé d'URL / dossier songs/<slug>/, partagée avec le repo privé. Clé de jointure cross-repo.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "category": {
+      "type": "string",
+      "description": "Taxonomie éditoriale du canon.",
+      "enum": [
+        "œuvre originale complète",
+        "Warsaw / pré-Joy Division",
+        "démo / répétition",
+        "inédit / instrumental",
+        "terminal Joy Division / transition New Order",
+        "Warsaw / live précoce"
+      ]
+    },
+    "period": {
+      "type": "string",
+      "description": "Période historique de rattachement.",
+      "enum": [
+        "Joy Division",
+        "Warsaw",
+        "Warsaw / Joy Division",
+        "Joy Division / New Order"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "description": "Statut de canonicité.",
+      "enum": [
+        "canonique",
+        "canonique élargi",
+        "cas-limite inclus",
+        "canonique distinct"
+      ]
+    },
+    "albums": {
+      "type": "array",
+      "description": "Occurrences officielles ou corpus de rattachement.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Variantes de titre rattachées au titre canonique. Peut être vide.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "include_variants": {
+      "type": "array",
+      "description": "Types de variantes acceptées (vocabulaire non figé : types structurels et contextes nommés). Validé en type seulement — pas d'enum, par décision 12b-2.a.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "exclude": {
+      "type": "boolean",
+      "description": "Drapeau d'exclusion du menu. Toujours false pour une entrée du canon.",
+      "const": false
+    },
+    "separate_from": {
+      "type": "string",
+      "description": "Optionnel. Pointeur de désambiguïsation empêchant la fusion avec un titre homonyme distinct (ex. JD-SONG-051 « The Kill (Warsaw) » vs JD-SONG-030 « The Kill (Still) »). Rendu par app.js (« Distinct de »).",
+      "minLength": 1
+    }
+  }
+}

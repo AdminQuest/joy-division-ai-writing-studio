@@ -155,11 +155,6 @@ button:hover {
   color: #eff6ff;
 }
 
-.badge.editorial {
-  background: #3f2d5f;
-  color: #f5f3ff;
-}
-
 .badge.muted {
   background: #2d333d;
   color: #9ca3af;
@@ -184,11 +179,6 @@ button:hover {
   background: #0d1117;
   border-radius: 10px;
   padding: 12px;
-}
-
-.record-row.editorial-row {
-  border-color: #4c3b68;
-  background: #14101f;
 }
 
 .record-row p {
