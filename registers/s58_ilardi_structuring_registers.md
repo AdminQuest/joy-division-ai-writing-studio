@@ -219,7 +219,7 @@ statut: stabilise
 id: MOTIF-studio_comme_instrument
 type_unite: motif
 source_id: S58
-nom: studio comme instrument
+nom: Studio comme instrument
 atomes: [S58-A013]
 chapitres: [Chapitre 6, Chapitre 13]
 statut: stabilise
