@@ -32,7 +32,11 @@ const sourceLabel = id => sourceLabels[id] || id || '';
 const sourceRoot = s => { const m = /^(S\d+)-A\d+$/.exec(T(s)); return m ? m[1] : T(s); };
 const chaptersOf = d => A(d.chapters || d.chapitres);
 const rawSongTitle = d => d.song || d.titre || d.title || d.canonical_song || d.id || '';
-const themesOf = d => A(d.themes || d.keywords || d.motifs || d.related_motifs || d.concepts || d.usage);
+// Real thematic fields only — NOT usage (long prose): usage stays indexed for
+// search and is shown verbatim in the mentions list, so the "Thèmes" tags stay
+// genuinely compact (the section is simply omitted when no structured theme
+// data exists, rather than echoing full usage sentences).
+const themesOf = d => A(d.themes || d.keywords || d.motifs || d.related_motifs || d.concepts);
 const norm = value => T(value).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'").replace(/[“”«»]/g, '').replace(/\.\.\.|…/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 const esc = s => T(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
