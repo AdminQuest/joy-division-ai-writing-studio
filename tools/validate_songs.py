@@ -20,8 +20,8 @@ pipeline of apps/lib/dynamic-registers.js:
 joy-division-studio-private; the schema enforces their strict patterns.
 
 Usage: python3 tools/validate_songs.py
-Exit code 1 if any canonical record is invalid, or any excluded record fails
-its light check.
+Exit code 1 if any YAML block fails to parse, any canonical record is invalid,
+or any excluded record fails its light check.
 """
 import glob
 import json
@@ -63,9 +63,12 @@ def collect_song_records():
         are skipped);
       - parse_errors is a list of (rel_path, first_line, looks_canonical, message)
         for every YAML block that fails to parse. Parse errors are NOT swallowed
-        silently: they are reported, and a canonical-looking block that fails to
-        parse makes the whole run fail (see main()). A malformed canonical block
-        can therefore no longer slip past strict validation unnoticed.
+        silently and are NOT downgraded to warnings: ANY block that fails to
+        parse makes the whole run fail (see main()). A malformed block — whether
+        it looks canonical or is "only" a mention — can never slip past
+        validation unnoticed, because an unparseable block is invisible to schema
+        validation and could hide an invalid record (e.g. an unquoted colon in a
+        title). `looks_canonical` is retained purely to label the report.
     """
     records = []
     parse_errors = []
@@ -125,28 +128,26 @@ def main() -> int:
             invalid_excluded.append((record.get("id"), rel, errors))
 
     distinct_ids = {r.get("id") for r, _ in canonical}
-    canonical_parse_errors = [e for e in parse_errors if e[2]]
 
     print(f"Song records collected (registers/songs/)   : {len(records)}")
     print(f"  canonical (strict schema)                  : {len(canonical)}")
     print(f"  excluded  (light check)                    : {len(excluded)}")
     print(f"  mentions / other (counted, not validated)  : {len(mentions)}")
     print(f"Distinct canonical ids                        : {len(distinct_ids)}")
-    print(f"YAML blocks that failed to parse              : {len(parse_errors)} ({len(canonical_parse_errors)} canonical)")
+    print(f"YAML blocks that failed to parse (all fatal)  : {len(parse_errors)}")
     print(f"Canonical valid against schema                : {len(canonical) - len(invalid_canonical)}/{len(canonical)}")
     print(f"Excluded valid against light check            : {len(excluded) - len(invalid_excluded)}/{len(excluded)}")
 
     if parse_errors:
-        # Never silent: every malformed block is surfaced. A canonical-looking
-        # block that fails to parse is fatal (it would otherwise escape strict
-        # validation); a malformed non-canonical mention is reported as a warning,
-        # consistent with the strict-canonical / soft-mention policy.
-        print(f"\nYAML PARSE ERRORS ({len(parse_errors)}):")
+        # Never silent, never a warning: every malformed block is fatal. An
+        # unparseable block is invisible to schema validation, so a "mention"
+        # that fails to parse could just as well be hiding an invalid canonical
+        # record. The only safe policy is to fail on any parse error.
+        print(f"\nYAML PARSE ERRORS ({len(parse_errors)}) — all fatal:")
         for rel, first_line, looks_canonical, msg in parse_errors:
-            tag = "CANONICAL — FATAL" if looks_canonical else "mention — warning"
-            print(f"  [{tag}] {rel}")
+            hint = " [looks canonical]" if looks_canonical else ""
+            print(f"  YAML parse error in {rel}: {msg}{hint}")
             print(f"       first line: {first_line}")
-            print(f"       error: {msg}")
 
     if invalid_canonical:
         print(f"\nINVALID CANONICAL ({len(invalid_canonical)}):")
@@ -162,16 +163,11 @@ def main() -> int:
             for m in msgs:
                 print(f"       - {m}")
 
-    if invalid_canonical or invalid_excluded or canonical_parse_errors:
+    if parse_errors or invalid_canonical or invalid_excluded:
         return 1
 
-    note = ""
-    if parse_errors:
-        note = (
-            f" ({len(parse_errors)} non-canonical block(s) failed to parse — "
-            "reported above as warnings, not fatal)"
-        )
-    print(f"\nAll canonical song records are valid; excluded records pass the light check.{note}")
+    print("\nAll YAML blocks parse; all canonical song records are valid; "
+          "excluded records pass the light check.")
     return 0
 
 
