@@ -310,6 +310,46 @@ function render() {
   });
 }
 
+/* ── Matching tactique vers le registre des releases (12b-2.c MVP) ──────
+   Seul cross-repo de ce MVP. Le JSON consolidé de joy-division-releases ne
+   porte PAS de tracklist par piste : chaque variante est indexée par un unique
+   `canonical_title` (titre du single/EP, ou de l'album). Le matching se fait
+   donc titre/alias canonique ↔ canonical_title normalisé. Tactique et imparfait
+   (faux positifs sur titres proches, faux négatifs sur "… (Live)", appartenance
+   à un album non résolue piste-à-piste). Une FK propre song_id est différée en
+   12b-2.c étendu. Le fetch n'a lieu qu'une fois par session (cache mémoire). */
+const RELEASES_BASE = 'https://adminquest.github.io/joy-division-releases/';
+const RELEASES_JSON = RELEASES_BASE + 'data/all-variants.json';
+let releasesPromise = null;
+function loadReleases() {
+  if (!releasesPromise) {
+    releasesPromise = fetch(RELEASES_JSON, { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(j => Array.isArray(j.variants) ? j.variants : []);
+  }
+  return releasesPromise;
+}
+// Clés normalisées d'une chanson canonique (titre + alias), avec variante
+// sans "the " initial pour absorber les divergences d'article — même esprit
+// que canonicalForRecord().
+function songTitleKeys(song) {
+  const keys = new Set();
+  [song.song, ...(song.aliases || [])].forEach(t => {
+    const k = norm(t);
+    if (!k) return;
+    keys.add(k);
+    keys.add(k.replace(/^the /, ''));
+  });
+  return keys;
+}
+function matchReleases(variants, song) {
+  const keys = songTitleKeys(song);
+  return variants.filter(v => {
+    const t = norm(v.canonical_title);
+    return t && (keys.has(t) || keys.has(t.replace(/^the /, '')));
+  });
+}
+
 /* ── Routing : ?id=JD-SONG-NNN | ?slug=… → page de détail ─────────────── */
 function findGroup({ id, slug }) {
   if (id) return songGroups.find(g => g.canonical.id === id) || null;
