@@ -288,7 +288,7 @@ type: studio
 type_detail: studio_espace_industriel
 pages_pdf: "193"
 pages_livre: "162"
-chapitres: [1, 3]
+chapitres: ["Chapitre 1", "Chapitre 3"]
 statut: verifie
 song_ids: [JD-SONG-035]
 ```
@@ -307,7 +307,7 @@ type: habitat
 type_detail: cité_habitation_post_guerre
 pages_pdf: "190–192"
 pages_livre: "159–161"
-chapitres: [1]
+chapitres: ["Chapitre 1"]
 statut: verifie
 ```
 
@@ -325,7 +325,7 @@ type: industrie
 type_detail: usine_manufacturiere
 pages_pdf: "194"
 pages_livre: "163"
-chapitres: [3]
+chapitres: ["Chapitre 3"]
 statut: verifie
 ```
 
@@ -343,7 +343,7 @@ type: education
 type_detail: lieu_historique_rencontre
 pages_pdf: "186, 201"
 pages_livre: "155, 169"
-chapitres: [1, 3]
+chapitres: ["Chapitre 1", "Chapitre 3"]
 statut: a_verifier — note 1 du chapitre, via Reynolds 2008
 ```
 
