@@ -1,0 +1,9 @@
+{
+  "_comment": "Configuration de l'orchestrateur d'atomisation (tools/atomize_new_sources.py). Le chemin Drive n'est jamais hardcodé dans le script : il est résolu via --registre-path, $REGISTRE_SOURCES_PATH, puis ce fichier, puis auto-détection sous ~/Library/CloudStorage/.",
+  "registre_sources_path": null,
+  "registre_sources_path_examples": [
+    "~/Library/CloudStorage/GoogleDrive-fabrice.ribet@gmail.com/Mon Drive/6 - Musique/1 - Joy Division/5 - Projet de livre/Registre_sources"
+  ],
+  "drive_folder_id": "1sm5L4X045TM0hESmAYuoT9EJpiHh13cF",
+  "drive_folder_id_comment": "ID du dossier Registre_sources sur le Drive de fabrice.ribet@gmail.com, pour usage par l'agent via le MCP Google Drive en mode cloud (search_files parentId=...)."
+}
