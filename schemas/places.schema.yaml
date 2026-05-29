@@ -118,9 +118,11 @@ properties:
 
   chapitres:
     type: array
-    description: "Chapitres du manuscrit où le lieu intervient."
+    description: >
+      Chapitres du manuscrit où le lieu intervient. Forme canonique
+      "Chapitre N" (chaînes uniquement) — les entiers nus sont rejetés.
     items:
-      type: [string, integer]
+      type: string
 
   atoms:
     type: array

@@ -92,12 +92,19 @@ body {
   width: 100%;
   font: inherit;
   font-size: 14px;
-  color: var(--text);
-  background: var(--bg-card);
+  color: #1f2937;
+  background-color: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius-ctrl);
   padding: 8px 12px;
   transition: border-color var(--transition);
+}
+/* Force des couleurs lisibles sur la liste déroulante : sans cette règle,
+   les <option> héritent des couleurs système (texte clair sur fond clair,
+   ou inverse en mode sombre OS) et deviennent illisibles. */
+.places-field select option {
+  color: #1f2937;
+  background-color: #ffffff;
 }
 .places-field input:focus,
 .places-field select:focus {
