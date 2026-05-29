@@ -79,6 +79,28 @@ related_songs:
   - Isolation
 notes: >
   Flowers construit son introduction comme une autobiographie d’auditeur : il découvre New Order à la radio américaine, puis revient vers Joy Division.
+role_argumentatif:
+  - "documenter la réception américaine comme entrée générationelle dans le corpus"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - reception_americaine
+  - new_wave_radio
+  - new_order
+  - joy_division_apres_coup
+concepts_derives:
+  - entree_generationnelle
 ```
 
 Flowers ouvre le livre par une scène d’écoute américaine : New Order précède Joy Division dans son expérience, ce qui inverse le récit historique habituel et donne au livre un point d’entrée générationnel.
@@ -96,7 +118,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 9-12
-type_unite: methode
+type_unite: analyse
 concepts:
   - fanzine
   - biographie
@@ -114,6 +136,28 @@ related_people:
   - Michael Shamberg
   - Rob Gretton
   - Peter Saville
+role_argumentatif:
+  - "documenter la posture d'écriture de Flowers comme fan documenté"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - fanzine
+  - biographie
+  - culture_fan
+  - enquete_amateur
+concepts_derives:
+  - posture_fan_documente
 ```
 
 Flowers raconte qu’il envisage d’abord un fanzine, puis choisit le format livre. Le paratexte remercie de nombreux acteurs proches de Factory et de New Order, ce qui signale une source écrite depuis une position de fan documenté et de réseau d’entretiens.
@@ -131,7 +175,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 16-17
-type_unite: contexte
+type_unite: analyse
 concepts:
   - manchester
   - déclin industriel
@@ -147,6 +191,29 @@ citation_directe: false
 related_people:
   - Peter Hook
   - Bernard Sumner
+role_argumentatif:
+  - "replacer l'enfance de Hook et Sumner dans le contexte industriel de Manchester"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - manchester
+  - declin_industriel
+  - enfance_ouvriere
+  - peter_hook
+  - bernard_sumner
+concepts_derives:
+  - contexte_industriel_manchester
 ```
 
 Le chapitre « Manchester » rattache Hook et Sumner à une ville industrielle en déclin, marquée par les bombardements, la concurrence étrangère et la fermeture d’usines.
@@ -164,7 +231,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 17
-type_unite: chronologie
+type_unite: fait
 concepts:
   - sex pistols
   - free trade hall
@@ -181,6 +248,28 @@ related_people:
   - Terry Mason
 related_events:
   - CHR-S71-001
+role_argumentatif:
+  - "documenter le concert des Sex Pistols comme déclencheur fondateur de la vocation musicale du groupe"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - sex_pistols
+  - free_trade_hall
+  - punk
+  - autorisation_musicale
+concepts_derives:
+  - concert_fondateur
 ```
 
 Flowers fait du concert des Sex Pistols du 20 juillet 1976 au Free Trade Hall le moment où Hook, Mason et Sumner se convainquent qu’ils peuvent eux aussi former un groupe.
@@ -213,6 +302,28 @@ related_people:
   - Peter Hook
   - Bernard Sumner
   - Terry Mason
+role_argumentatif:
+  - "documenter les origines autodidactes du groupe et l'achat des instruments"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - stiff_kittens
+  - apprentissage_autodidacte
+  - black_swan_pub
+  - instruments
+concepts_derives:
+  - formation_groupe
 ```
 
 Après le concert des Sex Pistols, Sumner achète une Gibson SG, Hook se rabat sur la basse, Mason finance une batterie, et les répétitions commencent au-dessus du Black Swan Pub sous le nom Stiff Kittens.
@@ -252,6 +363,28 @@ related_songs:
   - Tension
   - The Kill
   - At a Later Date
+role_argumentatif:
+  - "documenter l'écart culturel de Curtis et sa contribution littéraire au groupe"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - ian_curtis
+  - culture_litteraire
+  - jg_ballard
+  - william_burroughs
+concepts_derives:
+  - formation_intellectuelle
 ```
 
 Flowers insiste sur l’écart culturel initial entre Curtis et ses futurs camarades : il connaît mieux le rock, lit Ballard, Burroughs, Eliot et des philosophes, puis réorganise ses poèmes pour les adapter aux répétitions. Cet écart de culture — ouvrier de jour, lecteur de Ballard la nuit — est central pour ch.01 (terreau de la colère, formation intellectuelle en milieu de désindustrialisation).
@@ -269,7 +402,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 18-20
-type_unite: chronologie
+type_unite: fait
 concepts:
   - electric circus
   - warsaw
@@ -290,6 +423,29 @@ related_people:
   - Paul Morley
 related_events:
   - CHR-S71-002
+role_argumentatif:
+  - "documenter le premier concert et le changement de nom vers Warsaw"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - electric_circus
+  - warsaw
+  - tony_tabac
+  - buzzcocks
+  - paul_morley
+concepts_derives:
+  - nom_groupe
 ```
 
 Flowers situe le premier concert dans le passage de Stiff Kittens à Warsaw. Le texte conteste l’explication Bowie/« Warszawa » et propose plutôt une attirance pour l’imagerie européenne.
@@ -324,6 +480,28 @@ related_people:
   - Ian Curtis
 related_events:
   - CHR-S71-003
+role_argumentatif:
+  - "documenter la première perception de Gretton comme manager potentiel"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - rob_gretton
+  - rafters
+  - concert_sauvage
+  - decouverte_groupe
+concepts_derives:
+  - decouverte_manageriale
 ```
 
 La scène de Rafters présente Gretton comme témoin frappé par l’intensité et l’étrangeté de Warsaw, avant même de devenir son manager.
@@ -355,6 +533,28 @@ fiabilite: moyenne
 citation_directe: false
 related_songs:
   - Novelty
+role_argumentatif:
+  - "identifier le premier accomplissement artistique de Warsaw comme rupture avec la posture punk"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - novelty
+  - maturite_artistique
+  - autoreflexivite
+  - cause_musicale
+concepts_derives:
+  - premier_accomplissement_artistique
 ```
 
 Flowers voit dans « Novelty » la première véritable réussite de Warsaw : non plus une posture punk, mais une réflexion sur ce qui survient lorsque la nouveauté s’épuise.
@@ -394,6 +594,28 @@ related_songs:
   - You're No Good for Me
 related_events:
   - CHR-S71-004
+role_argumentatif:
+  - "documenter la première session en studio comme état sonore du groupe"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - pennine_sound_studios
+  - premiere_demo
+  - one_take
+  - steve_brotherdale
+concepts_derives:
+  - premiere_session_studio
 ```
 
 La démo du 18 juillet 1977 est présentée comme un document de ce que Warsaw est capable de faire à ce moment-là, malgré un temps de studio très limité.
@@ -426,6 +648,28 @@ related_people:
   - Steve Brotherdale
   - Stephen Morris
   - Ian Curtis
+role_argumentatif:
+  - "documenter la stabilisation du line-up avec l'arrivée de Stephen Morris"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - stephen_morris
+  - steve_brotherdale
+  - the_panik
+  - stabilisation_lineup
+concepts_derives:
+  - recrutement_definitif
 ```
 
 Flowers décrit la défection de Brotherdale vers The Panik, sa tentative de recruter Curtis, puis l’audition réussie de Stephen Morris, qui stabilise le groupe.
@@ -465,6 +709,29 @@ related_songs:
   - At a Later Date
 related_events:
   - CHR-S71-005
+role_argumentatif:
+  - "documenter la naissance de la réputation d'ambiguïté politique du groupe"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - electric_circus
+  - rudolf_hess
+  - nazi_rumours
+  - short_circuit
+  - paul_morley
+concepts_derives:
+  - ambiguite_politique
 ```
 
 L’incident Rudolf Hess devient, chez Flowers, l’une des matrices de la réputation d’ambiguïté politique qui suit ensuite Warsaw, Joy Division puis New Order.
@@ -501,6 +768,28 @@ related_events:
   - CHR-S71-006
 methodological_warnings:
   - Point sensible ; recouper avec Ka-Tzetnik et les sources primaires.
+role_argumentatif:
+  - "proposer une lecture métaphorique du nom Joy Division comme exploitation industrielle"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - house_of_dolls
+  - joy_division_nom
+  - obscurite
+  - prostitution_metaphorique
+concepts_derives:
+  - origine_nom_interpretation
 ```
 
 Flowers propose une lecture métaphorique du nom Joy Division : le groupe se sentirait manipulé par l’industrie musicale comme des prisonniers appelés par leurs gardiens.
@@ -518,7 +807,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 29-30
-type_unite: chronologie
+type_unite: fait
 concepts:
   - pips
   - stiff test
@@ -538,6 +827,29 @@ related_people:
   - Gillian Gilbert
 related_events:
   - CHR-S71-007
+role_argumentatif:
+  - "documenter la rencontre décisive avec Wilson et Gretton comme moment fondateur de l'alliance Factory"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - pips
+  - stiff_test
+  - tony_wilson
+  - rob_gretton
+  - rafters
+concepts_derives:
+  - rencontre_fondatrice_factory
 ```
 
 Le concert de Pips officialise le nom Joy Division. Le Stiff/Chiswick Challenge place le groupe devant Wilson, Gretton et Gillian Gilbert, qui le reconnaissent comme une force émergente.
@@ -584,6 +896,29 @@ related_songs:
   - Interzone
 related_events:
   - CHR-S71-008
+role_argumentatif:
+  - "documenter l'échec RCA et la récupération des bandes comme fondement de l'indépendance artistique"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - rca_album
+  - derek_branwood
+  - interzone
+  - contrat_defavorable
+  - rob_gretton_manager
+concepts_derives:
+  - independance_artistique
 ```
 
 Flowers décrit les sessions RCA comme un moment de potentiel artistique et de désillusion contractuelle : l’album est enregistré, puis bloqué, les bandes étant finalement rachetées.
@@ -621,6 +956,29 @@ related_people:
   - Peter Saville
 related_events:
   - CHR-S71-009
+role_argumentatif:
+  - "documenter la naissance de l'identité Factory comme refus du modèle commercial"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - factory_club
+  - tony_wilson
+  - alan_erasmus
+  - peter_saville
+  - russell_club
+concepts_derives:
+  - identite_factory
 ```
 
 Flowers consacre un passage important à la naissance de Factory : club, label, identité graphique et refus d’un simple modèle commercial.
@@ -658,6 +1016,29 @@ related_people:
 related_songs:
   - Leaders of Men
   - No Love Lost
+role_argumentatif:
+  - "documenter la lecture anti-fasciste du graphisme d'An Ideal for Living et ses malentendus"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - an_ideal_for_living
+  - enigma
+  - graphisme_fascisant
+  - anti_fascisme
+  - collector
+concepts_derives:
+  - ambiguite_visuelle
 ```
 
 Flowers lit le graphisme d’*An Ideal for Living* comme une provocation anti-fasciste mal comprise : l’objet cherche à dénoncer le pouvoir politique, mais nourrit les soupçons.
@@ -699,6 +1080,29 @@ related_songs:
   - Glass
 related_events:
   - CHR-S71-010
+role_argumentatif:
+  - "documenter la naissance sonore du label Factory et le rôle fondateur de Hannett"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - a_factory_sample
+  - martin_hannett
+  - digital
+  - glass
+  - factory_records
+concepts_derives:
+  - son_factory
 ```
 
 Flowers présente *A Factory Sample* comme l’acte de naissance de Factory Records et comme un point de cristallisation du son Joy Division par Hannett.
@@ -739,6 +1143,29 @@ related_songs:
   - She's Lost Control
 related_events:
   - CHR-S71-011
+role_argumentatif:
+  - "documenter le lien entre performance scénique, épilepsie et réception du groupe à Londres"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - hope_and_anchor
+  - danse_de_curtis
+  - epilepsie
+  - shes_lost_control
+  - strobes
+concepts_derives:
+  - maladie_et_performance
 ```
 
 Le récit articule spectacle, maladie et écriture : la danse de Curtis fascine, tandis que « She’s Lost Control » est reliée à l’épilepsie, à l’humiliation et à la peur de la perte de maîtrise.
@@ -779,6 +1206,29 @@ related_songs:
   - Transmission
 related_events:
   - CHR-S71-012
+role_argumentatif:
+  - "documenter la Peel Session comme accès national et déploiement sonore sans ajouts RCA"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - john_peel
+  - bbc_radio_one
+  - peel_session
+  - transmission
+  - audience_nationale
+concepts_derives:
+  - exposition_nationale
 ```
 
 La Peel Session du 31 janvier 1979 est décrite comme une étape essentielle : Joy Division obtient une exposition nationale et « Transmission » se déploie sans les ajouts du projet RCA.
@@ -796,7 +1246,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 40-42
-type_unite: management
+type_unite: production
 concepts:
   - martin rushent
   - genetic records
@@ -815,6 +1265,29 @@ related_people:
   - Rob Gretton
 related_events:
   - CHR-S71-013
+role_argumentatif:
+  - "documenter le choix Factory contre Warner comme stratégie fondatrice d'indépendance"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - martin_rushent
+  - genetic_records
+  - warner_brothers
+  - independance
+  - factory_records
+concepts_derives:
+  - strategie_independance
 ```
 
 Flowers fait du choix de publier l’album sur Factory un tournant : Gretton propose de tester l’indépendance au lieu de basculer vers Warner/Radar/Genetic.
@@ -866,6 +1339,30 @@ related_songs:
   - I Remember Nothing
 related_events:
   - CHR-S71-014
+role_argumentatif:
+  - "analyser Unknown Pleasures comme esthétique du désenchantement"
+  - "documenter la viabilité économique relative de Factory"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - unknown_pleasures
+  - martin_hannett
+  - peter_saville
+  - pulsar
+  - desenchantement
+concepts_derives:
+  - esthetique_desenchantement
 ```
 
 Flowers analyse *Unknown Pleasures* comme un disque où la production de Hannett, les synthétiseurs, la pochette au pulsar et les textes de Curtis produisent une esthétique du désenchantement. L’album prouve aussi la viabilité économique relative de Factory.
@@ -898,6 +1395,28 @@ fiabilite: moyenne
 citation_directe: false
 methodological_warnings:
   - À croiser avec Hook et les entretiens contemporains.
+role_argumentatif:
+  - "documenter la stratégie de silence médiatique comme posture d'autonomie du sens"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - presse_musicale
+  - sens_ouvert
+  - refus_interviews
+  - autonomie_du_public
+concepts_derives:
+  - strategie_mediatique
 ```
 
 Flowers explique le refus des interviews par l’idée que les chansons doivent conserver leurs significations ouvertes et par la méfiance envers une presse capable de promouvoir puis de détruire.
@@ -915,7 +1434,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 47-49
-type_unite: chronologie
+type_unite: fait
 concepts:
   - piccadilly radio
   - granada tv
@@ -941,6 +1460,29 @@ related_songs:
   - Something Must Break
 related_events:
   - CHR-S71-015
+role_argumentatif:
+  - "documenter les jalons chronologiques de 1979 comme accumulation de tension physique"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - piccadilly_radio
+  - granada_tv
+  - transmission
+  - nashville_club
+  - accident_de_van
+concepts_derives:
+  - tension_tournee
 ```
 
 Flowers regroupe les sessions de juin-juillet 1979, la télévision Granada et l’accident de van après le Nashville Club, qui renforce l’image d’un groupe poussé physiquement à bout.
@@ -982,6 +1524,29 @@ related_songs:
   - Sister Ray
 related_events:
   - CHR-S71-016
+role_argumentatif:
+  - "documenter la rareté des images filmées et leur rôle dans la construction du mythe"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - fac_9
+  - malcolm_whitehead
+  - plan_k
+  - here_are_the_young_men
+  - rarete_audiovisuelle
+concepts_derives:
+  - mythe_image
 ```
 
 Le livre souligne la rareté des images filmées de Joy Division et leur importance pour la construction ultérieure du mystère du groupe.
@@ -1018,6 +1583,29 @@ related_songs:
   - Novelty
   - Autosuggestion
   - From Safety to Where...?
+role_argumentatif:
+  - "interpréter le choix du groupe vers la noirceur comme bifurcation esthétique délibérée"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - transmission
+  - novelty
+  - autosuggestion
+  - from_safety_to_where
+  - darkness
+concepts_derives:
+  - choix_esthetique_obscurite
 ```
 
 Flowers interprète « Autosuggestion » et « From Safety to Where…? » comme deux états d’un même dilemme : sortir vers l’espoir ou poursuivre l’exploration du sombre. Selon lui, Joy Division choisit la noirceur.
@@ -1054,6 +1642,29 @@ related_songs:
   - Twenty Four Hours
 related_events:
   - CHR-S71-017
+role_argumentatif:
+  - "analyser la tension entre forme pop parfaite et contenu conjugal tragique"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - love_will_tear_us_apart
+  - twenty_four_hours
+  - pop_parfaite
+  - mariage
+  - destin
+concepts_derives:
+  - tension_pop_tragique
 ```
 
 Flowers oppose la forme pop de « Love Will Tear Us Apart » à la décomposition conjugale de ses paroles, puis voit dans « Twenty Four Hours » une composition encore plus troublante.
@@ -1097,6 +1708,29 @@ related_songs:
   - Incubation
   - As You Said
   - Love Will Tear Us Apart
+role_argumentatif:
+  - "documenter la convergence entre tournée européenne, relation amoureuse et dégradation de la santé de Curtis"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - tournee_europeenne
+  - annik_honore
+  - closer
+  - britannia_row
+  - sante_de_curtis
+concepts_derives:
+  - crise_biographique
 ```
 
 Flowers relie la tournée européenne, la relation avec une femme hollandaise, l’aggravation de l’épilepsie et les sessions de *Closer* à une tension qui déborde le seul cadre musical.
@@ -1138,6 +1772,29 @@ related_songs:
   - Twenty Four Hours
   - The Eternal
   - Decades
+role_argumentatif:
+  - "lire Closer comme espace de renversement : Curtis guide de l'abîme au lieu d'être guidé"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - closer
+  - atrocity_exhibition
+  - isolation
+  - passover
+  - decades
+concepts_derives:
+  - inversion_identitaire
 ```
 
 Le livre lit *Closer* comme un espace de basculement : Curtis, qui attendait un guide dans « Disorder », devient lui-même le guide dans « Atrocity Exhibition ».
@@ -1176,6 +1833,29 @@ related_songs:
   - Dead Souls
 related_events:
   - CHR-S71-018
+role_argumentatif:
+  - "documenter la tentative d'art total autour d'Atmosphere et Dead Souls et ses limites"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - sordide_sentimental
+  - licht_und_blindheit
+  - total_art
+  - atmosphere
+  - dead_souls
+concepts_derives:
+  - art_total_discographique
 ```
 
 Flowers présente *Licht und Blindheit* comme une tentative d’art total autour de « Atmosphere » et « Dead Souls », mais aussi comme un objet frustrant par sa rareté.
@@ -1213,6 +1893,29 @@ related_songs:
   - Sister Ray
 related_events:
   - CHR-S71-019
+role_argumentatif:
+  - "documenter la dégradation physique de Curtis sur scène comme insoutenabilité croissante"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - rainbow_theatre
+  - moonlight_club
+  - epilepsie
+  - sister_ray
+  - degradation_physique
+concepts_derives:
+  - insoutenabilite_scenique
 ```
 
 Flowers décrit la série d’avril 1980 comme révélatrice : la musique de Joy Division devient trop difficile à soutenir physiquement pour Curtis sur une longue durée.
@@ -1230,7 +1933,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 61-62
-type_unite: chronologie
+type_unite: fait
 concepts:
   - tournée américaine annulée
   - ceremony
@@ -1251,6 +1954,29 @@ related_songs:
   - Love Will Tear Us Apart
 related_events:
   - CHR-S71-020
+role_argumentatif:
+  - "documenter la convergence des projets printaniers 1980 et l'imminence de la rupture"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - tournee_americaine_annulee
+  - ceremony
+  - in_a_lonely_place
+  - love_will_tear_us_apart_video
+  - tj_davidson
+concepts_derives:
+  - projets_interrompus
 ```
 
 Le livre souligne que tout est prêt au printemps 1980 : tournée américaine, nouveau single, vidéo promotionnelle, *Closer* et « Love Will Tear Us Apart ».
@@ -1297,6 +2023,29 @@ related_events:
   - CHR-S71-021
 methodological_warnings:
   - Détails intimes à utiliser avec sobriété et recoupement.
+role_argumentatif:
+  - "documenter les trois effets de la mort de Curtis : culte, annulation, nécessité de recommencer"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - mort_de_ian_curtis
+  - john_peel
+  - death_cult
+  - new_order
+  - rupture_continuite
+concepts_derives:
+  - mythification_posthume
 ```
 
 Flowers articule la mort de Curtis avec trois effets : annulation de la tournée, transformation de Joy Division en objet de culte et nécessité pour les survivants de recommencer sans le nom Joy Division.
@@ -1334,6 +2083,29 @@ related_songs:
   - Love Will Tear Us Apart
 related_events:
   - CHR-S71-022
+role_argumentatif:
+  - "documenter la réception posthume de LWTA et Closer comme problème éthique d'exploitation commerciale"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - reception_posthume
+  - closer
+  - love_will_tear_us_apart
+  - peter_saville
+  - exploitation_commerciale
+concepts_derives:
+  - industrie_post_mortem
 ```
 
 La sortie de « Love Will Tear Us Apart » et de *Closer* est prise dans une contradiction : les pochettes existaient avant la mort de Curtis, mais leur réception est contaminée par l’accusation d’exploitation.
@@ -1376,6 +2148,29 @@ related_songs:
   - Dreams Never End
 related_events:
   - CHR-S71-023
+role_argumentatif:
+  - "documenter New Order comme respect d'une promesse et impossible échappée de l'héritage Joy Division"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - new_order
+  - western_works
+  - beach_club
+  - situationnisme
+  - nom_du_groupe
+concepts_derives:
+  - heritage_impossible
 ```
 
 Flowers présente New Order comme une formation née d’un double geste : respect de la promesse de ne plus utiliser le nom Joy Division et impossibilité d’échapper entièrement à son héritage.
@@ -1412,6 +2207,29 @@ related_people:
 related_songs:
   - Procession
   - Ceremony
+role_argumentatif:
+  - "documenter l'arrivée de Gillian Gilbert comme redistribution du deuil et des fonctions instrumentales"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - gillian_gilbert
+  - redistribution_instrumentale
+  - procession
+  - ceremony
+  - nouveau_depart
+concepts_derives:
+  - transition_musicale
 ```
 
 L’arrivée de Gillian Gilbert permet de délester Sumner de certaines fonctions instrumentales, d’installer une nouvelle dynamique et d’atténuer le poids du deuil dans le groupe.
@@ -1456,6 +2274,29 @@ related_songs:
   - The Him
   - Doubts Even Here
   - Denial
+role_argumentatif:
+  - "juger Movement comme disque de transition inabouti encore prisonnier du son Joy Division"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - movement
+  - martin_hannett
+  - heritage_joy_division
+  - voix_de_sumner
+  - rupture_difficile
+concepts_derives:
+  - transition_musicale_inachevee
 ```
 
 Flowers juge *Movement* comme un disque de transition inabouti, encore prisonnier du son Joy Division et d’une relation avec Hannett en train de se défaire.
@@ -1490,6 +2331,29 @@ related_people:
   - Tony Wilson
 related_songs:
   - Temptation
+role_argumentatif:
+  - "identifier Temptation comme moment où Sumner rompt avec l'imitation de Curtis et trouve sa voix propre"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - temptation
+  - taboo_number_7
+  - voix_de_sumner
+  - rupture_avec_joy_division
+  - spontaneite
+concepts_derives:
+  - affranchissement_vocal
 ```
 
 Flowers, via Wilson, fait de « Temptation » le moment où Sumner cesse d’imiter Curtis et trouve une voix propre.
@@ -1525,6 +2389,29 @@ related_people:
   - Ben Kelly
 related_events:
   - CHR-S71-024
+role_argumentatif:
+  - "documenter la Hacienda comme utopie institutionnelle et gouffre économique financé par New Order"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - hacienda
+  - factory_club
+  - ben_kelly
+  - economie_de_factory
+  - scene_mancunienne
+concepts_derives:
+  - utopie_institutionnelle
 ```
 
 Flowers décrit la Hacienda comme club, espace, salle de concert, utopie Factory et gouffre économique. New Order finance indirectement ce lieu par son activité commerciale et ses tournées.
@@ -1559,6 +2446,29 @@ related_songs:
   - The Beach
 related_events:
   - CHR-S71-025
+role_argumentatif:
+  - "documenter Blue Monday comme rupture historique ouvrant un nouvel ordre de musique dance"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - blue_monday
+  - dance_rock
+  - synthetiseur
+  - peter_saville
+  - hacienda
+concepts_derives:
+  - musique_dance_rock
 ```
 
 Flowers présente « Blue Monday » comme une rupture historique : rock, disco, synthétiseur et basse de Hook s’y combinent pour ouvrir un nouvel ordre de musique dance.
@@ -1599,6 +2509,29 @@ related_songs:
   - Ultraviolence
   - Ecstasy
   - Leave Me Alone
+role_argumentatif:
+  - "documenter la maturité de Power, Corruption and Lies et son anti-commercialisme esthétique de surface"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - power_corruption_and_lies
+  - peter_saville
+  - code_couleur
+  - age_of_consent
+  - your_silent_face
+concepts_derives:
+  - esthetique_anti_commerciale
 ```
 
 Flowers souligne la maturité de *Power, Corruption and Lies* et décrit le code couleur de Saville comme une stratégie esthétique radicalement anti-commerciale en surface, malgré le succès réel du disque.
@@ -1633,6 +2566,28 @@ related_songs:
   - Love Will Tear Us Apart
 related_events:
   - CHR-S71-026
+role_argumentatif:
+  - "documenter le concert d'anniversaire Gretton comme geste de guérison publique"
+niveau_preuve:
+  statut: source_unique
+  corroboration: non_verifie
+  confiance: faible
+stabilite:
+  statut: a_confirmer
+  risque_revision: moyen
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - memoire_joy_division
+  - love_will_tear_us_apart
+  - rob_gretton
+  - healing
+concepts_derives:
+  - memoire_collective
 ```
 
 Le concert d’anniversaire de Gretton où New Order joue « Love Will Tear Us Apart » est présenté comme un geste de guérison publique après la mort de Curtis.
@@ -1650,7 +2605,7 @@ source_year: "1995/2012"
 auteur: Claude Flowers
 titre: New Order + Joy Division: Dreams Never End
 pages_pdf: 98-101
-type_unite: management
+type_unite: production
 concepts:
   - qwest
   - quincy jones
@@ -1667,6 +2622,29 @@ related_people:
   - Quincy Jones
   - Tony Wilson
   - Rob Gretton
+role_argumentatif:
+  - "documenter l'accord Qwest comme paradoxe d'indépendance sous licence d'une major"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - qwest
+  - quincy_jones
+  - warner_brothers
+  - licence_americaine
+  - controle_artistique
+concepts_derives:
+  - independance_paradoxale
 ```
 
 Flowers détaille l’accord avec Qwest comme une solution paradoxale : accès à la distribution Warner sans renoncer, en principe, au contrôle artistique hérité de Factory.
@@ -1705,6 +2683,29 @@ related_songs:
   - Sooner Than You Think
   - Sub-Culture
   - Face Up
+role_argumentatif:
+  - "lire Low-Life comme équilibre entre dance music, amour, douleur et mémoire de Curtis"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: moyenne
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - low_life
+  - elegia
+  - aids
+  - perfect_kiss
+  - love_vigilantes
+concepts_derives:
+  - memoire_deuil_musical
 ```
 
 Flowers lit *Low-Life* comme le disque où New Order atteint un équilibre : récit, dance music, douleur, amour, sexualité et mémoire de Curtis s’y recomposent.
@@ -1740,6 +2741,29 @@ related_people:
   - Tony Wilson
 related_songs:
   - The Perfect Kiss
+role_argumentatif:
+  - "documenter le refus de jouer un rôle promotionnel comme constante d'intégrité de New Order"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - the_perfect_kiss_video
+  - jonathan_demme
+  - michael_shamberg
+  - refus_de_mimer
+  - integrite
+concepts_derives:
+  - integrite_mediatique
 ```
 
 Le passage sur Jonathan Demme et « The Perfect Kiss » éclaire une constante de New Order : accepter d’être filmés comme musiciens, refuser le rôle de mannequins ou d’acteurs promotionnels.
@@ -1778,6 +2802,29 @@ related_songs:
   - Atmosphere
   - Dead Souls
   - Love Will Tear Us Apart
+role_argumentatif:
+  - "documenter le retour discographique de 1988 comme réouverture du culte de Curtis"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: majeur
+risque_surinterpretation:
+  niveau: forte
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - substance_joy_division
+  - atmosphere_video
+  - anton_corbijn
+  - peter_saville
+  - culte_de_curtis
+concepts_derives:
+  - culte_posthume
 ```
 
 Flowers montre que le retour discographique de Joy Division en 1988 se fait dans un climat pacifié, mais que la vidéo « Atmosphere » rouvre la question du culte de Curtis.
@@ -1812,6 +2859,29 @@ related_people:
   - Rob Gretton
 related_songs:
   - Fine Time
+role_argumentatif:
+  - "relier Technique à la culture acid house et au retour du geste de danser"
+niveau_preuve:
+  statut: fait_documente
+  corroboration: verifiable
+  confiance: moyenne
+stabilite:
+  statut: stable
+  risque_revision: faible
+importance:
+  niveau: secondaire
+risque_surinterpretation:
+  niveau: faible
+liens_interchapitres: []
+liens_citations: []
+motifs:
+  - technique
+  - acid_house
+  - ibiza
+  - hacienda
+  - ecstasy
+concepts_derives:
+  - culture_dance
 ```
 
 Flowers relie *Technique* à la culture acid house et à Ibiza : New Order, dont le club devient l’un des lieux de cette scène, retrouve le geste de danser.
