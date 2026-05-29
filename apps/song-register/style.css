@@ -330,6 +330,164 @@ body {
   padding: 1px 5px;
 }
 
+/* ── Titre cliquable des cards (→ page de détail) ───────── */
+.song-card__title-link {
+  color: inherit;
+  text-decoration: none;
+}
+.song-card__title-link:hover { color: var(--accent); text-decoration: underline; }
+.song-card__title-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+/* ── Page de détail (12b-2.c MVP) ───────────────────────── */
+.song-detail-view { display: block; }
+.song-detail-back {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Bandeau d'en-tête */
+.song-detail-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-rest);
+  margin-bottom: 24px;
+}
+.song-detail-hero__icon svg { width: 40px; height: 40px; color: var(--accent); flex: none; }
+.song-detail-hero__heading { flex: 1; min-width: 0; }
+.song-detail-hero__title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  word-wrap: break-word;
+}
+.song-detail-hero__period {
+  margin: 4px 0 0;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.song-detail-hero__badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.song-detail-hero__editor { align-self: flex-start; flex: none; }
+
+/* Sections */
+.song-detail-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 20px 24px;
+  box-shadow: var(--shadow-rest);
+  margin-bottom: 20px;
+}
+.song-detail-section__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.song-detail-section__count {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+.song-detail-empty { font-size: 14px; color: var(--text-muted); margin: 0; }
+.song-detail-loading { font-size: 14px; color: var(--text-muted); margin: 0; }
+.song-detail-warning { color: #9a5b2e; }
+
+/* Bloc canon — liste de définition */
+.song-detail-canon { margin: 0; display: grid; gap: 0; }
+.song-detail-canon__row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.song-detail-canon__row:last-child { border-bottom: 0; }
+.song-detail-canon dt { font-size: 13px; font-weight: 600; color: var(--text-muted); }
+.song-detail-canon dd { margin: 0; font-size: 14px; color: var(--text); }
+.song-detail-canon code,
+.song-detail-notfound code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+.song-detail-link { color: var(--accent); text-decoration: none; }
+.song-detail-link:hover { text-decoration: underline; }
+
+/* Section releases — matching tactique */
+.song-releases { display: flex; flex-direction: column; gap: 8px; }
+.song-release {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-ctrl);
+  background: var(--bg);
+  padding: 10px 12px;
+  transition: border-color var(--transition), background var(--transition);
+}
+.song-release:hover { border-color: var(--accent); background: var(--accent-bg); }
+.song-release:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.song-release__icon svg { width: 22px; height: 22px; color: var(--accent); flex: none; display: block; }
+.song-release__body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.song-release__title { font-size: 14px; font-weight: 600; }
+.song-release__meta { font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.song-release__meta code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+.song-release__type { text-transform: capitalize; }
+.song-detail-note {
+  margin: 14px 0 0;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.song-detail-note code {
+  font-style: normal;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+/* Chanson non trouvée */
+.song-detail-notfound {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: var(--shadow-rest);
+}
+.song-detail-notfound h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
+.song-detail-notfound p { font-size: 14px; color: var(--text-muted); margin: 0; }
+
+/* Mobile : bandeau et canon en 1 colonne */
+@media (max-width: 600px) {
+  .song-detail-hero { flex-direction: column; }
+  .song-detail-canon__row { grid-template-columns: 1fr; gap: 2px; }
+}
+
 /* ── États ──────────────────────────────────────────────── */
 .songs-status {
   font-size: 14px;
