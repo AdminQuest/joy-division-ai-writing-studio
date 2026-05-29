@@ -21,6 +21,10 @@ const A = v => DynamicRegisters.array(v);
 const U = v => DynamicRegisters.uniq(v);
 const sourceIds = item => DynamicRegisters.sourceIds(item);
 const sourceLabel = id => sourceLabels[id] || id || '';
+// Aggregate atom-level source ids (e.g. "S02-A003") to their chapter root
+// ("S02") so the Source filter exposes readable roots, not raw atom codes.
+const sourceRoot = s => { const m = /^(S\d+)-A\d+$/.exec(T(s)); return m ? m[1] : T(s); };
+const sourceRoots = item => U(sourceIds(item).map(sourceRoot));
 const chaptersOf = data => A(data.chapters || data.chapitres);
 const labelOf = data => data.label || data.nom || data.name || data.id || '';
 const typeOf = data => data.type || data.type_lieu || data.category || 'generic';
@@ -64,7 +68,7 @@ function matches(item, f, except) {
   if (except !== 'q' && f.q && !haystack(item).includes(f.q)) return false;
   if (except !== 'type' && f.type && typeOf(d) !== f.type) return false;
   if (except !== 'detail' && f.detail && detailOf(d) !== f.detail) return false;
-  if (except !== 'source' && f.source && !sourceIds(item).includes(f.source)) return false;
+  if (except !== 'source' && f.source && !sourceRoots(item).includes(f.source)) return false;
   if (except !== 'chapter' && f.chapter && !chaptersOf(d).includes(f.chapter)) return false;
   return true;
 }
@@ -98,7 +102,7 @@ function refreshFacets() {
     let cleaned = false;
     cleaned = setOptions(typeFilter, typeVals, 'Tous', PlaceIcons.label) || cleaned;
     cleaned = setOptions(detailFilter, U(items.filter(i => matches(i, f, 'detail')).map(i => detailOf(i.data || {}))), 'Tous') || cleaned;
-    cleaned = setOptions(sourceFilter, U(items.filter(i => matches(i, f, 'source')).flatMap(sourceIds)), 'Toutes', sourceLabel) || cleaned;
+    cleaned = setOptions(sourceFilter, U(items.filter(i => matches(i, f, 'source')).flatMap(sourceRoots)), 'Toutes') || cleaned;
     cleaned = setOptions(chapterFilter, U(items.filter(i => matches(i, f, 'chapter')).flatMap(i => chaptersOf(i.data || {}))), 'Tous') || cleaned;
     if (!cleaned) break;
   }
