@@ -3,47 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre des chansons — Joy Division</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre des chansons</h1>
-      <p class="subtitle">Vue canonique des chansons Joy Division / Warsaw, avec agrégation des variantes, démos, Peel/BBC, lives et mentions atomisées.</p>
-      <p class="back"><a href="../../">Retour au portail</a></p>
-    </div>
-  </header>
+  <div id="songs-app">
+    <header class="songs-hero">
+      <div class="songs-hero__inner">
+        <a class="songs-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des chansons</h1>
+        <p class="songs-hero__subtitle">Le canon des chansons Joy Division / Warsaw, groupé par catégorie : œuvres complètes, corpus Warsaw, démos, inédits, lives précoces et titres terminaux. Agrège variantes, sessions, lives et mentions atomisées.</p>
+      </div>
+    </header>
 
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement du corpus canonique…</div>
-      <div class="filters">
-        <div class="field primary-field">
-          <label for="song-filter">Chanson canonique</label>
-          <select id="song-filter"><option value="">Toutes les chansons Joy Division / Warsaw</option></select>
+    <main class="songs-layout">
+      <section class="songs-toolbar" aria-label="Filtres et recherche">
+        <div class="songs-toolbar__filters">
+          <div class="songs-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Transmission, Warsaw, Peel, RCA, live…" autocomplete="off">
+          </div>
+          <div class="songs-field">
+            <label for="category-filter">Catégorie</label>
+            <select id="category-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="songs-field">
+            <label for="period-filter">Période</label>
+            <select id="period-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="songs-field">
+            <label for="status-filter">Statut</label>
+            <select id="status-filter"><option value="">Tous</option></select>
+          </div>
+          <div class="songs-field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="songs-field">
+            <label for="chapter-filter">Chapitre</label>
+            <select id="chapter-filter"><option value="">Tous</option></select>
+          </div>
         </div>
-        <div class="field">
-          <label for="search">Recherche dans les variantes et atomes</label>
-          <input id="search" type="search" placeholder="Transmission, Peel, RCA, live, paroles divergentes…">
+        <div class="songs-toolbar__actions">
+          <button id="reset-filters" class="songs-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="songs-btn songs-btn--primary" type="button">Exporter CSV</button>
+          <span class="songs-toolbar__meta" id="results-meta"></span>
         </div>
-        <div class="field"><label for="source-filter">Source</label><select id="source-filter"><option value="">Toutes</option></select></div>
-        <div class="field"><label for="type-filter">Type</label><select id="type-filter"><option value="">Tous</option></select></div>
-        <div class="field"><label for="theme-filter">Thème</label><select id="theme-filter"><option value="">Tous</option></select></div>
-        <div class="field"><label for="chapter-filter">Chapitre</label><select id="chapter-filter"><option value="">Tous</option></select></div>
-      </div>
-      <div class="actions">
-        <button id="reset-filters" type="button">Réinitialiser</button>
-        <button id="download-csv" type="button">Exporter CSV</button>
-      </div>
-      <p class="note">Le menu est limité au canon interne <code>registers/songs/00_canonical_joy_division_songs.md</code>.</p>
-    </section>
-    <section class="register-panel">
-      <div class="results-header"><h2>Chansons canoniques</h2><div id="results-meta"></div></div>
-      <div id="songs-list" class="songs-list"></div>
-    </section>
-  </main>
+      </section>
+
+      <div id="songs-status" class="songs-status">Chargement du corpus canonique…</div>
+      <div id="songs-sections"></div>
+    </main>
+  </div>
+
   <script src="../lib/dynamic-registers.js"></script>
+  <script src="icons.js"></script>
   <script src="app.js"></script>
   <script src="local-editor-links.js"></script>
 </body>

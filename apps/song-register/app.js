@@ -1,18 +1,24 @@
-const songsList = document.getElementById('songs-list');
-const resultsMeta = document.getElementById('results-meta');
-const statusCard = document.getElementById('status-card');
+/* Registre des chansons — logique d'affichage.
+   Groupage par catégorie, facettes croisées (boucle de stabilisation),
+   "Voir plus" accessible, pictos SVG par catégorie. La logique de rattachement
+   des mentions atomisées au canon (extractCanonicalSongs / canonicalForRecord /
+   groupSongRecords) est préservée telle quelle. Data lue via DynamicRegisters. */
+
 const searchInput = document.getElementById('search');
-const songFilter = document.getElementById('song-filter');
+const categoryFilter = document.getElementById('category-filter');
+const periodFilter = document.getElementById('period-filter');
+const statusFilter = document.getElementById('status-filter');
 const sourceFilter = document.getElementById('source-filter');
-const typeFilter = document.getElementById('type-filter');
-const themeFilter = document.getElementById('theme-filter');
 const chapterFilter = document.getElementById('chapter-filter');
 const resetButton = document.getElementById('reset-filters');
 const downloadButton = document.getElementById('download-csv');
+const resultsMeta = document.getElementById('results-meta');
+const statusEl = document.getElementById('songs-status');
+const sectionsEl = document.getElementById('songs-sections');
 
+let songGroups = [];
 let canonicalSongs = [];
 let rawSongRecords = [];
-let songGroups = [];
 let sourceLabels = {};
 let aliasIndex = new Map();
 
@@ -21,39 +27,44 @@ const A = v => DynamicRegisters.array(v);
 const U = v => DynamicRegisters.uniq(v);
 const sourceIds = item => DynamicRegisters.sourceIds(item);
 const sourceLabel = id => sourceLabels[id] || id || '';
+// Aggregate atom-level source ids (e.g. "S02-A003") to their chapter root
+// ("S02") so the Source filter exposes readable roots, not raw atom codes.
+const sourceRoot = s => { const m = /^(S\d+)-A\d+$/.exec(T(s)); return m ? m[1] : T(s); };
 const chaptersOf = d => A(d.chapters || d.chapitres);
 const rawSongTitle = d => d.song || d.titre || d.title || d.canonical_song || d.id || '';
-const typesOf = d => A(d.type || d.type_unite || d.kind);
-const themesOf = d => A(d.themes || d.keywords || d.motifs || d.related_motifs || d.concepts || d.usage);
-const norm = value => T(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’‘]/g, "'").replace(/[“”«»]/g, '').replace(/\.\.\.|…/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+// Real thematic fields only — NOT usage (long prose): usage stays indexed for
+// search and is shown verbatim in the mentions list, so the "Thèmes" tags stay
+// genuinely compact (the section is simply omitted when no structured theme
+// data exists, rather than echoing full usage sentences).
+const themesOf = d => A(d.themes || d.keywords || d.motifs || d.related_motifs || d.concepts);
+const norm = value => T(value).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'").replace(/[“”«»]/g, '').replace(/\.\.\.|…/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+const esc = s => T(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+// Canonical enum orders (mirror schemas/song.schema.json) for facet ordering.
+const PERIOD_ORDER = ['Joy Division', 'Warsaw', 'Warsaw / Joy Division', 'Joy Division / New Order'];
+const STATUS_ORDER = ['canonique', 'canonique élargi', 'cas-limite inclus', 'canonique distinct'];
+const MENTIONS_MAX = 30;
+const EXTRACT_MAX = 180;
 
 async function loadSongs() {
-  try {
-    sourceLabels = await DynamicRegisters.sourceLabels();
-    const allSongs = await DynamicRegisters.loadRecords({ prefixes: ['registers/songs/', 'registers/', 'sources/'], kinds: ['song'] });
-    const atomRecords = await DynamicRegisters.loadRecords({ prefixes: ['sources/'], kinds: ['atom'] });
+  sourceLabels = await DynamicRegisters.sourceLabels();
+  const allSongs = await DynamicRegisters.loadRecords({ prefixes: ['registers/songs/', 'registers/', 'sources/'], kinds: ['song'] });
+  const atomRecords = await DynamicRegisters.loadRecords({ prefixes: ['sources/'], kinds: ['atom'] });
 
-    canonicalSongs = extractCanonicalSongs(allSongs);
-    buildAliasIndexes(canonicalSongs);
+  canonicalSongs = extractCanonicalSongs(allSongs);
+  buildAliasIndexes(canonicalSongs);
 
-    const songMentions = allSongs.filter(item => !isCanonControlRecord(item));
-    const atomMentions = atomRecords.filter(item => canonicalForRecord(item));
-    rawSongRecords = [...songMentions, ...atomMentions];
+  const songMentions = allSongs.filter(item => !isCanonControlRecord(item));
+  const atomMentions = atomRecords.filter(item => canonicalForRecord(item));
+  rawSongRecords = [...songMentions, ...atomMentions];
 
-    songGroups = groupSongRecords(canonicalSongs, rawSongRecords);
-    songGroups.sort((a, b) => a.canonical.song.localeCompare(b.canonical.song, undefined, { numeric: true }));
-    hydrateFilters(songGroups);
-    render(songGroups);
-
-    const linked = songGroups.reduce((acc, g) => acc + g.records.length, 0);
-    const orphan = rawSongRecords.filter(r => !canonicalForRecord(r)).length;
-    statusCard.textContent = canonicalSongs.length + ' titre(s) canoniques Joy Division / Warsaw ; ' + linked + ' mention(s) atomisées rattachée(s) ; ' + orphan + ' mention(s) exclue(s) ou hors canon.';
-  } catch (err) {
-    console.error(err);
-    statusCard.textContent = 'Erreur de chargement dynamique du registre des chansons : ' + err.message;
-  }
+  songGroups = groupSongRecords(canonicalSongs, rawSongRecords);
+  statusEl.style.display = 'none';
+  refreshFacets();
+  render();
 }
 
+/* ── Rattachement canon ↔ mentions (préservé de la version d'origine) ── */
 function isCanonControlRecord(item) {
   const d = item.data || {};
   return item.file.startsWith('registers/songs/') || d.type_unite === 'song_canon' || String(d.id || '').startsWith('JD-SONG-');
@@ -65,6 +76,7 @@ function extractCanonicalSongs(records) {
     .map(item => item.data || {})
     .filter(d => d.type_unite === 'song' && d.canonical_song === true && d.exclude !== true)
     .forEach(d => {
+      const prev = byId.get(d.id);
       byId.set(d.id, {
         id: d.id,
         song: d.song,
@@ -75,7 +87,11 @@ function extractCanonicalSongs(records) {
         aliases: U([d.song, ...(d.aliases || [])]),
         albums: A(d.albums),
         variants: A(d.include_variants),
-        separate_from: d.separate_from || ''
+        // separate_from may live on only one of several same-id canonical blocks
+        // (e.g. the standalone JD-SONG-051 file vs the 00_canonical inline entry).
+        // Preserve it across the id-dedup regardless of file order so the
+        // "Distinct de" link always renders.
+        separate_from: d.separate_from || (prev && prev.separate_from) || ''
       });
     });
   return [...byId.values()];
@@ -110,69 +126,241 @@ function canonicalForRecord(item) {
 function groupSongRecords(canon, records) {
   return canon.map(song => {
     const linked = records.filter(record => canonicalForRecord(record)?.id === song.id);
-    return { canonical: song, records: linked, sourceIds: U(linked.flatMap(sourceIds)), types: U([song.category, ...linked.flatMap(x => typesOf(x.data || {}))]), themes: U(linked.flatMap(x => themesOf(x.data || {}))), chapters: U(linked.flatMap(x => chaptersOf(x.data || {}))) };
+    return {
+      canonical: song,
+      records: linked,
+      sourceRoots: U(linked.flatMap(sourceIds).map(sourceRoot)),
+      themes: U(linked.flatMap(x => themesOf(x.data || {}))),
+      chapters: U(linked.flatMap(x => chaptersOf(x.data || {})))
+    };
   });
 }
 
-function hydrateFilters(items) {
-  fillSongFilter(songFilter, items);
-  fill(sourceFilter, U([...Object.keys(sourceLabels), ...items.flatMap(x => x.sourceIds)]), sourceLabel);
-  fill(typeFilter, U(items.flatMap(x => x.types)));
-  fill(themeFilter, U(items.flatMap(x => x.themes)).slice(0, 250));
-  fill(chapterFilter, U(items.flatMap(x => x.chapters)));
+/* ── Filtres / facettes ─────────────────────────────────── */
+function currentFilters() {
+  return {
+    q: searchInput.value.toLowerCase().trim(),
+    category: categoryFilter.value,
+    period: periodFilter.value,
+    status: statusFilter.value,
+    source: sourceFilter.value,
+    chapter: chapterFilter.value
+  };
+}
+// Full-text index built from useful fields only. The original register fed
+// JSON.stringify(record.data) into the haystack, which leaked YAML field names
+// (usage, type_unite, source_id…) into search and produced false positives.
+// Index instead the meaningful mention fields: title, short extract, and ids.
+function searchIndex(group) {
+  const c = group.canonical;
+  return [
+    c.song, ...c.aliases, ...c.albums, c.period, c.category, c.status, ...c.variants, c.separate_from,
+    ...group.sourceRoots, ...group.sourceRoots.map(sourceLabel), ...group.chapters, ...group.themes,
+    ...group.records.flatMap(r => { const d = r.data || {}; return [rawSongTitle(d), d.usage, d.id, r.id]; })
+  ].map(T).join(' ').toLowerCase();
+}
+function matches(group, f, except) {
+  const c = group.canonical;
+  if (except !== 'q' && f.q && !searchIndex(group).includes(f.q)) return false;
+  if (except !== 'category' && f.category && c.category !== f.category) return false;
+  if (except !== 'period' && f.period && c.period !== f.period) return false;
+  if (except !== 'status' && f.status && c.status !== f.status) return false;
+  if (except !== 'source' && f.source && !group.sourceRoots.includes(f.source)) return false;
+  if (except !== 'chapter' && f.chapter && !group.chapters.includes(f.chapter)) return false;
+  return true;
+}
+// Rebuild a select's options; returns true if the current selection was
+// orphaned by the new option set and had to be cleared.
+function setOptions(select, values, allLabel, labeler = v => v) {
+  const cur = select.value;
+  select.innerHTML = '';
+  const all = document.createElement('option');
+  all.value = ''; all.textContent = allLabel;
+  select.appendChild(all);
+  values.forEach(v => {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = labeler(v);
+    select.appendChild(o);
+  });
+  const cleaned = cur !== '' && !values.includes(cur);
+  select.value = cleaned ? '' : cur;
+  return cleaned;
+}
+function refreshFacets() {
+  // Each select offers only values still present under the *other* active
+  // filters. Clearing an orphaned selection widens the remaining facets, so
+  // re-read currentFilters() and repeat until a full pass clears nothing
+  // (guarded against infinite loops — same pattern as the places register).
+  for (let pass = 0; pass < 5; pass++) {
+    const f = currentFilters();
+    const categoryVals = SongIcons.order.filter(cat =>
+      songGroups.some(g => g.canonical.category === cat && matches(g, f, 'category')));
+    const periodVals = PERIOD_ORDER.filter(p =>
+      songGroups.some(g => g.canonical.period === p && matches(g, f, 'period')));
+    const statusVals = STATUS_ORDER.filter(s =>
+      songGroups.some(g => g.canonical.status === s && matches(g, f, 'status')));
+    let cleaned = false;
+    cleaned = setOptions(categoryFilter, categoryVals, 'Toutes') || cleaned;
+    cleaned = setOptions(periodFilter, periodVals, 'Toutes') || cleaned;
+    cleaned = setOptions(statusFilter, statusVals, 'Tous') || cleaned;
+    cleaned = setOptions(sourceFilter, U(songGroups.filter(g => matches(g, f, 'source')).flatMap(g => g.sourceRoots)).sort(), 'Toutes', sourceLabel) || cleaned;
+    cleaned = setOptions(chapterFilter, U(songGroups.filter(g => matches(g, f, 'chapter')).flatMap(g => g.chapters)).sort(undefined, { numeric: true }), 'Tous') || cleaned;
+    if (!cleaned) break;
+  }
 }
 
-function fillSongFilter(select, groups) {
-  select.innerHTML = '<option value="">Toutes les chansons Joy Division / Warsaw</option>';
+/* ── Rendu ──────────────────────────────────────────────── */
+function tags(values) {
+  const v = A(values).filter(Boolean);
+  return v.length ? '<div class="song-tags">' + v.map(x => '<span class="song-tag">' + esc(x) + '</span>').join('') + '</div>' : '';
+}
+function detail(label, content) {
+  return content ? '<div class="song-detail"><p class="song-detail__label">' + esc(label) + '</p>' + content + '</div>' : '';
+}
+function mentionsBlock(group) {
+  if (!group.records.length) return '';
+  const shown = group.records.slice(0, MENTIONS_MAX);
+  const rows = shown.map(item => {
+    const d = item.data || {};
+    const label = item.kind === 'atom' ? 'Atome' : 'Mention';
+    let extract = T(d.usage).trim();
+    if (extract.length > EXTRACT_MAX) extract = extract.slice(0, EXTRACT_MAX).trimEnd() + '…';
+    const roots = U(sourceIds(item).map(sourceRoot)).map(sourceLabel).join(' · ');
+    return '<div class="song-mention">'
+      + '<div class="song-mention__head">' + esc(label) + ' — ' + esc(rawSongTitle(d))
+      + ' <span class="song-mention__id">' + esc(d.id || item.id) + (roots ? ' · ' + esc(roots) : '') + '</span></div>'
+      + (extract ? '<p class="song-mention__extract">' + esc(extract) + '</p>' : '')
+      + '</div>';
+  }).join('');
+  const more = group.records.length > MENTIONS_MAX
+    ? '<p class="song-mentions__more">+' + (group.records.length - MENTIONS_MAX) + ' autre(s) mention(s) masquée(s).</p>'
+    : '';
+  return detail('Mentions atomisées rattachées', '<div class="song-mentions">' + rows + more + '</div>');
+}
+function card(group) {
+  const c = group.canonical;
+  const aliases = c.aliases.filter(x => x !== c.song);
+  const mentionCount = group.records.length;
+
+  const details = detail('Chapitres', tags(group.chapters))
+    + detail('Sources', tags(group.sourceRoots.map(sourceLabel)))
+    + detail('Variantes retenues', tags(c.variants))
+    + detail('Thèmes / mots-clés', tags(group.themes.slice(0, 24)))
+    + mentionsBlock(group);
+
+  // separate_from → clickable scroll link to the target canonical card.
+  let separate = '';
+  if (c.separate_from) {
+    const m = /^(JD-SONG-\d{3})/.exec(c.separate_from);
+    separate = m
+      ? '<div class="song-card__separate">Distinct de <a class="song-card__separate-link" href="#song-' + m[1] + '" data-target="song-' + m[1] + '">' + esc(c.separate_from) + '</a></div>'
+      : '<div class="song-card__separate">Distinct de ' + esc(c.separate_from) + '</div>';
+  }
+
+  return '<article class="song-card" id="song-' + esc(c.id) + '"' + (c.slug ? ' data-slug="' + esc(c.slug) + '"' : '') + '>'
+    + '<div class="song-card__header">' + SongIcons.svg(c.category)
+      + '<div class="song-card__heading"><h3 class="song-card__title">' + esc(c.song) + '</h3>'
+      + (c.period ? '<p class="song-card__period">' + esc(c.period) + '</p>' : '') + '</div></div>'
+    + '<div class="song-card__badges">'
+      + (c.status ? '<span class="song-badge">' + esc(c.status) + '</span>' : '')
+      + (mentionCount ? '<span class="song-badge">' + mentionCount + ' mention' + (mentionCount > 1 ? 's' : '') + '</span>'
+                      : '<span class="song-badge song-badge--muted">aucune mention</span>')
+    + '</div>'
+    + (c.albums.length ? '<p class="song-card__line"><strong>Albums / corpus :</strong> ' + esc(c.albums.join(', ')) + '</p>' : '')
+    + (aliases.length ? '<p class="song-card__line"><strong>Alias :</strong> ' + esc(aliases.join(', ')) + '</p>' : '')
+    + (details ? '<button type="button" class="song-card__more" aria-expanded="false">Voir plus</button>'
+        + '<div class="song-card__details" hidden>' + details + '</div>' : '')
+    + separate
+    + '<p class="song-card__id"><code>' + esc(c.id) + '</code></p>'
+    + '</article>';
+}
+function render() {
+  const f = currentFilters();
+  const filtered = songGroups.filter(g => matches(g, f));
+  resultsMeta.textContent = filtered.length + ' titre' + (filtered.length > 1 ? 's' : '') + ' canonique' + (filtered.length > 1 ? 's' : '');
+  sectionsEl.innerHTML = '';
+  if (!filtered.length) {
+    sectionsEl.innerHTML = '<p class="songs-empty">Aucune chanson ne correspond à ces critères.</p>';
+    return;
+  }
   const byCategory = new Map();
-  groups.forEach(group => {
-    const cat = group.canonical.category || 'Autres';
+  filtered.forEach(g => {
+    const cat = g.canonical.category || 'generic';
     if (!byCategory.has(cat)) byCategory.set(cat, []);
-    byCategory.get(cat).push(group);
+    byCategory.get(cat).push(g);
   });
-  [...byCategory.entries()].forEach(([category, entries]) => {
-    const optgroup = document.createElement('optgroup');
-    optgroup.label = category;
-    entries.forEach(group => {
-      const opt = document.createElement('option');
-      opt.value = group.canonical.id;
-      opt.textContent = group.canonical.song;
-      optgroup.appendChild(opt);
-    });
-    select.appendChild(optgroup);
+  // Sections in canonical category order, then any leftover categories.
+  const order = [...SongIcons.order, ...[...byCategory.keys()].filter(c => !SongIcons.order.includes(c))];
+  order.forEach(cat => {
+    const group = byCategory.get(cat);
+    if (!group || !group.length) return;
+    group.sort((a, b) => T(a.canonical.song).localeCompare(T(b.canonical.song), undefined, { numeric: true }));
+    const section = document.createElement('section');
+    section.className = 'songs-section';
+    section.innerHTML = '<div class="songs-section__header">' + SongIcons.svg(cat)
+      + '<h2 class="songs-section__title">' + esc(SongIcons.label(cat))
+      + ' <span class="songs-section__count">' + group.length + '</span></h2></div>'
+      + '<div class="songs-list">' + group.map(card).join('') + '</div>';
+    sectionsEl.appendChild(section);
   });
 }
 
-function fill(select, values, labeler = v => v) {
-  select.innerHTML = '<option value="">Tous</option>';
-  values.forEach(v => { const opt = document.createElement('option'); opt.value = v; opt.textContent = labeler(v); select.appendChild(opt); });
-}
+/* ── Interactions (délégation, accessibles clavier) ─────── */
+sectionsEl.addEventListener('click', e => {
+  const more = e.target.closest('.song-card__more');
+  if (more) {
+    const details = more.closest('.song-card').querySelector('.song-card__details');
+    const opening = details.hasAttribute('hidden');
+    details.toggleAttribute('hidden', !opening);
+    more.setAttribute('aria-expanded', opening ? 'true' : 'false');
+    more.textContent = opening ? 'Voir moins' : 'Voir plus';
+    return;
+  }
+  const link = e.target.closest('.song-card__separate-link');
+  if (link) {
+    e.preventDefault();
+    const targetId = link.dataset.target;
+    let el = document.getElementById(targetId);
+    if (!el) { resetFilters(); refreshFacets(); render(); el = document.getElementById(targetId); }
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.classList.add('song-card--target');
+      setTimeout(() => el.classList.remove('song-card--target'), 1600);
+    }
+  }
+});
 
-function section(title, content) { if (!content || content === '<ul></ul>') return ''; return '<div class="section-title">' + title + '</div>' + content; }
-function list(arr) { const values = A(arr).filter(Boolean); return values.length ? '<ul>' + values.map(x => '<li>' + T(x) + '</li>').join('') + '</ul>' : ''; }
-function compactList(d) { return list(d.themes || d.motifs || d.related_motifs || d.concepts || d.keywords); }
-function renderRecord(item) {
-  const d = item.data || {}; const ids = sourceIds(item); const label = item.kind === 'atom' ? 'Atome v2' : 'Mention';
-  return '<div class="record-row">' + '<div><strong>' + label + ' — ' + T(rawSongTitle(d)) + '</strong> <span class="small">' + T(d.id || item.id) + '</span></div>' + '<div class="small">' + ids.map(sourceLabel).join(' ; ') + (d.type_unite ? ' ; ' + T(d.type_unite) : '') + (d.importance ? ' ; ' + T(d.importance) : '') + '</div>' + (d.usage ? '<p>' + T(d.usage) + '</p>' : '') + (d.distinct_from ? '<p><strong>Distinct de :</strong> ' + T(d.distinct_from) + '</p>' : '') + section('Thèmes / concepts', compactList(d)) + section('Chapitres', list(chaptersOf(d))) + '<p class="small"><code>' + item.file + '</code></p>' + '</div>';
-}
-
-function render(items) {
-  songsList.innerHTML = ''; resultsMeta.textContent = items.length + ' titre(s) canonique(s)';
-  items.forEach(group => { const song = group.canonical; const card = document.createElement('article'); card.className = 'song-card canonical-card'; if (song.slug) card.dataset.slug = song.slug; const recordBlocks = group.records.slice(0, 30).map(record => renderRecord(record)).join(''); const more = group.records.length > 30 ? '<p class="small">+' + (group.records.length - 30) + ' autre(s) mention(s) masquée(s) dans cette vue.</p>' : ''; card.innerHTML = '<h3>' + T(song.song) + '</h3>' + '<div class="meta">' + '<span class="badge canonical">canon</span>' + (song.period ? '<span class="badge">' + T(song.period) + '</span>' : '') + (song.status ? '<span class="badge">' + T(song.status) + '</span>' : '') + (group.records.length ? '<span class="badge">' + group.records.length + ' mention(s)</span>' : '<span class="badge muted">aucune mention atomisée</span>') + '</div>' + section('Catégorie', '<p>' + T(song.category) + '</p>') + section('Albums / corpus', list(song.albums)) + (song.separate_from ? section('Distinct de', '<p>' + T(song.separate_from) + '</p>') : '') + section('Alias et variantes de titre', list(song.aliases.filter(x => x !== song.song))) + section('Types de variantes retenues', list(song.variants)) + section('Sources liées', list(group.sourceIds.map(sourceLabel))) + section('Chapitres liés', list(group.chapters)) + section('Thèmes / mots-clés issus des atomes', list(group.themes.slice(0, 24))) + (recordBlocks ? '<div class="section-title">Mentions atomisées rattachées</div><div class="record-list">' + recordBlocks + more + '</div>' : '') + '<p class="small"><code>' + song.id + '</code></p>'; songsList.appendChild(card); });
-}
-
-function applyFilters() {
-  const q = searchInput.value.toLowerCase();
-  const filtered = songGroups.filter(group => { const haystack = [group.canonical.song, group.canonical.category, group.canonical.period, group.canonical.status, group.canonical.aliases.join(' '), group.canonical.albums.join(' '), group.canonical.variants.join(' '), group.canonical.separate_from, group.records.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file).join(' '), group.sourceIds.join(' '), group.sourceIds.map(sourceLabel).join(' ')].join(' ').toLowerCase(); return (!q || haystack.includes(q)) && (!songFilter.value || group.canonical.id === songFilter.value) && (!sourceFilter.value || group.sourceIds.includes(sourceFilter.value)) && (!typeFilter.value || group.types.includes(typeFilter.value)) && (!themeFilter.value || group.themes.includes(themeFilter.value)) && (!chapterFilter.value || group.chapters.includes(chapterFilter.value)); });
-  render(filtered);
-}
-
+/* ── Export CSV (jeu filtré courant) ────────────────────── */
 function exportCSV() {
-  const rows = songGroups.map(group => ({ song: group.canonical.song, category: group.canonical.category, period: group.canonical.period, status: group.canonical.status, aliases: group.canonical.aliases.join('; '), albums: group.canonical.albums.join('; '), variants: group.canonical.variants.join('; '), atomized_mentions: group.records.length, sources: group.sourceIds.map(sourceLabel).join('; '), chapters: group.chapters.join('; ') }));
-  const header = Object.keys(rows[0] || {}).join(','); const body = rows.map(r => Object.values(r).map(v => '"' + String(v || '').replace(/"/g, '""') + '"').join(',')).join('\n'); const blob = new Blob([header + '\n' + body], { type: 'text/csv;charset=utf-8;' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'joy_division_songs_canonical_register.csv'; a.click(); URL.revokeObjectURL(a.href);
+  const f = currentFilters();
+  const rows = [['id', 'song', 'category', 'period', 'status', 'aliases', 'albums', 'variants', 'atomized_mentions', 'sources', 'chapters']];
+  songGroups.filter(g => matches(g, f)).forEach(g => {
+    const c = g.canonical;
+    rows.push([c.id, c.song, c.category, c.period, c.status,
+      c.aliases.filter(x => x !== c.song).join(' | '), c.albums.join(' | '), c.variants.join(' | '),
+      g.records.length, g.sourceRoots.map(sourceLabel).join(' | '), g.chapters.join(' | ')]);
+  });
+  const csv = rows.map(r => r.map(v => '"' + String(v ?? '').replace(/"/g, '""') + '"').join(',')).join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'joy_division_songs_canonical_register.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 
-[searchInput, songFilter, sourceFilter, themeFilter, typeFilter, chapterFilter].forEach(el => el.addEventListener('input', applyFilters));
-resetButton.addEventListener('click', () => { searchInput.value=''; songFilter.value=''; sourceFilter.value=''; typeFilter.value=''; themeFilter.value=''; chapterFilter.value=''; render(songGroups); });
+/* ── Événements ─────────────────────────────────────────── */
+function onFilterChange() { refreshFacets(); render(); }
+function resetFilters() {
+  searchInput.value = ''; categoryFilter.value = ''; periodFilter.value = '';
+  statusFilter.value = ''; sourceFilter.value = ''; chapterFilter.value = '';
+}
+[searchInput, categoryFilter, periodFilter, statusFilter, sourceFilter, chapterFilter].forEach(el => el.addEventListener('input', onFilterChange));
+resetButton.addEventListener('click', () => { resetFilters(); refreshFacets(); render(); });
 downloadButton.addEventListener('click', exportCSV);
-loadSongs();
+
+loadSongs().catch(err => {
+  console.error(err);
+  statusEl.style.display = '';
+  statusEl.textContent = 'Erreur de chargement dynamique du registre des chansons : ' + err.message;
+});
