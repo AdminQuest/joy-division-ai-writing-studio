@@ -68,6 +68,8 @@ function matches(item, f, except) {
   if (except !== 'chapter' && f.chapter && !chaptersOf(d).includes(f.chapter)) return false;
   return true;
 }
+// Rebuild a select's options; returns true if the current selection was
+// orphaned by the new option set and had to be cleared.
 function setOptions(select, values, allLabel, labeler = v => v) {
   const cur = select.value;
   select.innerHTML = '';
@@ -79,17 +81,27 @@ function setOptions(select, values, allLabel, labeler = v => v) {
     o.value = v; o.textContent = labeler(v);
     select.appendChild(o);
   });
-  select.value = values.includes(cur) ? cur : '';
+  const cleaned = cur !== '' && !values.includes(cur);
+  select.value = cleaned ? '' : cur;
+  return cleaned;
 }
 function refreshFacets() {
-  const f = currentFilters();
-  // Type ordered by the canonical section order; others alphanumeric.
-  const typeVals = PlaceIcons.order.filter(t =>
-    items.some(i => typeOf(i.data || {}) === t && matches(i, f, 'type')));
-  setOptions(typeFilter, typeVals, 'Tous', PlaceIcons.label);
-  setOptions(detailFilter, U(items.filter(i => matches(i, f, 'detail')).map(i => detailOf(i.data || {}))), 'Tous');
-  setOptions(sourceFilter, U(items.filter(i => matches(i, f, 'source')).flatMap(sourceIds)), 'Toutes', sourceLabel);
-  setOptions(chapterFilter, U(items.filter(i => matches(i, f, 'chapter')).flatMap(i => chaptersOf(i.data || {}))), 'Tous');
+  // Each select offers only values still present under the *other* active
+  // filters. Clearing an orphaned selection widens the remaining facets, so
+  // re-read currentFilters() and repeat until a full pass clears nothing
+  // (guarded against infinite loops).
+  for (let pass = 0; pass < 5; pass++) {
+    const f = currentFilters();
+    // Type ordered by the canonical section order; others alphanumeric.
+    const typeVals = PlaceIcons.order.filter(t =>
+      items.some(i => typeOf(i.data || {}) === t && matches(i, f, 'type')));
+    let cleaned = false;
+    cleaned = setOptions(typeFilter, typeVals, 'Tous', PlaceIcons.label) || cleaned;
+    cleaned = setOptions(detailFilter, U(items.filter(i => matches(i, f, 'detail')).map(i => detailOf(i.data || {}))), 'Tous') || cleaned;
+    cleaned = setOptions(sourceFilter, U(items.filter(i => matches(i, f, 'source')).flatMap(sourceIds)), 'Toutes', sourceLabel) || cleaned;
+    cleaned = setOptions(chapterFilter, U(items.filter(i => matches(i, f, 'chapter')).flatMap(i => chaptersOf(i.data || {}))), 'Tous') || cleaned;
+    if (!cleaned) break;
+  }
 }
 
 /* ── Rendu ──────────────────────────────────────────────── */
