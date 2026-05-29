@@ -7,7 +7,7 @@ Entrées spécialisées issues de `sources/curtis_touching_from_a_distance/sourc
 ```yaml
 id: SONG-S45-SHORT-CIRCUIT
 source_id: S45
-titre: Short Circuit: Live at the Electric Circus
+titre: "Short Circuit: Live at the Electric Circus"
 nature: compilation live
 usage: >
   Archive locale ambiguë du seuil Warsaw / Joy Division ; inclut Warsaw dans un
