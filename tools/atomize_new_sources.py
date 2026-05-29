@@ -143,6 +143,25 @@ def source_is_atomized(source_id: str) -> bool:
     return False
 
 
+def count_atoms(source_id: str) -> int:
+    """Count actual atoms (``id: SXX-Axxx``) authored for this source in sources/.
+
+    This is the real signal that an atomisation pass produced content: a bare
+    source.md with ``source_id: SXX`` but no atoms is *partial* and must not be
+    committed. Matches lines like ``id: S90-A001`` (with optional indentation).
+    """
+    pattern = re.compile(rf"^\s*id:\s*{re.escape(source_id)}-A\d+", re.MULTILINE)
+    if not SOURCES_DIR.exists():
+        return 0
+    total = 0
+    for md in SOURCES_DIR.rglob("*.md"):
+        try:
+            total += len(pattern.findall(md.read_text(encoding="utf-8", errors="ignore")))
+        except OSError:
+            continue
+    return total
+
+
 def is_pending(entry: Dict[str, Any]) -> bool:
     status = normalize(entry.get("statut", ""))
     if PENDING_STATUS_MARKER not in status:
@@ -228,6 +247,16 @@ def git_current_branch() -> str:
     return out.stdout.strip()
 
 
+def git_branch_exists(branch: str) -> bool:
+    proc = subprocess.run(
+        ["git", "rev-parse", "--verify", "--quiet", f"refs/heads/{branch}"],
+        cwd=str(REPO_ROOT),
+        capture_output=True,
+        text=True,
+    )
+    return proc.returncode == 0
+
+
 def gh_available() -> bool:
     return shutil.which("gh") is not None
 
@@ -305,6 +334,7 @@ def prepare_one(
     today: str,
     log: Log,
     dry: bool,
+    reuse_branch: bool = False,
 ) -> bool:
     sid = entry["id"]
     branch = branch_name(entry, today)
@@ -312,6 +342,17 @@ def prepare_one(
 
     if source_is_atomized(sid):
         log.warn(f"{sid} semble déjà atomisé (source_id présent dans sources/). Skip.")
+        return False
+
+    # Idempotence: never silently clobber or strand the user on main. Check the
+    # work branch BEFORE any git mutation.
+    branch_exists = git_branch_exists(branch)
+    if branch_exists and not reuse_branch:
+        log.error(
+            f"La branche {branch} existe déjà. Échec propre (aucune mutation). "
+            f"Reprends le travail dessus avec `git checkout {branch}`, "
+            f"relance avec --reuse-branch, ou supprime-la (git branch -D {branch})."
+        )
         return False
 
     # Locate the PDF (informational; the agent reads it via Drive MCP or local mount)
@@ -335,11 +376,15 @@ def prepare_one(
         )
         log.info("Mode MCP/cloud : pas de montage Drive local, lecture PDF via MCP.")
 
-    # Git: refresh main and create the work branch
-    run_cmd(["git", "fetch", "origin", "main"], log, dry=dry, check=False)
-    run_cmd(["git", "checkout", "main"], log, dry=dry, check=False)
-    run_cmd(["git", "pull", "origin", "main"], log, dry=dry, check=False)
-    run_cmd(["git", "checkout", "-b", branch], log, dry=dry, check=False)
+    # Git: refresh main and create (or reuse) the work branch
+    if branch_exists and reuse_branch:
+        log.warn(f"--reuse-branch : reprise sur la branche existante {branch}.")
+        run_cmd(["git", "checkout", branch], log, dry=dry, check=False)
+    else:
+        run_cmd(["git", "fetch", "origin", "main"], log, dry=dry, check=False)
+        run_cmd(["git", "checkout", "main"], log, dry=dry, check=False)
+        run_cmd(["git", "pull", "origin", "main"], log, dry=dry, check=False)
+        run_cmd(["git", "checkout", "-b", branch], log, dry=dry, check=False)
 
     print_consigne(entry, branch, pdf_hint, log)
     return True
@@ -353,6 +398,7 @@ def cmd_prepare(
     today: str,
     log: Log,
     dry: bool,
+    reuse_branch: bool = False,
 ) -> int:
     if do_all:
         targets = detect_pending(registre)
@@ -364,7 +410,8 @@ def cmd_prepare(
         ok = True
         for e in targets:
             try:
-                prepare_one(e, registre_path, today, log, dry)
+                if not prepare_one(e, registre_path, today, log, dry, reuse_branch):
+                    ok = False
             except Exception as exc:  # noqa: BLE001 — isolate per-source failures
                 log.error(f"Échec préparation {e['id']}: {exc}")
                 ok = False
@@ -379,11 +426,11 @@ def cmd_prepare(
         log.error(f"Source {source_id} absente de data/registre.json.")
         return 2
     try:
-        prepare_one(entry, registre_path, today, log, dry)
+        ok = prepare_one(entry, registre_path, today, log, dry, reuse_branch)
     except Exception as exc:  # noqa: BLE001
         log.error(f"Échec préparation {source_id}: {exc}")
         return 1
-    return 0
+    return 0 if ok else 1
 
 
 def cmd_commit_and_pr(
@@ -404,18 +451,29 @@ def cmd_commit_and_pr(
     if branch in ("main", "master"):
         log.error("Refus : on est sur main. Place-toi sur la branche claude/atomize-…")
         return 1
-    if not source_is_atomized(source_id) and not dry:
+
+    # Completeness gate: require real atoms (SXX-Axxx), not just a bare source.md.
+    # This catches a *partial* pass (source.md present but no atoms written).
+    n_atoms = count_atoms(source_id)
+    log.info(f"{n_atoms} atome(s) {source_id}-Axxx détecté(s) dans sources/.")
+    if n_atoms == 0 and not dry:
         log.error(
-            f"Aucun atome {source_id} détecté dans sources/. "
-            "Lance d'abord l'atomisation (voir --prepare). Abandon."
+            f"Aucun atome {source_id}-Axxx dans sources/ : atomisation absente ou "
+            "partielle. Termine la passe (voir --prepare) avant de committer. Abandon."
         )
         return 1
 
-    # Validation pipeline
-    log.step("Validation : build_registers --strict")
-    run_cmd([sys.executable, "tools/build_registers.py", "--strict"], log, dry=dry)
-    log.step("Validation : audit_repo --fail-on-error")
-    run_cmd([sys.executable, "tools/audit_repo.py", "--fail-on-error"], log, dry=dry)
+    # Validation pipeline — fail gracefully (no traceback) if the repo is not
+    # internally consistent. Nothing is staged/committed when this fails.
+    try:
+        log.step("Validation : build_registers --strict")
+        run_cmd([sys.executable, "tools/build_registers.py", "--strict"], log, dry=dry)
+        log.step("Validation : audit_repo --fail-on-error")
+        run_cmd([sys.executable, "tools/audit_repo.py", "--fail-on-error"], log, dry=dry)
+    except RuntimeError as exc:
+        log.error(f"Validation échouée — rien n'est commité ni poussé : {exc}")
+        log.error("Corrige les erreurs signalées ci-dessus, puis relance --commit-and-pr.")
+        return 1
 
     # Stage public material only
     log.step("Staging (public uniquement)")
@@ -531,6 +589,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     p.add_argument("--all", action="store_true",
                    help="Avec --prepare : traite toutes les sources en attente.")
+    p.add_argument("--reuse-branch", action="store_true", dest="reuse_branch",
+                   help="Avec --prepare : reprend une branche de travail existante "
+                        "au lieu d'échouer (par défaut : échec propre, pas d'écrasement).")
     p.add_argument("--dry-run", action="store_true",
                    help="Simule sans rien écrire, déplacer ni pousser.")
     p.add_argument("--registre-path", metavar="PATH",
@@ -564,7 +625,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     if args.prepare is not None:
         sid = args.prepare or None
         return cmd_prepare(registre, sid, args.all, registre_path, today, log,
-                           args.dry_run)
+                           args.dry_run, args.reuse_branch)
     if args.commit_and_pr:
         return cmd_commit_and_pr(registre, args.commit_and_pr, today, log,
                                  args.dry_run)

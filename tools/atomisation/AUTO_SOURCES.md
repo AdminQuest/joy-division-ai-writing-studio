@@ -180,6 +180,29 @@ non implémenté**. Il n'est volontairement pas inclus ici :
 
 ---
 
+## 6 bis. Garde-fous et robustesse
+
+L'orchestrateur est conçu pour échouer **proprement** plutôt que de produire un
+état douteux :
+
+- **Périmètre public garanti par liste blanche.** `--commit-and-pr` ne `git add`
+  que `data/registre.json sources/ registers/ rag/ reports/ apps/` +
+  `exports/generated`. Aucun chemin `chapters/` ou `songs/` n'est jamais stagé
+  (c'est une liste blanche, pas une liste noire).
+- **Gate de complétude.** `--commit-and-pr` exige au moins un atome réel
+  (`SXX-Axxx`) dans `sources/`. Une passe partielle (par ex. `source.md` créé mais
+  aucun atome) est **refusée proprement** (exit 1), sans commit.
+- **Validation non destructive.** Si `build_registers --strict` ou
+  `audit_repo --fail-on-error` échoue, le script s'arrête avec un message clair
+  (pas de traceback) **avant** tout `git commit`/`push`. La complétude éditoriale
+  fine reste vérifiée par le relecteur de la PR.
+- **Idempotence de `--prepare`.** Si la branche de travail existe déjà, le script
+  **échoue proprement sans rien écraser** et indique quoi faire. Pour reprendre le
+  travail sur cette branche, ajouter `--reuse-branch` (`git checkout` de
+  l'existante, sans recréation).
+
+---
+
 ## 7. Aide-mémoire des commandes
 
 | But | Commande |
@@ -187,6 +210,7 @@ non implémenté**. Il n'est volontairement pas inclus ici :
 | Lister les sources en attente | `python3 tools/atomize_new_sources.py --detect` |
 | Préparer une source | `python3 tools/atomize_new_sources.py --prepare SXX` |
 | Préparer tout le lot (souvent en dry-run) | `python3 tools/atomize_new_sources.py --prepare --all --dry-run` |
+| Reprendre une branche de travail existante | `python3 tools/atomize_new_sources.py --prepare SXX --reuse-branch` |
 | Commiter + PR | `python3 tools/atomize_new_sources.py --commit-and-pr SXX` |
 | Archiver le PDF (après fusion) | `python3 tools/atomize_new_sources.py --finalize SXX` |
 | Simulation (aucune écriture) | ajouter `--dry-run` à n'importe quelle commande |
