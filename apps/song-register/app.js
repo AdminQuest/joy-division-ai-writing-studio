@@ -15,6 +15,9 @@ const downloadButton = document.getElementById('download-csv');
 const resultsMeta = document.getElementById('results-meta');
 const statusEl = document.getElementById('songs-status');
 const sectionsEl = document.getElementById('songs-sections');
+const listHero = document.getElementById('list-hero');
+const listView = document.getElementById('list-view');
+const detailView = document.getElementById('detail-view');
 
 let songGroups = [];
 let canonicalSongs = [];
@@ -62,6 +65,7 @@ async function loadSongs() {
   statusEl.style.display = 'none';
   refreshFacets();
   render();
+  route(); // honore ?id= / ?slug= / ?focus= présent dès le chargement
 }
 
 /* ── Rattachement canon ↔ mentions (préservé de la version d'origine) ── */
@@ -259,7 +263,8 @@ function card(group) {
 
   return '<article class="song-card" id="song-' + esc(c.id) + '"' + (c.slug ? ' data-slug="' + esc(c.slug) + '"' : '') + '>'
     + '<div class="song-card__header">' + SongIcons.svg(c.category)
-      + '<div class="song-card__heading"><h3 class="song-card__title">' + esc(c.song) + '</h3>'
+      + '<div class="song-card__heading"><h3 class="song-card__title">'
+        + '<a class="song-card__title-link" href="?slug=' + esc(c.slug || c.id) + '" data-slug="' + esc(c.slug || '') + '" data-id="' + esc(c.id) + '">' + esc(c.song) + '</a></h3>'
       + (c.period ? '<p class="song-card__period">' + esc(c.period) + '</p>' : '') + '</div></div>'
     + '<div class="song-card__badges">'
       + (c.status ? '<span class="song-badge">' + esc(c.status) + '</span>' : '')
@@ -305,8 +310,68 @@ function render() {
   });
 }
 
+/* ── Routing : ?id=JD-SONG-NNN | ?slug=… → page de détail ─────────────── */
+function findGroup({ id, slug }) {
+  if (id) return songGroups.find(g => g.canonical.id === id) || null;
+  if (slug) {
+    const key = norm(slug);
+    return songGroups.find(g => norm(g.canonical.slug) === key
+      || norm(g.canonical.song) === key) || null;
+  }
+  return null;
+}
+function showListView() {
+  detailView.hidden = true;
+  detailView.innerHTML = '';
+  listHero.hidden = false;
+  listView.hidden = false;
+}
+function focusCard(id) {
+  const el = document.getElementById('song-' + id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('song-card--target');
+  setTimeout(() => el.classList.remove('song-card--target'), 1600);
+}
+// Point d'entrée du routage : appelé au chargement, sur navigation interne
+// (pushState) et sur popstate. Décide liste vs détail à partir de l'URL.
+function route() {
+  const p = new URLSearchParams(location.search);
+  const id = p.get('id');
+  const slug = p.get('slug');
+  if (id || slug) {
+    const group = findGroup({ id, slug });
+    if (group) renderDetail(group);
+    else renderDetailNotFound(id || slug);
+    return;
+  }
+  showListView();
+  const focus = p.get('focus');
+  if (focus) {
+    // La liste peut être filtrée : on réinitialise pour garantir la présence
+    // de la card ciblée, puis on la met en évidence.
+    resetFilters(); refreshFacets(); render();
+    requestAnimationFrame(() => focusCard(focus));
+  }
+}
+// Navigation interne sans rechargement (préserve le fetch unique des chansons).
+function navigateTo(query) {
+  history.pushState(null, '', query);
+  route();
+  window.scrollTo({ top: 0, behavior: 'auto' });
+}
+window.addEventListener('popstate', route);
+
 /* ── Interactions (délégation, accessibles clavier) ─────── */
 sectionsEl.addEventListener('click', e => {
+  // Clic sur le titre d'une card → ouvre la page de détail (nav interne).
+  const titleLink = e.target.closest('.song-card__title-link');
+  if (titleLink) {
+    e.preventDefault();
+    const slug = titleLink.dataset.slug;
+    navigateTo(slug ? '?slug=' + encodeURIComponent(slug) : '?id=' + encodeURIComponent(titleLink.dataset.id));
+    return;
+  }
   const more = e.target.closest('.song-card__more');
   if (more) {
     const details = more.closest('.song-card').querySelector('.song-card__details');
@@ -328,6 +393,15 @@ sectionsEl.addEventListener('click', e => {
       setTimeout(() => el.classList.remove('song-card--target'), 1600);
     }
   }
+});
+
+// Liens internes de la page de détail (retour, distinct de, accueil) :
+// navigation sans rechargement pour préserver le fetch unique des chansons.
+detailView.addEventListener('click', e => {
+  const link = e.target.closest('a[data-focus], a[data-home]');
+  if (!link) return;
+  e.preventDefault();
+  navigateTo(link.hasAttribute('data-home') ? './' : '?focus=' + encodeURIComponent(link.dataset.focus));
 });
 
 /* ── Export CSV (jeu filtré courant) ────────────────────── */
