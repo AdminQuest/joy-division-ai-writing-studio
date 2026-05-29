@@ -138,14 +138,16 @@ function currentFilters() {
     chapter: chapterFilter.value
   };
 }
-// Full-text haystack (ported from the original register: mentions are indexed
-// via JSON.stringify of their data — refined in a follow-up commit).
+// Full-text index built from useful fields only. The original register fed
+// JSON.stringify(record.data) into the haystack, which leaked YAML field names
+// (usage, type_unite, source_id…) into search and produced false positives.
+// Index instead the meaningful mention fields: title, short extract, and ids.
 function searchIndex(group) {
   const c = group.canonical;
   return [
     c.song, ...c.aliases, ...c.albums, c.period, c.category, c.status, ...c.variants, c.separate_from,
     ...group.sourceRoots, ...group.sourceRoots.map(sourceLabel), ...group.chapters, ...group.themes,
-    ...group.records.map(r => JSON.stringify(r.data || {}) + ' ' + r.id + ' ' + r.file)
+    ...group.records.flatMap(r => { const d = r.data || {}; return [rawSongTitle(d), d.usage, d.id, r.id]; })
   ].map(T).join(' ').toLowerCase();
 }
 function matches(group, f, except) {
