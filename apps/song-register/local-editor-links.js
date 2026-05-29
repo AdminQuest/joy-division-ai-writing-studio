@@ -41,6 +41,16 @@
     return overrides[key] || slugifySongTitle(title);
   }
 
+  // Construit l'URL de l'éditeur privé pour un slug canonique (prioritaire) ou,
+  // à défaut, un titre dérivé. Exposé pour que la page de détail produise un
+  // lien "ouvrir éditeur" strictement cohérent avec celui des cards de la liste.
+  function urlFor({ slug, title } = {}) {
+    const finalSlug = slug || slugFor(title);
+    if (!finalSlug) return null;
+    return LOCAL_EDITOR_BASE + '?slug=' + encodeURIComponent(finalSlug);
+  }
+  window.LocalEditorLinks = { urlFor, slugFor, base: LOCAL_EDITOR_BASE };
+
   function addLinks() {
     document.querySelectorAll('.song-card').forEach(card => {
       if (card.querySelector('.local-editor-link')) return;

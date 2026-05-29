@@ -362,6 +362,143 @@ function navigateTo(query) {
 }
 window.addEventListener('popstate', route);
 
+/* ── Rendu de la page de détail ───────────────────────────────────────── */
+function detailRow(label, valueHtml) {
+  return valueHtml
+    ? '<div class="song-detail-canon__row"><dt>' + esc(label) + '</dt><dd>' + valueHtml + '</dd></div>'
+    : '';
+}
+function detailSection(title, bodyHtml, extraClass) {
+  return '<section class="song-detail-section' + (extraClass ? ' ' + extraClass : '') + '">'
+    + '<h2 class="song-detail-section__title">' + esc(title) + '</h2>'
+    + bodyHtml + '</section>';
+}
+function renderDetailShell(group, releasesHtml) {
+  const c = group.canonical;
+  const aliases = c.aliases.filter(x => x !== c.song);
+  const editorUrl = (window.LocalEditorLinks && window.LocalEditorLinks.urlFor({ slug: c.slug, title: c.song })) || '';
+
+  // separate_from → lien cliquable vers la liste, card cible en focus.
+  let separateHtml = '';
+  if (c.separate_from) {
+    const m = /^(JD-SONG-\d{3})/.exec(c.separate_from);
+    separateHtml = m
+      ? '<a class="song-detail-link" href="?focus=' + esc(m[1]) + '" data-focus="' + esc(m[1]) + '">' + esc(c.separate_from) + '</a>'
+      : esc(c.separate_from);
+  }
+
+  const canon = '<dl class="song-detail-canon">'
+    + detailRow('Identifiant', '<code>' + esc(c.id) + '</code>')
+    + detailRow('Slug', c.slug ? '<code>' + esc(c.slug) + '</code>' : '')
+    + detailRow('Catégorie', esc(c.category))
+    + detailRow('Période', esc(c.period))
+    + detailRow('Statut', esc(c.status))
+    + detailRow('Albums / corpus', c.albums.length ? esc(c.albums.join(', ')) : '')
+    + detailRow('Alias', aliases.length ? esc(aliases.join(', ')) : '')
+    + detailRow('Variantes retenues', c.variants.length ? esc(c.variants.join(', ')) : '')
+    + detailRow('Distinct de', separateHtml)
+    + '</dl>';
+
+  const mentions = group.records.length
+    ? mentionsBlock(group)
+    : '<p class="song-detail-empty">Aucune mention atomisée rattachée.</p>';
+  const chapters = group.chapters.length
+    ? tags(group.chapters)
+    : '<p class="song-detail-empty">Aucun chapitre référencé.</p>';
+  const sources = group.sourceRoots.length
+    ? tags(group.sourceRoots.map(sourceLabel))
+    : '<p class="song-detail-empty">Aucune source référencée.</p>';
+
+  detailView.innerHTML =
+    '<a class="song-detail-back songs-hero__back" href="?focus=' + esc(c.id) + '" data-focus="' + esc(c.id) + '">← Retour au registre</a>'
+    + '<header class="song-detail-hero">'
+      + '<div class="song-detail-hero__icon">' + SongIcons.svg(c.category) + '</div>'
+      + '<div class="song-detail-hero__heading">'
+        + '<h1 class="song-detail-hero__title">' + esc(c.song) + '</h1>'
+        + (c.period ? '<p class="song-detail-hero__period">' + esc(c.period) + '</p>' : '')
+        + '<div class="song-detail-hero__badges">'
+          + (c.category ? '<span class="song-badge">' + esc(c.category) + '</span>' : '')
+          + (c.status ? '<span class="song-badge">' + esc(c.status) + '</span>' : '')
+        + '</div>'
+      + '</div>'
+      + (editorUrl ? '<a class="song-card__editor-link song-detail-hero__editor" href="' + esc(editorUrl) + '" target="_blank" rel="noopener noreferrer" title="Éditeur de Songbook — GitHub Pages (token requis).">ouvrir éditeur</a>' : '')
+    + '</header>'
+    + detailSection('Canon public', canon, 'song-detail-section--canon')
+    + detailSection('Mentions atomisées rattachées', mentions)
+    + detailSection('Chapitres référencés', chapters)
+    + detailSection('Sources', sources)
+    + '<section class="song-detail-section" id="detail-releases">' + releasesHtml + '</section>';
+
+  listHero.hidden = true;
+  listView.hidden = true;
+  detailView.hidden = false;
+}
+function releasesPlaceholderHtml() {
+  return '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+    + '<p class="song-detail-loading">Recherche dans le registre des releases…</p>';
+}
+function releaseItemHtml(v) {
+  const title = esc(v.canonical_title || '(sans titre)');
+  const vid = esc(v.variant_id || '');
+  const type = v.release_type || '';
+  // Pas de deep-link par variante côté joy-division-releases : on pointe la
+  // racine du registre avec un indice de recherche (cohérence forward).
+  const href = RELEASES_BASE + (title ? '?search=' + encodeURIComponent(v.canonical_title || '') : '');
+  return '<a class="song-release" href="' + href + '" target="_blank" rel="noopener noreferrer">'
+    + '<span class="song-release__icon">' + SongIcons.releaseSvg(type) + '</span>'
+    + '<span class="song-release__body">'
+      + '<span class="song-release__title">' + title + '</span>'
+      + '<span class="song-release__meta">' + (vid ? '<code>' + vid + '</code>' : '')
+        + (type ? ' <span class="song-release__type">' + esc(SongIcons.releaseLabel(type)) + '</span>' : '') + '</span>'
+    + '</span></a>';
+}
+const RELEASE_TYPE_ORDER = ['officiel', 'coffret', 'pirate', 'bootleg', 'video', 'livre', 'para'];
+function renderReleasesSection(song) {
+  const host = document.getElementById('detail-releases');
+  if (!host) return;
+  loadReleases().then(variants => {
+    const matched = matchReleases(variants, song);
+    if (!matched.length) {
+      host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+        + '<p class="song-detail-empty">Aucune release ne correspond au titre normalisé de cette chanson.</p>'
+        + releasesDisclaimerHtml();
+      return;
+    }
+    matched.sort((a, b) => {
+      const ra = RELEASE_TYPE_ORDER.indexOf(a.release_type);
+      const rb = RELEASE_TYPE_ORDER.indexOf(b.release_type);
+      if (ra !== rb) return (ra < 0 ? 99 : ra) - (rb < 0 ? 99 : rb);
+      return T(a.variant_id).localeCompare(T(b.variant_id), undefined, { numeric: true });
+    });
+    host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases '
+      + '<span class="song-detail-section__count">' + matched.length + '</span></h2>'
+      + '<div class="song-releases">' + matched.map(releaseItemHtml).join('') + '</div>'
+      + releasesDisclaimerHtml();
+  }).catch(err => {
+    console.warn('[song-detail] releases indisponibles :', err);
+    host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+      + '<p class="song-detail-empty song-detail-warning">Releases non disponibles (le registre n\'a pas pu être chargé).</p>';
+  });
+}
+function releasesDisclaimerHtml() {
+  return '<p class="song-detail-note">Matching tactique par titre. Une liaison FK <code>song_id</code> propre est prévue en phase ultérieure (12b-2.c étendu).</p>';
+}
+function renderDetail(group) {
+  renderDetailShell(group, releasesPlaceholderHtml());
+  renderReleasesSection(group.canonical);
+}
+function renderDetailNotFound(ref) {
+  listHero.hidden = true;
+  listView.hidden = true;
+  detailView.hidden = false;
+  detailView.innerHTML =
+    '<a class="song-detail-back songs-hero__back" href="./" data-home="1">← Retour au registre</a>'
+    + '<div class="song-detail-notfound">'
+      + '<h1>Chanson non trouvée</h1>'
+      + '<p>Aucune chanson canonique ne correspond à <code>' + esc(ref) + '</code>.</p>'
+    + '</div>';
+}
+
 /* ── Interactions (délégation, accessibles clavier) ─────── */
 sectionsEl.addEventListener('click', e => {
   // Clic sur le titre d'une card → ouvre la page de détail (nav interne).
