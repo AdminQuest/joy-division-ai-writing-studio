@@ -72,6 +72,7 @@ function extractCanonicalSongs(records) {
     .map(item => item.data || {})
     .filter(d => d.type_unite === 'song' && d.canonical_song === true && d.exclude !== true)
     .forEach(d => {
+      const prev = byId.get(d.id);
       byId.set(d.id, {
         id: d.id,
         song: d.song,
@@ -82,7 +83,11 @@ function extractCanonicalSongs(records) {
         aliases: U([d.song, ...(d.aliases || [])]),
         albums: A(d.albums),
         variants: A(d.include_variants),
-        separate_from: d.separate_from || ''
+        // separate_from may live on only one of several same-id canonical blocks
+        // (e.g. the standalone JD-SONG-051 file vs the 00_canonical inline entry).
+        // Preserve it across the id-dedup regardless of file order so the
+        // "Distinct de" link always renders.
+        separate_from: d.separate_from || (prev && prev.separate_from) || ''
       });
     });
   return [...byId.values()];
