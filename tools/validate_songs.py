@@ -51,20 +51,33 @@ def is_excluded(record: dict) -> bool:
     return record.get("exclude") is True
 
 
-def collect_song_records():
-    """Return (record, rel_path) for every song-shaped block under registers/songs/.
+CANONICAL_HINT = re.compile(r"^\s*-?\s*canonical_song:\s*true\b", re.M)
 
-    A block contributes records when it is a `songs:` container or a standalone
-    block carrying an explicit song id (JD-SONG-*). Document headers (no id, or
-    the song_canon registry header) are skipped.
+
+def collect_song_records():
+    """Collect song records and YAML parse errors under registers/songs/.
+
+    Returns (records, parse_errors) where:
+      - records is a list of (record_dict, rel_path) for every song-shaped block
+        (a `songs:` container or a standalone JD-SONG-* block; document headers
+        are skipped);
+      - parse_errors is a list of (rel_path, first_line, looks_canonical, message)
+        for every YAML block that fails to parse. Parse errors are NOT swallowed
+        silently: they are reported, and a canonical-looking block that fails to
+        parse makes the whole run fail (see main()). A malformed canonical block
+        can therefore no longer slip past strict validation unnoticed.
     """
     records = []
+    parse_errors = []
     for path in sorted(glob.glob(str(ROOT / "registers" / "songs" / "**" / "*.md"), recursive=True)):
         rel = path.replace(str(ROOT) + "/", "")
         for block in YAML_BLOCK.findall(Path(path).read_text(encoding="utf-8")):
             try:
                 data = yaml.safe_load(block)
-            except yaml.YAMLError:
+            except yaml.YAMLError as exc:
+                first_line = next((ln.strip() for ln in block.splitlines() if ln.strip()), "")
+                looks_canonical = bool(CANONICAL_HINT.search(block))
+                parse_errors.append((rel, first_line, looks_canonical, str(exc).splitlines()[0]))
                 continue
             if not isinstance(data, dict):
                 continue
@@ -78,7 +91,7 @@ def collect_song_records():
             for item in items:
                 if isinstance(item, dict):
                     records.append((item, rel))
-    return records
+    return records, parse_errors
 
 
 def light_check_excluded(record: dict):
@@ -93,7 +106,7 @@ def light_check_excluded(record: dict):
 
 
 def main() -> int:
-    records = collect_song_records()
+    records, parse_errors = collect_song_records()
 
     canonical = [(r, rel) for r, rel in records if is_canonical(r)]
     excluded = [(r, rel) for r, rel in records if is_excluded(r)]
@@ -112,14 +125,28 @@ def main() -> int:
             invalid_excluded.append((record.get("id"), rel, errors))
 
     distinct_ids = {r.get("id") for r, _ in canonical}
+    canonical_parse_errors = [e for e in parse_errors if e[2]]
 
     print(f"Song records collected (registers/songs/)   : {len(records)}")
     print(f"  canonical (strict schema)                  : {len(canonical)}")
     print(f"  excluded  (light check)                    : {len(excluded)}")
     print(f"  mentions / other (counted, not validated)  : {len(mentions)}")
     print(f"Distinct canonical ids                        : {len(distinct_ids)}")
+    print(f"YAML blocks that failed to parse              : {len(parse_errors)} ({len(canonical_parse_errors)} canonical)")
     print(f"Canonical valid against schema                : {len(canonical) - len(invalid_canonical)}/{len(canonical)}")
     print(f"Excluded valid against light check            : {len(excluded) - len(invalid_excluded)}/{len(excluded)}")
+
+    if parse_errors:
+        # Never silent: every malformed block is surfaced. A canonical-looking
+        # block that fails to parse is fatal (it would otherwise escape strict
+        # validation); a malformed non-canonical mention is reported as a warning,
+        # consistent with the strict-canonical / soft-mention policy.
+        print(f"\nYAML PARSE ERRORS ({len(parse_errors)}):")
+        for rel, first_line, looks_canonical, msg in parse_errors:
+            tag = "CANONICAL — FATAL" if looks_canonical else "mention — warning"
+            print(f"  [{tag}] {rel}")
+            print(f"       first line: {first_line}")
+            print(f"       error: {msg}")
 
     if invalid_canonical:
         print(f"\nINVALID CANONICAL ({len(invalid_canonical)}):")
@@ -135,10 +162,16 @@ def main() -> int:
             for m in msgs:
                 print(f"       - {m}")
 
-    if invalid_canonical or invalid_excluded:
+    if invalid_canonical or invalid_excluded or canonical_parse_errors:
         return 1
 
-    print("\nAll canonical song records are valid; excluded records pass the light check.")
+    note = ""
+    if parse_errors:
+        note = (
+            f" ({len(parse_errors)} non-canonical block(s) failed to parse — "
+            "reported above as warnings, not fatal)"
+        )
+    print(f"\nAll canonical song records are valid; excluded records pass the light check.{note}")
     return 0
 
 
