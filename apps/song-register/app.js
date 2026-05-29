@@ -15,6 +15,9 @@ const downloadButton = document.getElementById('download-csv');
 const resultsMeta = document.getElementById('results-meta');
 const statusEl = document.getElementById('songs-status');
 const sectionsEl = document.getElementById('songs-sections');
+const listHero = document.getElementById('list-hero');
+const listView = document.getElementById('list-view');
+const detailView = document.getElementById('detail-view');
 
 let songGroups = [];
 let canonicalSongs = [];
@@ -62,6 +65,7 @@ async function loadSongs() {
   statusEl.style.display = 'none';
   refreshFacets();
   render();
+  route(); // honore ?id= / ?slug= / ?focus= présent dès le chargement
 }
 
 /* ── Rattachement canon ↔ mentions (préservé de la version d'origine) ── */
@@ -259,7 +263,8 @@ function card(group) {
 
   return '<article class="song-card" id="song-' + esc(c.id) + '"' + (c.slug ? ' data-slug="' + esc(c.slug) + '"' : '') + '>'
     + '<div class="song-card__header">' + SongIcons.svg(c.category)
-      + '<div class="song-card__heading"><h3 class="song-card__title">' + esc(c.song) + '</h3>'
+      + '<div class="song-card__heading"><h3 class="song-card__title">'
+        + '<a class="song-card__title-link" href="?slug=' + esc(c.slug || c.id) + '" data-slug="' + esc(c.slug || '') + '" data-id="' + esc(c.id) + '">' + esc(c.song) + '</a></h3>'
       + (c.period ? '<p class="song-card__period">' + esc(c.period) + '</p>' : '') + '</div></div>'
     + '<div class="song-card__badges">'
       + (c.status ? '<span class="song-badge">' + esc(c.status) + '</span>' : '')
@@ -305,8 +310,245 @@ function render() {
   });
 }
 
+/* ── Matching tactique vers le registre des releases (12b-2.c MVP) ──────
+   Seul cross-repo de ce MVP. Le JSON consolidé de joy-division-releases ne
+   porte PAS de tracklist par piste : chaque variante est indexée par un unique
+   `canonical_title` (titre du single/EP, ou de l'album). Le matching se fait
+   donc titre/alias canonique ↔ canonical_title normalisé. Tactique et imparfait
+   (faux positifs sur titres proches, faux négatifs sur "… (Live)", appartenance
+   à un album non résolue piste-à-piste). Une FK propre song_id est différée en
+   12b-2.c étendu. Le fetch n'a lieu qu'une fois par session (cache mémoire). */
+const RELEASES_BASE = 'https://adminquest.github.io/joy-division-releases/';
+const RELEASES_JSON = RELEASES_BASE + 'data/all-variants.json';
+let releasesPromise = null;
+function loadReleases() {
+  if (!releasesPromise) {
+    releasesPromise = fetch(RELEASES_JSON, { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(j => Array.isArray(j.variants) ? j.variants : []);
+  }
+  return releasesPromise;
+}
+// Clés normalisées d'une chanson canonique (titre + alias), avec variante
+// sans "the " initial pour absorber les divergences d'article — même esprit
+// que canonicalForRecord().
+function songTitleKeys(song) {
+  const keys = new Set();
+  [song.song, ...(song.aliases || [])].forEach(t => {
+    const k = norm(t);
+    if (!k) return;
+    keys.add(k);
+    keys.add(k.replace(/^the /, ''));
+  });
+  return keys;
+}
+function matchReleases(variants, song) {
+  const keys = songTitleKeys(song);
+  return variants.filter(v => {
+    const t = norm(v.canonical_title);
+    return t && (keys.has(t) || keys.has(t.replace(/^the /, '')));
+  });
+}
+
+/* ── Routing : ?id=JD-SONG-NNN | ?slug=… → page de détail ─────────────── */
+function findGroup({ id, slug }) {
+  if (id) return songGroups.find(g => g.canonical.id === id) || null;
+  if (slug) {
+    const key = norm(slug);
+    return songGroups.find(g => norm(g.canonical.slug) === key
+      || norm(g.canonical.song) === key) || null;
+  }
+  return null;
+}
+function showListView() {
+  detailView.hidden = true;
+  detailView.innerHTML = '';
+  listHero.hidden = false;
+  listView.hidden = false;
+}
+function focusCard(id) {
+  const el = document.getElementById('song-' + id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('song-card--target');
+  setTimeout(() => el.classList.remove('song-card--target'), 1600);
+}
+// Point d'entrée du routage : appelé au chargement, sur navigation interne
+// (pushState) et sur popstate. Décide liste vs détail à partir de l'URL.
+function route() {
+  const p = new URLSearchParams(location.search);
+  const id = p.get('id');
+  const slug = p.get('slug');
+  if (id || slug) {
+    const group = findGroup({ id, slug });
+    if (group) renderDetail(group);
+    else renderDetailNotFound(id || slug);
+    return;
+  }
+  showListView();
+  const focus = p.get('focus');
+  if (focus) {
+    // La liste peut être filtrée : on réinitialise pour garantir la présence
+    // de la card ciblée, puis on la met en évidence.
+    resetFilters(); refreshFacets(); render();
+    requestAnimationFrame(() => focusCard(focus));
+  }
+}
+// Navigation interne sans rechargement (préserve le fetch unique des chansons).
+function navigateTo(query) {
+  history.pushState(null, '', query);
+  route();
+  window.scrollTo({ top: 0, behavior: 'auto' });
+}
+window.addEventListener('popstate', route);
+
+/* ── Rendu de la page de détail ───────────────────────────────────────── */
+function detailRow(label, valueHtml) {
+  return valueHtml
+    ? '<div class="song-detail-canon__row"><dt>' + esc(label) + '</dt><dd>' + valueHtml + '</dd></div>'
+    : '';
+}
+function detailSection(title, bodyHtml, extraClass) {
+  return '<section class="song-detail-section' + (extraClass ? ' ' + extraClass : '') + '">'
+    + '<h2 class="song-detail-section__title">' + esc(title) + '</h2>'
+    + bodyHtml + '</section>';
+}
+function renderDetailShell(group, releasesHtml) {
+  const c = group.canonical;
+  const aliases = c.aliases.filter(x => x !== c.song);
+  const editorUrl = (window.LocalEditorLinks && window.LocalEditorLinks.urlFor({ slug: c.slug, title: c.song })) || '';
+
+  // separate_from → lien cliquable vers la liste, card cible en focus.
+  let separateHtml = '';
+  if (c.separate_from) {
+    const m = /^(JD-SONG-\d{3})/.exec(c.separate_from);
+    separateHtml = m
+      ? '<a class="song-detail-link" href="?focus=' + esc(m[1]) + '" data-focus="' + esc(m[1]) + '">' + esc(c.separate_from) + '</a>'
+      : esc(c.separate_from);
+  }
+
+  const canon = '<dl class="song-detail-canon">'
+    + detailRow('Identifiant', '<code>' + esc(c.id) + '</code>')
+    + detailRow('Slug', c.slug ? '<code>' + esc(c.slug) + '</code>' : '')
+    + detailRow('Catégorie', esc(c.category))
+    + detailRow('Période', esc(c.period))
+    + detailRow('Statut', esc(c.status))
+    + detailRow('Albums / corpus', c.albums.length ? esc(c.albums.join(', ')) : '')
+    + detailRow('Alias', aliases.length ? esc(aliases.join(', ')) : '')
+    + detailRow('Variantes retenues', c.variants.length ? esc(c.variants.join(', ')) : '')
+    + detailRow('Distinct de', separateHtml)
+    + '</dl>';
+
+  const mentions = group.records.length
+    ? mentionsBlock(group)
+    : '<p class="song-detail-empty">Aucune mention atomisée rattachée.</p>';
+  const chapters = group.chapters.length
+    ? tags(group.chapters)
+    : '<p class="song-detail-empty">Aucun chapitre référencé.</p>';
+  const sources = group.sourceRoots.length
+    ? tags(group.sourceRoots.map(sourceLabel))
+    : '<p class="song-detail-empty">Aucune source référencée.</p>';
+
+  detailView.innerHTML =
+    '<a class="song-detail-back songs-hero__back" href="?focus=' + esc(c.id) + '" data-focus="' + esc(c.id) + '">← Retour au registre</a>'
+    + '<header class="song-detail-hero">'
+      + '<div class="song-detail-hero__icon">' + SongIcons.svg(c.category) + '</div>'
+      + '<div class="song-detail-hero__heading">'
+        + '<h1 class="song-detail-hero__title">' + esc(c.song) + '</h1>'
+        + (c.period ? '<p class="song-detail-hero__period">' + esc(c.period) + '</p>' : '')
+        + '<div class="song-detail-hero__badges">'
+          + (c.category ? '<span class="song-badge">' + esc(c.category) + '</span>' : '')
+          + (c.status ? '<span class="song-badge">' + esc(c.status) + '</span>' : '')
+        + '</div>'
+      + '</div>'
+      + (editorUrl ? '<a class="song-card__editor-link song-detail-hero__editor" href="' + esc(editorUrl) + '" target="_blank" rel="noopener noreferrer" title="Éditeur de Songbook — GitHub Pages (token requis).">ouvrir éditeur</a>' : '')
+    + '</header>'
+    + detailSection('Canon public', canon, 'song-detail-section--canon')
+    + detailSection('Mentions atomisées rattachées', mentions)
+    + detailSection('Chapitres référencés', chapters)
+    + detailSection('Sources', sources)
+    + '<section class="song-detail-section" id="detail-releases">' + releasesHtml + '</section>';
+
+  listHero.hidden = true;
+  listView.hidden = true;
+  detailView.hidden = false;
+}
+function releasesPlaceholderHtml() {
+  return '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+    + '<p class="song-detail-loading">Recherche dans le registre des releases…</p>';
+}
+function releaseItemHtml(v) {
+  const title = esc(v.canonical_title || '(sans titre)');
+  const vid = esc(v.variant_id || '');
+  const type = v.release_type || '';
+  // Pas de deep-link par variante côté joy-division-releases : on pointe la
+  // racine du registre avec un indice de recherche (cohérence forward).
+  const href = RELEASES_BASE + (title ? '?search=' + encodeURIComponent(v.canonical_title || '') : '');
+  return '<a class="song-release" href="' + href + '" target="_blank" rel="noopener noreferrer">'
+    + '<span class="song-release__icon">' + SongIcons.releaseSvg(type) + '</span>'
+    + '<span class="song-release__body">'
+      + '<span class="song-release__title">' + title + '</span>'
+      + '<span class="song-release__meta">' + (vid ? '<code>' + vid + '</code>' : '')
+        + (type ? ' <span class="song-release__type">' + esc(SongIcons.releaseLabel(type)) + '</span>' : '') + '</span>'
+    + '</span></a>';
+}
+const RELEASE_TYPE_ORDER = ['officiel', 'coffret', 'pirate', 'bootleg', 'video', 'livre', 'para'];
+function renderReleasesSection(song) {
+  const host = document.getElementById('detail-releases');
+  if (!host) return;
+  loadReleases().then(variants => {
+    const matched = matchReleases(variants, song);
+    if (!matched.length) {
+      host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+        + '<p class="song-detail-empty">Aucune release ne correspond au titre normalisé de cette chanson.</p>'
+        + releasesDisclaimerHtml();
+      return;
+    }
+    matched.sort((a, b) => {
+      const ra = RELEASE_TYPE_ORDER.indexOf(a.release_type);
+      const rb = RELEASE_TYPE_ORDER.indexOf(b.release_type);
+      if (ra !== rb) return (ra < 0 ? 99 : ra) - (rb < 0 ? 99 : rb);
+      return T(a.variant_id).localeCompare(T(b.variant_id), undefined, { numeric: true });
+    });
+    host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases '
+      + '<span class="song-detail-section__count">' + matched.length + '</span></h2>'
+      + '<div class="song-releases">' + matched.map(releaseItemHtml).join('') + '</div>'
+      + releasesDisclaimerHtml();
+  }).catch(err => {
+    console.warn('[song-detail] releases indisponibles :', err);
+    host.innerHTML = '<h2 class="song-detail-section__title">Présent sur les releases</h2>'
+      + '<p class="song-detail-empty song-detail-warning">Releases non disponibles (le registre n\'a pas pu être chargé).</p>';
+  });
+}
+function releasesDisclaimerHtml() {
+  return '<p class="song-detail-note">Matching tactique par titre. Une liaison FK <code>song_id</code> propre est prévue en phase ultérieure (12b-2.c étendu).</p>';
+}
+function renderDetail(group) {
+  renderDetailShell(group, releasesPlaceholderHtml());
+  renderReleasesSection(group.canonical);
+}
+function renderDetailNotFound(ref) {
+  listHero.hidden = true;
+  listView.hidden = true;
+  detailView.hidden = false;
+  detailView.innerHTML =
+    '<a class="song-detail-back songs-hero__back" href="./" data-home="1">← Retour au registre</a>'
+    + '<div class="song-detail-notfound">'
+      + '<h1>Chanson non trouvée</h1>'
+      + '<p>Aucune chanson canonique ne correspond à <code>' + esc(ref) + '</code>.</p>'
+    + '</div>';
+}
+
 /* ── Interactions (délégation, accessibles clavier) ─────── */
 sectionsEl.addEventListener('click', e => {
+  // Clic sur le titre d'une card → ouvre la page de détail (nav interne).
+  const titleLink = e.target.closest('.song-card__title-link');
+  if (titleLink) {
+    e.preventDefault();
+    const slug = titleLink.dataset.slug;
+    navigateTo(slug ? '?slug=' + encodeURIComponent(slug) : '?id=' + encodeURIComponent(titleLink.dataset.id));
+    return;
+  }
   const more = e.target.closest('.song-card__more');
   if (more) {
     const details = more.closest('.song-card').querySelector('.song-card__details');
@@ -328,6 +570,15 @@ sectionsEl.addEventListener('click', e => {
       setTimeout(() => el.classList.remove('song-card--target'), 1600);
     }
   }
+});
+
+// Liens internes de la page de détail (retour, distinct de, accueil) :
+// navigation sans rechargement pour préserver le fetch unique des chansons.
+detailView.addEventListener('click', e => {
+  const link = e.target.closest('a[data-focus], a[data-home]');
+  if (!link) return;
+  e.preventDefault();
+  navigateTo(link.hasAttribute('data-home') ? './' : '?focus=' + encodeURIComponent(link.dataset.focus));
 });
 
 /* ── Export CSV (jeu filtré courant) ────────────────────── */
