@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-29T12:02:21",
+  "generated_at": "2026-05-29T17:40:00",
   "summary": {
-    "records_total": 7588,
+    "records_total": 7611,
     "records_by_kind": {
-      "atom": 2725,
+      "atom": 2737,
       "metadata": 269,
-      "unknown": 1476,
-      "source": 118,
-      "quote": 551,
+      "unknown": 1481,
+      "source": 119,
+      "quote": 556,
       "chronology": 476,
       "concept": 456,
       "motif": 424,
@@ -20,9 +20,9 @@
       "concert": 197,
       "session": 18
     },
-    "diagnostics_total": 29789,
+    "diagnostics_total": 29947,
     "errors": 0,
-    "warnings": 29789,
+    "warnings": 29947,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -31,7 +31,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2725,
+    "atom": 2737,
     "chronology": 476,
     "concept": 456,
     "concert": 197,
@@ -39,14 +39,14 @@
     "motif": 424,
     "myth": 101,
     "person": 305,
-    "quote": 551,
+    "quote": 556,
     "quote_batch": 1,
     "rules": 1,
     "session": 18,
     "song": 110,
-    "source": 118,
+    "source": 119,
     "template": 360,
-    "unknown": 1476
+    "unknown": 1481
   },
   "records_by_source": {
     "REGISTRY": {
@@ -662,7 +662,9 @@
       "metadata": 1
     },
     "S90": {
-      "unknown": 1,
+      "unknown": 6,
+      "quote": 5,
+      "atom": 12,
       "metadata": 1
     },
     "S91": {
@@ -689,16 +691,16 @@
     "7": 24,
     "8": 81,
     "9": 18,
-    "Chapitre 1": 495,
+    "Chapitre 1": 497,
     "Chapitre 10": 564,
-    "Chapitre 11": 593,
+    "Chapitre 11": 599,
     "Chapitre 12": 669,
     "Chapitre 13": 371,
-    "Chapitre 14": 2056,
+    "Chapitre 14": 2065,
     "Chapitre 2": 738,
-    "Chapitre 3": 683,
-    "Chapitre 4": 596,
-    "Chapitre 5": 606,
+    "Chapitre 3": 685,
+    "Chapitre 4": 603,
+    "Chapitre 5": 609,
     "Chapitre 6": 796,
     "Chapitre 7": 282,
     "Chapitre 8": 590,
@@ -830,12 +832,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 665,
-    "invalid_controlled_value": 2647,
-    "missing_required_field": 9257,
+    "field_type_error": 677,
+    "invalid_controlled_value": 2668,
+    "missing_required_field": 9281,
     "schema_warning": 497,
-    "unknown_yaml_block": 1476,
-    "v2_migration_debt": 15247
+    "unknown_yaml_block": 1481,
+    "v2_migration_debt": 15343
   },
   "top_files_by_issue_count": [
     [
@@ -1902,6 +1904,46 @@
       "category": "unknown_yaml_block",
       "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
       "record_id": "REL-S42-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -12771,10 +12813,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2725,
+    "atoms_total": 2737,
     "atoms_v2_complete": 240,
-    "atoms_v2_incomplete": 2485,
-    "v2_missing_field_warnings": 15247
+    "atoms_v2_incomplete": 2497,
+    "v2_missing_field_warnings": 15343
   },
   "source_registry": {
     "declared_but_unused": [
@@ -14686,12 +14728,15 @@
         "auteur": "Mark Fisher",
         "titre": "Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures",
         "annee": "2014",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
+        "records": 24,
+        "atoms": 12,
+        "quotes": 5,
         "chronology": 0,
         "files": [
-          "registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md"
+          "registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md",
+          "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+          "sources/fisher_ghosts_of_my_life/citations_exactes.md",
+          "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md"
         ]
       },
       {
@@ -45540,6 +45585,1270 @@
       "record_id": "S42-A013",
       "message": "Missing nested field: niveau_preuve.corroboration",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/fisher_ghosts_of_my_life/relations_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "R-S90-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A001",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Invalid value for fiabilite: forte comme analyse de réception",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A002",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Invalid value for fiabilite: forte comme analyse interprétative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A003",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Invalid value for fiabilite: secondaire — Fisher relaie Deborah Curtis (Touching from a Distance)",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A004",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Invalid value for fiabilite: forte comme analyse de production",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A005",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Invalid value for fiabilite: moyenne — thèse interprétative de Fisher",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Invalid value for type_unite: analyse_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A006",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A007",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A008",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Invalid value for fiabilite: forte comme analyse interprétative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Invalid value for type_unite: analyse_voix",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A009",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A010",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Invalid value for fiabilite: forte comme cadrage ; donnée chiffrée (hausse de 70 %) à vérifier",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Invalid value for type_unite: cadrage_theorique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A011",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Invalid value for fiabilite: secondaire — Fisher relaie Bernard Sumner (entretien à Jon Savage)",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Invalid value for type_unite: contexte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+      "record_id": "S90-A012",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
     },
     {
       "level": "warning",

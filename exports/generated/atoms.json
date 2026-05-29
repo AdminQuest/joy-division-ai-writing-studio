@@ -5716,7 +5716,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "42; 50",
-      "type_unite": "objet_discographique",
+      "type_unite": "production",
       "concepts": [
         "An Ideal for Living",
         "Enigma Records",
@@ -5732,6 +5732,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la première matérialité discographique du groupe",
+        "illustrer la constitution précoce du marché collectionneur"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ideal_for_living",
+        "objet_rare",
+        "enigma_records",
+        "pochette_controverse"
+      ],
+      "concepts_derives": [
+        "marché_collectionneur",
+        "rareté_discographique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5748,7 +5779,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "42; 50",
-      "type_unite": "objet_discographique",
+      "type_unite": "production",
       "concepts": [
         "An Ideal for Living",
         "Anonymous Records",
@@ -5763,6 +5794,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "montrer la réédition corrective comme stratégie identitaire",
+        "documenter la trajectoire d'un objet devenu rare"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ideal_for_living",
+        "anonymous_records",
+        "objet_rare",
+        "redesign_pochette"
+      ],
+      "concepts_derives": [
+        "réédition",
+        "rareté_discographique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5779,7 +5841,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "44; 50",
-      "type_unite": "objet_factory",
+      "type_unite": "production",
       "concepts": [
         "A Factory Sample",
         "FAC 2",
@@ -5795,6 +5857,39 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "ancrer l'entrée de Joy Division dans l'économie Factory",
+        "documenter le premier objet Factory partagé entre groupes"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory_sample",
+        "fac2",
+        "digital",
+        "glass",
+        "hannett",
+        "cargo_studios"
+      ],
+      "concepts_derives": [
+        "économie_Factory",
+        "objet_partagé"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5811,7 +5906,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 44,
-      "type_unite": "production_discographique",
+      "type_unite": "production",
       "concepts": [
         "A Factory Sample",
         "pressage",
@@ -5825,6 +5920,35 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter les aléas artisanaux de la production Factory"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "mineur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory_sample",
+        "pressage",
+        "retard_production"
+      ],
+      "concepts_derives": [
+        "artisanat_Factory",
+        "calendrier_production"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5841,7 +5965,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 44,
-      "type_unite": "design_discographique",
+      "type_unite": "esthétique",
       "concepts": [
         "Unknown Pleasures",
         "Peter Saville",
@@ -5856,6 +5980,38 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la genèse visuelle du pulsar comme icône",
+        "établir la paternité créative de la pochette Saville/Albrecht"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "unknown_pleasures",
+        "peter_saville",
+        "pulsar",
+        "design_Factory",
+        "ondes_radio"
+      ],
+      "concepts_derives": [
+        "design_Factory",
+        "iconographie_scientifique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5872,7 +6028,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 44,
-      "type_unite": "production_album",
+      "type_unite": "production",
       "concepts": [
         "Unknown Pleasures",
         "Martin Hannett",
@@ -5887,6 +6043,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "établir Hannett comme acteur créatif et non simple technicien"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "martin_hannett",
+        "unknown_pleasures",
+        "synthétiseur",
+        "strawberry_studios"
+      ],
+      "concepts_derives": [
+        "rôle_créatif_hannett",
+        "production_son"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5903,7 +6089,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "44; 50",
-      "type_unite": "single",
+      "type_unite": "production",
       "concepts": [
         "Transmission",
         "Novelty",
@@ -5918,6 +6104,38 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la chronologie discographique des singles",
+        "établir le rôle de Saville dans l'identité visuelle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "transmission",
+        "novelty",
+        "fac13",
+        "peter_saville",
+        "chronologie_singles"
+      ],
+      "concepts_derives": [
+        "chronologie_discographique",
+        "design_Factory"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5934,7 +6152,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "44; 50",
-      "type_unite": "objet_rare",
+      "type_unite": "production",
       "concepts": [
         "Licht und Blindheit",
         "Atmosphere",
@@ -5949,6 +6167,39 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter le statut de rareté absolue d'un objet artistique",
+        "ancrer l'esthétique européenne de Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "licht_und_blindheit",
+        "atmosphere",
+        "dead_souls",
+        "sordide_sentimentale",
+        "édition_limitée"
+      ],
+      "concepts_derives": [
+        "édition_d_art",
+        "rareté_discographique",
+        "esthétique_européenne"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5965,7 +6216,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 44,
-      "type_unite": "objet_discographique",
+      "type_unite": "production",
       "concepts": [
         "Earcom 2",
         "Bob Last",
@@ -5981,6 +6232,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "illustrer les formes éditoriales hybrides de l'indépendance britannique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "earcom2",
+        "bob_last",
+        "fast_products",
+        "objet_hybride",
+        "indépendance_britannique"
+      ],
+      "concepts_derives": [
+        "format_hybride",
+        "économie_indépendante"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -5997,7 +6279,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 48,
-      "type_unite": "objet_discographique",
+      "type_unite": "production",
       "concepts": [
         "Still",
         "Peter Saville",
@@ -6012,6 +6294,38 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la stratification matérielle des éditions Factory",
+        "établir Still comme objet de collection dès sa sortie"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "still",
+        "peter_saville",
+        "édition_toile",
+        "édition_limitée",
+        "Factory"
+      ],
+      "concepts_derives": [
+        "stratification_éditoriale",
+        "objet_de_collection"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6028,7 +6342,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 48,
-      "type_unite": "reception_commerciale",
+      "type_unite": "reception",
       "concepts": [
         "Still",
         "charts",
@@ -6041,6 +6355,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "fournir une donnée quantitative de réception posthume"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "still",
+        "charts",
+        "album_posthume",
+        "réception_commerciale"
+      ],
+      "concepts_derives": [
+        "réception_posthume",
+        "performance_commerciale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6057,7 +6401,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 49,
-      "type_unite": "strategie_distribution",
+      "type_unite": "production",
       "concepts": [
         "Atmosphere",
         "She's Lost Control",
@@ -6072,6 +6416,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "illustrer la réactivité de Factory face aux dynamiques de marché"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "atmosphere",
+        "she_s_lost_control",
+        "distribution",
+        "import_marché"
+      ],
+      "concepts_derives": [
+        "stratégie_distribution",
+        "pression_importation"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6088,7 +6462,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "50-51",
-      "type_unite": "collection",
+      "type_unite": "culture_musicale",
       "concepts": [
         "vinyl collectors checklist",
         "collection",
@@ -6102,6 +6476,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "démontrer la patrimonialisation matérielle précoce de Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "checklist_vinyle",
+        "marché_collectionneur",
+        "rareté",
+        1983
+      ],
+      "concepts_derives": [
+        "patrimonialisation_précoce",
+        "culture_collectionneur"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6118,7 +6522,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "50-51",
-      "type_unite": "collection",
+      "type_unite": "culture_musicale",
       "concepts": [
         "collectors checklist",
         "New Order",
@@ -6132,6 +6536,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "montrer la continuité perçue entre Joy Division et New Order dans la culture collectionneuse"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "checklist_vinyle",
+        "new_order",
+        "ceremony",
+        "everything_s_gone_green",
+        "continuité"
+      ],
+      "concepts_derives": [
+        "continuité_Joy_Division_New_Order",
+        "marché_collectionneur"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6148,7 +6583,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 51,
-      "type_unite": "objet_discographique",
+      "type_unite": "production",
       "concepts": [
         "Short Circuit",
         "Electric Circus",
@@ -6163,6 +6598,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter un détail matériel rare et recherché par les collectionneurs"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "short_circuit",
+        "electric_circus",
+        "vinyle_bleu",
+        "édition_limitée"
+      ],
+      "concepts_derives": [
+        "vinyle_coloré",
+        "objet_de_collection"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6179,7 +6644,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "genealogie_culturelle",
+      "type_unite": "culture_musicale",
       "concepts": [
         "David Bowie",
         "Low",
@@ -6194,6 +6659,39 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "ancrer Joy Division dans la séquence berlinoise et expérimentale de Bowie",
+        "documenter une généalogie culturelle indirecte"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "bowie",
+        "low",
+        "warszawa",
+        "warsaw",
+        "influence_berlinoise"
+      ],
+      "concepts_derives": [
+        "généalogie_culturelle",
+        "influence_bowie",
+        "trilogie_berlinoise"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6210,7 +6708,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "reprise_exterieure",
+      "type_unite": "reception",
       "concepts": [
         "Grace Jones",
         "Private Life",
@@ -6224,6 +6722,39 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la première reprise externe d'un titre Joy Division",
+        "signaler l'entrée du groupe dans l'esthétique post-disco et art-pop"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "grace_jones",
+        "she_s_lost_control",
+        "reprise",
+        "island_records",
+        "post_disco"
+      ],
+      "concepts_derives": [
+        "première_reprise",
+        "circulation_répertoire",
+        "diffusion_internationale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6240,7 +6771,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 52,
-      "type_unite": "reprise_exterieure",
+      "type_unite": "reception",
       "concepts": [
         "Paul Young",
         "No Parlez",
@@ -6254,6 +6785,36 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "montrer la diffusion pop du répertoire Joy Division hors du cercle post-punk"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "paul_young",
+        "love_will_tear_us_apart",
+        "reprise_pop",
+        "diffusion_mainstream"
+      ],
+      "concepts_derives": [
+        "diffusion_pop",
+        "sortie_du_cercle_post_punk"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6270,7 +6831,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 53,
-      "type_unite": "archive_inedite",
+      "type_unite": "archive",
       "concepts": [
         "Warsaw",
         "unreleased album",
@@ -6285,6 +6846,37 @@
       "statut": "a_verifier",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter l'état des archives primitives Warsaw en 1983",
+        "signaler un risque d'inexactitude à recouper"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_partiel",
+        "corroboration": "incertaine",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "revision_probable",
+        "risque_revision": "eleve"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "warsaw",
+        "archive_studio",
+        "enregistrements_1977",
+        "inédit"
+      ],
+      "concepts_derives": [
+        "archive_primitive",
+        "mémoire_discographique_incertaine"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6301,7 +6893,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 53,
-      "type_unite": "archive_inedite",
+      "type_unite": "archive",
       "concepts": [
         "The Drawback",
         "Exercise One",
@@ -6316,6 +6908,37 @@
       "statut": "a_verifier",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "cartographier les titres finis restés inédits selon West en 1983"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_partiel",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "revision_probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "the_drawback",
+        "exercise_one",
+        "sound_of_music",
+        "peel_session",
+        "still"
+      ],
+      "concepts_derives": [
+        "état_archive_1983",
+        "titres_inédits"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6332,7 +6955,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 53,
-      "type_unite": "archive_live",
+      "type_unite": "archive",
       "concepts": [
         "Manor Mobile",
         "Electric Circus",
@@ -6347,6 +6970,37 @@
       "statut": "a_verifier",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "signaler une piste majeure pour les archives live primitives de Warsaw"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_partiel",
+        "corroboration": "incertaine",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "revision_probable",
+        "risque_revision": "eleve"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "manor_mobile",
+        "electric_circus",
+        "warsaw",
+        "at_a_later_date",
+        "archive_live"
+      ],
+      "concepts_derives": [
+        "archive_live_primitive",
+        "enregistrement_complet"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6363,7 +7017,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "53; 55",
-      "type_unite": "archive_video",
+      "type_unite": "archive",
       "concepts": [
         "Here Are the Young Men",
         "8mm",
@@ -6378,6 +7032,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter l'existence d'archives filmiques multiples comme base mémorielle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "here_are_the_young_men",
+        "films_8mm",
+        "films_16mm",
+        "archive_live",
+        "Factory_video"
+      ],
+      "concepts_derives": [
+        "mémoire_audiovisuelle",
+        "archive_filmique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6394,7 +7079,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 55,
-      "type_unite": "video",
+      "type_unite": "archive",
       "concepts": [
         "Here Are the Young Men",
         "Factory",
@@ -6409,6 +7094,35 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "recenser Here Are the Young Men comme document vidéo Factory fondateur"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "here_are_the_young_men",
+        "Factory_video",
+        "matériaux_live"
+      ],
+      "concepts_derives": [
+        "vidéogramme_Factory",
+        "mémoire_audiovisuelle"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6425,7 +7139,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 56,
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "A Means to an End",
         "Closer",
@@ -6439,6 +7153,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "cartographier les versions disponibles en 1983 pour un titre donné"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "mineur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "a_means_to_an_end",
+        "closer",
+        "still",
+        "versions_studio_live"
+      ],
+      "concepts_derives": [
+        "cartographie_versions",
+        "discographie_titre"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6455,7 +7199,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "56; 58",
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Incubation",
         "And Then Again",
@@ -6470,6 +7214,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la logique du flexi gratuit comme objet périphérique Factory"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "incubation",
+        "and_then_again",
+        "komakino",
+        "flexi",
+        "objet_périphérique"
+      ],
+      "concepts_derives": [
+        "flexi_Factory",
+        "face_cachée_discographie"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6486,7 +7261,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "56; 58",
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Dead Souls",
         "Sordide Sentimentale",
@@ -6501,6 +7276,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "tracer la trajectoire d'un morceau culte depuis la rareté absolue vers le canon officiel"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "dead_souls",
+        "sordide_sentimentale",
+        "still",
+        "canonisation"
+      ],
+      "concepts_derives": [
+        "trajectoire_canonique",
+        "rareté_vers_archive"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6517,7 +7322,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 56,
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Glass",
         "FAC 2",
@@ -6532,6 +7337,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "suivre la réintégration des premiers titres dans le canon posthume"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "glass",
+        "fac2",
+        "still",
+        "réintégration_canon"
+      ],
+      "concepts_derives": [
+        "réintégration_canon",
+        "trajectoire_discographique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6548,7 +7383,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "56; 52",
-      "type_unite": "reception_chanson",
+      "type_unite": "reception",
       "concepts": [
         "Heart and Soul",
         "The Passage",
@@ -6563,6 +7398,36 @@
       "statut": "verifie",
       "fiabilite": "faible",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter un dialogue musical entre groupes mancuniens"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "incertaine",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "revision_probable",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "mineur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "heart_and_soul",
+        "the_passage",
+        "réponse_musicale",
+        "manchester"
+      ],
+      "concepts_derives": [
+        "dialogue_inter_groupes",
+        "scène_mancunienne"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6579,7 +7444,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "48; 58",
-      "type_unite": "outtakes",
+      "type_unite": "archive",
       "concepts": [
         "The Only Mistake",
         "Something Must Break",
@@ -6594,6 +7459,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "cartographier les sessions de mars 1980 et identifier les outtakes de Closer"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "the_only_mistake",
+        "something_must_break",
+        "closer",
+        "britannia_row",
+        "still"
+      ],
+      "concepts_derives": [
+        "outtakes_closer",
+        "sessions_mars_1980"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6610,7 +7506,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "54; 58",
-      "type_unite": "versions_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Sound of Music",
         "John Peel Session",
@@ -6625,6 +7521,36 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "distinguer les versions d'un titre pour éviter les confusions éditoriales"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "sound_of_music",
+        "peel_session",
+        "version_studio_inédite",
+        "still"
+      ],
+      "concepts_derives": [
+        "ambiguïté_versions",
+        "archive_peel"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6641,7 +7567,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 58,
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "These Days",
         "Love Will Tear Us Apart",
@@ -6654,6 +7580,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "établir un repère discographique simple pour un titre secondaire"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "mineur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "these_days",
+        "love_will_tear_us_apart",
+        "face_b",
+        "single"
+      ],
+      "concepts_derives": [
+        "face_b",
+        "repère_discographique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6670,7 +7626,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 58,
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Walked in Line",
         "outtake",
@@ -6684,6 +7640,36 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "cartographier les morceaux écartés puis récupérés dans le canon posthume"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "walked_in_line",
+        "outtake",
+        "still",
+        "unknown_pleasures_sessions"
+      ],
+      "concepts_derives": [
+        "morceaux_récupérés",
+        "cartographie_outtakes"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6700,7 +7686,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 58,
-      "type_unite": "index_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Wilderness",
         "Unknown Pleasures",
@@ -6713,6 +7699,35 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "stabiliser la position d'un titre dans la discographie officielle"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "mineur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "wilderness",
+        "unknown_pleasures",
+        "album_track"
+      ],
+      "concepts_derives": [
+        "stabilité_discographique",
+        "titre_album_exclusif"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6729,7 +7744,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 58,
-      "type_unite": "versions_chanson",
+      "type_unite": "fait",
       "concepts": [
         "She's Lost Control",
         "Unknown Pleasures",
@@ -6744,6 +7759,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la complexité des versions d'un titre central",
+        "illustrer la circulation du répertoire Joy Division via les reprises"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "she_s_lost_control",
+        "peel_session",
+        "grace_jones",
+        "versions_multiples"
+      ],
+      "concepts_derives": [
+        "multiplicité_versions",
+        "circulation_répertoire"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6760,7 +7806,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 58,
-      "type_unite": "versions_chanson",
+      "type_unite": "fait",
       "concepts": [
         "Transmission",
         "John Peel Session",
@@ -6775,6 +7821,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter Transmission comme titre pivot de la reconnaissance du groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "transmission",
+        "peel_session",
+        "single",
+        "still",
+        "live_favori"
+      ],
+      "concepts_derives": [
+        "titre_pivot",
+        "reconnaissance_nationale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6791,7 +7868,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "collection_statistique",
+      "type_unite": "culture_musicale",
       "concepts": [
         "deleted records",
         "sold out",
@@ -6805,6 +7882,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "structurer l'histoire du marché secondaire Joy Division dès 1983"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "disques_supprimés",
+        "marché_secondaire",
+        "ideal_for_living",
+        "sordide_sentimentale"
+      ],
+      "concepts_derives": [
+        "marché_secondaire",
+        "rareté_institutionnalisée"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6821,7 +7928,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "statistique_vente",
+      "type_unite": "reception",
       "concepts": [
         "Love Will Tear Us Apart",
         "sales",
@@ -6835,6 +7942,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "fournir la donnée commerciale majeure du catalogue Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "love_will_tear_us_apart",
+        "ventes",
+        "charts",
+        "melody_maker"
+      ],
+      "concepts_derives": [
+        "performance_commerciale",
+        "single_le_plus_vendu"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6851,7 +7988,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "statistique_vente",
+      "type_unite": "reception",
       "concepts": [
         "Closer",
         "album chart",
@@ -6864,6 +8001,36 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "quantifier la réception posthume de Closer et établir sa supériorité commerciale"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "charts",
+        "meilleur_album",
+        "réception_posthume"
+      ],
+      "concepts_derives": [
+        "performance_commerciale_posthume",
+        "album_le_plus_vendu"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6880,7 +8047,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "reception_radio",
+      "type_unite": "reception",
       "concepts": [
         "John Peel",
         "Festive Fifty",
@@ -6891,9 +8058,39 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "proposer le Festive Fifty comme indicateur de popularité affective plus fiable que les charts"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_directe",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "festive_fifty",
+        "popularité_affective",
+        "BBC"
+      ],
+      "concepts_derives": [
+        "popularité_cultuelle",
+        "indicateur_alternatif"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6910,7 +8107,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "Festive Fifty 1980",
         "Atmosphere",
@@ -6927,6 +8124,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "cartographier la hiérarchie affective des fans au début du culte Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "festive_fifty_1980",
+        "atmosphere",
+        "love_will_tear_us_apart",
+        "transmission",
+        "decades"
+      ],
+      "concepts_derives": [
+        "hiérarchie_affective_fans",
+        "culte_Joy_Division"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6943,7 +8171,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 59,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "Festive Fifty 1981",
         "Atmosphere",
@@ -6958,6 +8186,38 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "démontrer la continuité de réception entre Joy Division et New Order",
+        "dater la cristallisation du culte Atmosphere"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "festive_fifty_1981",
+        "atmosphere",
+        "ceremony",
+        "new_order",
+        "continuité_réception"
+      ],
+      "concepts_derives": [
+        "continuité_mémorielle",
+        "atmosphere_culte"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -6974,7 +8234,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "ZigZag",
         "May 1980",
@@ -6988,6 +8248,37 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "établir que la reconnaissance de Joy Division précède la mort de Curtis",
+        "invalider l'hypothèse d'une célébrité uniquement posthume"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "zigzag",
+        "mai_1980",
+        "reconnaissance_ante_mortem",
+        "unknown_pleasures"
+      ],
+      "concepts_derives": [
+        "reconnaissance_ante_mortem",
+        "réfutation_mythe_posthume"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7004,7 +8295,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "NME 1980",
         "Ian Curtis",
@@ -7019,6 +8310,36 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "documenter la cristallisation mémorielle personnelle de Curtis dans la presse"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "nme_1980",
+        "ian_curtis",
+        "mythification",
+        "sondage_presse"
+      ],
+      "concepts_derives": [
+        "canonisation_personnelle",
+        "mémorielle_posthume"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7035,7 +8356,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_poll",
+      "type_unite": "reception",
       "concepts": [
         "NME 1981",
         "Ian Curtis",
@@ -7050,6 +8371,38 @@
       "statut": "verifie",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "mesurer l'insertion rapide de Curtis dans une mémoire rock plus large",
+        "situer Joy Division dans la postérité rock aux côtés de Lennon"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "nme_1981",
+        "ian_curtis",
+        "john_lennon",
+        "most_missed_person",
+        "postérité_rock"
+      ],
+      "concepts_derives": [
+        "mémorielle_postérité",
+        "icône_rock_perdude"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7066,7 +8419,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_design",
+      "type_unite": "reception",
       "concepts": [
         "Still",
         "sleeve design",
@@ -7081,6 +8434,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "montrer que l'objet visuel Factory continue de produire de la valeur symbolique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "still",
+        "pochette",
+        "nme_poll",
+        "peter_saville",
+        "design_Factory"
+      ],
+      "concepts_derives": [
+        "valeur_symbolique_design",
+        "réception_visuelle"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7097,7 +8481,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": 60,
-      "type_unite": "reception_musiciens",
+      "type_unite": "reception",
       "concepts": [
         "Bernard Albrecht",
         "Peter Hook",
@@ -7111,6 +8495,37 @@
       "statut": "verifie",
       "fiabilite": "moyenne",
       "citation_directe": false,
+      "role_argumentatif": [
+        "renforcer la thèse du partenariat collectif au-delà de Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "probable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "bernard_albrecht",
+        "peter_hook",
+        "stephen_morris",
+        "new_order",
+        "compétence_collective"
+      ],
+      "concepts_derives": [
+        "partenariat_collectif",
+        "réception_instrumentale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7127,7 +8542,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "4-60",
-      "type_unite": "conclusion_methodologique",
+      "type_unite": "analyse",
       "concepts": [
         "historiographie",
         "réception critique",
@@ -7138,9 +8553,41 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "définir la règle d'exploitation de S47 comme archive de réception",
+        "prévenir les usages factuels non critiques de West"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_directe",
+        "corroboration": "probable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "historiographie",
+        "réception_critique",
+        "usage_éditorial",
+        "limites_source"
+      ],
+      "concepts_derives": [
+        "source_de_réception",
+        "limite_factuelle",
+        "usage_critique"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -7157,7 +8604,7 @@
       "auteur": "Mike West",
       "titre": "Joy Division",
       "pages": "38; 59-60",
-      "type_unite": "synthese_interpretative",
+      "type_unite": "analyse",
       "concepts": [
         "culte",
         "backlash",
@@ -7168,9 +8615,42 @@
       "chapitres": [
         "Chapitre 14"
       ],
-      "statut": "interpretation",
+      "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false,
+      "role_argumentatif": [
+        "formuler le positionnement critique de West entre culte et backlash",
+        "cadrer l'usage du livre pour le projet éditorial"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_directe",
+        "corroboration": "probable",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "culte",
+        "backlash",
+        "hyperbole_morbide",
+        "grandeur_musicale",
+        "positionnement_critique"
+      ],
+      "concepts_derives": [
+        "contre_culte",
+        "positionnement_anti_backlash",
+        "défense_musicale"
+      ],
       "source_label": "S47 — West, Joy Division, 1984",
       "source_short_title": "Mike West, Joy Division, 1984",
       "source_year": "1984"
@@ -18559,6 +20039,421 @@
       "source_label": "S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021",
       "source_short_title": "Alfonso Amendola et Novella Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021",
       "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A001",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A001 — Joy Division capte par anticipation l'esprit dépressif de notre temps : 1979-80 comme seuil historique",
+    "data": {
+      "id": "S90-A001",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "cadrage_theorique",
+      "importance": "critique",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "hauntologie",
+        "lost futures / futurs perdus",
+        "seuil historique 1979-1980",
+        "Society of Control (Deleuze)",
+        "désindustrialisation / fin du fordisme"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage théorique",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A002",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A002 — Les trois films sur Joy Division : Control comme « karaoké arthouse » vs le documentaire de Gee comme objet hauntologique",
+    "data": {
+      "id": "S90-A002",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "reception",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "hauntologie du document",
+        "réception filmique de Joy Division",
+        "perte et présence",
+        "voix/corps de Curtis (irremplaçables)"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme analyse de réception",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Anton Corbijn",
+        "Tony Wilson"
+      ],
+      "related_events": [
+        "CHR-S90-001"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A003",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A003 — « She's Lost Control » : l'épilepsie comme unheimlich, l'attrait minéral de l'inanimé",
+    "data": {
+      "id": "S90-A003",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "analyse_morceau",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5"
+      ],
+      "concepts": [
+        "unheimlich (Freud)",
+        "lure minérale de l'inanimé",
+        "épilepsie / \"holy sickness\"",
+        "abjection sur l'Autre féminin"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme analyse interprétative",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "She's Lost Control"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A004",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A004 — La « religion Joy Division » comme affaire de garçons : exclusion des femmes (Deborah Curtis)",
+    "data": {
+      "id": "S90-A004",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "reception",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "masculinité du culte Joy Division",
+        "exclusion des femmes",
+        "depressives dressing for the Depression",
+        "authenticité vestimentaire"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "secondaire — Fisher relaie Deborah Curtis (Touching from a Distance)",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Deborah Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A005",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A005 — Hannett et Saville transmuent « les neuromantiques de Warsaw en cyberpunks » : plus Art que Rock",
+    "data": {
+      "id": "S90-A005",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "production",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5"
+      ],
+      "concepts": [
+        "production comme ingénierie abstraite",
+        "plus Art que Rock",
+        "consistance conceptuelle (vs sujets expressifs)",
+        "dépersonnalisation graphique (Saville)"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme analyse de production",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett",
+        "Peter Saville"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A006",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A006 — Le rapport occulté de Joy Division au Black Atlantic : dub-méthodologie et « Death Disco »",
+    "data": {
+      "id": "S90-A006",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "analyse_sonore",
+      "importance": "utile",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "concepts": [
+        "Black Atlantic (Gilroy)",
+        "dub comme méthodologie",
+        "Death Disco",
+        "ingénierie abstraite du son"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne — thèse interprétative de Fisher",
+      "citation_directe": false,
+      "related_songs": [
+        "She's Lost Control",
+        "Insight"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A007",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A007 — Dépression vs tristesse : l'absence d'objet-cause, le passage du « bleu » au « noir »",
+    "data": {
+      "id": "S90-A007",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "cadrage_theorique",
+      "importance": "critique",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "concepts": [
+        "ontologie dépressive",
+        "mélancolie sans objet-cause",
+        "zero affect",
+        "dépression comme théorie du monde"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage théorique",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A008",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A008 — Joy Division, « le plus schopenhauerien des groupes rock » : anti-rock, au-delà du principe de plaisir",
+    "data": {
+      "id": "S90-A008",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "cadrage_theorique",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "concepts": [
+        "Schopenhauer / le Vouloir",
+        "anti-rock",
+        "au-delà du principe de plaisir",
+        "voile de Maya"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage théorique",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A009",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A009 — La voix de Curtis comme « déjà mort » : fatalisme, vie comme film pré-écrit",
+    "data": {
+      "id": "S90-A009",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "analyse_voix",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "voix du \"déjà mort\"",
+        "fatalisme / vie pré-scriptée",
+        "death-within-life",
+        "Insight comme apaisement de la peur"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme analyse interprétative",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Decades",
+        "New Dawn Fades",
+        "Insight"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A010",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A010 — Le suicide comme garantie d'authenticité (« 4 Real ») et transfiguration de la vie en mythe froid",
+    "data": {
+      "id": "S90-A010",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "cadrage_theorique",
+      "importance": "critique",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "suicide comme garantie d'authenticité",
+        "4 Real",
+        "transfiguration en mythe froid (marbre/pierre)",
+        "Thanatos déguisé en Eros"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage théorique",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Saville"
+      ],
+      "related_songs": [
+        "In a Lonely Place"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A011",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A011 — Les deux Joy Division (« Pure Art » vs « just a laff ») et Joy Division comme « vérité du Laddism »",
+    "data": {
+      "id": "S90-A011",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "cadrage_theorique",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "concepts": [
+        "débat Art vs Vie",
+        "vérité du Laddism",
+        "santé mentale des adolescents",
+        "mythe vs quotidien"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte comme cadrage ; donnée chiffrée (hausse de 70 %) à vérifier",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S90-A012",
+    "file": "sources/fisher_ghosts_of_my_life/atoms_dm_s90_no_longer_the_pleasures_v2.md",
+    "heading": "S90-A012 — Angleterre 1979 : « speed comedown » culturel et destruction de la communauté ouvrière (Sumner via Savage)",
+    "data": {
+      "id": "S90-A012",
+      "source_id": "S90",
+      "source_label": "S90 — Fisher, Ghosts of My Life, 2014",
+      "type_unite": "contexte",
+      "importance": "majeure",
+      "pages_pdf": "a_verifier",
+      "pages_livre": "a_verifier",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11"
+      ],
+      "concepts": [
+        "Angleterre 1979 / arrivée de Thatcher",
+        "speed comedown culturel",
+        "destruction de la communauté ouvrière",
+        "the void / mort de l'optimisme"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "secondaire — Fisher relaie Bernard Sumner (entretien à Jon Savage)",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Ian Curtis"
+      ],
+      "source_short_title": "Mark Fisher, Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures, 2014",
+      "source_year": "2014"
     }
   },
   {
@@ -106772,7 +108667,36 @@
         "Ceremony",
         "Isolation"
       ],
-      "notes": "Flowers construit son introduction comme une autobiographie d’auditeur : il découvre New Order à la radio américaine, puis revient vers Joy Division."
+      "notes": "Flowers construit son introduction comme une autobiographie d’auditeur : il découvre New Order à la radio américaine, puis revient vers Joy Division.\n",
+      "role_argumentatif": [
+        "documenter la réception américaine comme entrée générationelle dans le corpus"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "reception_americaine",
+        "new_wave_radio",
+        "new_order",
+        "joy_division_apres_coup"
+      ],
+      "concepts_derives": [
+        "entree_generationnelle"
+      ]
     }
   },
   {
@@ -106789,7 +108713,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "9-12",
-      "type_unite": "methode",
+      "type_unite": "analyse",
       "concepts": [
         "fanzine",
         "biographie",
@@ -106809,6 +108733,35 @@
         "Michael Shamberg",
         "Rob Gretton",
         "Peter Saville"
+      ],
+      "role_argumentatif": [
+        "documenter la posture d'écriture de Flowers comme fan documenté"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "fanzine",
+        "biographie",
+        "culture_fan",
+        "enquete_amateur"
+      ],
+      "concepts_derives": [
+        "posture_fan_documente"
       ]
     }
   },
@@ -106826,7 +108779,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "16-17",
-      "type_unite": "contexte",
+      "type_unite": "analyse",
       "concepts": [
         "manchester",
         "déclin industriel",
@@ -106844,6 +108797,36 @@
       "related_people": [
         "Peter Hook",
         "Bernard Sumner"
+      ],
+      "role_argumentatif": [
+        "replacer l'enfance de Hook et Sumner dans le contexte industriel de Manchester"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "manchester",
+        "declin_industriel",
+        "enfance_ouvriere",
+        "peter_hook",
+        "bernard_sumner"
+      ],
+      "concepts_derives": [
+        "contexte_industriel_manchester"
       ]
     }
   },
@@ -106861,7 +108844,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": 17,
-      "type_unite": "chronologie",
+      "type_unite": "fait",
       "concepts": [
         "sex pistols",
         "free trade hall",
@@ -106881,6 +108864,35 @@
       ],
       "related_events": [
         "CHR-S71-001"
+      ],
+      "role_argumentatif": [
+        "documenter le concert des Sex Pistols comme déclencheur fondateur de la vocation musicale du groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "sex_pistols",
+        "free_trade_hall",
+        "punk",
+        "autorisation_musicale"
+      ],
+      "concepts_derives": [
+        "concert_fondateur"
       ]
     }
   },
@@ -106915,6 +108927,35 @@
         "Peter Hook",
         "Bernard Sumner",
         "Terry Mason"
+      ],
+      "role_argumentatif": [
+        "documenter les origines autodidactes du groupe et l'achat des instruments"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "stiff_kittens",
+        "apprentissage_autodidacte",
+        "black_swan_pub",
+        "instruments"
+      ],
+      "concepts_derives": [
+        "formation_groupe"
       ]
     }
   },
@@ -106957,6 +108998,35 @@
         "Tension",
         "The Kill",
         "At a Later Date"
+      ],
+      "role_argumentatif": [
+        "documenter l'écart culturel de Curtis et sa contribution littéraire au groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "ian_curtis",
+        "culture_litteraire",
+        "jg_ballard",
+        "william_burroughs"
+      ],
+      "concepts_derives": [
+        "formation_intellectuelle"
       ]
     }
   },
@@ -106974,7 +109044,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "18-20",
-      "type_unite": "chronologie",
+      "type_unite": "fait",
       "concepts": [
         "electric circus",
         "warsaw",
@@ -106998,6 +109068,36 @@
       ],
       "related_events": [
         "CHR-S71-002"
+      ],
+      "role_argumentatif": [
+        "documenter le premier concert et le changement de nom vers Warsaw"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "electric_circus",
+        "warsaw",
+        "tony_tabac",
+        "buzzcocks",
+        "paul_morley"
+      ],
+      "concepts_derives": [
+        "nom_groupe"
       ]
     }
   },
@@ -107035,6 +109135,35 @@
       ],
       "related_events": [
         "CHR-S71-003"
+      ],
+      "role_argumentatif": [
+        "documenter la première perception de Gretton comme manager potentiel"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "rob_gretton",
+        "rafters",
+        "concert_sauvage",
+        "decouverte_groupe"
+      ],
+      "concepts_derives": [
+        "decouverte_manageriale"
       ]
     }
   },
@@ -107068,6 +109197,35 @@
       "citation_directe": false,
       "related_songs": [
         "Novelty"
+      ],
+      "role_argumentatif": [
+        "identifier le premier accomplissement artistique de Warsaw comme rupture avec la posture punk"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "novelty",
+        "maturite_artistique",
+        "autoreflexivite",
+        "cause_musicale"
+      ],
+      "concepts_derives": [
+        "premier_accomplissement_artistique"
       ]
     }
   },
@@ -107111,6 +109269,35 @@
       ],
       "related_events": [
         "CHR-S71-004"
+      ],
+      "role_argumentatif": [
+        "documenter la première session en studio comme état sonore du groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "pennine_sound_studios",
+        "premiere_demo",
+        "one_take",
+        "steve_brotherdale"
+      ],
+      "concepts_derives": [
+        "premiere_session_studio"
       ]
     }
   },
@@ -107145,6 +109332,35 @@
         "Steve Brotherdale",
         "Stephen Morris",
         "Ian Curtis"
+      ],
+      "role_argumentatif": [
+        "documenter la stabilisation du line-up avec l'arrivée de Stephen Morris"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "stephen_morris",
+        "steve_brotherdale",
+        "the_panik",
+        "stabilisation_lineup"
+      ],
+      "concepts_derives": [
+        "recrutement_definitif"
       ]
     }
   },
@@ -107188,6 +109404,36 @@
       ],
       "related_events": [
         "CHR-S71-005"
+      ],
+      "role_argumentatif": [
+        "documenter la naissance de la réputation d'ambiguïté politique du groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "electric_circus",
+        "rudolf_hess",
+        "nazi_rumours",
+        "short_circuit",
+        "paul_morley"
+      ],
+      "concepts_derives": [
+        "ambiguite_politique"
       ]
     }
   },
@@ -107228,6 +109474,35 @@
       ],
       "methodological_warnings": [
         "Point sensible ; recouper avec Ka-Tzetnik et les sources primaires."
+      ],
+      "role_argumentatif": [
+        "proposer une lecture métaphorique du nom Joy Division comme exploitation industrielle"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "house_of_dolls",
+        "joy_division_nom",
+        "obscurite",
+        "prostitution_metaphorique"
+      ],
+      "concepts_derives": [
+        "origine_nom_interpretation"
       ]
     }
   },
@@ -107245,7 +109520,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "29-30",
-      "type_unite": "chronologie",
+      "type_unite": "fait",
       "concepts": [
         "pips",
         "stiff test",
@@ -107268,6 +109543,36 @@
       ],
       "related_events": [
         "CHR-S71-007"
+      ],
+      "role_argumentatif": [
+        "documenter la rencontre décisive avec Wilson et Gretton comme moment fondateur de l'alliance Factory"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "pips",
+        "stiff_test",
+        "tony_wilson",
+        "rob_gretton",
+        "rafters"
+      ],
+      "concepts_derives": [
+        "rencontre_fondatrice_factory"
       ]
     }
   },
@@ -107316,6 +109621,36 @@
       ],
       "related_events": [
         "CHR-S71-008"
+      ],
+      "role_argumentatif": [
+        "documenter l'échec RCA et la récupération des bandes comme fondement de l'indépendance artistique"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "rca_album",
+        "derek_branwood",
+        "interzone",
+        "contrat_defavorable",
+        "rob_gretton_manager"
+      ],
+      "concepts_derives": [
+        "independance_artistique"
       ]
     }
   },
@@ -107356,6 +109691,36 @@
       ],
       "related_events": [
         "CHR-S71-009"
+      ],
+      "role_argumentatif": [
+        "documenter la naissance de l'identité Factory comme refus du modèle commercial"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "factory_club",
+        "tony_wilson",
+        "alan_erasmus",
+        "peter_saville",
+        "russell_club"
+      ],
+      "concepts_derives": [
+        "identite_factory"
       ]
     }
   },
@@ -107396,6 +109761,36 @@
       "related_songs": [
         "Leaders of Men",
         "No Love Lost"
+      ],
+      "role_argumentatif": [
+        "documenter la lecture anti-fasciste du graphisme d'An Ideal for Living et ses malentendus"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "an_ideal_for_living",
+        "enigma",
+        "graphisme_fascisant",
+        "anti_fascisme",
+        "collector"
+      ],
+      "concepts_derives": [
+        "ambiguite_visuelle"
       ]
     }
   },
@@ -107441,6 +109836,36 @@
       ],
       "related_events": [
         "CHR-S71-010"
+      ],
+      "role_argumentatif": [
+        "documenter la naissance sonore du label Factory et le rôle fondateur de Hannett"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "a_factory_sample",
+        "martin_hannett",
+        "digital",
+        "glass",
+        "factory_records"
+      ],
+      "concepts_derives": [
+        "son_factory"
       ]
     }
   },
@@ -107485,6 +109910,36 @@
       ],
       "related_events": [
         "CHR-S71-011"
+      ],
+      "role_argumentatif": [
+        "documenter le lien entre performance scénique, épilepsie et réception du groupe à Londres"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "hope_and_anchor",
+        "danse_de_curtis",
+        "epilepsie",
+        "shes_lost_control",
+        "strobes"
+      ],
+      "concepts_derives": [
+        "maladie_et_performance"
       ]
     }
   },
@@ -107529,6 +109984,36 @@
       ],
       "related_events": [
         "CHR-S71-012"
+      ],
+      "role_argumentatif": [
+        "documenter la Peel Session comme accès national et déploiement sonore sans ajouts RCA"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "john_peel",
+        "bbc_radio_one",
+        "peel_session",
+        "transmission",
+        "audience_nationale"
+      ],
+      "concepts_derives": [
+        "exposition_nationale"
       ]
     }
   },
@@ -107546,7 +110031,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "40-42",
-      "type_unite": "management",
+      "type_unite": "production",
       "concepts": [
         "martin rushent",
         "genetic records",
@@ -107568,6 +110053,36 @@
       ],
       "related_events": [
         "CHR-S71-013"
+      ],
+      "role_argumentatif": [
+        "documenter le choix Factory contre Warner comme stratégie fondatrice d'indépendance"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "martin_rushent",
+        "genetic_records",
+        "warner_brothers",
+        "independance",
+        "factory_records"
+      ],
+      "concepts_derives": [
+        "strategie_independance"
       ]
     }
   },
@@ -107623,6 +110138,37 @@
       ],
       "related_events": [
         "CHR-S71-014"
+      ],
+      "role_argumentatif": [
+        "analyser Unknown Pleasures comme esthétique du désenchantement",
+        "documenter la viabilité économique relative de Factory"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "unknown_pleasures",
+        "martin_hannett",
+        "peter_saville",
+        "pulsar",
+        "desenchantement"
+      ],
+      "concepts_derives": [
+        "esthetique_desenchantement"
       ]
     }
   },
@@ -107657,6 +110203,35 @@
       "citation_directe": false,
       "methodological_warnings": [
         "À croiser avec Hook et les entretiens contemporains."
+      ],
+      "role_argumentatif": [
+        "documenter la stratégie de silence médiatique comme posture d'autonomie du sens"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "presse_musicale",
+        "sens_ouvert",
+        "refus_interviews",
+        "autonomie_du_public"
+      ],
+      "concepts_derives": [
+        "strategie_mediatique"
       ]
     }
   },
@@ -107674,7 +110249,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "47-49",
-      "type_unite": "chronologie",
+      "type_unite": "fait",
       "concepts": [
         "piccadilly radio",
         "granada tv",
@@ -107703,6 +110278,36 @@
       ],
       "related_events": [
         "CHR-S71-015"
+      ],
+      "role_argumentatif": [
+        "documenter les jalons chronologiques de 1979 comme accumulation de tension physique"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "piccadilly_radio",
+        "granada_tv",
+        "transmission",
+        "nashville_club",
+        "accident_de_van"
+      ],
+      "concepts_derives": [
+        "tension_tournee"
       ]
     }
   },
@@ -107748,6 +110353,36 @@
       ],
       "related_events": [
         "CHR-S71-016"
+      ],
+      "role_argumentatif": [
+        "documenter la rareté des images filmées et leur rôle dans la construction du mythe"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "fac_9",
+        "malcolm_whitehead",
+        "plan_k",
+        "here_are_the_young_men",
+        "rarete_audiovisuelle"
+      ],
+      "concepts_derives": [
+        "mythe_image"
       ]
     }
   },
@@ -107786,6 +110421,36 @@
         "Novelty",
         "Autosuggestion",
         "From Safety to Where...?"
+      ],
+      "role_argumentatif": [
+        "interpréter le choix du groupe vers la noirceur comme bifurcation esthétique délibérée"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "transmission",
+        "novelty",
+        "autosuggestion",
+        "from_safety_to_where",
+        "darkness"
+      ],
+      "concepts_derives": [
+        "choix_esthetique_obscurite"
       ]
     }
   },
@@ -107825,6 +110490,36 @@
       ],
       "related_events": [
         "CHR-S71-017"
+      ],
+      "role_argumentatif": [
+        "analyser la tension entre forme pop parfaite et contenu conjugal tragique"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "love_will_tear_us_apart",
+        "twenty_four_hours",
+        "pop_parfaite",
+        "mariage",
+        "destin"
+      ],
+      "concepts_derives": [
+        "tension_pop_tragique"
       ]
     }
   },
@@ -107871,6 +110566,36 @@
         "Incubation",
         "As You Said",
         "Love Will Tear Us Apart"
+      ],
+      "role_argumentatif": [
+        "documenter la convergence entre tournée européenne, relation amoureuse et dégradation de la santé de Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "tournee_europeenne",
+        "annik_honore",
+        "closer",
+        "britannia_row",
+        "sante_de_curtis"
+      ],
+      "concepts_derives": [
+        "crise_biographique"
       ]
     }
   },
@@ -107914,6 +110639,36 @@
         "Twenty Four Hours",
         "The Eternal",
         "Decades"
+      ],
+      "role_argumentatif": [
+        "lire Closer comme espace de renversement : Curtis guide de l'abîme au lieu d'être guidé"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "closer",
+        "atrocity_exhibition",
+        "isolation",
+        "passover",
+        "decades"
+      ],
+      "concepts_derives": [
+        "inversion_identitaire"
       ]
     }
   },
@@ -107956,6 +110711,36 @@
       ],
       "related_events": [
         "CHR-S71-018"
+      ],
+      "role_argumentatif": [
+        "documenter la tentative d'art total autour d'Atmosphere et Dead Souls et ses limites"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "sordide_sentimental",
+        "licht_und_blindheit",
+        "total_art",
+        "atmosphere",
+        "dead_souls"
+      ],
+      "concepts_derives": [
+        "art_total_discographique"
       ]
     }
   },
@@ -107997,6 +110782,36 @@
       ],
       "related_events": [
         "CHR-S71-019"
+      ],
+      "role_argumentatif": [
+        "documenter la dégradation physique de Curtis sur scène comme insoutenabilité croissante"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "rainbow_theatre",
+        "moonlight_club",
+        "epilepsie",
+        "sister_ray",
+        "degradation_physique"
+      ],
+      "concepts_derives": [
+        "insoutenabilite_scenique"
       ]
     }
   },
@@ -108014,7 +110829,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "61-62",
-      "type_unite": "chronologie",
+      "type_unite": "fait",
       "concepts": [
         "tournée américaine annulée",
         "ceremony",
@@ -108038,6 +110853,36 @@
       ],
       "related_events": [
         "CHR-S71-020"
+      ],
+      "role_argumentatif": [
+        "documenter la convergence des projets printaniers 1980 et l'imminence de la rupture"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "tournee_americaine_annulee",
+        "ceremony",
+        "in_a_lonely_place",
+        "love_will_tear_us_apart_video",
+        "tj_davidson"
+      ],
+      "concepts_derives": [
+        "projets_interrompus"
       ]
     }
   },
@@ -108089,6 +110934,36 @@
       ],
       "methodological_warnings": [
         "Détails intimes à utiliser avec sobriété et recoupement."
+      ],
+      "role_argumentatif": [
+        "documenter les trois effets de la mort de Curtis : culte, annulation, nécessité de recommencer"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "mort_de_ian_curtis",
+        "john_peel",
+        "death_cult",
+        "new_order",
+        "rupture_continuite"
+      ],
+      "concepts_derives": [
+        "mythification_posthume"
       ]
     }
   },
@@ -108130,6 +111005,36 @@
       ],
       "related_events": [
         "CHR-S71-022"
+      ],
+      "role_argumentatif": [
+        "documenter la réception posthume de LWTA et Closer comme problème éthique d'exploitation commerciale"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "reception_posthume",
+        "closer",
+        "love_will_tear_us_apart",
+        "peter_saville",
+        "exploitation_commerciale"
+      ],
+      "concepts_derives": [
+        "industrie_post_mortem"
       ]
     }
   },
@@ -108176,6 +111081,36 @@
       ],
       "related_events": [
         "CHR-S71-023"
+      ],
+      "role_argumentatif": [
+        "documenter New Order comme respect d'une promesse et impossible échappée de l'héritage Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "new_order",
+        "western_works",
+        "beach_club",
+        "situationnisme",
+        "nom_du_groupe"
+      ],
+      "concepts_derives": [
+        "heritage_impossible"
       ]
     }
   },
@@ -108215,6 +111150,36 @@
       "related_songs": [
         "Procession",
         "Ceremony"
+      ],
+      "role_argumentatif": [
+        "documenter l'arrivée de Gillian Gilbert comme redistribution du deuil et des fonctions instrumentales"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "gillian_gilbert",
+        "redistribution_instrumentale",
+        "procession",
+        "ceremony",
+        "nouveau_depart"
+      ],
+      "concepts_derives": [
+        "transition_musicale"
       ]
     }
   },
@@ -108262,6 +111227,36 @@
         "The Him",
         "Doubts Even Here",
         "Denial"
+      ],
+      "role_argumentatif": [
+        "juger Movement comme disque de transition inabouti encore prisonnier du son Joy Division"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "movement",
+        "martin_hannett",
+        "heritage_joy_division",
+        "voix_de_sumner",
+        "rupture_difficile"
+      ],
+      "concepts_derives": [
+        "transition_musicale_inachevee"
       ]
     }
   },
@@ -108299,6 +111294,36 @@
       ],
       "related_songs": [
         "Temptation"
+      ],
+      "role_argumentatif": [
+        "identifier Temptation comme moment où Sumner rompt avec l'imitation de Curtis et trouve sa voix propre"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "temptation",
+        "taboo_number_7",
+        "voix_de_sumner",
+        "rupture_avec_joy_division",
+        "spontaneite"
+      ],
+      "concepts_derives": [
+        "affranchissement_vocal"
       ]
     }
   },
@@ -108337,6 +111362,36 @@
       ],
       "related_events": [
         "CHR-S71-024"
+      ],
+      "role_argumentatif": [
+        "documenter la Hacienda comme utopie institutionnelle et gouffre économique financé par New Order"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "hacienda",
+        "factory_club",
+        "ben_kelly",
+        "economie_de_factory",
+        "scene_mancunienne"
+      ],
+      "concepts_derives": [
+        "utopie_institutionnelle"
       ]
     }
   },
@@ -108374,6 +111429,36 @@
       ],
       "related_events": [
         "CHR-S71-025"
+      ],
+      "role_argumentatif": [
+        "documenter Blue Monday comme rupture historique ouvrant un nouvel ordre de musique dance"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "blue_monday",
+        "dance_rock",
+        "synthetiseur",
+        "peter_saville",
+        "hacienda"
+      ],
+      "concepts_derives": [
+        "musique_dance_rock"
       ]
     }
   },
@@ -108417,6 +111502,36 @@
         "Ultraviolence",
         "Ecstasy",
         "Leave Me Alone"
+      ],
+      "role_argumentatif": [
+        "documenter la maturité de Power, Corruption and Lies et son anti-commercialisme esthétique de surface"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "power_corruption_and_lies",
+        "peter_saville",
+        "code_couleur",
+        "age_of_consent",
+        "your_silent_face"
+      ],
+      "concepts_derives": [
+        "esthetique_anti_commerciale"
       ]
     }
   },
@@ -108455,6 +111570,35 @@
       ],
       "related_events": [
         "CHR-S71-026"
+      ],
+      "role_argumentatif": [
+        "documenter le concert d'anniversaire Gretton comme geste de guérison publique"
+      ],
+      "niveau_preuve": {
+        "statut": "source_unique",
+        "corroboration": "non_verifie",
+        "confiance": "faible"
+      },
+      "stabilite": {
+        "statut": "a_confirmer",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "memoire_joy_division",
+        "love_will_tear_us_apart",
+        "rob_gretton",
+        "healing"
+      ],
+      "concepts_derives": [
+        "memoire_collective"
       ]
     }
   },
@@ -108472,7 +111616,7 @@
       "auteur": "Claude Flowers",
       "titre": "New Order + Joy Division: Dreams Never End",
       "pages_pdf": "98-101",
-      "type_unite": "management",
+      "type_unite": "production",
       "concepts": [
         "qwest",
         "quincy jones",
@@ -108491,6 +111635,36 @@
         "Quincy Jones",
         "Tony Wilson",
         "Rob Gretton"
+      ],
+      "role_argumentatif": [
+        "documenter l'accord Qwest comme paradoxe d'indépendance sous licence d'une major"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "qwest",
+        "quincy_jones",
+        "warner_brothers",
+        "licence_americaine",
+        "controle_artistique"
+      ],
+      "concepts_derives": [
+        "independance_paradoxale"
       ]
     }
   },
@@ -108531,6 +111705,36 @@
         "Sooner Than You Think",
         "Sub-Culture",
         "Face Up"
+      ],
+      "role_argumentatif": [
+        "lire Low-Life comme équilibre entre dance music, amour, douleur et mémoire de Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyenne"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "low_life",
+        "elegia",
+        "aids",
+        "perfect_kiss",
+        "love_vigilantes"
+      ],
+      "concepts_derives": [
+        "memoire_deuil_musical"
       ]
     }
   },
@@ -108569,6 +111773,36 @@
       ],
       "related_songs": [
         "The Perfect Kiss"
+      ],
+      "role_argumentatif": [
+        "documenter le refus de jouer un rôle promotionnel comme constante d'intégrité de New Order"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "the_perfect_kiss_video",
+        "jonathan_demme",
+        "michael_shamberg",
+        "refus_de_mimer",
+        "integrite"
+      ],
+      "concepts_derives": [
+        "integrite_mediatique"
       ]
     }
   },
@@ -108610,6 +111844,36 @@
         "Atmosphere",
         "Dead Souls",
         "Love Will Tear Us Apart"
+      ],
+      "role_argumentatif": [
+        "documenter le retour discographique de 1988 comme réouverture du culte de Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "forte"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "substance_joy_division",
+        "atmosphere_video",
+        "anton_corbijn",
+        "peter_saville",
+        "culte_de_curtis"
+      ],
+      "concepts_derives": [
+        "culte_posthume"
       ]
     }
   },
@@ -108647,6 +111911,36 @@
       ],
       "related_songs": [
         "Fine Time"
+      ],
+      "role_argumentatif": [
+        "relier Technique à la culture acid house et au retour du geste de danser"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_documente",
+        "corroboration": "verifiable",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "secondaire"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible"
+      },
+      "liens_interchapitres": [],
+      "liens_citations": [],
+      "motifs": [
+        "technique",
+        "acid_house",
+        "ibiza",
+        "hacienda",
+        "ecstasy"
+      ],
+      "concepts_derives": [
+        "culture_dance"
       ]
     }
   },

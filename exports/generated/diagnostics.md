@@ -1,14 +1,14 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-27T21:04:41`
+Généré le : `2026-05-29T17:39:46`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7588
+- Enregistrements : 7611
 - Erreurs : 0
-- Avertissements : 30704
+- Avertissements : 29947
 - Sources déclarées dans `data/registre.json` : 95
 - Sources utilisées dans les enregistrements : 79
 - Sources exportées : 79
@@ -18,7 +18,7 @@ Statut : **warning**
 
 ## Enregistrements par type
 
-- atom : 2725
+- atom : 2737
 - chronology : 476
 - concept : 456
 - concert : 197
@@ -26,14 +26,14 @@ Statut : **warning**
 - motif : 424
 - myth : 101
 - person : 305
-- quote : 551
+- quote : 556
 - quote_batch : 1
 - rules : 1
 - session : 18
 - song : 110
-- source : 118
+- source : 119
 - template : 360
-- unknown : 1476
+- unknown : 1481
 
 ## Sources utilisées mais absentes du registre
 
@@ -164,4 +164,4 @@ Aucun.
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_interchapitres
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_citations
 - **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: motifs
-- … 30604 problèmes supplémentaires dans `diagnostics.json`.
+- … 29847 problèmes supplémentaires dans `diagnostics.json`.
