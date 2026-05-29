@@ -9,8 +9,10 @@ sources/**/raw/
 local_data/
 local_exports/
 
-# Generated exports
-exports/generated/
+# Generated exports (regenerated build artifacts — not versioned)
+exports/generated/*
+# …but keep the directory's documentation tracked
+!exports/generated/README.md
 
 # Python / local tooling
 __pycache__/

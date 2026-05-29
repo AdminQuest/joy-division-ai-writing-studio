@@ -620,6 +620,11 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "atoms.json", [asdict(r) for r in atoms])
     write_json(EXPORT_DIR / "quotes.json", [asdict(r) for r in quotes])
     write_json(EXPORT_DIR / "chronology.json", [asdict(r) for r in chronology])
+    # songs.json is a build artifact (gitignored under exports/generated/), NOT
+    # orphan: it is consumed downstream by tools/build_master_docs.py,
+    # tools/audit_song_canon.py and tools/enrich_songbook_from_internal_sources.py.
+    # The web app (apps/song-register/) does NOT read it — it loads the canonical
+    # YAML directly. Do not remove this write without updating those consumers.
     write_json(EXPORT_DIR / "songs.json", [asdict(r) for r in songs])
     write_json(EXPORT_DIR / "people.json", [asdict(r) for r in people])
     write_json(EXPORT_DIR / "source_records.json", [asdict(r) for r in source_records])
