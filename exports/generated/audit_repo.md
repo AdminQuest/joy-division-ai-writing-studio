@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-29T12:02:21`
+Généré le : `2026-05-29T17:40:00`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 1476 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2485 atome(s) incomplet(s) sur 2725.
+Le repo est techniquement exploitable, mais 1481 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 2497 atome(s) incomplet(s) sur 2737.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7588
+- Enregistrements : 7611
 - Erreurs : 0
-- Avertissements : 29789
+- Avertissements : 29947
 - Sources déclarées : 95
 - Sources utilisées : 79
 - Sources exportées : 79
@@ -22,7 +22,7 @@ La dette principale reste la migration v2 : 2485 atome(s) incomplet(s) sur 2725.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2725 |
+| atom | 2737 |
 | chronology | 476 |
 | concept | 456 |
 | concert | 197 |
@@ -30,25 +30,25 @@ La dette principale reste la migration v2 : 2485 atome(s) incomplet(s) sur 2725.
 | motif | 424 |
 | myth | 101 |
 | person | 305 |
-| quote | 551 |
+| quote | 556 |
 | quote_batch | 1 |
 | rules | 1 |
 | session | 18 |
 | song | 110 |
-| source | 118 |
+| source | 119 |
 | template | 360 |
-| unknown | 1476 |
+| unknown | 1481 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| field_type_error | 665 |
-| invalid_controlled_value | 2647 |
-| missing_required_field | 9257 |
+| field_type_error | 677 |
+| invalid_controlled_value | 2668 |
+| missing_required_field | 9281 |
 | schema_warning | 497 |
-| unknown_yaml_block | 1476 |
-| v2_migration_debt | 15247 |
+| unknown_yaml_block | 1481 |
+| v2_migration_debt | 15343 |
 
 ## 5. Erreurs bloquantes
 
@@ -96,7 +96,7 @@ Aucune.
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-004] : Unable to infer documentary kind
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-005] : Unable to infer documentary kind
 - `sources/worley_punk_politics_british_fanzines/relations_s77.md` [REL-S77-006] : Unable to infer documentary kind
-- … 1436 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1441 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -124,10 +124,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2725
+- Atomes : 2737
 - Atomes v2 complets : 240
-- Atomes v2 incomplets : 2485
-- Avertissements de champs v2 manquants : 15247
+- Atomes v2 incomplets : 2497
+- Avertissements de champs v2 manquants : 15343
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

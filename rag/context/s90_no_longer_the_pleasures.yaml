@@ -1,0 +1,101 @@
+source_id: S90
+source_label: "S90 — Fisher, Ghosts of My Life, 2014"
+auteur: "Mark Fisher"
+titre: "Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures"
+chapitre_atomise: "No Longer the Pleasures: Joy Division (01: The Return of the 70s)"
+origine_chapitre: "adapté d'un billet k-punk, 9 janvier 2005"
+editeur: "Zero Books"
+annee: "2014"
+pagination: "à vérifier sur exemplaire"
+date_atomisation: "2026-05-29"
+
+themes_principaux:
+  - "Hauntologie : Joy Division capte « notre présent, leur futur » — 1979-80 comme seuil historique (fordisme → néolibéralisme)"
+  - "Ontologie dépressive : mélancolie sans objet-cause, passage du « bleu » de la tristesse au « noir » de la dépression"
+  - "Joy Division comme groupe le plus schopenhauerien — « anti-rock », au-delà du principe de plaisir"
+  - "Voix de Curtis comme « déjà mort », fatalisme, vie comme film pré-écrit"
+  - "Trois films (24 Hour Party People, Control, doc. Grant Gee) — Control comme « karaoké arthouse » vs Gee comme objet hauntologique"
+  - "« She's Lost Control » : épilepsie comme unheimlich (Freud), attrait minéral de l'inanimé"
+  - "Hannett + Saville : « plus Art que Rock », « consistance conceptuelle », Warsaw → cyberpunks"
+  - "Rapport occulté au Black Atlantic — dub comme méthodologie, « Death Disco », syn-drums d'« Insight »"
+  - "Le culte JD comme affaire de garçons — exclusion des femmes (Deborah Curtis)"
+  - "Le suicide comme garantie d'authenticité (« 4 Real »), transfiguration en mythe froid (marbre/pierre, Saville, « In a Lonely Place »)"
+  - "Les « deux Joy Division » (Pure Art vs « just a laff ») — JD comme « vérité du Laddism »"
+  - "Angleterre 1979 : « speed comedown » culturel ; destruction de la communauté ouvrière (Sumner via Savage), « the void »"
+
+chapitres_concernes: [1, 3, 4, 5, 11, 14]
+
+atomes:
+  - id: S90-A001
+    type: cadrage_theorique
+    chapitres: [11, 14]
+    resume: "Hauntologie — JD capte « notre présent, leur futur » ; 1979-80 comme seuil fordisme→néolibéralisme ; Society of Control (Deleuze)"
+  - id: S90-A002
+    type: reception
+    chapitres: [14]
+    resume: "Trois films — Control « karaoké arthouse » (perte voix/corps de Curtis) vs doc. Gee comme objet hauntologique ; cassette d'hypnose"
+  - id: S90-A003
+    type: analyse_morceau
+    chapitres: [4, 5]
+    resume: "« She's Lost Control » — épilepsie comme unheimlich (Freud), abjection sur l'Autre féminin, lure minérale de l'inanimé"
+  - id: S90-A004
+    type: reception
+    chapitres: [4, 14]
+    resume: "Culte JD comme affaire de garçons — exclusion des femmes (Deborah Curtis, p.77), « depressives dressing for the Depression »"
+  - id: S90-A005
+    type: production
+    chapitres: [3, 5]
+    resume: "Hannett + Saville — « plus Art que Rock », « consistance conceptuelle » ; « Warsaw → cyberpunks »"
+  - id: S90-A006
+    type: analyse_sonore
+    chapitres: [3]
+    resume: "Rapport occulté au Black Atlantic — dub-méthodologie, « Death Disco », syn-drums d'« Insight » (via Savage), reprise Grace Jones"
+  - id: S90-A007
+    type: cadrage_theorique
+    chapitres: [4, 11]
+    resume: "Dépression vs tristesse — mélancolie sans objet-cause, « zero affect », dépression comme théorie du monde"
+  - id: S90-A008
+    type: cadrage_theorique
+    chapitres: [4, 11]
+    resume: "JD « le plus schopenhauerien des groupes rock » — anti-rock, au-delà du principe de plaisir, voile de Maya, le Vouloir"
+  - id: S90-A009
+    type: analyse_voix
+    chapitres: [4, 14]
+    resume: "Voix de Curtis comme « déjà mort » — fatalisme, vie pré-scriptée (« Decades »), « Insight » qui stoppe la peur"
+  - id: S90-A010
+    type: cadrage_theorique
+    chapitres: [4, 14]
+    resume: "Suicide comme garantie d'authenticité (« 4 Real ») ; transfiguration en mythe froid (marbre/pierre, Saville, « In a Lonely Place »)"
+  - id: S90-A011
+    type: cadrage_theorique
+    chapitres: [14]
+    resume: "Les « deux Joy Division » (Pure Art vs « just a laff ») — JD comme « vérité du Laddism » ; hausse maladie mentale ados (à vérifier)"
+  - id: S90-A012
+    type: contexte
+    chapitres: [1, 11]
+    resume: "Angleterre 1979 — « speed comedown » culturel ; Sumner (via Savage) sur la destruction de la communauté ouvrière de Salford, « the void »"
+
+relations:
+  - id: R-S90-001
+    resume: "Seuil 1979-80 (A001) ↔ contexte 1979 / void de Sumner (A012)"
+  - id: R-S90-002
+    resume: "Ontologie dépressive (A007) → Schopenhauer/anti-rock (A008) → voix du « déjà mort » (A009)"
+  - id: R-S90-003
+    resume: "Suicide-authenticité (A010) ↔ « deux Joy Division » / vérité du Laddism (A011)"
+  - id: R-S90-004
+    resume: "Hannett/Saville (A005) ↔ transfiguration mythique marbre/pierre (A010)"
+  - id: R-S90-005
+    resume: "Réception filmique Gee/Control (A002) ↔ voix irremplaçable de Curtis (A009)"
+
+croisements_corpus:
+  - "S88 (Cashell) : cite déjà Fisher (« catatonically channelling… », « nécromanciens involontaires », cassette d'hypnose de Gee) — convergence hauntologique sur la transition JD→New Order"
+  - "S83 (Hannett) : approfondit le rôle de production esquissé en S90-A005"
+  - "S81 (Curtis suicide, Devereux) : croiser avec S90-A010 (suicide-authenticité)"
+  - "S10 (Sumner) et S89 (Savage) : sources primaires des citations de Sumner relayées en S90-A012"
+  - "S40 (Cacciatore, hauntologie / no future) : cadre théorique partagé"
+
+avertissements:
+  - "Fisher écrit en critique-théoricien : interprétations, non faits biographiques"
+  - "Essai adapté d'un billet k-punk de 2005 ; pagination livre/PDF à vérifier sur exemplaire"
+  - "Citations de Deborah Curtis et Bernard Sumner relayées de seconde main"
+  - "Statistique « +70 % maladie mentale adolescents » (A011) avancée sans référence : à vérifier"
