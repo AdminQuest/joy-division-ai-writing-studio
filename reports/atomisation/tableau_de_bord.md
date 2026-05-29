@@ -1,6 +1,6 @@
 # Tableau de bord des atomisations
 
-> Régénéré le **28 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
+> Régénéré le **29 mai 2026** depuis `data/registre.json`, `exports/generated/audit_repo.json` et `registers/`.  
 > État vérifié : 0 erreur bloquante · 2 725 atomes · 7 588 enregistrements · 95 sources déclarées.
 
 ---
@@ -14,7 +14,7 @@
 | Total atomes dans le corpus | **2 725** |
 | Total enregistrements (toutes types) | **7 588** |
 | Erreurs bloquantes (audit) | **0** ✅ |
-| Avertissements (audit) | 30 221 |
+| Avertissements (audit) | 29 789 |
 | Dette migration v2 (atomes incomplets) | 2 643 / 2 725 |
 
 ### Répartition des enregistrements par type
@@ -241,7 +241,7 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 | Erreurs bloquantes | **0** | -15 (était 15) |
 | Doublons d'identifiants | **0** | -14 (supprimés / renommés) |
 | YAML parse errors | **0** | -1 (corrigé master_concepts.md) |
-| Avertissements | 30 221 | -336 (était 30 557) |
+| Avertissements | 29 789 | -432 (était 30 221) |
 | unknown_yaml_blocks | 1 476 | +51 (était 1 425) |
 | v2 migration debt | 2 643 atomes | non démarrée (stratégique) |
 
@@ -256,6 +256,6 @@ S01, S03, S04, S18, S23, S24, S25, S28, S30, S32, S33, S36, S38, S73
 
 ---
 
-_Tableau régénéré le 28 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
+_Tableau régénéré le 29 mai 2026 — état complet post-audit. 0 erreur bloquante. Citations H&S S85–S88 vérifiées sur PDF._
 
-_Synchronisation automatique morning_sync — 2026-05-28_
+_Synchronisation automatique morning_sync — 2026-05-29_
