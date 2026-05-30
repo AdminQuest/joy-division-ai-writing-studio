@@ -157,16 +157,20 @@ properties:
     type: string
     description: >
       Granularité de la coordonnée (lat/lng) — échelle ORDINALE, du plus fin au
-      plus large : `exacte` (bâtiment / point précis), `rue` (axe ou tronçon),
-      `quartier`, `ville` (centroïde). Axe de GRANULARITÉ uniquement :
+      plus large : `exacte` (bâtiment / point précis) < `rue` (axe ou tronçon) <
+      `quartier` < `ville` (centroïde municipal) < `region` (comté, aire
+      métropolitaine, échelle régionale). Axe de GRANULARITÉ uniquement :
       l'incertitude ou l'approximation (lieu démoli, localisation douteuse) se
       documente dans `prudence_methodologique`, jamais comme une valeur de
-      précision (granularité et confiance sont deux axes distincts).
+      précision (granularité et confiance sont deux axes distincts). Convention
+      de rendu : `ville` et `region` sont des ZONES (étendues), non des points —
+      cf. docs/NAMING_CONVENTIONS.md §10.
     enum:
       - exacte
       - rue
       - quartier
       - ville
+      - region
 
   same_as:
     type: string

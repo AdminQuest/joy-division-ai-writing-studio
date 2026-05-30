@@ -56,9 +56,10 @@ places:
   - id: PLACE-SALFORD-GRAMMAR-SCHOOL
     lat: 53.488
     lng: -2.298
-    geo_precision: ville
+    geo_precision: rue
     prudence_methodologique: >-
-      Localisation approximative à l'échelle de Salford ; bâtiment non confirmé.
+      Établissement nommé = bâtiment (granularité rue) ; coordonnée approximative
+      à l'échelle de Salford, bâtiment précis non confirmé.
     label: "Salford Grammar School"
     type: education
     type_detail: ecole

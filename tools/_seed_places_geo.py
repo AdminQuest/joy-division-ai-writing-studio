@@ -35,9 +35,10 @@ SEED = {
     "PLACE-DETROIT": (42.3314, -83.0458, "ville", "Q12439", None),
 
     # — Villes / quartiers (coord. solide, QID à recouper) —
-    "PLACE-MANCHESTER-CITY": (53.4808, -2.2426, "ville", None, None),
+    # PLACE-MANCHESTER-CITY : réconcilié vers PLACE-MANCHESTER (same_as) —
+    # coordonnée portée par le canonique, donc retiré du seed (12b-1.c, lot B).
     "PLACE-MANCHESTER-CENTRE": (53.4794, -2.2453, "quartier", None, None),
-    "PLACE-GREATER-MANCHESTER": (53.5900, -2.3000, "ville", None,
+    "PLACE-GREATER-MANCHESTER": (53.5900, -2.3000, "region", None,
         "Comté métropolitain — coordonnée = centroïde approximatif, non un point."),
     "PLACE-BOLTON": (53.5780, -2.4290, "ville", None, None),
     "PLACE-OLDHAM": (53.5409, -2.1183, "ville", None, None),
@@ -70,8 +71,9 @@ SEED = {
     "PLACE-KINGS-SCHOOL": (53.2520, -2.1370, "exacte", None,
         "King's School, Macclesfield."),
     "PLACE-SOUTHPORT-FLORAL-HALL": (53.6540, -3.0100, "exacte", None, None),
-    "PLACE-SALFORD-GRAMMAR-SCHOOL": (53.4880, -2.2980, "ville", None,
-        "Localisation approximative à l'échelle de Salford ; bâtiment non confirmé."),
+    "PLACE-SALFORD-GRAMMAR-SCHOOL": (53.4880, -2.2980, "rue", None,
+        "Établissement nommé = bâtiment (granularité rue) ; coordonnée "
+        "approximative à l'échelle de Salford, bâtiment précis non confirmé."),
 }
 
 ID_RE = re.compile(r'^(\s*)(?:- )?id:\s*("?)(PLACE-[A-Z0-9-]+)\2\s*$')
