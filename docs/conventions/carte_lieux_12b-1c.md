@@ -29,12 +29,13 @@ attribution).
   (cf. `docs/conventions/identifiants_lieux.md`). On géolocalise un lieu, pas
   une mention.
 
-### Périmètre de la couche (après backfill 2026-05-30)
+### Périmètre de la couche — état figé (incrément 12b-1.c)
 
-La couche couvre **42 lieux identifiables** (venues JD majeures + quartiers /
-villes / régions nettement localisables). Les lieux à localisation incertaine
-restent **sans coordonnées** (honnêteté > exhaustivité) : ils n'apparaissent pas
-sur la carte mais demeurent dans le registre.
+La couche couvre **42 lieux géolocalisés sur 91 (46 %)** — état **FINAL** de
+cet incrément. Les 49 lieux restants sont sans coordonnées Wikidata P625
+vérifiables : venues démolies sans article Wikipedia (Pips, Rafters, Hard Rock,
+Grey Mare…), commerces locaux disparus, rues ordinaires, lieux symboliques.
+Aucune coordonnée n'est inventoriée ou estimée (honnêteté > exhaustivité).
 
 Deux scripts de curation, traçables et idempotents :
 - `tools/_seed_places_geo.py` — amorce initiale (PR #27, 36 lieux)
@@ -43,6 +44,8 @@ Deux scripts de curation, traçables et idempotents :
 QID `reference_croisee` posé **uniquement à confiance élevée** (20 lieux
 appréciable après backfill). Chaque QID vérifié manuellement via
 `wbgetentities` (P625 rapatrié, plausibilité géographique contrôlée).
+Faux matches documentalement rejetés : Q49584641 (Angel Meadow, Californie) et
+Q6536190 (Lewis's Liverpool).
 
 ### Rendu : points vs zones
 
@@ -102,12 +105,21 @@ Principes :
 - intégrité `same_as` (cible existante, point fixe, absence de cycle) ;
 - décompte canonique post-réconciliation.
 
+Test unitaire (16 cas) :
+
+```
+python3 -m unittest tools.test_validate_places   # depuis la racine
+python3 tools/test_validate_places.py            # exécution directe
+```
+
 ---
 
-## 5. Hors-périmètre (réservé aux étapes ultérieures)
+## 5. Hors-périmètre et sous-tâches reportées
 
 - maillage bidirectionnel lieux ↔ concerts ↔ personnes ↔ … → **étape 11** ;
 - croisement avec les 196 concerts → **étape 10** ;
-- *backfill* exhaustif des coordonnées restantes (49/91 non géolocalisés après
-  session 2026-05-30) → suivi réseau-dépendant, sources historiques ou Wikidata
-  P625 si disponible.
+- **[REPORTÉ — principe directeur n°3]** Curation manuelle des 49 venues
+  non géolocalisées (sourçage strict : sources primaires, cartes historiques,
+  archives locales) : sous-tâche différée de l'étape 4, **à reprendre avant
+  l'ouverture de l'étape 5**. Aucune coordonnée ne peut être ajoutée sans
+  source primaire citée (doctrine curation : vérité > exhaustivité).
