@@ -419,6 +419,51 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-warsaw_look_young_and_nervous",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Motifs à ajouter (passe 2)",
+    "data": {
+      "id": "MOTIF-warsaw_look_young_and_nervous",
+      "motif": "Warsaw look young and nervous",
+      "label": "« Warsaw look young and nervous » — Savage, diary 15.10.77",
+      "description": "Formule du journal de Jon Savage (15 octobre 1977) décrivant Warsaw (futur Joy Division) en concert à Manchester : « Warsaw look young and nervous. Desperate, thrashing, afraid of stopping/falling. » Plus ancienne description contemporaine connue du groupe en performance par un critique extérieur.",
+      "sources": [
+        "S89"
+      ],
+      "related_atoms": [
+        "S89-A024"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "prudence": "Regard pris sur le vif mais critique et subjectif ; date à recouper."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-hate_sur_la_veste_de_curtis",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Motifs à ajouter (passe 2)",
+    "data": {
+      "id": "MOTIF-hate_sur_la_veste_de_curtis",
+      "motif": "« Hate » écrit sur la veste d'Ian Curtis",
+      "label": "« Ian Curtis had 'Hate' written on the back of his jacket » — Hook in Savage",
+      "description": "Détail rapporté par Peter Hook dans S89 : « Ian Curtis had 'Hate' written on the back of his jacket… He stood out in the crowd. » Image d'origine punk de Curtis avant Joy Division, inscription provocatrice héritée du vocabulaire punk.",
+      "sources": [
+        "S89"
+      ],
+      "related_atoms": [
+        "S89-A024"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Témoignage de Hook a posteriori ; inscrit Curtis dans le punk plutôt que dans une exception post-punk d'emblée."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Motifs",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T15:01:17"
+generated_at: "2026-05-30T17:39:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 514 |
+| Atomes | 522 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 41 |
 | Événements chronologiques | 40 |
@@ -65,7 +65,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 62 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 7 | 2 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 1 | 1 |
-| S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -493,7 +493,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 11. Concepts récurrents
 
-- Warsaw (44)
+- Warsaw (45)
 - fac-simile (22)
 - Electric Circus (21)
 - Joy Division (13)
@@ -501,21 +501,22 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Sex Pistols (12)
 - datation-1979 (12)
 - Rob Gretton (12)
+- Buzzcocks (11)
 - Rafters (11)
 - An Ideal for Living (11)
-- Buzzcocks (10)
 - Manchester (10)
 - scène locale (9)
 - datation-1980 (9)
+- Lesser Free Trade Hall (9)
+- DIY (9)
+- Tony Wilson (9)
+- Ian Curtis (9)
 - premier corpus (8)
-- Lesser Free Trade Hall (8)
-- DIY (8)
 - Stiff Kittens (8)
 - Stephen Morris (8)
-- Ian Curtis (8)
+- CONCEPT-scene_punk_mancunienne_regionalisme (8)
 - electric circus (7)
 - warsaw (7)
-- Tony Wilson (7)
 - Short Circuit (7)
 - tony wilson (6)
 - premier concert (6)
@@ -525,6 +526,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Closer (6)
 - management (6)
 - At a Later Date (6)
+- autoproduction (6)
 - Warsaw Pakt (6)
 - ian curtis (5)
 - industrie musicale (5)
@@ -556,12 +558,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - genese-chanson (4)
 - corpus-1979 (4)
 - scène mancunienne (4)
+- Factory Records (4)
 - Salford (4)
 - rafters (4)
 - house of dolls (4)
 - RCA (4)
 - organisation (4)
-- autoproduction (4)
 - pressage (4)
 - mythe fondateur (3)
 - peter hook (3)
@@ -571,8 +573,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - premier âge (3)
 - non-futur (3)
 - guerre froide (3)
-- intertextualité (3)
-- contrainte (3)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -714,7 +714,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | production | 19 |
 | non qualifié | 19 |
 | concert | 16 |
-| prudence_methodologique | 11 |
+| prudence_methodologique | 12 |
 | analyse | 11 |
 | chronologie | 11 |
 | biographie | 9 |
@@ -724,8 +724,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | relation | 7 |
 | lyrics_reference | 6 |
 | songbook_instruction | 6 |
+| evenement | 6 |
 | concept_structurant | 5 |
 | lecture | 5 |
+| contexte | 5 |
 | mythe | 4 |
 | fait_interprete | 4 |
 | reception_critique | 4 |
@@ -745,7 +747,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | reception | 3 |
 | concept | 3 |
 | acteur_musical | 3 |
-| evenement | 3 |
 | rencontre_fondatrice | 3 |
 | discographie | 3 |
 | analyse_contextuelle | 3 |
@@ -758,7 +759,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | culture_musicale | 2 |
 | sociologie | 2 |
 | genese_groupe | 2 |
-| contexte | 2 |
 | contexte_biographique | 2 |
 | scene_revelation | 2 |
 | scene_recrutement | 2 |
@@ -919,6 +919,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | concept_scene | 1 |
 | mediations_scene | 1 |
 | renversement_question | 1 |
+| scene_historiographique | 1 |
 | cadre_analytique | 1 |
 | analyse_oeuvre_intertextuelle | 1 |
 | analyse_oeuvre_contextuelle | 1 |
@@ -944,10 +945,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 189 |
-| critique | 169 |
-| majeure | 83 |
+| critique | 171 |
+| majeure | 88 |
 | majeur | 28 |
-| utile | 20 |
+| utile | 21 |
 | secondaire | 7 |
 | haute | 5 |
 | moyenne | 4 |

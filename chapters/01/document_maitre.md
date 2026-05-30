@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T15:01:17"
+generated_at: "2026-05-30T17:39:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-30T15:01:17"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 304 |
+| Atomes | 308 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 28 |
 | Événements chronologiques | 15 |
@@ -78,7 +78,7 @@ generated_at: "2026-05-30T15:01:17"
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 4 | 3 |
-| S89 | S89 — Savage, England's Dreaming, 1991 | 6 | 0 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 10 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
@@ -460,10 +460,13 @@ generated_at: "2026-05-30T15:01:17"
 - Hulme (5)
 - Thatcherism (5)
 - James Anderton (5)
+- Ian Curtis (5)
 - no future (4)
 - Macclesfield (4)
-- Ian Curtis (4)
+- Lesser Free Trade Hall (4)
+- Buzzcocks (4)
 - diy (4)
+- CONCEPT-scene_punk_mancunienne_regionalisme (4)
 - hauntologie (3)
 - autodidaxie-pop (3)
 - classe ouvriere (3)
@@ -472,11 +475,9 @@ generated_at: "2026-05-30T15:01:17"
 - prudence historiographique (3)
 - imaginative historicism (3)
 - postindustrial cityscapes (3)
-- Lesser Free Trade Hall (3)
 - mémoire culturelle (3)
 - Factory Records (3)
 - Sex Pistols (3)
-- Buzzcocks (3)
 - Ian Wood (3)
 - NME (3)
 - régénération urbaine (3)
@@ -530,7 +531,6 @@ generated_at: "2026-05-30T15:01:17"
 - ordre social local (2)
 - accountability (2)
 - Tactical Aid Group (2)
-- police-community relations (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -671,9 +671,9 @@ generated_at: "2026-05-30T15:01:17"
 | source_part | 14 |
 | analyse | 10 |
 | concept | 10 |
+| contexte | 8 |
 | sociologie | 7 |
 | contexte_social | 7 |
-| contexte | 7 |
 | evenement_politique | 6 |
 | lecture | 5 |
 | biographie | 5 |
@@ -707,6 +707,7 @@ generated_at: "2026-05-30T15:01:17"
 | formation_culturelle | 2 |
 | motif_geographique | 2 |
 | evenement_biographique | 2 |
+| evenement | 2 |
 | scene_fondatrice | 2 |
 | non qualifié | 2 |
 | matrice_politique | 1 |
@@ -814,6 +815,7 @@ generated_at: "2026-05-30T15:01:17"
 | concept_sociologique | 1 |
 | renversement_question | 1 |
 | prudence_documentaire | 1 |
+| scene_historiographique | 1 |
 | reference_croisee | 1 |
 | cadre_analytique | 1 |
 | fait_cadre | 1 |
@@ -838,8 +840,8 @@ generated_at: "2026-05-30T15:01:17"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 157 |
-| critique | 67 |
-| majeure | 58 |
+| critique | 69 |
+| majeure | 60 |
 | utile | 12 |
 | majeur | 3 |
 | secondaire | 1 |

@@ -889,6 +889,206 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-lesser_free_trade_hall_evenement_fondateur",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-lesser_free_trade_hall_evenement_fondateur",
+      "nom": "le Lesser Free Trade Hall comme événement fondateur",
+      "label": "Le Lesser Free Trade Hall comme événement fondateur (Lesser Free Trade Hall as founding event)",
+      "concept": "Lesser Free Trade Hall événement fondateur",
+      "definition": "Les deux concerts des Sex Pistols au Lesser Free Trade Hall de Manchester (4 juin et 20 juillet 1976), organisés par Devoto et Shelley, comme mythe d'origine de la scène musicale mancunienne post-1976 : un public minuscule d'où sortiront Buzzcocks, Joy Division/New Order, Morrissey et Factory. Le concept désigne moins l'événement que sa fonction généalogique.",
+      "fonction_argumentative": "Ancre la naissance de Joy Division dans un événement punk daté et localisé, tout en prévenant sa mythification : Savage atteste Hook/Sumner/Wilson (4 juin) mais pas Curtis. Sert les chapitres 1 (matrice mancunienne) et 2 (apprentissage).",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A007",
+        "S89-A008"
+      ],
+      "related_atoms": [
+        "S89-A007",
+        "S89-A008",
+        "S89-A009"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "prudence": "Savage nomme Hook/Sumner/Wilson/Morrissey au 4 juin, jamais Curtis ; ne pas faire du LFTH une scène d'origine de Curtis sur la foi de S89 (voir S45/S41)."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-scene_punk_mancunienne_regionalisme",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-scene_punk_mancunienne_regionalisme",
+      "nom": "scène punk mancunienne et régionalisme",
+      "label": "Scène punk mancunienne et régionalisme (Mancunian punk scene and regionalism)",
+      "concept": "scène punk mancunienne régionalisme",
+      "definition": "Manchester comme « England's second Punk city after London and its most creative site » (Savage), distinguée par un punk « less macho and elitist », une fierté régionaliste et une infrastructure locale dense (New Manchester Review, Granada's What's On, New Hormones, Rabid). Spiral Scratch en est le manifeste : « struck a permanent blow for regionalism ».",
+      "fonction_argumentative": "Fonde l'argument que Joy Division n'est pas une exception isolée mais le produit d'un écosystème régional autonome ; articule le déterminisme urbain (chap. 1) sans y réduire le groupe ; relie S89 à S78 (Nevarez) et S02 (Manchester ville en déclin).",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A009",
+        "S89-A019"
+      ],
+      "related_atoms": [
+        "S89-A007",
+        "S89-A010",
+        "S89-A011",
+        "S89-A024"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 14"
+      ],
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "prudence": "Récit reconstruit par Savage (entretiens tardifs) ; croiser avec S78 pour la place exacte de Joy Division."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-warsaw_origine_joy_division",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-warsaw_origine_joy_division",
+      "nom": "Warsaw comme origine de Joy Division",
+      "label": "Warsaw comme origine de Joy Division (Warsaw as Joy Division's origin)",
+      "concept": "Warsaw origine Joy Division",
+      "definition": "Warsaw est le nom initial (1977) du groupe qui deviendra Joy Division. Savage en donne trois traces : le diary 15.10.77 (« Warsaw look young and nervous »), la formule de Richard Boon (« the group that was to become Joy Division ») et l'attestation discographique (« Ideal for Living marks the name change from Warsaw »). Période de balbutiement punk avant la mutation post-punk.",
+      "fonction_argumentative": "Permet de traiter la préhistoire Warsaw du groupe à partir d'une source contemporaine extérieure (Savage présent au concert) et de dater le changement de nom ; essentiel au chapitre 2 et à toute chronologie de formation.",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A024",
+        "S89-A025"
+      ],
+      "related_atoms": [
+        "S89-A024",
+        "S89-A025"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "usage_chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "La période Warsaw chez Savage est filtrée par Boon et Hook ; croiser S41/S45 pour la chronologie interne."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-temoignage_contemporain_savage",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-temoignage_contemporain_savage",
+      "nom": "le témoignage contemporain de Savage",
+      "label": "Le témoignage contemporain de Savage (Savage's contemporary eyewitness diary)",
+      "concept": "témoignage contemporain Savage",
+      "definition": "Savage, journaliste présent sur la scène en 1976-1977, insère dans England's Dreaming des entrées de son propre journal (Author's Diary). Pour le corpus Joy Division, l'entrée 15.10.77 sur Warsaw est un document de première main rare : non une reconstruction orale a posteriori mais une note prise sur le moment. Le concept distingue ce régime de source (fraîcheur contemporaine) des reconstructions orales (à croiser).",
+      "fonction_argumentative": "Outil de qualification des preuves : distingue les énoncés contemporains de Savage (haute valeur d'attestation) de ses reconstructions orales. Soutient la valeur de S89-A024 comme témoignage.",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A024"
+      ],
+      "related_atoms": [
+        "S89-A024"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "usage_chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Le diary reste un regard critique subjectif d'un acteur engagé de la scène ; à manier comme témoignage, non comme verdict."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-mediation_televisuelle_granada",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-mediation_televisuelle_granada",
+      "nom": "médiation télévisuelle du punk (Granada / So It Goes)",
+      "label": "Médiation télévisuelle du punk (Granada / So It Goes)",
+      "concept": "médiation télévisuelle Granada",
+      "definition": "Avant Factory, Tony Wilson opère depuis Granada Television (So It Goes, puis What's On) comme premier relais télévisuel du punk mancunien : il programme les Sex Pistols pour leur première TV après la cassette de Devoto et la lettre de Morrissey. La télévision régionale comme enabler institutionnel de la scène, en amont du label.",
+      "fonction_argumentative": "Établit la continuité Granada → Factory dans la généalogie mancunienne et le rôle de Wilson comme passeur médiatique avant d'être producteur ; articule S89 à S84 (Factory video).",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A011"
+      ],
+      "related_atoms": [
+        "S89-A011",
+        "S89-A012"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "usage_chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Récit de Wilson a posteriori ; la continuité Granada → Factory est une lecture utile, à ne pas durcir."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-electric_circus_fermeture",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Concepts à consolider (passe 2)",
+    "data": {
+      "id": "CONCEPT-electric_circus_fermeture",
+      "nom": "la fermeture de l'Electric Circus",
+      "label": "La fermeture de l'Electric Circus (the closing of the Electric Circus)",
+      "concept": "fermeture Electric Circus",
+      "definition": "L'Electric Circus (Collyhurst, Manchester), salle réinvestie par le punk, ferme à l'automne 1977. Savage en fait un moment-charnière (« an event… now seemed of cataclysmic importance ») : ses dernières nuits sont à la fois le « coming-out ball » des Buzzcocks et le théâtre des frustrations de Warsaw. NB : Savage date son diary 15.10.77 ; la fermeture est habituellement datée 1-2 octobre 1977.",
+      "fonction_argumentative": "Fournit un lieu et un moment concrets pour situer Warsaw dans la scène en mutation et articuler la bascule punk → post-punk (chap. 2). Point de vigilance chronologique.",
+      "sources": [
+        "S89"
+      ],
+      "atomes": [
+        "S89-A024"
+      ],
+      "related_atoms": [
+        "S89-A024",
+        "S89-A009"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "usage_chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Date du diary (15.10.77) vs date usuelle de fermeture (1-2 oct. 1977) — recouper S41/S78."
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Concepts",

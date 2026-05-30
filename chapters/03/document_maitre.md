@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T15:01:17"
+generated_at: "2026-05-30T17:39:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 466 |
+| Atomes | 469 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 35 |
 | Événements chronologiques | 25 |
 | Personnes | 33 |
 | Chansons | 27 |
-| Sources mobilisées | 39 |
+| Sources mobilisées | 40 |
 
 ## 4. Sources mobilisées
 
@@ -72,6 +72,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 7 | 0 |
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 12 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 3 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
@@ -496,27 +497,28 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 11. Concepts récurrents
 
-- Martin Hannett (22)
+- Martin Hannett (23)
 - architecture sonore (18)
 - Unknown Pleasures (15)
 - contrainte productive (13)
+- post-punk (11)
 - Ian Curtis (11)
 - production (10)
-- post-punk (10)
 - Stephen Morris (8)
 - espace sonore (8)
+- A Factory Sample (8)
 - Strawberry Studios (8)
 - répétition (8)
 - Peter Hook (7)
 - Transmission (7)
 - Cargo Studios (7)
 - ian curtis (6)
+- Factory Records (6)
 - martin hannett (6)
 - basse melodique (6)
-- A Factory Sample (6)
 - studio (6)
 - voix (6)
-- Factory Records (5)
+- Tony Wilson (5)
 - digital (5)
 - Digital (5)
 - Glass (5)
@@ -527,7 +529,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - synthétiseur (5)
 - factory (4)
 - Factory (4)
-- Tony Wilson (4)
+- DIY (4)
 - a factory sample (4)
 - glass (4)
 - transmission (4)
@@ -545,7 +547,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - spectralité (4)
 - domesticité (3)
 - tension (3)
-- DIY (3)
 - new wave (3)
 - Warsaw (3)
 - factory records (3)
@@ -558,6 +559,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - basse (3)
 - studio comme instrument (3)
 - Interzone (3)
+- autoproduction (3)
 - Warsaw Demo (3)
 - Pennine Sound (3)
 - varispeed (3)
@@ -572,10 +574,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - professionnalisation (2)
 - Iggy Pop (2)
 - Velvet Underground (2)
+- Spiral Scratch (2)
 - john peel (2)
 - peel session (2)
-- martin rushent (2)
-- genetic records (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -736,7 +737,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | reception | 4 |
 | matrice_musicale | 4 |
 | fait_chronologique | 3 |
+| objet_discographique | 3 |
 | acteur_musical | 3 |
+| evenement | 3 |
 | interpretation | 3 |
 | contexte_technique | 3 |
 | interpretation_studio | 3 |
@@ -751,11 +754,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | concept_critique | 2 |
-| objet_discographique | 2 |
 | relation_esthetique | 2 |
 | cadre_theorique | 2 |
 | argument_central | 2 |
-| evenement | 2 |
 | concept_transversal | 2 |
 | lieu | 2 |
 | economie_materielle | 2 |
@@ -778,6 +779,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | scene_revelation_live | 2 |
 | controverse | 2 |
 | temoignage | 2 |
+| contexte | 2 |
 | song_or_cover | 2 |
 | song | 2 |
 | album | 2 |
@@ -913,7 +915,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | synthese_usage_livre | 1 |
 | bootleg | 1 |
 | archive | 1 |
-| contexte | 1 |
 | analyse_technique | 1 |
 | conclusions | 1 |
 | contrepoint | 1 |
@@ -938,8 +939,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | non qualifiée | 202 |
 | critique | 151 |
-| majeure | 62 |
-| utile | 16 |
+| majeure | 64 |
+| utile | 17 |
 | majeur | 15 |
 | secondaire | 3 |
 | critique pour le chapitre 3 | 3 |
