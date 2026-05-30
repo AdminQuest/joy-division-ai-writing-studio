@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-30T11:44:04",
+  "generated_at": "2026-05-30T14:08:32",
   "summary": {
-    "records_total": 7611,
+    "records_total": 7644,
     "records_by_kind": {
-      "unknown": 1481,
-      "source": 119,
-      "metadata": 269,
-      "atom": 2737,
-      "concept": 456,
-      "motif": 424,
-      "myth": 101,
-      "quote": 556,
-      "chronology": 476,
+      "unknown": 1493,
+      "source": 120,
+      "metadata": 273,
+      "atom": 2743,
+      "concept": 457,
+      "motif": 425,
+      "myth": 102,
+      "quote": 562,
+      "chronology": 477,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 29947,
+    "diagnostics_total": 30018,
     "errors": 0,
-    "warnings": 29947,
+    "warnings": 30018,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -31,22 +31,22 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 2737,
-    "chronology": 476,
-    "concept": 456,
+    "atom": 2743,
+    "chronology": 477,
+    "concept": 457,
     "concert": 197,
-    "metadata": 269,
-    "motif": 424,
-    "myth": 101,
+    "metadata": 273,
+    "motif": 425,
+    "myth": 102,
     "person": 305,
-    "quote": 556,
+    "quote": 562,
     "quote_batch": 1,
     "rules": 1,
     "session": 18,
     "song": 110,
-    "source": 119,
+    "source": 120,
     "template": 360,
-    "unknown": 1481
+    "unknown": 1493
   },
   "records_by_source": {
     "REGISTRY": {
@@ -658,8 +658,15 @@
       "chronology": 7
     },
     "S89": {
-      "unknown": 1,
-      "metadata": 1
+      "metadata": 5,
+      "atom": 6,
+      "chronology": 1,
+      "quote": 6,
+      "concept": 1,
+      "motif": 1,
+      "myth": 1,
+      "unknown": 8,
+      "source": 1
     },
     "S90": {
       "atom": 12,
@@ -691,15 +698,15 @@
     "7": 24,
     "8": 81,
     "9": 18,
-    "Chapitre 1": 498,
+    "Chapitre 1": 513,
     "Chapitre 10": 564,
-    "Chapitre 11": 599,
+    "Chapitre 11": 603,
     "Chapitre 12": 672,
     "Chapitre 13": 374,
     "Chapitre 14": 2065,
-    "Chapitre 2": 738,
-    "Chapitre 3": 685,
-    "Chapitre 4": 599,
+    "Chapitre 2": 741,
+    "Chapitre 3": 686,
+    "Chapitre 4": 603,
     "Chapitre 5": 608,
     "Chapitre 6": 796,
     "Chapitre 7": 281,
@@ -832,12 +839,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 677,
-    "invalid_controlled_value": 2668,
+    "field_type_error": 683,
+    "invalid_controlled_value": 2673,
     "missing_required_field": 9281,
     "schema_warning": 497,
-    "unknown_yaml_block": 1481,
-    "v2_migration_debt": 15343
+    "unknown_yaml_block": 1493,
+    "v2_migration_debt": 15391
   },
   "top_files_by_issue_count": [
     [
@@ -6982,6 +6989,102 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "record_id": "REF-S89-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "record_id": "REF-S89-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "sources/schutte_curtis_lyrics/relations_s66_curtis_lyrics_v2.md",
       "record_id": "R-S66-001",
       "message": "Unable to infer documentary kind",
@@ -12813,10 +12916,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 2737,
+    "atoms_total": 2743,
     "atoms_v2_complete": 240,
-    "atoms_v2_incomplete": 2497,
-    "v2_missing_field_warnings": 15343
+    "atoms_v2_incomplete": 2503,
+    "v2_missing_field_warnings": 15391
   },
   "source_registry": {
     "declared_but_unused": [
@@ -14714,12 +14817,18 @@
         "auteur": "Jon Savage",
         "titre": "England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond",
         "annee": "1991",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 31,
+        "atoms": 6,
+        "quotes": 6,
+        "chronology": 2,
         "files": [
-          "registers/references/s89_savage_englands_dreaming_source_canonique.md"
+          "registers/references/s89_savage_englands_dreaming_source_canonique.md",
+          "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+          "sources/savage_englands_dreaming/citations_exactes.md",
+          "sources/savage_englands_dreaming/registres_specialises_s89.md",
+          "sources/savage_englands_dreaming/registres_structurants_s89.md",
+          "sources/savage_englands_dreaming/relations_stabilisees.md",
+          "sources/savage_englands_dreaming/source.md"
         ]
       },
       {
@@ -199593,6 +199702,574 @@
       "record_id": "S55-A012",
       "message": "Invalid value for type_unite: synthese_usage_livre",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A020",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Invalid value for type_unite: reference_croisee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A021",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Invalid value for type_unite: contexte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A001",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Invalid value for type_unite: contexte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A002",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A022",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Invalid value for type_unite: lieu",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "record_id": "S89-A023",
+      "message": "Field must be an object/dict: importance",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "record_id": "REF-S89-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "record_id": "REF-S89-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "record_id": "REL-S89-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

@@ -396,6 +396,29 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-espace_vacant_matrice",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Motifs à ajouter ou consolider",
+    "data": {
+      "id": "MOTIF-espace_vacant_matrice",
+      "motif": "espace vacant comme matrice",
+      "label": "L'espace vacant comme matrice culturelle",
+      "description": "L'espace urbain délaissé, déclassé et vacant comme terrain où une nouvelle culture peut éclore — « comme le buddleia sur les terrains vagues ». Chez Savage, World's End et le 430 King's Road précèdent et conditionnent les acteurs du punk.",
+      "sources": [
+        "S89"
+      ],
+      "related_atoms": [
+        "S89-A023",
+        "S89-A001"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "prudence": "À croiser avec S15-A012 (psychogéographie mancunienne) : même logique de la ville-matrice, terrain différent (Londres vs Manchester)."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Motifs",

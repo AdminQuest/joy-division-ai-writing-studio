@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-30T11:44:04",
+  "generated_at": "2026-05-30T14:08:32",
   "status": "warning",
   "summary": {
-    "records_total": 7611,
+    "records_total": 7644,
     "records_by_kind": {
-      "unknown": 1481,
-      "source": 119,
-      "metadata": 269,
-      "atom": 2737,
-      "concept": 456,
-      "motif": 424,
-      "myth": 101,
-      "quote": 556,
-      "chronology": 476,
+      "unknown": 1493,
+      "source": 120,
+      "metadata": 273,
+      "atom": 2743,
+      "concept": 457,
+      "motif": 425,
+      "myth": 102,
+      "quote": 562,
+      "chronology": 477,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 29947,
+    "diagnostics_total": 30018,
     "errors": 0,
-    "warnings": 29947,
+    "warnings": 30018,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -1927,12 +1927,18 @@
         "auteur": "Jon Savage",
         "titre": "England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond",
         "annee": "1991",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 31,
+        "atoms": 6,
+        "quotes": 6,
+        "chronology": 2,
         "files": [
-          "registers/references/s89_savage_englands_dreaming_source_canonique.md"
+          "registers/references/s89_savage_englands_dreaming_source_canonique.md",
+          "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+          "sources/savage_englands_dreaming/citations_exactes.md",
+          "sources/savage_englands_dreaming/registres_specialises_s89.md",
+          "sources/savage_englands_dreaming/registres_structurants_s89.md",
+          "sources/savage_englands_dreaming/relations_stabilisees.md",
+          "sources/savage_englands_dreaming/source.md"
         ]
       },
       {
@@ -140600,6 +140606,432 @@
       "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
       "message": "Invalid value for type_unite: synthese_usage_livre",
       "record_id": "S55-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Invalid value for type_unite: reference_croisee",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Invalid value for type_unite: contexte",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Invalid value for type_unite: contexte",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Invalid value for type_unite: lieu",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S89-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_specialises_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S89-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S89-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S89-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S89-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S89-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S89-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/savage_englands_dreaming/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S89-005"
     },
     {
       "level": "warning",
