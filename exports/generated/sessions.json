@@ -1,35 +1,6 @@
 [
   {
     "kind": "session",
-    "id": "JD-SESSION-YYYYMMDD-NNN",
-    "file": "registers/sessions/README.md",
-    "heading": "Structure normalisée d'une entrée",
-    "data": {
-      "id": "JD-SESSION-YYYYMMDD-NNN",
-      "numero": 1,
-      "label": "Warsaw demo",
-      "date": "YYYY-MM-DD",
-      "studio": "Pennine Sound Studios",
-      "ville": "Oldham",
-      "producteur": "Inconnu",
-      "ere": "Warsaw",
-      "titres": [],
-      "premiere_sortie_officielle": {
-        "titre": "",
-        "format": "album",
-        "label": "",
-        "annee": ""
-      },
-      "source": "joydiv.org",
-      "atomes_lies": [],
-      "chronologie_id": "",
-      "ingenieur_son": "Jon Caffery",
-      "statut_session": "officiel",
-      "notes": ""
-    }
-  },
-  {
-    "kind": "session",
     "id": "JD-SESSION-19770718-001",
     "file": "registers/sessions/00_canonical_sessions.md",
     "heading": "Sessions (ordre chronologique)",
@@ -545,6 +516,35 @@
       "source": "joydiv.org",
       "atomes_lies": [],
       "notes": "Session post-mortem (Curtis décédé en mai 1980). Reworking de bandes Unknown Pleasures pour le double album Still."
+    }
+  },
+  {
+    "kind": "session",
+    "id": "JD-SESSION-YYYYMMDD-NNN",
+    "file": "registers/sessions/README.md",
+    "heading": "Structure normalisée d'une entrée",
+    "data": {
+      "id": "JD-SESSION-YYYYMMDD-NNN",
+      "numero": 1,
+      "label": "Warsaw demo",
+      "date": "YYYY-MM-DD",
+      "studio": "Pennine Sound Studios",
+      "ville": "Oldham",
+      "producteur": "Inconnu",
+      "ere": "Warsaw",
+      "titres": [],
+      "premiere_sortie_officielle": {
+        "titre": "",
+        "format": "album",
+        "label": "",
+        "annee": ""
+      },
+      "source": "joydiv.org",
+      "atomes_lies": [],
+      "chronologie_id": "",
+      "ingenieur_son": "Jon Caffery",
+      "statut_session": "officiel",
+      "notes": ""
     }
   }
 ]

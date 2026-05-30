@@ -1,64 +1,6 @@
 [
   {
     "kind": "myth",
-    "id": "MYTH-S14-001",
-    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S14-001",
-      "mythe": "God’s Cop comme source historique sur Anderton",
-      "sources": [
-        "S14"
-      ],
-      "related_atoms": [
-        "S14-A005"
-      ],
-      "statut": "mythe méthodologique à éviter",
-      "position": "« God’s Cop » est une chanson et une trace de mémoire culturelle ; S05 et S12 restent les sources sur Anderton comme acteur policier et moral."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S14-002",
-    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S14-002",
-      "mythe": "Madchester comme continuation simple de Joy Division",
-      "sources": [
-        "S14",
-        "S13"
-      ],
-      "related_atoms": [
-        "S14-A002",
-        "S14-A007"
-      ],
-      "statut": "mythe à déconstruire",
-      "position": "La continuité passe par Factory, Manchester et l’Haçienda ; elle ne doit pas être confondue avec une continuité esthétique directe."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S14-003",
-    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S14-003",
-      "mythe": "Anderton réduit au folklore God’s Cop",
-      "sources": [
-        "S14",
-        "S05",
-        "S12"
-      ],
-      "related_atoms": [
-        "S14-A008"
-      ],
-      "statut": "mythe à corriger",
-      "position": "Le surnom est une archive culturelle, mais l’analyse doit revenir à l’institution, au policing moral et aux controverses documentées."
-    }
-  },
-  {
-    "kind": "myth",
     "id": "MYTH-S26-001",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
     "heading": "Mythes",
@@ -131,6 +73,177 @@
       ],
       "statut": "mythe méthodologique à éviter",
       "position": "Leeds est un contrepoint régional ; toute transposition vers Manchester doit être explicitement médiée."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S09-001",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-001",
+      "mythe": "photographie comme vérité brute",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A001",
+        "S09-A008"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Une photographie documente, mais elle cadre, sélectionne, met en scène et circule dans des contextes éditoriaux."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S09-002",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-002",
+      "mythe": "noir et blanc comme reflet naturel du Manchester réel",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A002"
+      ],
+      "statut": "mythe à nuancer",
+      "position": "Le noir et blanc participe à la fabrication esthétique de la froideur post-punk."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S09-003",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-003",
+      "mythe": "Curtis lisible dans son visage",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A005"
+      ],
+      "statut": "mythe à corriger",
+      "position": "L’image ne donne pas un accès direct à l’intériorité de Curtis."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S14-001",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-001",
+      "mythe": "God’s Cop comme source historique sur Anderton",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A005"
+      ],
+      "statut": "mythe méthodologique à éviter",
+      "position": "« God’s Cop » est une chanson et une trace de mémoire culturelle ; S05 et S12 restent les sources sur Anderton comme acteur policier et moral."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S14-002",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-002",
+      "mythe": "Madchester comme continuation simple de Joy Division",
+      "sources": [
+        "S14",
+        "S13"
+      ],
+      "related_atoms": [
+        "S14-A002",
+        "S14-A007"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "La continuité passe par Factory, Manchester et l’Haçienda ; elle ne doit pas être confondue avec une continuité esthétique directe."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S14-003",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-003",
+      "mythe": "Anderton réduit au folklore God’s Cop",
+      "sources": [
+        "S14",
+        "S05",
+        "S12"
+      ],
+      "related_atoms": [
+        "S14-A008"
+      ],
+      "statut": "mythe à corriger",
+      "position": "Le surnom est une archive culturelle, mais l’analyse doit revenir à l’institution, au policing moral et aux controverses documentées."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S27-001",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-001",
+      "type": "mythe",
+      "mythe": "le compte rendu vaut le livre",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A001",
+        "S27-A010"
+      ],
+      "statut": "mythe méthodologique à éviter",
+      "position": "S27 oriente vers Crossley, mais ne peut pas remplacer l’ouvrage de 2015 pour l’exploitation détaillée des réseaux."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S27-002",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-002",
+      "type": "mythe",
+      "mythe": "analyse de réseaux purement quantitative",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A002"
+      ],
+      "statut": "mythe à corriger",
+      "position": "Riom souligne que Crossley combine mesures de réseau et analyse qualitative des relations."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S27-003",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-003",
+      "type": "mythe",
+      "mythe": "punk comme essence stable",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A009"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Riom signale le risque d’essentialiser le punk, alors que son caractère décentralisé et hétérogène doit rester central."
     }
   },
   {
@@ -265,1749 +378,6 @@
       ],
       "statut": "mythe à déconstruire",
       "position": "Wilkinson utilise City Fun pour penser le présent de la ville-branding et du marketing culturel, pas pour idéaliser le passé."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S09-001",
-    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S09-001",
-      "mythe": "photographie comme vérité brute",
-      "sources": [
-        "S09"
-      ],
-      "related_atoms": [
-        "S09-A001",
-        "S09-A008"
-      ],
-      "statut": "mythe à déconstruire",
-      "position": "Une photographie documente, mais elle cadre, sélectionne, met en scène et circule dans des contextes éditoriaux."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S09-002",
-    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S09-002",
-      "mythe": "noir et blanc comme reflet naturel du Manchester réel",
-      "sources": [
-        "S09"
-      ],
-      "related_atoms": [
-        "S09-A002"
-      ],
-      "statut": "mythe à nuancer",
-      "position": "Le noir et blanc participe à la fabrication esthétique de la froideur post-punk."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S09-003",
-    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S09-003",
-      "mythe": "Curtis lisible dans son visage",
-      "sources": [
-        "S09"
-      ],
-      "related_atoms": [
-        "S09-A005"
-      ],
-      "statut": "mythe à corriger",
-      "position": "L’image ne donne pas un accès direct à l’intériorité de Curtis."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S27-001",
-    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S27-001",
-      "type": "mythe",
-      "mythe": "le compte rendu vaut le livre",
-      "sources": [
-        "S27"
-      ],
-      "related_atoms": [
-        "S27-A001",
-        "S27-A010"
-      ],
-      "statut": "mythe méthodologique à éviter",
-      "position": "S27 oriente vers Crossley, mais ne peut pas remplacer l’ouvrage de 2015 pour l’exploitation détaillée des réseaux."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S27-002",
-    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S27-002",
-      "type": "mythe",
-      "mythe": "analyse de réseaux purement quantitative",
-      "sources": [
-        "S27"
-      ],
-      "related_atoms": [
-        "S27-A002"
-      ],
-      "statut": "mythe à corriger",
-      "position": "Riom souligne que Crossley combine mesures de réseau et analyse qualitative des relations."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S27-003",
-    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
-    "heading": "Mythes",
-    "data": {
-      "id": "MYTH-S27-003",
-      "type": "mythe",
-      "mythe": "punk comme essence stable",
-      "sources": [
-        "S27"
-      ],
-      "related_atoms": [
-        "S27-A009"
-      ],
-      "statut": "mythe à déconstruire",
-      "position": "Riom signale le risque d’essentialiser le punk, alors que son caractère décentralisé et hétérogène doit rester central."
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-image_lofi_preuve_brute",
-    "file": "registers/s51_malvezzi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-image_lofi_preuve_brute",
-      "type_unite": "mythe",
-      "source_id": "S51",
-      "nom": "l’image lo-fi comme preuve brute",
-      "deconstruction": "S51 montre que l’image lo-fi est une archive remédiée, dégradée, recopiée et réinterprétée. Elle doit être croisée avant tout usage événementiel.\n",
-      "atomes": [
-        "S51-A001",
-        "S51-A002",
-        "S51-A004"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
-      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-haute_definition_superiorite",
-    "file": "registers/s51_malvezzi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-haute_definition_superiorite",
-      "type_unite": "mythe",
-      "source_id": "S51",
-      "nom": "la haute définition serait toujours supérieure",
-      "deconstruction": "Avec Steyerl, S51 montre que certaines images pauvres pénètrent mieux l’imaginaire collectif parce qu’elles circulent, se transforment et appellent un effort de regard.\n",
-      "atomes": [
-        "S51-A006",
-        "S51-A009",
-        "S51-A015"
-      ],
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
-      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-lofi_simple_nostalgie",
-    "file": "registers/s51_malvezzi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-lofi_simple_nostalgie",
-      "type_unite": "mythe",
-      "source_id": "S51",
-      "nom": "le lo-fi ne serait qu’une nostalgie esthétique",
-      "deconstruction": "S51 relie le lo-fi à la matérialité des supports, aux pratiques DIY, aux copies, au web et à l’impermanence du sujet social représenté, non à une simple nostalgie décorative.\n",
-      "atomes": [
-        "S51-A007",
-        "S51-A008",
-        "S51-A012"
-      ],
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
-      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-tshirt_trahison_commerciale_simple",
-    "file": "registers/s60_federici_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-tshirt_trahison_commerciale_simple",
-      "type_unite": "mythe",
-      "source_id": "S60",
-      "nom": "le t-shirt Unknown Pleasures serait seulement une trahison commerciale",
-      "deconstruction": "S60 montre que le t-shirt est à la fois marchandise, expérience portée, signe d’identité, mémoire sociale mobile et support d’appropriation.\n",
-      "atomes": [
-        "S60-A003",
-        "S60-A011",
-        "S60-A015"
-      ],
-      "chapitres": [
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-pulsar_detache_de_la_musique",
-    "file": "registers/s60_federici_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-pulsar_detache_de_la_musique",
-      "type_unite": "mythe",
-      "source_id": "S60",
-      "nom": "le pulsar ne serait plus lié à la musique",
-      "deconstruction": "Même diffusé comme motif textile, le pulsar reste relié à des pratiques d’écoute, de mémoire, de performance et de cartographie sociale des sons.\n",
-      "atomes": [
-        "S60-A005",
-        "S60-A010",
-        "S60-A015"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-reemplois_equivalents",
-    "file": "registers/s60_federici_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-reemplois_equivalents",
-      "type_unite": "mythe",
-      "source_id": "S60",
-      "nom": "tous les réemplois du pulsar auraient le même sens",
-      "deconstruction": "Jäh Division, Vince Staples, Raf Simons, les t-shirts mainstream et les détournements graphiques relèvent de régimes différents qu’il faut distinguer.\n",
-      "atomes": [
-        "S60-A008",
-        "S60-A009"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-marchandisation_annule_symbole",
-    "file": "registers/s60_federici_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-marchandisation_annule_symbole",
-      "type_unite": "mythe",
-      "source_id": "S60",
-      "nom": "la marchandisation annulerait toute puissance symbolique",
-      "deconstruction": "Federici invite à traiter la marchandisation comme transformation ambivalente : elle banalise, mais elle prolonge aussi la circulation du signe.\n",
-      "atomes": [
-        "S60-A003",
-        "S60-A014",
-        "S60-A015"
-      ],
-      "chapitres": [
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Burroughs_Ballard_cause_unique",
-    "file": "registers/s54_gnocchi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Burroughs_Ballard_cause_unique",
-      "type_unite": "mythe",
-      "source_id": "S54",
-      "nom": "Burroughs et Ballard expliqueraient seuls Curtis",
-      "deconstruction": "S54 montre des matrices littéraires fortes, mais elles ne remplacent ni le contexte social, ni le son du groupe, ni les sources biographiques, ni les textes mêmes de Curtis.\n",
-      "atomes": [
-        "S54-A001",
-        "S54-A015"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 11"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Curtis_paroles_secondaires",
-    "file": "registers/s54_gnocchi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Curtis_paroles_secondaires",
-      "type_unite": "mythe",
-      "source_id": "S54",
-      "nom": "les paroles de Curtis seraient secondaires",
-      "deconstruction": "L’understatement de Curtis doit être lu comme posture de retenue, non comme preuve que ses textes n’auraient pas d’ambition littéraire.\n",
-      "atomes": [
-        "S54-A003"
-      ],
-      "chapitres": [
-        "Chapitre 4"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Interzone_reference_decorative",
-    "file": "registers/s54_gnocchi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Interzone_reference_decorative",
-      "type_unite": "mythe",
-      "source_id": "S54",
-      "nom": "Interzone serait une simple référence décorative",
-      "deconstruction": "S54 permet de lire Interzone comme espace psychique, zone de passage et désordre des langages, à croiser avec Burroughs et les paroles.\n",
-      "atomes": [
-        "S54-A006"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-lyrics_comme_premonition",
-    "file": "registers/s54_gnocchi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-lyrics_comme_premonition",
-      "type_unite": "mythe",
-      "source_id": "S54",
-      "nom": "les textes de Curtis seraient des prémonitions morbides",
-      "deconstruction": "Les temporalités suspendues de S54 relèvent d’une poétique du temps et de l’attente. Elles ne doivent pas être converties en prophétie rétrospective du suicide.\n",
-      "atomes": [
-        "S54-A010",
-        "S54-A011"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Curtis_confession_pure",
-    "file": "registers/s54_gnocchi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Curtis_confession_pure",
-      "type_unite": "mythe",
-      "source_id": "S54",
-      "nom": "Curtis écrirait seulement une confession biographique",
-      "deconstruction": "S54 déplace Curtis vers une écriture de montage, condensation et images froides : la biographie existe, mais elle est transformée par une culture littéraire et des opérations formelles.\n",
-      "atomes": [
-        "S54-A014",
-        "S54-A015"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
-    "file": "registers/s78_nevarez_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
-      "type_unite": "mythe",
-      "source_id": "S78",
-      "nom": "Joy Division sonnerait naturellement comme Manchester",
-      "deconstruction": "S78 montre que cette évidence est produite par un ensemble de médiations. La ville n’est pas directement audible dans le son ; elle est rendue audible par des cadres d’interprétation.\n",
-      "atomes": [
-        "S78-A001",
-        "S78-A003",
-        "S78-A020"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 3",
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Joy_Division_psychogeographie_intentionnelle",
-    "file": "registers/s78_nevarez_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Joy_Division_psychogeographie_intentionnelle",
-      "type_unite": "mythe",
-      "source_id": "S78",
-      "nom": "Joy Division ferait intentionnellement de la psychogéographie",
-      "deconstruction": "Le milieu Factory et Tony Wilson peuvent porter des références situationnistes, mais Nevarez rappelle que les sources survivantes ne prouvent pas un intérêt explicite du groupe pour le situationnisme.\n",
-      "atomes": [
-        "S78-A008",
-        "S78-A009"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-paroles_comme_document_mancunien",
-    "file": "registers/s78_nevarez_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-paroles_comme_document_mancunien",
-      "type_unite": "mythe",
-      "source_id": "S78",
-      "nom": "les paroles de Curtis documenteraient directement Manchester",
-      "deconstruction": "Curtis ne nomme pas les lieux ou quartiers mancuniens. Les paroles peuvent produire des paysages mentaux, mais leur mancunianité est construite par interprétation.\n",
-      "atomes": [
-        "S78-A006"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-image_comme_preuve_du_lieu",
-    "file": "registers/s78_nevarez_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-image_comme_preuve_du_lieu",
-      "type_unite": "mythe",
-      "source_id": "S78",
-      "nom": "l’image prouverait directement le lieu",
-      "deconstruction": "Les images de Cummins et Corbijn sont puissantes parce qu’elles restent ambiguës : elles ouvrent des projections de lieu, de ville ou de mindscape sans les stabiliser entièrement.\n",
-      "atomes": [
-        "S78-A012"
-      ],
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-ville_comme_essence_musicale",
-    "file": "registers/s78_nevarez_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-ville_comme_essence_musicale",
-      "type_unite": "mythe",
-      "source_id": "S78",
-      "nom": "la ville comme essence musicale",
-      "deconstruction": "La conclusion de Nevarez invite à refuser la réification du lieu. Une ville musicale est un produit social, interprétatif et politique, non une essence immédiatement audible.\n",
-      "atomes": [
-        "S78-A019",
-        "S78-A020"
-      ],
-      "chapitres": [
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-reference_critique_egale_influence",
-    "file": "registers/s55_romania_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-reference_critique_egale_influence",
-      "type_unite": "mythe",
-      "source_id": "S55",
-      "nom": "une référence critique équivaudrait à une influence musicale",
-      "deconstruction": "S55 impose de distinguer influence réelle, comparaison rhétorique, classement critique et légitimation esthétique. Un groupe comparé à Joy Division ne dérive pas nécessairement de Joy Division.\n",
-      "atomes": [
-        "S55-A001",
-        "S55-A004",
-        "S55-A005",
-        "S55-A011"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 9",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
-      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-ondarock_reception_mondiale",
-    "file": "registers/s55_romania_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-ondarock_reception_mondiale",
-      "type_unite": "mythe",
-      "source_id": "S55",
-      "nom": "Ondarock représenterait toute la réception mondiale",
-      "deconstruction": "Le corpus Ondarock donne un observatoire riche mais situé : webzine italienne, rock et indépendante, 2000-2016. Il ne peut pas être généralisé sans croisement.\n",
-      "atomes": [
-        "S55-A002"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
-      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-sacralisation_a_reprendre",
-    "file": "registers/s55_romania_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-sacralisation_a_reprendre",
-      "type_unite": "mythe",
-      "source_id": "S55",
-      "nom": "la sacralisation critique devrait être reprise par le manuscrit",
-      "deconstruction": "Romania permet d’analyser la sacralisation et l’idolâtrie comme objets discursifs. Le manuscrit doit les décrire et les critiquer, non les reconduire.\n",
-      "atomes": [
-        "S55-A007",
-        "S55-A008",
-        "S55-A012"
-      ],
-      "chapitres": [
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
-      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-joydivisionien_explique_tout",
-    "file": "registers/s55_romania_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-joydivisionien_explique_tout",
-      "type_unite": "mythe",
-      "source_id": "S55",
-      "nom": "le terme joydivisionien suffirait à expliquer une musique",
-      "deconstruction": "S55 montre l’efficacité classificatoire du terme, mais aussi ses limites. L’étiquette joydivisionienne ne remplace jamais l’analyse musicale, sociale ou historique du groupe comparé.\n",
-      "atomes": [
-        "S55-A011",
-        "S55-A012"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 9",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
-      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Control_verite_definitive",
-    "file": "registers/s52_rabbito_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Control_verite_definitive",
-      "type_unite": "mythe",
-      "source_id": "S52",
-      "nom": "Control serait la vérité définitive de Curtis",
-      "deconstruction": "S52 montre que Control est une médiation puissante et souvent réussie, mais qu’elle reste à la surface biographique. Le film doit donc être utilisé comme objet de réception, non comme preuve ultime.\n",
-      "atomes": [
-        "S52-A001",
-        "S52-A002",
-        "S52-A004"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Curtis_purement_romantique_timide",
-    "file": "registers/s52_rabbito_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Curtis_purement_romantique_timide",
-      "type_unite": "mythe",
-      "source_id": "S52",
-      "nom": "Curtis serait seulement romantique, timide et souffrant",
-      "deconstruction": "S52 oppose au Curtis filmique un Curtis intimidant, rebelle, frénétique, parfois violent, dont la dualité traverse aussi l’œuvre et la scène.\n",
-      "atomes": [
-        "S52-A008",
-        "S52-A009",
-        "S52-A010",
-        "S52-A012"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-danse_comme_simple_symptome",
-    "file": "registers/s52_rabbito_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-danse_comme_simple_symptome",
-      "type_unite": "mythe",
-      "source_id": "S52",
-      "nom": "l’epilepsy dance serait un simple symptôme",
-      "deconstruction": "S52 rappelle que cette danse existe avant le diagnostic connu. Elle doit être lue comme geste scénique, expression corporelle et symptôme possible, mais jamais comme fait clinique isolé.\n",
-      "atomes": [
-        "S52-A014",
-        "S52-A020"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 12",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-suicide_comme_destin_programme",
-    "file": "registers/s52_rabbito_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-suicide_comme_destin_programme",
-      "type_unite": "mythe",
-      "source_id": "S52",
-      "nom": "le suicide comme destin programmé",
-      "deconstruction": "Les éléments rapportés sur la fascination ancienne pour la mort prématurée ne doivent pas devenir une téléologie. Ils appartiennent à une source sensible et demandent un traitement éthique.\n",
-      "atomes": [
-        "S52-A017",
-        "S52-A019"
-      ],
-      "chapitres": [
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-epilepsie_amour_cause_unique",
-    "file": "registers/s52_rabbito_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-epilepsie_amour_cause_unique",
-      "type_unite": "mythe",
-      "source_id": "S52",
-      "nom": "épilepsie et triangle amoureux comme cause unique",
-      "deconstruction": "S52 propose de déplacer l’analyse vers la coexistence de deux opposés et la lacerazione intérieure, sans nier l’importance de la maladie ni du conflit amoureux.\n",
-      "atomes": [
-        "S52-A018"
-      ],
-      "chapitres": [
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-Manchester_exception_absolue",
-    "file": "registers/s77_worley_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-Manchester_exception_absolue",
-      "type_unite": "mythe",
-      "source_id": "S77",
-      "nom": "Manchester serait une exception fanzine absolue",
-      "deconstruction": "S77 replace Manchester dans un archipel britannique de fanzines. L’intérêt de Manchester n’est pas son isolement, mais sa manière singulière d’activer un dispositif national de médias pauvres et locaux.\n",
-      "atomes": [
-        "S77-A003"
-      ],
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 9",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-punk_pure_authenticite",
-    "file": "registers/s77_worley_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-punk_pure_authenticite",
-      "type_unite": "mythe",
-      "source_id": "S77",
-      "nom": "le punk serait une pure authenticité non marchande",
-      "deconstruction": "Les fanzines témoignent très tôt d’une conscience de la récupération, de la marchandisation, de l’uniforme punk et du star-system. Le punk lutte contre le marché depuis un espace déjà menacé par lui.\n",
-      "atomes": [
-        "S77-A007"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-punk_politiquement_univoque",
-    "file": "registers/s77_worley_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-punk_politiquement_univoque",
-      "type_unite": "mythe",
-      "source_id": "S77",
-      "nom": "le punk aurait une signification politique univoque",
-      "deconstruction": "S77 montre des appropriations concurrentes : antifascisme, gauche organisée, anarchisme, féminisme, extrême droite, anti-communisme et refus des affiliations partisanes.\n",
-      "atomes": [
-        "S77-A010",
-        "S77-A014"
-      ],
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-DIY_simple_technique",
-    "file": "registers/s77_worley_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-DIY_simple_technique",
-      "type_unite": "mythe",
-      "source_id": "S77",
-      "nom": "le DIY serait une simple technique de production",
-      "deconstruction": "Chez Worley, le DIY est un mode de production, mais aussi une politique de l’accès, de l’action, de l’expression et de l’autonomie.\n",
-      "atomes": [
-        "S77-A002",
-        "S77-A014",
-        "S77-A016"
-      ],
-      "chapitres": [
-        "Chapitre 7",
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-fanzines_seulement_musicaux",
-    "file": "registers/s77_worley_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-fanzines_seulement_musicaux",
-      "type_unite": "mythe",
-      "source_id": "S77",
-      "nom": "les fanzines punk seraient seulement musicaux",
-      "deconstruction": "Les fanzines naissent autour de la musique, mais Worley montre qu’ils débordent vers politique, féminisme, antiracisme, anarchisme, critique des médias, littérature et expérimentation intellectuelle.\n",
-      "atomes": [
-        "S77-A008",
-        "S77-A010",
-        "S77-A011",
-        "S77-A013",
-        "S77-A015"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-curtis_seul_createur",
-    "file": "registers/s31_allegri_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-curtis_seul_createur",
-      "type_unite": "mythe",
-      "source_id": "S31",
-      "nom": "Curtis serait le seul créateur de Joy Division",
-      "deconstruction": "S31 impose de traiter le groupe comme entreprise commune, sans effacer Curtis mais sans le rendre seul producteur du sens.\n",
-      "atomes": [
-        "S31-A002",
-        "S31-A003",
-        "S31-A008"
-      ],
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-factory_heros_unifie",
-    "file": "registers/s31_allegri_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-factory_heros_unifie",
-      "type_unite": "mythe",
-      "source_id": "S31",
-      "nom": "Factory serait un héros institutionnel unifié",
-      "deconstruction": "Factory fonctionne comme plateforme hétérogène et coopération située, non comme institution homogène ou récit héroïque simple.\n",
-      "atomes": [
-        "S31-A008",
-        "S31-A010"
-      ],
-      "chapitres": [
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-isolation_solitude_psychologique",
-    "file": "registers/s31_allegri_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-isolation_solitude_psychologique",
-      "type_unite": "mythe",
-      "source_id": "S31",
-      "nom": "l’isolation serait seulement une solitude psychologique",
-      "deconstruction": "S31 montre que l’isolation est aussi technique, sonore, spatiale et collective, notamment chez Hannett.\n",
-      "atomes": [
-        "S31-A011",
-        "S31-A012",
-        "S31-A014"
-      ],
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 11"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-no_future_explication_totale",
-    "file": "registers/s31_allegri_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-no_future_explication_totale",
-      "type_unite": "mythe",
-      "source_id": "S31",
-      "nom": "No Future expliquerait totalement Joy Division",
-      "deconstruction": "No Future doit rester un opérateur historique et théorique à croiser avec les lieux, le son, Factory, Curtis et la production collective.\n",
-      "atomes": [
-        "S31-A005",
-        "S31-A015"
-      ],
-      "chapitres": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-City_Fun_simplement_anti_Factory",
-    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-City_Fun_simplement_anti_Factory",
-      "type_unite": "mythe",
-      "source_id": "S21",
-      "nom": "City Fun serait seulement anti-Factory",
-      "deconstruction": "S21 ne doit pas être réduit à une opposition à Factory. L’exposition peut fournir des items sur Factory, Tony Wilson ou Paul Morley, mais City Fun est aussi un réseau, un médium, un ton, une scène et une culture matérielle.\n",
-      "atomes": [
-        "S21-A006"
-      ],
-      "chapitres": [
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
-      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
-      "source_year": "s.d. / page consultée 2026"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-scene_post_punk_deja_canonisee",
-    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-scene_post_punk_deja_canonisee",
-      "type_unite": "mythe",
-      "source_id": "S21",
-      "nom": "la scène post-punk serait déjà canonisée dans ses sources contemporaines",
-      "deconstruction": "City Fun permet de lire une scène instable, conflictuelle et inachevée. Les hiérarchies qui paraissent évidentes après coup ne le sont pas nécessairement dans les traces contemporaines.\n",
-      "atomes": [
-        "S21-A005"
-      ],
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
-      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
-      "source_year": "s.d. / page consultée 2026"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-archive_numerique_neutre",
-    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-archive_numerique_neutre",
-      "type_unite": "mythe",
-      "source_id": "S21",
-      "nom": "l’archive numérique serait neutre et exhaustive",
-      "deconstruction": "MDMArchive conserve, sélectionne, légende et met en récit. S21 est une médiation archivistique ; elle n’est ni un double complet de City Fun ni une mémoire neutre de la scène.\n",
-      "atomes": [
-        "S21-A001",
-        "S21-A009"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
-      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
-      "source_year": "s.d. / page consultée 2026"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-electronique_possible_seulement_apres_curtis",
-    "file": "registers/s58_ilardi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-electronique_possible_seulement_apres_curtis",
-      "type_unite": "mythe",
-      "source_id": "S58",
-      "nom": "l’électronique de New Order n’aurait été possible qu’après Curtis",
-      "deconstruction": "S58 réintègre Curtis dans un continuum : Kraftwerk, science-fiction, dub, reggae, longues introductions instrumentales et gestuelle robotique.\n",
-      "atomes": [
-        "S58-A014"
-      ],
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
-      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-rave_simple_hedonisme",
-    "file": "registers/s58_ilardi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-rave_simple_hedonisme",
-      "type_unite": "mythe",
-      "source_id": "S58",
-      "nom": "les raves seraient un simple hédonisme apolitique",
-      "deconstruction": "S58 traite les raves comme formes de communauté, espaces autonomes temporaires, réappropriations d’usines et relais collectif d’une culture post-industrielle.\n",
-      "atomes": [
-        "S58-A006",
-        "S58-A009"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
-      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-hacienda_simple_club",
-    "file": "registers/s58_ilardi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-hacienda_simple_club",
-      "type_unite": "mythe",
-      "source_id": "S58",
-      "nom": "l’Haçienda serait seulement un club",
-      "deconstruction": "S58 lit l’Haçienda comme tombeau, laboratoire, espace indéterminé, proto-TAZ et relais matériel de Joy Division / Factory.\n",
-      "atomes": [
-        "S58-A002",
-        "S58-A004",
-        "S58-A009"
-      ],
-      "chapitres": [
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
-      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-joy_division_cause_unique_rave",
-    "file": "registers/s58_ilardi_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-joy_division_cause_unique_rave",
-      "type_unite": "mythe",
-      "source_id": "S58",
-      "nom": "Joy Division serait la cause unique de la rave mancunienne",
-      "deconstruction": "S58 construit un faisceau de médiations : ville post-industrielle, Factory, Hannett, New Order, technologies, club culture et espaces industriels reconvertis.\n",
-      "atomes": [
-        "S58-A005",
-        "S58-A015"
-      ],
-      "chapitres": [
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
-      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-reimagined_archive_origine",
-    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-reimagined_archive_origine",
-      "type_unite": "mythe",
-      "source_id": "S50",
-      "nom": "Unknown Pleasures Reimagined comme archive originelle",
-      "deconstruction": "S50 doit être utilisé comme source sur l’héritage, la patrimonialisation et les réinterprétations contemporaines, non comme archive de la période 1979-1980.\n",
-      "atomes": [
-        "S50-A001",
-        "S50-A002"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
-      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-toute_reinterpretation_est_trahison",
-    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-toute_reinterpretation_est_trahison",
-      "type_unite": "mythe",
-      "source_id": "S50",
-      "nom": "toute réinterprétation serait une trahison",
-      "deconstruction": "S50 distingue les réinventions qui enrichissent les virtualités du texte-chanson et celles qui plaquent un imaginaire extérieur. La critique porte sur la qualité de traduction, non sur le principe même de réinterprétation.\n",
-      "atomes": [
-        "S50-A011",
-        "S50-A012",
-        "S50-A014",
-        "S50-A015"
-      ],
-      "chapitres": [
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
-      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-fans_passifs_heritage",
-    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-fans_passifs_heritage",
-      "type_unite": "mythe",
-      "source_id": "S50",
-      "nom": "les fans seraient de simples récepteurs passifs de l’héritage",
-      "deconstruction": "Les pratiques YouTube, les memes et les commentaires analysés par S50 montrent que les fans participent à la fabrication, à la circulation et au contrôle critique de l’imaginaire Joy Division.\n",
-      "atomes": [
-        "S50-A009",
-        "S50-A018"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
-      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-danse_curtis_purement_epileptique",
-    "file": "registers/s49_farci_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-danse_curtis_purement_epileptique",
-      "type_unite": "mythe",
-      "source_id": "S49",
-      "nom": "la danse de Curtis serait seulement une crise d’épilepsie",
-      "deconstruction": "S49 invite à distinguer fait médical, réception scénique et valeur symbolique. La danse ne peut être réduite ni à une esthétique volontaire pure, ni à un simple symptôme clinique.\n",
-      "atomes": [
-        "S49-A006",
-        "S49-A007",
-        "S49-A010"
-      ],
-      "chapitres": [
-        "Chapitre 12",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
-      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-curtis_sacrifice_legendaire",
-    "file": "registers/s49_farci_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-curtis_sacrifice_legendaire",
-      "type_unite": "mythe",
-      "source_id": "S49",
-      "nom": "Curtis comme sacrifice légendaire",
-      "deconstruction": "La conclusion de Farci refuse de transformer le suicide en sacrifice légendaire ou en conséquence évidente d’une chute dépressive.\n",
-      "atomes": [
-        "S49-A012",
-        "S49-A017"
-      ],
-      "chapitres": [
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
-      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S63-001",
-    "file": "registers/s63_wilson_faustian_structuring_registers.md",
-    "heading": "MYTH-S63-001 — Wilson comme Faust rock 'n' roll",
-    "data": {
-      "id": "MYTH-S63-001",
-      "label": "Wilson comme Faust rock 'n' roll",
-      "source_id": "S63",
-      "atomes_associes": [
-        "S63-A001",
-        "S63-A002",
-        "S63-A007"
-      ],
-      "chapitres": [
-        "Chapitre 3",
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "description": "Tony Wilson est construit — par le film, par la légende Factory, par ses propres écrits — comme une figure faustienne qui a sacrifié sa vie matérielle (il meurt sans pouvoir payer ses médicaments) au nom d'une philosophie culturelle. Jacobson & Jeffrey montrent que ce mythe est à la fois puissant et trompeur : Wilson n'est ni Faust ni Méphisto, mais quelque chose de plus complexe — un artiste qui est aussi exécutif, qui collapse les deux rôles.\n",
-      "note": "À distinguer du mythe de Curtis comme figure tragique : Wilson est une figure comique-tragique, délibérément auto-ironique (cf. la phrase sur l'histoire et l'argent).",
-      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
-      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-joy_division_purement_desespere",
-    "file": "registers/s57_villani_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-joy_division_purement_desespere",
-      "type_unite": "mythe",
-      "source_id": "S57",
-      "nom": "Joy Division serait purement désespéré",
-      "deconstruction": "S57 montre une énergie explosive et une joie de rupture. Le désespoir doit être compris comme défi, non comme pure complaisance sombre.\n",
-      "atomes": [
-        "S57-A006",
-        "S57-A013"
-      ],
-      "chapitres": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
-      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-villani_source_factuelle",
-    "file": "registers/s57_villani_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-villani_source_factuelle",
-      "type_unite": "mythe",
-      "source_id": "S57",
-      "nom": "Villani fournirait une preuve factuelle",
-      "deconstruction": "S57 est une source interprétative et lyrique. Elle doit être utilisée pour la pensée et non pour établir des faits historiques.\n",
-      "atomes": [
-        "S57-A001",
-        "S57-A015"
-      ],
-      "chapitres": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
-      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-blanchot_explique_jd",
-    "file": "registers/s57_villani_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-blanchot_explique_jd",
-      "type_unite": "mythe",
-      "source_id": "S57",
-      "nom": "Blanchot expliquerait directement Joy Division",
-      "deconstruction": "Blanchot fournit une grille d’interprétation chez Villani, pas une causalité ni une influence directe sur Joy Division.\n",
-      "atomes": [
-        "S57-A007",
-        "S57-A008"
-      ],
-      "chapitres": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
-      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-fin_tragique_explique_le_mythe",
-    "file": "registers/s56_barone_structuring_registers.md",
-    "heading": "Motifs et mythes",
-    "data": {
-      "id": "MYTH-fin_tragique_explique_le_mythe",
-      "type_unite": "mythe",
-      "source_id": "S56",
-      "nom": "la fin tragique expliquerait à elle seule le mythe Joy Division",
-      "atomes": [
-        "S56-A003",
-        "S56-A004"
-      ],
-      "chapitres": [
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-curtis_simple_parolier",
-    "file": "registers/s56_barone_structuring_registers.md",
-    "heading": "Motifs et mythes",
-    "data": {
-      "id": "MYTH-curtis_simple_parolier",
-      "type_unite": "mythe",
-      "source_id": "S56",
-      "nom": "Curtis ne serait qu’un parolier rock",
-      "atomes": [
-        "S56-A007",
-        "S56-A014",
-        "S56-A019"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 11"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-influence_litteraire_totale",
-    "file": "registers/s56_barone_structuring_registers.md",
-    "heading": "Motifs et mythes",
-    "data": {
-      "id": "MYTH-influence_litteraire_totale",
-      "type_unite": "mythe",
-      "source_id": "S56",
-      "nom": "chaque rapprochement littéraire serait une influence certaine",
-      "atomes": [
-        "S56-A008",
-        "S56-A010",
-        "S56-A011"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 11"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-mythe_comme_preuve",
-    "file": "registers/s53_la_rocca_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-mythe_comme_preuve",
-      "type_unite": "mythe",
-      "source_id": "S53",
-      "nom": "le mythe comme preuve historique",
-      "deconstruction": "S53 analyse la formation symbolique et affective du mythe Joy Division. Cette puissance imaginale ne prouve pas les faits historiques ; elle explique leur réception et leur transformation culturelle.\n",
-      "atomes": [
-        "S53-A001",
-        "S53-A005",
-        "S53-A016"
-      ],
-      "chapitres": [
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-massification_comme_perte_pure",
-    "file": "registers/s53_la_rocca_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-massification_comme_perte_pure",
-      "type_unite": "mythe",
-      "source_id": "S53",
-      "nom": "la massification détruirait nécessairement le symbole",
-      "deconstruction": "S53 permet de nuancer la critique de la récupération : la poppizzazione peut produire des valeurs mutantes et prolonger la circulation du mythe, même lorsqu’elle banalise le signe.\n",
-      "atomes": [
-        "S53-A006",
-        "S53-A007",
-        "S53-A008"
-      ],
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-manchester_cause_mecanique",
-    "file": "registers/s53_la_rocca_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-manchester_cause_mecanique",
-      "type_unite": "mythe",
-      "source_id": "S53",
-      "nom": "Manchester comme cause mécanique de Joy Division",
-      "deconstruction": "Le genius loci de S53 ne doit pas être transformé en déterminisme urbain. Manchester fournit une atmosphère, un milieu et un régime d’affects, non une cause automatique du son ou du mythe.\n",
-      "atomes": [
-        "S53-A003",
-        "S53-A004"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 13"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-curtis_sacre_par_le_mythe",
-    "file": "registers/s53_la_rocca_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-curtis_sacre_par_le_mythe",
-      "type_unite": "mythe",
-      "source_id": "S53",
-      "nom": "Curtis sacralisé par le mythe",
-      "deconstruction": "S53 aide à comprendre Curtis comme icône et totem, mais cette lecture doit être croisée avec S49 et S52 pour éviter la sacralisation du corps, de la maladie et du suicide.\n",
-      "atomes": [
-        "S53-A011",
-        "S53-A015"
-      ],
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-distance_simple_froideur",
-    "file": "registers/s59_ferrara_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-distance_simple_froideur",
-      "type_unite": "mythe",
-      "source_id": "S59",
-      "nom": "la distance serait seulement de la froideur",
-      "deconstruction": "S59 montre que la distance est une stratégie active de relation : elle crée l’aura, intensifie l’adresse et organise le toucher à distance.\n",
-      "atomes": [
-        "S59-A003",
-        "S59-A012",
-        "S59-A015"
-      ],
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-presence_absente_diagnostic",
-    "file": "registers/s59_ferrara_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-presence_absente_diagnostic",
-      "type_unite": "mythe",
-      "source_id": "S59",
-      "nom": "la présence absente serait un diagnostic clinique",
-      "deconstruction": "La présence absente est une notion esthétique et médiatique. Elle ne doit pas être transformée en diagnostic psychologique ou médical de Curtis.\n",
-      "atomes": [
-        "S59-A008",
-        "S59-A010"
-      ],
-      "chapitres": [
-        "Chapitre 12"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-anti_image_absence_de_strategie",
-    "file": "registers/s59_ferrara_structuring_registers.md",
-    "heading": "Mythes à déconstruire",
-    "data": {
-      "id": "MYTH-anti_image_absence_de_strategie",
-      "type_unite": "mythe",
-      "source_id": "S59",
-      "nom": "l’anti-image serait une absence de stratégie",
-      "deconstruction": "Chez Ferrara, l’anti-image est une stratégie esthétique de retrait qui produit une présence conceptuelle et une aura durable.\n",
-      "atomes": [
-        "S59-A005",
-        "S59-A006"
-      ],
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ],
-      "statut": "a_deconstruire",
-      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S13-001",
-    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
-    "heading": "MYTH-S13-001 — Joy Division proto-rave",
-    "data": {
-      "id": "MYTH-S13-001",
-      "nom": "Joy Division proto-rave",
-      "statut": "mythe_a_deconstruire",
-      "definition": "Lecture téléologique selon laquelle Joy Division annoncerait directement la rave, l’acid house ou la techno. Le passage de Tomeo ne doit pas être utilisé ainsi : il autorise une lecture de seuil, de résonance et de survivance, non une causalité mécanique.\n",
-      "atomes_lies": [
-        "S13-A003",
-        "S13-A008",
-        "S13-A009"
-      ],
-      "concepts_lies": [
-        "CONCEPT-065"
-      ],
-      "risques": [
-        "causalité directe",
-        "effacement de Chicago, Detroit, house et techno",
-        "réduction de New Order à une simple continuation technique"
-      ],
-      "usage_livre": [
-        "Chapitre 7",
-        "Chapitre 8",
-        "Chapitre 14"
-      ]
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S13-002",
-    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
-    "heading": "MYTH-S13-002 — Curtis chaman littéral",
-    "data": {
-      "id": "MYTH-S13-002",
-      "nom": "Curtis chaman littéral",
-      "statut": "mythe_a_nuancer",
-      "definition": "Interprétation qui transforme la métaphore critique du « sciamano moderno » en statut ontologique de Curtis. La figure chamanique n’est recevable que comme outil esthétique pour penser voix, corps, transe et relation au public.\n",
-      "atomes_lies": [
-        "S13-A004"
-      ],
-      "concepts_lies": [
-        "CONCEPT-066"
-      ],
-      "risques": [
-        "esthétisation de la maladie",
-        "sacralisation excessive de Curtis",
-        "confusion entre performance et diagnostic"
-      ],
-      "usage_livre": [
-        "Chapitre 7",
-        "Chapitre 11",
-        "Chapitre 12"
-      ]
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S13-003",
-    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
-    "heading": "MYTH-S13-003 — La rave comme rédemption de Joy Division",
-    "data": {
-      "id": "MYTH-S13-003",
-      "nom": "La rave comme rédemption de Joy Division",
-      "statut": "mythe_a_deconstruire",
-      "definition": "Récit qui ferait de la rave une résolution positive du deuil, du nihilisme ou de l’isolement joydivisionien. Chez Tomeo, la rave fonctionne plutôt comme un horizon provisoire, communautaire et corporel, dont la puissance reste liée à son instabilité.\n",
-      "atomes_lies": [
-        "S13-A002",
-        "S13-A010"
-      ],
-      "concepts_lies": [
-        "CONCEPT-069"
-      ],
-      "risques": [
-        "positivisme naïf",
-        "effacement de la mélancolie post-punk",
-        "simplification de la club culture"
-      ],
-      "usage_livre": [
-        "Chapitre 14"
-      ]
     }
   },
   {
@@ -2419,134 +789,87 @@
   },
   {
     "kind": "myth",
-    "id": "MYTH-S34-001",
-    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
-    "heading": "MYTH-S34-001 — Manchester explique Joy Division",
+    "id": "MYTH-S13-001",
+    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
+    "heading": "MYTH-S13-001 — Joy Division proto-rave",
     "data": {
-      "id": "MYTH-S34-001",
-      "type_unite": "mythe",
-      "nom": "Manchester explique Joy Division",
-      "source_id": "S34",
-      "statut": {
-        "stabilite": "a_deconstruire",
-        "niveau_risque": "eleve"
-      },
-      "definition": "Mythe ou dérive interprétative consistant à transformer la lecture urbaine de Fraser et Fuoto en causalité totale : la ville expliquerait à elle seule le son, les textes, la trajectoire et la postérité du groupe.\n",
-      "fonction_dans_repo": [
-        "protéger l’usage de S34 contre le déterminisme urbain",
-        "croiser S34 avec S29 et S36",
-        "maintenir Manchester comme matrice critique, non cause unique"
-      ],
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 14"
-      ],
+      "id": "MYTH-S13-001",
+      "nom": "Joy Division proto-rave",
+      "statut": "mythe_a_deconstruire",
+      "definition": "Lecture téléologique selon laquelle Joy Division annoncerait directement la rave, l’acid house ou la techno. Le passage de Tomeo ne doit pas être utilisé ainsi : il autorise une lecture de seuil, de résonance et de survivance, non une causalité mécanique.\n",
       "atomes_lies": [
-        "S34-A001",
-        "S34-A011"
+        "S13-A003",
+        "S13-A008",
+        "S13-A009"
       ],
-      "relations": [
-        {
-          "type": "nuance",
-          "cible": "MYTH-003"
-        }
+      "concepts_lies": [
+        "CONCEPT-065"
       ],
       "risques": [
-        "écraser les dimensions musicales, biographiques, poétiques et productives du groupe",
-        "reconduire l’imaginative historicism critiqué par S36"
+        "causalité directe",
+        "effacement de Chicago, Detroit, house et techno",
+        "réduction de New Order à une simple continuation technique"
       ],
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "myth",
-    "id": "MYTH-S34-002",
-    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
-    "heading": "MYTH-S34-002 — Le documentaire Grant Gee comme preuve totale",
-    "data": {
-      "id": "MYTH-S34-002",
-      "type_unite": "mythe",
-      "nom": "Le documentaire Grant Gee comme preuve totale",
-      "source_id": "S34",
-      "statut": {
-        "stabilite": "a_surveillance",
-        "niveau_risque": "moyen"
-      },
-      "definition": "Mythe consistant à traiter le documentaire de Grant Gee comme preuve factuelle directe et complète de l’identité urbaine de Joy Division, alors que S34 l’analyse comme médiation, montage et lecture audiovisuelle.\n",
-      "fonction_dans_repo": [
-        "distinguer archive, montage et interprétation",
-        "empêcher la confusion entre Gee et Fraser/Fuoto",
-        "renforcer les prudences sur les images documentaires"
-      ],
-      "chapitres": [
-        "Chapitre 1",
+      "usage_livre": [
+        "Chapitre 7",
         "Chapitre 8",
         "Chapitre 14"
-      ],
-      "atomes_lies": [
-        "S34-A002",
-        "S34-A006"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "S29-A007"
-        }
-      ],
-      "risques": [
-        "confondre dispositif documentaire et preuve brute",
-        "oublier que le film construit lui-même son récit urbain"
-      ],
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
+      ]
     }
   },
   {
     "kind": "myth",
-    "id": "MYTH-S34-003",
-    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
-    "heading": "MYTH-S34-003 — La chanson urbaine comme simple illustration du décor",
+    "id": "MYTH-S13-002",
+    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
+    "heading": "MYTH-S13-002 — Curtis chaman littéral",
     "data": {
-      "id": "MYTH-S34-003",
-      "type_unite": "mythe",
-      "nom": "La chanson urbaine comme simple illustration du décor",
-      "source_id": "S34",
-      "statut": {
-        "stabilite": "a_deconstruire",
-        "niveau_risque": "moyen"
-      },
-      "definition": "Mythe consistant à lire « Shadowplay », « Interzone » ou « Transmission » comme de simples illustrations de Manchester. S34 propose au contraire une lecture formelle : voix, espace, rythme, séparation instrumentale et danse participent de l’expérience urbaine.\n",
-      "fonction_dans_repo": [
-        "empêcher la réduction thématique des chansons",
-        "favoriser l’analyse formelle et sonore",
-        "relier chapitre 3 et chapitre 13"
-      ],
-      "chapitres": [
-        "Chapitre 3",
-        "Chapitre 13"
-      ],
+      "id": "MYTH-S13-002",
+      "nom": "Curtis chaman littéral",
+      "statut": "mythe_a_nuancer",
+      "definition": "Interprétation qui transforme la métaphore critique du « sciamano moderno » en statut ontologique de Curtis. La figure chamanique n’est recevable que comme outil esthétique pour penser voix, corps, transe et relation au public.\n",
       "atomes_lies": [
-        "S34-A006",
-        "S34-A007",
-        "S34-A008",
-        "S34-A009"
+        "S13-A004"
       ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S34-002"
-        }
+      "concepts_lies": [
+        "CONCEPT-066"
       ],
       "risques": [
-        "privilégier le texte au détriment du son",
-        "réduire l’urbanité à une imagerie grise"
+        "esthétisation de la maladie",
+        "sacralisation excessive de Curtis",
+        "confusion entre performance et diagnostic"
       ],
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
+      "usage_livre": [
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S13-003",
+    "file": "registers/myths/s13_tomeo_myths_interzone_rave_era.md",
+    "heading": "MYTH-S13-003 — La rave comme rédemption de Joy Division",
+    "data": {
+      "id": "MYTH-S13-003",
+      "nom": "La rave comme rédemption de Joy Division",
+      "statut": "mythe_a_deconstruire",
+      "definition": "Récit qui ferait de la rave une résolution positive du deuil, du nihilisme ou de l’isolement joydivisionien. Chez Tomeo, la rave fonctionne plutôt comme un horizon provisoire, communautaire et corporel, dont la puissance reste liée à son instabilité.\n",
+      "atomes_lies": [
+        "S13-A002",
+        "S13-A010"
+      ],
+      "concepts_lies": [
+        "CONCEPT-069"
+      ],
+      "risques": [
+        "positivisme naïf",
+        "effacement de la mélancolie post-punk",
+        "simplification de la club culture"
+      ],
+      "usage_livre": [
+        "Chapitre 14"
+      ]
     }
   },
   {
@@ -2682,6 +1005,138 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-S34-001",
+    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
+    "heading": "MYTH-S34-001 — Manchester explique Joy Division",
+    "data": {
+      "id": "MYTH-S34-001",
+      "type_unite": "mythe",
+      "nom": "Manchester explique Joy Division",
+      "source_id": "S34",
+      "statut": {
+        "stabilite": "a_deconstruire",
+        "niveau_risque": "eleve"
+      },
+      "definition": "Mythe ou dérive interprétative consistant à transformer la lecture urbaine de Fraser et Fuoto en causalité totale : la ville expliquerait à elle seule le son, les textes, la trajectoire et la postérité du groupe.\n",
+      "fonction_dans_repo": [
+        "protéger l’usage de S34 contre le déterminisme urbain",
+        "croiser S34 avec S29 et S36",
+        "maintenir Manchester comme matrice critique, non cause unique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S34-A001",
+        "S34-A011"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-003"
+        }
+      ],
+      "risques": [
+        "écraser les dimensions musicales, biographiques, poétiques et productives du groupe",
+        "reconduire l’imaginative historicism critiqué par S36"
+      ],
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S34-002",
+    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
+    "heading": "MYTH-S34-002 — Le documentaire Grant Gee comme preuve totale",
+    "data": {
+      "id": "MYTH-S34-002",
+      "type_unite": "mythe",
+      "nom": "Le documentaire Grant Gee comme preuve totale",
+      "source_id": "S34",
+      "statut": {
+        "stabilite": "a_surveillance",
+        "niveau_risque": "moyen"
+      },
+      "definition": "Mythe consistant à traiter le documentaire de Grant Gee comme preuve factuelle directe et complète de l’identité urbaine de Joy Division, alors que S34 l’analyse comme médiation, montage et lecture audiovisuelle.\n",
+      "fonction_dans_repo": [
+        "distinguer archive, montage et interprétation",
+        "empêcher la confusion entre Gee et Fraser/Fuoto",
+        "renforcer les prudences sur les images documentaires"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S34-A002",
+        "S34-A006"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S29-A007"
+        }
+      ],
+      "risques": [
+        "confondre dispositif documentaire et preuve brute",
+        "oublier que le film construit lui-même son récit urbain"
+      ],
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S34-003",
+    "file": "registers/myths/s34_fraser_fuoto_myths_part_01.md",
+    "heading": "MYTH-S34-003 — La chanson urbaine comme simple illustration du décor",
+    "data": {
+      "id": "MYTH-S34-003",
+      "type_unite": "mythe",
+      "nom": "La chanson urbaine comme simple illustration du décor",
+      "source_id": "S34",
+      "statut": {
+        "stabilite": "a_deconstruire",
+        "niveau_risque": "moyen"
+      },
+      "definition": "Mythe consistant à lire « Shadowplay », « Interzone » ou « Transmission » comme de simples illustrations de Manchester. S34 propose au contraire une lecture formelle : voix, espace, rythme, séparation instrumentale et danse participent de l’expérience urbaine.\n",
+      "fonction_dans_repo": [
+        "empêcher la réduction thématique des chansons",
+        "favoriser l’analyse formelle et sonore",
+        "relier chapitre 3 et chapitre 13"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "atomes_lies": [
+        "S34-A006",
+        "S34-A007",
+        "S34-A008",
+        "S34-A009"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-S34-002"
+        }
+      ],
+      "risques": [
+        "privilégier le texte au détriment du son",
+        "réduire l’urbanité à une imagerie grise"
+      ],
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",
@@ -2726,6 +1181,1551 @@
           "cible": "MYTH-003"
         }
       ]
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-City_Fun_simplement_anti_Factory",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-City_Fun_simplement_anti_Factory",
+      "type_unite": "mythe",
+      "source_id": "S21",
+      "nom": "City Fun serait seulement anti-Factory",
+      "deconstruction": "S21 ne doit pas être réduit à une opposition à Factory. L’exposition peut fournir des items sur Factory, Tony Wilson ou Paul Morley, mais City Fun est aussi un réseau, un médium, un ton, une scène et une culture matérielle.\n",
+      "atomes": [
+        "S21-A006"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-scene_post_punk_deja_canonisee",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-scene_post_punk_deja_canonisee",
+      "type_unite": "mythe",
+      "source_id": "S21",
+      "nom": "la scène post-punk serait déjà canonisée dans ses sources contemporaines",
+      "deconstruction": "City Fun permet de lire une scène instable, conflictuelle et inachevée. Les hiérarchies qui paraissent évidentes après coup ne le sont pas nécessairement dans les traces contemporaines.\n",
+      "atomes": [
+        "S21-A005"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-archive_numerique_neutre",
+    "file": "registers/s21_mdmarchive_city_fun_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-archive_numerique_neutre",
+      "type_unite": "mythe",
+      "source_id": "S21",
+      "nom": "l’archive numérique serait neutre et exhaustive",
+      "deconstruction": "MDMArchive conserve, sélectionne, légende et met en récit. S21 est une médiation archivistique ; elle n’est ni un double complet de City Fun ni une mémoire neutre de la scène.\n",
+      "atomes": [
+        "S21-A001",
+        "S21-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_seul_createur",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-curtis_seul_createur",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "Curtis serait le seul créateur de Joy Division",
+      "deconstruction": "S31 impose de traiter le groupe comme entreprise commune, sans effacer Curtis mais sans le rendre seul producteur du sens.\n",
+      "atomes": [
+        "S31-A002",
+        "S31-A003",
+        "S31-A008"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-factory_heros_unifie",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-factory_heros_unifie",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "Factory serait un héros institutionnel unifié",
+      "deconstruction": "Factory fonctionne comme plateforme hétérogène et coopération située, non comme institution homogène ou récit héroïque simple.\n",
+      "atomes": [
+        "S31-A008",
+        "S31-A010"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-isolation_solitude_psychologique",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-isolation_solitude_psychologique",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "l’isolation serait seulement une solitude psychologique",
+      "deconstruction": "S31 montre que l’isolation est aussi technique, sonore, spatiale et collective, notamment chez Hannett.\n",
+      "atomes": [
+        "S31-A011",
+        "S31-A012",
+        "S31-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-no_future_explication_totale",
+    "file": "registers/s31_allegri_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-no_future_explication_totale",
+      "type_unite": "mythe",
+      "source_id": "S31",
+      "nom": "No Future expliquerait totalement Joy Division",
+      "deconstruction": "No Future doit rester un opérateur historique et théorique à croiser avec les lieux, le son, Factory, Curtis et la production collective.\n",
+      "atomes": [
+        "S31-A005",
+        "S31-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-danse_curtis_purement_epileptique",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-danse_curtis_purement_epileptique",
+      "type_unite": "mythe",
+      "source_id": "S49",
+      "nom": "la danse de Curtis serait seulement une crise d’épilepsie",
+      "deconstruction": "S49 invite à distinguer fait médical, réception scénique et valeur symbolique. La danse ne peut être réduite ni à une esthétique volontaire pure, ni à un simple symptôme clinique.\n",
+      "atomes": [
+        "S49-A006",
+        "S49-A007",
+        "S49-A010"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_sacrifice_legendaire",
+    "file": "registers/s49_farci_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-curtis_sacrifice_legendaire",
+      "type_unite": "mythe",
+      "source_id": "S49",
+      "nom": "Curtis comme sacrifice légendaire",
+      "deconstruction": "La conclusion de Farci refuse de transformer le suicide en sacrifice légendaire ou en conséquence évidente d’une chute dépressive.\n",
+      "atomes": [
+        "S49-A012",
+        "S49-A017"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
+      "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-reimagined_archive_origine",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-reimagined_archive_origine",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "Unknown Pleasures Reimagined comme archive originelle",
+      "deconstruction": "S50 doit être utilisé comme source sur l’héritage, la patrimonialisation et les réinterprétations contemporaines, non comme archive de la période 1979-1980.\n",
+      "atomes": [
+        "S50-A001",
+        "S50-A002"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-toute_reinterpretation_est_trahison",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-toute_reinterpretation_est_trahison",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "toute réinterprétation serait une trahison",
+      "deconstruction": "S50 distingue les réinventions qui enrichissent les virtualités du texte-chanson et celles qui plaquent un imaginaire extérieur. La critique porte sur la qualité de traduction, non sur le principe même de réinterprétation.\n",
+      "atomes": [
+        "S50-A011",
+        "S50-A012",
+        "S50-A014",
+        "S50-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-fans_passifs_heritage",
+    "file": "registers/s50_bertetti_morreale_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-fans_passifs_heritage",
+      "type_unite": "mythe",
+      "source_id": "S50",
+      "nom": "les fans seraient de simples récepteurs passifs de l’héritage",
+      "deconstruction": "Les pratiques YouTube, les memes et les commentaires analysés par S50 montrent que les fans participent à la fabrication, à la circulation et au contrôle critique de l’imaginaire Joy Division.\n",
+      "atomes": [
+        "S50-A009",
+        "S50-A018"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
+      "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-image_lofi_preuve_brute",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-image_lofi_preuve_brute",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "l’image lo-fi comme preuve brute",
+      "deconstruction": "S51 montre que l’image lo-fi est une archive remédiée, dégradée, recopiée et réinterprétée. Elle doit être croisée avant tout usage événementiel.\n",
+      "atomes": [
+        "S51-A001",
+        "S51-A002",
+        "S51-A004"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-haute_definition_superiorite",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-haute_definition_superiorite",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "la haute définition serait toujours supérieure",
+      "deconstruction": "Avec Steyerl, S51 montre que certaines images pauvres pénètrent mieux l’imaginaire collectif parce qu’elles circulent, se transforment et appellent un effort de regard.\n",
+      "atomes": [
+        "S51-A006",
+        "S51-A009",
+        "S51-A015"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-lofi_simple_nostalgie",
+    "file": "registers/s51_malvezzi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-lofi_simple_nostalgie",
+      "type_unite": "mythe",
+      "source_id": "S51",
+      "nom": "le lo-fi ne serait qu’une nostalgie esthétique",
+      "deconstruction": "S51 relie le lo-fi à la matérialité des supports, aux pratiques DIY, aux copies, au web et à l’impermanence du sujet social représenté, non à une simple nostalgie décorative.\n",
+      "atomes": [
+        "S51-A007",
+        "S51-A008",
+        "S51-A012"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Control_verite_definitive",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Control_verite_definitive",
+      "type_unite": "mythe",
+      "source_id": "S52",
+      "nom": "Control serait la vérité définitive de Curtis",
+      "deconstruction": "S52 montre que Control est une médiation puissante et souvent réussie, mais qu’elle reste à la surface biographique. Le film doit donc être utilisé comme objet de réception, non comme preuve ultime.\n",
+      "atomes": [
+        "S52-A001",
+        "S52-A002",
+        "S52-A004"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Curtis_purement_romantique_timide",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Curtis_purement_romantique_timide",
+      "type_unite": "mythe",
+      "source_id": "S52",
+      "nom": "Curtis serait seulement romantique, timide et souffrant",
+      "deconstruction": "S52 oppose au Curtis filmique un Curtis intimidant, rebelle, frénétique, parfois violent, dont la dualité traverse aussi l’œuvre et la scène.\n",
+      "atomes": [
+        "S52-A008",
+        "S52-A009",
+        "S52-A010",
+        "S52-A012"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-danse_comme_simple_symptome",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-danse_comme_simple_symptome",
+      "type_unite": "mythe",
+      "source_id": "S52",
+      "nom": "l’epilepsy dance serait un simple symptôme",
+      "deconstruction": "S52 rappelle que cette danse existe avant le diagnostic connu. Elle doit être lue comme geste scénique, expression corporelle et symptôme possible, mais jamais comme fait clinique isolé.\n",
+      "atomes": [
+        "S52-A014",
+        "S52-A020"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-suicide_comme_destin_programme",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-suicide_comme_destin_programme",
+      "type_unite": "mythe",
+      "source_id": "S52",
+      "nom": "le suicide comme destin programmé",
+      "deconstruction": "Les éléments rapportés sur la fascination ancienne pour la mort prématurée ne doivent pas devenir une téléologie. Ils appartiennent à une source sensible et demandent un traitement éthique.\n",
+      "atomes": [
+        "S52-A017",
+        "S52-A019"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-epilepsie_amour_cause_unique",
+    "file": "registers/s52_rabbito_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-epilepsie_amour_cause_unique",
+      "type_unite": "mythe",
+      "source_id": "S52",
+      "nom": "épilepsie et triangle amoureux comme cause unique",
+      "deconstruction": "S52 propose de déplacer l’analyse vers la coexistence de deux opposés et la lacerazione intérieure, sans nier l’importance de la maladie ni du conflit amoureux.\n",
+      "atomes": [
+        "S52-A018"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-mythe_comme_preuve",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-mythe_comme_preuve",
+      "type_unite": "mythe",
+      "source_id": "S53",
+      "nom": "le mythe comme preuve historique",
+      "deconstruction": "S53 analyse la formation symbolique et affective du mythe Joy Division. Cette puissance imaginale ne prouve pas les faits historiques ; elle explique leur réception et leur transformation culturelle.\n",
+      "atomes": [
+        "S53-A001",
+        "S53-A005",
+        "S53-A016"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-massification_comme_perte_pure",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-massification_comme_perte_pure",
+      "type_unite": "mythe",
+      "source_id": "S53",
+      "nom": "la massification détruirait nécessairement le symbole",
+      "deconstruction": "S53 permet de nuancer la critique de la récupération : la poppizzazione peut produire des valeurs mutantes et prolonger la circulation du mythe, même lorsqu’elle banalise le signe.\n",
+      "atomes": [
+        "S53-A006",
+        "S53-A007",
+        "S53-A008"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-manchester_cause_mecanique",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-manchester_cause_mecanique",
+      "type_unite": "mythe",
+      "source_id": "S53",
+      "nom": "Manchester comme cause mécanique de Joy Division",
+      "deconstruction": "Le genius loci de S53 ne doit pas être transformé en déterminisme urbain. Manchester fournit une atmosphère, un milieu et un régime d’affects, non une cause automatique du son ou du mythe.\n",
+      "atomes": [
+        "S53-A003",
+        "S53-A004"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_sacre_par_le_mythe",
+    "file": "registers/s53_la_rocca_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-curtis_sacre_par_le_mythe",
+      "type_unite": "mythe",
+      "source_id": "S53",
+      "nom": "Curtis sacralisé par le mythe",
+      "deconstruction": "S53 aide à comprendre Curtis comme icône et totem, mais cette lecture doit être croisée avec S49 et S52 pour éviter la sacralisation du corps, de la maladie et du suicide.\n",
+      "atomes": [
+        "S53-A011",
+        "S53-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Burroughs_Ballard_cause_unique",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Burroughs_Ballard_cause_unique",
+      "type_unite": "mythe",
+      "source_id": "S54",
+      "nom": "Burroughs et Ballard expliqueraient seuls Curtis",
+      "deconstruction": "S54 montre des matrices littéraires fortes, mais elles ne remplacent ni le contexte social, ni le son du groupe, ni les sources biographiques, ni les textes mêmes de Curtis.\n",
+      "atomes": [
+        "S54-A001",
+        "S54-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Curtis_paroles_secondaires",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Curtis_paroles_secondaires",
+      "type_unite": "mythe",
+      "source_id": "S54",
+      "nom": "les paroles de Curtis seraient secondaires",
+      "deconstruction": "L’understatement de Curtis doit être lu comme posture de retenue, non comme preuve que ses textes n’auraient pas d’ambition littéraire.\n",
+      "atomes": [
+        "S54-A003"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Interzone_reference_decorative",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Interzone_reference_decorative",
+      "type_unite": "mythe",
+      "source_id": "S54",
+      "nom": "Interzone serait une simple référence décorative",
+      "deconstruction": "S54 permet de lire Interzone comme espace psychique, zone de passage et désordre des langages, à croiser avec Burroughs et les paroles.\n",
+      "atomes": [
+        "S54-A006"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-lyrics_comme_premonition",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-lyrics_comme_premonition",
+      "type_unite": "mythe",
+      "source_id": "S54",
+      "nom": "les textes de Curtis seraient des prémonitions morbides",
+      "deconstruction": "Les temporalités suspendues de S54 relèvent d’une poétique du temps et de l’attente. Elles ne doivent pas être converties en prophétie rétrospective du suicide.\n",
+      "atomes": [
+        "S54-A010",
+        "S54-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Curtis_confession_pure",
+    "file": "registers/s54_gnocchi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Curtis_confession_pure",
+      "type_unite": "mythe",
+      "source_id": "S54",
+      "nom": "Curtis écrirait seulement une confession biographique",
+      "deconstruction": "S54 déplace Curtis vers une écriture de montage, condensation et images froides : la biographie existe, mais elle est transformée par une culture littéraire et des opérations formelles.\n",
+      "atomes": [
+        "S54-A014",
+        "S54-A015"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_short_title": "Alessandro Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-reference_critique_egale_influence",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-reference_critique_egale_influence",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "une référence critique équivaudrait à une influence musicale",
+      "deconstruction": "S55 impose de distinguer influence réelle, comparaison rhétorique, classement critique et légitimation esthétique. Un groupe comparé à Joy Division ne dérive pas nécessairement de Joy Division.\n",
+      "atomes": [
+        "S55-A001",
+        "S55-A004",
+        "S55-A005",
+        "S55-A011"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-ondarock_reception_mondiale",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-ondarock_reception_mondiale",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "Ondarock représenterait toute la réception mondiale",
+      "deconstruction": "Le corpus Ondarock donne un observatoire riche mais situé : webzine italienne, rock et indépendante, 2000-2016. Il ne peut pas être généralisé sans croisement.\n",
+      "atomes": [
+        "S55-A002"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-sacralisation_a_reprendre",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-sacralisation_a_reprendre",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "la sacralisation critique devrait être reprise par le manuscrit",
+      "deconstruction": "Romania permet d’analyser la sacralisation et l’idolâtrie comme objets discursifs. Le manuscrit doit les décrire et les critiquer, non les reconduire.\n",
+      "atomes": [
+        "S55-A007",
+        "S55-A008",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-joydivisionien_explique_tout",
+    "file": "registers/s55_romania_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joydivisionien_explique_tout",
+      "type_unite": "mythe",
+      "source_id": "S55",
+      "nom": "le terme joydivisionien suffirait à expliquer une musique",
+      "deconstruction": "S55 montre l’efficacité classificatoire du terme, mais aussi ses limites. L’étiquette joydivisionienne ne remplace jamais l’analyse musicale, sociale ou historique du groupe comparé.\n",
+      "atomes": [
+        "S55-A011",
+        "S55-A012"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021",
+      "source_short_title": "Vincenzo Romania, A guide to come: i Joy Division come universo simbolico. Una ricerca sulle recensioni musicali, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-fin_tragique_explique_le_mythe",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-fin_tragique_explique_le_mythe",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "la fin tragique expliquerait à elle seule le mythe Joy Division",
+      "atomes": [
+        "S56-A003",
+        "S56-A004"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-curtis_simple_parolier",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-curtis_simple_parolier",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "Curtis ne serait qu’un parolier rock",
+      "atomes": [
+        "S56-A007",
+        "S56-A014",
+        "S56-A019"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-influence_litteraire_totale",
+    "file": "registers/s56_barone_structuring_registers.md",
+    "heading": "Motifs et mythes",
+    "data": {
+      "id": "MYTH-influence_litteraire_totale",
+      "type_unite": "mythe",
+      "source_id": "S56",
+      "nom": "chaque rapprochement littéraire serait une influence certaine",
+      "atomes": [
+        "S56-A008",
+        "S56-A010",
+        "S56-A011"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-joy_division_purement_desespere",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joy_division_purement_desespere",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Joy Division serait purement désespéré",
+      "deconstruction": "S57 montre une énergie explosive et une joie de rupture. Le désespoir doit être compris comme défi, non comme pure complaisance sombre.\n",
+      "atomes": [
+        "S57-A006",
+        "S57-A013"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-villani_source_factuelle",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-villani_source_factuelle",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Villani fournirait une preuve factuelle",
+      "deconstruction": "S57 est une source interprétative et lyrique. Elle doit être utilisée pour la pensée et non pour établir des faits historiques.\n",
+      "atomes": [
+        "S57-A001",
+        "S57-A015"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-blanchot_explique_jd",
+    "file": "registers/s57_villani_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-blanchot_explique_jd",
+      "type_unite": "mythe",
+      "source_id": "S57",
+      "nom": "Blanchot expliquerait directement Joy Division",
+      "deconstruction": "Blanchot fournit une grille d’interprétation chez Villani, pas une causalité ni une influence directe sur Joy Division.\n",
+      "atomes": [
+        "S57-A007",
+        "S57-A008"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
+      "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-electronique_possible_seulement_apres_curtis",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-electronique_possible_seulement_apres_curtis",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "l’électronique de New Order n’aurait été possible qu’après Curtis",
+      "deconstruction": "S58 réintègre Curtis dans un continuum : Kraftwerk, science-fiction, dub, reggae, longues introductions instrumentales et gestuelle robotique.\n",
+      "atomes": [
+        "S58-A014"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-rave_simple_hedonisme",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-rave_simple_hedonisme",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "les raves seraient un simple hédonisme apolitique",
+      "deconstruction": "S58 traite les raves comme formes de communauté, espaces autonomes temporaires, réappropriations d’usines et relais collectif d’une culture post-industrielle.\n",
+      "atomes": [
+        "S58-A006",
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-hacienda_simple_club",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-hacienda_simple_club",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "l’Haçienda serait seulement un club",
+      "deconstruction": "S58 lit l’Haçienda comme tombeau, laboratoire, espace indéterminé, proto-TAZ et relais matériel de Joy Division / Factory.\n",
+      "atomes": [
+        "S58-A002",
+        "S58-A004",
+        "S58-A009"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-joy_division_cause_unique_rave",
+    "file": "registers/s58_ilardi_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-joy_division_cause_unique_rave",
+      "type_unite": "mythe",
+      "source_id": "S58",
+      "nom": "Joy Division serait la cause unique de la rave mancunienne",
+      "deconstruction": "S58 construit un faisceau de médiations : ville post-industrielle, Factory, Hannett, New Order, technologies, club culture et espaces industriels reconvertis.\n",
+      "atomes": [
+        "S58-A005",
+        "S58-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S58 — Ilardi, Ian Curtis is not dead, 2021",
+      "source_short_title": "Emiliano Ilardi, Ian Curtis is not dead. Dalla Factory Records ai rave nelle factories, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-distance_simple_froideur",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-distance_simple_froideur",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "la distance serait seulement de la froideur",
+      "deconstruction": "S59 montre que la distance est une stratégie active de relation : elle crée l’aura, intensifie l’adresse et organise le toucher à distance.\n",
+      "atomes": [
+        "S59-A003",
+        "S59-A012",
+        "S59-A015"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-presence_absente_diagnostic",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-presence_absente_diagnostic",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "la présence absente serait un diagnostic clinique",
+      "deconstruction": "La présence absente est une notion esthétique et médiatique. Elle ne doit pas être transformée en diagnostic psychologique ou médical de Curtis.\n",
+      "atomes": [
+        "S59-A008",
+        "S59-A010"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-anti_image_absence_de_strategie",
+    "file": "registers/s59_ferrara_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-anti_image_absence_de_strategie",
+      "type_unite": "mythe",
+      "source_id": "S59",
+      "nom": "l’anti-image serait une absence de stratégie",
+      "deconstruction": "Chez Ferrara, l’anti-image est une stratégie esthétique de retrait qui produit une présence conceptuelle et une aura durable.\n",
+      "atomes": [
+        "S59-A005",
+        "S59-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S59 — Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_short_title": "Francesca Ferrara, Joy Division: una poetica della distanza, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-tshirt_trahison_commerciale_simple",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-tshirt_trahison_commerciale_simple",
+      "type_unite": "mythe",
+      "source_id": "S60",
+      "nom": "le t-shirt Unknown Pleasures serait seulement une trahison commerciale",
+      "deconstruction": "S60 montre que le t-shirt est à la fois marchandise, expérience portée, signe d’identité, mémoire sociale mobile et support d’appropriation.\n",
+      "atomes": [
+        "S60-A003",
+        "S60-A011",
+        "S60-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-pulsar_detache_de_la_musique",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-pulsar_detache_de_la_musique",
+      "type_unite": "mythe",
+      "source_id": "S60",
+      "nom": "le pulsar ne serait plus lié à la musique",
+      "deconstruction": "Même diffusé comme motif textile, le pulsar reste relié à des pratiques d’écoute, de mémoire, de performance et de cartographie sociale des sons.\n",
+      "atomes": [
+        "S60-A005",
+        "S60-A010",
+        "S60-A015"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-reemplois_equivalents",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-reemplois_equivalents",
+      "type_unite": "mythe",
+      "source_id": "S60",
+      "nom": "tous les réemplois du pulsar auraient le même sens",
+      "deconstruction": "Jäh Division, Vince Staples, Raf Simons, les t-shirts mainstream et les détournements graphiques relèvent de régimes différents qu’il faut distinguer.\n",
+      "atomes": [
+        "S60-A008",
+        "S60-A009"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-marchandisation_annule_symbole",
+    "file": "registers/s60_federici_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-marchandisation_annule_symbole",
+      "type_unite": "mythe",
+      "source_id": "S60",
+      "nom": "la marchandisation annulerait toute puissance symbolique",
+      "deconstruction": "Federici invite à traiter la marchandisation comme transformation ambivalente : elle banalise, mais elle prolonge aussi la circulation du signe.\n",
+      "atomes": [
+        "S60-A003",
+        "S60-A014",
+        "S60-A015"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S63-001",
+    "file": "registers/s63_wilson_faustian_structuring_registers.md",
+    "heading": "MYTH-S63-001 — Wilson comme Faust rock 'n' roll",
+    "data": {
+      "id": "MYTH-S63-001",
+      "label": "Wilson comme Faust rock 'n' roll",
+      "source_id": "S63",
+      "atomes_associes": [
+        "S63-A001",
+        "S63-A002",
+        "S63-A007"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "description": "Tony Wilson est construit — par le film, par la légende Factory, par ses propres écrits — comme une figure faustienne qui a sacrifié sa vie matérielle (il meurt sans pouvoir payer ses médicaments) au nom d'une philosophie culturelle. Jacobson & Jeffrey montrent que ce mythe est à la fois puissant et trompeur : Wilson n'est ni Faust ni Méphisto, mais quelque chose de plus complexe — un artiste qui est aussi exécutif, qui collapse les deux rôles.\n",
+      "note": "À distinguer du mythe de Curtis comme figure tragique : Wilson est une figure comique-tragique, délibérément auto-ironique (cf. la phrase sur l'histoire et l'argent).",
+      "source_label": "S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018",
+      "source_short_title": "Dan Jacobson, Ian Jeffrey, Tony Wilson's Bloody Contract: A Re-enactment of the Faustian Bargain, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Manchester_exception_absolue",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Manchester_exception_absolue",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "Manchester serait une exception fanzine absolue",
+      "deconstruction": "S77 replace Manchester dans un archipel britannique de fanzines. L’intérêt de Manchester n’est pas son isolement, mais sa manière singulière d’activer un dispositif national de médias pauvres et locaux.\n",
+      "atomes": [
+        "S77-A003"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-punk_pure_authenticite",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-punk_pure_authenticite",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le punk serait une pure authenticité non marchande",
+      "deconstruction": "Les fanzines témoignent très tôt d’une conscience de la récupération, de la marchandisation, de l’uniforme punk et du star-system. Le punk lutte contre le marché depuis un espace déjà menacé par lui.\n",
+      "atomes": [
+        "S77-A007"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-punk_politiquement_univoque",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-punk_politiquement_univoque",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le punk aurait une signification politique univoque",
+      "deconstruction": "S77 montre des appropriations concurrentes : antifascisme, gauche organisée, anarchisme, féminisme, extrême droite, anti-communisme et refus des affiliations partisanes.\n",
+      "atomes": [
+        "S77-A010",
+        "S77-A014"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-DIY_simple_technique",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-DIY_simple_technique",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "le DIY serait une simple technique de production",
+      "deconstruction": "Chez Worley, le DIY est un mode de production, mais aussi une politique de l’accès, de l’action, de l’expression et de l’autonomie.\n",
+      "atomes": [
+        "S77-A002",
+        "S77-A014",
+        "S77-A016"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-fanzines_seulement_musicaux",
+    "file": "registers/s77_worley_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-fanzines_seulement_musicaux",
+      "type_unite": "mythe",
+      "source_id": "S77",
+      "nom": "les fanzines punk seraient seulement musicaux",
+      "deconstruction": "Les fanzines naissent autour de la musique, mais Worley montre qu’ils débordent vers politique, féminisme, antiracisme, anarchisme, critique des médias, littérature et expérimentation intellectuelle.\n",
+      "atomes": [
+        "S77-A008",
+        "S77-A010",
+        "S77-A011",
+        "S77-A013",
+        "S77-A015"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Joy_Division_sonne_naturellement_comme_Manchester",
+      "type_unite": "mythe",
+      "source_id": "S78",
+      "nom": "Joy Division sonnerait naturellement comme Manchester",
+      "deconstruction": "S78 montre que cette évidence est produite par un ensemble de médiations. La ville n’est pas directement audible dans le son ; elle est rendue audible par des cadres d’interprétation.\n",
+      "atomes": [
+        "S78-A001",
+        "S78-A003",
+        "S78-A020"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-Joy_Division_psychogeographie_intentionnelle",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-Joy_Division_psychogeographie_intentionnelle",
+      "type_unite": "mythe",
+      "source_id": "S78",
+      "nom": "Joy Division ferait intentionnellement de la psychogéographie",
+      "deconstruction": "Le milieu Factory et Tony Wilson peuvent porter des références situationnistes, mais Nevarez rappelle que les sources survivantes ne prouvent pas un intérêt explicite du groupe pour le situationnisme.\n",
+      "atomes": [
+        "S78-A008",
+        "S78-A009"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-paroles_comme_document_mancunien",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-paroles_comme_document_mancunien",
+      "type_unite": "mythe",
+      "source_id": "S78",
+      "nom": "les paroles de Curtis documenteraient directement Manchester",
+      "deconstruction": "Curtis ne nomme pas les lieux ou quartiers mancuniens. Les paroles peuvent produire des paysages mentaux, mais leur mancunianité est construite par interprétation.\n",
+      "atomes": [
+        "S78-A006"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-image_comme_preuve_du_lieu",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-image_comme_preuve_du_lieu",
+      "type_unite": "mythe",
+      "source_id": "S78",
+      "nom": "l’image prouverait directement le lieu",
+      "deconstruction": "Les images de Cummins et Corbijn sont puissantes parce qu’elles restent ambiguës : elles ouvrent des projections de lieu, de ville ou de mindscape sans les stabiliser entièrement.\n",
+      "atomes": [
+        "S78-A012"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-ville_comme_essence_musicale",
+    "file": "registers/s78_nevarez_structuring_registers.md",
+    "heading": "Mythes à déconstruire",
+    "data": {
+      "id": "MYTH-ville_comme_essence_musicale",
+      "type_unite": "mythe",
+      "source_id": "S78",
+      "nom": "la ville comme essence musicale",
+      "deconstruction": "La conclusion de Nevarez invite à refuser la réification du lieu. Une ville musicale est un produit social, interprétatif et politique, non une essence immédiatement audible.\n",
+      "atomes": [
+        "S78-A019",
+        "S78-A020"
+      ],
+      "chapitres": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "a_deconstruire",
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
     }
   }
 ]

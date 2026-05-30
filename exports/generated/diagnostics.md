@@ -1,6 +1,6 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-30T06:02:57`
+Généré le : `2026-05-30T11:44:04`
 
 Statut : **warning**
 
@@ -64,104 +64,104 @@ Aucun.
 
 ## Problèmes YAML / schéma
 
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: concepts
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for statut: integration_directe
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for fiabilite: forte, mais témoignage rétrospectif à croiser
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2] : Invalid value for type_unite: source_part
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A026] : Invalid value for type_unite: transition_artistique
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A027] : Invalid value for type_unite: analyse_morceau
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A028] : Invalid value for type_unite: session_studio
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A029] : Invalid value for type_unite: production_album
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A030] : Invalid value for type_unite: crise_creative
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: motifs
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Missing required field: concepts_derives
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Invalid value for fiabilite: source_primaire_retrospective
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A031] : Invalid value for type_unite: transition_morceaux
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: auteur
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: titre
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: role_argumentatif
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: niveau_preuve
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: stabilite
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: importance
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: risque_surinterpretation
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_interchapitres
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: liens_citations
-- **WARNING** `sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md` [S10-A032] : Missing required field: motifs
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-001] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-002] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-003] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-004] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-005] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-006] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-007] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-008] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-009] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-010] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-011] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-012] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-013] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-014] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/relations_s31.md` [REL-S31-015] : Unable to infer documentary kind
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Invalid value for type_unite: prudence_methodologique
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Invalid value for type_unite: concept_structurant
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A003] : Invalid value for type_unite: concept_structurant
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A004] : Invalid value for type_unite: geographie_sociale
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A005] : Invalid value for type_unite: matrice_politique
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A006] : Invalid value for type_unite: contexte_socio_politique
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A007] : Invalid value for type_unite: infrastructure_culturelle
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: fiabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: stabilite
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: risque_surinterpretation
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: liens_interchapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Missing required field: liens_citations
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A008] : Invalid value for type_unite: organisation_culturelle
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: auteur
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: concepts
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: chapitres
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
 - … 29847 problèmes supplémentaires dans `diagnostics.json`.

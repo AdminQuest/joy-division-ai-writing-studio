@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T11:44:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -362,98 +362,80 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 7. Citations disponibles
 
-- **S47-Q001** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « This band is busy doing the groundwork for the music of the eighties. »
-- **S47-Q004** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « It took The Doors just over a year to follow up a remarkable LP with their masterpiece Strange Days; Joy Division have done the same. »
-- **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
-- **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S47-Q001** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « This band is busy doing the groundwork for the music of the eighties. »
+- **S47-Q004** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « It took The Doors just over a year to follow up a remarkable LP with their masterpiece Strange Days; Joy Division have done the same. »
+- **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
-- CHR-S83-003 — CHR-S83-003 — 1977 : Hannett voit Joy Division à Salford Technical School
-- CHR-S83-004 — CHR-S83-004 — Avril 1980 : clip LWTUA à T.J. Davidson's studio, Little Peter Street
-- CHR-S78-1978-09-20-001 — Apparition de Joy Division dans What’s On, Granada TV, avec projection d’images urbaines pendant Shadowplay.
-- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
-- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
+- CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
+- CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
+- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
+- CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
+- CHR-S34-1979-001 — S34 mobilise *Unknown Pleasures* comme forme spatiale : faces Inside / Outside, espace sonore, séparation instrumentale et ville intérieure.
+- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
 - CHR-S75-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
-- CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
-- CHR-S34-1979-001 — S34 mobilise *Unknown Pleasures* comme forme spatiale : faces Inside / Outside, espace sonore, séparation instrumentale et ville intérieure.
-- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
+- CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
+- CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
+- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
 - CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
-- CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
-- CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
-- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
-- CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
-- CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
 - CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
 - CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
 - CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
+- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
+- CHR-S78-1978-09-20-001 — Apparition de Joy Division dans What’s On, Granada TV, avec projection d’images urbaines pendant Shadowplay.
+- CHR-S83-003 — CHR-S83-003 — 1977 : Hannett voit Joy Division à Salford Technical School
+- CHR-S83-004 — CHR-S83-004 — Avril 1980 : clip LWTUA à T.J. Davidson's studio, Little Peter Street
 
 ## 9. Personnes et acteurs
 
 | ID | Nom | Description |
 |---|---|---|
-| PERS-S53-009 | Arthur Schopenhauer | Référence philosophique sur la musique et le monde, mobilisée par La Rocca. |
-| PERS-S53-010 | Friedrich Nietzsche | Référence philosophique sur musique, puissance et tragique, mobilisée par La Rocca. |
-| PERS-S78-001 | Leonard Nevarez | Auteur de S78 ; analyse le mythe Manchester / Joy Division, l’écoute située et la ville néolibérale. |
-| PERS-S78-002 | Liz Naylor | Zine editor citée via Grant Gee ; formule Joy Division comme musique ambiante de l’environnement mancunien. |
-| PERS-S76-073 | Tony Wilson | ["cofondateur Factory", "témoin du Lyceum", "médiateur vocal indirect pour « Love Will Tear Us Apart » via Sinatra"] |
-| PERS-S76-072 | Martin Hannett | ["producteur de la première version Pennine de « Love Will Tear Us Apart » selon S76", "producteur lié aux sessions de transition de janvier 1980"] |
 | PERS-002 | Peter Hook | ["musicien", "bassiste", "témoin", "mémorialiste"] |
 | PERS-003 | Bernard Sumner | ["musicien", "guitariste", "témoin"] |
 | PERS-004 | Stephen Paul David Morris | ["musicien", "batteur", "témoin"] |
 | PERS-008 | James Martin Hannett | ["producteur", "ingénieur sonore", "expérimentateur"] |
 | PERS-012 | John Brierley | ["ingénieur du son", "producteur"] |
-| PERS-S76-042 | Jeremy Kerr | ["membre de A Certain Ratio", "témoin d’un concert de Joy Division au Band On The Wall"] |
-| PERS-S75-026 | Stephen Morris | ["batteur de Joy Division", "opérateur rythmique du son Hannett"] |
-| PERS-S75-027 | Vini Reilly | ["musicien de The Durutti Column", "témoin technique de l'usage du delay"] |
 | PERS-S29-001 | Michael Goddard | Auteur du chapitre « Missions of Dead Souls » ; source critique hauntologique. |
-| PERS-S75-019 | John Anderson | ["producteur", "responsable Grapevine", "intermédiaire industriel"] |
-| PERS-S75-020 | Bob Auger | ["producteur", "ingénieur / superviseur studio"] |
-| PERS-S75-021 | John Peel | ["DJ radio", "médiateur national"] |
-| PERS-S75-022 | Martin Rushent | ["producteur", "entrepreneur de production"] |
-| PERS-S75-025 | T.J. Davidson | ["propriétaire / acteur local", "fournisseur d'espace de répétition"] |
-| PERS-013 | Chris Ott | ["critique", "auteur", "essayiste"] |
-| PERS-004-S75 | Stephen Paul David Morris | ["musicien", "batteur", "catalyseur formel"] |
-| PERS-S76-069 | Martin Hannett | ["producteur", "architecte sonore des sessions Cargo / Sordide"] |
-| PERS-S76-058 | Martin Rushent | ["producteur", "fondateur / acteur de Genetic Records", "producteur potentiel alternatif pour Joy Division"] |
 | PERS-S34-001 | Benjamin Fraser | Co-auteur de l’article ; spécialiste des croisements entre urban studies, musique, film et littérature. |
 | PERS-S34-002 | Abby Fuoto | Co-autrice de l’article ; apporte une connaissance de Joy Division et New Order dans une perspective critique. |
 | PERS-S34-006 | Henri Lefebvre | Théoricien de la ville, de l’urban alienation et de la production de l’espace mobilisé dans S34. |
@@ -463,19 +445,38 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | PERS-S34-010 | Ian Curtis | Chanteur et parolier ; dans S34, il est traité moins comme cas biographique que comme point de passage entre subjectivité et ville. |
 | PERS-S34-011 | Martin Hannett | Producteur dont l’usage de l’espace sonore est discuté par S34 via Reynolds, mais à ne pas isoler du rôle du groupe. |
 | PERS-S34-012 | Paul Morley | Critique cité pour caractériser l’espace sonore et la non-connexion dans *Unknown Pleasures*. |
+| PERS-013 | Chris Ott | ["critique", "auteur", "essayiste"] |
+| PERS-004-S75 | Stephen Paul David Morris | ["musicien", "batteur", "catalyseur formel"] |
+| PERS-S75-019 | John Anderson | ["producteur", "responsable Grapevine", "intermédiaire industriel"] |
+| PERS-S75-020 | Bob Auger | ["producteur", "ingénieur / superviseur studio"] |
+| PERS-S75-021 | John Peel | ["DJ radio", "médiateur national"] |
+| PERS-S75-022 | Martin Rushent | ["producteur", "entrepreneur de production"] |
+| PERS-S75-025 | T.J. Davidson | ["propriétaire / acteur local", "fournisseur d'espace de répétition"] |
+| PERS-S75-026 | Stephen Morris | ["batteur de Joy Division", "opérateur rythmique du son Hannett"] |
+| PERS-S75-027 | Vini Reilly | ["musicien de The Durutti Column", "témoin technique de l'usage du delay"] |
+| PERS-S76-042 | Jeremy Kerr | ["membre de A Certain Ratio", "témoin d’un concert de Joy Division au Band On The Wall"] |
+| PERS-S76-058 | Martin Rushent | ["producteur", "fondateur / acteur de Genetic Records", "producteur potentiel alternatif pour Joy Division"] |
+| PERS-S76-069 | Martin Hannett | ["producteur", "architecte sonore des sessions Cargo / Sordide"] |
+| PERS-S76-072 | Martin Hannett | ["producteur de la première version Pennine de « Love Will Tear Us Apart » selon S76", "producteur lié aux sessions de transition de janvier 1980"] |
+| PERS-S76-073 | Tony Wilson | ["cofondateur Factory", "témoin du Lyceum", "médiateur vocal indirect pour « Love Will Tear Us Apart » via Sinatra"] |
+| PERS-S53-009 | Arthur Schopenhauer | Référence philosophique sur la musique et le monde, mobilisée par La Rocca. |
+| PERS-S53-010 | Friedrich Nietzsche | Référence philosophique sur musique, puissance et tragique, mobilisée par La Rocca. |
+| PERS-S78-001 | Leonard Nevarez | Auteur de S78 ; analyse le mythe Manchester / Joy Division, l’écoute située et la ville néolibérale. |
+| PERS-S78-002 | Liz Naylor | Zine editor citée via Grant Gee ; formule Joy Division comme musique ambiante de l’environnement mancunien. |
 
 ## 10. Chansons rattachées
 
 - SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S78-SHADOWPLAY — Shadowplay
+- Transmission
+- SONG-S34-001 — Shadowplay
+- SONG-S34-002 — Interzone
+- SONG-S34-003 — Transmission
+- SONG-S34-004 — Disorder
+- SONG-S34-005 — Dead Souls
+- SONG-S34-006 — Atmosphere
+- SONG-S34-007 — I Remember Nothing
 - SONG-S75-001 — No Love Lost
-- SONG-S75-016 — Disorder
-- SONG-S75-017 — Day of the Lords
-- SONG-S75-018 — Candidate
-- SONG-S75-020 — Wilderness
-- SONG-S75-021 — I Remember Nothing
-- SONG-S75-026 — Transmission
-- SONG-S75-027 — Atmosphere
 - SONG-S75-007 — Interzone
 - SONG-S75-008 — Ice Age
 - SONG-S75-009 — Shadowplay
@@ -485,14 +486,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - SONG-S75-013 — Exercise One
 - SONG-S75-014 — Insight
 - SONG-S75-015 — She’s Lost Control
-- SONG-S34-001 — Shadowplay
-- SONG-S34-002 — Interzone
-- SONG-S34-003 — Transmission
-- SONG-S34-004 — Disorder
-- SONG-S34-005 — Dead Souls
-- SONG-S34-006 — Atmosphere
-- SONG-S34-007 — I Remember Nothing
-- Transmission
+- SONG-S75-016 — Disorder
+- SONG-S75-017 — Day of the Lords
+- SONG-S75-018 — Candidate
+- SONG-S75-020 — Wilderness
+- SONG-S75-021 — I Remember Nothing
+- SONG-S75-026 — Transmission
+- SONG-S75-027 — Atmosphere
 
 ## 11. Concepts récurrents
 
@@ -503,79 +503,79 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ian Curtis (11)
 - production (10)
 - post-punk (10)
-- répétition (8)
+- Stephen Morris (8)
 - espace sonore (8)
 - Strawberry Studios (8)
-- Stephen Morris (8)
+- répétition (8)
+- Peter Hook (7)
 - Transmission (7)
 - Cargo Studios (7)
-- Peter Hook (7)
-- A Factory Sample (6)
+- ian curtis (6)
 - martin hannett (6)
+- basse melodique (6)
+- A Factory Sample (6)
 - studio (6)
 - voix (6)
-- basse melodique (6)
-- ian curtis (6)
-- Atmosphere (5)
-- Dead Souls (5)
 - Factory Records (5)
-- synthétiseur (5)
+- digital (5)
 - Digital (5)
 - Glass (5)
-- NME (5)
-- digital (5)
 - batterie (5)
-- radio (4)
-- spectralité (4)
-- apprentissage autodidacte (4)
-- Tony Wilson (4)
-- Manchester (4)
-- Hannett (4)
-- Peel Session (4)
-- ill_style (4)
-- prudence historiographique (4)
-- producteur catalyseur (4)
-- a factory sample (4)
-- glass (4)
-- unknown pleasures (4)
-- transmission (4)
-- An Ideal for Living (4)
+- Atmosphere (5)
+- NME (5)
+- Dead Souls (5)
+- synthétiseur (5)
 - factory (4)
 - Factory (4)
+- Tony Wilson (4)
+- a factory sample (4)
+- glass (4)
+- transmission (4)
+- unknown pleasures (4)
 - Arrow Studios (4)
-- Granada Reports (3)
-- Interzone (3)
-- studio comme instrument (3)
-- hannett_production (3)
+- radio (4)
+- Hannett (4)
+- apprentissage autodidacte (4)
+- An Ideal for Living (4)
+- Manchester (4)
+- Peel Session (4)
+- prudence historiographique (4)
+- ill_style (4)
+- producteur catalyseur (4)
+- spectralité (4)
 - domesticité (3)
-- cinquième membre (3)
-- new wave (3)
-- John Peel (3)
-- BBC (3)
-- basse (3)
-- Bernard Sumner (3)
-- DIY (3)
-- Warsaw (3)
-- piccadilly radio (3)
 - tension (3)
-- son live (3)
-- varispeed (3)
-- Warsaw Demo (3)
-- Pennine Sound (3)
+- DIY (3)
+- new wave (3)
+- Warsaw (3)
+- factory records (3)
+- piccadilly radio (3)
 - Joy Division (3)
 - basse mélodique (3)
+- Bernard Sumner (3)
+- son live (3)
+- Granada Reports (3)
+- basse (3)
+- studio comme instrument (3)
+- Interzone (3)
+- Warsaw Demo (3)
+- Pennine Sound (3)
+- varispeed (3)
+- John Peel (3)
+- BBC (3)
+- cinquième membre (3)
+- hannett_production (3)
 - dub (3)
-- factory records (3)
-- single (2)
-- Rob Gretton (2)
-- Shadowplay (2)
-- industrial music (2)
-- postindustrial cityscapes (2)
-- spiritual wasteland (2)
-- Throbbing Gristle (2)
+- industrie musicale (2)
+- épilepsie (2)
+- mythe Curtis (2)
+- professionnalisation (2)
 - Iggy Pop (2)
 - Velvet Underground (2)
-- Stockport (2)
+- john peel (2)
+- peel session (2)
+- martin rushent (2)
+- genetic records (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -590,37 +590,37 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Interzone (6)
 - Digital (6)
 - seuil (5)
-- Atmosphere (5)
 - RCA (5)
 - Glass (5)
 - Britannia Row (5)
+- Atmosphere (5)
 - martin_hannett (4)
 - radio (4)
 - Stephen Morris (4)
-- Ice Age (4)
-- T. J. Davidson’s (4)
 - Velvet Underground (4)
-- unknown_pleasures (3)
+- T. J. Davidson’s (4)
+- Ice Age (4)
+- domesticité (3)
+- Arrow Studios (3)
 - synthétiseur (3)
-- disco (3)
-- delay (3)
-- écoute (3)
-- Kraftwerk (3)
-- studio (3)
-- John Peel (3)
-- anti-virtuosité (3)
-- synthétiseurs (3)
 - A Factory Sample (3)
 - Peter Hook (3)
 - Closer (3)
-- Arrow Studios (3)
-- domesticité (3)
-- Ian Curtis (3)
+- disco (3)
+- delay (3)
+- unknown_pleasures (3)
 - Cargo Studios (3)
+- Ian Curtis (3)
 - Atrocity Exhibition (3)
-- a_factory_sample (2)
-- digital (2)
-- glass (2)
+- Kraftwerk (3)
+- John Peel (3)
+- synthétiseurs (3)
+- anti-virtuosité (3)
+- studio (3)
+- écoute (3)
+- scène (2)
+- Novelty (2)
+- basse (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -628,14 +628,52 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S42-A004 — nuance → REL-S42-004
 - S42-A006 — oppose_et_prolonge → REL-S42-006
 - S42-A008 — structure → REL-S42-008
+- S74-A017 — se_souvient → S45
+- S74-A017 — nuance → MYTH-002
+- S74-A022 — nuance → MYTH-002
+- S74-A022 — prolonge → S74-A017
+- S74-A048 — nuance → MYTH-002
+- S74-A048 — prolonge → S74-A047
+- S74-A048 — annonce → S74-A049
+- S74-A049 — prolonge → S74-A048
+- S74-A049 — nuance → MYTH-002
+- S74-A049 — complète → S74-A047
+- S74-A050 — complète → S74-A049
+- S74-A050 — nuance → MYTH-002
+- S74-A050 — prolonge → S45
+- S74-A052 — prolonge → S74-A048
+- S74-A052 — complète → S74-A050
+- S74-A052 — nuance → MYTH-002
+- S74-A053 — nuance → MYTH-002
+- S74-A053 — complète → S74-A052
+- S74-A053 — prolonge → S45
+- S74-A054 — prolonge → S45
+- S74-A054 — nuance → S74-A053
+- S74-A054 — contredit_partiellement → S74-A050
+- S45-A050 — prolonge → S75-A021
+- S45-A050 — prolonge → CONCEPT-005
+- S45-A050 — prépare → S45-A051
+- S45-A051 — prolonge → S75-A024
+- S45-A051 — prolonge → CONCEPT-006
+- S45-A051 — nuance → MYTH-006
+- S45-A066 — prolonge → S45-A009
+- S45-A066 — prolonge → CONCEPT-006
+- S45-A066 — prolonge → CONCEPT-015
+- S45-A076 — prolonge → S45-A075
+- S45-A076 — prolonge → CONCEPT-006
+- S45-A076 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A078 — prolonge → CONCEPT-006
+- S45-A078 — prolonge → S45-A066
+- S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S45-A058 — prolonge → CONCEPT-006
+- S45-A058 — prolonge → CONCEPT-005
+- S45-A058 — nuance → MYTH-006
+- S45-A132 — prolonge → S45-A125
+- S45-A132 — prolonge → CONCEPT-023
+- S45-A132 — prépare → CHAPITRE-11-THIS-IS-MY-CRISIS
 - S49-A008 — prolonge → CONCEPT-post_punk
 - S49-A009 — a_croiser → S74-A039
 - S49-A009 — a_croiser → S41-A082
-- S78-A001 — deconstruit → MYTH-Joy_Division_sonne_naturellement_comme_Manchester
-- S78-A002 — illustre → S78-A001
-- S78-A003 — fonde → CONCEPT-triade_ecoute_urbaine
-- S78-A009 — nuance → S42-A002
-- S78-A020 — synthese → CONCEPT-mythe_manchester_joy_division
 - S34-A001 — prolonge → CONCEPT-004
 - S34-A001 — nuance → MYTH-003
 - S34-A004 — prépare → CONCEPT-S34-002
@@ -652,58 +690,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S34-A010 — relie → S34-A008
 - S34-A012 — prolonge → S34-A009
 - S34-A012 — prolonge → CONCEPT-S34-002
-- S53-A012 — prolonge → S53-A002
-- S75-A009 — prolonge → S75-A008
-- S75-A009 — nuance → MYTH-genie_immediat
-- S75-A015 — prolonge → S75-A011
-- S75-A015 — prépare → CONCEPT-architecture_sonore
-- S75-A020 — prolonge → S75-A015
-- S75-A020 — nuance → S75-A019
-- S75-A020 — annonce → CONCEPT-architecture_sonore
-- S75-A039 — prolonge → CONCEPT-006
-- S75-A039 — prolonge → S75-A027
-- S75-A039 — prépare → S75-A050
-- S75-A040 — prolonge → CONCEPT-006
-- S75-A040 — prolonge → MOTIF-001
-- S75-A040 — nuance → MYTH-004
-- S75-A041 — illustre → CONCEPT-006
-- S75-A041 — requiert → CONCEPT-004
-- S75-A041 — nuance → MYTH-002
-- S75-A042 — nuance → CONCEPT-006
-- S75-A042 — nuance → MYTH-004
-- S75-A042 — prolonge → S75-A039
-- S75-A043 — nuance → MYTH-004
-- S75-A043 — prolonge → CONCEPT-006
-- S75-A043 — nuance → MYTH-002
-- S75-A048 — illustre → CONCEPT-006
-- S75-A048 — nuance → MYTH-002
-- S75-A048 — nuance → MYTH-004
-- S75-A049 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → MOTIF-001
-- S75-A049 — requiert → CONCEPT-004
-- S75-A051 — nuance → MYTH-004
-- S75-A051 — illustre → CONCEPT-005
-- S75-A051 — prolonge → S75-A042
-- S75-A052 — nuance → MYTH-004
-- S75-A052 — prolonge → CONCEPT-006
-- S75-A052 — nuance → MYTH-003
-- S75-A056 — nuance → MYTH-003
-- S75-A056 — prolonge → CONCEPT-002
-- S75-A056 — prolonge → CONCEPT-001
-- S75-A060 — prolonge → CONCEPT-006
-- S75-A060 — prolonge → S75-A034
-- S75-A060 — nuance → MYTH-004
-- S75-A069 — prolonge → CONCEPT-006
-- S75-A069 — prolonge → MOTIF-001
-- S75-A069 — prolonge → S70-A021
-- S75-A070 — prolonge → S75-A069
-- S75-A070 — prolonge → CONCEPT-006
-- S75-A070 — prolonge → MOTIF-001
-- S75-A021 — prolonge → CONCEPT-005
-- S75-A021 — prépare → S75-A026
-- S75-A021 — nuance → MYTH-006
-- S75-A022 — illustre → CONCEPT-005
-- S75-A022 — prépare → S75-A024
+- S41-A015 — prolonge → S41-A004
+- S41-A015 — prépare → S41-A024
+- S41-A016 — prolonge → CONCEPT-006
+- S41-A016 — prépare → S41-A024
+- S41-A022 — prolonge → CONCEPT-038
+- S41-A022 — prépare → S45-A150
+- S41-A023 — prolonge → CONCEPT-020
+- S41-A023 — prolonge → S45-A075
+- S41-A044 — prolonge → CONCEPT-020
+- S41-A044 — prolonge → S41-A023
+- S41-A044 — prépare → S41-A045
+- S41-A046 — prolonge → CONCEPT-054
+- S41-A046 — alimente → REGISTRE-DISCOGRAPHIE
+- S41-A051 — prolonge → CONCEPT-056
 
 ## 13. Distribution documentaire
 
@@ -714,223 +714,223 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | non qualifié | 40 |
 | production | 24 |
 | session_studio | 17 |
-| analyse_morceau | 11 |
 | analyse | 11 |
-| lecture_musicale | 10 |
+| analyse_morceau | 11 |
 | fait | 10 |
+| lecture_musicale | 10 |
 | processus_creatif | 9 |
 | concept | 9 |
 | source_part | 7 |
 | session | 7 |
 | analyse_chanson | 6 |
-| lieu_studio | 5 |
 | document_historique | 5 |
+| lieu_studio | 5 |
 | apprentissage_instrumental | 5 |
-| reception | 4 |
-| analyse_conceptuelle | 4 |
 | prudence_methodologique | 4 |
 | concept_structurant | 4 |
+| analyse_conceptuelle | 4 |
 | lecture | 4 |
 | session_radio | 4 |
-| matrice_musicale | 4 |
-| reception_critique | 4 |
 | discographie | 4 |
-| analyse_musicologique | 3 |
-| culture_materielle | 3 |
-| enregistrement | 3 |
-| reception_presse | 3 |
-| interpretation | 3 |
-| interpretation_studio | 3 |
-| acteur_musical | 3 |
-| contexte_technique | 3 |
+| reception_critique | 4 |
+| reception | 4 |
+| matrice_musicale | 4 |
 | fait_chronologique | 3 |
+| acteur_musical | 3 |
+| interpretation | 3 |
+| contexte_technique | 3 |
+| interpretation_studio | 3 |
 | analyse_morceau_studio | 3 |
+| reception_presse | 3 |
+| enregistrement | 3 |
+| culture_materielle | 3 |
+| analyse_musicologique | 3 |
 | release_or_session | 3 |
 | song_session | 3 |
-| relation_esthetique | 2 |
-| citation_repere | 2 |
-| analyse_filmique | 2 |
-| concept_critique | 2 |
 | scene_fondatrice | 2 |
-| controverse | 2 |
-| temoignage | 2 |
+| performance_live | 2 |
+| temoignage_direct_rapporte | 2 |
+| concept_critique | 2 |
 | objet_discographique | 2 |
-| lieu | 2 |
+| relation_esthetique | 2 |
 | cadre_theorique | 2 |
 | argument_central | 2 |
-| formation_sociale | 2 |
-| formation_culturelle | 2 |
-| scene_ecoute | 2 |
-| scene_revelation_live | 2 |
+| evenement | 2 |
+| concept_transversal | 2 |
+| lieu | 2 |
+| economie_materielle | 2 |
+| lieu_structurant | 2 |
+| chronologie_discographique | 2 |
+| analyse_filmique | 2 |
+| production_sonore | 2 |
+| interpretation_esthetique | 2 |
+| theorie_voix | 2 |
+| scene_repetition | 2 |
+| citation_repere | 2 |
+| analyse_historique | 2 |
+| recension_contemporaine | 2 |
 | contexte_biographique | 2 |
 | formation_sensible | 2 |
 | concept_rythmique | 2 |
-| production_sonore | 2 |
-| lieu_structurant | 2 |
-| analyse_historique | 2 |
-| recension_contemporaine | 2 |
-| interpretation_esthetique | 2 |
-| theorie_voix | 2 |
-| concept_transversal | 2 |
-| evenement | 2 |
-| performance_live | 2 |
-| temoignage_direct_rapporte | 2 |
-| scene_repetition | 2 |
-| chronologie_discographique | 2 |
-| economie_materielle | 2 |
-| album | 2 |
+| formation_sociale | 2 |
+| scene_ecoute | 2 |
+| formation_culturelle | 2 |
+| scene_revelation_live | 2 |
+| controverse | 2 |
+| temoignage | 2 |
 | song_or_cover | 2 |
 | song | 2 |
-| transition_artistique | 1 |
-| influence_esthetique | 1 |
-| professionnalisation | 1 |
-| media_scene | 1 |
-| production_album | 1 |
-| relation_inter_sources | 1 |
-| analyse_semiotique | 1 |
-| analyse_intertextuelle | 1 |
-| culture_musicale | 1 |
-| culture_domestique | 1 |
-| acteur | 1 |
-| micro_chronologie | 1 |
-| idee_directrice | 1 |
-| qualification_esthetique | 1 |
-| evolution_esthetique | 1 |
-| analyse_developpement | 1 |
-| mythe | 1 |
-| cadrage_theorique | 1 |
-| document_historiographique | 1 |
-| analyse_documentaire | 1 |
-| analyse_discographique | 1 |
+| album | 2 |
 | rupture_esthetique | 1 |
-| analyse_sonore | 1 |
-| contexte_scene | 1 |
-| prudence_interpretative | 1 |
-| temoignage_reception | 1 |
-| scene_media | 1 |
-| synthese_usage_livre | 1 |
+| biographie | 1 |
+| evenement_crise | 1 |
+| temoignage_retrospectif | 1 |
+| interpretation_critique | 1 |
+| cadrage_analytique | 1 |
 | concept_pratique | 1 |
 | conditions_materielles | 1 |
 | concept_collectif | 1 |
 | economie_collective | 1 |
 | transdisciplinarite | 1 |
 | processus_creation | 1 |
-| memoire | 1 |
-| synthese | 1 |
-| cadrage_analytique | 1 |
-| reference_theorique | 1 |
-| scene_historiographique | 1 |
-| contexte | 1 |
-| bootleg | 1 |
-| archive | 1 |
-| analyse_urbaine_musicale | 1 |
-| biographie_formation | 1 |
-| analyse_production | 1 |
-| analyse_comparee_albums | 1 |
-| chronologie_production | 1 |
-| economie_sonore | 1 |
-| source_media | 1 |
-| debat_culturel | 1 |
-| conflit_scene | 1 |
-| acteur_critique | 1 |
-| observation_scene | 1 |
-| lieu_imaginaire | 1 |
-| conflit_generationnel | 1 |
-| scene_pre_groupe | 1 |
-| mediation_culturelle | 1 |
-| experience_groupe_avant_punk | 1 |
-| session_studio_apprentissage | 1 |
-| ecoute_demo | 1 |
-| genese_groupe | 1 |
-| emergence_repertoire | 1 |
-| mediation_label | 1 |
-| album_production | 1 |
-| scene_generationnelle | 1 |
-| scene_biographique | 1 |
-| motif_geographique | 1 |
-| scene_travail_industriel | 1 |
-| cartographie_scene | 1 |
-| processus_creatif_chanson | 1 |
-| theorie_instrumentale | 1 |
-| processus_creatif_rythmique | 1 |
-| scene_domestique | 1 |
-| formation_mediatique | 1 |
-| scene_rythmique | 1 |
-| apprentissage_rythmique | 1 |
-| synthese_factuelle | 1 |
-| formulation_critique | 1 |
-| analyse_contextuelle | 1 |
-| reflexion_critique_autobiographique | 1 |
-| registre_influences | 1 |
-| probleme_esthetique | 1 |
-| concert | 1 |
 | evenement_audiovisuel | 1 |
-| session_domestique | 1 |
-| discographie_factory | 1 |
-| chronologie_pre_album | 1 |
-| interpretation_sonore | 1 |
-| interpretation_technique | 1 |
-| theorie_production | 1 |
-| theorie_rythmique | 1 |
-| theorie_sonore | 1 |
-| industrie_musicale | 1 |
-| discographie_album | 1 |
-| archive_broadcast | 1 |
-| session_enregistrement | 1 |
-| radio_broadcast | 1 |
-| vigilance_documentaire | 1 |
-| discographie_avortee | 1 |
-| broadcast | 1 |
-| studio_enregistrement | 1 |
-| portrait_musicien | 1 |
-| analyse_musicale | 1 |
-| contrepoint | 1 |
 | motif_visuel | 1 |
 | image_groupe | 1 |
 | relation_son_image | 1 |
 | reseau_visuel | 1 |
-| transition | 1 |
-| conflit_esthetique | 1 |
-| portrait_technique | 1 |
-| influences | 1 |
-| transition_esthetique | 1 |
-| chronologie | 1 |
-| evenement_crise | 1 |
-| temoignage_retrospectif | 1 |
-| interpretation_critique | 1 |
-| biographie | 1 |
-| relation_studio | 1 |
-| controverse_studio | 1 |
-| lecture_reprise | 1 |
-| politique_editoriale | 1 |
 | espace_ecriture | 1 |
+| politique_editoriale | 1 |
 | reference_documentaire | 1 |
 | analyse_editoriale | 1 |
 | transition_sonore | 1 |
 | anecdote_significative | 1 |
 | temoignage_pratique_collective | 1 |
-| concept_scene | 1 |
-| mediations_scene | 1 |
+| session_domestique | 1 |
+| culture_musicale | 1 |
+| culture_domestique | 1 |
+| memoire | 1 |
+| synthese | 1 |
+| contexte_scene | 1 |
+| prudence_interpretative | 1 |
+| analyse_sonore | 1 |
+| relation_inter_sources | 1 |
+| analyse_urbaine_musicale | 1 |
+| biographie_formation | 1 |
+| analyse_production | 1 |
+| analyse_comparee_albums | 1 |
+| chronologie_production | 1 |
+| synthese_factuelle | 1 |
+| formulation_critique | 1 |
+| chronologie | 1 |
+| transition | 1 |
+| conflit_esthetique | 1 |
+| portrait_technique | 1 |
+| influences | 1 |
+| transition_esthetique | 1 |
+| scene_materielle | 1 |
+| personne_reseau | 1 |
+| processus_sonore | 1 |
+| personnel_groupe | 1 |
+| recrutement_musical | 1 |
+| tension_industrie | 1 |
+| scene_creative_live | 1 |
+| influence_instrumentale | 1 |
+| influence_live | 1 |
+| scene_live_pre_album | 1 |
+| tension_esthetique | 1 |
 | analyse_session | 1 |
 | analyse_morceau_materiel | 1 |
 | analyse_morceaux | 1 |
 | chronologie_structurante | 1 |
 | technique_studio | 1 |
-| processus_sonore | 1 |
-| scene_live_pre_album | 1 |
-| tension_esthetique | 1 |
-| personnel_groupe | 1 |
-| recrutement_musical | 1 |
-| influence_live | 1 |
-| economie_materielle_live | 1 |
 | analyse_morceau_instrument | 1 |
-| scene_materielle | 1 |
-| personne_reseau | 1 |
-| tension_industrie | 1 |
-| scene_creative_live | 1 |
-| influence_instrumentale | 1 |
+| economie_materielle_live | 1 |
+| cadrage_theorique | 1 |
+| document_historiographique | 1 |
+| analyse_documentaire | 1 |
+| discographie_avortee | 1 |
+| broadcast | 1 |
+| discographie_factory | 1 |
+| chronologie_pre_album | 1 |
+| interpretation_sonore | 1 |
+| interpretation_technique | 1 |
+| industrie_musicale | 1 |
+| discographie_album | 1 |
+| studio_enregistrement | 1 |
+| portrait_musicien | 1 |
+| analyse_musicale | 1 |
+| archive_broadcast | 1 |
+| session_enregistrement | 1 |
+| radio_broadcast | 1 |
+| vigilance_documentaire | 1 |
+| theorie_production | 1 |
+| theorie_rythmique | 1 |
+| theorie_sonore | 1 |
+| reference_theorique | 1 |
+| concert | 1 |
+| scene_historiographique | 1 |
+| observation_scene | 1 |
+| relation_studio | 1 |
+| controverse_studio | 1 |
+| lecture_reprise | 1 |
+| qualification_esthetique | 1 |
+| evolution_esthetique | 1 |
+| analyse_developpement | 1 |
+| mythe | 1 |
+| acteur | 1 |
+| micro_chronologie | 1 |
+| idee_directrice | 1 |
+| probleme_esthetique | 1 |
+| analyse_contextuelle | 1 |
+| reflexion_critique_autobiographique | 1 |
+| registre_influences | 1 |
+| genese_groupe | 1 |
+| emergence_repertoire | 1 |
+| mediation_label | 1 |
+| album_production | 1 |
+| formation_mediatique | 1 |
+| scene_rythmique | 1 |
+| apprentissage_rythmique | 1 |
+| lieu_imaginaire | 1 |
+| conflit_generationnel | 1 |
+| scene_pre_groupe | 1 |
+| scene_generationnelle | 1 |
+| scene_biographique | 1 |
+| motif_geographique | 1 |
+| scene_travail_industriel | 1 |
+| cartographie_scene | 1 |
+| mediation_culturelle | 1 |
+| experience_groupe_avant_punk | 1 |
+| session_studio_apprentissage | 1 |
+| ecoute_demo | 1 |
+| processus_creatif_chanson | 1 |
+| theorie_instrumentale | 1 |
+| processus_creatif_rythmique | 1 |
+| scene_domestique | 1 |
+| analyse_discographique | 1 |
+| temoignage_reception | 1 |
+| scene_media | 1 |
+| synthese_usage_livre | 1 |
+| bootleg | 1 |
+| archive | 1 |
+| contexte | 1 |
 | analyse_technique | 1 |
 | conclusions | 1 |
+| contrepoint | 1 |
+| concept_scene | 1 |
+| mediations_scene | 1 |
+| transition_artistique | 1 |
+| influence_esthetique | 1 |
+| professionnalisation | 1 |
+| media_scene | 1 |
+| production_album | 1 |
+| economie_sonore | 1 |
+| analyse_semiotique | 1 |
+| analyse_intertextuelle | 1 |
+| source_media | 1 |
+| debat_culturel | 1 |
+| conflit_scene | 1 |
+| acteur_critique | 1 |
 
 ### 13.2. Importance documentaire
 
@@ -945,15 +945,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitre 3 | 3 |
 | haute | 2 |
+| basse | 1 |
+| majeure pour la généalogie rythmique | 1 |
+| majeure pour le chapitre 3 | 1 |
 | critique pour la généalogie pré-punk | 1 |
 | critique pour la généalogie studio/expérimentation | 1 |
 | critique pour le chapitre 2 | 1 |
-| critique pour la formation pré-punk | 1 |
 | critique pour Chapitres 1 et 3 | 1 |
 | critique pour Chapitre 2 | 1 |
-| majeure pour la généalogie rythmique | 1 |
-| majeure pour le chapitre 3 | 1 |
-| basse | 1 |
+| critique pour la formation pré-punk | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -961,6 +961,21 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S42-A004 [moyen] — Ne pas faire disparaître la matérialité sociale derrière la seule performance identitaire.
 - S42-A006 [moyen] — Ne pas réduire le punk à la seule destruction ni le post-punk à une simple sophistication.
 - S42-A008 [moyen] — Ne pas réduire un lieu à une cause ; le lieu fonctionne par réseau.
+- S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
+- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
+- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
+- S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque
+- S74-A052 [tres_eleve] — sujet médical et suicidaire ; risque de causalité simpliste, romantisation ou déterminisme rétrospectif
+- S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
+- S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
+- S45-A050 [moyen] — Ne pas caricaturer RCA comme seul méchant industriel ; la naïveté du groupe est aussi documentée.
+- S45-A051 [moyen] — Ne pas opposer mécaniquement âme industrielle et pureté Joy Division ; le problème est l’inadéquation entre commande, production et état du groupe.
+- S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
+- S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
+- S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S45-A058 [moyen] — Risque d’attribuer toute la centralité de la basse à cet incident unique ; il faut le traiter comme catalyseur possible, non cause totale.
+- S45-A132 [élevé] — Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.
 - S49-A008 [moyen] — risque de simplifier les circulations entre scènes blanches et musiques noires
 - S49-A009 [eleve] — risque d’attribuer à Farci une preuve musicologique qu’il ne fournit pas seul
 - S34-A001 [moyen] — risque de transformer une lecture urbaine en déterminisme biographique ou géographique
@@ -971,52 +986,37 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S34-A009 [moyen] — risque de surcharger « Transmission » d’une fonction théorique unique
 - S34-A010 [moyen] — risque d’abstraction théorique si le passage n’est pas rattaché aux chansons et aux images
 - S34-A012 [moyen] — risque de généralisation théorique excessive
-- S75-A009 [faible] — Ott signale lui-même qu'une critique trop sévère serait inutile, compte tenu de la fonction pratique de la session
-- S75-A015 [faible] — lecture cohérente avec la place reconnue de Morris, mais à articuler avec les autres membres
-- S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
-- S75-A039 [moyen] — ne pas présenter le studio comme origine absolue du son ; le matériau existe déjà dans les répétitions et le live
-- S75-A040 [moyen] — ne pas faire du digital delay l'explication unique du son ; il agit dans un système plus large de mixage, jeu et espace
-- S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
-- S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
-- S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
-- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
-- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
-- S75-A051 [moyen] — l'aveu de Hook ne doit pas effacer ses critiques simultanées du mixage
-- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
-- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
-- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
-- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
-- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
-- S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
-- S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
-- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
-- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
-- S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
-- S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
-- S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
-- S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
-- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
-- S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
-- S35-A034 [moyen] — Ne pas transformer Jodrell Bank en origine directe de l’électronique Joy Division/New Order.
-- S35-A035 [moyen] — Ne pas psychologiser toute l’esthétique Morris par le grammar school.
-- S35-A036 [faible] — À relier aux autres scènes d’échec instrumental, non à isoler.
-- S35-A037 [moyen] — Ne pas surestimer le degré de compréhension théorique de Morris adolescent.
-- S35-A038 [faible] — Scène utile comme médiation culturelle, non comme source factuelle principale.
-- S35-A039 [faible] — Atome fortement raccordé aux influences déjà stabilisées.
-- S35-A040 [moyen] — Ne pas réduire le père à un simple passé réactionnaire ; le passage reste humoristique.
-- S35-A041 [moyen] — Ne pas faire d’Hawkwind la source unique du son Joy Division.
-- S35-A043 [moyen] — Ne pas réduire Bowie à une influence stylistique simple.
-- S35-A044 [faible] — L’atome porte sur la réception adolescente de Faust, pas sur une influence directe mesurable.
-- S35-A046 [moyen] — Ne pas confondre ce pré-groupe adolescent avec Warsaw ; il s’agit d’un précédent formel.
-- S35-A047 [faible] — Atome directement cohérent avec l’axe Morris / anti-virtuosité.
-- S35-A067 [faible] — Atome de médiation culturelle, non causalité unique.
-- S35-A068 [moyen] — Ne pas faire de ce groupe une origine directe ; il sert surtout de contre-modèle.
-- S35-A069 [faible à moyen] — À utiliser comme apprentissage technique, non comme anticipation directe de Hannett.
-- S35-A075 [faible] — Influence explicitement formulée par Morris.
-- S35-A082 [moyen] — Ne pas prétendre que le son Joy Division est déjà accompli ; Morris parle d’un écart audible encore embryonnaire.
-- S35-A084 [faible] — L’atome verrouille la non-téléologie : le style propre est encore douteux.
-- S35-A049 [faible] — Atome directement raccordé à la généalogie rythmique déjà stabilisée.
-- S35-A050 [moyen] — Ne pas faire de Dietrich une influence directe ; elle vaut comme scène de présence et de compromis.
+- S41-A015 [faible] — Risque limité ; l’atome corrige surtout les mythes de maîtrise précoce.
+- S41-A016 [moyen] — Risque de faire d’une explication rétrospective une cause technique exclusive du son Hook.
+- S41-A022 [moyen] — Ne pas transformer Terry en cinquième membre artistique ; son rôle est infrastructurel et relationnel.
+- S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
+- S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
+- S41-A046 [faible] — L’atome relève d’une cause technique claire ; prudence seulement sur la répartition des responsabilités.
+- S41-A051 [moyen] — Ne pas figer Curtis et Sumner dans deux esthétiques pures ; Hook simplifie rétrospectivement.
+- S41-A052 [élevé] — Risque de faire de cet épisode la cause unique du son Joy Division ; il faut l’inscrire dans un faisceau matériel et collectif.
+- S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
+- S41-A031 [moyen] — Ne pas écrire Tabac/Brotherdale comme simples ratés ; ils éclairent l’évolution du groupe.
+- S41-A034 [moyen] — Ne pas chercher tout Joy Division dans la démo ; Hook isole seulement des indices.
+- S41-A037 [faible à moyen] — Ne pas isoler Morris comme cause unique du son ; il stabilise une dynamique collective.
+- S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
+- S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
+- S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
+- S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
+- S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
+- S41-A069 [élevé] — Ne pas attribuer à Hook seul les détails précis Strawberry/RCA ; il parle ici d’Arrow Studios et de John Anderson.
+- S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
+- S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
+- S41-A095 [faible] — Atome de verrouillage documentaire.
+- S41-A097 [moyen] — Ne pas faire de Suicide une cause unique.
+- S41-A114 [moyen] — Ne pas opposer artificiellement son live achevé et son studio transformé : le passage prépare leur tension.
+- S41-A116 [moyen] — Ne pas effacer les tensions techniques avec Hannett ; elles apparaissent dans les atomes suivants.
+- S41-A117 [faible] — Atome de structuration discographique ; il appelle surtout le croisement.
+- S41-A118 [moyen] — Risque de mythologiser Hannett en sorcier ; maintenir l’infrastructure studio et les ingénieurs.
+- S41-A119 [moyen] — Ne pas transformer le rejet initial en condamnation durable ; Hook relit ensuite la portée du disque.
+- S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
+- S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
+- S41-A147 [faible] — Atome technique ; éviter d’en faire une théorie générale de l’erreur.
+- S41-A148 [moyen] — Ne pas faire des claviers une simple trahison : Hook reconnaît leur utilité.
 
 ## 15. Lacunes et prochaines vérifications
 

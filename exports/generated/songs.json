@@ -1,63 +1,144 @@
 [
   {
     "kind": "song",
-    "id": "SONG-S77-ANARCHY_IN_THE_UK",
-    "file": "registers/s77_worley_specialized_registers.md",
-    "heading": "Chansons / œuvres",
+    "id": "Unknown Pleasures",
+    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+    "heading": "Chansons / objets visuels",
     "data": {
-      "id": "SONG-S77-ANARCHY_IN_THE_UK",
-      "type_unite": "song",
-      "source_id": "S77",
-      "song": "Anarchy in the UK",
-      "usage": "Exemple de titre punk où l’anarchie fonctionne d’abord comme signal de rupture et de self-rule, avant stabilisation anarcho-punk.",
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 8",
-        "Chapitre 11"
+      "song": "Unknown Pleasures",
+      "themes": [
+        "marque figurative",
+        "pochette",
+        "Peter Saville"
       ],
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
+      "sources": [
+        "S61"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
     }
   },
   {
     "kind": "song",
-    "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
-    "file": "registers/s77_worley_specialized_registers.md",
-    "heading": "Chansons / œuvres",
+    "id": "Closer",
+    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
+    "heading": "Chansons / objets visuels",
     "data": {
-      "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
+      "song": "Closer",
+      "themes": [
+        "marque figurative",
+        "pochette",
+        "Peter Saville",
+        "Bernard Pierre Wolff"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S21-JOY_DIVISION",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chansons / groupes",
+    "data": {
+      "id": "SONG-S21-JOY_DIVISION",
       "type_unite": "song",
-      "source_id": "S77",
-      "song": "God Save the Queen",
-      "usage": "Exemple de réponse critique à la culture nationale et au Jubilé, dans le contexte des symboles de crise.",
+      "source_id": "S21",
+      "song": "Joy Division",
+      "usage": "Le groupe ne doit être mobilisé via S21 que si un item City Fun ou MDMArchive le mentionne explicitement.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S21-THE_FALL",
+    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
+    "heading": "Chansons / groupes",
+    "data": {
+      "id": "SONG-S21-THE_FALL",
+      "type_unite": "song",
+      "source_id": "S21",
+      "song": "The Fall",
+      "usage": "Groupe voisin de la scène mancunienne pouvant apparaître dans City Fun ; à citer seulement depuis un item précis.",
       "chapitres": [
         "Chapitre 2",
         "Chapitre 8"
       ],
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
+      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
+      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
+      "source_year": "s.d. / page consultée 2026"
     }
   },
   {
     "kind": "song",
-    "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
-    "file": "registers/s77_worley_specialized_registers.md",
-    "heading": "Chansons / œuvres",
+    "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
     "data": {
-      "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+      "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
       "type_unite": "song",
-      "source_id": "S77",
-      "song": "White Punks on Hope",
-      "usage": "Chanson de Crass mobilisée pour comprendre le rejet des politiques traditionnelles au profit d’une formule anarchiste.",
+      "source_id": "S31",
+      "song": "Living in the Ice Age",
+      "usage": "Motif-titre du chapitre ; climat sonore, froid historique et métaphore du futur gelé.",
       "chapitres": [
-        "Chapitre 8",
+        "Chapitre 6",
         "Chapitre 11"
       ],
-      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
-      "source_year": "2015"
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S31-NEW-DAWN-FADES",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
+    "data": {
+      "id": "SONG-S31-NEW-DAWN-FADES",
+      "type_unite": "song",
+      "source_id": "S31",
+      "song": "New Dawn Fades",
+      "usage": "Exemple de basse obscure, batterie abandonnée et architecture froide d’Unknown Pleasures.",
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S31-I-REMEMBER-NOTHING",
+    "file": "registers/s31_allegri_specialized_registers.md",
+    "heading": "Lieux, albums, chansons",
+    "data": {
+      "id": "SONG-S31-I-REMEMBER-NOTHING",
+      "type_unite": "song",
+      "source_id": "S31",
+      "song": "I Remember Nothing",
+      "usage": "Exemple du vide, des échos et du loop final dans la lecture sonore d’Allegri.",
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
+      "source_year": "2021"
     }
   },
   {
@@ -118,125 +199,6 @@
       ],
       "source_label": "S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021",
       "source_short_title": "Manolo Farci, Here are the Young Men, the weight on their shoulders. La danza esistenziale di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S56-PASSOVER",
-    "file": "registers/s56_barone_specialized_registers.md",
-    "heading": "Acteurs, lieux, organisations, chansons",
-    "data": {
-      "id": "SONG-S56-PASSOVER",
-      "type_unite": "song",
-      "source_id": "S56",
-      "song": "Passover",
-      "usage": "Chanson-pivot de crise, doute et rupture d’équilibre dans la lecture de Barone.",
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 11",
-        "Chapitre 12"
-      ],
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S56-NOVELTY",
-    "file": "registers/s56_barone_specialized_registers.md",
-    "heading": "Acteurs, lieux, organisations, chansons",
-    "data": {
-      "id": "SONG-S56-NOVELTY",
-      "type_unite": "song",
-      "source_id": "S56",
-      "song": "Novelty",
-      "usage": "Texte attribué à Peter Hook utilisé par Barone comme contraste stylistique avec le mind style de Curtis.",
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 6"
-      ],
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S56-DISORDER",
-    "file": "registers/s56_barone_specialized_registers.md",
-    "heading": "Acteurs, lieux, organisations, chansons",
-    "data": {
-      "id": "SONG-S56-DISORDER",
-      "type_unite": "song",
-      "source_id": "S56",
-      "song": "Disorder",
-      "usage": "Titre d’Unknown Pleasures et matrice de We Were Strangers ; à manier sans citation lyrique non vérifiée.",
-      "chapitres": [
-        "Chapitre 4",
-        "Chapitre 8"
-      ],
-      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
-      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
-    "file": "registers/s31_allegri_specialized_registers.md",
-    "heading": "Lieux, albums, chansons",
-    "data": {
-      "id": "SONG-S31-LIVING-IN-THE-ICE-AGE",
-      "type_unite": "song",
-      "source_id": "S31",
-      "song": "Living in the Ice Age",
-      "usage": "Motif-titre du chapitre ; climat sonore, froid historique et métaphore du futur gelé.",
-      "chapitres": [
-        "Chapitre 6",
-        "Chapitre 11"
-      ],
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S31-NEW-DAWN-FADES",
-    "file": "registers/s31_allegri_specialized_registers.md",
-    "heading": "Lieux, albums, chansons",
-    "data": {
-      "id": "SONG-S31-NEW-DAWN-FADES",
-      "type_unite": "song",
-      "source_id": "S31",
-      "song": "New Dawn Fades",
-      "usage": "Exemple de basse obscure, batterie abandonnée et architecture froide d’Unknown Pleasures.",
-      "chapitres": [
-        "Chapitre 6"
-      ],
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S31-I-REMEMBER-NOTHING",
-    "file": "registers/s31_allegri_specialized_registers.md",
-    "heading": "Lieux, albums, chansons",
-    "data": {
-      "id": "SONG-S31-I-REMEMBER-NOTHING",
-      "type_unite": "song",
-      "source_id": "S31",
-      "song": "I Remember Nothing",
-      "usage": "Exemple du vide, des échos et du loop final dans la lecture sonore d’Allegri.",
-      "chapitres": [
-        "Chapitre 6"
-      ],
-      "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
-      "source_short_title": "Giuseppe Allegri, Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo, 2021",
       "source_year": "2021"
     }
   },
@@ -317,6 +279,167 @@
       ],
       "source_label": "S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021",
       "source_short_title": "Paolo Bertetti ; Domenico Morreale, Reimmaginare l’immaginario. Traduzioni socio-culturali di un’estetica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S51-DIGITAL",
+    "file": "registers/s51_malvezzi_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S51-DIGITAL",
+      "type_unite": "song",
+      "source_id": "S51",
+      "song": "Digital",
+      "usage": "Exergue du chapitre ; motif du fade away, de la disparition et de la survivance par effacement.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 14"
+      ],
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S51-SHES_LOST_CONTROL",
+    "file": "registers/s51_malvezzi_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S51-SHES_LOST_CONTROL",
+      "type_unite": "song",
+      "source_id": "S51",
+      "song": "She’s Lost Control",
+      "usage": "Chanson associée au fragment filmé du concert d’Eric’s ; Curtis est à peine visible dans le noir, avec la danse presque recouverte par les voix du public.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
+      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S52-ATMOSPHERE",
+    "file": "registers/s52_rabbito_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S52-ATMOSPHERE",
+      "type_unite": "song",
+      "source_id": "S52",
+      "song": "Atmosphere",
+      "usage": "Rappel du clip de Corbijn de 1988 ; élément d’autorité esthétique qui renforce la réception de Control.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S52-SHES_LOST_CONTROL",
+    "file": "registers/s52_rabbito_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S52-SHES_LOST_CONTROL",
+      "type_unite": "song",
+      "source_id": "S52",
+      "song": "She’s Lost Control",
+      "usage": "Chanson relue par Rabbito en lien avec l’epilepsy dance et la préfiguration interprétative de la perte de contrôle.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+    "file": "registers/s52_rabbito_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+      "type_unite": "song",
+      "source_id": "S52",
+      "song": "Rock And Roll Suicide",
+      "usage": "Référence rapportée via Deborah Curtis pour la fascination adolescente de Curtis envers la mort prématurée ; usage très prudent.",
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S52-ALL_THE_YOUNG_DUDES",
+    "file": "registers/s52_rabbito_specialized_registers.md",
+    "heading": "Chansons",
+    "data": {
+      "id": "SONG-S52-ALL_THE_YOUNG_DUDES",
+      "type_unite": "song",
+      "source_id": "S52",
+      "song": "All The Young Dudes",
+      "usage": "Référence rapportée via Deborah Curtis dans le contexte adolescent de Curtis ; à vérifier avant toute citation.",
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
+      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S53-UNKNOWN_PLEASURES",
+    "file": "registers/s53_la_rocca_specialized_registers.md",
+    "heading": "Chansons et albums",
+    "data": {
+      "id": "SONG-S53-UNKNOWN_PLEASURES",
+      "type_unite": "song",
+      "source_id": "S53",
+      "song": "Unknown Pleasures",
+      "usage": "Album et image-pochette traités comme symbole générationnel, icône émotionnelle partagée et totem pop.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
+    "file": "registers/s53_la_rocca_specialized_registers.md",
+    "heading": "Chansons et albums",
+    "data": {
+      "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
+      "type_unite": "song",
+      "source_id": "S53",
+      "song": "Love Will Tear Us Apart",
+      "usage": "Formule de retour et de réactivation du mythe ; à manier comme signe de mémoire, non comme explication totale.",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
+      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
       "source_year": "2021"
     }
   },
@@ -485,88 +608,6 @@
   },
   {
     "kind": "song",
-    "id": "SONG-S53-UNKNOWN_PLEASURES",
-    "file": "registers/s53_la_rocca_specialized_registers.md",
-    "heading": "Chansons et albums",
-    "data": {
-      "id": "SONG-S53-UNKNOWN_PLEASURES",
-      "type_unite": "song",
-      "source_id": "S53",
-      "song": "Unknown Pleasures",
-      "usage": "Album et image-pochette traités comme symbole générationnel, icône émotionnelle partagée et totem pop.",
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
-    "file": "registers/s53_la_rocca_specialized_registers.md",
-    "heading": "Chansons et albums",
-    "data": {
-      "id": "SONG-S53-LOVE_WILL_TEAR_US_APART",
-      "type_unite": "song",
-      "source_id": "S53",
-      "song": "Love Will Tear Us Apart",
-      "usage": "Formule de retour et de réactivation du mythe ; à manier comme signe de mémoire, non comme explication totale.",
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "source_label": "S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_short_title": "Fabio La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S21-JOY_DIVISION",
-    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
-    "heading": "Chansons / groupes",
-    "data": {
-      "id": "SONG-S21-JOY_DIVISION",
-      "type_unite": "song",
-      "source_id": "S21",
-      "song": "Joy Division",
-      "usage": "Le groupe ne doit être mobilisé via S21 que si un item City Fun ou MDMArchive le mentionne explicitement.",
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
-      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
-      "source_year": "s.d. / page consultée 2026"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S21-THE_FALL",
-    "file": "registers/s21_mdmarchive_city_fun_specialized_registers.md",
-    "heading": "Chansons / groupes",
-    "data": {
-      "id": "SONG-S21-THE_FALL",
-      "type_unite": "song",
-      "source_id": "S21",
-      "song": "The Fall",
-      "usage": "Groupe voisin de la scène mancunienne pouvant apparaître dans City Fun ; à citer seulement depuis un item précis.",
-      "chapitres": [
-        "Chapitre 2",
-        "Chapitre 8"
-      ],
-      "source_label": "S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026",
-      "source_short_title": "Manchester Digital Music Archive, City Fun: The Hidden History of Manchester's Favourite Fanzine, s.d. / page consultée 2026",
-      "source_year": "s.d. / page consultée 2026"
-    }
-  },
-  {
-    "kind": "song",
     "id": "SONG-S55-JOY_DIVISION",
     "file": "registers/s55_romania_specialized_registers.md",
     "heading": "Chansons / albums / catégories musicales",
@@ -589,161 +630,62 @@
   },
   {
     "kind": "song",
-    "id": "SONG-S60-TRANSMISSION",
-    "file": "registers/s60_federici_specialized_registers.md",
-    "heading": "Albums, chansons, objets",
+    "id": "SONG-S56-PASSOVER",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
     "data": {
-      "id": "SONG-S60-TRANSMISSION",
+      "id": "SONG-S56-PASSOVER",
       "type_unite": "song",
-      "source_id": "S60",
-      "song": "Transmission",
-      "usage": "Chanson mobilisée par Federici autour de communication, répétition, représentation et composition.",
+      "source_id": "S56",
+      "song": "Passover",
+      "usage": "Chanson-pivot de crise, doute et rupture d’équilibre dans la lecture de Barone.",
       "chapitres": [
         "Chapitre 4",
-        "Chapitre 10"
-      ],
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
-    "file": "registers/s60_federici_specialized_registers.md",
-    "heading": "Albums, chansons, objets",
-    "data": {
-      "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
-      "type_unite": "song_or_project",
-      "source_id": "S60",
-      "song": "Dub Will Tear Us Apart",
-      "usage": "Projet Jäh Division utilisé comme réemploi dub et chromatique de l’imaginaire Joy Division.",
-      "chapitres": [
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S52-ATMOSPHERE",
-    "file": "registers/s52_rabbito_specialized_registers.md",
-    "heading": "Chansons",
-    "data": {
-      "id": "SONG-S52-ATMOSPHERE",
-      "type_unite": "song",
-      "source_id": "S52",
-      "song": "Atmosphere",
-      "usage": "Rappel du clip de Corbijn de 1988 ; élément d’autorité esthétique qui renforce la réception de Control.",
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S52-SHES_LOST_CONTROL",
-    "file": "registers/s52_rabbito_specialized_registers.md",
-    "heading": "Chansons",
-    "data": {
-      "id": "SONG-S52-SHES_LOST_CONTROL",
-      "type_unite": "song",
-      "source_id": "S52",
-      "song": "She’s Lost Control",
-      "usage": "Chanson relue par Rabbito en lien avec l’epilepsy dance et la préfiguration interprétative de la perte de contrôle.",
-      "chapitres": [
-        "Chapitre 4",
+        "Chapitre 11",
         "Chapitre 12"
       ],
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
       "source_year": "2021"
     }
   },
   {
     "kind": "song",
-    "id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
-    "file": "registers/s52_rabbito_specialized_registers.md",
-    "heading": "Chansons",
+    "id": "SONG-S56-NOVELTY",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
     "data": {
-      "id": "SONG-S52-ROCK_AND_ROLL_SUICIDE",
+      "id": "SONG-S56-NOVELTY",
       "type_unite": "song",
-      "source_id": "S52",
-      "song": "Rock And Roll Suicide",
-      "usage": "Référence rapportée via Deborah Curtis pour la fascination adolescente de Curtis envers la mort prématurée ; usage très prudent.",
-      "chapitres": [
-        "Chapitre 12"
-      ],
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S52-ALL_THE_YOUNG_DUDES",
-    "file": "registers/s52_rabbito_specialized_registers.md",
-    "heading": "Chansons",
-    "data": {
-      "id": "SONG-S52-ALL_THE_YOUNG_DUDES",
-      "type_unite": "song",
-      "source_id": "S52",
-      "song": "All The Young Dudes",
-      "usage": "Référence rapportée via Deborah Curtis dans le contexte adolescent de Curtis ; à vérifier avant toute citation.",
-      "chapitres": [
-        "Chapitre 12"
-      ],
-      "source_label": "S52 — Rabbito, Control e l’infrangimento del vetro, 2021",
-      "source_short_title": "Andrea Rabbito, Control e l’infrangimento del vetro. Oltre la superficie biografica di Ian Curtis, 2021",
-      "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S51-DIGITAL",
-    "file": "registers/s51_malvezzi_specialized_registers.md",
-    "heading": "Chansons",
-    "data": {
-      "id": "SONG-S51-DIGITAL",
-      "type_unite": "song",
-      "source_id": "S51",
-      "song": "Digital",
-      "usage": "Exergue du chapitre ; motif du fade away, de la disparition et de la survivance par effacement.",
+      "source_id": "S56",
+      "song": "Novelty",
+      "usage": "Texte attribué à Peter Hook utilisé par Barone comme contraste stylistique avec le mind style de Curtis.",
       "chapitres": [
         "Chapitre 4",
-        "Chapitre 14"
+        "Chapitre 6"
       ],
-      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
-      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
       "source_year": "2021"
     }
   },
   {
     "kind": "song",
-    "id": "SONG-S51-SHES_LOST_CONTROL",
-    "file": "registers/s51_malvezzi_specialized_registers.md",
-    "heading": "Chansons",
+    "id": "SONG-S56-DISORDER",
+    "file": "registers/s56_barone_specialized_registers.md",
+    "heading": "Acteurs, lieux, organisations, chansons",
     "data": {
-      "id": "SONG-S51-SHES_LOST_CONTROL",
+      "id": "SONG-S56-DISORDER",
       "type_unite": "song",
-      "source_id": "S51",
-      "song": "She’s Lost Control",
-      "usage": "Chanson associée au fragment filmé du concert d’Eric’s ; Curtis est à peine visible dans le noir, avec la danse presque recouverte par les voix du public.",
+      "source_id": "S56",
+      "song": "Disorder",
+      "usage": "Titre d’Unknown Pleasures et matrice de We Were Strangers ; à manier sans citation lyrique non vérifiée.",
       "chapitres": [
         "Chapitre 4",
-        "Chapitre 13",
-        "Chapitre 14"
+        "Chapitre 8"
       ],
-      "source_label": "S51 — Malvezzi, Dream English Kid 1978-1980, 2021",
-      "source_short_title": "Jennifer Malvezzi, Dream English Kid 1978-1980. L’immagine lo-fi dei Joy Division nei media popolari inglesi, 2021",
+      "source_label": "S56 — Barone, Directionless so plain to see, 2021",
+      "source_short_title": "Linda Barone, Directionless so plain to see. (Di)Versioni stilistiche, letterarie e traduttive, 2021",
       "source_year": "2021"
     }
   },
@@ -825,88 +767,6 @@
       "source_label": "S57 — Villani, Ti sfido a disperarti, 2021",
       "source_short_title": "Massimo Villani, Ti sfido a disperarti. I Joy Division e la notte del pensiero, 2021",
       "source_year": "2021"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S78-UNKNOWN_PLEASURES",
-    "file": "registers/s78_nevarez_specialized_registers.md",
-    "heading": "Chansons / albums / films",
-    "data": {
-      "id": "SONG-S78-UNKNOWN_PLEASURES",
-      "type_unite": "song",
-      "source_id": "S78",
-      "song": "Unknown Pleasures",
-      "usage": "Objet central de S78 ; album entendu rétrospectivement comme mindscape et soundscape de Manchester.",
-      "chapitres": [
-        "Chapitre 3",
-        "Chapitre 10",
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S78-SHADOWPLAY",
-    "file": "registers/s78_nevarez_specialized_registers.md",
-    "heading": "Chansons / albums / films",
-    "data": {
-      "id": "SONG-S78-SHADOWPLAY",
-      "type_unite": "song",
-      "source_id": "S78",
-      "song": "Shadowplay",
-      "usage": "Chanson utilisée dans What’s On avec projection urbaine ; à lire avec prudence contre l’illustration psychogéographique littérale.",
-      "chapitres": [
-        "Chapitre 3",
-        "Chapitre 13"
-      ],
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
-    "file": "registers/s78_nevarez_specialized_registers.md",
-    "heading": "Chansons / albums / films",
-    "data": {
-      "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
-      "type_unite": "song",
-      "source_id": "S78",
-      "song": "Love Will Tear Us Apart",
-      "usage": "Chanson posthume devenue chiffre populaire du suicide de Curtis et du recentrage mémoriel sur sa persona.",
-      "chapitres": [
-        "Chapitre 12",
-        "Chapitre 14"
-      ],
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S78-ATMOSPHERE",
-    "file": "registers/s78_nevarez_specialized_registers.md",
-    "heading": "Chansons / albums / films",
-    "data": {
-      "id": "SONG-S78-ATMOSPHERE",
-      "type_unite": "song",
-      "source_id": "S78",
-      "song": "Atmosphere",
-      "usage": "Clip de Corbijn pour Substance ; visualisation posthume fantastique et noire et blanche du culte Curtis.",
-      "chapitres": [
-        "Chapitre 5",
-        "Chapitre 14"
-      ],
-      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
-      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
-      "source_year": "2013"
     }
   },
   {
@@ -1092,6 +952,800 @@
   },
   {
     "kind": "song",
+    "id": "SONG-S60-TRANSMISSION",
+    "file": "registers/s60_federici_specialized_registers.md",
+    "heading": "Albums, chansons, objets",
+    "data": {
+      "id": "SONG-S60-TRANSMISSION",
+      "type_unite": "song",
+      "source_id": "S60",
+      "song": "Transmission",
+      "usage": "Chanson mobilisée par Federici autour de communication, répétition, représentation et composition.",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+    "file": "registers/s60_federici_specialized_registers.md",
+    "heading": "Albums, chansons, objets",
+    "data": {
+      "id": "SONG-S60-DUB-WILL-TEAR-US-APART",
+      "type_unite": "song_or_project",
+      "source_id": "S60",
+      "song": "Dub Will Tear Us Apart",
+      "usage": "Projet Jäh Division utilisé comme réemploi dub et chromatique de l’imaginaire Joy Division.",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_short_title": "Raffaele Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S77-ANARCHY_IN_THE_UK",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-ANARCHY_IN_THE_UK",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "Anarchy in the UK",
+      "usage": "Exemple de titre punk où l’anarchie fonctionne d’abord comme signal de rupture et de self-rule, avant stabilisation anarcho-punk.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-GOD_SAVE_THE_QUEEN",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "God Save the Queen",
+      "usage": "Exemple de réponse critique à la culture nationale et au Jubilé, dans le contexte des symboles de crise.",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+    "file": "registers/s77_worley_specialized_registers.md",
+    "heading": "Chansons / œuvres",
+    "data": {
+      "id": "SONG-S77-WHITE_PUNKS_ON_HOPE",
+      "type_unite": "song",
+      "source_id": "S77",
+      "song": "White Punks on Hope",
+      "usage": "Chanson de Crass mobilisée pour comprendre le rejet des politiques traditionnelles au profit d’une formule anarchiste.",
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "source_label": "S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_short_title": "Matthew Worley, ‘While the world was dying, did you wonder why?’: Punk, Politics and British (fan)zines, 1976–84, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-UNKNOWN_PLEASURES",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-UNKNOWN_PLEASURES",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Unknown Pleasures",
+      "usage": "Objet central de S78 ; album entendu rétrospectivement comme mindscape et soundscape de Manchester.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-SHADOWPLAY",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-SHADOWPLAY",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Shadowplay",
+      "usage": "Chanson utilisée dans What’s On avec projection urbaine ; à lire avec prudence contre l’illustration psychogéographique littérale.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-LOVE_WILL_TEAR_US_APART",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Love Will Tear Us Apart",
+      "usage": "Chanson posthume devenue chiffre populaire du suicide de Curtis et du recentrage mémoriel sur sa persona.",
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S78-ATMOSPHERE",
+    "file": "registers/s78_nevarez_specialized_registers.md",
+    "heading": "Chansons / albums / films",
+    "data": {
+      "id": "SONG-S78-ATMOSPHERE",
+      "type_unite": "song",
+      "source_id": "S78",
+      "song": "Atmosphere",
+      "usage": "Clip de Corbijn pour Substance ; visualisation posthume fantastique et noire et blanche du culte Curtis.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "source_label": "S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013",
+      "source_short_title": "Leonard Nevarez, How Joy Division Came to Sound Like Manchester: Myth and Ways of Listening in the Neoliberal City, 2013",
+      "source_year": "2013"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "JD-SONG-051",
+    "file": "registers/songs/51_the_kill_warsaw_canonical.md",
+    "heading": "The Kill (Warsaw) — entrée canonique distincte",
+    "data": {
+      "id": "JD-SONG-051",
+      "type_unite": "song",
+      "canonical_song": true,
+      "song": "The Kill (Warsaw)",
+      "slug": "the-kill-warsaw",
+      "category": "Warsaw / pré-Joy Division",
+      "period": "Warsaw",
+      "status": "canonique distinct",
+      "albums": [
+        "Warsaw / early corpus"
+      ],
+      "aliases": [
+        "The Kill (Warsaw)",
+        "Kill (Warsaw)"
+      ],
+      "include_variants": [
+        "Warsaw",
+        "manuscript",
+        "lyrics_divergence"
+      ],
+      "exclude": false,
+      "separate_from": "JD-SONG-030 — The Kill (Still)"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "NO_ID::registers/songs/master_songs.md::7311",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Structure normalisée d’une chanson",
+    "data": {
+      "song": null,
+      "type": [
+        "studio",
+        "live",
+        "demo",
+        "unreleased"
+      ],
+      "period": null,
+      "writers": null,
+      "themes": null,
+      "keywords": null,
+      "production": null,
+      "live_history": null,
+      "lyrics": null,
+      "sources": null,
+      "related_atoms": null,
+      "related_quotes": null,
+      "chapters": null,
+      "certainty": [
+        "strong",
+        "medium",
+        "weak"
+      ],
+      "contradictions": null,
+      "notes": null
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Transmission",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Transmission",
+    "data": {
+      "song": "Transmission",
+      "type": [
+        "studio",
+        "live"
+      ],
+      "period": "1978-1979",
+      "writers": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Ian Curtis",
+        "Stephen Morris"
+      ],
+      "themes": [
+        "communication",
+        "isolement",
+        "circulation culturelle",
+        "radio",
+        "répétition"
+      ],
+      "keywords": [
+        "dance",
+        "radio",
+        "voice",
+        "movement",
+        "control"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "label": [
+          "Factory Records"
+        ],
+        "sound_characteristics": [
+          "batterie spatialisée",
+          "basse motrice",
+          "guitare minimale",
+          "tension répétitive"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Mayflower Club",
+          "Paradiso"
+        ],
+        "observations": [
+          "chanson centrale du basculement live du groupe"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "Dance, dance, dance, dance, dance to the radio"
+        ],
+        "recurring_motifs": [
+          "transmission",
+          "répétition",
+          "communication vide"
+        ]
+      },
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "related_atoms": [
+        "S41-055",
+        "S41-Q004",
+        "S45-011"
+      ],
+      "related_quotes": [
+        "S41-Q004"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 9",
+        "Chapitre 11"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "statut exact comme première grande chanson Joy Division selon les membres"
+      ],
+      "notes": "« Transmission » constitue probablement le premier morceau où le groupe perçoit collectivement la singularité de son identité sonore."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "She's Lost Control",
+    "file": "registers/songs/master_songs.md",
+    "heading": "She's Lost Control",
+    "data": {
+      "song": "She's Lost Control",
+      "type": [
+        "studio",
+        "live"
+      ],
+      "period": "1978-1979",
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "épilepsie",
+        "perte de contrôle",
+        "corps",
+        "observation clinique",
+        "dissociation"
+      ],
+      "keywords": [
+        "control",
+        "seizure",
+        "body",
+        "repetition"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "sound_characteristics": [
+          "percussion mécanique",
+          "froideur clinique",
+          "espace sonore vide"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Eindhoven",
+          "Rainbow Theatre"
+        ],
+        "observations": [
+          "réception souvent ambiguë du public face aux mouvements de Curtis"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "She's lost control again"
+        ],
+        "recurring_motifs": [
+          "répétition",
+          "perte corporelle",
+          "détachement"
+        ]
+      },
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "related_atoms": [
+        "S45-019",
+        "S45-025",
+        "S41-136"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "lien exact entre expérience personnelle et personnage de la chanson"
+      ],
+      "notes": "La chanson oscille entre observation extérieure et expérience intime de la perte de contrôle."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Disorder",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Disorder",
+    "data": {
+      "song": "Disorder",
+      "type": [
+        "studio",
+        "live"
+      ],
+      "period": "1978-1979",
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "désorientation",
+        "jeunesse",
+        "énergie nerveuse",
+        "mouvement",
+        "confusion existentielle"
+      ],
+      "keywords": [
+        "disorder",
+        "speed",
+        "confusion",
+        "youth"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "sound_characteristics": [
+          "ouverture explosive",
+          "batterie réverbérée",
+          "guitare scintillante"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Factory concerts"
+        ],
+        "observations": [
+          "morceau d’ouverture emblématique"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "I've been waiting for a guide to come and take me by the hand"
+        ],
+        "recurring_motifs": [
+          "perte de direction",
+          "recherche de sens"
+        ]
+      },
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "related_atoms": [
+        "S41-096",
+        "S45-018"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "interprétation politique ou existentielle du texte"
+      ],
+      "notes": "« Disorder » agit comme manifeste d’ouverture de Unknown Pleasures."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Love Will Tear Us Apart",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Love Will Tear Us Apart",
+    "data": {
+      "song": "Love Will Tear Us Apart",
+      "type": [
+        "studio",
+        "live"
+      ],
+      "period": "1979-1980",
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "désagrégation conjugale",
+        "intimité",
+        "répétition affective",
+        "impossibilité relationnelle"
+      ],
+      "keywords": [
+        "love",
+        "separation",
+        "routine",
+        "silence"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "sound_characteristics": [
+          "mélodie lumineuse",
+          "tension émotionnelle",
+          "contraste texte/musique"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Eindhoven",
+          "Birmingham University"
+        ],
+        "observations": [
+          "devient rapidement chanson emblématique du groupe"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "Love will tear us apart again"
+        ],
+        "recurring_motifs": [
+          "séparation",
+          "répétition",
+          "usure émotionnelle"
+        ]
+      },
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "related_atoms": [
+        "S45-027",
+        "S45-037",
+        "S45-042"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "réduction autobiographique systématique de la chanson"
+      ],
+      "notes": "La chanson ne doit pas être réduite à une simple transcription documentaire du couple Curtis."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Atmosphere",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Atmosphere",
+    "data": {
+      "song": "Atmosphere",
+      "type": [
+        "studio"
+      ],
+      "period": "1979-1980",
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "disparition",
+        "transcendance",
+        "isolement",
+        "gravité"
+      ],
+      "keywords": [
+        "silence",
+        "atmosphere",
+        "absence",
+        "elevation"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "sound_characteristics": [
+          "lenteur cérémonielle",
+          "synthétiseurs étendus",
+          "espace spectral"
+        ]
+      },
+      "live_history": {
+        "important_performances": [],
+        "observations": [
+          "chanson progressivement sacralisée après la mort de Curtis"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "Walk in silence"
+        ],
+        "recurring_motifs": [
+          "silence",
+          "disparition",
+          "suspension"
+        ]
+      },
+      "sources": [
+        "S41"
+      ],
+      "related_atoms": [
+        "S41-149"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "lecture posthume téléologique de la chanson"
+      ],
+      "notes": "« Atmosphere » devient progressivement un lieu de mémoire collectif autour de Joy Division."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Decades",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Decades",
+    "data": {
+      "song": "Decades",
+      "type": [
+        "studio",
+        "live"
+      ],
+      "period": 1980,
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "mémoire",
+        "génération",
+        "perte",
+        "temps historique"
+      ],
+      "keywords": [
+        "decades",
+        "youth",
+        "crisis",
+        "memory"
+      ],
+      "production": {
+        "producer": [
+          "Martin Hannett"
+        ],
+        "sound_characteristics": [
+          "synthétiseurs enveloppants",
+          "lenteur dramatique",
+          "voix distante"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Birmingham University"
+        ],
+        "observations": [
+          "souvent interprétée comme clôture symbolique du groupe"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "Where have they been?"
+        ],
+        "recurring_motifs": [
+          "disparition générationnelle",
+          "mémoire",
+          "désillusion"
+        ]
+      },
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "related_atoms": [
+        "S41-143",
+        "S45-031"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "interprétation politique versus existentielle"
+      ],
+      "notes": "« Decades » fonctionne comme méditation terminale sur une génération perdue."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "Ceremony",
+    "file": "registers/songs/master_songs.md",
+    "heading": "Ceremony",
+    "data": {
+      "song": "Ceremony",
+      "type": [
+        "live",
+        "posthumous"
+      ],
+      "period": 1980,
+      "writers": [
+        "Joy Division"
+      ],
+      "themes": [
+        "transition",
+        "disparition",
+        "passage",
+        "continuité"
+      ],
+      "keywords": [
+        "ceremony",
+        "inheritance",
+        "transition"
+      ],
+      "production": {
+        "producer": [
+          "New Order period"
+        ],
+        "sound_characteristics": [
+          "transition stylistique",
+          "tension entre Joy Division et New Order"
+        ]
+      },
+      "live_history": {
+        "important_performances": [
+          "Birmingham University"
+        ],
+        "observations": [
+          "morceau-charnière entre les deux groupes"
+        ]
+      },
+      "lyrics": {
+        "notable_lines": [
+          "This is why events unnerve me"
+        ],
+        "recurring_motifs": [
+          "passage",
+          "désorientation",
+          "continuité brisée"
+        ]
+      },
+      "sources": [
+        "S41"
+      ],
+      "related_atoms": [
+        "S41-143",
+        "S41-Q009"
+      ],
+      "related_quotes": [
+        "S41-Q009"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "statut exact du morceau comme chanson Joy Division ou New Order"
+      ],
+      "notes": "« Ceremony » constitue l’un des principaux points de passage entre les deux groupes."
+    }
+  },
+  {
+    "kind": "song",
     "id": "SONG-S29-001",
     "file": "registers/songs/s29_goddard_songs.md",
     "heading": "SONG-S29-001 — « Dead Souls »",
@@ -1264,6 +1918,250 @@
       "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
       "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
       "source_year": "2018"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-001",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-001 — « Shadowplay »",
+    "data": {
+      "id": "SONG-S34-001",
+      "type_unite": "song",
+      "song": "Shadowplay",
+      "titre_fr": "« Shadowplay »",
+      "source_id": "S34",
+      "fonction_s34": "Chanson lue comme point de convergence entre texte urbain, performance télévisée Granada Reports et projection d’images de ville.\n",
+      "usage": [
+        "Granada Reports",
+        "centre-ville nocturne",
+        "ville comme image"
+      ],
+      "related_atoms": [
+        "S34-A006"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-002"
+      ],
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "certainty": "strong",
+      "notes": "Archive Granada et citations de paroles à vérifier avant usage manuscrit.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-002",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-002 — « Interzone »",
+    "data": {
+      "id": "SONG-S34-002",
+      "type_unite": "song",
+      "song": "Interzone",
+      "titre_fr": "« Interzone »",
+      "source_id": "S34",
+      "fonction_s34": "Chanson lue comme errance urbaine, fuite impossible et forme vocale de la surstimulation métropolitaine.\n",
+      "usage": [
+        "marche urbaine",
+        "superposition vocale",
+        "Simmel"
+      ],
+      "related_atoms": [
+        "S34-A007"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-002"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "certainty": "strong",
+      "notes": "Ne pas réduire la chanson à son thème urbain ; limiter les citations de paroles.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-003",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-003 — « Transmission »",
+    "data": {
+      "id": "SONG-S34-003",
+      "type_unite": "song",
+      "song": "Transmission",
+      "titre_fr": "« Transmission »",
+      "source_id": "S34",
+      "fonction_s34": "Chanson lue comme danse urbaine : radio, répétition, mouvement collectif et énergie située dans la ville moderne.\n",
+      "usage": [
+        "danse",
+        "radio",
+        "sidewalk ballet"
+      ],
+      "related_atoms": [
+        "S34-A009",
+        "S34-A012"
+      ],
+      "related_motifs": [
+        "MOTIF-S34-004"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "notes": "À croiser avec S13 pour les usages du corps et de la danse.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-004",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-004 — « Disorder »",
+    "data": {
+      "id": "SONG-S34-004",
+      "type_unite": "song",
+      "song": "Disorder",
+      "titre_fr": "« Disorder »",
+      "source_id": "S34",
+      "fonction_s34": "Exemple mobilisé pour penser reverb, lumières, bruit, accidents et autonomie relative des instruments comme forme d’aliénation urbaine.\n",
+      "usage": [
+        "espace sonore",
+        "aliénation",
+        "instruments séparés"
+      ],
+      "related_atoms": [
+        "S34-A008"
+      ],
+      "related_motifs": [
+        "MOTIF-S34-003"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "notes": "À croiser avec S72 et S75 pour l’analyse sonore.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-005",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-005 — « Dead Souls »",
+    "data": {
+      "id": "SONG-S34-005",
+      "type_unite": "song",
+      "song": "Dead Souls",
+      "titre_fr": "« Dead Souls »",
+      "source_id": "S34",
+      "fonction_s34": "Exemple d’autonomie instrumentale et d’espace sonore séparé ; dans S34, le titre est utilisé pour la logique formelle de l’aliénation plus que pour l’hantologie.\n",
+      "usage": [
+        "espace sonore",
+        "instruments séparés",
+        "aliénation urbaine"
+      ],
+      "related_atoms": [
+        "S34-A008"
+      ],
+      "related_motifs": [
+        "MOTIF-S34-003"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "notes": "À distinguer de l’usage hauntologique de S29.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-006",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-006 — « Atmosphere »",
+    "data": {
+      "id": "SONG-S34-006",
+      "type_unite": "song",
+      "song": "Atmosphere",
+      "titre_fr": "« Atmosphere »",
+      "source_id": "S34",
+      "fonction_s34": "Chanson lue comme contraste entre mélodie funèbre, marche, silence et échappée hors de la dureté urbaine.\n",
+      "usage": [
+        "marche",
+        "ville",
+        "mélodie funèbre"
+      ],
+      "related_atoms": [
+        "S34-A009"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "notes": "Usage secondaire dans S34 ; ne pas surcharger le titre.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S34-007",
+    "file": "registers/songs/s34_fraser_fuoto_songs.md",
+    "heading": "SONG-S34-007 — « I Remember Nothing »",
+    "data": {
+      "id": "SONG-S34-007",
+      "type_unite": "song",
+      "song": "I Remember Nothing",
+      "titre_fr": "« I Remember Nothing »",
+      "source_id": "S34",
+      "fonction_s34": "Titre mobilisé pour le motif de l’étrangeté relationnelle et du défaut de connexion.\n",
+      "usage": [
+        "aliénation",
+        "séparation",
+        "Unknown Pleasures"
+      ],
+      "related_atoms": [
+        "S34-A008"
+      ],
+      "related_motifs": [
+        "MOTIF-S34-003"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "notes": "Paroles à limiter strictement.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
     }
   },
   {
@@ -1561,6 +2459,322 @@
         "risque de psychologiser Curtis à partir d'un texte très précoce"
       ],
       "notes": "Utile pour éviter l'idéalisation rétrospective de toutes les paroles de Curtis."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-007",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-007 — « Interzone »",
+    "data": {
+      "id": "SONG-S75-007",
+      "type_unite": "song",
+      "song": "Interzone",
+      "titre_fr": "« Interzone »",
+      "source_id": "S75",
+      "fonction_s75": "Chez Ott, « Interzone » dérive partiellement de la contrainte absurde de reprise de « Keep On Keepin’ On ».\n",
+      "usage": [
+        "contrainte productive",
+        "RCA",
+        "greffe soul/punk"
+      ],
+      "related_atoms": [
+        "S75-A022",
+        "S75-A025"
+      ],
+      "related_concepts": [
+        "CONCEPT-005"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "certainty": "medium",
+      "notes": "À utiliser comme exemple de détournement d'une commande commerciale.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-008",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-008 — « Ice Age »",
+    "data": {
+      "id": "SONG-S75-008",
+      "type_unite": "song",
+      "song": "Ice Age",
+      "titre_fr": "« Ice Age »",
+      "source_id": "S75",
+      "fonction_s75": "Ott fait de « Ice Age » un exemple précoce de l'effet Morris : tempos nerveux, toms et transformation des progressions basiques.\n",
+      "usage": [
+        "Stephen Morris",
+        "architecture sonore",
+        "RCA demos"
+      ],
+      "related_atoms": [
+        "S75-A025"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3"
+      ],
+      "certainty": "medium",
+      "notes": "Entrée utile pour l'analyse du rôle rythmique dans la maturation du son.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-009",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-009 — « Shadowplay »",
+    "data": {
+      "id": "SONG-S75-009",
+      "type_unite": "song",
+      "song": "Shadowplay",
+      "titre_fr": "« Shadowplay »",
+      "source_id": "S75",
+      "fonction_s75": "Le passage mobilise « Shadowplay » comme morceau metal-influenced, comme captation Granada TV, puis comme exemple amélioré par Hannett.\n",
+      "usage": [
+        "RCA demos",
+        "Granada TV",
+        "Hannett",
+        "imagerie industrielle"
+      ],
+      "related_atoms": [
+        "S75-A025",
+        "S75-A028"
+      ],
+      "related_myths": [
+        "MYTH-003"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "notes": "Sert à relier chanson, ville filmée et risque de cliché industriel.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-010",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-010 — « Digital »",
+    "data": {
+      "id": "SONG-S75-010",
+      "type_unite": "song",
+      "song": "Digital",
+      "titre_fr": "« Digital »",
+      "source_id": "S75",
+      "fonction_s75": "« Digital » marque chez Ott un premier seuil Hannett : basse de Hook, batterie binaire de Morris, reverb et delay vocal.\n",
+      "usage": [
+        "A Factory Sample",
+        "Hannett",
+        "architecture sonore"
+      ],
+      "related_atoms": [
+        "S75-A029",
+        "S75-A033"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "related_myths": [
+        "MYTH-004"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "notes": "Entrée centrale pour le passage du son Warsaw à une organisation post-punk plus identifiable.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-011",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-011 — « Glass »",
+    "data": {
+      "id": "SONG-S75-011",
+      "type_unite": "song",
+      "song": "Glass",
+      "titre_fr": "« Glass »",
+      "source_id": "S75",
+      "fonction_s75": "Ott fait de « Glass » un pont entre la matière brute de Warsaw et le son monolithique d’*Unknown Pleasures*.\n",
+      "usage": [
+        "Hannett",
+        "delay",
+        "bridge track"
+      ],
+      "related_atoms": [
+        "S75-A029",
+        "S75-A035"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "related_myths": [
+        "MYTH-004"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "notes": "À manier avec la nuance Hook : Hannett intervient sans écrire les morceaux.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-012",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-012 — « Transmission »",
+    "data": {
+      "id": "SONG-S75-012",
+      "type_unite": "song",
+      "song": "Transmission",
+      "titre_fr": "« Transmission »",
+      "source_id": "S75",
+      "fonction_s75": "Ott lit « Transmission » comme un morceau presque accessible, grave et communicable, au croisement du post-punk et de la chanson.\n",
+      "usage": [
+        "Peel Session",
+        "communication post-punk",
+        "single futur"
+      ],
+      "related_atoms": [
+        "S75-A025",
+        "S75-A033",
+        "S75-A034"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "certainty": "strong",
+      "notes": "Entrée structurante pour éviter de réduire Joy Division à la seule obscurité.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-013",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-013 — « Exercise One »",
+    "data": {
+      "id": "SONG-S75-013",
+      "type_unite": "song",
+      "song": "Exercise One",
+      "titre_fr": "« Exercise One »",
+      "source_id": "S75",
+      "fonction_s75": "Ott analyse « Exercise One » comme morceau fort textuellement mais compositionnellement faible, finalement écarté d’*Unknown Pleasures*.\n",
+      "usage": [
+        "Peel Session",
+        "sélection album",
+        "texte de Curtis"
+      ],
+      "related_atoms": [
+        "S75-A033"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "notes": "Sert à penser le choix de l’album par retranchement, non par accumulation.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-014",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-014 — « Insight »",
+    "data": {
+      "id": "SONG-S75-014",
+      "type_unite": "song",
+      "song": "Insight",
+      "titre_fr": "« Insight »",
+      "source_id": "S75",
+      "fonction_s75": "« Insight » apparaît dans la Peel Session puis dans les Genetic Demos comme matériau en voie de stabilisation avant l’album.\n",
+      "usage": [
+        "Peel Session",
+        "Genetic Demos",
+        "Unknown Pleasures"
+      ],
+      "related_atoms": [
+        "S75-A033",
+        "S75-A035"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "notes": "Entrée utile pour suivre les versions successives avant *Unknown Pleasures*.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-015",
+    "file": "registers/songs/s75_ott_songs_part_02.md",
+    "heading": "SONG-S75-015 — « She’s Lost Control »",
+    "data": {
+      "id": "SONG-S75-015",
+      "type_unite": "song",
+      "song": "She’s Lost Control",
+      "titre_fr": "« She’s Lost Control »",
+      "source_id": "S75",
+      "fonction_s75": "Ott présente la Peel Session comme l'un des premiers accès extérieurs à « She’s Lost Control », futur titre majeur du groupe.\n",
+      "usage": [
+        "Peel Session",
+        "electronic drum pad",
+        "futur single"
+      ],
+      "related_atoms": [
+        "S75-A033"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "notes": "À relier plus tard aux passages sur l’épilepsie et à l’analyse des paroles.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
     }
   },
   {
@@ -2210,1220 +3424,6 @@
       "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
       "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
       "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "JD-SONG-051",
-    "file": "registers/songs/51_the_kill_warsaw_canonical.md",
-    "heading": "The Kill (Warsaw) — entrée canonique distincte",
-    "data": {
-      "id": "JD-SONG-051",
-      "type_unite": "song",
-      "canonical_song": true,
-      "song": "The Kill (Warsaw)",
-      "slug": "the-kill-warsaw",
-      "category": "Warsaw / pré-Joy Division",
-      "period": "Warsaw",
-      "status": "canonique distinct",
-      "albums": [
-        "Warsaw / early corpus"
-      ],
-      "aliases": [
-        "The Kill (Warsaw)",
-        "Kill (Warsaw)"
-      ],
-      "include_variants": [
-        "Warsaw",
-        "manuscript",
-        "lyrics_divergence"
-      ],
-      "exclude": false,
-      "separate_from": "JD-SONG-030 — The Kill (Still)"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-007",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-007 — « Interzone »",
-    "data": {
-      "id": "SONG-S75-007",
-      "type_unite": "song",
-      "song": "Interzone",
-      "titre_fr": "« Interzone »",
-      "source_id": "S75",
-      "fonction_s75": "Chez Ott, « Interzone » dérive partiellement de la contrainte absurde de reprise de « Keep On Keepin’ On ».\n",
-      "usage": [
-        "contrainte productive",
-        "RCA",
-        "greffe soul/punk"
-      ],
-      "related_atoms": [
-        "S75-A022",
-        "S75-A025"
-      ],
-      "related_concepts": [
-        "CONCEPT-005"
-      ],
-      "chapters": [
-        "Chapitre 2",
-        "Chapitre 3"
-      ],
-      "certainty": "medium",
-      "notes": "À utiliser comme exemple de détournement d'une commande commerciale.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-008",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-008 — « Ice Age »",
-    "data": {
-      "id": "SONG-S75-008",
-      "type_unite": "song",
-      "song": "Ice Age",
-      "titre_fr": "« Ice Age »",
-      "source_id": "S75",
-      "fonction_s75": "Ott fait de « Ice Age » un exemple précoce de l'effet Morris : tempos nerveux, toms et transformation des progressions basiques.\n",
-      "usage": [
-        "Stephen Morris",
-        "architecture sonore",
-        "RCA demos"
-      ],
-      "related_atoms": [
-        "S75-A025"
-      ],
-      "related_concepts": [
-        "CONCEPT-006"
-      ],
-      "chapters": [
-        "Chapitre 3"
-      ],
-      "certainty": "medium",
-      "notes": "Entrée utile pour l'analyse du rôle rythmique dans la maturation du son.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-009",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-009 — « Shadowplay »",
-    "data": {
-      "id": "SONG-S75-009",
-      "type_unite": "song",
-      "song": "Shadowplay",
-      "titre_fr": "« Shadowplay »",
-      "source_id": "S75",
-      "fonction_s75": "Le passage mobilise « Shadowplay » comme morceau metal-influenced, comme captation Granada TV, puis comme exemple amélioré par Hannett.\n",
-      "usage": [
-        "RCA demos",
-        "Granada TV",
-        "Hannett",
-        "imagerie industrielle"
-      ],
-      "related_atoms": [
-        "S75-A025",
-        "S75-A028"
-      ],
-      "related_myths": [
-        "MYTH-003"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 5",
-        "Chapitre 13"
-      ],
-      "certainty": "medium",
-      "notes": "Sert à relier chanson, ville filmée et risque de cliché industriel.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-010",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-010 — « Digital »",
-    "data": {
-      "id": "SONG-S75-010",
-      "type_unite": "song",
-      "song": "Digital",
-      "titre_fr": "« Digital »",
-      "source_id": "S75",
-      "fonction_s75": "« Digital » marque chez Ott un premier seuil Hannett : basse de Hook, batterie binaire de Morris, reverb et delay vocal.\n",
-      "usage": [
-        "A Factory Sample",
-        "Hannett",
-        "architecture sonore"
-      ],
-      "related_atoms": [
-        "S75-A029",
-        "S75-A033"
-      ],
-      "related_concepts": [
-        "CONCEPT-006"
-      ],
-      "related_myths": [
-        "MYTH-004"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 6"
-      ],
-      "certainty": "strong",
-      "notes": "Entrée centrale pour le passage du son Warsaw à une organisation post-punk plus identifiable.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-011",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-011 — « Glass »",
-    "data": {
-      "id": "SONG-S75-011",
-      "type_unite": "song",
-      "song": "Glass",
-      "titre_fr": "« Glass »",
-      "source_id": "S75",
-      "fonction_s75": "Ott fait de « Glass » un pont entre la matière brute de Warsaw et le son monolithique d’*Unknown Pleasures*.\n",
-      "usage": [
-        "Hannett",
-        "delay",
-        "bridge track"
-      ],
-      "related_atoms": [
-        "S75-A029",
-        "S75-A035"
-      ],
-      "related_concepts": [
-        "CONCEPT-006"
-      ],
-      "related_myths": [
-        "MYTH-004"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 6"
-      ],
-      "certainty": "strong",
-      "notes": "À manier avec la nuance Hook : Hannett intervient sans écrire les morceaux.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-012",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-012 — « Transmission »",
-    "data": {
-      "id": "SONG-S75-012",
-      "type_unite": "song",
-      "song": "Transmission",
-      "titre_fr": "« Transmission »",
-      "source_id": "S75",
-      "fonction_s75": "Ott lit « Transmission » comme un morceau presque accessible, grave et communicable, au croisement du post-punk et de la chanson.\n",
-      "usage": [
-        "Peel Session",
-        "communication post-punk",
-        "single futur"
-      ],
-      "related_atoms": [
-        "S75-A025",
-        "S75-A033",
-        "S75-A034"
-      ],
-      "related_concepts": [
-        "CONCEPT-006"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 11"
-      ],
-      "certainty": "strong",
-      "notes": "Entrée structurante pour éviter de réduire Joy Division à la seule obscurité.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-013",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-013 — « Exercise One »",
-    "data": {
-      "id": "SONG-S75-013",
-      "type_unite": "song",
-      "song": "Exercise One",
-      "titre_fr": "« Exercise One »",
-      "source_id": "S75",
-      "fonction_s75": "Ott analyse « Exercise One » comme morceau fort textuellement mais compositionnellement faible, finalement écarté d’*Unknown Pleasures*.\n",
-      "usage": [
-        "Peel Session",
-        "sélection album",
-        "texte de Curtis"
-      ],
-      "related_atoms": [
-        "S75-A033"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 4"
-      ],
-      "certainty": "medium",
-      "notes": "Sert à penser le choix de l’album par retranchement, non par accumulation.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-014",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-014 — « Insight »",
-    "data": {
-      "id": "SONG-S75-014",
-      "type_unite": "song",
-      "song": "Insight",
-      "titre_fr": "« Insight »",
-      "source_id": "S75",
-      "fonction_s75": "« Insight » apparaît dans la Peel Session puis dans les Genetic Demos comme matériau en voie de stabilisation avant l’album.\n",
-      "usage": [
-        "Peel Session",
-        "Genetic Demos",
-        "Unknown Pleasures"
-      ],
-      "related_atoms": [
-        "S75-A033",
-        "S75-A035"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 6"
-      ],
-      "certainty": "medium",
-      "notes": "Entrée utile pour suivre les versions successives avant *Unknown Pleasures*.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S75-015",
-    "file": "registers/songs/s75_ott_songs_part_02.md",
-    "heading": "SONG-S75-015 — « She’s Lost Control »",
-    "data": {
-      "id": "SONG-S75-015",
-      "type_unite": "song",
-      "song": "She’s Lost Control",
-      "titre_fr": "« She’s Lost Control »",
-      "source_id": "S75",
-      "fonction_s75": "Ott présente la Peel Session comme l'un des premiers accès extérieurs à « She’s Lost Control », futur titre majeur du groupe.\n",
-      "usage": [
-        "Peel Session",
-        "electronic drum pad",
-        "futur single"
-      ],
-      "related_atoms": [
-        "S75-A033"
-      ],
-      "related_concepts": [
-        "CONCEPT-006"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 4",
-        "Chapitre 12"
-      ],
-      "certainty": "medium",
-      "notes": "À relier plus tard aux passages sur l’épilepsie et à l’analyse des paroles.",
-      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
-      "source_year": "2004"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-001",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-001 — « Shadowplay »",
-    "data": {
-      "id": "SONG-S34-001",
-      "type_unite": "song",
-      "song": "Shadowplay",
-      "titre_fr": "« Shadowplay »",
-      "source_id": "S34",
-      "fonction_s34": "Chanson lue comme point de convergence entre texte urbain, performance télévisée Granada Reports et projection d’images de ville.\n",
-      "usage": [
-        "Granada Reports",
-        "centre-ville nocturne",
-        "ville comme image"
-      ],
-      "related_atoms": [
-        "S34-A006"
-      ],
-      "related_concepts": [
-        "CONCEPT-S34-002"
-      ],
-      "chapters": [
-        "Chapitre 1",
-        "Chapitre 3",
-        "Chapitre 13"
-      ],
-      "certainty": "strong",
-      "notes": "Archive Granada et citations de paroles à vérifier avant usage manuscrit.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-002",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-002 — « Interzone »",
-    "data": {
-      "id": "SONG-S34-002",
-      "type_unite": "song",
-      "song": "Interzone",
-      "titre_fr": "« Interzone »",
-      "source_id": "S34",
-      "fonction_s34": "Chanson lue comme errance urbaine, fuite impossible et forme vocale de la surstimulation métropolitaine.\n",
-      "usage": [
-        "marche urbaine",
-        "superposition vocale",
-        "Simmel"
-      ],
-      "related_atoms": [
-        "S34-A007"
-      ],
-      "related_concepts": [
-        "CONCEPT-S34-002"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 13"
-      ],
-      "certainty": "strong",
-      "notes": "Ne pas réduire la chanson à son thème urbain ; limiter les citations de paroles.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-003",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-003 — « Transmission »",
-    "data": {
-      "id": "SONG-S34-003",
-      "type_unite": "song",
-      "song": "Transmission",
-      "titre_fr": "« Transmission »",
-      "source_id": "S34",
-      "fonction_s34": "Chanson lue comme danse urbaine : radio, répétition, mouvement collectif et énergie située dans la ville moderne.\n",
-      "usage": [
-        "danse",
-        "radio",
-        "sidewalk ballet"
-      ],
-      "related_atoms": [
-        "S34-A009",
-        "S34-A012"
-      ],
-      "related_motifs": [
-        "MOTIF-S34-004"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 13",
-        "Chapitre 14"
-      ],
-      "certainty": "strong",
-      "notes": "À croiser avec S13 pour les usages du corps et de la danse.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-004",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-004 — « Disorder »",
-    "data": {
-      "id": "SONG-S34-004",
-      "type_unite": "song",
-      "song": "Disorder",
-      "titre_fr": "« Disorder »",
-      "source_id": "S34",
-      "fonction_s34": "Exemple mobilisé pour penser reverb, lumières, bruit, accidents et autonomie relative des instruments comme forme d’aliénation urbaine.\n",
-      "usage": [
-        "espace sonore",
-        "aliénation",
-        "instruments séparés"
-      ],
-      "related_atoms": [
-        "S34-A008"
-      ],
-      "related_motifs": [
-        "MOTIF-S34-003"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 6",
-        "Chapitre 13"
-      ],
-      "certainty": "medium",
-      "notes": "À croiser avec S72 et S75 pour l’analyse sonore.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-005",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-005 — « Dead Souls »",
-    "data": {
-      "id": "SONG-S34-005",
-      "type_unite": "song",
-      "song": "Dead Souls",
-      "titre_fr": "« Dead Souls »",
-      "source_id": "S34",
-      "fonction_s34": "Exemple d’autonomie instrumentale et d’espace sonore séparé ; dans S34, le titre est utilisé pour la logique formelle de l’aliénation plus que pour l’hantologie.\n",
-      "usage": [
-        "espace sonore",
-        "instruments séparés",
-        "aliénation urbaine"
-      ],
-      "related_atoms": [
-        "S34-A008"
-      ],
-      "related_motifs": [
-        "MOTIF-S34-003"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 13"
-      ],
-      "certainty": "medium",
-      "notes": "À distinguer de l’usage hauntologique de S29.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-006",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-006 — « Atmosphere »",
-    "data": {
-      "id": "SONG-S34-006",
-      "type_unite": "song",
-      "song": "Atmosphere",
-      "titre_fr": "« Atmosphere »",
-      "source_id": "S34",
-      "fonction_s34": "Chanson lue comme contraste entre mélodie funèbre, marche, silence et échappée hors de la dureté urbaine.\n",
-      "usage": [
-        "marche",
-        "ville",
-        "mélodie funèbre"
-      ],
-      "related_atoms": [
-        "S34-A009"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 13"
-      ],
-      "certainty": "medium",
-      "notes": "Usage secondaire dans S34 ; ne pas surcharger le titre.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "SONG-S34-007",
-    "file": "registers/songs/s34_fraser_fuoto_songs.md",
-    "heading": "SONG-S34-007 — « I Remember Nothing »",
-    "data": {
-      "id": "SONG-S34-007",
-      "type_unite": "song",
-      "song": "I Remember Nothing",
-      "titre_fr": "« I Remember Nothing »",
-      "source_id": "S34",
-      "fonction_s34": "Titre mobilisé pour le motif de l’étrangeté relationnelle et du défaut de connexion.\n",
-      "usage": [
-        "aliénation",
-        "séparation",
-        "Unknown Pleasures"
-      ],
-      "related_atoms": [
-        "S34-A008"
-      ],
-      "related_motifs": [
-        "MOTIF-S34-003"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 6",
-        "Chapitre 13"
-      ],
-      "certainty": "medium",
-      "notes": "Paroles à limiter strictement.",
-      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
-      "source_year": "2012"
-    }
-  },
-  {
-    "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::5600",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Structure normalisée d’une chanson",
-    "data": {
-      "song": null,
-      "type": [
-        "studio",
-        "live",
-        "demo",
-        "unreleased"
-      ],
-      "period": null,
-      "writers": null,
-      "themes": null,
-      "keywords": null,
-      "production": null,
-      "live_history": null,
-      "lyrics": null,
-      "sources": null,
-      "related_atoms": null,
-      "related_quotes": null,
-      "chapters": null,
-      "certainty": [
-        "strong",
-        "medium",
-        "weak"
-      ],
-      "contradictions": null,
-      "notes": null
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Transmission",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Transmission",
-    "data": {
-      "song": "Transmission",
-      "type": [
-        "studio",
-        "live"
-      ],
-      "period": "1978-1979",
-      "writers": [
-        "Bernard Sumner",
-        "Peter Hook",
-        "Ian Curtis",
-        "Stephen Morris"
-      ],
-      "themes": [
-        "communication",
-        "isolement",
-        "circulation culturelle",
-        "radio",
-        "répétition"
-      ],
-      "keywords": [
-        "dance",
-        "radio",
-        "voice",
-        "movement",
-        "control"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "label": [
-          "Factory Records"
-        ],
-        "sound_characteristics": [
-          "batterie spatialisée",
-          "basse motrice",
-          "guitare minimale",
-          "tension répétitive"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Mayflower Club",
-          "Paradiso"
-        ],
-        "observations": [
-          "chanson centrale du basculement live du groupe"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "Dance, dance, dance, dance, dance to the radio"
-        ],
-        "recurring_motifs": [
-          "transmission",
-          "répétition",
-          "communication vide"
-        ]
-      },
-      "sources": [
-        "S41",
-        "S45"
-      ],
-      "related_atoms": [
-        "S41-055",
-        "S41-Q004",
-        "S45-011"
-      ],
-      "related_quotes": [
-        "S41-Q004"
-      ],
-      "chapters": [
-        "Chapitre 3",
-        "Chapitre 5",
-        "Chapitre 9",
-        "Chapitre 11"
-      ],
-      "certainty": "strong",
-      "contradictions": [
-        "statut exact comme première grande chanson Joy Division selon les membres"
-      ],
-      "notes": "« Transmission » constitue probablement le premier morceau où le groupe perçoit collectivement la singularité de son identité sonore."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "She's Lost Control",
-    "file": "registers/songs/master_songs.md",
-    "heading": "She's Lost Control",
-    "data": {
-      "song": "She's Lost Control",
-      "type": [
-        "studio",
-        "live"
-      ],
-      "period": "1978-1979",
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "épilepsie",
-        "perte de contrôle",
-        "corps",
-        "observation clinique",
-        "dissociation"
-      ],
-      "keywords": [
-        "control",
-        "seizure",
-        "body",
-        "repetition"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "sound_characteristics": [
-          "percussion mécanique",
-          "froideur clinique",
-          "espace sonore vide"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Eindhoven",
-          "Rainbow Theatre"
-        ],
-        "observations": [
-          "réception souvent ambiguë du public face aux mouvements de Curtis"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "She's lost control again"
-        ],
-        "recurring_motifs": [
-          "répétition",
-          "perte corporelle",
-          "détachement"
-        ]
-      },
-      "sources": [
-        "S41",
-        "S45"
-      ],
-      "related_atoms": [
-        "S45-019",
-        "S45-025",
-        "S41-136"
-      ],
-      "related_quotes": [],
-      "chapters": [
-        "Chapitre 4",
-        "Chapitre 5",
-        "Chapitre 7",
-        "Chapitre 11",
-        "Chapitre 12"
-      ],
-      "certainty": "strong",
-      "contradictions": [
-        "lien exact entre expérience personnelle et personnage de la chanson"
-      ],
-      "notes": "La chanson oscille entre observation extérieure et expérience intime de la perte de contrôle."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Disorder",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Disorder",
-    "data": {
-      "song": "Disorder",
-      "type": [
-        "studio",
-        "live"
-      ],
-      "period": "1978-1979",
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "désorientation",
-        "jeunesse",
-        "énergie nerveuse",
-        "mouvement",
-        "confusion existentielle"
-      ],
-      "keywords": [
-        "disorder",
-        "speed",
-        "confusion",
-        "youth"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "sound_characteristics": [
-          "ouverture explosive",
-          "batterie réverbérée",
-          "guitare scintillante"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Factory concerts"
-        ],
-        "observations": [
-          "morceau d’ouverture emblématique"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "I've been waiting for a guide to come and take me by the hand"
-        ],
-        "recurring_motifs": [
-          "perte de direction",
-          "recherche de sens"
-        ]
-      },
-      "sources": [
-        "S41",
-        "S45"
-      ],
-      "related_atoms": [
-        "S41-096",
-        "S45-018"
-      ],
-      "related_quotes": [],
-      "chapters": [
-        "Chapitre 5",
-        "Chapitre 11"
-      ],
-      "certainty": "strong",
-      "contradictions": [
-        "interprétation politique ou existentielle du texte"
-      ],
-      "notes": "« Disorder » agit comme manifeste d’ouverture de Unknown Pleasures."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Love Will Tear Us Apart",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Love Will Tear Us Apart",
-    "data": {
-      "song": "Love Will Tear Us Apart",
-      "type": [
-        "studio",
-        "live"
-      ],
-      "period": "1979-1980",
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "désagrégation conjugale",
-        "intimité",
-        "répétition affective",
-        "impossibilité relationnelle"
-      ],
-      "keywords": [
-        "love",
-        "separation",
-        "routine",
-        "silence"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "sound_characteristics": [
-          "mélodie lumineuse",
-          "tension émotionnelle",
-          "contraste texte/musique"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Eindhoven",
-          "Birmingham University"
-        ],
-        "observations": [
-          "devient rapidement chanson emblématique du groupe"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "Love will tear us apart again"
-        ],
-        "recurring_motifs": [
-          "séparation",
-          "répétition",
-          "usure émotionnelle"
-        ]
-      },
-      "sources": [
-        "S41",
-        "S45"
-      ],
-      "related_atoms": [
-        "S45-027",
-        "S45-037",
-        "S45-042"
-      ],
-      "related_quotes": [],
-      "chapters": [
-        "Chapitre 4",
-        "Chapitre 6",
-        "Chapitre 10",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "certainty": "strong",
-      "contradictions": [
-        "réduction autobiographique systématique de la chanson"
-      ],
-      "notes": "La chanson ne doit pas être réduite à une simple transcription documentaire du couple Curtis."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Atmosphere",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Atmosphere",
-    "data": {
-      "song": "Atmosphere",
-      "type": [
-        "studio"
-      ],
-      "period": "1979-1980",
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "disparition",
-        "transcendance",
-        "isolement",
-        "gravité"
-      ],
-      "keywords": [
-        "silence",
-        "atmosphere",
-        "absence",
-        "elevation"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "sound_characteristics": [
-          "lenteur cérémonielle",
-          "synthétiseurs étendus",
-          "espace spectral"
-        ]
-      },
-      "live_history": {
-        "important_performances": [],
-        "observations": [
-          "chanson progressivement sacralisée après la mort de Curtis"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "Walk in silence"
-        ],
-        "recurring_motifs": [
-          "silence",
-          "disparition",
-          "suspension"
-        ]
-      },
-      "sources": [
-        "S41"
-      ],
-      "related_atoms": [
-        "S41-149"
-      ],
-      "related_quotes": [],
-      "chapters": [
-        "Chapitre 6",
-        "Chapitre 10",
-        "Chapitre 14"
-      ],
-      "certainty": "strong",
-      "contradictions": [
-        "lecture posthume téléologique de la chanson"
-      ],
-      "notes": "« Atmosphere » devient progressivement un lieu de mémoire collectif autour de Joy Division."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Decades",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Decades",
-    "data": {
-      "song": "Decades",
-      "type": [
-        "studio",
-        "live"
-      ],
-      "period": 1980,
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "mémoire",
-        "génération",
-        "perte",
-        "temps historique"
-      ],
-      "keywords": [
-        "decades",
-        "youth",
-        "crisis",
-        "memory"
-      ],
-      "production": {
-        "producer": [
-          "Martin Hannett"
-        ],
-        "sound_characteristics": [
-          "synthétiseurs enveloppants",
-          "lenteur dramatique",
-          "voix distante"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Birmingham University"
-        ],
-        "observations": [
-          "souvent interprétée comme clôture symbolique du groupe"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "Where have they been?"
-        ],
-        "recurring_motifs": [
-          "disparition générationnelle",
-          "mémoire",
-          "désillusion"
-        ]
-      },
-      "sources": [
-        "S41",
-        "S45"
-      ],
-      "related_atoms": [
-        "S41-143",
-        "S45-031"
-      ],
-      "related_quotes": [],
-      "chapters": [
-        "Chapitre 6",
-        "Chapitre 10",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "certainty": "medium",
-      "contradictions": [
-        "interprétation politique versus existentielle"
-      ],
-      "notes": "« Decades » fonctionne comme méditation terminale sur une génération perdue."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Ceremony",
-    "file": "registers/songs/master_songs.md",
-    "heading": "Ceremony",
-    "data": {
-      "song": "Ceremony",
-      "type": [
-        "live",
-        "posthumous"
-      ],
-      "period": 1980,
-      "writers": [
-        "Joy Division"
-      ],
-      "themes": [
-        "transition",
-        "disparition",
-        "passage",
-        "continuité"
-      ],
-      "keywords": [
-        "ceremony",
-        "inheritance",
-        "transition"
-      ],
-      "production": {
-        "producer": [
-          "New Order period"
-        ],
-        "sound_characteristics": [
-          "transition stylistique",
-          "tension entre Joy Division et New Order"
-        ]
-      },
-      "live_history": {
-        "important_performances": [
-          "Birmingham University"
-        ],
-        "observations": [
-          "morceau-charnière entre les deux groupes"
-        ]
-      },
-      "lyrics": {
-        "notable_lines": [
-          "This is why events unnerve me"
-        ],
-        "recurring_motifs": [
-          "passage",
-          "désorientation",
-          "continuité brisée"
-        ]
-      },
-      "sources": [
-        "S41"
-      ],
-      "related_atoms": [
-        "S41-143",
-        "S41-Q009"
-      ],
-      "related_quotes": [
-        "S41-Q009"
-      ],
-      "chapters": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ],
-      "certainty": "medium",
-      "contradictions": [
-        "statut exact du morceau comme chanson Joy Division ou New Order"
-      ],
-      "notes": "« Ceremony » constitue l’un des principaux points de passage entre les deux groupes."
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Unknown Pleasures",
-    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-    "heading": "Chansons / objets visuels",
-    "data": {
-      "song": "Unknown Pleasures",
-      "themes": [
-        "marque figurative",
-        "pochette",
-        "Peter Saville"
-      ],
-      "sources": [
-        "S61"
-      ],
-      "chapters": [
-        "Chapitre 5",
-        "Chapitre 14"
-      ]
-    }
-  },
-  {
-    "kind": "song",
-    "id": "Closer",
-    "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-    "heading": "Chansons / objets visuels",
-    "data": {
-      "song": "Closer",
-      "themes": [
-        "marque figurative",
-        "pochette",
-        "Peter Saville",
-        "Bernard Pierre Wolff"
-      ],
-      "sources": [
-        "S61"
-      ],
-      "chapters": [
-        "Chapitre 6",
-        "Chapitre 14"
-      ]
     }
   }
 ]

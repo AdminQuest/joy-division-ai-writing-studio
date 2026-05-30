@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:05:38"
+generated_at: "2026-05-30T11:44:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -357,37 +357,19 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ## 7. Citations disponibles
 
 - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
-- **S47-Q006** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « The contract was simply that all profits would be split fifty-fifty between Factory and the band. »
-- **S47-Q007** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « Factory and Joy Division are contenders. »
-- **S46-Q002** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « the spectacle of the alternative »
-- **S46-Q003** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « where Joy Division started »
-- **S46-Q004** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « designed, as opposed to decorated »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
-- **S85-Q003** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S85-Q004** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S85-Q005** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S53-Q004** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q005** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q013** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S51-Q004** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S78-Q005** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q010** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **S46-Q002** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « the spectacle of the alternative »
+- **S46-Q003** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « where Joy Division started »
+- **S46-Q004** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « designed, as opposed to decorated »
+- **S47-Q006** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « The contract was simply that all profits would be split fifty-fifty between Factory and the band. »
+- **S47-Q007** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « Factory and Joy Division are contenders. »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q103** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q105** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S88-Q005** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
-- **S88-Q006** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q033** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q034** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -396,70 +378,72 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q037** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
+- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q048** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q049** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q050** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q056** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
-- CHR-S50-1979-001 — Kevin Cummins photographie Joy Division à Manchester, près de Princess Parkway / Epping Walk Bridge, image que S50 rattache au canon visuel du groupe.
-- CHR-S53-1979-001 — Unknown Pleasures devient, dans la lecture de La Rocca, une image symbolique et un support d’attachement générationnel.
-- CHR-S78-1988-001 — Compilation Substance et clip Atmosphere de Corbijn, moment fort du culte visuel posthume de Ian Curtis.
-- CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
-- CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
-- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
-- CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
-- CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
-- CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
-- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
-- CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
-- CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
-- CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
-- CHR-S76-1979-008 — Joy Division joue deux concerts londoniens : retour au Hope & Anchor puis Marquee Club, Wardour Street, en support de The Cure.
-- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 - CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
+- CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
+- CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
+- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
+- CHR-S76-1977-007 — Warsaw joue avec Slaughter & The Dogs et V2 au Salford Technical College ; le concert est marqué par des violences et constitue probablement la première apparition de Martin Hannett devant le groupe.
+- CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
+- CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
+- CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
+- CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
+- CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
+- CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
+- CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
+- CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
+- CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
+- CHR-S76-1979-008 — Joy Division joue deux concerts londoniens : retour au Hope & Anchor puis Marquee Club, Wardour Street, en support de The Cure.
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
+- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
+- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
+- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
+- CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
+- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
+- CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
+- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
+- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
+- CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
+- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
+- CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
+- CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
+- CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
 - CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
 - CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
 - CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
 - CHR-S76-1980-023 — Joy Division joue au Winter Gardens de Malvern, prolongeant sans pause la séquence de concerts suivant *Closer*.
 - CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
-- CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
-- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
-- CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
-- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
-- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
-- CHR-S76-1977-007 — Warsaw joue avec Slaughter & The Dogs et V2 au Salford Technical College ; le concert est marqué par des violences et constitue probablement la première apparition de Martin Hannett devant le groupe.
-- CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
-- CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
-- CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
-- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
-- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
-- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
-- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
-- CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
 
 ## 9. Personnes et acteurs
 
 | ID | Nom | Description |
 |---|---|---|
-| PERS-S53-001 | Fabio La Rocca | Auteur de S53 ; analyse l’incarnation mythique de Joy Division par images, symboles, affects et médias. |
-| PERS-S53-003 | Kevin Cummins | Photographe de l’image Epping Walk Bridge / Princess Parkway, mobilisée comme support de mystère générationnel. |
-| PERS-S53-004 | Peter Saville | Figure de l’identité graphique Factory et d’Unknown Pleasures, à croiser avec S48 et les sources visuelles. |
-| PERS-S52-002 | Anton Corbijn | Réalisateur de Control ; ancien photographe de Joy Division ; figure d’autorité esthétique qui renforce la fascination du film. |
-| PERS-S51-001 | Jennifer Malvezzi | Autrice de S51 ; analyse l’image lo-fi de Joy Division, Mark Leckey et la mémoire médiatique populaire anglaise. |
-| PERS-S51-003 | Hito Steyerl | Référence théorique sur les poor images, mobilisée par Malvezzi pour penser les images lo-fi de Joy Division. |
-| PERS-S78-006 | Kevin Cummins | Photographe des images de Curtis et Epping Walk Bridge ; acteur de l’iconographie ambiguë du signe Joy Division. |
-| PERS-S78-007 | Anton Corbijn | Photographe et réalisateur ; produit une image noire et blanche de Joy Division, de la photo NME à Control et Atmosphere. |
-| PERS-S76-074 | Terry Mason | ["témoin logistique et ancien manager", "acteur du retrait de Curtis lors des crises", "observateur de Preston, Lyceum et Candy"] |
-| PERS-S76-071 | Minny Pops | ["groupe néerlandais associé à l’Effenaar / Factory Benelux", "contexte de la scène européenne de Joy Division"] |
-| PERS-S76-024 | Martin Hannett | ["producteur", "acteur Music Force", "cofondateur Rabid Records", "futur producteur de Joy Division"] |
-| PERS-S76-025 | Tosh Ryan | ["acteur Music Force", "cofondateur Rabid Records", "témoin de Hannett"] |
-| PERS-S76-026 | Lawrence Beedle | ["acteur Music Force", "acteur Rabid Records", "témoin du lien Gretton/Rabid/Joy Division"] |
-| PERS-S76-027 | Rob Gretton | ["futur manager de Joy Division", "DJ à Rafters", "auteur du fanzine Manchester Rains", "producteur lié à The Panik"] |
-| PERS-S76-028 | Bob Dickinson | ["journaliste local", "DJ à Rafters", "témoin du Stiff Test / Chiswick Challenge"] |
-| PERS-S76-029 | Mark Reeder | ["témoin de Rare Records/Virgin", "ami de Ian Curtis", "témoin du changement de nom et de l’intérêt allemand de Curtis"] |
 | PERS-002 | Peter Hook | ["musicien", "bassiste", "témoin", "mémorialiste"] |
 | PERS-003 | Bernard Sumner | ["musicien", "guitariste", "témoin"] |
 | PERS-004 | Stephen Paul David Morris | ["musicien", "batteur", "témoin"] |
@@ -468,36 +452,52 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | PERS-008 | James Martin Hannett | ["producteur", "ingénieur sonore", "expérimentateur"] |
 | PERS-009 | Peter Andrew Saville | ["designer", "directeur artistique"] |
 | PERS-012 | John Brierley | ["ingénieur du son", "producteur"] |
-| PERS-S76-051 | Tony Davidson / T. J. Davidson | ["propriétaire de T. J. Davidson’s", "entrepreneur de répétition et label TJM Records"] |
-| PERS-S76-052 | Oz PA / Eddy et Oz | ["équipe de sonorisation liée aux concerts de Joy Division", "acteurs techniques de tournée"] |
+| PERS-S29-002 | Ian Curtis | Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti-mythologique. |
+| PERS-S29-012 | Nikolai Gogol | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas une adaptation de Gogol. |
+| PERS-S75-023 | Kevin Cummins | ["photographe", "médiateur visuel"] |
+| PERS-S75-029 | Peter Saville | ["designer graphique", "auteur de la pochette d'Unknown Pleasures"] |
+| PERS-S75-030 | Rob Gretton | ["manager de Joy Division", "gardien de l'image et des objets Factory"] |
+| PERS-S75-031 | Marcel Proust | ["écrivain", "référence possible pour le titre Unknown Pleasures"] |
+| PERS-S75-036 | Jean-Pierre Turmel | ["auteur du texte de pochette de Licht und Blindheit", "médiateur Sordide Sentimental"] |
+| PERS-S76-004 | Carole Curtis | ["sœur de Ian Curtis", "témoin familial"] |
+| PERS-S76-012 | Kevin Cummins | ["photographe", "témoin de la scène mancunienne"] |
+| PERS-S76-022 | Tony Wilson | ["présentateur Granada TV", "futur cofondateur de Factory Records", "témoin du dernier Electric Circus"] |
+| PERS-S76-024 | Martin Hannett | ["producteur", "acteur Music Force", "cofondateur Rabid Records", "futur producteur de Joy Division"] |
+| PERS-S76-025 | Tosh Ryan | ["acteur Music Force", "cofondateur Rabid Records", "témoin de Hannett"] |
+| PERS-S76-026 | Lawrence Beedle | ["acteur Music Force", "acteur Rabid Records", "témoin du lien Gretton/Rabid/Joy Division"] |
+| PERS-S76-027 | Rob Gretton | ["futur manager de Joy Division", "DJ à Rafters", "auteur du fanzine Manchester Rains", "producteur lié à The Panik"] |
+| PERS-S76-028 | Bob Dickinson | ["journaliste local", "DJ à Rafters", "témoin du Stiff Test / Chiswick Challenge"] |
+| PERS-S76-029 | Mark Reeder | ["témoin de Rare Records/Virgin", "ami de Ian Curtis", "témoin du changement de nom et de l’intérêt allemand de Curtis"] |
+| PERS-S76-032 | Derek Brandwood | ["représentant RCA nord de l’Angleterre", "médiateur industriel des sessions RCA/Grapevine", "témoin du potentiel et de l’échec RCA"] |
+| PERS-S76-033 | Richard Searling | ["DJ northern soul", "assistant de Derek Brandwood", "intermédiaire du projet RCA/Grapevine"] |
+| PERS-S76-034 | John Anderson | ["responsable de Grapevine Records", "producteur / directeur de session associé aux sessions Arrow"] |
+| PERS-S76-036 | Bernie Binnick | ["exécutif américain lié au projet Grapevine/RCA", "producteur de soul destiné à l’export britannique"] |
+| PERS-S76-037 | Rob Gretton | ["futur manager de Joy Division", "DJ à Rafters", "figure des réseaux Wythenshawe / Newell Green / Manchester City"] |
 | PERS-S76-041 | Ian Wood | ["journaliste local pour Sounds", "inspecteur des impôts selon S76", "observateur de Joy Division au Band On The Wall"] |
 | PERS-S76-042 | Jeremy Kerr | ["membre de A Certain Ratio", "témoin d’un concert de Joy Division au Band On The Wall"] |
 | PERS-S76-043 | Lesley Gilbert | ["compagne de Rob Gretton", "salariée d’un cabinet d’avocats selon Terry Mason"] |
 | PERS-S76-044 | John Anderson | ["responsable de Grapevine Records", "acteur du projet RCA / Northern Soul", "interlocuteur contractuel de Rob Gretton"] |
-| PERS-S76-037 | Rob Gretton | ["futur manager de Joy Division", "DJ à Rafters", "figure des réseaux Wythenshawe / Newell Green / Manchester City"] |
-| PERS-S75-029 | Peter Saville | ["designer graphique", "auteur de la pochette d'Unknown Pleasures"] |
-| PERS-S75-030 | Rob Gretton | ["manager de Joy Division", "gardien de l'image et des objets Factory"] |
-| PERS-S75-031 | Marcel Proust | ["écrivain", "référence possible pour le titre Unknown Pleasures"] |
+| PERS-S76-051 | Tony Davidson / T. J. Davidson | ["propriétaire de T. J. Davidson’s", "entrepreneur de répétition et label TJM Records"] |
+| PERS-S76-052 | Oz PA / Eddy et Oz | ["équipe de sonorisation liée aux concerts de Joy Division", "acteurs techniques de tournée"] |
+| PERS-S76-068 | Buzzcocks | ["groupe mancunien tête d’affiche", "support institutionnel indirect de la montée live de Joy Division en 1979"] |
+| PERS-S76-071 | Minny Pops | ["groupe néerlandais associé à l’Effenaar / Factory Benelux", "contexte de la scène européenne de Joy Division"] |
+| PERS-S76-074 | Terry Mason | ["témoin logistique et ancien manager", "acteur du retrait de Curtis lors des crises", "observateur de Preston, Lyceum et Candy"] |
 | PERS-S76-080 | Alan Hempsall | ["chanteur de Crispy Ambulance", "voix de substitution au Derby Hall de Bury"] |
 | PERS-S76-081 | Simon Topping | ["chanteur / membre associé à A Certain Ratio", "voix de substitution au Derby Hall de Bury"] |
-| PERS-S76-082 | Perry Boys | ["groupe de jeunes / skinheads locaux associés aux violences de Bury selon S76"] |
-| PERS-S76-012 | Kevin Cummins | ["photographe", "témoin de la scène mancunienne"] |
-| PERS-S29-002 | Ian Curtis | Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti-mythologique. |
-| PERS-S29-012 | Nikolai Gogol | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas une adaptation de Gogol. |
 
 ## 10. Chansons rattachées
 
-- SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
+- Unknown Pleasures
 - SONG-S52-ATMOSPHERE — Atmosphere
+- SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S78-ATMOSPHERE — Atmosphere
+- Transmission
+- She's Lost Control
+- Disorder
 - SONG-S29-001 — Dead Souls
 - SONG-S29-002 — Interzone
 - SONG-S29-003 — Colony
 - SONG-S75-009 — Shadowplay
-- Transmission
-- She's Lost Control
-- Disorder
-- Unknown Pleasures
 
 ## 11. Concepts récurrents
 
@@ -505,82 +505,82 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Martin Hannett (27)
 - Unknown Pleasures (25)
 - Tony Wilson (21)
-- Rob Gretton (18)
 - fac-simile (18)
+- Rob Gretton (18)
 - Peter Saville (16)
-- Transmission (12)
 - datation-1979 (12)
+- Transmission (12)
 - An Ideal for Living (11)
-- Atmosphere (11)
 - Factory Records (11)
+- Atmosphere (11)
+- martin hannett (10)
 - Digital (10)
 - A Factory Sample (10)
 - production (10)
-- martin hannett (10)
+- Ian Curtis (8)
 - Dead Souls (8)
 - indépendance (8)
-- Ian Curtis (8)
-- Glass (7)
-- Strawberry Studios (7)
-- espace sonore (7)
 - genese-chanson (7)
 - datation-1980 (7)
 - Closer (7)
-- She's Lost Control (6)
+- Glass (7)
+- espace sonore (7)
+- Strawberry Studios (7)
 - Rafters (6)
 - Russell Club (6)
-- Manchester (6)
 - basse melodique (6)
-- management (5)
-- Cargo Studios (5)
-- contrat (5)
-- post-punk (5)
+- Manchester (6)
+- She's Lost Control (6)
 - unknown pleasures (5)
-- titre-alternatif (5)
 - Unknown-Pleasures (5)
-- Anonymous Records (4)
-- FAC 2 (4)
-- synthétiseur (4)
-- Granada Reports (4)
-- télévision (4)
+- titre-alternatif (5)
+- contrat (5)
+- Cargo Studios (5)
+- post-punk (5)
+- management (5)
 - factory (4)
 - factory records (4)
-- autoproduction (4)
-- run-out groove (4)
 - pulsar (4)
+- Granada Reports (4)
+- FAC 2 (4)
 - studio (4)
-- rareté_discographique (3)
-- pressage (3)
-- Sordide Sentimentale (3)
-- Earcom 2 (3)
-- Still (3)
-- design Factory (3)
-- cinquième membre (3)
-- Joy Division (3)
-- ventes (3)
-- transmission (3)
-- Enigma (3)
+- autoproduction (4)
+- Anonymous Records (4)
+- run-out groove (4)
+- télévision (4)
+- synthétiseur (4)
+- production sonore (3)
+- répétition (3)
 - rob gretton (3)
-- basse (3)
-- DIY (3)
+- transmission (3)
+- datation-1978 (3)
 - Warsaw (3)
-- reconnaissance (3)
-- Better Badges (3)
 - identité visuelle (3)
+- reconnaissance (3)
 - FAC 1 (3)
-- album (3)
 - Shadowplay (3)
 - Peter Hook (3)
+- basse (3)
+- DIY (3)
 - Martin Rushent (3)
-- répétition (3)
-- production sonore (3)
-- datation-1978 (3)
-- Bernard Albrecht (2)
-- past lives (2)
-- possession (2)
-- hypnosis (2)
-- Interzone (2)
-- Factory Sample (2)
+- design Factory (3)
+- ventes (3)
+- album (3)
+- Better Badges (3)
+- Enigma (3)
+- Still (3)
+- Earcom 2 (3)
+- Joy Division (3)
+- cinquième membre (3)
+- pressage (3)
+- Sordide Sentimentale (3)
+- rareté_discographique (3)
+- joy division (2)
+- industrie musicale (2)
+- strawberry studios (2)
+- spatialisation sonore (2)
+- peter hook (2)
+- réception interne (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -588,103 +588,109 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (11)
 - Kevin Cummins (7)
-- factory (6)
-- An Ideal for Living (6)
 - fatigue (6)
+- An Ideal for Living (6)
+- factory (6)
 - Rabid Records (5)
+- DIY (4)
+- Shadowplay (4)
+- Rock Against Racism (4)
+- Peter Saville (4)
+- Tony Wilson (4)
+- Terry Mason (4)
+- Sister Ray (4)
 - unknown_pleasures (4)
 - peter_saville (4)
-- DIY (4)
-- Peter Saville (4)
-- Shadowplay (4)
-- Terry Mason (4)
-- Tony Wilson (4)
-- Rock Against Racism (4)
-- Sister Ray (4)
-- pulsar (3)
-- transmission (3)
-- atmosphere (3)
 - Factory (3)
 - prudence (3)
-- image pauvre (3)
-- télévision (3)
+- studio (3)
+- répétition (3)
 - provocation (3)
 - Electric Circus (3)
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
-- répétition (3)
-- studio (3)
+- télévision (3)
 - Warsaw (3)
-- RCA (3)
-- John Anderson (3)
-- A Certain Ratio (3)
 - Tosh Ryan (3)
+- pulsar (3)
+- image pauvre (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
 - Rafters (3)
+- RCA (3)
+- John Anderson (3)
 - Band On The Wall (3)
+- A Certain Ratio (3)
 - Moonlight Club (3)
-- ideal_for_living (2)
+- transmission (3)
+- atmosphere (3)
+- Saville (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S51-A001 — limite → MYTH-image_lofi_preuve_brute
-- S51-A006 — fonde → CONCEPT-image_pauvre_joy_division
-- S51-A007 — precise → S51-A006
-- S51-A008 — prolonge → S51-A007
-- S51-A009 — nuance → CONCEPT-image_pauvre_joy_division
-- S51-A011 — a_croiser → S48
-- S51-A011 — a_croiser → S50
-- S51-A012 — precise → CONCEPT-image_pauvre_joy_division
-- S51-A015 — synthese → CONCEPT-image_pauvre_joy_division
 - S42-A008 — structure → REL-S42-008
 - S42-A010 — prolonge → REL-S42-008
-- S49-A006 — fonde → S49-A007
-- S49-A006 — relie → ORG-S49-001
-- S78-A004 — fonde → CONCEPT-indexicalite_joy_division
-- S78-A012 — a_croiser → S53-A014
-- S78-A020 — synthese → CONCEPT-mythe_manchester_joy_division
-- S53-A001 — limite → MYTH-mythe_comme_preuve
-- S53-A005 — fonde → CONCEPT-image_mythe_narratologie
-- S53-A006 — a_croiser → S48
-- S53-A014 — a_croiser → S09
-- S75-A013 — prolonge → S75-A018
-- S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
-- S75-A018 — prolonge → S75-A016
-- S75-A018 — prolonge → S75-A017
-- S75-A018 — nuance → MYTH-fascination_fasciste
-- S75-A055 — requiert → CONCEPT-004
-- S75-A055 — prolonge → MOTIF-006
-- S75-A055 — nuance → MYTH-006
-- S75-A028 — nuance → MYTH-003
-- S75-A028 — prolonge → MOTIF-002
-- S75-A028 — prépare → S75-A029
-- S75-A030 — prolonge → S75-A019
-- S75-A030 — prolonge → CONCEPT-006
-- S75-A030 — prolonge → CONCEPT-005
-- S75-A032 — nuance → MYTH-002
-- S75-A032 — prolonge → CONCEPT-004
 - S50-A001 — limite → MYTH-reimagined_archive_origine
 - S50-A005 — fonde → CONCEPT-imaginaire_collectif_joy_division
 - S50-A007 — a_croiser → S48
 - S50-A007 — a_croiser → S09
-- S35-A094 — croise → S41-A040
-- S35-A094 — croise → S45-A042
-- S35-A102 — prolonge → S35-A081
-- S35-A102 — prepare → S41-A042
-- S35-A026 — nuance → MYTH-007
-- S35-A026 — prolonge → S35-A001
-- S45-A066 — prolonge → S45-A009
-- S45-A066 — prolonge → CONCEPT-006
-- S45-A066 — prolonge → CONCEPT-015
-- S45-A144 — prolonge → CONCEPT-036
-- S45-A144 — prolonge → S45-A132
-- S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
-- S45-A056 — prolonge → MYTH-003
-- S45-A056 — prolonge → MOTIF-008
-- S45-A056 — prépare → CHAPITRE-5-IMAGE-FACTORY
-- S45-A056 — prolonge → SONG-S45-SHADOWPLAY-RCA
+- S74-A010 — nuance → MYTH-004
+- S74-A010 — illustre → S74-A011
+- S74-A020 — nuance → MYTH-004
+- S74-A020 — prolonge → S74-A010
+- S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
+- S74-A021 — nuance → MYTH-002
+- S74-A021 — prolonge → S74-A018
+- S74-A021 — complète → S74-A019
+- S74-A023 — prolonge → S74-A022
+- S74-A023 — annonce → S74-A030
+- S74-A023 — nuance → MYTH-005
+- S74-A025 — prolonge → S74-A023
+- S74-A025 — annonce → S74-A030
+- S74-A025 — nuance → MYTH-004
+- S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
+- S74-A029 — nuance → MYTH-003
+- S74-A029 — prolonge → S74-A015
+- S74-A033 — nuance → MYTH-004
+- S74-A033 — prolonge → S74-A020
+- S74-A033 — complète → S74-A032
+- S74-A034 — nuance → MYTH-004
+- S74-A034 — complète → S74-A033
+- S74-A034 — prolonge → S74-A010
+- S74-A038 — prolonge → S74-A036
+- S74-A038 — annonce → S74-A039
+- S74-A038 — complète → S74-A033
+- S74-A039 — prolonge → S74-A020
+- S74-A039 — complète → S74-A033
+- S74-A039 — nuance → MYTH-004
+- S74-A040 — nuance → MYTH-004
+- S74-A040 — complète → S74-A039
+- S74-A040 — prolonge → S74-A034
+- S74-A041 — nuance → MYTH-004
+- S74-A041 — complète → S74-A040
+- S74-A041 — annonce → S74-A042
+- S74-A042 — prolonge → S74-A041
+- S74-A042 — complète → S74-A036
+- S74-A042 — nuance → MYTH-006
+- S74-A045 — prolonge → S74-A042
+- S74-A045 — complète → S74-A036
+- S74-A045 — nuance → MYTH-006
+- S74-A047 — prolonge → S74-A030
+- S74-A047 — complète → S74-A045
+- S74-A047 — nuance → MYTH-006
+- S74-A048 — nuance → MYTH-002
+- S74-A048 — prolonge → S74-A047
+- S74-A048 — annonce → S74-A049
+- S74-A049 — prolonge → S74-A048
+- S74-A049 — nuance → MYTH-002
+- S74-A049 — complète → S74-A047
+- S74-A051 — prolonge → S74-A050
+- S74-A051 — annonce → S74-A052
+- S74-A051 — nuance → MYTH-002
+- S74-A056 — prolonge → S74-A055
+- S74-A056 — nuance → MYTH-006
+- S74-A056 — complète → S74-A043
 - S45-A037 — prolonge → MOTIF-004
 - S45-A037 — prolonge → MOTIF-005
 - S45-A037 — nuance → MYTH-006
@@ -697,18 +703,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 — prolonge → MOTIF-006
 - S45-A044 — nuance → MYTH-006
 - S45-A044 — requiert → CONCEPT-004
-- S45-A090 — prolonge → S45-A078
-- S45-A090 — prolonge → CHAPITRE-5-IMAGE-FACTORY
-- S45-A090 — prépare → S45-A091
-- S45-A098 — prolonge → S45-A044
-- S45-A098 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
-- S45-A098 — prolonge → S45-A093
-- S45-A100 — prolonge → MYTH-007
-- S45-A100 — prolonge → S45-A042
-- S45-A100 — requiert → CONCEPT-004
-- S74-A010 — nuance → MYTH-004
-- S74-A010 — illustre → S74-A011
-- S74-A048 — nuance → MYTH-002
+- S45-A066 — prolonge → S45-A009
+- S45-A066 — prolonge → CONCEPT-006
+- S45-A066 — prolonge → CONCEPT-015
+- S45-A056 — prolonge → MYTH-003
+- S45-A056 — prolonge → MOTIF-008
+- S45-A056 — prépare → CHAPITRE-5-IMAGE-FACTORY
 
 ## 13. Distribution documentaire
 
@@ -721,138 +721,108 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | non qualifié | 14 |
 | analyse_morceau | 10 |
 | objet_discographique | 9 |
-| discographie | 8 |
 | concept | 8 |
-| reception | 7 |
+| discographie | 8 |
 | concept_structurant | 7 |
-| analyse | 7 |
 | analyse_editoriale | 7 |
+| reception | 7 |
+| analyse | 7 |
 | fait | 6 |
-| analyse_chanson | 5 |
 | objet_audiovisuel | 5 |
 | concert | 5 |
-| live_set_context | 5 |
+| analyse_chanson | 5 |
 | live_set_bootleg_context | 5 |
-| tension_documentaire | 4 |
+| live_set_context | 5 |
 | prudence_methodologique | 4 |
-| reception_critique | 4 |
 | scene_fondatrice | 4 |
+| reception_critique | 4 |
+| tension_documentaire | 4 |
 | concept_transversal | 4 |
 | concert_europeen | 4 |
-| acteur | 3 |
-| sociologie | 3 |
-| image_symbolique | 3 |
-| controverse | 3 |
-| archive_visuelle | 3 |
-| industrie_musicale | 3 |
+| session | 3 |
 | lieu | 3 |
-| television | 3 |
+| performance_live | 3 |
+| controverse | 3 |
 | evenement | 3 |
 | interpretation | 3 |
 | contexte_technique | 3 |
 | esthétique_visuelle | 3 |
-| performance_live | 3 |
-| session | 3 |
+| archive_visuelle | 3 |
+| industrie_musicale | 3 |
+| television | 3 |
+| image_symbolique | 3 |
+| sociologie | 3 |
+| acteur | 3 |
+| biographie | 2 |
+| analyse_studio | 2 |
+| reception_interne | 2 |
+| temoignage_indirect | 2 |
 | lecture_chanson | 2 |
 | prudence_interpretative | 2 |
-| lieu_studio | 2 |
-| micro_chronologie | 2 |
-| culture_musicale | 2 |
-| archive | 2 |
-| conclusions | 2 |
-| biographie | 2 |
-| analyse_critique | 2 |
-| paratexte_discographique | 2 |
-| enregistrement | 2 |
-| iconographie | 2 |
-| objet_merchandising | 2 |
-| contexte_scene | 2 |
+| portrait | 2 |
 | decision_strategique | 2 |
 | transition | 2 |
-| reception_interne | 2 |
-| portrait | 2 |
-| analyse_studio | 2 |
-| mythe_nomination | 2 |
+| construction_esthetique | 2 |
 | economie_discographique | 2 |
+| iconographie | 2 |
+| paratexte_discographique | 2 |
+| enregistrement | 2 |
+| objet_merchandising | 2 |
+| contexte_scene | 2 |
+| conclusions | 2 |
+| mythe_nomination | 2 |
+| concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
-| concept_management | 2 |
-| temoignage_indirect | 2 |
-| construction_esthetique | 2 |
+| culture_musicale | 2 |
+| archive | 2 |
+| lieu_studio | 2 |
+| micro_chronologie | 2 |
+| analyse_critique | 2 |
 | song_or_cover | 2 |
-| source_part | 1 |
-| controverse_visuelle | 1 |
-| modernisme_litteraire | 1 |
-| dynamique_collective | 1 |
-| sociologie_scene | 1 |
-| réception | 1 |
-| esthétique | 1 |
-| lieu_bascule | 1 |
-| acteurs_objet | 1 |
-| citation_repere | 1 |
-| gouvernance | 1 |
-| noeud_critique | 1 |
-| contexte_label | 1 |
-| cadre_theorique | 1 |
-| design_subculturel | 1 |
-| capital_subculturel | 1 |
-| motif_structurant | 1 |
-| reception_visuelle | 1 |
-| tension_visuelle | 1 |
-| contexte_mediatique | 1 |
-| synthese_argumentative | 1 |
 | institution_scene | 1 |
-| evenement_audiovisuel | 1 |
-| synthese_usage_livre | 1 |
+| canon_visuel | 1 |
+| fait_interprete | 1 |
+| portrait_critique | 1 |
+| conflit_studio | 1 |
+| reception_single | 1 |
+| evenement_crise | 1 |
+| temoignage_affectif | 1 |
+| reception_posthume | 1 |
 | cadrage_theorique | 1 |
 | document_historique | 1 |
-| influence | 1 |
-| objet_visuel | 1 |
-| analyse_production | 1 |
-| analyse_comparee_albums | 1 |
-| relation | 1 |
 | analyse_oeuvre | 1 |
-| canon_visuel | 1 |
-| controverse_scene_live | 1 |
-| decision_strategique_groupe | 1 |
-| motif_historique | 1 |
-| formulation_critique | 1 |
-| analyse_historique | 1 |
-| recension_contemporaine | 1 |
-| temoignage_contemporain | 1 |
-| construction_nominale | 1 |
-| fragments_editoriaux | 1 |
-| concept_urbain_culturel | 1 |
-| prefiguration_institutionnelle | 1 |
+| noeud_critique | 1 |
 | acteur_catalyseur | 1 |
 | evenement_culturel | 1 |
 | organisation_culturelle | 1 |
-| mediation_visuelle | 1 |
+| architecture_archive | 1 |
+| politique_editoriale | 1 |
+| document_archive | 1 |
+| reference_documentaire | 1 |
+| temoignage_direct | 1 |
+| genealogie_nom | 1 |
+| motif_lyrique | 1 |
 | seuil_identitaire | 1 |
+| mediation_visuelle | 1 |
 | strategie_mediatique | 1 |
-| reception_temoin | 1 |
-| iconographie_polemique | 1 |
-| discographie_factory | 1 |
-| chronologie_pre_album | 1 |
-| design | 1 |
-| interpretation_technique | 1 |
-| citation_contextuelle | 1 |
-| theorie_production | 1 |
-| concert_bascule | 1 |
-| objet_factory | 1 |
-| labels_independants | 1 |
-| discographie_album | 1 |
-| edition_discographique | 1 |
-| session_enregistrement | 1 |
-| radio_broadcast | 1 |
-| vigilance_documentaire | 1 |
-| acteur_image | 1 |
-| objet | 1 |
-| discographie_strategie | 1 |
-| production_sonore | 1 |
-| interpretation_factory | 1 |
+| dynamique_collective | 1 |
+| sociologie_scene | 1 |
+| réception | 1 |
+| analyse_image | 1 |
+| analyse_objet_discographique | 1 |
+| point_a_verifier | 1 |
+| synthese_relationnelle | 1 |
+| evenement_audiovisuel | 1 |
+| modernisme_litteraire | 1 |
+| analyse_production | 1 |
+| analyse_comparee_albums | 1 |
 | analyse_sous_culturelle | 1 |
 | mediation_litteraire | 1 |
+| formulation_critique | 1 |
+| contexte_historique | 1 |
+| contexte_materiel | 1 |
+| chronologie | 1 |
 | tension | 1 |
 | contexte_juridico_economique | 1 |
 | conflit_esthetique | 1 |
@@ -863,24 +833,69 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | réception_interne | 1 |
 | influences | 1 |
 | transition_esthetique | 1 |
-| contexte_historique | 1 |
-| contexte_materiel | 1 |
-| chronologie | 1 |
-| evenement_crise | 1 |
-| temoignage_affectif | 1 |
-| reception_posthume | 1 |
-| fait_interprete | 1 |
-| portrait_critique | 1 |
-| conflit_studio | 1 |
-| reception_single | 1 |
+| seuil_chronologique | 1 |
+| paroles_source | 1 |
+| transition_nominale | 1 |
+| reception_nominale | 1 |
+| evenement_discographique | 1 |
+| intervention_management | 1 |
+| influence_instrumentale | 1 |
+| tension_politique_live | 1 |
+| scene_politique_factory | 1 |
+| mediation_audiovisuelle | 1 |
+| esthetique_visuelle | 1 |
+| objet | 1 |
+| discographie_strategie | 1 |
+| reception_temoin | 1 |
+| iconographie_polemique | 1 |
+| discographie_factory | 1 |
+| chronologie_pre_album | 1 |
+| design | 1 |
+| interpretation_technique | 1 |
+| concert_bascule | 1 |
+| objet_factory | 1 |
+| labels_independants | 1 |
+| discographie_album | 1 |
+| edition_discographique | 1 |
+| production_sonore | 1 |
+| interpretation_factory | 1 |
+| session_enregistrement | 1 |
+| radio_broadcast | 1 |
+| vigilance_documentaire | 1 |
+| acteur_image | 1 |
+| citation_contextuelle | 1 |
+| theorie_production | 1 |
+| contexte_label | 1 |
+| cadre_theorique | 1 |
+| design_subculturel | 1 |
+| capital_subculturel | 1 |
+| motif_structurant | 1 |
+| reception_visuelle | 1 |
+| tension_visuelle | 1 |
+| contexte_mediatique | 1 |
+| synthese_argumentative | 1 |
 | controverse_historiographique | 1 |
-| dernier_concert | 1 |
-| contexte_live | 1 |
+| lecture_culturelle | 1 |
+| ecosysteme | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
 | session_studio | 1 |
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
+| scene_management | 1 |
+| micro_scene_relationnelle | 1 |
+| sociabilite_scene | 1 |
+| geographie_sociale | 1 |
+| portrait_social | 1 |
+| tension_interne | 1 |
+| scene_contractuelle | 1 |
+| fait_contractuel | 1 |
+| lieu_scene | 1 |
+| scene_reception | 1 |
+| genese_label | 1 |
+| lieu_iconographique | 1 |
+| contre_image | 1 |
+| temoignage_lieu | 1 |
 | bifurcation_industrielle | 1 |
 | decision_management | 1 |
 | concert_iconographie | 1 |
@@ -888,61 +903,46 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | performance_reception | 1 |
 | festival | 1 |
 | incident_tournee | 1 |
-| lieu_iconographique | 1 |
-| contre_image | 1 |
-| temoignage_lieu | 1 |
-| genese_label | 1 |
-| ecosysteme | 1 |
-| concert_filme | 1 |
-| tournee_fatigue | 1 |
-| concert_incident | 1 |
 | bascule_live | 1 |
 | concert_local | 1 |
 | concert_majeur | 1 |
-| tension_interne | 1 |
-| scene_contractuelle | 1 |
-| fait_contractuel | 1 |
-| lieu_scene | 1 |
-| scene_reception | 1 |
-| scene_management | 1 |
-| micro_scene_relationnelle | 1 |
-| sociabilite_scene | 1 |
-| geographie_sociale | 1 |
-| portrait_social | 1 |
+| concert_filme | 1 |
+| tournee_fatigue | 1 |
+| concert_incident | 1 |
 | lecture_reprise | 1 |
 | concert_fatigue | 1 |
 | scene_medicale_live | 1 |
 | incident_public | 1 |
 | controverse_live | 1 |
-| lecture_culturelle | 1 |
-| analyse_image | 1 |
-| analyse_objet_discographique | 1 |
-| point_a_verifier | 1 |
-| synthese_relationnelle | 1 |
-| politique_editoriale | 1 |
-| architecture_archive | 1 |
-| document_archive | 1 |
-| reference_documentaire | 1 |
-| temoignage_direct | 1 |
-| motif_lyrique | 1 |
-| genealogie_nom | 1 |
-| mediation_audiovisuelle | 1 |
-| esthetique_visuelle | 1 |
-| paroles_source | 1 |
-| transition_nominale | 1 |
-| reception_nominale | 1 |
-| seuil_chronologique | 1 |
-| evenement_discographique | 1 |
-| tension_politique_live | 1 |
-| scene_politique_factory | 1 |
-| intervention_management | 1 |
-| influence_instrumentale | 1 |
+| dernier_concert | 1 |
+| contexte_live | 1 |
+| gouvernance | 1 |
+| esthétique | 1 |
+| lieu_bascule | 1 |
+| acteurs_objet | 1 |
+| citation_repere | 1 |
+| concept_urbain_culturel | 1 |
+| prefiguration_institutionnelle | 1 |
+| analyse_historique | 1 |
+| recension_contemporaine | 1 |
+| temoignage_contemporain | 1 |
+| fragments_editoriaux | 1 |
+| construction_nominale | 1 |
+| motif_historique | 1 |
+| controverse_scene_live | 1 |
+| decision_strategique_groupe | 1 |
+| synthese_usage_livre | 1 |
+| influence | 1 |
+| objet_visuel | 1 |
 | argument_central | 1 |
 | analyse_objet_visuel | 1 |
 | analyse_corpus_lyrique | 1 |
-| live_sequence | 1 |
+| relation | 1 |
+| source_part | 1 |
+| controverse_visuelle | 1 |
 | song_or_release | 1 |
 | live_video_context | 1 |
+| live_sequence | 1 |
 
 ### 13.2. Importance documentaire
 
@@ -960,41 +960,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- S51-A001 [faible] — l’atome fixe explicitement les limites de la source
-- S51-A006 [faible] — le concept est explicitement mobilisé par S51
-- S51-A007 [moyen] — l’idée générale est forte mais les supports précis doivent être documentés cas par cas
-- S51-A008 [moyen] — ne pas transformer la pauvreté d’image en preuve sociologique directe
-- S51-A009 [faible] — l’argument découle directement de la description de la source
-- S51-A011 [moyen] — ne pas opposer mécaniquement image canonique et image pauvre
-- S51-A012 [moyen] — chaque famille de support doit être documentée séparément
-- S51-A015 [faible] — synthèse alignée sur le cœur théorique de la source
 - S42-A008 [moyen] — Ne pas réduire un lieu à une cause ; le lieu fonctionne par réseau.
 - S42-A010 [moyen] — Ne pas faire de Factory l’unique moteur de la scène mancunienne.
-- S49-A006 [moyen] — la date et les conditions exactes doivent être vérifiées dans un registre audiovisuel
-- S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
-- S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
-- S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
-- S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
-- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
-- S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
 - S50-A001 [faible] — l’atome fixe une limite d’usage documentaire
 - S50-A005 [faible] — concept clairement formulé par la source
 - S50-A007 [moyen] — plusieurs détails de crédits ou lieux doivent être vérifiés avant citation définitive
-- S35-A026 [élevé] — Ne pas transformer ce goût enfantin pour les traces de guerre en adhésion idéologique.
-- S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
-- S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
-- S45-A056 [moyen] — Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.
-- S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
-- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
-- S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
-- S45-A090 [moyen] — Risque de surcharger le rejet initial de Deborah ; il est affectif, domestique et herméneutique.
-- S45-A098 [moyen] — Risque de lire le silence comme pure stratégie ou comme absence de pensée ; il fonctionne aussi comme protection du collectif.
-- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
-- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
-- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
-- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
-- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
+- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
+- S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
@@ -1007,19 +980,46 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
 - S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
 - S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
-- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
-- S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
-- S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
-- S76-A177 [eleve] — l’événement est terminal seulement rétrospectivement ; le set doit rester un acte de création vivant
-- S76-A178 [faible] — contexte matériel utile pour contrer la sacralisation
-- S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
-- S76-A048 [moyen] — ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major
-- S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
-- S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
-- S76-A053 [faible] — atome structurel ; utile pour comprendre la bascule managériale
-- S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
-- S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
-- S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
+- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
+- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
+- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
+- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
+- S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
+- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
+- S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
+- S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
+- S45-A056 [moyen] — Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.
+- S45-A090 [moyen] — Risque de surcharger le rejet initial de Deborah ; il est affectif, domestique et herméneutique.
+- S45-A098 [moyen] — Risque de lire le silence comme pure stratégie ou comme absence de pensée ; il fonctionne aussi comme protection du collectif.
+- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
+- S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S49-A006 [moyen] — la date et les conditions exactes doivent être vérifiées dans un registre audiovisuel
+- S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.
+- S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
+- S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
+- S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
+- S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
+- S41-A050 [très élevé] — Risque d’excuser ou d’accuser trop vite ; l’atome impose la distinction intention / effet / contexte politique.
+- S41-A026 [moyen] — Risque de surinterpréter Warsaw comme programme esthétique pleinement formé ; Hook insiste aussi sur la facilité et le contexte.
+- S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
+- S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
+- S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
+- S41-A071 [faible à moyen] — Ne pas transformer Gretton en sauveur total ; il règle des problèmes très concrets.
+- S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
+- S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
+- S41-A098 [très élevé] — La formule doit être lue comme mémoire de danger et ironie politique.
+- S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
+- S41-A100 [moyen] — RAR est un élément de nuance, non une absolution totale.
+- S41-A120 [moyen] — Ne pas faire de l’anti-image une stratégie totalement consciente ; Hook décrit aussi du froid, de la gêne et du désintérêt.
+- S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
+- S41-A168 [moyen] — Ne pas réduire Corbijn à Control ; son rôle commence comme photographe de 1979.
+- S41-A157 [moyen] — Ne pas absolutiser la contrainte matérielle : l’œil de Cummins reste décisif.
+- S41-A164 [moyen] — Ne pas confondre visibilité accrue et maîtrise complète de l’image.
+- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
+- S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
+- S51-A001 [faible] — l’atome fixe explicitement les limites de la source
+- S51-A006 [faible] — le concept est explicitement mobilisé par S51
+- S51-A007 [moyen] — l’idée générale est forte mais les supports précis doivent être documentés cas par cas
 
 ## 15. Lacunes et prochaines vérifications
 
