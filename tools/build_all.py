@@ -7,7 +7,8 @@ Runs, in order:
   2. ``build_master_docs.py``          exports -> chapters/XX/document_maitre.md,
                                         chapters/master_docs.json,
                                         exports/generated/master_docs_index.json
-  3. ``inject_chapter_source_notes.py``  ONLY with --with-source-notes (OFF by
+  3. ``audit_repo.py``                 exports -> exports/generated/audit_repo.{json,md,csv}
+  4. ``inject_chapter_source_notes.py``  ONLY with --with-source-notes (OFF by
                                         default, to reproduce the committed legacy
                                         layout: the injected section is out of scope
                                         for the public atomisation pass).
@@ -51,6 +52,10 @@ def run(
     steps = [
         [sys.executable, "tools/build_registers.py"] + (["--strict"] if strict else []),
         [sys.executable, "tools/build_master_docs.py"],
+        # Regenerate the audit artifacts too, so audit_repo.{json,md,csv} can never
+        # drift from the committed atoms (no --fail-on-error: build_all *produces*
+        # artifacts; the orchestrator validates separately with --fail-on-error).
+        [sys.executable, "tools/audit_repo.py"],
     ]
     if with_source_notes:
         steps.append([sys.executable, "tools/inject_chapter_source_notes.py"])

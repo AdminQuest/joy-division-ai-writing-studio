@@ -27,11 +27,11 @@ import json
 import re
 from collections import Counter, defaultdict
 from dataclasses import asdict
-from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
 import build_registers as br
+from buildlib import resolved_generated_at
 
 REPO_ROOT = br.REPO_ROOT
 EXPORT_DIR = br.EXPORT_DIR
@@ -179,7 +179,7 @@ def build_audit(records: List[br.ParsedRecord], diagnostics: List[br.Diagnostic]
     declared_ids = set(declared.keys())
 
     return {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": resolved_generated_at(),
         "summary": diagnostics_payload["summary"],
         "records_by_kind": dict(sorted(record_counts.items())),
         "records_by_source": {
