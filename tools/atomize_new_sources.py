@@ -52,6 +52,8 @@ from buildlib import (  # noqa: E402
     GENERATED_MASTERDOCS_PATHSPECS,
     GENERATED_REGISTERS_PATHSPECS,
     normalize_generated,
+    restore_generated,
+    snapshot_generated,
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -623,8 +625,21 @@ def cmd_commit_and_pr(
         )
         return 1
 
+    # --dry-run is READ-ONLY: snapshot the exact PRE-RUN bytes of every generated
+    # artifact (committed or not) so we can restore them verbatim after computing the
+    # plan. Restoring from this snapshot — not `git checkout HEAD` — preserves any
+    # uncommitted generated changes the user already had in their tree.
+    pre_run_snapshot = snapshot_generated() if dry else None
+
+    def _restore_if_dry() -> None:
+        if dry:
+            n = restore_generated(pre_run_snapshot)
+            log.info(f"DRY-RUN : arbre restauré à l'état pré-run ({n} fichier(s)).")
+
     # Canonical build: regenerate registers + exports + master docs deterministically,
     # so no stale document_maitre can drift away from the committed atoms (Volet 1).
+    # The build runs for real even in --dry-run (the plan is computed from its output);
+    # _restore_if_dry() then puts the tree back exactly as it was before the command.
     try:
         log.step("Build canonique : build_all (build_registers --strict → build_master_docs)")
         run_cmd([sys.executable, "tools/build_all.py"], log, dry=False)
@@ -633,6 +648,7 @@ def cmd_commit_and_pr(
     except RuntimeError as exc:
         log.error(f"Build/validation échoué — rien n'est commité ni poussé : {exc}")
         log.error("Corrige les erreurs signalées ci-dessus, puis relance --commit-and-pr.")
+        _restore_if_dry()
         return 1
 
     # Drift sentinel: a fresh deterministic rebuild must produce ZERO difference.
@@ -646,6 +662,7 @@ def cmd_commit_and_pr(
             "vis-à-vis des sources. Régénère (`python3 tools/build_all.py`), "
             "ajoute le résultat, puis relance --commit-and-pr. Rien n'est commité."
         )
+        _restore_if_dry()
         return 1
 
     # Build the commit plan (édité-humain | généré), skipping empty groups.
@@ -665,7 +682,10 @@ def cmd_commit_and_pr(
     planned = [g for g in groups if g["files"]]
 
     if dry:
-        log.step("DRY-RUN : plan de commits (aucun commit, aucun push)")
+        # The plan is computed above; restore the pre-run state so the build leaves no
+        # trace (committed or uncommitted generated changes are preserved verbatim).
+        _restore_if_dry()
+        log.step("DRY-RUN : plan de commits (aucun commit, aucun push, arbre restauré)")
         if not planned:
             log.info("Aucun changement à committer.")
         for g in planned:
@@ -797,8 +817,9 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Avec --commit-and-pr : un seul commit au lieu du découpage "
                         "édité-humain | généré (pour les passes triviales).")
     p.add_argument("--dry-run", action="store_true",
-                   help="Simule sans rien écrire, déplacer ni pousser. Avec "
-                        "--commit-and-pr : imprime le plan de commits + corps de PR.")
+                   help="Simule sans rien écrire, déplacer ni pousser (read-only : "
+                        "l'arbre est restauré après). Avec --commit-and-pr : imprime "
+                        "le plan de commits + le corps de PR sans rien committer.")
     p.add_argument("--registre-path", metavar="PATH",
                    help="Chemin local du dossier Registre_sources/ (sinon "
                         "$REGISTRE_SOURCES_PATH, config.json, ou auto-détection).")
