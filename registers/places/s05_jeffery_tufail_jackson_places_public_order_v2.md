@@ -20,6 +20,9 @@ places:
     usage_s05: "Échelle institutionnelle de Greater Manchester Police et de la reproduction d’un ordre social local."
 
   - id: PLACE-HYDE
+    lat: 53.451
+    lng: -2.081
+    geo_precision: ville
     label: "Hyde"
     type: ville
     type_detail: ville_greater_manchester
@@ -28,6 +31,9 @@ places:
     usage_s05: "Lieu de mobilisation du National Front en 1977 et de policing antifasciste."
 
   - id: PLACE-BOLTON
+    lat: 53.578
+    lng: -2.429
+    geo_precision: ville
     label: "Bolton"
     type: ville
     type_detail: ville_greater_manchester
@@ -36,6 +42,9 @@ places:
     usage_s05: "Lieu de confrontation National Front / antifascistes en 1978."
 
   - id: PLACE-MOSS-SIDE
+    lat: 53.453
+    lng: -2.249
+    geo_precision: quartier
     label: "Moss Side"
     type: quartier
     type_detail: quartier_inner_city
@@ -45,6 +54,10 @@ places:
     prudence: "Croiser avec sources locales si usage factuel détaillé."
 
   - id: PLACE-UNIVERSITY-OF-MANCHESTER
+    lat: 53.4668
+    lng: -2.2339
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q230899"]
     label: "University of Manchester"
     type: education
     type_detail: universite
@@ -53,6 +66,9 @@ places:
     usage_s05: "Lieu de la Battle of Brittan en 1985."
 
   - id: PLACE-ORDSALL
+    lat: 53.474
+    lng: -2.272
+    geo_precision: quartier
     label: "Ordsall"
     type: quartier
     type_detail: quartier_salford
@@ -61,6 +77,9 @@ places:
     usage_s05: "Lieu de l’émeute de 1992, articulant désindustrialisation, policing lourd, gentrification et réputation de no-go area."
 
   - id: PLACE-OLDHAM
+    lat: 53.5409
+    lng: -2.1183
+    geo_precision: ville
     label: "Oldham"
     type: ville
     type_detail: ville_greater_manchester

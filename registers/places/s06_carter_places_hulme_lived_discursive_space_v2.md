@@ -22,6 +22,11 @@ places:
     prudence: "Ne pas réduire Hulme à un décor de ruine moderniste."
 
   - id: PLACE-HULME-CRESCENTS
+    lat: 53.461
+    lng: -2.252
+    geo_precision: quartier
+    prudence_methodologique: >-
+      Ensemble démoli (1991-1995) ; coordonnée du secteur, non d'un bâtiment.
     label: "Hulme Crescents"
     type: habitat
     type_detail: estate_moderniste
@@ -41,6 +46,9 @@ places:
     prudence: "Ne pas confondre Hulme et Moss Side malgré les amalgames médiatiques."
 
   - id: PLACE-SALE
+    lat: 53.424
+    lng: -2.322
+    geo_precision: ville
     label: "Sale"
     type: habitat
     type_detail: suburb
@@ -49,6 +57,9 @@ places:
     usage_s06: "Point de comparaison suburbain dans le récit de Jason sur les jugements extérieurs portés sur Hulme."
 
   - id: PLACE-ALTRINCHAM
+    lat: 53.387
+    lng: -2.349
+    geo_precision: ville
     label: "Altrincham"
     type: habitat
     type_detail: suburb

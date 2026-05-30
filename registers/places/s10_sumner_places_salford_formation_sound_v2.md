@@ -54,6 +54,11 @@ places:
     usage_s10: "Lieu du relogement familial de Sumner en tower block ; confort matériel mais perte de rue et de communauté."
 
   - id: PLACE-SALFORD-GRAMMAR-SCHOOL
+    lat: 53.488
+    lng: -2.298
+    geo_precision: approximative
+    prudence_methodologique: >-
+      Localisation approximative (Salford).
     label: "Salford Grammar School"
     type: education
     type_detail: ecole
@@ -70,6 +75,11 @@ places:
     usage_s10: "Lieu d’exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
 
   - id: PLACE-LESSER-FREE-TRADE-HALL
+    lat: 53.4779
+    lng: -2.247
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Petite salle AU SEIN du Free Trade Hall — distincte du grand hall (PLACE-FREE-TRADE-HALL) ; même bâtiment, point partagé.
     label: "Lesser Free Trade Hall"
     type: salle
     type_detail: salle_concert
@@ -94,6 +104,11 @@ places:
     usage_s10: "Salle de répétition au-dessus d’un pub de Weaste, associée aux débuts avec Curtis."
 
   - id: PLACE-ELECTRIC-CIRCUS
+    lat: 53.493
+    lng: -2.221
+    geo_precision: rue
+    prudence_methodologique: >-
+      Collyhurst ; salle fermée en 1977, démolie.
     label: "Electric Circus"
     type: salle
     type_detail: salle_concert
@@ -110,6 +125,11 @@ places:
     usage_s10: "Lieu du concert d’avril 1978 qui déclenche la rencontre avec Rob Gretton."
 
   - id: PLACE-TJ-DAVIDSONS
+    lat: 53.474
+    lng: -2.249
+    geo_precision: rue
+    prudence_methodologique: >-
+      Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.
     label: "TJ Davidson’s"
     type: studio
     type_detail: lieu_repetition
@@ -135,6 +155,12 @@ places:
     usage_s10: "Studio de l’enregistrement d’An Ideal for Living."
 
   - id: PLACE-STRAWBERRY-STUDIOS
+    lat: 53.4084
+    lng: -2.157
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q7622496"]
+    prudence_methodologique: >-
+      Studio fermé en 1993 ; bâtiment conservé (Stockport).
     label: "Strawberry Studios"
     type: studio
     type_detail: studio

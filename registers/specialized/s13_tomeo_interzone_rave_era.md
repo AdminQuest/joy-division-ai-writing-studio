@@ -209,6 +209,12 @@ places:
     _legacy_format: s13-lieux
 
   - id: PLACE-HACIENDA
+    lat: 53.4746
+    lng: -2.2503
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q1572261"]
+    prudence_methodologique: >-
+      FAC 51 ; démolie en 2002, remplacée par des logements.
     label: Haçienda / FAC 51
     type: salle
     type_detail: club
@@ -226,6 +232,10 @@ places:
     _legacy_format: s13-lieux
 
   - id: PLACE-CHICAGO
+    lat: 41.8781
+    lng: -87.6298
+    geo_precision: ville
+    reference_croisee: ["wikidata:Q1297"]
     label: Chicago
     type: ville
     type_detail: ville
@@ -234,6 +244,10 @@ places:
     _legacy_format: s13-lieux
 
   - id: PLACE-DETROIT
+    lat: 42.3314
+    lng: -83.0458
+    geo_precision: ville
+    reference_croisee: ["wikidata:Q12439"]
     label: Detroit
     type: ville
     type_detail: ville

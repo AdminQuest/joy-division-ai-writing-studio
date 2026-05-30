@@ -196,7 +196,47 @@ window.DynamicRegisters = (() => {
     const prudences = uniq(group.flatMap(r => array(r.data.prudence || r.data.methodological_warnings)));
     if (prudences.length) data.prudence = prudences.join(' | ');
 
-    return { ...group[0], data };
+    // Géo (étape 12b-1.c) : coordonnées portées par le lieu CANONIQUE. group[0]
+    // est le représentant (point fixe same_as), mais on coalesce défensivement
+    // la première valeur définie de la composante pour les fusions par id pur.
+    ['lat', 'lng', 'geo_precision'].forEach(k => {
+      const v = group.map(r => r.data[k]).find(x => x !== undefined && x !== null && x !== '');
+      if (v !== undefined) data[k] = v;
+    });
+    const refs = uniq(group.flatMap(r => array(r.data.reference_croisee)));
+    if (refs.length) data.reference_croisee = refs;
+    const pm = uniq(group.flatMap(r => array(r.data.prudence_methodologique)));
+    if (pm.length) data.prudence_methodologique = pm.join(' | ');
+
+    // L'identifiant fusionné est toujours celui du représentant canonique.
+    return { ...group[0], id: group[0].id, data: { ...data, id: group[0].id } };
+  }
+
+  // Résout le représentant canonique (point fixe) de chaque identifiant via la
+  // clôture transitive des arêtes same_as. same_as est porté par les
+  // enregistrements legacy et pointe vers le canonique ; le canonique n'en
+  // porte pas (il est son propre représentant). Robuste aux cibles absentes et
+  // aux cycles éventuels (s'arrête au premier nœud déjà visité).
+  function sameAsTargets(rec) {
+    const v = rec.data && rec.data.same_as;
+    return v == null ? [] : array(v).map(text).filter(Boolean);
+  }
+  function buildCanonicalMap(places) {
+    const edge = new Map();             // id -> cible canonique directe
+    const known = new Set(places.map(r => r.id));
+    places.forEach(r => {
+      const t = sameAsTargets(r)[0];
+      if (t && known.has(t)) edge.set(r.id, t);
+    });
+    const repOf = id => {
+      const seen = new Set();
+      let cur = id;
+      while (edge.has(cur) && !seen.has(cur)) { seen.add(cur); cur = edge.get(cur); }
+      return cur;
+    };
+    const rep = new Map();
+    known.forEach(id => rep.set(id, repOf(id)));
+    return rep;
   }
   // Deduplicate place records by id. Scoped to kind 'place' only: records of
   // other registers (which may carry their own legitimate duplicate ids) are
@@ -204,10 +244,17 @@ window.DynamicRegisters = (() => {
   function dedupeById(records) {
     const others = records.filter(r => r.kind !== 'place');
     const places = records.filter(r => r.kind === 'place');
+    // Réconciliation same_as (étape 12b-1.c) : chaque enregistrement est
+    // rattaché à son représentant canonique avant le groupage, de sorte que des
+    // identifiants distincts décrivant le même lieu physique (ex. PLACE-S83-001
+    // & PLACE-S41-… -> PLACE-TJ-DAVIDSONS) fusionnent en une seule entrée.
+    const rep = buildCanonicalMap(places);
     const groups = new Map(); const order = [];
     places.forEach(r => {
-      if (!groups.has(r.id)) { groups.set(r.id, []); order.push(r.id); }
-      groups.get(r.id).push(r);
+      const key = rep.get(r.id) || r.id;
+      if (!groups.has(key)) { groups.set(key, []); order.push(key); }
+      // Le représentant canonique d'abord : il pilote id/label/type/géo.
+      if (key === r.id) groups.get(key).unshift(r); else groups.get(key).push(r);
     });
     const merged = order.map(id => { const g = groups.get(id); return g.length === 1 ? g[0] : mergeGroup(g); });
     return others.concat(merged);

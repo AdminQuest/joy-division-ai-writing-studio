@@ -165,7 +165,94 @@ function render() {
       + '<div class="places-list">' + group.map(card).join('') + '</div>';
     sectionsEl.appendChild(section);
   });
+  updateMap(filtered);
 }
+
+/* ── Carte (étape 12b-1.c) ──────────────────────────────────
+   Couche Leaflet sur fond OpenStreetMap. Marqueurs des lieux CANONIQUES
+   géolocalisés (lat/lng WGS84 curés hors-ligne, recoupés Wikidata P625).
+   Init paresseuse au premier passage en vue carte ; les marqueurs reflètent
+   le jeu filtré courant (mêmes facettes que la liste). */
+const mapWrap = document.getElementById('places-map-wrap');
+const mapNote = document.getElementById('map-note');
+const viewListBtn = document.getElementById('view-list');
+const viewMapBtn = document.getElementById('view-map');
+let map = null;
+let markerLayer = null;
+let mapView = false;
+
+const num = v => (typeof v === 'number' && isFinite(v)) ? v : (v !== '' && v != null && isFinite(Number(v)) ? Number(v) : null);
+const coords = d => { const la = num(d.lat), ln = num(d.lng); return (la != null && ln != null) ? [la, ln] : null; };
+
+function ensureMap() {
+  if (map || typeof L === 'undefined') return map;
+  map = L.map('places-map', { scrollWheelZoom: false }).setView([53.4808, -2.2426], 6); // Manchester
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+  return map;
+}
+
+function markerIcon(type) {
+  return L.divIcon({
+    className: 'place-pin-wrap',
+    html: '<span class="place-pin place-pin--' + esc(type) + '">' + PlaceIcons.svg(type) + '</span>',
+    iconSize: [30, 30], iconAnchor: [15, 28], popupAnchor: [0, -26]
+  });
+}
+
+function popupHtml(item) {
+  const d = item.data || {};
+  const usage = T(resolveUsage(d)).trim();
+  const shortUsage = usage.length > 160 ? usage.slice(0, 160).trimEnd() + '…' : usage;
+  const prec = T(d.geo_precision);
+  const pm = T(d.prudence_methodologique).trim();
+  const badges = sourceIds(item).map(v => '<span class="place-badge">' + esc(sourceLabel(v)) + '</span>').join('');
+  return '<div class="place-popup">'
+    + '<h3 class="place-popup__title">' + esc(labelOf(d)) + '</h3>'
+    + '<p class="place-popup__type">' + esc(PlaceIcons.label(typeOf(d)))
+      + (detailOf(d) ? ' · <em>' + esc(detailOf(d)) + '</em>' : '') + '</p>'
+    + (shortUsage ? '<p class="place-popup__usage">' + esc(shortUsage) + '</p>' : '')
+    + (prec ? '<p class="place-popup__geo">Précision : ' + esc(prec) + '</p>' : '')
+    + (pm ? '<p class="place-popup__prudence">⚠ ' + esc(pm) + '</p>' : '')
+    + (badges ? '<div class="place-badges">' + badges + '</div>' : '')
+    + '</div>';
+}
+
+function updateMap(filtered) {
+  if (!mapView || !ensureMap()) return;
+  markerLayer.clearLayers();
+  const geoloc = filtered.filter(i => coords(i.data || {}));
+  const pts = [];
+  geoloc.forEach(item => {
+    const ll = coords(item.data || {});
+    L.marker(ll, { icon: markerIcon(typeOf(item.data || {})), title: labelOf(item.data || {}) })
+      .bindPopup(popupHtml(item))
+      .addTo(markerLayer);
+    pts.push(ll);
+  });
+  const total = filtered.length;
+  mapNote.textContent = geoloc.length + ' lieu' + (geoloc.length > 1 ? 'x' : '')
+    + ' géolocalisé' + (geoloc.length > 1 ? 's' : '') + ' sur ' + total
+    + ' (coordonnées WGS84 curées, recoupées Wikidata P625 ; fond OpenStreetMap).';
+  if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
+  map.invalidateSize();
+}
+
+function setView(toMap) {
+  mapView = toMap;
+  mapWrap.hidden = !toMap;
+  sectionsEl.hidden = toMap;
+  viewMapBtn.classList.toggle('is-active', toMap);
+  viewMapBtn.setAttribute('aria-selected', String(toMap));
+  viewListBtn.classList.toggle('is-active', !toMap);
+  viewListBtn.setAttribute('aria-selected', String(!toMap));
+  if (toMap) { ensureMap(); updateMap(items.filter(i => matches(i, currentFilters()))); }
+}
+viewListBtn.addEventListener('click', () => setView(false));
+viewMapBtn.addEventListener('click', () => setView(true));
 
 /* ── "Voir plus" (délégation, accessible clavier via <button>) ── */
 sectionsEl.addEventListener('click', e => {

@@ -22,6 +22,9 @@ places:
     chapitres: [Chapitre 1, Chapitre 3]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-SOUTHPORT-FLORAL-HALL
+    lat: 53.654
+    lng: -3.01
+    geo_precision: exacte
     label: "Southport Floral Hall"
     type: salle
     type_detail: salle_spectacle
@@ -121,6 +124,9 @@ places:
     chapitres: [Chapitre 2, Chapitre 3]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-BUXTON
+    lat: 53.259
+    lng: -1.911
+    geo_precision: ville
     label: "Buxton"
     type: ville
     type_detail: ville_provinciale

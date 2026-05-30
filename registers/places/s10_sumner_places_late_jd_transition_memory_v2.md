@@ -11,6 +11,10 @@ statut: integration_directe
 ```yaml
 places:
   - id: PLACE-BRITANNIA-ROW-STUDIOS
+    lat: 51.5392
+    lng: -0.0972
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q4970934"]
     label: "Britannia Row Studios"
     type: studio
     type_detail: studio
@@ -20,6 +24,11 @@ places:
     usage_s10: "Lieu d’enregistrement de Closer, associé au déplacement hors Manchester et à l’intensification sonore."
 
   - id: PLACE-CARGO-STUDIOS
+    lat: 53.617
+    lng: -2.156
+    geo_precision: rue
+    prudence_methodologique: >-
+      Kenion Street, Rochdale ; studio fermé.
     label: "Cargo Studios"
     type: studio
     type_detail: studio
@@ -36,6 +45,9 @@ places:
     usage_s10: "Lieu des répétitions tardives associées à Ceremony et In a Lonely Place dans la transition Joy Division / New Order."
 
   - id: PLACE-BOURNEMOUTH
+    lat: 50.72
+    lng: -1.88
+    geo_precision: ville
     label: "Bournemouth"
     type: lieu_memoire
     type_detail: lieu_projection

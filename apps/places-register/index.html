@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fafaf7">
   <title>Registre des lieux — Joy Division</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -42,6 +43,10 @@
           </div>
         </div>
         <div class="places-toolbar__actions">
+          <div class="places-viewtoggle" role="tablist" aria-label="Vue">
+            <button id="view-list" class="places-btn places-viewtoggle__btn is-active" type="button" role="tab" aria-selected="true">Liste</button>
+            <button id="view-map" class="places-btn places-viewtoggle__btn" type="button" role="tab" aria-selected="false">Carte</button>
+          </div>
           <button id="reset-filters" class="places-btn" type="button">Réinitialiser</button>
           <button id="download-csv" class="places-btn places-btn--primary" type="button">Exporter CSV</button>
           <span class="places-toolbar__meta" id="results-meta"></span>
@@ -49,10 +54,20 @@
       </section>
 
       <div id="places-status" class="places-status">Chargement des lieux…</div>
+
+      <!-- Couche cartographique (étape 12b-1.c) : géolocalisation des lieux
+           canoniques. Coordonnées WGS84 curées hors-ligne (recoupées Wikidata
+           P625, CC0). Fond de carte OpenStreetMap. -->
+      <section id="places-map-wrap" class="places-map-wrap" hidden aria-label="Carte des lieux">
+        <div id="places-map" class="places-map"></div>
+        <p class="places-map__note" id="map-note"></p>
+      </section>
+
       <div id="places-sections"></div>
     </main>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="../lib/dynamic-registers.js"></script>
   <script src="icons.js"></script>
   <script src="app.js"></script>

@@ -77,6 +77,60 @@ def collect_records():
     return records
 
 
+def same_as_targets(record: dict):
+    """Normalise le champ same_as (string | array) en liste d'identifiants."""
+    v = record.get("same_as")
+    if v is None:
+        return []
+    return [v] if isinstance(v, str) else list(v)
+
+
+def check_same_as(records):
+    """Valide les arêtes d'équivalence same_as et calcule la clôture transitive.
+
+    Contraintes imposées (cf. docs/conventions/identifiants_lieux.md) :
+      - cible existante : tout same_as pointe vers un id de lieu présent ;
+      - canonique = point fixe : la cible ne porte pas elle-même de same_as ;
+      - absence de cycle : pas de chaîne d'équivalence qui se referme.
+
+    Renvoie (problèmes, représentant_par_id). Le représentant est le point fixe
+    (l'identifiant canonique) de chaque composante union-find.
+    """
+    ids = {r.get("id") for r, _ in records}
+    edges = {}            # id -> [cibles]
+    for r, _ in records:
+        t = same_as_targets(r)
+        if t:
+            edges.setdefault(r.get("id"), []).extend(t)
+
+    problems = []
+    # 1. cible existante + 2. canonique = point fixe
+    for src, targets in edges.items():
+        for tgt in targets:
+            if tgt not in ids:
+                problems.append(f"{src}: same_as -> {tgt} (cible inexistante)")
+            elif tgt in edges:
+                problems.append(
+                    f"{src}: same_as -> {tgt}, mais {tgt} porte lui-même un "
+                    f"same_as (le canonique doit etre un point fixe)")
+
+    # 3. resolution + detection de cycle ; representant = point fixe
+    rep = {}
+
+    def resolve(node, seen):
+        if node in seen:
+            problems.append(f"cycle d'equivalence same_as detecte en {node}")
+            return node
+        nxt = edges.get(node)
+        if not nxt or nxt[0] not in ids:
+            return node
+        return resolve(nxt[0], seen | {node})
+
+    for i in ids:
+        rep[i] = resolve(i, set())
+    return problems, rep
+
+
 def main() -> int:
     rogue = find_rogue_lieux_containers()
     if rogue:
@@ -96,9 +150,26 @@ def main() -> int:
 
     distinct_ids = {r.get("id") for r, _ in records}
 
+    # Réconciliation des équivalences same_as (clôture transitive, union-find).
+    sa_problems, rep = check_same_as(records)
+    canonical = {rep[i] for i in distinct_ids}
+    aliased = {i for i in distinct_ids if rep[i] != i}
+
     print(f"Source place records (parasites excluded) : {len(records)}")
-    print(f"Distinct places after id-deduplication     : {len(distinct_ids)}")
+    print(f"Distinct ids after id-deduplication        : {len(distinct_ids)}")
+    print(f"  dont alias legacy (same_as)              : {len(aliased)}")
+    print(f"Canonical places after same_as merge       : {len(canonical)}")
     print(f"Valid against schema                        : {len(records) - len(invalid)}/{len(records)}")
+
+    if aliased:
+        print("\nÉquivalences same_as résolues :")
+        for a in sorted(aliased):
+            print(f"  {a}  ->  {rep[a]}")
+
+    if sa_problems:
+        print(f"\nSAME_AS INVALIDE ({len(sa_problems)}):")
+        for m in sa_problems:
+            print(f"  - {m}")
 
     if invalid:
         print(f"\nINVALID ({len(invalid)}):")
@@ -106,9 +177,11 @@ def main() -> int:
             print(f"  {pid}  ({rel})")
             for m in msgs:
                 print(f"       - {m}")
+
+    if invalid or sa_problems:
         return 1
 
-    print("\nAll place records are valid.")
+    print("\nAll place records are valid (schéma + same_as).")
     return 0
 
 
