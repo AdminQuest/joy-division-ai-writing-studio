@@ -274,7 +274,7 @@ Le *loader* (`apps/lib/dynamic-registers.js`) :
 | INV-3 | Un lieu canonique est un point fixe : il ne porte aucun `same_as` sortant. | Erreur |
 | INV-4 | Toute chaîne d'équivalences converge vers un canonique unique (pas de divergence vers deux canoniques). | Erreur |
 | INV-5 | Tout identifiant `PLACE-*` référencé par un autre registre est soit canonique, soit résoluble vers un canonique. | Avertissement (TODO) |
-| INV-6 | Deux lieux canoniques distincts ne partagent pas des coordonnées identiques sans justification consignée (`prudence_methodologique`). | Avertissement |
+| INV-6 | Deux lieux canoniques distincts ne partagent pas des coordonnées identiques sans justification consignée (`prudence_methodologique`). **Exemption** : une collision dont *toutes* les entités sont grossières (`geo_precision ∈ {ville, region}`) n'est pas signalée — le chevauchement de centroïdes de zones est attendu. | Avertissement |
 
 INV-1 à INV-4 garantissent l'intégrité du mécanisme et interdisent tout
 contournement silencieux du gel ; ils sont vérifiés de façon explicite et
@@ -283,7 +283,7 @@ le garde subsiste contre une donnée mal formée). INV-5 protège la propriété
 *cross-ready* en amont des étapes 10 et 11 ; son balayage cross-registres n'est
 pas implémenté dans ce validateur (résolu au runtime par le loader) et reste un
 TODO explicite. INV-6 sert de filet contre les doublons physiques non encore
-réconciliés.
+réconciliés, hors chevauchement attendu entre zones grossières.
 
 ## 10.6. Exemple traité — studio T.J. Davidson
 
@@ -301,7 +301,7 @@ type_unite: place
 label: "TJ Davidson's"
 lat: 53.474
 lng: -2.249
-geo_precision: rue                 # exacte | rue | quartier | ville (granularité)
+geo_precision: rue                 # exacte < rue < quartier < ville < region (granularité)
 reference_croisee: ["wikidata:Q…"] # tableau, identifiants préfixés par autorité
 prudence_methodologique: >-        # axe confiance/incertitude
   Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.
@@ -324,7 +324,36 @@ same_as: PLACE-TJ-DAVIDSONS   # équivalence d'identité ; aucun renommage (gel 
 > `geo_precision` ne porte pas de valeur « approximative » — l'incertitude se
 > documente dans `prudence_methodologique`.
 
-## 10.7. Articulation avec la doctrine existante
+## 10.7. Champs de schéma associés
+
+Champs optionnels rétrocompatibles déclarés dans `schemas/places.schema.yaml`
+(ajout prudent au sens du gel) :
+
+| Champ | Type | Rôle |
+|-------|------|------|
+| `same_as` | chaîne `PLACE-*` (mono-valué) | arête d'équivalence d'identité → canonique (10.3) |
+| `lat`, `lng` | nombre (WGS84) | coordonnée, sur le **canonique** uniquement |
+| `geo_precision` | énum ordinale `{exacte, rue, quartier, ville, region}` | **granularité** de la coordonnée |
+| `reference_croisee` | tableau de chaînes préfixées par autorité (`wikidata:`, `musicbrainz:`, `osm:`) | provenance / autorité externe (QID P625 = source de la coordonnée) |
+| `prudence_methodologique` | chaîne | **confiance / incertitude** (lieu démoli, coordonnée approximative, désambiguïsation) — axe distinct de `geo_precision` |
+
+## 10.8. Convention de rendu cartographique
+
+La granularité commande le mode de représentation. Le **seuil « grossier »** est
+une constante unique, partagée entre le validateur
+(`tools/validate_places.py : COARSE_PRECISIONS`) et le rendu
+(`apps/places-register/app.js : COARSE_PRECISIONS`) :
+
+| `geo_precision` | Nature | Rendu |
+|-----------------|--------|-------|
+| `exacte`, `rue`, `quartier` | **point** (venue précise) | punaise ponctuelle (picto de famille) |
+| `ville`, `region` | **zone** (étendue, non ponctuelle) | cercle translucide, couche séparée et activable (toggle), exclue des punaises de venues, entrée de légende dédiée |
+
+Rationale : une ville ou un comté n'a pas d'adresse ; l'afficher comme une
+punaise ponctuelle serait une fausse précision. Les zones forment une couche
+distincte que l'on peut masquer pour ne lire que les venues précises.
+
+## 10.9. Articulation avec la doctrine existante
 
 1. **`SCHEMA_FREEZE_POLICY`.** Dispositif relevant exclusivement de la catégorie
    autorisée « ajout prudent de champ optionnel / enrichissement

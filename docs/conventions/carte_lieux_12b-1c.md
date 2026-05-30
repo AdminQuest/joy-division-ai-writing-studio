@@ -23,7 +23,7 @@ attribution).
 | Champ | Rôle |
 |-------|------|
 | `lat`, `lng` | degrés décimaux WGS84 |
-| `geo_precision` | granularité ordinale : `exacte` \| `rue` \| `quartier` \| `ville` (axe distinct de la confiance) |
+| `geo_precision` | granularité ordinale : `exacte` < `rue` < `quartier` < `ville` < `region` (axe distinct de la confiance) |
 | `reference_croisee` | tableau d'identifiants préfixés par autorité, ex. `["wikidata:Q204686"]` (`musicbrainz:place:…`, `osm:node:…`) |
 | `prudence_methodologique` | lieu démoli, coordonnée approximative, désambiguïsation, QID à recouper |
 
@@ -33,11 +33,21 @@ attribution).
 
 ### Périmètre du seed (amorce)
 
-L'amorce couvre **37 lieux identifiables** (repères JD majeurs + villes /
-quartiers nettement localisables). Les lieux à localisation incertaine restent
-**sans coordonnées** (honnêteté > exhaustivité) : ils n'apparaissent pas sur la
-carte mais demeurent dans le registre. Le script d'amorce, traçable, est
+L'amorce couvre **36 lieux identifiables** (repères JD majeurs + villes /
+quartiers / régions nettement localisables). Les lieux à localisation incertaine
+restent **sans coordonnées** (honnêteté > exhaustivité) : ils n'apparaissent pas
+sur la carte mais demeurent dans le registre. Le script d'amorce, traçable, est
 `tools/_seed_places_geo.py` (idempotent).
+
+### Rendu : points vs zones
+
+Les granularités fines (`exacte`, `rue`, `quartier`) sont des **venues précises**
+→ punaises ponctuelles. Les granularités grossières (`ville`, `region`) sont des
+**zones** (étendues, non ponctuelles) → cercles translucides, dans une **couche
+séparée et activable** (toggle), exclues des punaises, avec entrée de légende. Le
+seuil grossier est une constante unique (`COARSE_PRECISIONS`), partagée entre
+`app.js` (rendu) et `validate_places.py` (exemption INV-6). Détail : convention
+`docs/NAMING_CONVENTIONS.md` §10.8.
 
 QID `reference_croisee` posé **uniquement à confiance élevée** (11 lieux). Le
 *backfill* des QID restants est un **suivi réseau-dépendant** (nécessite l'accès

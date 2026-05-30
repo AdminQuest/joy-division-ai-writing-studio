@@ -26,6 +26,11 @@ VALIDATOR = Draft202012Validator(SCHEMA, format_checker=FormatChecker())
 
 YAML_BLOCK = re.compile(r"```yaml\s*(.*?)\s*```", re.S)
 
+# Seuil « grossier » unique : granularités rendues comme ZONES (non ponctuelles)
+# côté carte, et exemptées de la collision de centroïdes par INV-6 (cf. app.js
+# COARSE_PRECISIONS). Point d'ajustement central.
+COARSE_PRECISIONS = {"ville", "region"}
+
 
 def is_place(record: dict, path: str) -> bool:
     return str(record.get("id", "")).startswith("PLACE-") or "/places/" in path.replace("\\", "/")
@@ -158,7 +163,11 @@ def check_same_as(records):
         "non implementee dans ce validateur (resolue au runtime par le loader).")
 
     # INV-6 (AVERTISSEMENT) : collisions de coordonnees entre canoniques sans
-    # justification consignee (prudence_methodologique).
+    # justification consignee (prudence_methodologique). Affinement (lot B) : on
+    # NE signale PAS une collision dont TOUTES les entites sont grossieres
+    # (geo_precision in COARSE_PRECISIONS) — le chevauchement de centroides
+    # ville/region est attendu. Le garde subsiste pour les autres cas (points
+    # precis, ou melange precis/grossier).
     coord_groups = {}
     for r, _ in records:
         rid = r.get("id")
@@ -169,7 +178,11 @@ def check_same_as(records):
             coord_groups.setdefault((round(lat, 5), round(lng, 5)), []).append(r)
     for (lat, lng), grp in coord_groups.items():
         canon_ids = {r.get("id") for r in grp}
-        if len(canon_ids) > 1 and not any(r.get("prudence_methodologique") for r in grp):
+        if len(canon_ids) <= 1:
+            continue
+        if all(r.get("geo_precision") in COARSE_PRECISIONS for r in grp):
+            continue            # chevauchement attendu entre zones grossieres
+        if not any(r.get("prudence_methodologique") for r in grp):
             warnings.append(
                 f"INV-6 — coordonnee partagee ({lat}, {lng}) par {sorted(canon_ids)} "
                 f"sans justification (prudence_methodologique).")
