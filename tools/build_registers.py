@@ -28,6 +28,9 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from buildlib import resolved_generated_at  # noqa: E402
+
 try:
     import yaml
 except ImportError as exc:
@@ -508,7 +511,7 @@ def build_diagnostics_payload(records: List[ParsedRecord], diagnostics: List[Dia
         status = "warning"
 
     return {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": resolved_generated_at(),
         "status": status,
         "summary": {
             "records_total": len(records),
