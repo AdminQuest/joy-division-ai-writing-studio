@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -587,6 +587,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - provocation (5)
 - scène locale (5)
 - DIY (4)
+- electric_circus (4)
+- warsaw (4)
 - Salford (4)
 - Joy Division (4)
 - RCA (4)
@@ -594,6 +596,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Lesser Free Trade Hall (4)
 - Bowie (4)
 - Londres (3)
+- punk (3)
 - mythe fondateur (3)
 - bootleg (3)
 - stabilisation (3)
@@ -614,9 +617,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Kevin Cummins (3)
 - domesticité (3)
 - prudence (2)
-- NME (2)
-- disquaires (2)
-- concerts (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -707,17 +707,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Type | Nombre |
 |---|---|
+| fait | 28 |
 | manuscript_materiality | 26 |
-| fait | 25 |
 | scene_fondatrice | 22 |
+| production | 19 |
 | non qualifié | 19 |
-| production | 17 |
 | concert | 16 |
-| chronologie | 14 |
 | prudence_methodologique | 11 |
-| objet_discographique | 10 |
-| analyse | 10 |
+| chronologie | 11 |
+| analyse | 11 |
 | biographie | 9 |
+| objet_discographique | 8 |
 | session | 7 |
 | controverse | 7 |
 | relation | 7 |
@@ -746,11 +746,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | discographie | 3 |
 | evenement | 3 |
 | acteur_musical | 3 |
-| contexte | 3 |
 | analyse_motif | 3 |
 | analyse_editoriale | 3 |
+| culture_musicale | 2 |
 | cartographie_scene | 2 |
-| archive_live | 2 |
+| archive | 2 |
 | micro_chronologie | 2 |
 | evenement_culturel | 2 |
 | sociologie | 2 |
@@ -768,6 +768,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | sociologie_scene | 2 |
 | reception_presse | 2 |
 | changement_nom | 2 |
+| contexte | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
 | mythe_nomination | 2 |
@@ -782,7 +783,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | professionnalisation | 1 |
 | controverse_visuelle | 1 |
 | cadre_narratif | 1 |
-| culture_musicale | 1 |
 | histoire_punk | 1 |
 | dynamique_collective | 1 |
 | critique_media | 1 |
@@ -790,8 +790,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_historique | 1 |
 | politique_culturelle | 1 |
 | ancrage_source | 1 |
-| genealogie_culturelle | 1 |
-| archive_inedite | 1 |
 | lieu_biographique | 1 |
 | lieu_archive | 1 |
 | lieu_bascule | 1 |
@@ -850,6 +848,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | scene_conflit_scene_locale | 1 |
 | processus_creatif_chanson | 1 |
 | lecture_generationnelle | 1 |
+| archive_live | 1 |
 | controverse_scene_live | 1 |
 | lieu_structurant | 1 |
 | tension_domestique | 1 |
@@ -943,11 +942,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 209 |
+| non qualifiée | 189 |
 | critique | 168 |
 | majeure | 83 |
+| majeur | 28 |
 | utile | 20 |
-| majeur | 15 |
+| secondaire | 7 |
 | haute | 5 |
 | moyenne | 4 |
 | structurante | 2 |

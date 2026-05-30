@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -616,12 +616,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Unknown Pleasures (12)
 - Hannett (12)
 - Martin Hannett (12)
+- still (11)
 - Transmission (9)
 - Rafters (9)
+- closer (7)
 - Buzzcocks tour (7)
 - Digital (7)
 - John Peel (7)
 - Ian Curtis (7)
+- peel_session (6)
 - studio (6)
 - Gretton (6)
 - Rainbow Theatre (6)
@@ -640,16 +643,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Love Will Tear Us Apart (5)
 - Still (4)
 - contrôle (4)
+- transmission (4)
+- britannia_row (4)
+- love_will_tear_us_apart (4)
 - Stephen Morris (4)
 - radio (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
-- Britannia Row (4)
-- Wilson (4)
-- synthétiseur (4)
-- Glass (4)
-- The Eternal (4)
-- télévision (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -741,13 +741,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Type | Nombre |
 |---|---|
 | non qualifié | 32 |
-| production | 18 |
+| production | 19 |
+| fait | 11 |
 | session_studio | 9 |
+| archive | 9 |
 | analyse | 9 |
 | reception_live | 9 |
 | song | 8 |
-| archive | 7 |
-| index_chanson | 7 |
 | scene_fondatrice | 7 |
 | lecture_musicale | 7 |
 | lecture_chanson | 7 |
@@ -763,6 +763,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | manuscript_materiality | 5 |
 | songbook_instruction | 5 |
 | motif_structurant | 4 |
+| reception | 4 |
 | analyse_oeuvre_intertextuelle | 4 |
 | production_sonore | 4 |
 | fait_interprete | 4 |
@@ -772,8 +773,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | analyse_motif | 4 |
 | scene_reseau | 4 |
 | evenement_live | 3 |
-| versions_chanson | 3 |
-| reception | 3 |
 | cadre_theorique | 3 |
 | cadre_analytique | 3 |
 | concept | 3 |
@@ -794,7 +793,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | release_or_session | 3 |
 | source_part | 2 |
 | réception | 2 |
-| chronologie | 2 |
 | relation | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
@@ -837,10 +835,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | analyse_sociopsychologique | 1 |
 | analyse_intertextuelle | 1 |
 | conclusion_analytique | 1 |
-| single | 1 |
-| archive_inedite | 1 |
-| reception_chanson | 1 |
-| outtakes | 1 |
+| chronologie | 1 |
 | lieu_radio | 1 |
 | acteur_media | 1 |
 | idee_directrice | 1 |
@@ -1057,10 +1052,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | critique | 278 |
-| non qualifiée | 162 |
+| non qualifiée | 143 |
 | majeure | 71 |
-| majeur | 47 |
-| secondaire | 7 |
+| majeur | 57 |
+| secondaire | 12 |
+| mineur | 4 |
 | utile | 2 |
 | haute | 2 |
 | critique pour la généalogie studio/expérimentation | 1 |

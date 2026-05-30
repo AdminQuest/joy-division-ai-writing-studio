@@ -17,6 +17,7 @@ importance: critique
 pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
+  - Chapitre 1
   - Chapitre 11
   - Chapitre 14
 concepts:
@@ -86,7 +87,7 @@ pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
   - Chapitre 4
-  - Chapitre 5
+  - Chapitre 12
 concepts:
   - unheimlich (Freud)
   - lure minérale de l'inanimé
@@ -120,7 +121,6 @@ importance: majeure
 pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
-  - Chapitre 4
   - Chapitre 14
 concepts:
   - masculinité du culte Joy Division
@@ -187,6 +187,7 @@ pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
   - Chapitre 3
+  - Chapitre 9
 concepts:
   - Black Atlantic (Gilroy)
   - dub comme méthodologie
@@ -219,8 +220,9 @@ importance: critique
 pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
-  - Chapitre 4
   - Chapitre 11
+  - Chapitre 12
+  - Chapitre 13
 concepts:
   - ontologie dépressive
   - mélancolie sans objet-cause
@@ -250,8 +252,8 @@ importance: majeure
 pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
-  - Chapitre 4
   - Chapitre 11
+  - Chapitre 13
 concepts:
   - Schopenhauer / le Vouloir
   - anti-rock
@@ -318,7 +320,7 @@ importance: critique
 pages_pdf: "a_verifier"
 pages_livre: "a_verifier"
 chapitres:
-  - Chapitre 4
+  - Chapitre 12
   - Chapitre 14
 concepts:
   - suicide comme garantie d'authenticité

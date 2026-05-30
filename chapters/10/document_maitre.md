@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -608,6 +608,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - van (3)
 - Kevin Cummins (3)
 - dissimulation (3)
+- situationnisme (2)
 - archive numérique (2)
 - image pauvre (2)
 - compression (2)
@@ -621,7 +622,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - acid house (2)
 - technologie (2)
 - libération (2)
-- Earcom 2 (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -760,7 +760,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | scene_conjugale | 2 |
 | tension_interne | 2 |
 | evenement_biographique | 2 |
-| chronologie | 2 |
 | fait_chronologique | 2 |
 | analyse_editoriale | 2 |
 | economie_materielle | 2 |
@@ -870,6 +869,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mode_design | 1 |
 | concept_musique | 1 |
 | fait_biographique | 1 |
+| chronologie | 1 |
 | scene_deuil_mythographique | 1 |
 | iconographie | 1 |
 | image_et_reception | 1 |
@@ -882,6 +882,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | dispositif_scene | 1 |
 | triade_institutionnelle | 1 |
 | session_studio | 1 |
+| fait | 1 |
 | concept_visuel | 1 |
 | analyse_pochette | 1 |
 | concept_graphique | 1 |
@@ -934,9 +935,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 195 |
-| non qualifiée | 85 |
+| non qualifiée | 78 |
 | majeure | 43 |
-| majeur | 24 |
+| majeur | 31 |
 | utile | 2 |
 | haute | 2 |
 

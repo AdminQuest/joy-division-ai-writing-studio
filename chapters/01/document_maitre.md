@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-27T07:13:50"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 296 |
+| Atomes | 298 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 28 |
 | Événements chronologiques | 15 |
 | Personnes | 24 |
 | Chansons | 1 |
-| Sources mobilisées | 44 |
+| Sources mobilisées | 45 |
 
 ## 4. Sources mobilisées
 
@@ -78,6 +78,7 @@ generated_at: "2026-05-27T07:13:50"
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 4 | 3 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -469,6 +470,7 @@ generated_at: "2026-05-27T07:13:50"
 - Ian Wood (3)
 - NME (3)
 - mémoire culturelle (3)
+- hauntologie (3)
 - régénération urbaine (3)
 - post-punk (3)
 - Factory Records (3)
@@ -526,7 +528,6 @@ generated_at: "2026-05-27T07:13:50"
 - Fort Beswick (2)
 - crise sociale (2)
 - buzzcocks (2)
-- hauntologie (2)
 - réception posthume (2)
 - contrainte productive (2)
 
@@ -538,6 +539,7 @@ generated_at: "2026-05-27T07:13:50"
 - Salford (4)
 - culture-de-niche (3)
 - désindustrialisation (2)
+- ian_curtis (2)
 - prudence (2)
 - Unknown Pleasures (2)
 - Londres (2)
@@ -568,7 +570,6 @@ generated_at: "2026-05-27T07:13:50"
 - ian_wood (1)
 - nme (1)
 - urban_malaise (1)
-- ian_curtis (1)
 - humanité (1)
 - impermanence (1)
 - jeunesse urbaine (1)
@@ -667,15 +668,15 @@ generated_at: "2026-05-27T07:13:50"
 | prudence_methodologique | 16 |
 | concept_structurant | 16 |
 | source_part | 14 |
+| analyse | 10 |
 | concept | 9 |
-| analyse | 9 |
 | contexte_social | 7 |
 | sociologie | 7 |
 | evenement_politique | 6 |
 | biographie | 5 |
+| contexte | 5 |
 | politique_urbaine | 5 |
 | lecture | 5 |
-| contexte | 5 |
 | lieu_scene | 4 |
 | evenement_urbain | 3 |
 | conclusion_historiographique | 3 |
@@ -732,6 +733,7 @@ generated_at: "2026-05-27T07:13:50"
 | lecture_chanson_espace | 1 |
 | cartographie_scene | 1 |
 | contexte_affectif | 1 |
+| cadrage_theorique | 1 |
 | temoignage_reception | 1 |
 | contexte_geographique | 1 |
 | prudence_interpretative | 1 |
@@ -833,17 +835,18 @@ generated_at: "2026-05-27T07:13:50"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 159 |
-| critique | 64 |
-| majeure | 54 |
+| non qualifiée | 157 |
+| critique | 65 |
+| majeure | 55 |
 | utile | 11 |
-| majeur | 2 |
+| majeur | 3 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour le chapitre 1 | 1 |
 | critique pour Chapitres 1 et 3 | 1 |
 | critique pour Chapitre 3 | 1 |
 | critique pour Chapitre 1 | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |
+| secondaire | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -328,17 +328,17 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S70-A033** — S70-A033 — « Love Will Tear Us Apart » comme concession partielle au public  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A009** — S71-A009 — « Novelty » comme premier accomplissement du groupe  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `secondaire` ; preuve : `fait_documente`.
 - **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `majeur` ; preuve : `fait_documente`.
 - **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `majeur` ; preuve : `fait_documente`.
 - **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `secondaire` ; preuve : `fait_documente`.
 - **S71-A027** — S71-A027 — « Love Will Tear Us Apart » et « Twenty Four Hours »  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `majeur` ; preuve : `fait_documente`.
 - **S71-A029** — S71-A029 — *Closer* : Curtis comme guide de l’abîme  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `majeur` ; preuve : `fait_documente`.
 - **S71-A058** — S71-A058 — Mort de Martin Hannett et mémoire Factory  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
@@ -537,10 +537,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - électronique (2)
 - Hannett (2)
 - post-punk (2)
+- transmission (2)
 - acid house (2)
 - rave era (2)
 - texte-chanson (2)
 - objet disque (2)
+- novelty (2)
+- martin_hannett (2)
 - fanzines (1)
 - source secondaire (1)
 - Sniffin’ Glue (1)
@@ -558,9 +561,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - expression (1)
 - alternative press (1)
 - Dream English Kid (1)
-- culture populaire (1)
-- Warburg (1)
-- Mnemosyne (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -748,11 +748,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 79 |
+| non qualifiée | 73 |
 | critique | 61 |
 | majeure | 19 |
-| majeur | 3 |
+| majeur | 7 |
 | utile | 3 |
+| secondaire | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

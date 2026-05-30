@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 444 |
+| Atomes | 447 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 30 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -64,6 +64,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 9 | 0 |
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 2 | 0 |
 | S81 | S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018 | 9 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -595,11 +596,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Deborah Curtis (13)
 - Ian Curtis (11)
 - Tony Wilson (11)
+- ian_curtis (10)
 - épilepsie (10)
 - Closer (9)
 - Rob Gretton (9)
 - Natalie Curtis (9)
-- ian_curtis (8)
 - She’s Lost Control (8)
 - Barton Street (7)
 - Annik (7)
@@ -725,11 +726,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | prudence_methodologique | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
+| reception | 6 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
 | biographie | 4 |
-| reception | 4 |
 | analyse_chanson | 4 |
 | scene_domestique | 4 |
 | tension_biographique | 4 |
@@ -754,7 +755,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_live | 3 |
 | song_session | 3 |
 | santé | 2 |
-| reception_poll | 2 |
 | idee_directrice | 2 |
 | production | 2 |
 | analyse | 2 |
@@ -762,6 +762,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | analyse_conceptuelle | 2 |
 | cadre_theorique | 2 |
 | conclusion_analytique | 2 |
+| cadrage_theorique | 2 |
 | mythe_a_deconstruire | 2 |
 | synthese_argumentative | 2 |
 | lecture_biographique | 2 |
@@ -816,6 +817,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | analyse_documentaire | 1 |
 | fait_biographique_medical | 1 |
+| analyse_morceau | 1 |
 | analyse_performance | 1 |
 | mythification_posthume | 1 |
 | probleme_juridique | 1 |
@@ -1006,10 +1008,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 268 |
-| non qualifiée | 102 |
-| majeure | 45 |
-| majeur | 12 |
+| critique | 271 |
+| non qualifiée | 100 |
+| majeure | 46 |
+| majeur | 13 |
 | secondaire | 5 |
 | utile | 4 |
 | haute | 4 |

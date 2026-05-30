@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 194 |
+| Atomes | 196 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 65 |
 | Événements chronologiques | 31 |
 | Personnes | 53 |
 | Chansons | 13 |
-| Sources mobilisées | 33 |
+| Sources mobilisées | 34 |
 
 ## 4. Sources mobilisées
 
@@ -67,6 +67,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 11 | 6 |
 | S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 6 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -724,6 +725,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contexte | 3 |
 | analyse | 3 |
 | conclusions | 2 |
+| cadrage_theorique | 2 |
 | demythification | 2 |
 | acteur_interpretatif | 2 |
 | image_symbolique | 2 |
@@ -844,8 +846,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 91 |
-| majeure | 54 |
+| critique | 92 |
+| majeure | 55 |
 | non qualifiée | 38 |
 | majeur | 3 |
 | moyenne | 3 |
