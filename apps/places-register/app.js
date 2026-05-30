@@ -143,6 +143,10 @@ function render() {
   sectionsEl.innerHTML = '';
   if (!filtered.length) {
     sectionsEl.innerHTML = '<p class="places-empty">Aucun lieu ne correspond à ces critères.</p>';
+    // Codex : sans cet appel, la branche d'état vide sortait AVANT updateMap(),
+    // laissant la couche Leaflet et la note avec les marqueurs précédents — la
+    // carte ne reflétait plus les facettes actives. On vide explicitement.
+    updateMap([]);
     return;
   }
   const byType = new Map();
