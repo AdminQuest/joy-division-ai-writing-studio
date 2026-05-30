@@ -15,9 +15,7 @@ attribution).
 
 - **Pas de géocodage live au build.** Les coordonnées sont des **données
   commitées** (dans les fiches de lieux), reproductibles, sans dépendance
-  réseau à l'exécution. *(L'environnement de cette PR n'a d'ailleurs pas accès à
-  `query.wikidata.org` — host hors allowlist : le recoupement live est par
-  construction hors-bande.)*
+  réseau à l'exécution.
 - Chaque coordonnée porte une **provenance et une honnêteté de précision** :
 
 | Champ | Rôle |
@@ -25,19 +23,26 @@ attribution).
 | `lat`, `lng` | degrés décimaux WGS84 |
 | `geo_precision` | granularité ordinale : `exacte` < `rue` < `quartier` < `ville` < `region` (axe distinct de la confiance) |
 | `reference_croisee` | tableau d'identifiants préfixés par autorité, ex. `["wikidata:Q204686"]` (`musicbrainz:place:…`, `osm:node:…`) |
-| `prudence_methodologique` | lieu démoli, coordonnée approximative, désambiguïsation, QID à recouper |
+| `prudence_methodologique` | lieu démoli, coordonnée approximative, désambiguaïsation, QID à recouper |
 
 - La coordonnée s'attache au lieu **canonique**, après réconciliation `same_as`
   (cf. `docs/conventions/identifiants_lieux.md`). On géolocalise un lieu, pas
   une mention.
 
-### Périmètre du seed (amorce)
+### Périmètre de la couche (après backfill 2026-05-30)
 
-L'amorce couvre **36 lieux identifiables** (repères JD majeurs + villes /
-quartiers / régions nettement localisables). Les lieux à localisation incertaine
+La couche couvre **42 lieux identifiables** (venues JD majeures + quartiers /
+villes / régions nettement localisables). Les lieux à localisation incertaine
 restent **sans coordonnées** (honnêteté > exhaustivité) : ils n'apparaissent pas
-sur la carte mais demeurent dans le registre. Le script d'amorce, traçable, est
-`tools/_seed_places_geo.py` (idempotent).
+sur la carte mais demeurent dans le registre.
+
+Deux scripts de curation, traçables et idempotents :
+- `tools/_seed_places_geo.py` — amorce initiale (PR #27, 36 lieux)
+- `tools/wikidata_places_backfill.py` — backfill Wikidata P625 (session 2026-05-30, +6 lieux)
+
+QID `reference_croisee` posé **uniquement à confiance élevée** (20 lieux
+appréciable après backfill). Chaque QID vérifié manuellement via
+`wbgetentities` (P625 rapatrié, plausibilité géographique contrôlée).
 
 ### Rendu : points vs zones
 
@@ -48,10 +53,6 @@ séparée et activable** (toggle), exclues des punaises, avec entrée de légend
 seuil grossier est une constante unique (`COARSE_PRECISIONS`), partagée entre
 `app.js` (rendu) et `validate_places.py` (exemption INV-6). Détail : convention
 `docs/NAMING_CONVENTIONS.md` §10.8.
-
-QID `reference_croisee` posé **uniquement à confiance élevée** (11 lieux). Le
-*backfill* des QID restants est un **suivi réseau-dépendant** (nécessite l'accès
-à Wikidata), explicitement hors-périmètre de cette PR.
 
 ---
 
@@ -107,5 +108,6 @@ Principes :
 
 - maillage bidirectionnel lieux ↔ concerts ↔ personnes ↔ … → **étape 11** ;
 - croisement avec les 196 concerts → **étape 10** ;
-- *backfill* exhaustif des QID Wikidata et complétion des coordonnées des lieux
-  restants → suivi réseau-dépendant.
+- *backfill* exhaustif des coordonnées restantes (49/91 non géolocalisés après
+  session 2026-05-30) → suivi réseau-dépendant, sources historiques ou Wikidata
+  P625 si disponible.
