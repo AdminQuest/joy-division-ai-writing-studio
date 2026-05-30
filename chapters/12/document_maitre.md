@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:05:38"
+generated_at: "2026-05-30T11:44:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -356,37 +356,23 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S45-Q005** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « increasingly isolated »
+- **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
-- **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
-- **S49-Q003** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
-- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q014** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S55-Q004** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q006** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S52-Q005** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q006** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q008** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q011** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q012** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S59-Q003** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q138** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -394,29 +380,27 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q095** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q096** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q097** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q121** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q122** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q123** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
-- CHR-S49-1979-001 — Joy Division apparaît dans Something Else sur BBC2 ; Farci utilise cette apparition comme seuil de visibilité du corps scénique de Curtis.
-- CHR-S54-1980-05-18-001 — Mort de Ian Curtis, mentionnée par Gnocchi dans le contraste tragique entre la conversation mal comprise avec Burroughs sur Suicide et le suicide réel de Curtis.
-- CHR-S52-1972-001 — Rabbito rappelle, via Deborah Curtis, la fascination adolescente de Curtis pour les figures mortes prématurément et les textes de Bowie liés au suicide rock.
-- CHR-S52-1975-001 — Rabbito utilise le mariage très jeune de Curtis comme indice de contradiction entre posture punk et vie ordinaire.
-- CHR-S52-1978-001 — S52 lie la performance et la construction de Curtis à l’émergence de l’epilepsy dance, dont Deborah Curtis souligne qu’elle précède la connaissance de l’épilepsie.
-- CHR-S52-1979-001 — « She’s Lost Control » est relue par Rabbito comme un motif de préfiguration de ce que Curtis vivra lui-même, sans valeur prophétique stricte.
-- CHR-S78-1980-05-18-001 — Suicide de Ian Curtis, qui déplace la mémoire de Joy Division vers le culte de Curtis avant le retour progressif du mythe Manchester.
-- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
-- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
-- CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
-- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
-- CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
-- CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
-- CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
-- CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
-- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
-- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
-- CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
+- CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
+- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 - CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
@@ -426,83 +410,99 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-006 — Ian Curtis annonce à Deborah Curtis avoir pris une overdose de Phenobarbital ; hospitalisation, note de suicide et sortie rapide.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
-- CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
-- CHR-S76-1980-023 — Joy Division joue au Winter Gardens de Malvern, prolongeant sans pause la séquence de concerts suivant *Closer*.
-- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
-- CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
+- CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
+- CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
+- CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
+- CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
+- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
+- CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
+- CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
+- CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
+- CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
+- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
+- CHR-S76-1979-013 — Ian Curtis subit à Barton Street plusieurs crises épileptiques consécutives. Deborah appelle une ambulance lorsqu’elle ne parvient plus à le réveiller.
+- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
+- CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms, venue de Belgique après avoir été bouleversée par *Unknown Pleasures*. Elle demande ensuite une interview pour le fanzine *En Attendant*.
+- CHR-S76-1979-020 — Annik Honoré réalise une longue interview de Joy Division à Walthamstow Youth Club pour *En Attendant*. L’entretien aborde notamment films, amour, mariage, enfants, santé, mort et épilepsie.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
 - CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
 - CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
-- CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
-- CHR-S76-1980-026 — Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.
-- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
-- CHR-S76-1980-028 — Annik Honoré rapporte avoir appelé Ian Curtis trois fois depuis la Belgique ou dans le contexte de Plan K : mercredi soir, vendredi matin et samedi 17 mai à 21 h. Les conversations portent sur le divorce, l’Amérique, les vacances possibles et la difficulté de se revoir avant le départ.
+- CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
+- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
+- CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
+- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
+- CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
+- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
+- CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
+- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
+- CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
+- CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
 
 ## 9. Personnes et acteurs
 
 | ID | Nom | Description |
 |---|---|---|
-| PERS-S49-001 | Manolo Farci | Auteur du chapitre S49 ; sociologie culturelle, masculinité post-punk, performance de Ian Curtis. |
-| PERS-S49-002 | Ian Curtis | Figure centrale de la lecture Farci ; frontman vulnérable, corps scénique, danse existentielle, crise de masculinité. |
-| PERS-S56-002 | Ian Curtis | Auteur lu comme écrivain de chansons, voix stylistique reconnaissable et centre du corpus poétique étudié par Barone. |
-| PERS-S54-001 | Alessandro Gnocchi | Auteur de S54 ; analyse les matrices Burroughs et Ballard dans les textes de Ian Curtis. |
-| PERS-S54-002 | Ian Curtis | Lecteur-écrivain ; transforme des matrices littéraires en idiome poétique de dystopie intérieure, contrôle et temporalité suspendue. |
-| PERS-S54-007 | Annik Honoré | Organisatrice de la soirée du Plan K et figure du lien affectif qui prend de l’importance après cet épisode. |
-| PERS-S53-002 | Ian Curtis | Figure d’incarnation mythique, totem culturel et corps gestuel de Joy Division ; à traiter avec prudence. |
-| PERS-S55-002 | Ian Curtis | Figure centrale de la sacralisation critique et de la composante rituelle observée dans le corpus Ondarock. |
-| PERS-S52-005 | Deborah Curtis | Source intime centrale mobilisée par Rabbito ; témoin des deux côtés de la personnalité de Curtis et de la danse pré-diagnostic. |
-| PERS-S52-006 | Bernard Sumner | Témoin mobilisé par Rabbito pour décrire la personnalité explosive et la bascule scénique de Curtis. |
-| PERS-S52-007 | Peter Hook | Témoin mobilisé par Rabbito pour la violence scénique et la personnalité explosive de Curtis. |
-| PERS-S52-009 | Jon Savage | Source documentaire utilisée par Rabbito pour des témoignages sur Curtis et Joy Division. |
-| PERS-S52-011 | Tony Wilson | Figure Factory ; associé à la formule du Curtis « héros romantique », à traiter comme matériau mythographique prudent. |
-| PERS-S52-012 | Annik Honoré | Figure biographique présente dans la réduction filmique critiquée par Rabbito ; à ne pas isoler comme cause unique. |
-| PERS-S57-004 | Ian Curtis | Présence centrale mais non traitée biographiquement ; figure d’une intensité, d’un corps et d’une voix pris dans la nuit de la pensée. |
-| PERS-S59-002 | Ian Curtis | Figure centrale de la présence absente, de la distance scénique, textuelle et psychique. |
+| PERS-001 | Ian Kevin Curtis | ["chanteur", "parolier", "figure centrale"] |
+| PERS-005 | Deborah Curtis | ["témoin", "proche", "autrice", "gardienne d’archive"] |
+| PERS-S75-028 | Natalie Curtis | ["fille de Ian et Deborah Curtis"] |
+| PERS-S75-032 | Annik Honoré | ["relation intime de Ian Curtis", "figure de la crise biographique finale"] |
+| PERS-S75-035 | Alan Hempsall | ["chanteur de Crispy Ambulance", "substitut vocal ponctuel à Derby Hall"] |
+| PERS-S76-001 | Lindsay Reade | ["co-autrice de Torn Apart", "ancienne figure de l'entourage Factory", "médiatrice de témoignages intimes"] |
+| PERS-S76-002 | Doreen Curtis | ["mère de Ian Curtis", "témoin familial central"] |
+| PERS-S76-009 | Deborah Woodruff / Deborah Curtis | ["future épouse de Ian Curtis", "témoin intime central par S45", "personnage biographique structurant dans S76"] |
+| PERS-S76-053 | Mark Reeder | ["ami de Ian Curtis", "témoin de la perception sociale de l’épilepsie", "témoin ayant lui-même connu des crises"] |
+| PERS-S76-054 | Alan Wise | ["promoteur / acteur Factory Club", "témoin de l’épilepsie de Curtis", "lui-même sujet à des attaques de petit mal selon S76"] |
+| PERS-S76-055 | Dr David Holmes | ["psychologue", "musicien de la scène de l’époque", "témoin interprétatif sur l’épilepsie et la performance"] |
+| PERS-S76-060 | Paul Hanley | ["futur batteur de The Fall", "témoin du concert de Bowdon Vale"] |
+| PERS-S76-061 | Natalie Curtis | ["fille de Ian Curtis et Deborah Curtis"] |
+| PERS-S76-063 | Annik Honoré | ["journaliste/fanzine En Attendant", "future cofondatrice liée à Factory Benelux / Les Disques du Crépuscule", "relation intime de Ian Curtis"] |
+| PERS-S76-064 | Dave Pils et Jasmine | ["relais londoniens de Joy Division", "hébergement / organisation de concerts à Walthamstow"] |
+| PERS-S76-067 | Annik Honoré | ["journaliste/fanzine En Attendant", "médiatrice européenne", "relation intime de Ian Curtis"] |
+| PERS-S76-069 | Martin Hannett | ["producteur", "architecte sonore des sessions Cargo / Sordide"] |
+| PERS-S76-070 | Annik Honoré | ["journaliste/fanzine En Attendant", "médiatrice européenne", "relation intime de Ian Curtis pendant la tournée européenne"] |
+| PERS-S76-072 | Martin Hannett | ["producteur de la première version Pennine de « Love Will Tear Us Apart » selon S76", "producteur lié aux sessions de transition de janvier 1980"] |
 | PERS-S76-073 | Tony Wilson | ["cofondateur Factory", "témoin du Lyceum", "médiateur vocal indirect pour « Love Will Tear Us Apart » via Sinatra"] |
 | PERS-S76-074 | Terry Mason | ["témoin logistique et ancien manager", "acteur du retrait de Curtis lors des crises", "observateur de Preston, Lyceum et Candy"] |
 | PERS-S76-075 | John Curd | ["promoteur du Lyceum selon S76", "témoin indirect de la crise de Curtis"] |
 | PERS-S76-076 | Candy | ["chien de Ian Curtis", "élément domestique de la crise conjugale"] |
-| PERS-S76-070 | Annik Honoré | ["journaliste/fanzine En Attendant", "médiatrice européenne", "relation intime de Ian Curtis pendant la tournée européenne"] |
-| PERS-S76-072 | Martin Hannett | ["producteur de la première version Pennine de « Love Will Tear Us Apart » selon S76", "producteur lié aux sessions de transition de janvier 1980"] |
-| PERS-001 | Ian Kevin Curtis | ["chanteur", "parolier", "figure centrale"] |
-| PERS-005 | Deborah Curtis | ["témoin", "proche", "autrice", "gardienne d’archive"] |
-| PERS-S76-053 | Mark Reeder | ["ami de Ian Curtis", "témoin de la perception sociale de l’épilepsie", "témoin ayant lui-même connu des crises"] |
-| PERS-S76-054 | Alan Wise | ["promoteur / acteur Factory Club", "témoin de l’épilepsie de Curtis", "lui-même sujet à des attaques de petit mal selon S76"] |
-| PERS-S76-055 | Dr David Holmes | ["psychologue", "musicien de la scène de l’époque", "témoin interprétatif sur l’épilepsie et la performance"] |
+| PERS-S76-077 | Dave Pils | ["roadie londonien / relais pratique pendant les sessions *Closer*"] |
+| PERS-S76-078 | Martyn Atkins | ["acteur du design de *Closer*", "médiateur de l’image Staglieno avec Peter Saville selon S76"] |
+| PERS-S76-079 | Bernard Pierre Wolff | ["photographe associé à la pochette de *Closer*"] |
+| PERS-S76-080 | Alan Hempsall | ["chanteur de Crispy Ambulance", "voix de substitution au Derby Hall de Bury"] |
+| PERS-S76-081 | Simon Topping | ["chanteur / membre associé à A Certain Ratio", "voix de substitution au Derby Hall de Bury"] |
+| PERS-S76-082 | Perry Boys | ["groupe de jeunes / skinheads locaux associés aux violences de Bury selon S76"] |
+| PERS-S76-083 | Larry Cassidy | ["chanteur de Section 25", "témoin des crises de Curtis et de la scène Factory élargie"] |
 | PERS-S76-084 | Kevin Wood | ["voisin de Barton Street", "témoin de la découverte du corps de Ian Curtis"] |
 | PERS-S76-085 | Pam Wood | ["voisine de Barton Street", "témoin périphérique de la découverte"] |
 | PERS-S76-086 | Genesis P-Orridge | ["artiste Throbbing Gristle", "témoin d’alerte autour de l’état de Curtis"] |
 | PERS-S76-087 | Carole Curtis | ["sœur de Ian Curtis", "mémoire familiale endeuillée"] |
 | PERS-S76-088 | Vini Reilly | ["musicien Durutti Column", "témoin rétrospectif de la mort de Curtis"] |
-| PERS-S75-028 | Natalie Curtis | ["fille de Ian et Deborah Curtis"] |
-| PERS-S76-080 | Alan Hempsall | ["chanteur de Crispy Ambulance", "voix de substitution au Derby Hall de Bury"] |
-| PERS-S76-081 | Simon Topping | ["chanteur / membre associé à A Certain Ratio", "voix de substitution au Derby Hall de Bury"] |
-| PERS-S76-082 | Perry Boys | ["groupe de jeunes / skinheads locaux associés aux violences de Bury selon S76"] |
-| PERS-S76-083 | Larry Cassidy | ["chanteur de Section 25", "témoin des crises de Curtis et de la scène Factory élargie"] |
-| PERS-S76-077 | Dave Pils | ["roadie londonien / relais pratique pendant les sessions *Closer*"] |
-| PERS-S76-078 | Martyn Atkins | ["acteur du design de *Closer*", "médiateur de l’image Staglieno avec Peter Saville selon S76"] |
-| PERS-S76-079 | Bernard Pierre Wolff | ["photographe associé à la pochette de *Closer*"] |
+| PERS-S49-001 | Manolo Farci | Auteur du chapitre S49 ; sociologie culturelle, masculinité post-punk, performance de Ian Curtis. |
+| PERS-S49-002 | Ian Curtis | Figure centrale de la lecture Farci ; frontman vulnérable, corps scénique, danse existentielle, crise de masculinité. |
+| PERS-S52-005 | Deborah Curtis | Source intime centrale mobilisée par Rabbito ; témoin des deux côtés de la personnalité de Curtis et de la danse pré-diagnostic. |
+| PERS-S52-006 | Bernard Sumner | Témoin mobilisé par Rabbito pour décrire la personnalité explosive et la bascule scénique de Curtis. |
+| PERS-S52-007 | Peter Hook | Témoin mobilisé par Rabbito pour la violence scénique et la personnalité explosive de Curtis. |
 
 ## 10. Chansons rattachées
 
 - SONG-S49-SHES_LOST_CONTROL — She’s Lost Control
-- SONG-S56-PASSOVER — Passover
-- SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
-- SONG-S54-HEART_AND_SOUL — Heart and Soul
-- SONG-S54-THE_ETERNAL — The Eternal
 - SONG-S52-SHES_LOST_CONTROL — She’s Lost Control
 - SONG-S52-ROCK_AND_ROLL_SUICIDE — Rock And Roll Suicide
 - SONG-S52-ALL_THE_YOUNG_DUDES — All The Young Dudes
+- SONG-S54-TWENTY_FOUR_HOURS — Twenty Four Hours
+- SONG-S54-HEART_AND_SOUL — Heart and Soul
+- SONG-S54-THE_ETERNAL — The Eternal
+- SONG-S56-PASSOVER — Passover
 - SONG-S57-ISOLATION — Isolation
-- SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
 - SONG-S59-ISOLATION — Isolation
 - SONG-S59-LOVE-WILL-TEAR-US-APART — Love Will Tear Us Apart
+- SONG-S78-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- She's Lost Control
+- SONG-S75-015 — She’s Lost Control
 - SONG-S75-019 — New Dawn Fades
 - SONG-S75-021 — I Remember Nothing
 - SONG-S75-030 — Passover
 - SONG-S75-033 — Twenty Four Hours
-- SONG-S75-015 — She’s Lost Control
-- She's Lost Control
 
 ## 11. Concepts récurrents
 
@@ -512,80 +512,80 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - épilepsie (10)
 - New Order (7)
 - ill_style (6)
-- Britannia Row (5)
 - non-monocausalité médicale (5)
+- Britannia Row (5)
+- anti-téléologie (4)
 - fatigue (4)
 - mythe (4)
 - réception (4)
-- suicide (4)
-- anti-téléologie (4)
 - film (4)
+- suicide (4)
 - surveillance (3)
-- Stroszek (3)
-- Werner Herzog (3)
-- contrôle (3)
-- Martin Hannett (3)
-- closer (3)
-- Rainbow Theatre (3)
-- Macclesfield (3)
-- récits concurrents (3)
 - réception corporelle (3)
+- récits concurrents (3)
+- Rainbow Theatre (3)
 - hypnose (3)
 - backward masking (3)
-- mort de Curtis (2)
-- fin de Joy Division (2)
-- deuil (2)
+- contrôle (3)
+- Martin Hannett (3)
+- Stroszek (3)
+- Werner Herzog (3)
+- closer (3)
+- Macclesfield (3)
+- géographie émotionnelle (2)
+- dispositif (2)
+- regard (2)
+- corps exposé (2)
+- paternité empêchée (2)
+- vérité conjugale différée (2)
 - Bernard Sumner (2)
 - crise (2)
 - médicaments (2)
 - quotidien (2)
 - sommeil (2)
-- NME 1980 (2)
-- Islington (2)
-- Birmingham University (2)
-- High Hall (2)
-- dernier concert (2)
-- Still (2)
-- 2 mai 1980 (2)
-- John Peel (2)
-- Radio 1 (2)
-- Neil Norman (2)
-- NME (2)
-- God (2)
-- volonté (2)
-- démystification (2)
-- groupe (2)
-- musique (2)
-- espoir (2)
-- intégrité (2)
-- Peter Hook (2)
-- romantisme noir (2)
-- humanité (2)
-- tension (2)
-- 4 avril 1980 (2)
-- mort (2)
-- temporalite_maladie (2)
-- epilepsie_curtis (2)
-- vulnerabilite_corporelle (2)
-- masculinité post-punk (2)
-- témoins d’autorité (2)
-- légitimité mémorielle (2)
-- anti-nostalgie (2)
-- téléologie morbide (2)
-- anti-prophétisation (2)
-- réception intime (2)
-- architecture sonore (2)
-- anti-deification (2)
+- deuil (2)
 - autopsie_psychologique (2)
 - PA_method (2)
 - inevitabilite_suicide (2)
+- epilepsie_curtis (2)
 - prevention_suicide (2)
-- Parkside (2)
-- corps exposé (2)
-- paternité empêchée (2)
-- vérité conjugale différée (2)
+- masculinité post-punk (2)
+- anti-nostalgie (2)
+- témoins d’autorité (2)
+- légitimité mémorielle (2)
+- seuil clinique (2)
+- écoute différée des paroles (2)
+- epilepsie (2)
+- 4 avril 1980 (2)
+- stroboscopes (2)
+- voix (2)
 - transe (2)
 - répétition (2)
+- public (2)
+- danse (2)
+- scène (2)
+- technologie (2)
+- montage (2)
+- musique (2)
+- réalité (2)
+- mémoire située (2)
+- mémoire conjugale croisée (2)
+- Peter Hook (2)
+- romantisme noir (2)
+- humanité (2)
+- espoir (2)
+- Islington (2)
+- tension (2)
+- groupe (2)
+- Birmingham University (2)
+- High Hall (2)
+- 2 mai 1980 (2)
+- dernier concert (2)
+- Still (2)
+- mort (2)
+- John Peel (2)
+- Radio 1 (2)
+- fin de Joy Division (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -594,126 +594,126 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Annik Honoré (23)
 - fatigue (14)
 - Deborah Curtis (13)
-- Ian Curtis (11)
 - Tony Wilson (11)
-- ian_curtis (10)
+- Ian Curtis (11)
 - épilepsie (10)
+- ian_curtis (10)
 - Closer (9)
 - Rob Gretton (9)
 - Natalie Curtis (9)
 - She’s Lost Control (8)
-- Barton Street (7)
 - Annik (7)
 - Love Will Tear Us Apart (7)
-- crise (6)
+- Barton Street (7)
 - prudence (6)
+- crise (6)
 - Unknown Pleasures (6)
+- Buzzcocks tour (5)
+- Factory (5)
 - perte de contrôle (5)
-- Atmosphere (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
 - American tour (5)
-- Buzzcocks tour (5)
-- Factory (5)
+- Atmosphere (5)
 - epilepsy (5)
-- corps (4)
-- suicide (4)
-- maladie (4)
-- Curtis (4)
-- honte (4)
-- paroles (4)
+- handicap (4)
 - Macclesfield (4)
+- Phenobarbitone (4)
+- maladie (4)
+- suicide (4)
+- Candy (4)
+- paroles (4)
+- silence (4)
+- tournée américaine (4)
 - Britannia Row (4)
 - Rainbow Theatre (4)
-- Twenty Four Hours (4)
+- honte (4)
 - Transmission (4)
-- silence (4)
-- mariage (4)
-- Phenobarbitone (4)
-- Candy (4)
+- corps (4)
+- Curtis (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S57-A011 — prolonge → S57-A010
-- S57-A012 — a_croiser → S49
-- S57-A012 — a_croiser → S52
-- S57-A013 — synthese → S57-A006
-- S49-A001 — fonde → CONCEPT-masculinite_post_punk
-- S49-A001 — nuance → MYTH-joy_division_groupe_depressif
-- S49-A007 — fonde → CONCEPT-corps_scenique_comme_symptome_culturel
-- S49-A007 — deconstruit → MYTH-danse_curtis_purement_epileptique
-- S49-A010 — relie → SONG-S49-SHES_LOST_CONTROL
-- S49-A010 — nuance → CONCEPT-perte_de_controle
-- S49-A012 — nuance → MYTH-curtis_sacrifice_legendaire
-- S49-A012 — a_croiser → S41-A136
-- S49-A014 — prolonge → CONCEPT-alienation
-- S49-A014 — prepare → S49-A015
-- S49-A015 — fonde → CONCEPT-melancolie_masculine
-- S49-A015 — conceptualise → S49-A014
-- S49-A016 — a_croiser → S45
-- S49-A016 — a_croiser → S41-A152
-- S49-A017 — deconstruit → MYTH-curtis_sacrifice_legendaire
-- S49-A017 — boucle_argumentative → S49-A002
-- S78-A014 — a_croiser → S52-A019
-- S53-A011 — a_croiser → S52
-- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
-- S75-A003 — prolonge → S45
-- S75-A012 — nuance → S75-A010
-- S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
-- S75-A044 — requiert → CONCEPT-004
-- S75-A044 — nuance → MYTH-002
-- S75-A044 — prolonge → S75-A041
-- S75-A045 — prolonge → CONCEPT-004
-- S75-A045 — nuance → MYTH-002
-- S75-A045 — prolonge → S45
-- S75-A046 — requiert → CONCEPT-004
-- S75-A046 — nuance → MYTH-002
-- S75-A046 — prolonge → MOTIF-003
-- S75-A047 — requiert → CONCEPT-004
-- S75-A047 — nuance → MYTH-002
-- S75-A047 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → MOTIF-001
-- S75-A049 — requiert → CONCEPT-004
-- S75-A057 — requiert → CONCEPT-004
-- S75-A057 — nuance → MYTH-002
-- S75-A057 — prolonge → S75-A044
-- S75-A058 — requiert → CONCEPT-004
-- S75-A058 — nuance → MYTH-002
-- S75-A058 — prolonge → S75-A047
-- S75-A059 — requiert → CONCEPT-004
-- S75-A059 — nuance → MYTH-002
-- S75-A059 — prolonge → S75-A031
-- S75-A062 — prolonge → S75-A058
-- S75-A062 — requiert → CONCEPT-004
-- S75-A062 — nuance → MYTH-002
-- S75-A063 — prolonge → S75-A045
-- S75-A063 — requiert → CONCEPT-004
-- S75-A063 — nuance → MYTH-002
-- S75-A065 — requiert → CONCEPT-004
-- S75-A065 — nuance → MYTH-002
-- S75-A065 — prolonge → S75-A063
-- S75-A068 — requiert → CONCEPT-004
-- S75-A068 — nuance → MYTH-002
-- S75-A068 — prépare → S75-A075
-- S75-A072 — requiert → CONCEPT-004
-- S75-A072 — prolonge → CONCEPT-006
-- S75-A072 — nuance → MYTH-002
-- S75-A073 — prolonge → S75-A068
-- S75-A073 — requiert → CONCEPT-004
-- S75-A073 — nuance → MYTH-005
-- S75-A075 — prolonge → CONCEPT-004
-- S75-A075 — deconstruit → MYTH-002
-- S75-A075 — conclut → S75-A068
-- S75-A031 — nuance → MYTH-002
-- S75-A031 — prolonge → CONCEPT-004
-- S75-A031 — nuance → MYTH-003
-- S54-A001 — limite → MYTH-Burroughs_Ballard_cause_unique
-- S54-A009 — synthese → S54-A007
-- S54-A009 — synthese → S54-A008
-- S54-A010 — fonde → CONCEPT-intemporalite_suspensive
-- S54-A011 — illustre → S54-A010
-- S54-A014 — synthese → S54-A009
+- S56-A001 — distingue → S54
+- S56-A001 — distingue → S55
+- S56-A001 — distingue → S52
+- S56-A003 — limite → MYTH-fin_tragique_explique_le_mythe
+- S56-A009 — illustre → S56-A007
+- S56-A015 — fonde → CONCEPT-dialogue_interieur_pronominal
+- S56-A016 — prolonge → S56-A015
+- S56-A017 — contraste → S56-A016
+- S56-A019 — synthese → S56-A015
+- S56-A019 — synthese → S56-A018
+- S74-A002 — nuance → MYTH-003
+- S74-A002 — derive_de → CONCEPT-002
+- S74-A002 — prolonge → CONCEPT-003
+- S74-A010 — nuance → MYTH-004
+- S74-A010 — illustre → S74-A011
+- S45-A035 — prolonge → CONCEPT-009
+- S45-A035 — prépare → S45-A036
+- S45-A035 — requiert → CONCEPT-004
+- S45-A036 — prolonge → S45-A035
+- S45-A036 — requiert → CONCEPT-009
+- S45-A036 — alerte → RISQUE-TELEOLOGIE-MEDICALE
+- S45-A038 — prolonge → S45-A027
+- S45-A038 — nuance → MYTH-002
+- S45-A038 — requiert → CONCEPT-004
+- S45-A068 — prolonge → S45-A010
+- S45-A068 — requiert → CONCEPT-009
+- S45-A068 — nuance → MYTH-002
+- S45-A069 — prolonge → S45-A068
+- S45-A069 — prolonge → CONCEPT-009
+- S45-A069 — prolonge → CONCEPT-012
+- S45-A070 — prolonge → S45-A068
+- S45-A070 — prépare → S45-A071
+- S45-A070 — prolonge → CONCEPT-016
+- S45-A071 — prolonge → S45-A069
+- S45-A071 — requiert → CONCEPT-009
+- S45-A071 — prépare → S45-A072
+- S45-A072 — alerte → RISQUE-CAUSALITE-MEDICALE
+- S45-A072 — prolonge → S45-A071
+- S45-A072 — requiert → CONCEPT-009
+- S45-A073 — prolonge → S45-A071
+- S45-A073 — prolonge → CONCEPT-012
+- S45-A073 — nuance → MYTH-002
+- S45-A074 — prolonge → S45-A002
+- S45-A074 — requiert → CONCEPT-009
+- S45-A074 — nuance → MYTH-002
+- S45-A080 — prolonge → S45-A073
+- S45-A080 — prolonge → CONCEPT-012
+- S45-A080 — prolonge → S45-A079
+- S45-A060 — prolonge → CONCEPT-012
+- S45-A060 — nuance → MYTH-002
+- S45-A060 — prolonge → MOTIF-012
+- S45-A109 — prolonge → S45-A013
+- S45-A109 — prolonge → CONCEPT-018
+- S45-A109 — requiert → CONCEPT-004
+- S45-A112 — prolonge → CONCEPT-022
+- S45-A112 — prolonge → CONCEPT-019
+- S45-A112 — prépare → S45-A118
+- S45-A118 — prolonge → CONCEPT-016
+- S45-A118 — prolonge → CONCEPT-021
+- S45-A118 — prépare → CHAPITRE-10-I-KNOW-MY-LIFE-IS-GETTING-HARDER
+- S45-A102 — prolonge → CONCEPT-019
+- S45-A102 — prolonge → CONCEPT-016
+- S45-A105 — prolonge → S45-A081
+- S45-A105 — prolonge → CONCEPT-019
+- S45-A105 — prépare → S45-A106
+- S45-A108 — prolonge → CONCEPT-018
+- S45-A108 — prolonge → S45-A092
+- S45-A108 — alerte → RISQUE-PSYCHOLOGISATION
+- S45-A083 — prolonge → S45-A071
+- S45-A083 — prolonge → CONCEPT-019
+- S45-A083 — prolonge → CONCEPT-021
+- S45-A084 — nuance → MYTH-002
+- S45-A084 — prolonge → S45-A060
+- S45-A084 — nuance → CONCEPT-019
+- S45-A085 — prolonge → S45-A074
+- S45-A085 — prolonge → CONCEPT-019
+- S45-A085 — prolonge → S45-A002
+- S45-A091 — prolonge → S45-A075
+- S45-A091 — nuance → MYTH-LYRICS-AS-DIARY
+- S45-A091 — prolonge → S45-A012
 
 ## 13. Distribution documentaire
 
@@ -730,139 +730,94 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
-| biographie | 4 |
 | analyse_chanson | 4 |
+| biographie | 4 |
 | scene_domestique | 4 |
-| tension_biographique | 4 |
 | evenement_medical_live | 4 |
+| tension_biographique | 4 |
 | live_set_context | 4 |
 | motif_structurant | 3 |
+| analyse_album | 3 |
+| tension_medicale | 3 |
+| evenement_medical | 3 |
+| tension_sante | 3 |
 | fait_sensible | 3 |
-| concert | 3 |
-| mythe | 3 |
-| analyse_musicologique | 3 |
+| analyse_clinique | 3 |
 | lecture_textuelle | 3 |
 | memoire | 3 |
-| controverse_biographique | 3 |
-| analyse_clinique | 3 |
-| analyse_album | 3 |
-| evenement_biographique | 3 |
+| mythe | 3 |
 | demythification | 3 |
-| tension_medicale | 3 |
-| tension_sante | 3 |
-| evenement_medical | 3 |
+| evenement_biographique | 3 |
 | intertextualite | 3 |
+| controverse_biographique | 3 |
 | scene_medicale_live | 3 |
+| concert | 3 |
+| analyse_musicologique | 3 |
 | song_session | 3 |
-| santé | 2 |
-| idee_directrice | 2 |
-| production | 2 |
-| analyse | 2 |
-| analyse_filmique | 2 |
-| analyse_conceptuelle | 2 |
-| cadre_theorique | 2 |
-| conclusion_analytique | 2 |
-| cadrage_theorique | 2 |
-| mythe_a_deconstruire | 2 |
-| synthese_argumentative | 2 |
-| lecture_biographique | 2 |
-| performance | 2 |
-| chronologie_sensible | 2 |
-| scene_fondatrice | 2 |
-| lecture_chansons | 2 |
-| contexte_biographique | 2 |
-| fait_biographique_prudent | 2 |
-| transition_posthume | 2 |
-| temoignage_autobiographique | 2 |
+| motif_lyrique | 2 |
+| performance_live | 2 |
 | evenement_critique | 2 |
 | fait_medical | 2 |
 | performance_sante | 2 |
+| contrepoint_domestique | 2 |
 | tension_relationnelle | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
-| contrepoint_domestique | 2 |
-| performance_live | 2 |
-| dispositif_formel | 2 |
-| lettre_intime | 2 |
-| scene_intime | 2 |
+| santé | 2 |
+| cadre_theorique | 2 |
+| conclusion_analytique | 2 |
+| mythe_a_deconstruire | 2 |
+| synthese_argumentative | 2 |
+| performance | 2 |
+| cadrage_theorique | 2 |
+| lecture_chansons | 2 |
+| analyse | 2 |
+| interpretation_retrospective | 2 |
+| processus_creatif_chanson | 2 |
+| transition_posthume | 2 |
 | dernier_concert | 2 |
 | scene_deuil | 2 |
-| lecture_album | 2 |
-| scene_medicale | 2 |
-| bascule_tournee | 2 |
+| analyse_filmique | 2 |
+| analyse_conceptuelle | 2 |
+| dispositif_formel | 2 |
+| lecture_biographique | 2 |
+| chronologie_sensible | 2 |
 | contexte_intime | 2 |
-| motif_lyrique | 2 |
-| processus_creatif_chanson | 2 |
-| interpretation_retrospective | 2 |
-| transition_morceaux | 1 |
-| rupture_biographique | 1 |
-| decision_collective | 1 |
-| transition_vocale | 1 |
-| transition_album | 1 |
-| concept_corps | 1 |
-| analyse_sociopsychologique | 1 |
-| trauma | 1 |
-| biographie_culturelle | 1 |
-| citation_clef | 1 |
-| peur | 1 |
-| lieu_studio | 1 |
-| lieu_terminal | 1 |
-| acteur_media | 1 |
-| acteur_critique | 1 |
-| micro_chronologie | 1 |
-| citation_repere | 1 |
-| vigilance_erreur | 1 |
-| vigilance_interpretative | 1 |
-| synthese_critique | 1 |
-| interpretation_historique | 1 |
-| analyse_documentaire | 1 |
-| fait_biographique_medical | 1 |
-| analyse_morceau | 1 |
-| analyse_performance | 1 |
-| mythification_posthume | 1 |
-| probleme_juridique | 1 |
-| hypothese_juridique | 1 |
-| contre_mythe | 1 |
-| figure_mythique | 1 |
-| temoignage | 1 |
-| lecture_musicale | 1 |
-| contexte_medical | 1 |
-| session | 1 |
-| synthese_usage_livre | 1 |
-| cadre_methodologique | 1 |
-| analyse_receptologie | 1 |
-| synthese_bibliographique | 1 |
-| tableau_clinique | 1 |
+| contexte_biographique | 2 |
+| scene_medicale | 2 |
+| lecture_album | 2 |
+| scene_intime | 2 |
+| bascule_tournee | 2 |
+| lettre_intime | 2 |
+| production | 2 |
+| idee_directrice | 2 |
+| temoignage_autobiographique | 2 |
+| fait_biographique_prudent | 2 |
+| scene_fondatrice | 2 |
+| mythe_reception | 1 |
+| lecture | 1 |
 | lecture_biographique_prudente | 1 |
 | concept_chanson | 1 |
 | garde_fou | 1 |
-| sacralisation | 1 |
-| motif_discursif | 1 |
-| concept_performance | 1 |
-| chanson_conceptuelle | 1 |
-| rencontre_fondatrice | 1 |
-| interpretation_personne | 1 |
-| sante_prudence | 1 |
-| album_fin | 1 |
-| scene_sante_prudente | 1 |
-| contexte_social | 1 |
-| scene_live_apprentissage | 1 |
-| lecture_generationnelle | 1 |
-| evenement_domestique_live | 1 |
-| prudence_sante_mentale | 1 |
-| source_interne | 1 |
-| reseau_sources | 1 |
-| contradiction_biographique | 1 |
-| temoignage_croise | 1 |
-| prudence_sensible | 1 |
-| analyse_historique | 1 |
-| texte_editorial_contemporain | 1 |
-| texte_litteraire | 1 |
-| contexte_biographique_critique | 1 |
-| reportage_contemporain | 1 |
-| fragments_editoriaux | 1 |
+| temoignage_medical | 1 |
+| lacune_documentaire | 1 |
+| temoignage_indirect | 1 |
+| analyse_motif | 1 |
+| relation_interne_source | 1 |
+| fait_structurant | 1 |
 | tension_chronologique | 1 |
 | scene_domestique_medicale | 1 |
+| synthese_tension | 1 |
+| seuil_professionnel | 1 |
+| evenement_live_sante | 1 |
+| reception_critique | 1 |
+| reception_domestique | 1 |
+| scene_domestique_sensible | 1 |
+| tension_tournee | 1 |
+| scene_sensible | 1 |
+| tension_professionnelle | 1 |
+| scene_domestique_sante | 1 |
+| session_domestique | 1 |
 | tension_live_sante | 1 |
 | scene_management | 1 |
 | evenement_live_crise | 1 |
@@ -871,87 +826,33 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | objet_audiovisuel | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
-| tension_tournee | 1 |
-| scene_sensible | 1 |
-| tension_professionnelle | 1 |
-| scene_domestique_sante | 1 |
-| session_domestique | 1 |
-| fait_structurant | 1 |
-| synthese_tension | 1 |
-| reception_critique | 1 |
-| reception_domestique | 1 |
-| scene_domestique_sensible | 1 |
-| seuil_professionnel | 1 |
-| evenement_live_sante | 1 |
-| interpretation_theorique | 1 |
-| epistemologie_critique | 1 |
-| reception_affective | 1 |
-| theorie_voix | 1 |
-| theorie_speculative | 1 |
-| theorie_rythmique | 1 |
-| theorie_sonore | 1 |
-| theorie_performance | 1 |
-| interpretation_posthume | 1 |
-| interpretation_chanson | 1 |
-| intertextualite_occultiste | 1 |
-| analyse_formelle | 1 |
-| coincidence_culturelle | 1 |
-| interpretation | 1 |
-| performance_scenique | 1 |
-| chanson_biographie | 1 |
-| perception_scene | 1 |
-| interpretation_studio | 1 |
-| mythe_reception | 1 |
+| biographie_culturelle | 1 |
+| citation_clef | 1 |
+| peur | 1 |
+| trauma | 1 |
+| cadre_methodologique | 1 |
+| analyse_receptologie | 1 |
+| synthese_bibliographique | 1 |
+| tableau_clinique | 1 |
+| analyse_performance | 1 |
+| role_acteur | 1 |
+| analyse_morceau | 1 |
+| synthese_usage_livre | 1 |
 | lecture_filmique | 1 |
 | acteur_biographique | 1 |
 | chronologie_biographique_prudente | 1 |
-| lecture | 1 |
-| cadrage_source | 1 |
-| lettre_absente | 1 |
-| scene_telephonique | 1 |
-| scene_juridico_domestique | 1 |
-| alerte_memorielle | 1 |
-| derniere_nuit | 1 |
-| scene_deces | 1 |
-| memoire_endeuillée | 1 |
-| scene_deuil_mythographique | 1 |
-| scene_deuil_collectif | 1 |
-| scene_de_transition | 1 |
-| scene_memorielle | 1 |
-| relation_studio | 1 |
-| television | 1 |
-| controverse_memorielle | 1 |
-| scene_fondatrice_intime | 1 |
-| entretien_collectif | 1 |
-| prudence_medicale | 1 |
-| renversement_biographique | 1 |
-| temoignages_medicaux | 1 |
-| controverse_medicale | 1 |
-| concert_archive | 1 |
-| concert_europeen | 1 |
-| tension_synthese | 1 |
-| tournee_fatigue | 1 |
-| lettre_medicale | 1 |
-| controverse_intime_medicale | 1 |
-| crise_professionnelle | 1 |
-| bascule_live | 1 |
-| scene_intime_europeenne | 1 |
-| contraste_biographique | 1 |
-| scene_vie_studio | 1 |
-| objet_visuel | 1 |
-| micro_scene_relationnelle | 1 |
-| concert_fatigue | 1 |
-| incident_public | 1 |
-| crise_gouvernance | 1 |
-| scene_suicide_attempt | 1 |
-| hospitalisation | 1 |
-| synthese_interpretative | 1 |
-| role_acteur | 1 |
-| analyse_motif | 1 |
-| temoignage_medical | 1 |
-| lacune_documentaire | 1 |
-| temoignage_indirect | 1 |
-| relation_interne_source | 1 |
+| performance_sensible | 1 |
+| chronologie_medicale | 1 |
+| scene_live | 1 |
+| decision_industrielle | 1 |
+| analyse_morceau_sante | 1 |
+| rencontre_biographique | 1 |
+| tension_morale | 1 |
+| chanson_single | 1 |
+| management | 1 |
+| processus_creatif | 1 |
+| interpretation_vocale | 1 |
+| tension_industrie | 1 |
 | chronologie_live | 1 |
 | session_radio | 1 |
 | tension_affective_tournee | 1 |
@@ -959,10 +860,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_live | 1 |
 | economie_materielle_live | 1 |
 | tension_medicale_morale | 1 |
-| analyse_morceau_sante | 1 |
-| rencontre_biographique | 1 |
-| tension_morale | 1 |
-| chanson_single | 1 |
 | chronologie_structurante | 1 |
 | chronologie_discographique | 1 |
 | reception_live | 1 |
@@ -972,13 +869,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_interne | 1 |
 | evenement_medical_studio | 1 |
 | esthetique_visuelle | 1 |
-| scene_live | 1 |
-| decision_industrielle | 1 |
-| performance_sensible | 1 |
-| management | 1 |
-| processus_creatif | 1 |
-| interpretation_vocale | 1 |
-| tension_industrie | 1 |
+| analyse_voix_sante | 1 |
+| analyse_morceau_memoire | 1 |
+| analyse_morceau_album | 1 |
 | scene_memoire | 1 |
 | evenement_sensible | 1 |
 | scene_funeraire | 1 |
@@ -990,19 +883,126 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_refuge | 1 |
 | tension_domestique_live | 1 |
 | crise_domestique_juridique | 1 |
-| chronologie_medicale | 1 |
-| analyse_voix_sante | 1 |
-| analyse_morceau_memoire | 1 |
-| analyse_morceau_album | 1 |
-| live_sequence | 1 |
-| media_context | 1 |
-| film_context | 1 |
+| contre_mythe | 1 |
+| probleme_juridique | 1 |
+| hypothese_juridique | 1 |
+| analyse_documentaire | 1 |
+| interpretation | 1 |
+| interpretation_theorique | 1 |
+| performance_scenique | 1 |
+| chanson_biographie | 1 |
+| perception_scene | 1 |
+| interpretation_studio | 1 |
+| coincidence_culturelle | 1 |
+| epistemologie_critique | 1 |
+| reception_affective | 1 |
+| theorie_voix | 1 |
+| theorie_speculative | 1 |
+| theorie_rythmique | 1 |
+| theorie_sonore | 1 |
+| theorie_performance | 1 |
+| interpretation_posthume | 1 |
+| interpretation_chanson | 1 |
+| intertextualite_occultiste | 1 |
+| analyse_formelle | 1 |
+| figure_mythique | 1 |
+| cadrage_source | 1 |
+| scene_de_transition | 1 |
+| micro_scene_relationnelle | 1 |
+| contraste_biographique | 1 |
+| prudence_medicale | 1 |
+| renversement_biographique | 1 |
+| temoignages_medicaux | 1 |
+| controverse_medicale | 1 |
+| scene_memorielle | 1 |
+| relation_studio | 1 |
+| television | 1 |
+| controverse_memorielle | 1 |
+| scene_fondatrice_intime | 1 |
+| entretien_collectif | 1 |
+| bascule_live | 1 |
+| scene_intime_europeenne | 1 |
+| concert_archive | 1 |
+| concert_europeen | 1 |
+| tension_synthese | 1 |
+| tournee_fatigue | 1 |
+| lettre_medicale | 1 |
+| controverse_intime_medicale | 1 |
+| crise_professionnelle | 1 |
+| scene_vie_studio | 1 |
+| objet_visuel | 1 |
+| concert_fatigue | 1 |
+| incident_public | 1 |
+| crise_gouvernance | 1 |
+| scene_suicide_attempt | 1 |
+| hospitalisation | 1 |
+| synthese_interpretative | 1 |
+| lettre_absente | 1 |
+| scene_telephonique | 1 |
+| scene_juridico_domestique | 1 |
+| alerte_memorielle | 1 |
+| derniere_nuit | 1 |
+| scene_deces | 1 |
+| memoire_endeuillée | 1 |
+| scene_deuil_mythographique | 1 |
+| scene_deuil_collectif | 1 |
+| interpretation_historique | 1 |
+| lieu_studio | 1 |
+| lieu_terminal | 1 |
+| acteur_media | 1 |
+| acteur_critique | 1 |
+| micro_chronologie | 1 |
+| citation_repere | 1 |
+| vigilance_erreur | 1 |
+| vigilance_interpretative | 1 |
+| synthese_critique | 1 |
+| analyse_historique | 1 |
+| texte_editorial_contemporain | 1 |
+| texte_litteraire | 1 |
+| reportage_contemporain | 1 |
+| fragments_editoriaux | 1 |
+| contexte_biographique_critique | 1 |
+| sante_prudence | 1 |
+| album_fin | 1 |
+| scene_sante_prudente | 1 |
+| contexte_social | 1 |
+| rencontre_fondatrice | 1 |
+| interpretation_personne | 1 |
+| scene_live_apprentissage | 1 |
+| lecture_generationnelle | 1 |
+| evenement_domestique_live | 1 |
+| prudence_sante_mentale | 1 |
+| fait_biographique_medical | 1 |
+| mythification_posthume | 1 |
+| temoignage | 1 |
+| lecture_musicale | 1 |
+| contexte_medical | 1 |
+| session | 1 |
+| source_interne | 1 |
+| reseau_sources | 1 |
+| contradiction_biographique | 1 |
+| temoignage_croise | 1 |
+| prudence_sensible | 1 |
+| sacralisation | 1 |
+| motif_discursif | 1 |
+| transition_morceaux | 1 |
+| rupture_biographique | 1 |
+| decision_collective | 1 |
+| transition_vocale | 1 |
+| transition_album | 1 |
+| concept_performance | 1 |
+| chanson_conceptuelle | 1 |
+| analyse_sociopsychologique | 1 |
+| concept_corps | 1 |
 | tv_session | 1 |
-| live_set_bootleg_context | 1 |
 | release_or_session | 1 |
+| live_set_bootleg_context | 1 |
 | album | 1 |
 | song_pair | 1 |
 | release_design | 1 |
+| live_sequence | 1 |
+| media_context | 1 |
+| film_context | 1 |
 
 ### 13.2. Importance documentaire
 
@@ -1015,52 +1015,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | secondaire | 5 |
 | utile | 4 |
 | haute | 4 |
+| moyenne | 1 |
+| majeure pour la prudence méthodologique | 1 |
 | majeure pour la prudence santé | 1 |
 | critique pour Chapitre 1 | 1 |
-| majeure pour la prudence méthodologique | 1 |
-| moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
-- S49-A007 [eleve] — risque de minorer l’épilepsie ou de la transformer en pur symbole
-- S49-A010 [moyen] — l’analyse symbolique doit rester distincte du fait médical
-- S49-A012 [eleve] — risque de sacraliser la souffrance et de rendre la mort lisible comme accomplissement
-- S49-A014 [moyen] — la lecture affective doit rester distincte d’un diagnostic médical
-- S49-A015 [eleve] — concept théorique puissant mais à manier sans diagnostiquer Curtis
-- S49-A016 [eleve] — risque de confondre origine documentaire et interprétation symbolique
-- S49-A017 [moyen] — la force de la formule ne doit pas devenir une explication totale du groupe
-- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
-- S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
-- S75-A044 [eleve] — le passage appelle directement une lecture prophétique de Curtis, qu'il faut transformer en prudence explicite
-- S75-A045 [eleve] — l'écoute de Deborah est précieuse mais reste située, affective et rétrospective
-- S75-A046 [eleve] — les morceaux sont très exposés à une lecture de destin rétrospectif
-- S75-A047 [eleve] — risque majeur de réduire le morceau à l'épilepsie de Curtis ou à une anticipation de sa trajectoire
-- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
-- S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
-- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
-- S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
-- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
-- S75-A063 [eleve] — matériau intime, conflictuel et rétrospectif ; exige contextualisation et recoupement
-- S75-A065 [eleve] — matériau affectif conflictuel, fortement mythologisé, avec sources mémorielles divergentes
-- S75-A068 [eleve] — sujet suicidaire et mémoriel ; formulation sobre et non dramatisante impérative
-- S75-A072 [eleve] — la tentation de lire *Closer* comme testament total est très forte ; Ott invite à réintroduire le présent des acteurs
-- S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
-- S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
-- S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
-- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
-- S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
-- S35-A079 [faible] — La scène est utile précisément parce qu’elle désacralise l’apparition de Curtis.
-- S35-A081 [moyen] — Ne pas faire de Curtis seul le stratège total ; rester sur la perception de Morris.
-- S35-A048 [élevé] — Ne pas transformer cette scène en grille explicative de la maladie de Curtis ou de la scène punk.
-- S35-A056 [moyen] — Ne pas psychologiser la formule du nuage noir ni la relier mécaniquement à Curtis.
-- S35-A065 [moyen] — Ne pas extrapoler toute la sociologie de Macclesfield à partir d’un témoignage personnel.
-- S35-A099 [eleve] — Usage uniquement éthique et structurel ; ne pas exploiter la détresse comme anecdote.
-- S35-A100 [eleve] — Ne pas poser de diagnostic ; ne pas transférer mécaniquement sur Curtis.
-- S35-A024 [élevé] — Risque de rapprochement abusif avec l’épilepsie de Curtis.
-- S52-A017 [eleve] — risque de téléologie morbide et de romantisation du suicide
-- S52-A019 [eleve] — formule pouvant romantiser le suicide et réduire Curtis à son mythe
-- S52-A020 [eleve] — risque de transformer une lecture critique en prophétie rétrospective
+- S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
+- S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+- S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
+- S45-A036 [élevé] — Risque de téléologie médicale : le cours ne prédit pas la maladie ; il produit seulement un savoir préalable.
+- S45-A038 [élevé] — Risque de lire rétrospectivement cette violence scénique comme symptôme médical ou préfiguration morbide.
 - S45-A068 [élevé] — Risque de faire de la crise une causalité totale ou une scène prophétique.
 - S45-A069 [moyen] — Risque d’accuser rétrospectivement sans tenir compte des pratiques médicales et du contexte de 1978-1979.
 - S45-A070 [moyen] — Risque de faire de la maladie le prix naturel du succès ; il faut garder la simultanéité sans causalité automatique.
@@ -1069,6 +1035,26 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A073 [élevé] — Risque de fétichisation morbide ou de réduction de la scène à une image littéraire.
 - S45-A074 [très élevé] — Risque de médicaliser entièrement la performance ou de l’esthétiser contre la réalité des crises.
 - S45-A080 [élevé] — Risque de moraliser l’incapacité paternelle ou de la réduire à la maladie. La scène combine peur réelle, charge domestique et immaturité relationnelle.
+- S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
+- S45-A109 [élevé] — Risque de réduire la crise conjugale à Annik seule ; la relation agit dans un faisceau de maladie, tournée, succès, distance et secret.
+- S45-A112 [élevé] — Risque de transformer tous les signes en indices évidents a posteriori ; Deborah souligne elle-même le caractère rétrospectif de la lecture.
+- S45-A118 [élevé] — Risque de transformer cette conclusion en vérité totale du groupe ; c’est une vérité située, mais essentielle.
+- S45-A102 [élevé] — Risque de conclure que la fin du travail salarié améliore mécaniquement l’état de Curtis. La source suggère une corrélation vécue, non une preuve clinique.
+- S45-A105 [moyen] — Risque de symboliser excessivement la fermeture du lieu ; la scène doit rester aussi matérielle, médicale et chaotique.
+- S45-A108 [élevé] — Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.
+- S45-A083 [moyen] — Risque de projeter une connaissance médicale ultérieure sur l’expérience immédiate de Deborah.
+- S45-A084 [faible] — Risque limité ; l’atome sert surtout à éviter une trajectoire fataliste.
+- S45-A085 [élevé] — Risque de surmédicaliser la critique ou d’ignorer l’écart entre réception esthétique et réalité médicale.
+- S45-A091 [très élevé] — Risque de lire « New Dawn Fades » comme aveu suicidaire direct ; la scène montre précisément l’absence de confirmation.
+- S45-A092 [moyen] — Risque de transformer l’échec de communication médicale en accusation simpliste ; le contexte légal et médical doit être encadré.
+- S45-A096 [élevé] — Risque de conclure à des causalités pharmacologiques sans preuve, ou de moraliser les drogues comme explication totale.
+- S45-A101 [moyen] — Risque de dramatiser Aunty Nell comme secours qui aurait sauvé Ian ; l’atome signale surtout l’impossibilité de parler.
+- S45-A120 [moyen] — Risque de réduire la tournée à Annik ; le passage documente aussi fatigue, sommeil, transport et santé.
+- S45-A121 [très élevé] — Risque de transformer l’épisode en prophétie religieuse ou en signe suicidaire univoque.
+- S45-A122 [moyen] — Risque d’attribuer cyniquement la poursuite des concerts à un seul acteur ; elle relève d’un dispositif collectif et d’un calendrier déjà lancé.
+- S45-A129 [très élevé] — Risque de conclure à une manipulation médicale sans preuve ; l’atome doit rester une tension documentaire.
+- S45-A131 [élevé] — Risque de moraliser le refus paternel ; la scène combine peur réelle, maladie, culpabilité et épuisement.
+- S45-A132 [élevé] — Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.
 - S45-A133 [moyen] — Risque de faire du calendrier la cause unique ; il est un facteur du faisceau.
 - S45-A134 [élevé] — Risque d’accuser le public ou le groupe de manière univoque ; l’atome doit conserver la complexité.
 - S45-A135 [élevé] — Risque de diaboliser Annik ou de construire une causalité sentimentale simpliste.
@@ -1082,6 +1068,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
 - S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
 - S45-A148 [très élevé] — Risque de conclure sur l’intention suicidaire ou non-suicidaire à partir d’une phrase isolée.
+- S45-A149 [élevé] — Risque d’accuser rétrospectivement le psychiatre sans contexte médical et légal.
+- S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
+- S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S49-A001 [moyen] — risque de faire de la masculinité l’explication totale de Joy Division
+- S49-A007 [eleve] — risque de minorer l’épilepsie ou de la transformer en pur symbole
+- S49-A010 [moyen] — l’analyse symbolique doit rester distincte du fait médical
+- S49-A012 [eleve] — risque de sacraliser la souffrance et de rendre la mort lisible comme accomplissement
+- S49-A014 [moyen] — la lecture affective doit rester distincte d’un diagnostic médical
+- S49-A015 [eleve] — concept théorique puissant mais à manier sans diagnostiquer Curtis
+- S49-A016 [eleve] — risque de confondre origine documentaire et interprétation symbolique
+- S49-A017 [moyen] — la force de la formule ne doit pas devenir une explication totale du groupe
+- S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
+- S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 
 ## 15. Lacunes et prochaines vérifications
 

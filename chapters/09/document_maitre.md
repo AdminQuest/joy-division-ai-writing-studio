@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:05:38"
+generated_at: "2026-05-30T11:44:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -299,51 +299,51 @@ generated_at: "2026-05-30T06:05:38"
 
 ## 7. Citations disponibles
 
-- **S46-Q003** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « where Joy Division started »
-- **S46-Q005** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « South. »
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
-- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S46-Q003** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « where Joy Division started »
+- **S46-Q005** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « South. »
+- **S71-Q023** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « on Christmas Eve he photocopied Saville's cover designs and made his own sleeves with paper and glue, sliding the already-pressed discs in and delivering them himself to the homes of twenty musicians, including Ian Curti… »
+- **S71-Q024** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Each lot of ten thousand albums had to completely sell out before Factory could finance another pressing of Unknown Pleasures. With only ten thousand copies available at any given time, the public was unable to buy enoug… »
+- **S71-Q025** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was just going out to independent record stores. I used to deal with twenty-four different accounts. In those days, you went and acted as virtually your own distributor… At that level of work, you'll never get a chart… »
 - **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
 - **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S71-Q023** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « on Christmas Eve he photocopied Saville's cover designs and made his own sleeves with paper and glue, sliding the already-pressed discs in and delivering them himself to the homes of twenty musicians, including Ian Curti… »
-- **S71-Q024** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Each lot of ten thousand albums had to completely sell out before Factory could finance another pressing of Unknown Pleasures. With only ten thousand copies available at any given time, the public was unable to buy enoug… »
-- **S71-Q025** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was just going out to independent record stores. I used to deal with twenty-four different accounts. In those days, you went and acted as virtually your own distributor… At that level of work, you'll never get a chart… »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
 - CHR-S77-1976-1977-001 — Émergence rapide de fanzines punk en Grande-Bretagne, notamment en Écosse, Manchester, Sheffield, Birmingham, Leeds, Bristol, Irlande, pays de Galles et Londres.
 - CHR-S77-1978-1984-001 — Période d’activité de City Fun utilisée par Worley comme exemple majeur de fanzine politique mancunien.
-- CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
 
 ## 9. Personnes et acteurs
 
 | ID | Nom | Description |
 |---|---|---|
-| PERS-S77-005 | Liz Naylor | Contributrice de City Fun, associée par Worley aux voix critiques et libertaires mancuniennes. |
-| PERS-S77-006 | Cath Carroll | Contributrice de City Fun ; exemple de passage du fanzine vers la critique musicale et culturelle. |
-| PERS-S77-007 | Andy Zero / Andy Waide | Contributeur de City Fun cité par Worley comme acteur d’une critique post-punk locale et libertaire. |
+| PERS-002 | Peter Hook | ["musicien", "bassiste", "témoin", "mémorialiste"] |
+| PERS-006 | Robert Leo Gretton | ["manager", "stratège", "médiateur"] |
+| PERS-007 | Anthony Howard Wilson | ["journaliste", "entrepreneur culturel", "fondateur Factory", "médiateur"] |
 | PERS-S21-001 | Liz Naylor | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. |
 | PERS-S21-002 | Cath Carroll | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. |
 | PERS-S55-001 | Vincenzo Romania | Auteur de S55 ; analyse Joy Division comme univers symbolique dans les recensions musicales. |
 | PERS-S55-003 | Peter Hook | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
 | PERS-S55-004 | Bernard Sumner | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
 | PERS-S55-005 | Stephen Morris | Membre de Joy Division intégré dans les occurrences directes ou indirectes du corpus de Romania. |
+| PERS-S77-005 | Liz Naylor | Contributrice de City Fun, associée par Worley aux voix critiques et libertaires mancuniennes. |
+| PERS-S77-006 | Cath Carroll | Contributrice de City Fun ; exemple de passage du fanzine vers la critique musicale et culturelle. |
+| PERS-S77-007 | Andy Zero / Andy Waide | Contributeur de City Fun cité par Worley comme acteur d’une critique post-punk locale et libertaire. |
 | PERS-S84-004 | Michel Isbecque | Filma le concert de Joy Division au Plan K, Bruxelles, le 16 octobre 1979 sur caméra VHS portable lors d'un événement multimédias (musique, art, littérature) incluant William Burroughs. |
 | PERS-S84-005 | Dik Verdult | Filma le dernier concert enregistré de Joy Division à l'Effenaar, Eindhoven, le 18 janvier 1980, sur Super 8 pour VPRO. Extraits diffusés dans Neon épisode 6 (17 février 1980). En litige de longue date avec le groupe et Factory concernant l'usage de ses images. |
-| PERS-002 | Peter Hook | ["musicien", "bassiste", "témoin", "mémorialiste"] |
-| PERS-006 | Robert Leo Gretton | ["manager", "stratège", "médiateur"] |
-| PERS-007 | Anthony Howard Wilson | ["journaliste", "entrepreneur culturel", "fondateur Factory", "médiateur"] |
 
 ## 10. Chansons rattachées
 
 - SONG-S55-JOY_DIVISION — Joy Division
+- Transmission
 - SONG-S75-031 — Ceremony
 - SONG-S75-032 — In a Lonely Place
-- Transmission
 
 ## 11. Concepts récurrents
 
@@ -352,81 +352,81 @@ generated_at: "2026-05-30T06:05:38"
 - Factory (13)
 - Manchester (12)
 - Warsaw (11)
-- management (9)
 - factory records (9)
+- management (9)
 - Tony Wilson (8)
 - Joy Division (8)
 - scène (7)
 - Rafters (7)
 - tournée (7)
 - fatigue (6)
-- Electric Circus (6)
 - manchester (6)
+- Electric Circus (6)
 - public (5)
+- buzzcocks (5)
 - Transmission (5)
+- Londres (5)
 - Still (5)
 - Buzzcocks (5)
-- buzzcocks (5)
-- Londres (5)
-- Birmingham University (4)
-- concerts (4)
-- authenticité (4)
-- scène locale (4)
 - rob gretton (4)
 - tony wilson (4)
 - peter saville (4)
+- indépendance (4)
+- authenticité (4)
+- organisation (4)
 - Russell Club (4)
+- concerts (4)
+- Birmingham University (4)
 - Bowdon Vale (4)
 - Plan K (4)
-- organisation (4)
+- scène locale (4)
 - diy (4)
-- indépendance (4)
-- Granada Reports (3)
-- Here Are the Young Men (3)
-- premier concert (3)
-- dernier concert (3)
-- Pete Shelley (3)
-- Unknown Pleasures (3)
-- bootlegs (3)
-- Moonlight Club (3)
 - electric circus (3)
-- tournée européenne (3)
+- paul morley (3)
 - presse musicale (3)
+- performance (3)
+- live (3)
+- logistique (3)
+- son live (3)
+- professionnalisation (3)
+- Granada Reports (3)
+- epilepsie (3)
+- Unknown Pleasures (3)
+- Moonlight Club (3)
+- dernier concert (3)
+- premier concert (3)
+- tournée européenne (3)
 - bootleg (3)
 - Bruxelles (3)
-- professionnalisation (3)
-- logistique (3)
-- paul morley (3)
-- live (3)
-- epilepsie (3)
-- performance (3)
-- son live (3)
-- Shadowplay (2)
+- Pete Shelley (3)
+- bootlegs (3)
+- Here Are the Young Men (3)
+- tension (2)
+- scène post-punk (2)
 - Derby Hall (2)
 - Bury (2)
 - crise (2)
 - tournée américaine (2)
-- scène post-punk (2)
-- 8mm (2)
-- 16mm (2)
-- mémoire_audiovisuelle (2)
-- Short Circuit (2)
-- fermeture (2)
-- High Hall (2)
-- 2 mai 1980 (2)
-- stratégie (2)
-- Peel Session (2)
-- Atmosphere (2)
-- tournées (2)
-- guitare (2)
+- rafters (2)
+- factory club (2)
+- russell club (2)
+- transmission (2)
+- here are the young men (2)
+- scène mancunienne (2)
 - non-nostalgie (2)
 - commercialisation (2)
-- fanzines (2)
-- russell club (2)
-- futurama (2)
-- here are the young men (2)
-- warner bros (2)
-- wea (2)
+- scene locale (2)
+- TJ Davidson (2)
+- autonomie (2)
+- Mayflower Club (2)
+- Tiller Boys (2)
+- public absent (2)
+- violence punk (2)
+- public hostile (2)
+- conflit (2)
+- timeline (2)
+- A Factory Sample (2)
+- Factory Records (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -434,55 +434,60 @@ generated_at: "2026-05-30T06:05:38"
 
 - here_are_the_young_men (4)
 - Manchester (3)
-- transmission (3)
-- still (3)
 - buzzcocks (3)
+- transmission (3)
 - ian_curtis (3)
+- still (3)
 - scènes locales (2)
-- Liz Naylor (2)
-- Cath Carroll (2)
-- Factory_video (2)
-- peel_session (2)
-- bootlegs (2)
-- moonlight_club (2)
-- birmingham_university (2)
-- prudence (2)
-- Rafters (2)
 - electric_circus (2)
 - paul_morley (2)
 - rob_gretton (2)
 - rafters (2)
 - tony_wilson (2)
 - factory_club (2)
-- archipel fanzine (1)
-- Rough Trade (1)
-- Better Badges (1)
-- disquaires (1)
-- concerts (1)
-- féminisme (1)
-- Rock Against Sexism (1)
-- Brass Lip (1)
-- Jolt (1)
-- City Fun (1)
-- Factory (1)
-- Paul Morley (1)
-- subaltern counterpublic (1)
-- agency (1)
-- jeunesse (1)
-- alternative press (1)
-- films_8mm (1)
-- films_16mm (1)
+- peel_session (2)
+- Liz Naylor (2)
+- Cath Carroll (2)
+- bootlegs (2)
+- moonlight_club (2)
+- birmingham_university (2)
+- Factory_video (2)
+- Rafters (2)
+- prudence (2)
+- triangulation du Nord (1)
+- autonomie périphérique (1)
+- rhizome (1)
+- dispersion des scènes (1)
+- expérimentation électronique (1)
+- géographie globale (1)
+- bas budget (1)
+- liberté créative (1)
+- tournage local (1)
+- déracinement (1)
+- universalisation (1)
+- recontextualisation (1)
+- Day of the Lords (1)
+- Berlin (1)
+- Guerre froide (1)
+- Teufelsberg (1)
+- Mauerpark (1)
+- warsaw (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S77-A003 — nuance → MYTH-Manchester_exception_absolue
-- S77-A006 — prolonge → CONCEPT-fanzine_observatoire_local
-- S77-A011 — corrobore → S21-A007
-- S77-A012 — corrobore → S21-A007
-- S77-A012 — corrobore → S22
-- S77-A015 — fonde → CONCEPT-fanzine_contre_public
 - S42-A007 — cartographie → REL-S42-007
 - S42-A012 — cartographie → REL-S42-007
+- S50-A004 — prepare → S50-A009
+- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
+- S50-A016 — contre_exemple → S50-A011
+- S21-A002 — complete → S22-A001
+- S21-A004 — a_croiser → S22
+- S21-A007 — a_croiser → S22-A009
+- S21-A010 — articule → S22
+- S35-A088 — prolonge → S35-A077
+- S35-A088 — prepare → S35-A090
+- S35-A090 — prolonge → S35-A088
+- S35-A090 — croise → S41-A032
 - S75-A074 — prolonge → MOTIF-001
 - S75-A074 — requiert → CONCEPT-004
 - S75-A074 — nuance → MYTH-002
@@ -496,17 +501,12 @@ generated_at: "2026-05-30T06:05:38"
 - S55-A010 — prolonge → S55-A009
 - S55-A011 — limite → CONCEPT-joy_division_categorie_critique
 - S55-A012 — synthese → S55-A004
-- S50-A004 — prepare → S50-A009
-- S50-A010 — nuance → CONCEPT-patrimonialisation_audiovisuelle
-- S50-A016 — contre_exemple → S50-A011
-- S21-A002 — complete → S22-A001
-- S21-A004 — a_croiser → S22
-- S21-A007 — a_croiser → S22-A009
-- S21-A010 — articule → S22
-- S35-A088 — prolonge → S35-A077
-- S35-A088 — prepare → S35-A090
-- S35-A090 — prolonge → S35-A088
-- S35-A090 — croise → S41-A032
+- S77-A003 — nuance → MYTH-Manchester_exception_absolue
+- S77-A006 — prolonge → CONCEPT-fanzine_observatoire_local
+- S77-A011 — corrobore → S21-A007
+- S77-A012 — corrobore → S21-A007
+- S77-A012 — corrobore → S22
+- S77-A015 — fonde → CONCEPT-fanzine_contre_public
 
 ## 13. Distribution documentaire
 
@@ -516,77 +516,67 @@ generated_at: "2026-05-30T06:05:38"
 |---|---|
 | fait | 14 |
 | concert | 11 |
-| production | 9 |
 | reception | 9 |
+| production | 9 |
 | sociologie | 8 |
 | chronologie | 6 |
 | evenement | 6 |
 | interpretation | 6 |
-| archive | 5 |
 | relation | 5 |
+| archive | 5 |
 | contexte_scene | 5 |
-| concept_structurant | 4 |
 | analyse | 4 |
-| reception_live | 4 |
 | anecdote_significative | 4 |
+| reception_live | 4 |
+| concept_structurant | 4 |
 | evenement_live | 3 |
-| acteur | 3 |
-| non qualifié | 3 |
-| management | 3 |
-| industrie_musicale | 3 |
 | fait_sensible | 3 |
-| source_part | 2 |
-| scene_fondatrice | 2 |
-| dynamique_collective | 2 |
+| acteur | 3 |
+| industrie_musicale | 3 |
+| management | 3 |
+| non qualifié | 3 |
 | cartographie_scene | 2 |
-| lieu_scene | 2 |
-| memoire | 2 |
+| source_part | 2 |
 | prudence_methodologique | 2 |
-| synthese_usage_livre | 2 |
-| concert_incident | 2 |
+| dynamique_collective | 2 |
+| memoire | 2 |
+| contexte | 2 |
+| chronologie_live | 2 |
+| concept_transversal | 2 |
 | lieu | 2 |
 | chronologie_tournee | 2 |
+| concert_incident | 2 |
+| synthese_usage_livre | 2 |
+| lieu_scene | 2 |
 | infrastructure | 2 |
-| concept_transversal | 2 |
-| chronologie_live | 2 |
-| contexte | 2 |
-| urbanisme_vécu | 1 |
-| media_scene | 1 |
-| modernisme_litteraire | 1 |
-| sociologie_scene | 1 |
-| réception_scene | 1 |
-| reseau_distribution | 1 |
-| genre_politique | 1 |
-| ancrage_source | 1 |
-| lieu_archive | 1 |
-| lieu_bascule | 1 |
-| lieu_terminal | 1 |
-| acteur_scene | 1 |
-| micro_chronologie | 1 |
-| culture_musicale | 1 |
+| scene_fondatrice | 2 |
 | cartographie_relationnelle | 1 |
-| analyse_sonore | 1 |
-| controverse | 1 |
-| lecture_discographique | 1 |
-| fonction_symbolique | 1 |
-| motif_structurant | 1 |
-| modele_heritage | 1 |
-| limite_critique | 1 |
 | dispositif_creation | 1 |
 | tension_documentaire | 1 |
 | limite_interpretative | 1 |
-| source_primaire_mediatisee | 1 |
-| reseau_acteurs | 1 |
-| voix_acteurs | 1 |
-| scene_mediation_reseau | 1 |
-| scene_conflit_scene_locale | 1 |
-| temoignage_autobiographique | 1 |
-| temoignage_retrospectif | 1 |
-| texte_editorial | 1 |
 | inventaire_audiovisuel | 1 |
 | archive_concert | 1 |
 | evenement_audiovisuel | 1 |
 | cadre_theorique | 1 |
+| source_visuelle | 1 |
+| lieu_image | 1 |
+| concept_visuel | 1 |
+| relation_son_image | 1 |
+| sociologie_scene | 1 |
+| réception_scene | 1 |
+| analyse_sonore | 1 |
+| infrastructure_culturelle | 1 |
+| modernisme_litteraire | 1 |
+| controverse | 1 |
+| contexte_materiel | 1 |
+| decision_strategique | 1 |
+| concept | 1 |
+| portrait_fonctionnel | 1 |
+| reception_scene | 1 |
+| contexte_economique | 1 |
+| témoignage_externe | 1 |
+| portrait | 1 |
+| discographie_strategie | 1 |
 | reception_temoin | 1 |
 | strategie_management | 1 |
 | scene_detail | 1 |
@@ -594,34 +584,44 @@ generated_at: "2026-05-30T06:05:38"
 | concert_exceptionnel | 1 |
 | concert_international | 1 |
 | projet_avorte | 1 |
-| interpretation_scenique | 1 |
 | evenement_scene | 1 |
 | concert_bascule | 1 |
 | portrait_acteur | 1 |
 | chanson_live | 1 |
 | concert_detail | 1 |
+| reception_europeenne | 1 |
 | archive_broadcast | 1 |
 | television | 1 |
 | radio_broadcast | 1 |
 | iconographie_photographe | 1 |
 | methodologie_critique | 1 |
-| discographie_strategie | 1 |
-| reception_europeenne | 1 |
+| interpretation_scenique | 1 |
+| source_primaire_mediatisee | 1 |
+| reseau_acteurs | 1 |
+| voix_acteurs | 1 |
+| culture_musicale | 1 |
+| lieu_archive | 1 |
+| lieu_bascule | 1 |
+| lieu_terminal | 1 |
+| acteur_scene | 1 |
+| micro_chronologie | 1 |
+| temoignage_autobiographique | 1 |
+| temoignage_retrospectif | 1 |
+| texte_editorial | 1 |
+| scene_mediation_reseau | 1 |
+| scene_conflit_scene_locale | 1 |
+| lecture_discographique | 1 |
 | contrepoint | 1 |
 | methode | 1 |
-| source_visuelle | 1 |
-| lieu_image | 1 |
-| concept_visuel | 1 |
-| relation_son_image | 1 |
-| decision_strategique | 1 |
-| concept | 1 |
-| portrait_fonctionnel | 1 |
-| reception_scene | 1 |
-| contexte_economique | 1 |
-| témoignage_externe | 1 |
-| contexte_materiel | 1 |
-| portrait | 1 |
-| infrastructure_culturelle | 1 |
+| fonction_symbolique | 1 |
+| motif_structurant | 1 |
+| modele_heritage | 1 |
+| limite_critique | 1 |
+| urbanisme_vécu | 1 |
+| media_scene | 1 |
+| reseau_distribution | 1 |
+| genre_politique | 1 |
+| ancrage_source | 1 |
 
 ### 13.2. Importance documentaire
 
@@ -639,10 +639,10 @@ generated_at: "2026-05-30T06:05:38"
 
 - S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
 - S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
-- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 - S50-A004 [moyen] — la globalisation des images ne signifie pas nécessairement universalisation réussie du sens
 - S50-A010 [moyen] — ne pas condamner d’emblée toute déterritorialisation
 - S50-A016 [moyen] — la critique dépend de la cohérence perçue entre chanson et images
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 
 ## 15. Lacunes et prochaines vérifications
 

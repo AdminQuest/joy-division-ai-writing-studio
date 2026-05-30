@@ -188,7 +188,11 @@ def iter_markdown_files() -> Iterable[Path]:
     for directory in SCAN_DIRS:
         if not directory.exists():
             continue
-        for path in directory.rglob("*.md"):
+        # sorted() by POSIX-relative path: filesystem traversal order differs across
+        # platforms (APFS vs ext4), which would otherwise leak into record order and
+        # every downstream export. The key is locale-independent (str compare on the
+        # already-normalised rel() path).
+        for path in sorted(directory.rglob("*.md"), key=rel):
             if "exports/generated" not in rel(path):
                 yield path
 

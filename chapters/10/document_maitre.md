@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T11:44:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -361,139 +361,139 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 ## 7. Citations disponibles
 
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
-- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S56-Q001** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S85-Q003** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S85-Q005** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S60-Q003** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
-- **S60-Q004** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
-- **S60-Q005** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
-- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q005** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q011** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q012** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q013** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S58-Q002** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S58-Q008** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S59-Q002** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
-- **S84-Q005** — S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : `verifie` — « a rare intensity that still burns, three decades later »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q164** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
+- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
+- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
+- **S56-Q001** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
+- **S58-Q002** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
+- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
+- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
+- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
+- CHR-S76-1979-014 — Dave McCullough interviewe Joy Division pour *Sounds* autour de *Unknown Pleasures* et de l’événement Stuff the Superstars au Mayflower Club, Gorton. L’entretien tourne au conflit autour de l’anti-image, de la presse, des noms absents et de l’imagerie nazie.
+- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
+- CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
 - CHR-S50-1979-002 — Joy Division interprète « Transmission » et « She’s Lost Control » dans Something Else sur BBC2, étape centrale de la médiatisation du corps de Curtis selon S50.
 - CHR-S50-1988-001 — Anton Corbijn réalise le clip de « Atmosphere », que S50 interprète comme célébration médiatique du culte de Ian Curtis.
 - CHR-S50-2019-001 — Warner Music lance Unknown Pleasures Reimagined pour les quarante ans de Unknown Pleasures.
-- CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
-- CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
+- CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
+- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
+- CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
 - CHR-S53-2002-001 — 24 Hour Party People est mobilisé comme remédiation audiovisuelle de Manchester, de Factory et de l’effervescence post-punk.
 - CHR-S53-2007-001 — Control est mobilisé par La Rocca comme remédiation visuelle de Ian Curtis et de la stimmung mélancolique Joy Division.
-- CHR-S21-2026-05-19-001 — Date de consultation retenue pour la page MDMArchive S21 dans le registre canonique.
+- CHR-S54-1978-001 — Publication de The Third Mind de William S. Burroughs et Brion Gysin, objet du désir d’autographe dans la scène du Plan K rapportée par S54.
+- CHR-S54-1979-10-16-001 — Concert de Joy Division au Plan K de Bruxelles, avec William S. Burroughs, Brion Gysin, Cabaret Voltaire et Annik Honoré dans le même contexte événementiel.
 - CHR-S55-2000-2016-001 — Corpus Ondarock analysé par Romania : recensions, spéciaux et sources biographiques contenant des références à Joy Division ou aux membres du groupe.
+- CHR-S58-1988-1989-001 — Second Summer of Love ; Ilardi l’inscrit dans la transformation de Manchester en Madchester et dans la centralité de l’Haçienda.
+- CHR-S58-2021-001 — Publication du chapitre d’Emiliano Ilardi dans Our Vision Touched the Sky.
 - CHR-S60-1980-001 — Transmission est mobilisé par Federici comme rappel de la communication, de la répétition et de la composition.
 - CHR-S60-2004-001 — Jäh Division publie Dub Will Tear Us Apart, réemploi dub et chromatique de l’imagerie Unknown Pleasures.
 - CHR-S60-2015-001 — Summertime ’06 de Vince Staples reprend la logique graphique d’Unknown Pleasures dans un autre contexte musical.
 - CHR-S60-2021-001 — Publication du chapitre de Raffaele Federici dans Our Vision Touched the Sky.
-- CHR-S52-2007-001 — Sortie de Control d’Anton Corbijn, biopic en noir et blanc consacré à Ian Curtis et Joy Division, objet principal de l’analyse de Rabbito.
-- CHR-S51-1979-001 — Mark Leckey assiste à un concert de Joy Division à Eric’s Liverpool ; S51 traite la captation amateur retrouvée comme archive remédiée.
-- CHR-S51-2015-001 — Mark Leckey découvre sur YouTube un film amateur du concert de Joy Division à Eric’s et réalise Dream English Kid 1964-1999.
 - CHR-S78-1979-09-13-001 — Projection londonienne de films Factory Flick, dont No City Fun et Joy Division de Malcolm Whitehead, sous numéro FAC 9.
 - CHR-S78-1997-001 — Fermeture de l’Hacienda et vente du Free Trade Hall, rubicons de la transformation Pop City Manchester selon Nevarez.
 - CHR-S78-2002-001 — Démolition de l’Hacienda et sortie de 24 Hour Party People, film qui replace Joy Division dans la saga Factory.
 - CHR-S78-2007-001 — Sortie de Control et du documentaire Joy Division de Grant Gee, deux remédiations majeures du mythe Joy Division / Manchester.
-- CHR-S58-1988-1989-001 — Second Summer of Love ; Ilardi l’inscrit dans la transformation de Manchester en Madchester et dans la centralité de l’Haçienda.
-- CHR-S58-2021-001 — Publication du chapitre d’Emiliano Ilardi dans Our Vision Touched the Sky.
-- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
-- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
-- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
-- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
-- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
-- CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
-- CHR-S76-1979-014 — Dave McCullough interviewe Joy Division pour *Sounds* autour de *Unknown Pleasures* et de l’événement Stuff the Superstars au Mayflower Club, Gorton. L’entretien tourne au conflit autour de l’anti-image, de la presse, des noms absents et de l’imagerie nazie.
 
 ## 9. Personnes et acteurs
 
 | ID | Nom | Description |
 |---|---|---|
-| PERS-S56-003 | Jon Savage | Auteur discuté par Barone pour traduction, paratexte et réception éditoriale. |
-| PERS-S85-005 | ACTEURS | Designer belge — parka avec logo Factory Records vendue £20 000, Open Eye Gallery 2017; cas emblématique de l'appropriation haute couture de l'esthétique underground |
+| PERS-001 | Ian Kevin Curtis | ["chanteur", "parolier", "figure centrale"] |
+| PERS-005 | Deborah Curtis | ["témoin", "proche", "autrice", "gardienne d’archive"] |
+| PERS-010 | Annick Honoré | ["proche", "témoin"] |
+| PERS-011 | Natalie Curtis | ["proche", "enfant de Ian Curtis"] |
+| PERS-016 | Bedhead | ["groupe", "héritier critique"] |
+| PERS-S75-029 | Peter Saville | ["designer graphique", "auteur de la pochette d'Unknown Pleasures"] |
+| PERS-S76-047 | Alan Wise | ["promoteur local", "gestionnaire des soirées au Russell Club selon S76", "témoin du rôle visuel de Peter Saville"] |
+| PERS-S76-049 | Peter Saville | ["designer graphique", "étudiant à Manchester Polytechnic", "acteur de l’image Factory"] |
+| PERS-S76-050 | Tony Wilson | ["présentateur Granada TV", "cofondateur Factory", "promoteur du Factory Club", "initiateur de *The Factory Sample*"] |
+| PERS-S76-051 | Tony Davidson / T. J. Davidson | ["propriétaire de T. J. Davidson’s", "entrepreneur de répétition et label TJM Records"] |
+| PERS-S76-056 | Kevin Cummins | ["photographe", "producteur d’une part majeure de l’iconographie Joy Division"] |
+| PERS-S76-059 | Martin O’Neill | ["photographe local", "auteur de photographies iconiques du concert de Bowdon Vale"] |
+| PERS-S76-062 | Dave McCullough | ["journaliste musical pour Sounds", "critique de Joy Division autour d’Unknown Pleasures et Stuff the Superstars"] |
+| PERS-S76-066 | Jean-Pierre Turmel | ["fondateur / animateur de Sordide Sentimental", "médiateur français de Joy Division", "acteur du disque-objet *Licht und Blindheit*"] |
+| PERS-S76-078 | Martyn Atkins | ["acteur du design de *Closer*", "médiateur de l’image Staglieno avec Peter Saville selon S76"] |
+| PERS-S76-079 | Bernard Pierre Wolff | ["photographe associé à la pochette de *Closer*"] |
+| PERS-S76-089 | Paul Morley | ["journaliste NME", "acteur de la première mythographie posthume de Joy Division", "auteur de *Nothing*"] |
 | PERS-S50-001 | Paolo Bertetti | Co-auteur de S50 ; paragraphes 3 et 4 matériellement écrits par lui ; analyse sémiotique de la réinvention et de ses limites. |
 | PERS-S50-002 | Domenico Morreale | Co-auteur de S50 ; paragraphes 1 et 2 matériellement écrits par lui ; cadrage du projet et des écosystèmes médiatiques. |
 | PERS-S50-003 | Orian Williams | Producteur de Unknown Pleasures Reimagined ; ancien producteur de Control ; témoin interrogé par les auteurs. |
 | PERS-S50-004 | Warren Jackson | Directeur créatif Warner Music ; coordination visuelle de Unknown Pleasures Reimagined. |
-| PERS-S54-003 | William S. Burroughs | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentation. |
-| PERS-S54-004 | J. G. Ballard | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et violence médiatisée. |
-| PERS-S54-005 | Brion Gysin | Présent dans la scène du Plan K autour de The Third Mind ; référence à croiser. |
-| PERS-S54-006 | Peter Hook | Témoin de la scène du Plan K rapportée par S54 ; à croiser avec ses mémoires. |
-| PERS-S53-001 | Fabio La Rocca | Auteur de S53 ; analyse l’incarnation mythique de Joy Division par images, symboles, affects et médias. |
-| PERS-S53-005 | Anton Corbijn | Réalisateur de Control, mobilisé indirectement comme producteur d’une remédiation visuelle du mythe Curtis. |
-| PERS-S53-006 | Tony Wilson | Figure de Factory et de l’effervescence mancunienne, notamment par les remédiations audiovisuelles de Manchester. |
-| PERS-S53-011 | Michael Winterbottom | Réalisateur de 24 Hour Party People, film mobilisé comme remédiation de Manchester, Factory et post-punk. |
-| PERS-S60-001 | Raffaele Federici | Auteur de S60 ; propose une lecture sociologique et médiologique du pulsar d’Unknown Pleasures devenu t-shirt iconique. |
-| PERS-S60-003 | Jacques Attali | Référence théorique mobilisée pour penser la musique comme prophétie et cartographie sociale des sons. |
-| PERS-S60-004 | Raf Simons | Créateur de mode mobilisé pour les réemplois du motif Joy Division dans l’art, le vêtement et la distinction. |
-| PERS-S60-005 | Vince Staples | Rappeur dont Summertime ’06 est mobilisé comme réemploi du motif Unknown Pleasures. |
+| PERS-S51-001 | Jennifer Malvezzi | Autrice de S51 ; analyse l’image lo-fi de Joy Division, Mark Leckey et la mémoire médiatique populaire anglaise. |
+| PERS-S51-002 | Mark Leckey | Artiste anglais ; découvre sur YouTube une captation amateur de Joy Division à Eric’s et réalise Dream English Kid 1964-1999. |
+| PERS-S51-003 | Hito Steyerl | Référence théorique sur les poor images, mobilisée par Malvezzi pour penser les images lo-fi de Joy Division. |
 | PERS-S52-001 | Andrea Rabbito | Auteur de S52 ; analyse Control comme biopic séduisant mais limité par sa surface biographique. |
 | PERS-S52-002 | Anton Corbijn | Réalisateur de Control ; ancien photographe de Joy Division ; figure d’autorité esthétique qui renforce la fascination du film. |
 | PERS-S52-003 | Sam Riley | Interprète de Ian Curtis dans Control ; élément reconnu parmi les qualités filmiques du biopic. |
 | PERS-S52-004 | Samantha Morton | Interprète de Deborah Curtis dans Control ; associée par Rabbito aux qualités actorielles du film. |
 | PERS-S52-010 | Grant Gee | Réalisateur du documentaire Joy Division, mobilisé dans la constellation documentaire citée par Rabbito. |
-| PERS-S51-001 | Jennifer Malvezzi | Autrice de S51 ; analyse l’image lo-fi de Joy Division, Mark Leckey et la mémoire médiatique populaire anglaise. |
-| PERS-S51-002 | Mark Leckey | Artiste anglais ; découvre sur YouTube une captation amateur de Joy Division à Eric’s et réalise Dream English Kid 1964-1999. |
-| PERS-S51-003 | Hito Steyerl | Référence théorique sur les poor images, mobilisée par Malvezzi pour penser les images lo-fi de Joy Division. |
-| PERS-S78-001 | Leonard Nevarez | Auteur de S78 ; analyse le mythe Manchester / Joy Division, l’écoute située et la ville néolibérale. |
-| PERS-S78-005 | Tony Wilson | Figure Factory et médiateur du cadre situationniste / psychogéographique, à distinguer du groupe lui-même. |
-| PERS-S78-007 | Anton Corbijn | Photographe et réalisateur ; produit une image noire et blanche de Joy Division, de la photo NME à Control et Atmosphere. |
-| PERS-S78-008 | Charles Salem | Réalisateur de No City Fun, film qui associe Unknown Pleasures à un voyage visuel dans Manchester. |
-| PERS-S78-009 | Malcolm Whitehead | Réalisateur du film Joy Division de 1979, mêlant scènes urbaines, publicités, Anderton et concert de Bowdon Vale. |
-| PERS-S78-010 | Grant Gee | Réalisateur du documentaire Joy Division, qui remobilise Salem et Whitehead dans une reconstruction du mythe urbain. |
+| PERS-S53-001 | Fabio La Rocca | Auteur de S53 ; analyse l’incarnation mythique de Joy Division par images, symboles, affects et médias. |
+| PERS-S53-005 | Anton Corbijn | Réalisateur de Control, mobilisé indirectement comme producteur d’une remédiation visuelle du mythe Curtis. |
+| PERS-S53-006 | Tony Wilson | Figure de Factory et de l’effervescence mancunienne, notamment par les remédiations audiovisuelles de Manchester. |
+| PERS-S53-011 | Michael Winterbottom | Réalisateur de 24 Hour Party People, film mobilisé comme remédiation de Manchester, Factory et post-punk. |
+| PERS-S54-003 | William S. Burroughs | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentation. |
+| PERS-S54-004 | J. G. Ballard | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et violence médiatisée. |
+| PERS-S54-005 | Brion Gysin | Présent dans la scène du Plan K autour de The Third Mind ; référence à croiser. |
+| PERS-S54-006 | Peter Hook | Témoin de la scène du Plan K rapportée par S54 ; à croiser avec ses mémoires. |
+| PERS-S56-003 | Jon Savage | Auteur discuté par Barone pour traduction, paratexte et réception éditoriale. |
 | PERS-S58-001 | Emiliano Ilardi | Auteur de S58 ; propose une lecture médiologique de Joy Division comme nœud entre Factory, New Order, Haçienda et rave culture. |
 | PERS-S58-004 | Tony Wilson | Figure Factory et Haçienda ; inventeur culturel central mais gestionnaire économiquement fragile dans la lecture d’Ilardi. |
-| PERS-S58-005 | Rob Gretton | Figure Factory / New Order / Haçienda associée à la gestion festive et anti-entrepreneuriale. |
-| PERS-S84-001 | Malcolm Whitehead | Premier filmeur de Joy Division en concert (Super 8, Bowden Vale Club, 14 mars 1979) ; fondateur d'Ikon FCL (Factory Communications Limited), aile vidéo de Factory Records, en juin 1980 ; pionnier de la distribution vidéo indépendante au Royaume-Uni. |
-| PERS-S84-005 | Dik Verdult | Filma le dernier concert enregistré de Joy Division à l'Effenaar, Eindhoven, le 18 janvier 1980, sur Super 8 pour VPRO. Extraits diffusés dans Neon épisode 6 (17 février 1980). En litige de longue date avec le groupe et Factory concernant l'usage de ses images. |
-| PERS-S84-007 | Grant Gee | Réalisateur de Joy Division: Their Own Story in Their Own Words (2007) — première numérisation et diffusion systématiques des archives audiovisuelles fragmentées du groupe, avec Jon Savage comme scénariste. |
-| PERS-S84-008 | Nick Cope | Auteur de 'Nothing Here Now but the Recordings: The Moving Image Record of Joy Division and the Factory Video Unit' (2018) — premier inventaire académique systématique des archives audiovisuelles primaires de Joy Division. |
-| PERS-001 | Ian Kevin Curtis | ["chanteur", "parolier", "figure centrale"] |
 
 ## 10. Chansons rattachées
 
 - SONG-S50-SHES_LOST_CONTROL — She’s Lost Control
+- SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S53-UNKNOWN_PLEASURES — Unknown Pleasures
 - SONG-S53-LOVE_WILL_TEAR_US_APART — Love Will Tear Us Apart
+- SONG-S58-DIGITAL — Digital
 - SONG-S60-TRANSMISSION — Transmission
 - SONG-S60-DUB-WILL-TEAR-US-APART — Dub Will Tear Us Apart
-- SONG-S52-ATMOSPHERE — Atmosphere
 - SONG-S78-UNKNOWN_PLEASURES — Unknown Pleasures
-- SONG-S58-DIGITAL — Digital
-- SONG-S75-003 — Disorder
-- SONG-S75-022 — Autosuggestion
-- SONG-S75-023 — From Safety to Where...?
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
+- SONG-S75-003 — Disorder
+- SONG-S75-022 — Autosuggestion
+- SONG-S75-023 — From Safety to Where...?
 
 ## 11. Concepts récurrents
 
@@ -501,82 +501,82 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - fac-simile (9)
 - épilepsie (8)
 - mémoire (5)
-- suicide (4)
-- ian curtis (4)
-- love will tear us apart (4)
+- autobiographie-fiction (4)
 - closer (4)
 - new order (4)
-- autobiographie-fiction (4)
-- Closer (3)
-- postérité (3)
-- archive (3)
+- love will tear us apart (4)
+- suicide (4)
+- ian curtis (4)
 - mythe Curtis (3)
+- archive (3)
+- carnet (3)
+- postérité (3)
 - anti-nostalgie (3)
 - mythification (3)
-- carnet (3)
-- Love Will Tear Us Apart (2)
+- Closer (3)
+- carnets (2)
+- chronologie relative (2)
+- datation (2)
+- fragment (2)
+- rature (2)
+- atelier (2)
+- non-monocausalité médicale (2)
+- variante-textuelle (2)
+- epilepsie-comme-source (2)
+- datation-1980 (2)
+- point-de-bascule (2)
+- glissement-autobiographique (2)
+- prudence historiographique (2)
+- manuscrit (2)
+- génétique (2)
+- biographie contre mythe social (2)
+- travail féminin effacé (2)
+- vérité conjugale différée (2)
 - foyer (2)
 - deuil (2)
 - Factory (2)
-- manuscrit (2)
-- humanité (2)
-- scène (2)
-- vulnérabilité (2)
-- noir et blanc (2)
-- génie tragique (2)
-- manchester (2)
-- prudence historiographique (2)
-- moonlight club (2)
+- Love Will Tear Us Apart (2)
+- source secondaire critique (2)
+- Unknown Pleasures (2)
+- Peter Saville (2)
+- pulsar (2)
 - rainbow theatre (2)
-- fatigue (2)
-- birmingham (2)
-- still (2)
+- moonlight club (2)
+- ceremony (2)
+- in a lonely place (2)
 - mort de ian curtis (2)
 - john peel (2)
 - réception posthume (2)
-- in a lonely place (2)
-- Unknown Pleasures (2)
-- source secondaire critique (2)
-- Sex Pistols (2)
-- ceremony (2)
+- manchester (2)
+- noir et blanc (2)
+- génie tragique (2)
 - tournée américaine (2)
-- travail féminin effacé (2)
-- biographie contre mythe social (2)
-- non-monocausalité médicale (2)
-- vérité conjugale différée (2)
-- She's Lost Control (2)
-- Rainbow Theatre (2)
+- Sex Pistols (2)
 - epilepsie (2)
+- Rainbow Theatre (2)
 - stroboscopes (2)
+- vulnérabilité (2)
+- humanité (2)
+- She's Lost Control (2)
 - public (2)
 - danse (2)
-- Peter Saville (2)
-- pulsar (2)
-- datation (2)
-- carnets (2)
-- chronologie relative (2)
-- fragment (2)
-- génétique (2)
-- variante-textuelle (2)
-- epilepsie-comme-source (2)
-- point-de-bascule (2)
-- glissement-autobiographique (2)
-- rature (2)
-- atelier (2)
-- datation-1980 (2)
-- Transmission (1)
-- radio (1)
-- répétition (1)
-- tension collective (1)
-- single (1)
-- Britannia Row (1)
-- Martin Hannett (1)
-- déplacement hors Manchester (1)
-- intensification sonore (1)
-- écriture (1)
-- pression psychique (1)
-- accélération (1)
-- Ceremony (1)
+- scène (2)
+- fatigue (2)
+- birmingham (2)
+- still (2)
+- industrie du rétro (1)
+- réification du post-punk (1)
+- circulation globale (1)
+- sous-culture réifiée (1)
+- traduction_ideologique_du_titre (1)
+- réimagination audiovisuelle (1)
+- héritage médiatisé (1)
+- patrimonialisation audiovisuelle (1)
+- album-matrice (1)
+- curation patrimoniale (1)
+- médiation industrielle (1)
+- déterritorialisation de l’imaginaire (1)
+- cartographie audiovisuelle (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -588,92 +588,46 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Annik (8)
 - Control (6)
 - Peter Saville (6)
-- Unknown Pleasures (5)
 - silence (5)
 - Natalie (5)
+- Unknown Pleasures (5)
 - Debbie (5)
-- Burroughs (4)
 - YouTube (4)
-- Factory (4)
-- Tony Wilson (4)
-- Candy (4)
 - Deborah Curtis (4)
+- Factory (4)
+- Candy (4)
+- Tony Wilson (4)
+- Burroughs (4)
 - contrôle (3)
+- dissimulation (3)
+- confidentialité (3)
+- van (3)
+- Closer (3)
+- biopic (3)
+- pulsar (3)
 - DIY (3)
 - mémoire (3)
-- biopic (3)
-- Closer (3)
-- confidentialité (3)
-- pulsar (3)
-- van (3)
 - Kevin Cummins (3)
-- dissimulation (3)
-- situationnisme (2)
-- archive numérique (2)
-- image pauvre (2)
-- compression (2)
-- télévision (2)
-- 24 Hour Party People (2)
-- nom de groupe (2)
-- marque (2)
-- New Order (2)
-- Hook (2)
-- Haçienda (2)
-- acid house (2)
-- technologie (2)
+- patrimonialisation (2)
+- anniversaire (2)
+- Warner (2)
+- VHS (2)
+- Atmosphere (2)
+- Love Will Tear Us Apart (2)
+- corps (2)
+- texte-chanson (2)
 - libération (2)
+- dépersonnalisation-lyrique (2)
+- seuil (2)
+- contradiction biographique (2)
+- Macclesfield (2)
+- An Ideal for Living (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- S57-A005 — prolonge → S57-A004
-- S77-A008 — a_croiser → S54-A012
-- S77-A013 — a_croiser → S54
-- S77-A013 — a_croiser → S08
-- S51-A001 — limite → MYTH-image_lofi_preuve_brute
-- S51-A002 — fonde → CONCEPT-serendipite_numerique
-- S51-A003 — prolonge → S51-A002
-- S51-A006 — fonde → CONCEPT-image_pauvre_joy_division
-- S51-A007 — precise → S51-A006
-- S51-A012 — precise → CONCEPT-image_pauvre_joy_division
-- S51-A013 — conceptualise → S51-A006
-- S51-A015 — synthese → CONCEPT-image_pauvre_joy_division
 - S42-A005 — prolonge → REL-S42-005
 - S42-A013 — synthese → REL-S42-010
-- S49-A003 — limite → MYTH-control_comme_source_factuelle
-- S78-A003 — fonde → CONCEPT-triade_ecoute_urbaine
-- S78-A004 — fonde → CONCEPT-indexicalite_joy_division
-- S78-A005 — explique → S78-A004
-- S78-A013 — a_croiser → S21
-- S78-A015 — fonde → CONCEPT-manchester_neoliberale_musicale
-- S78-A016 — a_croiser → S52
-- S78-A016 — a_croiser → S53-A010
-- S78-A018 — fonde → CONCEPT-ecoute_mobile_patrimoniale
-- S78-A020 — synthese → CONCEPT-mythe_manchester_joy_division
-- S53-A001 — limite → MYTH-mythe_comme_preuve
-- S53-A007 — conceptualise → S53-A006
-- S53-A008 — prolonge → S53-A007
-- S53-A010 — a_croiser → S52
-- S53-A016 — synthese → CONCEPT-fantome_joy_division
-- S75-A001 — prolonge → MOTIF-heritage
-- S75-A001 — nuance → MYTH-culte_sombre
-- S75-A053 — prolonge → MOTIF-004
-- S75-A053 — prolonge → CONCEPT-006
-- S75-A053 — prépare → S75-A054
-- S75-A055 — requiert → CONCEPT-004
-- S75-A055 — prolonge → MOTIF-006
-- S75-A055 — nuance → MYTH-006
-- S75-A038 — prolonge → MYTH-005
-- S75-A038 — prolonge → CONCEPT-007
-- S75-A038 — prolonge → S75-A036
-- S54-A002 — a_croiser → S41
-- S54-A012 — fonde → CONCEPT-langage_virus_controle
-- S54-A013 — fonde → CONCEPT-corps_technologique_ballardien
-- S55-A002 — fonde → S55-A004
-- S55-A005 — prolonge → S55-A004
-- S55-A012 — synthese → S55-A004
-- S13-A005 — prolonge → SONG-Transmission
-- S13-A005 — prépare → S13-A006
-- S13-A005 — prolonge → CONCEPT-signal
+- S56-A002 — fonde → CONCEPT-traduction_paratextuelle_ideologique
 - S50-A001 — limite → MYTH-reimagined_archive_origine
 - S50-A002 — fonde → CONCEPT-patrimonialisation_audiovisuelle
 - S50-A003 — relie → S50-A002
@@ -690,21 +644,67 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S50-A018 — nuance → CONCEPT-imaginaire_participatif
 - S50-A019 — boucle_argumentative → S50-A002
 - S50-A019 — synthese → S50-A011
-- S21-A009 — fonde → CONCEPT-patrimonialisation_fanzine
-- S35-A061 — prolonge → S35-A008
-- S35-A061 — prolonge → S35-A038
-- S35-A061 — prolonge → MOTIF-S35-003
-- S35-A098 — prepare → S35-A099
-- S35-A099 — prolonge → S35-A098
-- S52-A001 — limite → MYTH-Control_verite_definitive
-- S52-A002 — ouvre → S52-A004
-- S52-A003 — nuance → S52-A004
-- S52-A004 — fonde → CONCEPT-surface_biographique
-- S52-A005 — conceptualise → S52-A004
-- S52-A008 — prépare → S52-A010
+- S45-A026 — prolonge → MOTIF-009
+- S45-A026 — requiert → CONCEPT-004
+- S45-A026 — nuance → MYTH-002
+- S45-A027 — requiert → CONCEPT-004
+- S45-A027 — prolonge → MOTIF-010
+- S45-A027 — alerte → RISQUE-PSYCHOLOGISATION
+- S45-A035 — prolonge → CONCEPT-009
+- S45-A035 — prépare → S45-A036
+- S45-A035 — requiert → CONCEPT-004
+- S45-A046 — prolonge → S45-A019
+- S45-A046 — prolonge → CONCEPT-010
+- S45-A046 — prolonge → S45-A042
+- S45-A047 — prolonge → CONCEPT-012
+- S45-A047 — nuance → MOTIF-007
+- S45-A047 — prépare → S45-A060
+- S45-A052 — prolonge → MOTIF-013
+- S45-A052 — nuance → MYTH-003
+- S45-A052 — prolonge → CONCEPT-012
 - S45-A061 — prolonge → MOTIF-019
 - S45-A061 — prolonge → CONCEPT-016
 - S45-A061 — prépare → S45-A070
+- S45-A062 — nuance → MYTH-002
+- S45-A062 — prolonge → MOTIF-019
+- S45-A063 — prolonge → CONCEPT-013
+- S45-A063 — prolonge → S45-A052
+- S45-A064 — prolonge → MOTIF-017
+- S45-A064 — prépare → S45-A065
+- S45-A065 — prolonge → S45-A061
+- S45-A065 — requiert → CONCEPT-004
+- S45-A065 — alerte → RISQUE-PSYCHOLOGISATION
+- S45-A067 — prolonge → S45-A064
+- S45-A067 — prépare → MYTH-002
+- S45-A069 — prolonge → S45-A068
+- S45-A069 — prolonge → CONCEPT-009
+- S45-A069 — prolonge → CONCEPT-012
+- S45-A073 — prolonge → S45-A071
+- S45-A073 — prolonge → CONCEPT-012
+- S45-A073 — nuance → MYTH-002
+- S45-A079 — prolonge → S45-A061
+- S45-A079 — prolonge → CONCEPT-013
+- S45-A079 — prolonge → MOTIF-019
+- S45-A080 — prolonge → S45-A073
+- S45-A080 — prolonge → CONCEPT-012
+- S45-A080 — prolonge → S45-A079
+- S45-A057 — prolonge → CONCEPT-007
+- S45-A057 — nuance → MYTH-009
+- S45-A057 — prolonge → S45-A001
+- S45-A060 — prolonge → CONCEPT-012
+- S45-A060 — nuance → MYTH-002
+- S45-A060 — prolonge → MOTIF-012
+- S45-A109 — prolonge → S45-A013
+- S45-A109 — prolonge → CONCEPT-018
+- S45-A109 — requiert → CONCEPT-004
+- S45-A110 — prolonge → S45-A095
+- S45-A110 — prolonge → S45-A109
+- S45-A110 — alerte → RISQUE-CAUSALITE-ROMANTIQUE
+- S45-A111 — prolonge → CONCEPT-016
+- S45-A111 — prolonge → S45-A057
+- S45-A111 — prépare → S45-A118
+- S45-A112 — prolonge → CONCEPT-022
+- S45-A112 — prolonge → CONCEPT-019
 
 ## 13. Distribution documentaire
 
@@ -718,113 +718,59 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_domestique | 8 |
 | non qualifié | 8 |
 | reception | 7 |
-| biographie | 6 |
 | scene_domestique | 6 |
-| archive | 4 |
+| biographie | 6 |
 | mediation_audiovisuelle | 4 |
+| tension_documentaire | 4 |
+| scene_sensible | 4 |
+| objet_discographique | 4 |
+| archive | 4 |
 | synthese_usage_livre | 4 |
 | memoire | 4 |
-| objet_discographique | 4 |
-| scene_sensible | 4 |
-| tension_documentaire | 4 |
-| source_part | 3 |
-| relation | 3 |
 | synthese_argumentative | 3 |
-| analyse | 3 |
-| objet_visuel | 3 |
-| concert | 3 |
+| temoignage_indirect | 3 |
 | tension_relationnelle | 3 |
 | tension_medicale | 3 |
 | contrepoint_domestique | 3 |
-| economie_domestique | 3 |
 | tension_management | 3 |
-| temoignage_indirect | 3 |
-| analyse_morceau | 2 |
-| fait_sensible | 2 |
-| mémoire | 2 |
-| positionnement | 2 |
-| conclusions | 2 |
-| reception_numerique | 2 |
-| contexte_mediatique | 2 |
+| economie_domestique | 3 |
+| relation | 3 |
+| concert | 3 |
+| analyse | 3 |
+| source_part | 3 |
+| objet_visuel | 3 |
 | lecture_reception | 2 |
-| concept_juridique | 2 |
-| cas_comparatif | 2 |
+| reception_numerique | 2 |
 | analyse_video | 2 |
 | reception_critique | 2 |
-| production | 2 |
+| conclusions | 2 |
+| fait_chronologique | 2 |
+| analyse_editoriale | 2 |
 | fait_social | 2 |
 | reception_precoce | 2 |
 | tension_genre | 2 |
-| scene_management | 2 |
+| tension_interne | 2 |
 | scene_live_domestique | 2 |
 | scene_conjugale | 2 |
-| tension_interne | 2 |
-| evenement_biographique | 2 |
-| fait_chronologique | 2 |
-| analyse_editoriale | 2 |
-| economie_materielle | 2 |
+| scene_management | 2 |
+| positionnement | 2 |
+| fait_sensible | 2 |
+| mémoire | 2 |
 | interpretation_retrospective | 2 |
+| economie_materielle | 2 |
+| concept_juridique | 2 |
+| cas_comparatif | 2 |
+| evenement_biographique | 2 |
+| contexte_mediatique | 2 |
+| production | 2 |
+| analyse_morceau | 2 |
 | song | 2 |
-| production_album | 1 |
-| crise_creative | 1 |
-| transition_morceaux | 1 |
-| rupture_biographique | 1 |
-| crise_biographique | 1 |
-| crise_finale | 1 |
-| critique_du_monde | 1 |
-| mémoire_sensible | 1 |
-| trauma | 1 |
-| mémoire_collective | 1 |
-| archive_vivante | 1 |
-| culture_intellectuelle | 1 |
-| citation_repere | 1 |
-| contexte_label | 1 |
-| cadre_theorique | 1 |
-| capital_subculturel | 1 |
-| appropriation_mode | 1 |
-| oeuvre_artistique | 1 |
-| contexte_urbain | 1 |
-| ecoute_technologique | 1 |
-| qualification_juridique | 1 |
-| donnees_marques | 1 |
-| organisation_juridique | 1 |
-| conflit_juridique | 1 |
-| prudence_probatoire | 1 |
-| droit_consommation | 1 |
-| mythe | 1 |
-| synthese | 1 |
-| economie_culturelle | 1 |
-| probleme_historique | 1 |
-| matrice_politique_culturelle | 1 |
-| espace_culturel | 1 |
-| concept_mediologique | 1 |
-| synthese_conceptuelle | 1 |
-| concept | 1 |
-| scene_mythographique | 1 |
-| corpus_methode | 1 |
-| fonction_symbolique | 1 |
-| chanson_conceptuelle | 1 |
+| traduction_editoriale | 1 |
 | evenement_mediatique | 1 |
 | acteur_mediation | 1 |
 | dispositif_creation | 1 |
 | periodisation_mediatique | 1 |
 | reception_fan | 1 |
-| patrimonialisation | 1 |
-| album_production | 1 |
-| culture_materielle | 1 |
-| evenement_domestique_live | 1 |
-| appreciation_critique | 1 |
-| motif_structurant | 1 |
-| critique_filmique | 1 |
-| temoignage_autobiographique | 1 |
-| recension_contemporaine | 1 |
-| temoignage_retrospectif | 1 |
-| texte_editorial | 1 |
-| historiographie_memorielle | 1 |
-| theorie_memoire | 1 |
-| historiographie_pluraliste | 1 |
-| philosophie_du_temps | 1 |
-| santé | 1 |
 | contexte_media | 1 |
 | inventaire_audiovisuel | 1 |
 | acteur_media | 1 |
@@ -833,68 +779,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | document_promotionnel | 1 |
 | publication_audiovisuelle | 1 |
 | organisation_culturelle | 1 |
-| contrepoint_mythique | 1 |
-| scene_domestique_medicale | 1 |
-| evenement_critique | 1 |
-| tension_psychiatrique | 1 |
-| scene_domestique_finale | 1 |
-| relation_management | 1 |
-| tension_tournee | 1 |
-| reception_transnationale | 1 |
-| scene_documentaire | 1 |
-| scene_domestique_sante | 1 |
-| session_domestique | 1 |
-| fait_structurant | 1 |
-| sociologie_scene | 1 |
-| scene_sociale | 1 |
-| synthese_tension | 1 |
-| scene_domestique_live | 1 |
-| reception_domestique | 1 |
-| reception_publique | 1 |
-| tension_sante | 1 |
-| scene_live_sociale | 1 |
-| scene_domestique_sensible | 1 |
-| performance | 1 |
-| concert_incident | 1 |
-| theorie_performance | 1 |
-| performance_scenique | 1 |
-| chanson_biographie | 1 |
-| perception_scene | 1 |
 | acteur_image | 1 |
 | image_groupe | 1 |
-| traduction_editoriale | 1 |
-| reference_theorique | 1 |
-| analyse_formelle | 1 |
-| reception_reemploi | 1 |
-| mode_design | 1 |
-| concept_musique | 1 |
-| fait_biographique | 1 |
-| chronologie | 1 |
-| scene_deuil_mythographique | 1 |
-| iconographie | 1 |
-| image_et_reception | 1 |
-| concert_iconographie | 1 |
-| objet_album | 1 |
-| controverse_reception | 1 |
-| performance_reception | 1 |
-| lieu_iconographique | 1 |
-| lecture_institutionnelle | 1 |
-| dispositif_scene | 1 |
-| triade_institutionnelle | 1 |
-| session_studio | 1 |
-| fait | 1 |
-| concept_visuel | 1 |
-| analyse_pochette | 1 |
-| concept_graphique | 1 |
-| iconisation | 1 |
-| reception_iconographique | 1 |
-| analyse_materielle | 1 |
-| synthese_relationnelle | 1 |
-| temoignage | 1 |
-| contexte_culturel | 1 |
-| scene_biographique | 1 |
-| genese_chanson | 1 |
-| temoignage_studio | 1 |
 | source_canonique_songbook | 1 |
 | genealogie_editoriale | 1 |
 | lacune_documentaire | 1 |
@@ -907,26 +793,140 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | temoignage_medical | 1 |
 | temoignage_reception | 1 |
 | variante_textuelle | 1 |
+| temoignage | 1 |
+| contexte_culturel | 1 |
+| scene_biographique | 1 |
+| genese_chanson | 1 |
+| temoignage_studio | 1 |
 | document_archive | 1 |
 | position_critique | 1 |
-| tension_affective_tournee | 1 |
-| tension_morale_tournee | 1 |
+| fait_structurant | 1 |
+| sociologie_scene | 1 |
+| contrepoint_mythique | 1 |
+| scene_domestique_medicale | 1 |
+| relation_management | 1 |
+| scene_sociale | 1 |
+| synthese_tension | 1 |
+| scene_domestique_live | 1 |
+| reception_domestique | 1 |
+| reception_publique | 1 |
+| tension_sante | 1 |
+| scene_live_sociale | 1 |
+| scene_domestique_sensible | 1 |
+| tension_tournee | 1 |
+| reception_transnationale | 1 |
+| scene_documentaire | 1 |
+| scene_domestique_sante | 1 |
+| session_domestique | 1 |
+| evenement_critique | 1 |
+| tension_psychiatrique | 1 |
+| scene_domestique_finale | 1 |
+| mémoire_sensible | 1 |
+| trauma | 1 |
+| mémoire_collective | 1 |
+| archive_vivante | 1 |
+| synthese | 1 |
+| analyse_pochette | 1 |
+| concept_graphique | 1 |
+| iconisation | 1 |
+| reception_iconographique | 1 |
+| analyse_materielle | 1 |
+| synthese_relationnelle | 1 |
+| reference_theorique | 1 |
+| analyse_formelle | 1 |
+| reception_reemploi | 1 |
+| mode_design | 1 |
+| concept_musique | 1 |
+| concept_visuel | 1 |
+| fait | 1 |
+| scene_mythographique | 1 |
+| mythe | 1 |
+| fait_biographique | 1 |
+| chronologie | 1 |
+| evenement_discographique | 1 |
+| interpretation_groupe | 1 |
+| intervention_management | 1 |
 | processus_creatif_chanson | 1 |
 | evenement_logistique | 1 |
 | rencontre_biographique | 1 |
 | demythification | 1 |
+| processus_creatif | 1 |
+| tension_affective_tournee | 1 |
+| tension_morale_tournee | 1 |
 | contexte_biographique_medical | 1 |
 | tension_identitaire | 1 |
-| evenement_discographique | 1 |
-| interpretation_groupe | 1 |
-| processus_creatif | 1 |
 | tension_domestique_live | 1 |
 | crise_domestique_juridique | 1 |
-| intervention_management | 1 |
+| economie_culturelle | 1 |
+| probleme_historique | 1 |
+| matrice_politique_culturelle | 1 |
+| espace_culturel | 1 |
+| concept_mediologique | 1 |
+| synthese_conceptuelle | 1 |
+| qualification_juridique | 1 |
+| donnees_marques | 1 |
+| organisation_juridique | 1 |
+| conflit_juridique | 1 |
+| prudence_probatoire | 1 |
+| droit_consommation | 1 |
+| performance | 1 |
+| concert_incident | 1 |
+| performance_scenique | 1 |
+| chanson_biographie | 1 |
+| perception_scene | 1 |
+| theorie_performance | 1 |
+| contexte_label | 1 |
+| cadre_theorique | 1 |
+| capital_subculturel | 1 |
+| appropriation_mode | 1 |
+| oeuvre_artistique | 1 |
+| santé | 1 |
+| patrimonialisation | 1 |
+| lecture_institutionnelle | 1 |
+| dispositif_scene | 1 |
+| triade_institutionnelle | 1 |
+| session_studio | 1 |
+| lieu_iconographique | 1 |
+| iconographie | 1 |
+| image_et_reception | 1 |
+| concert_iconographie | 1 |
+| objet_album | 1 |
+| controverse_reception | 1 |
+| performance_reception | 1 |
+| scene_deuil_mythographique | 1 |
+| citation_repere | 1 |
+| historiographie_memorielle | 1 |
+| theorie_memoire | 1 |
+| historiographie_pluraliste | 1 |
+| philosophie_du_temps | 1 |
+| temoignage_autobiographique | 1 |
+| recension_contemporaine | 1 |
+| temoignage_retrospectif | 1 |
+| texte_editorial | 1 |
+| album_production | 1 |
+| culture_materielle | 1 |
+| evenement_domestique_live | 1 |
+| contexte_urbain | 1 |
+| ecoute_technologique | 1 |
+| concept | 1 |
+| appreciation_critique | 1 |
+| motif_structurant | 1 |
+| critique_filmique | 1 |
+| corpus_methode | 1 |
+| fonction_symbolique | 1 |
+| production_album | 1 |
+| crise_creative | 1 |
+| transition_morceaux | 1 |
+| rupture_biographique | 1 |
+| crise_biographique | 1 |
+| crise_finale | 1 |
+| chanson_conceptuelle | 1 |
+| critique_du_monde | 1 |
+| culture_intellectuelle | 1 |
+| song_or_release | 1 |
+| song_or_video | 1 |
 | album | 1 |
 | album_reception_object | 1 |
-| song_or_video | 1 |
-| song_or_release | 1 |
 | release_object | 1 |
 | release_design | 1 |
 
@@ -943,22 +943,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- S51-A001 [faible] — l’atome fixe explicitement les limites de la source
-- S51-A002 [moyen] — la vidéo et le récit de découverte doivent être croisés avant usage factuel
-- S51-A003 [moyen] — ne pas réduire l’œuvre de Leckey au seul fragment Joy Division
-- S51-A006 [faible] — le concept est explicitement mobilisé par S51
-- S51-A007 [moyen] — l’idée générale est forte mais les supports précis doivent être documentés cas par cas
-- S51-A012 [moyen] — chaque famille de support doit être documentée séparément
-- S51-A013 [faible] — l’argument s’appuie explicitement sur la source théorique mobilisée
-- S51-A015 [faible] — synthèse alignée sur le cœur théorique de la source
 - S42-A005 [moyen] — Ne pas confondre présence dans la culture de masse et influence documentée.
 - S42-A013 [moyen] — Ne pas confondre réification et trahison simple.
-- S49-A003 [faible] — l’atome verrouille explicitement la limite documentaire
-- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
-- S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
-- S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
-- S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
-- S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
 - S50-A001 [faible] — l’atome fixe une limite d’usage documentaire
 - S50-A002 [moyen] — les informations web et vidéos doivent être revérifiées au moment de l’usage
 - S50-A003 [moyen] — risque de surestimer l’unité esthétique d’un projet volontairement dispersé
@@ -972,8 +958,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S50-A014 [moyen] — jugement esthétique fort des auteurs, à contextualiser
 - S50-A018 [moyen] — les commentaires en ligne ne représentent pas toute la réception
 - S50-A019 [faible] — synthèse directement alignée sur la conclusion des auteurs
-- S35-A061 [faible] — Atome directement exploitable dans la culture matérielle du projet.
-- S35-A099 [eleve] — Usage uniquement éthique et structurel ; ne pas exploiter la détresse comme anecdote.
+- S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
+- S45-A027 [très élevé] — Risque de voyeurisme, de psychologisation ou de portrait criminel totalisant.
+- S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
+- S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
+- S45-A047 [faible] — Risque limité ; éviter seulement de surcharger la voiture comme symbole politique global.
+- S45-A052 [moyen] — Risque de transformer le statut de paria en posture héroïque ; il s’agit aussi de précarité matérielle très concrète.
 - S45-A061 [moyen] — Risque de transformer une observation de Hook en doctrine consciente du groupe.
 - S45-A062 [moyen] — Risque de remplacer le mythe noir par un mythe de camaraderie innocente.
 - S45-A063 [faible] — Risque surtout inverse : laisser la formule les réduire à une présence décorative.
@@ -984,25 +974,35 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S45-A073 [élevé] — Risque de fétichisation morbide ou de réduction de la scène à une image littéraire.
 - S45-A079 [moyen] — Risque d’attribuer l’exclusion à une politique formalisée unique ; Deborah évoque une évolution graduelle.
 - S45-A080 [élevé] — Risque de moraliser l’incapacité paternelle ou de la réduire à la maladie. La scène combine peur réelle, charge domestique et immaturité relationnelle.
-- S45-A135 [élevé] — Risque de diaboliser Annik ou de construire une causalité sentimentale simpliste.
-- S45-A136 [très élevé] — Risque de faire de la note une preuve causale unique ; elle doit rester dans un faisceau.
-- S45-A137 [élevé] — Risque d’accuser Wilson d’effacement volontaire ; Deborah formule plusieurs hypothèses.
-- S45-A138 [moyen] — Risque de présenter toute évacuation comme intention hostile ; elle est aussi tentative maladroite de repos.
-- S45-A141 [moyen] — Risque de réduire la scène à une crise de jalousie ; elle prolonge l’exclusion pratique.
-- S45-A142 [moyen] — Risque d’opposer simplement Deborah et Lindsay ; les deux apparaissent comme femmes chargées du care.
-- S45-A143 [moyen] — Risque de lire ce calme comme réconciliation ; Deborah le présente comme période transitoire.
-- S45-A146 [moyen] — Risque de réduire la décision de divorce à vengeance contre Annik ; Deborah insiste aussi sur la survie psychique.
-- S45-A147 [faible] — Risque surtout de le réduire à revanche sentimentale ; l’enjeu est la subjectivation.
-- S45-A149 [élevé] — Risque d’accuser rétrospectivement le psychiatre sans contexte médical et légal.
-- S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A057 [élevé] — Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.
 - S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
-- S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
-- S45-A027 [très élevé] — Risque de voyeurisme, de psychologisation ou de portrait criminel totalisant.
-- S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
+- S45-A109 [élevé] — Risque de réduire la crise conjugale à Annik seule ; la relation agit dans un faisceau de maladie, tournée, succès, distance et secret.
+- S45-A110 [élevé] — Risque de théâtraliser la scène en pur triangle sentimental ; elle renseigne aussi sur loge, image, corps féminin blessé, maternité et exclusion.
+- S45-A111 [moyen] — Risque d’opposer mécaniquement manager et épouse ; Gretton agit ici comme médiateur pragmatique, non seulement comme écran.
+- S45-A112 [élevé] — Risque de transformer tous les signes en indices évidents a posteriori ; Deborah souligne elle-même le caractère rétrospectif de la lecture.
+- S45-A113 [moyen] — Risque de réduire le passage à un grief conjugal ; il documente aussi l’économie concrète du passage au professionnalisme.
+- S45-A115 [moyen] — Risque d’en faire une scène symbolique totale ; elle reste un indice sensible d’un état conjugal.
+- S45-A117 [moyen] — Risque de surcharger l’anecdote Prestbury comme prophétie sociale ; elle signale surtout l’imaginaire d’ascension.
+- S45-A118 [élevé] — Risque de transformer cette conclusion en vérité totale du groupe ; c’est une vérité située, mais essentielle.
+- S45-A103 [moyen] — Risque de réduire Curtis à la paresse ou de traiter l’anecdote comme simple farce ; elle documente aussi l’économie matérielle de la tournée.
+- S45-A108 [élevé] — Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.
+- S45-A081 [moyen] — Risque de lire cette sortie comme pure scène heureuse alors qu’elle fonctionne déjà comme seuil d’illusion.
+- S45-A082 [moyen] — Risque de moraliser Ian ou de réduire le conflit à l’épilepsie ; la scène associe genre, maternité, dépendance et maladie.
+- S45-A084 [faible] — Risque limité ; l’atome sert surtout à éviter une trajectoire fataliste.
+- S45-A087 [moyen] — Risque de réduire Ian à l’immaturité ou Gretton au père symbolique ; les tensions sont aussi celles d’une professionnalisation rapide.
+- S45-A090 [moyen] — Risque de surcharger le rejet initial de Deborah ; il est affectif, domestique et herméneutique.
+- S45-A091 [très élevé] — Risque de lire « New Dawn Fades » comme aveu suicidaire direct ; la scène montre précisément l’absence de confirmation.
+- S45-A092 [moyen] — Risque de transformer l’échec de communication médicale en accusation simpliste ; le contexte légal et médical doit être encadré.
+- S45-A094 [moyen] — Risque de confondre célébrité réelle et perception conjugale d’être dépossédée ; les deux doivent être distinguées.
+- S45-A095 [moyen] — Risque de l’attribuer uniquement à Rob Gretton alors que Deborah note la responsabilité collective possible du groupe.
+- S45-A096 [élevé] — Risque de conclure à des causalités pharmacologiques sans preuve, ou de moraliser les drogues comme explication totale.
+- S45-A097 [moyen] — Risque de faire du festival un simple échec comique ; il révèle aussi la police, la gestion de l’espace public et l’écart domestique.
+- S45-A101 [moyen] — Risque de dramatiser Aunty Nell comme secours qui aurait sauvé Ian ; l’atome signale surtout l’impossibilité de parler.
 - S45-A119 [élevé] — Risque de lire toute la scène comme plan juridique conscient ; Deborah reconstruit après coup une intention qu’elle ne percevait pas alors.
 - S45-A120 [moyen] — Risque de réduire la tournée à Annik ; le passage documente aussi fatigue, sommeil, transport et santé.
 - S45-A121 [très élevé] — Risque de transformer l’épisode en prophétie religieuse ou en signe suicidaire univoque.
+- S45-A123 [moyen] — Risque de figer Ian dans cette phrase ; elle doit être reliée au contexte d’Annik, de maladie, de fatigue et de séparation.
+- S45-A124 [moyen] — Risque de transformer la formule de Franck en essentialisation mystique de Curtis.
 
 ## 15. Lacunes et prochaines vérifications
 

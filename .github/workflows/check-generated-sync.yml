@@ -1,0 +1,56 @@
+# Volet D — gate de synchronisation des artefacts générés.
+#
+# Rejoue la sentinelle anti-drift (tools/check_generated_sync.py) en CI : un rebuild
+# déterministe de la pipeline canonique (build_all) ne doit produire AUCUNE divergence
+# substantielle vis-à-vis des artefacts committés (registres, exports, document_maitre,
+# audit_repo). Sinon le job échoue et la PR est bloquée.
+#
+# Pas de faux positif lié à la date : la sentinelle compare le contenu NORMALISÉ
+# (horodatage generated_at neutralisé), donc le checkout d'un commit de merge détaché
+# en pull_request — dont la date diffère des generated_at committés — reste vert.
+#
+# Dépendances : la pipeline est quasi-stdlib MAIS tools/build_registers.py importe
+# PyYAML (import dur : exit 2 si absent). C'est la seule dépendance tierce de la chaîne
+# build_all. openpyxl/jsonschema de requirements.txt ne sont PAS utilisés par la
+# pipeline, on ne les installe donc pas.
+#
+# NOTE : le nom du job `check-generated-sync` est le contrat avec la ruleset
+# « Require status checks » — NE PAS le renommer (cela casserait le required check).
+
+name: check-generated-sync
+
+on:
+  pull_request:
+    branches: [main]
+  # push:main fait tourner le check SUR main au merge : c'est ce qui l'ENREGISTRE et
+  # le rend sélectionnable dans la ruleset (sans ça il n'apparaît jamais dans la liste).
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-generated-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # La sentinelle compare l'arbre checkout à un rebuild déterministe :
+          # l'historique profond est inutile.
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install PyYAML (seule dépendance tierce de la pipeline, épinglée sur le local)
+        run: python -m pip install --upgrade pip "PyYAML==6.0.1"
+
+      - name: Sentinelle anti-drift (rebuild déterministe → 0 divergence)
+        run: python tools/check_generated_sync.py
+
+      - name: Audit du repo documentaire (--fail-on-error)
+        run: python tools/audit_repo.py --fail-on-error
