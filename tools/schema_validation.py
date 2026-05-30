@@ -21,7 +21,11 @@ SCHEMA_CONTROLLED_VALUES = {
             'fait','lecture','concept','citation_clef','mythe','controverse',
             'biographie','production','concert','reception','memoire','santé',
             'relation','politique','esthétique','archive','sociologie','analyse',
-            'psychologie_sociale','culture_musicale','domesticité'
+            'psychologie_sociale','culture_musicale','domesticité',
+            # Ajouts D.6 (étape 2) : prudence documentaire transversale et
+            # atome de renvoi croisé entre sources. Tenir synchronisé avec
+            # schemas/atom.schema.yaml (controlled_values.type_unite).
+            'prudence_methodologique','reference_croisee'
         }
     },
     'quote': {

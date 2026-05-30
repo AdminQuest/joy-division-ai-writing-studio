@@ -23,7 +23,6 @@ warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.m
 warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/allegri_living_in_the_ice_age/source_part_01.md,S31-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -172,7 +171,6 @@ warning,missing_required_field,sources/amendola_troianiello_metropoli_spazio_per
 warning,v2_migration_debt,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A001,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md,S42-A002,Missing required field: concepts,Compléter le champ obligatoire.
@@ -334,7 +332,6 @@ warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_pa
 warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/barone_directionless_so_plain_to_see/source_part_01.md,S56-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -543,7 +540,6 @@ warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_mode
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A001,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A002,Missing required field: concepts,Compléter le champ obligatoire.
@@ -583,7 +579,6 @@ warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_mode
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A005,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A005,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A005,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A006,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md,S39-A006,Missing required field: concepts,Compléter le champ obligatoire.
@@ -639,7 +634,6 @@ warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginari
 warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md,S50-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -981,7 +975,6 @@ warning,v2_migration_debt,sources/breyley_iranian_musicians_jd/atoms_s86_breyley
 warning,v2_migration_debt,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A002,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A002,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A002,Invalid value for fiabilite: haute,Aligner la valeur avec le schéma contrôlé.
-warning,invalid_controlled_value,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A002,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A002,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A003,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md,S86-A003,Missing required field: titre,Compléter le champ obligatoire.
@@ -1347,7 +1340,6 @@ warning,v2_migration_debt,sources/butt_eshun_fisher_post_punk_then_now/source_pa
 warning,v2_migration_debt,sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md,S26-A017,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md,S26-A017,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md,S26-A017,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md,S26-A017,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -1356,7 +1348,6 @@ warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happe
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A001,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A002,Missing required field: concepts,Compléter le champ obligatoire.
@@ -1426,7 +1417,6 @@ warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happe
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A008,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A008,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md,S40-A008,Missing nested field: niveau_preuve.corroboration,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md,S40-PART-HAUNTOLOGIE-NO-FUTURE-V2,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md,S40-PART-HAUNTOLOGIE-NO-FUTURE-V2,Missing required field: titre,Compléter le champ obligatoire.
@@ -1452,7 +1442,6 @@ warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_w
 warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A001,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A002,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md,S43-A002,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -1693,7 +1682,6 @@ warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A006,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A006,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A006,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A007,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A007,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A007,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -1743,7 +1731,6 @@ warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A011,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A011,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A011,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A011,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A012,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A012,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md,S06-A012,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -2098,7 +2085,6 @@ warning,v2_migration_debt,sources/cope_moving_image_factory_video/atoms_dm_s84_m
 warning,v2_migration_debt,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A015,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A015,Invalid value for fiabilite: haute,Aligner la valeur avec le schéma contrôlé.
-warning,invalid_controlled_value,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A015,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A015,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A016,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md,S84-A016,Missing required field: titre,Compléter le champ obligatoire.
@@ -2248,7 +2234,6 @@ warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A008,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A008,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A008,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A009,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A009,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md,S09-A009,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -2465,7 +2450,6 @@ warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A038,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A038,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A038,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A038,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A038,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A039,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md,S79-A039,Missing required field: titre,Compléter le champ obligatoire.
@@ -3000,7 +2984,6 @@ warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A047,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A047,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A047,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A047,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A047,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A048,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md,S79-A048,Missing required field: titre,Compléter le champ obligatoire.
@@ -3549,7 +3532,6 @@ warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A023,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A023,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A023,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A023,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A023,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A024,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md,S79-A024,Missing required field: titre,Compléter le champ obligatoire.
@@ -3609,7 +3591,6 @@ warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A028,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A028,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A028,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A028,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A028,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A029,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md,S79-A029,Missing required field: titre,Compléter le champ obligatoire.
@@ -3729,7 +3710,6 @@ warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A054,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A054,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A054,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A054,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A054,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A055,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md,S79-A055,Missing required field: titre,Compléter le champ obligatoire.
@@ -5256,7 +5236,6 @@ warning,missing_required_field,sources/curtis_touching_from_a_distance/source_pa
 warning,v2_migration_debt,sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md,S45-A020,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md,S45-A020,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,field_type_error,sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md,S45-A020,Field must be a list: role_argumentatif,Corriger le type YAML du champ.
-warning,invalid_controlled_value,sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md,S45-A020,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md,S45-A020,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md,S45-001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md,S45-001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -5819,11 +5798,6 @@ warning,v2_migration_debt,sources/deluca_manchester_punk_threshold/atomes_s15_so
 warning,v2_migration_debt,sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md,S15-A015,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md,S15-A015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md,S15-A015,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
-warning,schema_warning,sources/deluca_manchester_punk_threshold/citations_exactes.md,,Missing id,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
-warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,,Missing required field: id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,,Missing required field: citation_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,,Missing required field: langue_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,S15-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,S15-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/deluca_manchester_punk_threshold/citations_exactes.md,S15-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
@@ -5859,7 +5833,6 @@ warning,v2_migration_debt,sources/desia_segno_grafica_visione/atomes_s48_segno_g
 warning,v2_migration_debt,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A001,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md,S48-A002,Missing required field: titre,Compléter le champ obligatoire.
@@ -6334,7 +6307,6 @@ warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/sourc
 warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A003,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/farci_danza_esistenziale_ian_curtis/source_part_01.md,S49-A004,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -6485,7 +6457,6 @@ warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/sourc
 warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md,S60-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -6650,7 +6621,6 @@ warning,v2_migration_debt,sources/ferrara_poetica_della_distanza/source_part_01.
 warning,v2_migration_debt,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/ferrara_poetica_della_distanza/source_part_01.md,S59-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -7300,7 +7270,6 @@ warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/sourc
 warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/gnocchi_interzona_burroughs_ballard/source_part_01.md,S54-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -7463,7 +7432,6 @@ warning,v2_migration_debt,sources/goddard_missions_dead_souls/source_part_haunto
 warning,v2_migration_debt,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A002,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md,S29-A002,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -8088,7 +8056,6 @@ warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A025,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A025,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A025,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A025,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A026,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A026,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source_part_nostalgie_memoire_v2.md,S69-A026,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -8184,7 +8151,6 @@ warning,v2_migration_debt,sources/guarino_vomito_culturale_ideali_sottoculturali
 warning,v2_migration_debt,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A001,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md,S44-A002,Missing required field: titre,Compléter le champ obligatoire.
@@ -8468,7 +8434,6 @@ warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_ma
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A005,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A005,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A005,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A006,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A006,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md,S14-A006,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -9896,12 +9861,6 @@ warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S4
 warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/hook/atomisation_06_consolidation_finale.md,S41-L03,Invalid value for type_unite: limite_source,Aligner la valeur avec le schéma contrôlé.
-warning,schema_warning,sources/hook/citations_exactes.md,,Missing id,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
-warning,missing_required_field,sources/hook/citations_exactes.md,,Missing required field: id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/hook/citations_exactes.md,,Missing required field: source_id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/hook/citations_exactes.md,,Missing required field: citation_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/hook/citations_exactes.md,,Missing required field: langue_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/hook/citations_exactes.md,,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/hook/source.md,S41-001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/hook/source.md,S41-001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/hook/source.md,S41-001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -12067,7 +12026,6 @@ warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.m
 warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/ilardi_ian_curtis_is_not_dead/source_part_01.md,S58-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -12229,7 +12187,6 @@ warning,v2_migration_debt,sources/iovane_riccio_trademark_will_tear_us_apart/sou
 warning,v2_migration_debt,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md,S61-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -14641,7 +14598,6 @@ warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mi
 warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md,S53-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -14964,7 +14920,6 @@ warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_p
 warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md,S51-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -15572,7 +15527,6 @@ warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source
 warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/mdmarchive_city_fun_hidden_history/source_part_01.md,S21-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -15670,7 +15624,6 @@ warning,missing_required_field,sources/middles_reade_torn_apart/source_part_01.m
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_01.md,S76-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_01.md,S76-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_01.md,S76-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_01.md,S76-A002,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/middles_reade_torn_apart/source_part_01.md,S76-A002,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_01.md,S76-A003,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_01.md,S76-A003,Missing required field: concepts,Compléter le champ obligatoire.
@@ -18447,7 +18400,6 @@ warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_manchester_
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A025,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A025,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A025,Invalid value for fiabilite: forte_pour_position_de_Morley,Aligner la valeur avec le schéma contrôlé.
-warning,invalid_controlled_value,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A025,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A025,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A026,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md,S37-A026,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -18960,7 +18912,6 @@ warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_pi
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A001,Invalid value for fiabilite: forte_pour_reception ; moyenne_pour_memoire,Aligner la valeur avec le schéma contrôlé.
-warning,invalid_controlled_value,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A001,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A002,Missing required field: titre,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A002,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -19131,33 +19082,18 @@ warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_pi
 warning,v2_migration_debt,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A015,Invalid value for type_unite: scene_relationnelle,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md,S37-A015,Field must be an object/dict: importance,Corriger le type YAML du champ.
-warning,schema_warning,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,,Missing id,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,,Missing required field: id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,,Missing required field: citation_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,,Missing required field: langue_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-001,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-001,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-001,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-002,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-002,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md,S37-CIT-002,Missing required field: statut_verification,Compléter le champ obligatoire.
-warning,schema_warning,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,,Missing id,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,,Missing required field: id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,,Missing required field: citation_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,,Missing required field: langue_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-007,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-007,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-008,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-008,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md,S37-CIT-008,Missing required field: statut_verification,Compléter le champ obligatoire.
-warning,schema_warning,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,,Missing id,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,,Missing required field: id,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,,Missing required field: citation_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,,Missing required field: langue_originale,Compléter le champ obligatoire.
-warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,S37-CIT-003,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,S37-CIT-003,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md,S37-CIT-003,Missing required field: statut_verification,Compléter le champ obligatoire.
@@ -19376,7 +19312,6 @@ warning,v2_migration_debt,sources/morris_record_play_pause/atomes_s35_record_pla
 warning,v2_migration_debt,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A001,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A001,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A001,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,missing_required_field,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/morris_record_play_pause/atomes_s35_record_play_pause.md,S35-A002,Missing required field: titre,Compléter le champ obligatoire.
@@ -20856,7 +20791,6 @@ warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_li
 warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md,S78-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -21404,7 +21338,6 @@ warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S
 warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: fiabilite,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: concepts,Compléter le champ obligatoire.
@@ -21682,7 +21615,6 @@ warning,missing_required_field,sources/ott_unknown_pleasures/source_part_04.md,S
 warning,missing_required_field,sources/ott_unknown_pleasures/source_part_04.md,S75-A075,Missing required field: fiabilite,Compléter le champ obligatoire.
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_04.md,S75-A075,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_04.md,S75-A075,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_04.md,S75-A075,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/ott_unknown_pleasures/source_part_04.md,S75-A075,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md,S87-A001,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/otter_bickerdike_posteconomy_curtis/atoms_s87_otter_bickerdike_posteconomy.md,S87-A001,Missing required field: titre,Compléter le champ obligatoire.
@@ -22064,7 +21996,6 @@ warning,v2_migration_debt,sources/press_aids_anderton_1986/source_part_aids_ande
 warning,v2_migration_debt,sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md,S12-A008,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md,S12-A008,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md,S12-A008,Invalid value for fiabilite: source_primaire_journalistique,Aligner la valeur avec le schéma contrôlé.
-warning,invalid_controlled_value,sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md,S12-A008,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/rabbito_control_infrangimento_vetro/relations_s52.md,REL-S52-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -22088,7 +22019,6 @@ warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/sourc
 warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/rabbito_control_infrangimento_vetro/source_part_01.md,S52-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -23002,7 +22932,6 @@ warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolic
 warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md,S55-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -23119,7 +23048,6 @@ warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A021,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A021,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A021,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A021,Invalid value for type_unite: reference_croisee,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A021,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A001,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A001,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -23149,7 +23077,6 @@ warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A022,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A022,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A022,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A022,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A022,Field must be an object/dict: importance,Corriger le type YAML du champ.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A023,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/savage_englands_dreaming/atomes_s89_intro_ch1.md,S89-A023,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -23688,7 +23615,6 @@ warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_s
 warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A003,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A003,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A003,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,field_type_error,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A003,Field must be an object/dict: niveau_preuve,Corriger le type YAML du champ.
 warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A004,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md,S02-A004,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
@@ -24611,7 +24537,6 @@ warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.m
 warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/villani_ti_sfido_a_disperarti/source_part_01.md,S57-A002,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -24965,7 +24890,6 @@ warning,v2_migration_debt,sources/wilkinson_city_fun_politics/source_part_city_f
 warning,v2_migration_debt,sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md,S22-A015,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md,S22-A015,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md,S22-A015,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md,S22-A015,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,sources/worley_punk_politics_british_fanzines/relations_s77.md,REL-S77-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -24990,7 +24914,6 @@ warning,missing_required_field,sources/worley_punk_politics_british_fanzines/sou
 warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
-warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A001,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A002,Missing required field: chapitres,Compléter le champ obligatoire.

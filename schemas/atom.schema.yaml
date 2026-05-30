@@ -39,6 +39,35 @@ recommended:
 
 controlled_values:
 
+  # Valeurs autorisées pour type_unite. Miroir documentaire de la liste
+  # *appliquée* par tools/schema_validation.py (SCHEMA_CONTROLLED_VALUES). Toute
+  # modification doit être répercutée des deux côtés. Ajouts D.6 (étape 2) :
+  # prudence_methodologique, reference_croisee.
+  type_unite:
+    - fait
+    - lecture
+    - concept
+    - citation_clef
+    - mythe
+    - controverse
+    - biographie
+    - production
+    - concert
+    - reception
+    - memoire
+    - santé
+    - relation
+    - politique
+    - esthétique
+    - archive
+    - sociologie
+    - analyse
+    - psychologie_sociale
+    - culture_musicale
+    - domesticité
+    - prudence_methodologique
+    - reference_croisee
+
   couche_narrative:
     - historique
     - analytique

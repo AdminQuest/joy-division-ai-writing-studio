@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-30T14:08:32",
+  "generated_at": "2026-05-30T15:01:17",
   "status": "warning",
   "summary": {
-    "records_total": 7644,
+    "records_total": 7639,
     "records_by_kind": {
       "unknown": 1493,
       "source": 120,
@@ -11,7 +11,7 @@
       "concept": 457,
       "motif": 425,
       "myth": 102,
-      "quote": 562,
+      "quote": 557,
       "chronology": 477,
       "template": 360,
       "concert": 197,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30018,
+    "diagnostics_total": 29941,
     "errors": 0,
-    "warnings": 30018,
+    "warnings": 29941,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -526,9 +526,9 @@
         "auteur": "Daniele De Luca",
         "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
         "annee": "2021",
-        "records": 62,
+        "records": 61,
         "atoms": 15,
-        "quotes": 5,
+        "quotes": 4,
         "chronology": 8,
         "files": [
           "registers/references/s15_deluca_source_canonique.md",
@@ -816,9 +816,9 @@
         "auteur": "Paul Morley",
         "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
         "annee": "2008",
-        "records": 210,
+        "records": 207,
         "atoms": 84,
-        "quotes": 11,
+        "quotes": 8,
         "chronology": 0,
         "files": [
           "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
@@ -2136,12 +2136,6 @@
     {
       "level": "warning",
       "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S31-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S31-A002"
     },
@@ -3025,12 +3019,6 @@
       "level": "warning",
       "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S42-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S42-A001"
     },
     {
@@ -3997,12 +3985,6 @@
       "level": "warning",
       "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S56-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S56-A001"
     },
     {
@@ -5256,12 +5238,6 @@
     {
       "level": "warning",
       "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S39-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
       "message": "Missing nested field: niveau_preuve.corroboration",
       "record_id": "S39-A001"
     },
@@ -5491,12 +5467,6 @@
       "level": "warning",
       "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S39-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S39-A005"
     },
     {
@@ -5827,12 +5797,6 @@
       "level": "warning",
       "file": "sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S50-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S50-A001"
     },
     {
@@ -7879,12 +7843,6 @@
       "level": "warning",
       "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
       "message": "Invalid value for fiabilite: haute",
-      "record_id": "S86-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S86-A002"
     },
     {
@@ -10079,12 +10037,6 @@
     },
     {
       "level": "warning",
-      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S26-A017"
-    },
-    {
-      "level": "warning",
       "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
       "message": "Missing required field: auteur",
       "record_id": "S40-A001"
@@ -10129,12 +10081,6 @@
       "level": "warning",
       "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S40-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S40-A001"
     },
     {
@@ -10554,12 +10500,6 @@
     {
       "level": "warning",
       "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S40-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
       "message": "Missing nested field: niveau_preuve.corroboration",
       "record_id": "S40-A008"
     },
@@ -10705,12 +10645,6 @@
       "level": "warning",
       "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S43-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S43-A001"
     },
     {
@@ -12156,12 +12090,6 @@
     {
       "level": "warning",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S06-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Missing required field: role_argumentatif",
       "record_id": "S06-A007"
     },
@@ -12451,12 +12379,6 @@
       "level": "warning",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S06-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S06-A011"
     },
     {
@@ -14586,12 +14508,6 @@
     {
       "level": "warning",
       "file": "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S84-A015"
-    },
-    {
-      "level": "warning",
-      "file": "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S84-A015"
     },
@@ -15481,12 +15397,6 @@
       "level": "warning",
       "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S09-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S09-A008"
     },
     {
@@ -16783,12 +16693,6 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S79-A038"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S79-A038"
     },
     {
@@ -19993,12 +19897,6 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S79-A047"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S79-A047"
     },
     {
@@ -23292,12 +23190,6 @@
     {
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S79-A023"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S79-A023"
     },
@@ -23647,12 +23539,6 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S79-A028"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S79-A028"
     },
     {
@@ -24367,12 +24253,6 @@
       "level": "warning",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S79-A054"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S79-A054"
     },
     {
@@ -33534,12 +33414,6 @@
     {
       "level": "warning",
       "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S45-A020"
-    },
-    {
-      "level": "warning",
-      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A020"
     },
@@ -36912,36 +36786,6 @@
     {
       "level": "warning",
       "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "message": "Missing id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "message": "Missing required field: id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "message": "Missing required field: citation_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "message": "Missing required field: langue_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "message": "Missing required field: statut_verification",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S15-Q001"
     },
@@ -37147,12 +36991,6 @@
       "level": "warning",
       "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S48-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S48-A001"
     },
     {
@@ -40002,12 +39840,6 @@
     {
       "level": "warning",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S49-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S49-A004"
     },
@@ -40903,12 +40735,6 @@
       "level": "warning",
       "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S60-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S60-A001"
     },
     {
@@ -41893,12 +41719,6 @@
       "level": "warning",
       "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S59-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S59-A001"
     },
     {
@@ -45798,12 +45618,6 @@
     {
       "level": "warning",
       "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S54-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S54-A002"
     },
@@ -46771,12 +46585,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S29-A001"
     },
     {
@@ -50526,12 +50334,6 @@
     {
       "level": "warning",
       "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S69-A025"
-    },
-    {
-      "level": "warning",
-      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
       "message": "Missing required field: role_argumentatif",
       "record_id": "S69-A026"
     },
@@ -51097,12 +50899,6 @@
       "level": "warning",
       "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S44-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S44-A001"
     },
     {
@@ -52801,12 +52597,6 @@
       "level": "warning",
       "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S14-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S14-A005"
     },
     {
@@ -61370,42 +61160,6 @@
       "file": "sources/hook/atomisation_06_consolidation_finale.md",
       "message": "Invalid value for type_unite: limite_source",
       "record_id": "S41-L03"
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing required field: id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing required field: source_id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing required field: citation_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing required field: langue_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/hook/citations_exactes.md",
-      "message": "Missing required field: statut_verification",
-      "record_id": null
     },
     {
       "level": "warning",
@@ -74400,12 +74154,6 @@
     {
       "level": "warning",
       "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S58-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S58-A002"
     },
@@ -75367,12 +75115,6 @@
       "level": "warning",
       "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S61-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S61-A001"
     },
     {
@@ -89844,12 +89586,6 @@
     {
       "level": "warning",
       "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S53-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S53-A002"
     },
@@ -91777,12 +91513,6 @@
       "level": "warning",
       "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S51-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S51-A001"
     },
     {
@@ -95430,12 +95160,6 @@
     {
       "level": "warning",
       "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S21-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S21-A002"
     },
@@ -96013,12 +95737,6 @@
       "level": "warning",
       "file": "sources/middles_reade_torn_apart/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S76-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/middles_reade_torn_apart/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S76-A002"
     },
     {
@@ -112680,12 +112398,6 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S37-A025"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S37-A025"
     },
@@ -115758,12 +115470,6 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S37-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S37-A001"
     },
@@ -116784,36 +116490,6 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "message": "Missing id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "message": "Missing required field: id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "message": "Missing required field: citation_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "message": "Missing required field: langue_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "message": "Missing required field: statut_verification",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S37-CIT-001"
     },
@@ -116850,36 +116526,6 @@
     {
       "level": "warning",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "message": "Missing id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "message": "Missing required field: id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "message": "Missing required field: citation_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "message": "Missing required field: langue_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "message": "Missing required field: statut_verification",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S37-CIT-007"
     },
@@ -116912,36 +116558,6 @@
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S37-CIT-008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "message": "Missing id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "message": "Missing required field: id",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "message": "Missing required field: citation_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "message": "Missing required field: langue_originale",
-      "record_id": null
-    },
-    {
-      "level": "warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "message": "Missing required field: statut_verification",
-      "record_id": null
     },
     {
       "level": "warning",
@@ -118249,12 +117865,6 @@
       "level": "warning",
       "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S35-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S35-A001"
     },
     {
@@ -127134,12 +126744,6 @@
     {
       "level": "warning",
       "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S78-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S78-A002"
     },
@@ -130422,12 +130026,6 @@
     {
       "level": "warning",
       "file": "sources/ott_unknown_pleasures/source_part_03.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S75-A044"
-    },
-    {
-      "level": "warning",
-      "file": "sources/ott_unknown_pleasures/source_part_03.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S75-A044"
     },
@@ -132085,12 +131683,6 @@
       "level": "warning",
       "file": "sources/ott_unknown_pleasures/source_part_04.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S75-A075"
-    },
-    {
-      "level": "warning",
-      "file": "sources/ott_unknown_pleasures/source_part_04.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S75-A075"
     },
     {
@@ -134381,12 +133973,6 @@
     },
     {
       "level": "warning",
-      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S12-A008"
-    },
-    {
-      "level": "warning",
       "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S52-001"
@@ -134521,12 +134107,6 @@
       "level": "warning",
       "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S52-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S52-A001"
     },
     {
@@ -140010,12 +139590,6 @@
     {
       "level": "warning",
       "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S55-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S55-A002"
     },
@@ -140712,12 +140286,6 @@
     {
       "level": "warning",
       "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
-      "message": "Invalid value for type_unite: reference_croisee",
-      "record_id": "S89-A021"
-    },
-    {
-      "level": "warning",
-      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
       "message": "Field must be an object/dict: importance",
       "record_id": "S89-A021"
     },
@@ -140887,12 +140455,6 @@
       "level": "warning",
       "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S89-A022"
-    },
-    {
-      "level": "warning",
-      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S89-A022"
     },
     {
@@ -144121,12 +143683,6 @@
       "level": "warning",
       "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
       "message": "Missing required field: concepts_derives",
-      "record_id": "S02-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S02-A003"
     },
     {
@@ -149664,12 +149220,6 @@
     {
       "level": "warning",
       "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S57-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
       "message": "Missing required field: auteur",
       "record_id": "S57-A002"
     },
@@ -151787,12 +151337,6 @@
     },
     {
       "level": "warning",
-      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "record_id": "S22-A015"
-    },
-    {
-      "level": "warning",
       "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S77-001"
@@ -151933,12 +151477,6 @@
       "level": "warning",
       "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
       "message": "Missing required field: liens_citations",
-      "record_id": "S77-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "record_id": "S77-A001"
     },
     {

@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-30T14:08:32`
+Généré le : `2026-05-30T15:01:17`
 
 ## 1. Verdict
 
@@ -9,9 +9,9 @@ La dette principale reste la migration v2 : 2503 atome(s) incomplet(s) sur 2743.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7644
+- Enregistrements : 7639
 - Erreurs : 0
-- Avertissements : 30018
+- Avertissements : 29941
 - Sources déclarées : 95
 - Sources utilisées : 79
 - Sources exportées : 79
@@ -30,7 +30,7 @@ La dette principale reste la migration v2 : 2503 atome(s) incomplet(s) sur 2743.
 | motif | 425 |
 | myth | 102 |
 | person | 305 |
-| quote | 562 |
+| quote | 557 |
 | quote_batch | 1 |
 | rules | 1 |
 | session | 18 |
@@ -44,9 +44,9 @@ La dette principale reste la migration v2 : 2503 atome(s) incomplet(s) sur 2743.
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 683 |
-| invalid_controlled_value | 2673 |
-| missing_required_field | 9281 |
-| schema_warning | 497 |
+| invalid_controlled_value | 2622 |
+| missing_required_field | 9260 |
+| schema_warning | 492 |
 | unknown_yaml_block | 1493 |
 | v2_migration_debt | 15391 |
 
@@ -154,7 +154,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/morley_piece_by_piece/atoms_dm_s37_part_one_remaining_v2.md | 275 |
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
 | sources/morris_record_play_pause/source_part_06.md | 251 |
-| sources/morris_record_play_pause/atomes_s35_record_play_pause.md | 240 |
+| sources/morris_record_play_pause/atomes_s35_record_play_pause.md | 239 |
 
 ## 10. Commandes utiles
 

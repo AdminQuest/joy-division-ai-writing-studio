@@ -1,3 +1,14 @@
-openpyxl
-PyYAML
+# Dépendance du cœur de la pipeline documentaire (build_all : build_registers,
+# build_master_docs, audit_repo, check_generated_sync). Import dur : la pipeline
+# échoue (exit 2) si PyYAML est absent. Épinglée sur la version du CI
+# (.github/workflows/check-generated-sync.yml) et du local.
+PyYAML==6.0.1
+
+# --- Outils auxiliaires uniquement (hors pipeline build_all) ---------------
+# Ces paquets ne sont PAS utilisés par build_all / la sentinelle. Ils restent
+# déclarés ici pour que `pip install -r requirements.txt` reste suffisant à
+# faire tourner les scripts ci-dessous :
+#   jsonschema -> tools/validate_songs.py, tools/validate_places.py
+#   openpyxl   -> tools/convert_registre_xlsx.py
 jsonschema
+openpyxl
