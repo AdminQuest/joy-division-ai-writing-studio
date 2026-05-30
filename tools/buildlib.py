@@ -124,11 +124,16 @@ def iter_generated_files() -> List[Path]:
     document_maitre.md files and chapters/master_docs.json.
     """
     files: List[Path] = []
+
+    def _rel(p: Path) -> str:
+        # POSIX-relative path: locale-independent, platform-independent sort key.
+        return p.relative_to(REPO_ROOT).as_posix()
+
     for sub in ("registers", "exports/generated"):
         root = REPO_ROOT / sub
         if root.exists():
-            files.extend(p for p in root.rglob("*") if p.is_file())
-    files.extend(sorted((REPO_ROOT / "chapters").glob("*/document_maitre.md")))
+            files.extend(sorted((p for p in root.rglob("*") if p.is_file()), key=_rel))
+    files.extend(sorted((REPO_ROOT / "chapters").glob("*/document_maitre.md"), key=_rel))
     manifest = REPO_ROOT / "chapters" / "master_docs.json"
     if manifest.exists():
         files.append(manifest)
