@@ -20,10 +20,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from buildlib import resolved_generated_at  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EXPORT_DIR = REPO_ROOT / "exports" / "generated"
@@ -505,7 +509,7 @@ def main() -> int:
     people = load_json("people.json")
     sources = load_json("sources.json")
     source_index = {text(source.get("source_id")): source for source in sources if text(source.get("source_id"))}
-    generated_at = datetime.now().isoformat(timespec="seconds")
+    generated_at = resolved_generated_at()
 
     manifest = {"documents": []}
     index: Dict[str, Any] = {"generated_at": generated_at, "chapters": []}
