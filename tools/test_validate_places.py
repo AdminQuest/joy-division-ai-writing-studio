@@ -5,12 +5,23 @@ Couvre, pour chaque invariant, un cas PASSANT et un cas en ÉCHEC, plus le cas
 réel T.J. Davidson (PLACE-TJ-DAVIDSONS canonique ; PLACE-S83-001 et
 PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET en same_as) comme cas passant.
 
-Exécution : python3 -m unittest tools.test_validate_places
-        ou : python3 tools/test_validate_places.py
+Exécution : python3 -m unittest tools.test_validate_places  (depuis la racine)
+        ou : python3 tools/test_validate_places.py           (exécution directe)
 """
 import unittest
 
-from validate_places import check_same_as, VALIDATOR
+# Compatible avec les deux formes d'invocation (correctif Codex) :
+#   python3 -m unittest tools.test_validate_places  -> sys.path = racine du projet
+#   python3 tools/test_validate_places.py           -> sys.path inclut tools/
+# Le try/except insère le répertoire du script dans sys.path si l'import
+# absolu échoue (cas -m unittest depuis la racine).
+try:
+    from validate_places import check_same_as, VALIDATOR
+except ImportError:
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from validate_places import check_same_as, VALIDATOR
 
 
 def rec(pid, same_as=None, lat=None, lng=None, prud=None, prec=None):

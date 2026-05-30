@@ -229481,7 +229481,7 @@
           "sources": [
             "S02-A003"
           ],
-          "usage": "Échelle municipale à distinguer de Greater Manchester et de l’aire urbaine.",
+          "usage": "Échelle municipale à distinguer de Greater Manchester et de l'aire urbaine.",
           "prudence": "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine."
         },
         {
@@ -229497,13 +229497,16 @@
             "S02-A003"
           ],
           "usage": "Échelle métropolitaine utile pour comprendre la recomposition de Manchester au-delà de son centre municipal.",
-          "prudence": "Préciser l’échelle lorsque les données portent sur population, emplois ou politiques urbaines."
+          "prudence": "Préciser l'échelle lorsque les données portent sur population, emplois ou politiques urbaines."
         },
         {
           "id": "PLACE-HULME",
           "lat": 53.464,
           "lng": -2.247,
           "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q3051137"
+          ],
           "label": "Hulme",
           "type": "quartier",
           "type_detail": "quartier",
@@ -229527,7 +229530,7 @@
             "S02-A006",
             "S02-A007"
           ],
-          "usage": "Espace de reconstruction, marketing territorial et recomposition après la crise urbaine et l’attentat de 1996.",
+          "usage": "Espace de reconstruction, marketing territorial et recomposition après la crise urbaine et l'attentat de 1996.",
           "prudence": "Ne pas confondre renaissance du centre et transformation sociale homogène de toute la ville."
         }
       ]
@@ -229883,7 +229886,7 @@
             "S10-A001",
             "S10-A004"
           ],
-          "usage_s10": "Rue d’enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance.",
+          "usage_s10": "Rue d'enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance.",
           "prudence": "Ne pas idéaliser la communauté ; intégrer violence, pauvreté, toxicité industrielle et destruction."
         },
         {
@@ -229895,7 +229898,7 @@
             "S10-A001",
             "S10-A002"
           ],
-          "usage_s10": "Quartier d’enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
+          "usage_s10": "Quartier d'enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
         },
         {
           "id": "PLACE-WHEATHILL-CHEMICAL-WORKS",
@@ -229905,7 +229908,7 @@
           "sources": [
             "S10-A002"
           ],
-          "usage_s10": "Usine chimique au bout d’Alfred Street, mémorisée par Sumner comme source d’odeurs et de toxicité."
+          "usage_s10": "Usine chimique au bout d'Alfred Street, mémorisée par Sumner comme source d'odeurs et de toxicité."
         },
         {
           "id": "PLACE-ORDSALL",
@@ -229919,6 +229922,13 @@
         },
         {
           "id": "PLACE-GREENGATE",
+          "lat": 53.4843,
+          "lng": -2.25238,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q5604052"
+          ],
+          "prudence_methodologique": "Quartier historique de Salford au bord de l'Irwell ; tours de relogement en grande partie démolies depuis. Coordonnée = centroïde de l'aire Greengate (Wikidata P625 Q5604052).",
           "label": "Greengate",
           "type": "habitat",
           "type_detail": "tower_block_relogement",
@@ -229949,7 +229959,7 @@
           "sources": [
             "S10-A008"
           ],
-          "usage_s10": "Lieu d’exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
+          "usage_s10": "Lieu d'exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
         },
         {
           "id": "PLACE-LESSER-FREE-TRADE-HALL",
@@ -229973,7 +229983,7 @@
           "sources": [
             "S10-A013"
           ],
-          "usage_s10": "Lieu où Sumner et Hook déposent l’annonce pour recruter un chanteur."
+          "usage_s10": "Lieu où Sumner et Hook déposent l'annonce pour recruter un chanteur."
         },
         {
           "id": "PLACE-GREY-MARE",
@@ -229983,7 +229993,7 @@
           "sources": [
             "S10-A014"
           ],
-          "usage_s10": "Salle de répétition au-dessus d’un pub de Weaste, associée aux débuts avec Curtis."
+          "usage_s10": "Salle de répétition au-dessus d'un pub de Weaste, associée aux débuts avec Curtis."
         },
         {
           "id": "PLACE-ELECTRIC-CIRCUS",
@@ -230007,7 +230017,7 @@
           "sources": [
             "S10-A016"
           ],
-          "usage_s10": "Lieu du concert d’avril 1978 qui déclenche la rencontre avec Rob Gretton."
+          "usage_s10": "Lieu du concert d'avril 1978 qui déclenche la rencontre avec Rob Gretton."
         },
         {
           "id": "PLACE-TJ-DAVIDSONS",
@@ -230015,7 +230025,7 @@
           "lng": -2.249,
           "geo_precision": "rue",
           "prudence_methodologique": "Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.",
-          "label": "TJ Davidson’s",
+          "label": "TJ Davidson's",
           "type": "studio",
           "type_detail": "lieu_repetition",
           "sources": [
@@ -230042,7 +230052,7 @@
           "sources": [
             "S10-A019"
           ],
-          "usage_s10": "Studio de l’enregistrement d’An Ideal for Living."
+          "usage_s10": "Studio de l'enregistrement d'An Ideal for Living."
         },
         {
           "id": "PLACE-STRAWBERRY-STUDIOS",
@@ -230064,6 +230074,12 @@
         },
         {
           "id": "PLACE-LUTON-HOSPITAL",
+          "lat": 51.89382,
+          "lng": -0.4753,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q101277612"
+          ],
           "label": "Hôpital de Luton",
           "type": "sante",
           "type_detail": "hopital",
@@ -230083,7 +230099,7 @@
     "data": {
       "id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2",
       "source_id": "S20",
-      "source_label": "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.",
+      "source_label": "S20 — Dodge, Mapping Manchester's housing problems, Manchester Geographies, s.d.",
       "type_unite": "registre_lieux",
       "statut": "integration_directe",
       "source_short_title": "Martin Dodge, Mapping the geographies of Manchester’s housing problems and the twentieth century solutions, s.d.",
@@ -230099,6 +230115,13 @@
       "places": [
         {
           "id": "PLACE-LITTLE-IRELAND",
+          "lat": 53.4731,
+          "lng": -2.2419,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q10567938"
+          ],
+          "prudence_methodologique": "Quartier ouvrier irlandais disparu, démoli au XIXe siècle. Coordonnée = centroïde de la zone historique au confluent Medlock/Oxford Road (Wikidata P625 Q10567938).",
           "label": "Little Ireland",
           "type": "quartier",
           "type_detail": "quartier_taudis_victorien",
@@ -230117,7 +230140,7 @@
           "sources": [
             "S20-A002"
           ],
-          "usage": "Lieu emblématique du taudis victorien mancunien, utile pour la profondeur historique de l’insalubrité urbaine."
+          "usage": "Lieu emblématique du taudis victorien mancunien, utile pour la profondeur historique de l'insalubrité urbaine."
         },
         {
           "id": "PLACE-VICTORIA-PARK-MANCHESTER",
@@ -230134,6 +230157,12 @@
         },
         {
           "id": "PLACE-CHORLTONVILLE",
+          "lat": 53.434,
+          "lng": -2.279,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q5105186"
+          ],
           "label": "Chorltonville",
           "type": "habitat",
           "type_detail": "garden_suburb",
@@ -230147,6 +230176,9 @@
           "lat": 53.392,
           "lng": -2.264,
           "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q3570246"
+          ],
           "label": "Wythenshawe",
           "type": "ville",
           "type_detail": "ville_satellite",
@@ -230168,13 +230200,16 @@
             "S06"
           ],
           "usage": "Quartier central dans les politiques de dédensification, clearance et urban renewal.",
-          "prudence": "Croiser S20 avec S06 pour l’expérience vécue de Hulme."
+          "prudence": "Croiser S20 avec S06 pour l'expérience vécue de Hulme."
         },
         {
           "id": "PLACE-HATTERSLEY",
           "lat": 53.444,
           "lng": -2.043,
           "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q3128340"
+          ],
           "label": "Hattersley",
           "type": "habitat",
           "type_detail": "overspill_estate",
@@ -230185,6 +230220,12 @@
         },
         {
           "id": "PLACE-BESWICK",
+          "lat": 53.4743,
+          "lng": -2.20266,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q4897126"
+          ],
           "label": "Beswick",
           "type": "quartier",
           "type_detail": "quartier_inner_city",
@@ -230192,7 +230233,7 @@
             "S20-A010",
             "S20-A011"
           ],
-          "usage": "Quartier de clearance et d’expérimentation moderniste autour du Wellington Street estate."
+          "usage": "Quartier de clearance et d'expérimentation moderniste autour du Wellington Street estate."
         },
         {
           "id": "PLACE-FORT-BESWICK",
@@ -230203,7 +230244,7 @@
             "S20-A011",
             "S20-A013"
           ],
-          "usage": "Nom péjoratif du Wellington Street estate, emblématique de l’échec des deck-access estates."
+          "usage": "Nom péjoratif du Wellington Street estate, emblématique de l'échec des deck-access estates."
         },
         {
           "id": "PLACE-WELLINGTON-STREET-ESTATE",
@@ -230214,7 +230255,7 @@
             "S20-A011",
             "S20-A013"
           ],
-          "usage": "Cas détaillé d’urban renewal et de mégastructure à Beswick."
+          "usage": "Cas détaillé d'urban renewal et de mégastructure à Beswick."
         },
         {
           "id": "PLACE-STRETFORD-ROAD",
@@ -230224,7 +230265,7 @@
           "sources": [
             "S20-A010"
           ],
-          "usage": "Axe associé à la renewal de Hulme et à l’effacement du tissu urbain ancien."
+          "usage": "Axe associé à la renewal de Hulme et à l'effacement du tissu urbain ancien."
         }
       ]
     }
@@ -230557,13 +230598,19 @@
         },
         {
           "id": "PLACE-GUIDE-BRIDGE",
+          "lat": 53.4744,
+          "lng": -2.1127,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q5615429"
+          ],
           "label": "Guide Bridge",
           "type": "infrastructure",
           "type_detail": "seuil_ferroviaire",
           "sources": [
             "S35"
           ],
-          "usage": "Seuil ferroviaire vers l’auto-éducation mancunienne.",
+          "usage": "Seuil ferroviaire vers l'auto-éducation mancunienne.",
           "atoms": [
             "S35-A057"
           ],
@@ -230593,7 +230640,7 @@
         },
         {
           "id": "PLACE-PERCIVALS",
-          "label": "Percival’s",
+          "label": "Percival's",
           "type": "commerce",
           "type_detail": "librairie",
           "sources": [
@@ -230649,7 +230696,7 @@
         },
         {
           "id": "PLACE-ATWELL-AND-JENNERS-MILL",
-          "label": "Atwell and Jenner’s mill",
+          "label": "Atwell and Jenner's mill",
           "type": "industrie",
           "type_detail": "usine_textile",
           "sources": [
@@ -230742,7 +230789,7 @@
         },
         {
           "id": "PLACE-LEWISS",
-          "label": "Lewis’s",
+          "label": "Lewis's",
           "type": "commerce",
           "type_detail": "grand_magasin",
           "sources": [
@@ -230784,7 +230831,7 @@
           "sources": [
             "S35"
           ],
-          "usage": "Espace d’étouffement, danger local, désir de rupture.",
+          "usage": "Espace d'étouffement, danger local, désir de rupture.",
           "atoms": [
             "S35-A065"
           ],

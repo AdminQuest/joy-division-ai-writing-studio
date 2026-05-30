@@ -52,11 +52,15 @@ places:
     chapitres: [Chapitre 1]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-GUIDE-BRIDGE
+    lat: 53.4744
+    lng: -2.1127
+    geo_precision: quartier
+    reference_croisee: ["wikidata:Q5615429"]
     label: "Guide Bridge"
     type: infrastructure
     type_detail: seuil_ferroviaire
     sources: [S35]
-    usage: "Seuil ferroviaire vers l’auto-éducation mancunienne."
+    usage: "Seuil ferroviaire vers l'auto-éducation mancunienne."
     atoms: [S35-A057]
     chapitres: [Chapitre 1]
     _legacy_format: s35-lieux-fonction
@@ -70,7 +74,7 @@ places:
     chapitres: [Chapitre 1, Chapitre 11, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-PERCIVALS
-    label: "Percival’s"
+    label: "Percival's"
     type: commerce
     type_detail: librairie
     sources: [S35]
@@ -97,7 +101,7 @@ places:
     chapitres: [Chapitre 2, Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-ATWELL-AND-JENNERS-MILL
-    label: "Atwell and Jenner’s mill"
+    label: "Atwell and Jenner's mill"
     type: industrie
     type_detail: usine_textile
     sources: [S35]
@@ -145,7 +149,7 @@ places:
     chapitres: [Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-LEWISS
-    label: "Lewis’s"
+    label: "Lewis's"
     type: commerce
     type_detail: grand_magasin
     sources: [S35]
@@ -167,7 +171,7 @@ places:
     type: ville
     type_detail: ville_provinciale
     sources: [S35]
-    usage: "Espace d’étouffement, danger local, désir de rupture."
+    usage: "Espace d'étouffement, danger local, désir de rupture."
     atoms: [S35-A065]
     chapitres: [Chapitre 1, Chapitre 12, Chapitre 14]
     _legacy_format: s35-lieux-fonction

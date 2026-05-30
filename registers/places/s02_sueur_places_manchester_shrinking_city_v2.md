@@ -17,7 +17,7 @@ places:
     type_detail: municipalite
     sources:
       - S02-A003
-    usage: "Échelle municipale à distinguer de Greater Manchester et de l’aire urbaine."
+    usage: "Échelle municipale à distinguer de Greater Manchester et de l'aire urbaine."
     prudence: "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine."
 
   - id: PLACE-GREATER-MANCHESTER
@@ -32,12 +32,13 @@ places:
     sources:
       - S02-A003
     usage: "Échelle métropolitaine utile pour comprendre la recomposition de Manchester au-delà de son centre municipal."
-    prudence: "Préciser l’échelle lorsque les données portent sur population, emplois ou politiques urbaines."
+    prudence: "Préciser l'échelle lorsque les données portent sur population, emplois ou politiques urbaines."
 
   - id: PLACE-HULME
     lat: 53.464
     lng: -2.247
     geo_precision: quartier
+    reference_croisee: ["wikidata:Q3051137"]
     label: "Hulme"
     type: quartier
     type_detail: quartier
@@ -58,6 +59,6 @@ places:
       - S02-A005
       - S02-A006
       - S02-A007
-    usage: "Espace de reconstruction, marketing territorial et recomposition après la crise urbaine et l’attentat de 1996."
+    usage: "Espace de reconstruction, marketing territorial et recomposition après la crise urbaine et l'attentat de 1996."
     prudence: "Ne pas confondre renaissance du centre et transformation sociale homogène de toute la ville."
 ```
