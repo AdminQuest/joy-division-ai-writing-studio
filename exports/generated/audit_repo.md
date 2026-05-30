@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-30T15:01:17`
+Généré le : `2026-05-30T17:39:50`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 1493 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2503 atome(s) incomplet(s) sur 2743.
+Le repo est techniquement exploitable, mais 1509 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7639
+- Enregistrements : 7681
 - Erreurs : 0
-- Avertissements : 29941
+- Avertissements : 30046
 - Sources déclarées : 95
 - Sources utilisées : 79
 - Sources exportées : 79
@@ -22,33 +22,33 @@ La dette principale reste la migration v2 : 2503 atome(s) incomplet(s) sur 2743.
 
 | Type | Nombre |
 |---|---:|
-| atom | 2743 |
+| atom | 2752 |
 | chronology | 477 |
-| concept | 457 |
+| concept | 463 |
 | concert | 197 |
-| metadata | 273 |
-| motif | 425 |
+| metadata | 274 |
+| motif | 427 |
 | myth | 102 |
 | person | 305 |
-| quote | 557 |
+| quote | 565 |
 | quote_batch | 1 |
 | rules | 1 |
 | session | 18 |
 | song | 110 |
 | source | 120 |
 | template | 360 |
-| unknown | 1493 |
+| unknown | 1509 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| field_type_error | 683 |
-| invalid_controlled_value | 2622 |
+| field_type_error | 692 |
+| invalid_controlled_value | 2630 |
 | missing_required_field | 9260 |
 | schema_warning | 492 |
-| unknown_yaml_block | 1493 |
-| v2_migration_debt | 15391 |
+| unknown_yaml_block | 1509 |
+| v2_migration_debt | 15463 |
 
 ## 5. Erreurs bloquantes
 
@@ -96,7 +96,7 @@ Aucune.
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-013] : Unable to infer documentary kind
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-014] : Unable to infer documentary kind
 - `sources/barone_directionless_so_plain_to_see/relations_s56.md` [REL-S56-015] : Unable to infer documentary kind
-- … 1453 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 1469 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -124,10 +124,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 2743
+- Atomes : 2752
 - Atomes v2 complets : 240
-- Atomes v2 incomplets : 2503
-- Avertissements de champs v2 manquants : 15391
+- Atomes v2 incomplets : 2512
+- Avertissements de champs v2 manquants : 15463
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T15:01:17"
+generated_at: "2026-05-30T17:39:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1308 |
+| Atomes | 1309 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 204 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
-| Sources mobilisées | 69 |
+| Sources mobilisées | 70 |
 
 ## 4. Sources mobilisées
 
@@ -102,6 +102,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 11 | 6 |
 | S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 6 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 10 | 6 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
@@ -580,6 +581,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - réception (13)
 - peter saville (12)
 - martin hannett (11)
+- post-punk (11)
 - Manchester (11)
 - Ceremony (11)
 - factory (10)
@@ -587,7 +589,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - presse musicale (10)
 - Warsaw (10)
 - An Ideal for Living (10)
-- post-punk (10)
 - She's Lost Control (10)
 - Dead Souls (10)
 - John Peel (10)
@@ -871,6 +872,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_interne | 2 |
 | mediation_culturelle | 2 |
 | document_historique | 2 |
+| contexte | 2 |
 | comparaison_critique | 2 |
 | analyse_chanson | 2 |
 | evenement_audiovisuel | 2 |
@@ -974,7 +976,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | decision_groupe | 1 |
 | session_transition | 1 |
 | cadrage_analytique | 1 |
-| contexte | 1 |
 | contexte_institutionnel | 1 |
 | cadrage_historiographique | 1 |
 | media_critique | 1 |
@@ -1418,7 +1419,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | majeure | 202 |
 | majeur | 56 |
 | secondaire | 45 |
-| utile | 21 |
+| utile | 22 |
 | haute | 9 |
 | moyenne | 3 |
 | structurante | 2 |

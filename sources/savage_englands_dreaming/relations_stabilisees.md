@@ -139,3 +139,213 @@ prudence: "S89 est ici périphérique sur Joy Division : la relation sert de pon
 ```
 
 La mention de la « Ice Age » par Savage relie le climat affectif du punk au corpus Joy Division. La relation fonctionne comme pont documentaire vers S45 et vers le concept d'Ice Age déjà présent dans les registres, sans faire de S89 une source primaire sur le groupe.
+
+---
+
+# Relations — Passe 2 (LFTH, Buzzcocks, Spiral Scratch, Wilson, Factory, Warsaw)
+
+## REL-S89-006 — Premier LFTH (4 juin) → présence des futurs Mancuniens (croisement S45 / S41)
+
+```yaml
+id: REL-S89-006
+source_id: S89
+relation_type: croisement_documentaire
+from:
+  - LFTH 4 juin 1976
+  - présents nommés par Savage (Hook, Sumner, Morrissey, Wilson)
+to:
+  - S45-A021 (contexte des concerts Sex Pistols, Deborah Curtis)
+  - S41-A014 (Hook, LFTH et entrée d'Ian)
+  - mythe d'origine de la scène mancunienne
+atoms:
+  - S89-A007
+chapitres:
+  - Chapitre 1
+  - Chapitre 2
+stabilite: forte
+prudence: "Savage rattache Hook/Sumner au 4 juin ; la chronologie interne des deux concerts est modulée par S41/S45."
+```
+
+Savage donne le cadrage extérieur et l'inventaire des présents au premier concert ; Hook (S41) et Deborah Curtis (S45) donnent la vue interne. Le croisement consolide le mythe d'origine tout en exposant les écarts de chronologie entre les sources.
+
+## REL-S89-007 — Curtis au LFTH : S89 atteste le concert, pas la présence de Curtis (correction)
+
+```yaml
+id: REL-S89-007
+source_id: S89
+relation_type: correction_historiographique
+from:
+  - LFTH 20 juillet 1976 (attesté par Savage)
+  - absence de toute mention d'Ian Curtis dans la séquence LFTH de S89
+to:
+  - S45-A022 (« le second LFTH comme confirmation, non origine absolue » — Curtis présent selon Deborah Curtis)
+  - S41 (Hook)
+  - prudence : ne pas sourcer la présence de Curtis sur S89
+atoms:
+  - S89-A008
+chapitres:
+  - Chapitre 2
+stabilite: forte
+prudence: "Relation critique : la présence d'Ian Curtis au LFTH se source sur S45 (et S41), JAMAIS sur S89. S89 documente le concert, pas Curtis."
+```
+
+Relation documentaire centrale : Savage construit le récit punk depuis l'extérieur (futurs Mancuniens comme spectateurs) ; Deborah Curtis (S45-A022) ancre la présence de Curtis dans la biographie. La correction empêche d'attribuer à S89 un fait qu'il ne contient pas.
+
+## REL-S89-008 — Buzzcocks fil conducteur → écosystème de formation de Warsaw (S41)
+
+```yaml
+id: REL-S89-008
+source_id: S89
+relation_type: contextualisation
+from:
+  - Buzzcocks comme fil conducteur mancunien
+  - Boon / New Hormones
+to:
+  - S41-A015 (Hook, scène mancunienne)
+  - S41-A016 (Hook, premiers pas du groupe)
+  - arrière-plan de la formation de Warsaw/Joy Division
+atoms:
+  - S89-A009
+chapitres:
+  - Chapitre 1
+  - Chapitre 2
+stabilite: moyenne
+```
+
+Savage fournit l'arrière-plan structurel (Buzzcocks comme matrice de la scène) que Hook vit de l'intérieur en débutant en première partie des Buzzcocks.
+
+## REL-S89-009 — Spiral Scratch / Hannett → ADN sonore de Hannett (S83)
+
+```yaml
+id: REL-S89-009
+source_id: S89
+relation_type: filiation_sonore
+from:
+  - Spiral Scratch (fév. 1977)
+  - « produced with a hint of ambience by Martin Hannett »
+to:
+  - S83-A004 (ADN industriel — Hannett, rupture avec le live)
+  - filiation Spiral Scratch → Unknown Pleasures
+atoms:
+  - S89-A010
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+stabilite: forte
+prudence: "Première production discographique de Hannett documentée par S89 ; la filiation vers Unknown Pleasures se théorise via S83, ne pas durcir en causalité mécanique."
+```
+
+Savage documente la première production discographique de Hannett ; S83 théorise l'esthétique de production que Hannett portera à maturité sur Unknown Pleasures.
+
+## REL-S89-010 — Wilson / Granada / So It Goes → fabrique du son de Manchester (S78)
+
+```yaml
+id: REL-S89-010
+source_id: S89
+relation_type: contextualisation
+from:
+  - Tony Wilson / So It Goes / Granada
+  - cassette de Devoto, lettre de Morrissey
+to:
+  - S78-A001 (Nevarez, fabrique du son de Manchester)
+  - continuité Granada → Factory
+atoms:
+  - S89-A011
+chapitres:
+  - Chapitre 1
+  - Chapitre 2
+stabilite: moyenne
+```
+
+Savage documente le maillon médiatique granadien concret (Wilson enabler avant Factory) ; Nevarez en analyse la portée dans la construction du mythe sonore mancunien.
+
+## REL-S89-011 — Genèse de Factory → entrée de Joy Division dans le label (S41 / S88)
+
+```yaml
+id: REL-S89-011
+source_id: S89
+relation_type: genealogie_institutionnelle
+from:
+  - genèse de Factory Records
+  - « ours was Joy Division » (Wilson)
+to:
+  - S41-A079 (Hook, A Factory Sample)
+  - S88-A001 (Cashell, cadre de la transition JD → New Order au sein de Factory)
+  - doctrine indépendantiste de Factory
+atoms:
+  - S89-A012
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+stabilite: forte
+```
+
+Savage fixe la doctrine indépendantiste de Wilson qui structurera toute la trajectoire Factory de Joy Division puis New Order ; S41 et S88 en documentent les suites.
+
+## REL-S89-012 — Reflux post-punk vers les régions → branche mancunienne (S78)
+
+```yaml
+id: REL-S89-012
+source_id: S89
+relation_type: contextualisation
+from:
+  - secteur indépendant post-punk (Rough Trade/Cartel, Fast)
+  - Factory comme branche mancunienne
+to:
+  - S78-A001 (Nevarez, avènement du son de Manchester)
+  - infrastructure dans laquelle Joy Division devient « major group » indépendant
+atoms:
+  - S89-A019
+chapitres:
+  - Chapitre 2
+  - Chapitre 14
+stabilite: moyenne
+```
+
+Savage donne la photographie d'ensemble de l'infrastructure indépendante 1978-1979 ; Nevarez en propose la lecture historiographique rétrospective.
+
+## REL-S89-013 — Warsaw à l'Electric Circus (diary Savage) → premiers concerts de Warsaw (S41 / S45)
+
+```yaml
+id: REL-S89-013
+source_id: S89
+relation_type: croisement_documentaire
+from:
+  - diary Savage 15.10.77 (« Warsaw look young and nervous »)
+  - Boon (« the group that was to become Joy Division »)
+  - Hook (« Ian Curtis had Hate written on the back of his jacket »)
+to:
+  - S41-A017 (Hook, premiers concerts de Warsaw)
+  - S45-A023 (premiers concerts de Warsaw, Deborah Curtis)
+  - témoignage extérieur contemporain unique
+atoms:
+  - S89-A024
+chapitres:
+  - Chapitre 1
+  - Chapitre 2
+stabilite: forte
+prudence: "S89 apporte le SEUL témoignage extérieur contemporain de Warsaw en concert ; S41/S45 sont des reconstructions internes. Date 15.10.77 à recouper."
+```
+
+Relation la plus forte de la passe : S89 apporte le seul témoignage extérieur et contemporain de Warsaw en concert, là où S41 et S45 sont des reconstructions internes a posteriori. À privilégier pour le chapitre 2.
+
+## REL-S89-014 — Discographie Factory/JD → monographie discographique (S46 / S41)
+
+```yaml
+id: REL-S89-014
+source_id: S89
+relation_type: croisement_documentaire
+from:
+  - entrée discographique Factory/Joy Division (Ideal for Living « marks the name change from Warsaw »)
+to:
+  - S46-001 (Johnson/Morley, An Ideal for Living — monographie discographique, citée dans la biblio de S89)
+  - S41-A079 (Hook, A Factory Sample)
+atoms:
+  - S89-A025
+chapitres:
+  - Chapitre 3
+stabilite: moyenne
+prudence: "Entrée discographique de l'édition révisée (postérieure à 1991) ; pour la discographie détaillée, mobiliser S46 et le Songbook."
+```
+
+Savage fournit une nomenclature synthétique des sorties ; S46 en est la source détaillée. L'entrée relève de l'édition révisée, à distinguer du corps 1991.
