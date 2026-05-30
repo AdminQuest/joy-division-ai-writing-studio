@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 430 |
+| Atomes | 432 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 80 |
 | Événements chronologiques | 44 |
 | Personnes | 49 |
 | Chansons | 11 |
-| Sources mobilisées | 32 |
+| Sources mobilisées | 33 |
 
 ## 4. Sources mobilisées
 
@@ -66,6 +66,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 3 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 5 | 3 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 2 | 2 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -155,6 +156,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S47 — West, Joy Division, 1984 ; type : `sociologie` ; importance : `critique` ; preuve : `fait_secondaire`.
 - **S47-063** — S47-063 — Sordide Sentimental transforme « Atmosphere » et « Dead Souls » en objet d’art  
   Source : S47 — West, Joy Division, 1984 ; type : `culture_musicale` ; importance : `critique` ; preuve : `fait_documente`.
+- **S47-115** — S47-115 — *Factory Sampler* FAC 2 : premier objet Factory partagé  
+  Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `critique` ; preuve : `fait_documente`.
+- **S47-117** — S47-117 — *Unknown Pleasures* : pochette scientifique et Saville  
+  Source : S47 — West, Joy Division, 1984 ; type : `esthétique` ; importance : `critique` ; preuve : `fait_documente`.
+- **S47-120** — S47-120 — *Licht und Blindheit* : tirage limité à 1 578 exemplaires  
+  Source : S47 — West, Joy Division, 1984 ; type : `production` ; importance : `critique` ; preuve : `fait_documente`.
 - **S48-A001** — S48-A001 — S48 comme source graphique secondaire, non source de crédit définitif  
   Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
 - **S48-A003** — S48-A003 — *An Ideal for Living* : tambour hitlérien, nom et polémique initiale  
@@ -183,12 +190,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept_critique_central`.
 - **S53-A006** — S53-A006 — *Unknown Pleasures* comme icône émotionnelle partagée  
   Source : S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 ; type : `image_symbolique` ; importance : `critique` ; preuve : `interpretation_visuelle`.
-- **S64-A004** — S64-A004 — Warsaw, Joy Division et l'imagerie nazie : noms, *An Ideal for Living*, Hess, abandon par Gretton  
-  Source : S64 — Bottà, European Imaginary of Joy Division, 2018 ; type : `document_historique` ; importance : `critique` ; preuve : `secondaire — Bottà relaie Hook, Sumner et Curtis D. ; certains détails à croiser`.
-- **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -548,6 +549,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - run-out groove (4)
 - pulsar (4)
 - studio (4)
+- rareté_discographique (3)
 - pressage (3)
 - Sordide Sentimentale (3)
 - Earcom 2 (3)
@@ -579,7 +581,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - hypnosis (2)
 - Interzone (2)
 - Factory Sample (2)
-- presse musicale (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -591,6 +592,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - An Ideal for Living (6)
 - fatigue (6)
 - Rabid Records (5)
+- unknown_pleasures (4)
+- peter_saville (4)
 - DIY (4)
 - Peter Saville (4)
 - Shadowplay (4)
@@ -598,6 +601,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Tony Wilson (4)
 - Rock Against Racism (4)
 - Sister Ray (4)
+- pulsar (3)
+- transmission (3)
+- atmosphere (3)
+- Factory (3)
 - prudence (3)
 - image pauvre (3)
 - télévision (3)
@@ -618,13 +625,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rafters (3)
 - Band On The Wall (3)
 - Moonlight Club (3)
-- contrat (2)
-- profit-sharing (2)
-- indépendance (2)
-- unknown_pleasures (2)
-- ventes (2)
-- royalties (2)
-- transmission (2)
+- ideal_for_living (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -716,16 +717,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | manuscript_materiality | 22 |
+| production | 18 |
 | non qualifié | 14 |
-| objet_discographique | 13 |
-| analyse_morceau | 10 |
+| analyse_morceau | 11 |
+| objet_discographique | 9 |
 | discographie | 8 |
 | concept | 8 |
-| production | 7 |
+| reception | 7 |
 | concept_structurant | 7 |
 | analyse | 7 |
 | analyse_editoriale | 7 |
-| reception | 6 |
 | fait | 6 |
 | analyse_chanson | 5 |
 | objet_audiovisuel | 5 |
@@ -754,7 +755,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | session | 3 |
 | lecture_chanson | 2 |
 | prudence_interpretative | 2 |
-| objet_factory | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
 | culture_musicale | 2 |
@@ -786,13 +786,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | dynamique_collective | 1 |
 | sociologie_scene | 1 |
 | réception | 1 |
-| production_discographique | 1 |
-| design_discographique | 1 |
-| production_album | 1 |
-| single | 1 |
-| objet_rare | 1 |
-| strategie_distribution | 1 |
-| reception_design | 1 |
+| esthétique | 1 |
 | lieu_bascule | 1 |
 | acteurs_objet | 1 |
 | citation_repere | 1 |
@@ -845,6 +839,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | citation_contextuelle | 1 |
 | theorie_production | 1 |
 | concert_bascule | 1 |
+| objet_factory | 1 |
 | labels_independants | 1 |
 | discographie_album | 1 |
 | edition_discographique | 1 |
@@ -953,13 +948,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 187 |
-| critique | 148 |
-| majeure | 72 |
+| non qualifiée | 174 |
+| critique | 151 |
+| majeure | 74 |
 | utile | 12 |
-| majeur | 4 |
-| secondaire | 3 |
+| majeur | 9 |
+| secondaire | 7 |
 | haute | 3 |
+| mineur | 1 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

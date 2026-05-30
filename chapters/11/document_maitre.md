@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 384 |
+| Atomes | 388 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 45 |
 | Événements chronologiques | 17 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 35 |
+| Sources mobilisées | 36 |
 
 ## 4. Sources mobilisées
 
@@ -69,6 +69,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 70 | 0 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 5 | 2 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 4 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -527,6 +528,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - solitude (3)
 - réception (3)
 - authenticité (3)
+- hauntologie (3)
 - cut-up (3)
 - joy division nom (3)
 - fatigue (3)
@@ -565,13 +567,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - originalité (2)
 - hauntologie_heritage_curtis (2)
 - absence_centrale_new_order (2)
+- anti-rock (2)
 - nostalgie (2)
 - provocation post-punk (2)
 - esthétique du choc (2)
 - spectralité (2)
 - presse musicale (2)
-- ka-tzetnik (2)
-- rainbow theatre (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -604,6 +605,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - présence absente (2)
 - altérité (2)
 - intensité (2)
+- ian_curtis (2)
 - influences (2)
 - futur fermé (2)
 - désajustement (2)
@@ -616,7 +618,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Atmosphere (2)
 - Dead Souls (2)
 - histoire (2)
-- communication (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -727,6 +728,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | tension_documentaire | 4 |
 | lyrics_reference | 4 |
 | citation_repere | 3 |
+| cadrage_theorique | 3 |
 | concept | 3 |
 | intertextualite | 3 |
 | interpretation | 3 |
@@ -740,6 +742,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | citation_clef | 2 |
 | domesticité | 2 |
 | cadre_analytique | 2 |
+| contexte | 2 |
 | lecture_generationnelle | 2 |
 | comparaison_critique | 2 |
 | synthese_argumentative | 2 |
@@ -778,7 +781,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | contexte_historique | 1 |
 | culture_intellectuelle | 1 |
 | politique_punk | 1 |
-| genealogie_culturelle | 1 |
+| culture_musicale | 1 |
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
 | evolution_esthetique | 1 |
@@ -793,7 +796,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse_oeuvre_musicale | 1 |
 | reception_heritage | 1 |
 | influence | 1 |
-| contexte | 1 |
 | lecture_textuelle | 1 |
 | memoire | 1 |
 | lecture_intertextuelle | 1 |
@@ -895,11 +897,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| critique | 165 |
-| non qualifiée | 132 |
-| majeure | 75 |
+| critique | 167 |
+| non qualifiée | 122 |
+| majeure | 77 |
+| majeur | 13 |
 | utile | 6 |
-| majeur | 5 |
+| secondaire | 2 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

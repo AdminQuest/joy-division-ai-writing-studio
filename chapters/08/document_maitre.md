@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -603,6 +603,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - John Peel (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
+- transmission (4)
 - Hannett (4)
 - bootlegs (4)
 - Pennine Sound (4)
@@ -618,7 +619,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - acid house (3)
 - Manchester (3)
 - Strawberry Studios (3)
-- Rudolf Hess (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -724,7 +724,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | manuscript_materiality | 4 |
 | session_radio | 4 |
 | source_part | 3 |
-| chronologie | 3 |
 | evenement_audiovisuel | 3 |
 | session | 3 |
 | chronologie_discographique | 3 |
@@ -739,6 +738,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | economie_materielle | 2 |
 | discographie | 2 |
 | concert_archive | 2 |
+| fait | 2 |
 | fait_chronologique | 2 |
 | critique_methodologique | 2 |
 | chanson_single | 2 |
@@ -776,6 +776,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | prudence_sociale | 1 |
 | chronology | 1 |
 | controverse | 1 |
+| chronologie | 1 |
 | corpus_methode | 1 |
 | limite_critique | 1 |
 | atome_pont_document_maitre | 1 |
@@ -900,9 +901,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | critique | 158 |
-| non qualifiée | 127 |
+| non qualifiée | 116 |
 | majeure | 36 |
-| majeur | 18 |
+| majeur | 24 |
+| secondaire | 5 |
 | utile | 2 |
 | critique pour Chapitre 3 | 1 |
 | critique pour Chapitre 8 | 1 |

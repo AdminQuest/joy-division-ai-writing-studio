@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -23,7 +23,7 @@ generated_at: "2026-05-27T07:13:50"
 | Indicateur | Valeur |
 |---|---|
 | Atomes | 219 |
-| Atomes critiques / majeurs | 36 |
+| Atomes critiques / majeurs | 37 |
 | Citations | 13 |
 | Événements chronologiques | 3 |
 | Personnes | 14 |
@@ -130,6 +130,8 @@ generated_at: "2026-05-27T07:13:50"
   Source : S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 ; type : `reseau_distribution` ; importance : `majeure` ; preuve : `synthese_documentee`.
 - **S84-A014** — S84-A014  
   Source : S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 ; type : `cadre_theorique` ; importance : `majeure` ; preuve : `haute`.
+- **S47-147** — S47-147 — « Transmission » : titre pivot entre Peel, single et live  
+  Source : S47 — West, Joy Division, 1984 ; type : `fait` ; importance : `majeur` ; preuve : `fait_documente`.
 
 ## 6. Autres atomes utiles
 
@@ -406,6 +408,7 @@ generated_at: "2026-05-27T07:13:50"
 - scène post-punk (2)
 - 8mm (2)
 - 16mm (2)
+- mémoire_audiovisuelle (2)
 - Short Circuit (2)
 - fermeture (2)
 - High Hall (2)
@@ -423,24 +426,33 @@ generated_at: "2026-05-27T07:13:50"
 - here are the young men (2)
 - warner bros (2)
 - wea (2)
-- marché américain (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- here_are_the_young_men (4)
 - Manchester (3)
+- transmission (3)
+- still (3)
+- buzzcocks (3)
 - ian_curtis (3)
 - scènes locales (2)
 - Liz Naylor (2)
 - Cath Carroll (2)
-- buzzcocks (2)
+- Factory_video (2)
+- peel_session (2)
 - bootlegs (2)
 - moonlight_club (2)
 - birmingham_university (2)
-- still (2)
 - prudence (2)
 - Rafters (2)
+- electric_circus (2)
+- paul_morley (2)
+- rob_gretton (2)
+- rafters (2)
+- tony_wilson (2)
+- factory_club (2)
 - archipel fanzine (1)
 - Rough Trade (1)
 - Better Badges (1)
@@ -457,18 +469,8 @@ generated_at: "2026-05-27T07:13:50"
 - agency (1)
 - jeunesse (1)
 - alternative press (1)
-- tournées (1)
-- factory_nights (1)
-- concerts_isolés (1)
-- stratégie_live (1)
-- rareté (1)
-- live_tapes (1)
-- peel_sessions (1)
-- circulation (1)
-- tournée_1979 (1)
-- pete_shelley (1)
-- contraste (1)
-- public (1)
+- films_8mm (1)
+- films_16mm (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -511,25 +513,25 @@ generated_at: "2026-05-27T07:13:50"
 
 | Type | Nombre |
 |---|---|
+| fait | 14 |
 | concert | 11 |
-| fait | 10 |
-| chronologie | 9 |
+| production | 9 |
 | reception | 9 |
-| production | 8 |
 | sociologie | 8 |
+| chronologie | 6 |
 | evenement | 6 |
 | interpretation | 6 |
+| archive | 5 |
 | relation | 5 |
 | contexte_scene | 5 |
 | concept_structurant | 4 |
 | analyse | 4 |
-| management | 4 |
 | reception_live | 4 |
 | anecdote_significative | 4 |
 | evenement_live | 3 |
 | acteur | 3 |
 | non qualifié | 3 |
-| archive | 3 |
+| management | 3 |
 | industrie_musicale | 3 |
 | fait_sensible | 3 |
 | source_part | 2 |
@@ -555,9 +557,6 @@ generated_at: "2026-05-27T07:13:50"
 | reseau_distribution | 1 |
 | genre_politique | 1 |
 | ancrage_source | 1 |
-| archive_video | 1 |
-| video | 1 |
-| versions_chanson | 1 |
 | lieu_archive | 1 |
 | lieu_bascule | 1 |
 | lieu_terminal | 1 |
@@ -626,10 +625,11 @@ generated_at: "2026-05-27T07:13:50"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 176 |
+| non qualifiée | 162 |
 | critique | 23 |
 | majeure | 13 |
-| secondaire | 4 |
+| majeur | 12 |
+| secondaire | 6 |
 | haute | 2 |
 | utile | 1 |
 

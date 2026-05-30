@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 464 |
+| Atomes | 466 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 35 |
 | Événements chronologiques | 25 |
 | Personnes | 33 |
 | Chansons | 27 |
-| Sources mobilisées | 38 |
+| Sources mobilisées | 39 |
 
 ## 4. Sources mobilisées
 
@@ -72,6 +72,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 7 | 0 |
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 12 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -593,11 +594,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - RCA (5)
 - Glass (5)
 - Britannia Row (5)
+- martin_hannett (4)
 - radio (4)
 - Stephen Morris (4)
 - Ice Age (4)
 - T. J. Davidson’s (4)
 - Velvet Underground (4)
+- unknown_pleasures (3)
+- synthétiseur (3)
 - disco (3)
 - delay (3)
 - écoute (3)
@@ -614,12 +618,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ian Curtis (3)
 - Cargo Studios (3)
 - Atrocity Exhibition (3)
-- post-punk (2)
-- bernard_sumner (2)
-- peter_hook (2)
-- stephen_morris (2)
-- reggae (2)
-- dub (2)
+- a_factory_sample (2)
+- digital (2)
+- glass (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -711,14 +712,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | non qualifié | 40 |
-| production | 21 |
+| production | 24 |
 | session_studio | 17 |
 | analyse_morceau | 11 |
 | analyse | 11 |
 | lecture_musicale | 10 |
+| fait | 10 |
 | processus_creatif | 9 |
 | concept | 9 |
-| fait | 9 |
 | source_part | 7 |
 | session | 7 |
 | analyse_chanson | 6 |
@@ -746,7 +747,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse_morceau_studio | 3 |
 | release_or_session | 3 |
 | song_session | 3 |
-| production_album | 2 |
 | relation_esthetique | 2 |
 | citation_repere | 2 |
 | analyse_filmique | 2 |
@@ -773,7 +773,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | theorie_voix | 2 |
 | concept_transversal | 2 |
 | evenement | 2 |
-| chronologie | 2 |
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | scene_repetition | 2 |
@@ -786,6 +785,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influence_esthetique | 1 |
 | professionnalisation | 1 |
 | media_scene | 1 |
+| production_album | 1 |
 | relation_inter_sources | 1 |
 | analyse_semiotique | 1 |
 | analyse_intertextuelle | 1 |
@@ -803,6 +803,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse_documentaire | 1 |
 | analyse_discographique | 1 |
 | rupture_esthetique | 1 |
+| analyse_sonore | 1 |
 | contexte_scene | 1 |
 | prudence_interpretative | 1 |
 | temoignage_reception | 1 |
@@ -893,6 +894,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | portrait_technique | 1 |
 | influences | 1 |
 | transition_esthetique | 1 |
+| chronologie | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
@@ -900,7 +902,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | relation_studio | 1 |
 | controverse_studio | 1 |
 | lecture_reprise | 1 |
-| management | 1 |
 | politique_editoriale | 1 |
 | espace_ecriture | 1 |
 | reference_documentaire | 1 |
@@ -935,14 +936,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 208 |
+| non qualifiée | 202 |
 | critique | 151 |
-| majeure | 61 |
-| utile | 15 |
-| majeur | 10 |
+| majeure | 62 |
+| utile | 16 |
+| majeur | 15 |
+| secondaire | 3 |
 | critique pour le chapitre 3 | 3 |
 | critique pour Chapitre 3 | 3 |
-| secondaire | 2 |
 | haute | 2 |
 | critique pour la généalogie pré-punk | 1 |
 | critique pour la généalogie studio/expérimentation | 1 |

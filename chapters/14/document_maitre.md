@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1302 |
+| Atomes | 1308 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 204 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
-| Sources mobilisées | 68 |
+| Sources mobilisées | 69 |
 
 ## 4. Sources mobilisées
 
@@ -102,6 +102,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 11 | 6 |
 | S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 6 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 10 | 6 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -646,15 +647,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - Tony Wilson (22)
 - prudence (18)
+- still (18)
 - Annik Honoré (18)
+- Factory (17)
 - Rob Gretton (17)
-- Factory (16)
 - Unknown Pleasures (14)
+- new_order (13)
+- ian_curtis (11)
 - Haçienda (11)
+- love_will_tear_us_apart (10)
 - Ian Curtis (10)
 - Peter Saville (10)
-- ian_curtis (9)
-- still (9)
+- peter_saville (9)
+- pulsar (9)
+- atmosphere (9)
 - Control (9)
 - Buzzcocks tour (9)
 - John Peel (8)
@@ -664,10 +670,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fatigue (8)
 - mémoire (7)
 - Paul Morley (7)
-- new_order (7)
+- unknown_pleasures (7)
+- ceremony (7)
+- john_peel (7)
 - She’s Lost Control (7)
 - New Order (7)
-- pulsar (7)
 - Electric Circus (7)
 - Still (6)
 - NME (6)
@@ -677,13 +684,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Plan K (6)
 - Gretton (6)
 - Love Will Tear Us Apart (6)
-- john_peel (5)
-- bootlegs (5)
-- nme (5)
-- love_will_tear_us_apart (5)
-- postérité (5)
-- Curtis (5)
-- acid house (5)
+- dead_souls (5)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -774,23 +775,23 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| reception | 46 |
+| reception | 62 |
 | prudence_methodologique | 42 |
+| analyse | 41 |
 | concept_structurant | 39 |
-| analyse | 38 |
 | non qualifié | 27 |
-| archive | 18 |
+| archive | 24 |
+| production | 23 |
+| fait | 16 |
 | noeud_critique | 15 |
-| production | 14 |
 | memoire | 14 |
-| objet_discographique | 12 |
 | reception_live | 12 |
 | discographie | 11 |
 | synthese | 10 |
 | motif_structurant | 9 |
+| culture_musicale | 9 |
 | sociologie | 9 |
 | biographie | 9 |
-| fait | 9 |
 | scene_fondatrice | 9 |
 | reception_critique | 9 |
 | tension_documentaire | 8 |
@@ -800,14 +801,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | synthese_usage_livre | 7 |
 | mythe | 7 |
 | controverse | 7 |
+| objet_discographique | 7 |
 | relation | 7 |
-| methode | 7 |
 | manuscript_materiality | 7 |
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
-| culture_musicale | 6 |
+| methode | 6 |
 | songbook_instruction | 6 |
-| reception_poll | 5 |
 | acteur_critique | 5 |
 | citation_repere | 5 |
 | concert | 5 |
@@ -819,7 +819,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | session_studio | 4 |
-| index_chanson | 4 |
 | motif_discursif | 4 |
 | analyse_conceptuelle | 4 |
 | lecture_reception | 4 |
@@ -829,8 +828,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | temoignage_autobiographique | 4 |
 | iconographie | 4 |
 | television | 4 |
-| chronologie | 4 |
-| management | 4 |
 | economie_discographique | 4 |
 | concert_europeen | 4 |
 | scene_reseau | 4 |
@@ -841,12 +838,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | relation_inter_sources | 3 |
 | prudence_interpretative | 3 |
 | conclusion_analytique | 3 |
-| objet_factory | 3 |
-| archive_live | 3 |
 | conclusion_historiographique | 3 |
 | cadre_analytique | 3 |
 | conclusions | 3 |
 | reference_theorique | 3 |
+| cadrage_theorique | 3 |
 | image_symbolique | 3 |
 | concept_critique | 3 |
 | prudence_historiographique | 3 |
@@ -860,6 +856,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | design | 3 |
 | reception_posthume | 3 |
 | intertextualite | 3 |
+| chronologie | 3 |
+| management | 3 |
 | decision_strategique | 3 |
 | interpretation | 3 |
 | esthétique_visuelle | 3 |
@@ -873,16 +871,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mémoire | 2 |
 | positionnement | 2 |
 | réception | 2 |
-| design_discographique | 2 |
-| reception_commerciale | 2 |
-| collection | 2 |
-| reprise_exterieure | 2 |
-| archive_inedite | 2 |
-| versions_chanson | 2 |
-| statistique_vente | 2 |
-| reception_radio | 2 |
-| conclusion_methodologique | 2 |
-| synthese_interpretative | 2 |
+| esthétique | 2 |
 | acteur | 2 |
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
@@ -909,6 +898,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_ecoute | 2 |
 | mediation_culturelle | 2 |
 | rencontre_fondatrice | 2 |
+| archive_live | 2 |
 | evenement_reception | 2 |
 | analyse_critique | 2 |
 | citation_courte | 2 |
@@ -921,6 +911,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_formelle | 2 |
 | changement_nom | 2 |
 | objet_merchandising | 2 |
+| objet_factory | 2 |
 | transition_new_order | 2 |
 | acteur_image | 2 |
 | methodologie_source | 2 |
@@ -968,15 +959,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | genre_politique | 1 |
 | ancrage_source | 1 |
 | politique_punk | 1 |
-| objet_rare | 1 |
-| strategie_distribution | 1 |
-| archive_video | 1 |
-| video | 1 |
-| reception_chanson | 1 |
-| outtakes | 1 |
-| collection_statistique | 1 |
-| reception_design | 1 |
-| reception_musiciens | 1 |
 | lieu_archive | 1 |
 | lieu_radio | 1 |
 | lieu_terminal | 1 |
@@ -990,7 +972,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | qualification_source | 1 |
 | qualification_esthetique | 1 |
 | gouvernance | 1 |
-| esthétique | 1 |
 | evenement_culturel | 1 |
 | reception_institutionnelle | 1 |
 | citation_acteur | 1 |
@@ -1011,6 +992,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lieu_scene | 1 |
 | institution_scene | 1 |
 | cartographie_relationnelle | 1 |
+| analyse_voix | 1 |
 | lecture_generationnelle | 1 |
 | contexte_mediatique | 1 |
 | mythification_posthume | 1 |
@@ -1185,6 +1167,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation_posthume | 1 |
 | intertextualite_occultiste | 1 |
 | chanson_seuil | 1 |
+| conclusion_methodologique | 1 |
 | bibliographie_materielle | 1 |
 | paratexte | 1 |
 | labels_independants | 1 |
@@ -1200,6 +1183,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tournee_new_order | 1 |
 | coincidence_culturelle | 1 |
 | reception_new_order | 1 |
+| design_discographique | 1 |
+| reception_commerciale | 1 |
 | anecdote_live_new_order | 1 |
 | decision_artistique | 1 |
 | histoire_du_livre | 1 |
@@ -1322,6 +1307,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | crise_gouvernance | 1 |
 | scene_suicide_attempt | 1 |
 | hospitalisation | 1 |
+| synthese_interpretative | 1 |
 | lecture_culturelle | 1 |
 | videographie | 1 |
 | bibliographie | 1 |
@@ -1389,6 +1375,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_live_pre_album | 1 |
 | reception_discographique | 1 |
 | scene_lieu | 1 |
+| reception_radio | 1 |
 | scene_funeraire | 1 |
 | culpabilite_memorielle | 1 |
 | chronologie_factory | 1 |
@@ -1426,15 +1413,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| critique | 510 |
-| non qualifiée | 504 |
-| majeure | 198 |
-| majeur | 28 |
+| critique | 522 |
+| non qualifiée | 439 |
+| majeure | 202 |
+| majeur | 56 |
+| secondaire | 45 |
 | utile | 21 |
-| secondaire | 19 |
 | haute | 9 |
 | moyenne | 3 |
 | structurante | 2 |
+| mineur | 1 |
 | majeure pour la sociologie des signes pré-punk | 1 |
 | critique pour la généalogie pré-punk | 1 |
 | critique pour la formation pré-punk | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -595,11 +595,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Deborah Curtis (13)
 - Ian Curtis (11)
 - Tony Wilson (11)
+- ian_curtis (10)
 - épilepsie (10)
 - Closer (9)
 - Rob Gretton (9)
 - Natalie Curtis (9)
-- ian_curtis (8)
 - She’s Lost Control (8)
 - Barton Street (7)
 - Annik (7)
@@ -725,11 +725,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | prudence_methodologique | 9 |
 | tension_domestique | 8 |
 | lecture_chanson | 8 |
+| reception | 6 |
 | tension_documentaire | 5 |
 | session_studio | 5 |
 | song | 5 |
 | biographie | 4 |
-| reception | 4 |
 | analyse_chanson | 4 |
 | scene_domestique | 4 |
 | tension_biographique | 4 |
@@ -754,7 +754,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_live | 3 |
 | song_session | 3 |
 | santé | 2 |
-| reception_poll | 2 |
 | idee_directrice | 2 |
 | production | 2 |
 | analyse | 2 |
@@ -1006,10 +1005,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 268 |
-| non qualifiée | 102 |
+| critique | 269 |
+| non qualifiée | 100 |
 | majeure | 45 |
-| majeur | 12 |
+| majeur | 13 |
 | secondaire | 5 |
 | utile | 4 |
 | haute | 4 |

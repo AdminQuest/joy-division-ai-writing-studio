@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-27T07:13:50"
+generated_at: "2026-05-30T06:03:02"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-27T07:13:50"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 384 |
+| Atomes | 390 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 94 |
 | Événements chronologiques | 63 |
 | Personnes | 53 |
 | Chansons | 36 |
-| Sources mobilisées | 34 |
+| Sources mobilisées | 35 |
 
 ## 4. Sources mobilisées
 
@@ -68,6 +68,7 @@ generated_at: "2026-05-27T07:13:50"
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 4 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 3 | 2 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -754,12 +755,14 @@ generated_at: "2026-05-27T07:13:50"
 | interpretation | 5 |
 | lyrics_reference | 5 |
 | analyse_motif | 5 |
+| analyse_morceau | 4 |
 | lecture_textuelle | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
-| analyse_morceau | 3 |
 | relation | 3 |
+| reception | 3 |
+| cadrage_theorique | 3 |
 | demythification | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
@@ -774,7 +777,6 @@ generated_at: "2026-05-27T07:13:50"
 | relation_conjugale | 2 |
 | santé | 2 |
 | domesticité | 2 |
-| reception | 2 |
 | noeud_critique | 2 |
 | scene_historiographique | 2 |
 | cadre_theorique | 2 |
@@ -829,6 +831,7 @@ generated_at: "2026-05-27T07:13:50"
 | analyse_musicologique | 1 |
 | lecture_chanson_espace | 1 |
 | contexte_affectif | 1 |
+| analyse_voix | 1 |
 | lecture_performance | 1 |
 | analyse_performance | 1 |
 | lecture_scene_et_chanson | 1 |
@@ -962,9 +965,9 @@ generated_at: "2026-05-27T07:13:50"
 
 | Importance | Nombre |
 |---|---|
-| critique | 205 |
+| critique | 207 |
 | non qualifiée | 96 |
-| majeure | 71 |
+| majeure | 75 |
 | utile | 5 |
 | majeur | 3 |
 | secondaire | 1 |
