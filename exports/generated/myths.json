@@ -248,6 +248,29 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-mclaren_westwood_recit_fiable",
+    "file": "sources/savage_englands_dreaming/registres_structurants_s89.md",
+    "heading": "Mythes à ajouter ou préciser",
+    "data": {
+      "id": "MYTH-mclaren_westwood_recit_fiable",
+      "mythe": "Les récits de McLaren et Westwood comme source fiable sur la naissance du punk",
+      "nom": "McLaren et Westwood narrateurs fiables d'eux-mêmes",
+      "sources": [
+        "S89"
+      ],
+      "related_atoms": [
+        "S89-A022"
+      ],
+      "statut": "mythe à corriger",
+      "position": "Savage avertit lui-même que le couple réécrit son histoire selon les besoins de son projet du moment, et que la « question de l'auteur » empoisonne tout le récit du punk. Toute attribution ou reconstruction reposant sur eux doit être traitée comme récit, non comme fait.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 4"
+      ]
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Mythes",

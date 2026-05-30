@@ -1457,6 +1457,44 @@
   },
   {
     "kind": "source",
+    "id": "S89",
+    "file": "sources/savage_englands_dreaming/source.md",
+    "heading": "S89 — Savage, England's Dreaming, 1991",
+    "data": {
+      "id": "S89",
+      "source_id": "S89",
+      "source_label": "S89 — Savage, England's Dreaming, 1991",
+      "source_short_title": "Savage, England's Dreaming, 1991",
+      "source_year": "1991",
+      "auteur": "Jon Savage",
+      "titre": "England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond",
+      "annee": "1991",
+      "lieu_edition": "Londres",
+      "editeur": "Faber and Faber",
+      "isbn_1991": "0-571-13975-6",
+      "isbn_2005": "978-0-571-22720-4",
+      "nature": "histoire critique du punk britannique / source secondaire critique majeure / récit fondateur de la scène punk 1975-1980",
+      "statut": "atomisée partiellement (introduction + ouverture du chapitre 1)",
+      "fiabilite": "forte comme synthèse critique et chronologie de référence ; témoin contemporain ; à croiser pour citations indirectes, attributions exactes et reconstructions de dialogues",
+      "source_drive": "Registre_sources/S89_Savage_Englands_Dreaming/810993211-Jon-Savage-England-s-Dreaming.pdf",
+      "fichier_source_recommande": "S89_savage_englands_dreaming_1991.pdf",
+      "edition_pdf_disponible": "Faber 2005 (ISBN 978-0-571-22720-4)",
+      "decalage_pagination": "corps du livre = pages_pdf − 18 ; introduction en chiffres romains",
+      "pages_pdf": "7-30 (passe 1)",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 11"
+      ],
+      "citation_directe": true
+    }
+  },
+  {
+    "kind": "source",
     "id": "S66",
     "file": "sources/schutte_curtis_lyrics/source.md",
     "heading": "Source S66 — Schütte, « On Ian Curtis's Lyrics », 2018",

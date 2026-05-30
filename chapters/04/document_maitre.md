@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T11:44:04"
+generated_at: "2026-05-30T14:08:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-30T11:44:04"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 386 |
+| Atomes | 387 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 94 |
 | Événements chronologiques | 63 |
 | Personnes | 53 |
 | Chansons | 36 |
-| Sources mobilisées | 35 |
+| Sources mobilisées | 36 |
 
 ## 4. Sources mobilisées
 
@@ -68,6 +68,7 @@ generated_at: "2026-05-30T11:44:04"
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 4 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 3 | 2 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
@@ -529,7 +530,7 @@ generated_at: "2026-05-30T11:44:04"
 ## 11. Concepts récurrents
 
 - Ian Curtis (44)
-- prudence historiographique (21)
+- prudence historiographique (22)
 - epilepsie (10)
 - épilepsie (9)
 - premier corpus (7)
@@ -744,8 +745,8 @@ generated_at: "2026-05-30T11:44:04"
 | Type | Nombre |
 |---|---|
 | non qualifié | 23 |
+| prudence_methodologique | 16 |
 | concept_structurant | 16 |
-| prudence_methodologique | 15 |
 | fait_sensible | 9 |
 | analyse_chanson | 8 |
 | lecture_chanson | 8 |
@@ -964,7 +965,7 @@ generated_at: "2026-05-30T11:44:04"
 
 | Importance | Nombre |
 |---|---|
-| critique | 205 |
+| critique | 206 |
 | non qualifiée | 96 |
 | majeure | 73 |
 | utile | 5 |

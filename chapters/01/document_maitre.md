@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T11:44:04"
+generated_at: "2026-05-30T14:08:32"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-30T11:44:04"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 298 |
+| Atomes | 304 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 28 |
 | Événements chronologiques | 15 |
 | Personnes | 24 |
 | Chansons | 1 |
-| Sources mobilisées | 45 |
+| Sources mobilisées | 46 |
 
 ## 4. Sources mobilisées
 
@@ -78,6 +78,7 @@ generated_at: "2026-05-30T11:44:04"
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 4 | 3 |
+| S89 | S89 — Savage, England's Dreaming, 1991 | 6 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
@@ -459,15 +460,16 @@ generated_at: "2026-05-30T11:44:04"
 - Hulme (5)
 - Thatcherism (5)
 - James Anderton (5)
+- no future (4)
 - Macclesfield (4)
 - Ian Curtis (4)
 - diy (4)
 - hauntologie (3)
-- no future (3)
 - autodidaxie-pop (3)
 - classe ouvriere (3)
 - Manchester post-industrielle (3)
 - slum clearance (3)
+- prudence historiographique (3)
 - imaginative historicism (3)
 - postindustrial cityscapes (3)
 - Lesser Free Trade Hall (3)
@@ -499,6 +501,7 @@ generated_at: "2026-05-30T11:44:04"
 - enfance (2)
 - pauvreté urbaine (2)
 - Manchester punk (2)
+- psychogéographie (2)
 - géographie sociale (2)
 - Fort Beswick (2)
 - logement social (2)
@@ -506,7 +509,6 @@ generated_at: "2026-05-30T11:44:04"
 - déclin industriel (2)
 - urban studies (2)
 - David Harvey (2)
-- prudence historiographique (2)
 - source critique (2)
 - Joy Division (2)
 - industrial music (2)
@@ -529,7 +531,6 @@ generated_at: "2026-05-30T11:44:04"
 - accountability (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
-- régénération (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -665,23 +666,23 @@ generated_at: "2026-05-30T11:44:04"
 
 | Type | Nombre |
 |---|---|
-| prudence_methodologique | 16 |
+| prudence_methodologique | 17 |
 | concept_structurant | 16 |
 | source_part | 14 |
 | analyse | 10 |
-| concept | 9 |
+| concept | 10 |
 | sociologie | 7 |
 | contexte_social | 7 |
+| contexte | 7 |
 | evenement_politique | 6 |
 | lecture | 5 |
 | biographie | 5 |
 | politique_urbaine | 5 |
-| contexte | 5 |
+| lieu | 4 |
 | lieu_scene | 4 |
 | evenement_urbain | 3 |
 | conclusion_historiographique | 3 |
 | contexte_scene | 3 |
-| lieu | 3 |
 | methode | 3 |
 | contexte_biographique | 3 |
 | contrepoint | 3 |
@@ -813,6 +814,7 @@ generated_at: "2026-05-30T11:44:04"
 | concept_sociologique | 1 |
 | renversement_question | 1 |
 | prudence_documentaire | 1 |
+| reference_croisee | 1 |
 | cadre_analytique | 1 |
 | fait_cadre | 1 |
 | culture_urbaine | 1 |
@@ -836,9 +838,9 @@ generated_at: "2026-05-30T11:44:04"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 157 |
-| critique | 65 |
-| majeure | 55 |
-| utile | 11 |
+| critique | 67 |
+| majeure | 58 |
+| utile | 12 |
 | majeur | 3 |
 | secondaire | 1 |
 | critique pour l’arrière-plan social de la musique | 1 |

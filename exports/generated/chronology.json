@@ -3696,6 +3696,39 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S89-001",
+    "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
+    "heading": "Chronologie extraite de S89",
+    "data": {
+      "id": "CHR-S89-001",
+      "source_id": "S89",
+      "date": "1971-10",
+      "precision_date": "mois",
+      "event": "Malcolm McLaren s'installe à l'arrière du 430 King's Road avec Vivienne Westwood et Patrick Casey, reprend la boutique de Trevor Miles et lance Let It Rock.",
+      "type": "contexte",
+      "location": "430 King's Road, World's End, Londres",
+      "people": [
+        "Malcolm McLaren",
+        "Vivienne Westwood",
+        "Patrick Casey",
+        "Trevor Miles"
+      ],
+      "songs": [],
+      "sources": [
+        "S89"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S89-A001",
+        "S89-A002"
+      ],
+      "source_label": "S89 — Savage, England's Dreaming, 1991",
+      "source_short_title": "Jon Savage, England's Dreaming: Anarchy, Sex Pistols, Punk Rock, and Beyond, 1991",
+      "source_year": "1991"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S70-001",
     "file": "sources/suatoni/source.md",
     "heading": "Événements chronologiques",
