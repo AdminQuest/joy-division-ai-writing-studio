@@ -254,6 +254,88 @@ body {
   padding: 1px 5px;
 }
 
+/* ── Bascule Liste / Carte ──────────────────────────────── */
+.places-viewtoggle { display: inline-flex; gap: 0; }
+.places-viewtoggle__btn { border-radius: 0; }
+.places-viewtoggle__btn:first-child { border-radius: var(--radius-ctrl) 0 0 var(--radius-ctrl); }
+.places-viewtoggle__btn:last-child { border-radius: 0 var(--radius-ctrl) var(--radius-ctrl) 0; margin-left: -1px; }
+.places-viewtoggle__btn.is-active {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  color: var(--accent);
+  z-index: 1;
+}
+
+/* ── Carte (étape 12b-1.c) ──────────────────────────────── */
+.places-map-wrap { margin-bottom: 8px; }
+.places-map {
+  height: 60vh;
+  min-height: 420px;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-rest);
+  z-index: 0;
+}
+.places-map__note {
+  margin: 10px 2px 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Épingle : picto de famille sur pastille crème bordée d'ocre. */
+.place-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: var(--bg-card);
+  border: 2px solid var(--accent);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: var(--shadow-hover);
+}
+.place-pin svg { width: 16px; height: 16px; color: var(--accent); transform: rotate(45deg); }
+
+/* Zone (ville/région) : cercle translucide — étendue, non ponctuelle. */
+.place-zone { stroke: var(--accent); stroke-width: 1.5; stroke-opacity: .55; fill: var(--accent); fill-opacity: .12; }
+
+/* Légende + bascule de la couche zones. */
+.places-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.places-legend__item { display: inline-flex; align-items: center; gap: 6px; }
+.places-legend__pin {
+  width: 12px; height: 12px;
+  background: var(--bg-card);
+  border: 2px solid var(--accent);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+}
+.places-legend__zone {
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid var(--accent);
+  background: var(--accent-bg);
+}
+
+/* Popup Leaflet aligné sur l'identité du registre. */
+.place-popup { font-family: inherit; max-width: 240px; }
+.place-popup__title { font-size: 15px; font-weight: 600; margin: 0 0 2px; color: var(--text); }
+.place-popup__type { font-size: 12px; color: var(--text-muted); margin: 0 0 8px; }
+.place-popup__usage { font-size: 13px; line-height: 1.5; color: var(--text); margin: 0 0 8px; }
+.place-popup__geo { font-size: 11px; color: var(--text-muted); margin: 0 0 4px; }
+.place-popup__prudence { font-size: 11px; color: #8a5a2b; margin: 0 0 8px; }
+.place-popup .place-badges { margin-top: 6px; }
+.leaflet-popup-content-wrapper { border-radius: var(--radius-card); }
+
 /* ── États ──────────────────────────────────────────────── */
 .places-status {
   font-size: 14px;

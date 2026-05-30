@@ -101,6 +101,7 @@ chapitres:
   - Chapitre 14
 prudence: >
   Ne pas fétichiser le lieu comme cause autonome du son ; il agit comme environnement matériel et mémoriel.
+same_as: PLACE-TJ-DAVIDSONS   # même lieu physique (canonique S10) — arête d'équivalence 12b-1.c
 ```
 
 ---

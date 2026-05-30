@@ -141,15 +141,74 @@ properties:
     minimum: -90
     maximum: 90
     description: >
-      Latitude en degrés décimaux (WGS84). Optionnel ; vide pour l'instant,
-      renseigné par l'étape 12b-1.c (carte Leaflet).
+      Latitude en degrés décimaux (WGS84). Renseignée par l'étape 12b-1.c
+      (carte Leaflet). Curation hors-ligne recoupée Wikidata (propriété P625,
+      CC0) ; QID porté par `reference_croisee`, granularité par `geo_precision`.
+      Attachée au lieu CANONIQUE (après réconciliation `same_as`), jamais à un
+      enregistrement legacy.
   lng:
     type: number
     minimum: -180
     maximum: 180
     description: >
-      Longitude en degrés décimaux (WGS84). Optionnel ; vide pour l'instant,
-      renseigné par l'étape 12b-1.c (carte Leaflet).
+      Longitude en degrés décimaux (WGS84). Mêmes règles que `lat`.
+
+  geo_precision:
+    type: string
+    description: >
+      Granularité de la coordonnée (lat/lng) — échelle ORDINALE, du plus fin au
+      plus large : `exacte` (bâtiment / point précis) < `rue` (axe ou tronçon) <
+      `quartier` < `ville` (centroïde municipal) < `region` (comté, aire
+      métropolitaine, échelle régionale). Axe de GRANULARITÉ uniquement :
+      l'incertitude ou l'approximation (lieu démoli, localisation douteuse) se
+      documente dans `prudence_methodologique`, jamais comme une valeur de
+      précision (granularité et confiance sont deux axes distincts). Convention
+      de rendu : `ville` et `region` sont des ZONES (étendues), non des points —
+      cf. docs/NAMING_CONVENTIONS.md §10.
+    enum:
+      - exacte
+      - rue
+      - quartier
+      - ville
+      - region
+
+  same_as:
+    type: string
+    pattern: "^PLACE-[A-Z0-9][A-Z0-9-]*$"
+    description: >
+      Arête d'équivalence d'identité inter-registres (cross-ready, étape 5) —
+      au sens de owl:sameAs / schema.org/sameAs. MONO-VALUÉE : une seule cible
+      canonique par enregistrement (un tableau est refusé — une équivalence vers
+      plusieurs canoniques serait contradictoire ; s'ils sont le même lieu ils
+      doivent fusionner, sinon ce ne sont pas des équivalents). Portée
+      UNIQUEMENT par un enregistrement LEGACY non canonique : pointe vers
+      l'identifiant CANONIQUE (forme `PLACE-<SLUG>` source-agnostique) du même
+      lieu physique. Append-only : le canonique n'est jamais muté. Le loader
+      résout la clôture transitive (union-find) et fusionne sur le point fixe ;
+      le validateur impose cible existante (INV-1), absence de cycle (INV-2),
+      canonique = point fixe (INV-3), convergence unique (INV-4). Réutilisable
+      telle quelle par la spécification cross-registres (étape 5) et les
+      croisements concerts (étape 10) / maillage (étape 11).
+
+  reference_croisee:
+    type: array
+    description: >
+      Références d'autorité externes recoupant le lieu, sous forme
+      d'identifiants PRÉFIXÉS PAR AUTORITÉ (ex. "wikidata:Q204686",
+      "musicbrainz:place:…", "osm:node:…"). Notamment le QID Wikidata source de
+      la coordonnée (propriété P625, CC0, stockable sans attribution) :
+      provenance vérifiable de la donnée géographique.
+    items:
+      type: string
+      minLength: 1
+
+  prudence_methodologique:
+    type: string
+    description: >
+      Précaution spécifique à la donnée géographique : lieu démoli, coordonnée
+      approximative / incertaine, désambiguïsation, QID non encore recoupé.
+      Porte l'axe CONFIANCE/incertitude (cf. `geo_precision` = granularité).
+      Distincte de `prudence` (précaution documentaire générale, héritée).
 
   pages_pdf:
     type: [string, integer]

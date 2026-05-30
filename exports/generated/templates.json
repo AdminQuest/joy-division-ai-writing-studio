@@ -14742,6 +14742,7 @@
       "places": [
         {
           "id": "PLACE-MANCHESTER-CITY",
+          "same_as": "PLACE-MANCHESTER",
           "label": "City of Manchester",
           "type": "ville",
           "type_detail": "municipalite",
@@ -14753,6 +14754,10 @@
         },
         {
           "id": "PLACE-GREATER-MANCHESTER",
+          "lat": 53.59,
+          "lng": -2.3,
+          "geo_precision": "region",
+          "prudence_methodologique": "Comté métropolitain — coordonnée = centroïde approximatif, non un point.",
           "label": "Greater Manchester",
           "type": "ville",
           "type_detail": "comte_metropolitain",
@@ -14764,6 +14769,9 @@
         },
         {
           "id": "PLACE-HULME",
+          "lat": 53.464,
+          "lng": -2.247,
+          "geo_precision": "quartier",
           "label": "Hulme",
           "type": "quartier",
           "type_detail": "quartier",
@@ -14776,6 +14784,9 @@
         },
         {
           "id": "PLACE-MANCHESTER-CENTRE",
+          "lat": 53.4794,
+          "lng": -2.2453,
+          "geo_precision": "quartier",
           "label": "Centre-ville de Manchester",
           "type": "ville",
           "type_detail": "centralite_urbaine",
@@ -14810,6 +14821,9 @@
         },
         {
           "id": "PLACE-HYDE",
+          "lat": 53.451,
+          "lng": -2.081,
+          "geo_precision": "ville",
           "label": "Hyde",
           "type": "ville",
           "type_detail": "ville_greater_manchester",
@@ -14820,6 +14834,9 @@
         },
         {
           "id": "PLACE-BOLTON",
+          "lat": 53.578,
+          "lng": -2.429,
+          "geo_precision": "ville",
           "label": "Bolton",
           "type": "ville",
           "type_detail": "ville_greater_manchester",
@@ -14830,6 +14847,9 @@
         },
         {
           "id": "PLACE-MOSS-SIDE",
+          "lat": 53.453,
+          "lng": -2.249,
+          "geo_precision": "quartier",
           "label": "Moss Side",
           "type": "quartier",
           "type_detail": "quartier_inner_city",
@@ -14841,6 +14861,12 @@
         },
         {
           "id": "PLACE-UNIVERSITY-OF-MANCHESTER",
+          "lat": 53.4668,
+          "lng": -2.2339,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q230899"
+          ],
           "label": "University of Manchester",
           "type": "education",
           "type_detail": "universite",
@@ -14851,6 +14877,9 @@
         },
         {
           "id": "PLACE-ORDSALL",
+          "lat": 53.474,
+          "lng": -2.272,
+          "geo_precision": "quartier",
           "label": "Ordsall",
           "type": "quartier",
           "type_detail": "quartier_salford",
@@ -14861,6 +14890,9 @@
         },
         {
           "id": "PLACE-OLDHAM",
+          "lat": 53.5409,
+          "lng": -2.1183,
+          "geo_precision": "ville",
           "label": "Oldham",
           "type": "ville",
           "type_detail": "ville_greater_manchester",
@@ -14904,6 +14936,10 @@
         },
         {
           "id": "PLACE-HULME-CRESCENTS",
+          "lat": 53.461,
+          "lng": -2.252,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Ensemble démoli (1991-1995) ; coordonnée du secteur, non d'un bâtiment.",
           "label": "Hulme Crescents",
           "type": "habitat",
           "type_detail": "estate_moderniste",
@@ -14927,6 +14963,9 @@
         },
         {
           "id": "PLACE-SALE",
+          "lat": 53.424,
+          "lng": -2.322,
+          "geo_precision": "ville",
           "label": "Sale",
           "type": "habitat",
           "type_detail": "suburb",
@@ -14937,6 +14976,9 @@
         },
         {
           "id": "PLACE-ALTRINCHAM",
+          "lat": 53.387,
+          "lng": -2.349,
+          "geo_precision": "ville",
           "label": "Altrincham",
           "type": "habitat",
           "type_detail": "suburb",
@@ -14968,6 +15010,12 @@
       "places": [
         {
           "id": "PLACE-BRITANNIA-ROW-STUDIOS",
+          "lat": 51.5392,
+          "lng": -0.0972,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q4970934"
+          ],
           "label": "Britannia Row Studios",
           "type": "studio",
           "type_detail": "studio",
@@ -14979,6 +15027,10 @@
         },
         {
           "id": "PLACE-CARGO-STUDIOS",
+          "lat": 53.617,
+          "lng": -2.156,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Kenion Street, Rochdale ; studio fermé.",
           "label": "Cargo Studios",
           "type": "studio",
           "type_detail": "studio",
@@ -14999,6 +15051,9 @@
         },
         {
           "id": "PLACE-BOURNEMOUTH",
+          "lat": 50.72,
+          "lng": -1.88,
+          "geo_precision": "ville",
           "label": "Bournemouth",
           "type": "lieu_memoire",
           "type_detail": "lieu_projection",
@@ -15082,6 +15137,10 @@
         },
         {
           "id": "PLACE-SALFORD-GRAMMAR-SCHOOL",
+          "lat": 53.488,
+          "lng": -2.298,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Établissement nommé = bâtiment (granularité rue) ; coordonnée approximative à l'échelle de Salford, bâtiment précis non confirmé.",
           "label": "Salford Grammar School",
           "type": "education",
           "type_detail": "ecole",
@@ -15102,6 +15161,10 @@
         },
         {
           "id": "PLACE-LESSER-FREE-TRADE-HALL",
+          "lat": 53.4779,
+          "lng": -2.247,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Petite salle AU SEIN du Free Trade Hall — distincte du grand hall (PLACE-FREE-TRADE-HALL) ; même bâtiment, point partagé.",
           "label": "Lesser Free Trade Hall",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -15132,6 +15195,10 @@
         },
         {
           "id": "PLACE-ELECTRIC-CIRCUS",
+          "lat": 53.493,
+          "lng": -2.221,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Collyhurst ; salle fermée en 1977, démolie.",
           "label": "Electric Circus",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -15152,6 +15219,10 @@
         },
         {
           "id": "PLACE-TJ-DAVIDSONS",
+          "lat": 53.474,
+          "lng": -2.249,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.",
           "label": "TJ Davidson’s",
           "type": "studio",
           "type_detail": "lieu_repetition",
@@ -15183,6 +15254,13 @@
         },
         {
           "id": "PLACE-STRAWBERRY-STUDIOS",
+          "lat": 53.4084,
+          "lng": -2.157,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q7622496"
+          ],
+          "prudence_methodologique": "Studio fermé en 1993 ; bâtiment conservé (Stockport).",
           "label": "Strawberry Studios",
           "type": "studio",
           "type_detail": "studio",
@@ -15236,6 +15314,9 @@
         },
         {
           "id": "PLACE-VICTORIA-PARK-MANCHESTER",
+          "lat": 53.456,
+          "lng": -2.213,
+          "geo_precision": "quartier",
           "label": "Victoria Park",
           "type": "habitat",
           "type_detail": "suburb_bourgeois",
@@ -15256,6 +15337,9 @@
         },
         {
           "id": "PLACE-WYTHENSHAWE",
+          "lat": 53.392,
+          "lng": -2.264,
+          "geo_precision": "quartier",
           "label": "Wythenshawe",
           "type": "ville",
           "type_detail": "ville_satellite",
@@ -15281,6 +15365,9 @@
         },
         {
           "id": "PLACE-HATTERSLEY",
+          "lat": 53.444,
+          "lng": -2.043,
+          "geo_precision": "quartier",
           "label": "Hattersley",
           "type": "habitat",
           "type_detail": "overspill_estate",
@@ -15344,6 +15431,12 @@
       "places": [
         {
           "id": "PLACE-MACCLESFIELD",
+          "lat": 53.2581,
+          "lng": -2.1255,
+          "geo_precision": "ville",
+          "reference_croisee": [
+            "wikidata:Q659804"
+          ],
           "label": "Macclesfield",
           "type": "ville",
           "type_detail": "ville_provinciale",
@@ -15361,6 +15454,12 @@
         },
         {
           "id": "PLACE-JODRELL-BANK",
+          "lat": 53.2367,
+          "lng": -2.3085,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q204686"
+          ],
           "label": "Jodrell Bank",
           "type": "science",
           "type_detail": "radiotelescope",
@@ -15375,6 +15474,9 @@
         },
         {
           "id": "PLACE-HOLMES-CHAPEL",
+          "lat": 53.198,
+          "lng": -2.357,
+          "geo_precision": "ville",
           "label": "Holmes Chapel",
           "type": "ville",
           "type_detail": "village_repere",
@@ -15403,6 +15505,10 @@
         },
         {
           "id": "PLACE-KINGS-SCHOOL",
+          "lat": 53.252,
+          "lng": -2.137,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "King's School, Macclesfield.",
           "label": "King’s School",
           "type": "education",
           "type_detail": "grammar_school",
@@ -15446,6 +15552,13 @@
         },
         {
           "id": "PLACE-FREE-TRADE-HALL",
+          "lat": 53.4779,
+          "lng": -2.247,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q5500433"
+          ],
+          "prudence_methodologique": "Reconverti en hôtel (façade conservée, Peter Street).",
           "label": "Free Trade Hall",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -15461,6 +15574,12 @@
         },
         {
           "id": "PLACE-MANCHESTER",
+          "lat": 53.4808,
+          "lng": -2.2426,
+          "geo_precision": "ville",
+          "reference_croisee": [
+            "wikidata:Q18125"
+          ],
           "label": "Manchester",
           "type": "ville",
           "type_detail": "ville",
@@ -15477,6 +15596,12 @@
         },
         {
           "id": "PLACE-LONDON",
+          "lat": 51.5074,
+          "lng": -0.1278,
+          "geo_precision": "ville",
+          "reference_croisee": [
+            "wikidata:Q84"
+          ],
           "label": "London",
           "type": "ville",
           "type_detail": "ville",
@@ -15491,6 +15616,9 @@
         },
         {
           "id": "PLACE-BELLE-VUE",
+          "lat": 53.461,
+          "lng": -2.18,
+          "geo_precision": "quartier",
           "label": "Belle Vue",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -15534,6 +15662,9 @@
         },
         {
           "id": "PLACE-SOUTHPORT-FLORAL-HALL",
+          "lat": 53.654,
+          "lng": -3.01,
+          "geo_precision": "exacte",
           "label": "Southport Floral Hall",
           "type": "salle",
           "type_detail": "salle_spectacle",
@@ -15735,6 +15866,9 @@
         },
         {
           "id": "PLACE-BUXTON",
+          "lat": 53.259,
+          "lng": -1.911,
+          "geo_precision": "ville",
           "label": "Buxton",
           "type": "ville",
           "type_detail": "ville_provinciale",
@@ -32632,6 +32766,13 @@
         },
         {
           "id": "PLACE-HACIENDA",
+          "lat": 53.4746,
+          "lng": -2.2503,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "wikidata:Q1572261"
+          ],
+          "prudence_methodologique": "FAC 51 ; démolie en 2002, remplacée par des logements.",
           "label": "Haçienda / FAC 51",
           "type": "salle",
           "type_detail": "club",
@@ -32655,6 +32796,12 @@
         },
         {
           "id": "PLACE-CHICAGO",
+          "lat": 41.8781,
+          "lng": -87.6298,
+          "geo_precision": "ville",
+          "reference_croisee": [
+            "wikidata:Q1297"
+          ],
           "label": "Chicago",
           "type": "ville",
           "type_detail": "ville",
@@ -32666,6 +32813,12 @@
         },
         {
           "id": "PLACE-DETROIT",
+          "lat": 42.3314,
+          "lng": -83.0458,
+          "geo_precision": "ville",
+          "reference_croisee": [
+            "wikidata:Q12439"
+          ],
           "label": "Detroit",
           "type": "ville",
           "type_detail": "ville",

@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 places:
   - id: PLACE-MANCHESTER-CITY
+    same_as: PLACE-MANCHESTER   # même référent physique (la ville de Manchester) ; échelle municipale S02 — réconciliation 12b-1.c
     label: "City of Manchester"
     type: ville
     type_detail: municipalite
@@ -20,6 +21,11 @@ places:
     prudence: "Ne pas lui attribuer mécaniquement les données de la conurbation ou de la région urbaine."
 
   - id: PLACE-GREATER-MANCHESTER
+    lat: 53.59
+    lng: -2.3
+    geo_precision: region
+    prudence_methodologique: >-
+      Comté métropolitain — coordonnée = centroïde approximatif, non un point.
     label: "Greater Manchester"
     type: ville
     type_detail: comte_metropolitain
@@ -29,6 +35,9 @@ places:
     prudence: "Préciser l’échelle lorsque les données portent sur population, emplois ou politiques urbaines."
 
   - id: PLACE-HULME
+    lat: 53.464
+    lng: -2.247
+    geo_precision: quartier
     label: "Hulme"
     type: quartier
     type_detail: quartier
@@ -39,6 +48,9 @@ places:
     prudence: "Croiser S02 avec S06 et les sources spécialisées sur Hulme."
 
   - id: PLACE-MANCHESTER-CENTRE
+    lat: 53.4794
+    lng: -2.2453
+    geo_precision: quartier
     label: "Centre-ville de Manchester"
     type: ville
     type_detail: centralite_urbaine

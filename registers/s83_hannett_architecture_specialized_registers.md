@@ -291,6 +291,7 @@ pages_livre: "162"
 chapitres: ["Chapitre 1", "Chapitre 3"]
 statut: verifie
 song_ids: [JD-SONG-035]
+same_as: PLACE-TJ-DAVIDSONS   # même lieu physique (canonique S10) — arête d'équivalence 12b-1.c
 ```
 
 Ancien espace d'usine dans Little Peter Street, Manchester, où Joy Division tourna le clip auto-produit de « Love Will Tear Us Apart » en avril 1980. Note 9 : « Filmed by the band at T. J. Davidson's studio in April 1980. » Espace de pratique régulière de Joy Division — leur répertoire répété dans des espaces d'usines désaffectés.
@@ -309,6 +310,7 @@ pages_pdf: "190–192"
 pages_livre: "159–161"
 chapitres: ["Chapitre 1"]
 statut: verifie
+same_as: PLACE-HULME-CRESCENTS   # même lieu physique (canonique S06) — arête d'équivalence 12b-1.c
 ```
 
 Ensemble d'habitation de Manchester, complété en 1972, initialement vénéré comme plus grand d'Europe. Sections nommées après des architectes distingués. Abandonné par le conseil municipal en 1984. Version dystopique de la ville utopique kieslerienne. Espace psychique structurant pour Joy Division et leurs contemporains (1970s–1980s).

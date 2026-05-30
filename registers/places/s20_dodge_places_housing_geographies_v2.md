@@ -29,6 +29,9 @@ places:
     usage: "Lieu emblématique du taudis victorien mancunien, utile pour la profondeur historique de l’insalubrité urbaine."
 
   - id: PLACE-VICTORIA-PARK-MANCHESTER
+    lat: 53.456
+    lng: -2.213
+    geo_precision: quartier
     label: "Victoria Park"
     type: habitat
     type_detail: suburb_bourgeois
@@ -45,6 +48,9 @@ places:
     usage: "Exemple de solution garden suburb à portée sociale limitée."
 
   - id: PLACE-WYTHENSHAWE
+    lat: 53.392
+    lng: -2.264
+    geo_precision: quartier
     label: "Wythenshawe"
     type: ville
     type_detail: ville_satellite
@@ -66,6 +72,9 @@ places:
     prudence: "Croiser S20 avec S06 pour l’expérience vécue de Hulme."
 
   - id: PLACE-HATTERSLEY
+    lat: 53.444
+    lng: -2.043
+    geo_precision: quartier
     label: "Hattersley"
     type: habitat
     type_detail: overspill_estate

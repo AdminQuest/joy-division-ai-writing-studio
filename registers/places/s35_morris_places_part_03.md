@@ -11,6 +11,10 @@ passage_atomise: "PDF p. 50-75"
 ```yaml
 places:
   - id: PLACE-MACCLESFIELD
+    lat: 53.2581
+    lng: -2.1255
+    geo_precision: ville
+    reference_croisee: ["wikidata:Q659804"]
     label: "Macclesfield"
     type: ville
     type_detail: ville_provinciale
@@ -19,6 +23,10 @@ places:
     atoms: [S35-A033, S35-A034, S35-A035, S35-A042]
     _legacy_format: s35-lieux-role
   - id: PLACE-JODRELL-BANK
+    lat: 53.2367
+    lng: -2.3085
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q204686"]
     label: "Jodrell Bank"
     type: science
     type_detail: radiotelescope
@@ -27,6 +35,9 @@ places:
     atoms: [S35-A034]
     _legacy_format: s35-lieux-role
   - id: PLACE-HOLMES-CHAPEL
+    lat: 53.198
+    lng: -2.357
+    geo_precision: ville
     label: "Holmes Chapel"
     type: ville
     type_detail: village_repere
@@ -43,6 +54,11 @@ places:
     atoms: [S35-A035]
     _legacy_format: s35-lieux-role
   - id: PLACE-KINGS-SCHOOL
+    lat: 53.252
+    lng: -2.137
+    geo_precision: exacte
+    prudence_methodologique: >-
+      King's School, Macclesfield.
     label: "King’s School"
     type: education
     type_detail: grammar_school
@@ -67,6 +83,12 @@ places:
     atoms: [S35-A039]
     _legacy_format: s35-lieux-role
   - id: PLACE-FREE-TRADE-HALL
+    lat: 53.4779
+    lng: -2.247
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q5500433"]
+    prudence_methodologique: >-
+      Reconverti en hôtel (façade conservée, Peter Street).
     label: "Free Trade Hall"
     type: salle
     type_detail: salle_concert
@@ -75,6 +97,10 @@ places:
     atoms: [S35-A041, S35-A043]
     _legacy_format: s35-lieux-role
   - id: PLACE-MANCHESTER
+    lat: 53.4808
+    lng: -2.2426
+    geo_precision: ville
+    reference_croisee: ["wikidata:Q18125"]
     label: "Manchester"
     type: ville
     type_detail: ville
@@ -83,6 +109,10 @@ places:
     atoms: [S35-A041, S35-A042, S35-A043]
     _legacy_format: s35-lieux-role
   - id: PLACE-LONDON
+    lat: 51.5074
+    lng: -0.1278
+    geo_precision: ville
+    reference_croisee: ["wikidata:Q84"]
     label: "London"
     type: ville
     type_detail: ville
@@ -91,6 +121,9 @@ places:
     atoms: [S35-A042]
     _legacy_format: s35-lieux-role
   - id: PLACE-BELLE-VUE
+    lat: 53.461
+    lng: -2.18
+    geo_precision: quartier
     label: "Belle Vue"
     type: salle
     type_detail: salle_concert

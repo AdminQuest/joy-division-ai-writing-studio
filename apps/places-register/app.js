@@ -143,6 +143,10 @@ function render() {
   sectionsEl.innerHTML = '';
   if (!filtered.length) {
     sectionsEl.innerHTML = '<p class="places-empty">Aucun lieu ne correspond à ces critères.</p>';
+    // Codex : sans cet appel, la branche d'état vide sortait AVANT updateMap(),
+    // laissant la couche Leaflet et la note avec les marqueurs précédents — la
+    // carte ne reflétait plus les facettes actives. On vide explicitement.
+    updateMap([]);
     return;
   }
   const byType = new Map();
@@ -165,7 +169,137 @@ function render() {
       + '<div class="places-list">' + group.map(card).join('') + '</div>';
     sectionsEl.appendChild(section);
   });
+  updateMap(filtered);
 }
+
+/* ── Carte (étape 12b-1.c) ──────────────────────────────────
+   Couche Leaflet sur fond OpenStreetMap. Marqueurs des lieux CANONIQUES
+   géolocalisés (lat/lng WGS84 curés hors-ligne, recoupés Wikidata P625).
+   Init paresseuse au premier passage en vue carte ; les marqueurs reflètent
+   le jeu filtré courant (mêmes facettes que la liste). */
+const mapWrap = document.getElementById('places-map-wrap');
+const mapNote = document.getElementById('map-note');
+const viewListBtn = document.getElementById('view-list');
+const viewMapBtn = document.getElementById('view-map');
+const toggleZonesBtn = document.getElementById('toggle-zones');
+let map = null;
+let markerLayer = null;   // venues précises (punaises ponctuelles)
+let zoneLayer = null;     // entités grossières (cercles, étendues — non ponctuelles)
+let mapView = false;
+let zonesEnabled = true;
+
+// Seuil « grossier » UNIQUE (miroir de COARSE_PRECISIONS dans validate_places.py) :
+// ces granularités sont des ZONES (étendues), rendues en cercles translucides et
+// exclues des punaises de venues précises. Point d'ajustement central.
+const COARSE_PRECISIONS = new Set(['ville', 'region']);
+const ZONE_RADIUS_M = { ville: 4000, region: 12000 };
+const isCoarse = d => COARSE_PRECISIONS.has(T(d.geo_precision));
+
+const num = v => (typeof v === 'number' && isFinite(v)) ? v : (v !== '' && v != null && isFinite(Number(v)) ? Number(v) : null);
+const coords = d => { const la = num(d.lat), ln = num(d.lng); return (la != null && ln != null) ? [la, ln] : null; };
+
+function ensureMap() {
+  if (map || typeof L === 'undefined') return map;
+  map = L.map('places-map', { scrollWheelZoom: false }).setView([53.4808, -2.2426], 6); // Manchester
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  zoneLayer = L.layerGroup();          // ajoutée/retirée selon zonesEnabled
+  if (zonesEnabled) zoneLayer.addTo(map);
+  markerLayer = L.layerGroup().addTo(map);  // au-dessus des zones
+  return map;
+}
+
+function markerIcon(type) {
+  return L.divIcon({
+    className: 'place-pin-wrap',
+    html: '<span class="place-pin place-pin--' + esc(type) + '">' + PlaceIcons.svg(type) + '</span>',
+    iconSize: [30, 30], iconAnchor: [15, 28], popupAnchor: [0, -26]
+  });
+}
+
+function popupHtml(item) {
+  const d = item.data || {};
+  const usage = T(resolveUsage(d)).trim();
+  const shortUsage = usage.length > 160 ? usage.slice(0, 160).trimEnd() + '…' : usage;
+  const prec = T(d.geo_precision);
+  const pm = T(d.prudence_methodologique).trim();
+  const badges = sourceIds(item).map(v => '<span class="place-badge">' + esc(sourceLabel(v)) + '</span>').join('');
+  return '<div class="place-popup">'
+    + '<h3 class="place-popup__title">' + esc(labelOf(d)) + '</h3>'
+    + '<p class="place-popup__type">' + esc(PlaceIcons.label(typeOf(d)))
+      + (detailOf(d) ? ' · <em>' + esc(detailOf(d)) + '</em>' : '') + '</p>'
+    + (shortUsage ? '<p class="place-popup__usage">' + esc(shortUsage) + '</p>' : '')
+    + (prec ? '<p class="place-popup__geo">Précision : ' + esc(prec) + '</p>' : '')
+    + (pm ? '<p class="place-popup__prudence">⚠ ' + esc(pm) + '</p>' : '')
+    + (badges ? '<div class="place-badges">' + badges + '</div>' : '')
+    + '</div>';
+}
+
+function zoneCircle(item, ll) {
+  const d = item.data || {};
+  return L.circle(ll, {
+    radius: ZONE_RADIUS_M[T(d.geo_precision)] || 4000,
+    className: 'place-zone',
+    interactive: true
+  }).bindPopup(popupHtml(item));
+}
+
+function updateMap(filtered) {
+  if (!mapView || !ensureMap()) return;
+  markerLayer.clearLayers();
+  zoneLayer.clearLayers();
+  const geoloc = filtered.filter(i => coords(i.data || {}));
+  let nbVenue = 0, nbZone = 0;
+  const pts = [];          // pour le recadrage : venues + zones visibles
+  geoloc.forEach(item => {
+    const d = item.data || {};
+    const ll = coords(d);
+    if (isCoarse(d)) {
+      zoneCircle(item, ll).addTo(zoneLayer);
+      nbZone++;
+      if (zonesEnabled) pts.push(ll);
+    } else {
+      L.marker(ll, { icon: markerIcon(typeOf(d)), title: labelOf(d) })
+        .bindPopup(popupHtml(item))
+        .addTo(markerLayer);
+      nbVenue++;
+      pts.push(ll);
+    }
+  });
+  const total = filtered.length;
+  mapNote.textContent = nbVenue + ' venue' + (nbVenue > 1 ? 's' : '') + ' précise'
+    + (nbVenue > 1 ? 's' : '') + ' (points) + ' + nbZone + ' zone' + (nbZone > 1 ? 's' : '')
+    + ' ville/région (étendues' + (zonesEnabled ? '' : ', masquées') + '), sur ' + total
+    + ' lieux filtrés. Coordonnées WGS84 curées, recoupées Wikidata P625 ; fond OpenStreetMap.';
+  if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
+  map.invalidateSize();
+}
+
+function setZones(on) {
+  zonesEnabled = on;
+  toggleZonesBtn.classList.toggle('is-active', on);
+  toggleZonesBtn.setAttribute('aria-pressed', String(on));
+  if (zoneLayer && map) {
+    if (on) zoneLayer.addTo(map); else map.removeLayer(zoneLayer);
+  }
+  if (mapView) updateMap(items.filter(i => matches(i, currentFilters())));
+}
+toggleZonesBtn.addEventListener('click', () => setZones(!zonesEnabled));
+
+function setView(toMap) {
+  mapView = toMap;
+  mapWrap.hidden = !toMap;
+  sectionsEl.hidden = toMap;
+  viewMapBtn.classList.toggle('is-active', toMap);
+  viewMapBtn.setAttribute('aria-selected', String(toMap));
+  viewListBtn.classList.toggle('is-active', !toMap);
+  viewListBtn.setAttribute('aria-selected', String(!toMap));
+  if (toMap) { ensureMap(); updateMap(items.filter(i => matches(i, currentFilters()))); }
+}
+viewListBtn.addEventListener('click', () => setView(false));
+viewMapBtn.addEventListener('click', () => setView(true));
 
 /* ── "Voir plus" (délégation, accessible clavier via <button>) ── */
 sectionsEl.addEventListener('click', e => {
