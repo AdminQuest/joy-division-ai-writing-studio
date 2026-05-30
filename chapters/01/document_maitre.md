@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-30T06:03:02"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 297 |
+| Atomes | 298 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 28 |
 | Événements chronologiques | 15 |
@@ -78,7 +78,7 @@ generated_at: "2026-05-30T06:03:02"
 | S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 4 | 3 |
-| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 1 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -470,6 +470,7 @@ generated_at: "2026-05-30T06:03:02"
 - Ian Wood (3)
 - NME (3)
 - mémoire culturelle (3)
+- hauntologie (3)
 - régénération urbaine (3)
 - post-punk (3)
 - Factory Records (3)
@@ -527,7 +528,6 @@ generated_at: "2026-05-30T06:03:02"
 - Fort Beswick (2)
 - crise sociale (2)
 - buzzcocks (2)
-- hauntologie (2)
 - réception posthume (2)
 - contrainte productive (2)
 
@@ -733,6 +733,7 @@ generated_at: "2026-05-30T06:03:02"
 | lecture_chanson_espace | 1 |
 | cartographie_scene | 1 |
 | contexte_affectif | 1 |
+| cadrage_theorique | 1 |
 | temoignage_reception | 1 |
 | contexte_geographique | 1 |
 | prudence_interpretative | 1 |
@@ -835,7 +836,7 @@ generated_at: "2026-05-30T06:03:02"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 157 |
-| critique | 64 |
+| critique | 65 |
 | majeure | 55 |
 | utile | 11 |
 | majeur | 3 |

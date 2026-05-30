@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-30T06:03:02"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 390 |
+| Atomes | 386 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 94 |
 | Événements chronologiques | 63 |
@@ -68,7 +68,7 @@ generated_at: "2026-05-30T06:03:02"
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 4 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 3 | 2 |
-| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -761,8 +761,6 @@ generated_at: "2026-05-30T06:03:02"
 | lecture_musicale | 4 |
 | tension_biographique | 4 |
 | relation | 3 |
-| reception | 3 |
-| cadrage_theorique | 3 |
 | demythification | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
@@ -777,6 +775,7 @@ generated_at: "2026-05-30T06:03:02"
 | relation_conjugale | 2 |
 | santé | 2 |
 | domesticité | 2 |
+| reception | 2 |
 | noeud_critique | 2 |
 | scene_historiographique | 2 |
 | cadre_theorique | 2 |
@@ -965,9 +964,9 @@ generated_at: "2026-05-30T06:03:02"
 
 | Importance | Nombre |
 |---|---|
-| critique | 207 |
+| critique | 205 |
 | non qualifiée | 96 |
-| majeure | 75 |
+| majeure | 73 |
 | utile | 5 |
 | majeur | 3 |
 | secondaire | 1 |

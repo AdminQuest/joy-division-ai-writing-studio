@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 444 |
+| Atomes | 447 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 97 |
 | Événements chronologiques | 63 |
 | Personnes | 51 |
 | Chansons | 18 |
-| Sources mobilisées | 30 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -64,6 +64,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 9 | 0 |
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 2 | 0 |
 | S81 | S81 — Devereux, Cullen & Meagher, Revisiting Ian Curtis's Suicide, 2018 | 9 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -761,6 +762,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | analyse_conceptuelle | 2 |
 | cadre_theorique | 2 |
 | conclusion_analytique | 2 |
+| cadrage_theorique | 2 |
 | mythe_a_deconstruire | 2 |
 | synthese_argumentative | 2 |
 | lecture_biographique | 2 |
@@ -815,6 +817,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | analyse_documentaire | 1 |
 | fait_biographique_medical | 1 |
+| analyse_morceau | 1 |
 | analyse_performance | 1 |
 | mythification_posthume | 1 |
 | probleme_juridique | 1 |
@@ -1005,9 +1008,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 269 |
+| critique | 271 |
 | non qualifiée | 100 |
-| majeure | 45 |
+| majeure | 46 |
 | majeur | 13 |
 | secondaire | 5 |
 | utile | 4 |

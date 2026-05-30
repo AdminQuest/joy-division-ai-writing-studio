@@ -16,14 +16,12 @@ statut: source_canonique_fixee
 fiabilite: "forte comme source théorique primaire et voix critique majeure sur la hauntologie ; à manier comme essai-critique et non comme source factuelle sur Joy Division ; édition Zero Books 2014 fixée"
 nature: "recueil d'essais critiques, articles, billets de blog (K-Punk) et chroniques / source théorique primaire pour la hauntologie, les lost futures et la lecture culturelle de la dépression"
 chapitres:
-  - Chapitre 7
+  - Chapitre 9
   - Chapitre 11
   - Chapitre 12
-  - Chapitre 14
-chapitres_secondaires:
-  - Chapitre 6
-  - Chapitre 9
   - Chapitre 13
+  - Chapitre 14
+chapitres_secondaires: []
 ```
 
 ## Identifiant canonique

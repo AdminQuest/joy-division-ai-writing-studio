@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 432 |
+| Atomes | 431 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 80 |
 | Événements chronologiques | 44 |
@@ -66,7 +66,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 3 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 5 | 3 |
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 2 | 2 |
-| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -719,7 +719,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | manuscript_materiality | 22 |
 | production | 18 |
 | non qualifié | 14 |
-| analyse_morceau | 11 |
+| analyse_morceau | 10 |
 | objet_discographique | 9 |
 | discographie | 8 |
 | concept | 8 |
@@ -950,7 +950,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 174 |
 | critique | 151 |
-| majeure | 74 |
+| majeure | 73 |
 | utile | 12 |
 | majeur | 9 |
 | secondaire | 7 |

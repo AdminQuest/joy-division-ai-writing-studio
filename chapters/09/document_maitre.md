@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-30T06:03:02"
+generated_at: "2026-05-30T06:05:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-30T06:03:02"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 219 |
+| Atomes | 220 |
 | Atomes critiques / majeurs | 37 |
 | Citations | 13 |
 | Événements chronologiques | 3 |
 | Personnes | 14 |
 | Chansons | 4 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -55,6 +55,7 @@ generated_at: "2026-05-30T06:03:02"
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 2 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 6 | 0 |
+| S90 | S90 — Fisher, Ghosts of My Life, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -564,6 +565,7 @@ generated_at: "2026-05-30T06:03:02"
 | micro_chronologie | 1 |
 | culture_musicale | 1 |
 | cartographie_relationnelle | 1 |
+| analyse_sonore | 1 |
 | controverse | 1 |
 | lecture_discographique | 1 |
 | fonction_symbolique | 1 |
@@ -630,8 +632,8 @@ generated_at: "2026-05-30T06:03:02"
 | majeure | 13 |
 | majeur | 12 |
 | secondaire | 6 |
+| utile | 2 |
 | haute | 2 |
-| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
