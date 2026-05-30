@@ -46,6 +46,14 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from buildlib import (  # noqa: E402
+    GENERATED_ALL_PATHSPECS,
+    GENERATED_MASTERDOCS_PATHSPECS,
+    GENERATED_REGISTERS_PATHSPECS,
+    normalize_generated,
+)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTRE_JSON = REPO_ROOT / "data" / "registre.json"
 SOURCES_DIR = REPO_ROOT / "sources"
@@ -433,12 +441,164 @@ def cmd_prepare(
     return 0 if ok else 1
 
 
+def _git(args: List[str], capture: bool = False) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ["git"] + args, cwd=str(REPO_ROOT), capture_output=capture, text=True
+    )
+
+
+def commit_groups(source_id: str, short: str) -> List[Dict[str, Any]]:
+    """Logical commit groups for --commit-and-pr, in order.
+
+    Axis = *édité-humain | généré* (NOT drift|feature): with the anti-drift
+    sentinel in place, a pass never carries pre-existing drift to resorb, so the
+    only meaningful split is hand-authored inputs vs build_all-generated artifacts.
+    A group whose diff is empty is skipped (no empty commits).
+    """
+    sid_lower = source_id.lower()
+    return [
+        {
+            "key": "human",
+            "label": "édité-humain (sources, registre, rapport)",
+            "message": f"feat({source_id}): atomisation — {short}",
+            # rag/ and apps/ are agent/human-authored, not build_all outputs.
+            "pathspecs": [
+                "data/registre.json",
+                "sources",
+                "rag",
+                "apps",
+                f"reports/{sid_lower}_*",
+            ],
+        },
+        {
+            "key": "registers",
+            "label": "généré : registres + exports",
+            "message": f"chore(registers): régénération registres + exports — {source_id}",
+            "pathspecs": list(GENERATED_REGISTERS_PATHSPECS),
+        },
+        {
+            "key": "masterdocs",
+            "label": "généré : documents maîtres",
+            "message": f"rebuild(master-docs): régénération depuis atomes — {source_id}",
+            "pathspecs": list(GENERATED_MASTERDOCS_PATHSPECS),
+        },
+    ]
+
+
+def _raw_changed_files(pathspecs: List[str]) -> List[str]:
+    """Files within pathspecs that differ from HEAD (raw bytes). Uses the index
+    as scratch space (stage, read names, reset); it does NOT commit."""
+    _git(["reset", "-q"])
+    _git(["add", "-f", "--"] + pathspecs)
+    out = _git(["diff", "--cached", "--name-only"], capture=True)
+    _git(["reset", "-q"])
+    return [line for line in out.stdout.splitlines() if line.strip()]
+
+
+def _is_timestamp_only_change(path: str) -> bool:
+    """True if the only difference between HEAD and the worktree for *path* is the
+    generated_at timestamp. Reuses buildlib.normalize_generated (single source of
+    truth, shared with the sentinel)."""
+    head = _git(["show", f"HEAD:{path}"], capture=True)
+    if head.returncode != 0:
+        return False  # new file → a real change
+    work_path = REPO_ROOT / path
+    try:
+        work = work_path.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return False  # binary / unreadable → never treat as pure-timestamp
+    return normalize_generated(head.stdout) == normalize_generated(work)
+
+
+def group_changed_files(pathspecs: List[str]) -> List[str]:
+    """Files within pathspecs whose NORMALIZED diff vs HEAD is non-empty.
+
+    A file where only ``generated_at`` changed is excluded: committing it would be
+    pure timestamp churn. This is the automation of the manual revert done on
+    PR #20, and it shares its normalization with the drift sentinel."""
+    return [f for f in _raw_changed_files(pathspecs) if not _is_timestamp_only_change(f)]
+
+
+def revert_timestamp_only_churn(log: Log, dry: bool) -> List[str]:
+    """Restore (git checkout HEAD) every generated file whose only change is the
+    timestamp, so the worktree carries no pure-churn artifact before staging.
+
+    Returns the reverted paths. Substantive changes are left untouched."""
+    reverted = [
+        f for f in _raw_changed_files(GENERATED_ALL_PATHSPECS)
+        if _is_timestamp_only_change(f)
+    ]
+    if reverted:
+        log.action(
+            f"git checkout HEAD -- ({len(reverted)} fichier(s) horodatage seul)"
+        )
+        if not dry:
+            _git(["checkout", "HEAD", "--"] + reverted)
+    return reverted
+
+
+def stage_and_commit_group(group: Dict[str, Any], log: Log, dry: bool) -> List[str]:
+    """Stage one group and commit iff its normalized diff is non-empty. Returns
+    the staged files (timestamp-only churn already excluded)."""
+    files = group_changed_files(group["pathspecs"])
+    if not files:
+        log.info(f"Groupe « {group['label']} » : aucun changement, commit ignoré.")
+        return []
+    log.action(
+        f"git add + commit -m {group['message']!r}  ({len(files)} fichier(s))"
+    )
+    if not dry:
+        # Stage exactly the substantively-changed files (churn already reverted).
+        _git(["add", "-f", "--"] + files)
+        _git(["commit", "-m", group["message"]])
+    return files
+
+
+def build_pr_body(
+    entry: Dict[str, Any], source_id: str, groups: List[Dict[str, Any]]
+) -> str:
+    """PR body mirroring PR #20: a Commits breakdown + a determinism Garanties block,
+    with a LINK to the arbitration report rather than a synthesis of its table."""
+    sid_lower = source_id.lower()
+    lines = [
+        f"Atomisation de **{entry.get('source_label', source_id)}** (passe PUBLIQUE).",
+        "",
+        "## Commits",
+        "",
+    ]
+    for g in groups:
+        if g.get("files"):
+            lines.append(
+                f"- `{g['message']}` — {len(g['files'])} fichier(s) ({g['label']})"
+            )
+    lines += [
+        "",
+        "## Garanties",
+        "",
+        "- Pipeline canonique `tools/build_all.py` "
+        "(`build_registers --strict` → `build_master_docs`).",
+        "- Sentinelle anti-drift `tools/check_generated_sync.py` : "
+        "rebuild à blanc → **0 divergence** (horodatage gelé via `SOURCE_DATE_EPOCH`).",
+        "- `audit_repo --fail-on-error` : OK.",
+        "- Volet privé (chapters/songs du repo privé) : NON inclus (traité manuellement).",
+        "- Découpage **édité-humain | généré** (pas drift|feature) : "
+        "aucune dette de drift à résorber.",
+        "",
+        f"Détail de l'arbitrage éventuel : voir `reports/{sid_lower}_*.md`.",
+        "",
+        f"Après fusion : `python3 tools/atomize_new_sources.py --finalize {source_id}` "
+        "pour archiver le PDF sur Drive.",
+    ]
+    return "\n".join(lines)
+
+
 def cmd_commit_and_pr(
     registre: List[Dict[str, Any]],
     source_id: str,
     today: str,
     log: Log,
     dry: bool,
+    single_commit: bool = False,
 ) -> int:
     entry = find_entry(registre, source_id)
     if entry is None:
@@ -463,41 +623,82 @@ def cmd_commit_and_pr(
         )
         return 1
 
-    # Validation pipeline — fail gracefully (no traceback) if the repo is not
-    # internally consistent. Nothing is staged/committed when this fails.
+    # Canonical build: regenerate registers + exports + master docs deterministically,
+    # so no stale document_maitre can drift away from the committed atoms (Volet 1).
     try:
-        log.step("Validation : build_registers --strict")
-        run_cmd([sys.executable, "tools/build_registers.py", "--strict"], log, dry=dry)
+        log.step("Build canonique : build_all (build_registers --strict → build_master_docs)")
+        run_cmd([sys.executable, "tools/build_all.py"], log, dry=False)
         log.step("Validation : audit_repo --fail-on-error")
-        run_cmd([sys.executable, "tools/audit_repo.py", "--fail-on-error"], log, dry=dry)
+        run_cmd([sys.executable, "tools/audit_repo.py", "--fail-on-error"], log, dry=False)
     except RuntimeError as exc:
-        log.error(f"Validation échouée — rien n'est commité ni poussé : {exc}")
+        log.error(f"Build/validation échoué — rien n'est commité ni poussé : {exc}")
         log.error("Corrige les erreurs signalées ci-dessus, puis relance --commit-and-pr.")
         return 1
 
-    # Stage public material only
-    log.step("Staging (public uniquement)")
-    run_cmd(
-        ["git", "add", "data/registre.json", "sources/", "registers/", "rag/",
-         "reports/", "apps/"],
-        log, dry=dry, check=False,
-    )
-    run_cmd(["git", "add", "-f", "exports/generated"], log, dry=dry, check=False)
+    # Drift sentinel: a fresh deterministic rebuild must produce ZERO difference.
+    # Runs BEFORE any commit — failure means nothing is staged, committed or pushed.
+    log.step("Sentinelle anti-drift : check_generated_sync (rebuild à blanc → 0 diff)")
+    rc = run_cmd([sys.executable, "tools/check_generated_sync.py"], log, dry=False,
+                 check=False)
+    if rc != 0:
+        log.error(
+            "Sentinelle anti-drift : ÉCHEC. Des artefacts générés sont périmés "
+            "vis-à-vis des sources. Régénère (`python3 tools/build_all.py`), "
+            "ajoute le résultat, puis relance --commit-and-pr. Rien n'est commité."
+        )
+        return 1
 
-    commit_msg = f"feat({source_id}): atomisation — {short}"
-    run_cmd(["git", "commit", "-m", commit_msg], log, dry=dry, check=False)
+    # Build the commit plan (édité-humain | généré), skipping empty groups.
+    groups = commit_groups(source_id, short)
+    if single_commit:
+        merged_pathspecs: List[str] = []
+        for g in groups:
+            merged_pathspecs.extend(g["pathspecs"])
+        groups = [{
+            "key": "single",
+            "label": "passe complète (commit unique)",
+            "message": f"feat({source_id}): atomisation — {short}",
+            "pathspecs": merged_pathspecs,
+        }]
+    for g in groups:
+        g["files"] = group_changed_files(g["pathspecs"])
+    planned = [g for g in groups if g["files"]]
+
+    if dry:
+        log.step("DRY-RUN : plan de commits (aucun commit, aucun push)")
+        if not planned:
+            log.info("Aucun changement à committer.")
+        for g in planned:
+            print()
+            print(f"  • {g['message']}")
+            print(f"    groupe : {g['label']}  ({len(g['files'])} fichier(s))")
+            for f in g["files"]:
+                print(f"        {f}")
+        print()
+        print("  --- corps de PR qui serait généré ---")
+        print(build_pr_body(entry, source_id, planned))
+        return 0
+
+    if not planned:
+        log.warn("Aucun changement à committer — ni commit ni PR.")
+        return 0
+
+    # Revert pure-timestamp churn on generated artifacts so the worktree carries
+    # only substantive changes before staging (same normalization as the sentinel).
+    reverted = revert_timestamp_only_churn(log, dry=dry)
+    if reverted:
+        log.info(f"{len(reverted)} artefact(s) à horodatage seul réinitialisé(s).")
+
+    # Commit each non-empty group in order.
+    log.step("Commits scindés (édité-humain | généré)")
+    for g in planned:
+        stage_and_commit_group(g, log, dry=dry)
+
     run_cmd(["git", "push", "-u", "origin", branch], log, dry=dry, check=False)
 
     # Pull request
     pr_title = f"feat({source_id}): atomisation — {short}"
-    pr_body = (
-        f"Atomisation de **{entry.get('source_label', source_id)}** "
-        f"(passe PUBLIQUE).\n\n"
-        f"- Volet privé (chapters/, songs/) : NON inclus (traité manuellement).\n"
-        f"- `build_registers --strict` et `audit_repo --fail-on-error` : OK.\n"
-        f"- Après fusion : `python3 tools/atomize_new_sources.py "
-        f"--finalize {source_id}` pour archiver le PDF sur Drive.\n"
-    )
+    pr_body = build_pr_body(entry, source_id, planned)
     if gh_available():
         log.step("Ouverture de la PR via gh")
         run_cmd(
@@ -592,8 +793,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--reuse-branch", action="store_true", dest="reuse_branch",
                    help="Avec --prepare : reprend une branche de travail existante "
                         "au lieu d'échouer (par défaut : échec propre, pas d'écrasement).")
+    p.add_argument("--single-commit", action="store_true", dest="single_commit",
+                   help="Avec --commit-and-pr : un seul commit au lieu du découpage "
+                        "édité-humain | généré (pour les passes triviales).")
     p.add_argument("--dry-run", action="store_true",
-                   help="Simule sans rien écrire, déplacer ni pousser.")
+                   help="Simule sans rien écrire, déplacer ni pousser. Avec "
+                        "--commit-and-pr : imprime le plan de commits + corps de PR.")
     p.add_argument("--registre-path", metavar="PATH",
                    help="Chemin local du dossier Registre_sources/ (sinon "
                         "$REGISTRE_SOURCES_PATH, config.json, ou auto-détection).")
@@ -628,7 +833,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                            args.dry_run, args.reuse_branch)
     if args.commit_and_pr:
         return cmd_commit_and_pr(registre, args.commit_and_pr, today, log,
-                                 args.dry_run)
+                                 args.dry_run, args.single_commit)
     if args.finalize:
         return cmd_finalize(registre, args.finalize, registre_path, today, log,
                             args.dry_run)
