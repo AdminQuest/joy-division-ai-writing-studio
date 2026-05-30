@@ -17,7 +17,7 @@ places:
     sources:
       - S10-A001
       - S10-A004
-    usage_s10: "Rue d’enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance."
+    usage_s10: "Rue d'enfance de Bernard Sumner à Lower Broughton ; communauté ouvrière détruite par clearance."
     prudence: "Ne pas idéaliser la communauté ; intégrer violence, pauvreté, toxicité industrielle et destruction."
 
   - id: PLACE-LOWER-BROUGHTON
@@ -27,7 +27,7 @@ places:
     sources:
       - S10-A001
       - S10-A002
-    usage_s10: "Quartier d’enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
+    usage_s10: "Quartier d'enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
 
   - id: PLACE-WHEATHILL-CHEMICAL-WORKS
     label: "Wheathill Chemical Works"
@@ -35,7 +35,7 @@ places:
     type_detail: site_industriel
     sources:
       - S10-A002
-    usage_s10: "Usine chimique au bout d’Alfred Street, mémorisée par Sumner comme source d’odeurs et de toxicité."
+    usage_s10: "Usine chimique au bout d'Alfred Street, mémorisée par Sumner comme source d'odeurs et de toxicité."
 
   - id: PLACE-ORDSALL
     label: "Ordsall"
@@ -46,6 +46,14 @@ places:
     usage_s10: "Lieu de la scène nocturne des lampadaires au sodium que Sumner associe au son de Joy Division."
 
   - id: PLACE-GREENGATE
+    lat: 53.4843
+    lng: -2.25238
+    geo_precision: quartier
+    reference_croisee: ["wikidata:Q5604052"]
+    prudence_methodologique: >-
+      Quartier historique de Salford au bord de l'Irwell ; tours de relogement
+      en grande partie démolies depuis. Coordonnée = centroïde de l'aire
+      Greengate (Wikidata P625 Q5604052).
     label: "Greengate"
     type: habitat
     type_detail: tower_block_relogement
@@ -73,7 +81,7 @@ places:
     type_detail: youth_club
     sources:
       - S10-A008
-    usage_s10: "Lieu d’exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
+    usage_s10: "Lieu d'exposition à soul, ska, rock, Led Zeppelin, Santana, Stones et Black Sabbath."
 
   - id: PLACE-LESSER-FREE-TRADE-HALL
     lat: 53.4779
@@ -94,7 +102,7 @@ places:
     type_detail: disquaire_hub_punk
     sources:
       - S10-A013
-    usage_s10: "Lieu où Sumner et Hook déposent l’annonce pour recruter un chanteur."
+    usage_s10: "Lieu où Sumner et Hook déposent l'annonce pour recruter un chanteur."
 
   - id: PLACE-GREY-MARE
     label: "Grey Mare"
@@ -102,7 +110,7 @@ places:
     type_detail: lieu_repetition
     sources:
       - S10-A014
-    usage_s10: "Salle de répétition au-dessus d’un pub de Weaste, associée aux débuts avec Curtis."
+    usage_s10: "Salle de répétition au-dessus d'un pub de Weaste, associée aux débuts avec Curtis."
 
   - id: PLACE-ELECTRIC-CIRCUS
     lat: 53.493
@@ -123,7 +131,7 @@ places:
     type_detail: salle_concert
     sources:
       - S10-A016
-    usage_s10: "Lieu du concert d’avril 1978 qui déclenche la rencontre avec Rob Gretton."
+    usage_s10: "Lieu du concert d'avril 1978 qui déclenche la rencontre avec Rob Gretton."
 
   - id: PLACE-TJ-DAVIDSONS
     lat: 53.474
@@ -131,7 +139,7 @@ places:
     geo_precision: rue
     prudence_methodologique: >-
       Entrepôt de répétition, Little Peter Street ; bâtiment d'origine disparu.
-    label: "TJ Davidson’s"
+    label: "TJ Davidson's"
     type: studio
     type_detail: lieu_repetition
     sources:
@@ -153,7 +161,7 @@ places:
     type_detail: studio
     sources:
       - S10-A019
-    usage_s10: "Studio de l’enregistrement d’An Ideal for Living."
+    usage_s10: "Studio de l'enregistrement d'An Ideal for Living."
 
   - id: PLACE-STRAWBERRY-STUDIOS
     lat: 53.4084
@@ -171,6 +179,10 @@ places:
     usage_s10: "Studio de Stockport où Sumner découvre avec Hannett le studio comme instrument."
 
   - id: PLACE-LUTON-HOSPITAL
+    lat: 51.89382
+    lng: -0.4753
+    geo_precision: exacte
+    reference_croisee: ["wikidata:Q101277612"]
     label: "Hôpital de Luton"
     type: sante
     type_detail: hopital
