@@ -9,9 +9,9 @@ atom changed without a rebuild — the sentinel exits non-zero and lists the
 offending files, so no stale documentary artifact can pass.
 
 Model (matches the agreed design: build → rebuild → diff):
-  1. Snapshot the *current* working-tree generated files (normalized hashes).
+  1. Snapshot the *current* working-tree generated files (raw bytes + normalized hash).
   2. Run ``build_all`` (deterministic; overwrites the generated files).
-  3. Compare the rebuilt files against the snapshot.
+  3. Compare the rebuilt files against the snapshot on the NORMALIZED content.
   4. Any substantive difference ⇒ drift ⇒ exit non-zero, files listed.
 
 The timestamp field is normalized out before comparison (see
@@ -19,16 +19,20 @@ The timestamp field is normalized out before comparison (see
 never a pure ``generated_at`` change. This keeps it robust across commits and in
 CI (Volet D).
 
-Note on side effects: step 2 regenerates the artifacts in place. When the tree is
-already in sync (the normal case, e.g. right after ``build_all`` in
-``--commit-and-pr``) this is a deterministic no-op and the tree is left untouched.
-When drift IS detected, the rebuild leaves the artifacts *corrected* in the
-working tree — the intended remedy — so the caller can review and stage them. The
-sentinel never touches sources or committed history.
+Cleanliness contract (two distinct paths — do not confuse them):
+* ON SUCCESS (no substantive drift): the only thing the control rebuild can have
+  changed is the ``generated_at`` timestamp. Those timestamp-only changes are
+  restored from the pre-rebuild snapshot before returning 0, so the sentinel is a
+  TRUE no-op by restoration (not by luck): ``git status`` is exactly what it was
+  before the run.
+* ON FAILURE (real drift): the rebuilt — i.e. corrected — artifacts are left in
+  the working tree on purpose, as the remedy; the caller reviews and stages them.
+
+The sentinel never touches sources or committed history.
 
 Exit codes:
-  0  in sync (no substantive drift)
-  1  drift detected (offending files listed on stderr)
+  0  in sync (no substantive drift); working tree left untouched
+  1  drift detected (offending files listed on stderr; corrected artifacts left in tree)
   2  the rebuild itself failed
 """
 
@@ -41,22 +45,22 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_all  # noqa: E402
-from buildlib import REPO_ROOT, iter_generated_files, normalize_generated  # noqa: E402
+from buildlib import (  # noqa: E402
+    REPO_ROOT,
+    iter_generated_files,
+    normalize_generated,
+    restore_generated,
+    snapshot_generated,
+)
 
 
-def _digest(path: Path) -> str:
-    """Normalized content digest: timestamps blanked for text, raw bytes otherwise."""
-    data = path.read_bytes()
+def _normalized_hash(data: bytes) -> str:
+    """Hash of the normalized content (timestamps blanked for text; raw otherwise)."""
     try:
-        text = normalize_generated(data.decode("utf-8"))
-        payload = text.encode("utf-8")
+        payload = normalize_generated(data.decode("utf-8")).encode("utf-8")
     except UnicodeDecodeError:
         payload = data
     return hashlib.sha256(payload).hexdigest()
-
-
-def _digests(files) -> dict:
-    return {p: _digest(p) for p in files}
 
 
 def main(argv=None) -> int:
@@ -73,8 +77,8 @@ def main(argv=None) -> int:
     parser.add_argument("--quiet", action="store_true", help="Sortie minimale.")
     args = parser.parse_args(argv)
 
-    # 1. Snapshot the current working-tree generated artifacts.
-    before = _digests(iter_generated_files())
+    # 1. Snapshot the current working-tree generated artifacts (raw bytes).
+    before = snapshot_generated()
 
     # 2. Deterministic rebuild from the current sources.
     rc = build_all.run(with_source_notes=args.with_source_notes, quiet=True)
@@ -82,12 +86,16 @@ def main(argv=None) -> int:
         print("SENTINELLE : le rebuild de contrôle (build_all) a échoué.", file=sys.stderr)
         return 2
 
-    # 3. Compare the rebuilt artifacts against the snapshot.
-    after = _digests(iter_generated_files())
+    # 3. Compare the rebuilt artifacts against the snapshot on NORMALIZED content.
+    after = {p: p.read_bytes() for p in iter_generated_files()}
     all_paths = sorted(set(before) | set(after))
-    diffs = [p for p in all_paths if before.get(p) != after.get(p)]
+    diffs = [
+        p for p in all_paths
+        if _normalized_hash(before.get(p, b"")) != _normalized_hash(after.get(p, b""))
+    ]
 
     if diffs:
+        # FAILURE: leave the rebuilt (corrected) artifacts in place as the remedy.
         print(
             "\n"
             "================================================================\n"
@@ -112,8 +120,13 @@ def main(argv=None) -> int:
         )
         return 1
 
+    # SUCCESS: the only changes the control rebuild can have made are timestamp-only.
+    # Restore the exact pre-run state from the snapshot so the run is a true no-op.
+    restored = restore_generated(before)
+
     if not args.quiet:
-        print(f"Sentinelle OK : {len(all_paths)} artefact(s) générés en phase.")
+        suffix = f" (arbre restauré : {restored} fichier(s) horodatage seul)" if restored else ""
+        print(f"Sentinelle OK : {len(all_paths)} artefact(s) générés en phase{suffix}.")
     return 0
 
 

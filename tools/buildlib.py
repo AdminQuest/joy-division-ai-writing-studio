@@ -36,7 +36,7 @@ import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
@@ -140,6 +140,40 @@ def iter_generated_files() -> List[Path]:
             seen.add(p)
             unique.append(p)
     return unique
+
+
+def snapshot_generated() -> Dict[Path, bytes]:
+    """Capture the raw bytes of every existing generated file (pre-run state).
+
+    Shared by the drift sentinel and the orchestrator's --dry-run path so both
+    restore the *exact* pre-run working tree — committed or not — bit for bit.
+    """
+    return {p: p.read_bytes() for p in iter_generated_files()}
+
+
+def restore_generated(snapshot: Dict[Path, bytes]) -> int:
+    """Restore the working tree to a snapshot taken by :func:`snapshot_generated`.
+
+    Handles the full pre-run state, not just modified content:
+      * files in the snapshot are rewritten with their captured bytes;
+      * generated files that did NOT exist pre-run (created by an intervening
+        build) are removed.
+    Returns the number of files touched (rewritten or deleted).
+    """
+    touched = 0
+    for path, data in snapshot.items():
+        if not path.exists() or path.read_bytes() != data:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+            touched += 1
+    for path in iter_generated_files():
+        if path not in snapshot:  # created after the snapshot ⇒ did not exist pre-run
+            try:
+                path.unlink()
+                touched += 1
+            except OSError:
+                pass
+    return touched
 
 
 # --------------------------------------------------------------------------- #
