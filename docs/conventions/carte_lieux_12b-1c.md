@@ -23,8 +23,8 @@ attribution).
 | Champ | Rôle |
 |-------|------|
 | `lat`, `lng` | degrés décimaux WGS84 |
-| `geo_precision` | `exacte` \| `rue` \| `quartier` \| `ville` \| `approximative` |
-| `reference_croisee` | QID Wikidata source, ex. `["wikidata:Q204686"]` |
+| `geo_precision` | granularité ordinale : `exacte` \| `rue` \| `quartier` \| `ville` (axe distinct de la confiance) |
+| `reference_croisee` | tableau d'identifiants préfixés par autorité, ex. `["wikidata:Q204686"]` (`musicbrainz:place:…`, `osm:node:…`) |
 | `prudence_methodologique` | lieu démoli, coordonnée approximative, désambiguïsation, QID à recouper |
 
 - La coordonnée s'attache au lieu **canonique**, après réconciliation `same_as`

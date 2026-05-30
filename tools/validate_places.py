@@ -78,7 +78,13 @@ def collect_records():
 
 
 def same_as_targets(record: dict):
-    """Normalise le champ same_as (string | array) en liste d'identifiants."""
+    """Normalise le champ same_as en liste d'identifiants.
+
+    Le schéma impose désormais une valeur MONO-VALUÉE (chaîne). On tolère ici
+    une liste de façon DÉFENSIVE : cela permet à INV-4 (convergence unique) de
+    rester un garde réel et testable même si une donnée mal formée contournait
+    le schéma.
+    """
     v = record.get("same_as")
     if v is None:
         return []
@@ -86,49 +92,89 @@ def same_as_targets(record: dict):
 
 
 def check_same_as(records):
-    """Valide les arêtes d'équivalence same_as et calcule la clôture transitive.
+    """Vérifie les invariants du graphe same_as et calcule la clôture transitive.
 
-    Contraintes imposées (cf. docs/conventions/identifiants_lieux.md) :
-      - cible existante : tout same_as pointe vers un id de lieu présent ;
-      - canonique = point fixe : la cible ne porte pas elle-même de same_as ;
-      - absence de cycle : pas de chaîne d'équivalence qui se referme.
+    Invariants (cf. docs/NAMING_CONVENTIONS.md §10, docs/conventions/identifiants_lieux.md) :
+      INV-1 (ERREUR)  toute cible same_as résout vers un PLACE-* existant ;
+      INV-2 (ERREUR)  aucun cycle dans le graphe same_as ;
+      INV-3 (ERREUR)  un canonique est un point fixe (pas de same_as sortant) ;
+      INV-4 (ERREUR)  toute chaîne converge vers un canonique UNIQUE ;
+      INV-5 (AVERT.)  tout PLACE-* référencé hors registre lieux est résoluble — TODO ;
+      INV-6 (AVERT.)  deux canoniques ne partagent pas des coordonnées identiques
+                      sans justification (prudence_methodologique).
 
-    Renvoie (problèmes, représentant_par_id). Le représentant est le point fixe
-    (l'identifiant canonique) de chaque composante union-find.
+    Renvoie (erreurs, avertissements, représentant_par_id). Le représentant est
+    le point fixe (identifiant canonique) de chaque composante.
     """
     ids = {r.get("id") for r, _ in records}
-    edges = {}            # id -> [cibles]
+    edges = {}            # id -> [cibles] (liste tolérée défensivement)
     for r, _ in records:
         t = same_as_targets(r)
         if t:
             edges.setdefault(r.get("id"), []).extend(t)
 
-    problems = []
-    # 1. cible existante + 2. canonique = point fixe
+    errors, warnings = [], []
+
+    # INV-1 : cible existante.  INV-3 : la cible est un point fixe.
     for src, targets in edges.items():
         for tgt in targets:
             if tgt not in ids:
-                problems.append(f"{src}: same_as -> {tgt} (cible inexistante)")
+                errors.append(f"INV-1 — {src}: same_as -> {tgt} (cible inexistante)")
             elif tgt in edges:
-                problems.append(
-                    f"{src}: same_as -> {tgt}, mais {tgt} porte lui-même un "
-                    f"same_as (le canonique doit etre un point fixe)")
+                errors.append(
+                    f"INV-3 — {src}: same_as -> {tgt}, mais {tgt} porte lui-meme "
+                    f"un same_as (le canonique doit etre un point fixe)")
 
-    # 3. resolution + detection de cycle ; representant = point fixe
-    rep = {}
+    # INV-2 : detection de cycle.  Resolution d'un noeud par sa 1re arete.
+    def resolve(node):
+        seen, cur = set(), node
+        while cur in edges and cur not in seen:
+            seen.add(cur)
+            nxt = edges[cur][0]
+            if nxt not in ids:
+                return cur          # cible inexistante (deja signalee INV-1)
+            cur = nxt
+        if cur in seen:
+            errors.append(f"INV-2 — cycle d'equivalence same_as detecte en {cur}")
+        return cur
 
-    def resolve(node, seen):
-        if node in seen:
-            problems.append(f"cycle d'equivalence same_as detecte en {node}")
-            return node
-        nxt = edges.get(node)
-        if not nxt or nxt[0] not in ids:
-            return node
-        return resolve(nxt[0], seen | {node})
+    rep = {i: resolve(i) for i in ids}
 
-    for i in ids:
-        rep[i] = resolve(i, set())
-    return problems, rep
+    # INV-4 : convergence unique. Defensif — si un noeud porte plusieurs cibles
+    # (donnee hors-schema), toutes doivent resoudre vers le meme canonique.
+    for src, targets in edges.items():
+        canon = {resolve(t) for t in targets if t in ids}
+        if len(canon) > 1:
+            errors.append(
+                f"INV-4 — {src}: same_as diverge vers plusieurs canoniques "
+                f"{sorted(canon)} (une equivalence d'identite doit etre unique)")
+
+    # INV-5 (AVERTISSEMENT) : references PLACE-* depuis d'autres registres
+    # resolubles vers un canonique. Balayage cross-registres non implemente ici
+    # (cf. apps/lib/dynamic-registers.js au runtime) — marque TODO plutot
+    # qu'implemente a moitie.
+    warnings.append(
+        "INV-5 — TODO : verification cross-registres des references PLACE-* "
+        "non implementee dans ce validateur (resolue au runtime par le loader).")
+
+    # INV-6 (AVERTISSEMENT) : collisions de coordonnees entre canoniques sans
+    # justification consignee (prudence_methodologique).
+    coord_groups = {}
+    for r, _ in records:
+        rid = r.get("id")
+        if rep.get(rid) != rid:
+            continue            # uniquement les canoniques (points fixes)
+        lat, lng = r.get("lat"), r.get("lng")
+        if isinstance(lat, (int, float)) and isinstance(lng, (int, float)):
+            coord_groups.setdefault((round(lat, 5), round(lng, 5)), []).append(r)
+    for (lat, lng), grp in coord_groups.items():
+        canon_ids = {r.get("id") for r in grp}
+        if len(canon_ids) > 1 and not any(r.get("prudence_methodologique") for r in grp):
+            warnings.append(
+                f"INV-6 — coordonnee partagee ({lat}, {lng}) par {sorted(canon_ids)} "
+                f"sans justification (prudence_methodologique).")
+
+    return errors, warnings, rep
 
 
 def main() -> int:
@@ -151,7 +197,7 @@ def main() -> int:
     distinct_ids = {r.get("id") for r, _ in records}
 
     # Réconciliation des équivalences same_as (clôture transitive, union-find).
-    sa_problems, rep = check_same_as(records)
+    sa_errors, sa_warnings, rep = check_same_as(records)
     canonical = {rep[i] for i in distinct_ids}
     aliased = {i for i in distinct_ids if rep[i] != i}
 
@@ -166,9 +212,14 @@ def main() -> int:
         for a in sorted(aliased):
             print(f"  {a}  ->  {rep[a]}")
 
-    if sa_problems:
-        print(f"\nSAME_AS INVALIDE ({len(sa_problems)}):")
-        for m in sa_problems:
+    if sa_warnings:
+        print(f"\nAVERTISSEMENTS ({len(sa_warnings)}) — non bloquants :")
+        for m in sa_warnings:
+            print(f"  - {m}")
+
+    if sa_errors:
+        print(f"\nSAME_AS INVALIDE ({len(sa_errors)}):")
+        for m in sa_errors:
             print(f"  - {m}")
 
     if invalid:
@@ -178,10 +229,10 @@ def main() -> int:
             for m in msgs:
                 print(f"       - {m}")
 
-    if invalid or sa_problems:
+    if invalid or sa_errors:
         return 1
 
-    print("\nAll place records are valid (schéma + same_as).")
+    print("\nAll place records are valid (schéma + same_as INV-1..4).")
     return 0
 
 

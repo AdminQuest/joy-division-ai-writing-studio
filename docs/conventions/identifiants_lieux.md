@@ -70,13 +70,20 @@ same_as: PLACE-TJ-DAVIDSONS   # → lieu canonique
 
 ### Invariants (vérifiés en CI)
 
-| Invariant | Imposé par |
-|-----------|-----------|
-| **append-only** : le legacy pointe vers le canonique ; le canonique n'est jamais muté | revue + convention |
-| **cible existante** : `same_as` pointe vers un id de lieu présent | `tools/validate_places.py` |
-| **canonique = point fixe** : la cible ne porte pas elle-même de `same_as` | `tools/validate_places.py` |
-| **absence de cycle** | `tools/validate_places.py` |
-| **clôture transitive** (A→B, B→C ⇒ A,B,C fusionnent sur C) | union-find (validateur + loader) |
+| Code | Invariant | Sévérité / imposé par |
+|------|-----------|-----------------------|
+| — | **append-only** : le legacy pointe vers le canonique ; le canonique n'est jamais muté | revue + convention |
+| — | **mono-valué** : `same_as` est une chaîne (une seule cible), jamais un tableau | `schemas/places.schema.yaml` |
+| INV-1 | **cible existante** : `same_as` pointe vers un id de lieu présent | erreur — `tools/validate_places.py` |
+| INV-2 | **absence de cycle** | erreur — idem |
+| INV-3 | **canonique = point fixe** : la cible ne porte pas elle-même de `same_as` | erreur — idem |
+| INV-4 | **convergence unique** : toute chaîne résout vers un canonique unique | erreur — idem (défensif) |
+| INV-5 | référence `PLACE-*` cross-registre résoluble | avertissement — **TODO** (résolu au runtime par le loader) |
+| INV-6 | deux canoniques ≠ coordonnées identiques sans justification | avertissement — idem |
+
+Clôture transitive (A→B, B→C ⇒ A,B,C fusionnent sur C) : union-find, côté
+validateur **et** loader. Tests : `tools/test_validate_places.py` (INV-1..4,
+cas passant + cas en échec, incl. le cas réel T.J. Davidson).
 
 ### Résolution (union-find)
 

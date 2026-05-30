@@ -37,8 +37,8 @@ SEED = {
     # — Villes / quartiers (coord. solide, QID à recouper) —
     "PLACE-MANCHESTER-CITY": (53.4808, -2.2426, "ville", None, None),
     "PLACE-MANCHESTER-CENTRE": (53.4794, -2.2453, "quartier", None, None),
-    "PLACE-GREATER-MANCHESTER": (53.5900, -2.3000, "approximative", None,
-        "Comté métropolitain — centroïde approximatif, non un point."),
+    "PLACE-GREATER-MANCHESTER": (53.5900, -2.3000, "ville", None,
+        "Comté métropolitain — coordonnée = centroïde approximatif, non un point."),
     "PLACE-BOLTON": (53.5780, -2.4290, "ville", None, None),
     "PLACE-OLDHAM": (53.5409, -2.1183, "ville", None, None),
     "PLACE-HYDE": (53.4510, -2.0810, "ville", None, None),
@@ -70,8 +70,8 @@ SEED = {
     "PLACE-KINGS-SCHOOL": (53.2520, -2.1370, "exacte", None,
         "King's School, Macclesfield."),
     "PLACE-SOUTHPORT-FLORAL-HALL": (53.6540, -3.0100, "exacte", None, None),
-    "PLACE-SALFORD-GRAMMAR-SCHOOL": (53.4880, -2.2980, "approximative", None,
-        "Localisation approximative (Salford)."),
+    "PLACE-SALFORD-GRAMMAR-SCHOOL": (53.4880, -2.2980, "ville", None,
+        "Localisation approximative à l'échelle de Salford ; bâtiment non confirmé."),
 }
 
 ID_RE = re.compile(r'^(\s*)(?:- )?id:\s*("?)(PLACE-[A-Z0-9-]+)\2\s*$')

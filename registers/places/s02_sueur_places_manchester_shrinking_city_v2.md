@@ -14,6 +14,10 @@ places:
     lat: 53.4808
     lng: -2.2426
     geo_precision: ville
+    prudence_methodologique: >-
+      Partage volontairement le centroïde de PLACE-MANCHESTER : échelles
+      emboîtées (municipalité vs ville-noyau), entités documentaires distinctes,
+      même point géographique.
     label: "City of Manchester"
     type: ville
     type_detail: municipalite
@@ -25,9 +29,9 @@ places:
   - id: PLACE-GREATER-MANCHESTER
     lat: 53.59
     lng: -2.3
-    geo_precision: approximative
+    geo_precision: ville
     prudence_methodologique: >-
-      Comté métropolitain — centroïde approximatif, non un point.
+      Comté métropolitain — coordonnée = centroïde approximatif, non un point.
     label: "Greater Manchester"
     type: ville
     type_detail: comte_metropolitain

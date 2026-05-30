@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+"""Tests unitaires des invariants same_as du registre des lieux (INV-1..4).
+
+Couvre, pour chaque invariant, un cas PASSANT et un cas en ÉCHEC, plus le cas
+réel T.J. Davidson (PLACE-TJ-DAVIDSONS canonique ; PLACE-S83-001 et
+PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET en same_as) comme cas passant.
+
+Exécution : python3 -m unittest tools.test_validate_places
+        ou : python3 tools/test_validate_places.py
+"""
+import unittest
+
+from validate_places import check_same_as
+
+
+def rec(pid, same_as=None, lat=None, lng=None, prud=None):
+    """Construit un (record, rel) minimal au format attendu par check_same_as."""
+    d = {"id": pid, "label": pid, "type": "studio"}
+    if same_as is not None:
+        d["same_as"] = same_as
+    if lat is not None:
+        d["lat"], d["lng"] = lat, lng
+    if prud is not None:
+        d["prudence_methodologique"] = prud
+    return (d, f"registers/places/{pid}.md")
+
+
+def errors_of(records):
+    errors, _warnings, _rep = check_same_as(records)
+    return errors
+
+
+def codes(errors):
+    return {e.split(" —")[0] for e in errors}
+
+
+class TestINV1TargetExists(unittest.TestCase):
+    def test_pass(self):
+        recs = [rec("PLACE-CANON"), rec("PLACE-LEGACY", same_as="PLACE-CANON")]
+        self.assertNotIn("INV-1", codes(errors_of(recs)))
+
+    def test_fail(self):
+        recs = [rec("PLACE-LEGACY", same_as="PLACE-DOES-NOT-EXIST")]
+        self.assertIn("INV-1", codes(errors_of(recs)))
+
+
+class TestINV2NoCycle(unittest.TestCase):
+    def test_pass(self):
+        recs = [rec("PLACE-CANON"),
+                rec("PLACE-A", same_as="PLACE-CANON"),
+                rec("PLACE-B", same_as="PLACE-A")]   # chaîne acyclique A->CANON, B->A
+        # B->A->CANON est valide vis-à-vis d'INV-2 (pas de cycle).
+        self.assertNotIn("INV-2", codes(errors_of(recs)))
+
+    def test_fail(self):
+        recs = [rec("PLACE-A", same_as="PLACE-B"),
+                rec("PLACE-B", same_as="PLACE-A")]   # cycle
+        self.assertIn("INV-2", codes(errors_of(recs)))
+
+
+class TestINV3CanonicalIsFixedPoint(unittest.TestCase):
+    def test_pass(self):
+        recs = [rec("PLACE-CANON"), rec("PLACE-LEGACY", same_as="PLACE-CANON")]
+        self.assertNotIn("INV-3", codes(errors_of(recs)))
+
+    def test_fail(self):
+        # La cible PLACE-MID porte elle-même un same_as -> n'est pas un point fixe.
+        recs = [rec("PLACE-CANON"),
+                rec("PLACE-MID", same_as="PLACE-CANON"),
+                rec("PLACE-LEGACY", same_as="PLACE-MID")]
+        self.assertIn("INV-3", codes(errors_of(recs)))
+
+
+class TestINV4UniqueConvergence(unittest.TestCase):
+    def test_pass(self):
+        recs = [rec("PLACE-CANON"), rec("PLACE-LEGACY", same_as="PLACE-CANON")]
+        self.assertNotIn("INV-4", codes(errors_of(recs)))
+
+    def test_fail(self):
+        # Cas défensif : same_as multi-valué (hors-schéma) divergeant vers deux
+        # canoniques distincts -> équivalence d'identité contradictoire.
+        recs = [rec("PLACE-CANON-1"), rec("PLACE-CANON-2"),
+                rec("PLACE-LEGACY", same_as=["PLACE-CANON-1", "PLACE-CANON-2"])]
+        self.assertIn("INV-4", codes(errors_of(recs)))
+
+
+class TestRealTJDavidson(unittest.TestCase):
+    def test_passing_case(self):
+        recs = [
+            rec("PLACE-TJ-DAVIDSONS", lat=53.474, lng=-2.249),
+            rec("PLACE-S83-001", same_as="PLACE-TJ-DAVIDSONS"),
+            rec("PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET", same_as="PLACE-TJ-DAVIDSONS"),
+        ]
+        errors, _w, repmap = check_same_as(recs)
+        self.assertEqual(errors, [], f"attendu aucune erreur, obtenu : {errors}")
+        # Les deux legacy résolvent vers le canonique unique.
+        self.assertEqual(repmap["PLACE-S83-001"], "PLACE-TJ-DAVIDSONS")
+        self.assertEqual(repmap["PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET"], "PLACE-TJ-DAVIDSONS")
+        self.assertEqual(repmap["PLACE-TJ-DAVIDSONS"], "PLACE-TJ-DAVIDSONS")  # point fixe
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
