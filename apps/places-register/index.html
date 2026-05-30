@@ -59,6 +59,11 @@
            canoniques. Coordonnées WGS84 curées hors-ligne (recoupées Wikidata
            P625, CC0). Fond de carte OpenStreetMap. -->
       <section id="places-map-wrap" class="places-map-wrap" hidden aria-label="Carte des lieux">
+        <div class="places-map-legend">
+          <button id="toggle-zones" class="places-btn places-viewtoggle__btn is-active" type="button" aria-pressed="true">Zones ville/région</button>
+          <span class="places-legend__item"><span class="places-legend__pin" aria-hidden="true"></span> Venue précise — point (exacte / rue / quartier)</span>
+          <span class="places-legend__item"><span class="places-legend__zone" aria-hidden="true"></span> Zone ville / région — étendue, non ponctuelle</span>
+        </div>
         <div id="places-map" class="places-map"></div>
         <p class="places-map__note" id="map-note"></p>
       </section>

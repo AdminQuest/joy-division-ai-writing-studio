@@ -181,9 +181,19 @@ const mapWrap = document.getElementById('places-map-wrap');
 const mapNote = document.getElementById('map-note');
 const viewListBtn = document.getElementById('view-list');
 const viewMapBtn = document.getElementById('view-map');
+const toggleZonesBtn = document.getElementById('toggle-zones');
 let map = null;
-let markerLayer = null;
+let markerLayer = null;   // venues précises (punaises ponctuelles)
+let zoneLayer = null;     // entités grossières (cercles, étendues — non ponctuelles)
 let mapView = false;
+let zonesEnabled = true;
+
+// Seuil « grossier » UNIQUE (miroir de COARSE_PRECISIONS dans validate_places.py) :
+// ces granularités sont des ZONES (étendues), rendues en cercles translucides et
+// exclues des punaises de venues précises. Point d'ajustement central.
+const COARSE_PRECISIONS = new Set(['ville', 'region']);
+const ZONE_RADIUS_M = { ville: 4000, region: 12000 };
+const isCoarse = d => COARSE_PRECISIONS.has(T(d.geo_precision));
 
 const num = v => (typeof v === 'number' && isFinite(v)) ? v : (v !== '' && v != null && isFinite(Number(v)) ? Number(v) : null);
 const coords = d => { const la = num(d.lat), ln = num(d.lng); return (la != null && ln != null) ? [la, ln] : null; };
@@ -195,7 +205,9 @@ function ensureMap() {
     maxZoom: 19,
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-  markerLayer = L.layerGroup().addTo(map);
+  zoneLayer = L.layerGroup();          // ajoutée/retirée selon zonesEnabled
+  if (zonesEnabled) zoneLayer.addTo(map);
+  markerLayer = L.layerGroup().addTo(map);  // au-dessus des zones
   return map;
 }
 
@@ -225,25 +237,56 @@ function popupHtml(item) {
     + '</div>';
 }
 
+function zoneCircle(item, ll) {
+  const d = item.data || {};
+  return L.circle(ll, {
+    radius: ZONE_RADIUS_M[T(d.geo_precision)] || 4000,
+    className: 'place-zone',
+    interactive: true
+  }).bindPopup(popupHtml(item));
+}
+
 function updateMap(filtered) {
   if (!mapView || !ensureMap()) return;
   markerLayer.clearLayers();
+  zoneLayer.clearLayers();
   const geoloc = filtered.filter(i => coords(i.data || {}));
-  const pts = [];
+  let nbVenue = 0, nbZone = 0;
+  const pts = [];          // pour le recadrage : venues + zones visibles
   geoloc.forEach(item => {
-    const ll = coords(item.data || {});
-    L.marker(ll, { icon: markerIcon(typeOf(item.data || {})), title: labelOf(item.data || {}) })
-      .bindPopup(popupHtml(item))
-      .addTo(markerLayer);
-    pts.push(ll);
+    const d = item.data || {};
+    const ll = coords(d);
+    if (isCoarse(d)) {
+      zoneCircle(item, ll).addTo(zoneLayer);
+      nbZone++;
+      if (zonesEnabled) pts.push(ll);
+    } else {
+      L.marker(ll, { icon: markerIcon(typeOf(d)), title: labelOf(d) })
+        .bindPopup(popupHtml(item))
+        .addTo(markerLayer);
+      nbVenue++;
+      pts.push(ll);
+    }
   });
   const total = filtered.length;
-  mapNote.textContent = geoloc.length + ' lieu' + (geoloc.length > 1 ? 'x' : '')
-    + ' géolocalisé' + (geoloc.length > 1 ? 's' : '') + ' sur ' + total
-    + ' (coordonnées WGS84 curées, recoupées Wikidata P625 ; fond OpenStreetMap).';
+  mapNote.textContent = nbVenue + ' venue' + (nbVenue > 1 ? 's' : '') + ' précise'
+    + (nbVenue > 1 ? 's' : '') + ' (points) + ' + nbZone + ' zone' + (nbZone > 1 ? 's' : '')
+    + ' ville/région (étendues' + (zonesEnabled ? '' : ', masquées') + '), sur ' + total
+    + ' lieux filtrés. Coordonnées WGS84 curées, recoupées Wikidata P625 ; fond OpenStreetMap.';
   if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
   map.invalidateSize();
 }
+
+function setZones(on) {
+  zonesEnabled = on;
+  toggleZonesBtn.classList.toggle('is-active', on);
+  toggleZonesBtn.setAttribute('aria-pressed', String(on));
+  if (zoneLayer && map) {
+    if (on) zoneLayer.addTo(map); else map.removeLayer(zoneLayer);
+  }
+  if (mapView) updateMap(items.filter(i => matches(i, currentFilters())));
+}
+toggleZonesBtn.addEventListener('click', () => setZones(!zonesEnabled));
 
 function setView(toMap) {
   mapView = toMap;
