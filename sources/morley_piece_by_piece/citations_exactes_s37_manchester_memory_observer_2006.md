@@ -1,12 +1,19 @@
 # Citations exactes courtes — S37 — Manchester mémoire et réécriture, Observer 2006
 
-```yaml
-source_id: S37
-source_label: "S37 — Morley, Joy Division: Piece by Piece, 2008"
-type_unite: citations_exactes
-coverage: "section VI ; p. PDF 48-52"
-statut: verifie_sur_pdf
-```
+## Metadonnees
+
+<!--
+Bloc d'en-tete volontairement HORS balises YAML : sans `id`, et dans un fichier
+`citations_exactes`, build_registers.py le classerait comme une citation (kind=quote)
+et genererait un enregistrement NO_ID fantome dans quotes.json (cf. fix S89, D.1a).
+Les citations reelles ci-dessous portent chacune leur `id` et leur `source_id`.
+-->
+
+- **source_id** : S37
+- **source_label** : S37 — Morley, Joy Division: Piece by Piece, 2008
+- **type_unite** : citations_exactes
+- **coverage** : section VI ; p. PDF 48-52
+- **statut** : verifie_sur_pdf
 
 ## Règle d’usage
 

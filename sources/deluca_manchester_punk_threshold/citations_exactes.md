@@ -1,15 +1,22 @@
 # Citations candidates — S15 — De Luca, *The Sound and the Fury*, 2021
 
-```yaml
-source_id: S15
-source_label: "S15 — De Luca, The Sound and the Fury, 2021"
-source_short_title: "De Luca, The Sound and the Fury, 2021"
-source_year: "2021"
-auteur: "Daniele De Luca"
-titre: "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta"
-pages_pdf: "54-63"
-statut_global: "aucune citation longue intégrée ; localisation de citations candidates à vérifier avant usage éditorial"
-```
+## Metadonnees
+
+<!--
+Bloc d'en-tete volontairement HORS balises YAML : sans `id`, et dans un fichier
+`citations_exactes`, build_registers.py le classerait comme une citation (kind=quote)
+et genererait un enregistrement NO_ID fantome dans quotes.json (cf. fix S89, D.1a).
+Les citations reelles ci-dessous portent chacune leur `id` et leur `source_id`.
+-->
+
+- **source_id** : S15
+- **source_label** : S15 — De Luca, The Sound and the Fury, 2021
+- **source_short_title** : De Luca, The Sound and the Fury, 2021
+- **source_year** : 2021
+- **auteur** : Daniele De Luca
+- **titre** : The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta
+- **pages_pdf** : 54-63
+- **statut_global** : aucune citation longue intégrée ; localisation de citations candidates à vérifier avant usage éditorial
 
 ## Règle d’usage
 

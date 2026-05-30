@@ -11,9 +11,16 @@ Inputs:
     chapters/master_docs.json
 
 Outputs:
-    chapters/XX/document_maitre.md
-    chapters/master_docs.json
-    exports/generated/master_docs_index.json
+    <chapters-dir>/XX/document_maitre.md
+    <chapters-dir>/master_docs.json
+    exports/generated/master_docs_index.json  (repo public uniquement — voir ci-dessous)
+
+Le manifeste master_docs.json est toujours écrit dans le dossier --chapters-dir
+ciblé. En revanche, l'index exports/generated/master_docs_index.json est un
+artefact du repo PUBLIC : il n'est réécrit que lorsque la cible est le chapters/
+du repo courant (build public par défaut). Quand --chapters-dir pointe vers un
+autre repo (ex. le repo privé) ou avec --no-public-index, l'index public n'est
+PAS touché, pour éviter de polluer l'arbre de travail public (dette D.5).
 """
 
 from __future__ import annotations
@@ -492,6 +499,15 @@ def main() -> int:
             "Use ~/repos/joy-division-studio-private/chapters for the private repo."
         ),
     )
+    parser.add_argument(
+        "--no-public-index",
+        action="store_true",
+        help=(
+            "N'écrit pas exports/generated/master_docs_index.json (artefact du repo "
+            "public). Implicite dès que --chapters-dir cible un dossier autre que le "
+            "chapters/ du repo courant, pour ne pas polluer l'arbre public (D.5)."
+        ),
+    )
     args = parser.parse_args()
 
     # Resolve target chapters directory
@@ -501,6 +517,12 @@ def main() -> int:
     else:
         target_chapters_dir = CHAPTERS_DIR
         target_manifest_path = MANIFEST_PATH
+
+    # The public index is a repo-public artifact: only (re)write it when the build
+    # targets THIS repo's own chapters/ (default public build) and the caller did
+    # not opt out. A private-repo build must never touch it (dette D.5).
+    target_is_public_repo = target_chapters_dir.resolve() == CHAPTERS_DIR.resolve()
+    write_public_index = target_is_public_repo and not args.no_public_index
 
     atoms = load_json("atoms.json")
     quotes = load_json("quotes.json")
@@ -544,10 +566,14 @@ def main() -> int:
         })
 
     write_json(target_manifest_path, manifest)
-    write_json(MASTER_INDEX_PATH, index)
+    if write_public_index:
+        write_json(MASTER_INDEX_PATH, index)
     print("Master documents generated from atoms.")
     print(f"Manifest: {target_manifest_path}")
-    print(f"Index: {MASTER_INDEX_PATH.relative_to(REPO_ROOT)}")
+    if write_public_index:
+        print(f"Index: {MASTER_INDEX_PATH.relative_to(REPO_ROOT)}")
+    else:
+        print("Index: master_docs_index.json non réécrit (cible hors repo public — D.5).")
     if args.chapters_dir is not None:
         print(f"Note: chapters written to custom target: {target_chapters_dir}")
     return 0

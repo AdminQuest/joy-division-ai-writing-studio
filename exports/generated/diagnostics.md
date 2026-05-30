@@ -1,14 +1,14 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-30T14:08:32`
+Généré le : `2026-05-30T15:01:17`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7644
+- Enregistrements : 7639
 - Erreurs : 0
-- Avertissements : 30018
+- Avertissements : 29941
 - Sources déclarées dans `data/registre.json` : 95
 - Sources utilisées dans les enregistrements : 79
 - Sources exportées : 79
@@ -26,7 +26,7 @@ Statut : **warning**
 - motif : 425
 - myth : 102
 - person : 305
-- quote : 562
+- quote : 557
 - quote_batch : 1
 - rules : 1
 - session : 18
@@ -88,7 +88,6 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: risque_surinterpretation
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: liens_interchapitres
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Missing required field: liens_citations
-- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A001] : Invalid value for type_unite: prudence_methodologique
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: auteur
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: concepts
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A002] : Missing required field: chapitres
@@ -164,4 +163,5 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: chapitres
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
-- … 29918 problèmes supplémentaires dans `diagnostics.json`.
+- **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
+- … 29841 problèmes supplémentaires dans `diagnostics.json`.

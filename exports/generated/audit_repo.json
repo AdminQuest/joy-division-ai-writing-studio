@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-30T14:08:32",
+  "generated_at": "2026-05-30T15:01:17",
   "summary": {
-    "records_total": 7644,
+    "records_total": 7639,
     "records_by_kind": {
       "unknown": 1493,
       "source": 120,
@@ -10,7 +10,7 @@
       "concept": 457,
       "motif": 425,
       "myth": 102,
-      "quote": 562,
+      "quote": 557,
       "chronology": 477,
       "template": 360,
       "concert": 197,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30018,
+    "diagnostics_total": 29941,
     "errors": 0,
-    "warnings": 30018,
+    "warnings": 29941,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -39,7 +39,7 @@
     "motif": 425,
     "myth": 102,
     "person": 305,
-    "quote": 562,
+    "quote": 557,
     "quote_batch": 1,
     "rules": 1,
     "session": 18,
@@ -128,7 +128,7 @@
       "metadata": 4,
       "atom": 15,
       "chronology": 8,
-      "quote": 5,
+      "quote": 4,
       "concept": 8,
       "motif": 4,
       "unknown": 17,
@@ -241,7 +241,7 @@
     "S37": {
       "metadata": 14,
       "atom": 84,
-      "quote": 11,
+      "quote": 8,
       "unknown": 100,
       "source": 1
     },
@@ -840,9 +840,9 @@
   ],
   "issue_categories": {
     "field_type_error": 683,
-    "invalid_controlled_value": 2673,
-    "missing_required_field": 9281,
-    "schema_warning": 497,
+    "invalid_controlled_value": 2622,
+    "missing_required_field": 9260,
+    "schema_warning": 492,
     "unknown_yaml_block": 1493,
     "v2_migration_debt": 15391
   },
@@ -925,7 +925,7 @@
     ],
     [
       "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
-      240
+      239
     ],
     [
       "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -937,7 +937,7 @@
     ],
     [
       "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md",
-      221
+      220
     ],
     [
       "sources/hook/atomisation_05_closer_phase_terminale_1980.md",
@@ -945,15 +945,11 @@
     ],
     [
       "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
-      218
+      217
     ],
     [
       "sources/morris_record_play_pause/source_part_04.md",
       213
-    ],
-    [
-      "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      210
     ],
     [
       "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
@@ -966,6 +962,10 @@
     [
       "sources/johnson_morley_an_ideal_for_living/source_suite_04.md",
       210
+    ],
+    [
+      "sources/barone_directionless_so_plain_to_see/source_part_01.md",
+      209
     ]
   ],
   "blocking_errors": [],
@@ -13416,9 +13416,9 @@
         "auteur": "Daniele De Luca",
         "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
         "annee": "2021",
-        "records": 62,
+        "records": 61,
         "atoms": 15,
-        "quotes": 5,
+        "quotes": 4,
         "chronology": 8,
         "files": [
           "registers/references/s15_deluca_source_canonique.md",
@@ -13706,9 +13706,9 @@
         "auteur": "Paul Morley",
         "titre": "Joy Division: Piece by Piece: Writing About Joy Division 1977–2007",
         "annee": "2008",
-        "records": 210,
+        "records": 207,
         "atoms": 84,
-        "quotes": 11,
+        "quotes": 8,
         "chronology": 0,
         "files": [
           "sources/morley_piece_by_piece/atoms_dm_s37_manchester_memory_observer_2006_v2.md",
@@ -15073,14 +15073,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
-      "record_id": "S31-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/allegri_living_in_the_ice_age/source_part_01.md",
       "record_id": "S31-A002",
@@ -16262,14 +16254,6 @@
       "record_id": "S42-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
-      "record_id": "S42-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -17558,14 +17542,6 @@
       "record_id": "S56-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/barone_directionless_so_plain_to_see/source_part_01.md",
-      "record_id": "S56-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -19233,14 +19209,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
-      "record_id": "S39-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "schema_warning",
       "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
       "record_id": "S39-A001",
@@ -19550,14 +19518,6 @@
       "record_id": "S39-A005",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
-      "record_id": "S39-A005",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -19998,14 +19958,6 @@
       "record_id": "S50-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/bertetti_morreale_reimmaginare_immaginario/source_part_01.md",
-      "record_id": "S50-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -22733,14 +22685,6 @@
       "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
       "record_id": "S86-A002",
       "message": "Invalid value for fiabilite: haute",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/breyley_iranian_musicians_jd/atoms_s86_breyley_iranian_musicians.md",
-      "record_id": "S86-A002",
-      "message": "Invalid value for type_unite: prudence_methodologique",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -25665,14 +25609,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
-      "record_id": "S26-A017",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
       "record_id": "S40-A001",
@@ -25734,14 +25670,6 @@
       "record_id": "S40-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
-      "record_id": "S40-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -26297,14 +26225,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
-      "record_id": "S40-A008",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "schema_warning",
       "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
       "record_id": "S40-A008",
@@ -26502,14 +26422,6 @@
       "record_id": "S43-A001",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/capozzi_weight_on_their_shoulders/atomes_s43_weight_shoulders.md",
-      "record_id": "S43-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -28433,14 +28345,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
-      "record_id": "S06-A006",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "v2_migration_debt",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "record_id": "S06-A007",
@@ -28830,14 +28734,6 @@
       "record_id": "S06-A011",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
-      "record_id": "S06-A011",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -31673,14 +31569,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md",
-      "record_id": "S84-A015",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "field_type_error",
       "file": "sources/cope_moving_image_factory_video/atoms_dm_s84_moving_image_v2.md",
       "record_id": "S84-A015",
@@ -32870,14 +32758,6 @@
       "record_id": "S09-A008",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
-      "record_id": "S09-A008",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -34606,14 +34486,6 @@
       "record_id": "S79-A038",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_failures_v2.md",
-      "record_id": "S79-A038",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -38886,14 +38758,6 @@
       "record_id": "S79-A047",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_ice_age_v2.md",
-      "record_id": "S79-A047",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -43281,14 +43145,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
-      "record_id": "S79-A023",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "field_type_error",
       "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_leaders_of_men_v2.md",
       "record_id": "S79-A023",
@@ -43758,14 +43614,6 @@
       "record_id": "S79-A028",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_no_love_lost_v2.md",
-      "record_id": "S79-A028",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -44718,14 +44566,6 @@
       "record_id": "S79-A054",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_the_kill_v2.md",
-      "record_id": "S79-A054",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -56937,14 +56777,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
-      "record_id": "S45-A020",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "schema_warning",
       "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
       "record_id": "S45-A020",
@@ -61441,46 +61273,6 @@
     },
     {
       "level": "warning",
-      "category": "schema_warning",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing id",
-      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: citation_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: langue_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: statut_verification",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
       "record_id": "S15-Q001",
@@ -61758,14 +61550,6 @@
       "record_id": "S48-A001",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
-      "record_id": "S48-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -65561,14 +65345,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
-      "record_id": "S49-A003",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/farci_danza_esistenziale_ian_curtis/source_part_01.md",
       "record_id": "S49-A004",
@@ -66766,14 +66542,6 @@
       "record_id": "S60-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/federici_unknown_pleasures_pulsar_tshirt/source_part_01.md",
-      "record_id": "S60-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -68086,14 +67854,6 @@
       "record_id": "S59-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/ferrara_poetica_della_distanza/source_part_01.md",
-      "record_id": "S59-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -73289,14 +73049,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
-      "record_id": "S54-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/gnocchi_interzona_burroughs_ballard/source_part_01.md",
       "record_id": "S54-A002",
@@ -74590,14 +74342,6 @@
       "record_id": "S29-A001",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "record_id": "S29-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -79593,14 +79337,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
-      "record_id": "S69-A025",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "v2_migration_debt",
       "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
       "record_id": "S69-A026",
@@ -80358,14 +80094,6 @@
       "record_id": "S44-A001",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
-      "record_id": "S44-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -82630,14 +82358,6 @@
       "record_id": "S14-A005",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
-      "record_id": "S14-A005",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -94054,54 +93774,6 @@
       "record_id": "S41-L03",
       "message": "Invalid value for type_unite: limite_source",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
-      "category": "schema_warning",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing id",
-      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: source_id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: citation_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: langue_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/hook/citations_exactes.md",
-      "record_id": null,
-      "message": "Missing required field: statut_verification",
-      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -111425,14 +111097,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
-      "record_id": "S58-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/ilardi_ian_curtis_is_not_dead/source_part_01.md",
       "record_id": "S58-A002",
@@ -112718,14 +112382,6 @@
       "record_id": "S61-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/iovane_riccio_trademark_will_tear_us_apart/source_part_01.md",
-      "record_id": "S61-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -132017,14 +131673,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
-      "record_id": "S53-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/la_rocca_immagini_simboli_incarnazione_mitica/source_part_01.md",
       "record_id": "S53-A002",
@@ -134598,14 +134246,6 @@
       "record_id": "S51-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/malvezzi_dream_english_kid_lo_fi/source_part_01.md",
-      "record_id": "S51-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -139465,14 +139105,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
-      "record_id": "S21-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/mdmarchive_city_fun_hidden_history/source_part_01.md",
       "record_id": "S21-A002",
@@ -140246,14 +139878,6 @@
       "record_id": "S76-A002",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/middles_reade_torn_apart/source_part_01.md",
-      "record_id": "S76-A002",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -162465,14 +162089,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
-      "record_id": "S37-A025",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "field_type_error",
       "file": "sources/morley_piece_by_piece/atoms_dm_s37_manchester_scene_nme_1977_v2.md",
       "record_id": "S37-A025",
@@ -166569,14 +166185,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
-      "record_id": "S37-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "field_type_error",
       "file": "sources/morley_piece_by_piece/atoms_dm_s37_piece_by_piece_first_passage_v2.md",
       "record_id": "S37-A001",
@@ -167937,46 +167545,6 @@
     },
     {
       "level": "warning",
-      "category": "schema_warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "record_id": null,
-      "message": "Missing id",
-      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "record_id": null,
-      "message": "Missing required field: id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "record_id": null,
-      "message": "Missing required field: citation_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "record_id": null,
-      "message": "Missing required field: langue_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
-      "record_id": null,
-      "message": "Missing required field: statut_verification",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_first_passage.md",
       "record_id": "S37-CIT-001",
@@ -168025,46 +167593,6 @@
     },
     {
       "level": "warning",
-      "category": "schema_warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "record_id": null,
-      "message": "Missing id",
-      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "record_id": null,
-      "message": "Missing required field: id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "record_id": null,
-      "message": "Missing required field: citation_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "record_id": null,
-      "message": "Missing required field: langue_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
-      "record_id": null,
-      "message": "Missing required field: statut_verification",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
       "record_id": "S37-CIT-007",
@@ -168108,46 +167636,6 @@
       "category": "missing_required_field",
       "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_memory_observer_2006.md",
       "record_id": "S37-CIT-008",
-      "message": "Missing required field: statut_verification",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "schema_warning",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "record_id": null,
-      "message": "Missing id",
-      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "record_id": null,
-      "message": "Missing required field: id",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "record_id": null,
-      "message": "Missing required field: citation_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "record_id": null,
-      "message": "Missing required field: langue_originale",
-      "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "warning",
-      "category": "missing_required_field",
-      "file": "sources/morley_piece_by_piece/citations_exactes_s37_manchester_scene_nme_1977.md",
-      "record_id": null,
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
     },
@@ -169894,14 +169382,6 @@
       "record_id": "S35-A001",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
-      "record_id": "S35-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -181737,14 +181217,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
-      "record_id": "S78-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/nevarez_how_joy_division_came_to_sound_like_manchester/source_part_01.md",
       "record_id": "S78-A002",
@@ -186121,14 +185593,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/ott_unknown_pleasures/source_part_03.md",
-      "record_id": "S75-A044",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "schema_warning",
       "file": "sources/ott_unknown_pleasures/source_part_03.md",
       "record_id": "S75-A044",
@@ -188342,14 +187806,6 @@
       "record_id": "S75-A075",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/ott_unknown_pleasures/source_part_04.md",
-      "record_id": "S75-A075",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -191401,14 +190857,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
-      "record_id": "S12-A008",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/rabbito_control_infrangimento_vetro/relations_s52.md",
       "record_id": "REL-S52-001",
@@ -191590,14 +191038,6 @@
       "record_id": "S52-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/rabbito_control_infrangimento_vetro/source_part_01.md",
-      "record_id": "S52-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -198905,14 +198345,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
-      "record_id": "S55-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/romania_a_guide_to_come_universo_simbolico/source_part_01.md",
       "record_id": "S55-A002",
@@ -199841,14 +199273,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
-      "record_id": "S89-A021",
-      "message": "Invalid value for type_unite: reference_croisee",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "field_type_error",
       "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
       "record_id": "S89-A021",
@@ -200078,14 +199502,6 @@
       "record_id": "S89-A022",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/savage_englands_dreaming/atomes_s89_intro_ch1.md",
-      "record_id": "S89-A022",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -204390,14 +203806,6 @@
       "record_id": "S02-A003",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
-      "record_id": "S02-A003",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -211777,14 +211185,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
-      "record_id": "S57-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "missing_required_field",
       "file": "sources/villani_ti_sfido_a_disperarti/source_part_01.md",
       "record_id": "S57-A002",
@@ -214609,14 +214009,6 @@
     },
     {
       "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
-      "record_id": "S22-A015",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
-    },
-    {
-      "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/worley_punk_politics_british_fanzines/relations_s77.md",
       "record_id": "REL-S77-001",
@@ -214806,14 +214198,6 @@
       "record_id": "S77-A001",
       "message": "Missing required field: liens_citations",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
-    },
-    {
-      "level": "warning",
-      "category": "invalid_controlled_value",
-      "file": "sources/worley_punk_politics_british_fanzines/source_part_01.md",
-      "record_id": "S77-A001",
-      "message": "Invalid value for type_unite: prudence_methodologique",
-      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",

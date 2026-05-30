@@ -432,30 +432,18 @@ Hook traite « Ceremony » et « In a Lonely Place » comme morceaux charnières
 
 Les citations suivantes doivent être recherchées et stabilisées lors d’une seconde passe :
 
-```yaml
-candidates:
-  - objet: "Lesser Free Trade Hall comme révélation punk"
-    atomes_lies: [S41-014, S41-015]
-    priorité: forte
-  - objet: "achat de la première basse chez Mazel’s"
-    atomes_lies: [S41-017]
-    priorité: moyenne
-  - objet: "basse aiguë née d’une contrainte matérielle"
-    atomes_lies: [S41-036]
-    priorité: forte
-  - objet: "Gretton contre les avances discographiques"
-    atomes_lies: [S41-083]
-    priorité: forte
-  - objet: "Hannett et la méthode studio"
-    atomes_lies: [S41-093, S41-095]
-    priorité: forte
-  - objet: "public et crise de Curtis"
-    atomes_lies: [S41-080, S41-136]
-    priorité: sensible
-  - objet: "FAC 28 comme flexidisc gratuit"
-    atomes_lies: [S41-151]
-    priorité: moyenne
-```
+<!-- Bloc de planification volontairement HORS balises YAML (sans `id`) pour eviter
+un enregistrement NO_ID fantome dans quotes.json (cf. fix S89, D.1a). -->
+
+| Objet | Atomes lies | Priorite |
+|---|---|---|
+| Lesser Free Trade Hall comme révélation punk | S41-014, S41-015 | forte |
+| achat de la première basse chez Mazel’s | S41-017 | moyenne |
+| basse aiguë née d’une contrainte matérielle | S41-036 | forte |
+| Gretton contre les avances discographiques | S41-083 | forte |
+| Hannett et la méthode studio | S41-093, S41-095 | forte |
+| public et crise de Curtis | S41-080, S41-136 | sensible |
+| FAC 28 comme flexidisc gratuit | S41-151 | moyenne |
 
 ---
 
