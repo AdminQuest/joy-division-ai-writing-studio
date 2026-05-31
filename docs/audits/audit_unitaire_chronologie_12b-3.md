@@ -743,3 +743,83 @@ en `prudence_methodologique`.
 
 `--phase check` : 74 `same_as` résolus, 0 date impossible, 0 intervalle inversé ·
 `build_registers --strict` errors=0 (chronology 501) · sentinelle anti-drift OK.
+
+---
+
+# ANNEXE VI — Propositions (NON exécutées)
+
+> **Pour revue. Aucune écriture.** Après la 2e canonicalisation : 266 jalons
+> restent non canonicalisés (ni `EVENT-`, ni `same_as`). Listes exhaustives via
+> `tools/canonicalize_chronology.py --phase report` + regroupement.
+
+## VI.B1 — Filtre de signification sur les singletons (80)
+
+80 entrées-jalon à date unique. Filtre ancre/tête-de-timeline vs beat narratif :
+**42 candidats-ancre**, **38 beats nus**. Dispositions proposées :
+
+### a) Candidats `EVENT-` (ancres mono-source) — proposition de slugs
+
+| Événement | Date | `EVENT-` proposé |
+|---|---|---|
+| Naissance de Bernard Sumner | 1956-01-04 | `EVENT-NAISSANCE-BERNARD-SUMNER` |
+| Naissance de Peter Hook | 1956-02-13 | `EVENT-NAISSANCE-PETER-HOOK` |
+| Mariage de Ian & Deborah Curtis | 1975-08-23 | `EVENT-MARIAGE-IAN-DEBORAH-CURTIS` |
+| Ian Curtis rejoint le groupe | 1976-12 | `EVENT-IAN-CURTIS-REJOINT-LE-GROUPE` |
+| Enregistrement d'*An Ideal for Living* (Pennine) | 1977 | `EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING` |
+| Sortie 7″ / 12″ *An Ideal for Living* | 1978-06-03 / 1978-10-10 | `EVENT-SORTIE-AN-IDEAL-FOR-LIVING` (1 ou 2 ?) |
+| Sortie *Short Circuit – Live at the Electric Circus* | 1978-06-09 | `EVENT-SORTIE-SHORT-CIRCUIT` |
+| Première soirée Factory (Russell Club) | 1978-05-19 | `EVENT-PREMIERE-SOIREE-FACTORY` |
+| Sessions *Unknown Pleasures* (Strawberry) | 1979-03-31/05-02 | `EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY` |
+| Sessions « Transmission » (Central Sound / Strawberry) | 1979-07 | `EVENT-SESSIONS-TRANSMISSION` |
+| Session Piccadilly Radio | 1979-06-04 | `EVENT-SESSION-PICCADILLY-RADIO` |
+| Tournée Buzzcocks (Joy Division en support) | 1979-08 | `EVENT-TOURNEE-BUZZCOCKS-SUPPORT` |
+
+Iconographie (séances Cummins 1979-01-06, Corbijn 1979-11), mariage Sumner-Barlow
+(1978-10-28), naissance Carole Curtis (1960) : **ancres mineures à arbitrer**
+(EVENT- ou jalon nu ?).
+
+### b) Singletons captés par le filtre mais **contextuels** → proposer `contexte`
+
+Sorties / événements d'**autres artistes** servant de repère : *Ziggy Stardust*
+(1972), *Low* de Bowie (1977), *Spiral Scratch* des Buzzcocks (1977-01), affaire
+Grundy / *Anarchy* (1976-12-01), sortie Panik (1977-11), festival de Mont de
+Marsan (1976-08), mort de Hendrix (1970), Reading Festival 1975. → bascule
+`contexte` à valider.
+
+### c) Death-vicinity (derniers jours) → rester `jalon` distinct (A4)
+
+Dernier rendez-vous epilepsy clinic (1980-05-06), dernière photographie
+(1980-05-13), appels d'Annik (1980-05-14/17) : **ne pas** canonicaliser, **pas**
+de `same_as` vers `EVENT-MORT-IAN-CURTIS`.
+
+### d) Beats nus (38) → restent `jalon`
+
+Beats narratifs fins, mono-source (visites, scènes domestiques, lectures,
+anecdotes de tournée) : aucun `EVENT-`.
+
+## VI.B2 — Individuation des clusters mois/année (28)
+
+Les clés mois/année **ne sont pas des événements uniques** : elles agrègent des
+événements distincts par grossièreté de date. Aucune ne doit devenir un seul
+`EVENT-`. Décomposition proposée pour les plus denses :
+
+| Cluster | Nb | Événements distincts à individuer (extrait) |
+|---|---:|---|
+| **1977** | 11 | décision DIY *An Ideal* · session Pennine · échec pressage · collision « Warsaw Pakt » · stabilisation post-Morris · son JD (basse) · installation T. J. Davidson's · Gretton pré-manager — **events séparés**, certains fusionnent avec B1 (AIL) |
+| **1978** | 21 | sessions RCA/Greendow · AIL Pennine · Musicians Collective · *A Factory Sample* (financement) · Granada/Shadowplay · Gretton manager · concours Stiff/Chiswick — plusieurs **doublons inter-sources** (Granada, Gretton, AIL) → `same_as` vers EVENT- existants/proposés |
+| **1979** | 17 | Granada « She's Lost Control » · accident van M5 · tournée Buzzcocks (pro / crises / Leeds) · phase post-UP · Atmosphere/Dead Souls — events séparés |
+| **1979-01** | 5 | Gretton manager plein temps · offre Peel · 1re Peel session (→ `same_as` `EVENT-PREMIERE-PEEL-SESSION`) · transfert masters RCA · épilepsie « carried on » |
+| **1979-04** | 5 | sessions UP Strawberry (→ `same_as` candidat) · naissance Natalie (→ `same_as` `EVENT-NAISSANCE-NATALIE-CURTIS`) · track-by-track |
+| **1979-10** | 5 | sessions Atmosphere/Licht · sorties Earcom/Sordide/Autosuggestion · concerts Apollo · tournée nationale — **multi-événements** |
+| **1980-01** | 5 | tournée européenne (→ `same_as` candidat) · retour Pernod/Bible · arrêt des concerts annoncé |
+| **1980-03** | 12 | sessions *Closer* Britannia Row · flats York Street · crise « toilet fit » · U2/Hannett · pochette Saville · Candy à Rochdale — **multi-événements** |
+| **1980-05** | 3 | funérailles & wake · retour au travail / « Dreams Never End » — distincts du décès |
+
+Pré-1977 (1966-1976) : repères biographiques scolaires/familiaux (Sumner, Hook,
+Morris, Curtis) — surtout des **beats** ou ancres mineures mono-source ; quelques
+doublons inter-sources (Barton Street 1977-05 : S45 + S76 → `same_as` candidat).
+
+**Recommandation** : individualiser chaque cluster mois/année **avant** toute
+canonicalisation ; n'en promouvoir en `EVENT-` que les ancres (sessions, sorties,
+line-up, télévision, tournées), réconcilier les doublons inter-sources par
+`same_as`, laisser les beats en `jalon` nu.
