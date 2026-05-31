@@ -8,8 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-020
+same_as: CONCERT-19800402-MOONLIGHT-CLUB-LONDON
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-02
 precision_date: exact
@@ -85,8 +86,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-022
+same_as: CONCERT-19800404-MOONLIGHT-CLUB-LONDON
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-04
 precision_date: exact
@@ -124,8 +126,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-023
+same_as: CONCERT-19800405-WINTER-GARDENS-MALVERN
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-05
 precision_date: exact
@@ -161,8 +164,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-024
+same_as: CONCERT-19800408-DERBY-HALL-BURY
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact

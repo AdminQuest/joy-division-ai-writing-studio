@@ -124,8 +124,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-011
+same_as: CONCERT-19791016-PLAN-K-BRUSSELS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-10-16
 precision_date: exact
@@ -326,7 +327,7 @@ notes: >
 ```yaml
 id: CHR-S75-1980-005
 same_as: EVENT-CRISE-RAINBOW-THEATRE
-a_scinder_etape_10: true
+a_scinder_concert: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -403,8 +404,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-007
+same_as: CONCERT-19800408-DERBY-HALL-BURY
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact

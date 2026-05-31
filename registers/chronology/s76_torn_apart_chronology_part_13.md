@@ -50,8 +50,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-003
+same_as: CONCERT-19800111-PARADISO-AMSTERDAM
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-01-11
 precision_date: exact
@@ -92,8 +93,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-004
+same_as: CONCERT-19800115-BASEMENT-COLOGNE
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-01-15
 precision_date: exact
@@ -129,8 +131,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-005
+same_as: CONCERT-19800117-PLAN-K-BRUSSELS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-01-17
 precision_date: exact
@@ -169,8 +172,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-006
+same_as: CONCERT-19800118-EFFENAAR-EINDHOVEN
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-01-18
 precision_date: exact

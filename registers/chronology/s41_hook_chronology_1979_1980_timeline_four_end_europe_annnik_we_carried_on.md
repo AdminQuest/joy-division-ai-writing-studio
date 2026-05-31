@@ -3,8 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-10-03-LEEDS-UNIVERSITY-BUZZCOCKS
+    same_as: CONCERT-19791003-LEEDS-UNIVERSITY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-10-03"
     evenement: >
@@ -17,8 +18,9 @@ chronology:
     statut: review à retrouver dans Sounds
 
   - id: CHR-S41-1979-10-08-DUNDEE-IAN-COLLAPSES
+    same_as: CONCERT-19791008-CAIRD-HALL-DUNDEE
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-10-08"
     evenement: >
@@ -30,8 +32,9 @@ chronology:
     statut: repère médical live à croiser
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS-TIMELINE
+    same_as: CONCERT-19791016-PLAN-K-BRUSSELS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-10-16"
     evenement: >
@@ -45,8 +48,9 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-26-ELECTRIC-BALLROOM
+    same_as: CONCERT-19791026-ELECTRIC-BALLROOM-CAMDEN
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-10-26"
     evenement: >
@@ -91,7 +95,8 @@ chronology:
     date_precision: intervalle
     date_debut: 1979-11-09
     date_fin: 1979-11-10
-    categorie: concert_a_migrer
+    categorie: jalon
+    liaison_multi_concert: true
     source_id: S41
     date: "1979-11-09/1979-11-10"
     evenement: >
@@ -120,8 +125,9 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-12-18-LES-BAINS-DOUCHES
+    same_as: CONCERT-19791218-LES-BAINS-DOUCHES-PARIS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-12-18"
     evenement: >

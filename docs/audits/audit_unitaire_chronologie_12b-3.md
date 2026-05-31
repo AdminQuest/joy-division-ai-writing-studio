@@ -1031,3 +1031,94 @@ dont 62 canoniques). 2 warnings non bloquants, revus et bénins :
 Aucun invariant d'identité cassé (pas de doublon réel, pas de précision
 mensongère, pas de same_as brisé) : aucune correction requise.
 `build_registers --strict` errors=0 · sentinelle anti-drift OK.
+
+---
+
+# ANNEXE X — Migration des concerts vers le registre `CONCERT-` (étape 7b-2)
+
+> Mise à jour : 31/05/2026. Les `concert_a_migrer` ne sont plus de la
+> chronologie *active* : ils sont rattachés au registre concerts par `same_as`
+> (legacy chronologie → identité `CONCERT-<SLUG>`). **Additif, gel EVENT- intact.**
+
+## X.1. Réconciliation des 88 `concert_a_migrer`
+
+| Disposition | Nb | Détail |
+|---|---:|---|
+| **Migrés** (`same_as` → `CONCERT-`) | **69** | 56 matches jour-unique + 11 curés (mois/circa venue-unique ; même-jour désambiguïsé) + 2 nouveaux `CONCERT-` hors joydiv (Coach House Huddersfield 1978-09-28 ; Acklam Hall 1979-04-17) |
+| **Flaggés** (restent `concert_a_migrer`) | **19** | non-JD assistés (Sex Pistols ×2, Lou Reed), passage TV, divergences de date (Newcastle, Bowdon 1978), intervalles multi-soirs (Moonlight/Rainbow/Electric Circus), mois ambigus (Squat, Apollo), bundle multi-venue (Hope+Marquee) |
+
+Les 69 migrés portent désormais `categorie: concert_migre` ; les 19 restent
+`concert_a_migrer` (à trancher manuellement). **Ratio réel** : 88 entrées →
+**48 identités-concert** (46 déjà dans la spine joydiv + 2 nouvelles), nettement
+sous l'estimation chronologie-interne (88 → ~70) car la spine joydiv avait déjà
+dédoublonné les gigs. Doublons intra-chronologie (dont les 4 dup S41
+timeline/narratif) collapsés sur un seul `CONCERT-`.
+
+**YMCA résolu** : un seul lieu. « YMCA Tottenham Court Road » (année 1979) et
+« YMCA Prince of Wales Conference Centre » (1979-08-02) désignent le même gig
+(même affiche : Teardrop Explodes + Echo & the Bunnymen) → tous deux
+`same_as CONCERT-19790802-YMCA-LONDON`.
+
+## X.2. Scission des 4 bundles (`a_scinder_concert`)
+
+Composante GIG rattachée au `CONCERT-` existant (membres_reconcilies) ;
+composante jalon **inchangée** (`EVENT-`, gel) : Hope & Anchor (1978-12-27),
+Nashville Rooms (1979-08-13), Rainbow (1980-04-04), Marquee (1979-03-04). Les 4
+gigs étaient déjà dans la spine joydiv (aucun créé). Anomalie
+`CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW` (taggée sans `same_as`) résolue :
+`same_as` → `CONCERT-19781227-HOPE-AND-ANCHOR-LONDON` (sa facette « critique
+Sounds » n'est pas un `EVENT-`). Le lien `CONCERT-`↔`EVENT-` (même jour) est
+**différé à l'étape 12** (cross-registres).
+
+## X.3. Métadonnée
+
+Tag `a_scinder_etape_10` renommé **`a_scinder_concert`** (donnée + validateurs).
+
+## X.4. Comptes par catégorie (500 entrées)
+
+| Catégorie | Avant 7b-2 | **Après 7b-2** |
+|---|---:|---:|
+| `jalon` | 391 | 391 |
+| `concert_a_migrer` | 88 | **19** |
+| `concert_migre` | 0 | **69** |
+| `contexte` | 63 | 63 |
+| `reception_posthume` | 20 | 20 |
+
+`validate_chronology` : errors=0 (INV1 étendu aux cibles `CONCERT-` ; INV5 :
+`concert_migre` ⇒ `same_as` vers un `CONCERT-`). `validate_concerts` errors=0.
+
+---
+
+# ANNEXE XI — Clôture des résiduels concert_a_migrer (étape 7b-3)
+
+> Mise à jour : 31/05/2026. Vide `concert_a_migrer` des 19 résiduels de 7b-2 par
+> reclassement correct. **Gel EVENT- intact** (réconciliations one-way côté CHR-).
+
+## XI.1. Disposition des 19
+
+| Disposition | Nb | Détail |
+|---|---:|---|
+| → `contexte` | 3 | concerts d'autres artistes assistés (Sex Pistols ×2, Lou Reed) — pas des concerts JD |
+| → `jalon` + `same_as` EVENT- | 1 | passage TV *Something Else* → `EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE` |
+| → `concert_migre` + `same_as` CONCERT- (divergence consignée) | 2 | Newcastle (06-02 vs 06-06) → `CONCERT-19770606-NEWCASTLE-GUILDHALL` ; Bowdon (1978 vs 1979) → `CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB` |
+| → `jalon` (pas un concert) | 1 | période post-Pips (CHR-S41-1978-01-03-PIPS-AFTERGAP) |
+| → `jalon` + `liaison_multi_concert` (étape 12) | 7 | résidences/entrées multi-soirs ou multi-venue : Rainbow ×2, Moonlight ×2, clôture Electric Circus, Hope & Anchor + Marquee, séquence Squat |
+| reste `concert_a_migrer` + `a_resoudre` | 5 | vrais gigs JD à date imprécise/ambiguë : Squat/Jubilee, Oldham Tower, New Osbourne (City Fun), Band on the Wall (saison 1978), Apollo (1979-10) |
+
+## XI.2. Comptes par catégorie finaux (502 entrées)
+
+| Catégorie | 7b-2 | **7b-3 (final)** |
+|---|---:|---:|
+| `jalon` | 391 | **400** |
+| `concert_a_migrer` | 19 | **5** (tous `a_resoudre`) |
+| `concert_migre` | 69 | **71** |
+| `contexte` | 63 | **66** |
+| `reception_posthume` | 20 | **20** |
+
+`concert_a_migrer` ne contient plus que des **résidus explicites** `a_resoudre`
+(vrais concerts JD en attente d'un match confiant) ; tout le reste est reclassé.
+Résidus restants documentés : **5** `a_resoudre` + **7** `liaison_multi_concert`
+(étape 12) + côté concerts, **1** legacy joydiv (« Unknown venue » / Bradford).
+
+`validate_chronology` errors=0 (INV5 : `concert_migre` ⇒ `same_as` CONCERT- ;
+`a_resoudre` ⇒ `concert_a_migrer`). `validate_concerts` errors=0.

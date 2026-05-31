@@ -5606,7 +5606,7 @@
         "CHR-S76-1978-019",
         "CHR-S10-1978-007"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -5630,7 +5630,7 @@
         "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE",
         "CHR-S76-1979-019"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -5653,7 +5653,7 @@
         "CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
         "CHR-S75-1980-005"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -5679,7 +5679,7 @@
         "CHR-S76-1979-007",
         "CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -6796,8 +6796,9 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT",
+      "same_as": "CONCERT-19771002-ELECTRIC-CIRCUS",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "source_id": "S45",
       "date": "1977-10-02",
       "evenement": "Warsaw joue lors du week-end de fermeture annoncée de l’Electric Circus ; la performance donne lieu à une inclusion sur la compilation live Short Circuit.\n",
@@ -7005,8 +7006,9 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+      "same_as": "CONCERT-19781120-CHECK-INN-ALTRINCHAM",
       "date_precision": "mois",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "source_id": "S45",
       "date": "1978-11",
       "evenement": "Deborah assiste au concert du Check Inn à Altrincham et observe une forme de fandom dévotionnel autour de Ian Curtis.\n",
@@ -7031,7 +7033,7 @@
     "data": {
       "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "source_id": "S45",
@@ -7501,8 +7503,9 @@
     "heading": "CHR-S75-1977-002 — Electric Circus / « At a Later Date »",
     "data": {
       "id": "CHR-S75-1977-002",
+      "same_as": "CONCERT-19771002-ELECTRIC-CIRCUS",
       "date_precision": "circa",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1977-10",
       "precision_date": "approximate",
@@ -7634,8 +7637,9 @@
     "heading": "CHR-S75-1978-005 — Stiff/Chiswick Challenge à Rafter's",
     "data": {
       "id": "CHR-S75-1978-005",
+      "same_as": "CONCERT-19780414-RAFTERS-MANCHESTER",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1978-04-14",
       "precision_date": "exact",
@@ -7789,7 +7793,7 @@
     "data": {
       "id": "CHR-S75-1978-008",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8388,8 +8392,9 @@
     "heading": "CHR-S75-1979-011 — Plan K Bruxelles et rencontre / retrouvailles avec Annik Honoré",
     "data": {
       "id": "CHR-S75-1979-011",
+      "same_as": "CONCERT-19791016-PLAN-K-BRUSSELS",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-10-16",
       "precision_date": "exact",
@@ -8621,7 +8626,7 @@
     "data": {
       "id": "CHR-S75-1980-005",
       "same_as": "EVENT-CRISE-RAINBOW-THEATRE",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8710,8 +8715,9 @@
     "heading": "CHR-S75-1980-007 — Derby Hall, Bury",
     "data": {
       "id": "CHR-S75-1980-007",
+      "same_as": "CONCERT-19800408-DERBY-HALL-BURY",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-04-08",
       "precision_date": "exact",
@@ -9190,7 +9196,7 @@
     "data": {
       "id": "CHR-S76-1973-002",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "contexte",
       "type_unite": "chronology",
       "date": "1973-09-27",
       "precision_date": "exact",
@@ -9465,7 +9471,7 @@
     "data": {
       "id": "CHR-S76-1976-003",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "contexte",
       "type_unite": "chronology",
       "date": "1976-12-09",
       "precision_date": "exact",
@@ -9648,7 +9654,9 @@
     "data": {
       "id": "CHR-S76-1977-004",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
+      "same_as": "CONCERT-19770606-NEWCASTLE-GUILDHALL",
+      "prudence_methodologique": "Divergence consignée (7b-3) : S76 date ce concert de Newcastle au 1977-06-02 et le nomme « Town Hall annex » ; la spine joydiv le fixe au 1977-06-06 (Guildhall). Même gig de Warsaw (support Penetration) — date et nom de venue à recouper.",
       "type_unite": "chronology",
       "date": "1977-06-02",
       "precision_date": "exact",
@@ -9740,7 +9748,8 @@
       "date_precision": "intervalle",
       "date_debut": "1977-10-02",
       "date_fin": "1977-10-03",
-      "categorie": "concert_a_migrer",
+      "categorie": "jalon",
+      "liaison_multi_concert": true,
       "type_unite": "chronology",
       "date": "1977-10-02/1977-10-03",
       "precision_date": "range",
@@ -9790,8 +9799,9 @@
     "heading": "CHR-S76-1977-007 — Warsaw au Salford Technical College",
     "data": {
       "id": "CHR-S76-1977-007",
+      "same_as": "CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1977-10-07",
       "precision_date": "exact",
@@ -9878,8 +9888,9 @@
     "heading": "CHR-S76-1977-009 — Warsaw à Pipers / Cyprus Tavern",
     "data": {
       "id": "CHR-S76-1977-009",
+      "same_as": "CONCERT-19771019-PIPERS-CYPRUS-TAVERN",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1977-10-19",
       "precision_date": "exact",
@@ -9971,8 +9982,9 @@
     "heading": "CHR-S76-1977-011 — Warsaw au Spinning Apple, Liverpool",
     "data": {
       "id": "CHR-S76-1977-011",
+      "same_as": "CONCERT-19771231-SWINGING-APPLE-LIVERPOOL",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1977-12-31",
       "precision_date": "exact",
@@ -10069,7 +10081,9 @@
     "data": {
       "id": "CHR-S76-1978-002",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
+      "same_as": "CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB",
+      "prudence_methodologique": "Divergence consignée (7b-3) : S76 date Bowdon Vale au 1978-03-14 (en signalant lui-même l'incertitude des dates de cette période) ; le gig établi (filmé par Malcolm Whitehead) est au 1979-03-14. Probable erreur de millésime.",
       "type_unite": "chronology",
       "date": "1978-03-14",
       "precision_date": "exact",
@@ -10109,8 +10123,9 @@
     "heading": "CHR-S76-1978-003 — Stiff Test / Chiswick Challenge à Rafters",
     "data": {
       "id": "CHR-S76-1978-003",
+      "same_as": "CONCERT-19780414-RAFTERS-MANCHESTER",
       "date_precision": "circa",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1978-04",
       "precision_date": "month_or_approx",
@@ -10494,6 +10509,7 @@
       "id": "CHR-S76-1978-011",
       "date_precision": "saison",
       "categorie": "concert_a_migrer",
+      "a_resoudre": true,
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "spring_early_summer_1978",
@@ -10830,8 +10846,9 @@
     "heading": "CHR-S76-1978-018 — Eric’s Liverpool et premier rider avec Oz PA",
     "data": {
       "id": "CHR-S76-1978-018",
+      "same_as": "CONCERT-19780715-ERICS-LIVERPOOL",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1978-07-15",
       "precision_date": "exact",
@@ -10877,7 +10894,7 @@
     "data": {
       "id": "CHR-S76-1978-019",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -11111,7 +11128,8 @@
     "data": {
       "id": "CHR-S76-1979-008",
       "date_precision": "mois",
-      "categorie": "concert_a_migrer",
+      "categorie": "jalon",
+      "liaison_multi_concert": true,
       "type_unite": "chronology",
       "date": "1979-03",
       "precision_date": "early_march",
@@ -11152,8 +11170,9 @@
     "heading": "CHR-S76-1979-009 — Bowdon Vale Youth Club et iconisation Martin O’Neill",
     "data": {
       "id": "CHR-S76-1979-009",
+      "same_as": "CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-03-14",
       "precision_date": "exact",
@@ -11295,8 +11314,9 @@
     "heading": "CHR-S76-1979-012 — Joy Division à Acklam Hall après la naissance de Natalie",
     "data": {
       "id": "CHR-S76-1979-012",
+      "same_as": "CONCERT-19790417-ACKLAM-HALL-LONDON",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-04-17",
       "precision_date": "exact",
@@ -11432,8 +11452,9 @@
     "heading": "CHR-S76-1979-015 — Joy Division à l’Electric Ballroom",
     "data": {
       "id": "CHR-S76-1979-015",
+      "same_as": "CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-08-31",
       "precision_date": "exact",
@@ -11525,8 +11546,9 @@
     "heading": "CHR-S76-1979-017 — Futurama Leeds",
     "data": {
       "id": "CHR-S76-1979-017",
+      "same_as": "CONCERT-19790908-QUEENS-HALL-LEEDS",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-09-08",
       "precision_date": "exact",
@@ -11617,7 +11639,7 @@
     "data": {
       "id": "CHR-S76-1979-019",
       "same_as": "EVENT-RENCONTRE-ANNIK-HONORE",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -11751,6 +11773,7 @@
       "id": "CHR-S76-1979-022",
       "date_precision": "mois",
       "categorie": "concert_a_migrer",
+      "a_resoudre": true,
       "type_unite": "chronology",
       "date": "1979-10",
       "precision_date": "late_october",
@@ -11795,7 +11818,8 @@
       "date_precision": "intervalle",
       "date_debut": "1979-11-09",
       "date_fin": "1979-11-10",
-      "categorie": "concert_a_migrer",
+      "categorie": "jalon",
+      "liaison_multi_concert": true,
       "type_unite": "chronology",
       "date": "1979-11-09/1979-11-10",
       "precision_date": "exact_range",
@@ -11890,8 +11914,9 @@
     "heading": "CHR-S76-1979-025 — Les Bains-Douches, Paris",
     "data": {
       "id": "CHR-S76-1979-025",
+      "same_as": "CONCERT-19791218-LES-BAINS-DOUCHES-PARIS",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1979-12-18",
       "precision_date": "exact",
@@ -12066,8 +12091,9 @@
     "heading": "CHR-S76-1980-003 — Paradiso Amsterdam",
     "data": {
       "id": "CHR-S76-1980-003",
+      "same_as": "CONCERT-19800111-PARADISO-AMSTERDAM",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-01-11",
       "precision_date": "exact",
@@ -12114,8 +12140,9 @@
     "heading": "CHR-S76-1980-004 — Cologne Basement",
     "data": {
       "id": "CHR-S76-1980-004",
+      "same_as": "CONCERT-19800115-BASEMENT-COLOGNE",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-01-15",
       "precision_date": "exact",
@@ -12157,8 +12184,9 @@
     "heading": "CHR-S76-1980-005 — Plan K Bruxelles",
     "data": {
       "id": "CHR-S76-1980-005",
+      "same_as": "CONCERT-19800117-PLAN-K-BRUSSELS",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-01-17",
       "precision_date": "exact",
@@ -12203,8 +12231,9 @@
     "heading": "CHR-S76-1980-006 — Effenaar Eindhoven",
     "data": {
       "id": "CHR-S76-1980-006",
+      "same_as": "CONCERT-19800118-EFFENAAR-EINDHOVEN",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-01-18",
       "precision_date": "exact",
@@ -12248,8 +12277,9 @@
     "heading": "CHR-S76-1980-007 — High Wycombe Town Hall",
     "data": {
       "id": "CHR-S76-1980-007",
+      "same_as": "CONCERT-19800220-DERBY-HALL-BURY",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-02-20",
       "precision_date": "exact",
@@ -12382,8 +12412,9 @@
     "heading": "CHR-S76-1980-010 — Preston Warehouse",
     "data": {
       "id": "CHR-S76-1980-010",
+      "same_as": "CONCERT-19800228-WAREHOUSE-PRESTON",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-02-28",
       "precision_date": "exact",
@@ -12845,8 +12876,9 @@
     "heading": "CHR-S76-1980-020 — Moonlight Club, première date post-*Closer*",
     "data": {
       "id": "CHR-S76-1980-020",
+      "same_as": "CONCERT-19800402-MOONLIGHT-CLUB-LONDON",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-04-02",
       "precision_date": "exact",
@@ -12934,8 +12966,9 @@
     "heading": "CHR-S76-1980-022 — Moonlight Club, troisième date et mémoire de « Sister Ray »",
     "data": {
       "id": "CHR-S76-1980-022",
+      "same_as": "CONCERT-19800404-MOONLIGHT-CLUB-LONDON",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-04-04",
       "precision_date": "exact",
@@ -12979,8 +13012,9 @@
     "heading": "CHR-S76-1980-023 — Malvern Winter Gardens",
     "data": {
       "id": "CHR-S76-1980-023",
+      "same_as": "CONCERT-19800405-WINTER-GARDENS-MALVERN",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-04-05",
       "precision_date": "exact",
@@ -13022,8 +13056,9 @@
     "heading": "CHR-S76-1980-024 — Derby Hall Bury et remplacement vocal",
     "data": {
       "id": "CHR-S76-1980-024",
+      "same_as": "CONCERT-19800408-DERBY-HALL-BURY",
       "date_precision": "jour",
-      "categorie": "concert_a_migrer",
+      "categorie": "concert_migre",
       "type_unite": "chronology",
       "date": "1980-04-08",
       "precision_date": "exact",

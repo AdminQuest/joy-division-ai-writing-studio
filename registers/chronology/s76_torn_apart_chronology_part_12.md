@@ -47,6 +47,7 @@ notes: >
 id: CHR-S76-1979-022
 date_precision: mois
 categorie: concert_a_migrer
+a_resoudre: true
 type_unite: chronology
 date: 1979-10
 precision_date: late_october
@@ -85,7 +86,8 @@ id: CHR-S76-1979-023
 date_precision: intervalle
 date_debut: 1979-11-09
 date_fin: 1979-11-10
-categorie: concert_a_migrer
+categorie: jalon
+liaison_multi_concert: true
 type_unite: chronology
 date: 1979-11-09/1979-11-10
 precision_date: exact_range
@@ -168,8 +170,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-025
+same_as: CONCERT-19791218-LES-BAINS-DOUCHES-PARIS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-12-18
 precision_date: exact

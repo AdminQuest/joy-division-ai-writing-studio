@@ -284,7 +284,18 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
     if record_id.startswith("CHR-") or (
         record_id.startswith("EVENT-") and not re.match(r"EVENT-S\d+-", record_id)):
         return "chronology"
+    # Gabarits à identifiant-placeholder (ex. l'exemple README
+    # JD-CONCERT-YYYYMMDD-NNN) : exclus de l'ingestion comme le gabarit
+    # chronologie (bloc `schema: *_template`). Sinon le placeholder est
+    # ingéré comme un vrai concert (parasite de concerts.json).
+    if re.search(r"(YYYYMMDD|AAAAMMJJ|YYYY-MM-DD)", record_id):
+        return "template"
     if record_id.startswith("JD-CONCERT-"):
+        return "concert"
+    # CONCERT-<SLUG> = identité canonique source-agnostique du registre concerts
+    # (étape 7b). Les entrées legacy JD-CONCERT- (joydiv) gardent leur schéma
+    # propre et se réconcilient par same_as.
+    if record_id.startswith("CONCERT-"):
         return "concert"
     if record_id.startswith("JD-SESSION-"):
         return "session"

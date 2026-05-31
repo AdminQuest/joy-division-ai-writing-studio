@@ -6,7 +6,7 @@ chronology:
     date_precision: intervalle
     date_debut: 1978-01
     date_fin: 1978-03
-    categorie: concert_a_migrer
+    categorie: jalon
     source_id: S41
     date: "1978-01/1978-03"
     evenement: >
@@ -18,8 +18,9 @@ chronology:
     statut: séquence de management à croiser avec gig lists
 
   - id: CHR-S41-1978-04-14-STIFF-CHISWICK-RAFTERS
+    same_as: CONCERT-19780414-RAFTERS-MANCHESTER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-04-14"
     evenement: >
@@ -80,8 +81,9 @@ chronology:
     statut: source-cadre Hook ; détails précis à croiser avec Joydiv.org/sessionographies
 
   - id: CHR-S41-1978-05-20-MAYFLOWER-TRANSMISSION
+    same_as: CONCERT-19780520-STONEGROUND-MAYFLOWER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-05-20"
     evenement: >
@@ -96,8 +98,9 @@ chronology:
     statut: événement live établi ; réaction du soundcheck à croiser si possible
 
   - id: CHR-S41-1978-06-09-FIRST-FACTORY-RUSSELL-CLUB
+    same_as: CONCERT-19780609-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -172,8 +175,9 @@ chronology:
     statut: archive audiovisuelle établie
 
   - id: CHR-S41-1978-09-28-COACH-HOUSE-HUDDERSFIELD
+    same_as: CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-09-28"
     evenement: >

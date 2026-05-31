@@ -17,9 +17,9 @@ Invariants (cf. cahier des charges étape 6) :
   4. Honnêteté de date_precision : précision déclarée <= granularité réelle de
      la date (jour => AAAA-MM-JJ complet ; annee => pas de faux mois/jour) ;
      cohérence précision vs intervalle.
-  5. Catégorie : EVENT- canoniques en `jalon` ; `a_scinder_etape_10` =>
-     `concert_a_migrer` ou flaggé ; `contexte`/`reception_posthume` sans
-     canonique (pas de same_as).
+  5. Catégorie : EVENT- canoniques en `jalon` ; `a_scinder_concert` =>
+     `concert_a_migrer` ou jalon ; `contexte`/`reception_posthume` sans
+     canonique (pas de same_as) ; `concert_migre` => same_as vers un CONCERT-.
 """
 from __future__ import annotations
 
@@ -77,6 +77,24 @@ def load_records():
     return records, canonicals
 
 
+def load_concert_ids():
+    """Identités canoniques CONCERT- (registre concerts) — cibles cross-registres
+    légitimes d'un `same_as` porté par une entrée chronologie concert (étape 7b-2)."""
+    ids = set()
+    cdir = CHRONO_DIR.parent / "concerts"
+    for f in glob.glob(str(cdir / "*.md")):
+        for blk in FENCE.findall(Path(f).read_text(encoding="utf-8")):
+            try:
+                d = yaml.safe_load(blk)
+            except Exception:
+                continue
+            items = d if isinstance(d, list) else [d]
+            for it in items:
+                if isinstance(it, dict) and str(it.get("id", "")).startswith("CONCERT-"):
+                    ids.add(str(it["id"]))
+    return ids
+
+
 def real_granularity(date_str):
     """Granularité réelle d'une chaîne de date -> rang PREC_RANK (jour/mois/annee)
     ou 'intervalle' / None (indéterminé : prose)."""
@@ -114,6 +132,7 @@ def validate():
     records, canon = load_records()
     diags = []
     canon_ids = set(canon)
+    concert_ids = load_concert_ids()
 
     # ---- Invariant 1 : same_as ------------------------------------------- #
     member_to_canon = defaultdict(list)  # member id -> [canonical ids declaring it]
@@ -135,6 +154,15 @@ def validate():
         sa = str(sa)
         if rid.startswith("EVENT-"):
             diags.append(Diag("error", "INV1-chain", rid, "un canonique ne doit pas porter de same_as (pas de chaîne)"))
+        # Cross-registres (étape 7b-2) : une entrée chronologie « concert » peut
+        # porter un same_as vers une identité CONCERT- (migration vers le registre
+        # concerts), pas seulement vers un EVENT-. On valide l'existence de la
+        # cible CONCERT- et on sort (les invariants membre/chaîne sont propres au
+        # graphe EVENT-).
+        if sa.startswith("CONCERT-"):
+            if sa not in concert_ids:
+                diags.append(Diag("error", "INV1-target-concert", rid, f"same_as cible un CONCERT- inexistant : {sa}"))
+            continue
         if sa not in canon_ids:
             diags.append(Diag("error", "INV1-target", rid, f"same_as cible un EVENT- inexistant : {sa}"))
         elif canon[sa].get("same_as"):
@@ -208,10 +236,20 @@ def validate():
     for r in records:
         rid = str(r["id"])
         cat = str(r.get("categorie") or "")
-        if r.get("a_scinder_etape_10") and cat not in ("concert_a_migrer", "jalon"):
-            diags.append(Diag("warning", "INV5-scinder", rid, f"a_scinder_etape_10 mais categorie={cat}"))
+        if r.get("a_scinder_concert") and cat not in ("concert_a_migrer", "jalon"):
+            diags.append(Diag("warning", "INV5-scinder", rid, f"a_scinder_concert mais categorie={cat}"))
         if cat in ("contexte", "reception_posthume") and r.get("same_as"):
             diags.append(Diag("error", "INV5-cat-canon", rid, f"{cat} ne doit pas porter de same_as vers un EVENT-"))
+        # concert_migre (étape 7b-2) : entrée concert réconciliée vers le registre
+        # concerts -> DOIT porter un same_as vers un CONCERT-.
+        if cat == "concert_migre":
+            sa = str(r.get("same_as") or "")
+            if not sa.startswith("CONCERT-"):
+                diags.append(Diag("error", "INV5-migre", rid, "concert_migre sans same_as vers un CONCERT-"))
+        # a_resoudre (étape 7b-3) : résidu de concert non réconcilié -> ne se pose
+        # que sur un concert_a_migrer (vrai gig JD en attente de match confiant).
+        if r.get("a_resoudre") and cat != "concert_a_migrer":
+            diags.append(Diag("warning", "INV5-aresoudre", rid, f"a_resoudre mais categorie={cat}"))
 
     return diags, len(records), len(canon)
 

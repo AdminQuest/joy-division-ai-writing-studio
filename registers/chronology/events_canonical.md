@@ -1215,7 +1215,7 @@ membres_reconcilies:
   - CHR-S76-1978-019
   - CHR-S10-1978-007
 prudence_methodologique: >
-  Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_etape_10.
+  Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_concert.
 ```
 
 ---
@@ -1237,7 +1237,7 @@ membres_reconcilies:
   - CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
   - CHR-S76-1979-019
 prudence_methodologique: >
-  Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_etape_10.
+  Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_concert.
 ```
 
 ---
@@ -1258,7 +1258,7 @@ membres_reconcilies:
   - CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
   - CHR-S75-1980-005
 prudence_methodologique: >
-  Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_etape_10.
+  Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_concert.
 ```
 
 ---
@@ -1282,7 +1282,7 @@ membres_reconcilies:
   - CHR-S76-1979-007
   - CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS
 prudence_methodologique: >
-  Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_etape_10.
+  Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_concert.
 ```
 
 ---

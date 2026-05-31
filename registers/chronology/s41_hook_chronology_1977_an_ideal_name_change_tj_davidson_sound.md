@@ -129,6 +129,7 @@ chronology:
   - id: CHR-S41-1977-OLDHAM-TOWER-CLUB-NO-AUDIENCE
     date_precision: annee
     categorie: concert_a_migrer
+    a_resoudre: true
     source_id: S41
     date: "1977"
     evenement: >
@@ -140,8 +141,9 @@ chronology:
     statut: non listé ; souvenir Hook
 
   - id: CHR-S41-1977-12-31-SWINGING-APPLE
+    same_as: CONCERT-19771231-SWINGING-APPLE-LIVERPOOL
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1977-12-31"
     evenement: >

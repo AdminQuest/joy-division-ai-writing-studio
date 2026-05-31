@@ -97,7 +97,8 @@ notes: >
 ```yaml
 id: CHR-S76-1979-008
 date_precision: mois
-categorie: concert_a_migrer
+categorie: jalon
+liaison_multi_concert: true
 type_unite: chronology
 date: 1979-03
 precision_date: early_march
@@ -132,8 +133,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-009
+same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-03-14
 precision_date: exact

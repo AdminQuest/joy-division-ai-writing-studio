@@ -8,8 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-007
+same_as: CONCERT-19800220-DERBY-HALL-BURY
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-02-20
 precision_date: exact
@@ -124,8 +125,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-010
+same_as: CONCERT-19800228-WAREHOUSE-PRESTON
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-02-28
 precision_date: exact

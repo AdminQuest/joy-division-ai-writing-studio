@@ -6,7 +6,8 @@ chronology:
     date_precision: intervalle
     date_debut: 1980-04-02
     date_fin: 1980-04-03
-    categorie: concert_a_migrer
+    categorie: jalon
+    liaison_multi_concert: true
     source_id: S41
     date: "1980-04-02/1980-04-03"
     evenement: >
@@ -36,8 +37,9 @@ chronology:
     statut: réception industrielle rapportée par Hook
 
   - id: CHR-S41-1980-04-04-RAINBOW-THEATRE-STRANGLERS-FRIENDS
+    same_as: CONCERT-19800404-RAINBOW-THEATRE-LONDON
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-04"
     evenement: >
@@ -53,7 +55,7 @@ chronology:
 
   - id: CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
     same_as: EVENT-CRISE-RAINBOW-THEATRE
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -68,8 +70,9 @@ chronology:
     statut: événement médical à croiser avec S45 et autres témoignages
 
   - id: CHR-S41-1980-04-08-BURY-TOWN-HALL
+    same_as: CONCERT-19800408-DERBY-HALL-BURY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-08"
     evenement: >
@@ -128,8 +131,9 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
+    same_as: CONCERT-19800419-AJANTA-THEATRE-DERBY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-19"
     evenement: >

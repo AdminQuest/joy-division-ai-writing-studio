@@ -76,6 +76,10 @@ window.DynamicRegisters = (() => {
     // qui ne sont pas des jalons canoniques. La frise sait désormais rendre ce
     // modèle (label/categorie/date_precision), donc plus de cartes vides.
     if (id.startsWith('CHR-') || (id.startsWith('EVENT-') && !/^EVENT-S\d+-/.test(id))) return 'chronology';
+    // Registre des concerts (étape 7) : identité canonique CONCERT-<SLUG> et
+    // legacy joydiv JD-CONCERT-… ; tous deux kind 'concert' (la page concerts
+    // les charge ; ils ne polluent pas la frise chronologie).
+    if (id.startsWith('CONCERT-') || id.startsWith('JD-CONCERT-')) return 'concert';
     if (id.startsWith('ACT-') || id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
     if (id.startsWith('PLACE-') || /places\//.test(file)) return 'place';
     if (id.startsWith('ORG-') || /organizations\//.test(file)) return 'organization';
@@ -125,7 +129,24 @@ window.DynamicRegisters = (() => {
       const heading = nearestHeading(markdown, m.index);
       let loaded;
       try { loaded = yaml.load(m[1]); } catch { continue; }
-      if (!loaded || typeof loaded !== 'object' || Array.isArray(loaded)) continue;
+      if (!loaded || typeof loaded !== 'object') continue;
+      // Bloc YAML à LISTE de premier niveau (`- id: …`) : chaque item est un
+      // enregistrement (parité avec le parseur Python build_registers, qui
+      // accepte cette forme). Cas du registre concerts (concert_canonical_units*
+      // et 00_canonical_concerts) où les entrées sont des items de liste, pas des
+      // valeurs d'une clé conteneur. Sans cette branche, ces blocs étaient
+      // silencieusement ignorés côté runtime.
+      if (Array.isArray(loaded)) {
+        loaded.forEach(item => {
+          if (item && typeof item === 'object' && !Array.isArray(item)) {
+            if (contextSourceId && !item.source_id && !item.source_ids && !item.sources) {
+              item = { ...item, source_id: contextSourceId };
+            }
+            out.push(normalizeRecord(item, path, heading));
+          }
+        });
+        continue;
+      }
       // Document header: has source_id but no record id → capture context, don't emit
       if (loaded.source_id && !loaded.id) {
         contextSourceId = text(loaded.source_id);

@@ -66,7 +66,7 @@ chronology:
 
   - id: CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
     same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -81,8 +81,9 @@ chronology:
     statut: repère à croiser avec sessionographies
 
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD-FILM
+    same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-03-14"
     evenement: >
@@ -192,8 +193,9 @@ chronology:
     statut: session single établie
 
   - id: CHR-S41-1979-08-02-YMCA-LONDON
+    same_as: CONCERT-19790802-YMCA-LONDON
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-08-02"
     evenement: >
@@ -207,7 +209,7 @@ chronology:
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
     same_as: EVENT-RENCONTRE-ANNIK-HONORE
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -224,8 +226,9 @@ chronology:
     statut: repère biographique et live établi
 
   - id: CHR-S41-1979-09-08-FUTURAMA-LEEDS
+    same_as: CONCERT-19790908-QUEENS-HALL-LEEDS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-09-08"
     evenement: >
@@ -253,7 +256,8 @@ chronology:
 
   - id: CHR-S41-1979-09-15-SOMETHING-ELSE
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: jalon
+    same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
     source_id: S41
     date: "1979-09-15"
     evenement: >

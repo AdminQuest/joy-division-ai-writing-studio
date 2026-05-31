@@ -14,6 +14,13 @@ SCHEMA_REQUIRED_FIELDS = {
     # (portés par les membres legacy, atteignables par same_as). La contrainte
     # temporelle (date XOR date_debut+date_fin) est vérifiée à part.
     'chronology_event': ['id','type_unite','label','date_precision','membres_reconcilies'],
+    # Identité canonique de concert (registre concerts, étape 7b). Discriminée
+    # par le préfixe d'ID CONCERT- (les entrées legacy JD-CONCERT- gardent leur
+    # schéma joydiv propre — cf. validate_against_schema). `lieu` est une réf
+    # PLACE- ; la contrainte temporelle (date XOR date_debut+date_fin) et la
+    # non-vacuité de `membres_reconcilies` sont vérifiées à part. `statut` est
+    # optionnel (présent pour les concerts annulés).
+    'concert': ['id','type_unite','label','date_precision','lieu','membres_reconcilies'],
     'person': ['id','name','role','sources'],
     'song': ['song','themes','sources','chapters']
 }
@@ -69,19 +76,26 @@ def validate_against_schema(kind: str, data: Dict[str, Any]) -> List[str]:
     if kind == 'chronology' and str(data.get('id', '')).startswith('EVENT-'):
         schema_key = 'chronology_event'
 
+    # Le kind `concert` couvre deux schémas : l'identité canonique CONCERT-
+    # (validée ici) et le legacy JD-CONCERT- (schéma joydiv propre, NON validé
+    # par ce module — il a son schemas/concert_v1.yaml). On ne contraint donc
+    # que les ID canoniques CONCERT-.
+    if kind == 'concert' and not str(data.get('id', '')).startswith('CONCERT-'):
+        return diagnostics
+
     for key in SCHEMA_REQUIRED_FIELDS.get(schema_key, []):
         if key not in data:
             diagnostics.append(f'Missing required field: {key}')
 
-    if schema_key == 'chronology_event':
+    if schema_key in ('chronology_event', 'concert'):
         has_date = 'date' in data
         has_interval = 'date_debut' in data and 'date_fin' in data
         if has_date == has_interval:
             diagnostics.append(
-                'chronology_event requires exactly one of `date` or `date_debut`+`date_fin`')
+                f'{schema_key} requires exactly one of `date` or `date_debut`+`date_fin`')
         membres = data.get('membres_reconcilies')
         if not isinstance(membres, list) or len(membres) < 1:
-            diagnostics.append('chronology_event: `membres_reconcilies` must be a non-empty list')
+            diagnostics.append(f'{schema_key}: `membres_reconcilies` must be a non-empty list')
 
     for field_name in LIST_FIELDS:
         if field_name in data and not isinstance(data[field_name], list):

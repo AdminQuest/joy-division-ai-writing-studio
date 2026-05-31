@@ -6,7 +6,8 @@ chronology:
     date_precision: intervalle
     date_debut: 1980-04-02
     date_fin: 1980-04-04
-    categorie: concert_a_migrer
+    categorie: jalon
+    liaison_multi_concert: true
     source_id: S45
     date: "1980-04-02/1980-04-04"
     evenement: >
@@ -54,8 +55,9 @@ chronology:
     statut: événement établi ; bootleg / enregistrement Harry Demac à indexer
 
   - id: CHR-S45-1980-04-11-FACTORY-REOPENED
+    same_as: CONCERT-19800411-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S45
     date: "1980-04-11"
     evenement: >

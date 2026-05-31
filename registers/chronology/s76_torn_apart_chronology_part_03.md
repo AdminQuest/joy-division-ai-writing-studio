@@ -52,7 +52,7 @@ notes: >
 ```yaml
 id: CHR-S76-1976-003
 date_precision: jour
-categorie: concert_a_migrer
+categorie: contexte
 type_unite: chronology
 date: 1976-12-09
 precision_date: exact
@@ -209,7 +209,9 @@ notes: >
 ```yaml
 id: CHR-S76-1977-004
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
+same_as: CONCERT-19770606-NEWCASTLE-GUILDHALL
+prudence_methodologique: "Divergence consignée (7b-3) : S76 date ce concert de Newcastle au 1977-06-02 et le nomme « Town Hall annex » ; la spine joydiv le fixe au 1977-06-06 (Guildhall). Même gig de Warsaw (support Penetration) — date et nom de venue à recouper."
 type_unite: chronology
 date: 1977-06-02
 precision_date: exact
@@ -289,7 +291,8 @@ id: CHR-S76-1977-006
 date_precision: intervalle
 date_debut: 1977-10-02
 date_fin: 1977-10-03
-categorie: concert_a_migrer
+categorie: jalon
+liaison_multi_concert: true
 type_unite: chronology
 date: 1977-10-02/1977-10-03
 precision_date: range
