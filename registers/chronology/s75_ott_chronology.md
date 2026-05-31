@@ -124,6 +124,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-003
+same_as: EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES
 date_precision: circa
 categorie: jalon
 type_unite: chronology
@@ -163,6 +164,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-004
+same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
 date_precision: circa
 categorie: jalon
 type_unite: chronology
@@ -237,6 +239,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-006
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
 date_precision: intervalle
 date_debut: 1978-05-01
 date_fin: 1978-05-05

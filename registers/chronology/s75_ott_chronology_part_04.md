@@ -84,6 +84,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-010
+same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
 date_precision: circa
 categorie: jalon
 type_unite: chronology

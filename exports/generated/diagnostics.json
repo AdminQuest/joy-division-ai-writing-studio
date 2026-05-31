@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-31T05:43:02",
+  "generated_at": "2026-05-31T06:06:31",
   "status": "warning",
   "summary": {
-    "records_total": 7705,
+    "records_total": 7728,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -12,7 +12,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 501,
+      "chronology": 524,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30094,
+    "diagnostics_total": 30140,
     "errors": 0,
-    "warnings": 30094,
+    "warnings": 30140,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -408,10 +408,10 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 63,
+        "records": 69,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 4,
+        "chronology": 10,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
@@ -893,10 +893,10 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 591,
+        "records": 610,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 29,
+        "chronology": 48,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1010,10 +1010,10 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 369,
+        "records": 376,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 52,
+        "chronology": 59,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1569,10 +1569,10 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 197,
+        "records": 201,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 40,
+        "chronology": 44,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
@@ -1602,10 +1602,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 627,
+        "records": 636,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 114,
+        "chronology": 123,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -153212,6 +153212,282 @@
       "file": "registers/chronology/events_canonical.md",
       "message": "Missing required field: certainty",
       "record_id": "EVENT-CONCERT-DERBY-HALL-BURY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-NAISSANCE-BERNARD-SUMNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-NAISSANCE-BERNARD-SUMNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-NAISSANCE-PETER-HOOK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-NAISSANCE-PETER-HOOK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-MARIAGE-IAN-DEBORAH-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-MARIAGE-IAN-DEBORAH-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-INSTALLATION-TJ-DAVIDSONS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-INSTALLATION-TJ-DAVIDSONS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-DEPART-TONY-TABAC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-DEPART-TONY-TABAC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SORTIE-SHORT-CIRCUIT-LIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SORTIE-SHORT-CIRCUIT-LIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-ROB-GRETTON-DEVIENT-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-ROB-GRETTON-DEVIENT-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-PREMIERE-SOIREE-FACTORY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-PREMIERE-SOIREE-FACTORY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSION-PICCADILLY-RADIO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSION-PICCADILLY-RADIO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SEANCE-PHOTO-CORBIJN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SEANCE-PHOTO-CORBIJN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-POCHETTE-CLOSER-STAGLIENO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-POCHETTE-CLOSER-STAGLIENO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-FUNERAILLES-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-FUNERAILLES-IAN-CURTIS"
     },
     {
       "level": "warning",

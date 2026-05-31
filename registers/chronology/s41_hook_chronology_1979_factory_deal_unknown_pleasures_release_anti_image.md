@@ -94,6 +94,7 @@ chronology:
     statut: réception presse à croiser avec NME / Melody Maker
 
   - id: CHR-S41-1979-06-PICCADILLY-RADIO-CHANCE-ATROCITY
+    same_as: EVENT-SESSION-PICCADILLY-RADIO
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -125,6 +126,7 @@ chronology:
     statut: session à croiser avec discographies
 
   - id: CHR-S41-1979-GRANADA-WHATS-ON-SLC
+    same_as: EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL
     date_precision: annee
     categorie: jalon
     source_id: S41

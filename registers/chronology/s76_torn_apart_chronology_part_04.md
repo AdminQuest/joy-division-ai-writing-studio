@@ -123,6 +123,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-010
+same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
 date_precision: jour
 categorie: jalon
 type_unite: chronology

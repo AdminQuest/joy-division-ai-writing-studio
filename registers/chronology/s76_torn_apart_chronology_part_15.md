@@ -130,6 +130,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-019
+same_as: EVENT-POCHETTE-CLOSER-STAGLIENO
 date_precision: circa
 categorie: jalon
 type_unite: chronology

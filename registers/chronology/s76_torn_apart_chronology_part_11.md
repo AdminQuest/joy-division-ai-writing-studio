@@ -204,6 +204,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-016
+same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
 date_precision: jour
 categorie: jalon
 type_unite: chronology

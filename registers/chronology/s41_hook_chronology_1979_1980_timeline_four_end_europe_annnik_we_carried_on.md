@@ -59,6 +59,7 @@ chronology:
     statut: concert et ethos live à croiser
 
   - id: CHR-S41-1979-11-CORBIJN-PHOTO-SESSION
+    same_as: EVENT-SEANCE-PHOTO-CORBIJN
     date_precision: mois
     categorie: jalon
     source_id: S41

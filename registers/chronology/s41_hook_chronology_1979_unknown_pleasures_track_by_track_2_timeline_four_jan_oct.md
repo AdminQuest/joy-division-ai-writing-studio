@@ -19,6 +19,7 @@ chronology:
     statut: sortie discographique établie
 
   - id: CHR-S41-1979-01-06-CUMMINS-PRINCESS-PARKWAY
+    same_as: EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -141,6 +142,7 @@ chronology:
     statut: sortie discographique établie
 
   - id: CHR-S41-1979-06-04-PICCADILLY-RADIO
+    same_as: EVENT-SESSION-PICCADILLY-RADIO
     date_precision: jour
     categorie: jalon
     source_id: S41

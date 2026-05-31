@@ -78,6 +78,7 @@ chronology:
     statut: citation presse à vérifier dans original
 
   - id: CHR-S41-1976-12-CURTIS-JOINS
+    same_as: EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR
     date_precision: mois
     categorie: jalon
     source_id: S41

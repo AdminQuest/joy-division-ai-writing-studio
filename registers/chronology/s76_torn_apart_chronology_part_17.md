@@ -292,6 +292,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-033
+same_as: EVENT-FUNERAILLES-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology

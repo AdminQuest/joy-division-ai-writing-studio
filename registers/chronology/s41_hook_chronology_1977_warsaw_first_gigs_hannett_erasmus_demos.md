@@ -60,6 +60,7 @@ chronology:
     statut: événement établi par gig lists
 
   - id: CHR-S41-1977-06-25-TONY-TABAC-LAST-GIG
+    same_as: EVENT-DEPART-TONY-TABAC
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -163,6 +164,7 @@ chronology:
     statut: événement établi ; lien bootleg à indexer
 
   - id: CHR-S41-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+    same_as: EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS
     date_precision: jour
     categorie: jalon
     source_id: S41

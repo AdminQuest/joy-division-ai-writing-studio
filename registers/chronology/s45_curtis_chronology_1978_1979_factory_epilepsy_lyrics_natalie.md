@@ -104,6 +104,7 @@ statut: événement médiatique établi
 
 ```yaml
 id: CHR-S45-1979-01-PEEL-SESSION-1
+same_as: EVENT-PREMIERE-PEEL-SESSION
 date_precision: mois
 categorie: jalon
 source_id: S45

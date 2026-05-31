@@ -163,6 +163,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1975-001
+same_as: EVENT-MARIAGE-IAN-DEBORAH-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology

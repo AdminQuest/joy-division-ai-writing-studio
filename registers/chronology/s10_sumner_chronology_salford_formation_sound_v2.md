@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S10-1956-001
+    same_as: EVENT-NAISSANCE-BERNARD-SUMNER
     date_precision: jour
     categorie: jalon
     date: 1956-01-04
@@ -76,6 +77,7 @@ events:
       - S10-A004
 
   - id: CHR-S10-1970S-002
+    same_as: EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR
     date_precision: circa
     categorie: jalon
     date: "début des années 1970"
@@ -94,7 +96,7 @@ events:
 
   - id: CHR-S10-1970-001
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1970
     precision_date: annee
     event: "La mort de Jimi Hendrix pousse Sumner à réécouter son œuvre jusqu’au déclic musical."
@@ -165,6 +167,7 @@ events:
       - S10-A012
 
   - id: CHR-S10-1976-003
+    same_as: EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR
     date_precision: circa
     categorie: jalon
     date: "fin 1976"
@@ -233,6 +236,7 @@ events:
       - S10-A016
 
   - id: CHR-S10-1978-003
+    same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
     date_precision: annee
     categorie: jalon
     date: 1978
@@ -250,6 +254,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-004
+    same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
     date_precision: annee
     categorie: jalon
     date: 1978
@@ -281,6 +286,7 @@ events:
       - S10-A017
 
   - id: CHR-S10-1978-006
+    same_as: EVENT-SORTIE-A-FACTORY-SAMPLE
     date_precision: saison
     categorie: jalon
     date: "Noël 1978"

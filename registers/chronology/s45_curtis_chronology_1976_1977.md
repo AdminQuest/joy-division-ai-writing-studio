@@ -27,7 +27,7 @@ statut: événement établi ; interprétation mémorielle à encadrer
 ```yaml
 id: CHR-S45-1976-08-MONT-DE-MARSAN
 date_precision: mois
-categorie: jalon
+categorie: contexte
 source_id: S45
 date: 1976-08
 evenement: >

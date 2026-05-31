@@ -89,7 +89,8 @@ CANON = {
     "EVENT-SORTIE-A-FACTORY-SAMPLE": dict(
         date="1979-01", precision="mois",
         label="Sortie de A Factory Sample (FAC 2)",
-        members=["CHR-1979-001", "CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE"]),
+        members=["CHR-1979-001", "CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE",
+                 "CHR-S10-1978-006"]),
     "EVENT-SORTIE-UNKNOWN-PLEASURES": dict(
         date="1979-06-14", precision="jour",
         label="Sortie de l'album Unknown Pleasures (FACT 10)",
@@ -143,12 +144,15 @@ CANON = {
                   "Gretton (CHR-S41-TL3-1978-05-GRETTON-MANAGER) sont des "
                   "événements distincts, non fusionnés ici."),
         members=["CHR-1978-001", "CHR-S41-1978-05-ARROW-STUDIOS-RCA",
-                 "CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS", "CHR-S76-1978-005"]),
+                 "CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS", "CHR-S76-1978-005",
+                 "CHR-S45-1978-04-RCA-ARROW", "CHR-S75-1978-006",
+                 "CHR-S10-1978-003"]),
     "EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY": dict(
         date="1978-09-20", precision="jour",
         label="Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »)",
         members=["CHR-S10-1978-005", "CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY",
-                 "CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY"]),
+                 "CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY",
+                 "CHR-S45-1978-GRANADA-SHADOWPLAY"]),
     "EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO": dict(
         date="1978-10-11", precision="jour",
         label="Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios)",
@@ -168,7 +172,7 @@ CANON = {
         date="1979-01-31", precision="jour",
         label="Première John Peel Session de Joy Division",
         members=["CHR-S41-1979-01-31-FIRST-PEEL-SESSION", "CHR-S75-1979-002",
-                 "CHR-S76-1979-006"]),
+                 "CHR-S76-1979-006", "CHR-S45-1979-01-PEEL-SESSION-1"]),
     "EVENT-NAISSANCE-NATALIE-CURTIS": dict(
         date="1979-04-16", precision="jour",
         label="Naissance de Natalie Curtis",
@@ -196,6 +200,168 @@ CANON = {
         date="1980-04-08", precision="jour",
         label="Concert du Derby Hall, Bury (interrompu, état critique de Curtis)",
         members=["CHR-1980-001", "CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT"]),
+
+    # --- 3e passe : B1 (singletons-ancres) + flags tranchés + B2 (clusters) --- #
+    # Biographie / formation
+    "EVENT-NAISSANCE-BERNARD-SUMNER": dict(
+        date="1956-01-04", precision="jour", label="Naissance de Bernard Sumner",
+        members=["CHR-S10-1956-001"]),
+    "EVENT-NAISSANCE-PETER-HOOK": dict(
+        date="1956-02-13", precision="jour", label="Naissance de Peter Hook",
+        members=["CHR-S41-1956-HOOK-BIRTH-SALFORD"]),
+    "EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR": dict(
+        date="1967", precision="annee",
+        label="Rencontre de Bernard Sumner et Peter Hook (Salford Grammar School)",
+        prudence="Datation divergente : S41 « 1967 » ; S10 « début des années 1970 ».",
+        members=["CHR-S41-1967-SALFORD-GRAMMAR-MEETS-SUMNER", "CHR-S10-1970S-002"]),
+    "EVENT-MARIAGE-IAN-DEBORAH-CURTIS": dict(
+        date="1975-08-23", precision="jour",
+        label="Mariage de Ian Curtis et Deborah Woodruff",
+        members=["CHR-S76-1975-001"]),
+    "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR": dict(
+        date="1976-12", precision="mois",
+        label="Ian Curtis devient le chanteur du groupe",
+        prudence="S10 situe le recrutement via une annonce déposée chez Virgin (fin 1976).",
+        members=["CHR-S41-1976-12-CURTIS-JOINS", "CHR-S10-1976-003"]),
+    # Nom
+    "EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION": dict(
+        date="1977-12", precision="mois",
+        label="Changement de nom : Warsaw devient Joy Division",
+        prudence="La collision avec « Warsaw Pakt » (CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION) est la cause documentée du changement.",
+        members=["CHR-S41-1977-JOY-DIVISION-NAME-STABILIZED",
+                 "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE",
+                 "CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION"]),
+    # Lieu de répétition
+    "EVENT-INSTALLATION-TJ-DAVIDSONS": dict(
+        date="1977", precision="annee",
+        label="Installation du groupe à T. J. Davidson's (local de répétition)",
+        members=["CHR-S41-1977-TJ-DAVIDSONS-PRACTICE-ROOM", "CHR-S76-1978-017"]),
+    # Line-up
+    "EVENT-DEPART-TONY-TABAC": dict(
+        date="1977-06-25", precision="jour",
+        label="Départ de Tony Tabac (batterie)",
+        members=["CHR-S41-1977-06-25-TONY-TABAC-LAST-GIG"]),
+    # An Ideal for Living
+    "EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING": dict(
+        date="1977-12", precision="mois",
+        label="Enregistrement de l'EP An Ideal for Living (Pennine Sound)",
+        members=["CHR-S41-1977-PENNINE-AN-IDEAL-SESSION", "CHR-S45-1977-12-PENNINE-AN-IDEAL",
+                 "CHR-S41-TL2-1977-12-14-AN-IDEAL-SESSIONS", "CHR-S76-1977-010",
+                 "CHR-S10-1978-004"]),
+    "EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES": dict(
+        date="1978-06-03", precision="jour",
+        label="Sortie de An Ideal for Living, 7 pouces original (Enigma PSS 139)",
+        members=["CHR-S41-TL3-1978-06-03-AN-IDEAL-SEVEN-INCH", "CHR-S75-1978-003"]),
+    "EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES": dict(
+        date="1978-10-10", precision="jour",
+        label="Réédition de An Ideal for Living en 12 pouces (Anonymous ANON1)",
+        members=["CHR-S41-TL3-1978-10-10-AN-IDEAL-TWELVE-INCH",
+                 "CHR-S41-1978-06-AIL-12-INCH-RABID", "CHR-S75-1978-004",
+                 "CHR-S76-1978-010"]),
+    # Short Circuit
+    "EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS": dict(
+        date="1977-10-02", precision="jour",
+        label="Captation pour Short Circuit (dernière soirée de l'Electric Circus)",
+        members=["CHR-S41-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT",
+                 "CHR-S41-TL2-1977-10-02-SHORT-CIRCUIT-COLD-ENTRY"]),
+    "EVENT-SORTIE-SHORT-CIRCUIT-LIVE": dict(
+        date="1978-06-09", precision="jour",
+        label="Sortie de Short Circuit – Live at the Electric Circus",
+        members=["CHR-S41-TL3-1978-06-09-SHORT-CIRCUIT"]),
+    # Management / Factory
+    "EVENT-ROB-GRETTON-DEVIENT-MANAGER": dict(
+        date="1978-05", precision="mois",
+        label="Rob Gretton devient le manager de Joy Division",
+        members=["CHR-S41-TL3-1978-05-GRETTON-MANAGER", "CHR-S45-1978-GRETTON-MANAGER",
+                 "CHR-S76-1978-007"]),
+    "EVENT-PREMIERE-SOIREE-FACTORY": dict(
+        date="1978-05-19", precision="jour",
+        label="Première soirée Factory (Russell Club)",
+        members=["CHR-S76-1978-013"]),
+    # TV / radio
+    "EVENT-SESSION-PICCADILLY-RADIO": dict(
+        date="1979-06-04", precision="jour",
+        label="Session Piccadilly Radio",
+        members=["CHR-S41-1979-06-04-PICCADILLY-RADIO",
+                 "CHR-S41-1979-06-PICCADILLY-RADIO-CHANCE-ATROCITY"]),
+    "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL": dict(
+        date="1979", precision="annee",
+        label="Enregistrement télévisé « She's Lost Control » (What's On / Granada)",
+        members=["CHR-S41-1979-GRANADA-WHATS-ON-SLC"]),
+    "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE": dict(
+        date="1979-09", precision="mois",
+        label="Performance BBC2 « Something Else » (« Transmission » / « She's Lost Control »)",
+        prudence="Diffusion le 15 septembre 1979 (S76).",
+        members=["CHR-S76-1979-016", "CHR-S75-1979-010"]),
+    # Sessions d'enregistrement
+    "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY": dict(wave="b2",
+        date="1979-04", precision="mois",
+        label="Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios)",
+        members=["CHR-S41-1979-03-31-05-02-UP-STRAWBERRY",
+                 "CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS",
+                 "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY", "CHR-S75-1979-004",
+                 "CHR-S76-1979-010", "CHR-S10-1979-002"]),
+    "EVENT-SESSIONS-TRANSMISSION": dict(wave="b2",
+        date="1979-07", precision="mois",
+        label="Sessions d'enregistrement de « Transmission »",
+        prudence="Deux studios : sessions Central Sound puis version single à Strawberry.",
+        members=["CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION",
+                 "CHR-S41-1979-07-01-CENTRAL-SOUND-TRANSMISSION", "CHR-S75-1979-009",
+                 "CHR-S41-1979-07-28-08-04-STRAWBERRY-TRANSMISSION"]),
+    "EVENT-SESSIONS-LICHT-UND-BLINDHEIT": dict(wave="b2",
+        date="1979-10", precision="intervalle", debut="1979-10", fin="1979-11",
+        label="Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios)",
+        members=["CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT",
+                 "CHR-S41-1979-10-11-CARGO-SORDIDE-ATMOSPHERE", "CHR-S75-1979-012",
+                 "CHR-S76-1979-024"]),
+    "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW": dict(wave="b2",
+        date="1980-03", precision="mois",
+        label="Sessions d'enregistrement de Closer (Britannia Row Studios)",
+        members=["CHR-S41-1980-CLOSER-BRITANNIA-ROW-SESSIONS",
+                 "CHR-S45-1980-03-CLOSER-BRITANNIA-ROW", "CHR-S75-1980-004",
+                 "CHR-S10-1980-002", "CHR-S76-1980-016"]),
+    # Tournées
+    "EVENT-TOURNEE-BUZZCOCKS": dict(wave="b2",
+        date="1979", precision="annee",
+        label="Tournée britannique des Buzzcocks (Joy Division en première partie)",
+        members=["CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB",
+                 "CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL",
+                 "CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS"]),
+    "EVENT-TOURNEE-EUROPEENNE-1980": dict(wave="b2",
+        date="1980-01", precision="mois",
+        label="Tournée européenne de Joy Division",
+        members=["CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK",
+                 "CHR-S45-1980-01-EUROPEAN-TOUR-DEPART", "CHR-S75-1980-002"]),
+    # Santé
+    "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE": dict(wave="b2",
+        date="1980-01", precision="mois",
+        label="Tentative de suicide au retour de la tournée européenne (Pernod / couteau)",
+        prudence="Datation divergente : S41/S45 « janvier 1980 » ; S75 « février 1980 ».",
+        members=["CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE", "CHR-S45-1980-01-RETURN-PERNOD-BIBLE",
+                 "CHR-S75-1980-003"]),
+    # Iconographie
+    "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY": dict(
+        date="1979-01-06", precision="jour",
+        label="Séance photo de Kevin Cummins (Princess Parkway)",
+        members=["CHR-S41-1979-01-06-CUMMINS-PRINCESS-PARKWAY"]),
+    "EVENT-SEANCE-PHOTO-CORBIJN": dict(
+        date="1979-11", precision="mois",
+        label="Première séance photo d'Anton Corbijn",
+        members=["CHR-S41-1979-11-CORBIJN-PHOTO-SESSION"]),
+    "EVENT-POCHETTE-CLOSER-STAGLIENO": dict(
+        date="1980-03", precision="mois",
+        label="Conception de la pochette de Closer (photographie de Staglieno, Saville)",
+        members=["CHR-S76-1980-019", "CHR-S41-1980-SAVILLE-STAGLIENO-CLOSER-LWTUA"]),
+    "EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART": dict(
+        date="1980-04", precision="mois",
+        label="Tournage de la vidéo « Love Will Tear Us Apart » (T. J. Davidson's)",
+        members=["CHR-S45-1980-04-25-LWTUA-VIDEO", "CHR-S41-1980-04-MAY-LWTUA-VIDEO-TJ-DAVIDSONS"]),
+    # Funérailles
+    "EVENT-FUNERAILLES-IAN-CURTIS": dict(
+        date="1980-05", precision="mois",
+        label="Funérailles et crémation de Ian Curtis",
+        prudence="Crémation le 23 mai 1980 (S76) ; wake Factory à Palatine Road.",
+        members=["CHR-S41-1980-05-FUNERAL-AND-WAKE", "CHR-S76-1980-033"]),
 }
 
 # id legacy -> canonique
@@ -296,6 +462,20 @@ ATTEND_OTHERS_TO_CONTEXTE = {
     "CHR-S76-1977-001",        # Curtis voit Iggy Pop
 }
 
+# (B1) singletons captés par le filtre d'ancre mais en fait CONTEXTUELS : sorties
+#      / faits d'autres artistes servant de repère + flags tranchés -> contexte.
+CONTEXTE_B1 = {
+    "CHR-S35-P03-1972-003",    # sortie Ziggy Stardust (Bowie)
+    "CHR-S35-P05-1977-01-001", # sortie Low (Bowie)
+    "CHR-S41-TL2-1977-01-29-SPIRAL-SCRATCH",  # sortie Spiral Scratch (Buzzcocks)
+    "CHR-S41-TL2-1976-12-01-GRUNDY-ANARCHY",  # épisode Grundy / Sex Pistols
+    "CHR-S41-TL2-1977-11-PANIK-RAINY-CITY",   # sortie Panik / Rainy City
+    "CHR-S45-1976-08-MONT-DE-MARSAN",         # festival Mont de Marsan
+    "CHR-S10-1970-001",        # mort de Jimi Hendrix
+    "CHR-S35-P05-1975-002",    # Reading Festival 1975
+    "CHR-S35-P05-1976-001",    # Pistols à la TV (So It Goes)
+}
+
 
 def reclass_target(rid, date, event, cert, types):
     """Nouvelle catégorie si l'entrée est reclassée, sinon None (inchangée)."""
@@ -307,7 +487,7 @@ def reclass_target(rid, date, event, cert, types):
     if cat == "reception_posthume" and re.match(r"CHR-(S\d+)", rid) \
             and re.match(r"CHR-(S\d+)", rid).group(1) in URBAN_CONTEXT_SOURCES:
         return "contexte"
-    if rid in ATTEND_OTHERS_TO_CONTEXTE:
+    if rid in ATTEND_OTHERS_TO_CONTEXTE or rid in CONTEXTE_B1:
         return "contexte"
     if rid in PERF_TO_CONCERT or rid in SIG_TO_CONCERT:
         return "concert_a_migrer"
@@ -460,7 +640,8 @@ def has_field(lines, start, end, indent, key):
     return False
 
 
-def transform_file(path, entries, phase, stats):
+def transform_file(path, entries, phase, stats, member_map=None):
+    member_map = member_map if member_map is not None else MEMBER_TO_CANON
     lines = path.read_text(encoding="utf-8").split("\n")
     out = []
     i = 0
@@ -483,8 +664,8 @@ def transform_file(path, entries, phase, stats):
             if not has_field(lines, i, end, indent, "categorie"):
                 inserts.append(("categorie", cat))
         elif phase == "canon":
-            if rid in MEMBER_TO_CANON and not has_field(lines, i, end, indent, "same_as"):
-                inserts.append(("same_as", MEMBER_TO_CANON[rid]))
+            if rid in member_map and not has_field(lines, i, end, indent, "same_as"):
+                inserts.append(("same_as", member_map[rid]))
                 stats["same_as"] += 1
         elif phase == "precision":
             dp, db, fi = precision(e["date"], e["prec"])
@@ -533,7 +714,8 @@ def reclassify_file(path, entries, stats):
         stats["files"] += 1
 
 
-def write_canonical_file(entries):
+def write_canonical_file(entries, canon=None):
+    canon = canon if canon is not None else CANON
     lines = [
         "# Registre chronologique — identités canoniques d'événements (EVENT-)",
         "",
@@ -547,7 +729,7 @@ def write_canonical_file(entries):
         "---",
         "",
     ]
-    for cid, d in CANON.items():
+    for cid, d in canon.items():
         srcs = sorted({source_of(m) for m in d["members"]},
                       key=lambda s: (s != "MASTER", s))
         lines.append(f"## {cid} — {d['label']}")
@@ -558,6 +740,9 @@ def write_canonical_file(entries):
         lines.append("categorie: jalon")
         lines.append(f"date: \"{d['date']}\"")
         lines.append(f"date_precision: {d['precision']}")
+        if d.get("debut"):
+            lines.append(f"date_debut: {d['debut']}")
+            lines.append(f"date_fin: {d['fin']}")
         lines.append(f"event: >")
         lines.append(f"  {d['label']}.")
         lines.append("sources:")
@@ -581,6 +766,9 @@ def main():
     ap.add_argument("--phase", required=True,
                     choices=["classification", "canon", "precision", "reclassify",
                              "tag", "report", "check"])
+    ap.add_argument("--wave", choices=["all", "b1", "b2"], default="all",
+                    help="canon : restreint aux canoniques de la vague (b1 exclut "
+                         "les EVENT- tagués wave=b2). Défaut : all.")
     args = ap.parse_args()
 
     entries = parse_entries()
@@ -658,9 +846,16 @@ def main():
                 print("   ", rid)
         return 0
 
+    member_map = MEMBER_TO_CANON
     if args.phase == "canon":
-        write_canonical_file(entries)
-        print(f"écrit {CANON_FILE.relative_to(REPO)} ({len(CANON)} EVENT-)")
+        if args.wave == "b1":
+            active = {c: d for c, d in CANON.items() if d.get("wave") != "b2"}
+        else:
+            active = dict(CANON)
+        # restreint la pose des same_as aux membres des canoniques actifs
+        member_map = {m: c for c, d in active.items() for m in d["members"]}
+        write_canonical_file(entries, active)
+        print(f"écrit {CANON_FILE.relative_to(REPO)} ({len(active)} EVENT-, vague {args.wave})")
 
     for f in sorted(glob.glob(str(CHRONO_DIR / "*.md"))):
         p = Path(f)
@@ -669,7 +864,7 @@ def main():
         if args.phase == "reclassify":
             reclassify_file(p, entries, stats)
         else:
-            transform_file(p, entries, args.phase, stats)
+            transform_file(p, entries, args.phase, stats, member_map)
 
     if args.phase == "reclassify":
         moved = {k: stats[k] for k in CATEGORIES if stats[k]}

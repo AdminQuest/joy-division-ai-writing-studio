@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1956-HOOK-BIRTH-SALFORD
+    same_as: EVENT-NAISSANCE-PETER-HOOK
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -45,6 +46,7 @@ chronology:
     statut: événement familial rapporté
 
   - id: CHR-S41-1967-SALFORD-GRAMMAR-MEETS-SUMNER
+    same_as: EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR
     date_precision: annee
     categorie: jalon
     source_id: S41

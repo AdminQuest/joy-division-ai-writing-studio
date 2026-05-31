@@ -44,7 +44,7 @@ chronologie:
     statut: a_croiser
   - id: CHR-S35-P03-1972-003
     date_precision: mois
-    categorie: jalon
+    categorie: contexte
     date: "1972-06"
     label: "Sortie de The Rise and Fall of Ziggy Stardust and the Spiders from Mars, intégrée au récit de formation de Morris"
     source_id: S35

@@ -46,6 +46,7 @@ chronology:
     statut: consolidation d’un événement déjà atomisé
 
   - id: CHR-S41-TL3-1978-05-GRETTON-MANAGER
+    same_as: EVENT-ROB-GRETTON-DEVIENT-MANAGER
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -90,6 +91,7 @@ chronology:
     statut: consolidation chronologique
 
   - id: CHR-S41-TL3-1978-06-03-AN-IDEAL-SEVEN-INCH
+    same_as: EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -104,6 +106,7 @@ chronology:
     statut: verrou discographique
 
   - id: CHR-S41-TL3-1978-06-09-SHORT-CIRCUIT
+    same_as: EVENT-SORTIE-SHORT-CIRCUIT-LIVE
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -205,6 +208,7 @@ chronology:
     statut: archive audiovisuelle établie
 
   - id: CHR-S41-TL3-1978-10-10-AN-IDEAL-TWELVE-INCH
+    same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
     date_precision: jour
     categorie: jalon
     source_id: S41

@@ -28,6 +28,7 @@ statut: datation à préciser ; événement à croiser avec gig lists et sources
 
 ```yaml
 id: CHR-S45-1978-GRANADA-SHADOWPLAY
+same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
 date_precision: annee
 categorie: jalon
 source_id: S45
@@ -49,6 +50,7 @@ statut: datation à préciser ; archive télévisuelle à vérifier
 
 ```yaml
 id: CHR-S45-1978-GRETTON-MANAGER
+same_as: EVENT-ROB-GRETTON-DEVIENT-MANAGER
 date_precision: annee
 categorie: jalon
 source_id: S45

@@ -82,6 +82,7 @@ chronology:
     statut: scène domestique
 
   - id: CHR-S45-1980-04-25-LWTUA-VIDEO
+    same_as: EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART
     date_precision: jour
     categorie: jalon
     source_id: S45

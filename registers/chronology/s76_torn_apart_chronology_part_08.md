@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1978-013
+same_as: EVENT-PREMIERE-SOIREE-FACTORY
 date_precision: jour
 categorie: jalon
 type_unite: chronology

@@ -22,7 +22,7 @@ chronologie_a_croiser:
     statut: a_croiser_si_usage_factuel
   - id: CHR-S35-P05-1975-002
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: "1975"
     label: "Reading Festival 1975, dernier festival de Morris pour un temps et scène de rupture pré-punk"
     source_id: S35
@@ -30,7 +30,7 @@ chronologie_a_croiser:
     statut: a_croiser
   - id: CHR-S35-P05-1976-001
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: "1976"
     label: "Morris voit les Sex Pistols jouer « Anarchy in the UK » dans So It Goes"
     source_id: S35
@@ -38,7 +38,7 @@ chronologie_a_croiser:
     statut: archive_a_verifier
   - id: CHR-S35-P05-1977-01-001
     date_precision: mois
-    categorie: jalon
+    categorie: contexte
     date: "janvier 1977"
     label: "Sortie de Low de David Bowie, LP décisif pour Morris"
     source_id: S35

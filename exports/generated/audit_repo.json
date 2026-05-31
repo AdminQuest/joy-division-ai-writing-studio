@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T05:43:02",
+  "generated_at": "2026-05-31T06:06:31",
   "summary": {
-    "records_total": 7705,
+    "records_total": 7728,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -11,7 +11,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 501,
+      "chronology": 524,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30094,
+    "diagnostics_total": 30140,
     "errors": 0,
-    "warnings": 30094,
+    "warnings": 30140,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -32,7 +32,7 @@
   },
   "records_by_kind": {
     "atom": 2752,
-    "chronology": 501,
+    "chronology": 524,
     "concept": 463,
     "concert": 197,
     "metadata": 274,
@@ -89,7 +89,7 @@
     "S10": {
       "metadata": 3,
       "atom": 40,
-      "chronology": 4,
+      "chronology": 10,
       "unknown": 16
     },
     "S11": {
@@ -258,7 +258,7 @@
     "S41": {
       "atom": 430,
       "quote": 9,
-      "chronology": 29,
+      "chronology": 48,
       "person": 9,
       "song": 7,
       "unknown": 107
@@ -285,7 +285,7 @@
     "S45": {
       "atom": 205,
       "quote": 56,
-      "chronology": 52,
+      "chronology": 59,
       "person": 37,
       "unknown": 13,
       "metadata": 1,
@@ -553,14 +553,14 @@
     "S75": {
       "metadata": 1,
       "atom": 75,
-      "chronology": 40,
+      "chronology": 44,
       "person": 27,
       "quote": 21,
       "song": 33
     },
     "S76": {
       "atom": 229,
-      "chronology": 114,
+      "chronology": 123,
       "person": 89,
       "quote": 195
     },
@@ -755,6 +755,10 @@
       48
     ],
     [
+      "registers/chronology/events_canonical.md",
+      47
+    ],
+    [
       "registers/s54_gnocchi_specialized_registers.md",
       45
     ],
@@ -833,16 +837,12 @@
     [
       "registers/s58_ilardi_specialized_registers.md",
       30
-    ],
-    [
-      "registers/s66_curtis_lyrics_specialized_registers.md",
-      30
     ]
   ],
   "issue_categories": {
     "field_type_error": 692,
     "invalid_controlled_value": 2630,
-    "missing_required_field": 9308,
+    "missing_required_field": 9354,
     "schema_warning": 492,
     "unknown_yaml_block": 1509,
     "v2_migration_debt": 15463
@@ -13427,10 +13427,10 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 63,
+        "records": 69,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 4,
+        "chronology": 10,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
@@ -13912,10 +13912,10 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 591,
+        "records": 610,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 29,
+        "chronology": 48,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -14029,10 +14029,10 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 369,
+        "records": 376,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 52,
+        "chronology": 59,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -14588,10 +14588,10 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 197,
+        "records": 201,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 40,
+        "chronology": 44,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
@@ -14621,10 +14621,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 627,
+        "records": 636,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 114,
+        "chronology": 123,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -216635,6 +216635,374 @@
       "category": "missing_required_field",
       "file": "registers/chronology/events_canonical.md",
       "record_id": "EVENT-CONCERT-DERBY-HALL-BURY",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-NAISSANCE-BERNARD-SUMNER",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-NAISSANCE-BERNARD-SUMNER",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-NAISSANCE-PETER-HOOK",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-NAISSANCE-PETER-HOOK",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-MARIAGE-IAN-DEBORAH-CURTIS",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-MARIAGE-IAN-DEBORAH-CURTIS",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-INSTALLATION-TJ-DAVIDSONS",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-INSTALLATION-TJ-DAVIDSONS",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-DEPART-TONY-TABAC",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-DEPART-TONY-TABAC",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SORTIE-SHORT-CIRCUIT-LIVE",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SORTIE-SHORT-CIRCUIT-LIVE",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ROB-GRETTON-DEVIENT-MANAGER",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-ROB-GRETTON-DEVIENT-MANAGER",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-PREMIERE-SOIREE-FACTORY",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-PREMIERE-SOIREE-FACTORY",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSION-PICCADILLY-RADIO",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSION-PICCADILLY-RADIO",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SEANCE-PHOTO-CORBIJN",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SEANCE-PHOTO-CORBIJN",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-POCHETTE-CLOSER-STAGLIENO",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-POCHETTE-CLOSER-STAGLIENO",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-FUNERAILLES-IAN-CURTIS",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-FUNERAILLES-IAN-CURTIS",
       "message": "Missing required field: certainty",
       "suggested_action": "Compléter le champ obligatoire."
     },

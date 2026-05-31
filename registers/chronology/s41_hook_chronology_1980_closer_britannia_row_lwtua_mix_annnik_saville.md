@@ -92,6 +92,7 @@ chronology:
     statut: rencontre réseau à croiser
 
   - id: CHR-S41-1980-SAVILLE-STAGLIENO-CLOSER-LWTUA
+    same_as: EVENT-POCHETTE-CLOSER-STAGLIENO
     date_precision: mois
     categorie: jalon
     source_id: S41

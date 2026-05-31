@@ -1,14 +1,14 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-31T05:43:02`
+Généré le : `2026-05-31T06:06:31`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7705
+- Enregistrements : 7728
 - Erreurs : 0
-- Avertissements : 30094
+- Avertissements : 30140
 - Sources déclarées dans `data/registre.json` : 95
 - Sources utilisées dans les enregistrements : 79
 - Sources exportées : 79
@@ -19,7 +19,7 @@ Statut : **warning**
 ## Enregistrements par type
 
 - atom : 2752
-- chronology : 501
+- chronology : 524
 - concept : 463
 - concert : 197
 - metadata : 274
@@ -164,4 +164,4 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
-- … 29994 problèmes supplémentaires dans `diagnostics.json`.
+- … 30040 problèmes supplémentaires dans `diagnostics.json`.

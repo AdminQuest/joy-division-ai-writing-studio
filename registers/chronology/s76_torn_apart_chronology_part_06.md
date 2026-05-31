@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1978-007
+same_as: EVENT-ROB-GRETTON-DEVIENT-MANAGER
 date_precision: circa
 categorie: jalon
 type_unite: chronology

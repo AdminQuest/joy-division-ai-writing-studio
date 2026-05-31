@@ -111,6 +111,7 @@ chronology:
     statut: événement Factory établi
 
   - id: CHR-S41-1978-06-AIL-12-INCH-RABID
+    same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
     date_precision: intervalle
     date_debut: 1978-06
     date_fin: 1978-10

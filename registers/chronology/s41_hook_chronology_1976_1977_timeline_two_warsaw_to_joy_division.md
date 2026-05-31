@@ -16,7 +16,7 @@ chronology:
 
   - id: CHR-S41-TL2-1976-12-01-GRUNDY-ANARCHY
     date_precision: jour
-    categorie: jalon
+    categorie: contexte
     source_id: S41
     date: "1976-12-01"
     evenement: >
@@ -27,7 +27,7 @@ chronology:
 
   - id: CHR-S41-TL2-1977-01-29-SPIRAL-SCRATCH
     date_precision: jour
-    categorie: jalon
+    categorie: contexte
     source_id: S41
     date: "1977-01-29"
     evenement: >
@@ -82,6 +82,7 @@ chronology:
     statut: événement établi ; trajectoire bootleg à croiser
 
   - id: CHR-S41-TL2-1977-10-02-SHORT-CIRCUIT-COLD-ENTRY
+    same_as: EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -94,7 +95,7 @@ chronology:
 
   - id: CHR-S41-TL2-1977-11-PANIK-RAINY-CITY
     date_precision: mois
-    categorie: jalon
+    categorie: contexte
     source_id: S41
     date: "1977-11"
     evenement: >
@@ -104,6 +105,7 @@ chronology:
     statut: repère discographique consolidé
 
   - id: CHR-S41-TL2-1977-12-14-AN-IDEAL-SESSIONS
+    same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
     date_precision: jour
     categorie: jalon
     source_id: S41

@@ -160,10 +160,12 @@ event: >
   Sortie de A Factory Sample (FAC 2).
 sources:
   - MASTER
+  - S10
   - S41
 membres_reconcilies:
   - CHR-1979-001
   - CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE
+  - CHR-S10-1978-006
 ```
 
 ---
@@ -319,13 +321,19 @@ event: >
   Sessions de l'album avorté RCA / Arrow Studios.
 sources:
   - MASTER
+  - S10
   - S41
+  - S45
+  - S75
   - S76
 membres_reconcilies:
   - CHR-1978-001
   - CHR-S41-1978-05-ARROW-STUDIOS-RCA
   - CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS
   - CHR-S76-1978-005
+  - CHR-S45-1978-04-RCA-ARROW
+  - CHR-S75-1978-006
+  - CHR-S10-1978-003
 prudence_methodologique: >
   Périmètre retenu : sessions d'enregistrement à Arrow Studios pour RCA. Le contact RCA/Swan autour d'une reprise (CHR-S41-1978-05-RCA-SWAN-INTERZONE) et l'accord de management Gretton (CHR-S41-TL3-1978-05-GRETTON-MANAGER) sont des événements distincts, non fusionnés ici.
 ```
@@ -345,10 +353,12 @@ event: >
 sources:
   - S10
   - S41
+  - S45
 membres_reconcilies:
   - CHR-S10-1978-005
   - CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY
   - CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY
+  - CHR-S45-1978-GRANADA-SHADOWPLAY
 ```
 
 ---
@@ -430,12 +440,14 @@ event: >
   Première John Peel Session de Joy Division.
 sources:
   - S41
+  - S45
   - S75
   - S76
 membres_reconcilies:
   - CHR-S41-1979-01-31-FIRST-PEEL-SESSION
   - CHR-S75-1979-002
   - CHR-S76-1979-006
+  - CHR-S45-1979-01-PEEL-SESSION-1
 ```
 
 ---
@@ -541,6 +553,467 @@ sources:
 membres_reconcilies:
   - CHR-1980-001
   - CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT
+```
+
+---
+
+## EVENT-NAISSANCE-BERNARD-SUMNER — Naissance de Bernard Sumner
+
+```yaml
+id: EVENT-NAISSANCE-BERNARD-SUMNER
+type_unite: chronology_event
+categorie: jalon
+date: "1956-01-04"
+date_precision: jour
+event: >
+  Naissance de Bernard Sumner.
+sources:
+  - S10
+membres_reconcilies:
+  - CHR-S10-1956-001
+```
+
+---
+
+## EVENT-NAISSANCE-PETER-HOOK — Naissance de Peter Hook
+
+```yaml
+id: EVENT-NAISSANCE-PETER-HOOK
+type_unite: chronology_event
+categorie: jalon
+date: "1956-02-13"
+date_precision: jour
+event: >
+  Naissance de Peter Hook.
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1956-HOOK-BIRTH-SALFORD
+```
+
+---
+
+## EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR — Rencontre de Bernard Sumner et Peter Hook (Salford Grammar School)
+
+```yaml
+id: EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR
+type_unite: chronology_event
+categorie: jalon
+date: "1967"
+date_precision: annee
+event: >
+  Rencontre de Bernard Sumner et Peter Hook (Salford Grammar School).
+sources:
+  - S10
+  - S41
+membres_reconcilies:
+  - CHR-S41-1967-SALFORD-GRAMMAR-MEETS-SUMNER
+  - CHR-S10-1970S-002
+prudence_methodologique: >
+  Datation divergente : S41 « 1967 » ; S10 « début des années 1970 ».
+```
+
+---
+
+## EVENT-MARIAGE-IAN-DEBORAH-CURTIS — Mariage de Ian Curtis et Deborah Woodruff
+
+```yaml
+id: EVENT-MARIAGE-IAN-DEBORAH-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1975-08-23"
+date_precision: jour
+event: >
+  Mariage de Ian Curtis et Deborah Woodruff.
+sources:
+  - S76
+membres_reconcilies:
+  - CHR-S76-1975-001
+```
+
+---
+
+## EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR — Ian Curtis devient le chanteur du groupe
+
+```yaml
+id: EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR
+type_unite: chronology_event
+categorie: jalon
+date: "1976-12"
+date_precision: mois
+event: >
+  Ian Curtis devient le chanteur du groupe.
+sources:
+  - S10
+  - S41
+membres_reconcilies:
+  - CHR-S41-1976-12-CURTIS-JOINS
+  - CHR-S10-1976-003
+prudence_methodologique: >
+  S10 situe le recrutement via une annonce déposée chez Virgin (fin 1976).
+```
+
+---
+
+## EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION — Changement de nom : Warsaw devient Joy Division
+
+```yaml
+id: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
+type_unite: chronology_event
+categorie: jalon
+date: "1977-12"
+date_precision: mois
+event: >
+  Changement de nom : Warsaw devient Joy Division.
+sources:
+  - S41
+  - S45
+membres_reconcilies:
+  - CHR-S41-1977-JOY-DIVISION-NAME-STABILIZED
+  - CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE
+  - CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION
+prudence_methodologique: >
+  La collision avec « Warsaw Pakt » (CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION) est la cause documentée du changement.
+```
+
+---
+
+## EVENT-INSTALLATION-TJ-DAVIDSONS — Installation du groupe à T. J. Davidson's (local de répétition)
+
+```yaml
+id: EVENT-INSTALLATION-TJ-DAVIDSONS
+type_unite: chronology_event
+categorie: jalon
+date: "1977"
+date_precision: annee
+event: >
+  Installation du groupe à T. J. Davidson's (local de répétition).
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S41-1977-TJ-DAVIDSONS-PRACTICE-ROOM
+  - CHR-S76-1978-017
+```
+
+---
+
+## EVENT-DEPART-TONY-TABAC — Départ de Tony Tabac (batterie)
+
+```yaml
+id: EVENT-DEPART-TONY-TABAC
+type_unite: chronology_event
+categorie: jalon
+date: "1977-06-25"
+date_precision: jour
+event: >
+  Départ de Tony Tabac (batterie).
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1977-06-25-TONY-TABAC-LAST-GIG
+```
+
+---
+
+## EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING — Enregistrement de l'EP An Ideal for Living (Pennine Sound)
+
+```yaml
+id: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
+type_unite: chronology_event
+categorie: jalon
+date: "1977-12"
+date_precision: mois
+event: >
+  Enregistrement de l'EP An Ideal for Living (Pennine Sound).
+sources:
+  - S10
+  - S41
+  - S45
+  - S76
+membres_reconcilies:
+  - CHR-S41-1977-PENNINE-AN-IDEAL-SESSION
+  - CHR-S45-1977-12-PENNINE-AN-IDEAL
+  - CHR-S41-TL2-1977-12-14-AN-IDEAL-SESSIONS
+  - CHR-S76-1977-010
+  - CHR-S10-1978-004
+```
+
+---
+
+## EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES — Sortie de An Ideal for Living, 7 pouces original (Enigma PSS 139)
+
+```yaml
+id: EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES
+type_unite: chronology_event
+categorie: jalon
+date: "1978-06-03"
+date_precision: jour
+event: >
+  Sortie de An Ideal for Living, 7 pouces original (Enigma PSS 139).
+sources:
+  - S41
+  - S75
+membres_reconcilies:
+  - CHR-S41-TL3-1978-06-03-AN-IDEAL-SEVEN-INCH
+  - CHR-S75-1978-003
+```
+
+---
+
+## EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES — Réédition de An Ideal for Living en 12 pouces (Anonymous ANON1)
+
+```yaml
+id: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
+type_unite: chronology_event
+categorie: jalon
+date: "1978-10-10"
+date_precision: jour
+event: >
+  Réédition de An Ideal for Living en 12 pouces (Anonymous ANON1).
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-TL3-1978-10-10-AN-IDEAL-TWELVE-INCH
+  - CHR-S41-1978-06-AIL-12-INCH-RABID
+  - CHR-S75-1978-004
+  - CHR-S76-1978-010
+```
+
+---
+
+## EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS — Captation pour Short Circuit (dernière soirée de l'Electric Circus)
+
+```yaml
+id: EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS
+type_unite: chronology_event
+categorie: jalon
+date: "1977-10-02"
+date_precision: jour
+event: >
+  Captation pour Short Circuit (dernière soirée de l'Electric Circus).
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+  - CHR-S41-TL2-1977-10-02-SHORT-CIRCUIT-COLD-ENTRY
+```
+
+---
+
+## EVENT-SORTIE-SHORT-CIRCUIT-LIVE — Sortie de Short Circuit – Live at the Electric Circus
+
+```yaml
+id: EVENT-SORTIE-SHORT-CIRCUIT-LIVE
+type_unite: chronology_event
+categorie: jalon
+date: "1978-06-09"
+date_precision: jour
+event: >
+  Sortie de Short Circuit – Live at the Electric Circus.
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-TL3-1978-06-09-SHORT-CIRCUIT
+```
+
+---
+
+## EVENT-ROB-GRETTON-DEVIENT-MANAGER — Rob Gretton devient le manager de Joy Division
+
+```yaml
+id: EVENT-ROB-GRETTON-DEVIENT-MANAGER
+type_unite: chronology_event
+categorie: jalon
+date: "1978-05"
+date_precision: mois
+event: >
+  Rob Gretton devient le manager de Joy Division.
+sources:
+  - S41
+  - S45
+  - S76
+membres_reconcilies:
+  - CHR-S41-TL3-1978-05-GRETTON-MANAGER
+  - CHR-S45-1978-GRETTON-MANAGER
+  - CHR-S76-1978-007
+```
+
+---
+
+## EVENT-PREMIERE-SOIREE-FACTORY — Première soirée Factory (Russell Club)
+
+```yaml
+id: EVENT-PREMIERE-SOIREE-FACTORY
+type_unite: chronology_event
+categorie: jalon
+date: "1978-05-19"
+date_precision: jour
+event: >
+  Première soirée Factory (Russell Club).
+sources:
+  - S76
+membres_reconcilies:
+  - CHR-S76-1978-013
+```
+
+---
+
+## EVENT-SESSION-PICCADILLY-RADIO — Session Piccadilly Radio
+
+```yaml
+id: EVENT-SESSION-PICCADILLY-RADIO
+type_unite: chronology_event
+categorie: jalon
+date: "1979-06-04"
+date_precision: jour
+event: >
+  Session Piccadilly Radio.
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-06-04-PICCADILLY-RADIO
+  - CHR-S41-1979-06-PICCADILLY-RADIO-CHANCE-ATROCITY
+```
+
+---
+
+## EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL — Enregistrement télévisé « She's Lost Control » (What's On / Granada)
+
+```yaml
+id: EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL
+type_unite: chronology_event
+categorie: jalon
+date: "1979"
+date_precision: annee
+event: >
+  Enregistrement télévisé « She's Lost Control » (What's On / Granada).
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-GRANADA-WHATS-ON-SLC
+```
+
+---
+
+## EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE — Performance BBC2 « Something Else » (« Transmission » / « She's Lost Control »)
+
+```yaml
+id: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
+type_unite: chronology_event
+categorie: jalon
+date: "1979-09"
+date_precision: mois
+event: >
+  Performance BBC2 « Something Else » (« Transmission » / « She's Lost Control »).
+sources:
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S76-1979-016
+  - CHR-S75-1979-010
+prudence_methodologique: >
+  Diffusion le 15 septembre 1979 (S76).
+```
+
+---
+
+## EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY — Séance photo de Kevin Cummins (Princess Parkway)
+
+```yaml
+id: EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY
+type_unite: chronology_event
+categorie: jalon
+date: "1979-01-06"
+date_precision: jour
+event: >
+  Séance photo de Kevin Cummins (Princess Parkway).
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-01-06-CUMMINS-PRINCESS-PARKWAY
+```
+
+---
+
+## EVENT-SEANCE-PHOTO-CORBIJN — Première séance photo d'Anton Corbijn
+
+```yaml
+id: EVENT-SEANCE-PHOTO-CORBIJN
+type_unite: chronology_event
+categorie: jalon
+date: "1979-11"
+date_precision: mois
+event: >
+  Première séance photo d'Anton Corbijn.
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-11-CORBIJN-PHOTO-SESSION
+```
+
+---
+
+## EVENT-POCHETTE-CLOSER-STAGLIENO — Conception de la pochette de Closer (photographie de Staglieno, Saville)
+
+```yaml
+id: EVENT-POCHETTE-CLOSER-STAGLIENO
+type_unite: chronology_event
+categorie: jalon
+date: "1980-03"
+date_precision: mois
+event: >
+  Conception de la pochette de Closer (photographie de Staglieno, Saville).
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S76-1980-019
+  - CHR-S41-1980-SAVILLE-STAGLIENO-CLOSER-LWTUA
+```
+
+---
+
+## EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART — Tournage de la vidéo « Love Will Tear Us Apart » (T. J. Davidson's)
+
+```yaml
+id: EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART
+type_unite: chronology_event
+categorie: jalon
+date: "1980-04"
+date_precision: mois
+event: >
+  Tournage de la vidéo « Love Will Tear Us Apart » (T. J. Davidson's).
+sources:
+  - S41
+  - S45
+membres_reconcilies:
+  - CHR-S45-1980-04-25-LWTUA-VIDEO
+  - CHR-S41-1980-04-MAY-LWTUA-VIDEO-TJ-DAVIDSONS
+```
+
+---
+
+## EVENT-FUNERAILLES-IAN-CURTIS — Funérailles et crémation de Ian Curtis
+
+```yaml
+id: EVENT-FUNERAILLES-IAN-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1980-05"
+date_precision: mois
+event: >
+  Funérailles et crémation de Ian Curtis.
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S41-1980-05-FUNERAL-AND-WAKE
+  - CHR-S76-1980-033
+prudence_methodologique: >
+  Crémation le 23 mai 1980 (S76) ; wake Factory à Palatine Road.
 ```
 
 ---

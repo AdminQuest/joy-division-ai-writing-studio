@@ -823,3 +823,44 @@ doublons inter-sources (Barton Street 1977-05 : S45 + S76 → `same_as` candidat
 canonicalisation ; n'en promouvoir en `EVENT-` que les ancres (sessions, sorties,
 line-up, télévision, tournées), réconcilier les doublons inter-sources par
 `same_as`, laisser les beats en `jalon` nu.
+
+---
+
+# ANNEXE VII — Exécution complète du socle (étape 6)
+
+> Dernière passe. Exécute B1 (singletons-ancres) + flags tranchés (vague b1) puis
+> B2 (clusters mois/année, vague b2). Additif, gel respecté. Outil :
+> `--phase canon --wave {b1|b2}`. Cadrage : `EVENT-` = jalon-**ancre**
+> (référençable / tête de timeline) ; beat narratif fin → `jalon` nu.
+
+## VII.B1 — Singletons-ancres + flags tranchés (vague b1)
+
+**23 nouveaux `EVENT-`** (→ 47 au total après b1), **+50 `same_as`**.
+
+| Catégorie | `EVENT-` créés |
+|---|---|
+| Biographie | `EVENT-NAISSANCE-BERNARD-SUMNER` · `EVENT-NAISSANCE-PETER-HOOK` · `EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR` · `EVENT-MARIAGE-IAN-DEBORAH-CURTIS` · `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` |
+| Identité / lieu / line-up | `EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION` · `EVENT-INSTALLATION-TJ-DAVIDSONS` · `EVENT-DEPART-TONY-TABAC` |
+| Discographie | `EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING` · `EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES` · `EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES` · `EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS` · `EVENT-SORTIE-SHORT-CIRCUIT-LIVE` |
+| Management / scène | `EVENT-ROB-GRETTON-DEVIENT-MANAGER` · `EVENT-PREMIERE-SOIREE-FACTORY` |
+| TV / radio | `EVENT-SESSION-PICCADILLY-RADIO` · `EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL` · `EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE` |
+| Iconographie (flag tranché) | `EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY` · `EVENT-SEANCE-PHOTO-CORBIJN` · `EVENT-POCHETTE-CLOSER-STAGLIENO` · `EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART` |
+| Funérailles | `EVENT-FUNERAILLES-IAN-CURTIS` |
+
+**Flags tranchés exécutés** : *An Ideal for Living* → **deux** `EVENT-`
+distincts (`-7-POUCES` original / `-12-POUCES` réédition, désambiguïsation par
+format, jamais par date) ; Cummins et Corbijn → `EVENT-` (iconographie).
+
+**Bascules `contexte` (B1)** : sorties / faits d'autres artistes captés par le
+filtre d'ancre → `contexte` (9) : Ziggy Stardust, *Low*, *Spiral Scratch*,
+épisode Grundy, sortie Panik, Mont de Marsan, mort de Hendrix, Reading 1975,
+Pistols à la TV (*So It Goes*).
+
+**Redescendus / laissés `jalon` nu** : Carole Curtis, mariage Sumner-Barlow
+(périphériques) ; **38 beats** narratifs fins ; **death-vicinity** (dernière
+clinique 1980-05-06, dernière photo 1980-05-13, appels d'Annik) — **jamais**
+`same_as` vers `EVENT-MORT-IAN-CURTIS`.
+
+Additions de facettes à des `EVENT-` existants (réconciliation `same_as`) :
+`EVENT-SESSIONS-RCA-ARROW-STUDIOS` (+3), `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY`
+(+1), `EVENT-PREMIERE-PEEL-SESSION` (+1), `EVENT-SORTIE-A-FACTORY-SAMPLE` (+1).

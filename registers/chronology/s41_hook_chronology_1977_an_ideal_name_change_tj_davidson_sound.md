@@ -17,6 +17,7 @@ chronology:
     statut: période à préciser
 
   - id: CHR-S41-1977-PENNINE-AN-IDEAL-SESSION
+    same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
     date_precision: annee
     categorie: jalon
     source_id: S41
@@ -50,6 +51,7 @@ chronology:
     statut: événement discographique établi
 
   - id: CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION
+    same_as: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
     date_precision: annee
     categorie: jalon
     source_id: S41
@@ -64,6 +66,7 @@ chronology:
     statut: contexte de changement de nom
 
   - id: CHR-S41-1977-JOY-DIVISION-NAME-STABILIZED
+    same_as: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -108,6 +111,7 @@ chronology:
     statut: séquence sonore selon Hook
 
   - id: CHR-S41-1977-TJ-DAVIDSONS-PRACTICE-ROOM
+    same_as: EVENT-INSTALLATION-TJ-DAVIDSONS
     date_precision: annee
     categorie: jalon
     source_id: S41

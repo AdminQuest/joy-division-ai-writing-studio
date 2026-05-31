@@ -50,6 +50,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-010
+same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
 date_precision: circa
 categorie: jalon
 type_unite: chronology

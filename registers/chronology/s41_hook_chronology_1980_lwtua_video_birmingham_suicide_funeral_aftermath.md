@@ -19,6 +19,7 @@ chronology:
     statut: décision de management à croiser avec gig lists
 
   - id: CHR-S41-1980-04-MAY-LWTUA-VIDEO-TJ-DAVIDSONS
+    same_as: EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART
     date_precision: intervalle
     date_debut: 1980-04
     date_fin: 1980-05
@@ -109,6 +110,7 @@ chronology:
     statut: témoignage direct Hook
 
   - id: CHR-S41-1980-05-FUNERAL-AND-WAKE
+    same_as: EVENT-FUNERAILLES-IAN-CURTIS
     date_precision: mois
     categorie: jalon
     source_id: S41
