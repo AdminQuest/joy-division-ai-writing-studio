@@ -16,6 +16,17 @@
 | `reception_posthume` | Réception, lecture critique, archive ou résonance **postérieure** à l'ère 1976-1980 (ou portée par une source interprétative : S29, S34). | Conservé, étiqueté. Relocalisation différée (étape 11, concepts / réception). |
 | `contexte` | Repère **contextuel** urbain, social ou historique qui n'est ni un événement du groupe, ni un concert, ni de la réception posthume (registres S02, S05, S06, S12, S20 : ville en contraction, ordre public, logement, etc.). | Conservé, étiqueté. **Exclu** de la canonicalisation `EVENT-`. Relocalisation différée (étape 11, registre concepts / contexte). |
 
+## Tags de migration (métadonnées, étape 7b)
+
+- **`a_resoudre: true`** — porté par un `concert_a_migrer` résiduel : vrai gig JD
+  dont la date est trop imprécise (mois/année) ou ambiguë (plusieurs `CONCERT-`
+  candidats) pour une réconciliation confiante. Reste `concert_a_migrer` jusqu'à
+  résolution manuelle. Invariant : ne se pose que sur `concert_a_migrer`.
+- **`liaison_multi_concert: true`** — porté par un `jalon` qui résume **plusieurs**
+  concerts (résidence multi-soirs, ou plusieurs gigs dans une seule entrée) : la
+  liaison vers les `CONCERT-` correspondants est différée à l'étape 12
+  (cross-registres). Pas de `same_as` unique (ce serait une fusion abusive).
+
 ## Règles d'application
 
 1. **Exclusivité** : une entrée porte exactement une `categorie`.

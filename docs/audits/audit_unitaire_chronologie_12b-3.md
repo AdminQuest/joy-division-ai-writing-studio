@@ -1086,3 +1086,39 @@ Tag `a_scinder_etape_10` renommé **`a_scinder_concert`** (donnée + validateurs
 
 `validate_chronology` : errors=0 (INV1 étendu aux cibles `CONCERT-` ; INV5 :
 `concert_migre` ⇒ `same_as` vers un `CONCERT-`). `validate_concerts` errors=0.
+
+---
+
+# ANNEXE XI — Clôture des résiduels concert_a_migrer (étape 7b-3)
+
+> Mise à jour : 31/05/2026. Vide `concert_a_migrer` des 19 résiduels de 7b-2 par
+> reclassement correct. **Gel EVENT- intact** (réconciliations one-way côté CHR-).
+
+## XI.1. Disposition des 19
+
+| Disposition | Nb | Détail |
+|---|---:|---|
+| → `contexte` | 3 | concerts d'autres artistes assistés (Sex Pistols ×2, Lou Reed) — pas des concerts JD |
+| → `jalon` + `same_as` EVENT- | 1 | passage TV *Something Else* → `EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE` |
+| → `concert_migre` + `same_as` CONCERT- (divergence consignée) | 2 | Newcastle (06-02 vs 06-06) → `CONCERT-19770606-NEWCASTLE-GUILDHALL` ; Bowdon (1978 vs 1979) → `CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB` |
+| → `jalon` (pas un concert) | 1 | période post-Pips (CHR-S41-1978-01-03-PIPS-AFTERGAP) |
+| → `jalon` + `liaison_multi_concert` (étape 12) | 7 | résidences/entrées multi-soirs ou multi-venue : Rainbow ×2, Moonlight ×2, clôture Electric Circus, Hope & Anchor + Marquee, séquence Squat |
+| reste `concert_a_migrer` + `a_resoudre` | 5 | vrais gigs JD à date imprécise/ambiguë : Squat/Jubilee, Oldham Tower, New Osbourne (City Fun), Band on the Wall (saison 1978), Apollo (1979-10) |
+
+## XI.2. Comptes par catégorie finaux (502 entrées)
+
+| Catégorie | 7b-2 | **7b-3 (final)** |
+|---|---:|---:|
+| `jalon` | 391 | **400** |
+| `concert_a_migrer` | 19 | **5** (tous `a_resoudre`) |
+| `concert_migre` | 69 | **71** |
+| `contexte` | 63 | **66** |
+| `reception_posthume` | 20 | **20** |
+
+`concert_a_migrer` ne contient plus que des **résidus explicites** `a_resoudre`
+(vrais concerts JD en attente d'un match confiant) ; tout le reste est reclassé.
+Résidus restants documentés : **5** `a_resoudre` + **7** `liaison_multi_concert`
+(étape 12) + côté concerts, **1** legacy joydiv (« Unknown venue » / Bradford).
+
+`validate_chronology` errors=0 (INV5 : `concert_migre` ⇒ `same_as` CONCERT- ;
+`a_resoudre` ⇒ `concert_a_migrer`). `validate_concerts` errors=0.

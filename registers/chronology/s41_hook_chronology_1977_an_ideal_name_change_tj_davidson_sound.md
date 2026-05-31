@@ -129,6 +129,7 @@ chronology:
   - id: CHR-S41-1977-OLDHAM-TOWER-CLUB-NO-AUDIENCE
     date_precision: annee
     categorie: concert_a_migrer
+    a_resoudre: true
     source_id: S41
     date: "1977"
     evenement: >

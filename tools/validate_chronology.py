@@ -246,6 +246,10 @@ def validate():
             sa = str(r.get("same_as") or "")
             if not sa.startswith("CONCERT-"):
                 diags.append(Diag("error", "INV5-migre", rid, "concert_migre sans same_as vers un CONCERT-"))
+        # a_resoudre (étape 7b-3) : résidu de concert non réconcilié -> ne se pose
+        # que sur un concert_a_migrer (vrai gig JD en attente de match confiant).
+        if r.get("a_resoudre") and cat != "concert_a_migrer":
+            diags.append(Diag("warning", "INV5-aresoudre", rid, f"a_resoudre mais categorie={cat}"))
 
     return diags, len(records), len(canon)
 

@@ -82,6 +82,7 @@ chronology:
   - id: CHR-S45-1980-02-NEW-OSBOURNE-CITY-FUN
     date_precision: mois
     categorie: concert_a_migrer
+    a_resoudre: true
     source_id: S45
     date: "1980-02"
     evenement: >

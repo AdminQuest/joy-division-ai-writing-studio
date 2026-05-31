@@ -50,6 +50,7 @@ chronology:
   - id: CHR-S41-1977-06-SQUAT-STUFF-THE-JUBILEE
     date_precision: mois
     categorie: concert_a_migrer
+    a_resoudre: true
     source_id: S41
     date: "1977-06"
     evenement: >

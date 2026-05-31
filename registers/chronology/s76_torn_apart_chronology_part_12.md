@@ -47,6 +47,7 @@ notes: >
 id: CHR-S76-1979-022
 date_precision: mois
 categorie: concert_a_migrer
+a_resoudre: true
 type_unite: chronology
 date: 1979-10
 precision_date: late_october
