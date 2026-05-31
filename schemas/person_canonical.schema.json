@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adminquest/joy-division-ai-writing-studio/schemas/person_canonical.schema.json",
+  "title": "Registre canonique des acteurs — PERSON-",
+  "description": "Schéma JSON exécutable (Draft 2020-12, FormatChecker actif) de l'identité canonique d'un acteur (étape 9). Décrit les enregistrements PERSON-<slug> de registers/people/00_canonical_people.md, générés par tools/build_people_canon.py et validés par tools/validate_people.py. La couche provisoire PERS-* (préfixe PERS-, schéma person souple) n'est PAS validée contre ce contrat ; chaque PERS-* est réconcilié par `same_as` porté côté canonique. Gel additif : aucun id provisoire n'est renommé ni supprimé.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type_unite",
+    "name",
+    "categorie",
+    "role",
+    "sources",
+    "same_as",
+    "alt_names",
+    "categorie_a_arbitrer",
+    "a_arbitrer"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identifiant canonique sémantique : PERSON- + slug (nom civil le plus complet et usuel).",
+      "pattern": "^PERSON-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "type_unite": {
+      "type": "string",
+      "description": "Type structurel de l'enregistrement.",
+      "const": "person"
+    },
+    "name": {
+      "type": "string",
+      "description": "Forme canonique = nom civil le plus complet et usuel.",
+      "minLength": 1
+    },
+    "categorie": {
+      "type": "string",
+      "description": "Catégorie primaire d'acteur (étape 9, §5.1).",
+      "enum": [
+        "membre",
+        "entourage",
+        "industrie",
+        "critique_journaliste",
+        "auteur_secondaire",
+        "influence",
+        "theoricien_mobilise"
+      ]
+    },
+    "role": {
+      "type": "array",
+      "description": "Rôles observés, unionnés depuis la couche provisoire.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "description": "Sources (SXX) où l'acteur apparaît.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "same_as": {
+      "type": "array",
+      "description": "Identifiants provisoires PERS-* (et composantes d'éclatement) réconciliés vers ce PERSON-. Peut être vide pour un PERSON- neuf issu d'un éclatement d'entité mixte.",
+      "items": {
+        "type": "string",
+        "pattern": "^PERS-[A-Za-z0-9-]+(?:#[a-z0-9-]+)?$"
+      },
+      "uniqueItems": true
+    },
+    "alt_names": {
+      "type": "array",
+      "description": "Formes secondaires : variantes orthographiques, noms de scène, noms de naissance.",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "categorie_a_arbitrer": {
+      "type": "boolean",
+      "description": "Vrai si double appartenance catégorielle (ex. critique ET auteur, industrie ET proche) ; la catégorie retenue est la primaire."
+    },
+    "a_arbitrer": {
+      "type": "boolean",
+      "description": "Vrai si le rattachement ou l'identité reste incertain (nom incomplet, homonymie possible, composante d'éclatement)."
+    },
+    "note": {
+      "type": "string",
+      "description": "Note de canonicalisation (optionnelle ; éclatements, prudences)."
+    }
+  }
+}

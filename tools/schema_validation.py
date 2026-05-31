@@ -27,6 +27,10 @@ SCHEMA_REQUIRED_FIELDS = {
     # optionnel (présent pour les concerts annulés).
     'concert': ['id','type_unite','label','date_precision','lieu','membres_reconcilies'],
     'person': ['id','name','role','sources'],
+    # Identité canonique d'acteur PERSON-<slug> (étape 9). Discriminée par le
+    # préfixe d'ID PERSON- (les entrées provisoires PERS-* gardent le contrat
+    # `person` ci-dessus). Ajout additif : `categorie`, `same_as`, `alt_names`.
+    'person_canonical': ['id','type_unite','name','categorie','role','sources','same_as','alt_names'],
     'song': ['song','themes','sources','chapters']
 }
 
@@ -51,6 +55,13 @@ SCHEMA_CONTROLLED_VALUES = {
     },
     'chronology': {
         'certainty': {'strong','medium','weak'}
+    },
+    # Vocabulaire fermé de la catégorie d'acteur canonique (étape 9, §5.1).
+    'person_canonical': {
+        'categorie': {
+            'membre', 'entourage', 'industrie', 'critique_journaliste',
+            'auteur_secondaire', 'influence', 'theoricien_mobilise',
+        }
     }
 }
 
@@ -82,6 +93,12 @@ def validate_against_schema(kind: str, data: Dict[str, Any]) -> List[str]:
     if kind == 'chronology' and str(data.get('id', '')).startswith('EVENT-'):
         schema_key = 'chronology_event'
 
+    # Le kind `person` couvre deux strates : l'identité canonique PERSON-<slug>
+    # (étape 9, schéma étendu person_canonical) et la couche provisoire PERS-*
+    # (contrat `person` souple). Discriminé par le préfixe d'ID PERSON-.
+    if kind == 'person' and str(data.get('id', '')).startswith('PERSON-'):
+        schema_key = 'person_canonical'
+
     # Le kind `concert` couvre deux schémas : l'identité canonique CONCERT-
     # (validée ici) et le legacy JD-CONCERT- (schéma joydiv propre, NON validé
     # par ce module — il a son schemas/concert_v1.yaml). On ne contraint donc
@@ -107,7 +124,13 @@ def validate_against_schema(kind: str, data: Dict[str, Any]) -> List[str]:
         if field_name in data and not isinstance(data[field_name], list):
             diagnostics.append(f'Field must be a list: {field_name}')
 
-    for field_name, allowed_values in SCHEMA_CONTROLLED_VALUES.get(kind, {}).items():
+    # Valeurs contrôlées : union du kind de base et du schema_key discriminé, pour
+    # ne perdre aucun contrôle existant (ex. EVENT- héritait `certainty` via
+    # `chronology`) tout en ajoutant ceux du schéma canonique (person_canonical).
+    controlled = dict(SCHEMA_CONTROLLED_VALUES.get(kind, {}))
+    if schema_key != kind:
+        controlled.update(SCHEMA_CONTROLLED_VALUES.get(schema_key, {}))
+    for field_name, allowed_values in controlled.items():
         if field_name not in data:
             continue
 
