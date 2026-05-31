@@ -15,10 +15,9 @@
 id: EVENT-NAISSANCE-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Naissance de Ian Curtis"
 date: "1956-07-15"
 date_precision: jour
-event: >
-  Naissance de Ian Curtis.
 sources:
   - MASTER
   - S76
@@ -35,10 +34,9 @@ membres_reconcilies:
 id: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
 type_unite: chronology_event
 categorie: jalon
+label: "Premier concert des Sex Pistols au Lesser Free Trade Hall"
 date: "1976-06-04"
 date_precision: jour
-event: >
-  Premier concert des Sex Pistols au Lesser Free Trade Hall.
 sources:
   - MASTER
   - S10
@@ -58,10 +56,9 @@ membres_reconcilies:
 id: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
 type_unite: chronology_event
 categorie: jalon
+label: "Second concert des Sex Pistols au Lesser Free Trade Hall"
 date: "1976-07-20"
 date_precision: jour
-event: >
-  Second concert des Sex Pistols au Lesser Free Trade Hall.
 sources:
   - S41
   - S45
@@ -82,10 +79,9 @@ membres_reconcilies:
 id: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
 type_unite: chronology_event
 categorie: jalon
+label: "Premier concert de Warsaw à l'Electric Circus"
 date: "1977-05-29"
 date_precision: jour
-event: >
-  Premier concert de Warsaw à l'Electric Circus.
 sources:
   - S10
   - S41
@@ -107,10 +103,9 @@ membres_reconcilies:
 id: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
 type_unite: chronology_event
 categorie: jalon
+label: "Premier concert sous le nom Joy Division (Pips)"
 date: "1978-01-25"
 date_precision: jour
-event: >
-  Premier concert sous le nom Joy Division (Pips).
 sources:
   - S10
   - S41
@@ -132,10 +127,9 @@ membres_reconcilies:
 id: EVENT-ARRIVEE-STEPHEN-MORRIS
 type_unite: chronology_event
 categorie: jalon
+label: "Arrivée de Stephen Morris (batteur)"
 date: "1977-08"
 date_precision: mois
-event: >
-  Arrivée de Stephen Morris (batteur).
 sources:
   - S41
   - S45
@@ -154,10 +148,9 @@ prudence_methodologique: >
 id: EVENT-SORTIE-A-FACTORY-SAMPLE
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie de A Factory Sample (FAC 2)"
 date: "1979-01"
 date_precision: mois
-event: >
-  Sortie de A Factory Sample (FAC 2).
 sources:
   - MASTER
   - S10
@@ -176,10 +169,9 @@ membres_reconcilies:
 id: EVENT-SORTIE-UNKNOWN-PLEASURES
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie de l'album Unknown Pleasures (FACT 10)"
 date: "1979-06-14"
 date_precision: jour
-event: >
-  Sortie de l'album Unknown Pleasures (FACT 10).
 sources:
   - MASTER
   - S41
@@ -201,10 +193,9 @@ prudence_methodologique: >
 id: EVENT-DERNIER-CONCERT-BIRMINGHAM
 type_unite: chronology_event
 categorie: jalon
+label: "Dernier concert de Joy Division (Birmingham University)"
 date: "1980-05-02"
 date_precision: jour
-event: >
-  Dernier concert de Joy Division (Birmingham University).
 sources:
   - MASTER
   - S41
@@ -227,10 +218,9 @@ membres_reconcilies:
 id: EVENT-MORT-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Mort de Ian Curtis"
 date: "1980-05-18"
 date_precision: jour
-event: >
-  Mort de Ian Curtis.
 sources:
   - MASTER
   - S41
@@ -253,10 +243,9 @@ prudence_methodologique: >
 id: EVENT-SORTIE-CLOSER
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie posthume de l'album Closer"
 date: "1980-07-18"
 date_precision: jour
-event: >
-  Sortie posthume de l'album Closer.
 sources:
   - MASTER
   - S41
@@ -273,10 +262,9 @@ membres_reconcilies:
 id: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
 type_unite: chronology_event
 categorie: jalon
+label: "Premières démos de Warsaw à Pennine Sound Studios"
 date: "1977-07-18"
 date_precision: jour
-event: >
-  Premières démos de Warsaw à Pennine Sound Studios.
 sources:
   - S41
   - S75
@@ -295,10 +283,9 @@ membres_reconcilies:
 id: EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE
 type_unite: chronology_event
 categorie: jalon
+label: "Dernier concert sous le nom Warsaw (Swinging Apple, Liverpool)"
 date: "1977-12-31"
 date_precision: jour
-event: >
-  Dernier concert sous le nom Warsaw (Swinging Apple, Liverpool).
 sources:
   - S41
   - S45
@@ -315,10 +302,9 @@ membres_reconcilies:
 id: EVENT-SESSIONS-RCA-ARROW-STUDIOS
 type_unite: chronology_event
 categorie: jalon
+label: "Sessions de l'album avorté RCA / Arrow Studios"
 date: "1978-05"
 date_precision: mois
-event: >
-  Sessions de l'album avorté RCA / Arrow Studios.
 sources:
   - MASTER
   - S10
@@ -346,10 +332,9 @@ prudence_methodologique: >
 id: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
 type_unite: chronology_event
 categorie: jalon
+label: "Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »)"
 date: "1978-09-20"
 date_precision: jour
-event: >
-  Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »).
 sources:
   - S10
   - S41
@@ -369,10 +354,9 @@ membres_reconcilies:
 id: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
 type_unite: chronology_event
 categorie: jalon
+label: "Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios)"
 date: "1978-10-11"
 date_precision: jour
-event: >
-  Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios).
 sources:
   - S41
   - S75
@@ -391,10 +375,9 @@ membres_reconcilies:
 id: EVENT-COUVERTURE-NME-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Ian Curtis en couverture du NME"
 date: "1979-01-13"
 date_precision: jour
-event: >
-  Ian Curtis en couverture du NME.
 sources:
   - S45
   - S75
@@ -411,10 +394,9 @@ membres_reconcilies:
 id: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Diagnostic d'épilepsie de Ian Curtis"
 date: "1979-01-23"
 date_precision: jour
-event: >
-  Diagnostic d'épilepsie de Ian Curtis.
 sources:
   - S41
   - S45
@@ -434,10 +416,9 @@ membres_reconcilies:
 id: EVENT-PREMIERE-PEEL-SESSION
 type_unite: chronology_event
 categorie: jalon
+label: "Première John Peel Session de Joy Division"
 date: "1979-01-31"
 date_precision: jour
-event: >
-  Première John Peel Session de Joy Division.
 sources:
   - S41
   - S45
@@ -458,10 +439,9 @@ membres_reconcilies:
 id: EVENT-NAISSANCE-NATALIE-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Naissance de Natalie Curtis"
 date: "1979-04-16"
 date_precision: jour
-event: >
-  Naissance de Natalie Curtis.
 sources:
   - S41
   - S45
@@ -480,10 +460,9 @@ membres_reconcilies:
 id: EVENT-DEUXIEME-PEEL-SESSION
 type_unite: chronology_event
 categorie: jalon
+label: "Deuxième John Peel Session de Joy Division"
 date: "1979-11-26"
 date_precision: jour
-event: >
-  Deuxième John Peel Session de Joy Division.
 sources:
   - S41
 membres_reconcilies:
@@ -501,10 +480,9 @@ prudence_methodologique: >
 id: EVENT-FETE-FACTORY-NOUVEL-AN
 type_unite: chronology_event
 categorie: jalon
+label: "Fête Factory du Nouvel An (Oldham Street)"
 date: "1979-12-31"
 date_precision: jour
-event: >
-  Fête Factory du Nouvel An (Oldham Street).
 sources:
   - S41
   - S76
@@ -523,10 +501,9 @@ prudence_methodologique: >
 id: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Overdose de phénobarbital de Ian Curtis"
 date: "1980-04-07"
 date_precision: jour
-event: >
-  Overdose de phénobarbital de Ian Curtis.
 sources:
   - S45
   - S75
@@ -543,10 +520,9 @@ membres_reconcilies:
 id: EVENT-CONCERT-DERBY-HALL-BURY
 type_unite: chronology_event
 categorie: jalon
+label: "Concert du Derby Hall, Bury (interrompu, état critique de Curtis)"
 date: "1980-04-08"
 date_precision: jour
-event: >
-  Concert du Derby Hall, Bury (interrompu, état critique de Curtis).
 sources:
   - MASTER
   - S45
@@ -563,10 +539,9 @@ membres_reconcilies:
 id: EVENT-NAISSANCE-BERNARD-SUMNER
 type_unite: chronology_event
 categorie: jalon
+label: "Naissance de Bernard Sumner"
 date: "1956-01-04"
 date_precision: jour
-event: >
-  Naissance de Bernard Sumner.
 sources:
   - S10
 membres_reconcilies:
@@ -581,10 +556,9 @@ membres_reconcilies:
 id: EVENT-NAISSANCE-PETER-HOOK
 type_unite: chronology_event
 categorie: jalon
+label: "Naissance de Peter Hook"
 date: "1956-02-13"
 date_precision: jour
-event: >
-  Naissance de Peter Hook.
 sources:
   - S41
 membres_reconcilies:
@@ -599,10 +573,9 @@ membres_reconcilies:
 id: EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR
 type_unite: chronology_event
 categorie: jalon
+label: "Rencontre de Bernard Sumner et Peter Hook (Salford Grammar School)"
 date: "1967"
 date_precision: annee
-event: >
-  Rencontre de Bernard Sumner et Peter Hook (Salford Grammar School).
 sources:
   - S10
   - S41
@@ -621,10 +594,9 @@ prudence_methodologique: >
 id: EVENT-MARIAGE-IAN-DEBORAH-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Mariage de Ian Curtis et Deborah Woodruff"
 date: "1975-08-23"
 date_precision: jour
-event: >
-  Mariage de Ian Curtis et Deborah Woodruff.
 sources:
   - S76
 membres_reconcilies:
@@ -639,10 +611,9 @@ membres_reconcilies:
 id: EVENT-RECRUTEMENT-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Ian Curtis devient le chanteur du groupe"
 date: "1976-12"
 date_precision: mois
-event: >
-  Ian Curtis devient le chanteur du groupe.
 sources:
   - S10
   - S41
@@ -661,10 +632,9 @@ prudence_methodologique: >
 id: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
 type_unite: chronology_event
 categorie: jalon
+label: "Changement de nom : Warsaw devient Joy Division"
 date: "1977-12"
 date_precision: mois
-event: >
-  Changement de nom : Warsaw devient Joy Division.
 sources:
   - S41
   - S45
@@ -684,10 +654,9 @@ prudence_methodologique: >
 id: EVENT-INSTALLATION-TJ-DAVIDSONS
 type_unite: chronology_event
 categorie: jalon
+label: "Installation du groupe à T. J. Davidson's (local de répétition)"
 date: "1977"
 date_precision: annee
-event: >
-  Installation du groupe à T. J. Davidson's (local de répétition).
 sources:
   - S41
   - S76
@@ -704,10 +673,9 @@ membres_reconcilies:
 id: EVENT-DEPART-TONY-TABAC
 type_unite: chronology_event
 categorie: jalon
+label: "Départ de Tony Tabac (batterie)"
 date: "1977-06-25"
 date_precision: jour
-event: >
-  Départ de Tony Tabac (batterie).
 sources:
   - S41
 membres_reconcilies:
@@ -722,10 +690,9 @@ membres_reconcilies:
 id: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
 type_unite: chronology_event
 categorie: jalon
+label: "Enregistrement de l'EP An Ideal for Living (Pennine Sound)"
 date: "1977-12"
 date_precision: mois
-event: >
-  Enregistrement de l'EP An Ideal for Living (Pennine Sound).
 sources:
   - S10
   - S41
@@ -747,10 +714,9 @@ membres_reconcilies:
 id: EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie de An Ideal for Living, 7 pouces original (Enigma PSS 139)"
 date: "1978-06-03"
 date_precision: jour
-event: >
-  Sortie de An Ideal for Living, 7 pouces original (Enigma PSS 139).
 sources:
   - S41
   - S75
@@ -767,10 +733,9 @@ membres_reconcilies:
 id: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
 type_unite: chronology_event
 categorie: jalon
+label: "Réédition de An Ideal for Living en 12 pouces (Anonymous ANON1)"
 date: "1978-10-10"
 date_precision: jour
-event: >
-  Réédition de An Ideal for Living en 12 pouces (Anonymous ANON1).
 sources:
   - S41
   - S75
@@ -790,10 +755,9 @@ membres_reconcilies:
 id: EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS
 type_unite: chronology_event
 categorie: jalon
+label: "Captation pour Short Circuit (dernière soirée de l'Electric Circus)"
 date: "1977-10-02"
 date_precision: jour
-event: >
-  Captation pour Short Circuit (dernière soirée de l'Electric Circus).
 sources:
   - S41
 membres_reconcilies:
@@ -809,10 +773,9 @@ membres_reconcilies:
 id: EVENT-SORTIE-SHORT-CIRCUIT-LIVE
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie de Short Circuit – Live at the Electric Circus"
 date: "1978-06-09"
 date_precision: jour
-event: >
-  Sortie de Short Circuit – Live at the Electric Circus.
 sources:
   - S41
 membres_reconcilies:
@@ -827,10 +790,9 @@ membres_reconcilies:
 id: EVENT-ROB-GRETTON-DEVIENT-MANAGER
 type_unite: chronology_event
 categorie: jalon
+label: "Rob Gretton devient le manager de Joy Division"
 date: "1978-05"
 date_precision: mois
-event: >
-  Rob Gretton devient le manager de Joy Division.
 sources:
   - S41
   - S45
@@ -849,10 +811,9 @@ membres_reconcilies:
 id: EVENT-PREMIERE-SOIREE-FACTORY
 type_unite: chronology_event
 categorie: jalon
+label: "Première soirée Factory (Russell Club)"
 date: "1978-05-19"
 date_precision: jour
-event: >
-  Première soirée Factory (Russell Club).
 sources:
   - S76
 membres_reconcilies:
@@ -867,10 +828,9 @@ membres_reconcilies:
 id: EVENT-SESSION-PICCADILLY-RADIO
 type_unite: chronology_event
 categorie: jalon
+label: "Session Piccadilly Radio"
 date: "1979-06-04"
 date_precision: jour
-event: >
-  Session Piccadilly Radio.
 sources:
   - S41
 membres_reconcilies:
@@ -886,10 +846,9 @@ membres_reconcilies:
 id: EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL
 type_unite: chronology_event
 categorie: jalon
+label: "Enregistrement télévisé « She's Lost Control » (What's On / Granada)"
 date: "1979"
 date_precision: annee
-event: >
-  Enregistrement télévisé « She's Lost Control » (What's On / Granada).
 sources:
   - S41
 membres_reconcilies:
@@ -904,10 +863,9 @@ membres_reconcilies:
 id: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
 type_unite: chronology_event
 categorie: jalon
+label: "Performance BBC2 « Something Else » (« Transmission » / « She's Lost Control »)"
 date: "1979-09"
 date_precision: mois
-event: >
-  Performance BBC2 « Something Else » (« Transmission » / « She's Lost Control »).
 sources:
   - S75
   - S76
@@ -926,10 +884,9 @@ prudence_methodologique: >
 id: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
 type_unite: chronology_event
 categorie: jalon
+label: "Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios)"
 date: "1979-04"
 date_precision: mois
-event: >
-  Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios).
 sources:
   - S10
   - S41
@@ -953,10 +910,9 @@ membres_reconcilies:
 id: EVENT-SESSIONS-TRANSMISSION
 type_unite: chronology_event
 categorie: jalon
+label: "Sessions d'enregistrement de « Transmission »"
 date: "1979-07"
 date_precision: mois
-event: >
-  Sessions d'enregistrement de « Transmission ».
 sources:
   - S41
   - S75
@@ -977,12 +933,10 @@ prudence_methodologique: >
 id: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
 type_unite: chronology_event
 categorie: jalon
-date: "1979-10"
-date_precision: intervalle
+label: "Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios)"
 date_debut: 1979-10
 date_fin: 1979-11
-event: >
-  Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios).
+date_precision: intervalle
 sources:
   - S41
   - S75
@@ -1002,10 +956,9 @@ membres_reconcilies:
 id: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
 type_unite: chronology_event
 categorie: jalon
+label: "Sessions d'enregistrement de Closer (Britannia Row Studios)"
 date: "1980-03"
 date_precision: mois
-event: >
-  Sessions d'enregistrement de Closer (Britannia Row Studios).
 sources:
   - S10
   - S41
@@ -1028,10 +981,9 @@ membres_reconcilies:
 id: EVENT-TOURNEE-BUZZCOCKS
 type_unite: chronology_event
 categorie: jalon
+label: "Tournée britannique des Buzzcocks (Joy Division en première partie)"
 date: "1979"
 date_precision: annee
-event: >
-  Tournée britannique des Buzzcocks (Joy Division en première partie).
 sources:
   - S41
   - S45
@@ -1049,10 +1001,9 @@ membres_reconcilies:
 id: EVENT-TOURNEE-EUROPEENNE-1980
 type_unite: chronology_event
 categorie: jalon
+label: "Tournée européenne de Joy Division"
 date: "1980-01"
 date_precision: mois
-event: >
-  Tournée européenne de Joy Division.
 sources:
   - S41
   - S45
@@ -1071,10 +1022,9 @@ membres_reconcilies:
 id: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
 type_unite: chronology_event
 categorie: jalon
+label: "Tentative de suicide au retour de la tournée européenne (Pernod / couteau)"
 date: "1980-01"
 date_precision: mois
-event: >
-  Tentative de suicide au retour de la tournée européenne (Pernod / couteau).
 sources:
   - S41
   - S45
@@ -1095,10 +1045,9 @@ prudence_methodologique: >
 id: EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY
 type_unite: chronology_event
 categorie: jalon
+label: "Séance photo de Kevin Cummins (Princess Parkway)"
 date: "1979-01-06"
 date_precision: jour
-event: >
-  Séance photo de Kevin Cummins (Princess Parkway).
 sources:
   - S41
 membres_reconcilies:
@@ -1113,10 +1062,9 @@ membres_reconcilies:
 id: EVENT-SEANCE-PHOTO-CORBIJN
 type_unite: chronology_event
 categorie: jalon
+label: "Première séance photo d'Anton Corbijn"
 date: "1979-11"
 date_precision: mois
-event: >
-  Première séance photo d'Anton Corbijn.
 sources:
   - S41
 membres_reconcilies:
@@ -1131,10 +1079,9 @@ membres_reconcilies:
 id: EVENT-POCHETTE-CLOSER-STAGLIENO
 type_unite: chronology_event
 categorie: jalon
+label: "Conception de la pochette de Closer (photographie de Staglieno, Saville)"
 date: "1980-03"
 date_precision: mois
-event: >
-  Conception de la pochette de Closer (photographie de Staglieno, Saville).
 sources:
   - S41
   - S76
@@ -1151,10 +1098,9 @@ membres_reconcilies:
 id: EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART
 type_unite: chronology_event
 categorie: jalon
+label: "Tournage de la vidéo « Love Will Tear Us Apart » (T. J. Davidson's)"
 date: "1980-04"
 date_precision: mois
-event: >
-  Tournage de la vidéo « Love Will Tear Us Apart » (T. J. Davidson's).
 sources:
   - S41
   - S45
@@ -1171,10 +1117,9 @@ membres_reconcilies:
 id: EVENT-FUNERAILLES-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Funérailles et crémation de Ian Curtis"
 date: "1980-05"
 date_precision: mois
-event: >
-  Funérailles et crémation de Ian Curtis.
 sources:
   - S41
   - S76
@@ -1193,10 +1138,9 @@ prudence_methodologique: >
 id: EVENT-SORTIE-FAC13-TRANSMISSION
 type_unite: chronology_event
 categorie: jalon
+label: "Sortie du single « Transmission » / « Novelty » (FAC 13)"
 date: "1979-10"
 date_precision: mois
-event: >
-  Sortie du single « Transmission » / « Novelty » (FAC 13).
 sources:
   - S41
 membres_reconcilies:
@@ -1213,10 +1157,9 @@ prudence_methodologique: >
 id: EVENT-SORTIE-EARCOM-2
 type_unite: chronology_event
 categorie: jalon
+label: "Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2"
 date: "1979-10"
 date_precision: mois
-event: >
-  Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2.
 sources:
   - S75
 membres_reconcilies:
@@ -1231,12 +1174,10 @@ membres_reconcilies:
 id: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
 type_unite: chronology_event
 categorie: jalon
-date: "1980-01"
-date_precision: intervalle
+label: "Enregistrement et mixage de « Love Will Tear Us Apart »"
 date_debut: 1980-01
 date_fin: 1980-03
-event: >
-  Enregistrement et mixage de « Love Will Tear Us Apart ».
+date_precision: intervalle
 sources:
   - S41
   - S76
@@ -1256,10 +1197,9 @@ prudence_methodologique: >
 id: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
+label: "Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor)"
 date: "1978-12-27"
 date_precision: jour
-event: >
-  Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor).
 sources:
   - MASTER
   - S10
@@ -1286,10 +1226,9 @@ prudence_methodologique: >
 id: EVENT-RENCONTRE-ANNIK-HONORE
 type_unite: chronology_event
 categorie: jalon
+label: "Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms)"
 date: "1979-08-13"
 date_precision: jour
-event: >
-  Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms).
 sources:
   - S41
   - S76
@@ -1309,10 +1248,9 @@ prudence_methodologique: >
 id: EVENT-CRISE-RAINBOW-THEATRE
 type_unite: chronology_event
 categorie: jalon
+label: "Crise de Ian Curtis au Rainbow Theatre (stroboscopes)"
 date: "1980-04-04"
 date_precision: jour
-event: >
-  Crise de Ian Curtis au Rainbow Theatre (stroboscopes).
 sources:
   - S41
   - S75
@@ -1331,10 +1269,9 @@ prudence_methodologique: >
 id: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
 type_unite: chronology_event
 categorie: jalon
+label: "Démos pour Genetic à Eden Studios (Martin Rushent)"
 date: "1979-03-04"
 date_precision: jour
-event: >
-  Démos pour Genetic à Eden Studios (Martin Rushent).
 sources:
   - S41
   - S75
@@ -1356,10 +1293,9 @@ prudence_methodologique: >
 id: EVENT-GENESE-DUO-SUMNER-HOOK
 type_unite: chronology_event
 categorie: jalon
+label: "Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe)"
 date: "1976"
 date_precision: annee
-event: >
-  Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe).
 sources:
   - S10
 membres_reconcilies:

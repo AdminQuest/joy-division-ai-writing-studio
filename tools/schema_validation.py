@@ -9,6 +9,11 @@ SCHEMA_REQUIRED_FIELDS = {
     ],
     'quote': ['id','source_id','citation_originale','langue_originale','statut_verification'],
     'chronology': ['id','date','event','type','sources','certainty'],
+    # Identité canonique d'événement (registre chronologique, étape 6).
+    # Enregistrement d'IDENTITÉ : type/certainty/location/people sont OPTIONNELS
+    # (portés par les membres legacy, atteignables par same_as). La contrainte
+    # temporelle (date XOR date_debut+date_fin) est vérifiée à part.
+    'chronology_event': ['id','type_unite','label','date_precision','membres_reconcilies'],
     'person': ['id','name','role','sources'],
     'song': ['song','themes','sources','chapters']
 }
@@ -56,9 +61,27 @@ LIST_FIELDS = {
 def validate_against_schema(kind: str, data: Dict[str, Any]) -> List[str]:
     diagnostics: List[str] = []
 
-    for key in SCHEMA_REQUIRED_FIELDS.get(kind, []):
+    # Les identités canoniques EVENT-<SLUG> (chronology_event) suivent un schéma
+    # distinct du chronology legacy. Discriminé par le préfixe d'ID EVENT- : les
+    # entrées legacy S29/S34 (ID CHR-, type_unite chronology_event) restent du
+    # chronology legacy et conservent leurs requis.
+    schema_key = kind
+    if kind == 'chronology' and str(data.get('id', '')).startswith('EVENT-'):
+        schema_key = 'chronology_event'
+
+    for key in SCHEMA_REQUIRED_FIELDS.get(schema_key, []):
         if key not in data:
             diagnostics.append(f'Missing required field: {key}')
+
+    if schema_key == 'chronology_event':
+        has_date = 'date' in data
+        has_interval = 'date_debut' in data and 'date_fin' in data
+        if has_date == has_interval:
+            diagnostics.append(
+                'chronology_event requires exactly one of `date` or `date_debut`+`date_fin`')
+        membres = data.get('membres_reconcilies')
+        if not isinstance(membres, list) or len(membres) < 1:
+            diagnostics.append('chronology_event: `membres_reconcilies` must be a non-empty list')
 
     for field_name in LIST_FIELDS:
         if field_name in data and not isinstance(data[field_name], list):

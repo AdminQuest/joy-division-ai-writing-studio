@@ -801,13 +801,14 @@ def write_canonical_file(entries, canon=None):
         lines.append(f"id: {cid}")
         lines.append("type_unite: chronology_event")
         lines.append("categorie: jalon")
-        lines.append(f"date: \"{d['date']}\"")
-        lines.append(f"date_precision: {d['precision']}")
+        lines.append(f"label: \"{d['label'].replace(chr(34), chr(39))}\"")
+        # Contrainte temporelle : date XOR (date_debut + date_fin).
         if d.get("debut"):
             lines.append(f"date_debut: {d['debut']}")
             lines.append(f"date_fin: {d['fin']}")
-        lines.append(f"event: >")
-        lines.append(f"  {d['label']}.")
+        else:
+            lines.append(f"date: \"{d['date']}\"")
+        lines.append(f"date_precision: {d['precision']}")
         lines.append("sources:")
         for s in srcs:
             lines.append(f"  - {s}")
