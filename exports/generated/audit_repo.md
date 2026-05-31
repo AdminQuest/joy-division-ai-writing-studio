@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-30T22:39:26`
+Généré le : `2026-05-30T22:42:05`
 
 ## 1. Verdict
 
 Le repo est techniquement exploitable, mais 1509 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
+La dette principale reste la migration v2 : 2472 atome(s) incomplet(s) sur 2752.
 
 ## 2. Synthèse chiffrée
 
 - Enregistrements : 7681
 - Erreurs : 0
-- Avertissements : 30046
+- Avertissements : 29629
 - Sources déclarées : 95
 - Sources utilisées : 79
 - Sources exportées : 79
@@ -44,11 +44,11 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 692 |
-| invalid_controlled_value | 2630 |
+| invalid_controlled_value | 2573 |
 | missing_required_field | 9260 |
 | schema_warning | 492 |
 | unknown_yaml_block | 1509 |
-| v2_migration_debt | 15463 |
+| v2_migration_debt | 15103 |
 
 ## 5. Erreurs bloquantes
 
@@ -125,9 +125,9 @@ Aucun libellé faible.
 ## 8. Migration v2
 
 - Atomes : 2752
-- Atomes v2 complets : 240
-- Atomes v2 incomplets : 2512
-- Avertissements de champs v2 manquants : 15463
+- Atomes v2 complets : 280
+- Atomes v2 incomplets : 2472
+- Avertissements de champs v2 manquants : 15103
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
@@ -136,7 +136,6 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | Fichier | Problèmes |
 |---|---:|
 | sources/mike_west_joy_division/source_atomisation_01.md | 417 |
-| sources/mike_west_joy_division/source_atomisation_04.md | 417 |
 | sources/hook/atomisation_02_transmission_1978.md | 406 |
 | sources/johnson_morley_an_ideal_for_living/source_suite_06.md | 376 |
 | sources/hook/source.md | 365 |
@@ -155,6 +154,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/flowers/second_pass_new_order_late_discography.md | 261 |
 | sources/morris_record_play_pause/source_part_06.md | 251 |
 | sources/morris_record_play_pause/atomes_s35_record_play_pause.md | 239 |
+| sources/hook/atomisation_04_unknown_pleasures_track_by_track.md | 237 |
 
 ## 10. Commandes utiles
 
