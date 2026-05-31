@@ -847,9 +847,22 @@ def main():
 
     if args.phase == "check":
         # Vérification de cohérence légère (pas un validateur de schéma) :
-        #  1. tout same_as résout vers un EVENT- canonique existant ;
+        #  1. tout same_as résout vers un EVENT- canonique existant, OU vers une
+        #     identité CONCERT- (cross-registres, étape 7b-2 : concert_migre /
+        #     facette gig réconciliée — non bloquant ici) ;
         #  2. aucune date ISO impossible ; 3. aucun intervalle inversé.
         canon = set(CANON)
+        concert_ids = set()
+        for cf in sorted(glob.glob(str(CHRONO_DIR.parent / "concerts" / "*.md"))):
+            for cblk in FENCE.findall(Path(cf).read_text(encoding="utf-8")):
+                try:
+                    cdata = yaml.safe_load(cblk)
+                except Exception:
+                    continue
+                citems = cdata if isinstance(cdata, list) else [cdata]
+                for ci in citems:
+                    if isinstance(ci, dict) and str(ci.get("id", "")).startswith("CONCERT-"):
+                        concert_ids.add(str(ci["id"]))
         edges = impossible = inverted = 0
         problems = []
         for f in sorted(glob.glob(str(CHRONO_DIR / "*.md"))):
@@ -871,7 +884,7 @@ def main():
                     sa = it.get("same_as")
                     if sa:
                         edges += 1
-                        if str(sa) not in canon:
+                        if str(sa) not in canon and str(sa) not in concert_ids:
                             problems.append(f"same_as non résolu: {it.get('id')} -> {sa}")
                     db, fi = str(it.get("date_debut", "")), str(it.get("date_fin", ""))
                     if db and fi and db > fi:

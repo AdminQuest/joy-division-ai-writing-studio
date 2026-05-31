@@ -141,6 +141,16 @@ def main() -> int:
             errors.append(f"INV2 — legacy {m} listé par plusieurs canoniques {sorted(owners)}")
         if m not in legacy and m.startswith("JD-CONCERT-"):
             errors.append(f"INV2 — membre {m} de {sorted(owners)} introuvable parmi les legacy")
+        # Bijection inverse : un membre legacy JD-CONCERT- DOIT porter un same_as
+        # qui pointe vers le canonique qui le liste (sinon membre orphelin / périmé).
+        # (Les membres CHR- — facettes gig réconciliées d'une entrée chronologie —
+        # sont cross-registres : leur same_as peut viser un EVENT- ; non contraint ici.)
+        if m in legacy and m.startswith("JD-CONCERT-"):
+            sa = str(legacy[m].get("same_as") or "")
+            if sa not in owners:
+                errors.append(
+                    f"INV2 — membre legacy {m} listé par {sorted(owners)} mais son "
+                    f"same_as={legacy[m].get('same_as')!r} ne pointe pas en retour")
 
     # ---- INV1 : same_as côté legacy ----
     for lid, rec in legacy.items():
