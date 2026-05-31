@@ -864,3 +864,61 @@ clinique 1980-05-06, dernière photo 1980-05-13, appels d'Annik) — **jamais**
 Additions de facettes à des `EVENT-` existants (réconciliation `same_as`) :
 `EVENT-SESSIONS-RCA-ARROW-STUDIOS` (+3), `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY`
 (+1), `EVENT-PREMIERE-PEEL-SESSION` (+1), `EVENT-SORTIE-A-FACTORY-SAMPLE` (+1).
+
+## VII.B2 — Individuation des clusters mois/année (vague b2)
+
+**7 nouveaux `EVENT-`** (→ **54 au total**, **152 `same_as`**) issus de la
+décomposition des clusters denses :
+
+| `EVENT-` | Date | Cluster d'origine |
+|---|---|---|
+| `EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY` | 1979-04 | sessions UP (6 facettes inter-sources) |
+| `EVENT-SESSIONS-TRANSMISSION` | 1979-07 | sessions « Transmission » (Central Sound + Strawberry) |
+| `EVENT-SESSIONS-LICHT-UND-BLINDHEIT` | 1979-10/11 | sessions Atmosphere / Dead Souls (Sordide) |
+| `EVENT-SESSIONS-CLOSER-BRITANNIA-ROW` | 1980-03 | sessions *Closer* (cœur du cluster 1980-03) |
+| `EVENT-TOURNEE-BUZZCOCKS` | 1979 | tournée Buzzcocks (support) |
+| `EVENT-TOURNEE-EUROPEENNE-1980` | 1980-01 | tournée européenne |
+| `EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE` | 1980-01 | retour de tournée (Pernod / couteau / Bible) |
+
+Les autres facettes des clusters denses (sessions RCA/Arrow déjà canonique)
+ont reçu un `same_as` vers leur ancre. Les **beats** non-ancres restent `jalon`
+nu.
+
+## VII.C — État final
+
+| Mesure | Valeur |
+|---|---:|
+| `EVENT-` canoniques | **54** |
+| arêtes `same_as` | **152** |
+| `jalon` (dont 179 sans canonique = beats / ancres mineures) | 331 |
+| `concert_a_migrer` | 88 |
+| `contexte` | 61 |
+| `reception_posthume` | 20 |
+| entrées `a_scinder_etape_10` | 10 |
+
+## VII.D — Cas ENCORE flaggés (arbitrage final)
+
+- **Clusters denses non entièrement individués** (découpage non forcé) :
+  - **1979-10** : au-delà des sessions Licht, restent distincts la sortie
+    *Earcom 2* (FAST), la sortie FAC 13 « Transmission », les concerts de
+    l'Apollo, la tournée nationale — à canonicaliser/séparer séparément.
+  - **1980-03** : au-delà des sessions *Closer*, restent « toilet fit » (crise),
+    flats York Street, rencontre U2/Hannett, mix LWTUA, départ du chien Candy,
+    lettres à Annik — facettes distinctes non fusionnées.
+  - **1977 / 1978** (clusters année) : nombreuses entrées DIY/AIL/management/
+    Factory déjà réconciliées ; le reste laissé en `jalon` (beats) faute de
+    découpage net.
+- **Genetic / Marquee (1979-03-04)** : maintenu `jalon` + `a_scinder_etape_10`
+  (décision A5 antérieure), **non** canonicalisé — à confirmer (les facettes
+  S75/S76 « démos Genetic » seules pourraient fonder un `EVENT-`).
+- **Bundles `a_scinder_etape_10` (10)** : Hope & Anchor, Nashville/Annik,
+  Rainbow — scission gig/fait à l'étape 10.
+- **Ancres mineures redescendues** : duo Sumner-Hook (apprentissage, été 1976),
+  fiançailles Curtis (1974-04), Musicians' Collective — laissées `jalon`,
+  promotion en `EVENT-` à arbitrer.
+- **`EVENT-SORTIE-EARCOM-2`, `EVENT-SORTIE-FAC13-TRANSMISSION`** : sorties
+  mono-source non créées (membres trop minces / bundlés) — à arbitrer.
+- **Slug** `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` vs forme « rejoint le
+  groupe » : à valider.
+
+Listes exhaustives : `python3 tools/canonicalize_chronology.py --phase report`.

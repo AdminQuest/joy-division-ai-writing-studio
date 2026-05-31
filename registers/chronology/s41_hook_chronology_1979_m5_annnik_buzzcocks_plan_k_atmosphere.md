@@ -47,6 +47,7 @@ chronology:
     statut: entretien à croiser avec archive audio / transcription
 
   - id: CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL
+    same_as: EVENT-TOURNEE-BUZZCOCKS
     date_precision: annee
     categorie: jalon
     source_id: S41
@@ -131,6 +132,7 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT
+    same_as: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
     date_precision: mois
     categorie: jalon
     source_id: S41

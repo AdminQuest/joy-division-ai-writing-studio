@@ -920,6 +920,175 @@ prudence_methodologique: >
 
 ---
 
+## EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY — Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios)
+
+```yaml
+id: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
+type_unite: chronology_event
+categorie: jalon
+date: "1979-04"
+date_precision: mois
+event: >
+  Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios).
+sources:
+  - S10
+  - S41
+  - S45
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-03-31-05-02-UP-STRAWBERRY
+  - CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS
+  - CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY
+  - CHR-S75-1979-004
+  - CHR-S76-1979-010
+  - CHR-S10-1979-002
+```
+
+---
+
+## EVENT-SESSIONS-TRANSMISSION — Sessions d'enregistrement de « Transmission »
+
+```yaml
+id: EVENT-SESSIONS-TRANSMISSION
+type_unite: chronology_event
+categorie: jalon
+date: "1979-07"
+date_precision: mois
+event: >
+  Sessions d'enregistrement de « Transmission ».
+sources:
+  - S41
+  - S75
+membres_reconcilies:
+  - CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION
+  - CHR-S41-1979-07-01-CENTRAL-SOUND-TRANSMISSION
+  - CHR-S75-1979-009
+  - CHR-S41-1979-07-28-08-04-STRAWBERRY-TRANSMISSION
+prudence_methodologique: >
+  Deux studios : sessions Central Sound puis version single à Strawberry.
+```
+
+---
+
+## EVENT-SESSIONS-LICHT-UND-BLINDHEIT — Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios)
+
+```yaml
+id: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
+type_unite: chronology_event
+categorie: jalon
+date: "1979-10"
+date_precision: intervalle
+date_debut: 1979-10
+date_fin: 1979-11
+event: >
+  Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios).
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT
+  - CHR-S41-1979-10-11-CARGO-SORDIDE-ATMOSPHERE
+  - CHR-S75-1979-012
+  - CHR-S76-1979-024
+```
+
+---
+
+## EVENT-SESSIONS-CLOSER-BRITANNIA-ROW — Sessions d'enregistrement de Closer (Britannia Row Studios)
+
+```yaml
+id: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
+type_unite: chronology_event
+categorie: jalon
+date: "1980-03"
+date_precision: mois
+event: >
+  Sessions d'enregistrement de Closer (Britannia Row Studios).
+sources:
+  - S10
+  - S41
+  - S45
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1980-CLOSER-BRITANNIA-ROW-SESSIONS
+  - CHR-S45-1980-03-CLOSER-BRITANNIA-ROW
+  - CHR-S75-1980-004
+  - CHR-S10-1980-002
+  - CHR-S76-1980-016
+```
+
+---
+
+## EVENT-TOURNEE-BUZZCOCKS — Tournée britannique des Buzzcocks (Joy Division en première partie)
+
+```yaml
+id: EVENT-TOURNEE-BUZZCOCKS
+type_unite: chronology_event
+categorie: jalon
+date: "1979"
+date_precision: annee
+event: >
+  Tournée britannique des Buzzcocks (Joy Division en première partie).
+sources:
+  - S41
+  - S45
+membres_reconcilies:
+  - CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB
+  - CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL
+  - CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS
+```
+
+---
+
+## EVENT-TOURNEE-EUROPEENNE-1980 — Tournée européenne de Joy Division
+
+```yaml
+id: EVENT-TOURNEE-EUROPEENNE-1980
+type_unite: chronology_event
+categorie: jalon
+date: "1980-01"
+date_precision: mois
+event: >
+  Tournée européenne de Joy Division.
+sources:
+  - S41
+  - S45
+  - S75
+membres_reconcilies:
+  - CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK
+  - CHR-S45-1980-01-EUROPEAN-TOUR-DEPART
+  - CHR-S75-1980-002
+```
+
+---
+
+## EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE — Tentative de suicide au retour de la tournée européenne (Pernod / couteau)
+
+```yaml
+id: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
+type_unite: chronology_event
+categorie: jalon
+date: "1980-01"
+date_precision: mois
+event: >
+  Tentative de suicide au retour de la tournée européenne (Pernod / couteau).
+sources:
+  - S41
+  - S45
+  - S75
+membres_reconcilies:
+  - CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE
+  - CHR-S45-1980-01-RETURN-PERNOD-BIBLE
+  - CHR-S75-1980-003
+prudence_methodologique: >
+  Datation divergente : S41/S45 « janvier 1980 » ; S75 « février 1980 ».
+```
+
+---
+
 ## EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY — Séance photo de Kevin Cummins (Princess Parkway)
 
 ```yaml

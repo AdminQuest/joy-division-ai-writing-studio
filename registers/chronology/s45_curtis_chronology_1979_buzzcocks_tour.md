@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB
+    same_as: EVENT-TOURNEE-BUZZCOCKS
     date_precision: mois
     categorie: jalon
     source_id: S45
@@ -45,6 +46,7 @@ chronology:
     statut: date précise à verrouiller
 
   - id: CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS
+    same_as: EVENT-TOURNEE-BUZZCOCKS
     date_precision: annee
     categorie: jalon
     source_id: S45

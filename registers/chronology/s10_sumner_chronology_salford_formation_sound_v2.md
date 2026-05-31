@@ -334,6 +334,7 @@ events:
       - S10-A024
 
   - id: CHR-S10-1979-002
+    same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
     date_precision: mois
     categorie: jalon
     date: "avril 1979"

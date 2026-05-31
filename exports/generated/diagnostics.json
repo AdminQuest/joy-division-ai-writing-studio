@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-31T06:06:31",
+  "generated_at": "2026-05-31T06:32:34",
   "status": "warning",
   "summary": {
-    "records_total": 7728,
+    "records_total": 7735,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -12,7 +12,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 524,
+      "chronology": 531,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30140,
+    "diagnostics_total": 30154,
     "errors": 0,
-    "warnings": 30140,
+    "warnings": 30154,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -408,10 +408,10 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 69,
+        "records": 71,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 10,
+        "chronology": 12,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
@@ -893,10 +893,10 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 610,
+        "records": 617,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 48,
+        "chronology": 55,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1010,10 +1010,10 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 376,
+        "records": 381,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 59,
+        "chronology": 64,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1569,10 +1569,10 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 201,
+        "records": 207,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 44,
+        "chronology": 50,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
@@ -1602,10 +1602,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 636,
+        "records": 639,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 123,
+        "chronology": 126,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -153428,6 +153428,90 @@
       "file": "registers/chronology/events_canonical.md",
       "message": "Missing required field: certainty",
       "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSIONS-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSIONS-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-TOURNEE-BUZZCOCKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-TOURNEE-BUZZCOCKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-TOURNEE-EUROPEENNE-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-TOURNEE-EUROPEENNE-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE"
     },
     {
       "level": "warning",

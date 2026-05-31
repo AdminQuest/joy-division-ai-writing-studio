@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-10-11-CARGO-SORDIDE-ATMOSPHERE
+    same_as: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
     date_precision: intervalle
     date_debut: 1979-10
     date_fin: 1979-11

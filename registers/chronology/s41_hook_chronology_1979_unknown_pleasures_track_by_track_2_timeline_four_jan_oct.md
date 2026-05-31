@@ -95,6 +95,7 @@ chronology:
     statut: archive filmique établie
 
   - id: CHR-S41-1979-03-31-05-02-UP-STRAWBERRY
+    same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
     date_precision: intervalle
     date_debut: 1979-03-31
     date_fin: 1979-05-02
@@ -158,6 +159,7 @@ chronology:
     statut: session radio établie
 
   - id: CHR-S41-1979-07-01-CENTRAL-SOUND-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -172,6 +174,7 @@ chronology:
     statut: session single à croiser avec discographies
 
   - id: CHR-S41-1979-07-28-08-04-STRAWBERRY-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
     date_precision: intervalle
     date_debut: 1979-07-28
     date_fin: 1979-08-04

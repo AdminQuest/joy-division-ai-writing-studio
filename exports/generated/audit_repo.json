@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T06:06:31",
+  "generated_at": "2026-05-31T06:32:34",
   "summary": {
-    "records_total": 7728,
+    "records_total": 7735,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -11,7 +11,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 524,
+      "chronology": 531,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30140,
+    "diagnostics_total": 30154,
     "errors": 0,
-    "warnings": 30140,
+    "warnings": 30154,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -32,7 +32,7 @@
   },
   "records_by_kind": {
     "atom": 2752,
-    "chronology": 524,
+    "chronology": 531,
     "concept": 463,
     "concert": 197,
     "metadata": 274,
@@ -89,7 +89,7 @@
     "S10": {
       "metadata": 3,
       "atom": 40,
-      "chronology": 10,
+      "chronology": 12,
       "unknown": 16
     },
     "S11": {
@@ -258,7 +258,7 @@
     "S41": {
       "atom": 430,
       "quote": 9,
-      "chronology": 48,
+      "chronology": 55,
       "person": 9,
       "song": 7,
       "unknown": 107
@@ -285,7 +285,7 @@
     "S45": {
       "atom": 205,
       "quote": 56,
-      "chronology": 59,
+      "chronology": 64,
       "person": 37,
       "unknown": 13,
       "metadata": 1,
@@ -553,14 +553,14 @@
     "S75": {
       "metadata": 1,
       "atom": 75,
-      "chronology": 44,
+      "chronology": 50,
       "person": 27,
       "quote": 21,
       "song": 33
     },
     "S76": {
       "atom": 229,
-      "chronology": 123,
+      "chronology": 126,
       "person": 89,
       "quote": 195
     },
@@ -739,6 +739,10 @@
       62
     ],
     [
+      "registers/chronology/events_canonical.md",
+      54
+    ],
+    [
       "sources/johnson_morley_an_ideal_for_living/source.md",
       53
     ],
@@ -753,10 +757,6 @@
     [
       "sources/mike_west_joy_division/source_atomisation_03.md",
       48
-    ],
-    [
-      "registers/chronology/events_canonical.md",
-      47
     ],
     [
       "registers/s54_gnocchi_specialized_registers.md",
@@ -842,7 +842,7 @@
   "issue_categories": {
     "field_type_error": 692,
     "invalid_controlled_value": 2630,
-    "missing_required_field": 9354,
+    "missing_required_field": 9368,
     "schema_warning": 492,
     "unknown_yaml_block": 1509,
     "v2_migration_debt": 15463
@@ -13427,10 +13427,10 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 69,
+        "records": 71,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 10,
+        "chronology": 12,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
@@ -13912,10 +13912,10 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 610,
+        "records": 617,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 48,
+        "chronology": 55,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -14029,10 +14029,10 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 376,
+        "records": 381,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 59,
+        "chronology": 64,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -14588,10 +14588,10 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 201,
+        "records": 207,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 44,
+        "chronology": 50,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
@@ -14621,10 +14621,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 636,
+        "records": 639,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 123,
+        "chronology": 126,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -216923,6 +216923,118 @@
       "category": "missing_required_field",
       "file": "registers/chronology/events_canonical.md",
       "record_id": "EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-TRANSMISSION",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-TRANSMISSION",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNEE-BUZZCOCKS",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNEE-BUZZCOCKS",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNEE-EUROPEENNE-1980",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TOURNEE-EUROPEENNE-1980",
+      "message": "Missing required field: certainty",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE",
+      "message": "Missing required field: type",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/chronology/events_canonical.md",
+      "record_id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE",
       "message": "Missing required field: certainty",
       "suggested_action": "Compléter le champ obligatoire."
     },

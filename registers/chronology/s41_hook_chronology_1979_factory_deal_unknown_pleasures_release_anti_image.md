@@ -46,6 +46,7 @@ chronology:
     statut: souvenir logistique Hook
 
   - id: CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS
+    same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -110,6 +111,7 @@ chronology:
     statut: session radio à croiser
 
   - id: CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
     date_precision: mois
     categorie: jalon
     source_id: S41

@@ -150,6 +150,7 @@ chronology:
     statut: anecdote Factory à fonction conceptuelle
 
   - id: CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK
+    same_as: EVENT-TOURNEE-EUROPEENNE-1980
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -168,6 +169,7 @@ chronology:
     statut: séquence de tournée à croiser avec dates détaillées
 
   - id: CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE
+    same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
     date_precision: mois
     categorie: jalon
     source_id: S41

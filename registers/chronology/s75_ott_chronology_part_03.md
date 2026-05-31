@@ -8,6 +8,7 @@ Entrées ciblées issues de `Ott - 61-83_ocred.pdf`. Elles complètent le regist
 
 ```yaml
 id: CHR-S75-1979-004
+same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
 date_precision: intervalle
 date_debut: 1979-04-01
 date_fin: 1979-04-17

@@ -172,6 +172,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-010
+same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
 date_precision: mois
 categorie: jalon
 type_unite: chronology

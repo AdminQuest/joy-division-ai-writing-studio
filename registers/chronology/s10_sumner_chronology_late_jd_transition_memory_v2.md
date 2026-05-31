@@ -51,6 +51,7 @@ events:
       - S10-A028
 
   - id: CHR-S10-1980-002
+    same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
     date_precision: annee
     categorie: jalon
     date: 1980

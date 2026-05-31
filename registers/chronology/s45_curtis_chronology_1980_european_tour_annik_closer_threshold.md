@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S45-1980-01-EUROPEAN-TOUR-DEPART
+    same_as: EVENT-TOURNEE-EUROPEENNE-1980
     date_precision: mois
     categorie: jalon
     source_id: S45
@@ -18,6 +19,7 @@ chronology:
     statut: période établie par S45 ; dates de tournée à croiser avec gig list
 
   - id: CHR-S45-1980-01-RETURN-PERNOD-BIBLE
+    same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
     date_precision: mois
     categorie: jalon
     source_id: S45
@@ -121,6 +123,7 @@ chronology:
     statut: période à préciser
 
   - id: CHR-S45-1980-03-CLOSER-BRITANNIA-ROW
+    same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
     date_precision: mois
     categorie: jalon
     source_id: S45

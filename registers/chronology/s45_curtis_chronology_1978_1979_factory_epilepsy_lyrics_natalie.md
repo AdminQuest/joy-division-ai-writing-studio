@@ -183,6 +183,7 @@ statut: événement contractuel rapporté ; à croiser avec Searling et archives
 
 ```yaml
 id: CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY
+same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
 date_precision: mois
 categorie: jalon
 source_id: S45

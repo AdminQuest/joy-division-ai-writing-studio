@@ -32,6 +32,7 @@ chronology:
     statut: session single à croiser avec discographies
 
   - id: CHR-S41-1980-CLOSER-BRITANNIA-ROW-SESSIONS
+    same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
     date_precision: mois
     categorie: jalon
     source_id: S41

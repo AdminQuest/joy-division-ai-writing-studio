@@ -5227,6 +5227,187 @@
   },
   {
     "kind": "chronology",
+    "id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY — Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios)",
+    "data": {
+      "id": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-04",
+      "date_precision": "mois",
+      "event": "Sessions d'enregistrement de Unknown Pleasures (Strawberry Studios).\n",
+      "sources": [
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-03-31-05-02-UP-STRAWBERRY",
+        "CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS",
+        "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+        "CHR-S75-1979-004",
+        "CHR-S76-1979-010",
+        "CHR-S10-1979-002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SESSIONS-TRANSMISSION",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SESSIONS-TRANSMISSION — Sessions d'enregistrement de « Transmission »",
+    "data": {
+      "id": "EVENT-SESSIONS-TRANSMISSION",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-07",
+      "date_precision": "mois",
+      "event": "Sessions d'enregistrement de « Transmission ».\n",
+      "sources": [
+        "S41",
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION",
+        "CHR-S41-1979-07-01-CENTRAL-SOUND-TRANSMISSION",
+        "CHR-S75-1979-009",
+        "CHR-S41-1979-07-28-08-04-STRAWBERRY-TRANSMISSION"
+      ],
+      "prudence_methodologique": "Deux studios : sessions Central Sound puis version single à Strawberry."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT — Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios)",
+    "data": {
+      "id": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-10",
+      "date_precision": "intervalle",
+      "date_debut": "1979-10",
+      "date_fin": "1979-11",
+      "event": "Sessions « Atmosphere » / « Dead Souls » (Licht und Blindheit, Cargo Studios).\n",
+      "sources": [
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT",
+        "CHR-S41-1979-10-11-CARGO-SORDIDE-ATMOSPHERE",
+        "CHR-S75-1979-012",
+        "CHR-S76-1979-024"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW — Sessions d'enregistrement de Closer (Britannia Row Studios)",
+    "data": {
+      "id": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-03",
+      "date_precision": "mois",
+      "event": "Sessions d'enregistrement de Closer (Britannia Row Studios).\n",
+      "sources": [
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1980-CLOSER-BRITANNIA-ROW-SESSIONS",
+        "CHR-S45-1980-03-CLOSER-BRITANNIA-ROW",
+        "CHR-S75-1980-004",
+        "CHR-S10-1980-002",
+        "CHR-S76-1980-016"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-TOURNEE-BUZZCOCKS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-TOURNEE-BUZZCOCKS — Tournée britannique des Buzzcocks (Joy Division en première partie)",
+    "data": {
+      "id": "EVENT-TOURNEE-BUZZCOCKS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979",
+      "date_precision": "annee",
+      "event": "Tournée britannique des Buzzcocks (Joy Division en première partie).\n",
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "membres_reconcilies": [
+        "CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB",
+        "CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL",
+        "CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-TOURNEE-EUROPEENNE-1980",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-TOURNEE-EUROPEENNE-1980 — Tournée européenne de Joy Division",
+    "data": {
+      "id": "EVENT-TOURNEE-EUROPEENNE-1980",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-01",
+      "date_precision": "mois",
+      "event": "Tournée européenne de Joy Division.\n",
+      "sources": [
+        "S41",
+        "S45",
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK",
+        "CHR-S45-1980-01-EUROPEAN-TOUR-DEPART",
+        "CHR-S75-1980-002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE — Tentative de suicide au retour de la tournée européenne (Pernod / couteau)",
+    "data": {
+      "id": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-01",
+      "date_precision": "mois",
+      "event": "Tentative de suicide au retour de la tournée européenne (Pernod / couteau).\n",
+      "sources": [
+        "S41",
+        "S45",
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE",
+        "CHR-S45-1980-01-RETURN-PERNOD-BIBLE",
+        "CHR-S75-1980-003"
+      ],
+      "prudence_methodologique": "Datation divergente : S41/S45 « janvier 1980 » ; S75 « février 1980 »."
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY",
     "file": "registers/chronology/events_canonical.md",
     "heading": "EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY — Séance photo de Kevin Cummins (Princess Parkway)",
@@ -6814,6 +6995,7 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+      "same_as": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
       "date_precision": "mois",
       "categorie": "jalon",
       "source_id": "S45",
@@ -7599,6 +7781,7 @@
     "heading": "CHR-S75-1979-004 — Sessions *Unknown Pleasures* à Strawberry Studios",
     "data": {
       "id": "CHR-S75-1979-004",
+      "same_as": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
       "date_precision": "intervalle",
       "date_debut": "1979-04-01",
       "date_fin": "1979-04-17",
@@ -7918,6 +8101,7 @@
     "heading": "CHR-S75-1979-009 — Enregistrement et relance de « Transmission »",
     "data": {
       "id": "CHR-S75-1979-009",
+      "same_as": "EVENT-SESSIONS-TRANSMISSION",
       "date_precision": "circa",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8057,6 +8241,7 @@
     "heading": "CHR-S75-1979-012 — Sessions *Licht und Blindheit* à Cargo Studios",
     "data": {
       "id": "CHR-S75-1979-012",
+      "same_as": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
       "date_precision": "intervalle",
       "date_debut": "1979-10",
       "date_fin": "1979-11",
@@ -8108,6 +8293,7 @@
     "heading": "CHR-S75-1980-002 — Tournée européenne de janvier 1980",
     "data": {
       "id": "CHR-S75-1980-002",
+      "same_as": "EVENT-TOURNEE-EUROPEENNE-1980",
       "date_precision": "mois",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8152,6 +8338,7 @@
     "heading": "CHR-S75-1980-003 — Tentative de février 1980",
     "data": {
       "id": "CHR-S75-1980-003",
+      "same_as": "EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE",
       "date_precision": "circa",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8193,6 +8380,7 @@
     "heading": "CHR-S75-1980-004 — Sessions *Closer* à Britannia Row",
     "data": {
       "id": "CHR-S75-1980-004",
+      "same_as": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
       "date_precision": "circa",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -10814,6 +11002,7 @@
     "heading": "CHR-S76-1979-010 — Sessions *Unknown Pleasures* à Strawberry Studios",
     "data": {
       "id": "CHR-S76-1979-010",
+      "same_as": "EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY",
       "date_precision": "mois",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -11451,6 +11640,7 @@
     "heading": "CHR-S76-1979-024 — Sessions Cargo / Sordide Sentimental",
     "data": {
       "id": "CHR-S76-1979-024",
+      "same_as": "EVENT-SESSIONS-LICHT-UND-BLINDHEIT",
       "date_precision": "intervalle",
       "date_debut": "1979-10",
       "date_fin": "1979-11",
@@ -12268,6 +12458,7 @@
     "heading": "CHR-S76-1980-016 — Début des sessions *Closer* à Britannia Row",
     "data": {
       "id": "CHR-S76-1980-016",
+      "same_as": "EVENT-SESSIONS-CLOSER-BRITANNIA-ROW",
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",

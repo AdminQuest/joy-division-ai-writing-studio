@@ -44,6 +44,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-009
+same_as: EVENT-SESSIONS-TRANSMISSION
 date_precision: circa
 categorie: jalon
 type_unite: chronology
@@ -164,6 +165,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-012
+same_as: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
 date_precision: intervalle
 date_debut: 1979-10
 date_fin: 1979-11
@@ -208,6 +210,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-002
+same_as: EVENT-TOURNEE-EUROPEENNE-1980
 date_precision: mois
 categorie: jalon
 type_unite: chronology
@@ -246,6 +249,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-003
+same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
 date_precision: circa
 categorie: jalon
 type_unite: chronology
@@ -281,6 +285,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-004
+same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
 date_precision: circa
 categorie: jalon
 type_unite: chronology
