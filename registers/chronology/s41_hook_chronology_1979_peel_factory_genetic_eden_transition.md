@@ -77,6 +77,7 @@ chronology:
     statut: séquence stratégique à croiser avec archives Factory
 
   - id: CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS
+    same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
     date_precision: annee
     categorie: jalon
     source_id: S41

@@ -129,7 +129,7 @@ chronology:
 
   - id: CHR-S41-1978-SUMMER-MUSICIANS-COLLECTIVE
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     source_id: S41
     date: "1978"
     evenement: >

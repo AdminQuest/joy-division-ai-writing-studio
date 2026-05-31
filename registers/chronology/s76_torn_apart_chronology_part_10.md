@@ -52,6 +52,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-007
+same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
 date_precision: jour
 categorie: jalon
 type_unite: chronology

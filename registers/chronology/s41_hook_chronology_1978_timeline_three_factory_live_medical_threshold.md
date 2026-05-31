@@ -309,6 +309,7 @@ chronology:
     statut: réception locale rapportée
 
   - id: CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     source_id: S41

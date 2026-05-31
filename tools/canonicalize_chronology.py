@@ -218,7 +218,7 @@ CANON = {
         date="1975-08-23", precision="jour",
         label="Mariage de Ian Curtis et Deborah Woodruff",
         members=["CHR-S76-1975-001"]),
-    "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR": dict(
+    "EVENT-RECRUTEMENT-IAN-CURTIS": dict(
         date="1976-12", precision="mois",
         label="Ian Curtis devient le chanteur du groupe",
         prudence="S10 situe le recrutement via une annonce déposée chez Virgin (fin 1976).",
@@ -362,6 +362,65 @@ CANON = {
         label="Funérailles et crémation de Ian Curtis",
         prudence="Crémation le 23 mai 1980 (S76) ; wake Factory à Palatine Road.",
         members=["CHR-S41-1980-05-FUNERAL-AND-WAKE", "CHR-S76-1980-033"]),
+
+    # --- Clôture du socle (étape 6) : derniers flags ---------------------- #
+    # B1 — clusters denses 1979-10 / LWTUA
+    "EVENT-SORTIE-FAC13-TRANSMISSION": dict(
+        date="1979-10", precision="mois",
+        label="Sortie du single « Transmission » / « Novelty » (FAC 13)",
+        prudence=("Seule mention legacy : une entrée-résumé d'octobre 1979 "
+                  "(CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS) couvrant aussi "
+                  "Earcom 2, Sordide Sentimental et le début de tournée Buzzcocks ; "
+                  "rattachée ici à FAC 13 comme sortie dominante (membership mince)."),
+        members=["CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS"]),
+    "EVENT-SORTIE-EARCOM-2": dict(
+        date="1979-10", precision="mois",
+        label="Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2",
+        members=["CHR-S75-1979-007"]),
+    "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART": dict(
+        date="1980-01", precision="intervalle", debut="1980-01", fin="1980-03",
+        label="Enregistrement et mixage de « Love Will Tear Us Apart »",
+        prudence=("Version Pennine initiale (janvier) puis reprise et mix à "
+                  "Strawberry (mars) ; le tournage vidéo est un événement distinct."),
+        members=["CHR-S41-1980-LWTUA-PENNINE-STRAWBERRY-MIX", "CHR-S76-1980-002",
+                 "CHR-S76-1980-013"]),
+    # B2 — composantes non-concert des bundles
+    "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS": dict(
+        date="1978-12-27", precision="jour",
+        label="Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor)",
+        prudence=("Composante non-concert du bundle du 27/12/1978 ; la composante "
+                  "concert (premier concert londonien) reste résiduelle, taguée "
+                  "a_scinder_etape_10."),
+        members=["CHR-1978-002", "CHR-S41-1978-12-M1-LUTON-FIRST-FIT",
+                 "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT", "CHR-S75-1978-008",
+                 "CHR-S76-1978-019", "CHR-S10-1978-007"]),
+    "EVENT-RENCONTRE-ANNIK-HONORE": dict(
+        date="1979-08-13", precision="jour",
+        label="Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms)",
+        prudence=("Composante non-concert du bundle du 13/08/1979 ; la composante "
+                  "concert reste résiduelle, taguée a_scinder_etape_10."),
+        members=["CHR-S41-1979-08-13-NASHVILLE-ANNIK",
+                 "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE", "CHR-S76-1979-019"]),
+    "EVENT-CRISE-RAINBOW-THEATRE": dict(
+        date="1980-04-04", precision="jour",
+        label="Crise de Ian Curtis au Rainbow Theatre (stroboscopes)",
+        prudence=("Composante non-concert du bundle du 04/04/1980 ; la composante "
+                  "concert reste résiduelle, taguée a_scinder_etape_10."),
+        members=["CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
+                 "CHR-S75-1980-005"]),
+    "EVENT-DEMOS-GENETIC-EDEN-STUDIOS": dict(
+        date="1979-03-04", precision="jour",
+        label="Démos pour Genetic à Eden Studios (Martin Rushent)",
+        prudence=("Composante non-concert du bundle du 04/03/1979 ; la composante "
+                  "concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) "
+                  "reste résiduelle, taguée a_scinder_etape_10."),
+        members=["CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE", "CHR-S75-1979-003",
+                 "CHR-S76-1979-007", "CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS"]),
+    # B3 — genèse du duo
+    "EVENT-GENESE-DUO-SUMNER-HOOK": dict(
+        date="1976", precision="annee",
+        label="Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe)",
+        members=["CHR-S10-1976-002"]),
 }
 
 # id legacy -> canonique
@@ -474,6 +533,9 @@ CONTEXTE_B1 = {
     "CHR-S10-1970-001",        # mort de Jimi Hendrix
     "CHR-S35-P05-1975-002",    # Reading Festival 1975
     "CHR-S35-P05-1976-001",    # Pistols à la TV (So It Goes)
+    # B3 (clôture) : Manchester Musicians' Collective -> contexte (scène, non-jalon).
+    "CHR-S41-1978-SUMMER-MUSICIANS-COLLECTIVE",
+    "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
 }
 
 
@@ -500,6 +562,7 @@ BUNDLE_SPLIT_ETAPE_10 = {
     # Hope & Anchor 1978-12-27 — premier concert londonien + première crise
     "CHR-S10-1978-007", "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
     "CHR-S75-1978-008", "CHR-S76-1978-019",
+    "CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW",  # facette gig pure du même soir
     # Nashville Rooms 1979-08-13 — gig + entrée d'Annik Honoré
     "CHR-S41-1979-08-13-NASHVILLE-ANNIK",
     "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE", "CHR-S76-1979-019",

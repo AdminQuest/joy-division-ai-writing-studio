@@ -92,7 +92,7 @@ statut: causalité à recouper avec Hook, Sumner et Morris
 ```yaml
 id: CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE
 date_precision: annee
-categorie: jalon
+categorie: contexte
 source_id: S45
 date: 1978
 evenement: >

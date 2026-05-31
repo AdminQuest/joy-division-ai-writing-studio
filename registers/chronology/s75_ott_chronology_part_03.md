@@ -131,6 +131,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-007
+same_as: EVENT-SORTIE-EARCOM-2
 date_precision: circa
 categorie: jalon
 type_unite: chronology

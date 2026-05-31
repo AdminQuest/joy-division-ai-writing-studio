@@ -929,3 +929,65 @@ nu.
   groupe » : à valider.
 
 Listes exhaustives : `python3 tools/canonicalize_chronology.py --phase report`.
+
+---
+
+# ANNEXE VIII — Clôture du socle (étape 6) : jeu d'EVENT- gelé
+
+> Dernière passe. Après celle-ci, le jeu d'identités `EVENT-` est **GELÉ**
+> (SCHEMA_FREEZE_POLICY plein : plus de renommage, additif seulement).
+
+## VIII.1. Derniers flags exécutés
+
+**8 nouveaux `EVENT-`** (→ **62 au total**, **173 `same_as`**) :
+
+| Flag | `EVENT-` créé(s) | Date |
+|---|---|---|
+| B1 (cluster 1979-10) | `EVENT-SORTIE-FAC13-TRANSMISSION` · `EVENT-SORTIE-EARCOM-2` | 1979-10 |
+| B1 (LWTUA) | `EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART` | 1980-01/03 |
+| B2 (bundle Hope & Anchor) | `EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS` | 1978-12-27 |
+| B2 (bundle Nashville) | `EVENT-RENCONTRE-ANNIK-HONORE` | 1979-08-13 |
+| B2 (bundle Rainbow) | `EVENT-CRISE-RAINBOW-THEATRE` | 1980-04-04 |
+| B2 (bundle Genetic) | `EVENT-DEMOS-GENETIC-EDEN-STUDIOS` | 1979-03-04 |
+| B3 (genèse) | `EVENT-GENESE-DUO-SUMNER-HOOK` | 1976 |
+
+- **B2 — composantes** : la composante **non-concert** de chaque bundle (1re
+  crise, rencontre Annik, crise Rainbow, démos Genetic) devient un `EVENT-` ; la
+  composante **gig** reste une entrée résiduelle taguée `a_scinder_etape_10`
+  (**11** au total) — statut décidé à l'étape 10, **aucune donnée concert créée ici**.
+- **B3** : fiançailles Curtis (1974) → `jalon` nu ; Musicians' Collective → `contexte`.
+- **B4** : Earcom 2 et FAC 13 « Transmission » créés (membership mince assumée).
+- **B5** : `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` → **`EVENT-RECRUTEMENT-IAN-CURTIS`**
+  (dernier renommage avant gel ; `same_as` legacy mis à jour).
+
+## VIII.2. État final gelé
+
+| Mesure | Valeur |
+|---|---:|
+| **`EVENT-` canoniques (gelés)** | **62** |
+| **arêtes `same_as`** | **173** |
+| `jalon` (dont ~156 beats / ancres mineures sans canonique) | 329 |
+| `concert_a_migrer` | 88 |
+| `contexte` | 63 |
+| `reception_posthume` | 20 |
+| entrées `a_scinder_etape_10` | 11 |
+
+`--phase check` : 173 `same_as` résolus, 0 date impossible, 0 intervalle inversé ·
+`build_registers --strict` errors=0 (chronology 539) · sentinelle anti-drift OK.
+
+## VIII.3. Résidus encore flaggés (post-clôture, hors gel EVENT-)
+
+- **Entrées-résumé non séparables** : `CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS`
+  (rattachée à FAC 13 mais couvre aussi Earcom 2 / Sordide / tournée) ; clusters
+  année 1977/1978/1979/1980 où des beats restent agrégés — à individuer en
+  étape 10/11 si besoin, sans forcer.
+- **Bundles `a_scinder_etape_10` (11)** : composante gig à extraire vers
+  `CONCERT-` à l'étape 10 (Hope & Anchor, Nashville, Rainbow, Genetic/Marquee).
+- **Beats `jalon` nus (~156)** : repères narratifs fins mono-source, non promus
+  (conformes au cadrage : ne deviennent pas `EVENT-`).
+- **Facettes des derniers jours (16-18 mai 1980)** : conservées `jalon` distinctes,
+  jamais `same_as` vers `EVENT-MORT-IAN-CURTIS` (inchangé).
+
+> **Gel** : toute évolution ultérieure du registre est désormais **additive**
+> (nouveaux `EVENT-` pour de nouveaux faits, nouveaux `same_as`) — aucun
+> renommage ni fusion rétroactive des 62 identités existantes.

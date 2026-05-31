@@ -244,6 +244,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-013
+same_as: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
 date_precision: intervalle
 date_debut: 1980-03-08
 date_fin: 1980-03-09

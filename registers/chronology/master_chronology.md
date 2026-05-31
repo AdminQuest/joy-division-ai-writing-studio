@@ -232,6 +232,7 @@ notes: >
 
 ```yaml
 id: CHR-1978-002
+same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
 date_precision: circa
 categorie: jalon
 

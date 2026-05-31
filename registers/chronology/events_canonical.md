@@ -633,10 +633,10 @@ membres_reconcilies:
 
 ---
 
-## EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR — Ian Curtis devient le chanteur du groupe
+## EVENT-RECRUTEMENT-IAN-CURTIS — Ian Curtis devient le chanteur du groupe
 
 ```yaml
-id: EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR
+id: EVENT-RECRUTEMENT-IAN-CURTIS
 type_unite: chronology_event
 categorie: jalon
 date: "1976-12"
@@ -1183,6 +1183,187 @@ membres_reconcilies:
   - CHR-S76-1980-033
 prudence_methodologique: >
   Crémation le 23 mai 1980 (S76) ; wake Factory à Palatine Road.
+```
+
+---
+
+## EVENT-SORTIE-FAC13-TRANSMISSION — Sortie du single « Transmission » / « Novelty » (FAC 13)
+
+```yaml
+id: EVENT-SORTIE-FAC13-TRANSMISSION
+type_unite: chronology_event
+categorie: jalon
+date: "1979-10"
+date_precision: mois
+event: >
+  Sortie du single « Transmission » / « Novelty » (FAC 13).
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS
+prudence_methodologique: >
+  Seule mention legacy : une entrée-résumé d'octobre 1979 (CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS) couvrant aussi Earcom 2, Sordide Sentimental et le début de tournée Buzzcocks ; rattachée ici à FAC 13 comme sortie dominante (membership mince).
+```
+
+---
+
+## EVENT-SORTIE-EARCOM-2 — Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2
+
+```yaml
+id: EVENT-SORTIE-EARCOM-2
+type_unite: chronology_event
+categorie: jalon
+date: "1979-10"
+date_precision: mois
+event: >
+  Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2.
+sources:
+  - S75
+membres_reconcilies:
+  - CHR-S75-1979-007
+```
+
+---
+
+## EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART — Enregistrement et mixage de « Love Will Tear Us Apart »
+
+```yaml
+id: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
+type_unite: chronology_event
+categorie: jalon
+date: "1980-01"
+date_precision: intervalle
+date_debut: 1980-01
+date_fin: 1980-03
+event: >
+  Enregistrement et mixage de « Love Will Tear Us Apart ».
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S41-1980-LWTUA-PENNINE-STRAWBERRY-MIX
+  - CHR-S76-1980-002
+  - CHR-S76-1980-013
+prudence_methodologique: >
+  Version Pennine initiale (janvier) puis reprise et mix à Strawberry (mars) ; le tournage vidéo est un événement distinct.
+```
+
+---
+
+## EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS — Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor)
+
+```yaml
+id: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1978-12-27"
+date_precision: jour
+event: >
+  Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor).
+sources:
+  - MASTER
+  - S10
+  - S41
+  - S45
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-1978-002
+  - CHR-S41-1978-12-M1-LUTON-FIRST-FIT
+  - CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT
+  - CHR-S75-1978-008
+  - CHR-S76-1978-019
+  - CHR-S10-1978-007
+prudence_methodologique: >
+  Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_etape_10.
+```
+
+---
+
+## EVENT-RENCONTRE-ANNIK-HONORE — Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms)
+
+```yaml
+id: EVENT-RENCONTRE-ANNIK-HONORE
+type_unite: chronology_event
+categorie: jalon
+date: "1979-08-13"
+date_precision: jour
+event: >
+  Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms).
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-08-13-NASHVILLE-ANNIK
+  - CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
+  - CHR-S76-1979-019
+prudence_methodologique: >
+  Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_etape_10.
+```
+
+---
+
+## EVENT-CRISE-RAINBOW-THEATRE — Crise de Ian Curtis au Rainbow Theatre (stroboscopes)
+
+```yaml
+id: EVENT-CRISE-RAINBOW-THEATRE
+type_unite: chronology_event
+categorie: jalon
+date: "1980-04-04"
+date_precision: jour
+event: >
+  Crise de Ian Curtis au Rainbow Theatre (stroboscopes).
+sources:
+  - S41
+  - S75
+membres_reconcilies:
+  - CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
+  - CHR-S75-1980-005
+prudence_methodologique: >
+  Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_etape_10.
+```
+
+---
+
+## EVENT-DEMOS-GENETIC-EDEN-STUDIOS — Démos pour Genetic à Eden Studios (Martin Rushent)
+
+```yaml
+id: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
+type_unite: chronology_event
+categorie: jalon
+date: "1979-03-04"
+date_precision: jour
+event: >
+  Démos pour Genetic à Eden Studios (Martin Rushent).
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
+  - CHR-S75-1979-003
+  - CHR-S76-1979-007
+  - CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS
+prudence_methodologique: >
+  Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_etape_10.
+```
+
+---
+
+## EVENT-GENESE-DUO-SUMNER-HOOK — Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe)
+
+```yaml
+id: EVENT-GENESE-DUO-SUMNER-HOOK
+type_unite: chronology_event
+categorie: jalon
+date: "1976"
+date_precision: annee
+event: >
+  Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe).
+sources:
+  - S10
+membres_reconcilies:
+  - CHR-S10-1976-002
 ```
 
 ---

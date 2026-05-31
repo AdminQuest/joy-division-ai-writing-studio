@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-002
+same_as: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
 date_precision: jour
 categorie: jalon
 type_unite: chronology

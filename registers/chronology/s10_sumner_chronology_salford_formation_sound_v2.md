@@ -150,6 +150,7 @@ events:
       - S10-A011
 
   - id: CHR-S10-1976-002
+    same_as: EVENT-GENESE-DUO-SUMNER-HOOK
     date_precision: saison
     categorie: jalon
     date: "été 1976"
@@ -167,7 +168,7 @@ events:
       - S10-A012
 
   - id: CHR-S10-1976-003
-    same_as: EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR
+    same_as: EVENT-RECRUTEMENT-IAN-CURTIS
     date_precision: circa
     categorie: jalon
     date: "fin 1976"
@@ -302,6 +303,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-007
+    same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
     a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon

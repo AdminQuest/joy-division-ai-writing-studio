@@ -106,6 +106,7 @@ chronology:
     statut: datation à verrouiller avec gig list
 
   - id: CHR-S41-1978-12-M1-LUTON-FIRST-FIT
+    same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
     date_precision: mois
     categorie: jalon
     source_id: S41

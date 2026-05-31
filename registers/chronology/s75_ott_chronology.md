@@ -331,6 +331,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-008
+same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
 a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
@@ -452,6 +453,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-003
+same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
 date_precision: jour
 categorie: jalon
 type_unite: chronology

@@ -25210,8 +25210,8 @@ warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RE
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR,Missing required field: certainty,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-MARIAGE-IAN-DEBORAH-CURTIS,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-MARIAGE-IAN-DEBORAH-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
-warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR,Missing required field: type,Compléter le champ obligatoire.
-warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RECRUTEMENT-IAN-CURTIS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RECRUTEMENT-IAN-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION,Missing required field: certainty,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-INSTALLATION-TJ-DAVIDSONS,Missing required field: type,Compléter le champ obligatoire.
@@ -25262,6 +25262,22 @@ warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-TO
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART,Missing required field: certainty,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-FUNERAILLES-IAN-CURTIS,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-FUNERAILLES-IAN-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-FAC13-TRANSMISSION,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-FAC13-TRANSMISSION,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-EARCOM-2,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-EARCOM-2,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RENCONTRE-ANNIK-HONORE,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-RENCONTRE-ANNIK-HONORE,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-CRISE-RAINBOW-THEATRE,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-CRISE-RAINBOW-THEATRE,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-DEMOS-GENETIC-EDEN-STUDIOS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-DEMOS-GENETIC-EDEN-STUDIOS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-GENESE-DUO-SUMNER-HOOK,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-GENESE-DUO-SUMNER-HOOK,Missing required field: certainty,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md,CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md,CHRONO-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md,CHRONO-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

@@ -18,6 +18,7 @@ chronology:
     statut: cadrage biographique à croiser avec S45 et lettres
 
   - id: CHR-S41-1980-LWTUA-PENNINE-STRAWBERRY-MIX
+    same_as: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
     date_precision: mois
     categorie: jalon
     source_id: S41

@@ -4915,11 +4915,11 @@
   },
   {
     "kind": "chronology",
-    "id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR",
+    "id": "EVENT-RECRUTEMENT-IAN-CURTIS",
     "file": "registers/chronology/events_canonical.md",
-    "heading": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR — Ian Curtis devient le chanteur du groupe",
+    "heading": "EVENT-RECRUTEMENT-IAN-CURTIS — Ian Curtis devient le chanteur du groupe",
     "data": {
-      "id": "EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR",
+      "id": "EVENT-RECRUTEMENT-IAN-CURTIS",
       "type_unite": "chronology_event",
       "categorie": "jalon",
       "date": "1976-12",
@@ -5515,6 +5515,197 @@
   },
   {
     "kind": "chronology",
+    "id": "EVENT-SORTIE-FAC13-TRANSMISSION",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SORTIE-FAC13-TRANSMISSION — Sortie du single « Transmission » / « Novelty » (FAC 13)",
+    "data": {
+      "id": "EVENT-SORTIE-FAC13-TRANSMISSION",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-10",
+      "date_precision": "mois",
+      "event": "Sortie du single « Transmission » / « Novelty » (FAC 13).\n",
+      "sources": [
+        "S41"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS"
+      ],
+      "prudence_methodologique": "Seule mention legacy : une entrée-résumé d'octobre 1979 (CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS) couvrant aussi Earcom 2, Sordide Sentimental et le début de tournée Buzzcocks ; rattachée ici à FAC 13 comme sortie dominante (membership mince)."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SORTIE-EARCOM-2",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SORTIE-EARCOM-2 — Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2",
+    "data": {
+      "id": "EVENT-SORTIE-EARCOM-2",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-10",
+      "date_precision": "mois",
+      "event": "Parution de « Autosuggestion » / « From Safety to Where…? » sur Earcom 2.\n",
+      "sources": [
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-S75-1979-007"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART — Enregistrement et mixage de « Love Will Tear Us Apart »",
+    "data": {
+      "id": "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-01",
+      "date_precision": "intervalle",
+      "date_debut": "1980-01",
+      "date_fin": "1980-03",
+      "event": "Enregistrement et mixage de « Love Will Tear Us Apart ».\n",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1980-LWTUA-PENNINE-STRAWBERRY-MIX",
+        "CHR-S76-1980-002",
+        "CHR-S76-1980-013"
+      ],
+      "prudence_methodologique": "Version Pennine initiale (janvier) puis reprise et mix à Strawberry (mars) ; le tournage vidéo est un événement distinct."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS — Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor)",
+    "data": {
+      "id": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1978-12-27",
+      "date_precision": "jour",
+      "event": "Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor).\n",
+      "sources": [
+        "MASTER",
+        "S10",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-1978-002",
+        "CHR-S41-1978-12-M1-LUTON-FIRST-FIT",
+        "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+        "CHR-S75-1978-008",
+        "CHR-S76-1978-019",
+        "CHR-S10-1978-007"
+      ],
+      "prudence_methodologique": "Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_etape_10."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-RENCONTRE-ANNIK-HONORE",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-RENCONTRE-ANNIK-HONORE — Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms)",
+    "data": {
+      "id": "EVENT-RENCONTRE-ANNIK-HONORE",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-08-13",
+      "date_precision": "jour",
+      "event": "Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms).\n",
+      "sources": [
+        "S41",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-08-13-NASHVILLE-ANNIK",
+        "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE",
+        "CHR-S76-1979-019"
+      ],
+      "prudence_methodologique": "Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-CRISE-RAINBOW-THEATRE",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-CRISE-RAINBOW-THEATRE — Crise de Ian Curtis au Rainbow Theatre (stroboscopes)",
+    "data": {
+      "id": "EVENT-CRISE-RAINBOW-THEATRE",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-04-04",
+      "date_precision": "jour",
+      "event": "Crise de Ian Curtis au Rainbow Theatre (stroboscopes).\n",
+      "sources": [
+        "S41",
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
+        "CHR-S75-1980-005"
+      ],
+      "prudence_methodologique": "Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS — Démos pour Genetic à Eden Studios (Martin Rushent)",
+    "data": {
+      "id": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-03-04",
+      "date_precision": "jour",
+      "event": "Démos pour Genetic à Eden Studios (Martin Rushent).\n",
+      "sources": [
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE",
+        "CHR-S75-1979-003",
+        "CHR-S76-1979-007",
+        "CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS"
+      ],
+      "prudence_methodologique": "Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_etape_10."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-GENESE-DUO-SUMNER-HOOK",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-GENESE-DUO-SUMNER-HOOK — Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe)",
+    "data": {
+      "id": "EVENT-GENESE-DUO-SUMNER-HOOK",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1976",
+      "date_precision": "annee",
+      "event": "Bernard Sumner et Peter Hook commencent à jouer ensemble (genèse du groupe).\n",
+      "sources": [
+        "S10"
+      ],
+      "membres_reconcilies": [
+        "CHR-S10-1976-002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-1956-001",
     "file": "registers/chronology/master_chronology.md",
     "heading": "CHR-1956-001 — Naissance de Ian Curtis",
@@ -5652,6 +5843,7 @@
     "heading": "CHR-1978-002 — Premier fit clairement identifié après le Hope and Anchor",
     "data": {
       "id": "CHR-1978-002",
+      "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
       "date_precision": "circa",
       "categorie": "jalon",
       "date": "1978-12",
@@ -6840,6 +7032,7 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+      "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
       "a_scinder_etape_10": true,
       "date_precision": "jour",
       "categorie": "jalon",
@@ -7154,7 +7347,7 @@
     "data": {
       "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
       "date_precision": "annee",
-      "categorie": "jalon",
+      "categorie": "contexte",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Joy Division participe aux réunions du Musicians’ Union Collective au Band on the Wall, décrites par Deborah comme des répétitions publiques chaotiques.\n",
@@ -7597,6 +7790,7 @@
     "heading": "CHR-S75-1978-008 — Premier concert londonien au Hope & Anchor",
     "data": {
       "id": "CHR-S75-1978-008",
+      "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
       "a_scinder_etape_10": true,
       "date_precision": "jour",
       "categorie": "jalon",
@@ -7737,6 +7931,7 @@
     "heading": "CHR-S75-1979-003 — Genetic Demos à Eden Studios",
     "data": {
       "id": "CHR-S75-1979-003",
+      "same_as": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS",
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -7923,6 +8118,7 @@
     "heading": "CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2*",
     "data": {
       "id": "CHR-S75-1979-007",
+      "same_as": "EVENT-SORTIE-EARCOM-2",
       "date_precision": "circa",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -8426,6 +8622,7 @@
     "heading": "CHR-S75-1980-005 — Rainbow Theatre et crise avec stroboscopes",
     "data": {
       "id": "CHR-S75-1980-005",
+      "same_as": "EVENT-CRISE-RAINBOW-THEATRE",
       "a_scinder_etape_10": true,
       "date_precision": "jour",
       "categorie": "jalon",
@@ -10681,6 +10878,7 @@
     "heading": "CHR-S76-1978-019 — Premier concert londonien au Hope & Anchor et première crise majeure reconnue",
     "data": {
       "id": "CHR-S76-1978-019",
+      "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
       "a_scinder_etape_10": true,
       "date_precision": "jour",
       "categorie": "jalon",
@@ -10864,6 +11062,7 @@
     "heading": "CHR-S76-1979-007 — Genetic demos aux Eden Studios",
     "data": {
       "id": "CHR-S76-1979-007",
+      "same_as": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS",
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -11419,6 +11618,7 @@
     "heading": "CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms",
     "data": {
       "id": "CHR-S76-1979-019",
+      "same_as": "EVENT-RENCONTRE-ANNIK-HONORE",
       "a_scinder_etape_10": true,
       "date_precision": "jour",
       "categorie": "jalon",
@@ -11820,6 +12020,7 @@
     "heading": "CHR-S76-1980-002 — Première session Pennine de « Love Will Tear Us Apart »",
     "data": {
       "id": "CHR-S76-1980-002",
+      "same_as": "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART",
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -12321,6 +12522,7 @@
     "heading": "CHR-S76-1980-013 — Session Strawberry de « Love Will Tear Us Apart »",
     "data": {
       "id": "CHR-S76-1980-013",
+      "same_as": "EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART",
       "date_precision": "intervalle",
       "date_debut": "1980-03-08",
       "date_fin": "1980-03-09",
