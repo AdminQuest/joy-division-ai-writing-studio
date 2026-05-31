@@ -1,0 +1,26 @@
+{
+  "_comment": "Hand-off étape 10 — entités collectives à promouvoir en ORG-. NE PAS créer ici. Issu de la canonicalisation PERSON- (étape 9).",
+  "items": [
+    {
+      "from_pers": "PERS-016",
+      "name": "Bedhead",
+      "target_kind": "ORG-"
+    },
+    {
+      "from_pers": "PERS-S76-052#oz-pa",
+      "name": "Oz PA",
+      "target_kind": "ORG-",
+      "note": "Équipe de sonorisation (entité) issue de l'éclatement de « Oz PA / Eddy et Oz » ; les individus Eddy et Oz sont des PERSON- (a_arbitrer)."
+    },
+    {
+      "from_pers": "PERS-S76-068",
+      "name": "Buzzcocks",
+      "target_kind": "ORG-"
+    },
+    {
+      "from_pers": "PERS-S76-071",
+      "name": "Minny Pops",
+      "target_kind": "ORG-"
+    }
+  ]
+}

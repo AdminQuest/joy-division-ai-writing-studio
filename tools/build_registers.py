@@ -328,6 +328,12 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "concert"
     if record_id.startswith("JD-SESSION-"):
         return "session"
+    # Étape 9 : identité canonique d'acteur PERSON-<slug>
+    # (registers/people/00_canonical_people.md), réconciliant la couche
+    # provisoire PERS-* par `same_as`. NB : "PERSON-…".startswith("PERS-") est
+    # False (5e caractère 'O', pas '-'), d'où ce test explicite et antérieur.
+    if record_id.startswith("PERSON-"):
+        return "person"
     if record_id.startswith("PERS-"):
         return "person"
     if record_id.startswith("CONCEPT-"):

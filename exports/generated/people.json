@@ -1,6 +1,4476 @@
 [
   {
     "kind": "person",
+    "id": "PERSON-abby-fuoto",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-abby-fuoto — Abby Fuoto",
+    "data": {
+      "id": "PERSON-abby-fuoto",
+      "type_unite": "person",
+      "name": "Abby Fuoto",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-aby-warburg",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-aby-warburg — Aby Warburg",
+    "data": {
+      "id": "PERSON-aby-warburg",
+      "type_unite": "person",
+      "name": "Aby Warburg",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "same_as": [
+        "PERS-S51-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alan-erasmus",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-alan-erasmus — Alan Erasmus",
+    "data": {
+      "id": "PERSON-alan-erasmus",
+      "type_unite": "person",
+      "name": "Alan Erasmus",
+      "categorie": "industrie",
+      "role": [
+        "cofondateur Factory",
+        "organisateur",
+        "figure effacée du récit",
+        "acteur",
+        "cofondateur du dispositif Factory avec Tony Wilson",
+        "promoteur initial au Russell Club"
+      ],
+      "sources": [
+        "S75",
+        "S76",
+        "S31"
+      ],
+      "same_as": [
+        "PERS-S31-006",
+        "PERS-S75-024",
+        "PERS-S76-045"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alan-hempsall",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-alan-hempsall — Alan Hempsall",
+    "data": {
+      "id": "PERSON-alan-hempsall",
+      "type_unite": "person",
+      "name": "Alan Hempsall",
+      "categorie": "entourage",
+      "role": [
+        "chanteur de Crispy Ambulance",
+        "substitut vocal ponctuel à Derby Hall",
+        "voix de substitution au Derby Hall de Bury"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-035",
+        "PERS-S76-080"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alan-wise",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-alan-wise — Alan Wise",
+    "data": {
+      "id": "PERSON-alan-wise",
+      "type_unite": "person",
+      "name": "Alan Wise",
+      "categorie": "industrie",
+      "role": [
+        "promoteur local",
+        "gestionnaire des soirées au Russell Club selon S76",
+        "témoin du rôle visuel de Peter Saville",
+        "promoteur / acteur Factory Club",
+        "témoin de l’épilepsie de Curtis",
+        "lui-même sujet à des attaques de petit mal selon S76"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-047",
+        "PERS-S76-054"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-alessandro-gnocchi",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-alessandro-gnocchi — Alessandro Gnocchi",
+    "data": {
+      "id": "PERSON-alessandro-gnocchi",
+      "type_unite": "person",
+      "name": "Alessandro Gnocchi",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "same_as": [
+        "PERS-S54-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-andrea-rabbito",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-andrea-rabbito — Andrea Rabbito",
+    "data": {
+      "id": "PERSON-andrea-rabbito",
+      "type_unite": "person",
+      "name": "Andrea Rabbito",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "same_as": [
+        "PERS-S52-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-andy-zero",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-andy-zero — Andy Zero",
+    "data": {
+      "id": "PERSON-andy-zero",
+      "type_unite": "person",
+      "name": "Andy Zero",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S21",
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S21-003",
+        "PERS-S77-007"
+      ],
+      "alt_names": [
+        "Andy Waide"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-annik-honore",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-annik-honore — Annik Honoré",
+    "data": {
+      "id": "PERSON-annik-honore",
+      "type_unite": "person",
+      "name": "Annik Honoré",
+      "categorie": "industrie",
+      "role": [
+        "proche",
+        "témoin",
+        "relation intime de Ian Curtis",
+        "figure de la crise biographique finale",
+        "journaliste/fanzine En Attendant",
+        "future cofondatrice liée à Factory Benelux / Les Disques du Crépuscule",
+        "médiatrice européenne",
+        "relation intime de Ian Curtis pendant la tournée européenne"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76",
+        "S52",
+        "S54"
+      ],
+      "same_as": [
+        "PERS-010",
+        "PERS-S52-012",
+        "PERS-S54-007",
+        "PERS-S75-032",
+        "PERS-S76-063",
+        "PERS-S76-067",
+        "PERS-S76-070"
+      ],
+      "alt_names": [
+        "Annick Honoré"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-anton-corbijn",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-anton-corbijn — Anton Corbijn",
+    "data": {
+      "id": "PERSON-anton-corbijn",
+      "type_unite": "person",
+      "name": "Anton Corbijn",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29",
+        "S52",
+        "S53",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S29-011",
+        "PERS-S52-002",
+        "PERS-S53-005",
+        "PERS-S78-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-arthur-schopenhauer",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-arthur-schopenhauer — Arthur Schopenhauer",
+    "data": {
+      "id": "PERSON-arthur-schopenhauer",
+      "type_unite": "person",
+      "name": "Arthur Schopenhauer",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-009"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-barbara-lloyd",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-barbara-lloyd — Barbara Lloyd",
+    "data": {
+      "id": "PERSON-barbara-lloyd",
+      "type_unite": "person",
+      "name": "Barbara Lloyd",
+      "categorie": "entourage",
+      "role": [
+        "tante de Ian Curtis",
+        "témoin familial"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-005"
+      ],
+      "alt_names": [
+        "Aunt Barbara"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-benjamin-fraser",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-benjamin-fraser — Benjamin Fraser",
+    "data": {
+      "id": "PERSON-benjamin-fraser",
+      "type_unite": "person",
+      "name": "Benjamin Fraser",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bernard-pierre-wolff",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bernard-pierre-wolff — Bernard Pierre Wolff",
+    "data": {
+      "id": "PERSON-bernard-pierre-wolff",
+      "type_unite": "person",
+      "name": "Bernard Pierre Wolff",
+      "categorie": "industrie",
+      "role": [
+        "photographe associé à la pochette de *Closer*"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-079"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bernard-sumner",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bernard-sumner — Bernard Sumner",
+    "data": {
+      "id": "PERSON-bernard-sumner",
+      "type_unite": "person",
+      "name": "Bernard Sumner",
+      "categorie": "membre",
+      "role": [
+        "musicien",
+        "guitariste",
+        "témoin",
+        "trajectoire sociale"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S75",
+        "S52",
+        "S55",
+        "S58"
+      ],
+      "same_as": [
+        "PERS-003",
+        "PERS-003-S75",
+        "PERS-S45-BERNARD-SUMNER-TABLETS",
+        "PERS-S52-006",
+        "PERS-S55-004",
+        "PERS-S58-003"
+      ],
+      "alt_names": [
+        "Bernard Albrecht",
+        "Bernard Dicken"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bernie-binnick",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bernie-binnick — Bernie Binnick",
+    "data": {
+      "id": "PERSON-bernie-binnick",
+      "type_unite": "person",
+      "name": "Bernie Binnick",
+      "categorie": "industrie",
+      "role": [
+        "exécutif américain lié au projet Grapevine/RCA",
+        "producteur de soul destiné à l’export britannique"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-BERNIE-BINNICK",
+        "PERS-S76-036"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bob-auger",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bob-auger — Bob Auger",
+    "data": {
+      "id": "PERSON-bob-auger",
+      "type_unite": "person",
+      "name": "Bob Auger",
+      "categorie": "industrie",
+      "role": [
+        "producteur",
+        "ingénieur / superviseur studio",
+        "ingénieur / acteur technique des sessions Arrow selon S76"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-020",
+        "PERS-S76-035"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bob-dickinson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bob-dickinson — Bob Dickinson",
+    "data": {
+      "id": "PERSON-bob-dickinson",
+      "type_unite": "person",
+      "name": "Bob Dickinson",
+      "categorie": "industrie",
+      "role": [
+        "journaliste local",
+        "DJ à Rafters",
+        "témoin du Stiff Test / Chiswick Challenge"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-028"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bob-jones",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bob-jones — Bob Jones",
+    "data": {
+      "id": "PERSON-bob-jones",
+      "type_unite": "person",
+      "name": "Bob Jones",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S84-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bob-krasnow",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bob-krasnow — Bob Krasnow",
+    "data": {
+      "id": "PERSON-bob-krasnow",
+      "type_unite": "person",
+      "name": "Bob Krasnow",
+      "categorie": "industrie",
+      "role": [
+        "vice-président A&R Warner Brothers",
+        "interlocuteur d'une occasion américaine manquée"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "same_as": [
+        "PERS-S75-034"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-bob-stanley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-bob-stanley — Bob Stanley",
+    "data": {
+      "id": "PERSON-bob-stanley",
+      "type_unite": "person",
+      "name": "Bob Stanley",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-brion-gysin",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-brion-gysin — Brion Gysin",
+    "data": {
+      "id": "PERSON-brion-gysin",
+      "type_unite": "person",
+      "name": "Brion Gysin",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "same_as": [
+        "PERS-S54-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-candy",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-candy — Candy",
+    "data": {
+      "id": "PERSON-candy",
+      "type_unite": "person",
+      "name": "Candy",
+      "categorie": "entourage",
+      "role": [
+        "chien de Ian Curtis",
+        "élément domestique de la crise conjugale"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-CANDY",
+        "PERS-S76-076"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-carole-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-carole-curtis — Carole Curtis",
+    "data": {
+      "id": "PERSON-carole-curtis",
+      "type_unite": "person",
+      "name": "Carole Curtis",
+      "categorie": "entourage",
+      "role": [
+        "sœur de Ian Curtis",
+        "témoin familial",
+        "mémoire familiale endeuillée"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-004",
+        "PERS-S76-087"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-cath-carroll",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-cath-carroll — Cath Carroll",
+    "data": {
+      "id": "PERSON-cath-carroll",
+      "type_unite": "person",
+      "name": "Cath Carroll",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S21",
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S21-002",
+        "PERS-S77-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-charles-salem",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-charles-salem — Charles Salem",
+    "data": {
+      "id": "PERSON-charles-salem",
+      "type_unite": "person",
+      "name": "Charles Salem",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S78-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-chris-ott",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-chris-ott — Chris Ott",
+    "data": {
+      "id": "PERSON-chris-ott",
+      "type_unite": "person",
+      "name": "Chris Ott",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "critique",
+        "auteur",
+        "essayiste"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "same_as": [
+        "PERS-013"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-christian-norberg-schulz",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-christian-norberg-schulz — Christian Norberg-Schulz",
+    "data": {
+      "id": "PERSON-christian-norberg-schulz",
+      "type_unite": "person",
+      "name": "Christian Norberg-Schulz",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-clinton-heylin",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-clinton-heylin — Clinton Heylin",
+    "data": {
+      "id": "PERSON-clinton-heylin",
+      "type_unite": "person",
+      "name": "Clinton Heylin",
+      "categorie": "critique_journaliste",
+      "role": [
+        "biographe musical",
+        "témoin d'une interaction conflictuelle à Rare Records"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-013"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-colin-malcolm",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-colin-malcolm — Colin Malcolm",
+    "data": {
+      "id": "PERSON-colin-malcolm",
+      "type_unite": "person",
+      "name": "Colin Malcolm",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-cosey-fanni-tutti",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-cosey-fanni-tutti — Cosey Fanni Tutti",
+    "data": {
+      "id": "PERSON-cosey-fanni-tutti",
+      "type_unite": "person",
+      "name": "Cosey Fanni Tutti",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-daniel-odier",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-daniel-odier — Daniel Odier",
+    "data": {
+      "id": "PERSON-daniel-odier",
+      "type_unite": "person",
+      "name": "Daniel Odier",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "same_as": [
+        "PERS-S54-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dave-mccullough",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-dave-mccullough — Dave McCullough",
+    "data": {
+      "id": "PERSON-dave-mccullough",
+      "type_unite": "person",
+      "name": "Dave McCullough",
+      "categorie": "critique_journaliste",
+      "role": [
+        "journaliste musical pour Sounds",
+        "critique de Joy Division autour d’Unknown Pleasures et Stuff the Superstars"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-062"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dave-pils",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-dave-pils — Dave Pils",
+    "data": {
+      "id": "PERSON-dave-pils",
+      "type_unite": "person",
+      "name": "Dave Pils",
+      "categorie": "industrie",
+      "role": [
+        "roadie londonien / relais pratique pendant les sessions *Closer*"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-064#dave-pils",
+        "PERS-S76-077"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-bowie",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-david-bowie — David Bowie",
+    "data": {
+      "id": "PERSON-david-bowie",
+      "type_unite": "person",
+      "name": "David Bowie",
+      "categorie": "influence",
+      "role": [
+        "artiste formateur pour Ian Curtis",
+        "figure glam et scénique pré-punk"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-010"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-byrne",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-david-byrne — David Byrne",
+    "data": {
+      "id": "PERSON-david-byrne",
+      "type_unite": "person",
+      "name": "David Byrne",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "same_as": [
+        "PERS-S49-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-harvey",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-david-harvey — David Harvey",
+    "data": {
+      "id": "PERSON-david-harvey",
+      "type_unite": "person",
+      "name": "David Harvey",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-david-haslam",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-david-haslam — David Haslam",
+    "data": {
+      "id": "PERSON-david-haslam",
+      "type_unite": "person",
+      "name": "David Haslam",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dean",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-dean — Dean",
+    "data": {
+      "id": "PERSON-dean",
+      "type_unite": "person",
+      "name": "Dean",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-DEAN-CHECK-INN"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-deborah-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-deborah-curtis — Deborah Curtis",
+    "data": {
+      "id": "PERSON-deborah-curtis",
+      "type_unite": "person",
+      "name": "Deborah Curtis",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "témoin",
+        "proche",
+        "autrice",
+        "gardienne d’archive",
+        "future épouse de Ian Curtis",
+        "témoin intime central par S45",
+        "personnage biographique structurant dans S76"
+      ],
+      "sources": [
+        "S45",
+        "S76",
+        "S52"
+      ],
+      "same_as": [
+        "PERS-005",
+        "PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION",
+        "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE",
+        "PERS-S52-005",
+        "PERS-S76-009"
+      ],
+      "alt_names": [
+        "Deborah Woodruff"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-derek-brandwood",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-derek-brandwood — Derek Brandwood",
+    "data": {
+      "id": "PERSON-derek-brandwood",
+      "type_unite": "person",
+      "name": "Derek Brandwood",
+      "categorie": "industrie",
+      "role": [
+        "responsable RCA nord",
+        "intermédiaire industrie musicale",
+        "représentant RCA nord de l’Angleterre",
+        "médiateur industriel des sessions RCA/Grapevine",
+        "témoin du potentiel et de l’échec RCA"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-DEREK-BRANDWOOD",
+        "PERS-S75-017",
+        "PERS-S76-032"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dik-verdult",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-dik-verdult — Dik Verdult",
+    "data": {
+      "id": "PERSON-dik-verdult",
+      "type_unite": "person",
+      "name": "Dik Verdult",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S84-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-domenico-morreale",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-domenico-morreale — Domenico Morreale",
+    "data": {
+      "id": "PERSON-domenico-morreale",
+      "type_unite": "person",
+      "name": "Domenico Morreale",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "same_as": [
+        "PERS-S50-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-don-tonay",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-don-tonay — Don Tonay",
+    "data": {
+      "id": "PERSON-don-tonay",
+      "type_unite": "person",
+      "name": "Don Tonay",
+      "categorie": "entourage",
+      "role": [
+        "propriétaire du Russell Club",
+        "acteur des clubs de Moss Side et Hulme"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-046"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-donald-johnson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-donald-johnson — Donald Johnson",
+    "data": {
+      "id": "PERSON-donald-johnson",
+      "type_unite": "person",
+      "name": "Donald Johnson",
+      "categorie": "entourage",
+      "role": [
+        "batteur de A Certain Ratio",
+        "figure citée dans la cartographie Newell Green / Wythenshawe"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-039"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-doreen-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-doreen-curtis — Doreen Curtis",
+    "data": {
+      "id": "PERSON-doreen-curtis",
+      "type_unite": "person",
+      "name": "Doreen Curtis",
+      "categorie": "entourage",
+      "role": [
+        "mère de Ian Curtis",
+        "témoin familial central"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-dr-david-holmes",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-dr-david-holmes — Dr David Holmes",
+    "data": {
+      "id": "PERSON-dr-david-holmes",
+      "type_unite": "person",
+      "name": "Dr David Holmes",
+      "categorie": "entourage",
+      "role": [
+        "psychologue",
+        "musicien de la scène de l’époque",
+        "témoin interprétatif sur l’épilepsie et la performance"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-055"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-eddie-garrity",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-eddie-garrity — Eddie Garrity",
+    "data": {
+      "id": "PERSON-eddie-garrity",
+      "type_unite": "person",
+      "name": "Eddie Garrity",
+      "categorie": "entourage",
+      "role": [
+        "chanteur lié à Ed Banger & The Nosebleeds",
+        "figure citée dans la cartographie Newell Green / Wythenshawe"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-040"
+      ],
+      "alt_names": [
+        "Ed Banger"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-eddy-oz-pa",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-eddy-oz-pa — Eddy",
+    "data": {
+      "id": "PERSON-eddy-oz-pa",
+      "type_unite": "person",
+      "name": "Eddy",
+      "categorie": "industrie",
+      "role": [
+        "acteur (à préciser)"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": true,
+      "note": "Composante individuelle de PERS-S76-052 « Oz PA / Eddy et Oz » ; nom incomplet, contrôle S76 requis."
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-emiliano-ilardi",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-emiliano-ilardi — Emiliano Ilardi",
+    "data": {
+      "id": "PERSON-emiliano-ilardi",
+      "type_unite": "person",
+      "name": "Emiliano Ilardi",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S58"
+      ],
+      "same_as": [
+        "PERS-S58-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-ernest-beard",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-ernest-beard — Ernest Beard",
+    "data": {
+      "id": "PERSON-ernest-beard",
+      "type_unite": "person",
+      "name": "Ernest Beard",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-ERNEST-BEARD",
+        "PERS-S45-ERNEST-BEARD-EPILEPSY"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-fabio-la-rocca",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-fabio-la-rocca — Fabio La Rocca",
+    "data": {
+      "id": "PERSON-fabio-la-rocca",
+      "type_unite": "person",
+      "name": "Fabio La Rocca",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-francesca-ferrara",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-francesca-ferrara — Francesca Ferrara",
+    "data": {
+      "id": "PERSON-francesca-ferrara",
+      "type_unite": "person",
+      "name": "Francesca Ferrara",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S59"
+      ],
+      "same_as": [
+        "PERS-S59-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-franco-berardi",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-franco-berardi — Franco Berardi",
+    "data": {
+      "id": "PERSON-franco-berardi",
+      "type_unite": "person",
+      "name": "Franco Berardi",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29",
+        "S31"
+      ],
+      "same_as": [
+        "PERS-S29-008",
+        "PERS-S31-002"
+      ],
+      "alt_names": [
+        "Franco Berardi Bifo",
+        "Bifo"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-friedrich-nietzsche",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-friedrich-nietzsche — Friedrich Nietzsche",
+    "data": {
+      "id": "PERSON-friedrich-nietzsche",
+      "type_unite": "person",
+      "name": "Friedrich Nietzsche",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-010"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-genesis-p-orridge",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-genesis-p-orridge — Genesis P-Orridge",
+    "data": {
+      "id": "PERSON-genesis-p-orridge",
+      "type_unite": "person",
+      "name": "Genesis P-Orridge",
+      "categorie": "entourage",
+      "role": [
+        "artiste Throbbing Gristle",
+        "témoin d’alerte autour de l’état de Curtis"
+      ],
+      "sources": [
+        "S29",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S29-003",
+        "PERS-S76-086"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-georg-simmel",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-georg-simmel — Georg Simmel",
+    "data": {
+      "id": "PERSON-georg-simmel",
+      "type_unite": "person",
+      "name": "Georg Simmel",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-georg-wilhelm-friedrich-hegel",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-georg-wilhelm-friedrich-hegel — Georg Wilhelm Friedrich Hegel",
+    "data": {
+      "id": "PERSON-georg-wilhelm-friedrich-hegel",
+      "type_unite": "person",
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "same_as": [
+        "PERS-S57-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-gillian-gilbert",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-gillian-gilbert — Gillian Gilbert",
+    "data": {
+      "id": "PERSON-gillian-gilbert",
+      "type_unite": "person",
+      "name": "Gillian Gilbert",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-GILLIAN-GILBERT-GOSHES"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-giuseppe-allegri",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-giuseppe-allegri — Giuseppe Allegri",
+    "data": {
+      "id": "PERSON-giuseppe-allegri",
+      "type_unite": "person",
+      "name": "Giuseppe Allegri",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S31"
+      ],
+      "same_as": [
+        "PERS-S31-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-grant-gee",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-grant-gee — Grant Gee",
+    "data": {
+      "id": "PERSON-grant-gee",
+      "type_unite": "person",
+      "name": "Grant Gee",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29",
+        "S34",
+        "S52",
+        "S78",
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S29-010",
+        "PERS-S34-003",
+        "PERS-S52-010",
+        "PERS-S78-010",
+        "PERS-S84-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-greil-marcus",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-greil-marcus — Greil Marcus",
+    "data": {
+      "id": "PERSON-greil-marcus",
+      "type_unite": "person",
+      "name": "Greil Marcus",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S31"
+      ],
+      "same_as": [
+        "PERS-S31-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-henri-bergson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-henri-bergson — Henri Bergson",
+    "data": {
+      "id": "PERSON-henri-bergson",
+      "type_unite": "person",
+      "name": "Henri Bergson",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-henri-lefebvre",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-henri-lefebvre — Henri Lefebvre",
+    "data": {
+      "id": "PERSON-henri-lefebvre",
+      "type_unite": "person",
+      "name": "Henri Lefebvre",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-hito-steyerl",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-hito-steyerl — Hito Steyerl",
+    "data": {
+      "id": "PERSON-hito-steyerl",
+      "type_unite": "person",
+      "name": "Hito Steyerl",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "same_as": [
+        "PERS-S51-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-iain-gray",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-iain-gray — Iain Gray",
+    "data": {
+      "id": "PERSON-iain-gray",
+      "type_unite": "person",
+      "name": "Iain Gray",
+      "categorie": "entourage",
+      "role": [
+        "ami de Ian Curtis",
+        "guitariste des répétitions embryonnaires pré-Warsaw",
+        "acteur périphérique rapidement effacé"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-IAIN-GRAY",
+        "PERS-S76-017"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-ian-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-ian-curtis — Ian Curtis",
+    "data": {
+      "id": "PERSON-ian-curtis",
+      "type_unite": "person",
+      "name": "Ian Curtis",
+      "categorie": "membre",
+      "role": [
+        "chanteur",
+        "parolier",
+        "figure centrale"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S29",
+        "S34",
+        "S49",
+        "S53",
+        "S54",
+        "S55",
+        "S56",
+        "S57",
+        "S59"
+      ],
+      "same_as": [
+        "PERS-001",
+        "PERS-S29-002",
+        "PERS-S34-010",
+        "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR",
+        "PERS-S49-002",
+        "PERS-S53-002",
+        "PERS-S54-002",
+        "PERS-S55-002",
+        "PERS-S56-002",
+        "PERS-S57-004",
+        "PERS-S59-002"
+      ],
+      "alt_names": [
+        "Ian Kevin Curtis"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-ian-wood",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-ian-wood — Ian Wood",
+    "data": {
+      "id": "PERSON-ian-wood",
+      "type_unite": "person",
+      "name": "Ian Wood",
+      "categorie": "critique_journaliste",
+      "role": [
+        "journaliste local pour Sounds",
+        "inspecteur des impôts selon S76",
+        "observateur de Joy Division au Band On The Wall"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-041"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-j-g-ballard",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-j-g-ballard — J. G. Ballard",
+    "data": {
+      "id": "PERSON-j-g-ballard",
+      "type_unite": "person",
+      "name": "J. G. Ballard",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "same_as": [
+        "PERS-S54-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jacques-attali",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jacques-attali — Jacques Attali",
+    "data": {
+      "id": "PERSON-jacques-attali",
+      "type_unite": "person",
+      "name": "Jacques Attali",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "same_as": [
+        "PERS-S60-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jacques-derrida",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jacques-derrida — Jacques Derrida",
+    "data": {
+      "id": "PERSON-jacques-derrida",
+      "type_unite": "person",
+      "name": "Jacques Derrida",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jane-jacobs",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jane-jacobs — Jane Jacobs",
+    "data": {
+      "id": "PERSON-jane-jacobs",
+      "type_unite": "person",
+      "name": "Jane Jacobs",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-009"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jasmine",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jasmine — Jasmine",
+    "data": {
+      "id": "PERSON-jasmine",
+      "type_unite": "person",
+      "name": "Jasmine",
+      "categorie": "entourage",
+      "role": [
+        "acteur (à préciser)"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": true,
+      "note": "Composante individuelle de PERS-S76-064 « Dave Pils et Jasmine » ; nom incomplet, contrôle S76 requis."
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jean-pierre-turmel",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jean-pierre-turmel — Jean-Pierre Turmel",
+    "data": {
+      "id": "PERSON-jean-pierre-turmel",
+      "type_unite": "person",
+      "name": "Jean-Pierre Turmel",
+      "categorie": "entourage",
+      "role": [
+        "auteur du texte de pochette de Licht und Blindheit",
+        "médiateur Sordide Sentimental",
+        "fondateur / animateur de Sordide Sentimental",
+        "médiateur français de Joy Division",
+        "acteur du disque-objet *Licht und Blindheit*"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-036",
+        "PERS-S76-066"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jennifer-malvezzi",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jennifer-malvezzi — Jennifer Malvezzi",
+    "data": {
+      "id": "PERSON-jennifer-malvezzi",
+      "type_unite": "person",
+      "name": "Jennifer Malvezzi",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "same_as": [
+        "PERS-S51-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jeremey-deller",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jeremey-deller — Jeremey Deller",
+    "data": {
+      "id": "PERSON-jeremey-deller",
+      "type_unite": "person",
+      "name": "Jeremey Deller",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jeremy-kerr",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jeremy-kerr — Jeremy Kerr",
+    "data": {
+      "id": "PERSON-jeremy-kerr",
+      "type_unite": "person",
+      "name": "Jeremy Kerr",
+      "categorie": "entourage",
+      "role": [
+        "membre de A Certain Ratio",
+        "témoin d’un concert de Joy Division au Band On The Wall"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-042"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-anderson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-john-anderson — John Anderson",
+    "data": {
+      "id": "PERSON-john-anderson",
+      "type_unite": "person",
+      "name": "John Anderson",
+      "categorie": "industrie",
+      "role": [
+        "producteur",
+        "responsable Grapevine",
+        "intermédiaire industriel",
+        "responsable de Grapevine Records",
+        "producteur / directeur de session associé aux sessions Arrow",
+        "acteur du projet RCA / Northern Soul",
+        "interlocuteur contractuel de Rob Gretton"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-JOHN-ANDERSON",
+        "PERS-S75-019",
+        "PERS-S76-034",
+        "PERS-S76-044"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-brierley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-john-brierley — John Brierley",
+    "data": {
+      "id": "PERSON-john-brierley",
+      "type_unite": "person",
+      "name": "John Brierley",
+      "categorie": "industrie",
+      "role": [
+        "ingénieur du son",
+        "producteur"
+      ],
+      "sources": [
+        "S41"
+      ],
+      "same_as": [
+        "PERS-012"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-curd",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-john-curd — John Curd",
+    "data": {
+      "id": "PERSON-john-curd",
+      "type_unite": "person",
+      "name": "John Curd",
+      "categorie": "industrie",
+      "role": [
+        "promoteur du Lyceum selon S76",
+        "témoin indirect de la crise de Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-075"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-peel",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-john-peel — John Peel",
+    "data": {
+      "id": "PERSON-john-peel",
+      "type_unite": "person",
+      "name": "John Peel",
+      "categorie": "industrie",
+      "role": [
+        "DJ radio",
+        "médiateur national",
+        "animateur radio BBC",
+        "prescripteur national",
+        "réception critique de Joy Division"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-021",
+        "PERS-S76-057"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-john-the-postman",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-john-the-postman — John The Postman",
+    "data": {
+      "id": "PERSON-john-the-postman",
+      "type_unite": "person",
+      "name": "John The Postman",
+      "categorie": "entourage",
+      "role": [
+        "figure de la scène mancunienne",
+        "performer punk local",
+        "témoin sensible des concerts Joy Division"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-030"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-jon-savage",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-jon-savage — Jon Savage",
+    "data": {
+      "id": "PERSON-jon-savage",
+      "type_unite": "person",
+      "name": "Jon Savage",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S52",
+        "S56",
+        "S77",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S52-009",
+        "PERS-S56-003",
+        "PERS-S77-003",
+        "PERS-S78-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kelvin-briggs",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-kelvin-briggs — Kelvin Briggs",
+    "data": {
+      "id": "PERSON-kelvin-briggs",
+      "type_unite": "person",
+      "name": "Kelvin Briggs",
+      "categorie": "entourage",
+      "role": [
+        "ami de King’s School",
+        "témoin du cercle adolescent",
+        "témoin / best man au mariage de Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-015"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kevin-buckle",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-kevin-buckle — Kevin Buckle",
+    "data": {
+      "id": "PERSON-kevin-buckle",
+      "type_unite": "person",
+      "name": "Kevin Buckle",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kevin-cummins",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-kevin-cummins — Kevin Cummins",
+    "data": {
+      "id": "PERSON-kevin-cummins",
+      "type_unite": "person",
+      "name": "Kevin Cummins",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "photographe",
+        "médiateur visuel",
+        "témoin de la scène mancunienne",
+        "témoin de l’Electric Circus",
+        "acteur fanzine / Negatives",
+        "producteur d’une part majeure de l’iconographie Joy Division"
+      ],
+      "sources": [
+        "S75",
+        "S76",
+        "S53",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S53-003",
+        "PERS-S75-023",
+        "PERS-S76-012",
+        "PERS-S76-023",
+        "PERS-S76-056",
+        "PERS-S78-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kevin-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-kevin-curtis — Kevin Curtis",
+    "data": {
+      "id": "PERSON-kevin-curtis",
+      "type_unite": "person",
+      "name": "Kevin Curtis",
+      "categorie": "entourage",
+      "role": [
+        "père de Ian Curtis",
+        "policier ferroviaire",
+        "ancien marin blessé pendant la guerre"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-kevin-wood",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-kevin-wood — Kevin Wood",
+    "data": {
+      "id": "PERSON-kevin-wood",
+      "type_unite": "person",
+      "name": "Kevin Wood",
+      "categorie": "entourage",
+      "role": [
+        "voisin de Barton Street",
+        "témoin de la découverte du corps de Ian Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-084"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-larry-cassidy",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-larry-cassidy — Larry Cassidy",
+    "data": {
+      "id": "PERSON-larry-cassidy",
+      "type_unite": "person",
+      "name": "Larry Cassidy",
+      "categorie": "industrie",
+      "role": [
+        "chanteur de Section 25",
+        "témoin des crises de Curtis et de la scène Factory élargie"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-083"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-lawrence-beedle",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-lawrence-beedle — Lawrence Beedle",
+    "data": {
+      "id": "PERSON-lawrence-beedle",
+      "type_unite": "person",
+      "name": "Lawrence Beedle",
+      "categorie": "entourage",
+      "role": [
+        "acteur Music Force",
+        "acteur Rabid Records",
+        "témoin du lien Gretton/Rabid/Joy Division"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-026"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-leonard-nevarez",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-leonard-nevarez — Leonard Nevarez",
+    "data": {
+      "id": "PERSON-leonard-nevarez",
+      "type_unite": "person",
+      "name": "Leonard Nevarez",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S78-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-lesley-gilbert",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-lesley-gilbert — Lesley Gilbert",
+    "data": {
+      "id": "PERSON-lesley-gilbert",
+      "type_unite": "person",
+      "name": "Lesley Gilbert",
+      "categorie": "entourage",
+      "role": [
+        "compagne de Rob Gretton",
+        "salariée d’un cabinet d’avocats selon Terry Mason"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-LESLEY-GILBERT",
+        "PERS-S76-043"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-linda-barone",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-linda-barone — Linda Barone",
+    "data": {
+      "id": "PERSON-linda-barone",
+      "type_unite": "person",
+      "name": "Linda Barone",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "same_as": [
+        "PERS-S56-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-lindsay-reade",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-lindsay-reade — Lindsay Reade",
+    "data": {
+      "id": "PERSON-lindsay-reade",
+      "type_unite": "person",
+      "name": "Lindsay Reade",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "co-autrice de Torn Apart",
+        "ancienne figure de l'entourage Factory",
+        "médiatrice de témoignages intimes"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-liz-naylor",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-liz-naylor — Liz Naylor",
+    "data": {
+      "id": "PERSON-liz-naylor",
+      "type_unite": "person",
+      "name": "Liz Naylor",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S21",
+        "S77",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-S21-001",
+        "PERS-S77-005",
+        "PERS-S78-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-lou-stoppard",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-lou-stoppard — Lou Stoppard",
+    "data": {
+      "id": "PERSON-lou-stoppard",
+      "type_unite": "person",
+      "name": "Lou Stoppard",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-006"
+      ],
+      "alt_names": [
+        "Adam Murray"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-lucy-toothpaste",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-lucy-toothpaste — Lucy Toothpaste",
+    "data": {
+      "id": "PERSON-lucy-toothpaste",
+      "type_unite": "person",
+      "name": "Lucy Toothpaste",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S77-010"
+      ],
+      "alt_names": [
+        "Lucy Whitman"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-malcolm-whitehead",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-malcolm-whitehead — Malcolm Whitehead",
+    "data": {
+      "id": "PERSON-malcolm-whitehead",
+      "type_unite": "person",
+      "name": "Malcolm Whitehead",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S78",
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S78-009",
+        "PERS-S84-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-manolo-farci",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-manolo-farci — Manolo Farci",
+    "data": {
+      "id": "PERSON-manolo-farci",
+      "type_unite": "person",
+      "name": "Manolo Farci",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "same_as": [
+        "PERS-S49-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-marcel-proust",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-marcel-proust — Marcel Proust",
+    "data": {
+      "id": "PERSON-marcel-proust",
+      "type_unite": "person",
+      "name": "Marcel Proust",
+      "categorie": "influence",
+      "role": [
+        "écrivain",
+        "référence possible pour le titre Unknown Pleasures"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "same_as": [
+        "PERS-S75-031"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mark-fisher",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mark-fisher — Mark Fisher",
+    "data": {
+      "id": "PERSON-mark-fisher",
+      "type_unite": "person",
+      "name": "Mark Fisher",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mark-leckey",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mark-leckey — Mark Leckey",
+    "data": {
+      "id": "PERSON-mark-leckey",
+      "type_unite": "person",
+      "name": "Mark Leckey",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "same_as": [
+        "PERS-S51-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mark-perry",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mark-perry — Mark Perry",
+    "data": {
+      "id": "PERSON-mark-perry",
+      "type_unite": "person",
+      "name": "Mark Perry",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S77-002"
+      ],
+      "alt_names": [
+        "Mark P"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mark-reeder",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mark-reeder — Mark Reeder",
+    "data": {
+      "id": "PERSON-mark-reeder",
+      "type_unite": "person",
+      "name": "Mark Reeder",
+      "categorie": "entourage",
+      "role": [
+        "témoin des sociabilités de disquaires",
+        "ami musical de Ian Curtis",
+        "témoin de Rare Records/Virgin",
+        "ami de Ian Curtis",
+        "témoin du changement de nom et de l’intérêt allemand de Curtis",
+        "témoin de la perception sociale de l’épilepsie",
+        "témoin ayant lui-même connu des crises"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-011",
+        "PERS-S76-029",
+        "PERS-S76-053"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-marshall-berman",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-marshall-berman — Marshall Berman",
+    "data": {
+      "id": "PERSON-marshall-berman",
+      "type_unite": "person",
+      "name": "Marshall Berman",
+      "categorie": "theoricien_mobilise",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "same_as": [
+        "PERS-S34-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martin-hannett",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-martin-hannett — Martin Hannett",
+    "data": {
+      "id": "PERSON-martin-hannett",
+      "type_unite": "person",
+      "name": "Martin Hannett",
+      "categorie": "industrie",
+      "role": [
+        "producteur",
+        "ingénieur sonore",
+        "expérimentateur",
+        "acteur Music Force",
+        "cofondateur Rabid Records",
+        "futur producteur de Joy Division",
+        "architecte sonore des sessions Cargo / Sordide",
+        "producteur de la première version Pennine de « Love Will Tear Us Apart » selon S76",
+        "producteur lié aux sessions de transition de janvier 1980"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S34",
+        "S76",
+        "S31",
+        "S58",
+        "S59"
+      ],
+      "same_as": [
+        "PERS-008",
+        "PERS-S31-004",
+        "PERS-S34-011",
+        "PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES",
+        "PERS-S58-006",
+        "PERS-S59-005",
+        "PERS-S76-024",
+        "PERS-S76-069",
+        "PERS-S76-072"
+      ],
+      "alt_names": [
+        "James Martin Hannett",
+        "Martin Zero"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martin-oneill",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-martin-oneill — Martin O’Neill",
+    "data": {
+      "id": "PERSON-martin-oneill",
+      "type_unite": "person",
+      "name": "Martin O’Neill",
+      "categorie": "industrie",
+      "role": [
+        "photographe local",
+        "auteur de photographies iconiques du concert de Bowdon Vale"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-059"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martin-rushent",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-martin-rushent — Martin Rushent",
+    "data": {
+      "id": "PERSON-martin-rushent",
+      "type_unite": "person",
+      "name": "Martin Rushent",
+      "categorie": "industrie",
+      "role": [
+        "producteur",
+        "entrepreneur de production",
+        "fondateur / acteur de Genetic Records",
+        "producteur potentiel alternatif pour Joy Division"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-022",
+        "PERS-S76-058"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martin-x",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-martin-x — Martin X",
+    "data": {
+      "id": "PERSON-martin-x",
+      "type_unite": "person",
+      "name": "Martin X",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S21"
+      ],
+      "same_as": [
+        "PERS-S21-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-martyn-atkins",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-martyn-atkins — Martyn Atkins",
+    "data": {
+      "id": "PERSON-martyn-atkins",
+      "type_unite": "person",
+      "name": "Martyn Atkins",
+      "categorie": "industrie",
+      "role": [
+        "acteur du design de *Closer*",
+        "médiateur de l’image Staglieno avec Peter Saville selon S76"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-078"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-massimo-villani",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-massimo-villani — Massimo Villani",
+    "data": {
+      "id": "PERSON-massimo-villani",
+      "type_unite": "person",
+      "name": "Massimo Villani",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "same_as": [
+        "PERS-S57-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-matthew-worley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-matthew-worley — Matthew Worley",
+    "data": {
+      "id": "PERSON-matthew-worley",
+      "type_unite": "person",
+      "name": "Matthew Worley",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S77-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-maurice-blanchot",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-maurice-blanchot — Maurice Blanchot",
+    "data": {
+      "id": "PERSON-maurice-blanchot",
+      "type_unite": "person",
+      "name": "Maurice Blanchot",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "same_as": [
+        "PERS-S57-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-michael-goddard",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-michael-goddard — Michael Goddard",
+    "data": {
+      "id": "PERSON-michael-goddard",
+      "type_unite": "person",
+      "name": "Michael Goddard",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-michael-winterbottom",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-michael-winterbottom — Michael Winterbottom",
+    "data": {
+      "id": "PERSON-michael-winterbottom",
+      "type_unite": "person",
+      "name": "Michael Winterbottom",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "same_as": [
+        "PERS-S53-011"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-michel-isbecque",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-michel-isbecque — Michel Isbecque",
+    "data": {
+      "id": "PERSON-michel-isbecque",
+      "type_unite": "person",
+      "name": "Michel Isbecque",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S84-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mick-middles",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mick-middles — Mick Middles",
+    "data": {
+      "id": "PERSON-mick-middles",
+      "type_unite": "person",
+      "name": "Mick Middles",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-mike-pickering",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-mike-pickering — Mike Pickering",
+    "data": {
+      "id": "PERSON-mike-pickering",
+      "type_unite": "person",
+      "name": "Mike Pickering",
+      "categorie": "entourage",
+      "role": [
+        "supporter de Manchester City croisé par Gretton selon l’anecdote de Nottingham",
+        "futur acteur de la Haçienda et de la scène dance mancunienne"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-038"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-natalie-curtis",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-natalie-curtis — Natalie Curtis",
+    "data": {
+      "id": "PERSON-natalie-curtis",
+      "type_unite": "person",
+      "name": "Natalie Curtis",
+      "categorie": "entourage",
+      "role": [
+        "proche",
+        "enfant de Ian Curtis",
+        "fille de Ian et Deborah Curtis",
+        "fille de Ian Curtis et Deborah Curtis"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-011",
+        "PERS-S45-NATALIE-CURTIS-BIRTH",
+        "PERS-S75-028",
+        "PERS-S76-061"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-neil-hargreaves",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-neil-hargreaves — Neil Hargreaves",
+    "data": {
+      "id": "PERSON-neil-hargreaves",
+      "type_unite": "person",
+      "name": "Neil Hargreaves",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S21"
+      ],
+      "same_as": [
+        "PERS-S21-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-nick-cope",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-nick-cope — Nick Cope",
+    "data": {
+      "id": "PERSON-nick-cope",
+      "type_unite": "person",
+      "name": "Nick Cope",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S84-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-nikolai-gogol",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-nikolai-gogol — Nikolai Gogol",
+    "data": {
+      "id": "PERSON-nikolai-gogol",
+      "type_unite": "person",
+      "name": "Nikolai Gogol",
+      "categorie": "influence",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-012"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-orian-williams",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-orian-williams — Orian Williams",
+    "data": {
+      "id": "PERSON-orian-williams",
+      "type_unite": "person",
+      "name": "Orian Williams",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "same_as": [
+        "PERS-S50-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-oz-oz-pa",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-oz-oz-pa — Oz",
+    "data": {
+      "id": "PERSON-oz-oz-pa",
+      "type_unite": "person",
+      "name": "Oz",
+      "categorie": "industrie",
+      "role": [
+        "acteur (à préciser)"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": true,
+      "note": "Composante individuelle de PERS-S76-052 « Oz PA / Eddy et Oz » ; nom incomplet, contrôle S76 requis."
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-pam-wood",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-pam-wood — Pam Wood",
+    "data": {
+      "id": "PERSON-pam-wood",
+      "type_unite": "person",
+      "name": "Pam Wood",
+      "categorie": "entourage",
+      "role": [
+        "voisine de Barton Street",
+        "témoin périphérique de la découverte"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-085"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paolo-bertetti",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-paolo-bertetti — Paolo Bertetti",
+    "data": {
+      "id": "PERSON-paolo-bertetti",
+      "type_unite": "person",
+      "name": "Paolo Bertetti",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "same_as": [
+        "PERS-S50-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paul-crosthwaite",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-paul-crosthwaite — Paul Crosthwaite",
+    "data": {
+      "id": "PERSON-paul-crosthwaite",
+      "type_unite": "person",
+      "name": "Paul Crosthwaite",
+      "categorie": "critique_journaliste",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-009"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paul-hanley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-paul-hanley — Paul Hanley",
+    "data": {
+      "id": "PERSON-paul-hanley",
+      "type_unite": "person",
+      "name": "Paul Hanley",
+      "categorie": "entourage",
+      "role": [
+        "futur batteur de The Fall",
+        "témoin du concert de Bowdon Vale"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-060"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paul-heapy",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-paul-heapy — Paul Heapy",
+    "data": {
+      "id": "PERSON-paul-heapy",
+      "type_unite": "person",
+      "name": "Paul Heapy",
+      "categorie": "entourage",
+      "role": [
+        "ami scolaire de Ian Curtis et Pete Johnson"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-008"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-paul-morley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-paul-morley — Paul Morley",
+    "data": {
+      "id": "PERSON-paul-morley",
+      "type_unite": "person",
+      "name": "Paul Morley",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "journaliste",
+        "critique",
+        "témoin",
+        "critique musical",
+        "médiateur critique de Joy Division",
+        "journaliste NME",
+        "acteur de la première mythographie posthume de Joy Division",
+        "auteur de *Nothing*"
+      ],
+      "sources": [
+        "S34",
+        "S45",
+        "S75",
+        "S76",
+        "S21",
+        "S77",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-014",
+        "PERS-S21-007",
+        "PERS-S34-012",
+        "PERS-S45-PAUL-MORLEY-1977",
+        "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL",
+        "PERS-S75-037",
+        "PERS-S76-089",
+        "PERS-S77-008",
+        "PERS-S78-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-penny-rimbaud",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-penny-rimbaud — Penny Rimbaud",
+    "data": {
+      "id": "PERSON-penny-rimbaud",
+      "type_unite": "person",
+      "name": "Penny Rimbaud",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S77-009"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-pete-johnson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-pete-johnson — Pete Johnson",
+    "data": {
+      "id": "PERSON-pete-johnson",
+      "type_unite": "person",
+      "name": "Pete Johnson",
+      "categorie": "entourage",
+      "role": [
+        "ami d'enfance de Ian Curtis",
+        "témoin scolaire et adolescent"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-pete-shelley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-pete-shelley — Pete Shelley",
+    "data": {
+      "id": "PERSON-pete-shelley",
+      "type_unite": "person",
+      "name": "Pete Shelley",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "same_as": [
+        "PERS-S54-009"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-peter-hook",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-peter-hook — Peter Hook",
+    "data": {
+      "id": "PERSON-peter-hook",
+      "type_unite": "person",
+      "name": "Peter Hook",
+      "categorie": "membre",
+      "role": [
+        "musicien",
+        "bassiste",
+        "témoin",
+        "mémorialiste"
+      ],
+      "sources": [
+        "S41",
+        "S52",
+        "S54",
+        "S55",
+        "S58",
+        "S59"
+      ],
+      "same_as": [
+        "PERS-002",
+        "PERS-S52-007",
+        "PERS-S54-006",
+        "PERS-S55-003",
+        "PERS-S58-002",
+        "PERS-S59-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-peter-saville",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-peter-saville — Peter Saville",
+    "data": {
+      "id": "PERSON-peter-saville",
+      "type_unite": "person",
+      "name": "Peter Saville",
+      "categorie": "industrie",
+      "role": [
+        "designer",
+        "directeur artistique",
+        "designer graphique",
+        "auteur de la pochette d'Unknown Pleasures",
+        "étudiant à Manchester Polytechnic",
+        "acteur de l’image Factory"
+      ],
+      "sources": [
+        "S41",
+        "S75",
+        "S76",
+        "S31",
+        "S53",
+        "S59",
+        "S60"
+      ],
+      "same_as": [
+        "PERS-009",
+        "PERS-S31-008",
+        "PERS-S53-004",
+        "PERS-S59-004",
+        "PERS-S60-002",
+        "PERS-S75-029",
+        "PERS-S76-049"
+      ],
+      "alt_names": [
+        "Peter Andrew Saville"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-raf-simons",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-raf-simons — Raf Simons",
+    "data": {
+      "id": "PERSON-raf-simons",
+      "type_unite": "person",
+      "name": "Raf Simons",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S60",
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S60-004",
+        "PERS-S85-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-raffaele-federici",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-raffaele-federici — Raffaele Federici",
+    "data": {
+      "id": "PERSON-raffaele-federici",
+      "type_unite": "person",
+      "name": "Raffaele Federici",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "same_as": [
+        "PERS-S60-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-richard-boon",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-richard-boon — Richard Boon",
+    "data": {
+      "id": "PERSON-richard-boon",
+      "type_unite": "person",
+      "name": "Richard Boon",
+      "categorie": "industrie",
+      "role": [
+        "manager de Buzzcocks",
+        "interlocuteur précoce de Curtis",
+        "médiateur de scène"
+      ],
+      "sources": [
+        "S76",
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S76-019",
+        "PERS-S84-002"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-richard-searling",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-richard-searling — Richard Searling",
+    "data": {
+      "id": "PERSON-richard-searling",
+      "type_unite": "person",
+      "name": "Richard Searling",
+      "categorie": "industrie",
+      "role": [
+        "DJ northern soul",
+        "producteur associé",
+        "assistant de Derek Brandwood",
+        "intermédiaire du projet RCA/Grapevine"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-RICHARD-SEARLING",
+        "PERS-S75-018",
+        "PERS-S76-033"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-rob-gretton",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-rob-gretton — Rob Gretton",
+    "data": {
+      "id": "PERSON-rob-gretton",
+      "type_unite": "person",
+      "name": "Rob Gretton",
+      "categorie": "industrie",
+      "role": [
+        "manager",
+        "stratège",
+        "médiateur",
+        "manager de Joy Division",
+        "gardien de l'image et des objets Factory",
+        "futur manager de Joy Division",
+        "DJ à Rafters",
+        "auteur du fanzine Manchester Rains",
+        "producteur lié à The Panik",
+        "figure des réseaux Wythenshawe / Newell Green / Manchester City"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S75",
+        "S76",
+        "S31",
+        "S58"
+      ],
+      "same_as": [
+        "PERS-006",
+        "PERS-S31-007",
+        "PERS-S45-ROB-GRETTON-GARDIEN",
+        "PERS-S58-005",
+        "PERS-S75-030",
+        "PERS-S76-027",
+        "PERS-S76-037"
+      ],
+      "alt_names": [
+        "Robert Leo Gretton"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-roger-eagle",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-roger-eagle — Roger Eagle",
+    "data": {
+      "id": "PERSON-roger-eagle",
+      "type_unite": "person",
+      "name": "Roger Eagle",
+      "categorie": "industrie",
+      "role": [
+        "DJ et promoteur",
+        "figure Twisted Wheel / Eric’s",
+        "initiateur possible d’un projet de label Manchester-Liverpool"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-048"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-sam-riley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-sam-riley — Sam Riley",
+    "data": {
+      "id": "PERSON-sam-riley",
+      "type_unite": "person",
+      "name": "Sam Riley",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "same_as": [
+        "PERS-S52-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-samantha-morton",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-samantha-morton — Samantha Morton",
+    "data": {
+      "id": "PERSON-samantha-morton",
+      "type_unite": "person",
+      "name": "Samantha Morton",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "same_as": [
+        "PERS-S52-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-simon-reynolds",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-simon-reynolds — Simon Reynolds",
+    "data": {
+      "id": "PERSON-simon-reynolds",
+      "type_unite": "person",
+      "name": "Simon Reynolds",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "same_as": [
+        "PERS-S29-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-simon-topping",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-simon-topping — Simon Topping",
+    "data": {
+      "id": "PERSON-simon-topping",
+      "type_unite": "person",
+      "name": "Simon Topping",
+      "categorie": "entourage",
+      "role": [
+        "chanteur / membre associé à A Certain Ratio",
+        "voix de substitution au Derby Hall de Bury"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-081"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-stephanie",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-stephanie — Stephanie",
+    "data": {
+      "id": "PERSON-stephanie",
+      "type_unite": "person",
+      "name": "Stephanie",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-STEPHANIE-MORRIS"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": true
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-stephen-morris",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-stephen-morris — Stephen Morris",
+    "data": {
+      "id": "PERSON-stephen-morris",
+      "type_unite": "person",
+      "name": "Stephen Morris",
+      "categorie": "membre",
+      "role": [
+        "musicien",
+        "batteur",
+        "témoin",
+        "catalyseur formel",
+        "batteur de Joy Division",
+        "opérateur rythmique du son Hannett",
+        "stabilisateur rythmique du groupe"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S75",
+        "S76",
+        "S52",
+        "S55"
+      ],
+      "same_as": [
+        "PERS-004",
+        "PERS-004-S75",
+        "PERS-S45-STEPHEN-MORRIS",
+        "PERS-S52-008",
+        "PERS-S55-005",
+        "PERS-S75-026",
+        "PERS-S76-021"
+      ],
+      "alt_names": [
+        "Stephen Paul David Morris",
+        "Steve Morris"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-steve-brotherdale",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-steve-brotherdale — Steve Brotherdale",
+    "data": {
+      "id": "PERSON-steve-brotherdale",
+      "type_unite": "person",
+      "name": "Steve Brotherdale",
+      "categorie": "entourage",
+      "role": [
+        "musicien",
+        "batteur transitoire",
+        "batteur transitoire de Warsaw",
+        "acteur de la scène mancunienne"
+      ],
+      "sources": [
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-015",
+        "PERS-S45-STEVE-BROTHERDALE",
+        "PERS-S76-020"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-steve-burke",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-steve-burke — Steve Burke",
+    "data": {
+      "id": "PERSON-steve-burke",
+      "type_unite": "person",
+      "name": "Steve Burke",
+      "categorie": "critique_journaliste",
+      "role": [
+        "témoin de l’Electric Circus",
+        "acteur fanzine / scène mancunienne"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-018"
+      ],
+      "alt_names": [
+        "Steve Shy"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-steve-harley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-steve-harley — Steve Harley",
+    "data": {
+      "id": "PERSON-steve-harley",
+      "type_unite": "person",
+      "name": "Steve Harley",
+      "categorie": "critique_journaliste",
+      "role": [
+        "musicien, Cockney Rebel",
+        "intervenant critique lors de *Something Else*"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-065"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-steven-morrissey",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-steven-morrissey — Steven Morrissey",
+    "data": {
+      "id": "PERSON-steven-morrissey",
+      "type_unite": "person",
+      "name": "Steven Morrissey",
+      "categorie": "critique_journaliste",
+      "role": [
+        "jeune observateur de la scène glam/punk mancunienne",
+        "futur chanteur de The Smiths",
+        "critique ultérieur de Joy Division et New Order"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-031"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-stuart-orme",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-stuart-orme — Stuart Orme",
+    "data": {
+      "id": "PERSON-stuart-orme",
+      "type_unite": "person",
+      "name": "Stuart Orme",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "same_as": [
+        "PERS-S84-006"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-sue-barlow",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-sue-barlow — Sue Barlow",
+    "data": {
+      "id": "PERSON-sue-barlow",
+      "type_unite": "person",
+      "name": "Sue Barlow",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "same_as": [
+        "PERS-S45-SUE-BARLOW",
+        "PERS-S45-SUE-BARLOW-GIRLIES"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-terry-mason",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-terry-mason — Terry Mason",
+    "data": {
+      "id": "PERSON-terry-mason",
+      "type_unite": "person",
+      "name": "Terry Mason",
+      "categorie": "industrie",
+      "role": [
+        "ami de Bernard Sumner et Peter Hook",
+        "premier organisateur / manager informel de Warsaw",
+        "témoin direct des débuts",
+        "témoin logistique et ancien manager",
+        "acteur du retrait de Curtis lors des crises",
+        "observateur de Preston, Lyceum et Candy"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-TERRY-MASON",
+        "PERS-S76-016",
+        "PERS-S76-074"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tom-hingley",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tom-hingley — Tom Hingley",
+    "data": {
+      "id": "PERSON-tom-hingley",
+      "type_unite": "person",
+      "name": "Tom Hingley",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S85"
+      ],
+      "same_as": [
+        "PERS-S85-003"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tony-davidson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tony-davidson — Tony Davidson",
+    "data": {
+      "id": "PERSON-tony-davidson",
+      "type_unite": "person",
+      "name": "Tony Davidson",
+      "categorie": "industrie",
+      "role": [
+        "propriétaire / acteur local",
+        "fournisseur d'espace de répétition",
+        "propriétaire de T. J. Davidson’s",
+        "entrepreneur de répétition et label TJM Records"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-025",
+        "PERS-S76-051"
+      ],
+      "alt_names": [
+        "T.J. Davidson",
+        "T. J. Davidson"
+      ],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tony-drayton",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tony-drayton — Tony Drayton",
+    "data": {
+      "id": "PERSON-tony-drayton",
+      "type_unite": "person",
+      "name": "Tony Drayton",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "same_as": [
+        "PERS-S77-004"
+      ],
+      "alt_names": [
+        "Tony D",
+        "Tony Puppy"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tony-nuttall",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tony-nuttall — Tony Nuttall",
+    "data": {
+      "id": "PERSON-tony-nuttall",
+      "type_unite": "person",
+      "name": "Tony Nuttall",
+      "categorie": "entourage",
+      "role": [
+        "ami d'enfance de Ian Curtis",
+        "compagnon de speedway et de sociabilité locale"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE",
+        "PERS-S76-007"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tony-wilson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tony-wilson — Tony Wilson",
+    "data": {
+      "id": "PERSON-tony-wilson",
+      "type_unite": "person",
+      "name": "Tony Wilson",
+      "categorie": "industrie",
+      "role": [
+        "journaliste",
+        "entrepreneur culturel",
+        "fondateur Factory",
+        "médiateur",
+        "présentateur Granada TV",
+        "futur cofondateur de Factory Records",
+        "témoin du dernier Electric Circus",
+        "cofondateur Factory",
+        "promoteur du Factory Club",
+        "initiateur de *The Factory Sample*",
+        "témoin du Lyceum",
+        "médiateur vocal indirect pour « Love Will Tear Us Apart » via Sinatra"
+      ],
+      "sources": [
+        "S41",
+        "S45",
+        "S34",
+        "S76",
+        "S21",
+        "S31",
+        "S52",
+        "S53",
+        "S58",
+        "S78"
+      ],
+      "same_as": [
+        "PERS-007",
+        "PERS-S21-006",
+        "PERS-S31-005",
+        "PERS-S34-004",
+        "PERS-S45-TONY-WILSON-GRANADA",
+        "PERS-S52-011",
+        "PERS-S53-006",
+        "PERS-S58-004",
+        "PERS-S76-022",
+        "PERS-S76-050",
+        "PERS-S76-073",
+        "PERS-S78-005"
+      ],
+      "alt_names": [
+        "Anthony Howard Wilson"
+      ],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-tosh-ryan",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-tosh-ryan — Tosh Ryan",
+    "data": {
+      "id": "PERSON-tosh-ryan",
+      "type_unite": "person",
+      "name": "Tosh Ryan",
+      "categorie": "entourage",
+      "role": [
+        "acteur Music Force",
+        "cofondateur Rabid Records",
+        "témoin de Hannett"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S76-025"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-vince-staples",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-vince-staples — Vince Staples",
+    "data": {
+      "id": "PERSON-vince-staples",
+      "type_unite": "person",
+      "name": "Vince Staples",
+      "categorie": "entourage",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "same_as": [
+        "PERS-S60-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-vincent-moon",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-vincent-moon — Vincent Moon",
+    "data": {
+      "id": "PERSON-vincent-moon",
+      "type_unite": "person",
+      "name": "Vincent Moon",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "same_as": [
+        "PERS-S50-005"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-vincenzo-romania",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-vincenzo-romania — Vincenzo Romania",
+    "data": {
+      "id": "PERSON-vincenzo-romania",
+      "type_unite": "person",
+      "name": "Vincenzo Romania",
+      "categorie": "auteur_secondaire",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S55"
+      ],
+      "same_as": [
+        "PERS-S55-001"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-vini-reilly",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-vini-reilly — Vini Reilly",
+    "data": {
+      "id": "PERSON-vini-reilly",
+      "type_unite": "person",
+      "name": "Vini Reilly",
+      "categorie": "entourage",
+      "role": [
+        "musicien de The Durutti Column",
+        "témoin technique de l'usage du delay",
+        "musicien",
+        "futur membre / centre de Durutti Column",
+        "témoin pré-Warsaw",
+        "musicien Durutti Column",
+        "témoin rétrospectif de la mort de Curtis"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "same_as": [
+        "PERS-S75-027",
+        "PERS-S76-014",
+        "PERS-S76-088"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": true,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-warren-jackson",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-warren-jackson — Warren Jackson",
+    "data": {
+      "id": "PERSON-warren-jackson",
+      "type_unite": "person",
+      "name": "Warren Jackson",
+      "categorie": "industrie",
+      "role": [
+        "acteur"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "same_as": [
+        "PERS-S50-004"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERSON-william-s-burroughs",
+    "file": "registers/people/00_canonical_people.md",
+    "heading": "PERSON-william-s-burroughs — William S. Burroughs",
+    "data": {
+      "id": "PERSON-william-s-burroughs",
+      "type_unite": "person",
+      "name": "William S. Burroughs",
+      "categorie": "influence",
+      "role": [
+        "écrivain",
+        "figure d'admiration pour Ian Curtis"
+      ],
+      "sources": [
+        "S75",
+        "S54",
+        "S56"
+      ],
+      "same_as": [
+        "PERS-S54-003",
+        "PERS-S56-004",
+        "PERS-S75-033"
+      ],
+      "alt_names": [],
+      "categorie_a_arbitrer": false,
+      "a_arbitrer": false
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-001",
     "file": "registers/people/master_people.md",
     "heading": "PERS-001 — Ian Curtis",
