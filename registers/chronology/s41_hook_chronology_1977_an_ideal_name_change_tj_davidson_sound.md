@@ -140,6 +140,7 @@ chronology:
     statut: non listé ; souvenir Hook
 
   - id: CHR-S41-1977-12-31-SWINGING-APPLE
+    same_as: CONCERT-19771231-SWINGING-APPLE-LIVERPOOL
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

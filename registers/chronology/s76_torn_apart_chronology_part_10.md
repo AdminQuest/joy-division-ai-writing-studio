@@ -132,6 +132,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-009
+same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology

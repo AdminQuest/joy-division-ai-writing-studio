@@ -124,6 +124,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-011
+same_as: CONCERT-19791016-PLAN-K-BRUSSELS
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -403,6 +404,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-007
+same_as: CONCERT-19800408-DERBY-HALL-BURY
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology

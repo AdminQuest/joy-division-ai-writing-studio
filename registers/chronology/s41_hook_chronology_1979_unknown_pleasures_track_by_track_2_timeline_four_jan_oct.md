@@ -81,6 +81,7 @@ chronology:
     statut: repère à croiser avec sessionographies
 
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD-FILM
+    same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -192,6 +193,7 @@ chronology:
     statut: session single établie
 
   - id: CHR-S41-1979-08-02-YMCA-LONDON
+    same_as: CONCERT-19790802-YMCA-LONDON
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -224,6 +226,7 @@ chronology:
     statut: repère biographique et live établi
 
   - id: CHR-S41-1979-09-08-FUTURAMA-LEEDS
+    same_as: CONCERT-19790908-QUEENS-HALL-LEEDS
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

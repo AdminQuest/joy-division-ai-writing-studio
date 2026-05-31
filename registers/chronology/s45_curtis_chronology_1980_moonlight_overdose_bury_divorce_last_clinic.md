@@ -54,6 +54,7 @@ chronology:
     statut: événement établi ; bootleg / enregistrement Harry Demac à indexer
 
   - id: CHR-S45-1980-04-11-FACTORY-REOPENED
+    same_as: CONCERT-19800411-RUSSELL-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S45

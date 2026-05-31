@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1977-007
+same_as: CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -85,6 +86,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-009
+same_as: CONCERT-19771019-PIPERS-CYPRUS-TAVERN
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -167,6 +169,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-011
+same_as: CONCERT-19771231-SWINGING-APPLE-LIVERPOOL
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -286,6 +289,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-003
+same_as: CONCERT-19780414-RAFTERS-MANCHESTER
 date_precision: circa
 categorie: concert_a_migrer
 type_unite: chronology

@@ -78,6 +78,7 @@ chronology:
     statut: verrou sessionographique ; titres à croiser avec discographies
 
   - id: CHR-S41-TL3-1978-05-20-MAYFLOWER
+    same_as: CONCERT-19780520-STONEGROUND-MAYFLOWER
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -121,6 +122,7 @@ chronology:
     statut: verrou discographique et nominal
 
   - id: CHR-S41-TL3-1978-06-09-FACTORY-RUSSELL-CLUB
+    same_as: CONCERT-19780609-RUSSELL-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -136,6 +138,7 @@ chronology:
     statut: consolidation Factory
 
   - id: CHR-S41-TL3-1978-07-15-ERICS-RICH-KIDS
+    same_as: CONCERT-19780715-ERICS-LIVERPOOL
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -150,6 +153,7 @@ chronology:
     statut: anecdote de plateau
 
   - id: CHR-S41-TL3-1978-07-27-ROOTS-LEEDS-DURUTTI
+    same_as: CONCERT-19780727-ROOTS-CLUB-LEEDS
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -164,6 +168,7 @@ chronology:
     statut: anecdote de réseau Factory
 
   - id: CHR-S41-TL3-1978-07-28-SUICIDE-RUSSELL-CLUB
+    same_as: CONCERT-19780728-RUSSELL-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -178,6 +183,7 @@ chronology:
     statut: influence live déclarée
 
   - id: CHR-S41-TL3-1978-09-10-BRADFORD-NF
+    same_as: CONCERT-19780910-ROYAL-STANDARD-BRADFORD
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -238,6 +244,7 @@ chronology:
     statut: session consolidée
 
   - id: CHR-S41-TL3-1978-10-12-ROCK-AGAINST-RACISM
+    same_as: CONCERT-19781012-KELLYS-MANCHESTER
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -253,6 +260,7 @@ chronology:
     statut: contrepoint politique consolidé
 
   - id: CHR-S41-TL3-1978-10-20-FACTORY-CABARET-VOLTAIRE
+    same_as: CONCERT-19781020-RUSSELL-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -268,6 +276,7 @@ chronology:
     statut: consolidation Factory / poster
 
   - id: CHR-S41-TL3-1978-11-15-BRUNEL-SPITTING
+    same_as: CONCERT-19781115-BRUNEL-UNIVERSITY
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -282,6 +291,7 @@ chronology:
     statut: corroboration externe via fan Martin
 
   - id: CHR-S41-TL3-1978-11-19-BRISTOL-LOCARNO-EJECTION
+    same_as: CONCERT-19781119-LOCARNO-BRISTOL
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -295,6 +305,7 @@ chronology:
     statut: corroboration externe
 
   - id: CHR-S41-TL3-1978-11-20-CHECK-INN-ALTRINCHAM
+    same_as: CONCERT-19781120-CHECK-INN-ALTRINCHAM
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

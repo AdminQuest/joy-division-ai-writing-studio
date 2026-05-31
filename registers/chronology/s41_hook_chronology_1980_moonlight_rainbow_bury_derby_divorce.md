@@ -36,6 +36,7 @@ chronology:
     statut: réception industrielle rapportée par Hook
 
   - id: CHR-S41-1980-04-04-RAINBOW-THEATRE-STRANGLERS-FRIENDS
+    same_as: CONCERT-19800404-RAINBOW-THEATRE-LONDON
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -68,6 +69,7 @@ chronology:
     statut: événement médical à croiser avec S45 et autres témoignages
 
   - id: CHR-S41-1980-04-08-BURY-TOWN-HALL
+    same_as: CONCERT-19800408-DERBY-HALL-BURY
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -128,6 +130,7 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
+    same_as: CONCERT-19800419-AJANTA-THEATRE-DERBY
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

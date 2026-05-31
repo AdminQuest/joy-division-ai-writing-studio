@@ -60,6 +60,7 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+same_as: CONCERT-19771002-ELECTRIC-CIRCUS
 date_precision: jour
 categorie: concert_a_migrer
 source_id: S45

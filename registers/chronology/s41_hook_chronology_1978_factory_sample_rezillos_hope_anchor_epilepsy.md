@@ -37,6 +37,7 @@ chronology:
     statut: séquence discographique rapportée par Hook
 
   - id: CHR-S41-1978-10-24-LEEDS-FAN-CLUB-RIPPER-POLICE
+    same_as: CONCERT-19781024-FAN-CLUB-LEEDS
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -64,6 +65,7 @@ chronology:
     statut: tournée établie ; dates à croiser avec gig lists
 
   - id: CHR-S41-1978-11-BRUNEL-SPITTING
+    same_as: CONCERT-19781115-BRUNEL-UNIVERSITY
     date_precision: mois
     categorie: concert_a_migrer
     source_id: S41

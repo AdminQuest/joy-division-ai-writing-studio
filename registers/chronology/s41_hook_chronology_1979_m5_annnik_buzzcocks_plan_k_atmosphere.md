@@ -34,6 +34,7 @@ chronology:
     statut: événement biographique à croiser avec S45 et entretien En Attendant
 
   - id: CHR-S41-1979-08-22-EN-ATTENDANT-INTERVIEW
+    same_as: CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -118,6 +119,7 @@ chronology:
     statut: anecdote secondaire
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS
+    same_as: CONCERT-19791016-PLAN-K-BRUSSELS
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

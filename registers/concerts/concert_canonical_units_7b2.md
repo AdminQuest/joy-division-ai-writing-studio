@@ -139,3 +139,27 @@
     - JD-CONCERT-19800609-A01
 ```
 
+
+## Concerts hors joydiv (chronologie) — étape 7b-2
+
+```yaml
+- id: CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD
+  type_unite: concert
+  label: "Joy Division — Coach House, Huddersfield (1978-09-28)"
+  date: "1978-09-28"
+  date_precision: jour
+  lieu: PLACE-COACH-HOUSE-HUDDERSFIELD
+  statut: confirmé
+  membres_reconcilies:
+    - CHR-S41-1978-09-28-COACH-HOUSE-HUDDERSFIELD
+- id: CONCERT-19790417-ACKLAM-HALL-LONDON
+  type_unite: concert
+  label: "Joy Division — Acklam Hall, London (1979-04-17)"
+  date: "1979-04-17"
+  date_precision: jour
+  lieu: PLACE-ACKLAM-HALL-LONDON
+  statut: confirmé
+  membres_reconcilies:
+    - CHR-S76-1979-012
+```
+

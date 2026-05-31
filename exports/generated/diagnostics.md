@@ -1,12 +1,12 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-31T12:27:11`
+Généré le : `2026-05-31T12:34:06`
 
 Statut : **warning**
 
 ## Synthèse
 
-- Enregistrements : 7937
+- Enregistrements : 7939
 - Erreurs : 0
 - Avertissements : 30047
 - Sources déclarées dans `data/registre.json` : 95
@@ -21,7 +21,7 @@ Statut : **warning**
 - atom : 2752
 - chronology : 539
 - concept : 463
-- concert : 386
+- concert : 388
 - metadata : 274
 - motif : 427
 - myth : 102

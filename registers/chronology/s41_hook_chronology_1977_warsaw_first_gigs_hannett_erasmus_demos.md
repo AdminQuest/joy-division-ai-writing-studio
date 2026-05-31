@@ -19,6 +19,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-05-31-RAFTERS-HEARTBREAKERS
+    same_as: CONCERT-19770531-RAFTERS-MANCHESTER
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -33,6 +34,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-06-06-NEWCASTLE-SLEEPING-BAG
+    same_as: CONCERT-19770606-NEWCASTLE-GUILDHALL
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -75,6 +77,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-06-30-RAFTERS-FAST-BREEDER-HANNETT-ERASMUS
+    same_as: CONCERT-19770630-RAFTERS-MANCHESTER
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -150,6 +153,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-09-14-MIDDLESBROUGH-BOB-LAST
+    same_as: CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
@@ -180,6 +184,7 @@ chronology:
     statut: événement discographique établi
 
   - id: CHR-S41-1977-10-SALFORD-TECHNICAL-COLLEGE-HANNETT
+    same_as: CONCERT-19771007-SALFORD-TECHNICAL-COLLEGE
     date_precision: mois
     categorie: concert_a_migrer
     source_id: S41

@@ -77,6 +77,24 @@ def load_records():
     return records, canonicals
 
 
+def load_concert_ids():
+    """Identités canoniques CONCERT- (registre concerts) — cibles cross-registres
+    légitimes d'un `same_as` porté par une entrée chronologie concert (étape 7b-2)."""
+    ids = set()
+    cdir = CHRONO_DIR.parent / "concerts"
+    for f in glob.glob(str(cdir / "*.md")):
+        for blk in FENCE.findall(Path(f).read_text(encoding="utf-8")):
+            try:
+                d = yaml.safe_load(blk)
+            except Exception:
+                continue
+            items = d if isinstance(d, list) else [d]
+            for it in items:
+                if isinstance(it, dict) and str(it.get("id", "")).startswith("CONCERT-"):
+                    ids.add(str(it["id"]))
+    return ids
+
+
 def real_granularity(date_str):
     """Granularité réelle d'une chaîne de date -> rang PREC_RANK (jour/mois/annee)
     ou 'intervalle' / None (indéterminé : prose)."""
@@ -114,6 +132,7 @@ def validate():
     records, canon = load_records()
     diags = []
     canon_ids = set(canon)
+    concert_ids = load_concert_ids()
 
     # ---- Invariant 1 : same_as ------------------------------------------- #
     member_to_canon = defaultdict(list)  # member id -> [canonical ids declaring it]
@@ -135,6 +154,15 @@ def validate():
         sa = str(sa)
         if rid.startswith("EVENT-"):
             diags.append(Diag("error", "INV1-chain", rid, "un canonique ne doit pas porter de same_as (pas de chaîne)"))
+        # Cross-registres (étape 7b-2) : une entrée chronologie « concert » peut
+        # porter un same_as vers une identité CONCERT- (migration vers le registre
+        # concerts), pas seulement vers un EVENT-. On valide l'existence de la
+        # cible CONCERT- et on sort (les invariants membre/chaîne sont propres au
+        # graphe EVENT-).
+        if sa.startswith("CONCERT-"):
+            if sa not in concert_ids:
+                diags.append(Diag("error", "INV1-target-concert", rid, f"same_as cible un CONCERT- inexistant : {sa}"))
+            continue
         if sa not in canon_ids:
             diags.append(Diag("error", "INV1-target", rid, f"same_as cible un EVENT- inexistant : {sa}"))
         elif canon[sa].get("same_as"):

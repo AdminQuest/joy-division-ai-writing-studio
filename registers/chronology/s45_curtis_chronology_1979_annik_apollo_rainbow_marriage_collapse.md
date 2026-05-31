@@ -89,6 +89,7 @@ chronology:
     statut: événement à croiser avec Essner et archives françaises
 
   - id: CHR-S45-1979-12-31-FACTORY-NEW-YEAR
+    same_as: CONCERT-19791231-WAREHOUSE-PRESTON
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S45

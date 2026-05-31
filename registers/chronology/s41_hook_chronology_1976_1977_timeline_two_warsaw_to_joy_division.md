@@ -71,6 +71,7 @@ chronology:
     statut: souvenir Hook ; datation mensuelle
 
   - id: CHR-S41-TL2-1977-09-14-MIDDLESBROUGH-TAPE
+    same_as: CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH
     date_precision: jour
     categorie: concert_a_migrer
     source_id: S41

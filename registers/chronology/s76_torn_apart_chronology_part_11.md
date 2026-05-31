@@ -45,6 +45,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-012
+same_as: CONCERT-19790417-ACKLAM-HALL-LONDON
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -164,6 +165,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-015
+same_as: CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
@@ -245,6 +247,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-017
+same_as: CONCERT-19790908-QUEENS-HALL-LEEDS
 date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology

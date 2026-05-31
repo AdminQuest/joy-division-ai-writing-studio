@@ -7194,5 +7194,41 @@
         "JD-CONCERT-19800609-A01"
       ]
     }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Concerts hors joydiv (chronologie) — étape 7b-2",
+    "data": {
+      "id": "CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD",
+      "type_unite": "concert",
+      "label": "Joy Division — Coach House, Huddersfield (1978-09-28)",
+      "date": "1978-09-28",
+      "date_precision": "jour",
+      "lieu": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+      "statut": "confirmé",
+      "membres_reconcilies": [
+        "CHR-S41-1978-09-28-COACH-HOUSE-HUDDERSFIELD"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19790417-ACKLAM-HALL-LONDON",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Concerts hors joydiv (chronologie) — étape 7b-2",
+    "data": {
+      "id": "CONCERT-19790417-ACKLAM-HALL-LONDON",
+      "type_unite": "concert",
+      "label": "Joy Division — Acklam Hall, London (1979-04-17)",
+      "date": "1979-04-17",
+      "date_precision": "jour",
+      "lieu": "PLACE-ACKLAM-HALL-LONDON",
+      "statut": "confirmé",
+      "membres_reconcilies": [
+        "CHR-S76-1979-012"
+      ]
+    }
   }
 ]
