@@ -361,39 +361,39 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
-- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q094** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q095** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q096** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q097** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q121** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q122** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q123** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Curtis was unknown in his lifetime »
+- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « it was too incredible to comprehend that he would use such a public method to cry for help »
+- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the person closest to Ian Curtis heard the actual words »
+- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « dead fly dance »
+- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « youth is blind »
+- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « This is the crisis I knew had to come »
+- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Ian Curtis lost. »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He had a very happy life and there were many good times. »
+- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I just thought why get married at such a young age. »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he used to say that he’d die young »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « There was always, perhaps, a slight edge between Ian and Rob. »
+- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was very much a married man. »
+- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « escalating pressure from several different angles »
+- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The mood in the car on the return journey was miserable. »
+- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He definitely never had any fits when he was growing up. »
+- **S76-Q094** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « low seizure threshold »
+- **S76-Q095** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « When you were epileptic in the Seventies you were a mutant. »
+- **S76-Q096** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « epilepsy is a mood-changer »
+- **S76-Q097** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « either very brave of him or very foolish »
+- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I had never seen anything like it in my life. »
+- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « all but stopped talking to me »
+- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « public property »
+- **S76-Q121** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « there is no such thing as the truth or else there are several truths »
+- **S76-Q122** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « very platonic and very pure and romantic but also quite abstract »
+- **S76-Q123** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The very first time I heard it, it really moved me. »
+- **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « marriage, children, love, death and health »
+- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la session Cargo / Atmosphere / Dead Souls, à vérifier mot à mot »
+- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la portée funèbre ou solennelle de « Atmosphere », à vérifier mot à mot »
+- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur « Dead Souls » et la hantise historique, à vérifier mot à mot »
+- **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Sadly, this particular New Year’s Eve was to be Ian’s last. »
+- **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « useless and a waste of time »
+- **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Six wonderful days in Europe. Six days together all the time. »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la première session Pennine de « Love Will Tear Us Apart », à vérifier mot à mot »
 
 ## 8. Chronologie rattachée
 

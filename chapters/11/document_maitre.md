@@ -366,40 +366,40 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
-- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S88-Q003** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
-- **S88-Q004** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — «  »
-- **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
-- **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q010** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q011** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q012** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q002** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q003** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S57-Q006** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — «  »
-- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « Zero affect »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the end of pop »
+- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « King’s was a brutalising environment where you lost your first name »
+- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I don’t want people to believe that he was some kind of closet fascist because he wasn’t. »
+- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « there was a bit of shit flying around that we were Nazis. »
+- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was different, strangely focused. »
+- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la portée funèbre ou solennelle de « Atmosphere », à vérifier mot à mot »
+- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur « Dead Souls » et la hantise historique, à vérifier mot à mot »
+- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur Plan K, « The Eternal » et « Sister Ray », à vérifier mot à mot »
+- **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur « Atrocity Exhibition » comme ouverture anti-rock, à vérifier mot à mot »
+- **S88-Q003** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — « (non transcrit) »
+- **S88-Q004** — S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 — statut : `candidate` — « (non transcrit) »
+- **S31-Q001** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri pose la tension entre solitude de Curtis et communanza productive comme matrice de lecture. »
+- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri lie le choc punk, le No Future, Greil Marcus et Bifo à l’effondrement des horizons de la modernité. »
+- **S31-Q006** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri relie Joy Division à l’hantologie, aux spectres, à l’effacement du futur et à l’impossibilité de commencer un monde possible. »
+- **S49-Q001** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — « Farci formule le post-punk comme accélérateur de la déconstruction de l’idéal viril masculin. »
+- **S54-Q005** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi rapproche l’incipit de « Digital » de Naked Lunch par le motif de la chaleur qui se referme. »
+- **S54-Q006** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi rapproche « Day In Day Out » de The Job et de la logique binaire récurrente chez Burroughs. »
+- **S54-Q007** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi rappelle que l’Interzone burroughsienne est une ville-type modelée sur Tanger, zone internationale où la loi est suspendue. »
+- **S54-Q010** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi juge la présence de Ballard plus importante et plus évidente, notamment dans « Exercise One » et Crash. »
+- **S54-Q011** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi rapproche « Exercise One » de Crash par les cicatrices, la voiture, le corps et l’érotisme technologique. »
+- **S54-Q012** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi rapproche « Atrocity Exhibition » de Ballard pour la violence médiatisée, l’exposition du désastre et la spectacularisation de l’intime. »
+- **S54-Q013** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi propose une lecture de l’écriture de Curtis comme dystopie intérieure, où les pathologies sociales deviennent expériences subjectives. »
+- **S54-Q015** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi aide à lire Curtis comme écrivain d’images, de montage et de condensation, plutôt que comme auteur purement confessionnel. »
+- **S56-Q004** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — « Barone affirme que Curtis peut être lu comme écrivain déjà accompli, ses textes relevant de compositions poétiques dotées d’un style propre. »
+- **S56-Q006** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — « Barone lit la fréquence de I et You comme indice d’un dialogue intérieur et d’une distance de soi dans les textes de Curtis. »
+- **S56-Q007** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — « Barone mobilise la notion de mind style pour expliquer la reconnaissance immédiate de la voix écrite de Curtis. »
+- **S57-Q001** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani ouvre le chapitre par une scène de mémoire personnelle, où le retour vers Joy Division dit moins la nostalgie qu’une intensité perdue. »
+- **S57-Q002** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani formule le défi d’être encore ésotériques, porteurs d’une passion secrète qui ne peut pas commercer avec le monde. »
+- **S57-Q003** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani mobilise Blanchot pour penser l’expérience extrême, l’inavouable, la nuit et le dehors du discours conceptuel. »
+- **S57-Q004** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani oppose le cœur et la loi, puis projette cette opposition sur Heart and Soul comme expérience d’intensité non domestiquée. »
+- **S57-Q005** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani lit l’abandon du contrôle comme un seuil où la vie touche fugitivement sa perfection et où le corps advient dans le paroxysme. »
+- **S57-Q006** — S57 — Villani, Ti sfido a disperarti, 2021 — statut : `candidate` — « Villani conclut sur un défi au désespoir, conçu comme épreuve de pensée et fidélité à une intensité hors du monde ordinaire. »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Ilardi reprend Wozencroft : Joy Division aurait anticipé des paradigmes du digital — aliénation, solitude, corps, espace, paysages urbains. »
 
 ## 8. Chronologie rattachée
 

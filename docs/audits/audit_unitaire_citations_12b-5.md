@@ -565,8 +565,8 @@ la même logique (parité build ↔ validateur ↔ loader runtime) :
 | `id` | conservé (source + ordinal) | 962/962 |
 | `kind` | marqueur `quote` | 962/962 |
 | `source_id` | présent, sinon **recouvré depuis l'id** (`CIT-S65-001` → `S65`) | **962/962 (100 %)** |
-| `texte` | 1er champ de texte dispo ; sentinelle `« (non transcrit) »` pour les fiches-pointeur | 962/962 (dont **75** sentinelles) |
-| `type` | `verbatim` si champ verbatim présent, sinon `non_verbatim` | **706 / 256** |
+| `texte` | 1er champ de texte **chaîne** dispo (booléens ignorés) ; sentinelle `« (non transcrit) »` pour les fiches-pointeur | 962/962 (dont **82** sentinelles) |
+| `type` | `verbatim` si champ verbatim chaîne présent, sinon `non_verbatim` | **699 / 263** |
 | `page` | localisateur réel, sinon `« inconnue »` (pas de fabrication) | **909** réels / **53** `inconnue` |
 
 Préservation lossless : l'ancien `type` (descripteur de longueur :
@@ -609,3 +609,29 @@ Attribution (dénormaliser locuteur / rapporteur / auteur-source ; arête
 transcription du verbatim des **75** fiches-pointeur (`texte` aujourd'hui
 sentinellé) ; sourçage des **53** `page: inconnue`. **Aucune** de ces décisions
 n'est tranchée ici.
+
+### B.5. Parité du 4ᵉ consommateur — `build_master_docs.py`
+
+Correctif de parité (suite 8b-1). Le backbone fait de `texte` la **source unique**
+du corps de citation, mais `build_master_docs.py` lisait encore une liste de
+champs legacy en dur (`citation_originale || citation_directe ||
+traduction_editoriale_fr`). Pour les records normalisés vers `texte` depuis un
+autre champ (`passage`, `resume`, `usage_livre`, prose analytique…), les chapitres
+rendaient des **corps de citation vides** (`« »`). Le master-docs était le **4ᵉ
+consommateur** resté hors parité **build ↔ validateur ↔ loader**.
+
+Correctif : `quote_line` lit d'abord le `texte` canonique (repli legacy seulement
+pour un export non normalisé). Effet sur les 14 chapitres régénérés :
+
+| Mesure | Valeur |
+|---|---:|
+| Corps de citation **vides → rendus** | **413 → 0** (411 lignes de citation) |
+| dont **texte réel** recouvré | **394** |
+| dont sentinelle honnête `« (non transcrit) »` | **17** (≠ corps vide) |
+
+Robustesse : la résolution de texte ignore désormais les **booléens** — sept
+fiches `CIT-S83-*` utilisent `citation_directe: true|false` comme **drapeau**
+(et non comme corps) ; elles passent en `non_verbatim` et rendent la sentinelle
+(le verbatim « working into this space » vit dans le titre/prose, à extraire en
+8b-2). Split provisoire ajusté : **699 verbatim / 263 non_verbatim** ; **82**
+sentinelles. `build --strict errors=0`, 5 validateurs verts, sentinelle en phase.

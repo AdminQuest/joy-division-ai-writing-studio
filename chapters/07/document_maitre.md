@@ -351,23 +351,23 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
-- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
+- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « Recording has always had a spectral undercurrent »
+- **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « agency of the virtual »
+- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « slow cancellation of the future »
 - **S71-Q022** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was a match made in Hell. No other group could come close to sculpting nightmares so detailed or believable. »
-- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **CIT-S66-007** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **CIT-S66-008** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **CIT-S66-009** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **CIT-S66-010** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was always a leader of everything but in a very quiet way, not in a dominating way. »
+- **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He just used to bounce more than anyone else. »
+- **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Walking into Joy Division gigs was like attending church. »
+- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « Les notices MDMArchive peuvent documenter les contributeurs, images et scans de City Fun ; chaque citation doit être rattachée à l’item précis. »
+- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « Les légendes ou commentaires d’items peuvent montrer la matérialité du fanzine : graphisme, bricolage, ton et économie DIY. »
+- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — « Les auteurs présentent Unknown Pleasures Reimagined comme un projet collectif de dix vidéos pour dix chansons de Unknown Pleasures. »
+- **CIT-S66-007** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S66-008** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S66-009** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S66-010** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Mark Perry appelle les lecteurs de Sniffin’ Glue à créer leurs propres fanzines et à saturer le marché de l’écriture punk. »
+- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Jon Savage lit les fanzines comme complément littéraire et graphique à l’assaut musical et stylistique du punk. »
+- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Hebdige décrit les fanzines comme des documents d’urgence et d’immédiateté, des memos from the front line. »
 
 ## 8. Chronologie rattachée
 

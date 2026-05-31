@@ -384,8 +384,25 @@ QUOTE_LANG_NORMALISATION = {
 }
 
 def _quote_first_nonempty(data: Dict[str, Any], fields: Iterable[str]) -> Optional[Any]:
+    """1er champ de texte exploitable parmi `fields`.
+
+    Ne retient qu'un **texte** : ignore les booléens (certains records utilisent
+    `citation_directe: true|false` comme drapeau, pas comme corps) et les valeurs
+    vides ; pour une liste, retient le 1er élément chaîne non vide.
+    """
     for key in fields:
         value = data.get(key)
+        if isinstance(value, bool):
+            continue
+        if isinstance(value, str):
+            if value.strip():
+                return value
+            continue
+        if isinstance(value, list):
+            for item in value:
+                if isinstance(item, str) and item.strip():
+                    return item
+            continue
         if value not in (None, "", [], {}):
             return value
     return None

@@ -306,12 +306,12 @@ generated_at: "2026-05-30T22:42:05"
 - **S71-Q023** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « on Christmas Eve he photocopied Saville's cover designs and made his own sleeves with paper and glue, sliding the already-pressed discs in and delivering them himself to the homes of twenty musicians, including Ian Curti… »
 - **S71-Q024** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Each lot of ten thousand albums had to completely sell out before Factory could finance another pressing of Unknown Pleasures. With only ten thousand copies available at any given time, the public was unable to buy enoug… »
 - **S71-Q025** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was just going out to independent record stores. I used to deal with twenty-four different accounts. In those days, you went and acted as virtually your own distributor… At that level of work, you'll never get a chart… »
-- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Romania affirme que Joy Division joue dans le savoir expert musical un rôle méta-analytique et méta-esthétique de classification de phénomènes musicaux hétérogènes. »
+- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Romania définit la recension musicale comme un genre conciliant classement, évaluation technico-esthétique et lyrisation du texte. »
+- **S55-Q005** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Les recensions construisent Joy Division comme univers symbolique permettant de parler d’autres scènes, groupes et esthétiques. »
+- **S55-Q007** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Romania avance que Joy Division contribue à constituer une esthétique new-wave et post-punk depuis les années 1980. »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley présente City Fun comme cas majeur mancunien combinant humour irrévérencieux, gauche libertaire, RAR, CND, scène gay, Factory et Paul Morley. »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley conclut que les fanzines ouvrent un espace alternatif pour des jeunes éloignés des mécanismes politiques formels. »
 
 ## 8. Chronologie rattachée
 

@@ -374,40 +374,40 @@ generated_at: "2026-05-30T22:42:05"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
-- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « slow cancellation of the future »
+- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « the story of a city »
+- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « threatens to destroy everything »
+- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « urbanization of consciousness »
+- **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « dirty old town »
+- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « spatial practice is lived »
 - **S71-Q021** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « The ravaging by Hitler's bombers and post-war foreign competition sped Manchester's deterioration. Once the greatest city of the Industrial Revolution, by the 1950's many proud factories were simply shut down and abandon… »
-- **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q003** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **CIT-S66-004** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **CIT-S66-005** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **CIT-S66-006** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
-- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — «  »
-- **CIT-S83-002** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
-- **CIT-S83-006** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
-- **CIT-S83-007** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
-- **S85-Q001** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S85-Q002** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **S85-Q008** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
-- **CIT-S86-001** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
-- **CIT-S86-002** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
-- **CIT-S86-004** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
+- **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « people blessed with all sorts of talents mingled »
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the perfect venue for the stark industrial side of post-punk »
+- **S31-Q002** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri lie le choc punk, le No Future, Greil Marcus et Bifo à l’effondrement des horizons de la modernité. »
+- **S31-Q003** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri décrit les caves, clubs, locaux et villes comme plateformes opératives pour une jeunesse refusant la sous-occupation et la précarité. »
+- **S53-Q001** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca ouvre son chapitre sur l’idée d’un slancio vitale britannique, traversé par la vague punk, new wave et par un bain émotionnel de mythes et symboles. »
+- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca présente Manchester comme un épicentre de créativité, de sons, de styles de vie et de contre-culture. »
+- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca relie les industries, les usines et les périphéries désaffectées à un processus créatif venu des strates urbaines. »
+- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca rappelle le concert des Sex Pistols du 4 juin 1976 comme scène d’effervescence mancunienne et point de cristallisation mythique. »
+- **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Ilardi compare Manchester et Detroit comme villes post-industrielles où la musique devient instrument d’identité et d’expression dans le vide social. »
+- **CIT-S66-004** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S66-005** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S66-006** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley caractérise le contexte des années 1970 par crise économique, désindustrialisation, National Front, CND, chômage et Thatcherisme. »
+- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Nevarez pose d’emblée que Joy Division est aujourd’hui perçu comme un groupe qui sonne comme le Manchester d’une époque déterminée. »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Liz Naylor décrit Unknown Pleasures comme une musique ambiante de son environnement, où Joy Division relaie l’aura du Manchester de l’époque. »
+- **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Nevarez souligne que McCready ne prouve pas l’intérêt direct de Joy Division pour le situationnisme, malgré les références Factory. »
+- **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Savage associe Unknown Pleasures aux dark spaces and empty places de Manchester, tout en signalant que cela pourrait être ailleurs. »
+- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **CIT-S83-002** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **CIT-S83-006** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **CIT-S83-007** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **S85-Q001** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — « We like to keep people informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting sound we have come across in the last six months. »
+- **S85-Q002** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — « Without Ian Curtis there would have been no Hacienda and without the Hacienda there would have been no Rave scene. The whole indie music merging with dance, the fashion, everything: it came from the Hacienda. »
+- **S85-Q008** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — « On seeing Joy Division live for the first time he saw a band that had to be there, not because they wanted to be in a band and put records out but because they had no other way of expressing their suppressed creativity i… »
+- **CIT-S86-001** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — « In the winter of 1978, Britain saw the beginning of mass strikes, lasting well into 1979, presaging the arrival of Margaret Thatcher's free market authoritarian regime. Bodies remained unburied, rubbish uncollected, and … »
+- **CIT-S86-002** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — « Was it not noticeable at the end of the war that men returned from the battlefield grown silent – not richer, but poorer in communicable experience? What ten years later was poured out in the flood of war books was anyth… »
+- **CIT-S86-004** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — « You're an investment . . . They've got money to make. That's the way capitalist society works. Fortunately, we were insulated from that and were allowed to develop in our own daft little way. Which was a very good thing … »
 
 ## 8. Chronologie rattachée
 

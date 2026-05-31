@@ -411,28 +411,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S47-Q013** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Joy Division have become a cult. »
 - **S47-Q014** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the music may be lost in the myth. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
-- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q005** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « Recording has always had a spectral undercurrent »
+- **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « agency of the virtual »
+- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « slow cancellation of the future »
+- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « Zero affect »
+- **S29-Q005** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « places that no longer exist »
+- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « the story of a city »
 - **S71-Q027** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « The scarcity of available footage of the band increased the group's aura of mystery, and would prove a real disappointment for future generations of fans who never got to see Joy Division in person. »
 - **S71-Q030** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Bad news, lads. Ian Curtis of Joy Division has died. »
 - **S71-Q031** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « I'm proud of Joy Division. Joy Division were a very rocky (i.e. powerful) rock band. They were absolutely brilliant, and I'm proud of the whole thing they achieved, but I'm a bit disappointed that we didn't achieve what … »
 - **S71-Q032** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « We just wanted to take it easy. To work out what we were going to do. »
-- **S75-Q001** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S75-Q001** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the history at hand has been retroactively filled with so much misdirection, exaggeration, and marginal journalism »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Curtis was unknown in his lifetime »
+- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Approximately 42 people were at the Pistols' first Manchester Free Trade Hall gig, though thousands would later claim attendance. »
+- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Hannett was OK—we were a bit in awe of him—but he didn’t write the songs. »
+- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « The musicians own everything, the company owns nothing. »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « mass-produced secret »
+- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Martin had coloured it in for us. »
+- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « youth is blind »
+- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Ian Curtis lost. »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He had a very happy life and there were many good times. »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I never heard him express a political view in his life. »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he never showed any interest in Germany apart from a historic point of view »
 
 ## 8. Chronologie rattachée
 

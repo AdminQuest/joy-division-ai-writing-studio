@@ -368,36 +368,36 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S46-Q004** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « designed, as opposed to decorated »
 - **S47-Q006** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « The contract was simply that all profits would be split fifty-fifty between Factory and the band. »
 - **S47-Q007** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « Factory and Joy Division are contenders. »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q033** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q034** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q035** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q037** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
-- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q048** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q049** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q050** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q056** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I never heard him express a political view in his life. »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he never showed any interest in Germany apart from a historic point of view »
+- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian really wanted something darker than Stiff Kittens »
+- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The band sounded shit but he looked special. »
+- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « there would have been no Factory Records, without Factory there would have been no Haçienda »
+- **S76-Q033** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « A weird bit of history nearly got made there. »
+- **S76-Q034** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « So to immediately distance themselves from this record they changed their name. »
+- **S76-Q035** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I really think Ian thought of the name »
+- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I don’t want people to believe that he was some kind of closet fascist because he wasn’t. »
+- **S76-Q037** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He’s actually the singer with the band. »
+- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « there was a bit of shit flying around that we were Nazis. »
+- **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « They were nervous of having an association with us and you can understand why. »
+- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It does seem a stupid thing to do »
+- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « negative, negative energy »
+- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I’m going to manage that group, they are the big break I’ve been looking for »
+- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — « phrase insultante de Wilson rapportée page 92, à vérifier mot à mot avant citation »
+- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Nobody could have been aware, at that point, just how good Joy Division were about to become. »
+- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « There I was, working in a city that was just bursting with talent and potential »
+- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian told me that he didn’t really want to be on an independent label. »
+- **S76-Q048** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The RCA thing was entirely Ian. »
+- **S76-Q049** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Were Joy Division about to be signed to RCA? Not Quite. But it seemed close enough… almost. »
+- **S76-Q050** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « We could instigate and oversee the recordings and move the band on. »
+- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Four songs would have been enough »
+- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I just knew he had gone. »
+- **S76-Q056** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian could say, ‘Oh, I have recorded an album’. »
+- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was a shadowy figure, to say the least »
+- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was a shadowy figure »
+- **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Mostly we just wanted him to play our record »
+- **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he just said yes and then fucking forgot »
+- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was visibly freaked by the intrusion »
 
 ## 8. Chronologie rattachée
 

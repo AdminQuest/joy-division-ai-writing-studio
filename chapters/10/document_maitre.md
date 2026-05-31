@@ -361,45 +361,45 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 ## 7. Citations disponibles
 
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
-- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q164** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — «  »
-- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S56-Q001** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — «  »
-- **S58-Q002** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « mass-produced secret »
+- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a marriage in monochrome »
+- **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « gave the club an image »
+- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « grey would rise to the fore »
+- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the enduring image of Joy Division »
+- **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Nobody was publishing in colour »
+- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Had the walls not been painted black »
+- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « A two-sided journey. »
+- **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Peter Saville’s iconography replaced them ever having to do interviews. »
+- **S76-Q113** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I contradicted the band’s instructions »
+- **S76-Q114** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It should have been fucking white »
+- **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the impersonality of their communication »
+- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the sound of the album isn’t dated, but style-wise it has »
+- **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a stunning lack of anything approaching contrasting humour »
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur Sordide Sentimental / Licht und Blindheit comme objet européen, à vérifier mot à mot »
+- **S76-Q164** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur Staglieno, Bernard Pierre Wolff, Atkins et Saville, à vérifier mot à mot »
+- **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « You’re going to write the book on Joy Division »
+- **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur le visuel *Unknown Pleasures* devenu marchandise, à vérifier mot à mot »
+- **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur *Control* et la fixation de l’image de Curtis, à vérifier mot à mot »
+- **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — « Les auteurs présentent Unknown Pleasures Reimagined comme un projet collectif de dix vidéos pour dix chansons de Unknown Pleasures. »
+- **S50-Q002** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — « Orian Williams formule l’intention de ne pas reproduire l’esthétique historique de Joy Division, mais de guider les émotions suscitées par les morceaux vers des images en mouvement. »
+- **S50-Q003** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — « Les auteurs définissent l’imaginaire collectif comme un flux mimétique et connectif construit sur des récits et des images. »
+- **S51-Q001** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — « Malvezzi rapporte la découverte fortuite par Mark Leckey, sur YouTube, d’un film amateur du concert de Joy Division à Eric’s Liverpool auquel il avait assisté. »
+- **S51-Q003** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — « Malvezzi reprend Hito Steyerl pour définir les images pauvres comme des images qui perdent en consistance mais gagnent en vitesse de circulation. »
+- **S52-Q001** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — « Rabbito ouvre son texte sur un « erreur de jugement » concernant Control, lié à la fascination du film et à sa capacité à masquer ses défauts. »
+- **S52-Q002** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — « Rabbito reconnaît les raisons de la séduction du film : tragédie Joy Division, autorité de Corbijn, premier film consacré au groupe, musique, photographie et acteurs. »
+- **S52-Q003** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — « Rabbito formule le défaut central de Control : le film reste à la surface de la représentation biographique de Ian Curtis. »
+- **S52-Q004** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — « Rabbito emploie la métaphore de la surface de verre qu’il faut briser pour dépasser les faits de chronique et de vie privée les plus connus. »
+- **S53-Q006** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca développe l’idée de poppizzazione : la massification de l’image ne supprime pas nécessairement sa valeur, mais peut la transformer. »
+- **S53-Q007** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca propose une anthropologie de la nostalgie pop autour de Joy Division et de la prolifération des images. »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca mobilise 24 Hour Party People et Control pour penser l’ambiance visuelle, la mélancolie et la mémoire de Manchester. »
+- **S53-Q015** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca conclut sur le fantôme Joy Division, encore actif dans les panoramas médiatiques par une mémoire impulsive, viscérale, dark, tragique et mélancolique. »
+- **S54-Q001** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi ouvre le chapitre par la scène du Plan K, où Burroughs répond brutalement à Curtis avant une conversation confuse autour de Suicide et du suicide. »
+- **S54-Q003** — S54 — Gnocchi, Interzona. Burroughs e Ballard nei testi di Ian Curtis, 2021 — statut : `candidate` — « Gnocchi insiste sur le fait que la nuit du Plan K devient mémorable pour Curtis : photos iconiques, rencontre avec Burroughs et montée du lien avec Annik Honoré. »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « La recherche est conduite sur Ondarock entre 2000 et 2016, avec 529 pages et 1362 records contenant des références directes ou indirectes à Joy Division ou aux membres du groupe. »
+- **S56-Q001** — S56 — Barone, Directionless so plain to see, 2021 — statut : `candidate` — « Barone critique le déplacement du titre de Savage dans l’édition italienne, qui remplace une formule lumineuse par un titre plus générique et biographique. »
+- **S58-Q002** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Hook décrit l’Haçienda comme une fête idéale plutôt que comme une entreprise, révélant la contradiction économique de Factory. »
+- **S58-Q004** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Hook rapproche acid house et punk par DIY, liberté d’expression et technologie accessible, tout en opposant agressivité punk et inclusivité acid. »
+- **S58-Q007** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Ilardi reprend Wozencroft : Joy Division aurait anticipé des paradigmes du digital — aliénation, solitude, corps, espace, paysages urbains. »
 
 ## 8. Chronologie rattachée
 

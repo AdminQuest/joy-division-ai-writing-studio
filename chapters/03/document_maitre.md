@@ -371,39 +371,39 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S47-Q001** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « This band is busy doing the groundwork for the music of the eighties. »
 - **S47-Q004** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « It took The Doors just over a year to follow up a remarkable LP with their masterpiece Strange Days; Joy Division have done the same. »
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
-- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **CIT-S65-001** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — «  »
-- **CIT-S65-002** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — «  »
-- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
-- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — «  »
-- **CIT-S83-003** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
-- **CIT-S83-004** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
+- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « urbanization of consciousness »
+- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « in its own space »
+- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « spatial practice is lived »
+- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « The second track on An Ideal For Living is really the beginning of Joy Division proper. »
+- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « They just can't play. »
+- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Hannett was OK—we were a bit in awe of him—but he didn’t write the songs. »
+- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Nobody else would. »
+- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Martin had coloured it in for us. »
+- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « All he wanted to do was experiment »
+- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « he taught us to look at music »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « He was a catalyst for the rest of us. »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the end of pop »
+- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian started throwing the mike stands around the stage and trashed the drum kit »
+- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was digital, it was heaven sent »
+- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian, stock still and central »
+- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « to stay with Hannett or go with Rushent? »
+- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « things do emerge, they can become original from unexpected sources and surroundings »
+- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a special closeness between Ian and Martin »
+- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la session Cargo / Atmosphere / Dead Souls, à vérifier mot à mot »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur la première session Pennine de « Love Will Tear Us Apart », à vérifier mot à mot »
+- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the emotion in the delivery »
+- **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Breaking with the tradition of recording in or around Manchester »
+- **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 ou Hook sur la frustration liée au mix de *Closer*, à vérifier mot à mot »
+- **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca convoque Schopenhauer et Nietzsche pour penser la musique comme accès à une réalité profonde et comme puissance expressive. »
+- **CIT-S65-001** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **CIT-S65-002** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — « (non transcrit) »
+- **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Nevarez pose d’emblée que Joy Division est aujourd’hui perçu comme un groupe qui sonne comme le Manchester d’une époque déterminée. »
+- **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Liz Naylor décrit Unknown Pleasures comme une musique ambiante de son environnement, où Joy Division relaie l’aura du Manchester de l’époque. »
+- **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Paul Morley décrit Joy Division comme une interprétation presque science-fictionnelle de Manchester, mêlant landscape, mindscape et soundscape. »
+- **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — « Nevarez formule les trois limites du récit urbain : auteur, réception et rétrospection. »
+- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **CIT-S83-003** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
+- **CIT-S83-004** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « (non transcrit) »
 
 ## 8. Chronologie rattachée
 
