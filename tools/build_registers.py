@@ -422,9 +422,29 @@ def _quote_has_real_page(data: Dict[str, Any]) -> bool:
 
 # --- 8b-2 : dénormalisation de l'attribution (rôles texte ; arête PERSON- = étape 9) ---
 QUOTE_ATTR_RAW_FIELDS = ("auteur", "source_auteur")
+# Chaîne d'attribution « X (cité·e / rapporté·e / mobilisé·e par|dans Y) » —
+# incl. forme parenthétique. X = témoin (locuteur), Y = rapporteur.
 _QUOTE_CHAIN_RE = re.compile(
-    r"^(?P<x>.+?)\s*[,;(]?\s+(?:cit[ée]e?s?|mobilis[ée]e?s?|repris[e]?|évoqu[ée]e?)\s+"
-    r"(?:par|dans|via)?\s*(?P<y>.+?)\s*$",
+    r"^[(\[]?\s*(?P<x>.+?)\s*[,;]?\s*[(\[]?\s*"
+    r"(?:cit[ée]e?s?|rapport[ée]e?s?|mobilis[ée]e?s?|repris[e]?|évoqu[ée]e?s?)\s+"
+    r"(?:par|dans|via)\s+"
+    r"(?P<y>.+?)\s*[)\].]?\s*$",
+    re.IGNORECASE,
+)
+# Marqueurs de chaîne NON parsables par le parseur ci-dessus (formes mixtes
+# « d'après », « selon », « / »…) : à FLAGGER plutôt qu'à deviner ou rabattre
+# par défaut sur la narration.
+_QUOTE_CHAIN_MARKER_RE = re.compile(
+    r"cit[ée]|rapport[ée]|mobilis[ée]|repris|évoqu[ée]|d[’']apr[èe]s|selon|/| via ",
+    re.IGNORECASE,
+)
+# « X dans l'entretien / le documentaire Y » (sans verbe de citation) : X est le
+# témoin (locuteur), le reste est le contexte/rapporteur — à dégager du locuteur.
+_QUOTE_CONTEXT_RE = re.compile(r"^(?P<x>.+?)\s+dans\s+(?:l['’]|le |la |les )(?P<y>.+)$", re.IGNORECASE)
+# Forme participe « X rapportant / citant Y » : rôles INVERSES — Y est le témoin
+# (locuteur), X le rapporteur.
+_QUOTE_REPORTING_RE = re.compile(
+    r"^(?P<reporter>.+?)\s+(?:rapport[ae]nt|citant|évoquant)\s+(?P<x>.+?)\s*$",
     re.IGNORECASE,
 )
 
@@ -470,16 +490,36 @@ def _derive_quote_attribution(data: Dict[str, Any]) -> bool:
         locuteur = clean(data["auteur_cite"]); named = True
     elif raw:
         match = _QUOTE_CHAIN_RE.match(raw)
+        reporting = _QUOTE_REPORTING_RE.match(raw) if not match else None
         if match:
+            # « X cité / rapporté par Y » → locuteur = X (témoin), rapporteur = Y.
             locuteur = clean(match.group("x")); named = True
             rapporteur = rapporteur or clean(match.group("y"))
-        elif _quote_tokens(raw) & _quote_tokens(source_author):
-            # Narration : l'auteur de la source rapporte (pas de témoin distinct).
-            locuteur = source_author or "anonyme"
+        elif reporting:
+            # « X rapportant Y » → locuteur = Y (témoin), rapporteur = X.
+            locuteur = clean(reporting.group("x")); named = True
+            rapporteur = rapporteur or clean(reporting.group("reporter"))
+        elif _QUOTE_CHAIN_MARKER_RE.search(raw):
+            # Forme mixte non parsable (« A d'après B », « A / B selon… ») : ne
+            # PAS rabattre sur la narration — flagger pour arbitrage manuel.
+            locuteur = "anonyme"
+            data["attribution_a_arbitrer"] = True
+        elif source_author and not (_quote_tokens(raw) - _quote_tokens(source_author)):
+            # Narration STRICTE : une fois toute clause « cité/rapporté par »
+            # écartée, le raw EST l'auteur de la source seul (aucun jeton-nom
+            # distinct ne subsiste) → pas de témoin distinct.
+            locuteur = source_author
         else:
-            locuteur = raw; named = True
-            if re.search(r"\bet\b|;|&|,| dans | du ", raw):
-                data["attribution_a_arbitrer"] = True  # multi-noms / forme ambiguë
+            context = _QUOTE_CONTEXT_RE.match(raw)
+            if context:
+                # « X dans l'entretien Y » : témoin X dégagé, contexte → rapporteur.
+                locuteur = clean(context.group("x")); named = True
+                rapporteur = rapporteur or clean(context.group("y"))
+                data["attribution_a_arbitrer"] = True
+            else:
+                locuteur = raw; named = True
+                if re.search(r"\bet\b|;|&|,| du | de l", raw):
+                    data["attribution_a_arbitrer"] = True  # multi-noms / forme ambiguë
     if locuteur is None:
         locuteur = "anonyme"
 

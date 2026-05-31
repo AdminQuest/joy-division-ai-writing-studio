@@ -653,18 +653,29 @@ Le champ d'attribution conflé est éclaté en trois rôles distincts :
 | Rôle | Définition | Couverture |
 |---|---|---:|
 | `auteur_source` | qui a **consigné** la citation (auteur du livre/article ; du registre des sources) | **962 / 962 (100 %)** |
-| `locuteur` | qui a **énoncé** : témoin nommé, ou `« anonyme »` | 962/962 — **363 nommés** / **599 anonymes** |
-| `rapporteur` | intermédiaire « cité par » (chaîne X cité par Y) ou `via` | **34** |
+| `locuteur` | qui a **énoncé** : témoin nommé, ou `« anonyme »` | 962/962 — **355 nommés** / **607 anonymes** |
+| `rapporteur` | intermédiaire « cité/rapporté par » ou `via` | **45** |
 | `auteur_origine` | valeur legacy brute préservée (lossless) | — |
 
 Règles d'exécution (nettes) : `locuteur`/`auteur_cite` explicites → locuteur ;
-chaîne « X cité/mobilisé/repris par Y » → locuteur=X, rapporteur=Y ; `auteur`
-nommé **≠** auteur de la source → locuteur (témoin) ; `auteur` **⊆** auteur de la
-source → **narration** (locuteur = auteur de la source) ; aucune attribution →
-`« anonyme »`. **`auteur_source` universel** depuis le registre des sources.
-**Flag** `attribution_a_arbitrer` : **1** (`S76-Q116`, « Ian Curtis dans
-l'entretien McCullough » — forme mêlant locuteur + contexte). Arête `PERSON-`
-**différée à l'étape 9** ; seuls les rôles texte sont posés ici.
+chaîne « X cité/rapporté/mobilisé par (Y) » — **y compris forme parenthétique** —
+→ locuteur=X, rapporteur=Y ; forme participe « X rapportant Y » → locuteur=Y,
+rapporteur=X ; `auteur` nommé **≠** auteur de la source → locuteur (témoin) ;
+`auteur` **= auteur de la source seul** (narration **stricte**, après retrait de
+toute clause « cité/rapporté par ») → locuteur = auteur de la source ; aucune
+attribution → `« anonyme »`. **`auteur_source` universel** depuis le registre des
+sources.
+
+> **Correctif de parité (suite #44)** — un test de narration trop gourmand
+> (recouvrement de jetons) écrasait le vrai témoin des formes mixtes vers
+> l'auteur de la source. Resserré : **7** records corrigés `narration → témoin
+> réel` (ex. `S90-Q002` Mark Fisher → **Deborah Curtis** ; `S75-Q008` Chris Ott →
+> **Tony Wilson** ; `S76-Q120` → **Deborah Curtis**, rapporteur Middles & Reade) ;
+> rapporteur **34 → 45**. Les **9** formes réellement non parsables (« A / B »,
+> « A d'après B », « A / témoins croisés ») sont **flaggées**
+> `attribution_a_arbitrer` (locuteur `anonyme`) plutôt que faussement attribuées —
+> d'où **355 nommés** (vs 363, désormais sans mésattribution à l'auteur-source).
+> Arête `PERSON-` **différée à l'étape 9**.
 
 ### C.2. Split des `non_verbatim` → paraphrase / concept
 
