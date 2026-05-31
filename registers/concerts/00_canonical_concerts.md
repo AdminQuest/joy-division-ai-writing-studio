@@ -60,6 +60,7 @@
   notes: ""
 
 - id: JD-CONCERT-19770606-001
+  same_as: CONCERT-19770606-NEWCASTLE-GUILDHALL
   date: 1977-06-06
   statut: confirme
   lieu: "Guild Hall"
@@ -107,6 +108,7 @@
   notes: ""
 
 - id: JD-CONCERT-19770720-001
+  same_as: CONCERT-19770720-TIFFANYS-LEICESTER
   date: 1977-07-20
   statut: confirme
   lieu: "Tiffany's"
@@ -188,6 +190,7 @@
   notes: ""
 
 - id: JD-CONCERT-19771008-001
+  same_as: CONCERT-19771008-MANCHESTER-POLYTECHNIC
   date: 1977-10-08
   statut: confirme
   lieu: "Manchester Polytechnic"
@@ -289,6 +292,7 @@
   notes: "Stiff/Chiswick Challenge ; rencontre Rob Gretton et Tony Wilson."
 
 - id: JD-CONCERT-19780407-001
+  same_as: CONCERT-19780407-GOOD-MOOD-HALIFAX
   date: 1978-04-07
   statut: confirme
   lieu: "Good Mood"
@@ -491,6 +495,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781002-001
+  same_as: CONCERT-19781002-BOLTON-INSTITUTE-OF-TECHNOLOGY
   date: 1978-10-02
   statut: confirme
   lieu: "Institute of Technology"
@@ -586,6 +591,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781114-001
+  same_as: CONCERT-19781114-ODEON-CANTERBURY
   date: 1978-11-14
   statut: confirme
   lieu: "The Odeon"
@@ -621,6 +627,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781126-001
+  same_as: CONCERT-19781126-THE-VENUE-MANCHESTER
   date: 1978-11-26
   statut: confirme
   lieu: "The Venue"
@@ -644,6 +651,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781222-001
+  same_as: CONCERT-19781222-REVOLUTION-CLUB-YORK
   date: 1978-12-22
   statut: confirme
   lieu: "Revolution Club"
@@ -671,6 +679,7 @@
 
 ```yaml
 - id: JD-CONCERT-19781115-A01
+  same_as: CONCERT-19781115-TOP-RANK-READING
   date: 1978-11-15
   statut: annule
   lieu: "Top Rank"
@@ -681,6 +690,7 @@
   notes: "Remplacé par Brunel University Uxbridge."
 
 - id: JD-CONCERT-19781116-A01
+  same_as: CONCERT-19781116-METRO-PLYMOUTH
   date: 1978-11-16
   statut: annule
   lieu: "Metro"
@@ -691,6 +701,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781117-A01
+  same_as: CONCERT-19781117-CARDIFF-UNIVERSITY
   date: 1978-11-17
   statut: annule
   lieu: "Cardiff University"
@@ -701,6 +712,7 @@
   notes: "Pays de Galles."
 
 - id: JD-CONCERT-19781118-A01
+  same_as: CONCERT-19781118-SOUTHAMPTON-UNIVERSITY
   date: 1978-11-18
   statut: annule
   lieu: "Southampton University"
@@ -722,6 +734,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781121-A01
+  same_as: CONCERT-19781121-KING-GEORGES-HALL-BLACKBURN
   date: 1978-11-21
   statut: annule
   lieu: "King Georges Hall"
@@ -732,6 +745,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781122-A01
+  same_as: CONCERT-19781122-SHEFFIELD-POLYTECHNIC
   date: 1978-11-22
   statut: annule
   lieu: "Sheffield Polytechnic"
@@ -742,6 +756,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781124-A01
+  same_as: CONCERT-19781124-LANCASTER-UNIVERSITY
   date: 1978-11-24
   statut: annule
   lieu: "Lancaster University"
@@ -752,6 +767,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781125-A01
+  same_as: CONCERT-19781125-BRADFORD-UNIVERSITY
   date: 1978-11-25
   statut: annule
   lieu: "Bradford University"
@@ -762,6 +778,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781126-A01
+  same_as: CONCERT-19781126-COATHAM-BOWL-REDCAR
   date: 1978-11-26
   statut: annule
   lieu: "Coatham Bowl"
@@ -772,6 +789,7 @@
   notes: ""
 
 - id: JD-CONCERT-19781127-A01
+  same_as: CONCERT-19781127-ST-ANDREWS-UNIVERSITY
   date: 1978-11-27
   statut: annule
   lieu: "St Andrews University"
@@ -788,6 +806,7 @@
 
 ```yaml
 - id: JD-CONCERT-19790112-001
+  same_as: CONCERT-19790112-WYTHENSHAWE-COLLEGE
   date: 1979-01-12
   statut: confirme
   lieu: "Wythenshawe College"
@@ -811,6 +830,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790210-001
+  same_as: CONCERT-19790210-BOLTON-INSTITUTE-OF-TECHNOLOGY
   date: 1979-02-10
   statut: confirme
   lieu: "Institute of Technology"
@@ -834,6 +854,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790228-001
+  same_as: CONCERT-19790228-PLAYHOUSE-THEATRE-NOTTINGHAM
   date: 1979-02-28
   statut: confirme
   lieu: "Playhouse Theatre"
@@ -893,6 +914,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790317-001
+  same_as: CONCERT-19790317-UNIVERSITY-OF-KENT
   date: 1979-03-17
   statut: confirme
   lieu: "University of Kent"
@@ -916,6 +938,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790406-001
+  same_as: CONCERT-19790406-ACTIONSPACE-LONDON
   date: 1979-04-06
   statut: confirme
   lieu: "Actionspace"
@@ -999,6 +1022,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790616-001
+  same_as: CONCERT-19790616-ODEON-CANTERBURY
   date: 1979-06-16
   statut: confirme
   lieu: "The Odeon"
@@ -1010,6 +1034,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790617-001
+  same_as: CONCERT-19790617-ROYALTY-THEATRE-LONDON
   date: 1979-06-17
   statut: confirme
   lieu: "Royalty Theatre"
@@ -1021,6 +1046,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790619-001
+  same_as: CONCERT-19790619-LANCASTER-UNIVERSITY
   date: 1979-06-19
   statut: confirme
   lieu: "Lancaster University"
@@ -1032,6 +1058,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790622-001
+  same_as: CONCERT-19790622-GOOD-MOOD-HALIFAX
   date: 1979-06-22
   statut: confirme
   lieu: "Good Mood"
@@ -1043,6 +1070,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790625-001
+  same_as: CONCERT-19790625-FREE-TRADE-HALL
   date: 1979-06-25
   statut: confirme
   lieu: "Free Trade Hall"
@@ -1054,6 +1082,7 @@
   notes: "Stuff the Superstars Special."
 
 - id: JD-CONCERT-19790626-001
+  same_as: CONCERT-19790626-NEWCASTLE-GUILDHALL
   date: 1979-06-26
   statut: confirme
   lieu: "Guildhall"
@@ -1089,6 +1118,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790703-001
+  same_as: CONCERT-19790703-FREE-TRADE-HALL
   date: 1979-07-03
   statut: confirme
   lieu: "Free Trade Hall"
@@ -1100,6 +1130,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790705-001
+  same_as: CONCERT-19790705-LIMIT-CLUB-SHEFFIELD
   date: 1979-07-05
   statut: confirme
   lieu: "Limit Club"
@@ -1146,6 +1177,7 @@
   notes: "Captation TV."
 
 - id: JD-CONCERT-19790727-001
+  same_as: CONCERT-19790727-IMPERIAL-HOTEL-BLACKPOOL
   date: 1979-07-27
   statut: confirme
   lieu: "Imperial Hotel"
@@ -1181,6 +1213,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790808-001
+  same_as: CONCERT-19790808-ROMULUS-CLUB-BIRMINGHAM
   date: 1979-08-08
   statut: confirme
   lieu: "Romulus Club"
@@ -1228,6 +1261,7 @@
   notes: ""
 
 - id: JD-CONCERT-19790827-001
+  same_as: CONCERT-19790827-LEIGH-FESTIVAL
   date: 1979-08-27
   statut: confirme
   lieu: "Open Air Festival"
@@ -1326,6 +1360,7 @@
 
 ```yaml
 - id: JD-CONCERT-19791002-001
+  same_as: CONCERT-19791002-MOUNTFORD-HALL-LIVERPOOL
   date: 1979-10-02
   statut: confirme
   lieu: "Mountford Hall"
@@ -1351,6 +1386,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791004-001
+  same_as: CONCERT-19791004-NEWCASTLE-CITY-HALL
   date: 1979-10-04
   statut: confirme
   lieu: "City Hall"
@@ -1376,6 +1412,7 @@
   notes: "Écosse."
 
 - id: JD-CONCERT-19791006-001
+  same_as: CONCERT-19791006-ODEON-EDINBURGH
   date: 1979-10-06
   statut: confirme
   lieu: "Odeon"
@@ -1388,6 +1425,7 @@
   notes: "Écosse."
 
 - id: JD-CONCERT-19791007-001
+  same_as: CONCERT-19791007-CAPITOL-ABERDEEN
   date: 1979-10-07
   statut: confirme
   lieu: "Capitol"
@@ -1425,6 +1463,7 @@
   notes: "Premier concert hors UK. Rencontre Annik Honoré. Soirée avec William Burroughs."
 
 - id: JD-CONCERT-19791018-001
+  same_as: CONCERT-19791018-BANGOR-UNIVERSITY
   date: 1979-10-18
   statut: confirme
   lieu: "Bangor University"
@@ -1437,6 +1476,7 @@
   notes: "Pays de Galles."
 
 - id: JD-CONCERT-19791020-001
+  same_as: CONCERT-19791020-LOUGHBOROUGH-UNIVERSITY
   date: 1979-10-20
   statut: confirme
   lieu: "Loughborough University"
@@ -1449,6 +1489,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791021-001
+  same_as: CONCERT-19791021-TOP-RANK-SHEFFIELD
   date: 1979-10-21
   statut: confirme
   lieu: "Top Rank"
@@ -1461,6 +1502,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791022-001
+  same_as: CONCERT-19791022-ASSEMBLY-ROOMS-DERBY
   date: 1979-10-22
   statut: confirme
   lieu: "Assembly Rooms"
@@ -1473,6 +1515,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791023-001
+  same_as: CONCERT-19791023-KING-GEORGES-HALL-BLACKBURN
   date: 1979-10-23
   statut: confirme
   lieu: "King George's Hall"
@@ -1485,6 +1528,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791024-001
+  same_as: CONCERT-19791024-ODEON-BIRMINGHAM
   date: 1979-10-24
   statut: confirme
   lieu: "The Odeon"
@@ -1497,6 +1541,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791025-001
+  same_as: CONCERT-19791025-ST-GEORGES-HALL-BRADFORD
   date: 1979-10-25
   statut: confirme
   lieu: "St George's Hall"
@@ -1547,6 +1592,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791029-001
+  same_as: CONCERT-19791029-DE-MONTFORT-HALL-LEICESTER
   date: 1979-10-29
   statut: confirme
   lieu: "De Montfort Hall"
@@ -1559,6 +1605,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791030-001
+  same_as: CONCERT-19791030-NEW-THEATRE-OXFORD
   date: 1979-10-30
   statut: confirme
   lieu: "New Theatre"
@@ -1571,6 +1618,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791101-001
+  same_as: CONCERT-19791101-CIVIC-HALL-GUILDFORD
   date: 1979-11-01
   statut: confirme
   lieu: "Civic Hall"
@@ -1596,6 +1644,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791104-001
+  same_as: CONCERT-19791104-COLSTON-HALL-BRISTOL
   date: 1979-11-04
   statut: confirme
   lieu: "Colston Hall"
@@ -1608,6 +1657,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791105-001
+  same_as: CONCERT-19791105-PAVILION-HEMEL-HEMPSTEAD
   date: 1979-11-05
   statut: confirme
   lieu: "Pavilion"
@@ -1620,6 +1670,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791107-001
+  same_as: CONCERT-19791107-WEST-RUNTON-PAVILION
   date: 1979-11-07
   statut: confirme
   lieu: "Pavilion"
@@ -1702,6 +1753,7 @@
 
 ```yaml
 - id: JD-CONCERT-19791003-A01
+  same_as: CONCERT-19791003-CITY-HALL-HULL
   date: 1979-10-03
   statut: annule
   lieu: "City Hall"
@@ -1723,6 +1775,7 @@
   notes: "Irlande du Nord."
 
 - id: JD-CONCERT-19791011-A01
+  same_as: CONCERT-19791011-ULSTER-HALL-BELFAST
   date: 1979-10-11
   statut: annule
   lieu: "Ulster Hall"
@@ -1733,6 +1786,7 @@
   notes: "Irlande du Nord."
 
 - id: JD-CONCERT-19791012-A01
+  same_as: CONCERT-19791012-OLYMPIA-DUBLIN
   date: 1979-10-12
   statut: annule
   lieu: "Olympia"
@@ -1743,6 +1797,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791013-A01
+  same_as: CONCERT-19791013-CITY-HALL-CORK
   date: 1979-10-13
   statut: annule
   lieu: "City Hall"
@@ -1753,6 +1808,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791103-A01
+  same_as: CONCERT-19791103-SOPHIA-GARDENS-CARDIFF
   date: 1979-11-03
   statut: annule
   lieu: "Sophia Gardens"
@@ -1774,6 +1830,7 @@
   notes: ""
 
 - id: JD-CONCERT-19791128-A01
+  same_as: CONCERT-19791128-CAPITOL-ABERDEEN
   date: 1979-11-28
   statut: annule
   lieu: "Capitol"
@@ -1784,6 +1841,7 @@
   notes: "Écosse."
 
 - id: JD-CONCERT-19791129-A01
+  same_as: CONCERT-19791129-ODEON-EDINBURGH
   date: 1979-11-29
   statut: annule
   lieu: "Odeon"
@@ -1794,6 +1852,7 @@
   notes: "Écosse."
 
 - id: JD-CONCERT-19791207-A01
+  same_as: CONCERT-19791207-STOCKPORT-COLLEGE
   date: 1979-12-07
   statut: annule
   lieu: "Stockport Tech"
@@ -1825,6 +1884,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800112-001
+  same_as: CONCERT-19800112-PAARD-VAN-TROJE-THE-HAGUE
   date: 1980-01-12
   statut: confirme
   lieu: "Paard Van Troje"
@@ -1837,6 +1897,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800113-001
+  same_as: CONCERT-19800113-DOORNROOSJE-NIJMEGEN
   date: 1980-01-13
   statut: confirme
   lieu: "Doornroosje"
@@ -1849,6 +1910,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800114-001
+  same_as: CONCERT-19800114-KING-KONG-ANTWERPEN
   date: 1980-01-14
   statut: confirme
   lieu: "King Kong"
@@ -1874,6 +1936,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800116-001
+  same_as: CONCERT-19800116-LANTAREN-ROTTERDAM
   date: 1980-01-16
   statut: confirme
   lieu: "Lantaren"
@@ -1912,6 +1975,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800119-001
+  same_as: CONCERT-19800119-CLUB-VERA-GRONINGEN
   date: 1980-01-19
   statut: confirme
   lieu: "Club Vera"
@@ -1924,6 +1988,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800121-001
+  same_as: CONCERT-19800121-KANT-KINO-BERLIN
   date: 1980-01-21
   statut: confirme
   lieu: "Kant Kino"
@@ -1952,6 +2017,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800208-001
+  same_as: CONCERT-19800208-UNIVERSITY-OF-LONDON-UNION
   date: 1980-02-08
   statut: confirme
   lieu: "University of London Union"
@@ -1987,6 +2053,7 @@
   notes: "Concert légendaire, bootleg de référence."
 
 - id: JD-CONCERT-19800229-001
+  same_as: CONCERT-19800229-LYCEUM-LONDON
   date: 1980-02-29
   statut: confirme
   lieu: "The Lyceum"
@@ -1998,6 +2065,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800305-001
+  same_as: CONCERT-19800305-TRINITY-HALL-BRISTOL
   date: 1980-03-05
   statut: confirme
   lieu: "Trinity Hall"
@@ -2118,6 +2186,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800502-001
+  same_as: CONCERT-19800502-BIRMINGHAM-UNIVERSITY
   date: 1980-05-02
   statut: confirme
   lieu: "High Hall Birmingham University"
@@ -2133,6 +2202,7 @@
 
 ```yaml
 - id: JD-CONCERT-19800221-A01
+  same_as: CONCERT-19800221-MANCHESTER-POLYTECHNIC
   date: 1980-02-21
   statut: annule
   lieu: "Manchester Polytechnic"
@@ -2153,6 +2223,7 @@
   notes: "Salle inconnue."
 
 - id: JD-CONCERT-19800425-A01
+  same_as: CONCERT-19800425-SCALA-CINEMA-LONDON
   date: 1980-04-25
   statut: annule
   lieu: "Scala Cinema"
@@ -2174,6 +2245,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800508-A01
+  same_as: CONCERT-19800508-ASTORIA-EDINBURGH
   date: 1980-05-08
   statut: annule
   lieu: "The Astoria"
@@ -2184,6 +2256,7 @@
   notes: "Écosse. Annulé après la mort de Ian Curtis (18 mai 1980)."
 
 - id: JD-CONCERT-19800509-A01
+  same_as: CONCERT-19800509-ALBERT-HALL-STIRLING
   date: 1980-05-09
   statut: annule
   lieu: "Albert Hall"

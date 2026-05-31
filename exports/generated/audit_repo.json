@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T12:05:57",
+  "generated_at": "2026-05-31T12:23:39",
   "summary": {
-    "records_total": 7849,
+    "records_total": 7923,
     "records_by_kind": {
       "unknown": 1510,
       "source": 120,
@@ -12,8 +12,8 @@
       "myth": 102,
       "quote": 565,
       "chronology": 539,
-      "template": 363,
-      "concert": 300,
+      "template": 364,
+      "concert": 373,
       "person": 305,
       "quote_batch": 1,
       "rules": 1,
@@ -34,7 +34,7 @@
     "atom": 2752,
     "chronology": 539,
     "concept": 463,
-    "concert": 300,
+    "concert": 373,
     "metadata": 274,
     "motif": 427,
     "myth": 102,
@@ -45,7 +45,7 @@
     "session": 17,
     "song": 110,
     "source": 120,
-    "template": 363,
+    "template": 364,
     "unknown": 1510
   },
   "records_by_source": {
@@ -735,6 +735,10 @@
       74
     ],
     [
+      "registers/concerts/concert_canonical_units_7abis.md",
+      73
+    ],
+    [
       "sources/mike_west_joy_division/source_atomisation_02.md",
       72
     ],
@@ -833,10 +837,6 @@
     [
       "sources/johnson_morley_an_ideal_for_living/source_suite_02.md",
       34
-    ],
-    [
-      "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md",
-      30
     ]
   ],
   "issue_categories": {
