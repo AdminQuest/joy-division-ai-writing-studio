@@ -1,3 +1,12 @@
+/* Loader partagé des registres (chargé par toutes les pages apps/*-register/).
+   CACHE-BUSTING — CONVENTION : les pages incluent ce fichier avec un jeton de
+   version, p. ex. <script src="../lib/dynamic-registers.js?v=7c"></script>.
+   À CHAQUE modification de ce fichier, BUMPER le jeton (?v=…) dans TOUTES les
+   pages qui l'incluent (grep "lib/dynamic-registers.js" dans les apps/…-register),
+   sinon GitHub Pages et les navigateurs rejouent l'ancienne version en cache et
+   les pages se cassent (cf. l'incident concerts 7c : ancien loader sans le
+   parsing des listes YAML de 1er niveau ni l'inferKind CONCERT-). Cf.
+   docs/WEB_INTERFACE.md. Jeton courant : v=7c. */
 window.DynamicRegisters = (() => {
   const REPO = 'AdminQuest/joy-division-ai-writing-studio';
   const BRANCH = 'main';
