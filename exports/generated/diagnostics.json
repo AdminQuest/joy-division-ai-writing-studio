@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-31T07:10:56",
+  "generated_at": "2026-05-31T10:26:07",
   "status": "warning",
   "summary": {
-    "records_total": 7743,
+    "records_total": 7745,
     "records_by_kind": {
-      "unknown": 1509,
+      "unknown": 1510,
       "source": 120,
       "metadata": 274,
       "atom": 2752,
@@ -13,7 +13,7 @@
       "myth": 102,
       "quote": 565,
       "chronology": 539,
-      "template": 360,
+      "template": 361,
       "concert": 197,
       "person": 305,
       "quote_batch": 1,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30046,
+    "diagnostics_total": 30047,
     "errors": 0,
-    "warnings": 30046,
+    "warnings": 30047,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -154922,6 +154922,12 @@
       "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/places/concert_venues_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACES-CONCERT-VENUES-V2"
     },
     {
       "level": "warning",
