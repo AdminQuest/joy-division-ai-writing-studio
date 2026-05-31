@@ -8,6 +8,8 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1972-002
+date_precision: circa
+categorie: contexte
 type_unite: chronology
 date: 1972-12
 precision_date: approximate
@@ -44,6 +46,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1973-001
+date_precision: annee
+categorie: jalon
 type_unite: chronology
 date: 1973
 precision_date: year
@@ -81,6 +85,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1973-002
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1973-09-27
 precision_date: exact
@@ -117,6 +123,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1974-001
+date_precision: mois
+categorie: jalon
 type_unite: chronology
 date: 1974-04
 precision_date: month
@@ -155,6 +163,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1975-001
+same_as: EVENT-MARIAGE-IAN-DEBORAH-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1975-08-23
 precision_date: exact
@@ -194,6 +205,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1975-002
+date_precision: annee
+categorie: jalon
 type_unite: chronology
 date: 1975
 precision_date: year
@@ -229,6 +242,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1976-001
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1976
 precision_date: approximate

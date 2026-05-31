@@ -8,6 +8,11 @@ Entrées ciblées issues de `Ott - 61-83_ocred.pdf`. Elles complètent le regist
 
 ```yaml
 id: CHR-S75-1979-004
+same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
+date_precision: intervalle
+date_debut: 1979-04-01
+date_fin: 1979-04-17
+categorie: jalon
 type_unite: chronology
 date: 1979-04-01/1979-04-17
 precision_date: range
@@ -46,6 +51,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-005
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-04
 precision_date: approximate
@@ -83,6 +90,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-006
+date_precision: jour
+same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
+categorie: jalon
 type_unite: chronology
 date: 1979-06-14
 precision_date: exact
@@ -121,6 +131,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-007
+same_as: EVENT-SORTIE-EARCOM-2
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-10
 precision_date: approximate
@@ -159,6 +172,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1981-001
+date_precision: jour
+categorie: reception_posthume
 type_unite: chronology
 date: 1981-10-08
 precision_date: exact
@@ -197,6 +212,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1997-001
+date_precision: annee
+categorie: reception_posthume
 type_unite: chronology
 date: 1997
 precision_date: year

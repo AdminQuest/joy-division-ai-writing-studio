@@ -3,6 +3,10 @@
 ```yaml
 chronology:
   - id: CHR-S45-1980-04-02-04-MOONLIGHT-RAINBOW
+    date_precision: intervalle
+    date_debut: 1980-04-02
+    date_fin: 1980-04-04
+    categorie: concert_a_migrer
     source_id: S45
     date: "1980-04-02/1980-04-04"
     evenement: >
@@ -17,6 +21,9 @@ chronology:
     statut: événement établi ; détails critiques à croiser
 
   - id: CHR-S45-1980-04-07-PHENOBARBITONE-OVERDOSE
+    same_as: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-04-07"
     evenement: >
@@ -31,6 +38,9 @@ chronology:
     statut: événement établi par S45 ; note suicidaire à prudence
 
   - id: CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT
+    same_as: EVENT-CONCERT-DERBY-HALL-BURY
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-04-08"
     evenement: >
@@ -44,6 +54,8 @@ chronology:
     statut: événement établi ; bootleg / enregistrement Harry Demac à indexer
 
   - id: CHR-S45-1980-04-11-FACTORY-REOPENED
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S45
     date: "1980-04-11"
     evenement: >
@@ -56,6 +68,8 @@ chronology:
     statut: événement établi
 
   - id: CHR-S45-1980-04-16-NATALIE-FIRST-BIRTHDAY
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-04-16"
     evenement: >
@@ -68,6 +82,9 @@ chronology:
     statut: scène domestique
 
   - id: CHR-S45-1980-04-25-LWTUA-VIDEO
+    same_as: EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-04-25"
     evenement: >
@@ -81,6 +98,8 @@ chronology:
     statut: événement audiovisuel établi
 
   - id: CHR-S45-1980-04-PARKSIDE-TOO-EARLY
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -93,6 +112,8 @@ chronology:
     statut: scène rapportée par S45
 
   - id: CHR-S45-1980-04-DERBY-ANNIK-ROB-SECRET
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -105,6 +126,8 @@ chronology:
     statut: scène domestique et judiciaire
 
   - id: CHR-S45-1980-LATE-APRIL-PSYCHIATRIST
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -117,6 +140,9 @@ chronology:
     statut: scène médicale rapportée
 
   - id: CHR-S45-1980-05-02-BIRMINGHAM-FINAL-GIG
+    date_precision: jour
+    same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
+    categorie: jalon
     source_id: S45
     date: "1980-05-02"
     evenement: >
@@ -130,6 +156,8 @@ chronology:
     statut: événement établi
 
   - id: CHR-S45-1980-05-06-LAST-EPILEPSY-CLINIC
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-05-06"
     evenement: >
@@ -142,6 +170,8 @@ chronology:
     statut: événement médical rapporté
 
   - id: CHR-S45-1980-05-13-LAST-PHOTOGRAPH
+    date_precision: jour
+    categorie: jalon
     source_id: S45
     date: "1980-05-13"
     evenement: >
@@ -154,6 +184,10 @@ chronology:
     statut: événement domestique et photographique
 
   - id: CHR-S45-1980-05-16-STROSZEK-DEADLINE
+    date_precision: intervalle
+    date_debut: 1980-05-16
+    date_fin: 1980-05-17
+    categorie: jalon
     source_id: S45
     date: "1980-05-16/1980-05-17"
     evenement: >

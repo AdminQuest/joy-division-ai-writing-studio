@@ -3,6 +3,8 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-03-13-BAND-ON-THE-WALL-FACTORY-DEAL
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-03-13"
     evenement: >
@@ -15,6 +17,8 @@ chronology:
     statut: repère contractuel à croiser avec archives Factory
 
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-03-14"
     evenement: >
@@ -28,6 +32,8 @@ chronology:
     statut: archive filmique établie
 
   - id: CHR-S41-1979-03-WALTHAMSTOW-HELICOPTER-VAN
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-03"
     evenement: >
@@ -40,6 +46,9 @@ chronology:
     statut: souvenir logistique Hook
 
   - id: CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS
+    same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-04"
     evenement: >
@@ -55,6 +64,10 @@ chronology:
     statut: session album établie ; détails à croiser avec discographies
 
   - id: CHR-S41-1979-04-UP-MASTER-PRESSING
+    date_precision: intervalle
+    date_debut: 1979-04
+    date_fin: 1979-05
+    categorie: jalon
     source_id: S41
     date: "1979-04/1979-05"
     evenement: >
@@ -67,6 +80,9 @@ chronology:
     statut: logistique discographique rapportée par Hook
 
   - id: CHR-S41-1979-06-UP-RELEASE-CRITICAL-ACCLAIM
+    date_precision: mois
+    same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
+    categorie: jalon
     source_id: S41
     date: "1979-06"
     evenement: >
@@ -79,6 +95,9 @@ chronology:
     statut: réception presse à croiser avec NME / Melody Maker
 
   - id: CHR-S41-1979-06-PICCADILLY-RADIO-CHANCE-ATROCITY
+    same_as: EVENT-SESSION-PICCADILLY-RADIO
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-06"
     evenement: >
@@ -92,6 +111,9 @@ chronology:
     statut: session radio à croiser
 
   - id: CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-07"
     evenement: >
@@ -106,6 +128,9 @@ chronology:
     statut: session à croiser avec discographies
 
   - id: CHR-S41-1979-GRANADA-WHATS-ON-SLC
+    same_as: EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -118,6 +143,8 @@ chronology:
     statut: archive audiovisuelle à dater précisément
 
   - id: CHR-S41-1979-YMCA-TOTTENHAM-COURT-ROAD
+    date_precision: annee
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979"
     evenement: >

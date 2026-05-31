@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S45-1980-01-EUROPEAN-TOUR-DEPART
+    same_as: EVENT-TOURNEE-EUROPEENNE-1980
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-01"
     evenement: >
@@ -16,6 +19,9 @@ chronology:
     statut: période établie par S45 ; dates de tournée à croiser avec gig list
 
   - id: CHR-S45-1980-01-RETURN-PERNOD-BIBLE
+    same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-01"
     evenement: >
@@ -28,6 +34,10 @@ chronology:
     statut: scène domestique rapportée par S45
 
   - id: CHR-S45-1980-01-CONCERTS-STOPPED-AMERICA-ANNOUNCED
+    date_precision: intervalle
+    date_debut: 1980-01
+    date_fin: 1980-02
+    categorie: jalon
     source_id: S45
     date: "1980-01/1980-02"
     evenement: >
@@ -40,6 +50,8 @@ chronology:
     statut: à croiser avec calendrier des concerts 1980
 
   - id: CHR-S45-1980-02-FRANCK-ESSNER-BARTON-STREET
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-02"
     evenement: >
@@ -52,6 +64,10 @@ chronology:
     statut: datation mensuelle donnée par S45
 
   - id: CHR-S45-1980-02-TOP-SHOP-AMERICAN-TOUR
+    date_precision: intervalle
+    date_debut: 1980-02
+    date_fin: 1980-03
+    categorie: jalon
     source_id: S45
     date: "1980-02/1980-03"
     evenement: >
@@ -64,6 +80,8 @@ chronology:
     statut: période approximative
 
   - id: CHR-S45-1980-02-NEW-OSBOURNE-CITY-FUN
+    date_precision: mois
+    categorie: concert_a_migrer
     source_id: S45
     date: "1980-02"
     evenement: >
@@ -76,6 +94,10 @@ chronology:
     statut: date précise à vérifier dans gig list
 
   - id: CHR-S45-1980-02-ANNIK-ADDRESS-FOUND
+    date_precision: intervalle
+    date_debut: 1980-02
+    date_fin: 1980-03
+    categorie: jalon
     source_id: S45
     date: "1980-02/1980-03"
     evenement: >
@@ -88,6 +110,8 @@ chronology:
     statut: scène domestique ; datation approximative
 
   - id: CHR-S45-1980-03-CANDY-ROCHDALE-FARM
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-03"
     evenement: >
@@ -99,6 +123,9 @@ chronology:
     statut: période à préciser
 
   - id: CHR-S45-1980-03-CLOSER-BRITANNIA-ROW
+    same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
+    date_precision: mois
+    categorie: jalon
     source_id: S45
     date: "1980-03"
     evenement: >

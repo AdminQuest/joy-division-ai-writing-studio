@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-30T22:42:05",
+  "generated_at": "2026-05-31T06:52:23",
   "summary": {
-    "records_total": 7681,
+    "records_total": 7743,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -11,7 +11,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 477,
+      "chronology": 539,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -32,7 +32,7 @@
   },
   "records_by_kind": {
     "atom": 2752,
-    "chronology": 477,
+    "chronology": 539,
     "concept": 463,
     "concert": 197,
     "metadata": 274,
@@ -89,6 +89,7 @@
     "S10": {
       "metadata": 3,
       "atom": 40,
+      "chronology": 14,
       "unknown": 16
     },
     "S11": {
@@ -257,7 +258,7 @@
     "S41": {
       "atom": 430,
       "quote": 9,
-      "chronology": 9,
+      "chronology": 61,
       "person": 9,
       "song": 7,
       "unknown": 107
@@ -284,7 +285,7 @@
     "S45": {
       "atom": 205,
       "quote": 56,
-      "chronology": 41,
+      "chronology": 65,
       "person": 37,
       "unknown": 13,
       "metadata": 1,
@@ -552,14 +553,14 @@
     "S75": {
       "metadata": 1,
       "atom": 75,
-      "chronology": 31,
+      "chronology": 54,
       "person": 27,
       "quote": 21,
       "song": 33
     },
     "S76": {
       "atom": 229,
-      "chronology": 101,
+      "chronology": 130,
       "person": 89,
       "quote": 195
     },
@@ -738,6 +739,10 @@
       62
     ],
     [
+      "registers/chronology/events_canonical.md",
+      62
+    ],
+    [
       "sources/johnson_morley_an_ideal_for_living/source.md",
       53
     ],
@@ -831,10 +836,6 @@
     ],
     [
       "registers/s58_ilardi_specialized_registers.md",
-      30
-    ],
-    [
-      "registers/s66_curtis_lyrics_specialized_registers.md",
       30
     ]
   ],
@@ -13426,11 +13427,12 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 59,
+        "records": 73,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 0,
+        "chronology": 14,
         "files": [
+          "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
           "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
           "registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md",
@@ -13910,11 +13912,12 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 571,
+        "records": 623,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 9,
+        "chronology": 61,
         "files": [
+          "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
           "registers/people/master_people.md",
           "registers/songs/master_songs.md",
@@ -14026,11 +14029,12 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 358,
+        "records": 382,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 41,
+        "chronology": 65,
         "files": [
+          "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
           "registers/chronology/s45_curtis_chronology_1976_1977.md",
           "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
@@ -14584,11 +14588,12 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 188,
+        "records": 211,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 31,
+        "chronology": 54,
         "files": [
+          "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
           "registers/chronology/s75_ott_chronology_part_03.md",
           "registers/chronology/s75_ott_chronology_part_04.md",
@@ -14616,11 +14621,12 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 614,
+        "records": 643,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 101,
+        "chronology": 130,
         "files": [
+          "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
           "registers/chronology/s76_torn_apart_chronology_part_02.md",
           "registers/chronology/s76_torn_apart_chronology_part_03.md",

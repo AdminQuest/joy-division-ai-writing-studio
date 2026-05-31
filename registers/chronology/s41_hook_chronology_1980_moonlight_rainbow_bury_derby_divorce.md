@@ -3,6 +3,10 @@
 ```yaml
 chronology:
   - id: CHR-S41-1980-04-02-03-MOONLIGHT-FACTORY
+    date_precision: intervalle
+    date_debut: 1980-04-02
+    date_fin: 1980-04-03
+    categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-02/1980-04-03"
     evenement: >
@@ -17,6 +21,8 @@ chronology:
     statut: dates live à croiser avec gig lists
 
   - id: CHR-S41-1980-04-03-POLYDOR-CAPTAIN-MOONLIGHT
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1980-04-03"
     evenement: >
@@ -30,6 +36,8 @@ chronology:
     statut: réception industrielle rapportée par Hook
 
   - id: CHR-S41-1980-04-04-RAINBOW-THEATRE-STRANGLERS-FRIENDS
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-04"
     evenement: >
@@ -44,6 +52,10 @@ chronology:
     statut: concert établi ; détails matériels à croiser
 
   - id: CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
+    same_as: EVENT-CRISE-RAINBOW-THEATRE
+    a_scinder_etape_10: true
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1980-04-04"
     evenement: >
@@ -56,6 +68,8 @@ chronology:
     statut: événement médical à croiser avec S45 et autres témoignages
 
   - id: CHR-S41-1980-04-08-BURY-TOWN-HALL
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-08"
     evenement: >
@@ -72,6 +86,8 @@ chronology:
     statut: scène critique à croiser avec autres récits de Bury
 
   - id: CHR-S41-1980-04-09-10-WILSON-REFUGE
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1980-04"
     evenement: >
@@ -84,6 +100,8 @@ chronology:
     statut: refuge informel à croiser
 
   - id: CHR-S41-1980-04-11-FACTORY-II-DEBBIE-ANNIK
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1980-04-11"
     evenement: >
@@ -96,6 +114,8 @@ chronology:
     statut: nœud domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-16-NATALIE-BIRTHDAY-MISSED
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1980-04-16"
     evenement: >
@@ -108,6 +128,8 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-19"
     evenement: >
@@ -121,6 +143,8 @@ chronology:
     statut: avant-dernier concert et nœud domestique
 
   - id: CHR-S41-1980-04-22-FAMILY-SHOWDOWN-DIVORCE
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1980-04-22"
     evenement: >

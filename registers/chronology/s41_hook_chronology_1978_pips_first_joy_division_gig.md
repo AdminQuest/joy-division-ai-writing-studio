@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1978-01-PIPS-FIRST-JOY-DIVISION-GIG
+    date_precision: mois
+    same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
+    categorie: jalon
     source_id: S41
     date: "1978-01"
     evenement: >

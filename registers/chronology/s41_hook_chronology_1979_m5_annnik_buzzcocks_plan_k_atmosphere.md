@@ -3,6 +3,8 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-M5-VAN-ACCIDENT
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -15,6 +17,10 @@ chronology:
     statut: date exacte à croiser avec gig list
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK
+    same_as: EVENT-RENCONTRE-ANNIK-HONORE
+    a_scinder_etape_10: true
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-08-13"
     evenement: >
@@ -28,6 +34,8 @@ chronology:
     statut: événement biographique à croiser avec S45 et entretien En Attendant
 
   - id: CHR-S41-1979-08-22-EN-ATTENDANT-INTERVIEW
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-08-22"
     evenement: >
@@ -40,6 +48,9 @@ chronology:
     statut: entretien à croiser avec archive audio / transcription
 
   - id: CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL
+    same_as: EVENT-TOURNEE-BUZZCOCKS
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -52,6 +63,8 @@ chronology:
     statut: tournée établie ; dates à croiser
 
   - id: CHR-S41-1979-BUZZCOCKS-TOUR-SEIZURES
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -65,6 +78,8 @@ chronology:
     statut: séquence médicale à croiser avec S45 et Morris
 
   - id: CHR-S41-1979-LEEDS-SEIZURE
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -76,6 +91,8 @@ chronology:
     statut: date précise à croiser avec gig list
 
   - id: CHR-S41-1979-GLASGOW-HILTON-BUZZCOCKS
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -88,6 +105,8 @@ chronology:
     statut: mémoire de tournée ; détails à prudence
 
   - id: CHR-S41-1979-DUNDEE-TWINNY-PRANK
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -99,6 +118,8 @@ chronology:
     statut: anecdote secondaire
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-16"
     evenement: >
@@ -112,6 +133,9 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT
+    same_as: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-10"
     evenement: >

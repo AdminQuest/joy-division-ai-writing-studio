@@ -6,6 +6,8 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1978-STIFF-CHISWICK-RAFTERS
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1978
 evenement: >
@@ -26,6 +28,9 @@ statut: datation à préciser ; événement à croiser avec gig lists et sources
 
 ```yaml
 id: CHR-S45-1978-GRANADA-SHADOWPLAY
+same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1978
 evenement: >
@@ -45,6 +50,9 @@ statut: datation à préciser ; archive télévisuelle à vérifier
 
 ```yaml
 id: CHR-S45-1978-GRETTON-MANAGER
+same_as: EVENT-ROB-GRETTON-DEVIENT-MANAGER
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1978
 evenement: >
@@ -63,6 +71,8 @@ statut: datation à préciser ; événement établi par sources croisées
 
 ```yaml
 id: CHR-S45-1978-BASS-HOOK-INCIDENT
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1978
 evenement: >
@@ -81,6 +91,8 @@ statut: causalité à recouper avec Hook, Sumner et Morris
 
 ```yaml
 id: CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE
+date_precision: annee
+categorie: contexte
 source_id: S45
 date: 1978
 evenement: >
@@ -98,6 +110,8 @@ statut: datation à préciser ; à croiser avec gig lists et presse Middles/Morl
 
 ```yaml
 id: CHR-S45-1978-CANDY-DOG
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1978
 evenement: >

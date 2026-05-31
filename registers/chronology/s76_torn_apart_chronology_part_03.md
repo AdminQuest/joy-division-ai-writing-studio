@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1976-002
+date_precision: jour
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
+categorie: jalon
 type_unite: chronology
 date: 1976-07-20
 precision_date: exact
@@ -48,6 +51,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1976-003
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1976-12-09
 precision_date: exact
@@ -85,6 +90,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-001
+date_precision: jour
+categorie: contexte
 type_unite: chronology
 date: 1977-03-03
 precision_date: exact
@@ -121,6 +128,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-002
+date_precision: mois
+categorie: jalon
 type_unite: chronology
 date: 1977-05
 precision_date: month
@@ -157,6 +166,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-003
+date_precision: jour
+same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
+categorie: jalon
 type_unite: chronology
 date: 1977-05-29
 precision_date: exact
@@ -196,6 +208,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-004
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-06-02
 precision_date: exact
@@ -230,6 +244,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-005
+same_as: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1977-07-18
 precision_date: exact
@@ -269,6 +286,10 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-006
+date_precision: intervalle
+date_debut: 1977-10-02
+date_fin: 1977-10-03
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10-02/1977-10-03
 precision_date: range

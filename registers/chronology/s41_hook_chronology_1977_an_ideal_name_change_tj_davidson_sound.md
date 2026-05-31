@@ -3,6 +3,8 @@
 ```yaml
 chronology:
   - id: CHR-S41-1977-LATE-AN-IDEAL-DECISION-DIY
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -15,6 +17,9 @@ chronology:
     statut: période à préciser
 
   - id: CHR-S41-1977-PENNINE-AN-IDEAL-SESSION
+    same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -30,6 +35,8 @@ chronology:
     statut: session documentée ; date exacte à verrouiller
 
   - id: CHR-S41-1977-AN-IDEAL-PRESSING-FAILURE
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -44,6 +51,9 @@ chronology:
     statut: événement discographique établi
 
   - id: CHR-S41-1977-WARSAW-PAKT-NAME-COLLISION
+    same_as: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -56,6 +66,9 @@ chronology:
     statut: contexte de changement de nom
 
   - id: CHR-S41-1977-JOY-DIVISION-NAME-STABILIZED
+    same_as: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1977-12"
     evenement: >
@@ -70,6 +83,8 @@ chronology:
     statut: datation fin 1977 / transition vers janvier 1978
 
   - id: CHR-S41-1977-LATE-CREATIVE-FORMULA
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -82,6 +97,8 @@ chronology:
     statut: période de répétition à préciser
 
   - id: CHR-S41-1977-LATE-HIGH-BASS-JD-SOUND
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -94,6 +111,9 @@ chronology:
     statut: séquence sonore selon Hook
 
   - id: CHR-S41-1977-TJ-DAVIDSONS-PRACTICE-ROOM
+    same_as: EVENT-INSTALLATION-TJ-DAVIDSONS
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -107,6 +127,8 @@ chronology:
     statut: datation à préciser
 
   - id: CHR-S41-1977-OLDHAM-TOWER-CLUB-NO-AUDIENCE
+    date_precision: annee
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977"
     evenement: >
@@ -118,6 +140,8 @@ chronology:
     statut: non listé ; souvenir Hook
 
   - id: CHR-S41-1977-12-31-SWINGING-APPLE
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-12-31"
     evenement: >

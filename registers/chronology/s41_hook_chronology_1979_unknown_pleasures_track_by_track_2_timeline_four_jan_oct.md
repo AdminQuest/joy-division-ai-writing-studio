@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE
+    date_precision: mois
+    same_as: EVENT-SORTIE-A-FACTORY-SAMPLE
+    categorie: jalon
     source_id: S41
     date: "1979-01"
     evenement: >
@@ -16,6 +19,9 @@ chronology:
     statut: sortie discographique établie
 
   - id: CHR-S41-1979-01-06-CUMMINS-PRINCESS-PARKWAY
+    same_as: EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-01-06"
     evenement: >
@@ -28,6 +34,9 @@ chronology:
     statut: archive photographique établie
 
   - id: CHR-S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS
+    same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-01-23"
     evenement: >
@@ -40,6 +49,9 @@ chronology:
     statut: repère médical à croiser avec S45
 
   - id: CHR-S41-1979-01-31-FIRST-PEEL-SESSION
+    same_as: EVENT-PREMIERE-PEEL-SESSION
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-01-31"
     evenement: >
@@ -53,6 +65,10 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
+    same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
+    a_scinder_etape_10: true
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-03-04"
     evenement: >
@@ -65,6 +81,8 @@ chronology:
     statut: repère à croiser avec sessionographies
 
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD-FILM
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-03-14"
     evenement: >
@@ -78,6 +96,11 @@ chronology:
     statut: archive filmique établie
 
   - id: CHR-S41-1979-03-31-05-02-UP-STRAWBERRY
+    same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
+    date_precision: intervalle
+    date_debut: 1979-03-31
+    date_fin: 1979-05-02
+    categorie: jalon
     source_id: S41
     date: "1979-03-31/1979-05-02"
     evenement: >
@@ -90,6 +113,9 @@ chronology:
     statut: session album établie
 
   - id: CHR-S41-1979-04-16-NATALIE-CURTIS-BORN
+    same_as: EVENT-NAISSANCE-NATALIE-CURTIS
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-04-16"
     evenement: >
@@ -102,6 +128,9 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1979-06-14-UP-FACT10-RELEASE
+    date_precision: jour
+    same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
+    categorie: jalon
     source_id: S41
     date: "1979-06-14"
     evenement: >
@@ -115,6 +144,9 @@ chronology:
     statut: sortie discographique établie
 
   - id: CHR-S41-1979-06-04-PICCADILLY-RADIO
+    same_as: EVENT-SESSION-PICCADILLY-RADIO
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-06-04"
     evenement: >
@@ -128,6 +160,9 @@ chronology:
     statut: session radio établie
 
   - id: CHR-S41-1979-07-01-CENTRAL-SOUND-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-07-01"
     evenement: >
@@ -140,6 +175,11 @@ chronology:
     statut: session single à croiser avec discographies
 
   - id: CHR-S41-1979-07-28-08-04-STRAWBERRY-TRANSMISSION
+    same_as: EVENT-SESSIONS-TRANSMISSION
+    date_precision: intervalle
+    date_debut: 1979-07-28
+    date_fin: 1979-08-04
+    categorie: jalon
     source_id: S41
     date: "1979-07-28/1979-08-04"
     evenement: >
@@ -152,6 +192,8 @@ chronology:
     statut: session single établie
 
   - id: CHR-S41-1979-08-02-YMCA-LONDON
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-08-02"
     evenement: >
@@ -164,6 +206,10 @@ chronology:
     statut: réception live à croiser avec NME
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
+    same_as: EVENT-RENCONTRE-ANNIK-HONORE
+    a_scinder_etape_10: true
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-08-13"
     evenement: >
@@ -178,6 +224,8 @@ chronology:
     statut: repère biographique et live établi
 
   - id: CHR-S41-1979-09-08-FUTURAMA-LEEDS
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-09-08"
     evenement: >
@@ -190,6 +238,8 @@ chronology:
     statut: festival live établi
 
   - id: CHR-S41-1979-09-13-FACTORY-FLICK-SCALA
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-09-13"
     evenement: >
@@ -202,6 +252,8 @@ chronology:
     statut: objet audiovisuel Factory établi
 
   - id: CHR-S41-1979-09-15-SOMETHING-ELSE
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-09-15"
     evenement: >
@@ -214,6 +266,9 @@ chronology:
     statut: apparition télévisée à vérifier par archive
 
   - id: CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS
+    same_as: EVENT-SORTIE-FAC13-TRANSMISSION
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-10"
     evenement: >

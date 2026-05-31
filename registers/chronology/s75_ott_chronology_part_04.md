@@ -8,6 +8,8 @@ Entrées ciblées issues de `Ott - 85-115_ocred.pdf`. Elles complètent le regis
 
 ```yaml
 id: CHR-S75-1979-008
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-05-24
 precision_date: exact
@@ -42,6 +44,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-009
+same_as: EVENT-SESSIONS-TRANSMISSION
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-07
 precision_date: approximate
@@ -80,6 +85,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-010
+same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-09
 precision_date: approximate
@@ -116,6 +124,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-011
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-10-16
 precision_date: exact
@@ -155,6 +165,11 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-012
+same_as: EVENT-SESSIONS-LICHT-UND-BLINDHEIT
+date_precision: intervalle
+date_debut: 1979-10
+date_fin: 1979-11
+categorie: jalon
 type_unite: chronology
 date: 1979-10/1979-11
 precision_date: approximate_range
@@ -195,6 +210,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-002
+same_as: EVENT-TOURNEE-EUROPEENNE-1980
+date_precision: mois
+categorie: jalon
 type_unite: chronology
 date: 1980-01
 precision_date: month
@@ -231,6 +249,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-003
+same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1980-02
 precision_date: approximate
@@ -264,10 +285,13 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-004
+same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1980-03
 precision_date: approximate
- event: >
+event: >
   Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
 type:
   - enregistrement
@@ -301,6 +325,10 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-005
+same_as: EVENT-CRISE-RAINBOW-THEATRE
+a_scinder_etape_10: true
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-04-04
 precision_date: exact
@@ -336,6 +364,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-006
+same_as: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-04-07
 precision_date: exact
@@ -372,6 +403,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-007
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact
@@ -411,6 +444,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-008
+date_precision: jour
+same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
+categorie: jalon
 type_unite: chronology
 date: 1980-05-02
 precision_date: exact
@@ -446,6 +482,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-009
+date_precision: jour
+same_as: EVENT-MORT-IAN-CURTIS
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: exact

@@ -8,6 +8,10 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, fin
 
 ```yaml
 id: CHR-S76-1980-026
+date_precision: intervalle
+date_debut: 1980-04-25
+date_fin: 1980-04-26
+categorie: jalon
 type_unite: chronology
 date: 1980-04-25/1980-04-26
 precision_date: overnight
@@ -47,6 +51,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-027
+date_precision: jour
+same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
+categorie: jalon
 type_unite: chronology
 date: 1980-05-02
 precision_date: exact
@@ -86,6 +93,10 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-028
+date_precision: intervalle
+date_debut: 1980-05-14
+date_fin: 1980-05-17
+categorie: jalon
 type_unite: chronology
 date: 1980-05-14/1980-05-17
 precision_date: date_range
@@ -122,6 +133,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-029
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-05-17
 precision_date: exact
@@ -159,6 +172,10 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-030
+date_precision: intervalle
+date_debut: 1980-05-17
+date_fin: 1980-05-18
+categorie: jalon
 type_unite: chronology
 date: 1980-05-17/1980-05-18
 precision_date: overnight
@@ -197,6 +214,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-031
+date_precision: jour
+same_as: EVENT-MORT-IAN-CURTIS
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: exact
@@ -235,6 +255,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-032
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: same_day
@@ -270,6 +292,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-033
+same_as: EVENT-FUNERAILLES-IAN-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-05-23
 precision_date: exact

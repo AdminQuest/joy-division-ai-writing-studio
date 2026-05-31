@@ -3,6 +3,10 @@
 ```yaml
 chronology:
   - id: CHR-S41-1978-01-03-PIPS-AFTERGAP
+    date_precision: intervalle
+    date_debut: 1978-01
+    date_fin: 1978-03
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-01/1978-03"
     evenement: >
@@ -14,6 +18,8 @@ chronology:
     statut: séquence de management à croiser avec gig lists
 
   - id: CHR-S41-1978-04-14-STIFF-CHISWICK-RAFTERS
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-04-14"
     evenement: >
@@ -28,6 +34,8 @@ chronology:
     statut: événement pivot établi ; détails à croiser avec Wilson/Morley/Cummins/Gretton
 
   - id: CHR-S41-1978-04-19-WILSON-GRETTON-LETTER
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1978-04-19"
     evenement: >
@@ -41,6 +49,8 @@ chronology:
     statut: correspondance rapportée par Hook ; à croiser avec archives Factory
 
   - id: CHR-S41-1978-05-RCA-SWAN-INTERZONE
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1978-05"
     evenement: >
@@ -54,6 +64,9 @@ chronology:
     statut: datation à consolider avec sessionographies
 
   - id: CHR-S41-1978-05-ARROW-STUDIOS-RCA
+    same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1978-05"
     evenement: >
@@ -67,6 +80,8 @@ chronology:
     statut: source-cadre Hook ; détails précis à croiser avec Joydiv.org/sessionographies
 
   - id: CHR-S41-1978-05-20-MAYFLOWER-TRANSMISSION
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-05-20"
     evenement: >
@@ -81,6 +96,8 @@ chronology:
     statut: événement live établi ; réaction du soundcheck à croiser si possible
 
   - id: CHR-S41-1978-06-09-FIRST-FACTORY-RUSSELL-CLUB
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -94,6 +111,11 @@ chronology:
     statut: événement Factory établi
 
   - id: CHR-S41-1978-06-AIL-12-INCH-RABID
+    same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
+    date_precision: intervalle
+    date_debut: 1978-06
+    date_fin: 1978-10
+    categorie: jalon
     source_id: S41
     date: "1978-06/1978-10"
     evenement: >
@@ -106,6 +128,8 @@ chronology:
     statut: séquence discographique à préciser entre release 7 pouces et 12 pouces
 
   - id: CHR-S41-1978-SUMMER-MUSICIANS-COLLECTIVE
+    date_precision: annee
+    categorie: contexte
     source_id: S41
     date: "1978"
     evenement: >
@@ -118,6 +142,8 @@ chronology:
     statut: contexte de scène
 
   - id: CHR-S41-1978-SUMMER-BAND-ON-THE-WALL
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1978"
     evenement: >
@@ -130,6 +156,9 @@ chronology:
     statut: datation à préciser ; à croiser avec reviews NME/Sounds
 
   - id: CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY
+    same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1978-09-20"
     evenement: >
@@ -143,6 +172,8 @@ chronology:
     statut: archive audiovisuelle établie
 
   - id: CHR-S41-1978-09-28-COACH-HOUSE-HUDDERSFIELD
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-09-28"
     evenement: >

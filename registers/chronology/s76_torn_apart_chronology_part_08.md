@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1978-013
+same_as: EVENT-PREMIERE-SOIREE-FACTORY
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1978-05-19
 precision_date: exact
@@ -49,6 +52,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-014
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1978
 precision_date: after_1978-05-19_third_Factory_night
@@ -88,6 +93,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-015
+date_precision: saison
+categorie: jalon
 type_unite: chronology
 date: 1978
 precision_date: summer
@@ -125,6 +132,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-016
+same_as: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1978-10-11
 precision_date: exact

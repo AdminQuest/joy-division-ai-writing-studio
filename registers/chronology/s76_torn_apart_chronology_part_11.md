@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1979-011
+same_as: EVENT-NAISSANCE-NATALIE-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-04-16
 precision_date: exact
@@ -42,6 +45,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-012
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-04-17
 precision_date: exact
@@ -79,6 +84,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-013
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-05-24
 precision_date: exact
@@ -114,6 +121,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-014
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-07
 precision_date: approximate
@@ -155,6 +164,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-015
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-08-31
 precision_date: exact
@@ -193,6 +204,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-016
+same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-09-01
 precision_date: exact
@@ -231,6 +245,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-017
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-09-08
 precision_date: exact
@@ -270,6 +286,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-018
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-09-22
 precision_date: exact_or_same_night_after_gig
@@ -306,6 +324,10 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-019
+same_as: EVENT-RENCONTRE-ANNIK-HONORE
+a_scinder_etape_10: true
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-08-13
 precision_date: exact
@@ -341,6 +363,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-020
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-08-24
 precision_date: exact

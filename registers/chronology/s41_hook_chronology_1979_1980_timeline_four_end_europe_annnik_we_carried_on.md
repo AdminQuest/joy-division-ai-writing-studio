@@ -3,6 +3,8 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-10-03-LEEDS-UNIVERSITY-BUZZCOCKS
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-03"
     evenement: >
@@ -15,6 +17,8 @@ chronology:
     statut: review à retrouver dans Sounds
 
   - id: CHR-S41-1979-10-08-DUNDEE-IAN-COLLAPSES
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-08"
     evenement: >
@@ -26,6 +30,8 @@ chronology:
     statut: repère médical live à croiser
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS-TIMELINE
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-16"
     evenement: >
@@ -39,6 +45,8 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-26-ELECTRIC-BALLROOM
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-26"
     evenement: >
@@ -51,6 +59,9 @@ chronology:
     statut: concert et ethos live à croiser
 
   - id: CHR-S41-1979-11-CORBIJN-PHOTO-SESSION
+    same_as: EVENT-SEANCE-PHOTO-CORBIJN
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1979-11"
     evenement: >
@@ -63,6 +74,8 @@ chronology:
     statut: archive photographique établie
 
   - id: CHR-S41-1979-11-02-BOURNEMOUTH-HOSPITAL
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-11-02"
     evenement: >
@@ -75,6 +88,10 @@ chronology:
     statut: repère médical live établi à croiser avec S45
 
   - id: CHR-S41-1979-11-09-10-RAINBOW-THEATRE
+    date_precision: intervalle
+    date_debut: 1979-11-09
+    date_fin: 1979-11-10
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-11-09/1979-11-10"
     evenement: >
@@ -87,6 +104,9 @@ chronology:
     statut: jalon live londonien
 
   - id: CHR-S41-1979-11-26-SECOND-PEEL-SESSION
+    same_as: EVENT-DEUXIEME-PEEL-SESSION
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-11-26"
     evenement: >
@@ -100,6 +120,8 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-12-18-LES-BAINS-DOUCHES
+    date_precision: jour
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-12-18"
     evenement: >
@@ -113,6 +135,9 @@ chronology:
     statut: archive live majeure
 
   - id: CHR-S41-1979-12-31-FACTORY-OFFICE-PARTY
+    same_as: EVENT-FETE-FACTORY-NOUVEL-AN
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1979-12-31"
     evenement: >
@@ -125,6 +150,9 @@ chronology:
     statut: anecdote Factory à fonction conceptuelle
 
   - id: CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK
+    same_as: EVENT-TOURNEE-EUROPEENNE-1980
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1980-01"
     evenement: >
@@ -141,6 +169,9 @@ chronology:
     statut: séquence de tournée à croiser avec dates détaillées
 
   - id: CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE
+    same_as: EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1980-01"
     evenement: >

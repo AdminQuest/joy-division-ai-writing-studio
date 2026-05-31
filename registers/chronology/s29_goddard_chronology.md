@@ -8,6 +8,8 @@ Ce fichier complète le registre chronologique avec les repères réellement uti
 
 ```yaml
 id: CHR-S29-1977-001
+date_precision: annee
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S29
 source_label: "S29 — Goddard, Missions of Dead Souls, 2018"
@@ -37,6 +39,8 @@ prudence: "Repère culturel rétrospectif, non événement biographique de Joy D
 
 ```yaml
 id: CHR-S29-1979-001
+date_precision: annee
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S29
 source_label: "S29 — Goddard, Missions of Dead Souls, 2018"
@@ -67,6 +71,8 @@ prudence: "Ne pas réduire la chanson à son titre littéraire ; ne pas citer lo
 
 ```yaml
 id: CHR-S29-1980-001
+date_precision: annee
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S29
 source_label: "S29 — Goddard, Missions of Dead Souls, 2018"
@@ -94,6 +100,8 @@ prudence: "Résonance critique, non preuve d’influence directe."
 
 ```yaml
 id: CHR-S29-2017-001
+date_precision: annee
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S29
 source_label: "S29 — Goddard, Missions of Dead Souls, 2018"

@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-002
+same_as: EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-01-08
 precision_date: exact
@@ -47,6 +50,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-003
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-01-11
 precision_date: exact
@@ -87,6 +92,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-004
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-01-15
 precision_date: exact
@@ -122,6 +129,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-005
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-01-17
 precision_date: exact
@@ -160,6 +169,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-006
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-01-18
 precision_date: exact

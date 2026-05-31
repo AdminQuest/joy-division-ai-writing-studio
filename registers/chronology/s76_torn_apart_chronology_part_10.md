@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1979-006
+same_as: EVENT-PREMIERE-PEEL-SESSION
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-01-31
 precision_date: exact
@@ -49,6 +52,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-007
+same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-03-04
 precision_date: exact
@@ -90,6 +96,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-008
+date_precision: mois
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-03
 precision_date: early_march
@@ -124,6 +132,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-009
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-03-14
 precision_date: exact
@@ -163,6 +173,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-010
+same_as: EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY
+date_precision: mois
+categorie: jalon
 type_unite: chronology
 date: 1979-04
 precision_date: early_to_mid_april

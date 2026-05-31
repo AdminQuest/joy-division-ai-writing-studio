@@ -6,6 +6,9 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1976-07-20-SEX-PISTOLS
+date_precision: jour
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
+categorie: jalon
 source_id: S45
 date: 1976-07-20
 evenement: >
@@ -23,6 +26,8 @@ statut: événement établi ; interprétation mémorielle à encadrer
 
 ```yaml
 id: CHR-S45-1976-08-MONT-DE-MARSAN
+date_precision: mois
+categorie: contexte
 source_id: S45
 date: 1976-08
 evenement: >
@@ -39,6 +44,8 @@ statut: événement à recouper ; interprétation de Deborah
 
 ```yaml
 id: CHR-S45-1977-IGGY-POP-MANCHESTER
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -55,6 +62,8 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-05-BARTON-STREET
+date_precision: mois
+categorie: jalon
 source_id: S45
 date: 1977-05
 evenement: >
@@ -73,6 +82,9 @@ statut: stable ; pagination à verrouiller
 
 ```yaml
 id: CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS
+date_precision: jour
+same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
+categorie: jalon
 source_id: S45
 date: 1977-05-29
 evenement: >
@@ -89,6 +101,8 @@ statut: événement établi ; réception Morley à vérifier dans la presse orig
 
 ```yaml
 id: CHR-S45-1977-08-10-BROTHERDALE-PANIK
+date_precision: jour
+categorie: jalon
 source_id: S45
 date: 1977-08-10
 evenement: >
@@ -105,6 +119,9 @@ statut: témoignage direct ; détails à recouper
 
 ```yaml
 id: CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT
+date_precision: annee
+same_as: EVENT-ARRIVEE-STEPHEN-MORRIS
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >

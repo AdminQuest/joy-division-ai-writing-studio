@@ -10,6 +10,9 @@ Statut : entrées chronologiques ciblées, non exhaustives, issues de l'atomisat
 
 ```yaml
 id: CHR-S75-1976-002
+date_precision: jour
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
+categorie: jalon
 type_unite: chronology
 date: 1976-07-20
 precision_date: exact
@@ -43,6 +46,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-001
+same_as: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1977-07-18
 precision_date: exact
@@ -78,6 +84,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-002
+date_precision: circa
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10
 precision_date: approximate
@@ -116,6 +124,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-003
+same_as: EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1978-06
 precision_date: approximate
@@ -153,6 +164,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-004
+same_as: EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1978-10
 precision_date: approximate
@@ -186,6 +200,8 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-005
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-04-14
 precision_date: exact
@@ -223,6 +239,11 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-006
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
+date_precision: intervalle
+date_debut: 1978-05-01
+date_fin: 1978-05-05
+categorie: jalon
 type_unite: chronology
 date: 1978-05-01/1978-05-05
 precision_date: range
@@ -268,6 +289,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-007
+same_as: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1978-10-11
 precision_date: exact
@@ -307,6 +331,10 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-008
+same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
+a_scinder_etape_10: true
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1978-12-27
 precision_date: exact
@@ -346,6 +374,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-001
+same_as: EVENT-COUVERTURE-NME-IAN-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-01-13
 precision_date: exact
@@ -382,6 +413,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-002
+same_as: EVENT-PREMIERE-PEEL-SESSION
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979-01-31
 precision_date: inferred_or_to_verify
@@ -419,6 +453,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-003
+same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-03-04
 precision_date: exact

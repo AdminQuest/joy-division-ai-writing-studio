@@ -77,6 +77,9 @@ notes:
 
 ```yaml
 id: CHR-1956-001
+date_precision: jour
+same_as: EVENT-NAISSANCE-IAN-CURTIS
+categorie: jalon
 
 date: 1956-07-15
 precision_date: exact
@@ -123,6 +126,9 @@ notes: >
 
 ```yaml
 id: CHR-1976-001
+date_precision: jour
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
+categorie: jalon
 
 date: 1976-06-04
 precision_date: exact
@@ -175,6 +181,9 @@ notes: >
 
 ```yaml
 id: CHR-1978-001
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
+date_precision: circa
+categorie: jalon
 
 date: 1978-05
 precision_date: approximate
@@ -223,6 +232,9 @@ notes: >
 
 ```yaml
 id: CHR-1978-002
+same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
+date_precision: circa
+categorie: jalon
 
 date: 1978-12
 precision_date: approximate
@@ -275,6 +287,9 @@ notes: >
 
 ```yaml
 id: CHR-1979-001
+date_precision: circa
+same_as: EVENT-SORTIE-A-FACTORY-SAMPLE
+categorie: jalon
 
 date: 1979-01
 precision_date: approximate
@@ -327,6 +342,9 @@ notes: >
 
 ```yaml
 id: CHR-1979-002
+date_precision: jour
+same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
+categorie: jalon
 
 date: 1979-06-14
 precision_date: exact
@@ -383,6 +401,9 @@ notes: >
 
 ```yaml
 id: CHR-1980-001
+same_as: EVENT-CONCERT-DERBY-HALL-BURY
+date_precision: jour
+categorie: jalon
 
 date: 1980-04-08
 precision_date: exact
@@ -431,6 +452,9 @@ notes: >
 
 ```yaml
 id: CHR-1980-002
+date_precision: jour
+same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
+categorie: jalon
 
 date: 1980-05-02
 precision_date: exact
@@ -478,6 +502,9 @@ notes: >
 
 ```yaml
 id: CHR-1980-003
+date_precision: jour
+same_as: EVENT-MORT-IAN-CURTIS
+categorie: jalon
 
 date: 1980-05-18
 precision_date: exact
@@ -528,6 +555,9 @@ notes: >
 
 ```yaml
 id: CHR-1980-004
+date_precision: jour
+same_as: EVENT-SORTIE-CLOSER
+categorie: jalon
 
 date: 1980-07-18
 precision_date: exact

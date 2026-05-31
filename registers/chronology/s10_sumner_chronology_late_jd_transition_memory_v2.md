@@ -11,6 +11,8 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S10-1979-003
+    date_precision: annee
+    categorie: jalon
     date: 1979
     precision_date: annee
     event: "Après Unknown Pleasures, Joy Division travaille à dépasser le cadre sonore du premier album plutôt qu’à le reproduire."
@@ -22,6 +24,8 @@ events:
       - S10-A026
 
   - id: CHR-S10-1979-004
+    date_precision: annee
+    categorie: jalon
     date: 1979
     precision_date: annee
     event: "Transmission s’impose comme titre de consolidation entre énergie live, répétition, radio et injonction collective."
@@ -33,6 +37,8 @@ events:
       - S10-A027
 
   - id: CHR-S10-1979-005
+    date_precision: annee
+    categorie: jalon
     date: 1979
     precision_date: annee
     event: "Atmosphere et Dead Souls ouvrent une phase plus spectrale et cérémonielle du son Joy Division, associée à la séquence Sordide Sentimental."
@@ -45,6 +51,9 @@ events:
       - S10-A028
 
   - id: CHR-S10-1980-002
+    same_as: EVENT-SESSIONS-CLOSER-BRITANNIA-ROW
+    date_precision: annee
+    categorie: jalon
     date: 1980
     precision_date: annee
     event: "Joy Division enregistre Closer à Britannia Row Studios, dans une phase de déplacement géographique et d’intensification sonore."
@@ -58,6 +67,8 @@ events:
       - S10-A030
 
   - id: CHR-S10-1980-003
+    date_precision: annee
+    categorie: jalon
     date: 1980
     precision_date: annee
     event: "Ceremony et In a Lonely Place sont associés par Sumner aux derniers efforts créatifs autour de Curtis et au seuil Joy Division / New Order."
@@ -69,6 +80,8 @@ events:
       - S10-A031
 
   - id: CHR-S10-1980-004
+    date_precision: annee
+    categorie: jalon
     date: 1980
     precision_date: annee
     event: "La mort de Ian Curtis interrompt les projets du groupe et rend impossible la continuation sous le nom Joy Division."
@@ -83,6 +96,8 @@ events:
       - S10-A033
 
   - id: CHR-S10-1980-005
+    date_precision: annee
+    categorie: jalon
     date: 1980
     precision_date: annee
     event: "Les membres survivants cherchent une nouvelle voix et une nouvelle identité, préparant la naissance de New Order."
@@ -96,6 +111,8 @@ events:
       - S10-A034
 
   - id: CHR-S10-1981-001
+    date_precision: annee
+    categorie: reception_posthume
     date: 1981
     precision_date: annee
     event: "Movement paraît comme premier album de New Order, encore travaillé par le deuil et l’héritage de Joy Division."
@@ -109,6 +126,10 @@ events:
       - S10-A035
 
   - id: CHR-S10-2010S-001
+    date_precision: intervalle
+    date_debut: 2010
+    date_fin: 2019
+    categorie: reception_posthume
     date: "années 2010"
     precision_date: decade
     event: "Sumner constate la circulation mondiale et intergénérationnelle de Joy Division et New Order lors des tournées récentes."

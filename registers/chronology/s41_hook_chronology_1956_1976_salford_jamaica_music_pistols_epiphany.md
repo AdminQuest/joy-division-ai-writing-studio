@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1956-HOOK-BIRTH-SALFORD
+    same_as: EVENT-NAISSANCE-PETER-HOOK
+    date_precision: jour
+    categorie: jalon
     source_id: S41
     date: "1956-02-13"
     evenement: >
@@ -14,6 +17,10 @@ chronology:
     statut: événement autobiographique établi
 
   - id: CHR-S41-1962-1966-JAMAICA
+    date_precision: intervalle
+    date_debut: 1962
+    date_fin: 1966
+    categorie: jalon
     source_id: S41
     date: "1962/1966"
     evenement: >
@@ -26,6 +33,8 @@ chronology:
     statut: séquence autobiographique
 
   - id: CHR-S41-1966-RETURN-SALFORD
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1966"
     evenement: >
@@ -37,6 +46,9 @@ chronology:
     statut: événement familial rapporté
 
   - id: CHR-S41-1967-SALFORD-GRAMMAR-MEETS-SUMNER
+    same_as: EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1967"
     evenement: >
@@ -48,6 +60,8 @@ chronology:
     statut: datation approximative selon première année de grammar school
 
   - id: CHR-S41-1973-RHYL-SEBASTIAN
+    date_precision: annee
+    categorie: jalon
     source_id: S41
     date: "1973"
     evenement: >
@@ -60,6 +74,8 @@ chronology:
     statut: scène d’écoute autobiographique
 
   - id: CHR-S41-1976-04-MELODY-MAKER-PISTOLS
+    date_precision: mois
+    categorie: jalon
     source_id: S41
     date: "1976-04"
     evenement: >

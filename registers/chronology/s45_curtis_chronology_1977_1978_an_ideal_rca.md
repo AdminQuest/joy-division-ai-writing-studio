@@ -6,6 +6,8 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1977-09-TOPS-DEBORAH
+date_precision: mois
+categorie: jalon
 source_id: S45
 date: 1977-09
 evenement: >
@@ -22,6 +24,8 @@ statut: contexte domestique ; datation mensuelle donnée par S45
 
 ```yaml
 id: CHR-S45-1977-EMPLOYMENT-EXCHANGE
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -38,6 +42,8 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-EPILEPSY-COURSE
+date_precision: annee
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -54,6 +60,8 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+date_precision: jour
+categorie: concert_a_migrer
 source_id: S45
 date: 1977-10-02
 evenement: >
@@ -71,6 +79,9 @@ statut: événement établi ; détails discographiques à croiser
 
 ```yaml
 id: CHR-S45-1977-12-PENNINE-AN-IDEAL
+same_as: EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING
+date_precision: mois
+categorie: jalon
 source_id: S45
 date: 1977-12
 evenement: >
@@ -90,6 +101,9 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1977-12-31-SWINGING-APPLE
+same_as: EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE
+date_precision: jour
+categorie: jalon
 source_id: S45
 date: 1977-12-31
 evenement: >
@@ -106,6 +120,9 @@ statut: probable selon S45 ; à croiser avec gig lists
 
 ```yaml
 id: CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE
+same_as: EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION
+date_precision: mois
+categorie: jalon
 source_id: S45
 date: 1978-01
 evenement: >
@@ -124,6 +141,9 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1978-01-25-PIPS-FIRST-JD
+date_precision: jour
+same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
+categorie: jalon
 source_id: S45
 date: 1978-01-25
 evenement: >
@@ -139,6 +159,9 @@ statut: événement établi ; à croiser avec gig lists
 
 ```yaml
 id: CHR-S45-1978-04-RCA-ARROW
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
+date_precision: mois
+categorie: jalon
 source_id: S45
 date: 1978-04
 evenement: >

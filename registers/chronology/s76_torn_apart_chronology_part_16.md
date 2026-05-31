@@ -8,6 +8,8 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-020
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-02
 precision_date: exact
@@ -46,6 +48,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-021
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1980-04-03
 precision_date: exact
@@ -81,6 +85,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-022
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-04
 precision_date: exact
@@ -118,6 +124,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-023
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-05
 precision_date: exact
@@ -153,6 +161,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-024
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact
@@ -197,6 +207,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-025
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1980-04
 precision_date: after_Bury_before_late_April

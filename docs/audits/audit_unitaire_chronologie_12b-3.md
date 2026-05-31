@@ -1,0 +1,1033 @@
+# Audit unitaire — registre chronologie (préalable à l'étape 6 — refonte)
+
+> Audit **strictement diagnostic**, première brique de l'étape 6 (refonte de la
+> chronologie, registre fondateur). **Lecture seule** : aucun renommage d'ID,
+> aucune écriture de `same_as`, aucun changement de schéma, aucune édition de
+> donnée. On inventorie l'existant et on remonte les arbitrages.
+>
+> Date : 31/05/2026.
+> Périmètre : `registers/chronology/**/*.md` (lus comme le runtime
+> `apps/lib/dynamic-registers.js`) + `apps/chronology-register/`.
+> Doctrine : `docs/specs/cross_registres.md`, `docs/NAMING_CONVENTIONS.md` §10.
+> Décisions de cadrage appliquées comme grille de lecture :
+> **(a)** identifiant `EVENT-<SLUG>` sémantique, source-agnostique, **sans date dans l'ID** (la date est un champ) ;
+> **(b)** la chronologie est réservée aux **événements-JALONS** ; la date d'un concert ordinaire reste un attribut, pas un `EVENT`.
+
+---
+
+## A. Localisation
+
+| Élément | Chemin |
+|---|---|
+| Données | `registers/chronology/*.md` (62 fichiers Markdown, blocs YAML embarqués) |
+| Application | `apps/chronology-register/` (`app.js`, `index.html`, `style.css`) |
+| Chargement runtime | `apps/lib/dynamic-registers.js` — `loadRecords({ prefixes:['registers/chronology/', …], kinds:['chronology'] })` |
+| Gabarit de référence | `registers/chronology/master_chronology.md` (`schema: chronology_template`) |
+
+Le runtime n'a **aucun validateur dédié** (rien d'équivalent à
+`tools/validate_places.py`). Le rendu est tolérant : `app.js` lit
+`data.event || data.evenement`, `data.certainty || data.statut`, et trie par
+`date.localeCompare(numeric)`. **Il ne lit pas `label`** (cf. §F).
+
+---
+
+## B. Inventaire général
+
+| Mesure | Valeur |
+|---|---:|
+| Fichiers de données | 62 |
+| Entrées-événements (lignes `id:` d'événement) | **500** |
+| En-têtes d'unité v2 (`CHRONO-…-V2`, non-événements) | 8 |
+| Identifiants d'événement distincts (après dédup par chaîne) | 500 (aucune collision exacte) |
+
+### Manuelles anciennes vs atomisées v2
+
+| Famille | Fichiers | Événements | Forme d'ID | Champ-texte / atomes | Précision |
+|---|---:|---:|---|---|---|
+| **Atomisées v2** (`*_v2.md` : S02, S05, S06, S10×2, S12, S20, S69) | 8 | **80** | `CHR-Sxx-NNN` (positionnel, source-scopé) + en-tête `CHRONO-…-V2` | `event` / `related_atoms` | `precision_date` présent |
+| **Maître** (`master_chronology.md`) | 1 | 10 | `CHR-YYYY-NNN` (**source-agnostique**, année+positionnel) | `event` / `related_atoms` | `precision_date` présent |
+| **S76 — Torn Apart** | 17 | 101 | `CHR-S76-YYYY-NNN` (année+positionnel) | `event` / `related_atoms` | `precision_date` (vocab libre, cf. §D) |
+| **S75 — Ott** | 3 | 31 | `CHR-S75-YYYY-NNN` | `event` / `related_atoms` | `precision_date` présent |
+| **S34 — Fraser & Fuoto** | 1 | 6 | `CHR-S34-YYYY-NNN` (`type_unite: chronology_event`) | `event` / `related_atoms` | `precision_date` présent |
+| **S29 — Goddard** | 1 | 4 | `CHR-S29-YYYY-NNN` (`chronology_event`) | `event` / `related_atoms` | `precision_date` présent |
+| **S35 — Morris** | 3 | 17 | `CHR-S35-Pnn-YYYY-NNN` (part+année+positionnel) | **`label`** / **`atoms`** | **absent** |
+| **S41 — Hook** | 19 | **182** | `CHR-S41-[TLn-]YYYY[-MM[-DD]]-SLUG` (**date encodée + slug**) | **`evenement`** / **`atomes_lies`** | **absent** |
+| **S45 — Curtis** | 9 | 69 | `CHR-S45-YYYY[-MM[-DD]]-SLUG` (**date encodée + slug**) | **`evenement`** / **`atomes_lies`** | **absent** |
+
+Lecture : la moitié du volume (S41+S45 = 251 entrées, 50 %) suit une convention
+**date-dans-l'ID + champs francophones minimaux** ; l'autre moitié se répartit
+entre la convention v2 propre, le maître source-agnostique, et trois variantes
+positionnelles (S76/S75/S34/S29/S35).
+
+---
+
+## C. Identifiants
+
+### C.1. Combien de conventions coexistent ? — **six**
+
+| # | Convention | Exemple | Familles | Date dans l'ID ? | Source dans l'ID ? |
+|---|---|---|---|---|---|
+| 1 | Source-agnostique année+positionnel | `CHR-1980-003` | maître | **oui (année)** | non |
+| 2 | v2 positionnel source-scopé | `CHR-S02-001` | S02,S05,S06,S10,S12,S20,S69 | non | oui |
+| 3 | Source-scopé année+positionnel | `CHR-S76-1956-001` | S76, S75, S34, S29 | **oui (année)** | oui |
+| 4 | Source-scopé part+année+positionnel | `CHR-S35-P03-1969-001` | S35 | **oui (année)** | oui |
+| 5 | Source-scopé **date complète + slug** | `CHR-S41-1977-05-29-WARSAW-FIRST-GIG-ELECTRIC-CIRCUS` | S41, S45 | **oui (jusqu'au jour)** | oui |
+| 6 | En-tête d'unité v2 (espace de noms `CHRONO-`) | `CHRONO-S02-…-V2` | 8 v2 | non | oui |
+
+À quoi s'ajoute le préfixe `TL` (timeline) interne à S41 (`CHR-S41-TL2-…`,
+`CHR-S41-TL3-…`, 33 ID) — sous-convention de la convention 5.
+
+### C.2. IDs encodant une date — non conformes à la décision (a)
+
+| Granularité encodée dans l'ID | Nombre |
+|---|---:|
+| Jour (`…-YYYY-MM-DD…`) | 127 |
+| Mois sans jour (`…-YYYY-MM`) | 67 |
+| Au moins l'année | **454 / 500** |
+| Aucune date dans l'ID | 46 (v2 positionnels S02/S05/S06/S20/S69 + le singleton `…-VOTE-CONSERVATEUR`) |
+
+> Constat structurant : **454 ID sur 500 (91 %) encodent au moins l'année**, et
+> **194** encodent le mois ou le jour. La décision (a) impose un ID **sans date**.
+> Aucune des six conventions n'est conforme : même la plus propre (v2) reste
+> source-scopée et positionnelle, sans slug sémantique. Le futur `EVENT-<SLUG>`
+> est donc une **forme canonique entièrement nouvelle** ; la migration se fera,
+> comme pour les lieux, par **`same_as` additif sans renommage** (gel des schémas,
+> `cross_registres.md` §2.2).
+
+### C.3. Doublons & quasi-doublons (mêmes événements sous IDs différents)
+
+La chronologie est **partitionnée par source** : S41, S45, S75, S76 et le maître
+narrent chacun la même histoire du groupe. Le même fait réel apparaît donc sous
+plusieurs ID source-scopés → **candidats `same_as`**. Le runtime ne fusionnant
+sur rien, ces entrées produisent aujourd'hui des doublons d'affichage.
+
+Clusters confirmés (par recoupement date + texte) :
+
+| Cluster (fait réel) | Date | IDs concernés | Sources |
+|---|---|---|---|
+| Naissance de Ian Curtis | 1956-07-15 | `CHR-1956-001` · `CHR-S76-1956-001` | maître, S76 |
+| **Premier concert Warsaw, Electric Circus** | 1977-05-29 | `CHR-S41-1977-05-29-WARSAW-FIRST-GIG-ELECTRIC-CIRCUS` · `CHR-S41-TL2-1977-05-29-FIRST-WARSAW-GIG-REVIEW` · `CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS` · (S10 v2, S76 p03) | S41 (×2 !), S45, S10, S76 |
+| Dernier concert, Birmingham High Hall | 1980-05-02 | `CHR-1980-002` · `CHR-S41-1980-05-02-BIRMINGHAM-HIGH-HALL-LAST-GIG` · `CHR-S45-1980-05-02-BIRMINGHAM-FINAL-GIG` · (S75, S76 p17) | maître, S41, S45, S75, S76 |
+| Mort de Ian Curtis | 1980-05-18 | `CHR-1980-003` · `CHR-S41-1980-05-18-CURTIS-SUICIDE` · (S75, S76 p17) | maître, S41, S75, S76 |
+| Sortie *Unknown Pleasures* (FACT 10) | 1979-06-14 | `CHR-1979-002` · `CHR-S41-1979-06-14-UP-FACT10-RELEASE` · (S75) | maître, S41, S75 |
+| Sortie *Closer* (posthume) | 1980-07-18 | `CHR-1980-004` · `CHR-S41-1980-CLOSER-RELEASE-POSTHUMOUS` · (S45) | maître, S41, S45 |
+| Arrivée de Stephen Morris | 1977-08 / 1977 | `CHR-S41-1977-08-STEVE-MORRIS-JOINS` · `CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT` | S41, S45 — **dates divergentes** (cf. §F) |
+
+**Quasi-doublon à NE PAS fusionner** (piège, analogue à `FREE-TRADE-HALL` vs
+`LESSER-FREE-TRADE-HALL` de l'audit lieux) :
+
+- Concert Sex Pistols au Lesser Free Trade Hall — **deux gigs distincts** :
+  - `CHR-1976-001` (maître) = **4 juin 1976** (1er concert, daté `1976-06-04`) ;
+  - `CHR-S45-1976-07-20-SEX-PISTOLS` + `CHR-S75-1976-002` = **20 juillet 1976**
+    (2e concert, « second concert » explicite chez Ott).
+  → S45 et S75 sont `same_as` **entre eux** (même 2e gig) ; ni l'un ni l'autre
+    n'est `same_as` du maître. Le maître datant `1976-06-04` (1er gig) reste distinct.
+
+**Duplication intra-source (S41)** : les fichiers `…timeline_two…` (TL2) et
+`…timeline_three…` (TL3) ré-énoncent des événements déjà présents dans les
+fichiers narratifs S41 (ex. premier concert Warsaw : TL2 *et*
+`…warsaw_first_gigs…`). Doublons **à l'intérieur d'une même source** → à
+réconcilier aussi.
+
+### C.4. Mapping proposé vers `EVENT-<SLUG>` — **proposition, non appliquée**
+
+Dérivation selon `NAMING_CONVENTIONS` §10.2.2 (repli ASCII, capitales,
+non-alphanum → tiret, retrait des jetons de source/index/date) :
+
+| Fait réel | Slug canonique proposé | Date (champ) | `same_as` à poser (legacy → canonique) |
+|---|---|---|---|
+| Naissance Ian Curtis | `EVENT-NAISSANCE-IAN-CURTIS` | 1956-07-15 | `CHR-1956-001`, `CHR-S76-1956-001` |
+| Premier concert Warsaw, Electric Circus | `EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS` | 1977-05-29 | les 4-5 ID du cluster |
+| Dernier concert, Birmingham | `EVENT-DERNIER-CONCERT-BIRMINGHAM` | 1980-05-02 | les ~5 ID du cluster |
+| Mort de Ian Curtis | `EVENT-MORT-IAN-CURTIS` | 1980-05-18 | les ~4 ID du cluster |
+| Sortie *Unknown Pleasures* | `EVENT-SORTIE-UNKNOWN-PLEASURES` | 1979-06-14 | les 3 ID du cluster |
+| Sortie *Closer* | `EVENT-SORTIE-CLOSER` | 1980-07-18 | les 3 ID du cluster |
+| 2e concert Sex Pistols, Lesser FTH | `EVENT-SEX-PISTOLS-LESSER-FTH-1976-07-20` (*) | 1976-07-20 | `CHR-S45-1976-07-20-SEX-PISTOLS`, `CHR-S75-1976-002` |
+
+(*) qualificateur de désambiguïsation **à arbitrer** (cf. §Décisions — slugs ambigus).
+
+---
+
+## D. Dates
+
+### D.1. Formats en présence
+
+Deux registres de notation **cohabitent** : ISO (`YYYY`, `YYYY-MM`,
+`YYYY-MM-DD`, intervalles `YYYY-MM-DD/YYYY-MM-DD`) et **prose française**
+(`30 juillet 1977`, `janvier 1979`, `été 1977`, `années 1960`,
+`seconde moitié du XXe siècle`). Le tri runtime (`localeCompare` numérique sur la
+chaîne) mêle donc des clés ISO et des clés prose → ordre non fiable pour les
+entrées prose.
+
+### D.2. Distribution par précision (500 entrées, normalisée d'après la valeur `date:`)
+
+| Catégorie | Nombre | Détail |
+|---|---:|---|
+| `jour` | **212** | 210 ISO `YYYY-MM-DD` + 2 prose (`30 juillet 1977`, `26 mai 1977`) |
+| `annee` | **134** | `YYYY` |
+| `mois` | **107** | 103 ISO `YYYY-MM` + 4 prose (`janvier 1979`, `avril 1978`…) |
+| `intervalle` | **34** | 32 plages `…/…` (ex. `1980-05-17/1980-05-18`) + 2 `YYYY-YYYY` (`1881-1886`, `2013-2014`) |
+| `circa` (décennie/vague) | **10** | `années 1960` (×2), `début des années 1970`, `milieu des années 1960`, `années 1990`, `années 2010`, `fin 1976`, `seconde moitié du XXe siècle`, `à préciser` |
+| `saison` | **3** | `été 1977`, `été 1976`, `Noël 1978` |
+
+> Note : la catégorie `circa` ci-dessus regroupe décennies + formulations vagues
+> (la grille de cadrage à 6 termes n'a pas de bucket « décennie » distinct — **à
+> arbitrer** si l'on veut le créer).
+
+### D.3. Vocabulaire `precision_date` déclaré — incohérent et à normaliser
+
+Le champ `precision_date` n'existe que sur **233 / 500 entrées** (les familles à
+champs anglais). Il est **absent de S41, S45 (251 entrées) et S35 (17)** — pour
+elles la précision n'est lisible que dans la chaîne `date:`. Là où il existe, il
+compte **~40 valeurs distinctes**, mélangeant :
+
+- termes FR : `annee` (59), `mois` (5), `periode` (5), `saison` (1), `decade` (5) ;
+- termes EN : `exact` (79), `year` (5), `month` (4), `approximate` (18), `approx` (3), `range` (5), `spring`/`summer` ;
+- **texte libre** (intégralement dans S76) : `overnight_session`, `during_Closer_sessions`,
+  `before_Britannia_Row_sessions`, `after_1978-05-05`, `exact_or_same_night_after_gig`,
+  `same_sequence_as_Gretton_rehearsal_entry`, `inferred_or_to_verify`, etc.
+
+→ Aucun vocabulaire contrôlé. La refonte devra mapper vers un jeu fermé
+(proposé : `jour | mois | saison | annee | circa | intervalle`).
+
+### D.4. Cas problématiques
+
+- **Date manquante / placeholder** : `s45_curtis_chronology_vote_conservateur.md`
+  porte `date: à préciser` (entrée non datable en l'état).
+- **Statuts « datation à préciser »** : ~20 entrées (surtout S45, S41) signalent
+  en `statut`/`notes` que la date est incertaine — non bloquant mais à tracer.
+- **Dates impossibles / intervalles incohérents** : **aucun** intervalle inversé
+  détecté (18 plages au jour vérifiées, début ≤ fin). RAS sur ce point.
+- **Dates hors période du groupe** (légitimes mais à classer, cf. §E) :
+  `1881-1886` (S20, histoire du logement), `1962/1966` (S41, enfance Hook en
+  Jamaïque), `2007` / `2017` / `années 1990` / `années 2010` / `2013-2014`
+  (S29/S34 — réception critique posthume).
+
+---
+
+## E. Frontière jalon / date ordinaire
+
+Application de la décision (b) : seuls les **jalons** ont vocation à devenir
+`EVENT-`. Trois classes ressortent.
+
+### E.1. JALONS (légitimes en chronologie)
+
+Naissance/mort de Curtis ; formation et changements de nom (Stiff Kittens →
+Warsaw → Joy Division) ; arrivée de Morris ; signature Factory ; sorties
+discographiques (*A Factory Sample*, *Unknown Pleasures*, *Closer*, singles) ;
+**premier** et **dernier** concert ; premier *fit* documenté ; suicide et
+funérailles. Ce sont les ancres temporelles du graphe.
+
+### E.2. Dates de concert ordinaires — candidates à **NE PAS** devenir `EVENT`
+
+S41 et S45 contiennent une **dense liste de concerts datés** (Rafters,
+Newcastle, le Squat, Eric's Liverpool, Middlesbrough Rock Garden, Salford
+Technical College…). Exemples typiques :
+
+- `CHR-S41-1977-05-31-RAFTERS-HEARTBREAKERS`
+- `CHR-S41-1977-06-06-NEWCASTLE-SLEEPING-BAG`
+- `CHR-S41-1977-08-27-ERICS-LIVERPOOL`
+- `CHR-S41-1977-09-14-MIDDLESBROUGH-BOB-LAST`
+- `CHR-S45-1977-08-10-BROTHERDALE-PANIK`
+
+Ce sont des **dates de concert routinières** : leur place naturelle est le
+**futur registre concerts (`CONCERT-`, étape 10)**, où la date sera un attribut
+(`a_pour_date`). Elles ne devraient pas être promues en `EVENT-` individuels.
+Volume indicatif : la majorité des 95 ID à granularité « jour » de S41/S45 sont
+des gigs → **plusieurs dizaines d'entrées limites**.
+
+### E.3. « Événements » de réception / lecture critique — statut à arbitrer
+
+S29 (Goddard) et S34 (Fraser & Fuoto) encodent comme « événements » des
+**interprétations critiques** (`certainty: interpretation_critique`),
+ex. `CHR-S29-2017-001` (mort de Mark Fisher), `CHR-S34-2007-001` (documentaire
+Grant Gee), `CHR-S34-1979-001` (*Unknown Pleasures* « comme forme spatiale »).
+Ce ne sont **ni des jalons biographiques, ni des concerts** : repères de
+réception posthume / lecture savante. À arbitrer : restent-ils dans la
+chronologie, ou relèvent-ils d'un registre concepts/réception (étape 11) ?
+
+---
+
+## F. Qualité
+
+### F.1. Contradictions version manuelle ↔ v2 (ou inter-sources) d'un même événement
+
+- **Arrivée de Stephen Morris** : S41 date `1977-08` ; S45 date `1977`
+  (bare year). Même fait, **précision/datation divergente** — à trancher à la
+  réconciliation `same_as`.
+- **Concert Sex Pistols au Lesser FTH** : risque de **fusion erronée** entre le
+  4 juin (maître) et le 20 juillet (S45/S75) — cf. §C.3. À garder distincts.
+- **Naissance Ian Curtis** : maître situe à *Old Trafford* ; S76 à *Basford
+  House, Old Trafford* — pas une contradiction, mais granularité de lieu à
+  unifier au moment du lien `a_pour_lieu`.
+- Plusieurs entrées portent des `contradictions:` explicites internes (champ du
+  gabarit), ex. `CHR-S76-1972-001` (« témoignage unique… date exacte à
+  recouper ») — traçabilité présente, à exploiter.
+
+### F.2. Champs manquants / hétérogènes
+
+| Champ | Présent sur … / 500 | Familles déficientes |
+|---|---:|---|
+| `precision_date` | 232 | absent de **S41, S45, S35** (268 entrées) |
+| `location` | 215 | absent de S41, S45, S35 (référents de lieu noyés dans le texte) |
+| `people` | 181 | absent de S41, S45, S35 |
+| `type` | 222 | absent de S41, S45, S35 |
+| champ-texte | 500 | mais **3 noms** : `event` / `evenement` / `label` |
+| atomes | 500 | **3 noms** : `related_atoms` / `atomes_lies` / `atoms` |
+| certitude | 500 | **2 noms** : `certainty` / `statut` (et `statut` mêle datation + certitude) |
+
+> **Correctif (clôture, méthode unique)** : les comptes des §C.2 et §F.2 sont
+> recalculés sur les **500 seuls enregistrements-événements** (bloc gabarit
+> `schema: chronology_template` exclu, une seule méthode). §C.2 : la granularité
+> *jour* passe de 95 à **127** (l'ancien filtre sous-comptait 32 ID multi-segments,
+> p. ex. `CHR-S41-TL2/TL3-…` ; tous vérifiés correctement classés/canonicalisés).
+> §F.2 : chaque champ perd **−1** (gabarit retiré).
+
+**Bug de rendu** : `app.js` lit `event||evenement` mais **pas `label`** → les
+**17 entrées S35** s'affichent avec un texte d'événement vide. De même, le filtre
+de recherche et l'export CSV ignorent `label`. (Constat ; correctif hors
+périmètre de cet audit.)
+
+`certainty` détourné : S29/S34 y mettent des valeurs non prévues par le gabarit
+(`interpretation_critique`, `source_secondaire`) au lieu de `strong|medium|weak`.
+
+---
+
+## G. Cross-readiness (préparation au maillage `liens`)
+
+### G.1. Champs de liaison — **absents partout**
+
+| Champ | Occurrences |
+|---|---:|
+| `same_as` | **0** |
+| `liens` | **0** |
+| `reference_croisee` | **0** |
+
+Aucune infrastructure de liaison n'est encore posée — conforme à
+`cross_registres.md` (spécification de conception, implémentation par les
+refontes). La couche d'identité (`same_as`) **et** la couche de relation
+(`liens`) sont à câbler par cette refonte de l'étape 6. Selon la règle de
+direction (§3.3 de la spec), l'`EVENT` est un **nœud fondateur** : peu/pas de
+liens sortants ; ce sont les concerts/sessions qui pointeront vers lui
+(`a_pour_date` → `ancre`).
+
+### G.2. Références implicites en texte libre (futurs liens)
+
+Les entités qui deviendront des cibles `<TYPE>-<SLUG>` sont aujourd'hui en
+**texte libre** :
+
+- **Lieux** (`location`, 216 occ. + nombreuses mentions noyées dans `event`/
+  `evenement` pour S41/S45) : « Electric Circus », « Rafters », « Strawberry
+  Studios », « Britannia Row »… → futurs `PLACE-` (`a_pour_lieu`, ét. 10).
+- **Personnes** (`people`, 182 occ.) : « Ian Curtis », « Martin Hannett »,
+  « Rob Gretton », « Tony Wilson »… → futurs `PERSON-` (ét. 8).
+- **Organisations** (dans le texte) : « Factory Records », « RCA », « Granada
+  Television »… → futurs `ORG-` (ét. 9).
+- **Chansons** (`songs`, 22 occ.) : « Shadowplay », « Transmission », « Dead
+  Souls »… → futurs `SONG-`.
+
+Ces mentions sont exploitables comme amorces de liens, mais **non normalisées**
+(libellés libres, accents, variantes) : leur résolution vers des identifiants
+canoniques est un chantier de la refonte / du maillage (ét. 11).
+
+---
+
+## H. Synthèse
+
+| Axe | État |
+|---|---|
+| Volume | 500 événements, 62 fichiers |
+| Conventions d'ID | **6** coexistantes ; **91 % encodent une date** ⇒ toutes non conformes à la décision (a) |
+| Doublons inter-sources | ≥ 7 clusters `same_as` confirmés + duplication intra-S41 (timelines) |
+| Dates | 2 systèmes de notation (ISO / prose FR) ; `precision_date` absent sur 268 entrées, ~40 valeurs ailleurs |
+| Jalon vs concert | dizaines de gigs S41/S45 = dates ordinaires (→ registre concerts, ét. 10) |
+| Cross-readiness | `same_as`/`liens`/`reference_croisee` **= 0** ; références entièrement en texte libre |
+
+---
+
+## Décisions à arbitrer
+
+*(rien n'est tranché ici — à valider avant toute écriture)*
+
+### 1. Doublons à réconcilier par `same_as`
+
+- Valider les **7 clusters** du §C.3 (naissance Curtis ; 1er concert Warsaw ;
+  dernier concert Birmingham ; mort de Curtis ; sorties *UP* et *Closer* ;
+  arrivée de Morris) comme arêtes `same_as` vers les slugs `EVENT-` proposés
+  (§C.4).
+- Trancher la **duplication intra-S41** (fichiers `timeline_two`/`timeline_three`
+  vs fichiers narratifs) : `same_as` interne, ou choix d'un porteur canonique ?
+- **Arrivée de Morris** : retenir `1977-08` (S41) ou `1977` (S45) comme date du
+  fait fusionné ?
+
+### 2. Entrées limites jalon / concert
+
+- Confirmer la règle (b) : les **gigs ordinaires** S41/S45 (Rafters, Newcastle,
+  Eric's, Middlesbrough…) **ne deviennent pas** des `EVENT-` et sont réservés au
+  futur registre `CONCERT-` (étape 10). Quels gigs font exception (= jalons) :
+  uniquement 1er et dernier concert, ou aussi les nuits Factory fondatrices ?
+- Statut des **« événements » de réception critique** S29/S34 (docu Grant Gee
+  2007, mort de Fisher 2017, lectures de *UP*) : maintenus en chronologie, ou
+  déplacés vers concepts/réception (étape 11) ?
+
+### 3. Slugs ambigus
+
+- **« ELECTRIC-CIRCUS »** désigne **trois** événements distincts (1976-12-09
+  « hate coat » ; 1977-05-29 premier concert Warsaw ; 1977-10-02 nuit de clôture
+  *Short Circuit*). Le slug doit encoder **l'événement**, pas le lieu : quelle
+  forme retenir (`EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS` vs un slug plus
+  court) ?
+- **Sex Pistols au Lesser Free Trade Hall** : deux gigs (4 juin / 20 juillet
+  1976). Quelle stratégie de désambiguïsation des slugs — suffixe de date
+  (`-1976-06-04` / `-1976-07-20`, mais cela réintroduit une date dans l'ID,
+  contraire à (a)), suffixe ordinal (`-1`/`-2`), ou qualificateur sémantique ?
+- **Catégorie de précision « décennie »** : la grille à 6 termes (`jour, mois,
+  saison, annee, circa, intervalle`) n'a pas de bucket dédié aux 10 entrées de
+  type décennie/vague. Les ranger en `circa`, ou créer un 7e terme `decennie` ?
+
+---
+
+# ANNEXE — État post-canonicalisation (brique d'identité, étape 6)
+
+> Mise à jour : 31/05/2026. Cette annexe consigne l'**implémentation** de la
+> brique d'identité (au-delà du diagnostic lecture-seule ci-dessus). Travail
+> **strictement additif**, conforme au gel : aucun ID legacy renommé, aucune
+> donnée existante réécrite ; seuls des champs optionnels sont ajoutés.
+> Outil : `tools/canonicalize_chronology.py` (phases `classification`, `canon`,
+> `precision`, `check`, `report`). Décisions de cadrage validées appliquées.
+
+## I.1. Classification (`categorie`) — 500 entrées
+
+| Catégorie | Nombre | Traitement |
+|---|---:|---|
+| `jalon` | 378 | reçoit (si réconcilié) un `EVENT-` canonique ; cœur de la chronologie |
+| `concert_a_migrer` | 76 | conservé, ID legacy gardé, **non** promu — migrera vers `CONCERT-` (étape 10) |
+| `reception_posthume` | 46 | conservé, étiqueté — relocalisation différée (étape 11) |
+
+Règles : sources interprétatives (S29, S34) et tout événement postérieur à 1980
+→ `reception_posthume` ; spine maître + formation/discographie/line-up/décès +
+concerts premier/dernier/significatifs → `jalon` ; gigs ordinaires → `concert_a_migrer`.
+
+## I.2. Canonicalisation `EVENT-<SLUG>` — 11 jalons, 39 arêtes `same_as`
+
+Fichier : `registers/chronology/events_canonical.md`. Slugs sémantiques,
+source-agnostiques, **sans date dans l'ID**. Chaque legacy d'un cluster porte
+`same_as: EVENT-…` (append-only) dans son fichier source.
+
+| `EVENT-` canonique | Date | `same_as` |
+|---|---|---:|
+| `EVENT-NAISSANCE-IAN-CURTIS` | 1956-07-15 | 2 |
+| `EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER` | 1976-06-04 | 4 |
+| `EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND` | 1976-07-20 | 4 |
+| `EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS` | 1977-05-29 | 5 |
+| `EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS` | 1978-01-25 | 5 |
+| `EVENT-ARRIVEE-STEPHEN-MORRIS` | 1977-08 | 2 |
+| `EVENT-SORTIE-A-FACTORY-SAMPLE` | 1979-01 | 2 |
+| `EVENT-SORTIE-UNKNOWN-PLEASURES` | 1979-06-14 | 4 |
+| `EVENT-DERNIER-CONCERT-BIRMINGHAM` | 1980-05-02 | 5 |
+| `EVENT-MORT-IAN-CURTIS` | 1980-05-18 | 4 |
+| `EVENT-SORTIE-CLOSER` | 1980-07-18 | 2 |
+
+- Les **deux** concerts Sex Pistols (4 juin / 20 juillet 1976) sont désambiguïsés
+  par qualificateur **ordinal** (`-PREMIER` / `-SECOND`), jamais par date — ils
+  ne sont **pas** fusionnés.
+- La **duplication intra-S41** (fichiers `timeline` vs narratifs) est réconciliée
+  par `same_as` pour les jalons concernés (ex. premier concert Warsaw : 2 entrées
+  S41 collapsées). **Dette signalée** (non traitée ici) : à terme, une timeline
+  devrait être une *vue dérivée* et non un doublon stocké.
+- `EVENT-` canonique reconnu comme kind `chronology` (build + loader). Le préfixe
+  legacy source-scopé `EVENT-S\d+-` est **exclu** (cf. I.4).
+
+## I.3. `date_precision` — 500 entrées
+
+| Précision | Nombre |
+|---|---:|
+| `jour` | 206 |
+| `annee` | 117 |
+| `mois` | 89 |
+| `circa` | 43 |
+| `intervalle` | 38 (champs `date_debut` / `date_fin`) |
+| `saison` | 7 |
+
+Inférée honnêtement de la donnée existante, **jamais plus précise que la source** :
+une date ISO complète dont la source porte `approximate` est rangée en `circa`
+(pas `jour`). Les décennies pleines (« années 1960 ») deviennent un `intervalle`
+borné (1960/1969) ; les décennies partielles (« début des années 1970 ») restent
+`circa`. Décision retenue : **pas de 7e terme « décennie »** — absorbé par `circa`
+ou `intervalle`. Le placeholder unique « à préciser » → `circa`, sans valeur inventée.
+
+## I.4. Découverte — préfixe legacy `EVENT-S41-` non canonique (hors périmètre)
+
+Quatre entrées **pré-existantes** squattent le namespace `EVENT-` sous forme
+**source-scopée + date-encodée**, dans le **registre des chansons** (et non la
+chronologie) : `EVENT-S41-M5-VAN-ACCIDENT-1979`,
+`EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31`, `EVENT-S41-WILSON-REFUGE-AFTER-BURY`,
+`EVENT-S41-DEBBIE-ANNIK-CO-RESPONDENT-CALL` (`registers/songs/s41_*`). Elles ont
+une forme de fiche-chanson (`titre`/`usage`, sans `date`/`event`). Laissées **en
+l'état** (registre chansons = refonte distincte) et **exclues** de la
+reconnaissance `EVENT-`→chronologie via le motif `EVENT-S\d+-`. **À arbitrer** :
+réconciliation ultérieure vers des `EVENT-<SLUG>` canoniques.
+
+## I.5. Chaîne de cohérence
+
+- `tools/canonicalize_chronology.py --phase check` : 39 `same_as` résolus,
+  **0** cible manquante, **0** date impossible, **0** intervalle inversé.
+- `tools/build_registers.py --strict` : **errors = 0** (chronology = 488 ;
+  +11 canoniques ; entrée S75 récupérée).
+- Sentinelle anti-drift (`tools/check_generated_sync.py`) : **OK** (exports
+  régénérés ; churn d'horodatage écarté).
+
+## I.6. Cas FLAGGÉS — à arbitrer (ne pas trancher unilatéralement)
+
+`categorie` est renseignée partout par la règle ; les cas ci-dessous sont
+remontés pour validation (heuristique de confiance moindre).
+
+- **`context_urbain` (20)** — registres urbains/sociaux v2 (S02, S05, S06, S12,
+  S20) : ni jalon du groupe, ni concert, ni réception posthume. Classés `jalon`
+  par défaut faute de 4e catégorie. **Arbitrage** : créer une catégorie
+  `contexte` ? les déplacer en étape 11 ?
+- **`perf_mixte` (33)** — l'entrée mentionne une performance **mais** porte aussi
+  un fait non-scénique (crise, accident, session, presse, « assiste à »…) :
+  classées `jalon` (à confirmer entrée par entrée pour d'éventuelles bascules
+  vers `concert_a_migrer`).
+- **`jalon_concert_significatif` (10)** — gig retenu comme `jalon` car proche d'un
+  mot-clé de significativité (dernier concert Warsaw au Swinging Apple,
+  Eric's premier concert avec Morris, Pips after-gap, Derby Ajanta avant-dernier,
+  3e concert Pistols à l'Electric Circus…). **Arbitrage** : lesquels sont de
+  vrais jalons vs des gigs ordinaires à migrer ?
+
+Liste exhaustive des identifiants flaggés : `python3 tools/canonicalize_chronology.py --phase report`.
+
+---
+
+# ANNEXE II — Passe d'arbitrage : reclassements (étape 6)
+
+> Mise à jour : 31/05/2026. Applique les arbitrages validés sur les cas flaggés
+> de l'annexe I. **Additif** : seul le champ `categorie` est réécrit (aucun ID
+> touché, aucune donnée supprimée). Outil : `--phase reclassify`. Convention de
+> catégories : `docs/conventions/categories_chronologie.md`.
+
+## II.1. Quatrième catégorie — `contexte`
+
+Les 20 entrées flaggées `context_urbain` (registres urbains/sociaux S02, S05,
+S06, S20) ne sont ni jalon du groupe, ni concert, ni réception posthume : ce sont
+des repères **contextuels**. Création de la catégorie **`contexte`** (vocabulaire
+de catégories désormais à 4 valeurs). Ces entrées sont **exclues** de la
+canonicalisation `EVENT-` ; relocalisation différée (étape 11).
+
+## II.2. Reclassements appliqués
+
+| Origine (flag) | Décision | Nb |
+|---|---|---:|
+| `context_urbain` | → `contexte` | 20 |
+| `perf_mixte` (gig ordinaire + remarque accolée) | → `concert_a_migrer` | 8 |
+| `jalon_concert_significatif` (proximité ordinale, pas de transition) | → `concert_a_migrer` | 4 |
+
+`perf_mixte → concert_a_migrer` (8) : Middlesbrough/Bob Last, YMCA Londres,
+Leeds/Buzzcocks, Plan K Bruxelles, Check Inn Altrincham, Moonlight/Rainbow (S45),
+Band On The Wall, 3e concert Pistols (S76). `jalon_concert_significatif →
+concert_a_migrer` (4) : Derby Ajanta (avant-dernier), 3e gig Pistols (HATE-COAT),
+Pips after-gap, séquence Squat (multi-dates). Décisions conservées en `jalon` :
+dernier concert Warsaw (Swinging Apple), Eric's 1er avec Morris, dernier gig de
+Tony Tabac (line-up), Barton Street, premier concert en tête d'affiche.
+
+## II.3. Comptes après reclassement (500 entrées)
+
+| Catégorie | Avant | **Après** |
+|---|---:|---:|
+| `jalon` | 378 | **346** |
+| `concert_a_migrer` | 76 | **88** |
+| `reception_posthume` | 46 | **46** |
+| `contexte` | 0 | **20** |
+
+## II.4. Cas conservés FLAGGÉS (non tranchés)
+
+- **`perf_mixte` bundlées (≈13)** — gig **+** fait distinct porteur de sens
+  (Rafters + offre Gretton ; Hope & Anchor + 1re crise ; Short Circuit + 1er
+  enregistrement Virgin ; démos Genetic + gig ; Nashville + Annik ; Bournemouth +
+  crise ; Rainbow + crise ; van accident ; Lyceum/Bristol + crise) : laissées en
+  `jalon`, **à SCINDER à l'étape 10** (gig → `CONCERT-`, fait → `EVENT-`).
+- **Concerts d'autres artistes auxquels assiste le groupe (4)** — Lou Reed (1974),
+  Bowie (1972), Iggy Pop (1977), Factory night au Scala (1980) : `jalon` mineur /
+  formatif. **Arbitrage** : `contexte` / `reception` ?
+- **Cohérence `contexte`** — 26 entrées des registres urbains (S02/S05/S06/S12/S20)
+  datées **hors 1976-1980** restent en `reception_posthume`. **Arbitrage** :
+  les basculer aussi en `contexte` ?
+- **Morris « voit l'annonce »** (`CHR-S35-P05-1977-ETE-001`) : maintenu `jalon`
+  **distinct** de `EVENT-ARRIVEE-STEPHEN-MORRIS`, jamais en `same_as` (beat narratif).
+
+---
+
+# ANNEXE III — Regroupement des jalons restants (diagnostic)
+
+> Diagnostic **lecture seule** (aucune écriture). Analyse des **307** entrées
+> encore en `jalon` après reclassement, **non** canonicalisées (ni `EVENT-`, ni
+> `same_as`). Objectif : compter les événements distincts et préparer la 2e
+> canonicalisation. Méthode : regroupement par date normalisée + recoupement de
+> texte ; les clés à granularité jour sont fiables, les clés mois/année
+> sur-fusionnent et sont signalées.
+
+## III.1. Synthèse
+
+| Regroupement | Nb | Lecture |
+|---|---:|---|
+| Clusters **JOUR** multi-sources (= 1 événement) | **23** | candidats à un **nouvel `EVENT-`** (ou facettes) |
+| Clusters **MOIS** multi-sources | 15 | **sur-fusion** : plusieurs événements distincts → à désambiguïser |
+| Clusters **ANNÉE** multi-sources | 10 | trop grossier → à désambiguïser |
+| Entrées à **date singleton** | 85 | événements distincts mono-source — **aucune réconciliation** requise |
+| Clés à **duplication intra-source** (même source, même date) | 30 | doublons internes (surtout S41 timeline/narratif) |
+
+Estimation : les 23 clusters-jour + 85 singletons ≈ **~108 événements distincts
+nets** ; les 25 clusters mois/année recouvrent un nombre indéterminé
+d'événements additionnels (à séparer entrée par entrée avant toute canonicalisation).
+
+## III.2. Clusters JOUR multi-sources (statut)
+
+| Date | Événement | Statut |
+|---|---|---|
+| 1977-07-18 | Premières démos Warsaw (Pennine Sound) | nouvel `EVENT-` |
+| 1977-12-31 | Dernier concert sous le nom Warsaw (Swinging Apple) | nouvel `EVENT-` |
+| 1978-05-03 | Sessions album RCA / Arrow Studios | nouvel `EVENT-` (cf. mois 1978-05) |
+| 1978-09-20 | Débuts télévisés, Granada Reports « Shadowplay » | nouvel `EVENT-` (dup intra-S41) |
+| 1978-10-11 | Enregistrement « Digital »/« Glass » (A Factory Sample, Cargo) | nouvel `EVENT-` |
+| 1978-12-27 | Premier concert londonien (Hope & Anchor) **+ première crise** | nouvel `EVENT-` — ⚠ bundle |
+| 1979-01-13 | Couverture NME de Ian Curtis | nouvel `EVENT-` |
+| 1979-01-23 | Diagnostic d'épilepsie | nouvel `EVENT-` (dup intra-S41) |
+| 1979-01-31 | Première Peel Session | nouvel `EVENT-` |
+| 1979-03-04 | Démos Genetic (Eden, Rushent) | nouvel `EVENT-` — ⚠ bundle gig Marquee |
+| 1979-04-16 | Naissance de Natalie Curtis | nouvel `EVENT-` |
+| 1979-05-24 | Crise majeure de Curtis | nouvel `EVENT-` — ⚠ slug ambigu |
+| 1979-08-13 | Annik Honoré voit le groupe (Nashville Rooms) | nouvel `EVENT-` — ⚠ bundle / dup intra-S41 |
+| 1979-12-31 | Fête Factory / dernier réveillon | nouvel `EVENT-` — ⚠ cadrages divergents |
+| 1980-04-04 | Crise au Rainbow Theatre (stroboscopes) | nouvel `EVENT-` — ⚠ bundle gig+crise |
+| 1980-04-07 | Overdose de phénobarbital | nouvel `EVENT-` |
+| 1980-04-08 | Concert du Derby Hall, Bury (état critique) | nouvel `EVENT-` |
+| 1980-04-16 | Premier anniversaire de Natalie (manqué) | ⚠ jalon mineur — arbitrer |
+| 1980-04-25 | (S45 vidéo LWTUA) **vs** (S76 Factory night Scala) | ⚠ **dates coïncidentes, événements différents** — NE PAS fusionner |
+| 1980-05-16 | Derniers contacts (Hook / deadline Stroszek) | ⚠ facettes des derniers jours |
+| 1980-05-17 | Dernière journée / dernière nuit à Macclesfield | ⚠ facettes (à grouper ?) |
+| 1980-05-18 | Hook puis Annik **apprennent** la mort | ⚠ facettes du jour du décès — **distinctes** de `EVENT-MORT-IAN-CURTIS`, **pas** `same_as` |
+
+## III.3. Duplication intra-source (S41) à réconcilier
+
+Paires même-source/même-date (au-delà des dup déjà collapsées en brique 1) :
+`1977-10-02` (Short Circuit, narratif + TL2), `1979-11-02` (Bournemouth, ×2),
+`1979-11-26` (deuxième Peel Session, ×2), plus les dup internes des clusters
+ci-dessus (`1978-09-20`, `1979-01-23`, `1979-08-13`). **Dette** : à terme la
+timeline S41 devrait être une *vue dérivée*, pas un doublon stocké.
+
+## III.4. Mauvais classements résiduels signalés
+
+- Aucun `reception_posthume` ou `contexte` détecté à tort parmi les jalons
+  restants (le tri date/source les a captés en amont).
+- Les clusters **mois** denses (`1979-10`, `1980-01`, `1980-03`, `1980-04`)
+  mêlent enregistrements, sorties, tournées, crises : **ne pas** les traiter
+  comme un événement unique.
+
+---
+
+# ANNEXE IV — Proposition de 2e canonicalisation (NON exécutée)
+
+> **Proposition pour revue. Aucune création d'`EVENT-`, aucune écriture de
+> `same_as` n'est faite dans cette passe.** À valider avant toute application.
+
+## IV.1. Nouveaux `EVENT-<SLUG>` proposés (slug sémantique, sans date)
+
+| `EVENT-` proposé | Date (champ) | Facettes (`same_as` à poser) |
+|---|---|---|
+| `EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND` | 1977-07-18 | S41-1977-07-18-WARSAW-DEMO-PENNINE · S75-1977-001 · S76-1977-005 |
+| `EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE` | 1977-12-31 | S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW · S45-1977-12-31-SWINGING-APPLE |
+| `EVENT-SESSIONS-RCA-ARROW-STUDIOS` | 1978-05 | S41-TL3-1978-05-03-04-ARROW-STUDIOS · S76-1978-005 · (CHR-1978-001 maître · S41-1978-05-ARROW-STUDIOS-RCA — à confirmer) |
+| `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY` | 1978-09-20 | S10-1978-005 · S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY · S41-TL3-1978-09-20-GRANADA-SHADOWPLAY |
+| `EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO` | 1978-10-11 | S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE · S75-1978-007 · S76-1978-016 |
+| `EVENT-COUVERTURE-NME-IAN-CURTIS` | 1979-01-13 | S45-1979-01-13-NME-COVER · S75-1979-001 |
+| `EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS` | 1979-01-23 | S41-1979-01-23-EPILEPSY-DIAGNOSIS · S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS · S45-1979-01-23-SPECIALIST-EPILEPSY · S76-1979-004 |
+| `EVENT-PREMIERE-PEEL-SESSION` | 1979-01-31 | S41-1979-01-31-FIRST-PEEL-SESSION · S75-1979-002 · S76-1979-006 |
+| `EVENT-DEMOS-GENETIC-EDEN-STUDIOS` | 1979-03-04 | S41-1979-03-04-EDEN-GENETIC-MARQUEE · S75-1979-003 · S76-1979-007 |
+| `EVENT-NAISSANCE-NATALIE-CURTIS` | 1979-04-16 | S41-1979-04-16-NATALIE-CURTIS-BORN · S45-1979-04-16-NATALIE-BIRTH · S76-1979-011 |
+| `EVENT-DEUXIEME-PEEL-SESSION` | 1979-11-26 | S41-1979-11-26-SECOND-PEEL-SESSION · S41-1979-11-26-SECOND-PEEL-LWTUA *(dup intra-S41)* |
+| `EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS` | 1980-04-07 | S45-1980-04-07-PHENOBARBITONE-OVERDOSE · S75-1980-006 |
+| `EVENT-CONCERT-DERBY-HALL-BURY` | 1980-04-08 | CHR-1980-001 · S45-1980-04-08-DERBY-HALL-BURY-RIOT |
+
+## IV.2. `same_as` à ajouter
+
+Une arête `same_as: EVENT-<canonique proposé>` par facette listée en IV.1
+(≈ 30 arêtes). À ne poser qu'après validation des slugs et des regroupements.
+
+## IV.3. Slugs ambigus / doublons incertains — à arbitrer
+
+- **Hope & Anchor 1978-12-27** : un seul `EVENT-` (premier concert londonien)
+  **ou deux** (concert + première crise majeure, qui est aussi narrée en
+  1978-12 « M1 Luton first fit » et en master) ? → bundle à trancher.
+- **Crise majeure 1979-05-24** : slug `EVENT-CRISE-MAJEURE-…` ambigu (plusieurs
+  crises documentées) — qualificateur sémantique requis.
+- **Annik / Nashville 1979-08-13** : événement = relation Annik Honoré ou gig ?
+  (bundle).
+- **Rainbow 1980-04-04** : crise (jalon) vs concert (gig) — bundle.
+- **Fête Factory 1979-12-31** : cadrages S41 (office party) vs S76 (« dernier
+  réveillon ») — même événement ?
+- **1980-04-25** : NE PAS fusionner (vidéo LWTUA ≠ Factory night Scala, même date).
+- **Facettes des 16-18 mai 1980** : derniers jours, derniers contacts,
+  notification du décès — **distinctes** de `EVENT-MORT-IAN-CURTIS` ; à
+  conserver séparées (ou regrouper en « derniers jours » ?) — à trancher.
+- **Premier anniversaire de Natalie (1980-04-16)** : jalon mineur — garder en
+  jalon ou rétrograder ?
+- **Clusters mois/année (25)** : à désambiguïser entrée par entrée **avant** tout
+  `EVENT-`.
+- **Sessions RCA/Arrow** : périmètre exact (contact RCA, sessions, remise des
+  bandes) à délimiter avant canonicalisation.
+
+## IV.4. Singletons (85)
+
+Événements distincts mono-source : **aucune réconciliation** requise. Les plus
+significatifs deviendront des `EVENT-` à la création de leur registre cible ;
+les autres restent des jalons mono-source. Non listés ici (cf.
+`--phase report` / regroupement).
+
+---
+
+# ANNEXE V — 2e canonicalisation : exécution (étape 6)
+
+> Exécution des arbitrages validés. **Additif, gel respecté.** Outil :
+> `--phase reclassify | canon | tag`.
+
+## V.1. Nouveaux jalons-ancres `EVENT-` créés (13) — total **24**
+
+Critère retenu : `EVENT-` = jalon-**ancre** (référencé par un autre registre, ou
+tête de timeline : session, sortie, line-up, décès, gig marquant, diagnostic,
+session radio/TV), **pas** tout jalon.
+
+| `EVENT-` | Date | `same_as` |
+|---|---|---:|
+| `EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND` | 1977-07-18 | 3 |
+| `EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE` | 1977-12-31 | 2 |
+| `EVENT-SESSIONS-RCA-ARROW-STUDIOS` | 1978-05 | 4 |
+| `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY` | 1978-09-20 | 3 |
+| `EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO` | 1978-10-11 | 3 |
+| `EVENT-COUVERTURE-NME-IAN-CURTIS` | 1979-01-13 | 2 |
+| `EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS` | 1979-01-23 | 4 |
+| `EVENT-PREMIERE-PEEL-SESSION` | 1979-01-31 | 3 |
+| `EVENT-NAISSANCE-NATALIE-CURTIS` | 1979-04-16 | 3 |
+| `EVENT-DEUXIEME-PEEL-SESSION` | 1979-11-26 | 2 |
+| `EVENT-FETE-FACTORY-NOUVEL-AN` | 1979-12-31 | 2 |
+| `EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS` | 1980-04-07 | 2 |
+| `EVENT-CONCERT-DERBY-HALL-BURY` | 1980-04-08 | 2 |
+
+Total : **24 `EVENT-`** (11 + 13), **74 `same_as`** (39 + 35). *Fête Factory du
+Nouvel An* (A2) : un seul événement, deux cadrages S41/S76 réconciliés, divergence
+en `prudence_methodologique`.
+
+## V.2. Bascules `contexte` (A3) — total **52**
+
+| Bascule | De | Nb |
+|---|---|---:|
+| Registres urbains hors ère 1976-1980 (vérifiés : aucun n'est une réception JD) | `reception_posthume` | 26 |
+| Concerts d'autres artistes assistés (Lou Reed, Hawkwind, Bowie ×2, Television/Blondie, Iggy Pop) | `jalon` | 6 |
+
+## V.3. Comptes par catégorie (500 entrées)
+
+| Catégorie | Avant | **Après** |
+|---|---:|---:|
+| `jalon` | 346 | **340** |
+| `concert_a_migrer` | 88 | **88** |
+| `reception_posthume` | 46 | **20** |
+| `contexte` | 20 | **52** |
+
+## V.4. Non fusionnés / non canonicalisés (A4, A5)
+
+- **Facettes des 16-18 mai 1980** (derniers jours, derniers contacts, notification
+  du décès à Hook puis Annik) : restent des `jalon` **distincts**, **aucun**
+  `same_as` vers `EVENT-MORT-IAN-CURTIS` ; pas de bucket « derniers jours ».
+- **1980-04-25** : vidéo *Love Will Tear Us Apart* (S45) et Factory night au Scala
+  (S76) restent **deux événements distincts** — non fusionnés.
+- **Bundles** (gig + fait distinct dans un seul enregistrement) : Hope & Anchor
+  (1978-12-27), Nashville/Annik (1979-08-13), Rainbow (1980-04-04),
+  Genetic/Marquee (1979-03-04). Restent `jalon`, étiquetés
+  `a_scinder_etape_10: true` (10 entrées), **non canonicalisés** ici — la
+  scission gig/fait se fera à la création du registre `CONCERT-` (étape 10).
+
+## V.5. Chaîne
+
+`--phase check` : 74 `same_as` résolus, 0 date impossible, 0 intervalle inversé ·
+`build_registers --strict` errors=0 (chronology 501) · sentinelle anti-drift OK.
+
+---
+
+# ANNEXE VI — Propositions (NON exécutées)
+
+> **Pour revue. Aucune écriture.** Après la 2e canonicalisation : 266 jalons
+> restent non canonicalisés (ni `EVENT-`, ni `same_as`). Listes exhaustives via
+> `tools/canonicalize_chronology.py --phase report` + regroupement.
+
+## VI.B1 — Filtre de signification sur les singletons (80)
+
+80 entrées-jalon à date unique. Filtre ancre/tête-de-timeline vs beat narratif :
+**42 candidats-ancre**, **38 beats nus**. Dispositions proposées :
+
+### a) Candidats `EVENT-` (ancres mono-source) — proposition de slugs
+
+| Événement | Date | `EVENT-` proposé |
+|---|---|---|
+| Naissance de Bernard Sumner | 1956-01-04 | `EVENT-NAISSANCE-BERNARD-SUMNER` |
+| Naissance de Peter Hook | 1956-02-13 | `EVENT-NAISSANCE-PETER-HOOK` |
+| Mariage de Ian & Deborah Curtis | 1975-08-23 | `EVENT-MARIAGE-IAN-DEBORAH-CURTIS` |
+| Ian Curtis rejoint le groupe | 1976-12 | `EVENT-IAN-CURTIS-REJOINT-LE-GROUPE` |
+| Enregistrement d'*An Ideal for Living* (Pennine) | 1977 | `EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING` |
+| Sortie 7″ / 12″ *An Ideal for Living* | 1978-06-03 / 1978-10-10 | `EVENT-SORTIE-AN-IDEAL-FOR-LIVING` (1 ou 2 ?) |
+| Sortie *Short Circuit – Live at the Electric Circus* | 1978-06-09 | `EVENT-SORTIE-SHORT-CIRCUIT` |
+| Première soirée Factory (Russell Club) | 1978-05-19 | `EVENT-PREMIERE-SOIREE-FACTORY` |
+| Sessions *Unknown Pleasures* (Strawberry) | 1979-03-31/05-02 | `EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY` |
+| Sessions « Transmission » (Central Sound / Strawberry) | 1979-07 | `EVENT-SESSIONS-TRANSMISSION` |
+| Session Piccadilly Radio | 1979-06-04 | `EVENT-SESSION-PICCADILLY-RADIO` |
+| Tournée Buzzcocks (Joy Division en support) | 1979-08 | `EVENT-TOURNEE-BUZZCOCKS-SUPPORT` |
+
+Iconographie (séances Cummins 1979-01-06, Corbijn 1979-11), mariage Sumner-Barlow
+(1978-10-28), naissance Carole Curtis (1960) : **ancres mineures à arbitrer**
+(EVENT- ou jalon nu ?).
+
+### b) Singletons captés par le filtre mais **contextuels** → proposer `contexte`
+
+Sorties / événements d'**autres artistes** servant de repère : *Ziggy Stardust*
+(1972), *Low* de Bowie (1977), *Spiral Scratch* des Buzzcocks (1977-01), affaire
+Grundy / *Anarchy* (1976-12-01), sortie Panik (1977-11), festival de Mont de
+Marsan (1976-08), mort de Hendrix (1970), Reading Festival 1975. → bascule
+`contexte` à valider.
+
+### c) Death-vicinity (derniers jours) → rester `jalon` distinct (A4)
+
+Dernier rendez-vous epilepsy clinic (1980-05-06), dernière photographie
+(1980-05-13), appels d'Annik (1980-05-14/17) : **ne pas** canonicaliser, **pas**
+de `same_as` vers `EVENT-MORT-IAN-CURTIS`.
+
+### d) Beats nus (38) → restent `jalon`
+
+Beats narratifs fins, mono-source (visites, scènes domestiques, lectures,
+anecdotes de tournée) : aucun `EVENT-`.
+
+## VI.B2 — Individuation des clusters mois/année (28)
+
+Les clés mois/année **ne sont pas des événements uniques** : elles agrègent des
+événements distincts par grossièreté de date. Aucune ne doit devenir un seul
+`EVENT-`. Décomposition proposée pour les plus denses :
+
+| Cluster | Nb | Événements distincts à individuer (extrait) |
+|---|---:|---|
+| **1977** | 11 | décision DIY *An Ideal* · session Pennine · échec pressage · collision « Warsaw Pakt » · stabilisation post-Morris · son JD (basse) · installation T. J. Davidson's · Gretton pré-manager — **events séparés**, certains fusionnent avec B1 (AIL) |
+| **1978** | 21 | sessions RCA/Greendow · AIL Pennine · Musicians Collective · *A Factory Sample* (financement) · Granada/Shadowplay · Gretton manager · concours Stiff/Chiswick — plusieurs **doublons inter-sources** (Granada, Gretton, AIL) → `same_as` vers EVENT- existants/proposés |
+| **1979** | 17 | Granada « She's Lost Control » · accident van M5 · tournée Buzzcocks (pro / crises / Leeds) · phase post-UP · Atmosphere/Dead Souls — events séparés |
+| **1979-01** | 5 | Gretton manager plein temps · offre Peel · 1re Peel session (→ `same_as` `EVENT-PREMIERE-PEEL-SESSION`) · transfert masters RCA · épilepsie « carried on » |
+| **1979-04** | 5 | sessions UP Strawberry (→ `same_as` candidat) · naissance Natalie (→ `same_as` `EVENT-NAISSANCE-NATALIE-CURTIS`) · track-by-track |
+| **1979-10** | 5 | sessions Atmosphere/Licht · sorties Earcom/Sordide/Autosuggestion · concerts Apollo · tournée nationale — **multi-événements** |
+| **1980-01** | 5 | tournée européenne (→ `same_as` candidat) · retour Pernod/Bible · arrêt des concerts annoncé |
+| **1980-03** | 12 | sessions *Closer* Britannia Row · flats York Street · crise « toilet fit » · U2/Hannett · pochette Saville · Candy à Rochdale — **multi-événements** |
+| **1980-05** | 3 | funérailles & wake · retour au travail / « Dreams Never End » — distincts du décès |
+
+Pré-1977 (1966-1976) : repères biographiques scolaires/familiaux (Sumner, Hook,
+Morris, Curtis) — surtout des **beats** ou ancres mineures mono-source ; quelques
+doublons inter-sources (Barton Street 1977-05 : S45 + S76 → `same_as` candidat).
+
+**Recommandation** : individualiser chaque cluster mois/année **avant** toute
+canonicalisation ; n'en promouvoir en `EVENT-` que les ancres (sessions, sorties,
+line-up, télévision, tournées), réconcilier les doublons inter-sources par
+`same_as`, laisser les beats en `jalon` nu.
+
+---
+
+# ANNEXE VII — Exécution complète du socle (étape 6)
+
+> Dernière passe. Exécute B1 (singletons-ancres) + flags tranchés (vague b1) puis
+> B2 (clusters mois/année, vague b2). Additif, gel respecté. Outil :
+> `--phase canon --wave {b1|b2}`. Cadrage : `EVENT-` = jalon-**ancre**
+> (référençable / tête de timeline) ; beat narratif fin → `jalon` nu.
+
+## VII.B1 — Singletons-ancres + flags tranchés (vague b1)
+
+**23 nouveaux `EVENT-`** (→ 47 au total après b1), **+50 `same_as`**.
+
+| Catégorie | `EVENT-` créés |
+|---|---|
+| Biographie | `EVENT-NAISSANCE-BERNARD-SUMNER` · `EVENT-NAISSANCE-PETER-HOOK` · `EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR` · `EVENT-MARIAGE-IAN-DEBORAH-CURTIS` · `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` |
+| Identité / lieu / line-up | `EVENT-CHANGEMENT-NOM-WARSAW-JOY-DIVISION` · `EVENT-INSTALLATION-TJ-DAVIDSONS` · `EVENT-DEPART-TONY-TABAC` |
+| Discographie | `EVENT-ENREGISTREMENT-AN-IDEAL-FOR-LIVING` · `EVENT-SORTIE-AN-IDEAL-FOR-LIVING-7-POUCES` · `EVENT-REEDITION-AN-IDEAL-FOR-LIVING-12-POUCES` · `EVENT-ENREGISTREMENT-SHORT-CIRCUIT-ELECTRIC-CIRCUS` · `EVENT-SORTIE-SHORT-CIRCUIT-LIVE` |
+| Management / scène | `EVENT-ROB-GRETTON-DEVIENT-MANAGER` · `EVENT-PREMIERE-SOIREE-FACTORY` |
+| TV / radio | `EVENT-SESSION-PICCADILLY-RADIO` · `EVENT-TELEVISION-WHATS-ON-SHES-LOST-CONTROL` · `EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE` |
+| Iconographie (flag tranché) | `EVENT-SEANCE-PHOTO-CUMMINS-PRINCESS-PARKWAY` · `EVENT-SEANCE-PHOTO-CORBIJN` · `EVENT-POCHETTE-CLOSER-STAGLIENO` · `EVENT-TOURNAGE-VIDEO-LOVE-WILL-TEAR-US-APART` |
+| Funérailles | `EVENT-FUNERAILLES-IAN-CURTIS` |
+
+**Flags tranchés exécutés** : *An Ideal for Living* → **deux** `EVENT-`
+distincts (`-7-POUCES` original / `-12-POUCES` réédition, désambiguïsation par
+format, jamais par date) ; Cummins et Corbijn → `EVENT-` (iconographie).
+
+**Bascules `contexte` (B1)** : sorties / faits d'autres artistes captés par le
+filtre d'ancre → `contexte` (9) : Ziggy Stardust, *Low*, *Spiral Scratch*,
+épisode Grundy, sortie Panik, Mont de Marsan, mort de Hendrix, Reading 1975,
+Pistols à la TV (*So It Goes*).
+
+**Redescendus / laissés `jalon` nu** : Carole Curtis, mariage Sumner-Barlow
+(périphériques) ; **38 beats** narratifs fins ; **death-vicinity** (dernière
+clinique 1980-05-06, dernière photo 1980-05-13, appels d'Annik) — **jamais**
+`same_as` vers `EVENT-MORT-IAN-CURTIS`.
+
+Additions de facettes à des `EVENT-` existants (réconciliation `same_as`) :
+`EVENT-SESSIONS-RCA-ARROW-STUDIOS` (+3), `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY`
+(+1), `EVENT-PREMIERE-PEEL-SESSION` (+1), `EVENT-SORTIE-A-FACTORY-SAMPLE` (+1).
+
+## VII.B2 — Individuation des clusters mois/année (vague b2)
+
+**7 nouveaux `EVENT-`** (→ **54 au total**, **152 `same_as`**) issus de la
+décomposition des clusters denses :
+
+| `EVENT-` | Date | Cluster d'origine |
+|---|---|---|
+| `EVENT-SESSIONS-UNKNOWN-PLEASURES-STRAWBERRY` | 1979-04 | sessions UP (6 facettes inter-sources) |
+| `EVENT-SESSIONS-TRANSMISSION` | 1979-07 | sessions « Transmission » (Central Sound + Strawberry) |
+| `EVENT-SESSIONS-LICHT-UND-BLINDHEIT` | 1979-10/11 | sessions Atmosphere / Dead Souls (Sordide) |
+| `EVENT-SESSIONS-CLOSER-BRITANNIA-ROW` | 1980-03 | sessions *Closer* (cœur du cluster 1980-03) |
+| `EVENT-TOURNEE-BUZZCOCKS` | 1979 | tournée Buzzcocks (support) |
+| `EVENT-TOURNEE-EUROPEENNE-1980` | 1980-01 | tournée européenne |
+| `EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE` | 1980-01 | retour de tournée (Pernod / couteau / Bible) |
+
+Les autres facettes des clusters denses (sessions RCA/Arrow déjà canonique)
+ont reçu un `same_as` vers leur ancre. Les **beats** non-ancres restent `jalon`
+nu.
+
+## VII.C — État final
+
+| Mesure | Valeur |
+|---|---:|
+| `EVENT-` canoniques | **54** |
+| arêtes `same_as` | **152** |
+| `jalon` (dont 179 sans canonique = beats / ancres mineures) | 331 |
+| `concert_a_migrer` | 88 |
+| `contexte` | 61 |
+| `reception_posthume` | 20 |
+| entrées `a_scinder_etape_10` | 10 |
+
+## VII.D — Cas ENCORE flaggés (arbitrage final)
+
+- **Clusters denses non entièrement individués** (découpage non forcé) :
+  - **1979-10** : au-delà des sessions Licht, restent distincts la sortie
+    *Earcom 2* (FAST), la sortie FAC 13 « Transmission », les concerts de
+    l'Apollo, la tournée nationale — à canonicaliser/séparer séparément.
+  - **1980-03** : au-delà des sessions *Closer*, restent « toilet fit » (crise),
+    flats York Street, rencontre U2/Hannett, mix LWTUA, départ du chien Candy,
+    lettres à Annik — facettes distinctes non fusionnées.
+  - **1977 / 1978** (clusters année) : nombreuses entrées DIY/AIL/management/
+    Factory déjà réconciliées ; le reste laissé en `jalon` (beats) faute de
+    découpage net.
+- **Genetic / Marquee (1979-03-04)** : maintenu `jalon` + `a_scinder_etape_10`
+  (décision A5 antérieure), **non** canonicalisé — à confirmer (les facettes
+  S75/S76 « démos Genetic » seules pourraient fonder un `EVENT-`).
+- **Bundles `a_scinder_etape_10` (10)** : Hope & Anchor, Nashville/Annik,
+  Rainbow — scission gig/fait à l'étape 10.
+- **Ancres mineures redescendues** : duo Sumner-Hook (apprentissage, été 1976),
+  fiançailles Curtis (1974-04), Musicians' Collective — laissées `jalon`,
+  promotion en `EVENT-` à arbitrer.
+- **`EVENT-SORTIE-EARCOM-2`, `EVENT-SORTIE-FAC13-TRANSMISSION`** : sorties
+  mono-source non créées (membres trop minces / bundlés) — à arbitrer.
+- **Slug** `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` vs forme « rejoint le
+  groupe » : à valider.
+
+Listes exhaustives : `python3 tools/canonicalize_chronology.py --phase report`.
+
+---
+
+# ANNEXE VIII — Clôture du socle (étape 6) : jeu d'EVENT- gelé
+
+> Dernière passe. Après celle-ci, le jeu d'identités `EVENT-` est **GELÉ**
+> (SCHEMA_FREEZE_POLICY plein : plus de renommage, additif seulement).
+
+## VIII.1. Derniers flags exécutés
+
+**8 nouveaux `EVENT-`** (→ **62 au total**, **173 `same_as`**) :
+
+| Flag | `EVENT-` créé(s) | Date |
+|---|---|---|
+| B1 (cluster 1979-10) | `EVENT-SORTIE-FAC13-TRANSMISSION` · `EVENT-SORTIE-EARCOM-2` | 1979-10 |
+| B1 (LWTUA) | `EVENT-ENREGISTREMENT-LOVE-WILL-TEAR-US-APART` | 1980-01/03 |
+| B2 (bundle Hope & Anchor) | `EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS` | 1978-12-27 |
+| B2 (bundle Nashville) | `EVENT-RENCONTRE-ANNIK-HONORE` | 1979-08-13 |
+| B2 (bundle Rainbow) | `EVENT-CRISE-RAINBOW-THEATRE` | 1980-04-04 |
+| B2 (bundle Genetic) | `EVENT-DEMOS-GENETIC-EDEN-STUDIOS` | 1979-03-04 |
+| B3 (genèse) | `EVENT-GENESE-DUO-SUMNER-HOOK` | 1976 |
+
+- **B2 — composantes** : la composante **non-concert** de chaque bundle (1re
+  crise, rencontre Annik, crise Rainbow, démos Genetic) devient un `EVENT-` ; la
+  composante **gig** reste une entrée résiduelle taguée `a_scinder_etape_10`
+  (**11** au total) — statut décidé à l'étape 10, **aucune donnée concert créée ici**.
+- **B3** : fiançailles Curtis (1974) → `jalon` nu ; Musicians' Collective → `contexte`.
+- **B4** : Earcom 2 et FAC 13 « Transmission » créés (membership mince assumée).
+- **B5** : `EVENT-RECRUTEMENT-IAN-CURTIS-CHANTEUR` → **`EVENT-RECRUTEMENT-IAN-CURTIS`**
+  (dernier renommage avant gel ; `same_as` legacy mis à jour).
+
+## VIII.2. État final gelé
+
+| Mesure | Valeur |
+|---|---:|
+| **`EVENT-` canoniques (gelés)** | **62** |
+| **arêtes `same_as`** | **173** |
+| `jalon` (dont ~156 beats / ancres mineures sans canonique) | 329 |
+| `concert_a_migrer` | 88 |
+| `contexte` | 63 |
+| `reception_posthume` | 20 |
+| entrées `a_scinder_etape_10` | 11 |
+
+`--phase check` : 173 `same_as` résolus, 0 date impossible, 0 intervalle inversé ·
+`build_registers --strict` errors=0 (chronology 539) · sentinelle anti-drift OK.
+
+## VIII.3. Résidus encore flaggés (post-clôture, hors gel EVENT-)
+
+- **Entrées-résumé non séparables** : `CHR-S41-1979-10-EARCOM-FAC13-SORDIDE-BUZZCOCKS`
+  (rattachée à FAC 13 mais couvre aussi Earcom 2 / Sordide / tournée) ; clusters
+  année 1977/1978/1979/1980 où des beats restent agrégés — à individuer en
+  étape 10/11 si besoin, sans forcer.
+- **Bundles `a_scinder_etape_10` (11)** : composante gig à extraire vers
+  `CONCERT-` à l'étape 10 (Hope & Anchor, Nashville, Rainbow, Genetic/Marquee).
+- **Beats `jalon` nus (~156)** : repères narratifs fins mono-source, non promus
+  (conformes au cadrage : ne deviennent pas `EVENT-`).
+- **Facettes des derniers jours (16-18 mai 1980)** : conservées `jalon` distinctes,
+  jamais `same_as` vers `EVENT-MORT-IAN-CURTIS` (inchangé).
+
+> **Gel** : toute évolution ultérieure du registre est désormais **additive**
+> (nouveaux `EVENT-` pour de nouveaux faits, nouveaux `same_as`) — aucun
+> renommage ni fusion rétroactive des 62 identités existantes.
+
+---
+
+# ANNEXE IX — Validateur + schéma (porte du gel, étape 6)
+
+## IX.1. Schéma `chronology_event` (A)
+
+`tools/schema_validation.py` reconnaît désormais l'identité canonique
+`chronology_event` (préfixe d'ID `EVENT-`) comme type d'unité distinct : requis
+`id, type_unite, label, date_precision, membres_reconcilies (≥1)` + contrainte
+**date XOR (date_debut+date_fin)** ; `type/certainty/location/people` optionnels.
+Les **124 warnings** Codex (`Missing required field: type|certainty` sur les 62
+canoniques) sont **levés par reconnaissance de schéma**. Les entrées chronology
+legacy (ID `CHR-`, dont S29/S34) conservent leurs requis.
+
+## IX.2. Validateur `tools/validate_chronology.py` (B)
+
+Gate-able (errors=0 ⇒ exit 0 ; sinon exit 1). Invariants :
+
+| Code | Invariant | Sévérité |
+|---|---|---|
+| INV1 | `same_as` cible un EVENT- existant ; pas de cycle ; pas de chaîne ; ≤1 par legacy | error |
+| INV2 | unicité (legacy ∈ 1 canonique ; slug unique) ; doublon heuristique | error / warning |
+| INV3 | `date_debut ≤ date_fin` ; aucune date impossible ; dates membres cohérentes | error / warning |
+| INV4 | honnêteté `date_precision` (≤ granularité réelle ; cohérence intervalle) | error |
+| INV5 | EVENT- = `jalon` ; `a_scinder_etape_10` ⇒ concert/flag ; contexte/réception sans same_as | error / warning |
+
+## IX.3. Résultat — **PORTE DU GEL : OUVERTE**
+
+`python3 tools/validate_chronology.py` → **errors = 0** (562 enregistrements,
+dont 62 canoniques). 2 warnings non bloquants, revus et bénins :
+- `INV2-dup-heur` : `EVENT-TOURNEE-EUROPEENNE-1980` vs
+  `EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE` — faux positif (même mois 1980-01,
+  jeton « europe » partagé) ; événements bien distincts.
+- `INV3-membre` : `EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR` — divergence de
+  source déjà documentée (S41 « 1967 » vs S10 « début des années 1970 »).
+
+Aucun invariant d'identité cassé (pas de doublon réel, pas de précision
+mensongère, pas de same_as brisé) : aucune correction requise.
+`build_registers --strict` errors=0 · sentinelle anti-drift OK.

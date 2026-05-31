@@ -8,6 +8,9 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1978-017
+same_as: EVENT-INSTALLATION-TJ-DAVIDSONS
+date_precision: annee
+categorie: jalon
 type_unite: chronology
 date: 1978
 precision_date: late_1978
@@ -48,6 +51,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-018
+date_precision: jour
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-07-15
 precision_date: exact
@@ -86,6 +91,10 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-019
+same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
+a_scinder_etape_10: true
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1978-12-27
 precision_date: exact
@@ -124,6 +133,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-004
+same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
+date_precision: jour
+categorie: jalon
 type_unite: chronology
 date: 1979-01-23
 precision_date: exact
@@ -158,6 +170,8 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-005
+date_precision: circa
+categorie: jalon
 type_unite: chronology
 date: 1979
 precision_date: after_diagnosis

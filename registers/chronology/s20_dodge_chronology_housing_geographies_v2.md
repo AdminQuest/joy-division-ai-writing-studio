@@ -11,6 +11,8 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S20-001
+    date_precision: circa
+    categorie: contexte
     date: 1780
     precision_date: decade
     event: "Début de l’industrialisation rapide de Manchester, qui entraîne une croissance urbaine peu planifiée et des problèmes massifs de logement ouvrier."
@@ -23,6 +25,8 @@ events:
       - S20-A001
 
   - id: CHR-S20-002
+    date_precision: annee
+    categorie: contexte
     date: 1837
     precision_date: annee
     event: "Victoria Park est planifié comme développement résidentiel bourgeois suburbain."
@@ -35,6 +39,10 @@ events:
       - S20-A003
 
   - id: CHR-S20-003
+    date_precision: intervalle
+    date_debut: 1881
+    date_fin: 1886
+    categorie: contexte
     date: "1881-1886"
     precision_date: range
     event: "Publication des cartes sanitaires de Richard Bastow dans les rapports du Medical Officer of Health de Manchester."
@@ -47,6 +55,8 @@ events:
       - S20-A004
 
   - id: CHR-S20-004
+    date_precision: annee
+    categorie: contexte
     date: 1904
     precision_date: annee
     event: "Thomas Marr et la Citizens’ Association of Manchester cartographient les conditions de logement de Manchester et Salford rue par rue."
@@ -60,6 +70,8 @@ events:
       - S20-A005
 
   - id: CHR-S20-005
+    date_precision: annee
+    categorie: contexte
     date: 1911
     precision_date: annee
     event: "Achèvement de Chorltonville, garden suburb de 270 maisons au sud de Manchester."
@@ -72,6 +84,8 @@ events:
       - S20-A006
 
   - id: CHR-S20-006
+    date_precision: annee
+    categorie: contexte
     date: 1926
     precision_date: annee
     event: "Manchester City Council achète le domaine de Wythenshawe à la famille Tatton pour développer une ville satellite de relogement."
@@ -84,6 +98,8 @@ events:
       - S20-A007
 
   - id: CHR-S20-007
+    date_precision: annee
+    categorie: contexte
     date: 1931
     precision_date: annee
     event: "Wythenshawe est formellement incorporé aux limites de Manchester City Council."
@@ -96,6 +112,8 @@ events:
       - S20-A007
 
   - id: CHR-S20-008
+    date_precision: annee
+    categorie: contexte
     date: 1945
     precision_date: annee
     event: "Le City of Manchester Plan programme une forte dédensification de Hulme et le déplacement massif de population."
@@ -108,6 +126,8 @@ events:
       - S20-A008
 
   - id: CHR-S20-009
+    date_precision: circa
+    categorie: contexte
     date: "milieu des années 1960"
     precision_date: periode
     event: "Développement des overspill estates comme Hattersley dans la région de Manchester."
@@ -120,6 +140,8 @@ events:
       - S20-A009
 
   - id: CHR-S20-010
+    date_precision: annee
+    categorie: contexte
     date: 1967
     precision_date: annee
     event: "Démolition achevée à Beswick avant la construction du Wellington Street estate."
@@ -133,6 +155,8 @@ events:
       - S20-A011
 
   - id: CHR-S20-011
+    date_precision: annee
+    categorie: contexte
     date: 1981
     precision_date: annee
     event: "Manchester City Council décide de démolir Fort Beswick."
@@ -145,6 +169,8 @@ events:
       - S20-A013
 
   - id: CHR-S20-012
+    date_precision: annee
+    categorie: contexte
     date: 1982
     precision_date: annee
     event: "Début de la démolition progressive de Fort Beswick et remplacement par des maisons conventionnelles de deux étages."
@@ -157,6 +183,10 @@ events:
       - S20-A013
 
   - id: CHR-S20-013
+    date_precision: intervalle
+    date_debut: 1990
+    date_fin: 1999
+    categorie: contexte
     date: "années 1990"
     precision_date: decade
     event: "Émergence du city centre living et gentrification des mills dans Manchester."
