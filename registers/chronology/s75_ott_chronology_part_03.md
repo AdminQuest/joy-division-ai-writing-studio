@@ -85,6 +85,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-006
+same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
 categorie: jalon
 type_unite: chronology
 date: 1979-06-14

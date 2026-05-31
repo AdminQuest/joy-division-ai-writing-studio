@@ -126,6 +126,7 @@ chronology:
     statut: scène médicale rapportée
 
   - id: CHR-S45-1980-05-02-BIRMINGHAM-FINAL-GIG
+    same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
     categorie: jalon
     source_id: S45
     date: "1980-05-02"

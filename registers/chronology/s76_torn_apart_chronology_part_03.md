@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1976-002
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
 categorie: jalon
 type_unite: chronology
 date: 1976-07-20
@@ -161,6 +162,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-003
+same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
 categorie: jalon
 type_unite: chronology
 date: 1977-05-29

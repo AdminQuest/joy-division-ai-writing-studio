@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-TL2-1976-06-04-LFTH
+    same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
     categorie: jalon
     source_id: S41
     date: "1976-06-04"
@@ -33,6 +34,7 @@ chronology:
     statut: repère discographique à croiser avec S24/New Hormones
 
   - id: CHR-S41-TL2-1977-05-29-FIRST-WARSAW-GIG-REVIEW
+    same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
     categorie: jalon
     source_id: S41
     date: "1977-05-29"

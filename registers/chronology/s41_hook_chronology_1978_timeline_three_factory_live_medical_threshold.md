@@ -16,6 +16,7 @@ chronology:
     statut: repère institutionnel Factory
 
   - id: CHR-S41-TL3-1978-01-25-PIPS-JOY-DIVISION
+    same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
     categorie: jalon
     source_id: S41
     date: "1978-01-25"

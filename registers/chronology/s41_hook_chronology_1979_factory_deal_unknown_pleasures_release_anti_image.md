@@ -72,6 +72,7 @@ chronology:
     statut: logistique discographique rapportée par Hook
 
   - id: CHR-S41-1979-06-UP-RELEASE-CRITICAL-ACCLAIM
+    same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
     categorie: jalon
     source_id: S41
     date: "1979-06"

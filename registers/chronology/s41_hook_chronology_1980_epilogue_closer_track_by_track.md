@@ -53,6 +53,7 @@ chronology:
     statut: analyse rétrospective track-by-track ; non événement 1980
 
   - id: CHR-S41-1980-CLOSER-RELEASE-POSTHUMOUS
+    same_as: EVENT-SORTIE-CLOSER
     categorie: jalon
     source_id: S41
     date: "1980-07"

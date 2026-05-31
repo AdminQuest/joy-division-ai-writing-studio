@@ -10,6 +10,7 @@ Statut : entrées chronologiques ciblées, non exhaustives, issues de l'atomisat
 
 ```yaml
 id: CHR-S75-1976-002
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
 categorie: jalon
 type_unite: chronology
 date: 1976-07-20

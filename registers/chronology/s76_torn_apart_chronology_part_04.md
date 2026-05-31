@@ -200,6 +200,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-001
+same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
 categorie: jalon
 type_unite: chronology
 date: 1978-01-25

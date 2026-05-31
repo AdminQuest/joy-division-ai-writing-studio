@@ -278,7 +278,11 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
     if "schema" in data:
         return "schema"
     record_id = str(data.get("id", ""))
-    if record_id.startswith("CHR-"):
+    # CHR- = entrée legacy ; EVENT-<SLUG> = identité canonique source-agnostique
+    # (étape 6). On exclut le préfixe source-scopé legacy EVENT-S\d+- (présent
+    # dans le registre des chansons), non canonique, laissé en l'état.
+    if record_id.startswith("CHR-") or (
+        record_id.startswith("EVENT-") and not re.match(r"EVENT-S\d+-", record_id)):
         return "chronology"
     if record_id.startswith("JD-CONCERT-"):
         return "concert"

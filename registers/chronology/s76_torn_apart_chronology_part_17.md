@@ -48,6 +48,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-027
+same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
 categorie: jalon
 type_unite: chronology
 date: 1980-05-02
@@ -202,6 +203,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-031
+same_as: EVENT-MORT-IAN-CURTIS
 categorie: jalon
 type_unite: chronology
 date: 1980-05-18

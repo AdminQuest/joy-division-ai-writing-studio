@@ -115,6 +115,7 @@ events:
       - S10-A010
 
   - id: CHR-S10-1976-001
+    same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
     categorie: jalon
     date: 1976-06-04
     precision_date: jour
@@ -168,6 +169,7 @@ events:
       - S10-A013
 
   - id: CHR-S10-1977-001
+    same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
     categorie: jalon
     date: 1977-05-29
     precision_date: jour
@@ -183,6 +185,7 @@ events:
       - S10-A015
 
   - id: CHR-S10-1978-001
+    same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
     categorie: jalon
     date: 1978-01-25
     precision_date: jour

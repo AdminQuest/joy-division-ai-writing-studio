@@ -30,6 +30,7 @@ chronology:
     statut: objet audiovisuel vérifiable
 
   - id: CHR-S41-1980-05-02-BIRMINGHAM-HIGH-HALL-LAST-GIG
+    same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
     categorie: jalon
     source_id: S41
     date: "1980-05-02"
@@ -70,6 +71,7 @@ chronology:
     statut: séquence sensible à croiser avec S45
 
   - id: CHR-S41-1980-05-18-CURTIS-SUICIDE
+    same_as: EVENT-MORT-IAN-CURTIS
     categorie: jalon
     source_id: S41
     date: "1980-05-18"

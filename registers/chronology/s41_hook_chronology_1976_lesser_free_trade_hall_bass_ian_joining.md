@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1976-06-04-LESSER-FREE-TRADE-HALL
+    same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
     categorie: jalon
     source_id: S41
     date: "1976-06-04"
@@ -31,6 +32,7 @@ chronology:
     statut: datation relative donnée par Hook
 
   - id: CHR-S41-1976-07-20-SECOND-PISTOLS-LFTH
+    same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
     categorie: jalon
     source_id: S41
     date: "1976-07-20"

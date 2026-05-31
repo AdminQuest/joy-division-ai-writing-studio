@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, int
 
 ```yaml
 id: CHR-S76-1956-001
+same_as: EVENT-NAISSANCE-IAN-CURTIS
 categorie: jalon
 type_unite: chronology
 date: 1956-07-15

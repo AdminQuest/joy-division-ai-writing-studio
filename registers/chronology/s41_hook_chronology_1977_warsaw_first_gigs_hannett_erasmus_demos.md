@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1977-05-29-WARSAW-FIRST-GIG-ELECTRIC-CIRCUS
+    same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
     categorie: jalon
     source_id: S41
     date: "1977-05-29"
@@ -109,6 +110,7 @@ chronology:
     statut: contexte biographique
 
   - id: CHR-S41-1977-08-STEVE-MORRIS-JOINS
+    same_as: EVENT-ARRIVEE-STEPHEN-MORRIS
     categorie: jalon
     source_id: S41
     date: "1977-08"

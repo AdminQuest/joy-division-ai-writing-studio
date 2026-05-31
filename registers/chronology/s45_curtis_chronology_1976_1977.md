@@ -6,6 +6,7 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1976-07-20-SEX-PISTOLS
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
 categorie: jalon
 source_id: S45
 date: 1976-07-20
@@ -77,6 +78,7 @@ statut: stable ; pagination à verrouiller
 
 ```yaml
 id: CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS
+same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
 categorie: jalon
 source_id: S45
 date: 1977-05-29
@@ -111,6 +113,7 @@ statut: témoignage direct ; détails à recouper
 
 ```yaml
 id: CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT
+same_as: EVENT-ARRIVEE-STEPHEN-MORRIS
 categorie: jalon
 source_id: S45
 date: 1977

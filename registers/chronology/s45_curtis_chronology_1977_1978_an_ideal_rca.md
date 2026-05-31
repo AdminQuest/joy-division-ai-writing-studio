@@ -131,6 +131,7 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1978-01-25-PIPS-FIRST-JD
+same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
 categorie: jalon
 source_id: S45
 date: 1978-01-25

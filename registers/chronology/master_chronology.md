@@ -77,6 +77,7 @@ notes:
 
 ```yaml
 id: CHR-1956-001
+same_as: EVENT-NAISSANCE-IAN-CURTIS
 categorie: jalon
 
 date: 1956-07-15
@@ -124,6 +125,7 @@ notes: >
 
 ```yaml
 id: CHR-1976-001
+same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
 categorie: jalon
 
 date: 1976-06-04
@@ -279,6 +281,7 @@ notes: >
 
 ```yaml
 id: CHR-1979-001
+same_as: EVENT-SORTIE-A-FACTORY-SAMPLE
 categorie: jalon
 
 date: 1979-01
@@ -332,6 +335,7 @@ notes: >
 
 ```yaml
 id: CHR-1979-002
+same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
 categorie: jalon
 
 date: 1979-06-14
@@ -438,6 +442,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-002
+same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
 categorie: jalon
 
 date: 1980-05-02
@@ -486,6 +491,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-003
+same_as: EVENT-MORT-IAN-CURTIS
 categorie: jalon
 
 date: 1980-05-18
@@ -537,6 +543,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-004
+same_as: EVENT-SORTIE-CLOSER
 categorie: jalon
 
 date: 1980-07-18

@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE
+    same_as: EVENT-SORTIE-A-FACTORY-SAMPLE
     categorie: jalon
     source_id: S41
     date: "1979-01"
@@ -110,6 +111,7 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1979-06-14-UP-FACT10-RELEASE
+    same_as: EVENT-SORTIE-UNKNOWN-PLEASURES
     categorie: jalon
     source_id: S41
     date: "1979-06-14"
