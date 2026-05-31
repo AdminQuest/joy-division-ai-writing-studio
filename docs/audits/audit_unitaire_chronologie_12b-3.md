@@ -991,3 +991,43 @@ Listes exhaustives : `python3 tools/canonicalize_chronology.py --phase report`.
 > **Gel** : toute évolution ultérieure du registre est désormais **additive**
 > (nouveaux `EVENT-` pour de nouveaux faits, nouveaux `same_as`) — aucun
 > renommage ni fusion rétroactive des 62 identités existantes.
+
+---
+
+# ANNEXE IX — Validateur + schéma (porte du gel, étape 6)
+
+## IX.1. Schéma `chronology_event` (A)
+
+`tools/schema_validation.py` reconnaît désormais l'identité canonique
+`chronology_event` (préfixe d'ID `EVENT-`) comme type d'unité distinct : requis
+`id, type_unite, label, date_precision, membres_reconcilies (≥1)` + contrainte
+**date XOR (date_debut+date_fin)** ; `type/certainty/location/people` optionnels.
+Les **124 warnings** Codex (`Missing required field: type|certainty` sur les 62
+canoniques) sont **levés par reconnaissance de schéma**. Les entrées chronology
+legacy (ID `CHR-`, dont S29/S34) conservent leurs requis.
+
+## IX.2. Validateur `tools/validate_chronology.py` (B)
+
+Gate-able (errors=0 ⇒ exit 0 ; sinon exit 1). Invariants :
+
+| Code | Invariant | Sévérité |
+|---|---|---|
+| INV1 | `same_as` cible un EVENT- existant ; pas de cycle ; pas de chaîne ; ≤1 par legacy | error |
+| INV2 | unicité (legacy ∈ 1 canonique ; slug unique) ; doublon heuristique | error / warning |
+| INV3 | `date_debut ≤ date_fin` ; aucune date impossible ; dates membres cohérentes | error / warning |
+| INV4 | honnêteté `date_precision` (≤ granularité réelle ; cohérence intervalle) | error |
+| INV5 | EVENT- = `jalon` ; `a_scinder_etape_10` ⇒ concert/flag ; contexte/réception sans same_as | error / warning |
+
+## IX.3. Résultat — **PORTE DU GEL : OUVERTE**
+
+`python3 tools/validate_chronology.py` → **errors = 0** (562 enregistrements,
+dont 62 canoniques). 2 warnings non bloquants, revus et bénins :
+- `INV2-dup-heur` : `EVENT-TOURNEE-EUROPEENNE-1980` vs
+  `EVENT-TENTATIVE-SUICIDE-RETOUR-EUROPE` — faux positif (même mois 1980-01,
+  jeton « europe » partagé) ; événements bien distincts.
+- `INV3-membre` : `EVENT-RENCONTRE-SUMNER-HOOK-SALFORD-GRAMMAR` — divergence de
+  source déjà documentée (S41 « 1967 » vs S10 « début des années 1970 »).
+
+Aucun invariant d'identité cassé (pas de doublon réel, pas de précision
+mensongère, pas de same_as brisé) : aucune correction requise.
+`build_registers --strict` errors=0 · sentinelle anti-drift OK.
