@@ -548,3 +548,131 @@ Tony Tabac (line-up), Barton Street, premier concert en tête d'affiche.
   les basculer aussi en `contexte` ?
 - **Morris « voit l'annonce »** (`CHR-S35-P05-1977-ETE-001`) : maintenu `jalon`
   **distinct** de `EVENT-ARRIVEE-STEPHEN-MORRIS`, jamais en `same_as` (beat narratif).
+
+---
+
+# ANNEXE III — Regroupement des jalons restants (diagnostic)
+
+> Diagnostic **lecture seule** (aucune écriture). Analyse des **307** entrées
+> encore en `jalon` après reclassement, **non** canonicalisées (ni `EVENT-`, ni
+> `same_as`). Objectif : compter les événements distincts et préparer la 2e
+> canonicalisation. Méthode : regroupement par date normalisée + recoupement de
+> texte ; les clés à granularité jour sont fiables, les clés mois/année
+> sur-fusionnent et sont signalées.
+
+## III.1. Synthèse
+
+| Regroupement | Nb | Lecture |
+|---|---:|---|
+| Clusters **JOUR** multi-sources (= 1 événement) | **23** | candidats à un **nouvel `EVENT-`** (ou facettes) |
+| Clusters **MOIS** multi-sources | 15 | **sur-fusion** : plusieurs événements distincts → à désambiguïser |
+| Clusters **ANNÉE** multi-sources | 10 | trop grossier → à désambiguïser |
+| Entrées à **date singleton** | 85 | événements distincts mono-source — **aucune réconciliation** requise |
+| Clés à **duplication intra-source** (même source, même date) | 30 | doublons internes (surtout S41 timeline/narratif) |
+
+Estimation : les 23 clusters-jour + 85 singletons ≈ **~108 événements distincts
+nets** ; les 25 clusters mois/année recouvrent un nombre indéterminé
+d'événements additionnels (à séparer entrée par entrée avant toute canonicalisation).
+
+## III.2. Clusters JOUR multi-sources (statut)
+
+| Date | Événement | Statut |
+|---|---|---|
+| 1977-07-18 | Premières démos Warsaw (Pennine Sound) | nouvel `EVENT-` |
+| 1977-12-31 | Dernier concert sous le nom Warsaw (Swinging Apple) | nouvel `EVENT-` |
+| 1978-05-03 | Sessions album RCA / Arrow Studios | nouvel `EVENT-` (cf. mois 1978-05) |
+| 1978-09-20 | Débuts télévisés, Granada Reports « Shadowplay » | nouvel `EVENT-` (dup intra-S41) |
+| 1978-10-11 | Enregistrement « Digital »/« Glass » (A Factory Sample, Cargo) | nouvel `EVENT-` |
+| 1978-12-27 | Premier concert londonien (Hope & Anchor) **+ première crise** | nouvel `EVENT-` — ⚠ bundle |
+| 1979-01-13 | Couverture NME de Ian Curtis | nouvel `EVENT-` |
+| 1979-01-23 | Diagnostic d'épilepsie | nouvel `EVENT-` (dup intra-S41) |
+| 1979-01-31 | Première Peel Session | nouvel `EVENT-` |
+| 1979-03-04 | Démos Genetic (Eden, Rushent) | nouvel `EVENT-` — ⚠ bundle gig Marquee |
+| 1979-04-16 | Naissance de Natalie Curtis | nouvel `EVENT-` |
+| 1979-05-24 | Crise majeure de Curtis | nouvel `EVENT-` — ⚠ slug ambigu |
+| 1979-08-13 | Annik Honoré voit le groupe (Nashville Rooms) | nouvel `EVENT-` — ⚠ bundle / dup intra-S41 |
+| 1979-12-31 | Fête Factory / dernier réveillon | nouvel `EVENT-` — ⚠ cadrages divergents |
+| 1980-04-04 | Crise au Rainbow Theatre (stroboscopes) | nouvel `EVENT-` — ⚠ bundle gig+crise |
+| 1980-04-07 | Overdose de phénobarbital | nouvel `EVENT-` |
+| 1980-04-08 | Concert du Derby Hall, Bury (état critique) | nouvel `EVENT-` |
+| 1980-04-16 | Premier anniversaire de Natalie (manqué) | ⚠ jalon mineur — arbitrer |
+| 1980-04-25 | (S45 vidéo LWTUA) **vs** (S76 Factory night Scala) | ⚠ **dates coïncidentes, événements différents** — NE PAS fusionner |
+| 1980-05-16 | Derniers contacts (Hook / deadline Stroszek) | ⚠ facettes des derniers jours |
+| 1980-05-17 | Dernière journée / dernière nuit à Macclesfield | ⚠ facettes (à grouper ?) |
+| 1980-05-18 | Hook puis Annik **apprennent** la mort | ⚠ facettes du jour du décès — **distinctes** de `EVENT-MORT-IAN-CURTIS`, **pas** `same_as` |
+
+## III.3. Duplication intra-source (S41) à réconcilier
+
+Paires même-source/même-date (au-delà des dup déjà collapsées en brique 1) :
+`1977-10-02` (Short Circuit, narratif + TL2), `1979-11-02` (Bournemouth, ×2),
+`1979-11-26` (deuxième Peel Session, ×2), plus les dup internes des clusters
+ci-dessus (`1978-09-20`, `1979-01-23`, `1979-08-13`). **Dette** : à terme la
+timeline S41 devrait être une *vue dérivée*, pas un doublon stocké.
+
+## III.4. Mauvais classements résiduels signalés
+
+- Aucun `reception_posthume` ou `contexte` détecté à tort parmi les jalons
+  restants (le tri date/source les a captés en amont).
+- Les clusters **mois** denses (`1979-10`, `1980-01`, `1980-03`, `1980-04`)
+  mêlent enregistrements, sorties, tournées, crises : **ne pas** les traiter
+  comme un événement unique.
+
+---
+
+# ANNEXE IV — Proposition de 2e canonicalisation (NON exécutée)
+
+> **Proposition pour revue. Aucune création d'`EVENT-`, aucune écriture de
+> `same_as` n'est faite dans cette passe.** À valider avant toute application.
+
+## IV.1. Nouveaux `EVENT-<SLUG>` proposés (slug sémantique, sans date)
+
+| `EVENT-` proposé | Date (champ) | Facettes (`same_as` à poser) |
+|---|---|---|
+| `EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND` | 1977-07-18 | S41-1977-07-18-WARSAW-DEMO-PENNINE · S75-1977-001 · S76-1977-005 |
+| `EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE` | 1977-12-31 | S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW · S45-1977-12-31-SWINGING-APPLE |
+| `EVENT-SESSIONS-RCA-ARROW-STUDIOS` | 1978-05 | S41-TL3-1978-05-03-04-ARROW-STUDIOS · S76-1978-005 · (CHR-1978-001 maître · S41-1978-05-ARROW-STUDIOS-RCA — à confirmer) |
+| `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY` | 1978-09-20 | S10-1978-005 · S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY · S41-TL3-1978-09-20-GRANADA-SHADOWPLAY |
+| `EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO` | 1978-10-11 | S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE · S75-1978-007 · S76-1978-016 |
+| `EVENT-COUVERTURE-NME-IAN-CURTIS` | 1979-01-13 | S45-1979-01-13-NME-COVER · S75-1979-001 |
+| `EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS` | 1979-01-23 | S41-1979-01-23-EPILEPSY-DIAGNOSIS · S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS · S45-1979-01-23-SPECIALIST-EPILEPSY · S76-1979-004 |
+| `EVENT-PREMIERE-PEEL-SESSION` | 1979-01-31 | S41-1979-01-31-FIRST-PEEL-SESSION · S75-1979-002 · S76-1979-006 |
+| `EVENT-DEMOS-GENETIC-EDEN-STUDIOS` | 1979-03-04 | S41-1979-03-04-EDEN-GENETIC-MARQUEE · S75-1979-003 · S76-1979-007 |
+| `EVENT-NAISSANCE-NATALIE-CURTIS` | 1979-04-16 | S41-1979-04-16-NATALIE-CURTIS-BORN · S45-1979-04-16-NATALIE-BIRTH · S76-1979-011 |
+| `EVENT-DEUXIEME-PEEL-SESSION` | 1979-11-26 | S41-1979-11-26-SECOND-PEEL-SESSION · S41-1979-11-26-SECOND-PEEL-LWTUA *(dup intra-S41)* |
+| `EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS` | 1980-04-07 | S45-1980-04-07-PHENOBARBITONE-OVERDOSE · S75-1980-006 |
+| `EVENT-CONCERT-DERBY-HALL-BURY` | 1980-04-08 | CHR-1980-001 · S45-1980-04-08-DERBY-HALL-BURY-RIOT |
+
+## IV.2. `same_as` à ajouter
+
+Une arête `same_as: EVENT-<canonique proposé>` par facette listée en IV.1
+(≈ 30 arêtes). À ne poser qu'après validation des slugs et des regroupements.
+
+## IV.3. Slugs ambigus / doublons incertains — à arbitrer
+
+- **Hope & Anchor 1978-12-27** : un seul `EVENT-` (premier concert londonien)
+  **ou deux** (concert + première crise majeure, qui est aussi narrée en
+  1978-12 « M1 Luton first fit » et en master) ? → bundle à trancher.
+- **Crise majeure 1979-05-24** : slug `EVENT-CRISE-MAJEURE-…` ambigu (plusieurs
+  crises documentées) — qualificateur sémantique requis.
+- **Annik / Nashville 1979-08-13** : événement = relation Annik Honoré ou gig ?
+  (bundle).
+- **Rainbow 1980-04-04** : crise (jalon) vs concert (gig) — bundle.
+- **Fête Factory 1979-12-31** : cadrages S41 (office party) vs S76 (« dernier
+  réveillon ») — même événement ?
+- **1980-04-25** : NE PAS fusionner (vidéo LWTUA ≠ Factory night Scala, même date).
+- **Facettes des 16-18 mai 1980** : derniers jours, derniers contacts,
+  notification du décès — **distinctes** de `EVENT-MORT-IAN-CURTIS` ; à
+  conserver séparées (ou regrouper en « derniers jours » ?) — à trancher.
+- **Premier anniversaire de Natalie (1980-04-16)** : jalon mineur — garder en
+  jalon ou rétrograder ?
+- **Clusters mois/année (25)** : à désambiguïser entrée par entrée **avant** tout
+  `EVENT-`.
+- **Sessions RCA/Arrow** : périmètre exact (contact RCA, sessions, remise des
+  bandes) à délimiter avant canonicalisation.
+
+## IV.4. Singletons (85)
+
+Événements distincts mono-source : **aucune réconciliation** requise. Les plus
+significatifs deviendront des `EVENT-` à la création de leur registre cible ;
+les autres restent des jalons mono-source. Non listés ici (cf.
+`--phase report` / regroupement).
