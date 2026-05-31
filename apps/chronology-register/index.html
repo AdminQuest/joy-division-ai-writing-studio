@@ -3,68 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre chronologique — Joy Division</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre chronologique</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement de la chronologie…</div>
-
-      <div class="filters">
-        <div class="field">
-          <label for="search">Recherche</label>
-          <input id="search" type="search" placeholder="Factory, Curtis, Peel Session, Closer…">
-        </div>
-
-        <div class="field">
-          <label for="year-filter">Année</label>
-          <select id="year-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="type-filter">Type</label>
-          <select id="type-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="location-filter">Lieu</label>
-          <select id="location-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="source-filter">Source</label>
-          <select id="source-filter"><option value="">Toutes</option></select>
-        </div>
+  <div id="chrono-app">
+    <header class="songs-hero">
+      <div class="songs-hero__inner">
+        <a class="songs-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre chronologique</h1>
+        <p class="songs-hero__subtitle">La colonne vertébrale documentaire du corpus Joy Division : jalons canoniques dédoublonnés par réconciliation <code>same_as</code>, beats subordonnés, couches de contexte activables. La précision affichée n'excède jamais celle de la donnée.</p>
       </div>
+    </header>
 
-      <div class="actions">
-        <button id="reset-filters" type="button">Réinitialiser</button>
-        <button id="download-csv" type="button">Exporter CSV</button>
-      </div>
+    <main class="songs-layout">
+      <section class="songs-toolbar" aria-label="Couches, filtres et recherche">
+        <div class="songs-toolbar__filters">
+          <div class="songs-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Curtis, Peel Session, Strawberry, Closer…" autocomplete="off">
+          </div>
+          <div class="songs-field">
+            <label for="year-filter">Année</label>
+            <select id="year-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="songs-field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter"><option value="">Toutes</option></select>
+          </div>
+        </div>
 
-      <p class="note">
-        Ce registre lit directement les fichiers <code>registers/chronology/*.md</code> et les sources atomisées du repo.
-      </p>
-    </section>
+        <div class="chrono-layers" id="layer-controls" role="group" aria-label="Couches d'événements"></div>
 
-    <section class="register-panel">
-      <div class="results-header">
-        <h2>Événements</h2>
-        <div id="results-meta"></div>
-      </div>
+        <div class="songs-toolbar__actions">
+          <button id="reset-filters" class="songs-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="songs-btn songs-btn--primary" type="button">Exporter CSV</button>
+          <span class="songs-toolbar__meta" id="results-meta"></span>
+        </div>
 
-      <div class="timeline" id="timeline"></div>
-    </section>
-  </main>
+        <div class="chrono-legend" aria-hidden="true">
+          <span class="chrono-legend__item"><span class="chrono-legend__dot chrono-legend__dot--anchor"></span> ancre canonique</span>
+          <span class="chrono-legend__item"><span class="chrono-legend__dot chrono-legend__dot--beat"></span> beat (jalon nu)</span>
+          <span class="chrono-legend__item"><span class="prec prec--point"><span class="prec__bar"></span></span> jour</span>
+          <span class="chrono-legend__item"><span class="prec prec--short"><span class="prec__bar"></span></span> mois / saison</span>
+          <span class="chrono-legend__item"><span class="prec prec--wide"><span class="prec__bar"></span></span> année / ~circa</span>
+          <span class="chrono-legend__item"><span class="prec prec--span"><span class="prec__cap"></span><span class="prec__bar"></span><span class="prec__cap"></span></span> intervalle</span>
+        </div>
+      </section>
+
+      <div id="status-card" class="songs-status">Chargement de la chronologie…</div>
+
+      <section class="chrono-panel">
+        <div class="timeline" id="timeline"></div>
+      </section>
+    </main>
+  </div>
 
   <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
