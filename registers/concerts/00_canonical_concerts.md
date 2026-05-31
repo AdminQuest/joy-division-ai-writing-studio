@@ -2273,6 +2273,7 @@
 
 ```yaml
 - id: JD-CONCERT-19800521-A01
+  same_as: CONCERT-19800521-HURRAH-NEW-YORK
   date: 1980-05-21
   statut: annule
   lieu: "Hurrah"
@@ -2284,6 +2285,7 @@
   notes: "Résidence prévue 21-23 mai. Annulée."
 
 - id: JD-CONCERT-19800525-A01
+  same_as: CONCERT-19800525-THE-EDGE-TORONTO
   date: 1980-05-25
   statut: annule
   lieu: "The Edge"
@@ -2295,6 +2297,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800526-A01
+  same_as: CONCERT-19800526-BOOKIES-DETROIT
   date: 1980-05-26
   statut: annule
   lieu: "Bookies"
@@ -2306,6 +2309,7 @@
   notes: "Annulé avant même la mort de Curtis."
 
 - id: JD-CONCERT-19800527-A01
+  same_as: CONCERT-19800527-TUTS-CHICAGO
   date: 1980-05-27
   statut: annule
   lieu: "Tuts"
@@ -2317,6 +2321,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800528-A01
+  same_as: CONCERT-19800528-MERLYNS-MADISON
   date: 1980-05-28
   statut: annule
   lieu: "Merlyn's"
@@ -2328,6 +2333,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800529-A01
+  same_as: CONCERT-19800529-DUFFYS-MINNEAPOLIS
   date: 1980-05-29
   statut: annule
   lieu: "Duffy's"
@@ -2339,6 +2345,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800530-A01
+  same_as: CONCERT-19800530-THE-UNDERGROUND-BOSTON
   date: 1980-05-30
   statut: annule
   lieu: "The Underground"
@@ -2350,6 +2357,7 @@
   notes: "Résidence prévue 30-31 mai."
 
 - id: JD-CONCERT-19800531-A01
+  same_as: CONCERT-19800531-9-30-CLUB-WASHINGTON
   date: 1980-05-31
   statut: annule
   lieu: "9:30 Club"
@@ -2361,6 +2369,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800601-A01
+  same_as: CONCERT-19800601-MACHINISTS-HALL-NEW-YORK
   date: 1980-06-01
   statut: annule
   lieu: "Machinist's Hall"
@@ -2372,6 +2381,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800601-A02
+  same_as: CONCERT-19800601-TIER-3-NEW-YORK
   date: 1980-06-01
   statut: annule
   lieu: "Tier 3"
@@ -2383,6 +2393,7 @@
   notes: "Même jour que Machinist's Hall."
 
 - id: JD-CONCERT-19800603-A01
+  same_as: CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO
   date: 1980-06-03
   statut: annule
   lieu: "American Indian Center"
@@ -2394,6 +2405,7 @@
   notes: "Résidence prévue 3-7 juin."
 
 - id: JD-CONCERT-19800608-A01
+  same_as: CONCERT-19800608-FLIPPERS-LOS-ANGELES
   date: 1980-06-08
   statut: annule
   lieu: "Flipper's"
@@ -2405,6 +2417,7 @@
   notes: ""
 
 - id: JD-CONCERT-19800609-A01
+  same_as: CONCERT-19800609-STARWOOD-LOS-ANGELES
   date: 1980-06-09
   statut: annule
   lieu: "The Starwood"

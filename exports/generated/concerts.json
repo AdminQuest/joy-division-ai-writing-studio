@@ -3487,6 +3487,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800521-A01",
+      "same_as": "CONCERT-19800521-HURRAH-NEW-YORK",
       "date": "1980-05-21",
       "statut": "annule",
       "lieu": "Hurrah",
@@ -3505,6 +3506,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800525-A01",
+      "same_as": "CONCERT-19800525-THE-EDGE-TORONTO",
       "date": "1980-05-25",
       "statut": "annule",
       "lieu": "The Edge",
@@ -3523,6 +3525,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800526-A01",
+      "same_as": "CONCERT-19800526-BOOKIES-DETROIT",
       "date": "1980-05-26",
       "statut": "annule",
       "lieu": "Bookies",
@@ -3541,6 +3544,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800527-A01",
+      "same_as": "CONCERT-19800527-TUTS-CHICAGO",
       "date": "1980-05-27",
       "statut": "annule",
       "lieu": "Tuts",
@@ -3559,6 +3563,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800528-A01",
+      "same_as": "CONCERT-19800528-MERLYNS-MADISON",
       "date": "1980-05-28",
       "statut": "annule",
       "lieu": "Merlyn's",
@@ -3577,6 +3582,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800529-A01",
+      "same_as": "CONCERT-19800529-DUFFYS-MINNEAPOLIS",
       "date": "1980-05-29",
       "statut": "annule",
       "lieu": "Duffy's",
@@ -3595,6 +3601,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800530-A01",
+      "same_as": "CONCERT-19800530-THE-UNDERGROUND-BOSTON",
       "date": "1980-05-30",
       "statut": "annule",
       "lieu": "The Underground",
@@ -3613,6 +3620,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800531-A01",
+      "same_as": "CONCERT-19800531-9-30-CLUB-WASHINGTON",
       "date": "1980-05-31",
       "statut": "annule",
       "lieu": "9:30 Club",
@@ -3631,6 +3639,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800601-A01",
+      "same_as": "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK",
       "date": "1980-06-01",
       "statut": "annule",
       "lieu": "Machinist's Hall",
@@ -3649,6 +3658,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800601-A02",
+      "same_as": "CONCERT-19800601-TIER-3-NEW-YORK",
       "date": "1980-06-01",
       "statut": "annule",
       "lieu": "Tier 3",
@@ -3667,6 +3677,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800603-A01",
+      "same_as": "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
       "date": "1980-06-03",
       "statut": "annule",
       "lieu": "American Indian Center",
@@ -3685,6 +3696,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800608-A01",
+      "same_as": "CONCERT-19800608-FLIPPERS-LOS-ANGELES",
       "date": "1980-06-08",
       "statut": "annule",
       "lieu": "Flipper's",
@@ -3703,6 +3715,7 @@
     "heading": "1980 — Tournée US annulée (mai-juin 1980)",
     "data": {
       "id": "JD-CONCERT-19800609-A01",
+      "same_as": "CONCERT-19800609-STARWOOD-LOS-ANGELES",
       "date": "1980-06-09",
       "statut": "annule",
       "lieu": "The Starwood",
@@ -6932,6 +6945,253 @@
       "statut": "annulé",
       "membres_reconcilies": [
         "JD-CONCERT-19800509-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800521-HURRAH-NEW-YORK",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800521-HURRAH-NEW-YORK",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Hurrah, New York (1980-05-21)",
+      "date": "1980-05-21",
+      "date_precision": "jour",
+      "lieu": "PLACE-HURRAH-NEW-YORK",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800521-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800525-THE-EDGE-TORONTO",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800525-THE-EDGE-TORONTO",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — The Edge, Toronto (1980-05-25)",
+      "date": "1980-05-25",
+      "date_precision": "jour",
+      "lieu": "PLACE-THE-EDGE-TORONTO",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800525-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800526-BOOKIES-DETROIT",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800526-BOOKIES-DETROIT",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Bookies, Detroit (1980-05-26)",
+      "date": "1980-05-26",
+      "date_precision": "jour",
+      "lieu": "PLACE-BOOKIES-DETROIT",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800526-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800527-TUTS-CHICAGO",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800527-TUTS-CHICAGO",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Tuts, Chicago (1980-05-27)",
+      "date": "1980-05-27",
+      "date_precision": "jour",
+      "lieu": "PLACE-TUTS-CHICAGO",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800527-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800528-MERLYNS-MADISON",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800528-MERLYNS-MADISON",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Merlyn's, Madison (1980-05-28)",
+      "date": "1980-05-28",
+      "date_precision": "jour",
+      "lieu": "PLACE-MERLYNS-MADISON",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800528-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800529-DUFFYS-MINNEAPOLIS",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800529-DUFFYS-MINNEAPOLIS",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Duffy's, Minneapolis (1980-05-29)",
+      "date": "1980-05-29",
+      "date_precision": "jour",
+      "lieu": "PLACE-DUFFYS-MINNEAPOLIS",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800529-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800530-THE-UNDERGROUND-BOSTON",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800530-THE-UNDERGROUND-BOSTON",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — The Underground, Boston (1980-05-30)",
+      "date": "1980-05-30",
+      "date_precision": "jour",
+      "lieu": "PLACE-THE-UNDERGROUND-BOSTON",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800530-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800531-9-30-CLUB-WASHINGTON",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800531-9-30-CLUB-WASHINGTON",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — 9:30 Club, Washington (1980-05-31)",
+      "date": "1980-05-31",
+      "date_precision": "jour",
+      "lieu": "PLACE-9-30-CLUB-WASHINGTON",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800531-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800601-MACHINISTS-HALL-NEW-YORK",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Machinist's Hall, New York (1980-06-01)",
+      "date": "1980-06-01",
+      "date_precision": "jour",
+      "lieu": "PLACE-MACHINISTS-HALL-NEW-YORK",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800601-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800601-TIER-3-NEW-YORK",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800601-TIER-3-NEW-YORK",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Tier 3, New York (1980-06-01)",
+      "date": "1980-06-01",
+      "date_precision": "jour",
+      "lieu": "PLACE-TIER-3-NEW-YORK",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800601-A02"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800603-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — American Indian Center, San Francisco (1980-06-03)",
+      "date": "1980-06-03",
+      "date_precision": "jour",
+      "lieu": "PLACE-AMERICAN-INDIAN-CENTER-SAN-FRANCISCO",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800603-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800608-FLIPPERS-LOS-ANGELES",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800608-FLIPPERS-LOS-ANGELES",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — Flipper's, Los Angeles (1980-06-08)",
+      "date": "1980-06-08",
+      "date_precision": "jour",
+      "lieu": "PLACE-FLIPPERS-LOS-ANGELES",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800608-A01"
+      ]
+    }
+  },
+  {
+    "kind": "concert",
+    "id": "CONCERT-19800609-STARWOOD-LOS-ANGELES",
+    "file": "registers/concerts/concert_canonical_units_7b2.md",
+    "heading": "Tournée US-Canada 1980 (annulée)",
+    "data": {
+      "id": "CONCERT-19800609-STARWOOD-LOS-ANGELES",
+      "type_unite": "concert",
+      "label": "[annulé] Joy Division — The Starwood, Los Angeles (1980-06-09)",
+      "date": "1980-06-09",
+      "date_precision": "jour",
+      "lieu": "PLACE-STARWOOD-LOS-ANGELES",
+      "statut": "annulé",
+      "nom_tournee": "US tour (annulée)",
+      "membres_reconcilies": [
+        "JD-CONCERT-19800609-A01"
       ]
     }
   }
