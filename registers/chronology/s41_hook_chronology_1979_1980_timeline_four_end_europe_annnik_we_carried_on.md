@@ -95,7 +95,8 @@ chronology:
     date_precision: intervalle
     date_debut: 1979-11-09
     date_fin: 1979-11-10
-    categorie: concert_a_migrer
+    categorie: jalon
+    liaison_multi_concert: true
     source_id: S41
     date: "1979-11-09/1979-11-10"
     evenement: >

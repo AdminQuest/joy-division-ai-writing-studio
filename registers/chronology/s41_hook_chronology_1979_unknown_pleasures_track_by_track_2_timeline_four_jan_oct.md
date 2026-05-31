@@ -256,7 +256,8 @@ chronology:
 
   - id: CHR-S41-1979-09-15-SOMETHING-ELSE
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: jalon
+    same_as: EVENT-PERFORMANCE-BBC2-SOMETHING-ELSE
     source_id: S41
     date: "1979-09-15"
     evenement: >

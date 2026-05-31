@@ -85,7 +85,8 @@ id: CHR-S76-1979-023
 date_precision: intervalle
 date_debut: 1979-11-09
 date_fin: 1979-11-10
-categorie: concert_a_migrer
+categorie: jalon
+liaison_multi_concert: true
 type_unite: chronology
 date: 1979-11-09/1979-11-10
 precision_date: exact_range

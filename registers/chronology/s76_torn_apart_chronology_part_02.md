@@ -86,7 +86,7 @@ notes: >
 ```yaml
 id: CHR-S76-1973-002
 date_precision: jour
-categorie: concert_a_migrer
+categorie: contexte
 type_unite: chronology
 date: 1973-09-27
 precision_date: exact

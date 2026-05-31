@@ -97,7 +97,8 @@ notes: >
 ```yaml
 id: CHR-S76-1979-008
 date_precision: mois
-categorie: concert_a_migrer
+categorie: jalon
+liaison_multi_concert: true
 type_unite: chronology
 date: 1979-03
 precision_date: early_march

@@ -50,7 +50,7 @@ chronology:
 
   - id: CHR-S41-1976-12-09-ELECTRIC-CIRCUS-HATE-COAT
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: contexte
     source_id: S41
     date: "1976-12-09"
     evenement: >

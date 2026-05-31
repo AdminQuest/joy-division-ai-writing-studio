@@ -254,7 +254,9 @@ notes: >
 ```yaml
 id: CHR-S76-1978-002
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
+same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
+prudence_methodologique: "Divergence consignée (7b-3) : S76 date Bowdon Vale au 1978-03-14 (en signalant lui-même l'incertitude des dates de cette période) ; le gig établi (filmé par Malcolm Whitehead) est au 1979-03-14. Probable erreur de millésime."
 type_unite: chronology
 date: 1978-03-14
 precision_date: exact
