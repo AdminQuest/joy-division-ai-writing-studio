@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1978-10-CARGO-FACTORY-SAMPLE
+    categorie: jalon
     source_id: S41
     date: "1978-10"
     evenement: >
@@ -20,6 +21,7 @@ chronology:
     statut: session établie ; détails techniques à croiser avec discographies et archives Factory
 
   - id: CHR-S41-1978-12-FACTORY-SAMPLE-ASSEMBLY
+    categorie: jalon
     source_id: S41
     date: "1978-12"
     evenement: >
@@ -33,6 +35,7 @@ chronology:
     statut: séquence discographique rapportée par Hook
 
   - id: CHR-S41-1978-10-24-LEEDS-FAN-CLUB-RIPPER-POLICE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-10-24"
     evenement: >
@@ -45,6 +48,7 @@ chronology:
     statut: anecdote policière à croiser si possible
 
   - id: CHR-S41-1978-11-REZILLOS-UNDERTONES-TOUR
+    categorie: jalon
     source_id: S41
     date: "1978-11"
     evenement: >
@@ -56,6 +60,7 @@ chronology:
     statut: tournée établie ; dates à croiser avec gig lists
 
   - id: CHR-S41-1978-11-BRUNEL-SPITTING
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-11"
     evenement: >
@@ -69,6 +74,7 @@ chronology:
     statut: scène live à croiser avec set lists
 
   - id: CHR-S41-1978-11-BRISTOL-LOCARNO-EJECTED
+    categorie: jalon
     source_id: S41
     date: "1978-11"
     evenement: >
@@ -80,6 +86,7 @@ chronology:
     statut: scène de tournée à croiser avec autres témoignages
 
   - id: CHR-S41-1978-12-HOPE-ANCHOR-FIRST-LONDON
+    categorie: jalon
     source_id: S41
     date: "1978-12"
     evenement: >
@@ -92,6 +99,7 @@ chronology:
     statut: datation à verrouiller avec gig list
 
   - id: CHR-S41-1978-12-M1-LUTON-FIRST-FIT
+    categorie: jalon
     source_id: S41
     date: "1978-12"
     evenement: >
@@ -104,6 +112,7 @@ chronology:
     statut: événement médical à croiser avec S45 et témoignages de Morris
 
   - id: CHR-S41-1979-01-23-EPILEPSY-DIAGNOSIS
+    categorie: jalon
     source_id: S41
     date: "1979-01-23"
     evenement: >

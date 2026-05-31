@@ -10,6 +10,7 @@ Statut : entrées chronologiques ciblées, non exhaustives, issues de l'atomisat
 
 ```yaml
 id: CHR-S75-1976-002
+categorie: jalon
 type_unite: chronology
 date: 1976-07-20
 precision_date: exact
@@ -43,6 +44,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-001
+categorie: jalon
 type_unite: chronology
 date: 1977-07-18
 precision_date: exact
@@ -78,6 +80,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-002
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10
 precision_date: approximate
@@ -116,6 +119,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-003
+categorie: jalon
 type_unite: chronology
 date: 1978-06
 precision_date: approximate
@@ -153,6 +157,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-004
+categorie: jalon
 type_unite: chronology
 date: 1978-10
 precision_date: approximate
@@ -186,6 +191,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-005
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-04-14
 precision_date: exact
@@ -223,6 +229,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-006
+categorie: jalon
 type_unite: chronology
 date: 1978-05-01/1978-05-05
 precision_date: range
@@ -268,6 +275,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-007
+categorie: jalon
 type_unite: chronology
 date: 1978-10-11
 precision_date: exact
@@ -307,6 +315,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-008
+categorie: jalon
 type_unite: chronology
 date: 1978-12-27
 precision_date: exact
@@ -346,6 +355,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-001
+categorie: jalon
 type_unite: chronology
 date: 1979-01-13
 precision_date: exact
@@ -382,6 +392,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-002
+categorie: jalon
 type_unite: chronology
 date: 1979-01-31
 precision_date: inferred_or_to_verify
@@ -419,6 +430,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-003
+categorie: jalon
 type_unite: chronology
 date: 1979-03-04
 precision_date: exact

@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S12-1986-001
+    categorie: reception_posthume
     date: 1986-12-11
     precision_date: approx
     event: "James Anderton prononce un discours sur le sida lors d’un séminaire policier à Manchester, déclenchant une controverse publique."
@@ -27,6 +28,7 @@ events:
       - S12-A002
 
   - id: CHR-S12-1986-002
+    categorie: reception_posthume
     date: 1986-12-12
     precision_date: approx
     event: "La Greater Manchester Police Authority discute les propos d’Anderton et envisage des formes de censure ou d’admonestation."
@@ -44,6 +46,7 @@ events:
       - S12-A004
 
   - id: CHR-S12-1986-003
+    categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour
     event: "Publication du dossier de presse HSOC0015800 sur le sida, Cardinal Hume, Anderton et les réactions politiques."
@@ -58,6 +61,7 @@ events:
       - S12-A008
 
   - id: CHR-S12-1986-004
+    categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour
     event: "Les ministres britanniques réaffirment une approche pragmatique de prévention face aux propos moralisateurs d’Anderton."
@@ -72,6 +76,7 @@ events:
       - S12-A003
 
   - id: CHR-S12-1986-005
+    categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour
     event: "La presse rapporte les propos du Cardinal Basil Hume sur le sida comme « moral Chernobyl »."

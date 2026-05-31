@@ -4,6 +4,7 @@
 
 ```yaml
 id: CHR-S45-VOTE-CONSERVATEUR-LOCAL
+categorie: jalon
 date: à préciser
 periode: mariage Ian/Deborah, avant 1980
 evenement: >

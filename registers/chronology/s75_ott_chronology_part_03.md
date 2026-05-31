@@ -8,6 +8,7 @@ Entrées ciblées issues de `Ott - 61-83_ocred.pdf`. Elles complètent le regist
 
 ```yaml
 id: CHR-S75-1979-004
+categorie: jalon
 type_unite: chronology
 date: 1979-04-01/1979-04-17
 precision_date: range
@@ -46,6 +47,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-005
+categorie: jalon
 type_unite: chronology
 date: 1979-04
 precision_date: approximate
@@ -83,6 +85,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-006
+categorie: jalon
 type_unite: chronology
 date: 1979-06-14
 precision_date: exact
@@ -121,6 +124,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-007
+categorie: jalon
 type_unite: chronology
 date: 1979-10
 precision_date: approximate
@@ -159,6 +163,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1981-001
+categorie: reception_posthume
 type_unite: chronology
 date: 1981-10-08
 precision_date: exact
@@ -197,6 +202,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1997-001
+categorie: reception_posthume
 type_unite: chronology
 date: 1997
 precision_date: year

@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-10-03-LEEDS-UNIVERSITY-BUZZCOCKS
+    categorie: jalon
     source_id: S41
     date: "1979-10-03"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: review à retrouver dans Sounds
 
   - id: CHR-S41-1979-10-08-DUNDEE-IAN-COLLAPSES
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-08"
     evenement: >
@@ -26,6 +28,7 @@ chronology:
     statut: repère médical live à croiser
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS-TIMELINE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-16"
     evenement: >
@@ -39,6 +42,7 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-26-ELECTRIC-BALLROOM
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-10-26"
     evenement: >
@@ -51,6 +55,7 @@ chronology:
     statut: concert et ethos live à croiser
 
   - id: CHR-S41-1979-11-CORBIJN-PHOTO-SESSION
+    categorie: jalon
     source_id: S41
     date: "1979-11"
     evenement: >
@@ -63,6 +68,7 @@ chronology:
     statut: archive photographique établie
 
   - id: CHR-S41-1979-11-02-BOURNEMOUTH-HOSPITAL
+    categorie: jalon
     source_id: S41
     date: "1979-11-02"
     evenement: >
@@ -75,6 +81,7 @@ chronology:
     statut: repère médical live établi à croiser avec S45
 
   - id: CHR-S41-1979-11-09-10-RAINBOW-THEATRE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-11-09/1979-11-10"
     evenement: >
@@ -87,6 +94,7 @@ chronology:
     statut: jalon live londonien
 
   - id: CHR-S41-1979-11-26-SECOND-PEEL-SESSION
+    categorie: jalon
     source_id: S41
     date: "1979-11-26"
     evenement: >
@@ -100,6 +108,7 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-12-18-LES-BAINS-DOUCHES
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-12-18"
     evenement: >
@@ -113,6 +122,7 @@ chronology:
     statut: archive live majeure
 
   - id: CHR-S41-1979-12-31-FACTORY-OFFICE-PARTY
+    categorie: jalon
     source_id: S41
     date: "1979-12-31"
     evenement: >
@@ -125,6 +135,7 @@ chronology:
     statut: anecdote Factory à fonction conceptuelle
 
   - id: CHR-S41-1980-01-EUROPEAN-TOUR-ANNIK
+    categorie: jalon
     source_id: S41
     date: "1980-01"
     evenement: >
@@ -141,6 +152,7 @@ chronology:
     statut: séquence de tournée à croiser avec dates détaillées
 
   - id: CHR-S41-1980-POST-EUROPE-PERNOD-KNIFE
+    categorie: jalon
     source_id: S41
     date: "1980-01"
     evenement: >

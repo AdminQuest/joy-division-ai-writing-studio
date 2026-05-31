@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-007
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-02-20
 precision_date: exact
@@ -43,6 +44,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-008
+categorie: jalon
 type_unite: chronology
 date: 1980-02-24/1980-02-25
 precision_date: overnight_session
@@ -80,6 +82,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-009
+categorie: jalon
 type_unite: chronology
 date: 1980-02-25
 precision_date: exact
@@ -116,6 +119,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-010
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-02-28
 precision_date: exact
@@ -154,6 +158,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-011
+categorie: jalon
 type_unite: chronology
 date: 1980-02-29
 precision_date: exact
@@ -194,6 +199,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-012
+categorie: jalon
 type_unite: chronology
 date: 1980-03-05
 precision_date: exact
@@ -230,6 +236,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-013
+categorie: jalon
 type_unite: chronology
 date: 1980-03-08/1980-03-09
 precision_date: overnight_session
@@ -270,6 +277,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-014
+categorie: jalon
 type_unite: chronology
 date: 1980-03-12
 precision_date: exact
@@ -306,6 +314,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-015
+categorie: jalon
 type_unite: chronology
 date: 1980-03
 precision_date: before_Britannia_Row_sessions

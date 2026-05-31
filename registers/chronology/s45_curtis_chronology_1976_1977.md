@@ -6,6 +6,7 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1976-07-20-SEX-PISTOLS
+categorie: jalon
 source_id: S45
 date: 1976-07-20
 evenement: >
@@ -23,6 +24,7 @@ statut: événement établi ; interprétation mémorielle à encadrer
 
 ```yaml
 id: CHR-S45-1976-08-MONT-DE-MARSAN
+categorie: jalon
 source_id: S45
 date: 1976-08
 evenement: >
@@ -39,6 +41,7 @@ statut: événement à recouper ; interprétation de Deborah
 
 ```yaml
 id: CHR-S45-1977-IGGY-POP-MANCHESTER
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -55,6 +58,7 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-05-BARTON-STREET
+categorie: jalon
 source_id: S45
 date: 1977-05
 evenement: >
@@ -73,6 +77,7 @@ statut: stable ; pagination à verrouiller
 
 ```yaml
 id: CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS
+categorie: jalon
 source_id: S45
 date: 1977-05-29
 evenement: >
@@ -89,6 +94,7 @@ statut: événement établi ; réception Morley à vérifier dans la presse orig
 
 ```yaml
 id: CHR-S45-1977-08-10-BROTHERDALE-PANIK
+categorie: jalon
 source_id: S45
 date: 1977-08-10
 evenement: >
@@ -105,6 +111,7 @@ statut: témoignage direct ; détails à recouper
 
 ```yaml
 id: CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >

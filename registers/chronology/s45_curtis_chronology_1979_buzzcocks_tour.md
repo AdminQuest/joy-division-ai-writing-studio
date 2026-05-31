@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB
+    categorie: jalon
     source_id: S45
     date: "1979-08"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: datation mensuelle à préciser
 
   - id: CHR-S45-1979-09-FUTURAMA
+    categorie: concert_a_migrer
     source_id: S45
     date: "1979-09"
     evenement: >
@@ -27,6 +29,7 @@ chronology:
     statut: événement établi ; citations presse à vérifier
 
   - id: CHR-S45-1979-LAST-FACTORY
+    categorie: jalon
     source_id: S45
     date: "1979"
     evenement: >
@@ -39,6 +42,7 @@ chronology:
     statut: date précise à verrouiller
 
   - id: CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS
+    categorie: jalon
     source_id: S45
     date: "1979"
     evenement: >
@@ -51,6 +55,7 @@ chronology:
     statut: date précise à vérifier dans gig lists
 
   - id: CHR-S45-1979-LEEDS-UNIVERSITY-STARIFICATION
+    categorie: jalon
     source_id: S45
     date: "1979"
     evenement: >

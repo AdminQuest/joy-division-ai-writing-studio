@@ -6,6 +6,7 @@ Entrées candidates issues de `sources/curtis_touching_from_a_distance/source_pa
 
 ```yaml
 id: CHR-S45-1977-09-TOPS-DEBORAH
+categorie: jalon
 source_id: S45
 date: 1977-09
 evenement: >
@@ -22,6 +23,7 @@ statut: contexte domestique ; datation mensuelle donnée par S45
 
 ```yaml
 id: CHR-S45-1977-EMPLOYMENT-EXCHANGE
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -38,6 +40,7 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-EPILEPSY-COURSE
+categorie: jalon
 source_id: S45
 date: 1977
 evenement: >
@@ -54,6 +57,7 @@ statut: datation à préciser
 
 ```yaml
 id: CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+categorie: concert_a_migrer
 source_id: S45
 date: 1977-10-02
 evenement: >
@@ -71,6 +75,7 @@ statut: événement établi ; détails discographiques à croiser
 
 ```yaml
 id: CHR-S45-1977-12-PENNINE-AN-IDEAL
+categorie: jalon
 source_id: S45
 date: 1977-12
 evenement: >
@@ -90,6 +95,7 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1977-12-31-SWINGING-APPLE
+categorie: jalon
 source_id: S45
 date: 1977-12-31
 evenement: >
@@ -106,6 +112,7 @@ statut: probable selon S45 ; à croiser avec gig lists
 
 ```yaml
 id: CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE
+categorie: jalon
 source_id: S45
 date: 1978-01
 evenement: >
@@ -124,6 +131,7 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1978-01-25-PIPS-FIRST-JD
+categorie: jalon
 source_id: S45
 date: 1978-01-25
 evenement: >
@@ -139,6 +147,7 @@ statut: événement établi ; à croiser avec gig lists
 
 ```yaml
 id: CHR-S45-1978-04-RCA-ARROW
+categorie: jalon
 source_id: S45
 date: 1978-04
 evenement: >

@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-01-EPILEPSY-CARRIED-ON
+    categorie: jalon
     source_id: S41
     date: "1979-01"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: séquence de contexte, à croiser avec S45
 
   - id: CHR-S41-1979-01-GRETTON-FULL-TIME-MANAGER
+    categorie: jalon
     source_id: S41
     date: "1979-01"
     evenement: >
@@ -27,6 +29,7 @@ chronology:
     statut: datation approximative à croiser
 
   - id: CHR-S41-1979-01-PEEL-OFFER
+    categorie: jalon
     source_id: S41
     date: "1979-01"
     evenement: >
@@ -40,6 +43,7 @@ chronology:
     statut: offre radio à croiser avec date de session
 
   - id: CHR-S41-1979-EARLY-TJ-DAVIDSONS-PRODUCTIVITY
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -55,6 +59,7 @@ chronology:
     statut: processus créatif décrit rétrospectivement
 
   - id: CHR-S41-1979-EARLY-FACTORY-GENETIC-CHOICE
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -67,6 +72,7 @@ chronology:
     statut: séquence stratégique à croiser avec archives Factory
 
   - id: CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -79,6 +85,7 @@ chronology:
     statut: session à croiser avec discographies
 
   - id: CHR-S41-2006-EDEN-TAPES-RESURFACE
+    categorie: reception_posthume
     source_id: S41
     date: "2006"
     evenement: >

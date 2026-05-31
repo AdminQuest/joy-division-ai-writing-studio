@@ -8,6 +8,7 @@ Entrées ciblées issues de `Ott - 85-115_ocred.pdf`. Elles complètent le regis
 
 ```yaml
 id: CHR-S75-1979-008
+categorie: jalon
 type_unite: chronology
 date: 1979-05-24
 precision_date: exact
@@ -42,6 +43,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-009
+categorie: jalon
 type_unite: chronology
 date: 1979-07
 precision_date: approximate
@@ -80,6 +82,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-010
+categorie: jalon
 type_unite: chronology
 date: 1979-09
 precision_date: approximate
@@ -116,6 +119,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-011
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-10-16
 precision_date: exact
@@ -155,6 +159,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-012
+categorie: jalon
 type_unite: chronology
 date: 1979-10/1979-11
 precision_date: approximate_range
@@ -195,6 +200,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-002
+categorie: jalon
 type_unite: chronology
 date: 1980-01
 precision_date: month
@@ -231,6 +237,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-003
+categorie: jalon
 type_unite: chronology
 date: 1980-02
 precision_date: approximate
@@ -264,10 +271,11 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-004
+categorie: jalon
 type_unite: chronology
 date: 1980-03
 precision_date: approximate
- event: >
+event: >
   Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
 type:
   - enregistrement
@@ -301,6 +309,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-005
+categorie: jalon
 type_unite: chronology
 date: 1980-04-04
 precision_date: exact
@@ -336,6 +345,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-006
+categorie: jalon
 type_unite: chronology
 date: 1980-04-07
 precision_date: exact
@@ -372,6 +382,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-007
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact
@@ -411,6 +422,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-008
+categorie: jalon
 type_unite: chronology
 date: 1980-05-02
 precision_date: exact
@@ -446,6 +458,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-009
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: exact

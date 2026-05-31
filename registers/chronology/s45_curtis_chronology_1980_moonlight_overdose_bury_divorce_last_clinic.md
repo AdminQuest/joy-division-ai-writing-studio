@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S45-1980-04-02-04-MOONLIGHT-RAINBOW
+    categorie: jalon
     source_id: S45
     date: "1980-04-02/1980-04-04"
     evenement: >
@@ -17,6 +18,7 @@ chronology:
     statut: événement établi ; détails critiques à croiser
 
   - id: CHR-S45-1980-04-07-PHENOBARBITONE-OVERDOSE
+    categorie: jalon
     source_id: S45
     date: "1980-04-07"
     evenement: >
@@ -31,6 +33,7 @@ chronology:
     statut: événement établi par S45 ; note suicidaire à prudence
 
   - id: CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT
+    categorie: jalon
     source_id: S45
     date: "1980-04-08"
     evenement: >
@@ -44,6 +47,7 @@ chronology:
     statut: événement établi ; bootleg / enregistrement Harry Demac à indexer
 
   - id: CHR-S45-1980-04-11-FACTORY-REOPENED
+    categorie: concert_a_migrer
     source_id: S45
     date: "1980-04-11"
     evenement: >
@@ -56,6 +60,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S45-1980-04-16-NATALIE-FIRST-BIRTHDAY
+    categorie: jalon
     source_id: S45
     date: "1980-04-16"
     evenement: >
@@ -68,6 +73,7 @@ chronology:
     statut: scène domestique
 
   - id: CHR-S45-1980-04-25-LWTUA-VIDEO
+    categorie: jalon
     source_id: S45
     date: "1980-04-25"
     evenement: >
@@ -81,6 +87,7 @@ chronology:
     statut: événement audiovisuel établi
 
   - id: CHR-S45-1980-04-PARKSIDE-TOO-EARLY
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -93,6 +100,7 @@ chronology:
     statut: scène rapportée par S45
 
   - id: CHR-S45-1980-04-DERBY-ANNIK-ROB-SECRET
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -105,6 +113,7 @@ chronology:
     statut: scène domestique et judiciaire
 
   - id: CHR-S45-1980-LATE-APRIL-PSYCHIATRIST
+    categorie: jalon
     source_id: S45
     date: "1980-04"
     evenement: >
@@ -117,6 +126,7 @@ chronology:
     statut: scène médicale rapportée
 
   - id: CHR-S45-1980-05-02-BIRMINGHAM-FINAL-GIG
+    categorie: jalon
     source_id: S45
     date: "1980-05-02"
     evenement: >
@@ -130,6 +140,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S45-1980-05-06-LAST-EPILEPSY-CLINIC
+    categorie: jalon
     source_id: S45
     date: "1980-05-06"
     evenement: >
@@ -142,6 +153,7 @@ chronology:
     statut: événement médical rapporté
 
   - id: CHR-S45-1980-05-13-LAST-PHOTOGRAPH
+    categorie: jalon
     source_id: S45
     date: "1980-05-13"
     evenement: >
@@ -154,6 +166,7 @@ chronology:
     statut: événement domestique et photographique
 
   - id: CHR-S45-1980-05-16-STROSZEK-DEADLINE
+    categorie: jalon
     source_id: S45
     date: "1980-05-16/1980-05-17"
     evenement: >

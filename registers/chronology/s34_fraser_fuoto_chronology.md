@@ -8,6 +8,7 @@ Ce fichier complète le registre chronologique avec les repères réellement uti
 
 ```yaml
 id: CHR-S34-1976-001
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"
@@ -35,6 +36,7 @@ prudence: "Repère de cadrage critique, non récit exhaustif de formation."
 
 ```yaml
 id: CHR-S34-1977-001
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"
@@ -63,6 +65,7 @@ prudence: "À croiser avec S10, S41, S45, S75 et S76 pour les détails chronolog
 
 ```yaml
 id: CHR-S34-1978-001
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"
@@ -91,6 +94,7 @@ prudence: "Archive télévisuelle et datation à vérifier avant citation défin
 
 ```yaml
 id: CHR-S34-1979-001
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"
@@ -123,6 +127,7 @@ prudence: "Ne pas réduire l’espace sonore à Hannett seul."
 
 ```yaml
 id: CHR-S34-1979-002
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"
@@ -151,6 +156,7 @@ prudence: "Paroles et détails discographiques à croiser avec les sources disco
 
 ```yaml
 id: CHR-S34-2007-001
+categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
 source_label: "S34 — Fraser & Fuoto, Manchester, 1976, 2012"

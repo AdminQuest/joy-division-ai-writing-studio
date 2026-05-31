@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1980-POST-DEATH-LWTUA-CLOSER-NO-PROMOTION
+    categorie: jalon
     source_id: S41
     date: "1980-05/1980-07"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: réception posthume à croiser avec presse et discographies
 
   - id: CHR-S41-1980-POST-FUNERAL-DREAMS-NEVER-END-METHOD
+    categorie: jalon
     source_id: S41
     date: "1980-05"
     evenement: >
@@ -27,6 +29,7 @@ chronology:
     statut: transition New Order à croiser avec chronologies New Order
 
   - id: CHR-S41-1980-CLOSER-TRACK-BY-TRACK-RETROSPECTIVE
+    categorie: reception_posthume
     source_id: S41
     date: "2012"
     evenement: >
@@ -50,6 +53,7 @@ chronology:
     statut: analyse rétrospective track-by-track ; non événement 1980
 
   - id: CHR-S41-1980-CLOSER-RELEASE-POSTHUMOUS
+    categorie: jalon
     source_id: S41
     date: "1980-07"
     evenement: >

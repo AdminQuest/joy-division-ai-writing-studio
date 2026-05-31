@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1979-011
+categorie: jalon
 type_unite: chronology
 date: 1979-04-16
 precision_date: exact
@@ -42,6 +43,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-012
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-04-17
 precision_date: exact
@@ -79,6 +81,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-013
+categorie: jalon
 type_unite: chronology
 date: 1979-05-24
 precision_date: exact
@@ -114,6 +117,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-014
+categorie: jalon
 type_unite: chronology
 date: 1979-07
 precision_date: approximate
@@ -155,6 +159,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-015
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-08-31
 precision_date: exact
@@ -193,6 +198,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-016
+categorie: jalon
 type_unite: chronology
 date: 1979-09-01
 precision_date: exact
@@ -231,6 +237,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-017
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-09-08
 precision_date: exact
@@ -270,6 +277,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-018
+categorie: jalon
 type_unite: chronology
 date: 1979-09-22
 precision_date: exact_or_same_night_after_gig
@@ -306,6 +314,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-019
+categorie: jalon
 type_unite: chronology
 date: 1979-08-13
 precision_date: exact
@@ -341,6 +350,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-020
+categorie: jalon
 type_unite: chronology
 date: 1979-08-24
 precision_date: exact

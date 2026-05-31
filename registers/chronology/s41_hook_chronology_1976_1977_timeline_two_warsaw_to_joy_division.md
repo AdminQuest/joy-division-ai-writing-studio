@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-TL2-1976-06-04-LFTH
+    categorie: jalon
     source_id: S41
     date: "1976-06-04"
     evenement: >
@@ -12,6 +13,7 @@ chronology:
     statut: repère déjà atomisé, consolidé par timeline
 
   - id: CHR-S41-TL2-1976-12-01-GRUNDY-ANARCHY
+    categorie: jalon
     source_id: S41
     date: "1976-12-01"
     evenement: >
@@ -21,6 +23,7 @@ chronology:
     statut: contexte punk national consolidé
 
   - id: CHR-S41-TL2-1977-01-29-SPIRAL-SCRATCH
+    categorie: jalon
     source_id: S41
     date: "1977-01-29"
     evenement: >
@@ -30,6 +33,7 @@ chronology:
     statut: repère discographique à croiser avec S24/New Hormones
 
   - id: CHR-S41-TL2-1977-05-29-FIRST-WARSAW-GIG-REVIEW
+    categorie: jalon
     source_id: S41
     date: "1977-05-29"
     evenement: >
@@ -39,6 +43,7 @@ chronology:
     statut: événement établi ; source critique anonyme à identifier
 
   - id: CHR-S41-TL2-1977-06-SQUAT-SEQUENCE
+    categorie: jalon
     source_id: S41
     date: "1977-06"
     evenement: >
@@ -48,6 +53,7 @@ chronology:
     statut: séquence de scène consolidée
 
   - id: CHR-S41-TL2-1977-07-STOCKS-WALKDEN-TALENT-CONTEST
+    categorie: jalon
     source_id: S41
     date: "1977-07"
     evenement: >
@@ -57,6 +63,7 @@ chronology:
     statut: souvenir Hook ; datation mensuelle
 
   - id: CHR-S41-TL2-1977-09-14-MIDDLESBROUGH-TAPE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-09-14"
     evenement: >
@@ -66,6 +73,7 @@ chronology:
     statut: événement établi ; trajectoire bootleg à croiser
 
   - id: CHR-S41-TL2-1977-10-02-SHORT-CIRCUIT-COLD-ENTRY
+    categorie: jalon
     source_id: S41
     date: "1977-10-02"
     evenement: >
@@ -75,6 +83,7 @@ chronology:
     statut: événement discographique consolidé
 
   - id: CHR-S41-TL2-1977-11-PANIK-RAINY-CITY
+    categorie: jalon
     source_id: S41
     date: "1977-11"
     evenement: >
@@ -84,6 +93,7 @@ chronology:
     statut: repère discographique consolidé
 
   - id: CHR-S41-TL2-1977-12-14-AN-IDEAL-SESSIONS
+    categorie: jalon
     source_id: S41
     date: "1977-12-14"
     evenement: >
@@ -93,6 +103,7 @@ chronology:
     statut: session consolidée
 
   - id: CHR-S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW
+    categorie: jalon
     source_id: S41
     date: "1977-12-31"
     evenement: >

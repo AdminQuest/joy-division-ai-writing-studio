@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S69-010
+    categorie: reception_posthume
     date: 2007
     precision_date: annee
     event: "Sortie de Control, relu par Greig et Strong comme transformation du récit Deborah Curtis en iconographie tragique."
@@ -26,6 +27,7 @@ events:
       - S69-A028
 
   - id: CHR-S69-011
+    categorie: reception_posthume
     date: 2007
     precision_date: annee
     event: "Sortie du documentaire Joy Division de Grant Gee, interprété comme récit de mémoire urbaine et de transformation de Manchester."
@@ -40,6 +42,7 @@ events:
       - S69-A029
 
   - id: CHR-S69-012
+    categorie: reception_posthume
     date: 2011
     precision_date: annee
     event: "Campagne australienne Warner / JB Hi-Fi autour de From Joy Division to New Order et du livret British Underground."
@@ -54,6 +57,7 @@ events:
       - S69-A032
 
   - id: CHR-S69-013
+    categorie: reception_posthume
     date: 2010
     precision_date: annee
     event: "Peter Hook and The Light rejoue le répertoire de Joy Division et devient un cas de controverse mémorielle."

@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-TL3-1978-01-24-M24J
+    categorie: jalon
     source_id: S41
     date: "1978-01-24"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: repère institutionnel Factory
 
   - id: CHR-S41-TL3-1978-01-25-PIPS-JOY-DIVISION
+    categorie: jalon
     source_id: S41
     date: "1978-01-25"
     evenement: >
@@ -27,6 +29,7 @@ chronology:
     statut: événement consolidé ; date à croiser avec gig lists
 
   - id: CHR-S41-TL3-1978-04-14-STIFF-CHISWICK
+    categorie: jalon
     source_id: S41
     date: "1978-04-14"
     evenement: >
@@ -39,6 +42,7 @@ chronology:
     statut: consolidation d’un événement déjà atomisé
 
   - id: CHR-S41-TL3-1978-05-GRETTON-MANAGER
+    categorie: jalon
     source_id: S41
     date: "1978-05"
     evenement: >
@@ -51,6 +55,7 @@ chronology:
     statut: consolidation chronologique
 
   - id: CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS
+    categorie: jalon
     source_id: S41
     date: "1978-05-03/1978-05-04"
     evenement: >
@@ -63,6 +68,7 @@ chronology:
     statut: verrou sessionographique ; titres à croiser avec discographies
 
   - id: CHR-S41-TL3-1978-05-20-MAYFLOWER
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-05-20"
     evenement: >
@@ -74,6 +80,7 @@ chronology:
     statut: consolidation chronologique
 
   - id: CHR-S41-TL3-1978-06-03-AN-IDEAL-SEVEN-INCH
+    categorie: jalon
     source_id: S41
     date: "1978-06-03"
     evenement: >
@@ -86,6 +93,7 @@ chronology:
     statut: verrou discographique
 
   - id: CHR-S41-TL3-1978-06-09-SHORT-CIRCUIT
+    categorie: jalon
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -98,6 +106,7 @@ chronology:
     statut: verrou discographique et nominal
 
   - id: CHR-S41-TL3-1978-06-09-FACTORY-RUSSELL-CLUB
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -111,6 +120,7 @@ chronology:
     statut: consolidation Factory
 
   - id: CHR-S41-TL3-1978-07-15-ERICS-RICH-KIDS
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-07-15"
     evenement: >
@@ -123,6 +133,7 @@ chronology:
     statut: anecdote de plateau
 
   - id: CHR-S41-TL3-1978-07-27-ROOTS-LEEDS-DURUTTI
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-07-27"
     evenement: >
@@ -135,6 +146,7 @@ chronology:
     statut: anecdote de réseau Factory
 
   - id: CHR-S41-TL3-1978-07-28-SUICIDE-RUSSELL-CLUB
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-07-28"
     evenement: >
@@ -147,6 +159,7 @@ chronology:
     statut: influence live déclarée
 
   - id: CHR-S41-TL3-1978-09-10-BRADFORD-NF
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-09-10"
     evenement: >
@@ -160,6 +173,7 @@ chronology:
     statut: souvenir Hook à croiser
 
   - id: CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY
+    categorie: jalon
     source_id: S41
     date: "1978-09-20"
     evenement: >
@@ -172,6 +186,7 @@ chronology:
     statut: archive audiovisuelle établie
 
   - id: CHR-S41-TL3-1978-10-10-AN-IDEAL-TWELVE-INCH
+    categorie: jalon
     source_id: S41
     date: "1978-10-10"
     evenement: >
@@ -184,6 +199,7 @@ chronology:
     statut: verrou de réédition
 
   - id: CHR-S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE
+    categorie: jalon
     source_id: S41
     date: "1978-10-11"
     evenement: >
@@ -196,6 +212,7 @@ chronology:
     statut: session consolidée
 
   - id: CHR-S41-TL3-1978-10-12-ROCK-AGAINST-RACISM
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-10-12"
     evenement: >
@@ -209,6 +226,7 @@ chronology:
     statut: contrepoint politique consolidé
 
   - id: CHR-S41-TL3-1978-10-20-FACTORY-CABARET-VOLTAIRE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-10-20"
     evenement: >
@@ -222,6 +240,7 @@ chronology:
     statut: consolidation Factory / poster
 
   - id: CHR-S41-TL3-1978-11-15-BRUNEL-SPITTING
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-11-15"
     evenement: >
@@ -234,6 +253,7 @@ chronology:
     statut: corroboration externe via fan Martin
 
   - id: CHR-S41-TL3-1978-11-19-BRISTOL-LOCARNO-EJECTION
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-11-19"
     evenement: >
@@ -245,6 +265,7 @@ chronology:
     statut: corroboration externe
 
   - id: CHR-S41-TL3-1978-11-20-CHECK-INN-ALTRINCHAM
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-11-20"
     evenement: >
@@ -257,6 +278,7 @@ chronology:
     statut: réception locale rapportée
 
   - id: CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW
+    categorie: jalon
     source_id: S41
     date: "1978-12-27"
     evenement: >

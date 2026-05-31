@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S10-1956-001
+    categorie: jalon
     date: 1956-01-04
     precision_date: jour
     event: "Naissance de Bernard Sumner à Crumpsall, Manchester, avant son enfance à Lower Broughton, Salford."
@@ -25,6 +26,7 @@ events:
       - S10-A001
 
   - id: CHR-S10-1960S-001
+    categorie: jalon
     date: "années 1960"
     precision_date: decade
     event: "Bernard Sumner grandit à Alfred Street, Lower Broughton, dans une communauté ouvrière proche de sites industriels."
@@ -40,6 +42,7 @@ events:
       - S10-A002
 
   - id: CHR-S10-1960S-002
+    categorie: jalon
     date: "années 1960"
     precision_date: decade
     event: "La famille de Sumner quitte Alfred Street pour un flat à Greengate ; Sumner découvre le confort domestique mais aussi la perte de sociabilité de rue."
@@ -52,6 +55,7 @@ events:
       - S10-A003
 
   - id: CHR-S10-1970S-001
+    categorie: jalon
     date: "début des années 1970"
     precision_date: periode
     event: "Clearance d’Alfred Street et dispersion de la communauté ouvrière de Lower Broughton."
@@ -64,6 +68,7 @@ events:
       - S10-A004
 
   - id: CHR-S10-1970S-002
+    categorie: jalon
     date: "début des années 1970"
     precision_date: periode
     event: "Bernard Sumner et Peter Hook se rencontrent à Salford Grammar School."
@@ -79,6 +84,7 @@ events:
       - S10-A007
 
   - id: CHR-S10-1970-001
+    categorie: jalon
     date: 1970
     precision_date: annee
     event: "La mort de Jimi Hendrix pousse Sumner à réécouter son œuvre jusqu’au déclic musical."
@@ -93,6 +99,7 @@ events:
       - S10-A008
 
   - id: CHR-S10-1974-001
+    categorie: jalon
     date: 1974
     precision_date: annee
     event: "Sumner assiste à un concert de Lou Reed au Free Trade Hall."
@@ -108,6 +115,7 @@ events:
       - S10-A010
 
   - id: CHR-S10-1976-001
+    categorie: jalon
     date: 1976-06-04
     precision_date: jour
     event: "Bernard Sumner, Peter Hook, Terry Mason et d’autres assistent au concert des Sex Pistols au Lesser Free Trade Hall."
@@ -127,6 +135,7 @@ events:
       - S10-A011
 
   - id: CHR-S10-1976-002
+    categorie: jalon
     date: "été 1976"
     precision_date: saison
     event: "Sumner et Hook commencent à apprendre guitare et basse et à composer ensemble à Alfred Street, avec un gramophone détourné en ampli."
@@ -142,6 +151,7 @@ events:
       - S10-A012
 
   - id: CHR-S10-1976-003
+    categorie: jalon
     date: "fin 1976"
     precision_date: approx
     event: "Annonce déposée chez Virgin Records sur Lever Street pour recruter un chanteur ; Ian Curtis appelle et obtient le poste."
@@ -158,6 +168,7 @@ events:
       - S10-A013
 
   - id: CHR-S10-1977-001
+    categorie: jalon
     date: 1977-05-29
     precision_date: jour
     event: "Premier concert de Warsaw / Stiff Kittens à l’Electric Circus, Manchester, en ouverture des Buzzcocks."
@@ -172,6 +183,7 @@ events:
       - S10-A015
 
   - id: CHR-S10-1978-001
+    categorie: jalon
     date: 1978-01-25
     precision_date: jour
     event: "Premier concert sous le nom Joy Division à Pips, Manchester."
@@ -184,6 +196,7 @@ events:
       - S10-A019
 
   - id: CHR-S10-1978-002
+    categorie: jalon
     date: "avril 1978"
     precision_date: mois
     event: "Concert à Rafters organisé par Stiff / Chiswick ; Rob Gretton voit Joy Division et propose de devenir leur manager."
@@ -200,6 +213,7 @@ events:
       - S10-A016
 
   - id: CHR-S10-1978-003
+    categorie: jalon
     date: 1978
     precision_date: annee
     event: "Sessions RCA / Greendow Commercials, album avorté, overdubs imposés et récupération ultérieure des bandes par Gretton."
@@ -215,6 +229,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-004
+    categorie: jalon
     date: 1978
     precision_date: annee
     event: "Enregistrement d’An Ideal for Living à Pennine Studios, Oldham, et choix de l’imagerie Hitler Youth / Bernard Albrecht."
@@ -227,6 +242,7 @@ events:
       - S10-A019
 
   - id: CHR-S10-1978-005
+    categorie: jalon
     date: 1978-09-20
     precision_date: jour
     event: "Joy Division fait ses débuts télévisés sur Granada Reports avec Shadowplay."
@@ -241,6 +257,7 @@ events:
       - S10-A017
 
   - id: CHR-S10-1978-006
+    categorie: jalon
     date: "Noël 1978"
     precision_date: periode
     event: "Joy Division apparaît sur A Factory Sample avec Digital et Glass."
@@ -254,6 +271,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-007
+    categorie: jalon
     date: 1978-12-27
     precision_date: jour
     event: "Concert au Hope and Anchor, Islington ; au retour, Curtis subit une crise épileptique et est conduit à l’hôpital de Luton."
@@ -268,6 +286,7 @@ events:
       - S10-A024
 
   - id: CHR-S10-1979-001
+    categorie: jalon
     date: "janvier 1979"
     precision_date: mois
     event: "Diagnostic d’épilepsie de Curtis confirmé autour de la première Peel Session selon le cadrage de Sumner."
@@ -281,6 +300,7 @@ events:
       - S10-A024
 
   - id: CHR-S10-1979-002
+    categorie: jalon
     date: "avril 1979"
     precision_date: mois
     event: "Joy Division entre à Strawberry Studios pour enregistrer Unknown Pleasures avec Martin Hannett."
@@ -296,6 +316,7 @@ events:
       - S10-A021
 
   - id: CHR-S10-1980-001
+    categorie: jalon
     date: 1980
     precision_date: annee
     event: "Autour de Closer, Curtis exprime à Sumner le sentiment d’être entraîné dans un whirlpool et annonce brièvement à Gretton son désir de quitter le groupe pour Bournemouth."

@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S45-1979-10-APOLLO-ANNIK-DEBORAH
+    categorie: jalon
     source_id: S45
     date: "1979-10"
     evenement: >
@@ -16,6 +17,7 @@ chronology:
     statut: datation à croiser avec gig list Apollo
 
   - id: CHR-S45-1979-11-DISPARITION-ERASERHEAD
+    categorie: jalon
     source_id: S45
     date: "1979-11"
     evenement: >
@@ -28,6 +30,7 @@ chronology:
     statut: scène domestique, datation approximative
 
   - id: CHR-S45-1979-LATE-SILKLANDS-FINANCES
+    categorie: jalon
     source_id: S45
     date: "1979-11/1979-12"
     evenement: >
@@ -40,6 +43,7 @@ chronology:
     statut: période à préciser
 
   - id: CHR-S45-1979-11-RAINBOW-GUILDFORD-TOUR-END
+    categorie: jalon
     source_id: S45
     date: "1979-11"
     evenement: >
@@ -52,6 +56,7 @@ chronology:
     statut: détails à croiser avec presse et gig lists
 
   - id: CHR-S45-1979-12-13-BIRTHDAY-WILMSLOW
+    categorie: jalon
     source_id: S45
     date: "1979-12-13"
     evenement: >
@@ -63,6 +68,7 @@ chronology:
     statut: daté par S45
 
   - id: CHR-S45-1979-12-PARIS-FRANCK-ESSNER
+    categorie: jalon
     source_id: S45
     date: "1979-12"
     evenement: >
@@ -75,6 +81,7 @@ chronology:
     statut: événement à croiser avec Essner et archives françaises
 
   - id: CHR-S45-1979-12-31-FACTORY-NEW-YEAR
+    categorie: concert_a_migrer
     source_id: S45
     date: "1979-12-31"
     evenement: >
@@ -87,6 +94,7 @@ chronology:
     statut: daté par S45
 
   - id: CHR-S45-1979-END-MARRIAGE-OVER
+    categorie: jalon
     source_id: S45
     date: "1979-12"
     evenement: >

@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, fin
 
 ```yaml
 id: CHR-S76-1980-026
+categorie: jalon
 type_unite: chronology
 date: 1980-04-25/1980-04-26
 precision_date: overnight
@@ -47,6 +48,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-027
+categorie: jalon
 type_unite: chronology
 date: 1980-05-02
 precision_date: exact
@@ -86,6 +88,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-028
+categorie: jalon
 type_unite: chronology
 date: 1980-05-14/1980-05-17
 precision_date: date_range
@@ -122,6 +125,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-029
+categorie: jalon
 type_unite: chronology
 date: 1980-05-17
 precision_date: exact
@@ -159,6 +163,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-030
+categorie: jalon
 type_unite: chronology
 date: 1980-05-17/1980-05-18
 precision_date: overnight
@@ -197,6 +202,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-031
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: exact
@@ -235,6 +241,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-032
+categorie: jalon
 type_unite: chronology
 date: 1980-05-18
 precision_date: same_day
@@ -270,6 +277,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-033
+categorie: jalon
 type_unite: chronology
 date: 1980-05-23
 precision_date: exact

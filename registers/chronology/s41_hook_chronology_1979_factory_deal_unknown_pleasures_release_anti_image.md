@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-03-13-BAND-ON-THE-WALL-FACTORY-DEAL
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-03-13"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: repère contractuel à croiser avec archives Factory
 
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-03-14"
     evenement: >
@@ -28,6 +30,7 @@ chronology:
     statut: archive filmique établie
 
   - id: CHR-S41-1979-03-WALTHAMSTOW-HELICOPTER-VAN
+    categorie: jalon
     source_id: S41
     date: "1979-03"
     evenement: >
@@ -40,6 +43,7 @@ chronology:
     statut: souvenir logistique Hook
 
   - id: CHR-S41-1979-04-STRAWBERRY-UP-SESSIONS
+    categorie: jalon
     source_id: S41
     date: "1979-04"
     evenement: >
@@ -55,6 +59,7 @@ chronology:
     statut: session album établie ; détails à croiser avec discographies
 
   - id: CHR-S41-1979-04-UP-MASTER-PRESSING
+    categorie: jalon
     source_id: S41
     date: "1979-04/1979-05"
     evenement: >
@@ -67,6 +72,7 @@ chronology:
     statut: logistique discographique rapportée par Hook
 
   - id: CHR-S41-1979-06-UP-RELEASE-CRITICAL-ACCLAIM
+    categorie: jalon
     source_id: S41
     date: "1979-06"
     evenement: >
@@ -79,6 +85,7 @@ chronology:
     statut: réception presse à croiser avec NME / Melody Maker
 
   - id: CHR-S41-1979-06-PICCADILLY-RADIO-CHANCE-ATROCITY
+    categorie: jalon
     source_id: S41
     date: "1979-06"
     evenement: >
@@ -92,6 +99,7 @@ chronology:
     statut: session radio à croiser
 
   - id: CHR-S41-1979-07-CENTRAL-SOUND-TRANSMISSION
+    categorie: jalon
     source_id: S41
     date: "1979-07"
     evenement: >
@@ -106,6 +114,7 @@ chronology:
     statut: session à croiser avec discographies
 
   - id: CHR-S41-1979-GRANADA-WHATS-ON-SLC
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -118,6 +127,7 @@ chronology:
     statut: archive audiovisuelle à dater précisément
 
   - id: CHR-S41-1979-YMCA-TOTTENHAM-COURT-ROAD
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979"
     evenement: >

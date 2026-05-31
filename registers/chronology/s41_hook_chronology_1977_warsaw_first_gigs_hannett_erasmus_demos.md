@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1977-05-29-WARSAW-FIRST-GIG-ELECTRIC-CIRCUS
+    categorie: jalon
     source_id: S41
     date: "1977-05-29"
     evenement: >
@@ -16,6 +17,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-05-31-RAFTERS-HEARTBREAKERS
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-05-31"
     evenement: >
@@ -28,6 +30,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-06-06-NEWCASTLE-SLEEPING-BAG
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-06-06"
     evenement: >
@@ -39,6 +42,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-06-SQUAT-STUFF-THE-JUBILEE
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-06"
     evenement: >
@@ -51,6 +55,7 @@ chronology:
     statut: événement établi par gig lists
 
   - id: CHR-S41-1977-06-25-TONY-TABAC-LAST-GIG
+    categorie: jalon
     source_id: S41
     date: "1977-06-25"
     evenement: >
@@ -63,6 +68,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-06-30-RAFTERS-FAST-BREEDER-HANNETT-ERASMUS
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-06-30"
     evenement: >
@@ -76,6 +82,7 @@ chronology:
     statut: événement établi ; détails à croiser
 
   - id: CHR-S41-1977-07-18-WARSAW-DEMO-PENNINE
+    categorie: jalon
     source_id: S41
     date: "1977-07-18"
     evenement: >
@@ -89,6 +96,7 @@ chronology:
     statut: session documentée
 
   - id: CHR-S41-1977-SUMMER-ROB-GRETTON-PREMANAGER
+    categorie: jalon
     source_id: S41
     date: "1977"
     evenement: >
@@ -101,6 +109,7 @@ chronology:
     statut: contexte biographique
 
   - id: CHR-S41-1977-08-STEVE-MORRIS-JOINS
+    categorie: jalon
     source_id: S41
     date: "1977-08"
     evenement: >
@@ -114,6 +123,7 @@ chronology:
     statut: datation approximative à croiser
 
   - id: CHR-S41-1977-08-27-ERICS-LIVERPOOL
+    categorie: jalon
     source_id: S41
     date: "1977-08-27"
     evenement: >
@@ -126,6 +136,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1977-09-14-MIDDLESBROUGH-BOB-LAST
+    categorie: jalon
     source_id: S41
     date: "1977-09-14"
     evenement: >
@@ -138,6 +149,7 @@ chronology:
     statut: événement établi ; lien bootleg à indexer
 
   - id: CHR-S41-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT
+    categorie: jalon
     source_id: S41
     date: "1977-10-02"
     evenement: >
@@ -151,6 +163,7 @@ chronology:
     statut: événement discographique établi
 
   - id: CHR-S41-1977-10-SALFORD-TECHNICAL-COLLEGE-HANNETT
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-10"
     evenement: >

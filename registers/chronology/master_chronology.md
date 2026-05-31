@@ -77,6 +77,7 @@ notes:
 
 ```yaml
 id: CHR-1956-001
+categorie: jalon
 
 date: 1956-07-15
 precision_date: exact
@@ -123,6 +124,7 @@ notes: >
 
 ```yaml
 id: CHR-1976-001
+categorie: jalon
 
 date: 1976-06-04
 precision_date: exact
@@ -175,6 +177,7 @@ notes: >
 
 ```yaml
 id: CHR-1978-001
+categorie: jalon
 
 date: 1978-05
 precision_date: approximate
@@ -223,6 +226,7 @@ notes: >
 
 ```yaml
 id: CHR-1978-002
+categorie: jalon
 
 date: 1978-12
 precision_date: approximate
@@ -275,6 +279,7 @@ notes: >
 
 ```yaml
 id: CHR-1979-001
+categorie: jalon
 
 date: 1979-01
 precision_date: approximate
@@ -327,6 +332,7 @@ notes: >
 
 ```yaml
 id: CHR-1979-002
+categorie: jalon
 
 date: 1979-06-14
 precision_date: exact
@@ -383,6 +389,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-001
+categorie: jalon
 
 date: 1980-04-08
 precision_date: exact
@@ -431,6 +438,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-002
+categorie: jalon
 
 date: 1980-05-02
 precision_date: exact
@@ -478,6 +486,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-003
+categorie: jalon
 
 date: 1980-05-18
 precision_date: exact
@@ -528,6 +537,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-004
+categorie: jalon
 
 date: 1980-07-18
 precision_date: exact

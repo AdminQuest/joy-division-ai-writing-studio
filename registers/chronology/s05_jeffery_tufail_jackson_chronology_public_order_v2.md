@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S05-001
+    categorie: jalon
     date: 1974
     precision_date: annee
     event: "Création de Greater Manchester Police après fusion de plusieurs forces locales."
@@ -23,6 +24,7 @@ events:
       - S05-A002
 
   - id: CHR-S05-002
+    categorie: jalon
     date: 1976
     precision_date: annee
     event: "James Anderton devient Chief Constable de Greater Manchester Police."
@@ -37,6 +39,7 @@ events:
       - S05-A003
 
   - id: CHR-S05-003
+    categorie: jalon
     date: 1977
     precision_date: annee
     event: "Mobilisation du National Front à Hyde, encadrée par GMP et la Tactical Aid Group."
@@ -49,6 +52,7 @@ events:
       - S05-A005
 
   - id: CHR-S05-004
+    categorie: jalon
     date: 1978
     precision_date: annee
     event: "Confrontations autour d’une manifestation du National Front à Bolton."
@@ -61,6 +65,7 @@ events:
       - S05-A005
 
   - id: CHR-S05-005
+    categorie: reception_posthume
     date: 1981
     precision_date: annee
     event: "Émeutes de Moss Side dans un contexte de tensions autour du racisme policier et des relations police-communautés."
@@ -73,6 +78,7 @@ events:
       - S05-A006
 
   - id: CHR-S05-006
+    categorie: reception_posthume
     date: 1985
     precision_date: annee
     event: "Battle of Brittan à l’Université de Manchester et campagne ultérieure de police vigilantism."
@@ -87,6 +93,7 @@ events:
       - S05-A007
 
   - id: CHR-S05-007
+    categorie: reception_posthume
     date: 1986
     precision_date: annee
     event: "Affaire Stalker et controverses publiques autour de James Anderton."
@@ -102,6 +109,7 @@ events:
       - S05-A003
 
   - id: CHR-S05-008
+    categorie: reception_posthume
     date: 1992
     precision_date: annee
     event: "Émeute d’Ordsall dans un contexte de désindustrialisation, policing lourd et tensions autour de la gentrification."
@@ -114,6 +122,7 @@ events:
       - S05-A009
 
   - id: CHR-S05-009
+    categorie: reception_posthume
     date: 2001
     precision_date: annee
     event: "Émeutes d’Oldham, dans un contexte de racialisation, extrême droite et discours de community cohesion."
@@ -126,6 +135,7 @@ events:
       - S05-A010
 
   - id: CHR-S05-010
+    categorie: reception_posthume
     date: 2004
     precision_date: annee
     event: "Verrouillage du centre de Manchester pour la conférence du Labour Party, exemple de sécuritisation urbaine."
@@ -138,6 +148,7 @@ events:
       - S05-A011
 
   - id: CHR-S05-011
+    categorie: reception_posthume
     date: 2011
     precision_date: annee
     event: "Émeutes de Pendleton / Salford et Manchester dans le contexte des English Riots."
@@ -150,6 +161,7 @@ events:
       - S05-A013
 
   - id: CHR-S05-012
+    categorie: reception_posthume
     date: "2013-2014"
     precision_date: range
     event: "Policing des protestations anti-fracking à Barton Moss."

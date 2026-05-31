@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-M5-VAN-ACCIDENT
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -15,6 +16,7 @@ chronology:
     statut: date exacte à croiser avec gig list
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK
+    categorie: jalon
     source_id: S41
     date: "1979-08-13"
     evenement: >
@@ -28,6 +30,7 @@ chronology:
     statut: événement biographique à croiser avec S45 et entretien En Attendant
 
   - id: CHR-S41-1979-08-22-EN-ATTENDANT-INTERVIEW
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-08-22"
     evenement: >
@@ -40,6 +43,7 @@ chronology:
     statut: entretien à croiser avec archive audio / transcription
 
   - id: CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -52,6 +56,7 @@ chronology:
     statut: tournée établie ; dates à croiser
 
   - id: CHR-S41-1979-BUZZCOCKS-TOUR-SEIZURES
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -65,6 +70,7 @@ chronology:
     statut: séquence médicale à croiser avec S45 et Morris
 
   - id: CHR-S41-1979-LEEDS-SEIZURE
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -76,6 +82,7 @@ chronology:
     statut: date précise à croiser avec gig list
 
   - id: CHR-S41-1979-GLASGOW-HILTON-BUZZCOCKS
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -88,6 +95,7 @@ chronology:
     statut: mémoire de tournée ; détails à prudence
 
   - id: CHR-S41-1979-DUNDEE-TWINNY-PRANK
+    categorie: jalon
     source_id: S41
     date: "1979"
     evenement: >
@@ -99,6 +107,7 @@ chronology:
     statut: anecdote secondaire
 
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS
+    categorie: jalon
     source_id: S41
     date: "1979-10-16"
     evenement: >
@@ -112,6 +121,7 @@ chronology:
     statut: événement européen établi
 
   - id: CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT
+    categorie: jalon
     source_id: S41
     date: "1979-10"
     evenement: >

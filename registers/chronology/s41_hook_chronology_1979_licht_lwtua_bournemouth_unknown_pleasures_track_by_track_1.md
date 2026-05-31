@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1979-10-11-CARGO-SORDIDE-ATMOSPHERE
+    categorie: jalon
     source_id: S41
     date: "1979-10/1979-11"
     evenement: >
@@ -17,6 +18,7 @@ chronology:
     statut: datation et lieu à croiser avec discographies Sordide / Cargo
 
   - id: CHR-S41-1979-11-26-SECOND-PEEL-LWTUA
+    categorie: jalon
     source_id: S41
     date: "1979-11-26"
     evenement: >
@@ -30,6 +32,7 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-11-02-BOURNEMOUTH-SEIZURE
+    categorie: jalon
     source_id: S41
     date: "1979-11-02"
     evenement: >
@@ -42,6 +45,7 @@ chronology:
     statut: épisode médical à croiser avec gig lists et autres témoignages
 
   - id: CHR-S41-1979-04-UP-TRACK-BY-TRACK-RETROSPECTIVE
+    categorie: jalon
     source_id: S41
     date: "1979-04"
     evenement: >
