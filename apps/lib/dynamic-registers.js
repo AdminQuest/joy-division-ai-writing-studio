@@ -71,7 +71,7 @@ window.DynamicRegisters = (() => {
   function inferKind(data) {
     const id = text(data.id);
     const file = text(data.__file);
-    if (id.startsWith('CHR-') || (id.startsWith('EVENT-') && !/^EVENT-S\d+-/.test(id))) return 'chronology';
+    if (id.startsWith('CHR-')) return 'chronology';
     if (id.startsWith('ACT-') || id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
     if (id.startsWith('PLACE-') || /places\//.test(file)) return 'place';
     if (id.startsWith('ORG-') || /organizations\//.test(file)) return 'organization';
