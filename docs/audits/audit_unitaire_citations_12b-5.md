@@ -538,3 +538,100 @@ atomisé), conforme à l'audit.
 **Aucune décision de conception n'est tranchée ici** : 8a se borne à rendre le
 corpus complet visible, dédoublonné et re-caractérisé. La canonicalisation
 `QUOTE-` (et l'identité source+ordinal actée) reste l'objet de 8b.
+
+---
+
+## Annexe B — Normalisation structurelle (étape 8b-1, backbone)
+
+> **Portée.** 8b-1 dote le registre citations d'un **backbone structurel** et
+> d'une **porte de validation**, **sans canonicalisation** (aucun `QUOTE-`) et
+> **sans renommer aucun id** (l'identité reste **source + ordinal**, préservant
+> les 30+ références repo et la parité du classifieur `-Q`/`-CIT-`/`CIT-`).
+> L'**attribution** et le **split fin paraphrase/concept** sont **différés à
+> 8b-2**. Gel `EVENT-`/`CONCERT-` **intact** (validateurs chronologie + concerts
+> verts).
+
+### B.1. Type d'unité `quote` — backbone dérivé (pas de réécriture source)
+
+Le corpus (962, figé) est hétérogène (texte sous 5 champs concurrents, statut
+imbriqué, conformité **8 %**). Plutôt que de réécrire 962 records dans ~100
+fichiers et 3 structures (risque, churn, contradiction avec « corpus figé »), le
+backbone est **dérivé** par `build_registers.normalize_quote_record` et
+matérialisé dans l'export canonique (`exports/generated/quotes.json`), validé par
+la même logique (parité build ↔ validateur ↔ loader runtime) :
+
+| Champ backbone | Dérivation | Couverture |
+|---|---|---:|
+| `id` | conservé (source + ordinal) | 962/962 |
+| `kind` | marqueur `quote` | 962/962 |
+| `source_id` | présent, sinon **recouvré depuis l'id** (`CIT-S65-001` → `S65`) | **962/962 (100 %)** |
+| `texte` | 1er champ de texte **chaîne** dispo (booléens ignorés) ; sentinelle `« (non transcrit) »` pour les fiches-pointeur | 962/962 (dont **82** sentinelles) |
+| `type` | `verbatim` si champ verbatim chaîne présent, sinon `non_verbatim` | **699 / 263** |
+| `page` | localisateur réel, sinon `« inconnue »` (pas de fabrication) | **909** réels / **53** `inconnue` |
+
+Préservation lossless : l'ancien `type` (descripteur de longueur :
+« citation courte »…) est conservé sous `type_legacy` (**82** records) ;
+`langue_originale: anglais` est normalisé en `en` (**20** records).
+
+**Conformité schéma : 8 % → 100 %** (962/962 satisfont `id + kind + source_id +
+texte + type`, `type ∈ {verbatim, non_verbatim}`).
+
+### B.2. Doublon réconcilié par `same_as`
+
+Le seul doublon verbatim strict (§A.3) est réconcilié, **sans renommage**, par un
+`same_as` additif déprécié→retenu (NAMING §10.3, mono-valué, point fixe) :
+
+| Déprécié | → Retenu | Propos (Bernard Sumner) |
+|---|---|---|
+| `S75-Q016` (Ott, 2004) | `S45-Q052` (Curtis, *Touching from a Distance*, biographie primaire) | « He was a catalyst for the rest of us. » |
+
+### B.3. Porte de validation — `tools/validate_quotes.py`
+
+Gate-able (exit 0/1), lit les sources, applique la même normalisation, contrôle :
+
+| Invariant | Contrôle | Résultat |
+|---|---|:--:|
+| **INV1 schéma** | requis backbone présents ; `type` contrôlé ; `langue_originale` ∈ {en,fr,de,it} | ✓ 0 erreur |
+| **INV2 id** | convention ∈ {`S\d+-Q\d+`, `S\d+-CIT-\d+`, `CIT-S\d+-\d+`} | ✓ |
+| **INV3 provenance** | `source_id` présent ; `page` réelle ou `« inconnue »` | ✓ |
+| **INV4 type** | `type` ∈ {verbatim, non_verbatim} | ✓ |
+| **INV5 same_as** | mono-valué ; cible existante ; pas d'auto-réf ; point fixe (cible sans same_as) | ✓ |
+| **INV6 gel** | aucun id citation n'empiète sur `EVENT-`/`CONCERT-` ; cibles `same_as` internes au registre | ✓ |
+
+**Porte : OUVERTE (errors = 0).** Prérequis environnement : `jsonschema` (déjà
+déclaré dans `requirements.txt`) — `validate_places`/`validate_songs`/
+`validate_quotes` tournent désormais réellement (tous verts).
+
+### B.4. Ce qui reste pour 8b-2
+
+Attribution (dénormaliser locuteur / rapporteur / auteur-source ; arête
+`PERSON-`) ; split fin du `non_verbatim` (paraphrase vs concept/titre/terme) ;
+transcription du verbatim des **75** fiches-pointeur (`texte` aujourd'hui
+sentinellé) ; sourçage des **53** `page: inconnue`. **Aucune** de ces décisions
+n'est tranchée ici.
+
+### B.5. Parité du 4ᵉ consommateur — `build_master_docs.py`
+
+Correctif de parité (suite 8b-1). Le backbone fait de `texte` la **source unique**
+du corps de citation, mais `build_master_docs.py` lisait encore une liste de
+champs legacy en dur (`citation_originale || citation_directe ||
+traduction_editoriale_fr`). Pour les records normalisés vers `texte` depuis un
+autre champ (`passage`, `resume`, `usage_livre`, prose analytique…), les chapitres
+rendaient des **corps de citation vides** (`« »`). Le master-docs était le **4ᵉ
+consommateur** resté hors parité **build ↔ validateur ↔ loader**.
+
+Correctif : `quote_line` lit d'abord le `texte` canonique (repli legacy seulement
+pour un export non normalisé). Effet sur les 14 chapitres régénérés :
+
+| Mesure | Valeur |
+|---|---:|
+| Corps de citation **vides → rendus** | **413 → 0** (411 lignes de citation) |
+| dont **texte réel** recouvré | **394** |
+| dont sentinelle honnête `« (non transcrit) »` | **17** (≠ corps vide) |
+
+Robustesse : la résolution de texte ignore désormais les **booléens** — sept
+fiches `CIT-S83-*` utilisent `citation_directe: true|false` comme **drapeau**
+(et non comme corps) ; elles passent en `non_verbatim` et rendent la sentinelle
+(le verbatim « working into this space » vit dans le titre/prose, à extraire en
+8b-2). Split provisoire ajusté : **699 verbatim / 263 non_verbatim** ; **82**
+sentinelles. `build --strict errors=0`, 5 validateurs verts, sentinelle en phase.

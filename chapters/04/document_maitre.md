@@ -56,8 +56,8 @@ generated_at: "2026-05-30T22:42:05"
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 1 | 0 |
 | S63 | S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018 | 1 | 0 |
 | S64 | S64 — Bottà, European Imaginary of Joy Division, 2018 | 1 | 0 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 7 | 0 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 1 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 7 | 3 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 1 | 1 |
 | S67 | S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 | 2 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
@@ -364,41 +364,41 @@ generated_at: "2026-05-30T22:42:05"
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
-- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Curtis was unknown in his lifetime »
+- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « it was too incredible to comprehend that he would use such a public method to cry for help »
+- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the person closest to Ian Curtis heard the actual words »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « He was a catalyst for the rest of us. »
+- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « dead fly dance »
+- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « This is the crisis I knew had to come »
+- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Ian Curtis lost. »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He had a very happy life and there were many good times. »
+- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was always a leader of everything but in a very quiet way, not in a dominating way. »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I never heard him express a political view in his life. »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he never showed any interest in Germany apart from a historic point of view »
+- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He wouldn’t just do what was expected in class, he would find his own bits »
+- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « King’s was a brutalising environment where you lost your first name »
+- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « that was another bit of Ian entirely that I had yet to know »
+- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I think it was just an experiment, bit of a laugh really. »
+- **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was always interested in that kind of stuff but he was never vain, never posing in these clothes. »
+- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « This night was, in fact, their first date – Ian was 16 and Debbie was 15. »
+- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I just thought why get married at such a young age. »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he used to say that he’d die young »
+- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian Curtis still wanted to become a rock star. »
+- **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was really wired when I first met him »
+- **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian left The Apollo in a state of exhilaration. »
+- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was visibly freaked by the intrusion »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « There was always, perhaps, a slight edge between Ian and Rob. »
+- **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he wasn’t the average rock singer either »
+- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was different, strangely focused. »
+- **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « If anything, he seemed a bit unsure on-stage. »
+- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He was very much a married man. »
+- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was the most curious of the lot »
+- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « escalating pressure from several different angles »
+- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The mood in the car on the return journey was miserable. »
+- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He definitely never had any fits when he was growing up. »
+- **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the outsider was Ian »
+- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I had never seen anything like it in my life. »
+- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he didn’t seem any different to the rest of us »
 
 ## 8. Chronologie rattachée
 

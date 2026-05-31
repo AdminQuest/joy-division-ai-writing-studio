@@ -360,40 +360,40 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
-- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q017** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q021** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q025** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q030** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q032** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q006** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Approximately 42 people were at the Pistols' first Manchester Free Trade Hall gig, though thousands would later claim attendance. »
+- **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « The potential early moniker Stiff Kittens has perhaps been taken too seriously over the years by fans and critics. »
+- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « The second track on An Ideal For Living is really the beginning of Joy Division proper. »
+- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « They just can't play. »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « He was a catalyst for the rest of us. »
+- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He wouldn’t just do what was expected in class, he would find his own bits »
+- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I think it was just an experiment, bit of a laugh really. »
+- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « This night was, in fact, their first date – Ian was 16 and Debbie was 15. »
+- **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « We’d just talk about music and other things as well. »
+- **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was that kid from Rare Records who used to talk about reggae. »
+- **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I first met Ian at a music shop called Reno’s on Oxford Road »
+- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian Curtis still wanted to become a rock star. »
+- **S76-Q017** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « We were both shit. »
+- **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was really wired when I first met him »
+- **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « He just used to bounce more than anyone else. »
+- **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was seen as being a bit of an outsider, but amiable enough. »
+- **S76-Q021** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The audition wasn’t an audition. »
+- **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he had all these index cards with bits of songs on bits of paper. »
+- **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian left The Apollo in a state of exhilaration. »
+- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian really wanted something darker than Stiff Kittens »
+- **S76-Q025** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « they weren’t great, they weren’t magnificent, they were just an ordinary local band. »
+- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the two things that were really different were Ian and Steve the drummer. »
+- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was only after Joy Division became so famous that gigs like this become memorable. »
+- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « The band sounded shit but he looked special. »
+- **S76-Q030** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « There was a man there in a rubber suit. You don’t see many rubber suits. »
+- **S76-Q032** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « We’d never heard of it, and I don’t think anyone has ever heard of it since. »
+- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « rereleasing An Ideal For Living on the 12-inch Anonymous Records format »
+- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « L’exposition présente City Fun comme le fanzine favori de Manchester et comme objet local à redécouvrir. »
+- **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca rappelle le concert des Sex Pistols du 4 juin 1976 comme scène d’effervescence mancunienne et point de cristallisation mythique. »
+- **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley définit les fanzines comme espace culturel contesté permettant aux jeunes d’exprimer idées, opinions et anxiétés. »
+- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Mark Perry appelle les lecteurs de Sniffin’ Glue à créer leurs propres fanzines et à saturer le marché de l’écriture punk. »
+- **S77-Q006** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley souligne que les fanzines permettent à ceux qui vivent la culture punk de la définir, la contester et la façonner de l’intérieur. »
+- **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley caractérise le contexte des années 1970 par crise économique, désindustrialisation, National Front, CND, chômage et Thatcherisme. »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley présente City Fun comme cas majeur mancunien combinant humour irrévérencieux, gauche libertaire, RAR, CND, scène gay, Factory et Paul Morley. »
 - **S84-Q001** — S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : `verifie` — « We do like to keep our hand in and keep you informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting new sound we've come across in the last six months »
 - **S84-Q004** — S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : `verifie` — « curious little film — not terribly sophisticated but, in that naïve state, seemed to perfectly suit the band »
 

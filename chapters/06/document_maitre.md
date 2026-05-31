@@ -55,8 +55,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 2 | 1 |
 | S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 2 | 0 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 8 | 0 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 8 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 8 | 3 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 8 | 9 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -361,43 +361,43 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
-- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q052** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q068** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q069** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « in its own space »
+- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Hannett was OK—we were a bit in awe of him—but he didn’t write the songs. »
+- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « The musicians own everything, the company owns nothing. »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « mass-produced secret »
+- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Nobody else would. »
+- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « Martin had coloured it in for us. »
+- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « All he wanted to do was experiment »
+- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « he taught us to look at music »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — « the end of pop »
+- **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he had all these index cards with bits of songs on bits of paper. »
+- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the two things that were really different were Ian and Steve the drummer. »
+- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « negative, negative energy »
+- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I’m going to manage that group, they are the big break I’ve been looking for »
+- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Nobody could have been aware, at that point, just how good Joy Division were about to become. »
+- **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was never going to work. That much was obvious. »
+- **S76-Q052** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « they weren’t just another punk band pulled in from the streets »
+- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the Curtis vocals seemed adrift, dislodged and reedy »
+- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Four songs would have been enough »
+- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I just knew he had gone. »
+- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was a shadowy figure, to say the least »
+- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was a shadowy figure »
+- **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « More than a manager, Gretton had joined the gang »
+- **S76-Q068** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « But he did have a phone, which was a big plus. »
+- **S76-Q069** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « That was my first task as manager »
+- **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « with patience they could develop strongly and make some testing, worthwhile metallic music »
+- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a marriage in monochrome »
+- **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a different kind of record label »
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the perfect venue for the stark industrial side of post-punk »
+- **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Factory Clearance »
+- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « some kind of spotlight had started to move cautiously to the UK’s northern cities »
+- **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « money did not belong in a dead stone vault »
+- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was digital, it was heaven sent »
+- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian, stock still and central »
+- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « introspective and rather Russian »
+- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « to stay with Hannett or go with Rushent? »
+- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « things do emerge, they can become original from unexpected sources and surroundings »
+- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he didn’t seem any different to the rest of us »
 
 ## 8. Chronologie rattachée
 

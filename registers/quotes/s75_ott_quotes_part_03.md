@@ -214,6 +214,10 @@ source_id: S75
 source_label: "S75 — Ott, Joy Division's Unknown Pleasures, 2004"
 auteur: Bernard Sumner cité par Chris Ott
 citation: "He was a catalyst for the rest of us."
+# Doublon verbatim du même propos (Bernard Sumner) rapporté par S45 (Curtis,
+# Touching from a Distance, biographie primaire). Réconciliation par same_as
+# additif déprécié→retenu (NAMING §10.3), sans renommage d'id (étape 8b-1).
+same_as: S45-Q052
 statut: candidate
 verification: a_verifier_sur_pdf
 pages:

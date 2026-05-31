@@ -283,7 +283,17 @@ def quote_line(quote: Dict[str, Any], source_index: Dict[str, Dict[str, Any]]) -
     data = quote.get("data", {})
     quote_id = text(quote.get("id"))
     sid = text(data.get("source_id"))
-    original = text(data.get("citation_originale") or data.get("citation_directe") or data.get("traduction_editoriale_fr"))
+    # Parité backbone (étape 8b-1) : le corps de citation est lu sur le champ
+    # canonique `texte` (dérivé par build_registers.normalize_quote_record,
+    # source unique pour tous les consommateurs : build, validateur, loader,
+    # master-docs). Repli sur les champs legacy uniquement si un export
+    # non normalisé est lu. Les fiches-pointeur rendent « (non transcrit) ».
+    original = text(
+        data.get("texte")
+        or data.get("citation_originale")
+        or data.get("citation_directe")
+        or data.get("traduction_editoriale_fr")
+    )
     status = text(data.get("statut_verification") or data.get("statut") or "à vérifier")
     if len(original) > 220:
         original = original[:220] + "…"

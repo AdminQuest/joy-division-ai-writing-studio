@@ -1,29 +1,40 @@
 schema: quote
-version: 1.0
+version: 2.0
 
 description: >
-  Schéma documentaire des citations exactes.
-  Une citation conserve le texte original,
-  les traductions et les métadonnées critiques.
+  Backbone structurel du type d'unité « quote » (étape 8b-1).
+  L'identité d'une citation est source + ordinal, CONSERVÉE (aucun renommage) :
+  conventions reconnues S\d+-Q\d+, S\d+-CIT-\d+, CIT-S\d+-\d+.
+  Les champs de backbone (kind, texte, type, page) sont dérivés par
+  build_registers.normalize_quote_record sans réécrire les fichiers source
+  (texte = 1er champ de texte disponible, sentinelle « (non transcrit) » pour
+  les fiches-pointeur ; type = verbatim|non_verbatim ; page = localisateur réel
+  ou « inconnue »). L'attribution et le split fin paraphrase/concept relèvent de
+  l'étape 8b-2 et ne sont PAS portés ici. Validé par tools/validate_quotes.py.
 
 required:
   - id
+  - kind
   - source_id
-  - citation_originale
-  - langue_originale
-  - statut_verification
+  - texte
+  - type
 
 recommended:
+  - page
+  - citation_originale
+  - langue_originale
   - traduction_litterale_fr
   - traduction_editoriale_fr
-  - enjeu_traduction
+  - date_publication
+  - date_enonciation
+  - locuteur
   - atomes_lies
-  - usage_recommande
-  - risques
-  - page_pdf
-  - page_print
 
 controlled_values:
+
+  type:
+    - verbatim
+    - non_verbatim
 
   langue_originale:
     - en

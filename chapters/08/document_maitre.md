@@ -353,9 +353,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 7. Citations disponibles
 
-- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S29-Q005** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
-- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « Recording has always had a spectral undercurrent »
+- **S29-Q005** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — « places that no longer exist »
+- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « the story of a city »
 - **S71-Q022** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « It was a match made in Hell. No other group could come close to sculpting nightmares so detailed or believable. »
 - **S71-Q023** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « on Christmas Eve he photocopied Saville's cover designs and made his own sleeves with paper and glue, sliding the already-pressed discs in and delivering them himself to the homes of twenty musicians, including Ian Curti… »
 - **S71-Q024** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Each lot of ten thousand albums had to completely sell out before Factory could finance another pressing of Unknown Pleasures. With only ten thousand copies available at any given time, the public was unable to buy enoug… »
@@ -364,34 +364,34 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S71-Q027** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « The scarcity of available footage of the band increased the group's aura of mystery, and would prove a real disappointment for future generations of fans who never got to see Joy Division in person. »
 - **S71-Q028** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « Tony Wilson of the BBC (a different Tony Wilson from the Factory chief) produced the session, first broadcast on the 10th of December and reproduced on bootlegs shortly thereafter. »
 - **S71-Q029** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « the BBC ignored this cult favourite because it was, 'Too gothic'. »
-- **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S21-Q004** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
-- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — «  »
-- **S58-Q001** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **S59-Q004** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — «  »
-- **S60-Q001** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — «  »
-- **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q003** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q006** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
-- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
+- **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « all of which would appear on various bootleg releases during the forthcoming decades »
+- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was only after Joy Division became so famous that gigs like this become memorable. »
+- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the Curtis vocals seemed adrift, dislodged and reedy »
+- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « rereleasing An Ideal For Living on the 12-inch Anonymous Records format »
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur Sordide Sentimental / Licht und Blindheit comme objet européen, à vérifier mot à mot »
+- **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur le concert des Bains-Douches et sa portée européenne, à vérifier mot à mot »
+- **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur le Paradiso d’Amsterdam comme moment de tournée européenne, à vérifier mot à mot »
+- **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur l’Effenaar, la tension du public et « Dead Souls », à vérifier mot à mot »
+- **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur le Moonlight Club et la mémoire live ultérieure, à vérifier mot à mot »
+- **S21-Q001** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « L’exposition présente City Fun comme le fanzine favori de Manchester et comme objet local à redécouvrir. »
+- **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « Les notices MDMArchive peuvent documenter les contributeurs, images et scans de City Fun ; chaque citation doit être rattachée à l’item précis. »
+- **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « Les légendes ou commentaires d’items peuvent montrer la matérialité du fanzine : graphisme, bricolage, ton et économie DIY. »
+- **S21-Q004** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — « Les items associés à Factory, Tony Wilson ou Paul Morley peuvent servir à documenter des tensions locales, uniquement si l’item les mentionne explicitement. »
+- **S55-Q001** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Romania affirme que Joy Division joue dans le savoir expert musical un rôle méta-analytique et méta-esthétique de classification de phénomènes musicaux hétérogènes. »
+- **S55-Q002** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « La recherche est conduite sur Ondarock entre 2000 et 2016, avec 529 pages et 1362 records contenant des références directes ou indirectes à Joy Division ou aux membres du groupe. »
+- **S55-Q003** — S55 — Romania, A guide to come: i Joy Division come universo simbolico, 2021 — statut : `candidate` — « Romania définit la recension musicale comme un genre conciliant classement, évaluation technico-esthétique et lyrisation du texte. »
+- **S58-Q001** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — « Ilardi cite Hook découvrant sous la scène de l’Haçienda un master d’Unknown Pleasures, scène immédiatement interprétée comme métaphore de toute la structure. »
+- **S59-Q004** — S59 — Ferrara, Joy Division: una poetica della distanza, 2021 — statut : `candidate` — « Ferrara traite les traces vidéo et bootlegs comme des images pauvres qui contribuent à la spectralité de Curtis. »
+- **S60-Q001** — S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 — statut : `candidate` — « Federici ouvre par l’achat d’un t-shirt Unknown Pleasures chez Sifter Records à Manchester, scène qui transforme le pèlerinage musical en expérience matérielle. »
+- **S77-Q001** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley définit les fanzines comme espace culturel contesté permettant aux jeunes d’exprimer idées, opinions et anxiétés. »
+- **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Mark Perry appelle les lecteurs de Sniffin’ Glue à créer leurs propres fanzines et à saturer le marché de l’écriture punk. »
+- **S77-Q003** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley indique que les fanzines transcendent vite le préfixe fan et forment un réseau souterrain de médias alternatifs. »
+- **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Jon Savage lit les fanzines comme complément littéraire et graphique à l’assaut musical et stylistique du punk. »
+- **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Hebdige décrit les fanzines comme des documents d’urgence et d’immédiateté, des memos from the front line. »
+- **S77-Q006** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley souligne que les fanzines permettent à ceux qui vivent la culture punk de la définir, la contester et la façonner de l’intérieur. »
+- **S77-Q007** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley décrit télévision, radio et presse comme forces de contrôle, selon la perception portée par de nombreux fanzines. »
+- **S77-Q009** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley présente City Fun comme cas majeur mancunien combinant humour irrévérencieux, gauche libertaire, RAR, CND, scène gay, Factory et Paul Morley. »
+- **S77-Q010** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — « Worley conclut que les fanzines ouvrent un espace alternatif pour des jeunes éloignés des mécanismes politiques formels. »
 - **S84-Q001** — S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 — statut : `verifie` — « We do like to keep our hand in and keep you informed of the most interesting sounds in the North West. This, Joy Division, is the most interesting new sound we've come across in the last six months »
 
 ## 8. Chronologie rattachée

@@ -357,46 +357,46 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 7. Citations disponibles
 
-- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
-- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « threatens to destroy everything »
+- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « urbanization of consciousness »
+- **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « dirty old town »
+- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « in its own space »
+- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — « spatial practice is lived »
 - **S71-Q021** — S71 — Flowers, Dreams Never End, 1995/2012 — statut : `verifie` — « The ravaging by Hitler's bombers and post-war foreign competition sped Manchester's deterioration. Once the greatest city of the Industrial Revolution, by the 1950's many proud factories were simply shut down and abandon… »
-- **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q161** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q189** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q195** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S87-Q001** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S87-Q002** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S87-Q003** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S87-Q004** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S87-Q005** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S87-Q006** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — «  »
-- **S31-Q003** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q004** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S31-Q005** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — «  »
-- **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — «  »
-- **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — «  »
-- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — «  »
-- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « We’d just talk about music and other things as well. »
+- **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « I first met Ian at a music shop called Reno’s on Oxford Road »
+- **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « he was seen as being a bit of an outsider, but amiable enough. »
+- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « There I was, working in a city that was just bursting with talent and potential »
+- **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « It was just a gang of lads. »
+- **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « people blessed with all sorts of talents mingled »
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the perfect venue for the stark industrial side of post-punk »
+- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « grey would rise to the fore »
+- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « some kind of spotlight had started to move cautiously to the UK’s northern cities »
+- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « the enduring image of Joy Division »
+- **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « it was simply a godsend »
+- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Ian was the most curious of the lot »
+- **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Manchester at that time was a dark city »
+- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « Had the walls not been painted black »
+- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « introspective and rather Russian »
+- **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur le Basement de Cologne comme lieu souterrain et intense, à vérifier mot à mot »
+- **S76-Q161** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — « a world away from Stockport »
+- **S76-Q189** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur The Triangle et le Manchester transformé de 2005, à vérifier mot à mot »
+- **S76-Q195** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — « formulation S76 sur l’impossibilité de refaire Joy Division parce que le monde a disparu, à vérifier mot à mot »
+- **S87-Q001** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S87-Q002** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S87-Q003** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S87-Q004** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S87-Q005** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S87-Q006** — S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 — statut : `candidate` — « (non transcrit) »
+- **S31-Q003** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri décrit les caves, clubs, locaux et villes comme plateformes opératives pour une jeunesse refusant la sous-occupation et la précarité. »
+- **S31-Q004** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri présente Factory comme cristallisation d’un sodalizio de travailleurs des arts, du spectacle et de la communication. »
+- **S31-Q005** — S31 — Allegri, Living in the Ice Age, 2021 — statut : `candidate` — « Allegri lit Hannett comme producteur psychogéographique, travaillant l’isolation, le dub, les échos et les espaces sonores vides. »
+- **S49-Q002** — S49 — Farci, Here are the Young Men, the weight on their shoulders, 2021 — statut : `candidate` — « Farci décrit la danse de Curtis comme expression d’une masculinité post-punk blanche confrontée à ses altérités. »
+- **S51-Q002** — S51 — Malvezzi, Dream English Kid 1978-1980, 2021 — statut : `candidate` — « Malvezzi décrit Curtis comme une figure à peine visible dans le noir et la fumée du plateau, dans une captation où « She’s Lost Control » est presque recouverte par les voix du public. »
+- **S52-Q009** — S52 — Rabbito, Control e l’infrangimento del vetro, 2021 — statut : `candidate` — « Rabbito reprend Deborah Curtis sur l’epilepsy dance antérieure aux manifestations connues de l’épilepsie et sur l’absence de séparation nette entre Ian privé et Ian public. »
+- **S53-Q002** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca présente Manchester comme un épicentre de créativité, de sons, de styles de vie et de contre-culture. »
+- **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca relie les industries, les usines et les périphéries désaffectées à un processus créatif venu des strates urbaines. »
+- **S53-Q009** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — « La Rocca mobilise 24 Hour Party People et Control pour penser l’ambiance visuelle, la mélancolie et la mémoire de Manchester. »
 
 ## 8. Chronologie rattachée
 
