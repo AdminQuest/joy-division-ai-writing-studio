@@ -320,6 +320,7 @@ chronology:
     statut: réception locale rapportée
 
   - id: CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW
+    same_as: CONCERT-19781227-HOPE-AND-ANCHOR-LONDON
     a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon

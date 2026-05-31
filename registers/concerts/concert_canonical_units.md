@@ -418,6 +418,11 @@
   statut: confirmé
   membres_reconcilies:
     - JD-CONCERT-19781227-001
+    - CHR-S10-1978-007
+    - CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW
+    - CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT
+    - CHR-S75-1978-008
+    - CHR-S76-1978-019
 ```
 
 ## 1979
@@ -459,6 +464,7 @@
   statut: confirmé
   membres_reconcilies:
     - JD-CONCERT-19790304-001
+    - CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
 - id: CONCERT-19790313-BAND-ON-THE-WALL
   type_unite: concert
   label: "Joy Division — Band on the Wall, Manchester (1979-03-13)"
@@ -612,6 +618,9 @@
   statut: confirmé
   membres_reconcilies:
     - JD-CONCERT-19790813-001
+    - CHR-S41-1979-08-13-NASHVILLE-ANNIK
+    - CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
+    - CHR-S76-1979-019
 - id: CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB
   type_unite: concert
   label: "Joy Division — Youth Centre Walthamstow, London (1979-08-22)"
@@ -926,6 +935,8 @@
   statut: confirmé
   membres_reconcilies:
     - JD-CONCERT-19800404-001
+    - CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
+    - CHR-S75-1980-005
 - id: CONCERT-19800405-WINTER-GARDENS-MALVERN
   type_unite: concert
   label: "Joy Division — Winter Gardens, Malvern (1980-04-05)"
