@@ -4,7 +4,7 @@ Citations candidates issues de S41, pages PDF 17-40. Pagination papier à verrou
 
 ```yaml
 quotes:
-  - id: S41-Q007
+  - id: S41-Q230
     source_id: S41
     passage: "dark and smoggy and brown, the colour of a wet cardboard box"
     traduction_de_travail: "sombre, enfumé et brun, de la couleur d’une boîte en carton mouillée"
@@ -14,7 +14,7 @@ quotes:
       pagination_papier: a_completer
     atomes_lies: [S41-A007]
 
-  - id: S41-Q008
+  - id: S41-Q231
     source_id: S41
     passage: "Well in Jamaica it was definitely in colour."
     traduction_de_travail: "Eh bien, en Jamaïque, c’était vraiment en couleur."
@@ -24,7 +24,7 @@ quotes:
       pagination_papier: a_completer
     atomes_lies: [S41-A008]
 
-  - id: S41-Q009
+  - id: S41-Q232
     source_id: S41
     passage: "that was the first time we had any kind of contact"
     traduction_de_travail: "ce fut la première fois que nous avons eu une forme quelconque de contact"

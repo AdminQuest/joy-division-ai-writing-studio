@@ -24,7 +24,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | Atomes | 1309 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 204 |
+| Citations | 228 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
@@ -99,9 +99,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 9 | 2 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 8 | 4 |
-| S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 11 | 6 |
-| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 6 |
-| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 10 | 6 |
+| S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 11 | 11 |
+| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 12 |
+| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 10 | 16 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 

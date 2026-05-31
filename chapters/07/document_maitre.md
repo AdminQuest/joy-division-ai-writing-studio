@@ -24,7 +24,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | Atomes | 166 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 16 |
+| Citations | 20 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
@@ -361,6 +361,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
+- **CIT-S66-007** —  — statut : `à vérifier` — «  »
+- **CIT-S66-008** —  — statut : `à vérifier` — «  »
+- **CIT-S66-009** —  — statut : `à vérifier` — «  »
+- **CIT-S66-010** —  — statut : `à vérifier` — «  »
 - **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »

@@ -251,6 +251,10 @@ def normalize_yaml(raw: str) -> str:
 def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]]:
     text = path.read_text(encoding="utf-8")
     blocks: List[Tuple[Dict[str, Any], Optional[str]]] = []
+    # Document-level source_id (a header block carrying source_id but no id) so
+    # quote sub-records that omit their own source_id can inherit it, mirroring
+    # the dynamic-registers.js loader.
+    context_source_id: Optional[str] = None
     for match in YAML_BLOCK_RE.finditer(text):
         raw = match.group(1).strip()
         heading = nearest_heading(text, match.start())
@@ -263,6 +267,31 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
             continue
         if isinstance(loaded, dict):
             if is_empty_template(loaded):
+                continue
+            if loaded.get("source_id") and not loaded.get("id"):
+                context_source_id = str(loaded["source_id"])
+            # First-level quote container: a block shaped `quotes:` / `citations:`
+            # carrying a LIST OF OBJECTS is a set of sub-records, not one record.
+            # The top-level list form (`- id: …`) is already split below; this
+            # restores parity for the wrapped form, which was otherwise ingested
+            # as a single id-less dict and dropped as a template — the citations
+            # blind spot (step 8a). The guard requires at least one object in the
+            # list so a record's homonymous string-list field (e.g.
+            # `citations: [S12-A005]`) is not mistaken for a container. Scope is
+            # deliberately limited to quote-bearing keys; other container keys
+            # (people, places, chronology…) remain each register's own concern.
+            container_key = next(
+                (k for k in ("quotes", "citations")
+                 if isinstance(loaded.get(k), list)
+                 and any(isinstance(x, dict) for x in loaded[k])),
+                None,
+            )
+            if container_key:
+                for item in loaded[container_key]:
+                    if isinstance(item, dict) and not is_empty_template(item):
+                        if context_source_id and not item.get("source_id"):
+                            item = {"source_id": context_source_id, **item}
+                        blocks.append((enrich_source_label(item), heading))
                 continue
             blocks.append((enrich_source_label(loaded), heading))
         elif isinstance(loaded, list):
@@ -315,7 +344,13 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "song"
     if data.get("type_unite") == "source" or (re.fullmatch(r"S\d+", record_id) and data.get("source_label")):
         return "source"
-    if "-Q" in record_id or "citations_exactes" in file_rel:
+    # Parité avec le loader runtime (dynamic-registers.js : `id.startsWith('CIT-')
+    # || id.includes('-Q')`). Le préfixe CIT- et l'infixe -CIT- (formes
+    # S\d+-CIT-, CIT-S\d+-…) désignent une citation au même titre que -Q. Sans
+    # cela, les conteneurs `citations:` éclatés (étape 8a) produisaient des
+    # records CIT-* classés `unknown` et omis de quotes.json, alors que la page
+    # les affichait — divergence build/loader.
+    if "-Q" in record_id or "-CIT-" in record_id or record_id.startswith("CIT-") or "citations_exactes" in file_rel:
         return "quote"
     if record_id.startswith("S") and "-" in record_id:
         return "atom"

@@ -24,7 +24,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | Atomes | 431 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 80 |
+| Citations | 86 |
 | Événements chronologiques | 44 |
 | Personnes | 49 |
 | Chansons | 11 |
@@ -62,10 +62,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 3 | 2 |
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 38 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 6 | 0 |
-| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 6 | 0 |
+| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 6 | 2 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 3 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 5 | 3 |
-| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 2 | 2 |
+| S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 0 | 1 |
+| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 0 | 2 |
+| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 2 | 3 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs

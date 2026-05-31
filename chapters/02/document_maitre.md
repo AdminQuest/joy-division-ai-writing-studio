@@ -24,7 +24,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | Atomes | 522 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 41 |
+| Citations | 42 |
 | Événements chronologiques | 40 |
 | Personnes | 34 |
 | Chansons | 10 |
@@ -65,6 +65,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 62 | 0 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 7 | 2 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 1 | 1 |
+| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 0 | 1 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs

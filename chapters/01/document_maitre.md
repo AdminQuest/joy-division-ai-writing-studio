@@ -24,7 +24,7 @@ generated_at: "2026-05-30T22:42:05"
 |---|---|
 | Atomes | 308 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 28 |
+| Citations | 38 |
 | Événements chronologiques | 15 |
 | Personnes | 24 |
 | Chansons | 1 |
@@ -75,9 +75,10 @@ generated_at: "2026-05-30T22:42:05"
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 1 | 1 |
 | S78 | S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 | 6 | 4 |
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 7 | 0 |
-| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 0 |
+| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 7 | 4 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 4 | 3 |
+| S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 0 | 3 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 10 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
@@ -389,14 +390,24 @@ generated_at: "2026-05-30T22:42:05"
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
+- **CIT-S66-004** —  — statut : `à vérifier` — «  »
+- **CIT-S66-005** —  — statut : `à vérifier` — «  »
+- **CIT-S66-006** —  — statut : `à vérifier` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q007** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q009** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — «  »
+- **CIT-S83-002** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
+- **CIT-S83-006** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
+- **CIT-S83-007** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
 - **S85-Q001** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
 - **S85-Q002** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
 - **S85-Q008** — S85 — Malcolm, Mining for Counterculture, 2018 — statut : `verifie` — «  »
+- **CIT-S86-001** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
+- **CIT-S86-002** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
+- **CIT-S86-004** — S86 — Breyley, Iranian Musicians and Joy Division, 2018 — statut : `verifie` — «  »
 
 ## 8. Chronologie rattachée
 
