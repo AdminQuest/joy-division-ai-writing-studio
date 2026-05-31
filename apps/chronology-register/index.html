@@ -3,65 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
   <title>Registre chronologique — Joy Division</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <h1>Registre chronologique</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
+      <a class="back" href="../../">← Retour au portail</a>
+      <p class="hero-kicker">Registre documentaire · étape 6</p>
+      <h1>Frise chronologique</h1>
+      <p class="subtitle">La colonne vertébrale du corpus : <strong>jalons canoniques</strong> dédoublonnés par réconciliation <code>same_as</code>, beats subordonnés, et couches de contexte activables. Précision affichée sans jamais excéder la donnée.</p>
     </div>
   </header>
 
   <main class="layout">
-    <section class="toolbar">
+    <section class="toolbar" aria-label="Couches, filtres et recherche">
       <div class="status-card" id="status-card">Chargement de la chronologie…</div>
 
-      <div class="filters">
-        <div class="field">
-          <label for="search">Recherche</label>
-          <input id="search" type="search" placeholder="Factory, Curtis, Peel Session, Closer…">
-        </div>
+      <div class="layers" id="layer-controls" role="group" aria-label="Couches d'événements"></div>
 
+      <div class="filters">
+        <div class="field field--grow">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Curtis, Peel Session, Strawberry, Closer…" autocomplete="off">
+        </div>
         <div class="field">
           <label for="year-filter">Année</label>
           <select id="year-filter"><option value="">Toutes</option></select>
         </div>
-
-        <div class="field">
-          <label for="type-filter">Type</label>
-          <select id="type-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="location-filter">Lieu</label>
-          <select id="location-filter"><option value="">Tous</option></select>
-        </div>
-
         <div class="field">
           <label for="source-filter">Source</label>
           <select id="source-filter"><option value="">Toutes</option></select>
         </div>
+        <div class="actions">
+          <button id="reset-filters" type="button" class="btn">Réinitialiser</button>
+          <button id="download-csv" type="button" class="btn btn--ghost">Exporter CSV</button>
+        </div>
       </div>
 
-      <div class="actions">
-        <button id="reset-filters" type="button">Réinitialiser</button>
-        <button id="download-csv" type="button">Exporter CSV</button>
+      <div class="legend" aria-hidden="true">
+        <span class="legend__item"><span class="legend__swatch legend__swatch--anchor"></span> ancre canonique</span>
+        <span class="legend__item"><span class="legend__swatch legend__swatch--beat"></span> beat (jalon nu)</span>
+        <span class="legend__item legend__item--prec"><span class="prec prec--point"><span class="prec__bar"></span></span> jour</span>
+        <span class="legend__item legend__item--prec"><span class="prec prec--short"><span class="prec__bar"></span></span> mois / saison</span>
+        <span class="legend__item legend__item--prec"><span class="prec prec--wide"><span class="prec__bar"></span></span> année / ~circa</span>
+        <span class="legend__item legend__item--prec"><span class="prec prec--span"><span class="prec__cap"></span><span class="prec__bar"></span><span class="prec__cap"></span></span> intervalle</span>
       </div>
-
-      <p class="note">
-        Ce registre lit directement les fichiers <code>registers/chronology/*.md</code> et les sources atomisées du repo.
-      </p>
     </section>
 
     <section class="register-panel">
       <div class="results-header">
-        <h2>Événements</h2>
+        <h2>Frise</h2>
         <div id="results-meta"></div>
       </div>
-
       <div class="timeline" id="timeline"></div>
     </section>
   </main>

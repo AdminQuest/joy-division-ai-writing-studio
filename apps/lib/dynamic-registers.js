@@ -71,7 +71,11 @@ window.DynamicRegisters = (() => {
   function inferKind(data) {
     const id = text(data.id);
     const file = text(data.__file);
-    if (id.startsWith('CHR-')) return 'chronology';
+    // Identités canoniques d'événements (étape 6) : EVENT-<SLUG> sémantique,
+    // sans date dans l'ID. On exclut les EVENT-S\d+-… (atomes legacy d'extraction)
+    // qui ne sont pas des jalons canoniques. La frise sait désormais rendre ce
+    // modèle (label/categorie/date_precision), donc plus de cartes vides.
+    if (id.startsWith('CHR-') || (id.startsWith('EVENT-') && !/^EVENT-S\d+-/.test(id))) return 'chronology';
     if (id.startsWith('ACT-') || id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
     if (id.startsWith('PLACE-') || /places\//.test(file)) return 'place';
     if (id.startsWith('ORG-') || /organizations\//.test(file)) return 'organization';
@@ -127,8 +131,14 @@ window.DynamicRegisters = (() => {
         contextSourceId = text(loaded.source_id);
         continue;
       }
-      const containerKeys = ['chronology','events','people','persons','places','organizations','organisations','orgs','songs','citations','quotes','concepts','motifs','mythes','myths','records'];
-      const key = containerKeys.find(k => Array.isArray(loaded[k]));
+      const containerKeys = ['chronology','chronologie','chronologie_a_croiser','events','evenements','people','persons','places','organizations','organisations','orgs','songs','citations','quotes','concepts','motifs','mythes','myths','records'];
+      // Un bloc-conteneur porte une LISTE D'OBJETS (sous-enregistrements). Un
+      // enregistrement isolé peut, lui, avoir des champs-listes de chaînes
+      // (people:, location:, type:, sources:…) homonymes d'une clé conteneur :
+      // sans cette garde, un événement chronologique autonome riche (s76/s75/
+      // master) est pris pour un conteneur « people » de chaînes et se vide.
+      // On exige donc au moins un objet dans la liste pour la traiter en conteneur.
+      const key = containerKeys.find(k => Array.isArray(loaded[k]) && loaded[k].some(x => x && typeof x === 'object' && !Array.isArray(x)));
       if (key) {
         loaded[key].forEach(item => {
           if (item && typeof item === 'object' && !Array.isArray(item)) {
