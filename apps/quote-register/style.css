@@ -1,25 +1,215 @@
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f1115;color:#f1f1f1}
-.hero{background:linear-gradient(to bottom,#1b2029,#101319);border-bottom:1px solid #2a2f38;padding:32px 24px}
-.hero-inner{max-width:1500px;margin:auto}
-h1{margin:0;font-size:2rem}
-.subtitle{margin:10px 0;color:#aab2bd}
-.back a{color:#d7dde5;text-decoration:none}
-.layout{max-width:1500px;margin:auto;padding:24px}
-.toolbar,.register-panel{background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:20px;margin-bottom:20px}
-.status-card{background:#0f1115;border:1px solid #2a2f38;border-radius:10px;padding:12px 14px;color:#c8d0da;margin-bottom:18px}
-.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:18px}
-.field{display:flex;flex-direction:column;gap:6px}
-label{font-size:.92rem;color:#aeb7c2}
-input,select{background:#0f1115;border:1px solid #2a2f38;color:#f1f1f1;border-radius:10px;padding:10px}
-.actions{display:flex;gap:10px;margin-bottom:18px}
-button{background:#e5e5e5;color:#111;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
-.note{color:#aeb7c2;line-height:1.55}
-.results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
-.table-wrap{overflow:auto;border:1px solid #2a2f38;border-radius:12px}
-table{width:100%;border-collapse:collapse;min-width:1200px}
-th,td{padding:12px 14px;border-bottom:1px solid #2a2f38;vertical-align:top;text-align:left}
-th{background:#11151c;color:#d7dde5;position:sticky;top:0}
-tr:hover{background:#1c222c}
-code{background:#0f1115;border:1px solid #2a2f38;border-radius:6px;padding:2px 6px}
-.small{font-size:.85rem;color:#aeb7c2}
+/* Registre des citations — feuille de style dédiée (étape 8c).
+   Réutilise STRICTEMENT le système maison des registres chansons / concerts :
+   mêmes tokens, typographie système, et composants partagés (hero / toolbar /
+   champ / bouton / chips à bascule .layer-toggle / section / grille .songs-list /
+   .song-card / .song-badge / traçabilité .trace). Les distinctions propres aux
+   citations — type verbatim / paraphrase / concept, corps en blockquote,
+   drapeaux de curation — sont exprimées dans ce langage (chips, liseré), sans
+   police ni palette nouvelles. */
+
+:root {
+  --bg: #fafaf7;
+  --bg-card: #ffffff;
+  --text: #1f2937;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #4c6e7a;            /* bleu pétrole — token maison (registre chansons) */
+  --accent-bg: rgba(76, 110, 122, .10);
+
+  /* Couches de type — déclinaison du token d'accent, sans palette nouvelle. */
+  --verbatim: #4c6e7a;          /* accent — énoncé exact */
+  --verbatim-bg: rgba(76, 110, 122, .10);
+  --paraphrase: #9a6b3f;        /* terre — énoncé reformulé */
+  --paraphrase-bg: rgba(154, 107, 63, .10);
+  --concept: #6b5b95;           /* prune — usage conceptuel */
+  --concept-bg: rgba(107, 91, 149, .10);
+
+  --radius-card: 8px;
+  --radius-ctrl: 6px;
+  --transition: 200ms ease;
+  --shadow-rest: 0 1px 2px rgba(0, 0, 0, .04);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, .06);
+
+  --page-px: 32px;
+}
+@media (min-width: 720px)  { :root { --page-px: 64px; } }
+@media (min-width: 1024px) { :root { --page-px: 96px; } }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .88em;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.songs-hero { padding: 40px var(--page-px) 0; }
+.songs-hero__inner { max-width: 1400px; margin: 0 auto; }
+.songs-hero__back { display: inline-block; font-size: 13px; font-weight: 500; color: var(--text-muted); text-decoration: none; margin-bottom: 16px; }
+.songs-hero__back:hover { color: var(--accent); }
+.songs-hero h1 { margin: 0; font-size: 32px; font-weight: 600; letter-spacing: -.01em; }
+.songs-hero__subtitle { margin: 8px 0 0; font-size: 16px; font-weight: 400; color: var(--text-muted); max-width: 80ch; }
+
+/* ── Layout ─────────────────────────────────────────────── */
+.songs-layout { max-width: 1400px; margin: 0 auto; padding: 48px var(--page-px) 64px; }
+
+/* ── Toolbar ────────────────────────────────────────────── */
+.songs-toolbar { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-card); padding: 16px; margin-bottom: 24px; }
+.songs-toolbar__filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.songs-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.songs-field label { font-size: 12px; font-weight: 500; color: var(--text-muted); }
+.songs-field input,
+.songs-field select {
+  width: 100%;
+  font: inherit;
+  font-size: 14px;
+  color: #1f2937;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-ctrl);
+  padding: 8px 12px;
+  transition: border-color var(--transition);
+}
+.songs-field select option { color: #1f2937; background-color: #ffffff; }
+.songs-field input:focus,
+.songs-field select:focus { outline: none; border-color: var(--accent); }
+
+.songs-toolbar__actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 14px; }
+.songs-btn {
+  font: inherit; font-size: 13px; font-weight: 500; cursor: pointer;
+  border-radius: var(--radius-ctrl); padding: 8px 14px;
+  border: 1px solid var(--border); background: var(--bg-card); color: var(--text);
+  transition: border-color var(--transition), background var(--transition);
+}
+.songs-btn:hover { border-color: var(--accent); }
+.songs-btn--primary { border-color: var(--accent); background: var(--accent-bg); color: var(--accent); }
+.songs-toolbar__meta { margin-left: auto; font-size: 13px; color: var(--text-muted); }
+
+/* ── Type : chips à bascule (langage maison, registre chronologie) ───────── */
+.chrono-layers { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.layer-toggle {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+  cursor: pointer; user-select: none;
+  transition: background var(--transition), border-color var(--transition);
+}
+.layer-toggle:hover { border-color: var(--accent); }
+.layer-toggle input { position: absolute; opacity: 0; pointer-events: none; }
+.layer-toggle__dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--text-muted); background: transparent; transition: background var(--transition), border-color var(--transition); }
+.layer-toggle__name { font-size: 13px; font-weight: 500; color: var(--text-muted); display: inline-flex; align-items: baseline; gap: 6px; }
+.layer-toggle.is-on .layer-toggle__name { color: var(--text); }
+.layer-toggle__count { font-size: 11px; color: var(--text-muted); }
+/* Couleur de couche par type (sur l'état ON). */
+.layer-toggle--verbatim.is-on   { background: var(--verbatim-bg);   border-color: var(--verbatim); }
+.layer-toggle--verbatim.is-on   .layer-toggle__dot { background: var(--verbatim);   border-color: var(--verbatim); }
+.layer-toggle--paraphrase.is-on { background: var(--paraphrase-bg); border-color: var(--paraphrase); }
+.layer-toggle--paraphrase.is-on .layer-toggle__dot { background: var(--paraphrase); border-color: var(--paraphrase); }
+.layer-toggle--concept.is-on    { background: var(--concept-bg);    border-color: var(--concept); }
+.layer-toggle--concept.is-on    .layer-toggle__dot { background: var(--concept);    border-color: var(--concept); }
+
+/* ── Légende type ───────────────────────────────────────── */
+.chrono-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.chrono-legend__item { display: inline-flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-muted); }
+.quote-dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
+.quote-dot--verbatim   { background: var(--verbatim); }
+.quote-dot--paraphrase { background: var(--paraphrase); }
+.quote-dot--concept    { background: var(--concept); }
+
+/* ── Statut de chargement ───────────────────────────────── */
+.songs-status { font-size: 14px; color: var(--text-muted); padding: 24px 0; }
+.songs-empty { font-size: 14px; color: var(--text-muted); padding: 32px 0; text-align: center; }
+
+/* ── Sections par source ────────────────────────────────── */
+.songs-section { margin-top: 32px; }
+.songs-section:first-of-type { margin-top: 0; }
+.songs-section__header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.songs-section__title { font-size: 18px; font-weight: 600; margin: 0; }
+.songs-section__count { font-size: 13px; font-weight: 400; color: var(--text-muted); white-space: nowrap; }
+
+/* ── Grille de cards ────────────────────────────────────── */
+.songs-list { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 720px)  { .songs-list { grid-template-columns: repeat(2, 1fr); gap: 18px; } }
+@media (min-width: 1024px) { .songs-list { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+
+/* ── Card ───────────────────────────────────────────────── */
+.song-card {
+  display: flex; flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-rest);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+.song-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+/* Liseré par type. */
+.quote-card--verbatim   { border-left-color: var(--verbatim); }
+.quote-card--paraphrase { border-left-color: var(--paraphrase); }
+.quote-card--concept    { border-left-color: var(--concept); }
+/* Fiche-pointeur (verbatim non transcrit) : liseré pointillé « en transit ». */
+.quote-card--pointer { border-left-style: dashed; }
+
+/* ── Badges (type + locuteur) ───────────────────────────── */
+.song-card__badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.song-badge { font-size: 11px; font-weight: 500; color: var(--accent); background: var(--accent-bg); border-radius: 999px; padding: 3px 9px; }
+.song-badge--muted { color: var(--text-muted); background: var(--bg); border: 1px solid var(--border); }
+.quote-badge--verbatim   { color: var(--verbatim);   background: var(--verbatim-bg); }
+.quote-badge--paraphrase { color: var(--paraphrase); background: var(--paraphrase-bg); }
+.quote-badge--concept    { color: var(--concept);    background: var(--concept-bg); }
+.quote-card__speaker.is-anon { font-style: italic; }
+
+/* ── Corps de citation ──────────────────────────────────── */
+.quote-card__text {
+  margin: 0 0 12px; padding: 0 0 0 14px;
+  border-left: 2px solid var(--border);
+  font-size: 15px; line-height: 1.55; color: var(--text);
+  word-wrap: break-word; overflow-wrap: anywhere;
+}
+.quote-card--pointer .quote-card__text { color: var(--text-muted); font-style: italic; }
+
+.song-card__line { font-size: 13px; font-weight: 400; line-height: 1.6; color: var(--text-muted); margin: 8px 0 0; word-wrap: break-word; overflow-wrap: anywhere; }
+.song-card__line strong { color: var(--text); font-weight: 600; }
+.song-card__prov { margin-top: 10px; }
+.quote-card__nopage { font-style: italic; }
+
+/* ── Drapeaux de curation (discrets) ────────────────────── */
+.quote-card__flags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.quote-flag { font-size: 10px; font-weight: 500; color: var(--text-muted); background: var(--bg); border: 1px dashed var(--border); border-radius: 4px; padding: 2px 7px; }
+.quote-flag.flag--concept { color: var(--concept); border-color: var(--concept); }
+.quote-flag.flag--attr,
+.quote-flag.flag--type { color: var(--paraphrase); border-color: var(--paraphrase); }
+
+/* ── Identifiant (discret, révélé au survol) ────────────── */
+.song-card__id { margin-top: 12px; opacity: 0; max-height: 0; overflow: hidden; transition: opacity var(--transition), max-height var(--transition); }
+.song-card:hover .song-card__id,
+.song-card:focus-within .song-card__id { opacity: 1; max-height: 30px; }
+.song-card__id code { background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); font-size: 11px; padding: 1px 6px; }
+
+/* ── Traçabilité : doublon same_as replié (registre chronologie) ─────────── */
+.trace { margin-top: 12px; }
+.trace summary { font-size: 13px; font-weight: 500; color: var(--accent); cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 6px; padding: 3px 0; }
+.trace summary::-webkit-details-marker { display: none; }
+.trace summary::before { content: "▸"; transition: transform var(--transition); display: inline-block; }
+.trace[open] summary::before { transform: rotate(90deg); }
+.trace summary:hover { text-decoration: underline; }
+.member-list { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid var(--border); }
+.member-list li { display: grid; grid-template-columns: minmax(110px, auto) 1fr; gap: 3px 14px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.member-list code { background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); font-size: 11px; padding: 1px 6px; border-radius: 4px; }
+.member__label { color: var(--text); font-size: 13px; line-height: 1.4; }
+
+@media (max-width: 720px) {
+  .songs-toolbar__meta { margin-left: 0; }
+  .member-list li { grid-template-columns: 1fr; }
+}
