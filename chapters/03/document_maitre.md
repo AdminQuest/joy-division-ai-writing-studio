@@ -57,7 +57,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S62 | S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018 | 2 | 0 |
 | S63 | S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018 | 10 | 0 |
 | S64 | S64 — Bottà, European Imaginary of Joy Division, 2018 | 5 | 0 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 1 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 1 | 2 |
 | S67 | S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 | 6 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 5 | 0 |
@@ -395,8 +395,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
-- **CIT-S65-001** —  — statut : `à vérifier` — «  »
-- **CIT-S65-002** —  — statut : `à vérifier` — «  »
+- **CIT-S65-001** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — «  »
+- **CIT-S65-002** — S65 — Martínez, Literary Influences on Joy Division, 2018 — statut : `à vérifier` — «  »
 - **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »

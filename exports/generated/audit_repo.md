@@ -11,7 +11,7 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 - Enregistrements : 8211
 - Erreurs : 0
-- Avertissements : 31088
+- Avertissements : 28713
 - Sources déclarées : 95
 - Sources utilisées : 79
 - Sources exportées : 79
@@ -44,8 +44,8 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 692 |
-| invalid_controlled_value | 2630 |
-| missing_required_field | 10401 |
+| invalid_controlled_value | 2610 |
+| missing_required_field | 8046 |
 | schema_warning | 492 |
 | unknown_yaml_block | 1410 |
 | v2_migration_debt | 15463 |
@@ -147,7 +147,7 @@ Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enric
 | sources/johnson_morley_an_ideal_for_living/source_suite_03.md | 345 |
 | sources/johnson_morley_an_ideal_for_living/source_suite_02.md | 340 |
 | sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md | 336 |
-| sources/johnson_morley_an_ideal_for_living/source.md | 320 |
+| sources/johnson_morley_an_ideal_for_living/source.md | 315 |
 | sources/reynolds_rip_it_up/second_pass_scenes_heritage.md | 288 |
 | sources/reynolds_rip_it_up/source.md | 285 |
 | sources/hook/atomisation_03_unknown_pleasures_1979.md | 284 |

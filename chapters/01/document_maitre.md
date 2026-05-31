@@ -65,7 +65,7 @@ generated_at: "2026-05-30T22:42:05"
 | S53 | S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 | 4 | 4 |
 | S56 | S56 — Barone, Directionless so plain to see, 2021 | 1 | 0 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 2 | 1 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 1 | 0 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 1 | 3 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 3 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
@@ -390,9 +390,9 @@ generated_at: "2026-05-30T22:42:05"
 - **S53-Q003** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S53-Q008** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
 - **S58-Q005** — S58 — Ilardi, Ian Curtis is not dead, 2021 — statut : `candidate` — «  »
-- **CIT-S66-004** —  — statut : `à vérifier` — «  »
-- **CIT-S66-005** —  — statut : `à vérifier` — «  »
-- **CIT-S66-006** —  — statut : `à vérifier` — «  »
+- **CIT-S66-004** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
+- **CIT-S66-005** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
+- **CIT-S66-006** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
 - **S77-Q008** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »

@@ -360,6 +360,88 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "template"
     return "unknown"
 
+
+# --------------------------------------------------------------------------- #
+# Normalisation structurelle du type d'unité `quote` (étape 8b-1, backbone).
+# --------------------------------------------------------------------------- #
+# Dérive — SANS renommer d'id ni réécrire les fichiers source — les champs
+# canoniques du backbone dans l'enregistrement exporté. L'identité reste
+# source+ordinal (S\d+-Q, S\d+-CIT-, CIT-, HIST-). L'attribution et le split
+# fin paraphrase/concept relèvent de 8b-2 et ne sont PAS touchés ici.
+QUOTE_VERBATIM_FIELDS = ("citation", "citation_directe", "citation_originale", "passage", "quote")
+QUOTE_TEXT_FALLBACK_FIELDS = (
+    "texte", "resume", "usage_livre", "usage_recommande", "traduction_de_travail",
+    "traduction_editoriale_fr", "traduction_litterale_fr", "usage", "contexte",
+)
+QUOTE_PAGE_FIELDS = ("page_pdf", "pages_pdf", "pages", "page_print", "pages_livre", "pagination", "page")
+QUOTE_PAGE_PLACEHOLDERS = {"", "a_completer", "a_verifier", "a_reverifier", "inconnue"}
+# Repli des libellés de langue vers les codes contrôlés (en/fr/de/it).
+QUOTE_LANG_NORMALISATION = {
+    "anglais": "en", "anglaise": "en", "english": "en",
+    "francais": "fr", "français": "fr", "french": "fr",
+    "italien": "it", "italienne": "it", "italian": "it", "italiano": "it",
+    "allemand": "de", "allemande": "de", "german": "de", "deutsch": "de",
+}
+
+def _quote_first_nonempty(data: Dict[str, Any], fields: Iterable[str]) -> Optional[Any]:
+    for key in fields:
+        value = data.get(key)
+        if value not in (None, "", [], {}):
+            return value
+    return None
+
+def _quote_has_real_page(data: Dict[str, Any]) -> bool:
+    for key in QUOTE_PAGE_FIELDS:
+        value = data.get(key)
+        if value not in (None, "", [], {}) and str(value).strip() not in QUOTE_PAGE_PLACEHOLDERS:
+            return True
+    statut = data.get("statut") or data.get("statut_verification")
+    if isinstance(statut, dict):
+        for key in ("pagination_pdf", "pagination_papier", "page_pdf"):
+            value = statut.get(key)
+            if value not in (None, "") and str(value).strip() not in QUOTE_PAGE_PLACEHOLDERS:
+                return True
+    return False
+
+def normalize_quote_record(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Matérialise le backbone `quote` (id, kind, source_id, texte, type, page).
+
+    - kind  : marqueur de type d'unité (`quote`).
+    - texte : 1er champ de texte disponible (verbatim, puis traduction/résumé) ;
+      sentinelle ``"(non transcrit)"`` pour les fiches-pointeur dont le verbatim
+      n'a pas été saisi (texte porté par l'atome lié) — pas de fabrication.
+    - type  : ``verbatim`` si un champ verbatim est présent, sinon
+      ``non_verbatim`` (split paraphrase/concept = 8b-2). Un éventuel ``type``
+      legacy (descripteur de longueur : « citation courte »…) est préservé sous
+      ``type_legacy``.
+    - page  : ``"inconnue"`` si aucun localisateur réel n'existe (pas de
+      fabrication ; provenance = source_id + page|inconnue).
+    """
+    if not isinstance(data, dict):
+        return data
+    data.setdefault("kind", "quote")
+    # Récupère le source_id encodé dans l'id (CIT-S65-001 → S65 ; S41-Q007 → S41 ;
+    # S37-CIT-001 → S37) quand le champ manque — recouvrement, pas fabrication.
+    if not data.get("source_id"):
+        match = re.match(r"(?:CIT-)?(S\d+)\b", str(data.get("id", "")))
+        if match:
+            data["source_id"] = match.group(1)
+    verbatim = _quote_first_nonempty(data, QUOTE_VERBATIM_FIELDS)
+    if data.get("texte") in (None, "", [], {}):
+        texte = verbatim if verbatim is not None else _quote_first_nonempty(data, QUOTE_TEXT_FALLBACK_FIELDS)
+        data["texte"] = texte if texte is not None else "(non transcrit)"
+    backbone_type = "verbatim" if verbatim is not None else "non_verbatim"
+    legacy_type = data.get("type")
+    if legacy_type not in (None, "", backbone_type, "verbatim", "non_verbatim"):
+        data.setdefault("type_legacy", legacy_type)
+    data["type"] = backbone_type
+    if not _quote_has_real_page(data):
+        data["page"] = "inconnue"
+    langue = data.get("langue_originale")
+    if isinstance(langue, str) and langue.strip().lower() in QUOTE_LANG_NORMALISATION:
+        data["langue_originale"] = QUOTE_LANG_NORMALISATION[langue.strip().lower()]
+    return data
+
 def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Diagnostic]:
     file_rel = rel(file_path)
     record_id = str(data.get("id") or data.get("song") or "") or None
@@ -387,6 +469,8 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
     for path in iter_markdown_files():
         for data, heading in extract_yaml_blocks(path):
             kind = infer_kind(data, path)
+            if kind == "quote":
+                normalize_quote_record(data)
             diagnostics.extend(validate_record(kind, data, path))
             if kind == "schema":
                 continue

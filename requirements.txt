@@ -8,7 +8,7 @@ PyYAML==6.0.1
 # Ces paquets ne sont PAS utilisés par build_all / la sentinelle. Ils restent
 # déclarés ici pour que `pip install -r requirements.txt` reste suffisant à
 # faire tourner les scripts ci-dessous :
-#   jsonschema -> tools/validate_songs.py, tools/validate_places.py
+#   jsonschema -> tools/validate_songs.py, tools/validate_places.py, tools/validate_quotes.py
 #   openpyxl   -> tools/convert_registre_xlsx.py
 jsonschema
 openpyxl

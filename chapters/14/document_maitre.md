@@ -80,7 +80,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S62 | S62 — Power, Dillane, Devereux, Introduction Heart and Soul, 2018 | 6 | 0 |
 | S63 | S63 — Jacobson & Jeffrey, Tony Wilson's Bloody Contract, 2018 | 6 | 0 |
 | S64 | S64 — Bottà, European Imaginary of Joy Division, 2018 | 4 | 0 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 2 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 2 | 3 |
 | S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 1 | 0 |
 | S67 | S67 — Naiman, In a Lonely Place: Illness and Temporal Exile of Ian Curtis, 2018 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |

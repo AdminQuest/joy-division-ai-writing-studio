@@ -56,8 +56,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S57 | S57 — Villani, Ti sfido a disperarti, 2021 | 11 | 6 |
 | S58 | S58 — Ilardi, Ian Curtis is not dead, 2021 | 3 | 1 |
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 3 | 0 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 2 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 3 | 2 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 2 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |

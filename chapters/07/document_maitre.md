@@ -51,7 +51,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S50 | S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 | 5 | 1 |
 | S51 | S51 — Malvezzi, Dream English Kid 1978-1980, 2021 | 3 | 0 |
 | S64 | S64 — Bottà, European Imaginary of Joy Division, 2018 | 2 | 0 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 4 | 0 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 4 | 4 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 1 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
@@ -361,10 +361,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S21-Q002** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S21-Q003** — S21 — MDMArchive, City Fun: The Hidden History of Manchester's Favourite Fanzine, page consultée 2026 — statut : `candidate` — «  »
 - **S50-Q001** — S50 — Bertetti & Morreale, Reimmaginare l’immaginario, 2021 — statut : `candidate` — «  »
-- **CIT-S66-007** —  — statut : `à vérifier` — «  »
-- **CIT-S66-008** —  — statut : `à vérifier` — «  »
-- **CIT-S66-009** —  — statut : `à vérifier` — «  »
-- **CIT-S66-010** —  — statut : `à vérifier` — «  »
+- **CIT-S66-007** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
+- **CIT-S66-008** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
+- **CIT-S66-009** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
+- **CIT-S66-010** — S66 — Schütte, On Ian Curtis's Lyrics, 2018 — statut : `à vérifier` — «  »
 - **S77-Q002** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q004** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »
 - **S77-Q005** — S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 — statut : `candidate` — «  »

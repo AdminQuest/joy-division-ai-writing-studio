@@ -55,8 +55,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S59 | S59 — Ferrara, Joy Division: una poetica della distanza, 2021 | 8 | 3 |
 | S60 | S60 — Federici, Unknown Pleasures: Pulsar di una t-shirt iconica, 2021 | 2 | 1 |
 | S61 | S61 — Iovane & Riccio, Trademark will tear us apart again, 2021 | 2 | 0 |
-| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 8 | 0 |
-| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 8 | 0 |
+| S65 | S65 — Martínez, Literary Influences on Joy Division, 2018 | 8 | 3 |
+| S66 | S66 — Schütte, On Ian Curtis's Lyrics, 2018 | 8 | 9 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |

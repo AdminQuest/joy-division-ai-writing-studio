@@ -7,7 +7,12 @@ SCHEMA_REQUIRED_FIELDS = {
         'importance','risque_surinterpretation','liens_interchapitres',
         'liens_citations','motifs','concepts_derives'
     ],
-    'quote': ['id','source_id','citation_originale','langue_originale','statut_verification'],
+    # Backbone structurel du registre citations (étape 8b-1). Identité = source
+    # + ordinal (conservée, aucun renommage). `kind`, `texte`, `type` (et `page`)
+    # sont dérivés par build_registers.normalize_quote_record. L'ancien socle
+    # (citation_originale/langue_originale/statut_verification) devient optionnel.
+    # Attribution + split fin paraphrase/concept = 8b-2.
+    'quote': ['id','kind','source_id','texte','type'],
     'chronology': ['id','date','event','type','sources','certainty'],
     # Identité canonique d'événement (registre chronologique, étape 6).
     # Enregistrement d'IDENTITÉ : type/certainty/location/people sont OPTIONNELS
@@ -41,6 +46,7 @@ SCHEMA_CONTROLLED_VALUES = {
         }
     },
     'quote': {
+        'type': {'verbatim','non_verbatim'},
         'langue_originale': {'en','fr','de','it'}
     },
     'chronology': {
