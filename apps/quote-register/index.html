@@ -3,88 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre des citations — Joy Division</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre des citations</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des citations…</div>
-
-      <div class="filters">
-        <div class="field">
-          <label for="search">Recherche</label>
-          <input id="search" type="search" placeholder="Curtis, Hannett, Closer, Factory…">
-        </div>
-
-        <div class="field">
-          <label for="source-filter">Source</label>
-          <select id="source-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="status-filter">Vérification</label>
-          <select id="status-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="importance-filter">Importance</label>
-          <select id="importance-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="chapter-filter">Chapitre</label>
-          <select id="chapter-filter"><option value="">Tous</option></select>
-        </div>
+  <div id="quotes-app">
+    <header class="songs-hero">
+      <div class="songs-hero__inner">
+        <a class="songs-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des citations</h1>
+        <p class="songs-hero__subtitle">Les ~962 citations du corpus, identité <code>source + ordinal</code> conservée, curées par le backbone (étapes 8b) : texte canonique, attribution dénormalisée en rôles (<strong>locuteur</strong> / <strong>auteur-source</strong> / rapporteur), type <code>verbatim</code> / <code>paraphrase</code> / <code>concept</code>, provenance honnête (source + page, ou « page inconnue »). Groupées par source ; doublon replié par <code>same_as</code>. Lecture seule.</p>
       </div>
+    </header>
 
-      <div class="actions">
-        <button id="reset-filters" type="button">Réinitialiser</button>
-        <button id="download-csv" type="button">Exporter la vue CSV</button>
-      </div>
+    <main class="songs-layout">
+      <section class="songs-toolbar" aria-label="Filtres, type et recherche">
+        <div class="songs-toolbar__filters">
+          <div class="songs-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Curtis, Hannett, anonyme, « catalyst », S76, CIT-…" autocomplete="off">
+          </div>
+          <div class="songs-field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter"><option value="">Toutes</option></select>
+          </div>
+        </div>
 
-      <p class="note">
-        Ce registre lit directement les fichiers <code>registers/quotes/*.md</code> et les citations atomisées du repo.
-      </p>
-    </section>
+        <div class="chrono-layers" id="type-controls" role="group" aria-label="Type de citation"></div>
 
-    <section class="register-panel">
-      <div class="results-header">
-        <h2>Citations</h2>
-        <div id="results-meta"></div>
-      </div>
+        <div class="songs-toolbar__actions">
+          <button id="reset-filters" class="songs-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="songs-btn songs-btn--primary" type="button">Exporter CSV</button>
+          <span class="songs-toolbar__meta" id="results-meta"></span>
+        </div>
 
-      <div class="table-wrap">
-        <table id="quotes-table">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Source</th>
-              <th>Citation originale</th>
-              <th>Traduction éditoriale</th>
-              <th>Page</th>
-              <th>Importance</th>
-              <th>Vérification</th>
-              <th>Chapitres</th>
-              <th>Fichier</th>
-            </tr>
-          </thead>
-          <tbody id="quotes-body"></tbody>
-        </table>
-      </div>
-    </section>
-  </main>
+        <div class="chrono-legend" aria-hidden="true">
+          <span class="chrono-legend__item"><span class="quote-dot quote-dot--verbatim"></span> verbatim — énoncé exact</span>
+          <span class="chrono-legend__item"><span class="quote-dot quote-dot--paraphrase"></span> paraphrase — énoncé attribué reformulé</span>
+          <span class="chrono-legend__item"><span class="quote-dot quote-dot--concept"></span> concept — usage conceptuel</span>
+        </div>
+      </section>
 
-  <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
-       (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
+      <div id="status-card" class="songs-status">Chargement du registre des citations…</div>
+      <div id="quotes-sections"></div>
+    </main>
+  </div>
+
+  <!-- Loader partagé (sourceLabels + helpers). La donnée curée des citations
+       (texte/type/rôles/flags, étapes 8b) n'existe que dans l'export généré :
+       la page lit donc exports/generated/quotes.json (source unique de vérité,
+       lecture seule). Le loader n'est PAS modifié → jeton ?v=7c inchangé. -->
   <script src="../lib/dynamic-registers.js?v=7c"></script>
   <script src="app.js"></script>
 </body>
