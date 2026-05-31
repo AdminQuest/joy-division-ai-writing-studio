@@ -6,71 +6,73 @@
 
 Sources balayées :
 
-1. La couche provisoire `PERS-*` matérialisée dans les registres `registers/people/` et agrégée dans `exports/generated/people.json` (préfixes `PERS-0NN`, `PERS-SXX-NNN`, variantes épisodiques `PERS-S45-*` et `PERS-00N-S75`).
+1. La couche provisoire `PERS-*` matérialisée dans `registers/people/` et agrégée dans `exports/generated/people.json` (préfixes `PERS-0NN`, `PERS-SXX-NNN`, variantes épisodiques `PERS-S45-*` et compléments `PERS-00N-S75`).
 2. Les champs d'attribution dénormalisés des 962 citations (`exports/generated/quotes.json`) : `locuteur`, `auteur_source`, `rapporteur`, `attribution_a_arbitrer`.
-3. Les registres gelés susceptibles de référencer des personnes : chronologie (`registers/chronology/`, `EVENT-`/`CHR-`), concerts (`registers/concerts/`, `CONCERT-`), lieux (`registers/places/`, `PLACE-`) — consultés pour recoupement, non modifiés.
+3. Les registres gelés susceptibles de référencer des personnes : chronologie (`CHR-`/`EVENT-`), concerts (`CONCERT-`), lieux (`PLACE-`) — consultés pour recoupement, non modifiés.
 
-Volumétrie brute : **305** entrées `PERS-*` distinctes (id + nom), se rabattant sur **175** chaînes-noms normalisées distinctes ; **962** citations.
+Volumétrie brute : **305** entrées `PERS-*` distinctes (couple id + nom), se rabattant sur **175** chaînes-noms normalisées distinctes ; **962** citations.
 
 > Convention de statut des grappes : `fusion_evidente` (même personne, identifiants provisoires concurrents) · `a_arbitrer` (doublon non certain, homonymie possible) · `distinct` (personnes différentes à ne pas fusionner).
 
 ## 1. Inventaire brut
 
-Table des chaînes-noms distinctes rencontrées dans la couche `PERS-*`, avec le nombre d'identifiants portés (occurrences dans le registre), les sources d'apparition et les rôles observés. Les chaînes portant plusieurs identifiants sont des candidates à déduplication (cf. §2).
-
 ### 1.1. Personnes portant plusieurs identifiants `PERS-*` (candidates `same_as`)
+
+Une même personne reçoit souvent un identifiant par source (registre maître + déclinaisons épisodiques `S45`, biographiques `S75`/`S76`, et lectures critiques `S21`/`S29`/`S31`/`S34`/`S49`–`S60`/`S77`/`S78`/`S84`/`S85`). Le nombre d'occurrences indique le volume de `same_as` à câbler.
 
 | Nom | Occ. | Identifiants `PERS-*` | Sources | Rôle(s) observé(s) |
 |-----|:----:|----------------------|---------|--------------------|
-| Tony Wilson | 12 | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | journaliste; entrepreneur culturel; fondateur Factory; médiateur / Médiateur télévisuel et Factory ; dans S34, sa mémoir |
-| Ian Curtis | 11 | PERS-001, PERS-S29-002, PERS-S34-010, PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR, PERS-S49-002, PERS-S53-002, PERS-S54-002, PERS-S55-002, PERS-S56-002, PERS-S57-004, PERS-S59-002 | S29, S34, S45, S49, S53, S54, S55, S56, S57, S59 | chanteur; parolier; figure centrale / Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique |
-| Martin Hannett | 9 | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | producteur; ingénieur sonore; expérimentateur / Producteur dont l’usage de l’espace sonore est discuté par S34 via Reyno |
-| Paul Morley | 9 | PERS-014, PERS-S21-007, PERS-S34-012, PERS-S45-PAUL-MORLEY-1977, PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL, PERS-S75-037, PERS-S76-089, PERS-S77-008, PERS-S78-003 | S21, S34, S45, S75, S76, S77, S78 | Critique cité pour caractériser l’espace sonore et la non-connexion dans *Unknown Pleasures*. / journaliste; critique; t |
-| Peter Saville | 7 | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | designer; directeur artistique / designer graphique; auteur de la pochette d'Unknown Pleasures / designer graphique; étu |
-| Rob Gretton | 7 | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | manager; stratège; médiateur / manager de Joy Division; gardien de l'image et des objets Factory / futur manager de Joy |
-| Annik Honoré | 6 | PERS-S52-012, PERS-S54-007, PERS-S75-032, PERS-S76-063, PERS-S76-067, PERS-S76-070 | S52, S54, S75, S76 | relation intime de Ian Curtis; figure de la crise biographique finale / journaliste/fanzine En Attendant; future cofonda |
-| Bernard Sumner | 6 | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | musicien; guitariste; témoin / musicien; guitariste; témoin; trajectoire sociale / Témoin mobilisé par Rabbito pour décr |
-| Kevin Cummins | 6 | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | photographe; médiateur visuel / photographe; témoin de la scène mancunienne / photographe; témoin de l’Electric Circus; |
-| Peter Hook | 6 | PERS-002, PERS-S52-007, PERS-S54-006, PERS-S55-003, PERS-S58-002, PERS-S59-003 | S52, S54, S55, S58, S59 | musicien; bassiste; témoin; mémorialiste / Témoin mobilisé par Rabbito pour la violence scénique et la personnalité expl |
-| Stephen Morris | 6 | PERS-004, PERS-004-S75, PERS-S45-STEPHEN-MORRIS, PERS-S52-008, PERS-S55-005, PERS-S75-026 | S45, S52, S55, S75 | musicien; batteur; témoin / musicien; batteur; catalyseur formel / batteur de Joy Division; opérateur rythmique du son H |
-| Grant Gee | 5 | PERS-S29-010, PERS-S34-003, PERS-S52-010, PERS-S78-010, PERS-S84-007 | S29, S34, S52, S78, S84 | Réalisateur du documentaire *Joy Division*, valorisé par Goddard via Fisher pour son régime fragmentaire d’archive. / Ré |
-| Anton Corbijn | 4 | PERS-S29-011, PERS-S52-002, PERS-S53-005, PERS-S78-007 | S29, S52, S53, S78 | Réalisateur de *Control*, film utilisé par Goddard comme contrepoint à l’archive fragmentaire de Grant Gee. / Réalisateu |
-| Deborah Curtis | 4 | PERS-005, PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION, PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE, PERS-S52-005 | S45, S52 | témoin; proche; autrice; gardienne d’archive / Source intime centrale mobilisée par Rabbito ; témoin des deux côtés de l |
-| John Anderson | 4 | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | producteur; responsable Grapevine; intermédiaire industriel / responsable de Grapevine Records; producteur / directeur d |
-| Jon Savage | 4 | PERS-S52-009, PERS-S56-003, PERS-S77-003, PERS-S78-004 | S52, S56, S77, S78 | Source documentaire utilisée par Rabbito pour des témoignages sur Curtis et Joy Division. / Auteur discuté par Barone po |
+| Tony Wilson | 12 | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | journaliste; entrepreneur culturel; fondateur Factory; médiateur / Médiateur télévisuel et Factory ; dans S34, sa mémoire de Manchester sout |
+| Ian Curtis | 11 | PERS-001, PERS-S29-002, PERS-S34-010, PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR, PERS-S49-002, PERS-S53-002, PERS-S54-002, PERS-S55-002, PERS-S56-002, PERS-S57-004, PERS-S59-002 | S29, S34, S45, S49, S53, S54, S55, S56, S57, S59 | chanteur; parolier; figure centrale / Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti |
+| Martin Hannett | 9 | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | producteur; ingénieur sonore; expérimentateur / Producteur dont l’usage de l’espace sonore est discuté par S34 via Reynolds, mais à ne pas i |
+| Paul Morley | 9 | PERS-014, PERS-S21-007, PERS-S34-012, PERS-S45-PAUL-MORLEY-1977, PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL, PERS-S75-037, PERS-S76-089, PERS-S77-008, PERS-S78-003 | S21, S34, S45, S75, S76, S77, S78 | Critique cité pour caractériser l’espace sonore et la non-connexion dans *Unknown Pleasures*. / journaliste; critique; témoin / critique mus |
+| Peter Saville | 7 | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | designer; directeur artistique / designer graphique; auteur de la pochette d'Unknown Pleasures / designer graphique; étudiant à Manchester P |
+| Rob Gretton | 7 | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | manager; stratège; médiateur / manager de Joy Division; gardien de l'image et des objets Factory / futur manager de Joy Division; DJ à Rafte |
+| Annik Honoré | 6 | PERS-S52-012, PERS-S54-007, PERS-S75-032, PERS-S76-063, PERS-S76-067, PERS-S76-070 | S52, S54, S75, S76 | relation intime de Ian Curtis; figure de la crise biographique finale / journaliste/fanzine En Attendant; future cofondatrice liée à Factory |
+| Bernard Sumner | 6 | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | musicien; guitariste; témoin / musicien; guitariste; témoin; trajectoire sociale / Témoin mobilisé par Rabbito pour décrire la personnalité |
+| Kevin Cummins | 6 | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | photographe; médiateur visuel / photographe; témoin de la scène mancunienne / photographe; témoin de l’Electric Circus; acteur fanzine / Neg |
+| Peter Hook | 6 | PERS-002, PERS-S52-007, PERS-S54-006, PERS-S55-003, PERS-S58-002, PERS-S59-003 | S52, S54, S55, S58, S59 | musicien; bassiste; témoin; mémorialiste / Témoin mobilisé par Rabbito pour la violence scénique et la personnalité explosive de Curtis. / T |
+| Stephen Morris | 6 | PERS-004, PERS-004-S75, PERS-S45-STEPHEN-MORRIS, PERS-S52-008, PERS-S55-005, PERS-S75-026 | S45, S52, S55, S75 | musicien; batteur; témoin / musicien; batteur; catalyseur formel / batteur de Joy Division; opérateur rythmique du son Hannett / Témoin mobi |
+| Grant Gee | 5 | PERS-S29-010, PERS-S34-003, PERS-S52-010, PERS-S78-010, PERS-S84-007 | S29, S34, S52, S78, S84 | Réalisateur du documentaire *Joy Division*, valorisé par Goddard via Fisher pour son régime fragmentaire d’archive. / Réalisateur du documen |
+| Anton Corbijn | 4 | PERS-S29-011, PERS-S52-002, PERS-S53-005, PERS-S78-007 | S29, S52, S53, S78 | Réalisateur de *Control*, film utilisé par Goddard comme contrepoint à l’archive fragmentaire de Grant Gee. / Réalisateur de Control ; ancie |
+| Deborah Curtis | 4 | PERS-005, PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION, PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE, PERS-S52-005 | S45, S52 | témoin; proche; autrice; gardienne d’archive / Source intime centrale mobilisée par Rabbito ; témoin des deux côtés de la personnalité de Cu |
+| John Anderson | 4 | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | producteur; responsable Grapevine; intermédiaire industriel / responsable de Grapevine Records; producteur / directeur de session associé au |
+| Jon Savage | 4 | PERS-S52-009, PERS-S56-003, PERS-S77-003, PERS-S78-004 | S52, S56, S77, S78 | Source documentaire utilisée par Rabbito pour des témoignages sur Curtis et Joy Division. / Auteur discuté par Barone pour traduction, parat |
 | Natalie Curtis | 4 | PERS-011, PERS-S45-NATALIE-CURTIS-BIRTH, PERS-S75-028, PERS-S76-061 | S45, S75, S76 | proche; enfant de Ian Curtis / fille de Ian et Deborah Curtis / fille de Ian Curtis et Deborah Curtis |
-| Alan Erasmus | 3 | PERS-S31-006, PERS-S75-024, PERS-S76-045 | S31, S75, S76 | cofondateur Factory; organisateur; figure effacée du récit / acteur; cofondateur du dispositif Factory avec Tony Wilson; |
-| Derek Brandwood | 3 | PERS-S45-DEREK-BRANDWOOD, PERS-S75-017, PERS-S76-032 | S45, S75, S76 | responsable RCA nord; intermédiaire industrie musicale / représentant RCA nord de l’Angleterre; médiateur industriel des |
-| Liz Naylor | 3 | PERS-S21-001, PERS-S77-005, PERS-S78-002 | S21, S77, S78 | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. / Contributrice de Cit |
-| Mark Reeder | 3 | PERS-S76-011, PERS-S76-029, PERS-S76-053 | S76 | témoin des sociabilités de disquaires; ami musical de Ian Curtis / témoin de Rare Records/Virgin; ami de Ian Curtis; tém |
-| Richard Searling | 3 | PERS-S45-RICHARD-SEARLING, PERS-S75-018, PERS-S76-033 | S45, S75, S76 | DJ northern soul; producteur associé / DJ northern soul; assistant de Derek Brandwood; intermédiaire du projet RCA/Grape |
+| Alan Erasmus | 3 | PERS-S31-006, PERS-S75-024, PERS-S76-045 | S31, S75, S76 | cofondateur Factory; organisateur; figure effacée du récit / acteur; cofondateur du dispositif Factory avec Tony Wilson; promoteur initial a |
+| Derek Brandwood | 3 | PERS-S45-DEREK-BRANDWOOD, PERS-S75-017, PERS-S76-032 | S45, S75, S76 | responsable RCA nord; intermédiaire industrie musicale / représentant RCA nord de l’Angleterre; médiateur industriel des sessions RCA/Grapev |
+| Liz Naylor | 3 | PERS-S21-001, PERS-S77-005, PERS-S78-002 | S21, S77, S78 | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. / Contributrice de City Fun, associée par |
+| Mark Reeder | 3 | PERS-S76-011, PERS-S76-029, PERS-S76-053 | S76 | témoin des sociabilités de disquaires; ami musical de Ian Curtis / témoin de Rare Records/Virgin; ami de Ian Curtis; témoin du changement de |
+| Richard Searling | 3 | PERS-S45-RICHARD-SEARLING, PERS-S75-018, PERS-S76-033 | S45, S75, S76 | DJ northern soul; producteur associé / DJ northern soul; assistant de Derek Brandwood; intermédiaire du projet RCA/Grapevine |
 | Steve Brotherdale | 3 | PERS-015, PERS-S45-STEVE-BROTHERDALE, PERS-S76-020 | S45, S76 | musicien; batteur transitoire / batteur transitoire de Warsaw; acteur de la scène mancunienne |
-| Terry Mason | 3 | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | ami de Bernard Sumner et Peter Hook; premier organisateur / manager informel de Warsaw; témoin direct des débuts / témoi |
-| Vini Reilly | 3 | PERS-S75-027, PERS-S76-014, PERS-S76-088 | S75, S76 | musicien de The Durutti Column; témoin technique de l'usage du delay / musicien; futur membre / centre de Durutti Column |
-| William S. Burroughs | 3 | PERS-S54-003, PERS-S56-004, PERS-S75-033 | S54, S56, S75 | écrivain; figure d'admiration pour Ian Curtis / Matrice littéraire centrale pour Interzone, Digital, langage-virus, cont |
-| Alan Hempsall | 2 | PERS-S75-035, PERS-S76-080 | S75, S76 | chanteur de Crispy Ambulance; substitut vocal ponctuel à Derby Hall / chanteur de Crispy Ambulance; voix de substitution |
-| Alan Wise | 2 | PERS-S76-047, PERS-S76-054 | S76 | promoteur local; gestionnaire des soirées au Russell Club selon S76; témoin du rôle visuel de Peter Saville / promoteur |
+| Terry Mason | 3 | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | ami de Bernard Sumner et Peter Hook; premier organisateur / manager informel de Warsaw; témoin direct des débuts / témoin logistique et anci |
+| Vini Reilly | 3 | PERS-S75-027, PERS-S76-014, PERS-S76-088 | S75, S76 | musicien de The Durutti Column; témoin technique de l'usage du delay / musicien; futur membre / centre de Durutti Column; témoin pré-Warsaw |
+| William S. Burroughs 📖 | 3 | PERS-S54-003, PERS-S56-004, PERS-S75-033 | S54, S56, S75 | écrivain; figure d'admiration pour Ian Curtis / Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentatio |
+| Alan Hempsall | 2 | PERS-S75-035, PERS-S76-080 | S75, S76 | chanteur de Crispy Ambulance; substitut vocal ponctuel à Derby Hall / chanteur de Crispy Ambulance; voix de substitution au Derby Hall de Bu |
+| Alan Wise | 2 | PERS-S76-047, PERS-S76-054 | S76 | promoteur local; gestionnaire des soirées au Russell Club selon S76; témoin du rôle visuel de Peter Saville / promoteur / acteur Factory Clu |
 | Bernie Binnick | 2 | PERS-S45-BERNIE-BINNICK, PERS-S76-036 | S45, S76 | exécutif américain lié au projet Grapevine/RCA; producteur de soul destiné à l’export britannique |
 | Bob Auger | 2 | PERS-S75-020, PERS-S76-035 | S75, S76 | producteur; ingénieur / superviseur studio / ingénieur / acteur technique des sessions Arrow selon S76 |
 | Candy | 2 | PERS-S45-CANDY, PERS-S76-076 | S45, S76 | chien de Ian Curtis; élément domestique de la crise conjugale |
 | Carole Curtis | 2 | PERS-S76-004, PERS-S76-087 | S76 | sœur de Ian Curtis; témoin familial / sœur de Ian Curtis; mémoire familiale endeuillée |
-| Cath Carroll | 2 | PERS-S21-002, PERS-S77-006 | S21, S77 | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. / Contributrice de Cit |
+| Cath Carroll | 2 | PERS-S21-002, PERS-S77-006 | S21, S77 | Contributrice associée à City Fun, à vérifier item par item ; voix importante à croiser avec S22. / Contributrice de City Fun ; exemple de p |
 | Ernest Beard | 2 | PERS-S45-ERNEST-BEARD, PERS-S45-ERNEST-BEARD-EPILEPSY | S45 |  |
-| Genesis P-Orridge | 2 | PERS-S29-003, PERS-S76-086 | S29, S76 | Figure de Throbbing Gristle et Psychic TV ; témoin revendiquant une affinité avec Ian Curtis. / artiste Throbbing Gristl |
+| Genesis P-Orridge | 2 | PERS-S29-003, PERS-S76-086 | S29, S76 | Figure de Throbbing Gristle et Psychic TV ; témoin revendiquant une affinité avec Ian Curtis. / artiste Throbbing Gristle; témoin d’alerte a |
 | Iain Gray | 2 | PERS-S45-IAIN-GRAY, PERS-S76-017 | S45, S76 | ami de Ian Curtis; guitariste des répétitions embryonnaires pré-Warsaw; acteur périphérique rapidement effacé |
-| Jean-Pierre Turmel | 2 | PERS-S75-036, PERS-S76-066 | S75, S76 | auteur du texte de pochette de Licht und Blindheit; médiateur Sordide Sentimental / fondateur / animateur de Sordide Sen |
+| Jean-Pierre Turmel | 2 | PERS-S75-036, PERS-S76-066 | S75, S76 | auteur du texte de pochette de Licht und Blindheit; médiateur Sordide Sentimental / fondateur / animateur de Sordide Sentimental; médiateur |
 | John Peel | 2 | PERS-S75-021, PERS-S76-057 | S75, S76 | DJ radio; médiateur national / animateur radio BBC; prescripteur national; réception critique de Joy Division |
 | Lesley Gilbert | 2 | PERS-S45-LESLEY-GILBERT, PERS-S76-043 | S45, S76 | compagne de Rob Gretton; salariée d’un cabinet d’avocats selon Terry Mason |
-| Malcolm Whitehead | 2 | PERS-S78-009, PERS-S84-001 | S78, S84 | Réalisateur du film Joy Division de 1979, mêlant scènes urbaines, publicités, Anderton et concert de Bowdon Vale. / Réal |
-| Martin Rushent | 2 | PERS-S75-022, PERS-S76-058 | S75, S76 | producteur; entrepreneur de production / producteur; fondateur / acteur de Genetic Records; producteur potentiel alterna |
-| Raf Simons | 2 | PERS-S60-004, PERS-S85-005 | S60, S85 | Créateur de mode mobilisé pour les réemplois du motif Joy Division dans l’art, le vêtement et la distinction. / Designer |
-| Richard Boon | 2 | PERS-S76-019, PERS-S84-002 | S76, S84 | manager de Buzzcocks; interlocuteur précoce de Curtis; médiateur de scène / Manager des Buzzcocks, opérateur Betamax Apo |
+| Malcolm Whitehead | 2 | PERS-S78-009, PERS-S84-001 | S78, S84 | Réalisateur du film Joy Division de 1979, mêlant scènes urbaines, publicités, Anderton et concert de Bowdon Vale. / Réalisateur amateur, fil |
+| Martin Rushent | 2 | PERS-S75-022, PERS-S76-058 | S75, S76 | producteur; entrepreneur de production / producteur; fondateur / acteur de Genetic Records; producteur potentiel alternatif pour Joy Divisio |
+| Raf Simons | 2 | PERS-S60-004, PERS-S85-005 | S60, S85 | Créateur de mode mobilisé pour les réemplois du motif Joy Division dans l’art, le vêtement et la distinction. / Designer belge — parka avec |
+| Richard Boon | 2 | PERS-S76-019, PERS-S84-002 | S76, S84 | manager de Buzzcocks; interlocuteur précoce de Curtis; médiateur de scène / Manager des Buzzcocks, opérateur Betamax Apollo Manchester (28 o |
 | Sue Barlow | 2 | PERS-S45-SUE-BARLOW, PERS-S45-SUE-BARLOW-GIRLIES | S45 |  |
 | Tony Nuttall | 2 | PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE, PERS-S76-007 | S45, S76 | ami d'enfance de Ian Curtis; compagnon de speedway et de sociabilité locale |
 
+<sub>🅾 = entité collective (cf. §4.1, à sortir vers `ORG-`) · 📖 = figure littéraire/d'influence (cf. §4.2).</sub>
+
 ### 1.2. Personnes à identifiant unique
 
-Le reste de la couche (chaînes-noms ne portant qu'un seul identifiant) est listé ci-dessous de façon condensée, regroupé par source d'apparition. Ces entrées ne sont pas des candidates à fusion intra-corpus, mais peuvent rejoindre une grappe lors du recoupement inter-sources ultérieur.
+Chaînes-noms ne portant qu'un seul identifiant, regroupées par source. Non candidates à fusion intra-corpus, mais susceptibles de rejoindre une grappe au recoupement inter-sources ultérieur.
 
 | Source | Personnes (id — nom) |
 |--------|----------------------|
@@ -101,134 +103,169 @@ Le reste de la couche (chaînes-noms ne portant qu'un seul identifiant) est list
 
 ## 2. Grappes de déduplication pressenties
 
-Pour chaque personne pressentie, les identifiants `PERS-*` concurrents à rabattre via `same_as` vers un futur `PERSON-` canonique. Les statuts traduisent le degré de certitude ; aucune fusion n'est appliquée.
+> Note de vérification (consigne) : `PERS-S76-022` est **Tony Wilson** (et non Rob Gretton) ; `PERS-003-S75` est bien **Bernard Sumner**. Aucun identifiant « Bernard Albrecht » n'existe dans la couche actuelle — l'alias de scène n'a pas été internalisé (cf. §3.2).
 
-> Note de vérification : la consigne mentionnait `PERS-S76-022` dans la grappe *Rob Gretton*. Le contrôle sur `people.json` montre que **`PERS-S76-022` = Tony Wilson** ; il est donc rattaché à la grappe *Tony Wilson*, pas à *Rob Gretton*. De même, `PERS-003-S75` est bien **Bernard Sumner** (et non un identifiant fantôme).
+### 2.1. Grappes explicitement demandées (vérifiées sur `people.json`)
 
-| Personne pressentie | Identifiants concurrents | Sources | Statut | Observation |
-|---------------------|--------------------------|---------|:------:|-------------|
-| Rob Gretton | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | `fusion_evidente` | Manager de Joy Division/New Order. Identifiants maître + épisodiques convergents. |
-| Martin Hannett | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | `fusion_evidente` | Producteur. Mêmes rôles (producteur/ingénieur) sur S41, S45, S75, S76. |
-| Peter Saville | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | `fusion_evidente` | Directeur artistique Factory. Aucun homonyme concurrent. |
-| Tony Wilson | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | `fusion_evidente` | Fondateur Factory / Granada. Inclut `PERS-S76-022` (corrigé) et l'entrée épisodique S45. |
-| Kevin Cummins | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | `fusion_evidente` | Photographe. Trois identifiants S75/S76 pour une même personne. |
-| Jean-Pierre Turmel | PERS-S75-036, PERS-S76-066 | S75, S76 | `fusion_evidente` | Sordide Sentimental (Licht und Blindheit). Deux identifiants S75/S76. |
-| Terry Mason | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | `fusion_evidente` | Cercle initial de Warsaw (manager/road crew). Identifiants S45/S76 concordants. |
-| Bernard Sumner | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | `fusion_evidente` | Guitariste. Inclut l'alias de scène **Bernard Albrecht** (`PERS-S75-030`) — `same_as` à confirmer, cf. §3.2. |
-| John Anderson | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | `a_arbitrer` | Deux identifiants S76 + une entrée S45. Nom courant : probable doublon épisodique intra-S76, mais homonymie (RCA / Northern soul) non écartée. Ne pas fusionner sans contrôle. |
+| Personne pressentie | Occ. | Identifiants concurrents | Sources | Statut | Observation |
+|---------------------|:----:|--------------------------|---------|:------:|-------------|
+| Rob Gretton | 7 | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | `fusion_evidente` | Manager JD/New Order. Maître + déclinaisons biographiques et critiques convergentes. |
+| Martin Hannett | 9 | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | `fusion_evidente` | Producteur (alias « Martin Zero » sur `PERS-S76-024`). Mêmes rôles partout. |
+| Peter Saville | 7 | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | `fusion_evidente` | Directeur artistique Factory. Aucun homonyme. |
+| Tony Wilson | 12 | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | `fusion_evidente` | Granada / fondateur Factory. Inclut `PERS-S76-022` (corrigé). |
+| Kevin Cummins | 6 | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | `fusion_evidente` | Photographe. Six identifiants concordants. |
+| Jean-Pierre Turmel | 2 | PERS-S75-036, PERS-S76-066 | S75, S76 | `fusion_evidente` | Sordide Sentimental. Deux identifiants. |
+| John Anderson | 4 | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | `a_arbitrer` | Grapevine Records / projet RCA-Northern Soul. Nom courant : doublon épisodique S75/S76 très probable, mais homonymie non écartée — ne pas fusionner sans contrôle. |
+| Terry Mason | 3 | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | `fusion_evidente` | Cercle initial Warsaw. Identifiants S45/S76 concordants. |
+| Bernard Sumner | 6 | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | `fusion_evidente` | Guitariste. `PERS-003` + complément `PERS-003-S75` + déclinaisons critiques. Alias de scène « Bernard Albrecht / Bernard Dicken » ABSENT de la couche — à ajouter en `alt_names` (§3.2). |
 
-### 2.1. Autres grappes multi-identifiants détectées automatiquement
+### 2.2. Autres grappes multi-identifiants (≥ 2 id) détectées automatiquement
 
-Toutes les autres chaînes-noms portant ≥ 2 identifiants (cf. §1.1) sont des candidates `same_as` du même type. Lorsqu'elles relèvent d'une seule source et d'un nom non ambigu, le statut pressenti est `fusion_evidente` ; lorsque le nom est générique ou réparti sur des rôles hétérogènes, le statut reste `a_arbitrer`. Le détail figure dans la table §1.1 et sera tranché à l'étape de canonicalisation.
+Mêmes mécanismes de déduplication. Statut pressenti par défaut `fusion_evidente` (personne publique identifiable, nom non ambigu) ; les entités collectives et figures littéraires sont **exclues** de ce tableau (→ §4). Tout nom générique reste `a_arbitrer` à la canonicalisation.
+
+| Personne | Occ. | Identifiants | Sources | Statut |
+|----------|:----:|--------------|---------|:------:|
+| Ian Curtis | 11 | PERS-001, PERS-S29-002, PERS-S34-010, PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR, PERS-S49-002, PERS-S53-002, PERS-S54-002, PERS-S55-002, PERS-S56-002, PERS-S57-004, PERS-S59-002 | S29, S34, S45, S49, S53, S54, S55, S56, S57, S59 | `fusion_evidente` |
+| Paul Morley | 9 | PERS-014, PERS-S21-007, PERS-S34-012, PERS-S45-PAUL-MORLEY-1977, PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL, PERS-S75-037, PERS-S76-089, PERS-S77-008, PERS-S78-003 | S21, S34, S45, S75, S76, S77, S78 | `fusion_evidente` |
+| Annik Honoré | 6 | PERS-S52-012, PERS-S54-007, PERS-S75-032, PERS-S76-063, PERS-S76-067, PERS-S76-070 | S52, S54, S75, S76 | `fusion_evidente` |
+| Peter Hook | 6 | PERS-002, PERS-S52-007, PERS-S54-006, PERS-S55-003, PERS-S58-002, PERS-S59-003 | S52, S54, S55, S58, S59 | `fusion_evidente` |
+| Stephen Morris | 6 | PERS-004, PERS-004-S75, PERS-S45-STEPHEN-MORRIS, PERS-S52-008, PERS-S55-005, PERS-S75-026 | S45, S52, S55, S75 | `fusion_evidente` |
+| Grant Gee | 5 | PERS-S29-010, PERS-S34-003, PERS-S52-010, PERS-S78-010, PERS-S84-007 | S29, S34, S52, S78, S84 | `fusion_evidente` |
+| Anton Corbijn | 4 | PERS-S29-011, PERS-S52-002, PERS-S53-005, PERS-S78-007 | S29, S52, S53, S78 | `fusion_evidente` |
+| Deborah Curtis | 4 | PERS-005, PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION, PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE, PERS-S52-005 | S45, S52 | `fusion_evidente` |
+| Jon Savage | 4 | PERS-S52-009, PERS-S56-003, PERS-S77-003, PERS-S78-004 | S52, S56, S77, S78 | `fusion_evidente` |
+| Natalie Curtis | 4 | PERS-011, PERS-S45-NATALIE-CURTIS-BIRTH, PERS-S75-028, PERS-S76-061 | S45, S75, S76 | `fusion_evidente` |
+| Alan Erasmus | 3 | PERS-S31-006, PERS-S75-024, PERS-S76-045 | S31, S75, S76 | `fusion_evidente` |
+| Derek Brandwood | 3 | PERS-S45-DEREK-BRANDWOOD, PERS-S75-017, PERS-S76-032 | S45, S75, S76 | `fusion_evidente` |
+| Liz Naylor | 3 | PERS-S21-001, PERS-S77-005, PERS-S78-002 | S21, S77, S78 | `fusion_evidente` |
+| Mark Reeder | 3 | PERS-S76-011, PERS-S76-029, PERS-S76-053 | S76 | `fusion_evidente` |
+| Richard Searling | 3 | PERS-S45-RICHARD-SEARLING, PERS-S75-018, PERS-S76-033 | S45, S75, S76 | `fusion_evidente` |
+| Steve Brotherdale | 3 | PERS-015, PERS-S45-STEVE-BROTHERDALE, PERS-S76-020 | S45, S76 | `fusion_evidente` |
+| Vini Reilly | 3 | PERS-S75-027, PERS-S76-014, PERS-S76-088 | S75, S76 | `fusion_evidente` |
+| Alan Hempsall | 2 | PERS-S75-035, PERS-S76-080 | S75, S76 | `fusion_evidente` |
+| Alan Wise | 2 | PERS-S76-047, PERS-S76-054 | S76 | `fusion_evidente` |
+| Bernie Binnick | 2 | PERS-S45-BERNIE-BINNICK, PERS-S76-036 | S45, S76 | `fusion_evidente` |
+| Bob Auger | 2 | PERS-S75-020, PERS-S76-035 | S75, S76 | `fusion_evidente` |
+| Candy | 2 | PERS-S45-CANDY, PERS-S76-076 | S45, S76 | `fusion_evidente` |
+| Carole Curtis | 2 | PERS-S76-004, PERS-S76-087 | S76 | `fusion_evidente` |
+| Cath Carroll | 2 | PERS-S21-002, PERS-S77-006 | S21, S77 | `fusion_evidente` |
+| Ernest Beard | 2 | PERS-S45-ERNEST-BEARD, PERS-S45-ERNEST-BEARD-EPILEPSY | S45 | `fusion_evidente` |
+| Genesis P-Orridge | 2 | PERS-S29-003, PERS-S76-086 | S29, S76 | `fusion_evidente` |
+| Iain Gray | 2 | PERS-S45-IAIN-GRAY, PERS-S76-017 | S45, S76 | `fusion_evidente` |
+| John Peel | 2 | PERS-S75-021, PERS-S76-057 | S75, S76 | `fusion_evidente` |
+| Lesley Gilbert | 2 | PERS-S45-LESLEY-GILBERT, PERS-S76-043 | S45, S76 | `fusion_evidente` |
+| Malcolm Whitehead | 2 | PERS-S78-009, PERS-S84-001 | S78, S84 | `fusion_evidente` |
+| Martin Rushent | 2 | PERS-S75-022, PERS-S76-058 | S75, S76 | `fusion_evidente` |
+| Raf Simons | 2 | PERS-S60-004, PERS-S85-005 | S60, S85 | `fusion_evidente` |
+| Richard Boon | 2 | PERS-S76-019, PERS-S84-002 | S76, S84 | `fusion_evidente` |
+| Sue Barlow | 2 | PERS-S45-SUE-BARLOW, PERS-S45-SUE-BARLOW-GIRLIES | S45 | `fusion_evidente` |
+| Tony Nuttall | 2 | PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE, PERS-S76-007 | S45, S76 | `fusion_evidente` |
 
 ## 3. Cas sensibles isolés — NE PAS fusionner
 
 ### 3.1. « Kevin Curtis » vs Ian Kevin Curtis
 
-- **`PERS-S76-003` « Kevin Curtis »** — rôle déclaré : *père de Ian Curtis; policier ferroviaire; ancien marin blessé pendant la guerre*. Description : 
+- **`PERS-S76-003` « Kevin Curtis »** (source S76) — rôle déclaré : *père de Ian Curtis; policier ferroviaire; ancien marin blessé pendant la guerre*.
 - **`PERS-001` Ian Curtis** — nom complet *Ian Kevin Curtis*.
 
-Risque d'homonymie : le deuxième prénom de Ian Curtis est **Kevin**. « Kevin Curtis » (`PERS-S76-003`) peut désigner (a) un parent homonyme réel (oncle/parent collecteur de disques, conforme à la description du registre) ou (b) une mauvaise segmentation de « Ian Kevin Curtis ». **Statut : `distinct` provisoire — documenté, non tranché.** Ne pas rabattre sur `PERS-001` tant que la source (S76, *Torn Apart*) n'a pas été revérifiée.
+Le registre `S76` décrit `PERS-S76-003` comme le **père de Ian Curtis**. Mais la chaîne « Kevin Curtis » coïncide avec le deuxième prénom de Ian (**Ian Kevin Curtis**), ce qui crée un risque d'homonymie / de mauvaise segmentation. Deux lectures possibles : (a) parent réel homonyme ; (b) artefact d'atomisation. **Statut : `distinct` provisoire — documenté, non tranché.** Ne pas rabattre sur `PERS-001` ; revérifier la source S76 (*Torn Apart*) avant toute décision.
 
 ### 3.2. Variantes orthographiques déjà internalisées — confirmer le périmètre `same_as`
 
-| Variante | Identifiant(s) | Alias enregistré | Périmètre `same_as` |
-|----------|----------------|------------------|---------------------|
-| T.J. Davidson | PERS-S75-025 | — | Tony Davidson / T. J. Davidson — même personne (propriétaire du studio TJM). À confirmer. |
-| Tony Davidson / T. J. Davidson | PERS-S76-051 | — | Tony Davidson / T. J. Davidson — même personne (propriétaire du studio TJM). À confirmer. |
-| Eddie Garrity / Ed Banger | PERS-S76-040 | — | Eddie Garrity / Ed Banger (Ed Banger and the Nosebleeds) — même personne. À confirmer. |
+| Variante | Identifiant(s) | Périmètre `same_as` à confirmer |
+|----------|----------------|---------------------------------|
+| T.J. Davidson | PERS-S75-025 | « Tony Davidson » / « T. J. Davidson » — même personne (studio TJM / TJM Records). `PERS-S75-025` + `PERS-S76-051` = paire `same_as` à câbler. |
+| Tony Davidson / T. J. Davidson | PERS-S76-051 | « Tony Davidson » / « T. J. Davidson » — même personne (studio TJM / TJM Records). `PERS-S75-025` + `PERS-S76-051` = paire `same_as` à câbler. |
+| Eddie Garrity / Ed Banger | PERS-S76-040 | « Eddie Garrity » / « Ed Banger » (Ed Banger & the Nosebleeds) — variantes déjà fusionnées dans un seul identifiant ; conserver les deux formes en `alt_names`. |
 
-Action recommandée (non appliquée) : vérifier que chaque paire de variantes est bien couverte par un unique futur `PERSON-` avec les formes secondaires en `alt_names`, sans créer d'identifiant concurrent.
+Le cas **Bernard Sumner** appartient aussi à cette catégorie : l'alias de scène « Bernard Albrecht » (parfois « Bernard Dicken ») n'apparaît dans **aucune** entrée `PERS-*`. Recommandation : l'enregistrer en `alt_names` du futur `PERSON-` Sumner, sans créer d'identifiant concurrent.
 
-## 4. Erreurs de typage — à renvoyer vers l'étape 10 / registre concept ou `ORG-`
+## 4. Erreurs de typage — à renvoyer vers l'étape 10
 
-Entrées présentes dans la couche `PERS-*` qui **ne sont pas des personnes**. À extraire des grappes `PERSON-` ; flaggées ici sans réaffectation.
+Entrées présentes dans la couche `PERS-*` qui **ne sont pas des personnes**. Flaggées ici, à extraire des grappes `PERSON-` ; aucune réaffectation appliquée.
 
 ### 4.1. Entités collectives / groupes → candidats `ORG-`
 
-| Identifiant | Chaîne | Source | Type déclaré | Renvoi |
-|-------------|--------|--------|--------------|--------|
+| Identifiant | Chaîne | Source | Description | Renvoi |
+|-------------|--------|--------|-------------|--------|
 | PERS-016 | Bedhead |  | groupe; héritier critique | `ORG-` |
-| PERS-S31-007 | Rob Gretton | S31 | Manager de Joy Division intégré au dispositif collectif Factory. | `ORG-` |
-| PERS-S34-011 | Martin Hannett | S34 | Producteur dont l’usage de l’espace sonore est discuté par S34 via Reynolds, mais à ne pas isoler du rôle du groupe. | `ORG-` |
-| PERS-S76-021 | Steve Morris | S76 | batteur de Joy Division; stabilisateur rythmique du groupe | `ORG-` |
-| PERS-S76-041 | Ian Wood | S76 | journaliste local pour Sounds; inspecteur des impôts selon S76; observateur de Joy Division au Band On The Wall | `ORG-` |
-| PERS-S76-042 | Jeremy Kerr | S76 | membre de A Certain Ratio; témoin d’un concert de Joy Division au Band On The Wall | `ORG-` |
-| PERS-S76-048 | Roger Eagle | S76 | DJ et promoteur; figure Twisted Wheel / Eric’s; initiateur possible d’un projet de label Manchester-Liverpool | `ORG-` |
-| PERS-S76-051 | Tony Davidson / T. J. Davidson | S76 | propriétaire de T. J. Davidson’s; entrepreneur de répétition et label TJM Records | `ORG-` |
 | PERS-S76-052 | Oz PA / Eddy et Oz | S76 | équipe de sonorisation liée aux concerts de Joy Division; acteurs techniques de tournée | `ORG-` |
-| PERS-S76-068 | Buzzcocks | S76 | groupe mancunien tête d’affiche; support institutionnel indirect de la montée live de Joy Division en 1979 | `ORG-` |
-| PERS-S76-071 | Minny Pops | S76 | groupe néerlandais associé à l’Effenaar / Factory Benelux; contexte de la scène européenne de Joy Division | `ORG-` |
+| PERS-S76-068 | Buzzcocks | S76 | groupe mancunien tête d’affiche; support institutionnel indirect de la montée live de Joy  | `ORG-` |
+| PERS-S76-071 | Minny Pops | S76 | groupe néerlandais associé à l’Effenaar / Factory Benelux; contexte de la scène européenne | `ORG-` |
 | PERS-S76-082 | Perry Boys | S76 | groupe de jeunes / skinheads locaux associés aux violences de Bury selon S76 | `ORG-` |
-| PERS-S78-005 | Tony Wilson | S78 | Figure Factory et médiateur du cadre situationniste / psychogéographique, à distinguer du groupe lui-même. | `ORG-` |
 
-### 4.2. Figures littéraires d'influence → statut à arbitrer
+Détection par **nom** (et non par rôle, pour éviter les faux positifs : de nombreux acteurs réels portent des rôles « manager », « fanzine », « organisateur »). `PERS-S76-052` « Oz PA / Eddy et Oz » est une équipe de sonorisation : à éclater en `ORG-` (Oz PA) plus, éventuellement, des `PERSON-` pour Eddy et Oz si avérés.
 
-| Identifiant | Chaîne | Source | Type déclaré | Renvoi |
-|-------------|--------|--------|--------------|--------|
+### 4.2. Figures littéraires / d'influence → registre concept ou influence (statut à arbitrer)
 
-Ces figures (Ballard, Burroughs, Dostoïevski, Proust, Nietzsche, Kafka, Hesse) sont des **influences littéraires citées**, pas des acteurs du corpus Joy Division. Elles ne doivent pas entrer dans les grappes `PERSON-`. À arbitrer à l'étape 10 : soit un registre `INFLUENCE-`/concept, soit un `PERSON-` de type *influence_citée* explicitement distinct des acteurs. **Note :** J. G. Ballard porte deux identifiants (`PERS-S85-001` et `PERS-S85-007`) — doublon interne à signaler.
+| Identifiant | Chaîne | Source | Description | Renvoi |
+|-------------|--------|--------|-------------|--------|
+| PERS-S29-012 | Nikolai Gogol | S29 | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas | influence — à arbitrer |
+| PERS-S53-010 | Friedrich Nietzsche | S53 | Référence philosophique sur musique, puissance et tragique, mobilisée par La Rocca. | influence — à arbitrer |
+| PERS-S54-003 | William S. Burroughs | S54 | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentat | influence — à arbitrer |
+| PERS-S54-004 | J. G. Ballard | S54 | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et | influence — à arbitrer |
+| PERS-S56-004 | William S. Burroughs | S56 | Auteur admiré par Curtis ; figure de l’anecdote du Plan K. | influence — à arbitrer |
+| PERS-S75-031 | Marcel Proust | S75 | écrivain; référence possible pour le titre Unknown Pleasures | influence — à arbitrer |
+| PERS-S75-033 | William S. Burroughs | S75 | écrivain; figure d'admiration pour Ian Curtis | influence — à arbitrer |
+
+Ce sont des **influences littéraires / philosophiques citées** (Gogol, Proust, Burroughs, Nietzsche, Ballard), pas des acteurs du corpus Joy Division. Elles ne doivent pas entrer dans les grappes `PERSON-` d'acteurs. À arbitrer à l'étape 10 : registre `INFLUENCE-`/concept, ou `PERSON-` de type *influence_citée* explicitement distinct. **À noter :** William S. Burroughs porte trois identifiants (`PERS-S54-003`, `PERS-S56-004`, `PERS-S75-033`) — doublon interne à résorber quel que soit le registre cible.
 
 ## 5. Locuteurs « anonyme » (607)
 
-Sur les 962 citations, **355** ont un locuteur nommé et **607** sont marquées « anonyme » (ou locuteur vide). Partition de ces 607 :
+Sur 962 citations : **355** ont un locuteur nommé et **607** sont « anonyme » / locuteur vide. Partition des 607 :
 
 | Sous-ensemble | Définition | Volume |
 |---------------|------------|:------:|
-| (a) Narration d'auteur | locuteur « anonyme » **mais** `auteur_source` renseigné — le locuteur réel est l'auteur de la source, à relier ultérieurement à un `PERSON-` auteur | **607** |
+| (a) Narration d'auteur | locuteur « anonyme » **mais** `auteur_source` renseigné — le locuteur réel est l'auteur de la source, à relier à un `PERSON-` auteur | **607** |
 | (b) Locuteur réellement inconnu | « anonyme » **sans** `auteur_source` exploitable — reste non rattaché | **0** |
 | **Total** | | **607** |
 
 ### 5.1. Cas (a) — narration d'auteur, ventilation par `auteur_source`
-
-Volume rattachable à un `PERSON-` auteur dès que le registre auteurs sera câblé :
 
 | `auteur_source` (→ futur `PERSON-` auteur) | Nb de citations |
 |--------------------------------------------|:---------------:|
 | Peter Hook | 223 |
 | Deborah Curtis | 103 |
 | Claude Flowers | 20 |
-| Mike West | 15 |
-| Fabio La Rocca | 15 |
 | Alessandro Gnocchi | 15 |
+| Fabio La Rocca | 15 |
+| Mike West | 15 |
 | Jon Savage | 14 |
 | Leonard Nevarez | 14 |
 | Andrea Rabbito | 12 |
-| Simon Reynolds | 11 |
 | Alfredo Suatoni | 11 |
-| Uwe Schütte | 10 |
+| Simon Reynolds | 11 |
 | Matthew Worley | 10 |
-| Paul Morley | 8 |
-| Mick Middles ; Lindsay Reade | 8 |
+| Uwe Schütte | 10 |
 | Emiliano Ilardi | 8 |
-| Vincenzo Romania | 7 |
-| Linda Barone | 7 |
+| Mick Middles ; Lindsay Reade | 8 |
+| Paul Morley | 8 |
 | Dan Jacobson, Ian Jeffrey | 7 |
+| Linda Barone | 7 |
 | Sara Martínez | 7 |
+| Vincenzo Romania | 7 |
 | Alastair Greig ; Catherine Strong | 6 |
+| Francesca Ferrara | 6 |
 | Giuseppe Allegri | 6 |
 | Massimo Villani | 6 |
-| Francesca Ferrara | 6 |
 | Raffaele Federici | 6 |
-| Mark Johnson ; David Lees ; Paul Morley ; Jon Wozencroft | 5 |
 | David Wilkinson | 5 |
 | Giacomo Bottà | 5 |
+| Mark Johnson ; David Lees ; Paul Morley ; Jon Wozencroft | 5 |
+| Caterina Tomeo | 4 |
 | Daniele De Luca | 4 |
+| Jennifer Malvezzi | 4 |
 | Manchester Digital Music Archive | 4 |
 | Paolo Bertetti ; Domenico Morreale | 4 |
-| Jennifer Malvezzi | 4 |
-| Caterina Tomeo | 4 |
-| Marco Broll | 3 |
-| Loïc Riom | 3 |
-| HM Treasury | 3 |
 | Giada Iovane ; Giovanni Maria Riccio | 3 |
+| HM Treasury | 3 |
+| Loïc Riom | 3 |
 | Manolo Farci | 3 |
-| Kevin Cummins | 1 |
+| Marco Broll | 3 |
 | Happy Mondays | 1 |
+| Kevin Cummins | 1 |
 
 ### 5.2. Liste exhaustive des citations du cas (a)
-
-Identifiants des citations en narration d'auteur (à relier, non modifiées) :
 
 ```
 CIT-S13-001, CIT-S13-002, CIT-S13-003, CIT-S13-004, CIT-S61-001, CIT-S61-002, CIT-S61-003, CIT-S63-001, CIT-S63-002, CIT-S63-003
@@ -294,23 +331,25 @@ S78-Q012, S78-Q013, S78-Q014, S89-Q001, S89-Q002, S89-Q003, S89-Q004, S89-Q005, 
 S89-Q008, S89-Q009, S89-Q010, S89-Q011, S89-Q012, S89-Q013, S89-Q014
 ```
 
-Le cas (b) — 0 citations — reste volontairement non rattaché.
+Le cas (b) — **0** citations — reste volontairement non rattaché à ce stade.
 
 ## 6. Résidus à récurer — les 9 `attribution_a_arbitrer`
 
 Un cas par ligne, avec hypothèse de résolution **proposée mais non appliquée**.
 
-| Citation | Source | `locuteur` | `auteur_source` | `rapporteur` | Hypothèse de résolution proposée |
-|----------|--------|-----------|-----------------|--------------|----------------------------------|
-| S76-Q020 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q079 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q116 | S76 | Ian Curtis | Mick Middles ; Lindsay Reade | entretien McCullough | Citation rapportée : locuteur = « Ian Curtis », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q131 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q163 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q169 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q181 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q189 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
-| S76-Q190 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Citation rapportée : locuteur = « anonyme », transmise par Mick Middles ; Lindsay Reade (rôle `rapporteur`). |
+| Citation | Source | `locuteur` | `auteur_source` | `rapporteur` | Hypothèse de résolution |
+|----------|--------|-----------|-----------------|--------------|-------------------------|
+| S76-Q020 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q079 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q116 | S76 | Ian Curtis | Mick Middles ; Lindsay Reade | entretien McCullough | Citation rapportée : locuteur = « Ian Curtis », transmise par Mick Middles ; Lindsay Reade via entretien McCullough. Conserver locuteur, marquer la transmission. |
+| S76-Q131 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q163 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q169 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q181 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q189 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q190 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+
+Les neuf cas relèvent tous de la biographie *Torn Apart* (Middles & Reade, S76) : huit sont des passages narratifs où le locuteur réel est le binôme d'auteurs ; un (`S76-Q116`) est une parole de Ian Curtis transmise via un entretien McCullough, donc une citation rapportée à deux niveaux.
 
 ## 7. Synthèse chiffrée et recommandations
 
@@ -319,28 +358,28 @@ Un cas par ligne, avec hypothèse de résolution **proposée mais non appliquée
 | Entrées `PERS-*` distinctes en entrée | 305 |
 | Chaînes-noms distinctes | 175 |
 | Grappes multi-identifiants (≥ 2 id) | 45 |
-| Liens `same_as` à câbler (≈ id excédentaires) | 130 |
+| Liens `same_as` à câbler | 130 |
 | Entrées à identifiant unique | 130 |
-| Entités collectives → `ORG-` | 13 |
-| Figures littéraires → concept/influence | 0 |
-| **Personnes canoniques `PERSON-` pressenties** (après dédup et retrait typage) | **≈ 162** |
-| Citations en narration d'auteur (cas 5a) | 607 |
-| Citations locuteur inconnu (cas 5b) | 0 |
+| Entités collectives → `ORG-` | 5 entrées / 5 noms |
+| Figures littéraires → influence/concept | 7 entrées / 5 noms |
+| **Personnes canoniques `PERSON-` pressenties** (noms − typage) | **≈ 165** |
+| Citations narration d'auteur (5a) | 607 |
+| Citations locuteur inconnu (5b) | 0 |
 | Citations `attribution_a_arbitrer` | 9 |
 
 ### Recommandations pour l'étape de canonicalisation (non exécutées ici)
 
-1. Câbler les `same_as` des grappes `fusion_evidente` (§2) vers un identifiant `PERSON-` unique par personne ; conserver les formes secondaires en `alt_names`.
-2. Traiter `John Anderson` et toute grappe à nom générique en `a_arbitrer` : contrôle source avant fusion.
-3. Sortir les 14 entités collectives (§4.1) vers un registre `ORG-` et les figures littéraires (§4.2) vers un registre d'influences/concepts ; résorber le doublon Ballard.
+1. Câbler les `same_as` des grappes `fusion_evidente` (§2.1–§2.2) vers un `PERSON-` unique par personne ; conserver les formes secondaires en `alt_names`.
+2. Traiter `John Anderson` et tout nom générique en `a_arbitrer` : contrôle source avant fusion.
+3. Sortir les 5 entités collectives (§4.1) vers un registre `ORG-` et les 5 figures littéraires (§4.2) vers un registre influence/concept ; résorber le triplet Burroughs.
 4. Maintenir `Kevin Curtis` (`PERS-S76-003`) **distinct** de `PERS-001` jusqu'à revérification de S76.
-5. Relier les 206 citations de narration d'auteur (§5.1) aux `PERSON-` auteurs une fois ceux-ci canonisés ; laisser les 401 locuteurs inconnus non rattachés.
-6. Résoudre les 9 `attribution_a_arbitrer` selon les hypothèses du §6.
+5. Ajouter l'alias « Bernard Albrecht » au futur `PERSON-` Sumner ; confirmer les paires Davidson et Garrity.
+6. Relier les 607 citations de narration d'auteur (§5) aux `PERSON-` auteurs une fois ceux-ci canonisés ; laisser les 0 locuteurs inconnus non rattachés.
+7. Résoudre les 9 `attribution_a_arbitrer` selon les hypothèses du §6.
 
 ---
 
 ## 8. Lien de la PR
 
-<!-- PR_LINK -->
-_Lien de la pull request : à compléter à l'ouverture de la PR `claude/etape9-audit-personnes`._
+Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46)** (branche `claude/etape9-audit-personnes-13y69` → `main`). Revue automatique `@codex review` déclenchée à l'ouverture.
 
