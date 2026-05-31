@@ -127,8 +127,13 @@ maillage** (réservé à l'étape 11) :
 2. une **arête d'équivalence** (`same_as`) déjà résolue en clôture transitive —
    primitive directement réutilisable par la spécification cross-registres
    (étape 5) ;
-3. un **point d'ancrage d'autorité externe** (`reference_croisee`, ex. QID
-   Wikidata) pour les rapprochements futurs.
+3. un **point d'ancrage d'autorité externe** (`reference_croisee`) pour les
+   rapprochements futurs. Préfixes d'autorité admis :
+   - `wikidata:<QID>` — Wikidata (P625, CC0) ;
+   - `musicbrainz:place:<MBID>` — MusicBrainz ;
+   - `osm:node:<ID>` — OpenStreetMap ;
+   - `gias:<URN>` — *Get Information About Schools* (service.gov.uk), pour
+     les établissements scolaires anglais (URN = identifiant national GIAS).
 
 Ce qui n'est **pas** fait ici (et ne doit pas l'être) : les liens bidirectionnels
 riches lieux ↔ concerts ↔ personnes ↔ … (maillage, étape 11).
