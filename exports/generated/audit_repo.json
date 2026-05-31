@@ -3,11 +3,11 @@
   "summary": {
     "records_total": 8211,
     "records_by_kind": {
-      "unknown": 1508,
+      "unknown": 1410,
       "source": 120,
       "metadata": 274,
       "atom": 2752,
-      "quote": 864,
+      "quote": 962,
       "concept": 463,
       "motif": 427,
       "myth": 102,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 17
     },
-    "diagnostics_total": 30884,
+    "diagnostics_total": 31088,
     "errors": 0,
-    "warnings": 30884,
+    "warnings": 31088,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -39,14 +39,14 @@
     "motif": 427,
     "myth": 102,
     "person": 305,
-    "quote": 864,
+    "quote": 962,
     "quote_batch": 1,
     "rules": 1,
     "session": 17,
     "song": 110,
     "source": 120,
     "template": 340,
-    "unknown": 1508
+    "unknown": 1410
   },
   "records_by_source": {
     "REGISTRY": {
@@ -117,7 +117,8 @@
       "atom": 11,
       "metadata": 4,
       "motif": 5,
-      "unknown": 6
+      "unknown": 2,
+      "quote": 4
     },
     "S14": {
       "metadata": 5,
@@ -472,32 +473,36 @@
       "myth": 4
     },
     "S61": {
-      "unknown": 21,
+      "unknown": 18,
       "source": 1,
       "metadata": 1,
       "atom": 16,
       "concept": 1,
       "motif": 1,
+      "quote": 3,
       "chronology": 4,
       "song": 2
     },
     "S62": {
       "metadata": 2,
       "atom": 9,
-      "unknown": 16,
+      "unknown": 10,
+      "quote": 6,
       "concept": 2,
       "motif": 1
     },
     "S63": {
       "atom": 11,
-      "unknown": 28,
+      "unknown": 21,
+      "quote": 7,
       "concept": 3,
       "motif": 3,
       "myth": 1
     },
     "S64": {
       "atom": 8,
-      "unknown": 21,
+      "unknown": 16,
+      "quote": 5,
       "concept": 3,
       "motif": 2
     },
@@ -514,7 +519,8 @@
     "S67": {
       "metadata": 4,
       "atom": 9,
-      "unknown": 18,
+      "unknown": 11,
+      "quote": 7,
       "chronology": 4,
       "concept": 3,
       "motif": 2
@@ -606,19 +612,22 @@
     "S80": {
       "metadata": 4,
       "atom": 8,
-      "unknown": 17,
+      "unknown": 10,
+      "quote": 7,
       "chronology": 4
     },
     "S81": {
       "metadata": 4,
       "atom": 9,
-      "unknown": 21,
+      "unknown": 14,
+      "quote": 7,
       "chronology": 7
     },
     "S82": {
       "metadata": 7,
       "atom": 9,
-      "unknown": 23,
+      "unknown": 16,
+      "quote": 7,
       "chronology": 5,
       "concept": 5,
       "motif": 2
@@ -626,7 +635,8 @@
     "S83": {
       "metadata": 4,
       "atom": 12,
-      "unknown": 29,
+      "unknown": 22,
+      "quote": 7,
       "chronology": 5
     },
     "S84": {
@@ -647,22 +657,22 @@
     "S86": {
       "metadata": 7,
       "atom": 11,
-      "unknown": 20,
-      "quote": 6,
+      "unknown": 15,
+      "quote": 11,
       "chronology": 7
     },
     "S87": {
       "metadata": 6,
       "atom": 10,
-      "unknown": 20,
-      "quote": 6,
+      "unknown": 14,
+      "quote": 12,
       "chronology": 8
     },
     "S88": {
       "metadata": 6,
       "atom": 11,
-      "unknown": 26,
-      "quote": 7,
+      "unknown": 16,
+      "quote": 17,
       "chronology": 7
     },
     "S89": {
@@ -849,9 +859,9 @@
   "issue_categories": {
     "field_type_error": 692,
     "invalid_controlled_value": 2630,
-    "missing_required_field": 10099,
+    "missing_required_field": 10401,
     "schema_warning": 492,
-    "unknown_yaml_block": 1508,
+    "unknown_yaml_block": 1410,
     "v2_migration_debt": 15463
   },
   "top_files_by_issue_count": [
@@ -8574,30 +8584,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
       "record_id": "ACT-S61-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -9766,54 +9752,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
-      "record_id": "CIT-S62-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CHRON-S62-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -9839,62 +9777,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s62_introduction_structuring_registers.md",
       "record_id": "RECEPTION-S62-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "record_id": "CIT-S63-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -9982,46 +9864,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "record_id": "CIT-S64-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "record_id": "CIT-S64-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "record_id": "CIT-S64-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "record_id": "CIT-S64-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "record_id": "CIT-S64-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CHRON-S64-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -10079,62 +9921,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s64_european_imaginary_structuring_registers.md",
       "record_id": "LIEU-S64-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s65_literary_influences_specialized_registers.md",
-      "record_id": "CIT-S65-007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -10231,86 +10017,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s65_literary_influences_structuring_registers.md",
       "record_id": "REF-S65-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-008",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-009",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "record_id": "CIT-S66-010",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -10423,62 +10129,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s66_curtis_lyrics_structuring_registers.md",
       "record_id": "REF-S66-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s67_lonely_place_specialized_registers.md",
-      "record_id": "CIT-S67-007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -10782,62 +10432,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
-      "record_id": "CIT-S80-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "ACT-S80-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -10887,62 +10481,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s80_transmission_structuring_registers.md",
       "record_id": "REF-Haslam1999",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "record_id": "CIT-S81-007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -11038,62 +10576,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "record_id": "CIT-S82-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "ACT-S82-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -11151,62 +10633,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s82_space_estrangement_structuring_registers.md",
       "record_id": "REF-S82-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "record_id": "CIT-S83-007",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -11726,46 +11152,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "record_id": "CIT-S86-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s86_breyley_specialized_registers.md",
-      "record_id": "CIT-S86-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s86_breyley_specialized_registers.md",
-      "record_id": "CIT-S86-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s86_breyley_specialized_registers.md",
-      "record_id": "CIT-S86-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s86_breyley_specialized_registers.md",
-      "record_id": "CIT-S86-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "REF-S86-HEGARTY-2015",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -11807,54 +11193,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "REF-S86-FRITH-2003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "record_id": "CIT-S87-006",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -11911,86 +11249,6 @@
       "category": "unknown_yaml_block",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "REF-S87-SAVILLE-2007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-008",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-009",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/s88_cashell_specialized_registers.md",
-      "record_id": "CIT-S88-010",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -13009,38 +12267,6 @@
       "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "record_id": "CIT-S13-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "record_id": "CIT-S13-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "record_id": "CIT-S13-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "record_id": "CIT-S13-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     }
   ],
   "v2_migration": {
@@ -13507,7 +12733,7 @@
         "annee": "2021",
         "records": 28,
         "atoms": 11,
-        "quotes": 0,
+        "quotes": 4,
         "chronology": 0,
         "files": [
           "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md",
@@ -14382,7 +13608,7 @@
         "annee": "2021",
         "records": 47,
         "atoms": 16,
-        "quotes": 0,
+        "quotes": 3,
         "chronology": 4,
         "files": [
           "registers/references/s61_iovane_riccio_trademark_registers.md",
@@ -14400,7 +13626,7 @@
         "annee": "2018",
         "records": 30,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 6,
         "chronology": 0,
         "files": [
           "registers/s62_introduction_specialized_registers.md",
@@ -14417,7 +13643,7 @@
         "annee": "2018",
         "records": 46,
         "atoms": 11,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 0,
         "files": [
           "registers/s63_wilson_faustian_specialized_registers.md",
@@ -14434,7 +13660,7 @@
         "annee": "2018",
         "records": 34,
         "atoms": 8,
-        "quotes": 0,
+        "quotes": 5,
         "chronology": 0,
         "files": [
           "registers/s64_european_imaginary_specialized_registers.md",
@@ -14485,7 +13711,7 @@
         "annee": "2018",
         "records": 40,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 4,
         "files": [
           "registers/s67_lonely_place_specialized_registers.md",
@@ -14817,7 +14043,7 @@
         "annee": "2018",
         "records": 33,
         "atoms": 8,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 4,
         "files": [
           "registers/s80_transmission_specialized_registers.md",
@@ -14834,7 +14060,7 @@
         "annee": "2018",
         "records": 41,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 7,
         "files": [
           "registers/s81_curtis_suicide_specialized_registers.md",
@@ -14851,7 +14077,7 @@
         "annee": "2018",
         "records": 51,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 5,
         "files": [
           "registers/s82_space_estrangement_specialized_registers.md",
@@ -14868,7 +14094,7 @@
         "annee": "2018",
         "records": 50,
         "atoms": 12,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 5,
         "files": [
           "registers/s83_hannett_architecture_specialized_registers.md",
@@ -14918,7 +14144,7 @@
         "annee": "2018",
         "records": 58,
         "atoms": 11,
-        "quotes": 6,
+        "quotes": 11,
         "chronology": 14,
         "files": [
           "registers/organizations/s86_breyley_organizations.md",
@@ -14938,7 +14164,7 @@
         "annee": "2018",
         "records": 58,
         "atoms": 10,
-        "quotes": 6,
+        "quotes": 12,
         "chronology": 16,
         "files": [
           "registers/people/s87_otter_bickerdike_people.md",
@@ -14957,7 +14183,7 @@
         "annee": "2018",
         "records": 64,
         "atoms": 11,
-        "quotes": 7,
+        "quotes": 17,
         "chronology": 14,
         "files": [
           "registers/people/s88_cashell_people.md",
@@ -233249,30 +232475,6 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "record_id": "CIT-S61-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "warning",
-      "category": "unknown_yaml_block",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
       "record_id": "ACT-S61-001",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -239239,51 +238441,147 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s62_introduction_specialized_registers.md",
       "record_id": "CIT-S62-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "record_id": "CIT-S62-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -239319,59 +238617,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
       "record_id": "CIT-S63-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "record_id": "CIT-S63-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -239455,43 +238865,123 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CIT-S64-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CIT-S64-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CIT-S64-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CIT-S64-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
       "record_id": "CIT-S64-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "record_id": "CIT-S64-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -239559,59 +239049,227 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s65_literary_influences_specialized_registers.md",
       "record_id": "CIT-S65-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "record_id": "CIT-S65-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -240095,83 +239753,323 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-006",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-007",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-008",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-008",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-008",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-008",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-009",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-009",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-009",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-009",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
       "record_id": "CIT-S66-010",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: source_id",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-010",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-010",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "record_id": "CIT-S66-010",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -241439,59 +241337,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s67_lonely_place_specialized_registers.md",
       "record_id": "CIT-S67-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "record_id": "CIT-S67-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -243287,59 +243297,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s80_transmission_specialized_registers.md",
       "record_id": "CIT-S80-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "record_id": "CIT-S80-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -243647,59 +243769,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
       "record_id": "CIT-S81-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "record_id": "CIT-S81-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -244015,59 +244249,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
       "record_id": "CIT-S82-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "record_id": "CIT-S82-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -244295,59 +244641,171 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
       "record_id": "CIT-S83-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "record_id": "CIT-S83-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -246455,43 +246913,123 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "CIT-S86-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "CIT-S86-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "CIT-S86-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "CIT-S86-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s86_breyley_specialized_registers.md",
       "record_id": "CIT-S86-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "record_id": "CIT-S86-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -246711,51 +247249,147 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
       "record_id": "CIT-S87-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "record_id": "CIT-S87-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -247007,83 +247641,243 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-005",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-006",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-006",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-006",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-007",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-007",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-007",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-008",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-008",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-008",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-009",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-009",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-009",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/s88_cashell_specialized_registers.md",
       "record_id": "CIT-S88-010",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-010",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "record_id": "CIT-S88-010",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
@@ -262079,35 +262873,99 @@
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
       "record_id": "CIT-S13-001",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
       "record_id": "CIT-S13-002",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
       "record_id": "CIT-S13-003",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
     },
     {
       "level": "warning",
-      "category": "unknown_yaml_block",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
       "record_id": "CIT-S13-004",
-      "message": "Unable to infer documentary kind",
-      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "record_id": "CIT-S13-004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     }
   ]
 }

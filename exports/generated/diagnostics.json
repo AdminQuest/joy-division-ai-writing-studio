@@ -4,11 +4,11 @@
   "summary": {
     "records_total": 8211,
     "records_by_kind": {
-      "unknown": 1508,
+      "unknown": 1410,
       "source": 120,
       "metadata": 274,
       "atom": 2752,
-      "quote": 864,
+      "quote": 962,
       "concept": 463,
       "motif": 427,
       "myth": 102,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 17
     },
-    "diagnostics_total": 30884,
+    "diagnostics_total": 31088,
     "errors": 0,
-    "warnings": 30884,
+    "warnings": 31088,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -489,7 +489,7 @@
         "annee": "2021",
         "records": 28,
         "atoms": 11,
-        "quotes": 0,
+        "quotes": 4,
         "chronology": 0,
         "files": [
           "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md",
@@ -1364,7 +1364,7 @@
         "annee": "2021",
         "records": 47,
         "atoms": 16,
-        "quotes": 0,
+        "quotes": 3,
         "chronology": 4,
         "files": [
           "registers/references/s61_iovane_riccio_trademark_registers.md",
@@ -1382,7 +1382,7 @@
         "annee": "2018",
         "records": 30,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 6,
         "chronology": 0,
         "files": [
           "registers/s62_introduction_specialized_registers.md",
@@ -1399,7 +1399,7 @@
         "annee": "2018",
         "records": 46,
         "atoms": 11,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 0,
         "files": [
           "registers/s63_wilson_faustian_specialized_registers.md",
@@ -1416,7 +1416,7 @@
         "annee": "2018",
         "records": 34,
         "atoms": 8,
-        "quotes": 0,
+        "quotes": 5,
         "chronology": 0,
         "files": [
           "registers/s64_european_imaginary_specialized_registers.md",
@@ -1467,7 +1467,7 @@
         "annee": "2018",
         "records": 40,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 4,
         "files": [
           "registers/s67_lonely_place_specialized_registers.md",
@@ -1799,7 +1799,7 @@
         "annee": "2018",
         "records": 33,
         "atoms": 8,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 4,
         "files": [
           "registers/s80_transmission_specialized_registers.md",
@@ -1816,7 +1816,7 @@
         "annee": "2018",
         "records": 41,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 7,
         "files": [
           "registers/s81_curtis_suicide_specialized_registers.md",
@@ -1833,7 +1833,7 @@
         "annee": "2018",
         "records": 51,
         "atoms": 9,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 5,
         "files": [
           "registers/s82_space_estrangement_specialized_registers.md",
@@ -1850,7 +1850,7 @@
         "annee": "2018",
         "records": 50,
         "atoms": 12,
-        "quotes": 0,
+        "quotes": 7,
         "chronology": 5,
         "files": [
           "registers/s83_hannett_architecture_specialized_registers.md",
@@ -1900,7 +1900,7 @@
         "annee": "2018",
         "records": 58,
         "atoms": 11,
-        "quotes": 6,
+        "quotes": 11,
         "chronology": 14,
         "files": [
           "registers/organizations/s86_breyley_organizations.md",
@@ -1920,7 +1920,7 @@
         "annee": "2018",
         "records": 58,
         "atoms": 10,
-        "quotes": 6,
+        "quotes": 12,
         "chronology": 16,
         "files": [
           "registers/people/s87_otter_bickerdike_people.md",
@@ -1939,7 +1939,7 @@
         "annee": "2018",
         "records": 64,
         "atoms": 11,
-        "quotes": 7,
+        "quotes": 17,
         "chronology": 14,
         "files": [
           "registers/people/s88_cashell_people.md",
@@ -165679,24 +165679,6 @@
       "level": "warning",
       "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
       "message": "Unable to infer documentary kind",
-      "record_id": "CIT-S61-001"
-    },
-    {
-      "level": "warning",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "message": "Unable to infer documentary kind",
-      "record_id": "CIT-S61-002"
-    },
-    {
-      "level": "warning",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "message": "Unable to infer documentary kind",
-      "record_id": "CIT-S61-003"
-    },
-    {
-      "level": "warning",
-      "file": "registers/references/s61_iovane_riccio_trademark_registers.md",
-      "message": "Unable to infer documentary kind",
       "record_id": "ACT-S61-001"
     },
     {
@@ -170172,37 +170154,109 @@
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S62-001"
     },
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S62-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S62-002"
     },
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S62-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S62-003"
     },
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S62-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S62-004"
     },
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S62-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S62-005"
     },
     {
       "level": "warning",
       "file": "registers/s62_introduction_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S62-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S62-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S62-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s62_introduction_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S62-006"
     },
     {
@@ -170232,43 +170286,127 @@
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-001"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-002"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-003"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-006"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-007"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S63-004"
     },
     {
       "level": "warning",
       "file": "registers/s63_wilson_faustian_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S63-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S63-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S63-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s63_wilson_faustian_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S63-005"
     },
     {
@@ -170334,31 +170472,91 @@
     {
       "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S64-001"
     },
     {
       "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S64-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S64-002"
     },
     {
       "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S64-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S64-003"
     },
     {
       "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S64-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S64-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S64-004"
     },
     {
       "level": "warning",
       "file": "registers/s64_european_imaginary_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S64-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S64-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S64-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S64-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s64_european_imaginary_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S64-005"
     },
     {
@@ -170412,43 +170610,169 @@
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-001"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-002"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-003"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-004"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-005"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S65-006"
     },
     {
       "level": "warning",
       "file": "registers/s65_literary_influences_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S65-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "CIT-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S65-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s65_literary_influences_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S65-007"
     },
     {
@@ -170814,61 +171138,241 @@
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-001"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-002"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-003"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-004"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-005"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-006"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-007"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-008"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
       "record_id": "CIT-S66-009"
     },
     {
       "level": "warning",
       "file": "registers/s66_curtis_lyrics_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S66-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: source_id",
+      "record_id": "CIT-S66-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S66-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S66-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s66_curtis_lyrics_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S66-010"
     },
     {
@@ -171822,43 +172326,127 @@
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-001"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-002"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-003"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-004"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-005"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S67-006"
     },
     {
       "level": "warning",
       "file": "registers/s67_lonely_place_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S67-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S67-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S67-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s67_lonely_place_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S67-007"
     },
     {
@@ -173208,43 +173796,127 @@
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-001"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-002"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-003"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-004"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-005"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S80-006"
     },
     {
       "level": "warning",
       "file": "registers/s80_transmission_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S80-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S80-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S80-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s80_transmission_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S80-007"
     },
     {
@@ -173478,43 +174150,127 @@
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-001"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-002"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-003"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-004"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-005"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S81-006"
     },
     {
       "level": "warning",
       "file": "registers/s81_curtis_suicide_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S81-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S81-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s81_curtis_suicide_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S81-007"
     },
     {
@@ -173754,43 +174510,127 @@
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-001"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-002"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-003"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-004"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-005"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S82-006"
     },
     {
       "level": "warning",
       "file": "registers/s82_space_estrangement_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S82-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S82-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S82-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s82_space_estrangement_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S82-007"
     },
     {
@@ -173964,43 +174804,127 @@
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-001"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-002"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-003"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-004"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-005"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S83-006"
     },
     {
       "level": "warning",
       "file": "registers/s83_hannett_architecture_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S83-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S83-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S83-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s83_hannett_architecture_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S83-007"
     },
     {
@@ -175584,31 +176508,91 @@
     {
       "level": "warning",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S86-001"
     },
     {
       "level": "warning",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S86-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S86-002"
     },
     {
       "level": "warning",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S86-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S86-003"
     },
     {
       "level": "warning",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S86-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S86-004"
     },
     {
       "level": "warning",
       "file": "registers/s86_breyley_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S86-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S86-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s86_breyley_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S86-005"
     },
     {
@@ -175776,37 +176760,109 @@
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S87-001"
     },
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S87-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S87-002"
     },
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S87-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S87-003"
     },
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S87-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S87-004"
     },
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S87-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S87-005"
     },
     {
       "level": "warning",
       "file": "registers/s87_otter_bickerdike_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S87-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S87-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S87-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s87_otter_bickerdike_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S87-006"
     },
     {
@@ -175998,61 +177054,181 @@
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-001"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-002"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-003"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-004"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-005"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-006"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-007"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-008"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S88-009"
     },
     {
       "level": "warning",
       "file": "registers/s88_cashell_specialized_registers.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S88-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S88-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S88-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/s88_cashell_specialized_registers.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S88-010"
     },
     {
@@ -187302,25 +188478,73 @@
     {
       "level": "warning",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S13-001"
     },
     {
       "level": "warning",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S13-002"
     },
     {
       "level": "warning",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S13-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S13-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: citation_originale",
       "record_id": "CIT-S13-003"
     },
     {
       "level": "warning",
       "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
-      "message": "Unable to infer documentary kind",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S13-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "CIT-S13-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "CIT-S13-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "CIT-S13-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
+      "message": "Missing required field: statut_verification",
       "record_id": "CIT-S13-004"
     }
   ]

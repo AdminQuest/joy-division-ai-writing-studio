@@ -24,7 +24,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|
 | Atomes | 572 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 69 |
+| Citations | 81 |
 | Événements chronologiques | 47 |
 | Personnes | 53 |
 | Chansons | 33 |

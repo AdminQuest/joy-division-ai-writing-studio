@@ -24,7 +24,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | Atomes | 390 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 45 |
+| Citations | 55 |
 | Événements chronologiques | 17 |
 | Personnes | 29 |
 | Chansons | 34 |
@@ -68,7 +68,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 4 | 2 |
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 70 | 0 |
-| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 5 | 2 |
+| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 5 | 7 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 2 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 4 | 0 |
 

@@ -8,7 +8,7 @@ Statut : **warning**
 
 - Enregistrements : 8211
 - Erreurs : 0
-- Avertissements : 30884
+- Avertissements : 31088
 - Sources déclarées dans `data/registre.json` : 95
 - Sources utilisées dans les enregistrements : 79
 - Sources exportées : 79
@@ -26,14 +26,14 @@ Statut : **warning**
 - motif : 427
 - myth : 102
 - person : 305
-- quote : 864
+- quote : 962
 - quote_batch : 1
 - rules : 1
 - session : 17
 - song : 110
 - source : 120
 - template : 340
-- unknown : 1508
+- unknown : 1410
 
 ## Sources utilisées mais absentes du registre
 
@@ -164,4 +164,4 @@ Aucun.
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: statut
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: fiabilite
 - **WARNING** `sources/allegri_living_in_the_ice_age/source_part_01.md` [S31-A009] : Missing required field: stabilite
-- … 30784 problèmes supplémentaires dans `diagnostics.json`.
+- … 30988 problèmes supplémentaires dans `diagnostics.json`.

@@ -344,7 +344,13 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "song"
     if data.get("type_unite") == "source" or (re.fullmatch(r"S\d+", record_id) and data.get("source_label")):
         return "source"
-    if "-Q" in record_id or "citations_exactes" in file_rel:
+    # Parité avec le loader runtime (dynamic-registers.js : `id.startsWith('CIT-')
+    # || id.includes('-Q')`). Le préfixe CIT- et l'infixe -CIT- (formes
+    # S\d+-CIT-, CIT-S\d+-…) désignent une citation au même titre que -Q. Sans
+    # cela, les conteneurs `citations:` éclatés (étape 8a) produisaient des
+    # records CIT-* classés `unknown` et omis de quotes.json, alors que la page
+    # les affichait — divergence build/loader.
+    if "-Q" in record_id or "-CIT-" in record_id or record_id.startswith("CIT-") or "citations_exactes" in file_rel:
         return "quote"
     if record_id.startswith("S") and "-" in record_id:
         return "atom"

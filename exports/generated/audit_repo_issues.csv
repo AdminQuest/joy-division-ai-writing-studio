@@ -27275,9 +27275,6 @@ warning,unknown_yaml_block,registers/references/s35_morris_record_play_pause_par
 warning,unknown_yaml_block,registers/references/s45_curtis_touching_from_a_distance_source_canonique.md,REG-S45-CURTIS-TOUCHING-FROM-A-DISTANCE-SOURCE-CANONIQUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,REF-S61-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,MYTHE-S61-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,CIT-S61-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,CIT-S61-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,CIT-S61-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,ACT-S61-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,ACT-S61-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s61_iovane_riccio_trademark_registers.md,ACT-S61-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -28024,23 +28021,49 @@ warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S
 warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-ATTALI-1977,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-RAF-SIMONS-INTERZONE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s60_federici_structuring_registers.md,REF-S60-VINCE-STAPLES-2015,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CIT-S62-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s62_introduction_specialized_registers.md,CIT-S62-006,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s62_introduction_specialized_registers.md,CHRON-S62-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s62_introduction_structuring_registers.md,ORG-S62-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s62_introduction_structuring_registers.md,RECEPTION-S62-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s62_introduction_structuring_registers.md,RECEPTION-S62-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s63_wilson_faustian_specialized_registers.md,CIT-S63-005,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CHRON-S63-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CHRON-S63-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,CHRON-S63-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -28051,11 +28074,21 @@ warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.m
 warning,unknown_yaml_block,registers/s63_wilson_faustian_specialized_registers.md,ACT-S63-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s63_wilson_faustian_structuring_registers.md,ORG-S63-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s63_wilson_faustian_structuring_registers.md,ORG-S63-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s64_european_imaginary_specialized_registers.md,CIT-S64-005,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CHRON-S64-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CHRON-S64-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,CHRON-S64-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -28064,13 +28097,34 @@ warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_register
 warning,unknown_yaml_block,registers/s64_european_imaginary_specialized_registers.md,ACT-S64-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s64_european_imaginary_structuring_registers.md,LIEU-S64-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s64_european_imaginary_structuring_registers.md,LIEU-S64-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CIT-S65-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-001,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-002,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-003,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-004,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-005,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-006,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-007,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s65_literary_influences_specialized_registers.md,CIT-S65-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CHRON-S65-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CHRON-S65-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s65_literary_influences_specialized_registers.md,CHRON-S65-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -28131,16 +28185,46 @@ warning,v2_migration_debt,registers/s65_literary_influences_specialized_register
 warning,v2_migration_debt,registers/s65_literary_influences_specialized_registers.md,SONG-S65-003,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,unknown_yaml_block,registers/s65_literary_influences_structuring_registers.md,REF-S65-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s65_literary_influences_structuring_registers.md,REF-S65-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-001,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-002,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-003,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-004,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-005,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-006,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-007,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-008,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-008,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-009,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-009,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-010,Missing required field: source_id,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-010,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s66_curtis_lyrics_specialized_registers.md,CIT-S66-010,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CHRON-S66-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CHRON-S66-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_specialized_registers.md,CHRON-S66-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -28299,13 +28383,27 @@ warning,unknown_yaml_block,registers/s66_curtis_lyrics_structuring_registers.md,
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_structuring_registers.md,REF-S66-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_structuring_registers.md,REF-S66-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s66_curtis_lyrics_structuring_registers.md,REF-S66-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s67_lonely_place_specialized_registers.md,CIT-S67-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CIT-S67-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CHR-S67-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CHR-S67-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s67_lonely_place_specialized_registers.md,CHR-S67-001,Missing required field: sources,Compléter le champ obligatoire.
@@ -28530,13 +28628,27 @@ warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S7
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-SAVAGE-2008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BULL-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s78_nevarez_structuring_registers.md,REF-S78-BOTTA-2009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s80_transmission_specialized_registers.md,CIT-S80-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CIT-S80-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CHR-S80-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CHR-S80-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s80_transmission_specialized_registers.md,CHR-S80-001,Missing required field: sources,Compléter le champ obligatoire.
@@ -28575,13 +28687,27 @@ warning,unknown_yaml_block,registers/s80_transmission_structuring_registers.md,R
 warning,unknown_yaml_block,registers/s80_transmission_structuring_registers.md,REF-Schafer1993,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s80_transmission_structuring_registers.md,REF-Frith1983,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s80_transmission_structuring_registers.md,REF-Haslam1999,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CIT-S81-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CHR-S81-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CHR-S81-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s81_curtis_suicide_specialized_registers.md,CHR-S81-001,Missing required field: sources,Compléter le champ obligatoire.
@@ -28621,13 +28747,27 @@ warning,unknown_yaml_block,registers/s81_curtis_suicide_structuring_registers.md
 warning,unknown_yaml_block,registers/s81_curtis_suicide_structuring_registers.md,REF-Christensen2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s81_curtis_suicide_structuring_registers.md,REF-Spijker2002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s81_curtis_suicide_structuring_registers.md,REF-Patterson1983,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CIT-S82-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CHR-S82-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CHR-S82-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s82_space_estrangement_specialized_registers.md,CHR-S82-001,Missing required field: sources,Compléter le champ obligatoire.
@@ -28656,13 +28796,27 @@ warning,unknown_yaml_block,registers/s82_space_estrangement_structuring_register
 warning,unknown_yaml_block,registers/s82_space_estrangement_structuring_registers.md,REF-S82-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s82_space_estrangement_structuring_registers.md,REF-S82-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s82_space_estrangement_structuring_registers.md,REF-S82-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CIT-S83-007,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CHR-S83-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CHR-S83-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s83_hannett_architecture_specialized_registers.md,CHR-S83-001,Missing required field: sources,Compléter le champ obligatoire.
@@ -28926,11 +29080,21 @@ warning,unknown_yaml_block,registers/s85_malcolm_structuring_registers.md,R-S85-
 warning,unknown_yaml_block,registers/s85_malcolm_structuring_registers.md,R-S85-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s85_malcolm_structuring_registers.md,R-S85-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s85_malcolm_structuring_registers.md,R-S85-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,CIT-S86-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,CIT-S86-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,CIT-S86-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,CIT-S86-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,CIT-S86-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CIT-S86-005,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CHR-S86-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CHR-S86-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s86_breyley_specialized_registers.md,CHR-S86-001,Missing required field: certainty,Compléter le champ obligatoire.
@@ -28958,12 +29122,24 @@ warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,REF-S8
 warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,REF-S86-CASTORIADIS-1975,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,REF-S86-BENJAMIN-1992,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s86_breyley_specialized_registers.md,REF-S86-FRITH-2003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CIT-S87-006,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CHR-S87-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CHR-S87-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s87_otter_bickerdike_specialized_registers.md,CHR-S87-001,Missing required field: certainty,Compléter le champ obligatoire.
@@ -28995,16 +29171,36 @@ warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.
 warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,REF-S87-LACHNO-2014,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,REF-S87-PELLY-2012,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/s87_otter_bickerdike_specialized_registers.md,REF-S87-SAVILLE-2007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-007,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-008,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-009,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/s88_cashell_specialized_registers.md,CIT-S88-010,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-005,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-006,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-006,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-006,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-007,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-007,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-007,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-008,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-008,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-008,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-009,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-009,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-010,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CIT-S88-010,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CHR-S88-001,Missing required field: event,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CHR-S88-001,Missing required field: type,Compléter le champ obligatoire.
 warning,missing_required_field,registers/s88_cashell_specialized_registers.md,CHR-S88-001,Missing required field: certainty,Compléter le champ obligatoire.
@@ -30879,7 +31075,15 @@ warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S
 warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Invalid value for type_unite: film_context,Aligner la valeur avec le schéma contrôlé.
-warning,unknown_yaml_block,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
-warning,unknown_yaml_block,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/specialized/s13_tomeo_interzone_rave_era.md,CIT-S13-004,Missing required field: statut_verification,Compléter le champ obligatoire.

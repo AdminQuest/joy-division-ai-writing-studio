@@ -24,7 +24,7 @@ generated_at: "2026-05-30T22:42:05"
 |---|---|
 | Atomes | 387 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 94 |
+| Citations | 102 |
 | Événements chronologiques | 63 |
 | Personnes | 53 |
 | Chansons | 36 |
@@ -67,7 +67,7 @@ generated_at: "2026-05-30T22:42:05"
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 26 | 0 |
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 4 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
-| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 3 | 2 |
+| S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 3 | 6 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 

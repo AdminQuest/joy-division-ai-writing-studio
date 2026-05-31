@@ -24,7 +24,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | Atomes | 469 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 35 |
+| Citations | 45 |
 | Événements chronologiques | 25 |
 | Personnes | 33 |
 | Chansons | 27 |
@@ -70,8 +70,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 10 | 0 |
 | S80 | S80 — Valdés Miyares, Communication Breakdown / Transmission, 2018 | 3 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 7 | 0 |
-| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 12 | 0 |
+| S83 | S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 | 12 | 6 |
 | S84 | S84 — Cope, Moving Image Record of Joy Division and Factory Video Unit, 2018 | 2 | 0 |
+| S86 | S86 — Breyley, Iranian Musicians and Joy Division, 2018 | 0 | 2 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 3 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
@@ -394,10 +395,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S53-Q011** — S53 — La Rocca, Immagini e simboli nell’incarnazione mitica dei Joy Division, 2021 — statut : `candidate` — «  »
+- **CIT-S65-001** —  — statut : `à vérifier` — «  »
+- **CIT-S65-002** —  — statut : `à vérifier` — «  »
 - **S78-Q001** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q002** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q003** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
 - **S78-Q004** — S78 — Nevarez, How Joy Division Came to Sound Like Manchester, 2013 — statut : `candidate` — «  »
+- **CIT-S83-001** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — «  »
+- **CIT-S83-003** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
+- **CIT-S83-004** — S83 — Greenwood & Tarpey, Manchester, Hannett and Joy Division's Pungent Architecture, 2018 — statut : `verifie` — « True »
 
 ## 8. Chronologie rattachée
 

@@ -172,7 +172,8 @@ crûment : **28 / 70** lignes y sont marquées « **à attribuer** » (cf. §F).
 > compris la pagination nichée dans `statut`), la couverture réelle sur les 565
 > est de **≈ 514 / 565 (≈ 91 %)**, soit **~51 sans page** (ex. `S45-Q008`). Le
 > `source_id` reste, lui, **bien à 100 %**. Chiffres recalculés sur le **corpus
-> complet (864)** en **annexe A** : **844 / 864 (98 %)** paginés, **20 sans page**.
+> complet (962, cf. A.5)** en **annexe A** : **909 / 962 (94 %)** paginés,
+> **53 sans page**.
 
 C'est le **point fort** du corpus citation (à l'inverse des concerts, bloqués par
 les `PLACE-` manquants) : **toute** citation est sourcée, et la **quasi-totalité**
@@ -423,15 +424,22 @@ paraphrase / reference) ?
 > registre.** Tous les chiffres ci-dessous portent sur le **corpus complet et
 > dédoublonné**.
 
-### A.1. Corpus après éclatement
+### A.1. Corpus après éclatement et parité du classifieur
 
-| Mesure | Avant (audit) | Après 8a |
-|---|---:|---:|
-| Records `kind: quote` exposés | 565 | **864** |
-| dont Hook (`S41-Q`) | 9 | **232** |
-| dont Curtis (`S45-Q`) | 56 | **108** |
-| Sources distinctes (`source_id`) | 38 | **45** |
-| `build --strict` | errors 0 | **errors 0** |
+L'étape 8a comporte **deux correctifs d'ingestion** : (1) l'éclatement des
+conteneurs `quotes:`/`citations:` (565 → 864) ; (2) la **parité du classifieur**
+(cf. A.5) : les records `CIT-*` issus de l'éclatement étaient classés `unknown`
+par `infer_kind` (Python) alors que le loader runtime les traite en `quote` —
+98 citations omises de `quotes.json`. Après correctif, **864 → 962**.
+
+| Mesure | Avant (audit) | Après unwrap | **Après parité classifieur** |
+|---|---:|---:|---:|
+| Records `kind: quote` exposés | 565 | 864 | **962** |
+| dont Hook (`S41-Q`) | 9 | 232 | **232** |
+| dont Curtis (`S45-Q`) | 56 | 108 | **108** |
+| dont `CIT-*` (récupérés) | 0 | 0 | **98** |
+| Sources distinctes (`source_id`) | 38 | 45 | **56** |
+| `build --strict` | errors 0 | errors 0 | **errors 0** |
 
 ### A.2. Résolution des 9 collisions `S41-Q001–009` (sans perte ni lien cassé)
 
@@ -470,35 +478,63 @@ résolvent **vers le stub** (ex. `S41-Q001` → « as I remember it »,
 > `S41-Q008`→`S41-Q070`) sont de futurs **`same_as`** stub ↔ registre. Les 5
 > autres entrées du stub (`Q001/Q005/Q006/Q007/Q009`) sont **propres au stub**.
 
-### A.3. Chiffres re-caractérisés (864) vs audit (565)
+### A.3. Chiffres re-caractérisés (corpus final 962) vs audit (565)
 
-| Axe | Audit (565) | **Corpus complet (864)** | Lecture |
+| Axe | Audit (565) | **Corpus final (962)** | Lecture |
 |---|---|---|---|
-| **Attribution** (locuteur/auteur/…) | 290/565 (**51 %**) | **301/864 (35 %)** | **Chute** : les ~290 citations Hook/Curtis ajoutées portent surtout `passage`+`source_id` **sans** champ `auteur`/`locuteur`. Le 51 % était **gonflé** par le corpus partiel. |
+| **Attribution** (locuteur/auteur/…) | 290/565 (**51 %**) | **363/962 (38 %)** | **Chute** : les citations Hook/Curtis ajoutées portent surtout `passage`+`source_id` **sans** champ `auteur`/`locuteur` ; les `CIT-` relèvent un peu la couverture (62/98 attribués). Le 51 % était **gonflé** par le corpus partiel. |
 | dont chaînes « cité par » | 27 | **27** | inchangé (rapporteur ≠ locuteur, toujours à dénormaliser). |
 | Normalisé `PERSON-` | 0 | **0** | arête différée étape 9. |
-| **Provenance** `source_id` | 100 % | **864/864 (100 %)** | point fort confirmé. |
-| **Pagination réelle** (hors `passage`) | ~~100 %~~ → ≈514/565 | **844/864 (98 %)** | §D.1 corrigé ; **20 sans page** : `S45-Q006–014`, `S12-Q001–004`, `S09-Q001`, `S14-Q001`, `S90-Q001–005` — sous-population à sourcer/flagger. |
-| **Date d'énonciation** | 0/565 | **0/864** | inchangé : seule l'année d'édition (`source_year` 864/864). |
-| **Verbatim** présent | 348/565 (61 %) | **696/864 (81 %)** | **Hausse** : le registre Hook est intégralement verbatim (`passage`). Le corpus complet est **plus verbatim** que ne le laissait croire le sous-ensemble. |
-| **Doublons exacts** | 0 cluster | **1 cluster** (2 records) | « he was a catalyst for the rest of us » (`S45-Q052` = `S75-Q016`) — seul doublon verbatim strict ⇒ ratio entrées→identités **≈ 1 : 1** confirmé sur 864. |
-| **Conformité schéma** (tous requis) | 104/565 (18 %) | **78/864 (9 %)** | **Baisse** : les quotes Hook utilisent `passage`/`traduction_de_travail`, pas `citation_originale`/`langue_originale` (143/864 et 265/864). Hétérogénéité de schéma **aggravée** sur le corpus complet. |
+| **Provenance** `source_id` | 100 % | **962/962 (100 %)** | point fort confirmé. |
+| **Pagination réelle** (hors `passage`) | ~~100 %~~ → ≈514/565 | **909/962 (94 %)** | §D.1 corrigé ; **53 sans page** (dont les `S45-Q006–014`, `S12-Q001–004`, `S09/S14/S90` + ~33 `CIT-`) — sous-population à sourcer/flagger. |
+| **Date d'énonciation** | 0/565 | **0/962** | inchangé : seule l'année d'édition (`source_year` 962/962). |
+| **Verbatim** présent | 348/565 (61 %) | **705/962 (73 %)** | Hausse vs audit (registre Hook intégralement verbatim), mais **redescend de 81 % à 73 %** : le sous-corpus `CIT-` est **majoritairement non-verbatim** (9/98 seulement portent un verbatim ; ce sont des « citations » de registres spécialisés inclinant vers paraphrase/concept). |
+| **Doublons exacts** | 0 cluster | **1 cluster** (2 records) | « he was a catalyst for the rest of us » (`S45-Q052` = `S75-Q016`) — seul doublon verbatim strict ⇒ ratio entrées→identités **≈ 1 : 1** confirmé sur 962. |
+| **Conformité schéma** (tous requis) | 104/565 (18 %) | **81/962 (8 %)** | **Baisse** : champs de texte concurrents (`passage`/`traduction_de_travail` vs `citation_originale`/`langue_originale`). Hétérogénéité de schéma **aggravée** sur le corpus complet. |
 
 ### A.4. Effet net sur les tensions de l'audit
 
 - **§C (attribution)** : la tension **s'aggrave** — couverture réelle **35 %**, pas
   51 %. La dénormalisation locuteur/rapporteur/auteur-source est d'autant plus
   nécessaire avant l'arête `PERSON-` (étape 9).
-- **§D.3 (verbatim/paraphrase)** : le corpus est **plus verbatim** (81 %) que
-  mesuré — le périmètre `QUOTE-` verbatim-strict couvrirait donc une part plus
-  large qu'estimé.
-- **§B.4 / §I.6 (schéma)** : la conformité **tombe à 9 %** ; l'homogénéisation
+- **§D.3 (verbatim/paraphrase)** : le corpus est **plus verbatim** (73 %) que
+  l'audit (61 %), mais **moins** que ne le laissait croire le sous-ensemble Hook
+  (81 %) : le sous-corpus `CIT-` est largement **non-verbatim**. La frontière
+  verbatim / paraphrase / concept (périmètre `QUOTE-`) reste centrale.
+- **§B.4 / §I.6 (schéma)** : la conformité **tombe à 8 %** ; l'homogénéisation
   (champ unique de texte/page, statut non-imbriqué) devient un préalable encore
   plus net à toute clé d'identité.
 - **§D.4 (doublons)** : ratio **≈ 1 : 1** confirmé à grande échelle (1 seul
-  doublon verbatim sur 864) — pas de clé mécanique de dédup, `same_as` = jugement
+  doublon verbatim sur 962) — pas de clé mécanique de dédup, `same_as` = jugement
   sémantique.
+
+### A.5. Parité du classifieur — récupération des `CIT-*` (correctif final 8a)
+
+Dernière fuite d'ingestion fermée avant 8b. L'éclatement des conteneurs
+`citations:` (A.1) produit des records à identifiant `CIT-*` (ex.
+`s13_tomeo…` → `CIT-S13-001..004`). Or `infer_kind` (Python, `build_registers.py`)
+ne reconnaissait que `-Q` et le chemin `citations_exactes` : les `CIT-*`
+tombaient en **`unknown`** et étaient **omis de `quotes.json`**, alors que le
+loader runtime (`dynamic-registers.js` : `id.startsWith('CIT-') || id.includes('-Q')`)
+les affichait — **divergence build Python ↔ loader**.
+
+Correctif (parité) : `infer_kind` classe désormais en `quote` les identifiants
+portant `-Q`, le **préfixe `CIT-`** ou l'**infixe `-CIT-`** (ainsi que le chemin
+`citations_exactes`). **L'éclatement n'est pas désactivé** ; seule la
+classification est alignée.
+
+| Mesure | Valeur |
+|---|---:|
+| `CIT-*` récupérés (entrent dans `quotes.json`) | **+98** (→ corpus **962**) |
+| `unknown` total | 1508 → **1410** (−98) |
+| Conventions de citation restant en `unknown` (`S\d+-Q`, `S\d+-CIT-`, `HIST-`, `CIT-`) | **0** |
+| Sources nouvelles apportées par les `CIT-` | S13, S61–S67, S80–S83, S86–S88 |
+
+Caractérisation du sous-corpus `CIT-` (98) : **62** attribués, **65** paginés,
+**9** verbatim — confirmant son inclinaison **paraphrase/concept** (cf. A.3,
+verbatim global 81 % → 73 %). `HIST-` reste classé `quote_batch` (lot non
+atomisé), conforme à l'audit.
 
 **Aucune décision de conception n'est tranchée ici** : 8a se borne à rendre le
 corpus complet visible, dédoublonné et re-caractérisé. La canonicalisation
-`QUOTE-` reste l'objet des sous-étapes suivantes.
+`QUOTE-` (et l'identité source+ordinal actée) reste l'objet de 8b.

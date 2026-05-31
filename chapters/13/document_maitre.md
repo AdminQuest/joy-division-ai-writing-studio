@@ -24,7 +24,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 |---|---|
 | Atomes | 196 |
 | Atomes critiques / majeurs | 60 |
-| Citations | 65 |
+| Citations | 71 |
 | Événements chronologiques | 31 |
 | Personnes | 53 |
 | Chansons | 13 |
@@ -66,7 +66,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S79 | S79 — Curtis, So This Is Permanence, 2014 | 1 | 0 |
 | S82 | S82 — Parmar, Joy Division in Space / Aesthetics of Estrangement, 2018 | 3 | 0 |
 | S85 | S85 — Malcolm, Mining for Counterculture, 2018 | 11 | 6 |
-| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 6 |
+| S87 | S87 — Otter Bickerdike, Posteconomy of Joy Division and Ian Curtis, 2018 | 10 | 12 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
