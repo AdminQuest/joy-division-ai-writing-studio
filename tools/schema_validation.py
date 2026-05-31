@@ -46,7 +46,7 @@ SCHEMA_CONTROLLED_VALUES = {
         }
     },
     'quote': {
-        'type': {'verbatim','non_verbatim'},
+        'type': {'verbatim','paraphrase','concept'},
         'langue_originale': {'en','fr','de','it'}
     },
     'chronology': {

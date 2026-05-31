@@ -21,20 +21,30 @@ required:
 
 recommended:
   - page
+  - auteur_source       # qui a consigné la citation (auteur du livre/article)
+  - locuteur            # qui a énoncé (nom ou « anonyme ») — arête PERSON- = étape 9
+  - rapporteur          # intermédiaire éventuel (« cité par »)
   - citation_originale
   - langue_originale
   - traduction_litterale_fr
   - traduction_editoriale_fr
   - date_publication
   - date_enonciation
-  - locuteur
   - atomes_lies
+
+# Drapeaux de curation 8b-2 (booléens, optionnels) :
+#   attribution_a_arbitrer       conflation d'attribution à trancher
+#   type_a_arbitrer              borderline paraphrase/concept
+#   texte_pointeur               fiche-pointeur (verbatim non transcrit, différé)
+#   migration_concept_register   concept à migrer vers le registre concept (différé)
 
 controlled_values:
 
+  # 8b-1 : verbatim / non_verbatim ; 8b-2 : split non_verbatim → paraphrase / concept.
   type:
     - verbatim
-    - non_verbatim
+    - paraphrase
+    - concept
 
   langue_originale:
     - en

@@ -12,16 +12,19 @@ fin paraphrase/concept relèvent de l'étape 8b-2 et ne sont PAS contrôlés ici
 
 Invariants (sévérité ERROR sauf mention) :
   INV1 — schéma : champs requis du backbone présents (id, kind, source_id,
-         texte, type) ; `type` ∈ {verbatim, non_verbatim}.
+         texte, type) ; `type` ∈ {verbatim, paraphrase, concept}.
   INV2 — convention d'id : ∈ {S\\d+-Q\\d+, S\\d+-CIT-\\d+, CIT-S\\d+-\\d+}.
   INV3 — provenance : `source_id` présent ; `page` présent OU « inconnue »
          (pas de fabrication).
-  INV4 — type : redondant avec INV1 (contrôle explicite de la valeur).
+  INV4 — type : ∈ {verbatim, paraphrase, concept} (curation 8b-2).
   INV5 — same_as : mono-valué (chaîne) ; cible ∈ ids citations existants ;
          pas d'auto-référence ; point fixe (la cible ne porte pas elle-même de
          same_as : ni chaîne ni cycle).
   INV6 — gel EVENT-/CONCERT- : aucun id de citation n'empiète sur les espaces
          EVENT-/CONCERT- ; aucune cible same_as hors du registre citations.
+  INV7 — attribution (8b-2) : `locuteur` présent (nom ou « anonyme ») ;
+         `auteur_source`/`rapporteur` bien formés si présents ; flags de
+         curation booléens. Arête `PERSON-` différée à l'étape 9.
 
 Usage : python3 tools/validate_quotes.py
 """
@@ -86,9 +89,22 @@ def main() -> int:
         if not _has_page(data):
             errors.append(f"INV3 provenance — {loc} : ni page réelle ni « {VALID_PAGE_SENTINEL} »")
 
-        # INV4 — type
-        if data.get("type") not in {"verbatim", "non_verbatim"}:
-            errors.append(f"INV4 type — {loc} : type={data.get('type')!r} ∉ {{verbatim, non_verbatim}}")
+        # INV4 — type (curé 8b-2)
+        if data.get("type") not in {"verbatim", "paraphrase", "concept"}:
+            errors.append(f"INV4 type — {loc} : type={data.get('type')!r} ∉ {{verbatim, paraphrase, concept}}")
+
+        # INV7 — rôles d'attribution bien formés (valeurs texte ; PERSON- = étape 9)
+        locuteur = data.get("locuteur")
+        if not (isinstance(locuteur, str) and locuteur.strip()):
+            errors.append(f"INV7 attribution — {loc} : `locuteur` manquant (attendu un nom ou « anonyme »)")
+        for role in ("auteur_source", "rapporteur"):
+            value = data.get(role)
+            if value is not None and not (isinstance(value, str) and value.strip()):
+                errors.append(f"INV7 attribution — {loc} : `{role}` présent mais vide / non-chaîne")
+        # Flags de curation : booléens uniquement.
+        for flag in ("attribution_a_arbitrer", "type_a_arbitrer", "texte_pointeur", "migration_concept_register"):
+            if flag in data and not isinstance(data[flag], bool):
+                errors.append(f"INV7 attribution — {loc} : flag `{flag}` doit être booléen")
 
         # INV5 — same_as
         same_as = data.get("same_as")
@@ -130,7 +146,7 @@ def main() -> int:
         print("\nPORTE DU REGISTRE CITATIONS : FERMÉE (errors > 0)")
         return 1
     print("\nPORTE DU REGISTRE CITATIONS : OUVERTE (errors = 0)")
-    print("Backbone vérifié : INV1..6 (schéma, id, provenance, type, same_as, gel).")
+    print("Vérifié : INV1..7 (schéma, id, provenance, type, same_as, gel, attribution).")
     return 0
 
 

@@ -420,19 +420,92 @@ def _quote_has_real_page(data: Dict[str, Any]) -> bool:
                 return True
     return False
 
-def normalize_quote_record(data: Dict[str, Any]) -> Dict[str, Any]:
-    """Matérialise le backbone `quote` (id, kind, source_id, texte, type, page).
+# --- 8b-2 : dénormalisation de l'attribution (rôles texte ; arête PERSON- = étape 9) ---
+QUOTE_ATTR_RAW_FIELDS = ("auteur", "source_auteur")
+_QUOTE_CHAIN_RE = re.compile(
+    r"^(?P<x>.+?)\s*[,;(]?\s+(?:cit[ée]e?s?|mobilis[ée]e?s?|repris[e]?|évoqu[ée]e?)\s+"
+    r"(?:par|dans|via)?\s*(?P<y>.+?)\s*$",
+    re.IGNORECASE,
+)
 
-    - kind  : marqueur de type d'unité (`quote`).
-    - texte : 1er champ de texte disponible (verbatim, puis traduction/résumé) ;
-      sentinelle ``"(non transcrit)"`` pour les fiches-pointeur dont le verbatim
-      n'a pas été saisi (texte porté par l'atome lié) — pas de fabrication.
-    - type  : ``verbatim`` si un champ verbatim est présent, sinon
-      ``non_verbatim`` (split paraphrase/concept = 8b-2). Un éventuel ``type``
-      legacy (descripteur de longueur : « citation courte »…) est préservé sous
-      ``type_legacy``.
-    - page  : ``"inconnue"`` si aucun localisateur réel n'existe (pas de
-      fabrication ; provenance = source_id + page|inconnue).
+def _quote_tokens(value: Optional[str]) -> set:
+    return set(re.findall(r"[a-zà-ÿ]{4,}", (value or "").lower()))
+
+def _quote_source_author(source_id: Any) -> Optional[str]:
+    ensure_source_labels_loaded()
+    label = SOURCE_LABELS.get(str(source_id or ""))
+    return label["auteur"] if label else None
+
+def _derive_quote_attribution(data: Dict[str, Any]) -> bool:
+    """Sépare le champ d'attribution conflé en rôles (valeurs texte) :
+    `auteur_source` (qui a consigné), `locuteur` (qui a énoncé), `rapporteur`
+    (intermédiaire « cité par »). N'écrit AUCUNE arête `PERSON-` (étape 9).
+    Renvoie `has_named_speaker` (témoin nommé distinct), qui pilote le split
+    paraphrase/concept. Marque `attribution_a_arbitrer` les conflations ambiguës.
+    """
+    source_author = _quote_source_author(data.get("source_id"))
+    if source_author and not data.get("auteur_source"):
+        data["auteur_source"] = source_author
+    raw = None
+    for field in QUOTE_ATTR_RAW_FIELDS:
+        value = data.get(field)
+        if isinstance(value, str) and value.strip():
+            raw = value.strip()
+            break
+    if raw and not data.get("auteur_origine"):
+        data["auteur_origine"] = raw
+
+    locuteur = None
+    rapporteur = None
+    named = False
+    clean = lambda s: s.strip(" (),; ").strip()
+
+    via = data.get("via")
+    if isinstance(via, str) and via.strip():
+        rapporteur = clean(via)
+
+    if isinstance(data.get("locuteur"), str) and data["locuteur"].strip():
+        locuteur = clean(data["locuteur"]); named = True
+    elif isinstance(data.get("auteur_cite"), str) and data["auteur_cite"].strip():
+        locuteur = clean(data["auteur_cite"]); named = True
+    elif raw:
+        match = _QUOTE_CHAIN_RE.match(raw)
+        if match:
+            locuteur = clean(match.group("x")); named = True
+            rapporteur = rapporteur or clean(match.group("y"))
+        elif _quote_tokens(raw) & _quote_tokens(source_author):
+            # Narration : l'auteur de la source rapporte (pas de témoin distinct).
+            locuteur = source_author or "anonyme"
+        else:
+            locuteur = raw; named = True
+            if re.search(r"\bet\b|;|&|,| dans | du ", raw):
+                data["attribution_a_arbitrer"] = True  # multi-noms / forme ambiguë
+    if locuteur is None:
+        locuteur = "anonyme"
+
+    if not data.get("locuteur"):
+        data["locuteur"] = locuteur
+    if rapporteur and not data.get("rapporteur"):
+        data["rapporteur"] = rapporteur
+    return named
+
+def normalize_quote_record(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Matérialise le backbone `quote` (8b-1) + la curation de jugement (8b-2).
+
+    Backbone (8b-1) : `kind`, `texte` (1er champ dispo ; sentinelle
+    ``"(non transcrit)"`` pour les fiches-pointeur), `page` (``"inconnue"`` si
+    aucun localisateur réel), `source_id` recouvré depuis l'id si absent.
+
+    Curation 8b-2 (valeurs texte, dérivées — pas de réécriture source, pas
+    d'arête `PERSON-`) :
+    - attribution dénormalisée en rôles `auteur_source` / `locuteur` /
+      `rapporteur` (cf. `_derive_quote_attribution`) ;
+    - `type` ∈ {``verbatim``, ``paraphrase``, ``concept``} : verbatim si champ
+      verbatim ; sinon paraphrase si témoin nommé (énoncé attribué reformulé),
+      sinon concept (usage conceptuel) — `concept` est **flaggé**
+      `migration_concept_register` (migration différée, NON déplacé ici) ;
+    - résidus flaggés : `texte_pointeur` (sentinelles, transcription différée),
+      `page == "inconnue"` (sourçage différé).
     """
     if not isinstance(data, dict):
         return data
@@ -447,11 +520,27 @@ def normalize_quote_record(data: Dict[str, Any]) -> Dict[str, Any]:
     if data.get("texte") in (None, "", [], {}):
         texte = verbatim if verbatim is not None else _quote_first_nonempty(data, QUOTE_TEXT_FALLBACK_FIELDS)
         data["texte"] = texte if texte is not None else "(non transcrit)"
-    backbone_type = "verbatim" if verbatim is not None else "non_verbatim"
     legacy_type = data.get("type")
-    if legacy_type not in (None, "", backbone_type, "verbatim", "non_verbatim"):
+    if legacy_type not in (None, "", "verbatim", "non_verbatim", "paraphrase", "concept"):
         data.setdefault("type_legacy", legacy_type)
-    data["type"] = backbone_type
+    # Attribution (8b-2) — détermine le témoin nommé, pilote le split de type.
+    named_speaker = _derive_quote_attribution(data)
+    sentinel = data.get("texte") == "(non transcrit)"
+    if verbatim is not None:
+        data["type"] = "verbatim"
+    elif sentinel:
+        data["texte_pointeur"] = True
+        data["type"] = "verbatim" if named_speaker else "concept"
+    else:
+        data["type"] = "paraphrase" if named_speaker else "concept"
+    if data["type"] == "concept":
+        data["migration_concept_register"] = True
+        # Borderline : énoncé analytique de l'auteur de la source (narration) —
+        # arbitrage paraphrase (énoncé reformulé de l'auteur) vs concept (usage
+        # conceptuel). Les concepts « purs » (note éditoriale, terme, sans
+        # locuteur) ne sont PAS flaggés.
+        if not sentinel and data.get("locuteur") and data.get("locuteur") == data.get("auteur_source"):
+            data["type_a_arbitrer"] = True
     if not _quote_has_real_page(data):
         data["page"] = "inconnue"
     langue = data.get("langue_originale")
