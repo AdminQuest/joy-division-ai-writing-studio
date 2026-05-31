@@ -1,24 +1,24 @@
 # Étape 9 — Audit des acteurs (`PERSON-`) — passe en lecture seule
 
-*Audit produit le 2026-05-31. Lecture seule : aucun registre, atome ou master-doc n'a été modifié. Aucune fusion, aucun renommage, aucune canonicalisation n'est appliqué à ce stade — l'audit inventorie et signale, il ne tranche pas.*
+*Audit produit le 2026-05-31, révisé après la revue Codex de la PR #46. Lecture seule : aucun registre, atome ou master-doc modifié. Aucune fusion, aucun renommage, aucune canonicalisation — l'audit inventorie et signale, il ne tranche pas. Tous les chiffres sont recalculés depuis `exports/generated/people.json` et `quotes.json`.*
 
 ## 0. Méthode et périmètre
 
 Sources balayées :
 
-1. La couche provisoire `PERS-*` matérialisée dans `registers/people/` et agrégée dans `exports/generated/people.json` (préfixes `PERS-0NN`, `PERS-SXX-NNN`, variantes épisodiques `PERS-S45-*` et compléments `PERS-00N-S75`).
+1. La couche provisoire `PERS-*` (`registers/people/`, agrégée dans `exports/generated/people.json`) : préfixes `PERS-0NN`, `PERS-SXX-NNN`, variantes épisodiques `PERS-S45-*`, compléments `PERS-00N-S75`.
 2. Les champs d'attribution dénormalisés des 962 citations (`exports/generated/quotes.json`) : `locuteur`, `auteur_source`, `rapporteur`, `attribution_a_arbitrer`.
-3. Les registres gelés susceptibles de référencer des personnes : chronologie (`CHR-`/`EVENT-`), concerts (`CONCERT-`), lieux (`PLACE-`) — consultés pour recoupement, non modifiés.
+3. Les registres gelés (`CHR-`/`EVENT-`, `CONCERT-`, `PLACE-`) — consultés pour recoupement, non modifiés.
 
-Volumétrie brute : **305** entrées `PERS-*` distinctes (couple id + nom), se rabattant sur **175** chaînes-noms normalisées distinctes ; **962** citations.
+**Règle de typage (rappel, appliquée au §4).** Une entrée part vers `ORG-` **uniquement si son référent est une entité collective ou morale** (groupe, label, promoteur en tant que structure, salle-organisation, fanzine-publication, équipe). Un individu porteur d'un rôle organisationnel (« manager », « organisateur », « patron de label », « auteur de fanzine ») **reste `PERSON-`**. Le rôle ne détermine jamais le typage ; seule la nature du référent compte.
 
-> Convention de statut des grappes : `fusion_evidente` (même personne, identifiants provisoires concurrents) · `a_arbitrer` (doublon non certain, homonymie possible) · `distinct` (personnes différentes à ne pas fusionner).
+Volumétrie : **305** entrées `PERS-*` distinctes (couple id + nom) → **175** chaînes-noms distinctes ; **962** citations. Identité de partition vérifiée : 175 entrées en grappes (≥ 2 id) + 130 entrées à identifiant unique = **305**.
+
+> Statuts de grappe : `fusion_evidente` · `a_arbitrer` · `distinct`.
 
 ## 1. Inventaire brut
 
 ### 1.1. Personnes portant plusieurs identifiants `PERS-*` (candidates `same_as`)
-
-Une même personne reçoit souvent un identifiant par source (registre maître + déclinaisons épisodiques `S45`, biographiques `S75`/`S76`, et lectures critiques `S21`/`S29`/`S31`/`S34`/`S49`–`S60`/`S77`/`S78`/`S84`/`S85`). Le nombre d'occurrences indique le volume de `same_as` à câbler.
 
 | Nom | Occ. | Identifiants `PERS-*` | Sources | Rôle(s) observé(s) |
 |-----|:----:|----------------------|---------|--------------------|
@@ -68,11 +68,9 @@ Une même personne reçoit souvent un identifiant par source (registre maître +
 | Sue Barlow | 2 | PERS-S45-SUE-BARLOW, PERS-S45-SUE-BARLOW-GIRLIES | S45 |  |
 | Tony Nuttall | 2 | PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE, PERS-S76-007 | S45, S76 | ami d'enfance de Ian Curtis; compagnon de speedway et de sociabilité locale |
 
-<sub>🅾 = entité collective (cf. §4.1, à sortir vers `ORG-`) · 📖 = figure littéraire/d'influence (cf. §4.2).</sub>
+<sub>🅾 = au moins un id à sortir vers `ORG-` (§4.1) · 📖 = figure d'influence (§4.2).</sub>
 
 ### 1.2. Personnes à identifiant unique
-
-Chaînes-noms ne portant qu'un seul identifiant, regroupées par source. Non candidates à fusion intra-corpus, mais susceptibles de rejoindre une grappe au recoupement inter-sources ultérieur.
 
 | Source | Personnes (id — nom) |
 |--------|----------------------|
@@ -103,25 +101,25 @@ Chaînes-noms ne portant qu'un seul identifiant, regroupées par source. Non can
 
 ## 2. Grappes de déduplication pressenties
 
-> Note de vérification (consigne) : `PERS-S76-022` est **Tony Wilson** (et non Rob Gretton) ; `PERS-003-S75` est bien **Bernard Sumner**. Aucun identifiant « Bernard Albrecht » n'existe dans la couche actuelle — l'alias de scène n'a pas été internalisé (cf. §3.2).
+> Vérifications : `PERS-S76-022` = **Tony Wilson** (non Gretton) ; `PERS-003-S75` = **Bernard Sumner** ; aucun identifiant « Bernard Albrecht » n'existe (alias non internalisé, cf. §3.2).
 
 ### 2.1. Grappes explicitement demandées (vérifiées sur `people.json`)
 
-| Personne pressentie | Occ. | Identifiants concurrents | Sources | Statut | Observation |
-|---------------------|:----:|--------------------------|---------|:------:|-------------|
-| Rob Gretton | 7 | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | `fusion_evidente` | Manager JD/New Order. Maître + déclinaisons biographiques et critiques convergentes. |
-| Martin Hannett | 9 | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | `fusion_evidente` | Producteur (alias « Martin Zero » sur `PERS-S76-024`). Mêmes rôles partout. |
-| Peter Saville | 7 | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | `fusion_evidente` | Directeur artistique Factory. Aucun homonyme. |
-| Tony Wilson | 12 | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | `fusion_evidente` | Granada / fondateur Factory. Inclut `PERS-S76-022` (corrigé). |
-| Kevin Cummins | 6 | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | `fusion_evidente` | Photographe. Six identifiants concordants. |
-| Jean-Pierre Turmel | 2 | PERS-S75-036, PERS-S76-066 | S75, S76 | `fusion_evidente` | Sordide Sentimental. Deux identifiants. |
-| John Anderson | 4 | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | `a_arbitrer` | Grapevine Records / projet RCA-Northern Soul. Nom courant : doublon épisodique S75/S76 très probable, mais homonymie non écartée — ne pas fusionner sans contrôle. |
-| Terry Mason | 3 | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | `fusion_evidente` | Cercle initial Warsaw. Identifiants S45/S76 concordants. |
-| Bernard Sumner | 6 | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | `fusion_evidente` | Guitariste. `PERS-003` + complément `PERS-003-S75` + déclinaisons critiques. Alias de scène « Bernard Albrecht / Bernard Dicken » ABSENT de la couche — à ajouter en `alt_names` (§3.2). |
+| Personne | Occ. | Identifiants | Sources | Statut | Observation |
+|----------|:----:|--------------|---------|:------:|-------------|
+| Rob Gretton | 7 | PERS-006, PERS-S31-007, PERS-S45-ROB-GRETTON-GARDIEN, PERS-S58-005, PERS-S75-030, PERS-S76-027, PERS-S76-037 | S31, S45, S58, S75, S76 | `fusion_evidente` | Manager JD/New Order. |
+| Martin Hannett | 9 | PERS-008, PERS-S31-004, PERS-S34-011, PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES, PERS-S58-006, PERS-S59-005, PERS-S76-024, PERS-S76-069, PERS-S76-072 | S31, S34, S45, S58, S59, S76 | `fusion_evidente` | Producteur (alias « Martin Zero » sur `PERS-S76-024`). |
+| Peter Saville | 7 | PERS-009, PERS-S31-008, PERS-S53-004, PERS-S59-004, PERS-S60-002, PERS-S75-029, PERS-S76-049 | S31, S53, S59, S60, S75, S76 | `fusion_evidente` | Directeur artistique Factory. |
+| Tony Wilson | 12 | PERS-007, PERS-S21-006, PERS-S31-005, PERS-S34-004, PERS-S45-TONY-WILSON-GRANADA, PERS-S52-011, PERS-S53-006, PERS-S58-004, PERS-S76-022, PERS-S76-050, PERS-S76-073, PERS-S78-005 | S21, S31, S34, S45, S52, S53, S58, S76, S78 | `fusion_evidente` | Granada / fondateur Factory ; inclut `PERS-S76-022`. |
+| Kevin Cummins | 6 | PERS-S53-003, PERS-S75-023, PERS-S76-012, PERS-S76-023, PERS-S76-056, PERS-S78-006 | S53, S75, S76, S78 | `fusion_evidente` | Photographe. |
+| Jean-Pierre Turmel | 2 | PERS-S75-036, PERS-S76-066 | S75, S76 | `fusion_evidente` | Sordide Sentimental. |
+| John Anderson | 4 | PERS-S45-JOHN-ANDERSON, PERS-S75-019, PERS-S76-034, PERS-S76-044 | S45, S75, S76 | `a_arbitrer` | Grapevine / RCA-Northern Soul ; nom courant, homonymie non écartée. |
+| Terry Mason | 3 | PERS-S45-TERRY-MASON, PERS-S76-016, PERS-S76-074 | S45, S76 | `fusion_evidente` | Cercle initial Warsaw. |
+| Bernard Sumner | 6 | PERS-003, PERS-003-S75, PERS-S45-BERNARD-SUMNER-TABLETS, PERS-S52-006, PERS-S55-004, PERS-S58-003 | S45, S52, S55, S58, S75 | `fusion_evidente` | Guitariste ; alias « Bernard Albrecht » à ajouter en `alt_names` (§3.2). |
 
 ### 2.2. Autres grappes multi-identifiants (≥ 2 id) détectées automatiquement
 
-Mêmes mécanismes de déduplication. Statut pressenti par défaut `fusion_evidente` (personne publique identifiable, nom non ambigu) ; les entités collectives et figures littéraires sont **exclues** de ce tableau (→ §4). Tout nom générique reste `a_arbitrer` à la canonicalisation.
+Statut par défaut `fusion_evidente` (personne identifiable, nom non ambigu). Entités collectives et figures d'influence **exclues** (→ §4). « Steve Morris » (`PERS-S76-021`) est réintégré ici comme variante `a_arbitrer` de « Stephen Morris ».
 
 | Personne | Occ. | Identifiants | Sources | Statut |
 |----------|:----:|--------------|---------|:------:|
@@ -165,62 +163,93 @@ Mêmes mécanismes de déduplication. Statut pressenti par défaut `fusion_evide
 
 ### 3.1. « Kevin Curtis » vs Ian Kevin Curtis
 
-- **`PERS-S76-003` « Kevin Curtis »** (source S76) — rôle déclaré : *père de Ian Curtis; policier ferroviaire; ancien marin blessé pendant la guerre*.
+- **`PERS-S76-003` « Kevin Curtis »** (source S76) — rôle : *père de Ian Curtis; policier ferroviaire; ancien marin blessé pendant la guerre*.
 - **`PERS-001` Ian Curtis** — nom complet *Ian Kevin Curtis*.
 
-Le registre `S76` décrit `PERS-S76-003` comme le **père de Ian Curtis**. Mais la chaîne « Kevin Curtis » coïncide avec le deuxième prénom de Ian (**Ian Kevin Curtis**), ce qui crée un risque d'homonymie / de mauvaise segmentation. Deux lectures possibles : (a) parent réel homonyme ; (b) artefact d'atomisation. **Statut : `distinct` provisoire — documenté, non tranché.** Ne pas rabattre sur `PERS-001` ; revérifier la source S76 (*Torn Apart*) avant toute décision.
+Le registre S76 décrit `PERS-S76-003` comme le **père de Ian Curtis** ; mais la chaîne coïncide avec le deuxième prénom de Ian (**Ian Kevin Curtis**). Deux lectures : (a) parent réel homonyme ; (b) artefact de segmentation. **Statut : `distinct` provisoire — documenté, non tranché.** Revérifier S76 (*Torn Apart*) avant décision.
 
-### 3.2. Variantes orthographiques déjà internalisées — confirmer le périmètre `same_as`
+### 3.2. Variantes orthographiques — confirmer le périmètre `same_as`
 
 | Variante | Identifiant(s) | Périmètre `same_as` à confirmer |
 |----------|----------------|---------------------------------|
-| T.J. Davidson | PERS-S75-025 | « Tony Davidson » / « T. J. Davidson » — même personne (studio TJM / TJM Records). `PERS-S75-025` + `PERS-S76-051` = paire `same_as` à câbler. |
-| Tony Davidson / T. J. Davidson | PERS-S76-051 | « Tony Davidson » / « T. J. Davidson » — même personne (studio TJM / TJM Records). `PERS-S75-025` + `PERS-S76-051` = paire `same_as` à câbler. |
-| Eddie Garrity / Ed Banger | PERS-S76-040 | « Eddie Garrity » / « Ed Banger » (Ed Banger & the Nosebleeds) — variantes déjà fusionnées dans un seul identifiant ; conserver les deux formes en `alt_names`. |
+| T.J. Davidson | PERS-S75-025 | « Tony Davidson » / « T. J. Davidson » (studio/label TJM) — `PERS-S75-025` + `PERS-S76-051` = paire `same_as`. |
+| Tony Davidson / T. J. Davidson | PERS-S76-051 | « Tony Davidson » / « T. J. Davidson » (studio/label TJM) — `PERS-S75-025` + `PERS-S76-051` = paire `same_as`. |
+| Eddie Garrity / Ed Banger | PERS-S76-040 | « Eddie Garrity » / « Ed Banger » (Ed Banger & the Nosebleeds) — deux formes déjà dans un seul id ; conserver en `alt_names`. |
 
-Le cas **Bernard Sumner** appartient aussi à cette catégorie : l'alias de scène « Bernard Albrecht » (parfois « Bernard Dicken ») n'apparaît dans **aucune** entrée `PERS-*`. Recommandation : l'enregistrer en `alt_names` du futur `PERSON-` Sumner, sans créer d'identifiant concurrent.
+**Bernard Sumner** : l'alias de scène « Bernard Albrecht » (var. « Bernard Dicken ») n'apparaît dans **aucune** entrée `PERS-*` ; à enregistrer en `alt_names` du futur `PERSON-` Sumner, sans créer d'identifiant concurrent.
 
 ## 4. Erreurs de typage — à renvoyer vers l'étape 10
 
-Entrées présentes dans la couche `PERS-*` qui **ne sont pas des personnes**. Flaggées ici, à extraire des grappes `PERSON-` ; aucune réaffectation appliquée.
+### 4.1. Entités collectives → candidats `ORG-`
 
-### 4.1. Entités collectives / groupes → candidats `ORG-`
+Typage **par nature du référent**, ligne par ligne (et non par rôle). Seules les entités collectives subsistent ici.
+
+| Identifiant | Chaîne | Source | Nature du référent | Justification | Renvoi |
+|-------------|--------|--------|--------------------|---------------|--------|
+| PERS-016 | Bedhead |  | collectif | groupe musical (réception différée : Codeine, Bedhead, Interpol) | `ORG-` |
+| PERS-S76-052 | Oz PA / Eddy et Oz | S76 | collectif_mixte | équipe de sonorisation « Oz PA » (entité) ; « Eddy » et « Oz » sont des individus à éclater en PERSON- distincts | `ORG-` (+ split PERSON-) |
+| PERS-S76-068 | Buzzcocks | S76 | collectif | groupe musical (Buzzcocks) | `ORG-` |
+| PERS-S76-071 | Minny Pops | S76 | collectif | groupe musical néerlandais (Minny Pops) | `ORG-` |
+| PERS-S76-082 | Perry Boys | S76 | collectif | sous-culture juvénile mancunienne (Perry Boys) — pas un groupe ; → ORG-/concept de scène | `ORG-` |
+
+**Réconciliation 13 vs 14 → 5.** La version initiale de la PR utilisait un filtre fondé sur le *rôle* (« manager », « fanzine », « groupe » dans la description), produisant 30 lignes brutes / 13–14 référents et de nombreux faux positifs. Après application de la règle « nature du référent », il reste **5 entités collectives**. Le chiffre juste est ce décompte après retrait des faux positifs ; il est désormais identique dans le tableau §7 et la recommandation §7.3.
+
+**Cas signalés par Codex — individus reclassés `PERSON-` (réintégrés, non fusionnés) :**
+
+| Identifiant | Chaîne | Pourquoi PERSON- | Réintégration | Statut |
+|-------------|--------|------------------|---------------|:------:|
+| PERS-S31-005 | Tony Wilson | fondateur Factory — individu | grappe Tony Wilson (§2.1) | `fusion_evidente` |
+| PERS-S31-007 | Rob Gretton | manager — individu | grappe Rob Gretton (§2.1) | `fusion_evidente` |
+| PERS-S34-011 | Martin Hannett | producteur — individu | grappe Martin Hannett (§2.1) | `fusion_evidente` |
+| PERS-S75-024 | Alan Erasmus | cofondateur Factory — individu | grappe Alan Erasmus (§2.2) | `fusion_evidente` |
+| PERS-S75-025 | T.J. Davidson | propriétaire de studio — individu | variante Davidson (§3.2) | `a_arbitrer` |
+| PERS-S76-011 | Mark Reeder | disquaire / ami — individu | grappe Mark Reeder (§2.2) | `fusion_evidente` |
+| PERS-S76-018 | Steve Burke / Steve Shy | fanzine Shy Talk — individu | entrée unique (§1.2) | `distinct` |
+| PERS-S76-021 | Steve Morris | batteur de JD — individu ; variante de « Stephen Morris » | grappe Stephen Morris | `a_arbitrer` |
+| PERS-S76-027 | Rob Gretton | fanzine Manchester Rains — individu | grappe Rob Gretton (§2.1) | `fusion_evidente` |
+| PERS-S76-040 | Eddie Garrity / Ed Banger | chanteur — individu | variante Garrity (§3.2) | `a_arbitrer` |
+| PERS-S76-042 | Jeremy Kerr | membre d'A Certain Ratio — individu | entrée unique (§1.2) | `distinct` |
+| PERS-S76-045 | Alan Erasmus | cofondateur Factory — individu | grappe Alan Erasmus (§2.2) | `fusion_evidente` |
+| PERS-S76-048 | Roger Eagle | DJ / promoteur — individu | entrée unique (§1.2) | `distinct` |
+| PERS-S76-051 | Tony Davidson / T. J. Davidson | entrepreneur — individu | variante Davidson (§3.2) | `a_arbitrer` |
+| PERS-S76-064 | Dave Pils et Jasmine | deux individus (hébergement londonien) | à éclater en PERSON- distincts | `a_arbitrer` |
+| PERS-S77-002 | Mark Perry / Mark P | fondateur de Sniffin' Glue — individu | entrée unique (§1.2) | `distinct` |
+| PERS-S77-004 | Tony Drayton / Tony D / Tony Puppy | éditeur de fanzine — individu | entrée unique (§1.2) | `distinct` |
+| PERS-S78-005 | Tony Wilson | fondateur Factory — individu | grappe Tony Wilson (§2.1) | `fusion_evidente` |
+| PERS-S85-004 | David Haslam | DJ / auteur fanzine Debris — individu | entrée unique (§1.2) | `distinct` |
+
+Cas particuliers : **« Oz PA / Eddy et Oz » (`PERS-S76-052`)** mêle une entité (Oz PA, équipe de sono → `ORG-`) et deux individus (Eddy, Oz → `PERSON-`) : à éclater. **« Perry Boys » (`PERS-S76-082`)** est une **sous-culture** juvénile, pas un groupe musical : renvoi `ORG-`/concept de scène, jamais `PERSON-`. **« Dave Pils et Jasmine » (`PERS-S76-064`)** sont deux individus (et non une entité) : restent `PERSON-`, à scinder, `a_arbitrer`.
+
+### 4.2. Figures d'influence (littéraires / philosophiques) → registre concept ou influence
+
+Détection **par nom** (patronymes d'auteurs externes), ce qui exclut automatiquement Ian Curtis et les acteurs du corpus. Ce ne sont pas des acteurs de Joy Division mais des **influences citées**.
 
 | Identifiant | Chaîne | Source | Description | Renvoi |
 |-------------|--------|--------|-------------|--------|
-| PERS-016 | Bedhead |  | groupe; héritier critique | `ORG-` |
-| PERS-S76-052 | Oz PA / Eddy et Oz | S76 | équipe de sonorisation liée aux concerts de Joy Division; acteurs techniques de tournée | `ORG-` |
-| PERS-S76-068 | Buzzcocks | S76 | groupe mancunien tête d’affiche; support institutionnel indirect de la montée live de Joy  | `ORG-` |
-| PERS-S76-071 | Minny Pops | S76 | groupe néerlandais associé à l’Effenaar / Factory Benelux; contexte de la scène européenne | `ORG-` |
-| PERS-S76-082 | Perry Boys | S76 | groupe de jeunes / skinheads locaux associés aux violences de Bury selon S76 | `ORG-` |
-
-Détection par **nom** (et non par rôle, pour éviter les faux positifs : de nombreux acteurs réels portent des rôles « manager », « fanzine », « organisateur »). `PERS-S76-052` « Oz PA / Eddy et Oz » est une équipe de sonorisation : à éclater en `ORG-` (Oz PA) plus, éventuellement, des `PERSON-` pour Eddy et Oz si avérés.
-
-### 4.2. Figures littéraires / d'influence → registre concept ou influence (statut à arbitrer)
-
-| Identifiant | Chaîne | Source | Description | Renvoi |
-|-------------|--------|--------|-------------|--------|
-| PERS-S29-012 | Nikolai Gogol | S29 | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas | influence — à arbitrer |
 | PERS-S53-010 | Friedrich Nietzsche | S53 | Référence philosophique sur musique, puissance et tragique, mobilisée par La Rocca. | influence — à arbitrer |
-| PERS-S54-003 | William S. Burroughs | S54 | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentat | influence — à arbitrer |
 | PERS-S54-004 | J. G. Ballard | S54 | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et | influence — à arbitrer |
-| PERS-S56-004 | William S. Burroughs | S56 | Auteur admiré par Curtis ; figure de l’anecdote du Plan K. | influence — à arbitrer |
 | PERS-S75-031 | Marcel Proust | S75 | écrivain; référence possible pour le titre Unknown Pleasures | influence — à arbitrer |
+| PERS-S29-012 | Nikolai Gogol | S29 | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas | influence — à arbitrer |
+| PERS-S77-009 | Penny Rimbaud | S77 | Membre de Crass, associé à l’International Anthem et à la formulation d’un anarcho-punk ar | influence — à arbitrer |
+| PERS-S54-003 | William S. Burroughs | S54 | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentat | influence — à arbitrer |
+| PERS-S56-004 | William S. Burroughs | S56 | Auteur admiré par Curtis ; figure de l’anecdote du Plan K. | influence — à arbitrer |
 | PERS-S75-033 | William S. Burroughs | S75 | écrivain; figure d'admiration pour Ian Curtis | influence — à arbitrer |
 
-Ce sont des **influences littéraires / philosophiques citées** (Gogol, Proust, Burroughs, Nietzsche, Ballard), pas des acteurs du corpus Joy Division. Elles ne doivent pas entrer dans les grappes `PERSON-` d'acteurs. À arbitrer à l'étape 10 : registre `INFLUENCE-`/concept, ou `PERSON-` de type *influence_citée* explicitement distinct. **À noter :** William S. Burroughs porte trois identifiants (`PERS-S54-003`, `PERS-S56-004`, `PERS-S75-033`) — doublon interne à résorber quel que soit le registre cible.
+Décompte recalculé : **6 figures distinctes** pour **8 identifiants**. Doublons internes à résorber : **William S. Burroughs** (3 ids : PERS-S54-003, PERS-S56-004, PERS-S75-033). Renvoi à l'étape 10 : registre `INFLUENCE-`/concept, ou `PERSON-` de type *influence_citée* explicitement distinct des acteurs. Ian Curtis lu « comme écrivain » (`PERS-S54-002`, `PERS-S56-002`) **n'est pas** une influence externe : ces entrées restent dans la grappe Ian Curtis (§1–§2).
 
 ## 5. Locuteurs « anonyme » (607)
 
-Sur 962 citations : **355** ont un locuteur nommé et **607** sont « anonyme » / locuteur vide. Partition des 607 :
+Sur 962 citations : **355** locuteur nommé, **607** « anonyme » / vide. Partition (confirmée sur `quotes.json`) :
 
 | Sous-ensemble | Définition | Volume |
 |---------------|------------|:------:|
-| (a) Narration d'auteur | locuteur « anonyme » **mais** `auteur_source` renseigné — le locuteur réel est l'auteur de la source, à relier à un `PERSON-` auteur | **607** |
-| (b) Locuteur réellement inconnu | « anonyme » **sans** `auteur_source` exploitable — reste non rattaché | **0** |
+| (a) Narration d'auteur | « anonyme » **mais** `auteur_source` renseigné — locuteur réel = auteur de la source, à relier à un `PERSON-` auteur | **607** |
+| (b) Locuteur réellement inconnu | « anonyme » **sans** `auteur_source` | **0** |
 | **Total** | | **607** |
 
-### 5.1. Cas (a) — narration d'auteur, ventilation par `auteur_source`
+La totalité des 607 citations « anonyme » relève du cas (a) : **aucune** n'est dépourvue d'`auteur_source`. Il n'existe donc **aucun locuteur réellement inconnu** à laisser non rattaché.
+
+### 5.1. Cas (a) — ventilation par `auteur_source`
 
 | `auteur_source` (→ futur `PERSON-` auteur) | Nb de citations |
 |--------------------------------------------|:---------------:|
@@ -331,55 +360,51 @@ S78-Q012, S78-Q013, S78-Q014, S89-Q001, S89-Q002, S89-Q003, S89-Q004, S89-Q005, 
 S89-Q008, S89-Q009, S89-Q010, S89-Q011, S89-Q012, S89-Q013, S89-Q014
 ```
 
-Le cas (b) — **0** citations — reste volontairement non rattaché à ce stade.
-
 ## 6. Résidus à récurer — les 9 `attribution_a_arbitrer`
-
-Un cas par ligne, avec hypothèse de résolution **proposée mais non appliquée**.
 
 | Citation | Source | `locuteur` | `auteur_source` | `rapporteur` | Hypothèse de résolution |
 |----------|--------|-----------|-----------------|--------------|-------------------------|
-| S76-Q020 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q079 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q116 | S76 | Ian Curtis | Mick Middles ; Lindsay Reade | entretien McCullough | Citation rapportée : locuteur = « Ian Curtis », transmise par Mick Middles ; Lindsay Reade via entretien McCullough. Conserver locuteur, marquer la transmission. |
-| S76-Q131 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q163 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q169 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q181 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q189 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
-| S76-Q190 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration / paraphrase d'auteur : rattacher le locuteur à `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en cas 5a si non verbatim. |
+| S76-Q020 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q079 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q116 | S76 | Ian Curtis | Mick Middles ; Lindsay Reade | entretien McCullough | Citation rapportée : locuteur « Ian Curtis » transmis par Mick Middles ; Lindsay Reade via entretien McCullough. |
+| S76-Q131 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q163 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q169 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q181 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q189 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
+| S76-Q190 | S76 | anonyme | Mick Middles ; Lindsay Reade | — | Narration d'auteur : rattacher au `auteur_source` (Mick Middles ; Lindsay Reade) ; verser en 5a. |
 
-Les neuf cas relèvent tous de la biographie *Torn Apart* (Middles & Reade, S76) : huit sont des passages narratifs où le locuteur réel est le binôme d'auteurs ; un (`S76-Q116`) est une parole de Ian Curtis transmise via un entretien McCullough, donc une citation rapportée à deux niveaux.
+Les neuf cas relèvent de *Torn Apart* (Middles & Reade, S76) : huit sont des passages narratifs (locuteur = binôme d'auteurs) ; `S76-Q116` est une parole de Ian Curtis transmise via un entretien McCullough (citation rapportée à deux niveaux).
 
 ## 7. Synthèse chiffrée et recommandations
 
 | Indicateur | Valeur |
 |------------|:------:|
-| Entrées `PERS-*` distinctes en entrée | 305 |
+| Entrées `PERS-*` distinctes | 305 |
 | Chaînes-noms distinctes | 175 |
 | Grappes multi-identifiants (≥ 2 id) | 45 |
 | Liens `same_as` à câbler | 130 |
-| Entrées à identifiant unique | 130 |
+| Entrées en grappes / à identifiant unique | 175 / 130 |
 | Entités collectives → `ORG-` | 5 entrées / 5 noms |
-| Figures littéraires → influence/concept | 7 entrées / 5 noms |
-| **Personnes canoniques `PERSON-` pressenties** (noms − typage) | **≈ 165** |
+| Figures d'influence → influence/concept | 8 entrées / 6 noms |
+| **Personnes canoniques `PERSON-` pressenties** (175 noms − 5 ORG − 6 influences) | **≈ 164** |
 | Citations narration d'auteur (5a) | 607 |
 | Citations locuteur inconnu (5b) | 0 |
 | Citations `attribution_a_arbitrer` | 9 |
 
-### Recommandations pour l'étape de canonicalisation (non exécutées ici)
+### Recommandations (non exécutées ici)
 
-1. Câbler les `same_as` des grappes `fusion_evidente` (§2.1–§2.2) vers un `PERSON-` unique par personne ; conserver les formes secondaires en `alt_names`.
-2. Traiter `John Anderson` et tout nom générique en `a_arbitrer` : contrôle source avant fusion.
-3. Sortir les 5 entités collectives (§4.1) vers un registre `ORG-` et les 5 figures littéraires (§4.2) vers un registre influence/concept ; résorber le triplet Burroughs.
-4. Maintenir `Kevin Curtis` (`PERS-S76-003`) **distinct** de `PERS-001` jusqu'à revérification de S76.
-5. Ajouter l'alias « Bernard Albrecht » au futur `PERSON-` Sumner ; confirmer les paires Davidson et Garrity.
-6. Relier les 607 citations de narration d'auteur (§5) aux `PERSON-` auteurs une fois ceux-ci canonisés ; laisser les 0 locuteurs inconnus non rattachés.
+1. Câbler les `same_as` des grappes `fusion_evidente` (§2) vers un `PERSON-` unique ; formes secondaires en `alt_names`.
+2. Traiter `John Anderson`, « Steve Morris » et tout nom générique en `a_arbitrer` : contrôle source avant fusion.
+3. Sortir les **5** entités collectives (§4.1) vers `ORG-` et les **6** figures d'influence (§4.2) vers un registre influence/concept ; résorber les doublons internes (Burroughs).
+4. Maintenir `Kevin Curtis` (`PERS-S76-003`) **distinct** de `PERS-001`.
+5. Ajouter l'alias « Bernard Albrecht » au futur `PERSON-` Sumner ; confirmer les paires Davidson et Garrity ; éclater « Oz PA / Eddy et Oz » et « Dave Pils et Jasmine ».
+6. Relier les **607** citations de narration d'auteur (§5) aux `PERSON-` auteurs une fois canonisés ; **aucun** locuteur réellement inconnu n'est à laisser non rattaché (cas 5b = 0).
 7. Résoudre les 9 `attribution_a_arbitrer` selon les hypothèses du §6.
 
 ---
 
 ## 8. Lien de la PR
 
-Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46)** (branche `claude/etape9-audit-personnes-13y69` → `main`). Revue automatique `@codex review` déclenchée à l'ouverture.
+Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/46)** (branche `claude/etape9-audit-personnes-13y69` → `main`).
 
