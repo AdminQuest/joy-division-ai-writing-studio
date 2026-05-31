@@ -54,7 +54,7 @@ chronology:
 
   - id: CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
     same_as: EVENT-CRISE-RAINBOW-THEATRE
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41

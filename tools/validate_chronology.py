@@ -17,7 +17,7 @@ Invariants (cf. cahier des charges étape 6) :
   4. Honnêteté de date_precision : précision déclarée <= granularité réelle de
      la date (jour => AAAA-MM-JJ complet ; annee => pas de faux mois/jour) ;
      cohérence précision vs intervalle.
-  5. Catégorie : EVENT- canoniques en `jalon` ; `a_scinder_etape_10` =>
+  5. Catégorie : EVENT- canoniques en `jalon` ; `a_scinder_concert` =>
      `concert_a_migrer` ou flaggé ; `contexte`/`reception_posthume` sans
      canonique (pas de same_as).
 """
@@ -236,8 +236,8 @@ def validate():
     for r in records:
         rid = str(r["id"])
         cat = str(r.get("categorie") or "")
-        if r.get("a_scinder_etape_10") and cat not in ("concert_a_migrer", "jalon"):
-            diags.append(Diag("warning", "INV5-scinder", rid, f"a_scinder_etape_10 mais categorie={cat}"))
+        if r.get("a_scinder_concert") and cat not in ("concert_a_migrer", "jalon"):
+            diags.append(Diag("warning", "INV5-scinder", rid, f"a_scinder_concert mais categorie={cat}"))
         if cat in ("contexte", "reception_posthume") and r.get("same_as"):
             diags.append(Diag("error", "INV5-cat-canon", rid, f"{cat} ne doit pas porter de same_as vers un EVENT-"))
 

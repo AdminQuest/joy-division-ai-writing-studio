@@ -66,7 +66,7 @@ statut: datation mensuelle donnée par S45
 ```yaml
 id: CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT
 same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
-a_scinder_etape_10: true
+a_scinder_concert: true
 date_precision: jour
 categorie: jalon
 source_id: S45

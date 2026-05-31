@@ -327,7 +327,7 @@ notes: >
 ```yaml
 id: CHR-S75-1980-005
 same_as: EVENT-CRISE-RAINBOW-THEATRE
-a_scinder_etape_10: true
+a_scinder_concert: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology

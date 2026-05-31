@@ -3,7 +3,7 @@
 > Extension **additive** du registre des lieux (`PLACE-`), préalable à la
 > réconciliation des concerts (étape 7b). Source des lieux :
 > `docs/audits/audit_unitaire_concerts_12b-4.md` (PR #33) — venues des 88
-> `concert_a_migrer` + composantes gig des 11 `a_scinder_etape_10`.
+> `concert_a_migrer` + composantes gig des 11 `a_scinder_concert`.
 > Doctrine : identité **source-agnostique** `PLACE-<SLUG>` (NAMING §10,
 > `docs/conventions/identifiants_lieux.md`). **Coordonnées DIFFÉRÉES** —
 > identité sans lat/lng, géolocalisation par curation manuelle uniquement

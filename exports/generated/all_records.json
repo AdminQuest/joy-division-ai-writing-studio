@@ -181293,7 +181293,7 @@
         "CHR-S76-1978-019",
         "CHR-S10-1978-007"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 27/12/1978 ; la composante concert (premier concert londonien) reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -181317,7 +181317,7 @@
         "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE",
         "CHR-S76-1979-019"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 13/08/1979 ; la composante concert reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -181340,7 +181340,7 @@
         "CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
         "CHR-S75-1980-005"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 04/04/1980 ; la composante concert reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -181366,7 +181366,7 @@
         "CHR-S76-1979-007",
         "CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS"
       ],
-      "prudence_methodologique": "Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_etape_10."
+      "prudence_methodologique": "Composante non-concert du bundle du 04/03/1979 ; la composante concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) reste résiduelle, taguée a_scinder_concert."
     }
   },
   {
@@ -183000,7 +183000,7 @@
         {
           "id": "CHR-S10-1978-007",
           "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "date": "1978-12-27",
@@ -185736,7 +185736,7 @@
         {
           "id": "CHR-S41-TL3-1978-12-27-HOPE-ANCHOR-REVIEW",
           "same_as": "CONCERT-19781227-HOPE-AND-ANCHOR-LONDON",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "source_id": "S41",
@@ -186274,7 +186274,7 @@
         {
           "id": "CHR-S41-1979-08-13-NASHVILLE-ANNIK",
           "same_as": "EVENT-RENCONTRE-ANNIK-HONORE",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "source_id": "S41",
@@ -186634,7 +186634,7 @@
         {
           "id": "CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE",
           "same_as": "EVENT-DEMOS-GENETIC-EDEN-STUDIOS",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "source_id": "S41",
@@ -186795,7 +186795,7 @@
         {
           "id": "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE",
           "same_as": "EVENT-RENCONTRE-ANNIK-HONORE",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "source_id": "S41",
@@ -187351,7 +187351,7 @@
         {
           "id": "CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
           "same_as": "EVENT-CRISE-RAINBOW-THEATRE",
-          "a_scinder_etape_10": true,
+          "a_scinder_concert": true,
           "date_precision": "jour",
           "categorie": "jalon",
           "source_id": "S41",
@@ -187961,7 +187961,7 @@
     "data": {
       "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "source_id": "S45",
@@ -189460,7 +189460,7 @@
     "data": {
       "id": "CHR-S75-1978-008",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -190293,7 +190293,7 @@
     "data": {
       "id": "CHR-S75-1980-005",
       "same_as": "EVENT-CRISE-RAINBOW-THEATRE",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -192555,7 +192555,7 @@
     "data": {
       "id": "CHR-S76-1978-019",
       "same_as": "EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",
@@ -193299,7 +193299,7 @@
     "data": {
       "id": "CHR-S76-1979-019",
       "same_as": "EVENT-RENCONTRE-ANNIK-HONORE",
-      "a_scinder_etape_10": true,
+      "a_scinder_concert": true,
       "date_precision": "jour",
       "categorie": "jalon",
       "type_unite": "chronology",

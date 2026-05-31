@@ -328,7 +328,7 @@ notes: >
 ```yaml
 id: CHR-S76-1979-019
 same_as: EVENT-RENCONTRE-ANNIK-HONORE
-a_scinder_etape_10: true
+a_scinder_concert: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology

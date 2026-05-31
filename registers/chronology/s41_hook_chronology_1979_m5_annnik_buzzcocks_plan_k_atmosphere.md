@@ -18,7 +18,7 @@ chronology:
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK
     same_as: EVENT-RENCONTRE-ANNIK-HONORE
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41

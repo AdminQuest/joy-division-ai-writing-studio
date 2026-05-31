@@ -66,7 +66,7 @@ chronology:
 
   - id: CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
     same_as: EVENT-DEMOS-GENETIC-EDEN-STUDIOS
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -209,7 +209,7 @@ chronology:
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
     same_as: EVENT-RENCONTRE-ANNIK-HONORE
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     source_id: S41

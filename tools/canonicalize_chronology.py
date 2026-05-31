@@ -390,7 +390,7 @@ CANON = {
         label="Première crise épileptique majeure de Ian Curtis (retour du Hope & Anchor)",
         prudence=("Composante non-concert du bundle du 27/12/1978 ; la composante "
                   "concert (premier concert londonien) reste résiduelle, taguée "
-                  "a_scinder_etape_10."),
+                  "a_scinder_concert."),
         members=["CHR-1978-002", "CHR-S41-1978-12-M1-LUTON-FIRST-FIT",
                  "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT", "CHR-S75-1978-008",
                  "CHR-S76-1978-019", "CHR-S10-1978-007"]),
@@ -398,14 +398,14 @@ CANON = {
         date="1979-08-13", precision="jour",
         label="Entrée d'Annik Honoré dans l'entourage de Joy Division (Nashville Rooms)",
         prudence=("Composante non-concert du bundle du 13/08/1979 ; la composante "
-                  "concert reste résiduelle, taguée a_scinder_etape_10."),
+                  "concert reste résiduelle, taguée a_scinder_concert."),
         members=["CHR-S41-1979-08-13-NASHVILLE-ANNIK",
                  "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE", "CHR-S76-1979-019"]),
     "EVENT-CRISE-RAINBOW-THEATRE": dict(
         date="1980-04-04", precision="jour",
         label="Crise de Ian Curtis au Rainbow Theatre (stroboscopes)",
         prudence=("Composante non-concert du bundle du 04/04/1980 ; la composante "
-                  "concert reste résiduelle, taguée a_scinder_etape_10."),
+                  "concert reste résiduelle, taguée a_scinder_concert."),
         members=["CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE",
                  "CHR-S75-1980-005"]),
     "EVENT-DEMOS-GENETIC-EDEN-STUDIOS": dict(
@@ -413,7 +413,7 @@ CANON = {
         label="Démos pour Genetic à Eden Studios (Martin Rushent)",
         prudence=("Composante non-concert du bundle du 04/03/1979 ; la composante "
                   "concert (gig au Marquee, CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE) "
-                  "reste résiduelle, taguée a_scinder_etape_10."),
+                  "reste résiduelle, taguée a_scinder_concert."),
         members=["CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE", "CHR-S75-1979-003",
                  "CHR-S76-1979-007", "CHR-S41-1979-EDEN-STUDIOS-RUSHENT-DEMOS"]),
     # B3 — genèse du duo
@@ -738,8 +738,8 @@ def transform_file(path, entries, phase, stats, member_map=None):
                     inserts.append(("date_debut", db))
                     inserts.append(("date_fin", fi))
         elif phase == "tag":
-            if rid in BUNDLE_SPLIT_ETAPE_10 and not has_field(lines, i, end, indent, "a_scinder_etape_10"):
-                inserts.append(("a_scinder_etape_10", "true"))
+            if rid in BUNDLE_SPLIT_ETAPE_10 and not has_field(lines, i, end, indent, "a_scinder_concert"):
+                inserts.append(("a_scinder_concert", "true"))
                 stats["tagged"] += 1
         for key, val in inserts:
             out.append(" " * indent + f"{key}: {val}")

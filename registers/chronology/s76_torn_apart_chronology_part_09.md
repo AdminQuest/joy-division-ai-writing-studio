@@ -93,7 +93,7 @@ notes: >
 ```yaml
 id: CHR-S76-1978-019
 same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
-a_scinder_etape_10: true
+a_scinder_concert: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology

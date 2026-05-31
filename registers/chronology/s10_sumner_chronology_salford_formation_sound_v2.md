@@ -304,7 +304,7 @@ events:
 
   - id: CHR-S10-1978-007
     same_as: EVENT-PREMIERE-CRISE-EPILEPTIQUE-IAN-CURTIS
-    a_scinder_etape_10: true
+    a_scinder_concert: true
     date_precision: jour
     categorie: jalon
     date: 1978-12-27
