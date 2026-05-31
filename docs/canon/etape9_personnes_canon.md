@@ -172,5 +172,4 @@ la couche `PERS-*` (jamais sa propre sortie `PERSON-`).
 
 ## 10. Lien de la PR
 
-<!-- PR_LINK -->
-_À compléter à l'ouverture de la PR `claude/etape9-canon-personnes`._
+Pull request : **[https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/47](https://github.com/AdminQuest/joy-division-ai-writing-studio/pull/47)** (branche `claude/etape9-canon-personnes` → `main`). Revue automatique `@codex review` déclenchée à l'ouverture. **Ne pas merger** (le merge reste gaté).
