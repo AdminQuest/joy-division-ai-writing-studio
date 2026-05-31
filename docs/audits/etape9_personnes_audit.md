@@ -226,16 +226,17 @@ Détection **par nom** (patronymes d'auteurs externes), ce qui exclut automatiqu
 
 | Identifiant | Chaîne | Source | Description | Renvoi |
 |-------------|--------|--------|-------------|--------|
+| PERS-S53-009 | Arthur Schopenhauer | S53 | Référence philosophique sur la musique et le monde, mobilisée par La Rocca. | influence — à arbitrer |
 | PERS-S53-010 | Friedrich Nietzsche | S53 | Référence philosophique sur musique, puissance et tragique, mobilisée par La Rocca. | influence — à arbitrer |
 | PERS-S54-004 | J. G. Ballard | S54 | Matrice littéraire centrale pour Exercise One, Atrocity Exhibition, corps technologique et | influence — à arbitrer |
 | PERS-S75-031 | Marcel Proust | S75 | écrivain; référence possible pour le titre Unknown Pleasures | influence — à arbitrer |
+| PERS-S57-002 | Maurice Blanchot | S57 | Référence philosophique centrale de S57 pour l’inavouable, le dehors, la nuit, le cœur et  | influence — à arbitrer |
 | PERS-S29-012 | Nikolai Gogol | S29 | Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas | influence — à arbitrer |
-| PERS-S77-009 | Penny Rimbaud | S77 | Membre de Crass, associé à l’International Anthem et à la formulation d’un anarcho-punk ar | influence — à arbitrer |
 | PERS-S54-003 | William S. Burroughs | S54 | Matrice littéraire centrale pour Interzone, Digital, langage-virus, contrôle et fragmentat | influence — à arbitrer |
 | PERS-S56-004 | William S. Burroughs | S56 | Auteur admiré par Curtis ; figure de l’anecdote du Plan K. | influence — à arbitrer |
 | PERS-S75-033 | William S. Burroughs | S75 | écrivain; figure d'admiration pour Ian Curtis | influence — à arbitrer |
 
-Décompte recalculé : **6 figures distinctes** pour **8 identifiants**. Doublons internes à résorber : **William S. Burroughs** (3 ids : PERS-S54-003, PERS-S56-004, PERS-S75-033). Renvoi à l'étape 10 : registre `INFLUENCE-`/concept, ou `PERSON-` de type *influence_citée* explicitement distinct des acteurs. Ian Curtis lu « comme écrivain » (`PERS-S54-002`, `PERS-S56-002`) **n'est pas** une influence externe : ces entrées restent dans la grappe Ian Curtis (§1–§2).
+Décompte recalculé : **7 figures distinctes** pour **9 identifiants**. Doublons internes à résorber : **William S. Burroughs** (3 ids : PERS-S54-003, PERS-S56-004, PERS-S75-033). Renvoi à l'étape 10 : registre `INFLUENCE-`/concept, ou `PERSON-` de type *influence_citée* explicitement distinct des acteurs. Ian Curtis lu « comme écrivain » (`PERS-S54-002`, `PERS-S56-002`) **n'est pas** une influence externe : ces entrées restent dans la grappe Ian Curtis (§1–§2).
 
 ## 5. Locuteurs « anonyme » (607)
 
@@ -386,8 +387,8 @@ Les neuf cas relèvent de *Torn Apart* (Middles & Reade, S76) : huit sont des pa
 | Liens `same_as` à câbler | 130 |
 | Entrées en grappes / à identifiant unique | 175 / 130 |
 | Entités collectives → `ORG-` | 5 entrées / 5 noms |
-| Figures d'influence → influence/concept | 8 entrées / 6 noms |
-| **Personnes canoniques `PERSON-` pressenties** (175 noms − 5 ORG − 6 influences) | **≈ 164** |
+| Figures d'influence → influence/concept | 9 entrées / 7 noms |
+| **Personnes canoniques `PERSON-` pressenties** (175 noms − 5 ORG − 7 influences) | **≈ 163** |
 | Citations narration d'auteur (5a) | 607 |
 | Citations locuteur inconnu (5b) | 0 |
 | Citations `attribution_a_arbitrer` | 9 |
@@ -396,7 +397,7 @@ Les neuf cas relèvent de *Torn Apart* (Middles & Reade, S76) : huit sont des pa
 
 1. Câbler les `same_as` des grappes `fusion_evidente` (§2) vers un `PERSON-` unique ; formes secondaires en `alt_names`.
 2. Traiter `John Anderson`, « Steve Morris » et tout nom générique en `a_arbitrer` : contrôle source avant fusion.
-3. Sortir les **5** entités collectives (§4.1) vers `ORG-` et les **6** figures d'influence (§4.2) vers un registre influence/concept ; résorber les doublons internes (Burroughs).
+3. Sortir les **5** entités collectives (§4.1) vers `ORG-` et les **7** figures d'influence (§4.2) vers un registre influence/concept ; résorber les doublons internes (Burroughs).
 4. Maintenir `Kevin Curtis` (`PERS-S76-003`) **distinct** de `PERS-001`.
 5. Ajouter l'alias « Bernard Albrecht » au futur `PERSON-` Sumner ; confirmer les paires Davidson et Garrity ; éclater « Oz PA / Eddy et Oz » et « Dave Pils et Jasmine ».
 6. Relier les **607** citations de narration d'auteur (§5) aux `PERSON-` auteurs une fois canonisés ; **aucun** locuteur réellement inconnu n'est à laisser non rattaché (cas 5b = 0).
