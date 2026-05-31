@@ -12,7 +12,7 @@ statut: integration_directe
 events:
   - id: CHR-S02-001
     date_precision: circa
-    categorie: jalon
+    categorie: contexte
     date: "seconde moitié du XXe siècle"
     precision_date: periode
     event: "Manchester connaît une contraction urbaine liée à la désindustrialisation, aux pertes d’emplois et aux recompositions démographiques."

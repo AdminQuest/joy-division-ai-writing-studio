@@ -183,7 +183,7 @@ chronology:
 
   - id: CHR-S41-1979-08-02-YMCA-LONDON
     date_precision: jour
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S41
     date: "1979-08-02"
     evenement: >

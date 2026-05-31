@@ -46,7 +46,7 @@ statut: datation à préciser selon discographie Factory
 ```yaml
 id: CHR-S45-1978-11-CHECK-INN-ALTRINCHAM
 date_precision: mois
-categorie: jalon
+categorie: concert_a_migrer
 source_id: S45
 date: 1978-11
 evenement: >

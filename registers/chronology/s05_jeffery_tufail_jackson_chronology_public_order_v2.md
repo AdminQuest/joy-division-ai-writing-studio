@@ -12,7 +12,7 @@ statut: integration_directe
 events:
   - id: CHR-S05-001
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1974
     precision_date: annee
     event: "Création de Greater Manchester Police après fusion de plusieurs forces locales."
@@ -26,7 +26,7 @@ events:
 
   - id: CHR-S05-002
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1976
     precision_date: annee
     event: "James Anderton devient Chief Constable de Greater Manchester Police."
@@ -42,7 +42,7 @@ events:
 
   - id: CHR-S05-003
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1977
     precision_date: annee
     event: "Mobilisation du National Front à Hyde, encadrée par GMP et la Tactical Aid Group."
@@ -56,7 +56,7 @@ events:
 
   - id: CHR-S05-004
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1978
     precision_date: annee
     event: "Confrontations autour d’une manifestation du National Front à Bolton."

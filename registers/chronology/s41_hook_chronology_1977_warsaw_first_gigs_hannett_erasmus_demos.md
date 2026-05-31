@@ -149,7 +149,7 @@ chronology:
 
   - id: CHR-S41-1977-09-14-MIDDLESBROUGH-BOB-LAST
     date_precision: jour
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-09-14"
     evenement: >

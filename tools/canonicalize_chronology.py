@@ -181,6 +181,48 @@ def classify(rid, date, event, certainty, types):
 
 
 # --------------------------------------------------------------------------- #
+# Reclassements (passe d'arbitrage) — décisions validées, appliquées par
+# --phase reclassify. Réécrit la valeur de `categorie` (jamais en double).
+#  (a) context_urbain -> nouvelle catégorie `contexte` (dérivé du flag) ;
+#  (b)/(c) basculement explicite vers concert_a_migrer, entrée par entrée.
+# Les entrées NON listées ici restent dans leur catégorie courante (jalon).
+# --------------------------------------------------------------------------- #
+CATEGORIES = ("jalon", "concert_a_migrer", "reception_posthume", "contexte")
+
+# (b) perf_mixte -> concert_a_migrer : gigs ordinaires (la remarque accolée
+#     ne porte pas un fait marquant distinct).
+PERF_TO_CONCERT = {
+    "CHR-S41-1977-09-14-MIDDLESBROUGH-BOB-LAST",
+    "CHR-S41-1979-08-02-YMCA-LONDON",
+    "CHR-S41-1979-10-03-LEEDS-UNIVERSITY-BUZZCOCKS",
+    "CHR-S41-1979-10-16-PLAN-K-BRUSSELS",
+    "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+    "CHR-S45-1980-04-02-04-MOONLIGHT-RAINBOW",
+    "CHR-S76-1978-011",
+    "CHR-S76-1976-003",
+}
+# (c) jalon_concert_significatif -> concert_a_migrer : simple proximité ordinale,
+#     pas de transition de signification réelle (décisions validées).
+SIG_TO_CONCERT = {
+    "CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK",
+    "CHR-S41-1976-12-09-ELECTRIC-CIRCUS-HATE-COAT",
+    "CHR-S41-1978-01-03-PIPS-AFTERGAP",
+    "CHR-S41-TL2-1977-06-SQUAT-SEQUENCE",
+}
+
+
+def reclass_target(rid, date, event, cert, types):
+    """Nouvelle catégorie si l'entrée est reclassée, sinon None (inchangée)."""
+    _, flag = classify(rid, date, event, cert, types)
+    if flag == "context_urbain":
+        return "contexte"
+    if rid in PERF_TO_CONCERT or rid in SIG_TO_CONCERT:
+        return "concert_a_migrer"
+    return None
+
+
+
+# --------------------------------------------------------------------------- #
 # date_precision — inférence honnête depuis la date (jamais plus précis que la
 # source). Énum : {jour, mois, saison, annee, circa, intervalle}.
 # --------------------------------------------------------------------------- #
@@ -351,6 +393,33 @@ def transform_file(path, entries, phase, stats):
         stats["files"] += 1
 
 
+def reclassify_file(path, entries, stats):
+    """Réécrit la valeur des lignes `categorie:` selon reclass_target (pas
+    d'insertion : la catégorie existe déjà depuis la phase classification)."""
+    lines = path.read_text(encoding="utf-8").split("\n")
+    cur_id = None
+    cur_indent = None
+    changed = False
+    cat_pat = re.compile(r"^(\s*)categorie:\s*(\S+)\s*$")
+    for idx, ln in enumerate(lines):
+        m = ID_LINE.match(ln)
+        if m:
+            cur_id = m.group(3).strip('"')
+            cur_indent = ln.index("id:")
+            continue
+        cm = cat_pat.match(ln)
+        if cm and cur_id in entries and len(cm.group(1)) == cur_indent:
+            e = entries[cur_id]
+            tgt = reclass_target(cur_id, e["date"], e["event"], e["cert"], e["types"])
+            if tgt and tgt != cm.group(2):
+                lines[idx] = " " * cur_indent + f"categorie: {tgt}"
+                changed = True
+                stats[tgt] += 1
+    if changed:
+        path.write_text("\n".join(lines), encoding="utf-8")
+        stats["files"] += 1
+
+
 def write_canonical_file(entries):
     lines = [
         "# Registre chronologique — identités canoniques d'événements (EVENT-)",
@@ -397,7 +466,8 @@ def write_canonical_file(entries):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--phase", required=True,
-                    choices=["classification", "canon", "precision", "report", "check"])
+                    choices=["classification", "canon", "precision", "reclassify",
+                             "report", "check"])
     args = ap.parse_args()
 
     entries = parse_entries()
@@ -483,10 +553,17 @@ def main():
         p = Path(f)
         if p.name == CANON_FILE.name:
             continue
-        transform_file(p, entries, args.phase, stats)
+        if args.phase == "reclassify":
+            reclassify_file(p, entries, stats)
+        else:
+            transform_file(p, entries, args.phase, stats)
 
-    print(f"phase {args.phase} : {stats['files']} fichier(s) modifié(s)"
-          + (f", {stats['same_as']} same_as" if args.phase == "canon" else ""))
+    if args.phase == "reclassify":
+        moved = {k: stats[k] for k in CATEGORIES if stats[k]}
+        print(f"phase reclassify : {stats['files']} fichier(s), reclassements -> {moved}")
+    else:
+        print(f"phase {args.phase} : {stats['files']} fichier(s) modifié(s)"
+              + (f", {stats['same_as']} same_as" if args.phase == "canon" else ""))
     return 0
 
 

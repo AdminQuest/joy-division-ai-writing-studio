@@ -6,7 +6,7 @@ chronology:
     date_precision: intervalle
     date_debut: 1978-01
     date_fin: 1978-03
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S41
     date: "1978-01/1978-03"
     evenement: >

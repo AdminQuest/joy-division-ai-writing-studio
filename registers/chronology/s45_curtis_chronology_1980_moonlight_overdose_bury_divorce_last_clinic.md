@@ -6,7 +6,7 @@ chronology:
     date_precision: intervalle
     date_debut: 1980-04-02
     date_fin: 1980-04-04
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S45
     date: "1980-04-02/1980-04-04"
     evenement: >

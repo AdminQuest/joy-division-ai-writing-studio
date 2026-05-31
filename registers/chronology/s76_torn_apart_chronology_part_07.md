@@ -88,7 +88,7 @@ notes: >
 ```yaml
 id: CHR-S76-1978-011
 date_precision: saison
-categorie: jalon
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1978
 precision_date: spring_early_summer_1978

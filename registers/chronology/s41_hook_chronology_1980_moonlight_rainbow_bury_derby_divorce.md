@@ -127,7 +127,7 @@ chronology:
 
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
     date_precision: jour
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-19"
     evenement: >

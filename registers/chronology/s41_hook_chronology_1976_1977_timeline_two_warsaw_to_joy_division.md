@@ -50,7 +50,7 @@ chronology:
 
   - id: CHR-S41-TL2-1977-06-SQUAT-SEQUENCE
     date_precision: mois
-    categorie: jalon
+    categorie: concert_a_migrer
     source_id: S41
     date: "1977-06"
     evenement: >

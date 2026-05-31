@@ -52,7 +52,7 @@ notes: >
 ```yaml
 id: CHR-S76-1976-003
 date_precision: jour
-categorie: jalon
+categorie: concert_a_migrer
 type_unite: chronology
 date: 1976-12-09
 precision_date: exact

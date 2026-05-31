@@ -490,3 +490,61 @@ remontés pour validation (heuristique de confiance moindre).
   vrais jalons vs des gigs ordinaires à migrer ?
 
 Liste exhaustive des identifiants flaggés : `python3 tools/canonicalize_chronology.py --phase report`.
+
+---
+
+# ANNEXE II — Passe d'arbitrage : reclassements (étape 6)
+
+> Mise à jour : 31/05/2026. Applique les arbitrages validés sur les cas flaggés
+> de l'annexe I. **Additif** : seul le champ `categorie` est réécrit (aucun ID
+> touché, aucune donnée supprimée). Outil : `--phase reclassify`. Convention de
+> catégories : `docs/conventions/categories_chronologie.md`.
+
+## II.1. Quatrième catégorie — `contexte`
+
+Les 20 entrées flaggées `context_urbain` (registres urbains/sociaux S02, S05,
+S06, S20) ne sont ni jalon du groupe, ni concert, ni réception posthume : ce sont
+des repères **contextuels**. Création de la catégorie **`contexte`** (vocabulaire
+de catégories désormais à 4 valeurs). Ces entrées sont **exclues** de la
+canonicalisation `EVENT-` ; relocalisation différée (étape 11).
+
+## II.2. Reclassements appliqués
+
+| Origine (flag) | Décision | Nb |
+|---|---|---:|
+| `context_urbain` | → `contexte` | 20 |
+| `perf_mixte` (gig ordinaire + remarque accolée) | → `concert_a_migrer` | 8 |
+| `jalon_concert_significatif` (proximité ordinale, pas de transition) | → `concert_a_migrer` | 4 |
+
+`perf_mixte → concert_a_migrer` (8) : Middlesbrough/Bob Last, YMCA Londres,
+Leeds/Buzzcocks, Plan K Bruxelles, Check Inn Altrincham, Moonlight/Rainbow (S45),
+Band On The Wall, 3e concert Pistols (S76). `jalon_concert_significatif →
+concert_a_migrer` (4) : Derby Ajanta (avant-dernier), 3e gig Pistols (HATE-COAT),
+Pips after-gap, séquence Squat (multi-dates). Décisions conservées en `jalon` :
+dernier concert Warsaw (Swinging Apple), Eric's 1er avec Morris, dernier gig de
+Tony Tabac (line-up), Barton Street, premier concert en tête d'affiche.
+
+## II.3. Comptes après reclassement (500 entrées)
+
+| Catégorie | Avant | **Après** |
+|---|---:|---:|
+| `jalon` | 378 | **346** |
+| `concert_a_migrer` | 76 | **88** |
+| `reception_posthume` | 46 | **46** |
+| `contexte` | 0 | **20** |
+
+## II.4. Cas conservés FLAGGÉS (non tranchés)
+
+- **`perf_mixte` bundlées (≈13)** — gig **+** fait distinct porteur de sens
+  (Rafters + offre Gretton ; Hope & Anchor + 1re crise ; Short Circuit + 1er
+  enregistrement Virgin ; démos Genetic + gig ; Nashville + Annik ; Bournemouth +
+  crise ; Rainbow + crise ; van accident ; Lyceum/Bristol + crise) : laissées en
+  `jalon`, **à SCINDER à l'étape 10** (gig → `CONCERT-`, fait → `EVENT-`).
+- **Concerts d'autres artistes auxquels assiste le groupe (4)** — Lou Reed (1974),
+  Bowie (1972), Iggy Pop (1977), Factory night au Scala (1980) : `jalon` mineur /
+  formatif. **Arbitrage** : `contexte` / `reception` ?
+- **Cohérence `contexte`** — 26 entrées des registres urbains (S02/S05/S06/S12/S20)
+  datées **hors 1976-1980** restent en `reception_posthume`. **Arbitrage** :
+  les basculer aussi en `contexte` ?
+- **Morris « voit l'annonce »** (`CHR-S35-P05-1977-ETE-001`) : maintenu `jalon`
+  **distinct** de `EVENT-ARRIVEE-STEPHEN-MORRIS`, jamais en `same_as` (beat narratif).

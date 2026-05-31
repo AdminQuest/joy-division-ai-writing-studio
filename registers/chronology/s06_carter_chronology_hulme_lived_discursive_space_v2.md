@@ -12,7 +12,7 @@ statut: integration_directe
 events:
   - id: CHR-S06-001
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1969
     precision_date: annee
     event: "Shaima arrive à Hulme avec sa famille alors qu’elle est âgée d’environ un an."
@@ -26,7 +26,7 @@ events:
 
   - id: CHR-S06-002
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1970
     precision_date: annee
     event: "Lee-Ann naît à Hulme, où elle grandit dans un environnement familial et communautaire diversifié."
@@ -40,7 +40,7 @@ events:
 
   - id: CHR-S06-003
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1975
     precision_date: annee
     event: "La mort d’un garçon de cinq ans après une chute depuis un balcon de Hulme conduit à des revendications de relogement des familles avec enfants."
@@ -55,7 +55,7 @@ events:
 
   - id: CHR-S06-004
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1977
     precision_date: annee
     event: "Le Hulme People’s Rights Centre décrit Hulme comme exemple extrême de deprivation et d’urban redevelopment."
@@ -69,7 +69,7 @@ events:
 
   - id: CHR-S06-005
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1978
     precision_date: annee
     event: "Le Manchester and Salford Inner City Partnership identifie la jeunesse de l’inner city comme problème prioritaire."
