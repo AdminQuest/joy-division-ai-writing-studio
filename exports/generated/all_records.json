@@ -234223,7 +234223,7 @@
             "S76"
           ],
           "usage": "Établissement de Salford ; concert de Warsaw (avec Drones / Slaughter & The Dogs / V2).",
-          "prudence_methodologique": "CANDIDAT DE RÉCONCILIATION (non tranché) : possible même établissement que PLACE-S83-004 (« Salford Technical School », facette S83/rencontre Hannett) et la mention joydiv « Salford College of Technology ». same_as différé à la curation manuelle (étape 4)."
+          "prudence_methodologique": "Canonique sémantique de l'institution technique de Salford. Réconciliation (étape 7b-1) : PLACE-S83-004 (« Salford Technical School », facette S83 / rencontre Hannett 1977) porte désormais same_as vers ce canonique ; la mention joydiv « Salford College of Technology » désigne le même établissement. Variance de nom (School / College) conservée, statut S83 a_verifier inchangé."
         },
         {
           "id": "PLACE-ERICS-LIVERPOOL",
@@ -291089,6 +291089,8 @@
       "label": "Salford Technical School",
       "type": "education",
       "type_detail": "lieu_historique_rencontre",
+      "same_as": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+      "prudence_methodologique": "Réconcilié (étape 7b-1) vers le canonique sémantique PLACE-SALFORD-TECHNICAL-COLLEGE : même institution d'enseignement technique de Salford où Warsaw joue en octobre 1977 (joydiv : « Salford College of Technology ») et où Hannett rencontre le groupe en 1977. Variance de nom conservée (« School » côté S83 / « College » côté venue), statut a_verifier inchangé.",
       "pages_pdf": "186, 201",
       "pages_livre": "155, 169",
       "chapitres": [

@@ -96,9 +96,11 @@ places:
       - S76
     usage: "Établissement de Salford ; concert de Warsaw (avec Drones / Slaughter & The Dogs / V2)."
     prudence_methodologique: >-
-      CANDIDAT DE RÉCONCILIATION (non tranché) : possible même établissement que PLACE-S83-004
-      (« Salford Technical School », facette S83/rencontre Hannett) et la mention joydiv «
-      Salford College of Technology ». same_as différé à la curation manuelle (étape 4).
+      Canonique sémantique de l'institution technique de Salford. Réconciliation
+      (étape 7b-1) : PLACE-S83-004 (« Salford Technical School », facette S83 / rencontre
+      Hannett 1977) porte désormais same_as vers ce canonique ; la mention joydiv « Salford
+      College of Technology » désigne le même établissement. Variance de nom (School /
+      College) conservée, statut S83 a_verifier inchangé.
   - id: PLACE-ERICS-LIVERPOOL
     label: "Eric's"
     type: salle

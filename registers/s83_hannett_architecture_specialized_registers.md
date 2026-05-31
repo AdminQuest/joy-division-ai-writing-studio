@@ -343,6 +343,14 @@ source_id: S83
 label: "Salford Technical School"
 type: education
 type_detail: lieu_historique_rencontre
+same_as: PLACE-SALFORD-TECHNICAL-COLLEGE
+prudence_methodologique: >-
+  Réconcilié (étape 7b-1) vers le canonique sémantique
+  PLACE-SALFORD-TECHNICAL-COLLEGE : même institution d'enseignement technique
+  de Salford où Warsaw joue en octobre 1977 (joydiv : « Salford College of
+  Technology ») et où Hannett rencontre le groupe en 1977. Variance de nom
+  conservée (« School » côté S83 / « College » côté venue), statut a_verifier
+  inchangé.
 pages_pdf: "186, 201"
 pages_livre: "155, 169"
 chapitres: ["Chapitre 1", "Chapitre 3"]
