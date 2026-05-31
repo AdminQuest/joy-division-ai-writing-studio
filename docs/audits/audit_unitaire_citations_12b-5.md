@@ -635,3 +635,79 @@ fiches `CIT-S83-*` utilisent `citation_directe: true|false` comme **drapeau**
 (le verbatim « working into this space » vit dans le titre/prose, à extraire en
 8b-2). Split provisoire ajusté : **699 verbatim / 263 non_verbatim** ; **82**
 sentinelles. `build --strict errors=0`, 5 validateurs verts, sentinelle en phase.
+
+---
+
+## Annexe C — Enrichissement de jugement (étape 8b-2)
+
+> **Portée.** Curation du registre par la **même fonction de normalisation
+> partagée** (parité build ↔ validateur ↔ loader ↔ master-docs), **sans
+> réécriture des 962 source** et **sans canonicalisation** ni arête `PERSON-`
+> (différée à l'étape 9). Cas nets exécutés, ambigus **flaggés**. Gel
+> `EVENT-`/`CONCERT-` intact (validateurs verts).
+
+### C.1. Dénormalisation de l'attribution (rôles, valeurs texte)
+
+Le champ d'attribution conflé est éclaté en trois rôles distincts :
+
+| Rôle | Définition | Couverture |
+|---|---|---:|
+| `auteur_source` | qui a **consigné** la citation (auteur du livre/article ; du registre des sources) | **962 / 962 (100 %)** |
+| `locuteur` | qui a **énoncé** : témoin nommé, ou `« anonyme »` | 962/962 — **355 nommés** / **607 anonymes** |
+| `rapporteur` | intermédiaire « cité/rapporté par » ou `via` | **45** |
+| `auteur_origine` | valeur legacy brute préservée (lossless) | — |
+
+Règles d'exécution (nettes) : `locuteur`/`auteur_cite` explicites → locuteur ;
+chaîne « X cité/rapporté/mobilisé par (Y) » — **y compris forme parenthétique** —
+→ locuteur=X, rapporteur=Y ; forme participe « X rapportant Y » → locuteur=Y,
+rapporteur=X ; `auteur` nommé **≠** auteur de la source → locuteur (témoin) ;
+`auteur` **= auteur de la source seul** (narration **stricte**, après retrait de
+toute clause « cité/rapporté par ») → locuteur = auteur de la source ; aucune
+attribution → `« anonyme »`. **`auteur_source` universel** depuis le registre des
+sources.
+
+> **Correctif de parité (suite #44)** — un test de narration trop gourmand
+> (recouvrement de jetons) écrasait le vrai témoin des formes mixtes vers
+> l'auteur de la source. Resserré : **7** records corrigés `narration → témoin
+> réel` (ex. `S90-Q002` Mark Fisher → **Deborah Curtis** ; `S75-Q008` Chris Ott →
+> **Tony Wilson** ; `S76-Q120` → **Deborah Curtis**, rapporteur Middles & Reade) ;
+> rapporteur **34 → 45**. Les **9** formes réellement non parsables (« A / B »,
+> « A d'après B », « A / témoins croisés ») sont **flaggées**
+> `attribution_a_arbitrer` (locuteur `anonyme`) plutôt que faussement attribuées —
+> d'où **355 nommés** (vs 363, désormais sans mésattribution à l'auteur-source).
+> Arête `PERSON-` **différée à l'étape 9**.
+
+### C.2. Split des `non_verbatim` → paraphrase / concept
+
+| `type` (8b-2) | Définition | Volume |
+|---|---|---:|
+| `verbatim` | champ verbatim présent (+ 53 fiches-pointeur à témoin nommé, verbatim non transcrit) | **752** |
+| `paraphrase` | énoncé **attribué** (témoin nommé) reformulé | **36** |
+| `concept` | usage conceptuel / note analytique sans locuteur (**flaggé** `migration_concept_register`) | **174** (dont 29 pointeurs) |
+
+`concept` reste au registre, **flaggé pour migration future** vers le registre
+concept (NON déplacé ici). Cohérence vérifiée : 0 concept à locuteur nommé,
+100 % des paraphrases à locuteur nommé. **Flag** `type_a_arbitrer` (borderline
+paraphrase/concept de l'auteur-narrateur) : **0** (aucun énoncé analytique
+non-verbatim d'auteur n'a échappé au verbatim — pas de borderline résiduel).
+
+### C.3. Résidus (flaggés, **non traités**)
+
+| Résidu | Flag | Volume | Suite |
+|---|---|---:|---|
+| Fiches-pointeur (texte sentinellé) | `texte_pointeur` | **82** | transcription différée |
+| Citations sans page | `page == "inconnue"` | **53** | sourçage différé |
+| Attribution conflée ambiguë | `attribution_a_arbitrer` | **1** | arbitrage manuel |
+
+### C.4. Validateur étendu — `tools/validate_quotes.py`
+
+| Invariant | Contrôle | Résultat |
+|---|---|:--:|
+| INV4 | `type` ∈ {verbatim, paraphrase, concept} | ✓ |
+| INV7 | `locuteur` présent (nom ou « anonyme ») ; `auteur_source`/`rapporteur` bien formés ; flags booléens | ✓ |
+| INV1–3, 5–6 | schéma, id, provenance, same_as, **gel** (inchangés) | ✓ |
+
+**Porte : OUVERTE (errors = 0).** `build --strict errors=0` ; 5 validateurs verts ;
+sentinelle en phase. **Reste pour l'étape 9** : arête `PERSON-` (à partir de
+`locuteur`/`auteur_source`/`rapporteur`) ; transcription des 82 pointeurs ;
+migration des 174 `concept` ; sourçage des 53 pages.
