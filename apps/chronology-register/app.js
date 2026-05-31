@@ -42,7 +42,10 @@ const isCanonical = r => /^EVENT-/.test(T(r.id)) && !/^EVENT-S\d+-/.test(T(r.id)
 // humanDate / yearOf / tri / filtres / CSV. On normalise tout Date (et tout
 // AAAA-MM-JJ porté par un Date) en ISO local AAAA-MM-JJ AVANT le repli sur T().
 const isoDate = v => {
-  if (v instanceof Date && !isNaN(v)) {
+  // Détection de Date robuste au cross-realm (Object.prototype.toString plutôt
+  // qu'instanceof) : js-yaml peut créer la Date dans un autre realm que celui
+  // de l'app (cas des environnements de rendu) — instanceof y échouerait.
+  if (v && Object.prototype.toString.call(v) === '[object Date]' && !isNaN(v)) {
     const p = n => String(n).padStart(2, '0');
     return `${v.getUTCFullYear()}-${p(v.getUTCMonth() + 1)}-${p(v.getUTCDate())}`;
   }
