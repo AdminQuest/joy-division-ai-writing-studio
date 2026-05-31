@@ -120,6 +120,7 @@ chronology:
     statut: événement médical à croiser avec S45 et témoignages de Morris
 
   - id: CHR-S41-1979-01-23-EPILEPSY-DIAGNOSIS
+    same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
     date_precision: jour
     categorie: jalon
     source_id: S41

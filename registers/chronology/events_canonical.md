@@ -264,3 +264,283 @@ membres_reconcilies:
 ```
 
 ---
+
+## EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND — Premières démos de Warsaw à Pennine Sound Studios
+
+```yaml
+id: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
+type_unite: chronology_event
+categorie: jalon
+date: "1977-07-18"
+date_precision: jour
+event: >
+  Premières démos de Warsaw à Pennine Sound Studios.
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1977-07-18-WARSAW-DEMO-PENNINE
+  - CHR-S75-1977-001
+  - CHR-S76-1977-005
+```
+
+---
+
+## EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE — Dernier concert sous le nom Warsaw (Swinging Apple, Liverpool)
+
+```yaml
+id: EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE
+type_unite: chronology_event
+categorie: jalon
+date: "1977-12-31"
+date_precision: jour
+event: >
+  Dernier concert sous le nom Warsaw (Swinging Apple, Liverpool).
+sources:
+  - S41
+  - S45
+membres_reconcilies:
+  - CHR-S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW
+  - CHR-S45-1977-12-31-SWINGING-APPLE
+```
+
+---
+
+## EVENT-SESSIONS-RCA-ARROW-STUDIOS — Sessions de l'album avorté RCA / Arrow Studios
+
+```yaml
+id: EVENT-SESSIONS-RCA-ARROW-STUDIOS
+type_unite: chronology_event
+categorie: jalon
+date: "1978-05"
+date_precision: mois
+event: >
+  Sessions de l'album avorté RCA / Arrow Studios.
+sources:
+  - MASTER
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-1978-001
+  - CHR-S41-1978-05-ARROW-STUDIOS-RCA
+  - CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS
+  - CHR-S76-1978-005
+prudence_methodologique: >
+  Périmètre retenu : sessions d'enregistrement à Arrow Studios pour RCA. Le contact RCA/Swan autour d'une reprise (CHR-S41-1978-05-RCA-SWAN-INTERZONE) et l'accord de management Gretton (CHR-S41-TL3-1978-05-GRETTON-MANAGER) sont des événements distincts, non fusionnés ici.
+```
+
+---
+
+## EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY — Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »)
+
+```yaml
+id: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
+type_unite: chronology_event
+categorie: jalon
+date: "1978-09-20"
+date_precision: jour
+event: >
+  Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »).
+sources:
+  - S10
+  - S41
+membres_reconcilies:
+  - CHR-S10-1978-005
+  - CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY
+  - CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY
+```
+
+---
+
+## EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO — Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios)
+
+```yaml
+id: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
+type_unite: chronology_event
+categorie: jalon
+date: "1978-10-11"
+date_precision: jour
+event: >
+  Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios).
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE
+  - CHR-S75-1978-007
+  - CHR-S76-1978-016
+```
+
+---
+
+## EVENT-COUVERTURE-NME-IAN-CURTIS — Ian Curtis en couverture du NME
+
+```yaml
+id: EVENT-COUVERTURE-NME-IAN-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1979-01-13"
+date_precision: jour
+event: >
+  Ian Curtis en couverture du NME.
+sources:
+  - S45
+  - S75
+membres_reconcilies:
+  - CHR-S45-1979-01-13-NME-COVER
+  - CHR-S75-1979-001
+```
+
+---
+
+## EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS — Diagnostic d'épilepsie de Ian Curtis
+
+```yaml
+id: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1979-01-23"
+date_precision: jour
+event: >
+  Diagnostic d'épilepsie de Ian Curtis.
+sources:
+  - S41
+  - S45
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-01-23-EPILEPSY-DIAGNOSIS
+  - CHR-S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS
+  - CHR-S45-1979-01-23-SPECIALIST-EPILEPSY
+  - CHR-S76-1979-004
+```
+
+---
+
+## EVENT-PREMIERE-PEEL-SESSION — Première John Peel Session de Joy Division
+
+```yaml
+id: EVENT-PREMIERE-PEEL-SESSION
+type_unite: chronology_event
+categorie: jalon
+date: "1979-01-31"
+date_precision: jour
+event: >
+  Première John Peel Session de Joy Division.
+sources:
+  - S41
+  - S75
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-01-31-FIRST-PEEL-SESSION
+  - CHR-S75-1979-002
+  - CHR-S76-1979-006
+```
+
+---
+
+## EVENT-NAISSANCE-NATALIE-CURTIS — Naissance de Natalie Curtis
+
+```yaml
+id: EVENT-NAISSANCE-NATALIE-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1979-04-16"
+date_precision: jour
+event: >
+  Naissance de Natalie Curtis.
+sources:
+  - S41
+  - S45
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-04-16-NATALIE-CURTIS-BORN
+  - CHR-S45-1979-04-16-NATALIE-BIRTH
+  - CHR-S76-1979-011
+```
+
+---
+
+## EVENT-DEUXIEME-PEEL-SESSION — Deuxième John Peel Session de Joy Division
+
+```yaml
+id: EVENT-DEUXIEME-PEEL-SESSION
+type_unite: chronology_event
+categorie: jalon
+date: "1979-11-26"
+date_precision: jour
+event: >
+  Deuxième John Peel Session de Joy Division.
+sources:
+  - S41
+membres_reconcilies:
+  - CHR-S41-1979-11-26-SECOND-PEEL-SESSION
+  - CHR-S41-1979-11-26-SECOND-PEEL-LWTUA
+prudence_methodologique: >
+  Deux entrées S41 (session ; « Love Will Tear Us Apart » y est enregistrée) — duplication intra-source réconciliée.
+```
+
+---
+
+## EVENT-FETE-FACTORY-NOUVEL-AN — Fête Factory du Nouvel An (Oldham Street)
+
+```yaml
+id: EVENT-FETE-FACTORY-NOUVEL-AN
+type_unite: chronology_event
+categorie: jalon
+date: "1979-12-31"
+date_precision: jour
+event: >
+  Fête Factory du Nouvel An (Oldham Street).
+sources:
+  - S41
+  - S76
+membres_reconcilies:
+  - CHR-S41-1979-12-31-FACTORY-OFFICE-PARTY
+  - CHR-S76-1979-026
+prudence_methodologique: >
+  Cadrages divergents du même soir : S41 le décrit comme une fête Factory où Gretton tente de vendre des parts ; S76 le présente comme le dernier réveillon de Ian Curtis.
+```
+
+---
+
+## EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS — Overdose de phénobarbital de Ian Curtis
+
+```yaml
+id: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
+type_unite: chronology_event
+categorie: jalon
+date: "1980-04-07"
+date_precision: jour
+event: >
+  Overdose de phénobarbital de Ian Curtis.
+sources:
+  - S45
+  - S75
+membres_reconcilies:
+  - CHR-S45-1980-04-07-PHENOBARBITONE-OVERDOSE
+  - CHR-S75-1980-006
+```
+
+---
+
+## EVENT-CONCERT-DERBY-HALL-BURY — Concert du Derby Hall, Bury (interrompu, état critique de Curtis)
+
+```yaml
+id: EVENT-CONCERT-DERBY-HALL-BURY
+type_unite: chronology_event
+categorie: jalon
+date: "1980-04-08"
+date_precision: jour
+event: >
+  Concert du Derby Hall, Bury (interrompu, état critique de Curtis).
+sources:
+  - MASTER
+  - S45
+membres_reconcilies:
+  - CHR-1980-001
+  - CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT
+```
+
+---

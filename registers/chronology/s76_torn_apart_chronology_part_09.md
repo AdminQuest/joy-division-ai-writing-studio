@@ -90,6 +90,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-019
+a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -130,6 +131,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-004
+same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology

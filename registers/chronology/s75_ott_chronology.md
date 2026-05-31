@@ -46,6 +46,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-001
+same_as: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -285,6 +286,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-007
+same_as: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -326,6 +328,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-008
+a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -367,6 +370,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-001
+same_as: EVENT-COUVERTURE-NME-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -405,6 +409,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-002
+same_as: EVENT-PREMIERE-PEEL-SESSION
 date_precision: circa
 categorie: jalon
 type_unite: chronology

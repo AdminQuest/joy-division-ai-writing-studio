@@ -21,6 +21,7 @@ chronology:
     statut: datation et lieu à croiser avec discographies Sordide / Cargo
 
   - id: CHR-S41-1979-11-26-SECOND-PEEL-LWTUA
+    same_as: EVENT-DEUXIEME-PEEL-SESSION
     date_precision: jour
     categorie: jalon
     source_id: S41

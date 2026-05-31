@@ -122,6 +122,80 @@ CANON = {
         date="1980-07-18", precision="jour",
         label="Sortie posthume de l'album Closer",
         members=["CHR-1980-004", "CHR-S41-1980-CLOSER-RELEASE-POSTHUMOUS"]),
+
+    # --- 2e canonicalisation (étape 6, passe d'arbitrage) ----------------- #
+    "EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND": dict(
+        date="1977-07-18", precision="jour",
+        label="Premières démos de Warsaw à Pennine Sound Studios",
+        members=["CHR-S41-1977-07-18-WARSAW-DEMO-PENNINE", "CHR-S75-1977-001",
+                 "CHR-S76-1977-005"]),
+    "EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE": dict(
+        date="1977-12-31", precision="jour",
+        label="Dernier concert sous le nom Warsaw (Swinging Apple, Liverpool)",
+        members=["CHR-S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW",
+                 "CHR-S45-1977-12-31-SWINGING-APPLE"]),
+    "EVENT-SESSIONS-RCA-ARROW-STUDIOS": dict(
+        date="1978-05", precision="mois",
+        label="Sessions de l'album avorté RCA / Arrow Studios",
+        prudence=("Périmètre retenu : sessions d'enregistrement à Arrow Studios "
+                  "pour RCA. Le contact RCA/Swan autour d'une reprise "
+                  "(CHR-S41-1978-05-RCA-SWAN-INTERZONE) et l'accord de management "
+                  "Gretton (CHR-S41-TL3-1978-05-GRETTON-MANAGER) sont des "
+                  "événements distincts, non fusionnés ici."),
+        members=["CHR-1978-001", "CHR-S41-1978-05-ARROW-STUDIOS-RCA",
+                 "CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS", "CHR-S76-1978-005"]),
+    "EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY": dict(
+        date="1978-09-20", precision="jour",
+        label="Débuts télévisés de Joy Division (Granada Reports, « Shadowplay »)",
+        members=["CHR-S10-1978-005", "CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY",
+                 "CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY"]),
+    "EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO": dict(
+        date="1978-10-11", precision="jour",
+        label="Enregistrement de « Digital » et « Glass » (A Factory Sample, Cargo Studios)",
+        members=["CHR-S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE", "CHR-S75-1978-007",
+                 "CHR-S76-1978-016"]),
+    "EVENT-COUVERTURE-NME-IAN-CURTIS": dict(
+        date="1979-01-13", precision="jour",
+        label="Ian Curtis en couverture du NME",
+        members=["CHR-S45-1979-01-13-NME-COVER", "CHR-S75-1979-001"]),
+    "EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS": dict(
+        date="1979-01-23", precision="jour",
+        label="Diagnostic d'épilepsie de Ian Curtis",
+        members=["CHR-S41-1979-01-23-EPILEPSY-DIAGNOSIS",
+                 "CHR-S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS",
+                 "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY", "CHR-S76-1979-004"]),
+    "EVENT-PREMIERE-PEEL-SESSION": dict(
+        date="1979-01-31", precision="jour",
+        label="Première John Peel Session de Joy Division",
+        members=["CHR-S41-1979-01-31-FIRST-PEEL-SESSION", "CHR-S75-1979-002",
+                 "CHR-S76-1979-006"]),
+    "EVENT-NAISSANCE-NATALIE-CURTIS": dict(
+        date="1979-04-16", precision="jour",
+        label="Naissance de Natalie Curtis",
+        members=["CHR-S41-1979-04-16-NATALIE-CURTIS-BORN",
+                 "CHR-S45-1979-04-16-NATALIE-BIRTH", "CHR-S76-1979-011"]),
+    "EVENT-DEUXIEME-PEEL-SESSION": dict(
+        date="1979-11-26", precision="jour",
+        label="Deuxième John Peel Session de Joy Division",
+        prudence=("Deux entrées S41 (session ; « Love Will Tear Us Apart » y est "
+                  "enregistrée) — duplication intra-source réconciliée."),
+        members=["CHR-S41-1979-11-26-SECOND-PEEL-SESSION",
+                 "CHR-S41-1979-11-26-SECOND-PEEL-LWTUA"]),
+    "EVENT-FETE-FACTORY-NOUVEL-AN": dict(
+        date="1979-12-31", precision="jour",
+        label="Fête Factory du Nouvel An (Oldham Street)",
+        prudence=("Cadrages divergents du même soir : S41 le décrit comme une "
+                  "fête Factory où Gretton tente de vendre des parts ; S76 le "
+                  "présente comme le dernier réveillon de Ian Curtis."),
+        members=["CHR-S41-1979-12-31-FACTORY-OFFICE-PARTY", "CHR-S76-1979-026"]),
+    "EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS": dict(
+        date="1980-04-07", precision="jour",
+        label="Overdose de phénobarbital de Ian Curtis",
+        members=["CHR-S45-1980-04-07-PHENOBARBITONE-OVERDOSE", "CHR-S75-1980-006"]),
+    "EVENT-CONCERT-DERBY-HALL-BURY": dict(
+        date="1980-04-08", precision="jour",
+        label="Concert du Derby Hall, Bury (interrompu, état critique de Curtis)",
+        members=["CHR-1980-001", "CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT"]),
 }
 
 # id legacy -> canonique
@@ -211,14 +285,49 @@ SIG_TO_CONCERT = {
 }
 
 
+# (A3b) concerts d'autres artistes auxquels assiste un membre (JD/Warsaw ne joue
+#       pas) : repères formatifs -> contexte.
+ATTEND_OTHERS_TO_CONTEXTE = {
+    "CHR-S10-1974-001",        # Sumner voit Lou Reed
+    "CHR-S35-P03-1972-001",    # Morris voit Hawkwind
+    "CHR-S35-P03-1972-002",    # Morris voit Bowie
+    "CHR-S35-P05-1977-05-26",  # Morris voit Television & Blondie
+    "CHR-S76-1972-002",        # Curtis voit Bowie
+    "CHR-S76-1977-001",        # Curtis voit Iggy Pop
+}
+
+
 def reclass_target(rid, date, event, cert, types):
     """Nouvelle catégorie si l'entrée est reclassée, sinon None (inchangée)."""
-    _, flag = classify(rid, date, event, cert, types)
+    cat, flag = classify(rid, date, event, cert, types)
     if flag == "context_urbain":
+        return "contexte"
+    # (A3a) entrées des registres urbains hors ère 1976-1980 (aujourd'hui
+    #       reception_posthume car postérieures) : contexte, pas réception.
+    if cat == "reception_posthume" and re.match(r"CHR-(S\d+)", rid) \
+            and re.match(r"CHR-(S\d+)", rid).group(1) in URBAN_CONTEXT_SOURCES:
+        return "contexte"
+    if rid in ATTEND_OTHERS_TO_CONTEXTE:
         return "contexte"
     if rid in PERF_TO_CONCERT or rid in SIG_TO_CONCERT:
         return "concert_a_migrer"
     return None
+
+
+# (A5) bundles gig + fait distinct (un seul enregistrement) : restent jalon mais
+# étiquetés pour scission au registre CONCERT- (étape 10). NON canonicalisés.
+BUNDLE_SPLIT_ETAPE_10 = {
+    # Hope & Anchor 1978-12-27 — premier concert londonien + première crise
+    "CHR-S10-1978-007", "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+    "CHR-S75-1978-008", "CHR-S76-1978-019",
+    # Nashville Rooms 1979-08-13 — gig + entrée d'Annik Honoré
+    "CHR-S41-1979-08-13-NASHVILLE-ANNIK",
+    "CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE", "CHR-S76-1979-019",
+    # Rainbow 1980-04-04 — gig + crise (stroboscopes)
+    "CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE", "CHR-S75-1980-005",
+    # Genetic/Marquee 1979-03-04 — session démos Genetic + gig au Marquee
+    "CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE",
+}
 
 
 
@@ -384,6 +493,10 @@ def transform_file(path, entries, phase, stats):
                 if dp == "intervalle" and db:
                     inserts.append(("date_debut", db))
                     inserts.append(("date_fin", fi))
+        elif phase == "tag":
+            if rid in BUNDLE_SPLIT_ETAPE_10 and not has_field(lines, i, end, indent, "a_scinder_etape_10"):
+                inserts.append(("a_scinder_etape_10", "true"))
+                stats["tagged"] += 1
         for key, val in inserts:
             out.append(" " * indent + f"{key}: {val}")
         i += 1
@@ -467,7 +580,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--phase", required=True,
                     choices=["classification", "canon", "precision", "reclassify",
-                             "report", "check"])
+                             "tag", "report", "check"])
     args = ap.parse_args()
 
     entries = parse_entries()

@@ -103,6 +103,7 @@ chronology:
     statut: jalon live londonien
 
   - id: CHR-S41-1979-11-26-SECOND-PEEL-SESSION
+    same_as: EVENT-DEUXIEME-PEEL-SESSION
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -133,6 +134,7 @@ chronology:
     statut: archive live majeure
 
   - id: CHR-S41-1979-12-31-FACTORY-OFFICE-PARTY
+    same_as: EVENT-FETE-FACTORY-NOUVEL-AN
     date_precision: jour
     categorie: jalon
     source_id: S41

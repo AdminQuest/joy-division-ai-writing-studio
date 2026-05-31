@@ -60,6 +60,7 @@ chronology:
     statut: consolidation chronologique
 
   - id: CHR-S41-TL3-1978-05-03-04-ARROW-STUDIOS
+    same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
     date_precision: intervalle
     date_debut: 1978-05-03
     date_fin: 1978-05-04
@@ -189,6 +190,7 @@ chronology:
     statut: souvenir Hook à croiser
 
   - id: CHR-S41-TL3-1978-09-20-GRANADA-SHADOWPLAY
+    same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -217,6 +219,7 @@ chronology:
     statut: verrou de réédition
 
   - id: CHR-S41-TL3-1978-10-11-CARGO-FACTORY-SAMPLE
+    same_as: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
     date_precision: jour
     categorie: jalon
     source_id: S41

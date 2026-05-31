@@ -676,3 +676,70 @@ Une arête `same_as: EVENT-<canonique proposé>` par facette listée en IV.1
 significatifs deviendront des `EVENT-` à la création de leur registre cible ;
 les autres restent des jalons mono-source. Non listés ici (cf.
 `--phase report` / regroupement).
+
+---
+
+# ANNEXE V — 2e canonicalisation : exécution (étape 6)
+
+> Exécution des arbitrages validés. **Additif, gel respecté.** Outil :
+> `--phase reclassify | canon | tag`.
+
+## V.1. Nouveaux jalons-ancres `EVENT-` créés (13) — total **24**
+
+Critère retenu : `EVENT-` = jalon-**ancre** (référencé par un autre registre, ou
+tête de timeline : session, sortie, line-up, décès, gig marquant, diagnostic,
+session radio/TV), **pas** tout jalon.
+
+| `EVENT-` | Date | `same_as` |
+|---|---|---:|
+| `EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND` | 1977-07-18 | 3 |
+| `EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE` | 1977-12-31 | 2 |
+| `EVENT-SESSIONS-RCA-ARROW-STUDIOS` | 1978-05 | 4 |
+| `EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY` | 1978-09-20 | 3 |
+| `EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO` | 1978-10-11 | 3 |
+| `EVENT-COUVERTURE-NME-IAN-CURTIS` | 1979-01-13 | 2 |
+| `EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS` | 1979-01-23 | 4 |
+| `EVENT-PREMIERE-PEEL-SESSION` | 1979-01-31 | 3 |
+| `EVENT-NAISSANCE-NATALIE-CURTIS` | 1979-04-16 | 3 |
+| `EVENT-DEUXIEME-PEEL-SESSION` | 1979-11-26 | 2 |
+| `EVENT-FETE-FACTORY-NOUVEL-AN` | 1979-12-31 | 2 |
+| `EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS` | 1980-04-07 | 2 |
+| `EVENT-CONCERT-DERBY-HALL-BURY` | 1980-04-08 | 2 |
+
+Total : **24 `EVENT-`** (11 + 13), **74 `same_as`** (39 + 35). *Fête Factory du
+Nouvel An* (A2) : un seul événement, deux cadrages S41/S76 réconciliés, divergence
+en `prudence_methodologique`.
+
+## V.2. Bascules `contexte` (A3) — total **52**
+
+| Bascule | De | Nb |
+|---|---|---:|
+| Registres urbains hors ère 1976-1980 (vérifiés : aucun n'est une réception JD) | `reception_posthume` | 26 |
+| Concerts d'autres artistes assistés (Lou Reed, Hawkwind, Bowie ×2, Television/Blondie, Iggy Pop) | `jalon` | 6 |
+
+## V.3. Comptes par catégorie (500 entrées)
+
+| Catégorie | Avant | **Après** |
+|---|---:|---:|
+| `jalon` | 346 | **340** |
+| `concert_a_migrer` | 88 | **88** |
+| `reception_posthume` | 46 | **20** |
+| `contexte` | 20 | **52** |
+
+## V.4. Non fusionnés / non canonicalisés (A4, A5)
+
+- **Facettes des 16-18 mai 1980** (derniers jours, derniers contacts, notification
+  du décès à Hook puis Annik) : restent des `jalon` **distincts**, **aucun**
+  `same_as` vers `EVENT-MORT-IAN-CURTIS` ; pas de bucket « derniers jours ».
+- **1980-04-25** : vidéo *Love Will Tear Us Apart* (S45) et Factory night au Scala
+  (S76) restent **deux événements distincts** — non fusionnés.
+- **Bundles** (gig + fait distinct dans un seul enregistrement) : Hope & Anchor
+  (1978-12-27), Nashville/Annik (1979-08-13), Rainbow (1980-04-04),
+  Genetic/Marquee (1979-03-04). Restent `jalon`, étiquetés
+  `a_scinder_etape_10: true` (10 entrées), **non canonicalisés** ici — la
+  scission gig/fait se fera à la création du registre `CONCERT-` (étape 10).
+
+## V.5. Chaîne
+
+`--phase check` : 74 `same_as` résolus, 0 date impossible, 0 intervalle inversé ·
+`build_registers --strict` errors=0 (chronology 501) · sentinelle anti-drift OK.

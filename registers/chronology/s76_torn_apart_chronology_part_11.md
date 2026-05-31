@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1979-011
+same_as: EVENT-NAISSANCE-NATALIE-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -322,6 +323,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-019
+a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology

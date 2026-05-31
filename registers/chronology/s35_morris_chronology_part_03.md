@@ -28,7 +28,7 @@ chronologie:
     statut: contexte
   - id: CHR-S35-P03-1972-001
     date_precision: jour
-    categorie: jalon
+    categorie: contexte
     date: "1972-03-17"
     label: "Morris voit Hawkwind avec Status Quo au Free Trade Hall de Manchester"
     source_id: S35
@@ -36,7 +36,7 @@ chronologie:
     statut: a_croiser
   - id: CHR-S35-P03-1972-002
     date_precision: mois
-    categorie: jalon
+    categorie: contexte
     date: "1972-04"
     label: "Morris voit David Bowie au Free Trade Hall environ trois semaines après Hawkwind"
     source_id: S35

@@ -100,6 +100,7 @@ statut: événement établi
 
 ```yaml
 id: CHR-S45-1977-12-31-SWINGING-APPLE
+same_as: EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE
 date_precision: jour
 categorie: jalon
 source_id: S45

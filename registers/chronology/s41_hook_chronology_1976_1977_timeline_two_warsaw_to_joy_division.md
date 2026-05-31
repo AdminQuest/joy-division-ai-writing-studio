@@ -115,6 +115,7 @@ chronology:
     statut: session consolidée
 
   - id: CHR-S41-TL2-1977-12-31-SWINGING-APPLE-LAST-WARSAW
+    same_as: EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE
     date_precision: jour
     categorie: jalon
     source_id: S41

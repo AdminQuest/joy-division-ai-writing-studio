@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-31T05:14:41",
+  "generated_at": "2026-05-31T05:43:02",
   "status": "warning",
   "summary": {
-    "records_total": 7692,
+    "records_total": 7705,
     "records_by_kind": {
       "unknown": 1509,
       "source": 120,
@@ -12,7 +12,7 @@
       "motif": 427,
       "myth": 102,
       "quote": 565,
-      "chronology": 488,
+      "chronology": 501,
       "template": 360,
       "concert": 197,
       "person": 305,
@@ -21,9 +21,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30068,
+    "diagnostics_total": 30094,
     "errors": 0,
-    "warnings": 30068,
+    "warnings": 30094,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -408,10 +408,10 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 62,
+        "records": 63,
         "atoms": 40,
         "quotes": 0,
-        "chronology": 3,
+        "chronology": 4,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
@@ -893,10 +893,10 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 581,
+        "records": 591,
         "atoms": 430,
         "quotes": 9,
-        "chronology": 19,
+        "chronology": 29,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1010,10 +1010,10 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 363,
+        "records": 369,
         "atoms": 205,
         "quotes": 56,
-        "chronology": 46,
+        "chronology": 52,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/master_chronology.md",
@@ -1569,10 +1569,10 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 192,
+        "records": 197,
         "atoms": 75,
         "quotes": 21,
-        "chronology": 35,
+        "chronology": 40,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s75_ott_chronology.md",
@@ -1602,10 +1602,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 620,
+        "records": 627,
         "atoms": 229,
         "quotes": 195,
-        "chronology": 107,
+        "chronology": 114,
         "files": [
           "registers/chronology/events_canonical.md",
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -153056,6 +153056,162 @@
       "file": "registers/chronology/events_canonical.md",
       "message": "Missing required field: certainty",
       "record_id": "EVENT-SORTIE-CLOSER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-DERNIER-CONCERT-WARSAW-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-SESSIONS-RCA-ARROW-STUDIOS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-SESSIONS-RCA-ARROW-STUDIOS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-COUVERTURE-NME-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-COUVERTURE-NME-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-PREMIERE-PEEL-SESSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-PREMIERE-PEEL-SESSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-NAISSANCE-NATALIE-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-NAISSANCE-NATALIE-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-DEUXIEME-PEEL-SESSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-DEUXIEME-PEEL-SESSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-FETE-FACTORY-NOUVEL-AN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-FETE-FACTORY-NOUVEL-AN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: type",
+      "record_id": "EVENT-CONCERT-DERBY-HALL-BURY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/events_canonical.md",
+      "message": "Missing required field: certainty",
+      "record_id": "EVENT-CONCERT-DERBY-HALL-BURY"
     },
     {
       "level": "warning",

@@ -33,6 +33,7 @@ chronology:
     statut: archive photographique établie
 
   - id: CHR-S41-1979-01-23-CURTIS-EPILEPSY-DIAGNOSIS
+    same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -47,6 +48,7 @@ chronology:
     statut: repère médical à croiser avec S45
 
   - id: CHR-S41-1979-01-31-FIRST-PEEL-SESSION
+    same_as: EVENT-PREMIERE-PEEL-SESSION
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -62,6 +64,7 @@ chronology:
     statut: session BBC établie
 
   - id: CHR-S41-1979-03-04-EDEN-GENETIC-MARQUEE
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -107,6 +110,7 @@ chronology:
     statut: session album établie
 
   - id: CHR-S41-1979-04-16-NATALIE-CURTIS-BORN
+    same_as: EVENT-NAISSANCE-NATALIE-CURTIS
     date_precision: jour
     categorie: jalon
     source_id: S41
@@ -196,6 +200,7 @@ chronology:
     statut: réception live à croiser avec NME
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK-ATMOSPHERE
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     source_id: S41

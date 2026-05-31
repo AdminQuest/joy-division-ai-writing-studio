@@ -46,7 +46,7 @@ chronologie_a_croiser:
     statut: verifiable
   - id: CHR-S35-P05-1977-05-26
     date_precision: jour
-    categorie: jalon
+    categorie: contexte
     date: "26 mai 1977"
     label: "Morris voit Television et Blondie au Free Trade Hall et lit dans Shy Talk une annonce drummer wanted pour Warsaw"
     source_id: S35

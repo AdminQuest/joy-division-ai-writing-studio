@@ -156,7 +156,7 @@ events:
 
   - id: CHR-S20-011
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1981
     precision_date: annee
     event: "Manchester City Council décide de démolir Fort Beswick."
@@ -170,7 +170,7 @@ events:
 
   - id: CHR-S20-012
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1982
     precision_date: annee
     event: "Début de la démolition progressive de Fort Beswick et remplacement par des maisons conventionnelles de deux étages."
@@ -186,7 +186,7 @@ events:
     date_precision: intervalle
     date_debut: 1990
     date_fin: 1999
-    categorie: reception_posthume
+    categorie: contexte
     date: "années 1990"
     precision_date: decade
     event: "Émergence du city centre living et gentrification des mills dans Manchester."

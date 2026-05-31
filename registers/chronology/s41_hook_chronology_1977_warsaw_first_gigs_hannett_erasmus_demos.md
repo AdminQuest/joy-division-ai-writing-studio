@@ -89,6 +89,7 @@ chronology:
     statut: événement établi ; détails à croiser
 
   - id: CHR-S41-1977-07-18-WARSAW-DEMO-PENNINE
+    same_as: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
     date_precision: jour
     categorie: jalon
     source_id: S41

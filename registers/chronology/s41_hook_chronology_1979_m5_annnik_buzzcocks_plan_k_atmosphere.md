@@ -17,6 +17,7 @@ chronology:
     statut: date exacte à croiser avec gig list
 
   - id: CHR-S41-1979-08-13-NASHVILLE-ANNIK
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     source_id: S41

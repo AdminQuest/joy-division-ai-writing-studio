@@ -205,6 +205,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1979-026
+same_as: EVENT-FETE-FACTORY-NOUVEL-AN
 date_precision: jour
 categorie: jalon
 type_unite: chronology

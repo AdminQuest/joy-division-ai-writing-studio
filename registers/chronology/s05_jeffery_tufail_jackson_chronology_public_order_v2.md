@@ -70,7 +70,7 @@ events:
 
   - id: CHR-S05-005
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1981
     precision_date: annee
     event: "Émeutes de Moss Side dans un contexte de tensions autour du racisme policier et des relations police-communautés."
@@ -84,7 +84,7 @@ events:
 
   - id: CHR-S05-006
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1985
     precision_date: annee
     event: "Battle of Brittan à l’Université de Manchester et campagne ultérieure de police vigilantism."
@@ -100,7 +100,7 @@ events:
 
   - id: CHR-S05-007
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1986
     precision_date: annee
     event: "Affaire Stalker et controverses publiques autour de James Anderton."
@@ -117,7 +117,7 @@ events:
 
   - id: CHR-S05-008
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1992
     precision_date: annee
     event: "Émeute d’Ordsall dans un contexte de désindustrialisation, policing lourd et tensions autour de la gentrification."
@@ -131,7 +131,7 @@ events:
 
   - id: CHR-S05-009
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2001
     precision_date: annee
     event: "Émeutes d’Oldham, dans un contexte de racialisation, extrême droite et discours de community cohesion."
@@ -145,7 +145,7 @@ events:
 
   - id: CHR-S05-010
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2004
     precision_date: annee
     event: "Verrouillage du centre de Manchester pour la conférence du Labour Party, exemple de sécuritisation urbaine."
@@ -159,7 +159,7 @@ events:
 
   - id: CHR-S05-011
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2011
     precision_date: annee
     event: "Émeutes de Pendleton / Salford et Manchester dans le contexte des English Riots."
@@ -175,7 +175,7 @@ events:
     date_precision: intervalle
     date_debut: 2013
     date_fin: 2014
-    categorie: reception_posthume
+    categorie: contexte
     date: "2013-2014"
     precision_date: range
     event: "Policing des protestations anti-fracking à Barton Moss."

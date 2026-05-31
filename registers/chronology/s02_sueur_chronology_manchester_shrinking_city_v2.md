@@ -27,7 +27,7 @@ events:
 
   - id: CHR-S02-002
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1996
     precision_date: annee
     event: "L’attentat de l’IRA contre le centre de Manchester devient un accélérateur de reconstruction et de recomposition du centre-ville."
@@ -41,7 +41,7 @@ events:
 
   - id: CHR-S02-003
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2002
     precision_date: annee
     event: "Les Jeux du Commonwealth participent au récit de relance et d’attractivité de Manchester."
@@ -55,7 +55,7 @@ events:
 
   - id: CHR-S02-004
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2011
     precision_date: annee
     event: "Le rapport sénatorial Villes du futur, futur des villes fixe Manchester comme exemple de shrinking city et de renouveau urbain."

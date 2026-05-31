@@ -52,6 +52,7 @@ chronology:
     statut: concert établi ; détails matériels à croiser
 
   - id: CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     source_id: S41

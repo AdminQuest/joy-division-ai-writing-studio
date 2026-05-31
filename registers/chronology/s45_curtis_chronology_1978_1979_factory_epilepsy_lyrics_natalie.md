@@ -64,6 +64,7 @@ statut: datation mensuelle donnée par S45
 
 ```yaml
 id: CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT
+a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
 source_id: S45
@@ -83,6 +84,7 @@ statut: événement établi par S45 ; à croiser avec autres mémoires
 
 ```yaml
 id: CHR-S45-1979-01-13-NME-COVER
+same_as: EVENT-COUVERTURE-NME-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 source_id: S45
@@ -121,6 +123,7 @@ statut: datation à préciser selon discographie BBC
 
 ```yaml
 id: CHR-S45-1979-01-23-SPECIALIST-EPILEPSY
+same_as: EVENT-DIAGNOSTIC-EPILEPSIE-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 source_id: S45
@@ -198,6 +201,7 @@ statut: événement discographique établi
 
 ```yaml
 id: CHR-S45-1979-04-16-NATALIE-BIRTH
+same_as: EVENT-NAISSANCE-NATALIE-CURTIS
 date_precision: jour
 categorie: jalon
 source_id: S45

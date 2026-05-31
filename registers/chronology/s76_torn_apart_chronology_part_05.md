@@ -50,6 +50,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-005
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
 date_precision: intervalle
 date_debut: 1978-05-03
 date_fin: 1978-05-05

@@ -181,6 +181,7 @@ notes: >
 
 ```yaml
 id: CHR-1978-001
+same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
 date_precision: circa
 categorie: jalon
 
@@ -399,6 +400,7 @@ notes: >
 
 ```yaml
 id: CHR-1980-001
+same_as: EVENT-CONCERT-DERBY-HALL-BURY
 date_precision: jour
 categorie: jalon
 

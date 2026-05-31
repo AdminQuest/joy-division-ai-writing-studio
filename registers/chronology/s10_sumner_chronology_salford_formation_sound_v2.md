@@ -110,7 +110,7 @@ events:
 
   - id: CHR-S10-1974-001
     date_precision: annee
-    categorie: jalon
+    categorie: contexte
     date: 1974
     precision_date: annee
     event: "Sumner assiste à un concert de Lou Reed au Free Trade Hall."
@@ -264,6 +264,7 @@ events:
       - S10-A019
 
   - id: CHR-S10-1978-005
+    same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
     date_precision: jour
     categorie: jalon
     date: 1978-09-20
@@ -295,6 +296,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-007
+    a_scinder_etape_10: true
     date_precision: jour
     categorie: jalon
     date: 1978-12-27

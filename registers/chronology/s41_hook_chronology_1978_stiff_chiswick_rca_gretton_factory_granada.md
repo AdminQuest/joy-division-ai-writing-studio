@@ -64,6 +64,7 @@ chronology:
     statut: datation à consolider avec sessionographies
 
   - id: CHR-S41-1978-05-ARROW-STUDIOS-RCA
+    same_as: EVENT-SESSIONS-RCA-ARROW-STUDIOS
     date_precision: mois
     categorie: jalon
     source_id: S41
@@ -154,6 +155,7 @@ chronology:
     statut: datation à préciser ; à croiser avec reviews NME/Sounds
 
   - id: CHR-S41-1978-09-20-GRANADA-REPORTS-SHADOWPLAY
+    same_as: EVENT-DEBUT-TELEVISION-GRANADA-SHADOWPLAY
     date_precision: jour
     categorie: jalon
     source_id: S41

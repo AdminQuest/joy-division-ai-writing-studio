@@ -21,6 +21,7 @@ chronology:
     statut: événement établi ; détails critiques à croiser
 
   - id: CHR-S45-1980-04-07-PHENOBARBITONE-OVERDOSE
+    same_as: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
     date_precision: jour
     categorie: jalon
     source_id: S45
@@ -37,6 +38,7 @@ chronology:
     statut: événement établi par S45 ; note suicidaire à prudence
 
   - id: CHR-S45-1980-04-08-DERBY-HALL-BURY-RIOT
+    same_as: EVENT-CONCERT-DERBY-HALL-BURY
     date_precision: jour
     categorie: jalon
     source_id: S45

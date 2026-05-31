@@ -91,7 +91,7 @@ notes: >
 ```yaml
 id: CHR-S76-1977-001
 date_precision: jour
-categorie: jalon
+categorie: contexte
 type_unite: chronology
 date: 1977-03-03
 precision_date: exact
@@ -244,6 +244,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-005
+same_as: EVENT-PREMIERES-DEMOS-WARSAW-PENNINE-SOUND
 date_precision: jour
 categorie: jalon
 type_unite: chronology

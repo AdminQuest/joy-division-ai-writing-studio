@@ -84,7 +84,7 @@ events:
 
   - id: CHR-S06-006
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1985
     precision_date: annee
     event: "Le Manchester Evening News publie le reportage « Horrors of the concrete jungle » sur Hulme."
@@ -99,7 +99,7 @@ events:
 
   - id: CHR-S06-007
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1986
     precision_date: annee
     event: "Hulme présente le plus fort taux de chômage des jeunes à Manchester selon les sources mobilisées par Carter."
@@ -113,7 +113,7 @@ events:
 
   - id: CHR-S06-008
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1990
     precision_date: annee
     event: "Le Hulme Views Project publie des témoignages et autoportraits d’habitants de Hulme."
@@ -128,7 +128,7 @@ events:
 
   - id: CHR-S06-009
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1993
     precision_date: annee
     event: "Démolition des Hulme Crescents, présentée dans la presse comme signal d’un nouveau départ pour le quartier."
@@ -142,7 +142,7 @@ events:
 
   - id: CHR-S06-010
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 1995
     precision_date: annee
     event: "La presse locale présente le redevelopment de Hulme comme inner-city rebirth."
@@ -156,7 +156,7 @@ events:
 
   - id: CHR-S06-011
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2021
     precision_date: annee
     event: "Publication en ligne par Cambridge University Press de l’article d’Isabelle Carter sur Hulme."
@@ -172,7 +172,7 @@ events:
 
   - id: CHR-S06-012
     date_precision: annee
-    categorie: reception_posthume
+    categorie: contexte
     date: 2023
     precision_date: annee
     event: "Parution bibliographique de l’article de Carter dans Urban History, vol. 50, p. 248-263."

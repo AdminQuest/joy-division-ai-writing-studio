@@ -131,6 +131,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-016
+same_as: EVENT-ENREGISTREMENT-A-FACTORY-SAMPLE-CARGO
 date_precision: jour
 categorie: jalon
 type_unite: chronology

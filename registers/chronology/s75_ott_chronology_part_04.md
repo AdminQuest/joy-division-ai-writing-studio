@@ -319,6 +319,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-005
+a_scinder_etape_10: true
 date_precision: jour
 categorie: jalon
 type_unite: chronology
@@ -356,6 +357,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-006
+same_as: EVENT-OVERDOSE-PHENOBARBITAL-IAN-CURTIS
 date_precision: jour
 categorie: jalon
 type_unite: chronology
