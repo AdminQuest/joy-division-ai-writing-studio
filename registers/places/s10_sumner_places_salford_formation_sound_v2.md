@@ -30,6 +30,13 @@ places:
     usage_s10: "Quartier d'enfance de Sumner, marqué par industries, prison, Irwell et sociabilité ouvrière."
 
   - id: PLACE-WHEATHILL-CHEMICAL-WORKS
+    lat: 53.49900
+    lng: -2.26000
+    geo_precision: rue
+    prudence_methodologique: >-
+      Mention dans l'autobiographie de B. Sumner (Chapter and Verse). Source :
+      barnesandnoble.com/w/chapter-and-verse-bernard-sumner. Localisation
+      approximative autour d'Alfred Street, Lower Broughton.
     label: "Wheathill Chemical Works"
     type: industrie
     type_detail: site_industriel
@@ -76,6 +83,13 @@ places:
     usage_s10: "Lieu de rencontre de Bernard Sumner, Peter Hook, Terry Mason et autres membres de leur sociabilité adolescente."
 
   - id: PLACE-NORTH-SALFORD-YOUTH-CLUB
+    lat: 53.50400
+    lng: -2.25670
+    geo_precision: rue
+    prudence_methodologique: >-
+      North Salford Civic Youth Centre, Devonshire Street, Higher Broughton.
+      Source : cylex-uk (north-salford-civic-youth-centre-14520351). Adresse
+      postale ; bâtiment historique non confirmé.
     label: "North Salford Youth Club"
     type: salle
     type_detail: youth_club
@@ -105,6 +119,12 @@ places:
     usage_s10: "Lieu où Sumner et Hook déposent l'annonce pour recruter un chanteur."
 
   - id: PLACE-GREY-MARE
+    lat: 53.48198
+    lng: -2.30548
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Grey Mare, 386-388 Eccles New Road, Weaste, Salford. Source :
+      https://camra.org.uk/pubs/grey-mare-weaste-170889. Ancien pub réaffecté.
     label: "Grey Mare"
     type: studio
     type_detail: lieu_repetition
@@ -126,6 +146,13 @@ places:
     usage_s10: "Lieu du premier concert de Warsaw / Stiff Kittens le 29 mai 1977."
 
   - id: PLACE-RAFTERS-MANCHESTER
+    lat: 53.47500
+    lng: -2.24080
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Rafters, 65 Oxford Street, Manchester ; concert JD 14/04/1978. Source :
+      https://en.wikipedia.org/wiki/Rafters_(nightclub). Bâtiment localisable
+      précisément.
     label: "Rafters"
     type: salle
     type_detail: salle_concert
@@ -148,6 +175,10 @@ places:
     usage_s10: "Lieu de répétition central, proche du futur Haçienda, associé à Gretton et aux photographies de Curtis."
 
   - id: PLACE-GREENDOW-COMMERCIALS-STUDIO
+    prudence_methodologique: >-
+      Arrow Studios / Greendow Commercials (sessions RCA). Source :
+      https://www.discogs.com/label/309893. Coordonnée inconnue : aucune adresse
+      fiable.
     label: "Greendow Commercials studio"
     type: studio
     type_detail: studio
@@ -156,6 +187,12 @@ places:
     usage_s10: "Studio commercial où se déroulent les sessions RCA / album avorté."
 
   - id: PLACE-PENNINE-STUDIOS-OLDHAM
+    lat: 53.53950
+    lng: -2.10540
+    geo_precision: rue
+    prudence_methodologique: >-
+      Pennine Sound Studios, Ripponden Road, Oldham. Source :
+      https://www.discogs.com/label/309892. Niveau voie ; n° exact non retrouvé.
     label: "Pennine Studios, Oldham"
     type: studio
     type_detail: studio
