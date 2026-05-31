@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-31T10:26:07",
+  "generated_at": "2026-05-31T12:02:33",
   "summary": {
-    "records_total": 7745,
+    "records_total": 7849,
     "records_by_kind": {
       "unknown": 1510,
       "source": 120,
@@ -12,13 +12,13 @@
       "myth": 102,
       "quote": 565,
       "chronology": 539,
-      "template": 361,
-      "concert": 197,
+      "template": 363,
+      "concert": 300,
       "person": 305,
       "quote_batch": 1,
       "rules": 1,
       "song": 110,
-      "session": 18
+      "session": 17
     },
     "diagnostics_total": 30047,
     "errors": 0,
@@ -34,7 +34,7 @@
     "atom": 2752,
     "chronology": 539,
     "concept": 463,
-    "concert": 197,
+    "concert": 300,
     "metadata": 274,
     "motif": 427,
     "myth": 102,
@@ -42,10 +42,10 @@
     "quote": 565,
     "quote_batch": 1,
     "rules": 1,
-    "session": 18,
+    "session": 17,
     "song": 110,
     "source": 120,
-    "template": 361,
+    "template": 363,
     "unknown": 1510
   },
   "records_by_source": {
@@ -723,6 +723,10 @@
       196
     ],
     [
+      "registers/concerts/concert_canonical_units.md",
+      104
+    ],
+    [
       "sources/marco_broll/source.md",
       77
     ],
@@ -832,10 +836,6 @@
     ],
     [
       "sources/curtis_savage_so_this_is_permanence/atoms_dm_s79_handwritten_songs_v2.md",
-      30
-    ],
-    [
-      "registers/s58_ilardi_specialized_registers.md",
       30
     ]
   ],
