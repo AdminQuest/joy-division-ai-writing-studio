@@ -60,7 +60,9 @@
     </main>
   </div>
 
-  <script src="../lib/dynamic-registers.js"></script>
+  <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
+       (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
+  <script src="../lib/dynamic-registers.js?v=7c"></script>
   <script src="app.js"></script>
 </body>
 </html>

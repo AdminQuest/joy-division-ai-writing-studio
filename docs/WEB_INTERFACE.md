@@ -253,3 +253,28 @@ Prochaines étapes possibles :
 |---|---|---|
 | 2026-05-09 | Création de l’interface web locale v0.1 | ChatGPT |
 | 2026-05-10 | Mise à jour vers portail unique et studios modulaires | ChatGPT |
+
+---
+
+## Convention de cache — loader partagé `apps/lib/dynamic-registers.js`
+
+Toutes les pages registres (`apps/*-register/index.html`) chargent le **même**
+loader `apps/lib/dynamic-registers.js`. GitHub Pages et les navigateurs mettent
+ce fichier en cache de façon agressive (asset statique de longue durée).
+
+**Règle** : les pages l'incluent avec un **jeton de version** —
+`<script src="../lib/dynamic-registers.js?v=<jeton>"></script>` — et **à chaque
+modification du loader, on BUMPE le jeton dans TOUTES les pages** qui l'incluent :
+
+```
+grep -rl 'lib/dynamic-registers.js' apps/*/index.html   # liste des pages à mettre à jour
+```
+
+Sans ce bump, le cache rejoue l'ancien loader et les pages se cassent
+silencieusement (incident concerts 7c : l'ancien loader, en cache, ignorait les
+listes YAML de 1er niveau et ne classait pas `CONCERT-` → page vide alors que
+données + code étaient corrects sur `main`).
+
+**Jeton courant : `v=7c`** (8 pages : song, organizations, concerts, concept,
+places, people, quote, chronology). Étape 8 (citations) touchant le loader :
+passer à `v=8`, etc.
