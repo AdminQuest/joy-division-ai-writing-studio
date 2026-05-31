@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-31T06:52:23",
+  "generated_at": "2026-05-31T10:26:07",
   "summary": {
-    "records_total": 7743,
+    "records_total": 7745,
     "records_by_kind": {
-      "unknown": 1509,
+      "unknown": 1510,
       "source": 120,
       "metadata": 274,
       "atom": 2752,
@@ -12,7 +12,7 @@
       "myth": 102,
       "quote": 565,
       "chronology": 539,
-      "template": 360,
+      "template": 361,
       "concert": 197,
       "person": 305,
       "quote_batch": 1,
@@ -20,9 +20,9 @@
       "song": 110,
       "session": 18
     },
-    "diagnostics_total": 30046,
+    "diagnostics_total": 30047,
     "errors": 0,
-    "warnings": 30046,
+    "warnings": 30047,
     "sources_declared_in_registre_json": 95,
     "sources_used_in_records": 79,
     "sources_exported": 79,
@@ -45,8 +45,8 @@
     "session": 18,
     "song": 110,
     "source": 120,
-    "template": 360,
-    "unknown": 1509
+    "template": 361,
+    "unknown": 1510
   },
   "records_by_source": {
     "REGISTRY": {
@@ -844,7 +844,7 @@
     "invalid_controlled_value": 2630,
     "missing_required_field": 9260,
     "schema_warning": 492,
-    "unknown_yaml_block": 1509,
+    "unknown_yaml_block": 1510,
     "v2_migration_debt": 15463
   },
   "top_files_by_issue_count": [
@@ -8320,6 +8320,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
       "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/places/concert_venues_v2.md",
+      "record_id": "PLACES-CONCERT-VENUES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -218915,6 +218923,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
       "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/places/concert_venues_v2.md",
+      "record_id": "PLACES-CONCERT-VENUES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

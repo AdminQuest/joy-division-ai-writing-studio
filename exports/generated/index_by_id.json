@@ -232172,6 +232172,496 @@
       ]
     }
   },
+  "PLACES-CONCERT-VENUES-V2": {
+    "kind": "unknown",
+    "id": "PLACES-CONCERT-VENUES-V2",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "id": "PLACES-CONCERT-VENUES-V2",
+      "type_unite": "registre_lieux",
+      "source_label": "Étape 7a — lieux de concerts (chronologie S41/S45/S75/S76)",
+      "statut": "integration_directe"
+    }
+  },
+  "NO_ID::registers/places/concert_venues_v2.md::5573": {
+    "kind": "template",
+    "id": "NO_ID::registers/places/concert_venues_v2.md::5573",
+    "file": "registers/places/concert_venues_v2.md",
+    "heading": "Lieux de concerts — extension du registre des lieux (étape 7a)",
+    "data": {
+      "places": [
+        {
+          "id": "PLACE-RUSSELL-CLUB",
+          "label": "Russell Club (The Factory)",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S45"
+          ],
+          "usage": "Club de Royce Road, Hulme ; siège des soirées « The Factory » (Wilson/Erasmus) et venue récurrent de Joy Division."
+        },
+        {
+          "id": "PLACE-BAND-ON-THE-WALL",
+          "label": "Band on the Wall",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Salle de Swan Street, Manchester ; concert de Joy Division (deal Factory annoncé)."
+        },
+        {
+          "id": "PLACE-KELLYS-MANCHESTER",
+          "label": "Kelly's",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Club de Manchester ; concert Rock Against Racism de Joy Division."
+        },
+        {
+          "id": "PLACE-PIPERS-CYPRUS-TAVERN",
+          "label": "Pipers (Cyprus Tavern)",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Soirée « Pipers » au Cyprus Tavern, Princess Street, Manchester ; concert de Warsaw. Distinct du club « Pips » (PLACE-PIPS)."
+        },
+        {
+          "id": "PLACE-MANCHESTER-APOLLO",
+          "label": "Manchester Apollo",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Grande salle de Manchester ; concert de Joy Division (tournée nationale 1979)."
+        },
+        {
+          "id": "PLACE-OLDHAM-TOWER-CLUB",
+          "label": "Oldham Tower Club",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Tower Club d'Oldham ; concert de Warsaw/Joy Division devant un public quasi nul."
+        },
+        {
+          "id": "PLACE-CHECK-INN-ALTRINCHAM",
+          "label": "Check Inn, Altrincham",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S45"
+          ],
+          "usage": "Club d'Altrincham ; concert de Joy Division."
+        },
+        {
+          "id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+          "label": "Bowdon Vale Youth Club",
+          "type": "salle",
+          "type_detail": "youth_club",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Youth club de la région d'Altrincham ; concert filmé par Malcolm Whitehead (« She's Lost Control »)."
+        },
+        {
+          "id": "PLACE-NEW-OSBOURNE-CLUB",
+          "label": "New Osbourne Club",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S45"
+          ],
+          "usage": "Club de Manchester ; concert bénéfice *City Fun*."
+        },
+        {
+          "id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+          "label": "Salford Technical College",
+          "type": "education",
+          "type_detail": "college_technique",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Établissement de Salford ; concert de Warsaw (avec Drones / Slaughter & The Dogs / V2).",
+          "prudence_methodologique": "CANDIDAT DE RÉCONCILIATION (non tranché) : possible même établissement que PLACE-S83-004 (« Salford Technical School », facette S83/rencontre Hannett) et la mention joydiv « Salford College of Technology ». same_as différé à la curation manuelle (étape 4)."
+        },
+        {
+          "id": "PLACE-ERICS-LIVERPOOL",
+          "label": "Eric's",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Club emblématique de Mathew Street, Liverpool ; concerts de Joy Division (dont avec les Rich Kids)."
+        },
+        {
+          "id": "PLACE-SWINGING-APPLE-LIVERPOOL",
+          "label": "Swinging Apple, Liverpool",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Club de Liverpool ; dernier concert sous le nom Warsaw (réveillon 1977).",
+          "prudence_methodologique": "VARIANTE DE NOM (un seul lieu) : « Swinging Apple » (S41) / « Spinning Apple » (S76) — orthographe à trancher à la curation ; non dédoublé."
+        },
+        {
+          "id": "PLACE-LIVERPOOL-EMPIRE",
+          "label": "Liverpool Empire",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Théâtre de Liverpool ; concert de Lou Reed (1973) auquel assiste Ian Curtis — venue de concert d'un autre artiste, conservé comme lieu."
+        },
+        {
+          "id": "PLACE-QUEENS-HALL-LEEDS",
+          "label": "Queen's Hall, Leeds",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S41",
+            "S45",
+            "S76"
+          ],
+          "usage": "Grande halle de Leeds ; hôte du Futurama Festival 1979 où joue Joy Division."
+        },
+        {
+          "id": "PLACE-LEEDS-UNIVERSITY",
+          "label": "Leeds University",
+          "type": "education",
+          "type_detail": "universite",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Université de Leeds ; concert de Joy Division (tournée Buzzcocks)."
+        },
+        {
+          "id": "PLACE-ROOTS-CLUB-LEEDS",
+          "label": "Roots Club, Leeds",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Club de Leeds ; concert de Joy Division avec la Durutti Column."
+        },
+        {
+          "id": "PLACE-FAN-CLUB-LEEDS",
+          "label": "F Club (Brannigan's), Leeds",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Le « F Club » au Brannigan's, Leeds ; concert de Joy Division."
+        },
+        {
+          "id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+          "label": "Rock Garden, Middlesbrough",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Club de Middlesbrough ; concert de Warsaw promu par Bob Last."
+        },
+        {
+          "id": "PLACE-NEWCASTLE-TOWN-HALL",
+          "label": "Newcastle Town Hall (annexe)",
+          "type": "salle",
+          "type_detail": "salle_municipale",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Annexe du Town Hall de Newcastle ; concert de Warsaw avec Penetration."
+        },
+        {
+          "id": "PLACE-CAIRD-HALL-DUNDEE",
+          "label": "Caird Hall, Dundee",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Salle de Dundee ; concert de Joy Division (tournée Buzzcocks) où Ian s'effondre."
+        },
+        {
+          "id": "PLACE-ROYAL-STANDARD-BRADFORD",
+          "label": "Royal Standard, Bradford",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Pub-venue de Bradford ; concert de Joy Division."
+        },
+        {
+          "id": "PLACE-COACH-HOUSE-HUDDERSFIELD",
+          "label": "Coach House, Huddersfield",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Salle de Huddersfield ; concert de Joy Division devant un public minuscule."
+        },
+        {
+          "id": "PLACE-WAREHOUSE-PRESTON",
+          "label": "The Warehouse, Preston",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Club de Preston ; concert de Joy Division avec Section 25. Distinct de PLACE-WAREHOUSE-CHICAGO."
+        },
+        {
+          "id": "PLACE-WINTER-GARDENS-MALVERN",
+          "label": "Winter Gardens, Malvern",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Salle de Malvern ; concert de Joy Division."
+        },
+        {
+          "id": "PLACE-THE-SQUAT-MANCHESTER",
+          "label": "The Squat, Manchester",
+          "type": "salle",
+          "type_detail": "lieu_alternatif",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Bâtiment universitaire désaffecté (Devas Street, Manchester) occupé ; plusieurs concerts de Warsaw (Stuff the Jubilee, Time's Up)."
+        },
+        {
+          "id": "PLACE-DERBY-HALL-BURY",
+          "label": "Derby Hall, Bury",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S41",
+            "S75",
+            "S76"
+          ],
+          "usage": "Salle du complexe municipal de Bury ; avant-dernier concert (8 avril 1980), Curtis très affaibli.",
+          "prudence_methodologique": "VARIANTE DE NOM (un seul lieu) : « Derby Hall, Bury » (S75/S76) et « Bury Town Hall » (S41) désignent le même complexe — non dédoublé."
+        },
+        {
+          "id": "PLACE-AJANTA-THEATRE-DERBY",
+          "label": "Ajanta Theatre, Derby",
+          "type": "salle",
+          "type_detail": "salle_spectacle",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Cinéma-théâtre de Derby ; avant-dernier concert de Joy Division (19 avril 1980)."
+        },
+        {
+          "id": "PLACE-RAINBOW-THEATRE-LONDON",
+          "label": "Rainbow Theatre, London",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S41",
+            "S45",
+            "S75",
+            "S76"
+          ],
+          "usage": "Salle de Finsbury Park, Londres ; concerts de Joy Division (dont la crise de Curtis sous stroboscopes, 4 avril 1980)."
+        },
+        {
+          "id": "PLACE-ELECTRIC-BALLROOM-CAMDEN",
+          "label": "Electric Ballroom, Camden",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Salle de Camden, Londres ; concerts de Joy Division."
+        },
+        {
+          "id": "PLACE-MOONLIGHT-CLUB-LONDON",
+          "label": "Moonlight Club, West Hampstead",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Club de West Hampstead, Londres ; mini-résidence de Joy Division (avril 1980)."
+        },
+        {
+          "id": "PLACE-YMCA-LONDON",
+          "label": "YMCA, London",
+          "type": "salle",
+          "type_detail": "salle_polyvalente",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Centre YMCA de Londres ; concerts de Joy Division.",
+          "prudence_methodologique": "DÉSAMBIGUÏSATION INCERTAINE (non tranchée) : les mentions « YMCA Prince of Wales Conference Centre » (2 août 1979) et « YMCA, Tottenham Court Road » (1979) pourraient désigner UN ou DEUX lieux distincts — regroupé provisoirement sous un seul PLACE- ; à scinder à la curation si confirmé distinct."
+        },
+        {
+          "id": "PLACE-BRUNEL-UNIVERSITY",
+          "label": "Brunel University, Uxbridge",
+          "type": "education",
+          "type_detail": "universite",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Université de Brunel, Uxbridge ; concert de Joy Division interrompu (crachats / coupure)."
+        },
+        {
+          "id": "PLACE-WALTHAMSTOW-YOUTH-CLUB",
+          "label": "Walthamstow Youth Club",
+          "type": "salle",
+          "type_detail": "youth_club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Youth club de Walthamstow, Londres ; concert de Joy Division (interview d'Annik Honoré après)."
+        },
+        {
+          "id": "PLACE-ACKLAM-HALL-LONDON",
+          "label": "Acklam Hall, London",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Salle sous l'autoroute (Ladbroke Grove), Londres ; concert de Joy Division le lendemain de la naissance de Natalie."
+        },
+        {
+          "id": "PLACE-HIGH-WYCOMBE-TOWN-HALL",
+          "label": "High Wycombe Town Hall",
+          "type": "salle",
+          "type_detail": "salle_municipale",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Town Hall de High Wycombe ; concert de Joy Division avec Killing Joke."
+        },
+        {
+          "id": "PLACE-LOCARNO-BRISTOL",
+          "label": "Locarno, Bristol",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Salle de Bristol ; Joy Division fait la balance mais ne joue pas (éjection) — concert non tenu, lieu conservé."
+        },
+        {
+          "id": "PLACE-HOPE-AND-ANCHOR-LONDON",
+          "label": "Hope & Anchor, Islington",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S10",
+            "S41",
+            "S45",
+            "S75",
+            "S76"
+          ],
+          "usage": "Pub-venue d'Islington, Londres ; premier concert londonien (27 déc. 1978), suivi de la première crise de Curtis. Composante GIG des bundles a_scinder."
+        },
+        {
+          "id": "PLACE-NASHVILLE-ROOMS-LONDON",
+          "label": "Nashville Rooms, London",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Pub-venue de West Kensington, Londres ; concert (13 août 1979) où Annik Honoré voit le groupe. Composante GIG des bundles a_scinder."
+        },
+        {
+          "id": "PLACE-MARQUEE-LONDON",
+          "label": "Marquee Club, London",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41"
+          ],
+          "usage": "Club de Wardour Street, Londres ; concert de Joy Division en support de The Cure (4 mars 1979). Composante GIG d'un bundle a_scinder."
+        },
+        {
+          "id": "PLACE-PLAN-K-BRUSSELS",
+          "label": "Plan K, Brussels",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S75",
+            "S76"
+          ],
+          "usage": "Espace culturel de Bruxelles ; concerts de Joy Division avec Cabaret Voltaire."
+        },
+        {
+          "id": "PLACE-LES-BAINS-DOUCHES-PARIS",
+          "label": "Les Bains Douches, Paris",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S41",
+            "S76"
+          ],
+          "usage": "Club parisien ; concert de Joy Division (longue setlist)."
+        },
+        {
+          "id": "PLACE-PARADISO-AMSTERDAM",
+          "label": "Paradiso, Amsterdam",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Salle d'Amsterdam ; concert de la tournée européenne (janvier 1980)."
+        },
+        {
+          "id": "PLACE-BASEMENT-COLOGNE",
+          "label": "Basement, Cologne",
+          "type": "salle",
+          "type_detail": "club",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Club underground de Cologne ; concert de la tournée européenne."
+        },
+        {
+          "id": "PLACE-EFFENAAR-EINDHOVEN",
+          "label": "Effenaar, Eindhoven",
+          "type": "salle",
+          "type_detail": "salle_concert",
+          "sources": [
+            "S76"
+          ],
+          "usage": "Salle d'Eindhoven ; concert avec Minny Pops (tournée européenne)."
+        }
+      ]
+    }
+  },
   "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2": {
     "kind": "unknown",
     "id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2",
@@ -232187,9 +232677,9 @@
       "source_year": "2011"
     }
   },
-  "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5573": {
+  "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5575": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5573",
+    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5575",
     "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des lieux — Manchester, Greater Manchester, Hulme",
     "data": {
@@ -232273,9 +232763,9 @@
       "source_year": "2015"
     }
   },
-  "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5575": {
+  "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5577": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5575",
+    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5577",
     "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
     "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
     "data": {
@@ -232401,9 +232891,9 @@
       "source_year": "2021/2023"
     }
   },
-  "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5577": {
+  "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5579": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5577",
+    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5579",
     "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
     "data": {
@@ -232503,9 +232993,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5579": {
+  "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5581": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5579",
+    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5581",
     "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
     "data": {
@@ -232596,9 +233086,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5581": {
+  "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5583": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5581",
+    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5583",
     "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
     "data": {
@@ -232853,9 +233343,9 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5583": {
+  "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5585": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5583",
+    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5585",
     "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
     "data": {
@@ -233024,9 +233514,9 @@
       ]
     }
   },
-  "NO_ID::registers/places/s35_morris_places_part_03.md::5584": {
+  "NO_ID::registers/places/s35_morris_places_part_03.md::5586": {
     "kind": "metadata",
-    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5584",
+    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5586",
     "file": "registers/places/s35_morris_places_part_03.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -233040,9 +233530,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/places/s35_morris_places_part_03.md::5585": {
+  "NO_ID::registers/places/s35_morris_places_part_03.md::5587": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5585",
+    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5587",
     "file": "registers/places/s35_morris_places_part_03.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -233253,9 +233743,9 @@
       ]
     }
   },
-  "NO_ID::registers/places/s35_morris_places_part_04.md::5586": {
+  "NO_ID::registers/places/s35_morris_places_part_04.md::5588": {
     "kind": "metadata",
-    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5586",
+    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5588",
     "file": "registers/places/s35_morris_places_part_04.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -233269,9 +233759,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/places/s35_morris_places_part_04.md::5587": {
+  "NO_ID::registers/places/s35_morris_places_part_04.md::5589": {
     "kind": "template",
-    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5587",
+    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5589",
     "file": "registers/places/s35_morris_places_part_04.md",
     "heading": "Lieux structurants",
     "data": {
@@ -233683,9 +234173,9 @@
       "source_year": "1986"
     }
   },
-  "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5591": {
+  "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5593": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5591",
+    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5593",
     "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
     "heading": "S12 — Citations candidates — AIDS, Anderton et ordre moral",
     "data": {
@@ -234200,9 +234690,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5603": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5605": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5603",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5605",
     "file": "registers/quotes/s35_morris_quotes_part_03.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -234216,9 +234706,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5604": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5606": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5604",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5606",
     "file": "registers/quotes/s35_morris_quotes_part_03.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -234275,9 +234765,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5605": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5607": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5605",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5607",
     "file": "registers/quotes/s35_morris_quotes_part_04.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -234291,9 +234781,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5606": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5608": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5606",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5608",
     "file": "registers/quotes/s35_morris_quotes_part_04.md",
     "heading": "Règle d’usage",
     "data": {
@@ -234373,9 +234863,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5607": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5609": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5607",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5609",
     "file": "registers/quotes/s35_morris_quotes_part_05.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -234389,9 +234879,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5608": {
+  "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5610": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5608",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5610",
     "file": "registers/quotes/s35_morris_quotes_part_05.md",
     "heading": "Règle d’usage",
     "data": {
@@ -234498,9 +234988,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5609": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5611": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5609",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5611",
     "file": "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Citations candidates — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -234606,9 +235096,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5610": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5612": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5610",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5612",
     "file": "registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Citations candidates — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -234742,9 +235232,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5611": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5613": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5611",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5613",
     "file": "registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Citations candidates — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -234920,9 +235410,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5612": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5614": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5612",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5614",
     "file": "registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Citations candidates — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -235126,9 +235616,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5613": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5615": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5613",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5615",
     "file": "registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Citations candidates — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -235374,9 +235864,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5614": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5616": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5614",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5616",
     "file": "registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Citations candidates — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -235580,9 +236070,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5615": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5617": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5615",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5617",
     "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
     "data": {
@@ -235674,9 +236164,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5616": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5618": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5616",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5618",
     "file": "registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Citations candidates — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -235880,9 +236370,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5617": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5619": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5617",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5619",
     "file": "registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Citations candidates — Timeline Three, année 1978",
     "data": {
@@ -236044,9 +236534,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5618": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5620": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5618",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5620",
     "file": "registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "S41 — Citations candidates — Timeline Four fin 1979, Europe, Annik, « We carried on »",
     "data": {
@@ -236236,9 +236726,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5619": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5621": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5619",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5621",
     "file": "registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Citations candidates — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -236512,9 +237002,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5620": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5622": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5620",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5622",
     "file": "registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "S41 — Citations candidates — *Licht und Blindheit*, « Love Will Tear Us Apart », Bournemouth, *Unknown Pleasures* track by track I",
     "data": {
@@ -236676,9 +237166,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5621": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5623": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5621",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5623",
     "file": "registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "S41 — Citations candidates — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
     "data": {
@@ -236840,9 +237330,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5622": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5624": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5622",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5624",
     "file": "registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Citations candidates — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -236976,9 +237466,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5623": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5625": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5623",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5625",
     "file": "registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "S41 — Citations candidates — *Unknown Pleasures* track by track II et Timeline Four janvier-octobre 1979",
     "data": {
@@ -237154,9 +237644,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5624": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5626": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5624",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5626",
     "file": "registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "S41 — Citations candidates — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville",
     "data": {
@@ -237318,9 +237808,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5625": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5627": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5625",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5627",
     "file": "registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md",
     "heading": "S41 — Citations candidates — Épilogue et *Closer Track by Track*",
     "data": {
@@ -237496,9 +237986,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5626": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5628": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5626",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5628",
     "file": "registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "S41 — Citations candidates — « Love Will Tear Us Apart » vidéo, Birmingham, suicide, funérailles, après-coup",
     "data": {
@@ -237647,9 +238137,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5627": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5629": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5627",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5629",
     "file": "registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "S41 — Citations candidates — Moonlight, Rainbow, Bury, Derby, divorce",
     "data": {
@@ -239320,9 +239810,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5677": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5679": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5677",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5679",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -239514,9 +240004,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5678": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5680": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5678",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5680",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -239671,9 +240161,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5679": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5681": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5679",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5681",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -239863,9 +240353,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5680": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5682": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5680",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5682",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -249177,9 +249667,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s86_breyley_quotes.md::5911": {
+  "NO_ID::registers/quotes/s86_breyley_quotes.md::5913": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s86_breyley_quotes.md::5911",
+    "id": "NO_ID::registers/quotes/s86_breyley_quotes.md::5913",
     "file": "registers/quotes/s86_breyley_quotes.md",
     "heading": "Citations — S86 — Breyley, 2018",
     "data": {
@@ -249318,9 +249808,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/quotes/s87_otter_bickerdike_quotes.md::5918": {
+  "NO_ID::registers/quotes/s87_otter_bickerdike_quotes.md::5920": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s87_otter_bickerdike_quotes.md::5918",
+    "id": "NO_ID::registers/quotes/s87_otter_bickerdike_quotes.md::5920",
     "file": "registers/quotes/s87_otter_bickerdike_quotes.md",
     "heading": "Citations — S87 — Otter Bickerdike, 2018",
     "data": {
@@ -249470,9 +249960,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/quotes/s88_cashell_quotes.md::5925": {
+  "NO_ID::registers/quotes/s88_cashell_quotes.md::5927": {
     "kind": "metadata",
-    "id": "NO_ID::registers/quotes/s88_cashell_quotes.md::5925",
+    "id": "NO_ID::registers/quotes/s88_cashell_quotes.md::5927",
     "file": "registers/quotes/s88_cashell_quotes.md",
     "heading": "Citations — S88 — Cashell, 2018",
     "data": {
@@ -250754,9 +251244,9 @@
       "source_year": "2011"
     }
   },
-  "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5986": {
+  "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5988": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5986",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5988",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -250848,9 +251338,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5987": {
+  "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5989": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5987",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5989",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -250898,9 +251388,9 @@
       "source_year": "2011"
     }
   },
-  "NO_ID::registers/references/s02_sueur_source_canonique.md::5989": {
+  "NO_ID::registers/references/s02_sueur_source_canonique.md::5991": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::5989",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::5991",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -250951,9 +251441,9 @@
       "source_year": "2015"
     }
   },
-  "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5991": {
+  "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5993": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5991",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5993",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -251051,9 +251541,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5992": {
+  "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5994": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5992",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5994",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -251105,9 +251595,9 @@
       "source_year": "2015"
     }
   },
-  "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5994": {
+  "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5996": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5994",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::5996",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -251144,9 +251634,9 @@
       "source_year": "2021/2023"
     }
   },
-  "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5996": {
+  "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5998": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5996",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::5998",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -251195,9 +251685,9 @@
       "source_year": "2021/2023"
     }
   },
-  "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5998": {
+  "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::6000": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5998",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::6000",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -251283,9 +251773,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5999": {
+  "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::6001": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5999",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::6001",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -251340,9 +251830,9 @@
       "source_year": "2010"
     }
   },
-  "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::6001": {
+  "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::6003": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::6001",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::6003",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -251388,9 +251878,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::6003": {
+  "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::6005": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::6003",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::6005",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -251441,9 +251931,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6005": {
+  "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6007": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6005",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6007",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -251529,9 +252019,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6006": {
+  "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6008": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6006",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::6008",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -251616,9 +252106,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6008": {
+  "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6010": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6008",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6010",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -251776,9 +252266,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6009": {
+  "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6011": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6009",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::6011",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -251836,9 +252326,9 @@
       "source_year": "1987"
     }
   },
-  "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::6011": {
+  "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::6013": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::6011",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::6013",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -251883,9 +252373,9 @@
       "source_year": "1986"
     }
   },
-  "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6013": {
+  "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6015": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6013",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6015",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -251947,9 +252437,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6014": {
+  "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6016": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6014",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::6016",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -252000,9 +252490,9 @@
       "source_year": "1986"
     }
   },
-  "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::6016": {
+  "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::6018": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::6016",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::6018",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252044,9 +252534,9 @@
       "source_year": "2021"
     }
   },
-  "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::6018": {
+  "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::6020": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::6018",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::6020",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252075,9 +252565,9 @@
       "source_year": "2021"
     }
   },
-  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6020": {
+  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6022": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6020",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6022",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Fonction documentaire",
     "data": {
@@ -252088,9 +252578,9 @@
       }
     }
   },
-  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6021": {
+  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6023": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6021",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6023",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Mots-clés normalisés",
     "data": {
@@ -252116,9 +252606,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6022": {
+  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6024": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6022",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6024",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Aliases bilingues / italiens",
     "data": {
@@ -252137,9 +252627,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6023": {
+  "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6025": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6023",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::6025",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Croisements recommandés",
     "data": {
@@ -252179,9 +252669,9 @@
       "source_year": "1990"
     }
   },
-  "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::6025": {
+  "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::6027": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::6025",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::6027",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252259,9 +252749,9 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6028": {
+  "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6030": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6028",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6030",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -252365,9 +252855,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6029": {
+  "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6031": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6029",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::6031",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -252421,9 +252911,9 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/references/s20_dodge_source_canonique.md::6031": {
+  "NO_ID::registers/references/s20_dodge_source_canonique.md::6033": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::6031",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::6033",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252464,9 +252954,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::6033": {
+  "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::6035": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::6033",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::6035",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252508,9 +252998,9 @@
       "source_year": "2016"
     }
   },
-  "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::6035": {
+  "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::6037": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::6035",
+    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::6037",
     "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252549,9 +253039,9 @@
       "source_year": "2016"
     }
   },
-  "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::6037": {
+  "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::6039": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::6037",
+    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::6039",
     "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252592,9 +253082,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::6039": {
+  "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::6041": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::6039",
+    "id": "NO_ID::registers/references/s29_goddard_missions_dead_souls_source_canonique.md::6041",
     "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -252659,9 +253149,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6042": {
+  "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6044": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6042",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6044",
     "file": "registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md",
     "heading": "Registre références — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -252675,9 +253165,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6044": {
+  "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6046": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6044",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::6046",
     "file": "registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md",
     "heading": "Références et objets à croiser",
     "data": {
@@ -252749,9 +253239,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6045": {
+  "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6047": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6045",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6047",
     "file": "registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md",
     "heading": "Registre références — S35 — Morris, *Record Play Pause*, 2019 — part 05",
     "data": {
@@ -252765,9 +253255,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6047": {
+  "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6049": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6047",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::6049",
     "file": "registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md",
     "heading": "Références et objets à croiser",
     "data": {
@@ -252913,9 +253403,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::6050": {
+  "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::6052": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::6050",
+    "id": "NO_ID::registers/references/s39_bauman_liquid_modernity_source_canonique.md::6052",
     "file": "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -252928,9 +253418,9 @@
       "source_year": "2000"
     }
   },
-  "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::6051": {
+  "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::6053": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::6051",
+    "id": "NO_ID::registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md::6053",
     "file": "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -252946,9 +253436,9 @@
       "source_year": "2021"
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6052": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6054": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6052",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6054",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -253005,9 +253495,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6053": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6055": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6053",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::6055",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -253157,9 +253647,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6054": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6056": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6054",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6056",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -253230,9 +253720,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6055": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6057": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6055",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::6057",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -253438,9 +253928,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6056": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6058": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6056",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6058",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -253525,9 +254015,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6057": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6059": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6057",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::6059",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -253736,9 +254226,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6058": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6060": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6058",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6060",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -253844,9 +254334,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6059": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6061": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6059",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::6061",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -254084,9 +254574,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6060": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6062": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6060",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6062",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -254185,9 +254675,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6061": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6063": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6061",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6063",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -254366,9 +254856,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6062": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6064": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6062",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6064",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -254474,9 +254964,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6063": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6065": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6063",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6065",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -254706,9 +255196,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6064": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6066": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6064",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6066",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -254765,9 +255255,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6065": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6067": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6065",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6067",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -254893,9 +255383,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6066": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6068": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6066",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6068",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -255001,9 +255491,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6067": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6069": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6067",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6069",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -255269,9 +255759,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6068": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6070": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6068",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6070",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -255356,9 +255846,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6069": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6071": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6069",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6071",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -255593,9 +256083,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6070": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6072": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6070",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6072",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -255694,9 +256184,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6071": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6073": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6071",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6073",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -256048,9 +256538,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6072": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6074": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6072",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6074",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -256191,9 +256681,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6073": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6075": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6073",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6075",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -256485,9 +256975,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6074": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6076": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6074",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6076",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -256572,9 +257062,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6075": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6077": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6075",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6077",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -256811,9 +257301,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6076": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6078": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6076",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6078",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -256898,9 +257388,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6077": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6079": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6077",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6079",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -257136,9 +257626,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6078": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6080": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6078",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6080",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -257209,9 +257699,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6079": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6081": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6079",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6081",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -257421,9 +257911,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6080": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6082": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6080",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6082",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -257515,9 +258005,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6081": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6083": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6081",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6083",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -257875,9 +258365,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6082": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6084": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6082",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6084",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -257962,9 +258452,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6083": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6085": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6083",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6085",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -258292,9 +258782,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6084": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6086": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6084",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6086",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -258386,9 +258876,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6085": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6087": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6085",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6087",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -258735,9 +259225,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6086": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6088": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6086",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6088",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -258815,9 +259305,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6087": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6089": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6087",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6089",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -259110,9 +259600,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6088": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6090": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6088",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6090",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -259197,9 +259687,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6089": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6091": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6089",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6091",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -259521,9 +260011,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::6090": {
+  "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::6092": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::6090",
+    "id": "NO_ID::registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md::6092",
     "file": "registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md",
     "heading": "7. Consignes pour les futurs atomes",
     "data": {
@@ -259539,9 +260029,9 @@
       "source_year": "2021"
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6093": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6095": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6093",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6095",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -259661,9 +260151,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6094": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6096": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6094",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6096",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -259795,9 +260285,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6095": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6097": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6095",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6097",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -259816,9 +260306,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6096": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6098": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6096",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6098",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -259938,9 +260428,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6097": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6099": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6097",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6099",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -260104,9 +260594,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6098": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6100": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6098",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6100",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -260254,9 +260744,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6099": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6101": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6099",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6101",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -260483,9 +260973,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6100": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6102": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6100",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6102",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -260577,9 +261067,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6101": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6103": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6101",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6103",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -260747,9 +261237,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6102": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6104": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6102",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6104",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -260827,9 +261317,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6103": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6105": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6103",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6105",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -261004,9 +261494,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6104": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6106": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6104",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6106",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -261070,9 +261560,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6105": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6107": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6105",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6107",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -261224,9 +261714,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6106": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6108": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6106",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6108",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -261332,9 +261822,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6107": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6109": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6107",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6109",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -261540,9 +262030,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6108": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6110": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6108",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6110",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -261697,9 +262187,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6109": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6111": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6109",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6111",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -261939,9 +262429,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6110": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6112": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6110",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6112",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -261998,9 +262488,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6111": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6113": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6111",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6113",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -262047,9 +262537,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6112": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6114": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6112",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6114",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -262098,9 +262588,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/references/s45_curtis_touching_from_a_distance_source_canonique.md::6114": {
+  "NO_ID::registers/references/s45_curtis_touching_from_a_distance_source_canonique.md::6116": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s45_curtis_touching_from_a_distance_source_canonique.md::6114",
+    "id": "NO_ID::registers/references/s45_curtis_touching_from_a_distance_source_canonique.md::6116",
     "file": "registers/references/s45_curtis_touching_from_a_distance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -262498,9 +262988,9 @@
       "source_year": "2014"
     }
   },
-  "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6134": {
+  "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6136": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6134",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6136",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -262622,9 +263112,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6135": {
+  "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6137": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6135",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6137",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -262683,9 +263173,9 @@
       "source_year": "1991"
     }
   },
-  "NO_ID::registers/references/s89_savage_englands_dreaming_source_canonique.md::6137": {
+  "NO_ID::registers/references/s89_savage_englands_dreaming_source_canonique.md::6139": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s89_savage_englands_dreaming_source_canonique.md::6137",
+    "id": "NO_ID::registers/references/s89_savage_englands_dreaming_source_canonique.md::6139",
     "file": "registers/references/s89_savage_englands_dreaming_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -262729,9 +263219,9 @@
       "source_year": "2014"
     }
   },
-  "NO_ID::registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md::6139": {
+  "NO_ID::registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md::6141": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md::6139",
+    "id": "NO_ID::registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md::6141",
     "file": "registers/references/s90_fisher_ghosts_of_my_life_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -262776,9 +263266,9 @@
       "source_year": "2011"
     }
   },
-  "NO_ID::registers/references/s91_reynolds_retromania_source_canonique.md::6141": {
+  "NO_ID::registers/references/s91_reynolds_retromania_source_canonique.md::6143": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s91_reynolds_retromania_source_canonique.md::6141",
+    "id": "NO_ID::registers/references/s91_reynolds_retromania_source_canonique.md::6143",
     "file": "registers/references/s91_reynolds_retromania_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -262825,9 +263315,9 @@
       "source_year": "2005"
     }
   },
-  "NO_ID::registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md::6143": {
+  "NO_ID::registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md::6145": {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md::6143",
+    "id": "NO_ID::registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md::6145",
     "file": "registers/references/s92_corbijn_inwards_and_onwards_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -262840,9 +263330,9 @@
       "source_year": "2005"
     }
   },
-  "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::6144": {
+  "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::6146": {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::6144",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::6146",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -280162,9 +280652,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s65_literary_influences_specialized_registers.md::6858": {
+  "NO_ID::registers/s65_literary_influences_specialized_registers.md::6860": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s65_literary_influences_specialized_registers.md::6858",
+    "id": "NO_ID::registers/s65_literary_influences_specialized_registers.md::6860",
     "file": "registers/s65_literary_influences_specialized_registers.md",
     "heading": "Registres spécialisés — S65 — Martínez, « Literary Influences on Joy Division », 2018",
     "data": {
@@ -280523,9 +281013,9 @@
       "note": "Piste d'ouverture de Closer. Analysée par Martínez en parallèle avec The Atrocity Exhibition (Ballard, 1970). Traits formels : premier personne, son sombre, 8 couplets, hôpital-spectacle. Règle stricte : aucune parole reproduite dans les atomes."
     }
   },
-  "NO_ID::registers/s65_literary_influences_structuring_registers.md::6879": {
+  "NO_ID::registers/s65_literary_influences_structuring_registers.md::6881": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s65_literary_influences_structuring_registers.md::6879",
+    "id": "NO_ID::registers/s65_literary_influences_structuring_registers.md::6881",
     "file": "registers/s65_literary_influences_structuring_registers.md",
     "heading": "Registres structurants — S65 — Martínez, « Literary Influences on Joy Division », 2018",
     "data": {
@@ -280691,9 +281181,9 @@
       "note": "Roman expérimental influencé par la technique de cut-up de Burroughs. Protagoniste à identité multiple (Travis/Travers/Traven/Talbot). Thème : interférence des médias de masse sur la psyché. Édition citée par Martínez : Ballard 1990a."
     }
   },
-  "NO_ID::registers/s66_curtis_lyrics_specialized_registers.md::6888": {
+  "NO_ID::registers/s66_curtis_lyrics_specialized_registers.md::6890": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s66_curtis_lyrics_specialized_registers.md::6888",
+    "id": "NO_ID::registers/s66_curtis_lyrics_specialized_registers.md::6890",
     "file": "registers/s66_curtis_lyrics_specialized_registers.md",
     "heading": "Registres spécialisés — S66 — Schütte, « On Ian Curtis's Lyrics », 2018",
     "data": {
@@ -281201,9 +281691,9 @@
       "note": "Kafka 'In the Penal Colony' comme précurseur littéraire établi (Crockett 2014). Lecture foucaldienne : école pensionnaire comme colonie pénale. Analogie sonore : rythme discordant → aiguilles de la machine de Kafka sur le vinyle (Crockett 2014, 32). Règle stricte : aucune parole reproduite."
     }
   },
-  "NO_ID::registers/s66_curtis_lyrics_structuring_registers.md::6918": {
+  "NO_ID::registers/s66_curtis_lyrics_structuring_registers.md::6920": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s66_curtis_lyrics_structuring_registers.md::6918",
+    "id": "NO_ID::registers/s66_curtis_lyrics_structuring_registers.md::6920",
     "file": "registers/s66_curtis_lyrics_structuring_registers.md",
     "heading": "Registres structurants — S66 — Schütte, « On Ian Curtis's Lyrics », 2018",
     "data": {
@@ -281417,9 +281907,9 @@
       "note": "Curtis possédait un exemplaire du manifeste d'Artaud. La performance scénique de Curtis — crises épileptiques sur scène, spectacle de souffrance — tangente avec le \"theatre of cruelty\" artaudien. Piste signalée par Schütte comme programme de recherche future, non comme analyse accomplie."
     }
   },
-  "NO_ID::registers/s67_lonely_place_specialized_registers.md::6930": {
+  "NO_ID::registers/s67_lonely_place_specialized_registers.md::6932": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s67_lonely_place_specialized_registers.md::6930",
+    "id": "NO_ID::registers/s67_lonely_place_specialized_registers.md::6932",
     "file": "registers/s67_lonely_place_specialized_registers.md",
     "heading": "Registres spécialisés — S67 — Naiman, « In a Lonely Place », 2018",
     "data": {
@@ -281755,9 +282245,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s67_lonely_place_structuring_registers.md::6946": {
+  "NO_ID::registers/s67_lonely_place_structuring_registers.md::6948": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s67_lonely_place_structuring_registers.md::6946",
+    "id": "NO_ID::registers/s67_lonely_place_structuring_registers.md::6948",
     "file": "registers/s67_lonely_place_structuring_registers.md",
     "heading": "Registres structurants — S67 — Naiman, « In a Lonely Place », 2018",
     "data": {
@@ -285367,9 +285857,9 @@
       "source_year": "2013"
     }
   },
-  "NO_ID::registers/s80_transmission_specialized_registers.md::7092": {
+  "NO_ID::registers/s80_transmission_specialized_registers.md::7094": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s80_transmission_specialized_registers.md::7092",
+    "id": "NO_ID::registers/s80_transmission_specialized_registers.md::7094",
     "file": "registers/s80_transmission_specialized_registers.md",
     "heading": "Registres spécialisés — S80 — Valdés Miyares, « Communication Breakdown / Transmission », 2018",
     "data": {
@@ -285684,9 +286174,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s80_transmission_structuring_registers.md::7108": {
+  "NO_ID::registers/s80_transmission_structuring_registers.md::7110": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s80_transmission_structuring_registers.md::7108",
+    "id": "NO_ID::registers/s80_transmission_structuring_registers.md::7110",
     "file": "registers/s80_transmission_structuring_registers.md",
     "heading": "Registres structurants — S80 — Valdés Miyares, « Communication Breakdown / Transmission », 2018",
     "data": {
@@ -285949,9 +286439,9 @@
       "note": "p. 125 : \"inarticulacy made physical\" — description de la performance live de Curtis. Formule concise et citée par plusieurs sources du corpus. Vérifier pagination exacte avant citation dans le manuscrit."
     }
   },
-  "NO_ID::registers/s81_curtis_suicide_specialized_registers.md::7120": {
+  "NO_ID::registers/s81_curtis_suicide_specialized_registers.md::7122": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s81_curtis_suicide_specialized_registers.md::7120",
+    "id": "NO_ID::registers/s81_curtis_suicide_specialized_registers.md::7122",
     "file": "registers/s81_curtis_suicide_specialized_registers.md",
     "heading": "Registres spécialisés — S81 — Devereux, Cullen & Meagher, « Revisiting Ian Curtis's Suicide », 2018",
     "data": {
@@ -286349,9 +286839,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s81_curtis_suicide_structuring_registers.md::7141": {
+  "NO_ID::registers/s81_curtis_suicide_structuring_registers.md::7143": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s81_curtis_suicide_structuring_registers.md::7141",
+    "id": "NO_ID::registers/s81_curtis_suicide_structuring_registers.md::7143",
     "file": "registers/s81_curtis_suicide_structuring_registers.md",
     "heading": "Registres structurants — S81 — Devereux, Cullen & Meagher, « Revisiting Ian Curtis's Suicide », 2018",
     "data": {
@@ -286644,9 +287134,9 @@
       "note": "Outil clinique en 10 items pour évaluer le risque suicidaire. Score > 8 = hospitalisation probablement nécessaire. Non disponible en 1980 — usage rétrospectif analytique dans S81."
     }
   },
-  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7155": {
+  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7157": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7155",
+    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7157",
     "file": "registers/s82_space_estrangement_specialized_registers.md",
     "heading": "Registres spécialisés — S82 — Parmar, « Joy Division in Space », 2018",
     "data": {
@@ -286927,9 +287417,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7171": {
+  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7173": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7171",
+    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7173",
     "file": "registers/s82_space_estrangement_specialized_registers.md",
     "heading": "Song — Digital (JD-SONG-022)",
     "data": {
@@ -286951,9 +287441,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7172": {
+  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7174": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7172",
+    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7174",
     "file": "registers/s82_space_estrangement_specialized_registers.md",
     "heading": "Song — Glass (JD-SONG-023)",
     "data": {
@@ -286975,9 +287465,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7173": {
+  "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7175": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7173",
+    "id": "NO_ID::registers/s82_space_estrangement_specialized_registers.md::7175",
     "file": "registers/s82_space_estrangement_specialized_registers.md",
     "heading": "Song — Transmission (JD-SONG-020)",
     "data": {
@@ -286998,9 +287488,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s82_space_estrangement_structuring_registers.md::7174": {
+  "NO_ID::registers/s82_space_estrangement_structuring_registers.md::7176": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s82_space_estrangement_structuring_registers.md::7174",
+    "id": "NO_ID::registers/s82_space_estrangement_structuring_registers.md::7176",
     "file": "registers/s82_space_estrangement_structuring_registers.md",
     "heading": "Registres structurants — S82 — Parmar, « Joy Division in Space », 2018",
     "data": {
@@ -287279,9 +287769,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s83_hannett_architecture_specialized_registers.md::7187": {
+  "NO_ID::registers/s83_hannett_architecture_specialized_registers.md::7189": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s83_hannett_architecture_specialized_registers.md::7187",
+    "id": "NO_ID::registers/s83_hannett_architecture_specialized_registers.md::7189",
     "file": "registers/s83_hannett_architecture_specialized_registers.md",
     "heading": "Registres spécialisés — S83 — Greenwood & Tarpey, « Manchester, Martin Hannett and Joy Division's Pungent Architecture », 2018",
     "data": {
@@ -287771,9 +288261,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s83_hannett_architecture_structuring_registers.md::7209": {
+  "NO_ID::registers/s83_hannett_architecture_structuring_registers.md::7211": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s83_hannett_architecture_structuring_registers.md::7209",
+    "id": "NO_ID::registers/s83_hannett_architecture_structuring_registers.md::7211",
     "file": "registers/s83_hannett_architecture_structuring_registers.md",
     "heading": "Registres structurants — S83 — Greenwood & Tarpey, « Manchester, Martin Hannett and Joy Division's Pungent Architecture », 2018",
     "data": {
@@ -289056,9 +289546,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s84_cope_structuring_registers.md::7262": {
+  "NO_ID::registers/s84_cope_structuring_registers.md::7264": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s84_cope_structuring_registers.md::7262",
+    "id": "NO_ID::registers/s84_cope_structuring_registers.md::7264",
     "file": "registers/s84_cope_structuring_registers.md",
     "heading": "Registres structurants — S84 — Cope, « Nothing Here Now but the Recordings », 2018",
     "data": {
@@ -289407,9 +289897,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s85_malcolm_specialized_registers.md::7276": {
+  "NO_ID::registers/s85_malcolm_specialized_registers.md::7278": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s85_malcolm_specialized_registers.md::7276",
+    "id": "NO_ID::registers/s85_malcolm_specialized_registers.md::7278",
     "file": "registers/s85_malcolm_specialized_registers.md",
     "heading": "Registres spécialisés — S85 — Malcolm, « Mining for Counterculture », 2018",
     "data": {
@@ -290264,9 +290754,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s85_malcolm_structuring_registers.md::7311": {
+  "NO_ID::registers/s85_malcolm_structuring_registers.md::7313": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s85_malcolm_structuring_registers.md::7311",
+    "id": "NO_ID::registers/s85_malcolm_structuring_registers.md::7313",
     "file": "registers/s85_malcolm_structuring_registers.md",
     "heading": "Registres structurants — S85 — Malcolm, « Mining for Counterculture », 2018",
     "data": {
@@ -290647,9 +291137,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s86_breyley_specialized_registers.md::7326": {
+  "NO_ID::registers/s86_breyley_specialized_registers.md::7328": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s86_breyley_specialized_registers.md::7326",
+    "id": "NO_ID::registers/s86_breyley_specialized_registers.md::7328",
     "file": "registers/s86_breyley_specialized_registers.md",
     "heading": "Registres spécialisés — S86 — Breyley, 2018",
     "data": {
@@ -291126,9 +291616,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s86_breyley_structuring_registers.md::7345": {
+  "NO_ID::registers/s86_breyley_structuring_registers.md::7347": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s86_breyley_structuring_registers.md::7345",
+    "id": "NO_ID::registers/s86_breyley_structuring_registers.md::7347",
     "file": "registers/s86_breyley_structuring_registers.md",
     "heading": "Registres structurants — S86 — Breyley, « 'I Hung around in Your Soundtrack' », 2018",
     "data": {
@@ -291305,9 +291795,9 @@
       ]
     }
   },
-  "NO_ID::registers/s87_otter_bickerdike_specialized_registers.md::7354": {
+  "NO_ID::registers/s87_otter_bickerdike_specialized_registers.md::7356": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s87_otter_bickerdike_specialized_registers.md::7354",
+    "id": "NO_ID::registers/s87_otter_bickerdike_specialized_registers.md::7356",
     "file": "registers/s87_otter_bickerdike_specialized_registers.md",
     "heading": "Registres spécialisés — S87 — Otter Bickerdike, 2018",
     "data": {
@@ -291882,9 +292372,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s87_otter_bickerdike_structuring_registers.md::7376": {
+  "NO_ID::registers/s87_otter_bickerdike_structuring_registers.md::7378": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s87_otter_bickerdike_structuring_registers.md::7376",
+    "id": "NO_ID::registers/s87_otter_bickerdike_structuring_registers.md::7378",
     "file": "registers/s87_otter_bickerdike_structuring_registers.md",
     "heading": "Registres structurants — S87 — Otter Bickerdike, « As If It Never Happened », 2018",
     "data": {
@@ -292062,9 +292552,9 @@
       ]
     }
   },
-  "NO_ID::registers/s88_cashell_specialized_registers.md::7385": {
+  "NO_ID::registers/s88_cashell_specialized_registers.md::7387": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s88_cashell_specialized_registers.md::7385",
+    "id": "NO_ID::registers/s88_cashell_specialized_registers.md::7387",
     "file": "registers/s88_cashell_specialized_registers.md",
     "heading": "Registres spécialisés — S88 — Cashell, 2018",
     "data": {
@@ -292765,9 +293255,9 @@
       "source_year": "2018"
     }
   },
-  "NO_ID::registers/s88_cashell_structuring_registers.md::7411": {
+  "NO_ID::registers/s88_cashell_structuring_registers.md::7413": {
     "kind": "metadata",
-    "id": "NO_ID::registers/s88_cashell_structuring_registers.md::7411",
+    "id": "NO_ID::registers/s88_cashell_structuring_registers.md::7413",
     "file": "registers/s88_cashell_structuring_registers.md",
     "heading": "Registres structurants — S88 — Cashell, « Things That Aren't There », 2018",
     "data": {
@@ -293535,9 +294025,9 @@
       "source_year": "2024"
     }
   },
-  "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7440": {
+  "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7442": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7440",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7442",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Chansons canoniques",
     "data": {
@@ -294672,9 +295162,9 @@
       ]
     }
   },
-  "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7441": {
+  "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7443": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7441",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7443",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Titres explicitement exclus du menu",
     "data": {
@@ -294760,9 +295250,9 @@
       "separate_from": "JD-SONG-030 — The Kill (Still)"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::7443": {
+  "NO_ID::registers/songs/master_songs.md::7445": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::7443",
+    "id": "NO_ID::registers/songs/master_songs.md::7445",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -295356,9 +295846,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7452": {
+  "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7454": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7452",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7454",
     "file": "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des chansons — Joy Division tardif et transition New Order",
     "data": {
@@ -295448,9 +295938,9 @@
       "source_year": "2014/2015"
     }
   },
-  "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7454": {
+  "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7456": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7454",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7456",
     "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des chansons — processus, image et postérité",
     "data": {
@@ -295946,9 +296436,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::registers/songs/s35_morris_songs_part_03.md::7467": {
+  "NO_ID::registers/songs/s35_morris_songs_part_03.md::7469": {
     "kind": "metadata",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7467",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7469",
     "file": "registers/songs/s35_morris_songs_part_03.md",
     "heading": "Registre chansons — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -295962,9 +296452,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/songs/s35_morris_songs_part_03.md::7468": {
+  "NO_ID::registers/songs/s35_morris_songs_part_03.md::7470": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7468",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7470",
     "file": "registers/songs/s35_morris_songs_part_03.md",
     "heading": "Registre chansons — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -296062,9 +296552,9 @@
       ]
     }
   },
-  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7469": {
+  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7471": {
     "kind": "metadata",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7469",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7471",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Registre chansons et albums — S35 — Morris, *Record Play Pause*, 2019 — part 04",
     "data": {
@@ -296078,9 +296568,9 @@
       "source_year": "2019"
     }
   },
-  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7470": {
+  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7472": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7470",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7472",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Chansons mentionnées ou utiles",
     "data": {
@@ -296144,9 +296634,9 @@
       ]
     }
   },
-  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7471": {
+  "NO_ID::registers/songs/s35_morris_songs_part_04.md::7473": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7471",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7473",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Albums mentionnés ou utiles",
     "data": {
@@ -300945,9 +301435,9 @@
       "source_year": "2014"
     }
   },
-  "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7661": {
+  "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7663": {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7661",
+    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7663",
     "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des chansons — appropriations tardives",
     "data": {
@@ -303893,9 +304383,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7736": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7738": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7736",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7738",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Citations / formulations à contrôler",
     "data": {
@@ -303939,9 +304429,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7737": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7739": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7737",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7739",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chronologie spécialisée",
     "data": {
@@ -304019,9 +304509,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7738": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7740": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7738",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7740",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Acteurs",
     "data": {
@@ -304111,9 +304601,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7739": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7741": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7739",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7741",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Lieux",
     "data": {
@@ -304208,9 +304698,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7740": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7742": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7740",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7742",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Organisations / groupes",
     "data": {
@@ -304267,9 +304757,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7741": {
+  "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7743": {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7741",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7743",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chansons / albums / objets musicaux",
     "data": {
@@ -304382,9 +304872,9 @@
       ]
     }
   },
-  "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::7742": {
+  "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::7744": {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::7742",
+    "id": "NO_ID::registers/specialized/s39_bauman_liquid_modernity_specialized.md::7744",
     "file": "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
     "heading": "S39 — Registres spécialisés — Bauman, *Liquid Modernity*, 2000",
     "data": {
@@ -304398,9 +304888,9 @@
       "source_year": "2000"
     }
   },
-  "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::7743": {
+  "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::7745": {
     "kind": "metadata",
-    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::7743",
+    "id": "NO_ID::registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md::7745",
     "file": "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
     "heading": "S40 - Registres specialises - Cacciatore, ...waiting for something to happen..., 2021",
     "data": {
