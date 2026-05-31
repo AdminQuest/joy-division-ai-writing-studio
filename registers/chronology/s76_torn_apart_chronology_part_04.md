@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1977-007
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10-07
@@ -47,6 +48,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-008
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1977-10-08
@@ -83,6 +85,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-009
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10-19
@@ -120,6 +123,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-010
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1977-12-26
@@ -162,6 +166,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1977-011
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-12-31
@@ -200,6 +205,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-001
+date_precision: jour
 same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
 categorie: jalon
 type_unite: chronology
@@ -243,6 +249,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-002
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-03-14
@@ -278,6 +285,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-003
+date_precision: circa
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-04

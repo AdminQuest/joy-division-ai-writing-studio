@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1978-10-CARGO-FACTORY-SAMPLE
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-10"
@@ -21,6 +22,7 @@ chronology:
     statut: session établie ; détails techniques à croiser avec discographies et archives Factory
 
   - id: CHR-S41-1978-12-FACTORY-SAMPLE-ASSEMBLY
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-12"
@@ -35,6 +37,7 @@ chronology:
     statut: séquence discographique rapportée par Hook
 
   - id: CHR-S41-1978-10-24-LEEDS-FAN-CLUB-RIPPER-POLICE
+    date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
     date: "1978-10-24"
@@ -48,6 +51,7 @@ chronology:
     statut: anecdote policière à croiser si possible
 
   - id: CHR-S41-1978-11-REZILLOS-UNDERTONES-TOUR
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-11"
@@ -60,6 +64,7 @@ chronology:
     statut: tournée établie ; dates à croiser avec gig lists
 
   - id: CHR-S41-1978-11-BRUNEL-SPITTING
+    date_precision: mois
     categorie: concert_a_migrer
     source_id: S41
     date: "1978-11"
@@ -74,6 +79,7 @@ chronology:
     statut: scène live à croiser avec set lists
 
   - id: CHR-S41-1978-11-BRISTOL-LOCARNO-EJECTED
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-11"
@@ -86,6 +92,7 @@ chronology:
     statut: scène de tournée à croiser avec autres témoignages
 
   - id: CHR-S41-1978-12-HOPE-ANCHOR-FIRST-LONDON
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-12"
@@ -99,6 +106,7 @@ chronology:
     statut: datation à verrouiller avec gig list
 
   - id: CHR-S41-1978-12-M1-LUTON-FIRST-FIT
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1978-12"
@@ -112,6 +120,7 @@ chronology:
     statut: événement médical à croiser avec S45 et témoignages de Morris
 
   - id: CHR-S41-1979-01-23-EPILEPSY-DIAGNOSIS
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1979-01-23"

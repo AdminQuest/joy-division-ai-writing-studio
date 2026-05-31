@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1976-06-04-LESSER-FREE-TRADE-HALL
+    date_precision: jour
     same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
     categorie: jalon
     source_id: S41
@@ -18,6 +19,7 @@ chronology:
     statut: événement établi ; perception autobiographique
 
   - id: CHR-S41-1976-06-05-HOOK-FIRST-BASS
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1976-06"
@@ -32,6 +34,7 @@ chronology:
     statut: datation relative donnée par Hook
 
   - id: CHR-S41-1976-07-20-SECOND-PISTOLS-LFTH
+    date_precision: jour
     same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
     categorie: jalon
     source_id: S41
@@ -46,6 +49,7 @@ chronology:
     statut: événement établi
 
   - id: CHR-S41-1976-12-09-ELECTRIC-CIRCUS-HATE-COAT
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1976-12-09"
@@ -60,6 +64,7 @@ chronology:
     statut: scène de rencontre selon Hook
 
   - id: CHR-S41-1976-12-STIFF-KITTENS-SOUNDS
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1976-12-18"
@@ -73,6 +78,7 @@ chronology:
     statut: citation presse à vérifier dans original
 
   - id: CHR-S41-1976-12-CURTIS-JOINS
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1976-12"

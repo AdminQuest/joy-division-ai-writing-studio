@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1980-04-MAY-GIGS-CANCELLED-AFTER-BURY
+    date_precision: intervalle
+    date_debut: 1980-04
+    date_fin: 1980-05
     categorie: jalon
     source_id: S41
     date: "1980-04/1980-05"
@@ -16,6 +19,9 @@ chronology:
     statut: décision de management à croiser avec gig lists
 
   - id: CHR-S41-1980-04-MAY-LWTUA-VIDEO-TJ-DAVIDSONS
+    date_precision: intervalle
+    date_debut: 1980-04
+    date_fin: 1980-05
     categorie: jalon
     source_id: S41
     date: "1980-04/1980-05"
@@ -30,6 +36,7 @@ chronology:
     statut: objet audiovisuel vérifiable
 
   - id: CHR-S41-1980-05-02-BIRMINGHAM-HIGH-HALL-LAST-GIG
+    date_precision: jour
     same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
     categorie: jalon
     source_id: S41
@@ -45,6 +52,7 @@ chronology:
     statut: dernier concert établi
 
   - id: CHR-S41-1980-05-16-LAST-LIFT-TO-PARENTS
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-05-16"
@@ -59,6 +67,7 @@ chronology:
     statut: mémoire personnelle de Hook
 
   - id: CHR-S41-1980-05-17-CURTIS-MACCLESFIELD-LAST-DAY
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-05-17"
@@ -71,6 +80,7 @@ chronology:
     statut: séquence sensible à croiser avec S45
 
   - id: CHR-S41-1980-05-18-CURTIS-SUICIDE
+    date_precision: jour
     same_as: EVENT-MORT-IAN-CURTIS
     categorie: jalon
     source_id: S41
@@ -85,6 +95,7 @@ chronology:
     statut: fait établi ; traitement historiographique à forte prudence
 
   - id: CHR-S41-1980-05-18-HOOK-POLICE-CALL
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-05-18"
@@ -98,6 +109,7 @@ chronology:
     statut: témoignage direct Hook
 
   - id: CHR-S41-1980-05-FUNERAL-AND-WAKE
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-05"
@@ -111,6 +123,7 @@ chronology:
     statut: date exacte à verrouiller
 
   - id: CHR-S41-1980-05-POST-FUNERAL-DREAMS-NEVER-END
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-05"
@@ -123,6 +136,7 @@ chronology:
     statut: transition New Order à croiser avec chronologies
 
   - id: CHR-S41-1980-INQUEST-GUILT-OBJECTS
+    date_precision: annee
     categorie: jalon
     source_id: S41
     date: "1980"

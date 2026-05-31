@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S12-1986-001
+    date_precision: circa
     categorie: reception_posthume
     date: 1986-12-11
     precision_date: approx
@@ -28,6 +29,7 @@ events:
       - S12-A002
 
   - id: CHR-S12-1986-002
+    date_precision: circa
     categorie: reception_posthume
     date: 1986-12-12
     precision_date: approx
@@ -46,6 +48,7 @@ events:
       - S12-A004
 
   - id: CHR-S12-1986-003
+    date_precision: jour
     categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour
@@ -61,6 +64,7 @@ events:
       - S12-A008
 
   - id: CHR-S12-1986-004
+    date_precision: jour
     categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour
@@ -76,6 +80,7 @@ events:
       - S12-A003
 
   - id: CHR-S12-1986-005
+    date_precision: jour
     categorie: reception_posthume
     date: 1986-12-13
     precision_date: jour

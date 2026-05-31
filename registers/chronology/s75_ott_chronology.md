@@ -10,6 +10,7 @@ Statut : entrées chronologiques ciblées, non exhaustives, issues de l'atomisat
 
 ```yaml
 id: CHR-S75-1976-002
+date_precision: jour
 same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND
 categorie: jalon
 type_unite: chronology
@@ -45,6 +46,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-001
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1977-07-18
@@ -81,6 +83,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1977-002
+date_precision: circa
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1977-10
@@ -120,6 +123,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-003
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1978-06
@@ -158,6 +162,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-004
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1978-10
@@ -192,6 +197,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-005
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1978-04-14
@@ -230,6 +236,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-006
+date_precision: intervalle
+date_debut: 1978-05-01
+date_fin: 1978-05-05
 categorie: jalon
 type_unite: chronology
 date: 1978-05-01/1978-05-05
@@ -276,6 +285,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-007
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1978-10-11
@@ -316,6 +326,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1978-008
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1978-12-27
@@ -356,6 +367,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-001
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1979-01-13
@@ -393,6 +405,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-002
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1979-01-31
@@ -431,6 +444,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-003
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1979-03-04

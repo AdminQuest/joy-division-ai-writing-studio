@@ -13,6 +13,7 @@ passage_atomise: "PDF p. 75-102"
 ```yaml
 chronologie_a_croiser:
   - id: CHR-S35-P04-1972-001
+    date_precision: annee
     categorie: jalon
     date: "1972"
     label: "Morris obtient progressivement son premier kit de batterie après négociation familiale"
@@ -20,6 +21,7 @@ chronologie_a_croiser:
     atoms: [S35-A049, S35-A050, S35-A053]
     statut: a_croiser_si_usage_factuel
   - id: CHR-S35-P04-1973-001
+    date_precision: annee
     categorie: jalon
     date: "1973"
     label: "Déménagement familial à Ivy Lane et installation de la chambre / collection / batterie"
@@ -27,6 +29,7 @@ chronologie_a_croiser:
     atoms: [S35-A052, S35-A053]
     statut: a_croiser_si_usage_factuel
   - id: CHR-S35-P04-1973-002
+    date_precision: annee
     categorie: jalon
     date: "1973"
     label: "Morris vit Buxton et White City comme festivals pluvieux et désillusionnés"
@@ -34,6 +37,7 @@ chronologie_a_croiser:
     atoms: [S35-A063]
     statut: a_croiser
   - id: CHR-S35-P04-1974-001
+    date_precision: annee
     categorie: jalon
     date: "1974"
     label: "Morris travaille au moulin Atwell and Jenner’s et décrit les machines comme rythme industriel"
@@ -41,6 +45,7 @@ chronologie_a_croiser:
     atoms: [S35-A060]
     statut: a_croiser_si_usage_factuel
   - id: CHR-S35-P04-1974-002
+    date_precision: annee
     categorie: jalon
     date: "1974"
     label: "Great Vinyl Robbery chez Lewis’s et arrestation à Manchester"

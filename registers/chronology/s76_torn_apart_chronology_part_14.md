@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1980-007
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-02-20
@@ -44,6 +45,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-008
+date_precision: intervalle
+date_debut: 1980-02-24
+date_fin: 1980-02-25
 categorie: jalon
 type_unite: chronology
 date: 1980-02-24/1980-02-25
@@ -82,6 +86,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-009
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-02-25
@@ -119,6 +124,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-010
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-02-28
@@ -158,6 +164,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-011
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-02-29
@@ -199,6 +206,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-012
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-03-05
@@ -236,6 +244,9 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-013
+date_precision: intervalle
+date_debut: 1980-03-08
+date_fin: 1980-03-09
 categorie: jalon
 type_unite: chronology
 date: 1980-03-08/1980-03-09
@@ -277,6 +288,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-014
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-03-12
@@ -314,6 +326,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1980-015
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1980-03

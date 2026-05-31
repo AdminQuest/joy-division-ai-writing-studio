@@ -377,3 +377,116 @@ canoniques est un chantier de la refonte / du maillage (ét. 11).
 - **Catégorie de précision « décennie »** : la grille à 6 termes (`jour, mois,
   saison, annee, circa, intervalle`) n'a pas de bucket dédié aux 10 entrées de
   type décennie/vague. Les ranger en `circa`, ou créer un 7e terme `decennie` ?
+
+---
+
+# ANNEXE — État post-canonicalisation (brique d'identité, étape 6)
+
+> Mise à jour : 31/05/2026. Cette annexe consigne l'**implémentation** de la
+> brique d'identité (au-delà du diagnostic lecture-seule ci-dessus). Travail
+> **strictement additif**, conforme au gel : aucun ID legacy renommé, aucune
+> donnée existante réécrite ; seuls des champs optionnels sont ajoutés.
+> Outil : `tools/canonicalize_chronology.py` (phases `classification`, `canon`,
+> `precision`, `check`, `report`). Décisions de cadrage validées appliquées.
+
+## I.1. Classification (`categorie`) — 500 entrées
+
+| Catégorie | Nombre | Traitement |
+|---|---:|---|
+| `jalon` | 378 | reçoit (si réconcilié) un `EVENT-` canonique ; cœur de la chronologie |
+| `concert_a_migrer` | 76 | conservé, ID legacy gardé, **non** promu — migrera vers `CONCERT-` (étape 10) |
+| `reception_posthume` | 46 | conservé, étiqueté — relocalisation différée (étape 11) |
+
+Règles : sources interprétatives (S29, S34) et tout événement postérieur à 1980
+→ `reception_posthume` ; spine maître + formation/discographie/line-up/décès +
+concerts premier/dernier/significatifs → `jalon` ; gigs ordinaires → `concert_a_migrer`.
+
+## I.2. Canonicalisation `EVENT-<SLUG>` — 11 jalons, 39 arêtes `same_as`
+
+Fichier : `registers/chronology/events_canonical.md`. Slugs sémantiques,
+source-agnostiques, **sans date dans l'ID**. Chaque legacy d'un cluster porte
+`same_as: EVENT-…` (append-only) dans son fichier source.
+
+| `EVENT-` canonique | Date | `same_as` |
+|---|---|---:|
+| `EVENT-NAISSANCE-IAN-CURTIS` | 1956-07-15 | 2 |
+| `EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER` | 1976-06-04 | 4 |
+| `EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND` | 1976-07-20 | 4 |
+| `EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS` | 1977-05-29 | 5 |
+| `EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS` | 1978-01-25 | 5 |
+| `EVENT-ARRIVEE-STEPHEN-MORRIS` | 1977-08 | 2 |
+| `EVENT-SORTIE-A-FACTORY-SAMPLE` | 1979-01 | 2 |
+| `EVENT-SORTIE-UNKNOWN-PLEASURES` | 1979-06-14 | 4 |
+| `EVENT-DERNIER-CONCERT-BIRMINGHAM` | 1980-05-02 | 5 |
+| `EVENT-MORT-IAN-CURTIS` | 1980-05-18 | 4 |
+| `EVENT-SORTIE-CLOSER` | 1980-07-18 | 2 |
+
+- Les **deux** concerts Sex Pistols (4 juin / 20 juillet 1976) sont désambiguïsés
+  par qualificateur **ordinal** (`-PREMIER` / `-SECOND`), jamais par date — ils
+  ne sont **pas** fusionnés.
+- La **duplication intra-S41** (fichiers `timeline` vs narratifs) est réconciliée
+  par `same_as` pour les jalons concernés (ex. premier concert Warsaw : 2 entrées
+  S41 collapsées). **Dette signalée** (non traitée ici) : à terme, une timeline
+  devrait être une *vue dérivée* et non un doublon stocké.
+- `EVENT-` canonique reconnu comme kind `chronology` (build + loader). Le préfixe
+  legacy source-scopé `EVENT-S\d+-` est **exclu** (cf. I.4).
+
+## I.3. `date_precision` — 500 entrées
+
+| Précision | Nombre |
+|---|---:|
+| `jour` | 206 |
+| `annee` | 117 |
+| `mois` | 89 |
+| `circa` | 43 |
+| `intervalle` | 38 (champs `date_debut` / `date_fin`) |
+| `saison` | 7 |
+
+Inférée honnêtement de la donnée existante, **jamais plus précise que la source** :
+une date ISO complète dont la source porte `approximate` est rangée en `circa`
+(pas `jour`). Les décennies pleines (« années 1960 ») deviennent un `intervalle`
+borné (1960/1969) ; les décennies partielles (« début des années 1970 ») restent
+`circa`. Décision retenue : **pas de 7e terme « décennie »** — absorbé par `circa`
+ou `intervalle`. Le placeholder unique « à préciser » → `circa`, sans valeur inventée.
+
+## I.4. Découverte — préfixe legacy `EVENT-S41-` non canonique (hors périmètre)
+
+Quatre entrées **pré-existantes** squattent le namespace `EVENT-` sous forme
+**source-scopée + date-encodée**, dans le **registre des chansons** (et non la
+chronologie) : `EVENT-S41-M5-VAN-ACCIDENT-1979`,
+`EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31`, `EVENT-S41-WILSON-REFUGE-AFTER-BURY`,
+`EVENT-S41-DEBBIE-ANNIK-CO-RESPONDENT-CALL` (`registers/songs/s41_*`). Elles ont
+une forme de fiche-chanson (`titre`/`usage`, sans `date`/`event`). Laissées **en
+l'état** (registre chansons = refonte distincte) et **exclues** de la
+reconnaissance `EVENT-`→chronologie via le motif `EVENT-S\d+-`. **À arbitrer** :
+réconciliation ultérieure vers des `EVENT-<SLUG>` canoniques.
+
+## I.5. Chaîne de cohérence
+
+- `tools/canonicalize_chronology.py --phase check` : 39 `same_as` résolus,
+  **0** cible manquante, **0** date impossible, **0** intervalle inversé.
+- `tools/build_registers.py --strict` : **errors = 0** (chronology = 488 ;
+  +11 canoniques ; entrée S75 récupérée).
+- Sentinelle anti-drift (`tools/check_generated_sync.py`) : **OK** (exports
+  régénérés ; churn d'horodatage écarté).
+
+## I.6. Cas FLAGGÉS — à arbitrer (ne pas trancher unilatéralement)
+
+`categorie` est renseignée partout par la règle ; les cas ci-dessous sont
+remontés pour validation (heuristique de confiance moindre).
+
+- **`context_urbain` (20)** — registres urbains/sociaux v2 (S02, S05, S06, S12,
+  S20) : ni jalon du groupe, ni concert, ni réception posthume. Classés `jalon`
+  par défaut faute de 4e catégorie. **Arbitrage** : créer une catégorie
+  `contexte` ? les déplacer en étape 11 ?
+- **`perf_mixte` (33)** — l'entrée mentionne une performance **mais** porte aussi
+  un fait non-scénique (crise, accident, session, presse, « assiste à »…) :
+  classées `jalon` (à confirmer entrée par entrée pour d'éventuelles bascules
+  vers `concert_a_migrer`).
+- **`jalon_concert_significatif` (10)** — gig retenu comme `jalon` car proche d'un
+  mot-clé de significativité (dernier concert Warsaw au Swinging Apple,
+  Eric's premier concert avec Morris, Pips after-gap, Derby Ajanta avant-dernier,
+  3e concert Pistols à l'Electric Circus…). **Arbitrage** : lesquels sont de
+  vrais jalons vs des gigs ordinaires à migrer ?
+
+Liste exhaustive des identifiants flaggés : `python3 tools/canonicalize_chronology.py --phase report`.

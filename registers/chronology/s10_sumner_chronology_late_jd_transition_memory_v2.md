@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S10-1979-003
+    date_precision: annee
     categorie: jalon
     date: 1979
     precision_date: annee
@@ -23,6 +24,7 @@ events:
       - S10-A026
 
   - id: CHR-S10-1979-004
+    date_precision: annee
     categorie: jalon
     date: 1979
     precision_date: annee
@@ -35,6 +37,7 @@ events:
       - S10-A027
 
   - id: CHR-S10-1979-005
+    date_precision: annee
     categorie: jalon
     date: 1979
     precision_date: annee
@@ -48,6 +51,7 @@ events:
       - S10-A028
 
   - id: CHR-S10-1980-002
+    date_precision: annee
     categorie: jalon
     date: 1980
     precision_date: annee
@@ -62,6 +66,7 @@ events:
       - S10-A030
 
   - id: CHR-S10-1980-003
+    date_precision: annee
     categorie: jalon
     date: 1980
     precision_date: annee
@@ -74,6 +79,7 @@ events:
       - S10-A031
 
   - id: CHR-S10-1980-004
+    date_precision: annee
     categorie: jalon
     date: 1980
     precision_date: annee
@@ -89,6 +95,7 @@ events:
       - S10-A033
 
   - id: CHR-S10-1980-005
+    date_precision: annee
     categorie: jalon
     date: 1980
     precision_date: annee
@@ -103,6 +110,7 @@ events:
       - S10-A034
 
   - id: CHR-S10-1981-001
+    date_precision: annee
     categorie: reception_posthume
     date: 1981
     precision_date: annee
@@ -117,6 +125,9 @@ events:
       - S10-A035
 
   - id: CHR-S10-2010S-001
+    date_precision: intervalle
+    date_debut: 2010
+    date_fin: 2019
     categorie: reception_posthume
     date: "années 2010"
     precision_date: decade

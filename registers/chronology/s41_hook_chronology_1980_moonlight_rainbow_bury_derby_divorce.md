@@ -3,6 +3,9 @@
 ```yaml
 chronology:
   - id: CHR-S41-1980-04-02-03-MOONLIGHT-FACTORY
+    date_precision: intervalle
+    date_debut: 1980-04-02
+    date_fin: 1980-04-03
     categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-02/1980-04-03"
@@ -18,6 +21,7 @@ chronology:
     statut: dates live à croiser avec gig lists
 
   - id: CHR-S41-1980-04-03-POLYDOR-CAPTAIN-MOONLIGHT
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-03"
@@ -32,6 +36,7 @@ chronology:
     statut: réception industrielle rapportée par Hook
 
   - id: CHR-S41-1980-04-04-RAINBOW-THEATRE-STRANGLERS-FRIENDS
+    date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-04"
@@ -47,6 +52,7 @@ chronology:
     statut: concert établi ; détails matériels à croiser
 
   - id: CHR-S41-1980-04-04-RAINBOW-FIT-MOONLIGHT-INSISTENCE
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-04"
@@ -60,6 +66,7 @@ chronology:
     statut: événement médical à croiser avec S45 et autres témoignages
 
   - id: CHR-S41-1980-04-08-BURY-TOWN-HALL
+    date_precision: jour
     categorie: concert_a_migrer
     source_id: S41
     date: "1980-04-08"
@@ -77,6 +84,7 @@ chronology:
     statut: scène critique à croiser avec autres récits de Bury
 
   - id: CHR-S41-1980-04-09-10-WILSON-REFUGE
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-04"
@@ -90,6 +98,7 @@ chronology:
     statut: refuge informel à croiser
 
   - id: CHR-S41-1980-04-11-FACTORY-II-DEBBIE-ANNIK
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-11"
@@ -103,6 +112,7 @@ chronology:
     statut: nœud domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-16-NATALIE-BIRTHDAY-MISSED
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-16"
@@ -116,6 +126,7 @@ chronology:
     statut: repère domestique à croiser avec S45
 
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-19"
@@ -130,6 +141,7 @@ chronology:
     statut: avant-dernier concert et nœud domestique
 
   - id: CHR-S41-1980-04-22-FAMILY-SHOWDOWN-DIVORCE
+    date_precision: jour
     categorie: jalon
     source_id: S41
     date: "1980-04-22"

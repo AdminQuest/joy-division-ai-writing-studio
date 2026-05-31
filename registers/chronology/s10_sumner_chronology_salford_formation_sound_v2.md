@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S10-1956-001
+    date_precision: jour
     categorie: jalon
     date: 1956-01-04
     precision_date: jour
@@ -26,6 +27,9 @@ events:
       - S10-A001
 
   - id: CHR-S10-1960S-001
+    date_precision: intervalle
+    date_debut: 1960
+    date_fin: 1969
     categorie: jalon
     date: "années 1960"
     precision_date: decade
@@ -42,6 +46,9 @@ events:
       - S10-A002
 
   - id: CHR-S10-1960S-002
+    date_precision: intervalle
+    date_debut: 1960
+    date_fin: 1969
     categorie: jalon
     date: "années 1960"
     precision_date: decade
@@ -55,6 +62,7 @@ events:
       - S10-A003
 
   - id: CHR-S10-1970S-001
+    date_precision: circa
     categorie: jalon
     date: "début des années 1970"
     precision_date: periode
@@ -68,6 +76,7 @@ events:
       - S10-A004
 
   - id: CHR-S10-1970S-002
+    date_precision: circa
     categorie: jalon
     date: "début des années 1970"
     precision_date: periode
@@ -84,6 +93,7 @@ events:
       - S10-A007
 
   - id: CHR-S10-1970-001
+    date_precision: annee
     categorie: jalon
     date: 1970
     precision_date: annee
@@ -99,6 +109,7 @@ events:
       - S10-A008
 
   - id: CHR-S10-1974-001
+    date_precision: annee
     categorie: jalon
     date: 1974
     precision_date: annee
@@ -115,6 +126,7 @@ events:
       - S10-A010
 
   - id: CHR-S10-1976-001
+    date_precision: jour
     same_as: EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER
     categorie: jalon
     date: 1976-06-04
@@ -136,6 +148,7 @@ events:
       - S10-A011
 
   - id: CHR-S10-1976-002
+    date_precision: saison
     categorie: jalon
     date: "été 1976"
     precision_date: saison
@@ -152,6 +165,7 @@ events:
       - S10-A012
 
   - id: CHR-S10-1976-003
+    date_precision: circa
     categorie: jalon
     date: "fin 1976"
     precision_date: approx
@@ -169,6 +183,7 @@ events:
       - S10-A013
 
   - id: CHR-S10-1977-001
+    date_precision: jour
     same_as: EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS
     categorie: jalon
     date: 1977-05-29
@@ -185,6 +200,7 @@ events:
       - S10-A015
 
   - id: CHR-S10-1978-001
+    date_precision: jour
     same_as: EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS
     categorie: jalon
     date: 1978-01-25
@@ -199,6 +215,7 @@ events:
       - S10-A019
 
   - id: CHR-S10-1978-002
+    date_precision: mois
     categorie: jalon
     date: "avril 1978"
     precision_date: mois
@@ -216,6 +233,7 @@ events:
       - S10-A016
 
   - id: CHR-S10-1978-003
+    date_precision: annee
     categorie: jalon
     date: 1978
     precision_date: annee
@@ -232,6 +250,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-004
+    date_precision: annee
     categorie: jalon
     date: 1978
     precision_date: annee
@@ -245,6 +264,7 @@ events:
       - S10-A019
 
   - id: CHR-S10-1978-005
+    date_precision: jour
     categorie: jalon
     date: 1978-09-20
     precision_date: jour
@@ -260,6 +280,7 @@ events:
       - S10-A017
 
   - id: CHR-S10-1978-006
+    date_precision: saison
     categorie: jalon
     date: "Noël 1978"
     precision_date: periode
@@ -274,6 +295,7 @@ events:
       - S10-A018
 
   - id: CHR-S10-1978-007
+    date_precision: jour
     categorie: jalon
     date: 1978-12-27
     precision_date: jour
@@ -289,6 +311,7 @@ events:
       - S10-A024
 
   - id: CHR-S10-1979-001
+    date_precision: mois
     categorie: jalon
     date: "janvier 1979"
     precision_date: mois
@@ -303,6 +326,7 @@ events:
       - S10-A024
 
   - id: CHR-S10-1979-002
+    date_precision: mois
     categorie: jalon
     date: "avril 1979"
     precision_date: mois
@@ -319,6 +343,7 @@ events:
       - S10-A021
 
   - id: CHR-S10-1980-001
+    date_precision: annee
     categorie: jalon
     date: 1980
     precision_date: annee

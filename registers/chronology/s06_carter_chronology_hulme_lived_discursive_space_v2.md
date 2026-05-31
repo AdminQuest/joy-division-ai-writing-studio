@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S06-001
+    date_precision: annee
     categorie: jalon
     date: 1969
     precision_date: annee
@@ -24,6 +25,7 @@ events:
       - S06-A010
 
   - id: CHR-S06-002
+    date_precision: annee
     categorie: jalon
     date: 1970
     precision_date: annee
@@ -37,6 +39,7 @@ events:
       - S06-A009
 
   - id: CHR-S06-003
+    date_precision: annee
     categorie: jalon
     date: 1975
     precision_date: annee
@@ -51,6 +54,7 @@ events:
       - S06-A005
 
   - id: CHR-S06-004
+    date_precision: annee
     categorie: jalon
     date: 1977
     precision_date: annee
@@ -64,6 +68,7 @@ events:
       - S06-A003
 
   - id: CHR-S06-005
+    date_precision: annee
     categorie: jalon
     date: 1978
     precision_date: annee
@@ -78,6 +83,7 @@ events:
       - S06-A005
 
   - id: CHR-S06-006
+    date_precision: annee
     categorie: reception_posthume
     date: 1985
     precision_date: annee
@@ -92,6 +98,7 @@ events:
       - S06-A004
 
   - id: CHR-S06-007
+    date_precision: annee
     categorie: reception_posthume
     date: 1986
     precision_date: annee
@@ -105,6 +112,7 @@ events:
       - S06-A003
 
   - id: CHR-S06-008
+    date_precision: annee
     categorie: reception_posthume
     date: 1990
     precision_date: annee
@@ -119,6 +127,7 @@ events:
       - S06-A008
 
   - id: CHR-S06-009
+    date_precision: annee
     categorie: reception_posthume
     date: 1993
     precision_date: annee
@@ -132,6 +141,7 @@ events:
       - S06-A002
 
   - id: CHR-S06-010
+    date_precision: annee
     categorie: reception_posthume
     date: 1995
     precision_date: annee
@@ -145,6 +155,7 @@ events:
       - S06-A002
 
   - id: CHR-S06-011
+    date_precision: annee
     categorie: reception_posthume
     date: 2021
     precision_date: annee
@@ -160,6 +171,7 @@ events:
       - S06-A001
 
   - id: CHR-S06-012
+    date_precision: annee
     categorie: reception_posthume
     date: 2023
     precision_date: annee

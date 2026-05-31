@@ -8,6 +8,7 @@ Entrées ciblées issues de `Ott - 85-115_ocred.pdf`. Elles complètent le regis
 
 ```yaml
 id: CHR-S75-1979-008
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1979-05-24
@@ -43,6 +44,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-009
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1979-07
@@ -82,6 +84,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-010
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1979-09
@@ -119,6 +122,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-011
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1979-10-16
@@ -159,6 +163,9 @@ notes: >
 
 ```yaml
 id: CHR-S75-1979-012
+date_precision: intervalle
+date_debut: 1979-10
+date_fin: 1979-11
 categorie: jalon
 type_unite: chronology
 date: 1979-10/1979-11
@@ -200,6 +207,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-002
+date_precision: mois
 categorie: jalon
 type_unite: chronology
 date: 1980-01
@@ -237,6 +245,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-003
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1980-02
@@ -271,6 +280,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-004
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1980-03
@@ -309,6 +319,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-005
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-04-04
@@ -345,6 +356,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-006
+date_precision: jour
 categorie: jalon
 type_unite: chronology
 date: 1980-04-07
@@ -382,6 +394,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-007
+date_precision: jour
 categorie: concert_a_migrer
 type_unite: chronology
 date: 1980-04-08
@@ -422,6 +435,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-008
+date_precision: jour
 same_as: EVENT-DERNIER-CONCERT-BIRMINGHAM
 categorie: jalon
 type_unite: chronology
@@ -459,6 +473,7 @@ notes: >
 
 ```yaml
 id: CHR-S75-1980-009
+date_precision: jour
 same_as: EVENT-MORT-IAN-CURTIS
 categorie: jalon
 type_unite: chronology

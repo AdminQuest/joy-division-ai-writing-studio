@@ -25154,6 +25154,28 @@ warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_p
 warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/worley_punk_politics_british_fanzines/source_part_01.md,S77-A016,Invalid value for type_unite: synthese_argumentative,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-NAISSANCE-IAN-CURTIS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-NAISSANCE-IAN-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-ARRIVEE-STEPHEN-MORRIS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-ARRIVEE-STEPHEN-MORRIS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-A-FACTORY-SAMPLE,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-A-FACTORY-SAMPLE,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-UNKNOWN-PLEASURES,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-UNKNOWN-PLEASURES,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-DERNIER-CONCERT-BIRMINGHAM,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-DERNIER-CONCERT-BIRMINGHAM,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-MORT-IAN-CURTIS,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-MORT-IAN-CURTIS,Missing required field: certainty,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-CLOSER,Missing required field: type,Compléter le champ obligatoire.
+warning,missing_required_field,registers/chronology/events_canonical.md,EVENT-SORTIE-CLOSER,Missing required field: certainty,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md,CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md,CHRONO-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md,CHRONO-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

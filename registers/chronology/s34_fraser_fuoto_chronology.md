@@ -8,6 +8,7 @@ Ce fichier complète le registre chronologique avec les repères réellement uti
 
 ```yaml
 id: CHR-S34-1976-001
+date_precision: annee
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
@@ -36,6 +37,7 @@ prudence: "Repère de cadrage critique, non récit exhaustif de formation."
 
 ```yaml
 id: CHR-S34-1977-001
+date_precision: annee
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
@@ -65,6 +67,7 @@ prudence: "À croiser avec S10, S41, S45, S75 et S76 pour les détails chronolog
 
 ```yaml
 id: CHR-S34-1978-001
+date_precision: jour
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
@@ -94,6 +97,7 @@ prudence: "Archive télévisuelle et datation à vérifier avant citation défin
 
 ```yaml
 id: CHR-S34-1979-001
+date_precision: mois
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
@@ -127,6 +131,7 @@ prudence: "Ne pas réduire l’espace sonore à Hannett seul."
 
 ```yaml
 id: CHR-S34-1979-002
+date_precision: mois
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34
@@ -156,6 +161,7 @@ prudence: "Paroles et détails discographiques à croiser avec les sources disco
 
 ```yaml
 id: CHR-S34-2007-001
+date_precision: annee
 categorie: reception_posthume
 type_unite: chronology_event
 source_id: S34

@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, cha
 
 ```yaml
 id: CHR-S76-1978-009
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1978
@@ -49,6 +50,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-010
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1978
@@ -85,6 +87,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-011
+date_precision: saison
 categorie: jalon
 type_unite: chronology
 date: 1978
@@ -130,6 +133,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1978-012
+date_precision: saison
 categorie: jalon
 type_unite: chronology
 date: 1978

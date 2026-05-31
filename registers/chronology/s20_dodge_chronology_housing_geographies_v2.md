@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S20-001
+    date_precision: circa
     categorie: jalon
     date: 1780
     precision_date: decade
@@ -24,6 +25,7 @@ events:
       - S20-A001
 
   - id: CHR-S20-002
+    date_precision: annee
     categorie: jalon
     date: 1837
     precision_date: annee
@@ -37,6 +39,9 @@ events:
       - S20-A003
 
   - id: CHR-S20-003
+    date_precision: intervalle
+    date_debut: 1881
+    date_fin: 1886
     categorie: jalon
     date: "1881-1886"
     precision_date: range
@@ -50,6 +55,7 @@ events:
       - S20-A004
 
   - id: CHR-S20-004
+    date_precision: annee
     categorie: jalon
     date: 1904
     precision_date: annee
@@ -64,6 +70,7 @@ events:
       - S20-A005
 
   - id: CHR-S20-005
+    date_precision: annee
     categorie: jalon
     date: 1911
     precision_date: annee
@@ -77,6 +84,7 @@ events:
       - S20-A006
 
   - id: CHR-S20-006
+    date_precision: annee
     categorie: jalon
     date: 1926
     precision_date: annee
@@ -90,6 +98,7 @@ events:
       - S20-A007
 
   - id: CHR-S20-007
+    date_precision: annee
     categorie: jalon
     date: 1931
     precision_date: annee
@@ -103,6 +112,7 @@ events:
       - S20-A007
 
   - id: CHR-S20-008
+    date_precision: annee
     categorie: jalon
     date: 1945
     precision_date: annee
@@ -116,6 +126,7 @@ events:
       - S20-A008
 
   - id: CHR-S20-009
+    date_precision: circa
     categorie: jalon
     date: "milieu des années 1960"
     precision_date: periode
@@ -129,6 +140,7 @@ events:
       - S20-A009
 
   - id: CHR-S20-010
+    date_precision: annee
     categorie: jalon
     date: 1967
     precision_date: annee
@@ -143,6 +155,7 @@ events:
       - S20-A011
 
   - id: CHR-S20-011
+    date_precision: annee
     categorie: reception_posthume
     date: 1981
     precision_date: annee
@@ -156,6 +169,7 @@ events:
       - S20-A013
 
   - id: CHR-S20-012
+    date_precision: annee
     categorie: reception_posthume
     date: 1982
     precision_date: annee
@@ -169,6 +183,9 @@ events:
       - S20-A013
 
   - id: CHR-S20-013
+    date_precision: intervalle
+    date_debut: 1990
+    date_fin: 1999
     categorie: reception_posthume
     date: "années 1990"
     precision_date: decade

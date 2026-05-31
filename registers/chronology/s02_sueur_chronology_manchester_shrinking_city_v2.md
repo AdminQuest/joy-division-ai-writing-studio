@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S02-001
+    date_precision: circa
     categorie: jalon
     date: "seconde moitié du XXe siècle"
     precision_date: periode
@@ -25,6 +26,7 @@ events:
       - S02-A002
 
   - id: CHR-S02-002
+    date_precision: annee
     categorie: reception_posthume
     date: 1996
     precision_date: annee
@@ -38,6 +40,7 @@ events:
       - S02-A007
 
   - id: CHR-S02-003
+    date_precision: annee
     categorie: reception_posthume
     date: 2002
     precision_date: annee
@@ -51,6 +54,7 @@ events:
       - S02-A006
 
   - id: CHR-S02-004
+    date_precision: annee
     categorie: reception_posthume
     date: 2011
     precision_date: annee

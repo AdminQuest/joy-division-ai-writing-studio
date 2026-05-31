@@ -8,6 +8,7 @@ Entrées ciblées issues de `Mick Middles & Lindsay Reade - Torn Apart.pdf`, int
 
 ```yaml
 id: CHR-S76-1956-001
+date_precision: jour
 same_as: EVENT-NAISSANCE-IAN-CURTIS
 categorie: jalon
 type_unite: chronology
@@ -45,6 +46,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1960-001
+date_precision: annee
 categorie: jalon
 type_unite: chronology
 date: 1960
@@ -80,6 +82,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1966-001
+date_precision: annee
 categorie: jalon
 type_unite: chronology
 date: 1966
@@ -116,6 +119,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1964-001
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1964
@@ -150,6 +154,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1968-001
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1968
@@ -186,6 +191,7 @@ notes: >
 
 ```yaml
 id: CHR-S76-1972-001
+date_precision: circa
 categorie: jalon
 type_unite: chronology
 date: 1972

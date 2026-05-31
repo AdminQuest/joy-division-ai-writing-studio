@@ -4242,11 +4242,289 @@
   },
   {
     "kind": "chronology",
+    "id": "EVENT-NAISSANCE-IAN-CURTIS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-NAISSANCE-IAN-CURTIS — Naissance de Ian Curtis",
+    "data": {
+      "id": "EVENT-NAISSANCE-IAN-CURTIS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1956-07-15",
+      "date_precision": "jour",
+      "event": "Naissance de Ian Curtis.\n",
+      "sources": [
+        "MASTER",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-1956-001",
+        "CHR-S76-1956-001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER — Premier concert des Sex Pistols au Lesser Free Trade Hall",
+    "data": {
+      "id": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1976-06-04",
+      "date_precision": "jour",
+      "event": "Premier concert des Sex Pistols au Lesser Free Trade Hall.\n",
+      "sources": [
+        "MASTER",
+        "S10",
+        "S41"
+      ],
+      "membres_reconcilies": [
+        "CHR-1976-001",
+        "CHR-S10-1976-001",
+        "CHR-S41-TL2-1976-06-04-LFTH",
+        "CHR-S41-1976-06-04-LESSER-FREE-TRADE-HALL"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND — Second concert des Sex Pistols au Lesser Free Trade Hall",
+    "data": {
+      "id": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1976-07-20",
+      "date_precision": "jour",
+      "event": "Second concert des Sex Pistols au Lesser Free Trade Hall.\n",
+      "sources": [
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1976-07-20-SECOND-PISTOLS-LFTH",
+        "CHR-S45-1976-07-20-SEX-PISTOLS",
+        "CHR-S75-1976-002",
+        "CHR-S76-1976-002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS — Premier concert de Warsaw à l'Electric Circus",
+    "data": {
+      "id": "EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1977-05-29",
+      "date_precision": "jour",
+      "event": "Premier concert de Warsaw à l'Electric Circus.\n",
+      "sources": [
+        "S10",
+        "S41",
+        "S45",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S10-1977-001",
+        "CHR-S41-TL2-1977-05-29-FIRST-WARSAW-GIG-REVIEW",
+        "CHR-S41-1977-05-29-WARSAW-FIRST-GIG-ELECTRIC-CIRCUS",
+        "CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS",
+        "CHR-S76-1977-003"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS — Premier concert sous le nom Joy Division (Pips)",
+    "data": {
+      "id": "EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1978-01-25",
+      "date_precision": "jour",
+      "event": "Premier concert sous le nom Joy Division (Pips).\n",
+      "sources": [
+        "S10",
+        "S41",
+        "S45",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-S10-1978-001",
+        "CHR-S41-1978-01-PIPS-FIRST-JOY-DIVISION-GIG",
+        "CHR-S41-TL3-1978-01-25-PIPS-JOY-DIVISION",
+        "CHR-S45-1978-01-25-PIPS-FIRST-JD",
+        "CHR-S76-1978-001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-ARRIVEE-STEPHEN-MORRIS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-ARRIVEE-STEPHEN-MORRIS — Arrivée de Stephen Morris (batteur)",
+    "data": {
+      "id": "EVENT-ARRIVEE-STEPHEN-MORRIS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1977-08",
+      "date_precision": "mois",
+      "event": "Arrivée de Stephen Morris (batteur).\n",
+      "sources": [
+        "S41",
+        "S45"
+      ],
+      "membres_reconcilies": [
+        "CHR-S41-1977-08-STEVE-MORRIS-JOINS",
+        "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT"
+      ],
+      "prudence_methodologique": "S41 date l'arrivée à « 1977-08 » (mois), retenu comme date la plus précise ; S45 ne donne que « 1977 » (année). CHR-S35-P05-1977-ETE-001 (Morris voit l'annonce en vitrine de Jones's) est un candidat-membre à arbitrer."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SORTIE-A-FACTORY-SAMPLE",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SORTIE-A-FACTORY-SAMPLE — Sortie de A Factory Sample (FAC 2)",
+    "data": {
+      "id": "EVENT-SORTIE-A-FACTORY-SAMPLE",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-01",
+      "date_precision": "mois",
+      "event": "Sortie de A Factory Sample (FAC 2).\n",
+      "sources": [
+        "MASTER",
+        "S41"
+      ],
+      "membres_reconcilies": [
+        "CHR-1979-001",
+        "CHR-S41-1979-01-A-FACTORY-SAMPLE-RELEASE"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SORTIE-UNKNOWN-PLEASURES",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SORTIE-UNKNOWN-PLEASURES — Sortie de l'album Unknown Pleasures (FACT 10)",
+    "data": {
+      "id": "EVENT-SORTIE-UNKNOWN-PLEASURES",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1979-06-14",
+      "date_precision": "jour",
+      "event": "Sortie de l'album Unknown Pleasures (FACT 10).\n",
+      "sources": [
+        "MASTER",
+        "S41",
+        "S75"
+      ],
+      "membres_reconcilies": [
+        "CHR-1979-002",
+        "CHR-S41-1979-06-UP-RELEASE-CRITICAL-ACCLAIM",
+        "CHR-S41-1979-06-14-UP-FACT10-RELEASE",
+        "CHR-S75-1979-006"
+      ],
+      "prudence_methodologique": "S41 porte deux entrées de sortie (1979-06 « critical acclaim » et 1979-06-14 « FACT 10 release ») : duplication intra-source réconciliée. Lecture critique de S34 conservée distincte (reception_posthume)."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-DERNIER-CONCERT-BIRMINGHAM",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-DERNIER-CONCERT-BIRMINGHAM — Dernier concert de Joy Division (Birmingham University)",
+    "data": {
+      "id": "EVENT-DERNIER-CONCERT-BIRMINGHAM",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-05-02",
+      "date_precision": "jour",
+      "event": "Dernier concert de Joy Division (Birmingham University).\n",
+      "sources": [
+        "MASTER",
+        "S41",
+        "S45",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-1980-002",
+        "CHR-S41-1980-05-02-BIRMINGHAM-HIGH-HALL-LAST-GIG",
+        "CHR-S45-1980-05-02-BIRMINGHAM-FINAL-GIG",
+        "CHR-S75-1980-008",
+        "CHR-S76-1980-027"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-MORT-IAN-CURTIS",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-MORT-IAN-CURTIS — Mort de Ian Curtis",
+    "data": {
+      "id": "EVENT-MORT-IAN-CURTIS",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-05-18",
+      "date_precision": "jour",
+      "event": "Mort de Ian Curtis.\n",
+      "sources": [
+        "MASTER",
+        "S41",
+        "S75",
+        "S76"
+      ],
+      "membres_reconcilies": [
+        "CHR-1980-003",
+        "CHR-S41-1980-05-18-CURTIS-SUICIDE",
+        "CHR-S75-1980-009",
+        "CHR-S76-1980-031"
+      ],
+      "prudence_methodologique": "Les entrées adjacentes du 16-18 mai (derniers jours, dernier trajet, notification à Hook par la police, retour d'Annik Honoré) sont conservées comme jalons-facettes distincts, non fusionnés. CHR-S76-1980-031 (découverte du corps) est traité comme la consignation S76 du décès."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "EVENT-SORTIE-CLOSER",
+    "file": "registers/chronology/events_canonical.md",
+    "heading": "EVENT-SORTIE-CLOSER — Sortie posthume de l'album Closer",
+    "data": {
+      "id": "EVENT-SORTIE-CLOSER",
+      "type_unite": "chronology_event",
+      "categorie": "jalon",
+      "date": "1980-07-18",
+      "date_precision": "jour",
+      "event": "Sortie posthume de l'album Closer.\n",
+      "sources": [
+        "MASTER",
+        "S41"
+      ],
+      "membres_reconcilies": [
+        "CHR-1980-004",
+        "CHR-S41-1980-CLOSER-RELEASE-POSTHUMOUS"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-1956-001",
     "file": "registers/chronology/master_chronology.md",
     "heading": "CHR-1956-001 — Naissance de Ian Curtis",
     "data": {
       "id": "CHR-1956-001",
+      "date_precision": "jour",
+      "same_as": "EVENT-NAISSANCE-IAN-CURTIS",
+      "categorie": "jalon",
       "date": "1956-07-15",
       "precision_date": "exact",
       "event": "Naissance de Ian Kevin Curtis à Old Trafford, Manchester.\n",
@@ -4283,6 +4561,9 @@
     "heading": "CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall",
     "data": {
       "id": "CHR-1976-001",
+      "date_precision": "jour",
+      "same_as": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-PREMIER",
+      "categorie": "jalon",
       "date": "1976-06-04",
       "precision_date": "exact",
       "event": "Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.\n",
@@ -4327,6 +4608,8 @@
     "heading": "CHR-1978-001 — Sessions RCA / Arrow",
     "data": {
       "id": "CHR-1978-001",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "date": "1978-05",
       "precision_date": "approximate",
       "event": "Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.\n",
@@ -4370,6 +4653,8 @@
     "heading": "CHR-1978-002 — Premier fit clairement identifié après le Hope and Anchor",
     "data": {
       "id": "CHR-1978-002",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "date": "1978-12",
       "precision_date": "approximate",
       "event": "Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.\n",
@@ -4414,6 +4699,9 @@
     "heading": "CHR-1979-001 — Sortie de A Factory Sample",
     "data": {
       "id": "CHR-1979-001",
+      "date_precision": "circa",
+      "same_as": "EVENT-SORTIE-A-FACTORY-SAMPLE",
+      "categorie": "jalon",
       "date": "1979-01",
       "precision_date": "approximate",
       "event": "Publication de A Factory Sample contenant « Digital » et « Glass ».\n",
@@ -4461,6 +4749,9 @@
     "heading": "CHR-1979-002 — Sortie de Unknown Pleasures",
     "data": {
       "id": "CHR-1979-002",
+      "date_precision": "jour",
+      "same_as": "EVENT-SORTIE-UNKNOWN-PLEASURES",
+      "categorie": "jalon",
       "date": "1979-06-14",
       "precision_date": "exact",
       "event": "Sortie de l’album Unknown Pleasures chez Factory Records.\n",
@@ -4510,6 +4801,8 @@
     "heading": "CHR-1980-001 — Concert du Derby Hall à Bury",
     "data": {
       "id": "CHR-1980-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "date": "1980-04-08",
       "precision_date": "exact",
       "event": "Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.\n",
@@ -4552,6 +4845,9 @@
     "heading": "CHR-1980-002 — Dernier concert officiel à Birmingham University",
     "data": {
       "id": "CHR-1980-002",
+      "date_precision": "jour",
+      "same_as": "EVENT-DERNIER-CONCERT-BIRMINGHAM",
+      "categorie": "jalon",
       "date": "1980-05-02",
       "precision_date": "exact",
       "event": "Dernier concert officiel de Joy Division à Birmingham University.\n",
@@ -4594,6 +4890,9 @@
     "heading": "CHR-1980-003 — Suicide de Ian Curtis",
     "data": {
       "id": "CHR-1980-003",
+      "date_precision": "jour",
+      "same_as": "EVENT-MORT-IAN-CURTIS",
+      "categorie": "jalon",
       "date": "1980-05-18",
       "precision_date": "exact",
       "event": "Suicide de Ian Curtis à Macclesfield.\n",
@@ -4638,6 +4937,9 @@
     "heading": "CHR-1980-004 — Sortie de Closer",
     "data": {
       "id": "CHR-1980-004",
+      "date_precision": "jour",
+      "same_as": "EVENT-SORTIE-CLOSER",
+      "categorie": "jalon",
       "date": "1980-07-18",
       "precision_date": "exact",
       "event": "Sortie posthume de l’album Closer.\n",
@@ -4687,6 +4989,8 @@
     "heading": "CHR-S29-1977-001 — 1977 comme seuil culturel « no future »",
     "data": {
       "id": "CHR-S29-1977-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S29",
       "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
@@ -4723,6 +5027,8 @@
     "heading": "CHR-S29-1979-001 — « Dead Souls » comme titre-seuil hauntologique",
     "data": {
       "id": "CHR-S29-1979-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S29",
       "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
@@ -4761,6 +5067,8 @@
     "heading": "CHR-S29-1980-001 — *Missions of Dead Souls* comme résonance Throbbing Gristle / Joy Division",
     "data": {
       "id": "CHR-S29-1980-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S29",
       "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
@@ -4794,6 +5102,8 @@
     "heading": "CHR-S29-2017-001 — Mort de Mark Fisher et hantise du concept",
     "data": {
       "id": "CHR-S29-2017-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S29",
       "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
@@ -4830,6 +5140,8 @@
     "heading": "CHR-S34-1976-001 — Manchester 1976 comme seuil de formation",
     "data": {
       "id": "CHR-S34-1976-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -4863,6 +5175,8 @@
     "heading": "CHR-S34-1977-001 — Stabilisation du nom Joy Division",
     "data": {
       "id": "CHR-S34-1977-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -4897,6 +5211,8 @@
     "heading": "CHR-S34-1978-001 — Granada Reports et « Shadowplay »",
     "data": {
       "id": "CHR-S34-1978-001",
+      "date_precision": "jour",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -4932,6 +5248,8 @@
     "heading": "CHR-S34-1979-001 — *Unknown Pleasures* comme espace intérieur / extérieur",
     "data": {
       "id": "CHR-S34-1979-001",
+      "date_precision": "mois",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -4971,6 +5289,8 @@
     "heading": "CHR-S34-1979-002 — « Transmission » comme danse urbaine",
     "data": {
       "id": "CHR-S34-1979-002",
+      "date_precision": "mois",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -5006,6 +5326,8 @@
     "heading": "CHR-S34-2007-001 — Documentaire *Joy Division* de Grant Gee",
     "data": {
       "id": "CHR-S34-2007-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology_event",
       "source_id": "S34",
       "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
@@ -5039,6 +5361,9 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1976-07-20-SEX-PISTOLS",
+      "date_precision": "jour",
+      "same_as": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1976-07-20",
       "evenement": "Ian Curtis assiste au second concert des Sex Pistols au Lesser Free Trade Hall, Manchester ; Deborah Curtis le présente comme une confirmation que quelque chose existe hors de la carrière administrative.\n",
@@ -5061,6 +5386,8 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1976-08-MONT-DE-MARSAN",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1976-08",
       "evenement": "Ian et Deborah Curtis se rendent au festival punk de Mont de Marsan ; Deborah lit ce voyage comme une partie de la « stratégie de carrière » de Ian.\n",
@@ -5083,6 +5410,8 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1977-IGGY-POP-MANCHESTER",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1977,
       "evenement": "Lors d’un concert d’Iggy Pop à Manchester, Ian Curtis présente Deborah à Peter Hook et Terry Mason ; le réseau du futur groupe devient concret.\n",
@@ -5105,6 +5434,8 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1977-05-BARTON-STREET",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-05",
       "evenement": "Ian et Deborah Curtis reviennent à Macclesfield et s’installent à Barton Street, qui deviendra la base domestique du travail d’écriture de Ian.\n",
@@ -5129,6 +5460,9 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS",
+      "date_precision": "jour",
+      "same_as": "EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-05-29",
       "evenement": "Warsaw joue son premier concert à l’Electric Circus, avec Buzzcocks, Penetration, John Cooper Clarke et John the Postman.\n",
@@ -5151,6 +5485,8 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1977-08-10-BROTHERDALE-PANIK",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-08-10",
       "evenement": "Steve Brotherdale et des membres de Panik viennent chez les Curtis après une fête familiale ; la tentative de déplacement de Curtis vers Panik échoue.\n",
@@ -5173,6 +5509,9 @@
     "heading": "S45 — Chronologie candidate — formation 1976-1977",
     "data": {
       "id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT",
+      "date_precision": "annee",
+      "same_as": "EVENT-ARRIVEE-STEPHEN-MORRIS",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1977,
       "evenement": "Stephen Morris répond à l’annonce placée par Ian Curtis dans Jones’ Music Store à Macclesfield et devient le batteur stabilisateur de Warsaw.\n",
@@ -5195,6 +5534,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-09-TOPS-DEBORAH",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-09",
       "evenement": "Deborah Curtis commence un cours TOPS au collège local, avec l’aide des connaissances administratives de Ian Curtis au Manpower Services Commission.\n",
@@ -5217,6 +5558,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1977,
       "evenement": "Ian Curtis obtient un poste à l’Employment Exchange de Macclesfield comme Assistant Disablement Resettlement Officer.\n",
@@ -5239,6 +5582,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-EPILEPSY-COURSE",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1977,
       "evenement": "Dans le cadre de son poste, Ian Curtis suit une formation professionnelle sur l’épilepsie.\n",
@@ -5261,6 +5606,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "source_id": "S45",
       "date": "1977-10-02",
       "evenement": "Warsaw joue lors du week-end de fermeture annoncée de l’Electric Circus ; la performance donne lieu à une inclusion sur la compilation live Short Circuit.\n",
@@ -5284,6 +5631,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-12-PENNINE-AN-IDEAL",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-12",
       "evenement": "Joy Division enregistre son premier EP, An Ideal for Living, à Pennine Sound Studio, Oldham.\n",
@@ -5309,6 +5658,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1977-12-31-SWINGING-APPLE",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1977-12-31",
       "evenement": "Warsaw joue probablement son dernier concert sous ce nom au Swinging Apple, Liverpool, le soir du Nouvel An.\n",
@@ -5331,6 +5682,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-01",
       "evenement": "La sortie d’An Ideal for Living accompagne le changement de nom de Warsaw à Joy Division, après la découverte de Warsaw Pakt.\n",
@@ -5355,6 +5708,9 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1978-01-25-PIPS-FIRST-JD",
+      "date_precision": "jour",
+      "same_as": "EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-01-25",
       "evenement": "Premier concert sous le nom Joy Division à Pips disco, Manchester.\n",
@@ -5377,6 +5733,8 @@
     "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
     "data": {
       "id": "CHR-S45-1978-04-RCA-ARROW",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-04",
       "evenement": "Joy Division enregistre douze morceaux à Greendow / Arrow Studios dans le cadre du projet financé par Richard Searling, John Anderson et Bernie Binnick.\n",
@@ -5403,6 +5761,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-10-28-SUMNER-BARLOW-WEDDING",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-10-28",
       "evenement": "Ian et Deborah Curtis sont témoins du mariage de Bernard Sumner et Sue Barlow. Deborah se décrit avec Sue comme l’une des « original girlies » ayant vu Joy Division se développer.\n",
@@ -5425,6 +5785,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-FACTORY-SAMPLE",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Tony Wilson finance *A Factory Sample* ; Martin Hannett produit « Digital » et « Glass » ; Peter Saville choisit une esthétique argent/noir.\n",
@@ -5449,6 +5811,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-11",
       "evenement": "Deborah assiste au concert du Check Inn à Altrincham et observe une forme de fandom dévotionnel autour de Ian Curtis.\n",
@@ -5472,6 +5836,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1978-12-27",
       "evenement": "Après le concert londonien décevant au Hope and Anchor, Ian Curtis connaît sa première crise reconnue et est conduit au Luton and Dunstable Hospital.\n",
@@ -5495,6 +5861,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-01-13-NME-COVER",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-01-13",
       "evenement": "Ian Curtis apparaît en couverture du NME avec son long manteau vert et une cigarette, grâce à la persistance de Paul Morley.\n",
@@ -5518,6 +5886,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-01-PEEL-SESSION-1",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-01",
       "evenement": "Joy Division enregistre sa première John Peel session à la fin de janvier 1979, au moment où le foyer Curtis doit apprendre à composer avec la maladie.\n",
@@ -5541,6 +5911,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-01-23",
       "evenement": "Ian Curtis voit un spécialiste au Macclesfield District and General Hospital ; Phenytoin Sodium et Phenobarbitone sont prescrits.\n",
@@ -5564,6 +5936,10 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-01-03-13-GRAND-MAL-ATTACKS",
+      "date_precision": "intervalle",
+      "date_debut": "1979-01-24",
+      "date_fin": "1979-03-13",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-01-24/1979-03-13",
       "evenement": "Ian Curtis connaît plusieurs crises grand mal entre le 24 janvier et le 13 mars 1979 ; les traitements sont progressivement ajustés.\n",
@@ -5587,6 +5963,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-01-RCA-MASTERS-TRANSFER",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-01",
       "evenement": "Les bandes masters du projet RCA / Arrow sont remises contre 1 500 livres ; le contrat d’édition non signé laisse Joy Division libre de réenregistrer.\n",
@@ -5609,6 +5987,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-04",
       "evenement": "*Unknown Pleasures* est enregistré à Strawberry Studios, Stockport, avec Martin Hannett ; Tony Wilson finance l’enregistrement et le premier pressage.\n",
@@ -5632,6 +6012,8 @@
     "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
     "data": {
       "id": "CHR-S45-1979-04-16-NATALIE-BIRTH",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": "1979-04-16",
       "evenement": "La naissance de Natalie est induite le 16 avril 1979, mais le travail commence la veille au soir ; Ian passe de l’appréhension à l’émerveillement, puis demeure empêché par la peur des crises.\n",
@@ -5655,6 +6037,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Stiff et Chiswick organisent à Rafters un concours de groupes ; Curtis y force l’accès à Tony Wilson et Rob Gretton y voit Joy Division dans un moment de détermination maximale.\n",
@@ -5680,6 +6064,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-GRANADA-SHADOWPLAY",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Tony Wilson organise une apparition de Joy Division sur Granada Reports / What’s On avec « Shadowplay », montée avec des images monochromes d’un paysage urbain issu de World in Action.\n",
@@ -5704,6 +6090,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-GRETTON-MANAGER",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Rob Gretton devient manager de Joy Division ; Deborah Curtis décrit son acceptation par Ian comme celle d’un gardien ou parent de substitution.\n",
@@ -5728,6 +6116,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-BASS-HOOK-INCIDENT",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "À la suite d’un conflit lié aux absences de Bernard Sumner et à l’idée d’un second guitariste, la basse de Peter Hook devient plus avancée et dominante selon Deborah Curtis.\n",
@@ -5751,6 +6141,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Joy Division participe aux réunions du Musicians’ Union Collective au Band on the Wall, décrites par Deborah comme des répétitions publiques chaotiques.\n",
@@ -5774,6 +6166,8 @@
     "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
     "data": {
       "id": "CHR-S45-1978-CANDY-DOG",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "source_id": "S45",
       "date": 1978,
       "evenement": "Ian et Deborah Curtis adoptent une chienne Border collie appelée Candy d’après « Candy Says » du Velvet Underground.\n",
@@ -5796,6 +6190,8 @@
     "heading": "S45 — Chronologie candidate — vote conservateur rapporté",
     "data": {
       "id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "date": "à préciser",
       "periode": "mariage Ian/Deborah, avant 1980",
       "evenement": "Deborah Curtis rapporte qu’Ian Curtis vote conservateur lors d’une élection locale après avoir laissé croire au candidat libéral qu’il voterait pour lui.\n",
@@ -5818,6 +6214,9 @@
     "heading": "CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester",
     "data": {
       "id": "CHR-S75-1976-002",
+      "date_precision": "jour",
+      "same_as": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1976-07-20",
       "precision_date": "exact",
@@ -5856,6 +6255,8 @@
     "heading": "CHR-S75-1977-001 — Session Warsaw à Pennine Sound",
     "data": {
       "id": "CHR-S75-1977-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-07-18",
       "precision_date": "exact",
@@ -5896,6 +6297,8 @@
     "heading": "CHR-S75-1977-002 — Electric Circus / « At a Later Date »",
     "data": {
       "id": "CHR-S75-1977-002",
+      "date_precision": "circa",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-10",
       "precision_date": "approximate",
@@ -5940,6 +6343,8 @@
     "heading": "CHR-S75-1978-003 — Sortie de *An Ideal for Living*",
     "data": {
       "id": "CHR-S75-1978-003",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-06",
       "precision_date": "approximate",
@@ -5983,6 +6388,8 @@
     "heading": "CHR-S75-1978-004 — Repressage 12 pouces de *An Ideal for Living*",
     "data": {
       "id": "CHR-S75-1978-004",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-10",
       "precision_date": "approximate",
@@ -6021,6 +6428,8 @@
     "heading": "CHR-S75-1978-005 — Stiff/Chiswick Challenge à Rafter's",
     "data": {
       "id": "CHR-S75-1978-005",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1978-04-14",
       "precision_date": "exact",
@@ -6065,6 +6474,10 @@
     "heading": "CHR-S75-1978-006 — Sessions RCA à Arrow Studios",
     "data": {
       "id": "CHR-S75-1978-006",
+      "date_precision": "intervalle",
+      "date_debut": "1978-05-01",
+      "date_fin": "1978-05-05",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-05-01/1978-05-05",
       "precision_date": "range",
@@ -6118,6 +6531,8 @@
     "heading": "CHR-S75-1978-007 — A Factory Sample à Cargo Studios",
     "data": {
       "id": "CHR-S75-1978-007",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-10-11",
       "precision_date": "exact",
@@ -6165,6 +6580,8 @@
     "heading": "CHR-S75-1978-008 — Premier concert londonien au Hope & Anchor",
     "data": {
       "id": "CHR-S75-1978-008",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-12-27",
       "precision_date": "exact",
@@ -6211,6 +6628,8 @@
     "heading": "CHR-S75-1979-001 — Première couverture NME avec Ian Curtis",
     "data": {
       "id": "CHR-S75-1979-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-01-13",
       "precision_date": "exact",
@@ -6253,6 +6672,8 @@
     "heading": "CHR-S75-1979-002 — Première Peel Session",
     "data": {
       "id": "CHR-S75-1979-002",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-01-31",
       "precision_date": "inferred_or_to_verify",
@@ -6296,6 +6717,8 @@
     "heading": "CHR-S75-1979-003 — Genetic Demos à Eden Studios",
     "data": {
       "id": "CHR-S75-1979-003",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-03-04",
       "precision_date": "exact",
@@ -6338,6 +6761,10 @@
     "heading": "CHR-S75-1979-004 — Sessions *Unknown Pleasures* à Strawberry Studios",
     "data": {
       "id": "CHR-S75-1979-004",
+      "date_precision": "intervalle",
+      "date_debut": "1979-04-01",
+      "date_fin": "1979-04-17",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-04-01/1979-04-17",
       "precision_date": "range",
@@ -6383,6 +6810,8 @@
     "heading": "CHR-S75-1979-005 — Naissance de Natalie Curtis pendant le mixage",
     "data": {
       "id": "CHR-S75-1979-005",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-04",
       "precision_date": "approximate",
@@ -6426,6 +6855,9 @@
     "heading": "CHR-S75-1979-006 — Sortie de *Unknown Pleasures*",
     "data": {
       "id": "CHR-S75-1979-006",
+      "date_precision": "jour",
+      "same_as": "EVENT-SORTIE-UNKNOWN-PLEASURES",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-06-14",
       "precision_date": "exact",
@@ -6470,6 +6902,8 @@
     "heading": "CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2*",
     "data": {
       "id": "CHR-S75-1979-007",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-10",
       "precision_date": "approximate",
@@ -6515,6 +6949,8 @@
     "heading": "CHR-S75-1981-001 — Publication de titres des sessions sur *Still*",
     "data": {
       "id": "CHR-S75-1981-001",
+      "date_precision": "jour",
+      "categorie": "reception_posthume",
       "type_unite": "chronology",
       "date": "1981-10-08",
       "precision_date": "exact",
@@ -6560,6 +6996,8 @@
     "heading": "CHR-S75-1997-001 — Intégration complète de la session dans *Heart and Soul*",
     "data": {
       "id": "CHR-S75-1997-001",
+      "date_precision": "annee",
+      "categorie": "reception_posthume",
       "type_unite": "chronology",
       "date": 1997,
       "precision_date": "year",
@@ -6600,6 +7038,8 @@
     "heading": "CHR-S75-1979-008 — Crise majeure du 24 mai 1979",
     "data": {
       "id": "CHR-S75-1979-008",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-05-24",
       "precision_date": "exact",
@@ -6640,6 +7080,8 @@
     "heading": "CHR-S75-1979-009 — Enregistrement et relance de « Transmission »",
     "data": {
       "id": "CHR-S75-1979-009",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-07",
       "precision_date": "approximate",
@@ -6685,6 +7127,8 @@
     "heading": "CHR-S75-1979-010 — Performance BBC2 « Something Else »",
     "data": {
       "id": "CHR-S75-1979-010",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-09",
       "precision_date": "approximate",
@@ -6727,6 +7171,8 @@
     "heading": "CHR-S75-1979-011 — Plan K Bruxelles et rencontre / retrouvailles avec Annik Honoré",
     "data": {
       "id": "CHR-S75-1979-011",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-10-16",
       "precision_date": "exact",
@@ -6772,6 +7218,10 @@
     "heading": "CHR-S75-1979-012 — Sessions *Licht und Blindheit* à Cargo Studios",
     "data": {
       "id": "CHR-S75-1979-012",
+      "date_precision": "intervalle",
+      "date_debut": "1979-10",
+      "date_fin": "1979-11",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-10/1979-11",
       "precision_date": "approximate_range",
@@ -6819,6 +7269,8 @@
     "heading": "CHR-S75-1980-002 — Tournée européenne de janvier 1980",
     "data": {
       "id": "CHR-S75-1980-002",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-01",
       "precision_date": "month",
@@ -6861,6 +7313,8 @@
     "heading": "CHR-S75-1980-003 — Tentative de février 1980",
     "data": {
       "id": "CHR-S75-1980-003",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-02",
       "precision_date": "approximate",
@@ -6900,6 +7354,8 @@
     "heading": "CHR-S75-1980-004 — Sessions *Closer* à Britannia Row",
     "data": {
       "id": "CHR-S75-1980-004",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03",
       "precision_date": "approximate",
@@ -6943,6 +7399,8 @@
     "heading": "CHR-S75-1980-005 — Rainbow Theatre et crise avec stroboscopes",
     "data": {
       "id": "CHR-S75-1980-005",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-04-04",
       "precision_date": "exact",
@@ -6984,6 +7442,8 @@
     "heading": "CHR-S75-1980-006 — Overdose du 7 avril 1980",
     "data": {
       "id": "CHR-S75-1980-006",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-04-07",
       "precision_date": "exact",
@@ -7026,6 +7486,8 @@
     "heading": "CHR-S75-1980-007 — Derby Hall, Bury",
     "data": {
       "id": "CHR-S75-1980-007",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-04-08",
       "precision_date": "exact",
@@ -7071,6 +7533,9 @@
     "heading": "CHR-S75-1980-008 — Dernier concert à Birmingham University",
     "data": {
       "id": "CHR-S75-1980-008",
+      "date_precision": "jour",
+      "same_as": "EVENT-DERNIER-CONCERT-BIRMINGHAM",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-02",
       "precision_date": "exact",
@@ -7112,6 +7577,9 @@
     "heading": "CHR-S75-1980-009 — Mort de Ian Curtis",
     "data": {
       "id": "CHR-S75-1980-009",
+      "date_precision": "jour",
+      "same_as": "EVENT-MORT-IAN-CURTIS",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-18",
       "precision_date": "exact",
@@ -7151,6 +7619,9 @@
     "heading": "CHR-S76-1956-001 — Naissance de Ian Kevin Curtis",
     "data": {
       "id": "CHR-S76-1956-001",
+      "date_precision": "jour",
+      "same_as": "EVENT-NAISSANCE-IAN-CURTIS",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1956-07-15",
       "precision_date": "exact",
@@ -7192,6 +7663,8 @@
     "heading": "CHR-S76-1960-001 — Naissance de Carole Curtis",
     "data": {
       "id": "CHR-S76-1960-001",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1960,
       "precision_date": "year",
@@ -7232,6 +7705,8 @@
     "heading": "CHR-S76-1966-001 — Entrée à King’s School",
     "data": {
       "id": "CHR-S76-1966-001",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1966,
       "precision_date": "year",
@@ -7273,6 +7748,8 @@
     "heading": "CHR-S76-1964-001 — « Curt-servative party » à l’école primaire",
     "data": {
       "id": "CHR-S76-1964-001",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1964,
       "precision_date": "approximate",
@@ -7312,6 +7789,8 @@
     "heading": "CHR-S76-1968-001 — Treacle Teapot, premier groupe d’enfance",
     "data": {
       "id": "CHR-S76-1968-001",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1968,
       "precision_date": "approximate",
@@ -7353,6 +7832,8 @@
     "heading": "CHR-S76-1972-001 — Incident scolaire lié aux pilules et au fluide de nettoyage",
     "data": {
       "id": "CHR-S76-1972-001",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1972,
       "precision_date": "approximate",
@@ -7395,6 +7876,8 @@
     "heading": "CHR-S76-1972-002 — Concert Bowie au Hardrock avec Deborah Woodruff",
     "data": {
       "id": "CHR-S76-1972-002",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1972-12",
       "precision_date": "approximate",
@@ -7437,6 +7920,8 @@
     "heading": "CHR-S76-1973-001 — Déménagement familial à New Moston",
     "data": {
       "id": "CHR-S76-1973-001",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1973,
       "precision_date": "year",
@@ -7480,6 +7965,8 @@
     "heading": "CHR-S76-1973-002 — Concert Lou Reed au Liverpool Empire",
     "data": {
       "id": "CHR-S76-1973-002",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1973-09-27",
       "precision_date": "exact",
@@ -7522,6 +8009,8 @@
     "heading": "CHR-S76-1974-001 — Fiançailles de Ian Curtis et Deborah Woodruff",
     "data": {
       "id": "CHR-S76-1974-001",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1974-04",
       "precision_date": "month",
@@ -7566,6 +8055,8 @@
     "heading": "CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff",
     "data": {
       "id": "CHR-S76-1975-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1975-08-23",
       "precision_date": "exact",
@@ -7611,6 +8102,8 @@
     "heading": "CHR-S76-1975-002 — Installation initiale à Stamford Street après le mariage",
     "data": {
       "id": "CHR-S76-1975-002",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1975,
       "precision_date": "year",
@@ -7652,6 +8145,8 @@
     "heading": "CHR-S76-1976-001 — Installation à Chadderton",
     "data": {
       "id": "CHR-S76-1976-001",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1976,
       "precision_date": "approximate",
@@ -7695,6 +8190,9 @@
     "heading": "CHR-S76-1976-002 — Second concert Sex Pistols au Lesser Free Trade Hall",
     "data": {
       "id": "CHR-S76-1976-002",
+      "date_precision": "jour",
+      "same_as": "EVENT-SEX-PISTOLS-LESSER-FREE-TRADE-HALL-SECOND",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1976-07-20",
       "precision_date": "exact",
@@ -7741,6 +8239,8 @@
     "heading": "CHR-S76-1976-003 — Concert Sex Pistols à l’Electric Circus",
     "data": {
       "id": "CHR-S76-1976-003",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1976-12-09",
       "precision_date": "exact",
@@ -7784,6 +8284,8 @@
     "heading": "CHR-S76-1977-001 — Concert Iggy Pop à Manchester Apollo",
     "data": {
       "id": "CHR-S76-1977-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-03-03",
       "precision_date": "exact",
@@ -7826,6 +8328,8 @@
     "heading": "CHR-S76-1977-002 — Installation de Ian et Deborah Curtis à Barton Street",
     "data": {
       "id": "CHR-S76-1977-002",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-05",
       "precision_date": "month",
@@ -7868,6 +8372,9 @@
     "heading": "CHR-S76-1977-003 — Premier concert de Warsaw / Stiff Kittens à l’Electric Circus",
     "data": {
       "id": "CHR-S76-1977-003",
+      "date_precision": "jour",
+      "same_as": "EVENT-WARSAW-PREMIER-CONCERT-ELECTRIC-CIRCUS",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-05-29",
       "precision_date": "exact",
@@ -7915,6 +8422,8 @@
     "heading": "CHR-S76-1977-004 — Concert Warsaw au Newcastle Town Hall annex",
     "data": {
       "id": "CHR-S76-1977-004",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-06-02",
       "precision_date": "exact",
@@ -7955,6 +8464,8 @@
     "heading": "CHR-S76-1977-005 — Démo Pennine Sound Studios",
     "data": {
       "id": "CHR-S76-1977-005",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-07-18",
       "precision_date": "exact",
@@ -8000,6 +8511,10 @@
     "heading": "CHR-S76-1977-006 — Dernier week-end de l’Electric Circus",
     "data": {
       "id": "CHR-S76-1977-006",
+      "date_precision": "intervalle",
+      "date_debut": "1977-10-02",
+      "date_fin": "1977-10-03",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-10-02/1977-10-03",
       "precision_date": "range",
@@ -8049,6 +8564,8 @@
     "heading": "CHR-S76-1977-007 — Warsaw au Salford Technical College",
     "data": {
       "id": "CHR-S76-1977-007",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-10-07",
       "precision_date": "exact",
@@ -8093,6 +8610,8 @@
     "heading": "CHR-S76-1977-008 — Premier headline gig à Manchester Polytechnic",
     "data": {
       "id": "CHR-S76-1977-008",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-10-08",
       "precision_date": "exact",
@@ -8133,6 +8652,8 @@
     "heading": "CHR-S76-1977-009 — Warsaw à Pipers / Cyprus Tavern",
     "data": {
       "id": "CHR-S76-1977-009",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-10-19",
       "precision_date": "exact",
@@ -8174,6 +8695,8 @@
     "heading": "CHR-S76-1977-010 — Session *An Ideal For Living* à Pennine Sound",
     "data": {
       "id": "CHR-S76-1977-010",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1977-12-26",
       "precision_date": "exact",
@@ -8221,6 +8744,8 @@
     "heading": "CHR-S76-1977-011 — Warsaw au Spinning Apple, Liverpool",
     "data": {
       "id": "CHR-S76-1977-011",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1977-12-31",
       "precision_date": "exact",
@@ -8264,6 +8789,9 @@
     "heading": "CHR-S76-1978-001 — Première apparition sous le nom Joy Division à Pip’s",
     "data": {
       "id": "CHR-S76-1978-001",
+      "date_precision": "jour",
+      "same_as": "EVENT-PREMIER-CONCERT-JOY-DIVISION-PIPS",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-01-25",
       "precision_date": "exact",
@@ -8313,6 +8841,8 @@
     "heading": "CHR-S76-1978-002 — Joy Division à Bowdon Vale Youth Club",
     "data": {
       "id": "CHR-S76-1978-002",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1978-03-14",
       "precision_date": "exact",
@@ -8352,6 +8882,8 @@
     "heading": "CHR-S76-1978-003 — Stiff Test / Chiswick Challenge à Rafters",
     "data": {
       "id": "CHR-S76-1978-003",
+      "date_precision": "circa",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1978-04",
       "precision_date": "month_or_approx",
@@ -8401,6 +8933,8 @@
     "heading": "CHR-S76-1978-004 — RCA/Grapevine envisage Joy Division",
     "data": {
       "id": "CHR-S76-1978-004",
+      "date_precision": "saison",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "spring",
@@ -8447,6 +8981,10 @@
     "heading": "CHR-S76-1978-005 — Sessions Arrow Studios RCA/Grapevine",
     "data": {
       "id": "CHR-S76-1978-005",
+      "date_precision": "intervalle",
+      "date_debut": "1978-05-03",
+      "date_fin": "1978-05-05",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-05-03/1978-05-05",
       "precision_date": "exact_range",
@@ -8499,6 +9037,8 @@
     "heading": "CHR-S76-1978-006 — Après RCA : désengagement de Curtis et amorce Gretton",
     "data": {
       "id": "CHR-S76-1978-006",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "after_1978-05-05",
@@ -8542,6 +9082,8 @@
     "heading": "CHR-S76-1978-007 — Gretton propose ses services à Bernard Sumner",
     "data": {
       "id": "CHR-S76-1978-007",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "after_Stiff_Test_Chiswick_Challenge_before_full_management",
@@ -8585,6 +9127,8 @@
     "heading": "CHR-S76-1978-008 — Intégration sociale de Gretton au pub",
     "data": {
       "id": "CHR-S76-1978-008",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "same_sequence_as_Gretton_rehearsal_entry",
@@ -8627,6 +9171,8 @@
     "heading": "CHR-S76-1978-009 — Gretton sort Joy Division de l’impasse RCA",
     "data": {
       "id": "CHR-S76-1978-009",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "after_Arrow_Studios_sessions",
@@ -8673,6 +9219,8 @@
     "heading": "CHR-S76-1978-010 — Ressortie 12 pouces de *An Ideal for Living* sur Anonymous Records",
     "data": {
       "id": "CHR-S76-1978-010",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "after_RCA_exit_negotiation",
@@ -8714,6 +9262,8 @@
     "heading": "CHR-S76-1978-011 — Concerts de Joy Division au Band On The Wall et réception critique locale",
     "data": {
       "id": "CHR-S76-1978-011",
+      "date_precision": "saison",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "spring_early_summer_1978",
@@ -8764,6 +9314,8 @@
     "heading": "CHR-S76-1978-012 — Vacances de Mason et Hook en France et Espagne",
     "data": {
       "id": "CHR-S76-1978-012",
+      "date_precision": "saison",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "late_summer_1978",
@@ -8807,6 +9359,8 @@
     "heading": "CHR-S76-1978-013 — Première Factory night au Russell Club",
     "data": {
       "id": "CHR-S76-1978-013",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-05-19",
       "precision_date": "exact",
@@ -8854,6 +9408,8 @@
     "heading": "CHR-S76-1978-014 — Troisième Factory night et déplacement du regard critique vers le Nord",
     "data": {
       "id": "CHR-S76-1978-014",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "after_1978-05-19_third_Factory_night",
@@ -8899,6 +9455,8 @@
     "heading": "CHR-S76-1978-015 — Roger Eagle propose un label Manchester-Liverpool",
     "data": {
       "id": "CHR-S76-1978-015",
+      "date_precision": "saison",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "summer",
@@ -8942,6 +9500,8 @@
     "heading": "CHR-S76-1978-016 — Cargo Studios : « Digital » et « Glass » pour *The Factory Sample*",
     "data": {
       "id": "CHR-S76-1978-016",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-10-11",
       "precision_date": "exact",
@@ -8989,6 +9549,8 @@
     "heading": "CHR-S76-1978-017 — Installation de Joy Division à T. J. Davidson’s",
     "data": {
       "id": "CHR-S76-1978-017",
+      "date_precision": "annee",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1978,
       "precision_date": "late_1978",
@@ -9035,6 +9597,8 @@
     "heading": "CHR-S76-1978-018 — Eric’s Liverpool et premier rider avec Oz PA",
     "data": {
       "id": "CHR-S76-1978-018",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1978-07-15",
       "precision_date": "exact",
@@ -9079,6 +9643,8 @@
     "heading": "CHR-S76-1978-019 — Premier concert londonien au Hope & Anchor et première crise majeure reconnue",
     "data": {
       "id": "CHR-S76-1978-019",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1978-12-27",
       "precision_date": "exact",
@@ -9123,6 +9689,8 @@
     "heading": "CHR-S76-1979-004 — Diagnostic clinique d’épilepsie à Macclesfield Hospital",
     "data": {
       "id": "CHR-S76-1979-004",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-01-23",
       "precision_date": "exact",
@@ -9163,6 +9731,8 @@
     "heading": "CHR-S76-1979-005 — Décision d’abandonner les stroboscopes",
     "data": {
       "id": "CHR-S76-1979-005",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1979,
       "precision_date": "after_diagnosis",
@@ -9204,6 +9774,8 @@
     "heading": "CHR-S76-1979-006 — Première Peel Session de Joy Division",
     "data": {
       "id": "CHR-S76-1979-006",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-01-31",
       "precision_date": "exact",
@@ -9251,6 +9823,8 @@
     "heading": "CHR-S76-1979-007 — Genetic demos aux Eden Studios",
     "data": {
       "id": "CHR-S76-1979-007",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-03-04",
       "precision_date": "exact",
@@ -9298,6 +9872,8 @@
     "heading": "CHR-S76-1979-008 — Retour au Hope & Anchor et Marquee avec The Cure",
     "data": {
       "id": "CHR-S76-1979-008",
+      "date_precision": "mois",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-03",
       "precision_date": "early_march",
@@ -9338,6 +9914,8 @@
     "heading": "CHR-S76-1979-009 — Bowdon Vale Youth Club et iconisation Martin O’Neill",
     "data": {
       "id": "CHR-S76-1979-009",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-03-14",
       "precision_date": "exact",
@@ -9383,6 +9961,8 @@
     "heading": "CHR-S76-1979-010 — Sessions *Unknown Pleasures* à Strawberry Studios",
     "data": {
       "id": "CHR-S76-1979-010",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-04",
       "precision_date": "early_to_mid_april",
@@ -9434,6 +10014,8 @@
     "heading": "CHR-S76-1979-011 — Naissance de Natalie Curtis",
     "data": {
       "id": "CHR-S76-1979-011",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-04-16",
       "precision_date": "exact",
@@ -9473,6 +10055,8 @@
     "heading": "CHR-S76-1979-012 — Joy Division à Acklam Hall après la naissance de Natalie",
     "data": {
       "id": "CHR-S76-1979-012",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-04-17",
       "precision_date": "exact",
@@ -9516,6 +10100,8 @@
     "heading": "CHR-S76-1979-013 — Crise grave de Curtis à Barton Street",
     "data": {
       "id": "CHR-S76-1979-013",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-05-24",
       "precision_date": "exact",
@@ -9557,6 +10143,8 @@
     "heading": "CHR-S76-1979-014 — Interview Dave McCullough / Sounds et Stuff the Superstars",
     "data": {
       "id": "CHR-S76-1979-014",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-07",
       "precision_date": "approximate",
@@ -9604,6 +10192,8 @@
     "heading": "CHR-S76-1979-015 — Joy Division à l’Electric Ballroom",
     "data": {
       "id": "CHR-S76-1979-015",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-08-31",
       "precision_date": "exact",
@@ -9648,6 +10238,8 @@
     "heading": "CHR-S76-1979-016 — Enregistrement BBC2 *Something Else*",
     "data": {
       "id": "CHR-S76-1979-016",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-09-01",
       "precision_date": "exact",
@@ -9692,6 +10284,8 @@
     "heading": "CHR-S76-1979-017 — Futurama Leeds",
     "data": {
       "id": "CHR-S76-1979-017",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-09-08",
       "precision_date": "exact",
@@ -9737,6 +10331,8 @@
     "heading": "CHR-S76-1979-018 — Accident de van après Nashville Rooms",
     "data": {
       "id": "CHR-S76-1979-018",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-09-22",
       "precision_date": "exact_or_same_night_after_gig",
@@ -9779,6 +10375,8 @@
     "heading": "CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms",
     "data": {
       "id": "CHR-S76-1979-019",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-08-13",
       "precision_date": "exact",
@@ -9819,6 +10417,8 @@
     "heading": "CHR-S76-1979-020 — Interview Annik / Joy Division à Walthamstow",
     "data": {
       "id": "CHR-S76-1979-020",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-08-24",
       "precision_date": "exact",
@@ -9863,6 +10463,8 @@
     "heading": "CHR-S76-1979-021 — Tournée Buzzcocks et changement d’échelle live",
     "data": {
       "id": "CHR-S76-1979-021",
+      "date_precision": "mois",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-10",
       "precision_date": "month",
@@ -9904,6 +10506,8 @@
     "heading": "CHR-S76-1979-022 — Manchester Apollo pendant la tournée Buzzcocks",
     "data": {
       "id": "CHR-S76-1979-022",
+      "date_precision": "mois",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-10",
       "precision_date": "late_october",
@@ -9945,6 +10549,10 @@
     "heading": "CHR-S76-1979-023 — Rainbow Theatre, Londres",
     "data": {
       "id": "CHR-S76-1979-023",
+      "date_precision": "intervalle",
+      "date_debut": "1979-11-09",
+      "date_fin": "1979-11-10",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-11-09/1979-11-10",
       "precision_date": "exact_range",
@@ -9987,6 +10595,10 @@
     "heading": "CHR-S76-1979-024 — Sessions Cargo / Sordide Sentimental",
     "data": {
       "id": "CHR-S76-1979-024",
+      "date_precision": "intervalle",
+      "date_debut": "1979-10",
+      "date_fin": "1979-11",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-10/1979-11",
       "precision_date": "month_range",
@@ -10034,6 +10646,8 @@
     "heading": "CHR-S76-1979-025 — Les Bains-Douches, Paris",
     "data": {
       "id": "CHR-S76-1979-025",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1979-12-18",
       "precision_date": "exact",
@@ -10076,6 +10690,8 @@
     "heading": "CHR-S76-1979-026 — Dernier réveillon de Ian Curtis",
     "data": {
       "id": "CHR-S76-1979-026",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1979-12-31",
       "precision_date": "exact",
@@ -10115,6 +10731,8 @@
     "heading": "CHR-S76-1980-001 — Amsterdam et reprise de la relation Annik / Ian",
     "data": {
       "id": "CHR-S76-1980-001",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-01-11",
       "precision_date": "exact",
@@ -10155,6 +10773,8 @@
     "heading": "CHR-S76-1980-002 — Première session Pennine de « Love Will Tear Us Apart »",
     "data": {
       "id": "CHR-S76-1980-002",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-01-08",
       "precision_date": "exact",
@@ -10200,6 +10820,8 @@
     "heading": "CHR-S76-1980-003 — Paradiso Amsterdam",
     "data": {
       "id": "CHR-S76-1980-003",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-01-11",
       "precision_date": "exact",
@@ -10246,6 +10868,8 @@
     "heading": "CHR-S76-1980-004 — Cologne Basement",
     "data": {
       "id": "CHR-S76-1980-004",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-01-15",
       "precision_date": "exact",
@@ -10287,6 +10911,8 @@
     "heading": "CHR-S76-1980-005 — Plan K Bruxelles",
     "data": {
       "id": "CHR-S76-1980-005",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-01-17",
       "precision_date": "exact",
@@ -10331,6 +10957,8 @@
     "heading": "CHR-S76-1980-006 — Effenaar Eindhoven",
     "data": {
       "id": "CHR-S76-1980-006",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-01-18",
       "precision_date": "exact",
@@ -10374,6 +11002,8 @@
     "heading": "CHR-S76-1980-007 — High Wycombe Town Hall",
     "data": {
       "id": "CHR-S76-1980-007",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-02-20",
       "precision_date": "exact",
@@ -10415,6 +11045,10 @@
     "heading": "CHR-S76-1980-008 — Session Strawberry pour « She’s Lost Control » 12 pouces",
     "data": {
       "id": "CHR-S76-1980-008",
+      "date_precision": "intervalle",
+      "date_debut": "1980-02-24",
+      "date_fin": "1980-02-25",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-02-24/1980-02-25",
       "precision_date": "overnight_session",
@@ -10458,6 +11092,8 @@
     "heading": "CHR-S76-1980-009 — Lettre du 25 février à Annik Honoré",
     "data": {
       "id": "CHR-S76-1980-009",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-02-25",
       "precision_date": "exact",
@@ -10500,6 +11136,8 @@
     "heading": "CHR-S76-1980-010 — Preston Warehouse",
     "data": {
       "id": "CHR-S76-1980-010",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-02-28",
       "precision_date": "exact",
@@ -10544,6 +11182,8 @@
     "heading": "CHR-S76-1980-011 — Lyceum Ballroom et crise scénique",
     "data": {
       "id": "CHR-S76-1980-011",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-02-29",
       "precision_date": "exact",
@@ -10590,6 +11230,8 @@
     "heading": "CHR-S76-1980-012 — Trinity Hall Bristol et nouvelle crise",
     "data": {
       "id": "CHR-S76-1980-012",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03-05",
       "precision_date": "exact",
@@ -10632,6 +11274,10 @@
     "heading": "CHR-S76-1980-013 — Session Strawberry de « Love Will Tear Us Apart »",
     "data": {
       "id": "CHR-S76-1980-013",
+      "date_precision": "intervalle",
+      "date_debut": "1980-03-08",
+      "date_fin": "1980-03-09",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03-08/1980-03-09",
       "precision_date": "overnight_session",
@@ -10678,6 +11324,8 @@
     "heading": "CHR-S76-1980-014 — Lettre médicale du 12 mars à Annik",
     "data": {
       "id": "CHR-S76-1980-014",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03-12",
       "precision_date": "exact",
@@ -10720,6 +11368,8 @@
     "heading": "CHR-S76-1980-015 — Candy est donnée avant les sessions de *Closer*",
     "data": {
       "id": "CHR-S76-1980-015",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03",
       "precision_date": "before_Britannia_Row_sessions",
@@ -10761,6 +11411,8 @@
     "heading": "CHR-S76-1980-016 — Début des sessions *Closer* à Britannia Row",
     "data": {
       "id": "CHR-S76-1980-016",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03-17",
       "precision_date": "exact",
@@ -10808,6 +11460,8 @@
     "heading": "CHR-S76-1980-017 — Installation dans les appartements de York Street",
     "data": {
       "id": "CHR-S76-1980-017",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03",
       "precision_date": "during_Closer_sessions",
@@ -10853,6 +11507,8 @@
     "heading": "CHR-S76-1980-018 — Fin approximative des sessions *Closer*",
     "data": {
       "id": "CHR-S76-1980-018",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-03-30",
       "precision_date": "approximate_end",
@@ -10895,6 +11551,8 @@
     "heading": "CHR-S76-1980-019 — Genèse visuelle de la pochette de *Closer*",
     "data": {
       "id": "CHR-S76-1980-019",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": 1980,
       "precision_date": "before_release_after_recording",
@@ -10938,6 +11596,8 @@
     "heading": "CHR-S76-1980-020 — Moonlight Club, première date post-*Closer*",
     "data": {
       "id": "CHR-S76-1980-020",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-04-02",
       "precision_date": "exact",
@@ -10982,6 +11642,8 @@
     "heading": "CHR-S76-1980-021 — Moonlight Club, deuxième date",
     "data": {
       "id": "CHR-S76-1980-021",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-04-03",
       "precision_date": "exact",
@@ -11023,6 +11685,8 @@
     "heading": "CHR-S76-1980-022 — Moonlight Club, troisième date et mémoire de « Sister Ray »",
     "data": {
       "id": "CHR-S76-1980-022",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-04-04",
       "precision_date": "exact",
@@ -11066,6 +11730,8 @@
     "heading": "CHR-S76-1980-023 — Malvern Winter Gardens",
     "data": {
       "id": "CHR-S76-1980-023",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-04-05",
       "precision_date": "exact",
@@ -11107,6 +11773,8 @@
     "heading": "CHR-S76-1980-024 — Derby Hall Bury et remplacement vocal",
     "data": {
       "id": "CHR-S76-1980-024",
+      "date_precision": "jour",
+      "categorie": "concert_a_migrer",
       "type_unite": "chronology",
       "date": "1980-04-08",
       "precision_date": "exact",
@@ -11157,6 +11825,8 @@
     "heading": "CHR-S76-1980-025 — Tentative de suicide médicamenteuse",
     "data": {
       "id": "CHR-S76-1980-025",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-04",
       "precision_date": "after_Bury_before_late_April",
@@ -11200,6 +11870,10 @@
     "heading": "CHR-S76-1980-026 — Dernière nuit Annik / Ian au Scala",
     "data": {
       "id": "CHR-S76-1980-026",
+      "date_precision": "intervalle",
+      "date_debut": "1980-04-25",
+      "date_fin": "1980-04-26",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-04-25/1980-04-26",
       "precision_date": "overnight",
@@ -11245,6 +11919,9 @@
     "heading": "CHR-S76-1980-027 — Dernier concert de Joy Division à Birmingham University",
     "data": {
       "id": "CHR-S76-1980-027",
+      "date_precision": "jour",
+      "same_as": "EVENT-DERNIER-CONCERT-BIRMINGHAM",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-02",
       "precision_date": "exact",
@@ -11290,6 +11967,10 @@
     "heading": "CHR-S76-1980-028 — Appels téléphoniques Annik / Ian avant la mort",
     "data": {
       "id": "CHR-S76-1980-028",
+      "date_precision": "intervalle",
+      "date_debut": "1980-05-14",
+      "date_fin": "1980-05-17",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-14/1980-05-17",
       "precision_date": "date_range",
@@ -11332,6 +12013,8 @@
     "heading": "CHR-S76-1980-029 — Lettre de divorce reçue par Ian Curtis",
     "data": {
       "id": "CHR-S76-1980-029",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-17",
       "precision_date": "exact",
@@ -11375,6 +12058,10 @@
     "heading": "CHR-S76-1980-030 — Dernière nuit à Barton Street",
     "data": {
       "id": "CHR-S76-1980-030",
+      "date_precision": "intervalle",
+      "date_debut": "1980-05-17",
+      "date_fin": "1980-05-18",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-17/1980-05-18",
       "precision_date": "overnight",
@@ -11419,6 +12106,9 @@
     "heading": "CHR-S76-1980-031 — Mort de Ian Curtis et découverte du corps",
     "data": {
       "id": "CHR-S76-1980-031",
+      "date_precision": "jour",
+      "same_as": "EVENT-MORT-IAN-CURTIS",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-18",
       "precision_date": "exact",
@@ -11463,6 +12153,8 @@
     "heading": "CHR-S76-1980-032 — Annik Honoré apprend la mort de Curtis",
     "data": {
       "id": "CHR-S76-1980-032",
+      "date_precision": "circa",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-18",
       "precision_date": "same_day",
@@ -11504,6 +12196,8 @@
     "heading": "CHR-S76-1980-033 — Crémation de Ian Curtis et wake Factory",
     "data": {
       "id": "CHR-S76-1980-033",
+      "date_precision": "jour",
+      "categorie": "jalon",
       "type_unite": "chronology",
       "date": "1980-05-23",
       "precision_date": "exact",

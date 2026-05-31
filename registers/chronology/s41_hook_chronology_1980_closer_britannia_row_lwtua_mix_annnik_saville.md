@@ -3,6 +3,7 @@
 ```yaml
 chronology:
   - id: CHR-S41-1980-PRE-CLOSER-AMERICA-ANNIK-CANDY
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -17,6 +18,7 @@ chronology:
     statut: cadrage biographique à croiser avec S45 et lettres
 
   - id: CHR-S41-1980-LWTUA-PENNINE-STRAWBERRY-MIX
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -30,6 +32,7 @@ chronology:
     statut: session single à croiser avec discographies
 
   - id: CHR-S41-1980-CLOSER-BRITANNIA-ROW-SESSIONS
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -45,6 +48,7 @@ chronology:
     statut: session album établie
 
   - id: CHR-S41-1980-CLOSER-LONDON-FLATS-ANNIK
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -60,6 +64,7 @@ chronology:
     statut: scène domestique / studio à croiser avec S45
 
   - id: CHR-S41-1980-CLOSER-TOILET-FIT
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -73,6 +78,7 @@ chronology:
     statut: événement médical à croiser
 
   - id: CHR-S41-1980-U2-BRITANNIA-ROW-HANNETT
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"
@@ -86,6 +92,7 @@ chronology:
     statut: rencontre réseau à croiser
 
   - id: CHR-S41-1980-SAVILLE-STAGLIENO-CLOSER-LWTUA
+    date_precision: mois
     categorie: jalon
     source_id: S41
     date: "1980-03"

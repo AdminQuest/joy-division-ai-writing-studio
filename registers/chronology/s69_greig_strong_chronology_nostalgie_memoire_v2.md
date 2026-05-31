@@ -11,6 +11,7 @@ statut: integration_directe
 ```yaml
 events:
   - id: CHR-S69-010
+    date_precision: annee
     categorie: reception_posthume
     date: 2007
     precision_date: annee
@@ -27,6 +28,7 @@ events:
       - S69-A028
 
   - id: CHR-S69-011
+    date_precision: annee
     categorie: reception_posthume
     date: 2007
     precision_date: annee
@@ -42,6 +44,7 @@ events:
       - S69-A029
 
   - id: CHR-S69-012
+    date_precision: annee
     categorie: reception_posthume
     date: 2011
     precision_date: annee
@@ -57,6 +60,7 @@ events:
       - S69-A032
 
   - id: CHR-S69-013
+    date_precision: annee
     categorie: reception_posthume
     date: 2010
     precision_date: annee
