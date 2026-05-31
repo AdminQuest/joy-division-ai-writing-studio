@@ -1,0 +1,196 @@
+/* Registre des concerts — feuille de style dédiée.
+   Réutilise STRICTEMENT le système maison : tokens, typographie système, et
+   composants partagés des registres chansons (hero / toolbar / champ / bouton /
+   section / grille .songs-list / .song-card / .song-badge) et chronologie
+   (chips à bascule .layer-toggle, bandes de précision .prec, traçabilité
+   .trace). Les distinctions propres aux concerts — statut confirmé / annulé —
+   sont exprimées dans ce langage (chips, liseré, pointillé), sans police ni
+   palette nouvelles. */
+
+:root {
+  --bg: #fafaf7;
+  --bg-card: #ffffff;
+  --text: #1f2937;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #4c6e7a;            /* bleu pétrole — token maison (registre chansons) */
+  --accent-bg: rgba(76, 110, 122, .10);
+
+  --radius-card: 8px;
+  --radius-ctrl: 6px;
+  --transition: 200ms ease;
+  --shadow-rest: 0 1px 2px rgba(0, 0, 0, .04);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, .06);
+
+  --page-px: 32px;
+}
+@media (min-width: 720px)  { :root { --page-px: 64px; } }
+@media (min-width: 1024px) { :root { --page-px: 96px; } }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .88em;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.songs-hero { padding: 40px var(--page-px) 0; }
+.songs-hero__inner { max-width: 1400px; margin: 0 auto; }
+.songs-hero__back { display: inline-block; font-size: 13px; font-weight: 500; color: var(--text-muted); text-decoration: none; margin-bottom: 16px; }
+.songs-hero__back:hover { color: var(--accent); }
+.songs-hero h1 { margin: 0; font-size: 32px; font-weight: 600; letter-spacing: -.01em; }
+.songs-hero__subtitle { margin: 8px 0 0; font-size: 16px; font-weight: 400; color: var(--text-muted); max-width: 75ch; }
+
+/* ── Layout ─────────────────────────────────────────────── */
+.songs-layout { max-width: 1400px; margin: 0 auto; padding: 48px var(--page-px) 64px; }
+
+/* ── Toolbar ────────────────────────────────────────────── */
+.songs-toolbar { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-card); padding: 16px; margin-bottom: 24px; }
+.songs-toolbar__filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.songs-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.songs-field label { font-size: 12px; font-weight: 500; color: var(--text-muted); }
+.songs-field input,
+.songs-field select {
+  width: 100%;
+  font: inherit;
+  font-size: 14px;
+  color: #1f2937;
+  background-color: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-ctrl);
+  padding: 8px 12px;
+  transition: border-color var(--transition);
+}
+/* Couleurs lisibles sur la liste déroulante (leçon PR #10 lieux). */
+.songs-field select option { color: #1f2937; background-color: #ffffff; }
+.songs-field input:focus,
+.songs-field select:focus { outline: none; border-color: var(--accent); }
+
+.songs-toolbar__actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 14px; }
+.songs-btn {
+  font: inherit; font-size: 13px; font-weight: 500; cursor: pointer;
+  border-radius: var(--radius-ctrl); padding: 8px 14px;
+  border: 1px solid var(--border); background: var(--bg-card); color: var(--text);
+  transition: border-color var(--transition), background var(--transition);
+}
+.songs-btn:hover { border-color: var(--accent); }
+.songs-btn--primary { border-color: var(--accent); background: var(--accent-bg); color: var(--accent); }
+.songs-toolbar__meta { margin-left: auto; font-size: 13px; color: var(--text-muted); }
+
+/* ── Statut : chips à bascule (langage maison, registre chronologie) ─────── */
+.chrono-layers { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.layer-toggle {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+  cursor: pointer; user-select: none;
+  transition: background var(--transition), border-color var(--transition);
+}
+.layer-toggle:hover { border-color: var(--accent); }
+.layer-toggle input { position: absolute; opacity: 0; pointer-events: none; }
+.layer-toggle__dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--text-muted); background: transparent; transition: background var(--transition), border-color var(--transition); }
+.layer-toggle.is-on { background: var(--accent-bg); border-color: var(--accent); }
+.layer-toggle.is-on .layer-toggle__dot { background: var(--accent); border-color: var(--accent); }
+.layer-toggle--concert_a_migrer.is-on { background: var(--bg-card); border-color: var(--accent); border-style: dashed; }
+.layer-toggle--concert_a_migrer.is-on .layer-toggle__dot { background: transparent; border-style: dashed; border-color: var(--accent); }
+.layer-toggle__name { font-size: 13px; font-weight: 500; color: var(--text-muted); display: inline-flex; align-items: baseline; gap: 6px; }
+.layer-toggle.is-on .layer-toggle__name { color: var(--text); }
+.layer-toggle__count { font-size: 11px; color: var(--text-muted); }
+
+/* ── Légende précision ──────────────────────────────────── */
+.chrono-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.chrono-legend__item { display: inline-flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-muted); }
+.chrono-legend__item .prec { position: static; }
+
+/* ── Statut de chargement ───────────────────────────────── */
+.songs-status { font-size: 14px; color: var(--text-muted); padding: 24px 0; }
+.songs-empty { font-size: 14px; color: var(--text-muted); padding: 32px 0; text-align: center; }
+
+/* ── Sections par année ─────────────────────────────────── */
+.songs-section { margin-top: 32px; }
+.songs-section:first-of-type { margin-top: 0; }
+.songs-section__header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.songs-section__title { font-size: 20px; font-weight: 600; margin: 0; }
+.songs-section__count { font-size: 13px; font-weight: 400; color: var(--text-muted); }
+
+/* ── Grille de cards ────────────────────────────────────── */
+.songs-list { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 720px)  { .songs-list { grid-template-columns: repeat(2, 1fr); gap: 18px; } }
+@media (min-width: 1024px) { .songs-list { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+
+/* ── Card ───────────────────────────────────────────────── */
+.song-card {
+  display: flex; flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-rest);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+.song-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+/* Concert annulé : « en transit » pointillé (langage de la couche concerts) */
+.concert-card--cancelled { border-left-style: dashed; border-left-color: var(--text-muted); }
+.concert-card--cancelled .song-card__title { color: var(--text-muted); }
+
+.song-card__header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 4px; }
+.song-card__heading { flex: 1; min-width: 0; }
+.song-card__title { font-size: 18px; font-weight: 600; margin: 0; word-wrap: break-word; }
+.song-card__period { font-size: 13px; font-weight: 500; color: var(--text-muted); margin: 4px 0 0; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.song-card__period time { font-weight: 600; color: var(--accent); font-style: normal; }
+.concert-card--cancelled .song-card__period time { color: var(--text-muted); }
+.concert-card__prec { font-size: 11px; color: var(--text-muted); }
+
+.song-card__badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.song-badge { font-size: 11px; font-weight: 500; color: var(--accent); background: var(--accent-bg); border-radius: 999px; padding: 3px 9px; }
+.song-badge--muted { color: var(--text-muted); background: var(--bg); border: 1px solid var(--border); }
+.concert-status--confirmed { color: var(--accent); background: var(--accent-bg); }
+.concert-status--cancelled { color: var(--text-muted); background: var(--bg-card); border: 1px dashed var(--text-muted); }
+
+.song-card__line { font-size: 14px; font-weight: 400; line-height: 1.6; color: var(--text-muted); margin: 10px 0 0; }
+.song-card__line strong { color: var(--text); font-weight: 600; }
+
+/* ── Identifiant (discret, révélé au survol) ────────────── */
+.song-card__id { margin-top: 12px; opacity: 0; max-height: 0; overflow: hidden; transition: opacity var(--transition), max-height var(--transition); }
+.song-card:hover .song-card__id,
+.song-card:focus-within .song-card__id { opacity: 1; max-height: 30px; }
+.song-card__id code { background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); font-size: 11px; padding: 1px 6px; }
+
+/* ── Traçabilité : membres réconciliés repliés (registre chronologie) ────── */
+.trace { margin-top: 12px; }
+.trace summary { font-size: 13px; font-weight: 500; color: var(--accent); cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 6px; padding: 3px 0; }
+.trace summary::-webkit-details-marker { display: none; }
+.trace summary::before { content: "▸"; transition: transform var(--transition); display: inline-block; }
+.trace[open] summary::before { transform: rotate(90deg); }
+.trace summary:hover { text-decoration: underline; }
+.member-list { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid var(--border); }
+.member-list li { display: grid; grid-template-columns: minmax(120px, auto) 1fr; gap: 3px 14px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.member-list code { background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); font-size: 11px; padding: 1px 6px; border-radius: 4px; }
+.member__label { color: var(--text); font-size: 13px; line-height: 1.4; }
+
+/* ── Précision honnête (miroir geo_precision / frise, accent maison) ─────── */
+.prec { position: relative; display: inline-flex; align-items: center; height: 10px; flex: 0 0 auto; }
+.prec__bar { display: block; height: 3px; border-radius: 2px; background: var(--accent); }
+.prec--point .prec__bar { width: 12px; opacity: 1; }
+.prec--short .prec__bar { width: 30px; opacity: .75; }
+.prec--wide .prec__bar { width: 60px; height: 2px; opacity: .5; background: repeating-linear-gradient(90deg, var(--accent) 0 4px, transparent 4px 8px); }
+.prec--span { gap: 0; }
+.prec--span .prec__bar { width: 54px; height: 2px; opacity: .6; }
+.prec--span .prec__cap { width: 2px; height: 9px; background: var(--accent); opacity: .85; border-radius: 1px; }
+
+@media (max-width: 720px) {
+  .songs-toolbar__meta { margin-left: 0; }
+  .member-list li { grid-template-columns: 1fr; }
+}

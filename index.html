@@ -84,18 +84,30 @@
   <a class="card-cta" href="https://adminquest.github.io/joy-division-releases/" target="_blank" rel="noopener noreferrer">Ouvrir</a>
 </article>
 
-<!-- 3. Concerts (à venir) -->
-<article class="card card-soon" aria-disabled="true">
-  <span class="card-badge-soon">Bientôt disponible</span>
-  <div class="card-toggle is-static">
+<!-- 3. Concerts -->
+<article class="card">
+  <button class="card-toggle" type="button" aria-expanded="false" aria-controls="d-concerts">
     <span class="card-icon" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
     </span>
     <div class="card-body">
       <h3 class="card-title">Registre des concerts</h3>
-      <p class="card-summary">Concerts documentés, setlists, lieux, dates et personnel.</p>
+      <p class="card-summary">Concerts documentés (Warsaw / Joy Division), lieux, dates et statut.</p>
+      <span class="card-counter">192 concerts</span>
     </div>
-  </div>
+    <span class="card-chevron" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+    </span>
+    <div class="card-details" id="d-concerts" hidden>
+      <ul>
+        <li>identités canoniques dédoublonnées (same_as)</li>
+        <li>sections par année, statut confirmé / annulé</li>
+        <li>lieu relié au registre des lieux</li>
+        <li>traçabilité des membres · export CSV</li>
+      </ul>
+    </div>
+  </button>
+  <a class="card-cta" href="apps/concerts-register/">Ouvrir</a>
 </article>
 
 <!-- 4. Acteurs -->
