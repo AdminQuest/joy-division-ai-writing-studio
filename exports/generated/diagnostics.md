@@ -1,6 +1,6 @@
 # Diagnostic du repo documentaire
 
-Généré le : `2026-05-31T06:52:23`
+Généré le : `2026-05-31T07:10:56`
 
 Statut : **warning**
 
