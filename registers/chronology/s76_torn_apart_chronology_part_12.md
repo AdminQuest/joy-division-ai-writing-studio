@@ -170,7 +170,7 @@ notes: >
 id: CHR-S76-1979-025
 same_as: CONCERT-19791218-LES-BAINS-DOUCHES-PARIS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-12-18
 precision_date: exact

@@ -86,7 +86,7 @@ notes: >
 id: CHR-S75-1977-002
 same_as: CONCERT-19771002-ELECTRIC-CIRCUS
 date_precision: circa
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1977-10
 precision_date: approximate
@@ -203,7 +203,7 @@ notes: >
 id: CHR-S75-1978-005
 same_as: CONCERT-19780414-RAFTERS-MANCHESTER
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1978-04-14
 precision_date: exact

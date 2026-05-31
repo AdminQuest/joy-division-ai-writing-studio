@@ -5,7 +5,7 @@ chronology:
   - id: CHR-S41-1979-03-13-BAND-ON-THE-WALL-FACTORY-DEAL
     same_as: CONCERT-19790313-BAND-ON-THE-WALL
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-03-13"
     evenement: >
@@ -20,7 +20,7 @@ chronology:
   - id: CHR-S41-1979-03-14-BOWDON-VALE-WHITEHEAD
     same_as: CONCERT-19790314-BOWDON-VALE-YOUTH-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-03-14"
     evenement: >
@@ -147,7 +147,7 @@ chronology:
   - id: CHR-S41-1979-YMCA-TOTTENHAM-COURT-ROAD
     same_as: CONCERT-19790802-YMCA-LONDON
     date_precision: annee
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979"
     evenement: >

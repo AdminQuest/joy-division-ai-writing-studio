@@ -73,7 +73,7 @@ chronology:
   - id: CHR-S41-TL2-1977-09-14-MIDDLESBROUGH-TAPE
     same_as: CONCERT-19770914-ROCK-GARDEN-MIDDLESBROUGH
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1977-09-14"
     evenement: >

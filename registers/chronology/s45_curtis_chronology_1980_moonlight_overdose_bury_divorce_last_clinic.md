@@ -56,7 +56,7 @@ chronology:
   - id: CHR-S45-1980-04-11-FACTORY-REOPENED
     same_as: CONCERT-19800411-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S45
     date: "1980-04-11"
     evenement: >

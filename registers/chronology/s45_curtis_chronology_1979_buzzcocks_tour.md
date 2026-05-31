@@ -20,7 +20,7 @@ chronology:
   - id: CHR-S45-1979-09-FUTURAMA
     same_as: CONCERT-19790908-QUEENS-HALL-LEEDS
     date_precision: mois
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S45
     date: "1979-09"
     evenement: >

@@ -38,7 +38,7 @@ chronology:
   - id: CHR-S41-1980-04-04-RAINBOW-THEATRE-STRANGLERS-FRIENDS
     same_as: CONCERT-19800404-RAINBOW-THEATRE-LONDON
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-04"
     evenement: >
@@ -71,7 +71,7 @@ chronology:
   - id: CHR-S41-1980-04-08-BURY-TOWN-HALL
     same_as: CONCERT-19800408-DERBY-HALL-BURY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-08"
     evenement: >
@@ -132,7 +132,7 @@ chronology:
   - id: CHR-S41-1980-04-19-DERBY-AJANTA-ANNIK
     same_as: CONCERT-19800419-AJANTA-THEATRE-DERBY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1980-04-19"
     evenement: >

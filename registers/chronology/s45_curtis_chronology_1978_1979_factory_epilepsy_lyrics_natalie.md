@@ -47,7 +47,7 @@ statut: datation à préciser selon discographie Factory
 id: CHR-S45-1978-11-CHECK-INN-ALTRINCHAM
 same_as: CONCERT-19781120-CHECK-INN-ALTRINCHAM
 date_precision: mois
-categorie: concert_a_migrer
+categorie: concert_migre
 source_id: S45
 date: 1978-11
 evenement: >

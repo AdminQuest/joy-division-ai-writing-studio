@@ -18,8 +18,8 @@ Invariants (cf. cahier des charges étape 6) :
      la date (jour => AAAA-MM-JJ complet ; annee => pas de faux mois/jour) ;
      cohérence précision vs intervalle.
   5. Catégorie : EVENT- canoniques en `jalon` ; `a_scinder_concert` =>
-     `concert_a_migrer` ou flaggé ; `contexte`/`reception_posthume` sans
-     canonique (pas de same_as).
+     `concert_a_migrer` ou jalon ; `contexte`/`reception_posthume` sans
+     canonique (pas de same_as) ; `concert_migre` => same_as vers un CONCERT-.
 """
 from __future__ import annotations
 
@@ -240,6 +240,12 @@ def validate():
             diags.append(Diag("warning", "INV5-scinder", rid, f"a_scinder_concert mais categorie={cat}"))
         if cat in ("contexte", "reception_posthume") and r.get("same_as"):
             diags.append(Diag("error", "INV5-cat-canon", rid, f"{cat} ne doit pas porter de same_as vers un EVENT-"))
+        # concert_migre (étape 7b-2) : entrée concert réconciliée vers le registre
+        # concerts -> DOIT porter un same_as vers un CONCERT-.
+        if cat == "concert_migre":
+            sa = str(r.get("same_as") or "")
+            if not sa.startswith("CONCERT-"):
+                diags.append(Diag("error", "INV5-migre", rid, "concert_migre sans same_as vers un CONCERT-"))
 
     return diags, len(records), len(canon)
 

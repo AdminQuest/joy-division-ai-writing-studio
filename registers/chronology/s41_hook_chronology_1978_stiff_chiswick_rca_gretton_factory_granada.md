@@ -20,7 +20,7 @@ chronology:
   - id: CHR-S41-1978-04-14-STIFF-CHISWICK-RAFTERS
     same_as: CONCERT-19780414-RAFTERS-MANCHESTER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-04-14"
     evenement: >
@@ -83,7 +83,7 @@ chronology:
   - id: CHR-S41-1978-05-20-MAYFLOWER-TRANSMISSION
     same_as: CONCERT-19780520-STONEGROUND-MAYFLOWER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-05-20"
     evenement: >
@@ -100,7 +100,7 @@ chronology:
   - id: CHR-S41-1978-06-09-FIRST-FACTORY-RUSSELL-CLUB
     same_as: CONCERT-19780609-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -177,7 +177,7 @@ chronology:
   - id: CHR-S41-1978-09-28-COACH-HOUSE-HUDDERSFIELD
     same_as: CONCERT-19780928-COACH-HOUSE-HUDDERSFIELD
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-09-28"
     evenement: >

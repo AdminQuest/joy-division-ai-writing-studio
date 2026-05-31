@@ -126,7 +126,7 @@ notes: >
 id: CHR-S75-1979-011
 same_as: CONCERT-19791016-PLAN-K-BRUSSELS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-10-16
 precision_date: exact
@@ -406,7 +406,7 @@ notes: >
 id: CHR-S75-1980-007
 same_as: CONCERT-19800408-DERBY-HALL-BURY
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1980-04-08
 precision_date: exact

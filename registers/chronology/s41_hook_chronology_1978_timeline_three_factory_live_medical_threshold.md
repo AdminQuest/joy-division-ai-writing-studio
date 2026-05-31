@@ -80,7 +80,7 @@ chronology:
   - id: CHR-S41-TL3-1978-05-20-MAYFLOWER
     same_as: CONCERT-19780520-STONEGROUND-MAYFLOWER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-05-20"
     evenement: >
@@ -124,7 +124,7 @@ chronology:
   - id: CHR-S41-TL3-1978-06-09-FACTORY-RUSSELL-CLUB
     same_as: CONCERT-19780609-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-06-09"
     evenement: >
@@ -140,7 +140,7 @@ chronology:
   - id: CHR-S41-TL3-1978-07-15-ERICS-RICH-KIDS
     same_as: CONCERT-19780715-ERICS-LIVERPOOL
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-07-15"
     evenement: >
@@ -155,7 +155,7 @@ chronology:
   - id: CHR-S41-TL3-1978-07-27-ROOTS-LEEDS-DURUTTI
     same_as: CONCERT-19780727-ROOTS-CLUB-LEEDS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-07-27"
     evenement: >
@@ -170,7 +170,7 @@ chronology:
   - id: CHR-S41-TL3-1978-07-28-SUICIDE-RUSSELL-CLUB
     same_as: CONCERT-19780728-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-07-28"
     evenement: >
@@ -185,7 +185,7 @@ chronology:
   - id: CHR-S41-TL3-1978-09-10-BRADFORD-NF
     same_as: CONCERT-19780910-ROYAL-STANDARD-BRADFORD
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-09-10"
     evenement: >
@@ -246,7 +246,7 @@ chronology:
   - id: CHR-S41-TL3-1978-10-12-ROCK-AGAINST-RACISM
     same_as: CONCERT-19781012-KELLYS-MANCHESTER
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-10-12"
     evenement: >
@@ -262,7 +262,7 @@ chronology:
   - id: CHR-S41-TL3-1978-10-20-FACTORY-CABARET-VOLTAIRE
     same_as: CONCERT-19781020-RUSSELL-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-10-20"
     evenement: >
@@ -278,7 +278,7 @@ chronology:
   - id: CHR-S41-TL3-1978-11-15-BRUNEL-SPITTING
     same_as: CONCERT-19781115-BRUNEL-UNIVERSITY
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-11-15"
     evenement: >
@@ -293,7 +293,7 @@ chronology:
   - id: CHR-S41-TL3-1978-11-19-BRISTOL-LOCARNO-EJECTION
     same_as: CONCERT-19781119-LOCARNO-BRISTOL
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-11-19"
     evenement: >
@@ -307,7 +307,7 @@ chronology:
   - id: CHR-S41-TL3-1978-11-20-CHECK-INN-ALTRINCHAM
     same_as: CONCERT-19781120-CHECK-INN-ALTRINCHAM
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-11-20"
     evenement: >

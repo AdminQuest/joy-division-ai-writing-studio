@@ -36,7 +36,7 @@ chronology:
   - id: CHR-S41-1979-08-22-EN-ATTENDANT-INTERVIEW
     same_as: CONCERT-19790822-WALTHAMSTOW-YOUTH-CLUB
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-08-22"
     evenement: >
@@ -121,7 +121,7 @@ chronology:
   - id: CHR-S41-1979-10-16-PLAN-K-BRUSSELS
     same_as: CONCERT-19791016-PLAN-K-BRUSSELS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1979-10-16"
     evenement: >

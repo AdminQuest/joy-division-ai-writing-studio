@@ -39,7 +39,7 @@ chronology:
   - id: CHR-S41-1978-10-24-LEEDS-FAN-CLUB-RIPPER-POLICE
     same_as: CONCERT-19781024-FAN-CLUB-LEEDS
     date_precision: jour
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-10-24"
     evenement: >
@@ -67,7 +67,7 @@ chronology:
   - id: CHR-S41-1978-11-BRUNEL-SPITTING
     same_as: CONCERT-19781115-BRUNEL-UNIVERSITY
     date_precision: mois
-    categorie: concert_a_migrer
+    categorie: concert_migre
     source_id: S41
     date: "1978-11"
     evenement: >

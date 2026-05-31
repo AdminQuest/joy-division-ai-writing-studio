@@ -47,7 +47,7 @@ notes: >
 id: CHR-S76-1979-012
 same_as: CONCERT-19790417-ACKLAM-HALL-LONDON
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-04-17
 precision_date: exact
@@ -167,7 +167,7 @@ notes: >
 id: CHR-S76-1979-015
 same_as: CONCERT-19790831-ELECTRIC-BALLROOM-CAMDEN
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-08-31
 precision_date: exact
@@ -249,7 +249,7 @@ notes: >
 id: CHR-S76-1979-017
 same_as: CONCERT-19790908-QUEENS-HALL-LEEDS
 date_precision: jour
-categorie: concert_a_migrer
+categorie: concert_migre
 type_unite: chronology
 date: 1979-09-08
 precision_date: exact
