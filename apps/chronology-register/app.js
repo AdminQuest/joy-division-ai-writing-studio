@@ -37,8 +37,19 @@ const labelOf = r => {
   return T(d.label || d.event || d.evenement) || cleanHeading(r && r.heading) || T(d.id) || 'Sans intitulé';
 };
 const isCanonical = r => /^EVENT-/.test(T(r.id)) && !/^EVENT-S\d+-/.test(T(r.id));
-const startDate = d => T(d.date || d.date_debut);
-const endDate = d => T(d.date_fin);
+// Correctif Codex : une date pleine non quotée (date: 1980-05-18) est parsée
+// par js-yaml en objet Date → T() la rendrait « Sun May 18 1980 … » et casserait
+// humanDate / yearOf / tri / filtres / CSV. On normalise tout Date (et tout
+// AAAA-MM-JJ porté par un Date) en ISO local AAAA-MM-JJ AVANT le repli sur T().
+const isoDate = v => {
+  if (v instanceof Date && !isNaN(v)) {
+    const p = n => String(n).padStart(2, '0');
+    return `${v.getUTCFullYear()}-${p(v.getUTCMonth() + 1)}-${p(v.getUTCDate())}`;
+  }
+  return T(v);
+};
+const startDate = d => isoDate(d.date != null ? d.date : d.date_debut);
+const endDate = d => isoDate(d.date_fin);
 const categoryOf = d => T(d.categorie) || 'jalon';   // legacy sans categorie → jalon
 
 // ── Couches activables : ordre = priorité d'empilement de la frise ──────────

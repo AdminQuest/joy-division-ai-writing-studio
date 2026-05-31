@@ -1,364 +1,373 @@
-/* Registre chronologique — frise documentaire (refonte étape 6).
-   Direction : éditorial / archival monochrome, ancres ambrées sur une colonne
-   vertébrale verticale, beats subordonnés. Hiérarchie typographique forte
-   (Archivo display / Newsreader corps / Spline Sans Mono pour dates & méta). */
+/* Registre chronologique — habillage aligné sur le registre des chansons
+   (système maison : fond clair, cartes blanches, accent brique, chips sobres,
+   police système). Les distinctions propres à la frise — ancres vs beats,
+   couche « en transit », bandes de précision — sont exprimées DANS ce langage
+   (poids, badges, accent), sans police ni palette nouvelles. */
 
 :root {
-  --bg: #0b0b0d;
-  --bg-2: #101013;
-  --surface: #141418;
-  --surface-2: #17171c;
-  --line: #26262e;
-  --line-soft: #1d1d23;
-  --ink: #ece8df;
-  --ink-soft: #b6b2a8;
-  --muted: #7b7870;
-  --faint: #56544e;
-  --amber: #e0a64a;
-  --amber-soft: #b9842f;
-  --amber-glow: rgba(224, 166, 74, .18);
-  --transit: #6fb0c4;
-  --posthume: #b58bd6;
-  --contexte: #8f8a7e;
-  --radius: 4px;
-  --spine-x: 26px;        /* position de la colonne vertébrale */
-  --maxw: 1080px;
+  --bg: #fafaf7;
+  --surface: #ffffff;
+  --ink: #1f2326;
+  --muted: #5c636b;
+  --line: #e4e3dd;
+  --accent: #b5402f;
+  --accent-soft: #d98b59;
+  --chip: #f1efe9;
+  --chip-ink: #3f464d;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(15, 18, 20, 0.04), 0 8px 24px rgba(15, 18, 20, 0.05);
+  --maxw: 1180px;
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+
 body {
   margin: 0;
-  font-family: "Newsreader", Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
   color: var(--ink);
-  background:
-    radial-gradient(1200px 600px at 80% -10%, #15151b 0%, transparent 60%),
-    linear-gradient(180deg, #0c0c0f 0%, var(--bg) 40%);
-  background-attachment: fixed;
-  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
 }
-
-/* ── Hero ─────────────────────────────────────────────────────────────── */
-.hero {
-  border-bottom: 1px solid var(--line);
-  padding: 48px 24px 40px;
-  background:
-    repeating-linear-gradient(180deg, transparent 0 6px, rgba(255,255,255,.012) 6px 7px);
-}
-.hero-inner { max-width: var(--maxw); margin: auto; }
-.back {
-  font-family: "Spline Sans Mono", monospace;
-  font-size: .76rem; letter-spacing: .04em;
-  color: var(--muted); text-decoration: none;
-  text-transform: uppercase;
-}
-.back:hover { color: var(--amber); }
-.hero-kicker {
-  font-family: "Spline Sans Mono", monospace;
-  text-transform: uppercase; letter-spacing: .32em;
-  font-size: .68rem; color: var(--amber-soft);
-  margin: 26px 0 6px;
-}
-h1 {
-  font-family: "Archivo", sans-serif;
-  font-weight: 900; font-size: clamp(2.4rem, 6vw, 4.2rem);
-  line-height: .95; letter-spacing: -.02em; margin: 0;
-  text-transform: uppercase;
-}
-.subtitle {
-  max-width: 60ch; margin: 18px 0 0;
-  color: var(--ink-soft); font-size: 1.06rem; line-height: 1.6;
-}
-.subtitle strong { color: var(--ink); font-weight: 500; }
 code {
-  font-family: "Spline Sans Mono", monospace; font-size: .86em;
-  background: var(--bg-2); border: 1px solid var(--line-soft);
-  border-radius: 3px; padding: 1px 5px; color: var(--amber);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: rgba(255, 255, 255, 0.14);
+  padding: 1px 5px;
+  border-radius: 5px;
 }
 
-/* ── Layout / toolbar ─────────────────────────────────────────────────── */
-.layout { max-width: var(--maxw); margin: auto; padding: 28px 24px 80px; }
-.toolbar {
+/* ── Hero (identique au registre chansons) ─────────────────────────────── */
+.songs-hero {
+  background: linear-gradient(180deg, #1d2733 0%, #131a22 100%);
+  color: #f4f6f8;
+  padding: 56px 24px 48px;
+}
+.songs-hero__inner { max-width: var(--maxw); margin: 0 auto; }
+.songs-hero__back { color: #c7d2dd; text-decoration: none; font-size: 0.92rem; }
+.songs-hero__back:hover { text-decoration: underline; }
+.songs-hero h1 { margin: 18px 0 10px; font-size: 2rem; letter-spacing: -0.01em; }
+.songs-hero__subtitle { margin: 0; max-width: 70ch; color: #d6dde4; font-size: 1.02rem; }
+.songs-hero__subtitle code { color: #fff; }
+
+/* ── Layout + toolbar (identiques au registre chansons) ────────────────── */
+.songs-layout { max-width: var(--maxw); margin: 0 auto; padding: 28px 24px 80px; }
+
+.songs-toolbar {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 20px;
-  margin-bottom: 28px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  margin-bottom: 22px;
 }
-.status-card {
-  font-family: "Spline Sans Mono", monospace;
-  font-size: .8rem; line-height: 1.5; color: var(--ink-soft);
-  background: var(--bg-2); border: 1px solid var(--line-soft);
-  border-left: 2px solid var(--amber);
-  border-radius: 3px; padding: 11px 14px; margin-bottom: 18px;
+.songs-toolbar__filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.songs-field { display: flex; flex-direction: column; gap: 6px; }
+.songs-field label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.songs-field input,
+.songs-field select {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-family: inherit;
+}
+.songs-field input:focus,
+.songs-field select:focus {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 1px;
+  border-color: var(--accent-soft);
 }
 
-/* ── Couches activables ───────────────────────────────────────────────── */
-.layers {
-  display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px;
+.songs-toolbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.songs-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.songs-btn:hover { background: #f3f1ec; }
+.songs-btn--primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.songs-btn--primary:hover { background: #9a3526; }
+.songs-toolbar__meta { font-size: 0.85rem; color: var(--muted); margin-left: auto; }
+
+.songs-status { padding: 16px 18px; color: var(--muted); font-size: 0.92rem; }
+
+/* ── Couches activables : chips à bascule dans le langage maison ───────── */
+.chrono-layers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
 }
 .layer-toggle {
   --c: var(--muted);
-  display: inline-flex; align-items: center; gap: 9px;
-  padding: 8px 14px 8px 11px;
-  background: var(--bg-2);
-  border: 1px solid var(--line-soft);
-  border-radius: 999px; cursor: pointer;
-  user-select: none; transition: border-color .15s, background .15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 13px;
+  background: var(--chip);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s, border-color 0.15s;
 }
-.layer-toggle:hover { border-color: var(--line); }
+.layer-toggle:hover { border-color: var(--accent-soft); }
 .layer-toggle input { position: absolute; opacity: 0; pointer-events: none; }
-.layer-toggle--jalon { --c: var(--amber); }
-.layer-toggle--concert_a_migrer { --c: var(--transit); }
-.layer-toggle--contexte { --c: var(--contexte); }
-.layer-toggle--reception_posthume { --c: var(--posthume); }
+.layer-toggle--jalon { --c: var(--accent); }
+.layer-toggle--concert_a_migrer { --c: var(--accent-soft); }
+.layer-toggle--contexte { --c: var(--muted); }
+.layer-toggle--reception_posthume { --c: var(--chip-ink); }
 .layer-toggle__dot {
-  width: 11px; height: 11px; border-radius: 50%;
-  border: 1.5px solid var(--c); background: transparent;
-  transition: background .15s, box-shadow .15s;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid var(--c);
+  background: transparent;
+  transition: background 0.15s;
 }
-.layer-toggle.is-on { background: var(--surface-2); border-color: color-mix(in srgb, var(--c) 45%, var(--line)); }
-.layer-toggle.is-on .layer-toggle__dot { background: var(--c); box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 22%, transparent); }
+.layer-toggle.is-on { background: #fff; border-color: var(--c); }
+.layer-toggle.is-on .layer-toggle__dot { background: var(--c); }
 .layer-toggle__name {
-  font-family: "Archivo", sans-serif; font-weight: 700; font-size: .82rem;
-  letter-spacing: .02em; color: var(--ink-soft);
-  display: inline-flex; align-items: baseline; gap: 7px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
 }
 .layer-toggle.is-on .layer-toggle__name { color: var(--ink); }
-.layer-toggle__count {
-  font-family: "Spline Sans Mono", monospace; font-size: .68rem;
-  color: var(--muted); font-weight: 500;
-}
-.layer-toggle__hint {
-  font-family: "Spline Sans Mono", monospace; font-size: .68rem;
-  color: var(--faint); letter-spacing: .02em;
-}
+.layer-toggle__count { font-size: 0.74rem; color: var(--muted); font-weight: 500; }
+.layer-toggle__hint { font-size: 0.74rem; color: var(--muted); font-style: italic; }
 
-/* ── Filtres ──────────────────────────────────────────────────────────── */
-.filters { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; }
-.field { display: flex; flex-direction: column; gap: 6px; min-width: 150px; }
-.field--grow { flex: 1 1 240px; }
-label {
-  font-family: "Spline Sans Mono", monospace; font-size: .68rem;
-  text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+/* ── Légende ───────────────────────────────────────────────────────────── */
+.chrono-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
 }
-input, select {
-  background: var(--bg-2); border: 1px solid var(--line);
-  color: var(--ink); border-radius: 3px; padding: 10px 11px;
-  font-family: "Spline Sans Mono", monospace; font-size: .84rem;
+.chrono-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.78rem;
+  color: var(--muted);
 }
-input:focus, select:focus { outline: none; border-color: var(--amber); }
-.actions { display: flex; gap: 9px; }
-.btn {
-  font-family: "Archivo", sans-serif; font-weight: 700; font-size: .78rem;
-  letter-spacing: .04em; text-transform: uppercase;
-  background: var(--amber); color: #1a1407; border: 1px solid var(--amber);
-  border-radius: 3px; padding: 10px 15px; cursor: pointer;
-  transition: filter .15s;
-}
-.btn:hover { filter: brightness(1.08); }
-.btn--ghost { background: transparent; color: var(--ink-soft); border-color: var(--line); }
-.btn--ghost:hover { color: var(--ink); border-color: var(--amber); filter: none; }
-
-/* ── Légende ──────────────────────────────────────────────────────────── */
-.legend {
-  display: flex; flex-wrap: wrap; gap: 16px;
-  margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-soft);
-}
-.legend__item {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-family: "Spline Sans Mono", monospace; font-size: .7rem;
-  color: var(--muted); letter-spacing: .02em;
-}
-.legend__swatch { width: 13px; height: 13px; border-radius: 50%; }
-.legend__swatch--anchor { background: var(--amber); box-shadow: 0 0 0 3px var(--amber-glow); }
-.legend__swatch--beat { background: transparent; border: 1.5px solid var(--faint); width: 9px; height: 9px; }
-.legend__item--prec .prec { position: static; }
-
-/* ── Panneau / en-tête de résultats ───────────────────────────────────── */
-.register-panel { padding: 0 4px; }
-.results-header {
-  display: flex; justify-content: space-between; align-items: baseline;
-  margin-bottom: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--line);
-}
-.results-header h2 {
-  font-family: "Archivo", sans-serif; font-weight: 900; font-size: 1.1rem;
-  text-transform: uppercase; letter-spacing: .12em; margin: 0; color: var(--ink-soft);
-}
-#results-meta { font-family: "Spline Sans Mono", monospace; font-size: .78rem; color: var(--muted); }
+.chrono-legend__dot { width: 12px; height: 12px; border-radius: 50%; }
+.chrono-legend__dot--anchor { background: var(--accent); }
+.chrono-legend__dot--beat { background: #fff; border: 1.5px solid var(--accent-soft); width: 9px; height: 9px; }
+.chrono-legend__item .prec { position: static; }
 
 /* ── Frise : colonne vertébrale ───────────────────────────────────────── */
-.timeline {
-  position: relative;
-  margin-top: 8px;
-  padding-left: 0;
-}
-/* La ligne de spine elle-même */
+.chrono-panel { position: relative; }
+.timeline { position: relative; padding-left: 0; }
 .timeline::before {
-  content: ""; position: absolute; top: 6px; bottom: 6px;
-  left: var(--spine-x); width: 1px;
-  background: linear-gradient(180deg, transparent, var(--line) 6%, var(--line) 94%, transparent);
+  content: "";
+  position: absolute;
+  top: 8px; bottom: 8px;
+  left: 9px;
+  width: 2px;
+  background: var(--line);
 }
 
 .year-mark {
-  position: relative; margin: 26px 0 14px; padding-left: 56px; min-height: 22px;
-  display: flex; align-items: center;
+  position: relative;
+  margin: 26px 0 14px;
+  padding-left: 38px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .year-mark span {
-  font-family: "Archivo", sans-serif; font-weight: 900; font-size: 1.7rem;
-  letter-spacing: -.01em; color: var(--surface-2);
-  -webkit-text-stroke: 1px var(--line); text-stroke: 1px var(--line);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.year-mark::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
 }
 .year-mark::before {
-  content: ""; position: absolute; left: calc(var(--spine-x) - 3px); top: 50%;
-  width: 7px; height: 7px; transform: translateY(-50%) rotate(45deg);
-  background: var(--bg); border: 1px solid var(--muted);
+  content: "";
+  position: absolute;
+  left: 4px; top: 50%;
+  width: 12px; height: 12px;
+  transform: translateY(-50%) rotate(45deg);
+  background: var(--bg);
+  border: 2px solid var(--muted);
 }
 
 /* ── Beat (carte) ─────────────────────────────────────────────────────── */
-.beat {
-  position: relative; display: block;
-  padding: 0 0 18px 56px; margin: 0;
-}
+.beat { position: relative; padding: 0 0 16px 38px; }
 .beat__node {
-  position: absolute; left: var(--spine-x); top: 7px;
+  position: absolute;
+  left: 10px; top: 10px;
   transform: translateX(-50%);
-  width: 9px; height: 9px; border-radius: 50%;
-  background: var(--bg); border: 1.5px solid var(--faint);
-  z-index: 2; transition: transform .15s;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1.5px solid var(--accent-soft);
+  z-index: 2;
 }
 .beat__body {
   background: var(--surface);
-  border: 1px solid var(--line-soft);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 13px 16px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
+.beat__body:hover { border-color: var(--accent-soft); }
 
-/* Ancres canoniques : prééminentes */
+/* Ancres canoniques : prééminentes (accent + élévation) */
 .beat--anchor .beat__node {
-  width: 15px; height: 15px;
-  background: var(--amber); border: none;
-  box-shadow: 0 0 0 4px var(--amber-glow), 0 0 14px var(--amber-glow);
+  width: 14px; height: 14px;
+  background: var(--accent);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1.5px var(--accent);
 }
-.beat--anchor .beat__body {
-  background: linear-gradient(180deg, var(--surface-2), var(--surface));
-  border-color: var(--line);
-  border-left: 2px solid var(--amber);
-  box-shadow: 0 1px 0 rgba(0,0,0,.3);
-}
-.beat--anchor .beat__label {
-  font-size: 1.16rem; color: var(--ink); font-weight: 500;
-}
+.beat--anchor .beat__body { border-left: 3px solid var(--accent); }
+.beat--anchor .beat__label { font-size: 1.05rem; font-weight: 650; color: var(--ink); }
 
-/* Beats (jalons nus) : subordonnés, discrets */
-.beat--minor { padding-bottom: 12px; }
+/* Beats (jalons nus) : subordonnés, discrets (pas d'ombre, plus sobres) */
+.beat--minor { padding-bottom: 10px; }
 .beat--minor .beat__body {
-  background: transparent; border-color: transparent;
-  border-left: 1px solid var(--line-soft);
-  border-radius: 0; padding: 5px 14px;
+  box-shadow: none;
+  background: transparent;
+  border-color: transparent;
+  border-left: 2px solid var(--line);
+  border-radius: 0;
+  padding: 6px 14px;
 }
-.beat--minor .beat__label { font-size: .96rem; color: var(--ink-soft); font-weight: 400; }
-.beat--minor:hover .beat__body { background: var(--bg-2); }
+.beat--minor .beat__body:hover { background: #fff; border-color: var(--line); border-left-color: var(--accent-soft); }
+.beat--minor .beat__label { font-size: 0.95rem; font-weight: 500; color: var(--chip-ink); }
+.beat--minor .beat__node { width: 7px; height: 7px; border-color: var(--muted); }
 
-/* Couche concerts à migrer : « en transit », fantomatique */
-.beat--transit .beat__body {
-  border-style: dashed; border-color: color-mix(in srgb, var(--transit) 35%, var(--line));
-}
-.beat--transit .beat__node { border-color: var(--transit); }
+/* Couche concerts à migrer : « en transit » (pointillé) */
+.beat--transit .beat__body { border-style: dashed; border-color: var(--accent-soft); }
+.beat--transit .beat__node { border-color: var(--accent-soft); }
 
-.beat__head {
-  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
-  margin-bottom: 4px;
-}
-.beat__date {
-  font-family: "Spline Sans Mono", monospace; font-weight: 600;
-  font-size: .82rem; color: var(--amber-soft); letter-spacing: .01em;
-}
-.beat--anchor .beat__date { color: var(--amber); }
+.beat__head { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-bottom: 4px; }
+.beat__date { font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+.beat--minor .beat__date { color: var(--muted); font-weight: 600; }
+
 .beat__tag {
-  font-family: "Spline Sans Mono", monospace; font-size: .62rem;
-  text-transform: uppercase; letter-spacing: .1em;
-  padding: 2px 7px; border-radius: 2px;
-  color: var(--muted); border: 1px solid var(--line);
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--chip-ink);
 }
-.beat__tag--jalon { color: var(--amber-soft); border-color: color-mix(in srgb, var(--amber) 30%, var(--line)); }
-.beat--anchor .beat__tag--jalon { color: var(--amber); border-color: var(--amber-soft); }
-.beat__tag--concert_a_migrer { color: var(--transit); border-color: color-mix(in srgb, var(--transit) 35%, var(--line)); }
-.beat__tag--contexte { color: var(--contexte); }
-.beat__tag--reception_posthume { color: var(--posthume); border-color: color-mix(in srgb, var(--posthume) 35%, var(--line)); }
-.beat__prec {
-  font-family: "Spline Sans Mono", monospace; font-size: .64rem;
-  color: var(--faint); letter-spacing: .02em; margin-left: auto;
-}
+.beat__tag--jalon { background: #f6e7df; color: var(--accent); }
+.beat--minor .beat__tag--jalon { background: var(--chip); color: var(--chip-ink); }
+.beat__tag--concert_a_migrer { background: #faf0e7; color: var(--accent-soft); border: 1px solid var(--accent-soft); }
+.beat__tag--contexte { background: var(--chip); color: var(--muted); }
+.beat__tag--reception_posthume { background: var(--chip); color: var(--chip-ink); border: 1px solid var(--line); }
+.beat__prec { font-size: 0.74rem; color: var(--muted); margin-left: auto; }
+
 .beat__label { margin: 2px 0 0; line-height: 1.4; }
 
 .beat__sources { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
 .badge {
-  font-family: "Spline Sans Mono", monospace; font-size: .66rem;
-  color: var(--ink-soft); background: var(--bg-2);
-  border: 1px solid var(--line-soft); border-radius: 2px; padding: 2px 7px;
-  max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 0.76rem;
+  background: var(--chip);
+  color: var(--chip-ink);
+  padding: 3px 9px;
+  border-radius: 999px;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.beat__prudence, .beat__note {
-  margin: 9px 0 0; font-size: .9rem; line-height: 1.55; color: var(--ink-soft);
-}
-.beat__prudence { color: var(--amber-soft); font-style: italic; }
+.beat__prudence, .beat__note { margin: 9px 0 0; font-size: 0.9rem; line-height: 1.55; color: var(--muted); }
+.beat__prudence { color: var(--accent); }
 
 /* Traçabilité : membres réconciliés repliés */
 .trace { margin-top: 10px; }
 .trace summary {
-  font-family: "Spline Sans Mono", monospace; font-size: .7rem;
-  color: var(--muted); cursor: pointer; letter-spacing: .02em;
-  list-style: none; display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 3px 0;
 }
-.trace summary::before { content: "▸"; color: var(--amber-soft); transition: transform .15s; display: inline-block; }
+.trace summary::-webkit-details-marker { display: none; }
+.trace summary::before { content: "▸"; transition: transform 0.15s; display: inline-block; }
 .trace[open] summary::before { transform: rotate(90deg); }
-.trace summary:hover { color: var(--ink-soft); }
-.member-list { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid var(--line-soft); }
+.trace summary:hover { text-decoration: underline; }
+.member-list { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid var(--line); }
 .member-list li {
-  display: grid; grid-template-columns: minmax(120px, auto) 1fr; gap: 4px 14px;
-  align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--line-soft);
+  display: grid;
+  grid-template-columns: minmax(120px, auto) 1fr;
+  gap: 3px 14px;
+  align-items: baseline;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
 }
 .member-list code {
-  background: transparent; border: none; padding: 0; color: var(--muted);
-  font-size: .68rem;
+  background: var(--chip);
+  color: var(--muted);
+  font-size: 0.72rem;
+  padding: 1px 6px;
+  border-radius: 5px;
 }
-.member__label { color: var(--ink-soft); font-size: .88rem; line-height: 1.4; }
-.member__src {
-  grid-column: 2; font-family: "Spline Sans Mono", monospace;
-  font-size: .64rem; color: var(--faint);
-}
+.member__label { color: var(--chip-ink); font-size: 0.88rem; line-height: 1.4; }
+.member__src { grid-column: 2; font-size: 0.74rem; color: var(--muted); }
 
-.empty {
-  font-family: "Spline Sans Mono", monospace; font-size: .85rem;
-  color: var(--muted); padding: 40px 0; text-align: center;
-}
+.empty { color: var(--muted); font-size: 0.92rem; padding: 36px 0; text-align: center; }
 
-/* ── Précision honnête (miroir geo_precision) ─────────────────────────── */
-/* Barre horizontale dont la largeur/opacité dit la granularité : un point net
-   pour le jour, une bande courte pour mois/saison, une bande large estompée
-   pour année/circa, une barre à embouts pour l'intervalle. */
-.prec {
-  position: relative; display: inline-flex; align-items: center;
-  height: 10px; flex: 0 0 auto;
-}
-.prec__bar { display: block; height: 3px; border-radius: 2px; background: var(--amber); }
+/* ── Précision honnête (miroir geo_precision, dans l'accent maison) ────── */
+/* Barre dont largeur/opacité dit la granularité : point net pour le jour,
+   bande courte (mois/saison), bande large estompée (année/circa), barre à
+   embouts (intervalle). */
+.prec { position: relative; display: inline-flex; align-items: center; height: 10px; flex: 0 0 auto; }
+.prec__bar { display: block; height: 3px; border-radius: 2px; background: var(--accent); }
 .prec--point .prec__bar { width: 12px; opacity: 1; }
-.prec--short .prec__bar { width: 30px; opacity: .8; }
-.prec--wide  .prec__bar {
-  width: 62px; opacity: .42; height: 2px;
-  background: repeating-linear-gradient(90deg, var(--amber) 0 4px, transparent 4px 8px);
+.prec--short .prec__bar { width: 30px; opacity: 0.75; }
+.prec--wide .prec__bar {
+  width: 60px; height: 2px; opacity: 0.5;
+  background: repeating-linear-gradient(90deg, var(--accent) 0 4px, transparent 4px 8px);
 }
 .prec--span { gap: 0; }
-.prec--span .prec__bar { width: 56px; opacity: .6; height: 2px; }
-.prec--span .prec__cap { width: 2px; height: 9px; background: var(--amber); opacity: .85; border-radius: 1px; }
-.beat--minor .prec__bar, .beat--minor .prec--span .prec__cap { background: var(--ink-soft); }
+.prec--span .prec__bar { width: 54px; height: 2px; opacity: 0.6; }
+.prec--span .prec__cap { width: 2px; height: 9px; background: var(--accent); opacity: 0.85; border-radius: 1px; }
+.beat--minor .prec__bar, .beat--minor .prec--span .prec__cap { background: var(--muted); }
 
 @media (max-width: 720px) {
-  .filters { flex-direction: column; align-items: stretch; }
-  .field, .field--grow { min-width: 0; }
-  .actions { justify-content: space-between; }
+  .songs-toolbar__meta { margin-left: 0; }
   .beat__prec { margin-left: 0; flex-basis: 100%; }
   .member-list li { grid-template-columns: 1fr; }
   .member__src { grid-column: 1; }
