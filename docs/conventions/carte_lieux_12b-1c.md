@@ -22,30 +22,39 @@ attribution).
 |-------|------|
 | `lat`, `lng` | degrés décimaux WGS84 |
 | `geo_precision` | granularité ordinale : `exacte` < `rue` < `quartier` < `ville` < `region` (axe distinct de la confiance) |
-| `reference_croisee` | tableau d'identifiants préfixés par autorité, ex. `["wikidata:Q204686"]` (`musicbrainz:place:…`, `osm:node:…`) |
+| `reference_croisee` | tableau d'identifiants préfixés par autorité, ex. `["wikidata:Q204686"]` (`musicbrainz:place:…`, `osm:node:…`, `gias:<URN>` pour les établissements scolaires anglais via *Get Information About Schools*) |
 | `prudence_methodologique` | lieu démoli, coordonnée approximative, désambiguaïsation, QID à recouper |
 
 - La coordonnée s'attache au lieu **canonique**, après réconciliation `same_as`
   (cf. `docs/conventions/identifiants_lieux.md`). On géolocalise un lieu, pas
   une mention.
 
-### Périmètre de la couche — état figé (incrément 12b-1.c)
+### Périmètre de la couche — état courant (incrément 12b-1.c)
 
-La couche couvre **42 lieux géolocalisés sur 91 (46 %)** — état **FINAL** de
-cet incrément. Les 49 lieux restants sont sans coordonnées Wikidata P625
-vérifiables : venues démolies sans article Wikipedia (Pips, Rafters, Hard Rock,
-Grey Mare…), commerces locaux disparus, rues ordinaires, lieux symboliques.
-Aucune coordonnée n'est inventoriée ou estimée (honnêteté > exhaustivité).
+La couche couvre **55 lieux géolocalisés sur 91 (60 %)**, au-dessus du seuil
+de 55 %. Cet état **supersède le gel à 46 %** établi après le backfill P625 :
+la curation manuelle de l'étape 4 a été (en grande partie) actionnée.
 
-Deux scripts de curation, traçables et idempotents :
+Histoire de la couverture :
+| Étape | Géolocalisés / Total | % |
+|-------|---------------------|---|
+| Amorce (PR #27) | 36 / 91 | 40 % |
+| Backfill Wikidata P625 (PR #28) | 42 / 91 | 46 % |
+| **Curation manuelle (cette PR)** | **55 / 91** | **60 %** |
+
+Les 36 lieux restants sont **non localisables en l'état** : coordonnée
+inconnue (2 venues sans adresse fiable : Greendow Commercials studio,
+Hodgson's), rues ordinaires, lieux symboliques, ou venues pour lesquelles
+aucune source primaire suffisante n'a été retrouvée.
+Aucune coordonnée n'est inventée ou estimée (honnêteté > exhaustivité).
+
+Scripts de curation traçables et idempotents :
 - `tools/_seed_places_geo.py` — amorce initiale (PR #27, 36 lieux)
-- `tools/wikidata_places_backfill.py` — backfill Wikidata P625 (session 2026-05-30, +6 lieux)
+- `tools/wikidata_places_backfill.py` — backfill Wikidata P625 (PR #28, +6 lieux)
 
-QID `reference_croisee` posé **uniquement à confiance élevée** (20 lieux
-appréciable après backfill). Chaque QID vérifié manuellement via
-`wbgetentities` (P625 rapatrié, plausibilité géographique contrôlée).
-Faux matches documentalement rejetés : Q49584641 (Angel Meadow, Californie) et
-Q6536190 (Lewis's Liverpool).
+QID / autorités `reference_croisee` posés **uniquement à confiance élevée**.
+Faux matches documentalement rejetés : Q49584641 (Angel Meadow, Californie)
+et Q6536190 (Lewis's Liverpool).
 
 ### Rendu : points vs zones
 
@@ -118,8 +127,8 @@ python3 tools/test_validate_places.py            # exécution directe
 
 - maillage bidirectionnel lieux ↔ concerts ↔ personnes ↔ … → **étape 11** ;
 - croisement avec les 196 concerts → **étape 10** ;
-- **[REPORTÉ — principe directeur n°3]** Curation manuelle des 49 venues
-  non géolocalisées (sourçage strict : sources primaires, cartes historiques,
-  archives locales) : sous-tâche différée de l'étape 4, **à reprendre avant
-  l'ouverture de l'étape 5**. Aucune coordonnée ne peut être ajoutée sans
-  source primaire citée (doctrine curation : vérité > exhaustivité).
+- Curation manuelle des 36 lieux restants sans coordonnée : la phase
+  principale de l'étape 4 est **actionnée** (42 → 55). Le reliquat (venues
+  sans adresse retrouvable, rues, symboliques) est documenté dans
+  `docs/audits/audit_unitaire_lieux_12b-1c.md` §8 ; tout ajout ultérieur
+  requiert une source primaire citée (doctrine curation : vérité > exhaustivité).

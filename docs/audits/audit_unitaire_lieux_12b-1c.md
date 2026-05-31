@@ -4,7 +4,7 @@
 > l'étape 4 : on inspecte l'existant (entrées manuelles anciennes vs atomisées
 > v2) **avant** de poser la couche cartographique.
 >
-> Date création : 30/05/2026. Mis à jour : 30/05/2026 (backfill P625 + freeze).
+> Date création : 30/05/2026. Mis à jour : 31/05/2026 (curation manuelle — 42 → 55 lieux).
 > Périmètre : `registers/**/*.md`, lus comme le fait le
 > runtime (`apps/lib/dynamic-registers.js`) et `tools/validate_places.py`.
 
@@ -18,7 +18,7 @@
 | Identifiants distincts (après dédup par id) | 83 |
 | **Lieux canoniques** (après réconciliation `same_as`) | **79** |
 | Alias résolus (`same_as`) | 4 |
-| Lieux géolocalisés — état FINAL de cet incrément | **42 / 91 = 46 %** (25 venues précises + 17 zones ville/région) |
+| Lieux géolocalisés — état courant | **55 / 91 = 60 %** (voir §8 pour l'historique) |
 
 Répartition canonique par famille : `ville` 17, `salle` 14, `quartier` 13,
 `habitat` 10, `studio` 9, `education` 7, `commerce` 7, `lieu_memoire` 4,
@@ -109,14 +109,15 @@ enregistrements, eux, suivent la forme canonique.
 
 ---
 
-## 6. Couche cartographique (après backfill)
+## 6. Couche cartographique (après curation manuelle)
 
-- **42 lieux géolocalisés** (lat/lng WGS84) : **25 venues précises** (points :
-  exacte/rue/quartier) + **17 zones** (étendues : ville/region), rendues
+- **55 lieux géolocalisés** (lat/lng WGS84) : venues précises (points :
+  exacte/rue/quartier) + zones (étendues : ville/region), rendues
   distinctement (cf. `docs/NAMING_CONVENTIONS.md` §10.8).
 - Précision honnête par lieu (`geo_precision`, échelle ordinale à 5 paliers),
-  provenance Wikidata P625 (`reference_croisee`, QID à confiance élevée),
-  `prudence_methodologique` pour lieux démolis / coordonnées approximatives.
+  provenance dans `prudence_methodologique` (adresse + source + URL + réserve) ;
+  `reference_croisee` pour les identifiants d'autorité structurés (Wikidata QID,
+  `gias:<URN>` pour établissements scolaires anglais).
 - Coordonnées attachées au lieu **canonique**, après réconciliation.
 - Détail : `docs/conventions/carte_lieux_12b-1c.md`.
 
@@ -148,13 +149,13 @@ des champs **optionnels rétrocompatibles** (`same_as`, `lat`/`lng`,
 
 ---
 
-## 8. Backfill géographique (2026-05-30) — état figé
+## 8. Historique du backfill géographique
 
-Backfill Wikidata P625 exécuté post-merge PR #27. Source unique : Wikidata P625
-(CC0). Script : `tools/wikidata_places_backfill.py`.
+### Phase 1 — Backfill Wikidata P625 (PR #28, 2026-05-30)
+
+Source unique : Wikidata P625 (CC0). Script : `tools/wikidata_places_backfill.py`.
 Méthode : `wbgetentities` par QID ou titre enwiki. Aucun géocodage texte libre.
-
-### 6 nouveaux lieux géolocalisés
+**+6 lieux géolocalisés (36 → 42).**
 
 | ID | QID | lat | lng | geo_precision | Fichier |
 |----|-----|-----|-----|---------------|---------|
@@ -165,47 +166,45 @@ Méthode : `wbgetentities` par QID ou titre enwiki. Aucun géocodage texte libre
 | PLACE-LUTON-HOSPITAL | Q101277612 | 51.89382 | −0.4753 | exacte | s10 |
 | PLACE-GUIDE-BRIDGE | Q5615429 | 53.4744 | −2.1127 | quartier | s35 |
 
-### 3 reference_croisee QID ajoutés (lieux déjà géolocalisés)
+QIDs rejetés : Q49584641 (Angel Meadow Californie) · Q6536190 (Lewis's Liverpool).
 
-| ID | QID ajouté | Fichier |
-|----|------------|--------|
-| PLACE-HULME | Q3051137 | s02 |
-| PLACE-HATTERSLEY | Q3128340 | s20 |
-| PLACE-WYTHENSHAWE | Q3570246 | s20 |
+### Phase 2 — Curation manuelle (cette PR, 2026-05-31)
 
-### QIDs rejetés (faux matches documentés)
+Sources primaires et archives citées dans `prudence_methodologique` de chaque lieu.
+Aucun géocodage automatique. **+13 lieux géolocalisés (42 → 55) · 2 lieux « coordonnée inconnue ».**
 
-- **Q49584641** — Angel Meadow (Californie, lat:41.2, lng:−121.9) : rejeté, NON le quartier mancunien.
-- **Q6536190** — Lewis's (Liverpool, lat:53.405, lng:−2.979) : rejeté, NON le Lewis's de Manchester.
+| ID | lat | lng | geo_precision | Source abrégée |
+|----|-----|-----|---------------|----------------|
+| PLACE-RAFTERS-MANCHESTER | 53.47500 | −2.24080 | exacte | Wikipedia Rafters nightclub |
+| PLACE-PENNINE-STUDIOS-OLDHAM | 53.53950 | −2.10540 | rue | Discogs label/309892 |
+| PLACE-GREY-MARE | 53.48198 | −2.30548 | exacte | CAMRA pubs/grey-mare-weaste |
+| PLACE-NORTH-SALFORD-YOUTH-CLUB | 53.50400 | −2.25670 | rue | Cylex North Salford Civic |
+| PLACE-GRAVEYARD-STUDIO | 53.53000 | −2.28600 | quartier | prestwich.org.uk/history |
+| PLACE-WHEATHILL-CHEMICAL-WORKS | 53.49900 | −2.26000 | rue | Sumner, Chapter and Verse |
+| PLACE-FORT-BESWICK | 53.47430 | −2.20070 | quartier | Dodge / manchester.ac.uk |
+| PLACE-PIPS | 53.48480 | −2.24460 | rue | joydiv.org/places |
+| PLACE-STONEGROUND-MAYFLOWER | 53.46100 | −2.18200 | rue | manchesterbeat.com |
+| PLACE-HARDROCK | 53.45980 | −2.28930 | rue | manchesterbeat.com |
+| PLACE-WHITE-CITY | 53.46200 | −2.28700 | rue | Wikipedia White City Stadium |
+| PLACE-AUDENSHAW-GRAMMAR-SCHOOL | 53.46669 | −2.11910 | exacte | gias:136273 (GIAS URN) |
+| PLACE-ATWELL-AND-JENNERS-MILL | 53.25700 | −2.12480 | rue | Cheshire Archives DRY/5/7 |
 
-### Couverture finale — état figé pour cet incrément
+Lieux avec **coordonnée inconnue** documentée :
+- `PLACE-GREENDOW-COMMERCIALS-STUDIO` — Arrow Studios/Greendow Commercials : aucune adresse fiable retrouvée.
+- `PLACE-HODGSONS` — magasin probable à Macclesfield : aucune source de preuve suffisante.
+
+Autorité `gias` : *Get Information About Schools* (service.gov.uk), préfixe admis dans
+`reference_croisee` pour les établissements scolaires anglais (URN normalisé).
+
+### Couverture — historique
 
 | Étape | Géolocalisés / Total | % |
 |-------|----------------------|---|
 | Amorce (PR #27) | 36 / 91 | 40 % |
-| Après backfill P625 | **42 / 91** | **46 %** |
+| Backfill P625 (PR #28) | 42 / 91 | 46 % |
+| **Curation manuelle (cette PR)** | **55 / 91** | **60 %** |
 
-**ÉTAT FIGÉ pour l'incrément 12b-1.c.** Le seuil de 55 % ne peut être atteint
-avec les seules sources Wikidata P625 disponibles. La couverture réelle de
-**46 %** est rapportée conformément à la doctrine (honnêteté > exhaustivité).
-
-### Curation manuelle reportée — principe directeur n°3
-
-Les **49 lieux sans P625 Wikidata vérifiable** restent sans coordonnées.
-Catories concernées :
-- **Venues démolies sans article Wikipedia** : Pips, Rafters, Hard Rock,
-  Grey Mare, Stoneground/Mayflower, White City Manchester, Bootle Street
-  police station…
-- **Commerces locaux disparus** : Virgin Records Lever St, Rare Records,
-  Black Sedan, Percival's, House on the Borderland…
-- **Rues et sites industriels ordinaires** : Alfred Street, Wheathill Chemical
-  Works, Stretford Road, Eccles New Road…
-- **Lieux symboliques ou anonymes** : PLACE-MANCHESTER-GLOBAL-MEMORY,
-  PLACE-WALES-SEASIDE-TOWN, PLACE-GRAVEYARD-STUDIO…
-- **Faux matches rejetés** (Q49584641, Q6536190) : voir ci-dessus.
-
-**[REPORTÉ]** Curation manuelle avec sourçage strict (sources primaires,
-cartes historiques, archives locales) = sous-tâche différée de l'étape 4,
-**à reprendre avant l'ouverture de l'étape 5**, conformément au principe
-directeur n°3. Aucune coordonnée ne peut être ajoutée sans source primaire
-citée.
+Les **36 lieux restants** sans coordonnée sont : 2 venues sans adresse fiable
+(ci-dessus), rues ordinaires, lieux symboliques/anonymes, et venues pour lesquelles
+aucune source primaire suffisante n'a été retrouvée. Tout ajout ultérieur requiert
+une source primaire citée dans `prudence_methodologique`.

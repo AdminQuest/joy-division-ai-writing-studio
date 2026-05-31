@@ -75,6 +75,9 @@ places:
     atoms: [S35-A035]
     _legacy_format: s35-lieux-role
   - id: PLACE-HODGSONS
+    prudence_methodologique: >-
+      Magasin de disques probable à Macclesfield. Coordonnée inconnue : aucune
+      source de preuve suffisante.
     label: "Hodgson’s"
     type: commerce
     type_detail: magasin_disques

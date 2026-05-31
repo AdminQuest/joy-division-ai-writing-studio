@@ -37,6 +37,13 @@ places:
     usage_s10: "Studio associé à la phase Atmosphere / Dead Souls et aux extensions spectrales du son."
 
   - id: PLACE-GRAVEYARD-STUDIO
+    lat: 53.53000
+    lng: -2.28600
+    geo_precision: quartier
+    prudence_methodologique: >-
+      Graveyard Studios, Prestwich. Source :
+      https://prestwich.org.uk/history/places/graveyardstudios.html. Sources
+      contradictoires sur l'emplacement exact.
     label: "Graveyard Studio"
     type: studio
     type_detail: lieu_repetition

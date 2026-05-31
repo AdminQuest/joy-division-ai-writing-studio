@@ -110,6 +110,14 @@ places:
     usage: "Quartier de clearance et d'expérimentation moderniste autour du Wellington Street estate."
 
   - id: PLACE-FORT-BESWICK
+    lat: 53.47430
+    lng: -2.20070
+    geo_precision: quartier
+    reference_croisee: ["wikidata:Q4897126"]
+    prudence_methodologique: >-
+      Wellington Street Estate (Fort Beswick). Source :
+      https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf.
+      Coordonnée du secteur Beswick, pas du bloc précis.
     label: "Fort Beswick"
     type: habitat
     type_detail: estate_moderniste

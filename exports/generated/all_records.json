@@ -229761,6 +229761,10 @@
         },
         {
           "id": "PLACE-GRAVEYARD-STUDIO",
+          "lat": 53.53,
+          "lng": -2.286,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Graveyard Studios, Prestwich. Source : https://prestwich.org.uk/history/places/graveyardstudios.html. Sources contradictoires sur l'emplacement exact.",
           "label": "Graveyard Studio",
           "type": "studio",
           "type_detail": "lieu_repetition",
@@ -229842,6 +229846,10 @@
         },
         {
           "id": "PLACE-WHEATHILL-CHEMICAL-WORKS",
+          "lat": 53.499,
+          "lng": -2.26,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Mention dans l'autobiographie de B. Sumner (Chapter and Verse). Source : barnesandnoble.com/w/chapter-and-verse-bernard-sumner. Localisation approximative autour d'Alfred Street, Lower Broughton.",
           "label": "Wheathill Chemical Works",
           "type": "industrie",
           "type_detail": "site_industriel",
@@ -229893,6 +229901,10 @@
         },
         {
           "id": "PLACE-NORTH-SALFORD-YOUTH-CLUB",
+          "lat": 53.504,
+          "lng": -2.2567,
+          "geo_precision": "rue",
+          "prudence_methodologique": "North Salford Civic Youth Centre, Devonshire Street, Higher Broughton. Source : cylex-uk (north-salford-civic-youth-centre-14520351). Adresse postale ; bâtiment historique non confirmé.",
           "label": "North Salford Youth Club",
           "type": "salle",
           "type_detail": "youth_club",
@@ -229927,6 +229939,10 @@
         },
         {
           "id": "PLACE-GREY-MARE",
+          "lat": 53.48198,
+          "lng": -2.30548,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Grey Mare, 386-388 Eccles New Road, Weaste, Salford. Source : https://camra.org.uk/pubs/grey-mare-weaste-170889. Ancien pub réaffecté.",
           "label": "Grey Mare",
           "type": "studio",
           "type_detail": "lieu_repetition",
@@ -229951,6 +229967,10 @@
         },
         {
           "id": "PLACE-RAFTERS-MANCHESTER",
+          "lat": 53.475,
+          "lng": -2.2408,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Rafters, 65 Oxford Street, Manchester ; concert JD 14/04/1978. Source : https://en.wikipedia.org/wiki/Rafters_(nightclub). Bâtiment localisable précisément.",
           "label": "Rafters",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -229976,6 +229996,7 @@
         },
         {
           "id": "PLACE-GREENDOW-COMMERCIALS-STUDIO",
+          "prudence_methodologique": "Arrow Studios / Greendow Commercials (sessions RCA). Source : https:\"//www.discogs.com/label/309893. Coordonnée inconnue : aucune adresse\" fiable.",
           "label": "Greendow Commercials studio",
           "type": "studio",
           "type_detail": "studio",
@@ -229986,6 +230007,10 @@
         },
         {
           "id": "PLACE-PENNINE-STUDIOS-OLDHAM",
+          "lat": 53.5395,
+          "lng": -2.1054,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Pennine Sound Studios, Ripponden Road, Oldham. Source : https://www.discogs.com/label/309892. Niveau voie ; n° exact non retrouvé.",
           "label": "Pennine Studios, Oldham",
           "type": "studio",
           "type_detail": "studio",
@@ -230177,6 +230202,13 @@
         },
         {
           "id": "PLACE-FORT-BESWICK",
+          "lat": 53.4743,
+          "lng": -2.2007,
+          "geo_precision": "quartier",
+          "reference_croisee": [
+            "wikidata:Q4897126"
+          ],
+          "prudence_methodologique": "Wellington Street Estate (Fort Beswick). Source : https://personalpages.manchester.ac.uk/staff/m.dodge/Fort-Beswick-Been-Gone-and-Forgotten.pdf. Coordonnée du secteur Beswick, pas du bloc précis.",
           "label": "Fort Beswick",
           "type": "habitat",
           "type_detail": "estate_moderniste",
@@ -230342,6 +230374,7 @@
         },
         {
           "id": "PLACE-HODGSONS",
+          "prudence_methodologique": "Magasin de disques probable à Macclesfield. Coordonnée inconnue : aucune source de preuve suffisante.",
           "label": "Hodgson’s",
           "type": "commerce",
           "type_detail": "magasin_disques",
@@ -230503,6 +230536,10 @@
         },
         {
           "id": "PLACE-PIPS",
+          "lat": 53.4848,
+          "lng": -2.2446,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Pips Disco, 55 Fennel Street, Manchester. Source : https://www.joydiv.org/places.htm. Rue remodelée ; bâtiment disparu.",
           "label": "Pips",
           "type": "salle",
           "type_detail": "club",
@@ -230521,6 +230558,13 @@
         },
         {
           "id": "PLACE-AUDENSHAW-GRAMMAR-SCHOOL",
+          "lat": 53.46669,
+          "lng": -2.1191,
+          "geo_precision": "exacte",
+          "reference_croisee": [
+            "gias:136273"
+          ],
+          "prudence_methodologique": "Audenshaw School (ancien Audenshaw Grammar School), Hazel Street, Audenshaw. Source : get-information-schools.service.gov.uk/Establishments/Establishment/Details/136273. Établissement existant. (gias = Get Information About Schools, URN:136273.)",
           "label": "Audenshaw Grammar School",
           "type": "education",
           "type_detail": "grammar_school",
@@ -230636,6 +230680,10 @@
         },
         {
           "id": "PLACE-ATWELL-AND-JENNERS-MILL",
+          "lat": 53.257,
+          "lng": -2.1248,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Atwell & Jenner Ltd, Goodall Street Works, Macclesfield. Source : Cheshire Archives DRY/5/7 (catalogue.cheshirearchives.org.uk/records/DRY/5/7). Coordonnée de Goodall Street ; usine exacte à confirmer.",
           "label": "Atwell and Jenner's mill",
           "type": "industrie",
           "type_detail": "usine_textile",
@@ -230655,6 +230703,10 @@
         },
         {
           "id": "PLACE-STONEGROUND-MAYFLOWER",
+          "lat": 53.461,
+          "lng": -2.182,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Stoneground / Mayflower Club, Birch Street, West Gorton (ancien cinéma Corona, démoli). Source : manchesterbeat.com/venues/venues-gorton/stoneground-mayflower-birch-st-gorton.",
           "label": "Stoneground / Mayflower",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -230674,6 +230726,10 @@
         },
         {
           "id": "PLACE-HARDROCK",
+          "lat": 53.4598,
+          "lng": -2.2893,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Hardrock, Greatstone Road, Stretford. Source : manchesterbeat.com/venues/stretford/hardrock-greatstone-road-stretford. Salle disparue.",
           "label": "Hardrock",
           "type": "salle",
           "type_detail": "salle_concert",
@@ -230712,6 +230768,10 @@
         },
         {
           "id": "PLACE-WHITE-CITY",
+          "lat": 53.462,
+          "lng": -2.287,
+          "geo_precision": "rue",
+          "prudence_methodologique": "White City Stadium, Chester Road, Old Trafford. Source : https://en.wikipedia.org/wiki/White_City_Stadium_(Manchester). Coordonnée du complexe (corrigé de « site » → rue).",
           "label": "White City",
           "type": "salle",
           "type_detail": "salle_concert",

@@ -34,6 +34,12 @@ places:
     chapitres: [Chapitre 1, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-PIPS
+    lat: 53.48480
+    lng: -2.24460
+    geo_precision: rue
+    prudence_methodologique: >-
+      Pips Disco, 55 Fennel Street, Manchester. Source :
+      https://www.joydiv.org/places.htm. Rue remodelée ; bâtiment disparu.
     label: "Pips"
     type: salle
     type_detail: club
@@ -43,6 +49,15 @@ places:
     chapitres: [Chapitre 2, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-AUDENSHAW-GRAMMAR-SCHOOL
+    lat: 53.46669
+    lng: -2.11910
+    geo_precision: exacte
+    reference_croisee: ["gias:136273"]
+    prudence_methodologique: >-
+      Audenshaw School (ancien Audenshaw Grammar School), Hazel Street,
+      Audenshaw. Source :
+      get-information-schools.service.gov.uk/Establishments/Establishment/Details/136273.
+      Établissement existant. (gias = Get Information About Schools, URN:136273.)
     label: "Audenshaw Grammar School"
     type: education
     type_detail: grammar_school
@@ -101,6 +116,14 @@ places:
     chapitres: [Chapitre 2, Chapitre 8, Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-ATWELL-AND-JENNERS-MILL
+    lat: 53.25700
+    lng: -2.12480
+    geo_precision: rue
+    prudence_methodologique: >-
+      Atwell & Jenner Ltd, Goodall Street Works, Macclesfield. Source :
+      Cheshire Archives DRY/5/7
+      (catalogue.cheshirearchives.org.uk/records/DRY/5/7). Coordonnée de
+      Goodall Street ; usine exacte à confirmer.
     label: "Atwell and Jenner's mill"
     type: industrie
     type_detail: usine_textile
@@ -110,6 +133,13 @@ places:
     chapitres: [Chapitre 1, Chapitre 3, Chapitre 13]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-STONEGROUND-MAYFLOWER
+    lat: 53.46100
+    lng: -2.18200
+    geo_precision: rue
+    prudence_methodologique: >-
+      Stoneground / Mayflower Club, Birch Street, West Gorton (ancien cinéma
+      Corona, démoli). Source :
+      manchesterbeat.com/venues/venues-gorton/stoneground-mayflower-birch-st-gorton.
     label: "Stoneground / Mayflower"
     type: salle
     type_detail: salle_concert
@@ -119,6 +149,13 @@ places:
     chapitres: [Chapitre 2, Chapitre 3, Chapitre 13]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-HARDROCK
+    lat: 53.45980
+    lng: -2.28930
+    geo_precision: rue
+    prudence_methodologique: >-
+      Hardrock, Greatstone Road, Stretford. Source :
+      manchesterbeat.com/venues/stretford/hardrock-greatstone-road-stretford.
+      Salle disparue.
     label: "Hardrock"
     type: salle
     type_detail: salle_concert
@@ -140,6 +177,13 @@ places:
     chapitres: [Chapitre 14]
     _legacy_format: s35-lieux-fonction
   - id: PLACE-WHITE-CITY
+    lat: 53.46200
+    lng: -2.28700
+    geo_precision: rue
+    prudence_methodologique: >-
+      White City Stadium, Chester Road, Old Trafford. Source :
+      https://en.wikipedia.org/wiki/White_City_Stadium_(Manchester). Coordonnée
+      du complexe (corrigé de « site » → rue).
     label: "White City"
     type: salle
     type_detail: salle_concert
