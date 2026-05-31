@@ -81,13 +81,13 @@ positionnelles (S76/S75/S34/S29/S35).
 
 | Granularité encodée dans l'ID | Nombre |
 |---|---:|
-| Jour (`…-YYYY-MM-DD-…`) | 95 |
-| Mois (`…-YYYY-MM-…`) | 67 |
+| Jour (`…-YYYY-MM-DD…`) | 127 |
+| Mois sans jour (`…-YYYY-MM`) | 67 |
 | Au moins l'année | **454 / 500** |
 | Aucune date dans l'ID | 46 (v2 positionnels S02/S05/S06/S20/S69 + le singleton `…-VOTE-CONSERVATEUR`) |
 
 > Constat structurant : **454 ID sur 500 (91 %) encodent au moins l'année**, et
-> 162 encodent le mois ou le jour. La décision (a) impose un ID **sans date**.
+> **194** encodent le mois ou le jour. La décision (a) impose un ID **sans date**.
 > Aucune des six conventions n'est conforme : même la plus propre (v2) reste
 > source-scopée et positionnelle, sans slug sémantique. Le futur `EVENT-<SLUG>`
 > est donc une **forme canonique entièrement nouvelle** ; la migration se fera,
@@ -268,13 +268,20 @@ chronologie, ou relèvent-ils d'un registre concepts/réception (étape 11) ?
 
 | Champ | Présent sur … / 500 | Familles déficientes |
 |---|---:|---|
-| `precision_date` | 233 | absent de **S41, S45, S35** (268 entrées) |
-| `location` | 216 | absent de S41, S45, S35 (référents de lieu noyés dans le texte) |
-| `people` | 182 | absent de S41, S45, S35 |
-| `type` | 223 | absent de S41, S45, S35 |
+| `precision_date` | 232 | absent de **S41, S45, S35** (268 entrées) |
+| `location` | 215 | absent de S41, S45, S35 (référents de lieu noyés dans le texte) |
+| `people` | 181 | absent de S41, S45, S35 |
+| `type` | 222 | absent de S41, S45, S35 |
 | champ-texte | 500 | mais **3 noms** : `event` / `evenement` / `label` |
 | atomes | 500 | **3 noms** : `related_atoms` / `atomes_lies` / `atoms` |
 | certitude | 500 | **2 noms** : `certainty` / `statut` (et `statut` mêle datation + certitude) |
+
+> **Correctif (clôture, méthode unique)** : les comptes des §C.2 et §F.2 sont
+> recalculés sur les **500 seuls enregistrements-événements** (bloc gabarit
+> `schema: chronology_template` exclu, une seule méthode). §C.2 : la granularité
+> *jour* passe de 95 à **127** (l'ancien filtre sous-comptait 32 ID multi-segments,
+> p. ex. `CHR-S41-TL2/TL3-…` ; tous vérifiés correctement classés/canonicalisés).
+> §F.2 : chaque champ perd **−1** (gabarit retiré).
 
 **Bug de rendu** : `app.js` lit `event||evenement` mais **pas `label`** → les
 **17 entrées S35** s'affichent avec un texte d'événement vide. De même, le filtre
