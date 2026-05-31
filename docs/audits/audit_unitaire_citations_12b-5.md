@@ -161,14 +161,25 @@ crûment : **28 / 70** lignes y sont marquées « **à attribuer** » (cf. §F).
 | Mesure | Valeur |
 |---|---:|
 | Records avec `source_id` | **565 / 565 (100 %)** |
-| Records avec page/pagination (`page_pdf`/`pages`/`page_print`/`passage`/…) | **565 / 565 (100 %)** |
+| Records avec page/pagination (`page_pdf`/`pages`/`page_print`/`passage`/…) | ~~565 / 565 (100 %)~~ **voir correctif ci-dessous** |
 | Records avec `source_year` (année d'édition) | **565 / 565 (100 %)** |
 
+> ⚠ **Correctif (étape 8a)** : le « 100 % paginé » est une **erreur de comptage**.
+> Le champ `passage` est un champ de **texte** (il porte le verbatim dans les
+> fichiers Hook), **pas** un localisateur de page : il n'aurait pas dû entrer dans
+> le décompte de pagination. **Hors `passage`**, et en ne comptant que les vrais
+> localisateurs (`page_pdf`/`pages`/`page_print`/`pages_livre`/`pagination`, y
+> compris la pagination nichée dans `statut`), la couverture réelle sur les 565
+> est de **≈ 514 / 565 (≈ 91 %)**, soit **~51 sans page** (ex. `S45-Q008`). Le
+> `source_id` reste, lui, **bien à 100 %**. Chiffres recalculés sur le **corpus
+> complet (864)** en **annexe A** : **844 / 864 (98 %)** paginés, **20 sans page**.
+
 C'est le **point fort** du corpus citation (à l'inverse des concerts, bloqués par
-les `PLACE-` manquants) : **toute** citation est sourcée et paginée. L'exigence de
-provenance est **structurellement satisfaite** — sous réserve d'homogénéiser les
-champs de page (au moins 6 variantes : `page_pdf`, `pages_pdf`, `pages`,
-`page_print`, `pages_livre`, `passage`).
+les `PLACE-` manquants) : **toute** citation est sourcée, et la **quasi-totalité**
+paginée. L'exigence de provenance est **largement satisfaite** — sous réserve
+d'homogénéiser les champs de page (au moins 6 variantes : `page_pdf`, `pages_pdf`,
+`pages`, `page_print`, `pages_livre`, `pagination` — `passage` n'en faisant **pas**
+partie) et de sourcer la sous-population sans page (annexe A).
 
 ### D.2. Dates — **quasi inexistantes**
 
@@ -397,3 +408,97 @@ paraphrase / reference) ?
 8. **Homogénéisation de schéma** : champ unique de texte, champ unique de page,
    statut non-imbriqué — préalable à toute clé d'identité (18 % de conformité
    actuelle).
+
+---
+
+## Annexe A — Re-caractérisation sur le corpus complet (étape 8a)
+
+> **Pourquoi cette annexe.** L'audit principal a été établi sur les **565** records
+> « derrière la page » ; il signalait (§E) que **~290** citations étaient
+> *définies mais invisibles* (214 Hook S41, 52 Curtis S45…), le build n'éclatant
+> pas les listes `quotes:` de 1er niveau. L'étape **8a** a fermé cet angle mort
+> (`tools/build_registers.py` : `extract_yaml_blocks` éclate désormais les
+> conteneurs `quotes:`/`citations:` en records, à parité avec la forme liste
+> top-level). **Aucune canonicalisation, aucun `QUOTE-`, aucun renommage de
+> registre.** Tous les chiffres ci-dessous portent sur le **corpus complet et
+> dédoublonné**.
+
+### A.1. Corpus après éclatement
+
+| Mesure | Avant (audit) | Après 8a |
+|---|---:|---:|
+| Records `kind: quote` exposés | 565 | **864** |
+| dont Hook (`S41-Q`) | 9 | **232** |
+| dont Curtis (`S45-Q`) | 56 | **108** |
+| Sources distinctes (`source_id`) | 38 | **45** |
+| `build --strict` | errors 0 | **errors 0** |
+
+### A.2. Résolution des 9 collisions `S41-Q001–009` (sans perte ni lien cassé)
+
+L'éclatement a exposé une collision d'id **pré-existante** : le stub
+`sources/hook/citations_exactes.md` (9 citations) **et** le registre exhaustif
+`registers/quotes/s41_hook_*` (223 citations) utilisaient tous deux
+`S41-Q001–009`, pour des **citations différentes**. Vérification des références :
+`S41-Q001–009` est cité **30+ fois** dans le dépôt (chapitres 01/02/03/05/06/07/
+09/12/14, `master_chronology`, `master_people`, `master_quotes §2.1`,
+`master_songs`) — **tous** pointant la sémantique du **stub**. Le stub est donc le
+**référent canonique** ; il est **conservé tel quel**. Les 9 homonymes du registre
+(contenu **unique**, **non référencés**) sont **renumérotés** vers des id libres,
+ce qui préserve les 18 citations, tous les liens, et ne fabrique aucun doublon.
+
+| Homonyme registre | Verbatim (extrait) | Présent dans le stub ? | Disposition | Nouvel id |
+|---|---|:--:|---|---|
+| `S41-Q001` | « …not fucking Nazis. We're from Salford. » | non (unique) | renuméroté | **`S41-Q224`** |
+| `S41-Q002` | « He loved that record. » | non (unique) | renuméroté | **`S41-Q225`** |
+| `S41-Q003` | « …that wanker's our singer » | non (unique) | renuméroté | **`S41-Q226`** |
+| `S41-Q004` | « Boing. » | non (unique) | renuméroté | **`S41-Q227`** |
+| `S41-Q005` | « Flat as fuck but the band played on. » | non (unique) | renuméroté | **`S41-Q228`** |
+| `S41-Q006` | « Our first gig as Joy Division… » | non (unique) | renuméroté | **`S41-Q229`** |
+| `S41-Q007` | « dark and smoggy and brown… » | non (unique) | renuméroté | **`S41-Q230`** |
+| `S41-Q008` | « Well in Jamaica it was definitely in colour. » | non (unique) | renuméroté | **`S41-Q231`** |
+| `S41-Q009` | « that was the first time we had any kind of contact » | non (unique) | renuméroté | **`S41-Q232`** |
+
+Triage : **0 exclusion** (aucun homonyme n'était un doublon du stub), **9
+renumérotations** (contenu unique préservé). Après build, `S41-Q001–009`
+résolvent **vers le stub** (ex. `S41-Q001` → « as I remember it »,
+`sources/hook/citations_exactes.md`) et les versions registre vivent sous
+`S41-Q224–232`. **`errors=0`, 0 donnée perdue, 0 lien cassé.**
+
+> **À consigner pour la canonicalisation** (hors 8a) : les 4 verbatim du stub qui
+> réapparaissent **ailleurs** dans le registre exhaustif sous d'autres id
+> (`S41-Q002`→`S41-Q067`, `S41-Q003`→`S41-Q072`, `S41-Q004`→`S41-Q074`,
+> `S41-Q008`→`S41-Q070`) sont de futurs **`same_as`** stub ↔ registre. Les 5
+> autres entrées du stub (`Q001/Q005/Q006/Q007/Q009`) sont **propres au stub**.
+
+### A.3. Chiffres re-caractérisés (864) vs audit (565)
+
+| Axe | Audit (565) | **Corpus complet (864)** | Lecture |
+|---|---|---|---|
+| **Attribution** (locuteur/auteur/…) | 290/565 (**51 %**) | **301/864 (35 %)** | **Chute** : les ~290 citations Hook/Curtis ajoutées portent surtout `passage`+`source_id` **sans** champ `auteur`/`locuteur`. Le 51 % était **gonflé** par le corpus partiel. |
+| dont chaînes « cité par » | 27 | **27** | inchangé (rapporteur ≠ locuteur, toujours à dénormaliser). |
+| Normalisé `PERSON-` | 0 | **0** | arête différée étape 9. |
+| **Provenance** `source_id` | 100 % | **864/864 (100 %)** | point fort confirmé. |
+| **Pagination réelle** (hors `passage`) | ~~100 %~~ → ≈514/565 | **844/864 (98 %)** | §D.1 corrigé ; **20 sans page** : `S45-Q006–014`, `S12-Q001–004`, `S09-Q001`, `S14-Q001`, `S90-Q001–005` — sous-population à sourcer/flagger. |
+| **Date d'énonciation** | 0/565 | **0/864** | inchangé : seule l'année d'édition (`source_year` 864/864). |
+| **Verbatim** présent | 348/565 (61 %) | **696/864 (81 %)** | **Hausse** : le registre Hook est intégralement verbatim (`passage`). Le corpus complet est **plus verbatim** que ne le laissait croire le sous-ensemble. |
+| **Doublons exacts** | 0 cluster | **1 cluster** (2 records) | « he was a catalyst for the rest of us » (`S45-Q052` = `S75-Q016`) — seul doublon verbatim strict ⇒ ratio entrées→identités **≈ 1 : 1** confirmé sur 864. |
+| **Conformité schéma** (tous requis) | 104/565 (18 %) | **78/864 (9 %)** | **Baisse** : les quotes Hook utilisent `passage`/`traduction_de_travail`, pas `citation_originale`/`langue_originale` (143/864 et 265/864). Hétérogénéité de schéma **aggravée** sur le corpus complet. |
+
+### A.4. Effet net sur les tensions de l'audit
+
+- **§C (attribution)** : la tension **s'aggrave** — couverture réelle **35 %**, pas
+  51 %. La dénormalisation locuteur/rapporteur/auteur-source est d'autant plus
+  nécessaire avant l'arête `PERSON-` (étape 9).
+- **§D.3 (verbatim/paraphrase)** : le corpus est **plus verbatim** (81 %) que
+  mesuré — le périmètre `QUOTE-` verbatim-strict couvrirait donc une part plus
+  large qu'estimé.
+- **§B.4 / §I.6 (schéma)** : la conformité **tombe à 9 %** ; l'homogénéisation
+  (champ unique de texte/page, statut non-imbriqué) devient un préalable encore
+  plus net à toute clé d'identité.
+- **§D.4 (doublons)** : ratio **≈ 1 : 1** confirmé à grande échelle (1 seul
+  doublon verbatim sur 864) — pas de clé mécanique de dédup, `same_as` = jugement
+  sémantique.
+
+**Aucune décision de conception n'est tranchée ici** : 8a se borne à rendre le
+corpus complet visible, dédoublonné et re-caractérisé. La canonicalisation
+`QUOTE-` reste l'objet des sous-étapes suivantes.
