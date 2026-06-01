@@ -11,7 +11,9 @@
     "active_until": null,
     "status": "active",
     "same_as": {
-      "wikidata": "Q485898"
+      "wikidata": "Q485898",
+      "musicbrainz": "31e9c35b-2675-4632-8596-f9bd9286f6c8",
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "peer_group",
@@ -39,7 +41,9 @@
     "active_until": null,
     "status": "active",
     "same_as": {
-      "wikidata": "Q502888"
+      "wikidata": "Q502888",
+      "musicbrainz": "01f4fb92-6bf0-4de5-83dc-3fe194e763bf",
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "successor_scene",
@@ -67,7 +71,9 @@
     "active_until": "1998",
     "status": "dissolved",
     "same_as": {
-      "wikidata": "Q4877508"
+      "wikidata": "Q4877508",
+      "musicbrainz": "07ea84a5-34aa-4766-b6d4-e9462a6220c2",
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "influence_recipient",
@@ -95,7 +101,9 @@
     "active_until": "1983",
     "status": "dissolved",
     "same_as": {
-      "wikidata": "Q2530282"
+      "wikidata": "Q2530282",
+      "musicbrainz": "68142098-e3b3-4f76-a8cc-8898713fcf58",
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "label_mate",
@@ -122,7 +130,11 @@
     "active_from": "1978",
     "active_until": null,
     "status": "unknown",
-    "same_as": {},
+    "same_as": {
+      "wikidata": null,
+      "musicbrainz": null,
+      "discogs": null
+    },
     "joy_division_relation": {
       "type": "technical_crew",
       "period": "1978–1980",
@@ -149,7 +161,9 @@
     "active_until": null,
     "status": "active",
     "same_as": {
-      "wikidata": "Q189794"
+      "wikidata": "Q189794",
+      "musicbrainz": null,
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "contextual",
@@ -177,7 +191,9 @@
     "active_until": null,
     "status": "active",
     "same_as": {
-      "wikidata": "Q6748055"
+      "wikidata": "Q6748055",
+      "musicbrainz": null,
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "archive",
@@ -205,7 +221,9 @@
     "active_until": null,
     "status": "active",
     "same_as": {
-      "wikidata": "Q50008"
+      "wikidata": "Q50008",
+      "musicbrainz": null,
+      "discogs": null
     },
     "joy_division_relation": {
       "type": "press_coverage",

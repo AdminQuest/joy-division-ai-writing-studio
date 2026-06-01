@@ -87,16 +87,16 @@
       "additionalProperties": false,
       "properties": {
         "wikidata": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Identifiant Wikidata (Q-number).",
           "pattern": "^Q\\d+$"
         },
         "discogs": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "URL Discogs (label ou artiste)."
         },
         "musicbrainz": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "UUID MusicBrainz."
         }
       }
