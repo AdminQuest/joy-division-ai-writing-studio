@@ -147,7 +147,7 @@ limitée à cette citation, jamais une heuristique large.
 python3 tools/build_attribution_edges.py        # génère arêtes + auteurs + pending_org
 python3 tools/build_registers.py --strict       # errors=0 ; 204 PERSON- (166 + 38)
 python3 tools/validate_attribution.py           # ATTR-a..d + XR-1/XR-3 ; exit 0
-python3 tools/validate_attribution.py --check-drift  # + SSOT ; exit 0
+python3 tools/validate_attribution.py --check-drift  # double build_registers + SSOT-a/b/c ; exit 0
 python3 tools/validate_people.py                # registre canonique #47 ; exit 0
 python3 tools/check_generated_sync.py           # sentinelle globale ; en phase
 ```
@@ -156,12 +156,47 @@ Invariants du validateur : **ATTR-a** couverture (arête résolue ou flag explic
 pour chaque citation) · **ATTR-b** zéro narration d'auteur non reliée (0 orphelin)
 · **ATTR-c** aucune non-personne câblée en `PERSON-` · **ATTR-d** `PERSON-`
 `origine=auteur_source` autorisé sans `same_as` · **XR-1** toute cible résout vers
-un `PERSON-` existant · **XR-3** tout prédicat ∈ vocabulaire contrôlé. Le
-générateur est **idempotent** (un rebuild régénère à l'identique, y compris quand
-`people.json` contient déjà les 38 auteurs : la résolution n'indexe que la couche
-#47, jamais ses propres auteurs-sources).
+un `PERSON-` existant · **XR-3** tout prédicat ∈ vocabulaire contrôlé.
 
-## 9. Hors périmètre (étapes ultérieures)
+## 9. Réponse à la revue Codex
+
+La revue signalait que `00_authors_canonical.md` était régénéré à vide au second
+passage `build_registers`, laissant **408 arêtes `[XR-1]` pendantes** dans l'état
+committé. Correction à la racine, en quatre points :
+
+1. **Register des auteurs = fonction pure de `quotes.json` (SSOT).** La
+   résolution des noms n'indexe plus `exports/generated/people.json` (qui, après
+   un build, contient déjà les `PERSON-` auteurs-sources créés ici — d'où la
+   diffusion auto-référentielle qui vidait le register). `load_canonical_index`
+   lit désormais **uniquement** la couche canonique #47 figée
+   (`registers/people/00_canonical_people.md`, 166 `PERSON-`). L'ensemble des 38
+   auteurs créés est donc rendu **intégralement et à l'identique** à chaque
+   exécution. *Avant* : 2ᵉ passage → 0 auteur. *Après* : rerun → fichier
+   byte-identique, 38 auteurs présents (idempotence stricte vérifiée).
+
+2. **Couche de résolution non circulaire.** Le validateur reconstruit l'univers
+   `PERSON-` depuis les **deux registers SSOT** — #47 `∪` register des auteurs
+   (`00_authors_canonical.md`), lus directement depuis les `.md` — et ne lit
+   jamais un `people.json` potentiellement périmé ou auto-référentiel.
+
+3. **Arêtes re-résolues.** Après correction, `validate_attribution.py` retombe à
+   **0 cible non résolue** (les 408 ont disparu) ; couverture 962/962.
+
+4. **Sentinelle durcie (garde anti-récidive).** `validate_attribution.py
+   --check-drift` exécute désormais `build_registers` **deux fois** (avec
+   `build_attribution_edges` entre), puis vérifie : **(a)** `00_authors_canonical.md`
+   byte-identique entre les deux régénérations (aucun « Total créés : 0 »
+   parasite, aucun auteur supprimé) ; **(b)** les 38 `PERSON- origine=auteur_source`
+   toujours présents après le 2ᵉ build (register **et** `people.json`) ; **(c)**
+   `validate_attribution` = 0 cible non résolue après le 2ᵉ build. Ce double
+   passage est précisément ce qui manquait. **Test de non-régression** : réinjecté
+   le bug d'origine (résolution contre `people.json`), la sentinelle **échoue**
+   (`exit 1`, `SSOT-a` + 408 `XR-1`) ; restaurée, elle repasse à `exit 0`.
+
+Le générateur reste **idempotent** quel que soit l'état de `people.json`, la
+résolution n'indexant que la couche #47 figée.
+
+## 9 bis. Hors périmètre (étapes ultérieures)
 
 - Registres `ORG-` / concept (étape 10) : seulement flaggés ici (pending_org).
 - Prédicat `porte_sur` (sujet de citation), `associe_a`, maillage profond (ét. 11).
