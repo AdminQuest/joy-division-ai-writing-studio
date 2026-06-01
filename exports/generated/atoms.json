@@ -128190,6 +128190,327 @@
   },
   {
     "kind": "atom",
+    "id": "S94-A001",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A001 — Qualification de la source : Weissinger comme lecteur ironique de Reynolds",
+    "data": {
+      "id": "S94-A001",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": "247-250",
+      "type_unite": "qualification_source",
+      "concepts": [
+        "source critique",
+        "recension",
+        "Simon Reynolds",
+        "Retromania",
+        "Journal of Popular Music Studies"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "S94 ne mentionne pas Joy Division. Ne jamais citer S94 comme source sur Joy Division ou sur le post-punk — uniquement comme source sur la réception de Reynolds. Double filtre : Weissinger lisant Reynolds.\n",
+      "methodological_warnings": [
+        "Joy Division absent du texte. Pertinence exclusivement indirecte (via Reynolds et le post-punk comme catégorie).",
+        "Source secondaire au carré : Weissinger analyse Reynolds qui analyse le post-punk.",
+        "Ton ironique et autobiographique — ne pas traiter comme analyse neutre."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A002",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A002 — Reynolds comme « old modernist-minded post-punk » : auto-identification critique",
+    "data": {
+      "id": "S94-A002",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": "248-249",
+      "type_unite": "analyse",
+      "concepts": [
+        "Simon Reynolds",
+        "modernisme",
+        "post-punk",
+        "positionnement critique",
+        "nostalgie du futurisme"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "L'auto-identification de Reynolds est citée par Weissinger. Le passage est dans Retromania (S91) — Weissinger le rapporte sans numéro de page. Ne pas attribuer la formule à Weissinger ; c'est un aveu de Reynolds que Weissinger retourne contre lui.\n",
+      "methodological_warnings": [
+        "Citation de Reynolds, pas de Weissinger. Vérifier contre S91 pour le contexte original.",
+        "L'auto-identification fonctionne ici comme argument contre Reynolds : sa nostalgie du futurisme post-punk est elle-même rétromaniaque."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "liens_citations": [
+        "S91",
+        "S93-A003"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A003",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A003 — Le « future-rush » : citation directe de Reynolds",
+    "data": {
+      "id": "S94-A003",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": 249,
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "future-rush",
+        "futurisme",
+        "post-punk",
+        "Retromania",
+        "nostalgie",
+        "Simon Reynolds"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "Le « future-rush » est un concept de Reynolds, pas de Weissinger. Weissinger le cite dans le contexte de la conclusion de Retromania. Ne pas attribuer le concept à Weissinger ni l'appliquer directement à Joy Division sans passer par S91 et S72.\n",
+      "methodological_warnings": [
+        "Concept reynoldsien cité par Weissinger — triple provenance (Reynolds → Weissinger → manuscrit).",
+        "Le future-rush est un souvenir personnel de Reynolds, pas une catégorie analytique stabilisée."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "liens_citations": [
+        "S91",
+        "S93-A003"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A004",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A004 — Critique de l'opposition analogue/numérique chez Reynolds",
+    "data": {
+      "id": "S94-A004",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": "248-249",
+      "type_unite": "critique_historiographique",
+      "concepts": [
+        "analogue",
+        "numérique",
+        "authenticité",
+        "production musicale",
+        "studio",
+        "Ableton Live",
+        "Simon Reynolds"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "La critique de Weissinger porte sur Retromania en général, pas sur Joy Division. Ne pas extrapoler vers la production Hannett (analogique) sans source directe. Le parallèle est tentant mais non autorisé par S94.\n",
+      "methodological_warnings": [
+        "Ne pas projeter la critique analogue/numérique sur le son Joy Division/Hannett.",
+        "L'argument de Weissinger vise Reynolds, pas le post-punk lui-même."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "liens_citations": [
+        "S93-A007"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A005",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A005 — Le post-punk DIY comme modèle de limitation créative (Billy Childish)",
+    "data": {
+      "id": "S94-A005",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": "249-250",
+      "type_unite": "concept_theorique",
+      "concepts": [
+        "limitation créative",
+        "discipline artistique",
+        "Billy Childish",
+        "post-punk",
+        "DIY",
+        "Prinzhorn Dance School",
+        "Gang of Four",
+        "Scritti Politti"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "secondaire",
+      "risque_surinterpretation": "La citation de Billy Childish vient de Retromania (S91, p. 270), pas de Weissinger directement. Weissinger la mobilise dans un argument sur la limitation volontaire. Le lien avec Joy Division (groupe au « sonic palette » restreint) est une extrapolation séduisante mais non textuelle.\n",
+      "methodological_warnings": [
+        "Citation Childish via Reynolds via Weissinger — triple couche.",
+        "Prinzhorn Dance School « décrit comme Gang of Four plus ou minus » — post-punk comme étalon permanent du revival.",
+        "Ne pas appliquer l'argument de la limitation créative à Joy Division sans source directe."
+      ],
+      "related_people": [
+        "Billy Childish",
+        "Simon Reynolds"
+      ],
+      "related_organizations": [
+        "Prinzhorn Dance School",
+        "Gang of Four",
+        "Scritti Politti"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A006",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A006 — L'échec productif : défense de la rétromanie comme pratique créative",
+    "data": {
+      "id": "S94-A006",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": 250,
+      "type_unite": "analyse",
+      "concepts": [
+        "échec productif",
+        "appropriation",
+        "mimétisme",
+        "rétromanie",
+        "créativité",
+        "Scritti Politti",
+        "reggae"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "etabli",
+      "importance": "majeure",
+      "risque_surinterpretation": "L'argument de Weissinger porte sur la culture pop en général, pas sur Joy Division. L'appliquer au revival post-punk des années 2000 (Interpol, Editors, etc.) est légitime ; l'appliquer à Joy Division comme groupe ayant lui-même « échoué » à reproduire ses influences serait une extrapolation intéressante mais non textuelle.\n",
+      "methodological_warnings": [
+        "La thèse de l'échec productif est celle de Weissinger, pas de Reynolds.",
+        "Scritti Politti comme « failed art school reggae » = post-punk défini par l'écart créatif, pas par la fidélité à un modèle.",
+        "Ne pas confondre : Reynolds diagnostique la rétromanie comme pathologie ; Weissinger la défend partiellement comme processus créatif."
+      ],
+      "liens_interchapitres": [
+        "Ch.07 → Ch.14 : l'échec productif offre un cadre pour penser la postérité de Joy Division sans la réduire à une copie dégradée."
+      ],
+      "related_organizations": [
+        "Scritti Politti"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S94-A007",
+    "file": "sources/s94_weissinger_retromania/source_atomisation_01.md",
+    "heading": "S94-A007 — Reynolds critique le grime et le dubstep comme « contained explosions »",
+    "data": {
+      "id": "S94-A007",
+      "source_id": "S94",
+      "source_label": "S94 — Weissinger, Retromania (Book Review), JPMS, 2012",
+      "source_short_title": "Weissinger, Retromania review, 2012",
+      "source_year": "2012",
+      "auteur": "James Weissinger",
+      "titre": "Retromania: Pop Culture's Addiction to Its Own Past (Book Review)",
+      "pages_pdf": 249,
+      "type_unite": "critique_historiographique",
+      "concepts": [
+        "grime",
+        "dubstep",
+        "post-rave",
+        "futurisme",
+        "sélectivité",
+        "Simon Reynolds",
+        "classe ouvrière",
+        "donk"
+      ],
+      "chapitres": [
+        "Chapitre 7"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "forte",
+      "citation_directe": true,
+      "stabilite": "probable",
+      "importance": "secondaire",
+      "risque_surinterpretation": "Weissinger critique Reynolds pour avoir sous-traité le grime et le dubstep. C'est un argument sur la méthode de Reynolds, pas sur Joy Division. Cependant, le parallèle avec la critique d'Ogg (S93-A004, sélectivité de Rip It Up) est structurel : Reynolds sélectionne selon ses préférences esthétiques.\n",
+      "methodological_warnings": [
+        "Critique méthodologique de Reynolds, pas argument sur Joy Division.",
+        "Le parallèle avec S93-A004 (Ogg) est le point pertinent : Reynolds sélectionne.",
+        "Le donk et la classe ouvrière rappellent le contexte social de Joy Division mais Weissinger ne fait pas le lien."
+      ],
+      "related_people": [
+        "Simon Reynolds"
+      ],
+      "liens_citations": [
+        "S93-A004"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S89-A007",
     "file": "sources/savage_englands_dreaming/atomes_s89_ch2_3_lfth_buzzcocks_factory.md",
     "heading": "S89-A007 — Lesser Free Trade Hall, 4 juin 1976 : premier concert Sex Pistols à Manchester",

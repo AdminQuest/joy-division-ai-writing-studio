@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T13:38:42"
+generated_at: "2026-06-01T13:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 1318 |
+| Atomes | 1323 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 228 |
 | Événements chronologiques | 138 |
 | Personnes | 161 |
 | Chansons | 34 |
-| Sources mobilisées | 71 |
+| Sources mobilisées | 72 |
 
 ## 4. Sources mobilisées
 
@@ -105,6 +105,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S89 | S89 — Savage, England's Dreaming, 1991 | 1 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 6 | 0 |
 | S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 9 | 0 |
+| S94 | S94 — Weissinger, Retromania (Book Review), JPMS, 2012 | 5 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -571,10 +572,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Peter Saville (21)
 - prudence historiographique (19)
 - Love Will Tear Us Apart (17)
+- post-punk (17)
 - Rob Gretton (17)
 - NME (17)
 - Tony Wilson (15)
-- post-punk (15)
 - Factory Records (15)
 - mémoire (14)
 - Atmosphere (14)
@@ -583,6 +584,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - réception (13)
 - peter saville (12)
 - martin hannett (11)
+- Simon Reynolds (11)
 - Manchester (11)
 - Ceremony (11)
 - factory (10)
@@ -590,13 +592,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - presse musicale (10)
 - Warsaw (10)
 - An Ideal for Living (10)
+- authenticité (10)
 - She's Lost Control (10)
 - Dead Souls (10)
 - John Peel (10)
 - archive (9)
 - postérité (9)
 - Closer (9)
-- authenticité (9)
 - mythe (9)
 - indépendance (8)
 - suicide (8)
@@ -605,7 +607,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - management (7)
 - Songbook (7)
 - fac-simile (7)
-- Simon Reynolds (7)
 - bootlegs (7)
 - Martin Hannett (7)
 - historiographie (7)
@@ -627,11 +628,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - goth (6)
 - imagerie nazie (5)
 - love will tear us apart (5)
+- nostalgie (5)
 - hauntologie (5)
 - Kevin Cummins (5)
 - noir et blanc (5)
 - premier corpus (5)
 - scène mancunienne (5)
+- source critique (5)
 - Digital (5)
 - Paul Morley (5)
 - Birmingham University (5)
@@ -640,8 +643,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Electric Circus (5)
 - Festive Fifty (5)
 - still (5)
-- culte (5)
-- Peel Sessions (5)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -778,7 +779,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | reception | 62 |
-| analyse | 43 |
+| analyse | 45 |
 | prudence_methodologique | 42 |
 | concept_structurant | 39 |
 | non qualifié | 27 |
@@ -805,15 +806,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | manuscript_materiality | 7 |
 | synthese_usage_livre | 7 |
 | relation | 7 |
+| concept_theorique | 7 |
 | objet_discographique | 7 |
 | mediation_audiovisuelle | 6 |
 | synthese_argumentative | 6 |
 | songbook_instruction | 6 |
 | methode | 6 |
-| concept_theorique | 6 |
 | limite_interpretative | 5 |
 | scene_historiographique | 5 |
 | objet_audiovisuel | 5 |
+| critique_historiographique | 5 |
 | concert | 5 |
 | iconographie_photographe | 5 |
 | lecture_chanson | 5 |
@@ -827,7 +829,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | motif_discursif | 4 |
 | culture_materielle | 4 |
 | concept | 4 |
-| critique_historiographique | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
 | iconographie | 4 |
@@ -867,6 +868,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | image_symbolique | 3 |
 | lecture_biographique | 3 |
 | objet_visuel | 3 |
+| qualification_source | 3 |
 | prudence_historiographique | 3 |
 | song | 3 |
 | song_session | 3 |
@@ -924,7 +926,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
-| qualification_source | 2 |
 | interpretation_historique | 2 |
 | esthétique | 2 |
 | acteur | 2 |
@@ -1417,9 +1418,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | critique | 522 |
 | non qualifiée | 439 |
-| majeure | 205 |
+| majeure | 208 |
 | majeur | 56 |
-| secondaire | 51 |
+| secondaire | 53 |
 | utile | 22 |
 | haute | 9 |
 | moyenne | 3 |

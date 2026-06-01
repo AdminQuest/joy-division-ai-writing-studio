@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T13:38:42"
+generated_at: "2026-06-01T13:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 390 |
+| Atomes | 391 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 55 |
 | Événements chronologiques | 17 |
 | Personnes | 29 |
 | Chansons | 34 |
-| Sources mobilisées | 37 |
+| Sources mobilisées | 38 |
 
 ## 4. Sources mobilisées
 
@@ -71,6 +71,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S88 | S88 — Cashell, Spectral Presences: Transition from Joy Division to New Order, 2018 | 5 | 7 |
 | S89 | S89 — Savage, England's Dreaming, 1991 | 2 | 0 |
 | S90 | S90 — Fisher, Ghosts of My Life, 2014 | 4 | 0 |
+| S94 | S94 — Weissinger, Retromania (Book Review), JPMS, 2012 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -500,12 +501,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Joy Division (7)
 - genese-chanson (7)
 - NME (7)
+- post-punk (7)
 - suicide (6)
 - autobiographie-fiction (6)
 - prudence historiographique (6)
 - datation-1979 (6)
 - isolement (6)
-- post-punk (6)
 - domesticité (5)
 - épilepsie (5)
 - datation-1980 (5)
@@ -880,6 +881,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | controverse_scene_live | 1 |
 | influence | 1 |
 | lecture_textuelle | 1 |
+| concept_theorique | 1 |
 | reference_croisee | 1 |
 | these_conclusive | 1 |
 | memoire | 1 |
@@ -904,7 +906,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | majeure | 77 |
 | majeur | 13 |
 | utile | 7 |
-| secondaire | 2 |
+| secondaire | 3 |
 | majeure pour les prudences sur l’imagerie de guerre | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

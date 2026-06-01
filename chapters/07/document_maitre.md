@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-06-01T13:38:42"
+generated_at: "2026-06-01T13:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 177 |
+| Atomes | 184 |
 | Atomes critiques / majeurs | 60 |
 | Citations | 20 |
 | Événements chronologiques | 17 |
 | Personnes | 23 |
 | Chansons | 18 |
-| Sources mobilisées | 26 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -60,6 +60,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 3 |
 | S77 | S77 — Worley, Punk, Politics and British (fan)zines, 1976–84, 2015 | 5 | 3 |
 | S93 | S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012 | 11 | 0 |
+| S94 | S94 — Weissinger, Retromania (Book Review), JPMS, 2012 | 7 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -442,13 +443,15 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 ## 11. Concepts récurrents
 
 - Martin Hannett (15)
+- Simon Reynolds (14)
+- post-punk (12)
 - martin hannett (11)
-- Simon Reynolds (9)
-- post-punk (9)
 - unknown pleasures (7)
 - closer (5)
 - prudence historiographique (5)
+- Retromania (5)
 - Rip It Up and Start Again (5)
+- futurisme (5)
 - peter saville (4)
 - love will tear us apart (4)
 - Peter Saville (4)
@@ -456,25 +459,26 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Unknown Pleasures (4)
 - Throbbing Gristle (4)
 - production (4)
+- studio (4)
 - espace sonore (4)
 - dub (4)
 - factory records (3)
 - digital (3)
 - pochette (3)
+- nostalgie (3)
 - Joy Division (3)
 - capitalist realism (3)
 - Ian Curtis (3)
 - pulsar (3)
 - industrial music (3)
 - sonic hauntology (3)
-- studio (3)
 - basse (3)
 - batterie (3)
 - son live (3)
 - architecture sonore (3)
-- Retromania (3)
 - historiographie (3)
-- futurisme (3)
+- sélectivité (3)
+- rétromanie (3)
 - factory (2)
 - production sonore (2)
 - répétition (2)
@@ -484,7 +488,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - réception interne (2)
 - bernard sumner (2)
 - design funéraire (2)
-- nostalgie (2)
 - source secondaire critique (2)
 - distance (2)
 - froideur (2)
@@ -514,13 +517,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - réception corporelle (2)
 - spectralité (2)
 - anti-rock (2)
+- reggae (2)
 - funk (2)
 - sheffield (2)
 - electronics (2)
 - throbbing gristle (2)
-- death factory (2)
-- bruit (2)
-- temporalité (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -656,16 +657,17 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Type | Nombre |
 |---|---|
-| analyse | 23 |
+| analyse | 25 |
+| concept_theorique | 8 |
 | source_part | 6 |
 | production | 6 |
-| concept_theorique | 6 |
 | contrepoint | 6 |
 | non qualifié | 6 |
 | scene_fondatrice | 5 |
 | prudence_methodologique | 4 |
 | reception | 4 |
 | lecture_musicale | 4 |
+| critique_historiographique | 4 |
 | concept_structurant | 3 |
 | synthese_argumentative | 3 |
 | lecture | 3 |
@@ -684,7 +686,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | fait | 2 |
 | transition | 2 |
 | motif_structurant | 2 |
-| critique_historiographique | 2 |
+| qualification_source | 2 |
 | analyse_oeuvre_intertextuelle | 2 |
 | rupture_esthetique | 1 |
 | cartographie_scene | 1 |
@@ -738,7 +740,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | lecture_discographique | 1 |
 | contexte | 1 |
 | synthese | 1 |
-| qualification_source | 1 |
 | cadre_theorique | 1 |
 | analyse_oeuvre_poetique | 1 |
 | atome_pont_document_maitre | 1 |
@@ -757,8 +758,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | non qualifiée | 73 |
 | critique | 61 |
-| majeure | 23 |
-| secondaire | 9 |
+| majeure | 26 |
+| secondaire | 13 |
 | majeur | 7 |
 | utile | 3 |
 | moyenne | 1 |
