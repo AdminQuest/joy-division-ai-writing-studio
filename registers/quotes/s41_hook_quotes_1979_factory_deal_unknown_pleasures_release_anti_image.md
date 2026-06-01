@@ -11,7 +11,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "156"
-      pagination_papier: a_completer
+      pagination_papier: "156"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A113]
 
   - id: S41-Q115
@@ -21,7 +22,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "157"
-      pagination_papier: a_completer
+      pagination_papier: "157"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A114]
 
   - id: S41-Q116
@@ -31,7 +33,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "158"
-      pagination_papier: a_completer
+      pagination_papier: "158"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A115]
 
   - id: S41-Q117
@@ -41,7 +44,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "160"
-      pagination_papier: a_completer
+      pagination_papier: "160"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A116]
 
   - id: S41-Q118
@@ -51,7 +55,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "160"
-      pagination_papier: a_completer
+      pagination_papier: "160"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A117]
 
   - id: S41-Q119
@@ -61,7 +66,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "161-162"
-      pagination_papier: a_completer
+      pagination_papier: "161-162"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A118]
 
   - id: S41-Q120
@@ -71,7 +77,8 @@ quotes:
     statut:
       original: propos_sumner_rapportes
       pagination_pdf: "162-164"
-      pagination_papier: a_completer
+      pagination_papier: "162-164"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A119]
 
   - id: S41-Q121
@@ -81,7 +88,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "166"
-      pagination_papier: a_completer
+      pagination_papier: "166"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A120]
 
   - id: S41-Q122
@@ -91,7 +99,8 @@ quotes:
     statut:
       original: propos_gretton_rapportes
       pagination_pdf: "166-167"
-      pagination_papier: a_completer
+      pagination_papier: "166-167"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A121]
 
   - id: S41-Q123
@@ -101,7 +110,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "167"
-      pagination_papier: a_completer
+      pagination_papier: "167"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A122]
 
   - id: S41-Q124
@@ -111,7 +121,8 @@ quotes:
     statut:
       original: review_NME_rapportee
       pagination_pdf: "169"
-      pagination_papier: a_completer
+      pagination_papier: "169"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A123]
 
   - id: S41-Q125
@@ -121,7 +132,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "169"
-      pagination_papier: a_completer
+      pagination_papier: "169"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A124]
 
   - id: S41-Q126
@@ -131,7 +143,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "170"
-      pagination_papier: a_completer
+      pagination_papier: "170"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A125]
 
   - id: S41-Q127
@@ -141,7 +154,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "170-171"
-      pagination_papier: a_completer
+      pagination_papier: "170-171"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A126]
 
   - id: S41-Q128
@@ -151,7 +165,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "172"
-      pagination_papier: a_completer
+      pagination_papier: "172"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A127]
 
   - id: S41-Q129
@@ -161,7 +176,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "173"
-      pagination_papier: a_completer
+      pagination_papier: "173"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A128]
 
   - id: S41-Q130
@@ -171,7 +187,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "175"
-      pagination_papier: a_completer
+      pagination_papier: "175"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A129]
 
   - id: S41-Q131
@@ -181,7 +198,8 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "176-177"
-      pagination_papier: a_completer
+      pagination_papier: "176-177"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A130]
 
   - id: S41-Q132
@@ -191,6 +209,7 @@ quotes:
     statut:
       original: verifie_sur_ocr
       pagination_pdf: "177-178"
-      pagination_papier: a_completer
+      pagination_papier: "177-178"
+    note_verification: "pagination_papier confirmée = pagination_pdf (offset 0 vérifié sur PDF Calibre)."
     atomes_lies: [S41-A131]
 ```
