@@ -3,72 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
   <title>Registre des acteurs — Joy Division</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <h1>Registre des acteurs</h1>
-      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
-      <p class="back"><a href="../../">← Retour au portail</a></p>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="toolbar">
-      <div class="status-card" id="status-card">Chargement des acteurs…</div>
-
-      <div class="filters">
-        <div class="field">
-          <label for="search">Recherche</label>
-          <input id="search" type="search" placeholder="Curtis, Hannett, Factory, designer, témoin…">
-        </div>
-
-        <div class="field">
-          <label for="source-filter">Source</label>
-          <select id="source-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="role-filter">Rôle</label>
-          <select id="role-filter"><option value="">Tous</option></select>
-        </div>
-
-        <div class="field">
-          <label for="entity-filter">Entité associée</label>
-          <select id="entity-filter"><option value="">Toutes</option></select>
-        </div>
-
-        <div class="field">
-          <label for="chapter-filter">Chapitre</label>
-          <select id="chapter-filter"><option value="">Tous</option></select>
-        </div>
+  <div id="people-app">
+    <header class="people-hero" id="list-hero">
+      <div class="people-hero__inner">
+        <a class="people-hero__back" href="../../">← Retour au portail</a>
+        <h1>Registre des acteurs</h1>
+        <p class="people-hero__subtitle">Le registre canonique des personnes du corpus Joy Division, groupé par catégorie : membres du groupe, entourage, industrie, critiques et journalistes, auteurs secondaires, influences et théoriciens mobilisés. Chaque acteur agrège ses formes de nom, ses sources et ses citations attribuées.</p>
       </div>
+    </header>
 
-      <div class="actions">
-        <button id="reset-filters" type="button">Réinitialiser</button>
-        <button id="download-csv" type="button">Exporter CSV</button>
-      </div>
+    <main class="people-layout" id="list-view">
+      <section class="people-toolbar" aria-label="Filtres et recherche">
+        <div class="people-toolbar__filters">
+          <div class="people-field">
+            <label for="search">Recherche</label>
+            <input id="search" type="search" placeholder="Curtis, Hannett, Albrecht, Saville, Reynolds…" autocomplete="off">
+          </div>
+          <div class="people-field">
+            <label for="category-filter">Catégorie</label>
+            <select id="category-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="people-field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter"><option value="">Toutes</option></select>
+          </div>
+          <div class="people-field">
+            <label for="chapter-filter">Chapitre</label>
+            <select id="chapter-filter"><option value="">Tous</option></select>
+          </div>
+        </div>
+        <div class="people-toolbar__actions">
+          <button id="reset-filters" class="people-btn" type="button">Réinitialiser</button>
+          <button id="download-csv" class="people-btn people-btn--primary" type="button">Exporter CSV</button>
+          <span class="people-toolbar__meta" id="results-meta"></span>
+        </div>
+      </section>
 
-      <p class="note">
-        Ce registre lit directement les fichiers <code>registers/people/*.md</code> et les personnes atomisées du repo.
-      </p>
-    </section>
-
-    <section class="register-panel">
-      <div class="results-header">
-        <h2>Acteurs</h2>
-        <div id="results-meta"></div>
-      </div>
-
-      <div id="people-list" class="people-list"></div>
-    </section>
-  </main>
+      <div id="people-status" class="people-status">Chargement du registre canonique…</div>
+      <div id="people-sections"></div>
+    </main>
+  </div>
 
   <!-- Loader partagé : bumper ?v= à CHAQUE modification de apps/lib/dynamic-registers.js
-       (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). -->
+       (cache-busting Pages + navigateur ; cf. docs/WEB_INTERFACE.md). Ici ce fichier
+       n'est PAS modifié : on conserve le jeton courant. -->
   <script src="../lib/dynamic-registers.js?v=7c"></script>
+  <script src="icons.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
