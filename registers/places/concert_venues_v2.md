@@ -87,6 +87,12 @@ places:
     sources:
       - S45
     usage: "Club de Manchester ; concert bénéfice *City Fun*."
+    lat: 53.4869
+    lng: -2.2239
+    geo_precision: exacte
+    prudence_methodologique: >-
+      255 Oldham Road M4 ; aussi Factory II / New Electric Circus ;
+      demoli. Source: joydiv.org/places.htm
   - id: PLACE-SALFORD-TECHNICAL-COLLEGE
     label: "Salford Technical College"
     type: education
@@ -109,6 +115,13 @@ places:
       - S41
       - S76
     usage: "Club emblématique de Mathew Street, Liverpool ; concerts de Joy Division (dont avec les Rich Kids)."
+    lat: 53.40654
+    lng: -2.98753
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Mathew Street, Liverpool L2 ; club ferme 1980. Source: en.wikipedia.org/wiki/Eric%27s_Club
+    reference_croisee:
+      - "wikidata:Q5388790"
   - id: PLACE-SWINGING-APPLE-LIVERPOOL
     label: "Swinging Apple, Liverpool"
     type: salle
@@ -136,6 +149,11 @@ places:
       - S45
       - S76
     usage: "Grande halle de Leeds ; hôte du Futurama Festival 1979 où joue Joy Division."
+    lat: 53.794
+    lng: -1.5436
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Swinegate, Leeds ; ancien depot de tramway ; demoli 1989. Source: en.wikipedia.org/wiki/Queens_Hall,_Leeds
   - id: PLACE-LEEDS-UNIVERSITY
     label: "Leeds University"
     type: education
@@ -200,6 +218,11 @@ places:
     sources:
       - S76
     usage: "Club de Preston ; concert de Joy Division avec Section 25. Distinct de PLACE-WAREHOUSE-CHICAGO."
+    lat: 53.75918
+    lng: -2.69928
+    geo_precision: exacte
+    prudence_methodologique: >-
+      St Johns Place, off Church Street, Preston ; anciennement Raiders ; concert 28 fev 1980. Source: blogpreston.co.uk
   - id: PLACE-WINTER-GARDENS-MALVERN
     label: "Winter Gardens, Malvern"
     type: salle
@@ -214,6 +237,11 @@ places:
     sources:
       - S41
     usage: "Bâtiment universitaire désaffecté (Devas Street, Manchester) occupé ; plusieurs concerts de Warsaw (Stuff the Jubilee, Time's Up)."
+    lat: 53.46485
+    lng: -2.2329
+    geo_precision: quartier
+    prudence_methodologique: >-
+      Devas Street M15 ; batiment demoli, Devas Street disparue, approxime pres Manchester Academy. Source: mdmarchive.co.uk
   - id: PLACE-DERBY-HALL-BURY
     label: "Derby Hall, Bury"
     type: salle
@@ -223,9 +251,13 @@ places:
       - S75
       - S76
     usage: "Salle du complexe municipal de Bury ; avant-dernier concert (8 avril 1980), Curtis très affaibli."
+    lat: 53.59286
+    lng: -2.29641
+    geo_precision: exacte
     prudence_methodologique: >-
       VARIANTE DE NOM (un seul lieu) : « Derby Hall, Bury » (S75/S76) et « Bury Town Hall »
       (S41) désignent le même complexe — non dédoublé.
+      Coordonnees: Market Street, Bury ; Derby Hall / The Met ; concert chaotique 8 avril 1980. Source: themet.org.uk
   - id: PLACE-AJANTA-THEATRE-DERBY
     label: "Ajanta Theatre, Derby"
     type: salle
@@ -243,6 +275,11 @@ places:
       - S75
       - S76
     usage: "Salle de Finsbury Park, Londres ; concerts de Joy Division (dont la crise de Curtis sous stroboscopes, 4 avril 1980)."
+    lat: 51.56419
+    lng: -0.10607
+    geo_precision: exacte
+    prudence_methodologique: >-
+      232-238 Seven Sisters Road, Finsbury Park N4 ; batiment classe, aujourd'hui UCKG. Source: historicengland.org.uk
   - id: PLACE-ELECTRIC-BALLROOM-CAMDEN
     label: "Electric Ballroom, Camden"
     type: salle
@@ -251,6 +288,11 @@ places:
       - S41
       - S76
     usage: "Salle de Camden, Londres ; concerts de Joy Division."
+    lat: 51.54174
+    lng: -0.14247
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Camden High Street NW1 ; salle toujours active. Source: electricballroom.co.uk
   - id: PLACE-MOONLIGHT-CLUB-LONDON
     label: "Moonlight Club, West Hampstead"
     type: salle
@@ -258,6 +300,11 @@ places:
     sources:
       - S76
     usage: "Club de West Hampstead, Londres ; mini-résidence de Joy Division (avril 1980)."
+    lat: 51.54638
+    lng: -0.19114
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Railway Hotel, 100 West End Lane, West Hampstead NW6 ; Sister Ray publie sur Still. Source: pubwiki.co.uk
   - id: PLACE-YMCA-LONDON
     label: "YMCA, London"
     type: salle
@@ -316,6 +363,13 @@ places:
       - S75
       - S76
     usage: "Pub-venue d'Islington, Londres ; premier concert londonien (27 déc. 1978), suivi de la première crise de Curtis. Composante GIG des bundles a_scinder."
+    lat: 51.54334
+    lng: -0.10348
+    geo_precision: exacte
+    prudence_methodologique: >-
+      207 Upper Street, Islington N1 1RL ; premiere apparition londonienne JD 27 dec 1978. Source: hopeandanchor.info
+    reference_croisee:
+      - "wikidata:Q15225054"
   - id: PLACE-NASHVILLE-ROOMS-LONDON
     label: "Nashville Rooms, London"
     type: salle
@@ -324,6 +378,11 @@ places:
       - S41
       - S76
     usage: "Pub-venue de West Kensington, Londres ; concert (13 août 1979) où Annik Honoré voit le groupe. Composante GIG des bundles a_scinder."
+    lat: 51.49084
+    lng: -0.20671
+    geo_precision: exacte
+    prudence_methodologique: >-
+      171 North End Road, West Kensington W14 ; devenu Famous Three Kings. Source: discogs.com
   - id: PLACE-MARQUEE-LONDON
     label: "Marquee Club, London"
     type: salle
@@ -331,6 +390,11 @@ places:
     sources:
       - S41
     usage: "Club de Wardour Street, Londres ; concert de Joy Division en support de The Cure (4 mars 1979). Composante GIG d'un bundle a_scinder."
+    lat: 51.51319
+    lng: -0.13381
+    geo_precision: exacte
+    prudence_methodologique: >-
+      90 Wardour Street, Soho W1 ; site historique 1964-1988, ferme puis deplace. Source: en.wikipedia.org/wiki/Marquee_Club
   - id: PLACE-PLAN-K-BRUSSELS
     label: "Plan K, Brussels"
     type: salle
@@ -340,6 +404,11 @@ places:
       - S75
       - S76
     usage: "Espace culturel de Bruxelles ; concerts de Joy Division avec Cabaret Voltaire."
+    lat: 50.8493
+    lng: 4.3417
+    geo_precision: exacte
+    prudence_methodologique: >-
+      21 rue de Manchester, Bruxelles / La Raffinerie ; concerts 16 oct 1979 et 17 jan 1980. Source: enkiri.com
   - id: PLACE-LES-BAINS-DOUCHES-PARIS
     label: "Les Bains Douches, Paris"
     type: salle
@@ -348,6 +417,11 @@ places:
       - S41
       - S76
     usage: "Club parisien ; concert de Joy Division (longue setlist)."
+    lat: 48.86406
+    lng: 2.35208
+    geo_precision: exacte
+    prudence_methodologique: >-
+      7 rue du Bourg-l'Abbe, Paris 3e ; concert 18 dec 1979 ; lieu reconverti. Source: lesbains-paris.com
   - id: PLACE-PARADISO-AMSTERDAM
     label: "Paradiso, Amsterdam"
     type: salle
@@ -355,6 +429,11 @@ places:
     sources:
       - S76
     usage: "Salle d'Amsterdam ; concert de la tournée européenne (janvier 1980)."
+    lat: 52.36215
+    lng: 4.88381
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Weteringschans 6-8, Amsterdam ; ancienne eglise ; concert 11 jan 1980. Source: paradiso.nl
   - id: PLACE-BASEMENT-COLOGNE
     label: "Basement, Cologne"
     type: salle
@@ -362,6 +441,11 @@ places:
     sources:
       - S76
     usage: "Club underground de Cologne ; concert de la tournée européenne."
+    lat: 50.9407
+    lng: 6.9367
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Christuskirche, Herwarthstrasse, Koln ; salle en sous-sol de l'eglise ; concert 15 jan 1980. Source: christuskirche-koeln.de
   - id: PLACE-EFFENAAR-EINDHOVEN
     label: "Effenaar, Eindhoven"
     type: salle
@@ -369,5 +453,76 @@ places:
     sources:
       - S76
     usage: "Salle d'Eindhoven ; concert avec Minny Pops (tournée européenne)."
+    lat: 51.44135
+    lng: 5.48186
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Dommelstraat 2, Eindhoven ; ancien site reconstruit 2005 ; concert 18 jan 1980. Source: cvent.com
+  - id: PLACE-CENTRAL-SOUND-STUDIOS
+    label: "Central Sound Studios"
+    type: studio
+    type_detail: studio_enregistrement
+    sources:
+      - joydiv
+    usage: "91 St James Street, Manchester M1 ; premiere tentative enregistrement Transmission."
+    lat: 53.48057
+    lng: -2.23558
+    geo_precision: exacte
+    prudence_methodologique: >-
+      91 St James Street M1 ; premiere tentative enregistrement Transmission. Source: joydiv.org/places.htm
+  - id: PLACE-SUNLEY-BUILDING
+    label: "Sunley Building / Piccadilly Plaza"
+    type: commerce
+    type_detail: immeuble_bureau
+    sources:
+      - joydiv
+    usage: "Piccadilly Plaza, Manchester M1 ; Ian Curtis travaillait pour Manpower Services Commission."
+    lat: 53.47778
+    lng: -2.23066
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Piccadilly Plaza M1 ; Ian Curtis travaillait pour Manpower Services Commission. Source: en.wikipedia.org/wiki/Piccadilly_Plaza
+    reference_croisee:
+      - "wikidata:Q7194615"
+  - id: PLACE-ST-THOMAS-CHURCH-HENBURY
+    label: "St Thomas's Church, Henbury"
+    type: lieu_memoire
+    type_detail: eglise
+    sources:
+      - joydiv
+    usage: "Henbury, near Macclesfield ; mariage Ian et Deborah Curtis 23 aout 1975."
+    lat: 53.27059
+    lng: -2.17243
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Henbury, near Macclesfield ; mariage Ian et Deborah Curtis 23 aout 1975. Source: achurchnearyou.com/church/12824/
+  - id: PLACE-MAIDA-VALE-STUDIOS
+    label: "Maida Vale Studios"
+    type: studio
+    type_detail: studio_bbc
+    sources:
+      - joydiv
+    usage: "Delaware Road, London W9 ; sessions John Peel Joy Division."
+    lat: 51.52969
+    lng: -0.19149
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Delaware Road, London W9 ; sessions John Peel Joy Division. Source: en.wikipedia.org/wiki/Maida_Vale_Studios
+    reference_croisee:
+      - "wikidata:Q1807293"
+  - id: PLACE-CIMITERO-STAGLIENO-GENOVA
+    label: "Cimitero Monumentale di Staglieno"
+    type: lieu_memoire
+    type_detail: cimetiere
+    sources:
+      - joydiv
+    usage: "Piazzale Resasco, Genova ; source iconographique pochettes Closer et Love Will Tear Us Apart."
+    lat: 44.43007
+    lng: 8.95058
+    geo_precision: exacte
+    prudence_methodologique: >-
+      Piazzale Resasco, Genova ; source iconographique pochettes Closer et Love Will Tear Us Apart. Source: staglieno.comune.genova.it
+    reference_croisee:
+      - "findagrave:1980114"
 ```
 
