@@ -26,6 +26,7 @@ recommended:
 optional:
   - nom_tournee
   - setlist
+  - place_id
 
 # ─── Détail des champs ──────────────────────────────────────────────
 
@@ -133,6 +134,17 @@ fields:
     items: string
     description: "Setlist quand documentée. [] sinon."
     default: []
+
+  place_id:
+    type: string
+    pattern: "^PLACE-[A-Z0-9][A-Z0-9-]*$"
+    description: >
+      Identifiant canonique du lieu dans le registre PLACE-
+      (registers/places/). Câblé lors de l'étape 10 (croisement
+      concerts ↔ lieux). Doit résoudre vers un canonique (un alias
+      same_as est accepté et résolu par le validateur). Optionnel :
+      absent tant que le lieu n'a pas d'entrée PLACE- géolocalisée.
+    example: "PLACE-RUSSELL-CLUB"
 
 # ─── Règles éditoriales ────────────────────────────────────────────
 

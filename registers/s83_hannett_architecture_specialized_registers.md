@@ -343,6 +343,14 @@ source_id: S83
 label: "Salford Technical School"
 type: education
 type_detail: lieu_historique_rencontre
+lat: 53.48410
+lng: -2.27330
+geo_precision: quartier
+reference_croisee: []
+prudence_methodologique: >-
+  Salford Technical School / Salford College of Technology (même institution).
+  Coordonnée de secteur ; bâtiment précis à confirmer avec archives locales.
+  Canonique de l'alias PLACE-SALFORD-TECHNICAL-COLLEGE (venues de concerts, lot 3).
 pages_pdf: "186, 201"
 pages_livre: "155, 169"
 chapitres: ["Chapitre 1", "Chapitre 3"]

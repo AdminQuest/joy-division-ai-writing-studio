@@ -26,6 +26,7 @@
   date: 1977-05-29
   statut: confirme
   lieu: "Electric Circus"
+  place_id: PLACE-ELECTRIC-CIRCUS
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -38,6 +39,7 @@
   date: 1977-05-31
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -60,6 +62,7 @@
   date: 1977-06-06
   statut: confirme
   lieu: "Guild Hall"
+  place_id: PLACE-NEWCASTLE-GUILDHALL
   ville: "Newcastle"
   pays: "UK"
   ere: "Warsaw"
@@ -93,6 +96,7 @@
   date: 1977-06-30
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -104,6 +108,7 @@
   date: 1977-07-20
   statut: confirme
   lieu: "Tiffany's"
+  place_id: PLACE-TIFFANYS-LEICESTER
   ville: "Leicester"
   pays: "UK"
   ere: "Warsaw"
@@ -126,6 +131,7 @@
   date: 1977-08-27
   statut: douteux
   lieu: "Electric Circus"
+  place_id: PLACE-ELECTRIC-CIRCUS
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -137,6 +143,7 @@
   date: 1977-09-14
   statut: confirme
   lieu: "Rock Garden"
+  place_id: PLACE-ROCK-GARDEN-MIDDLESBROUGH
   ville: "Middlesbrough"
   pays: "UK"
   ere: "Warsaw"
@@ -148,6 +155,7 @@
   date: 1977-09-24
   statut: confirme
   lieu: "Electric Circus"
+  place_id: PLACE-ELECTRIC-CIRCUS
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -159,6 +167,7 @@
   date: 1977-10-02
   statut: confirme
   lieu: "Electric Circus"
+  place_id: PLACE-ELECTRIC-CIRCUS
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -170,6 +179,7 @@
   date: 1977-10-07
   statut: confirme
   lieu: "Salford College of Technology"
+  place_id: PLACE-SALFORD-TECHNICAL-COLLEGE
   ville: "Salford"
   pays: "UK"
   ere: "Warsaw"
@@ -192,6 +202,7 @@
   date: 1977-10-13
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -203,6 +214,7 @@
   date: 1977-10-19
   statut: confirme
   lieu: "Pipers"
+  place_id: PLACE-PIPERS-CYPRUS-TAVERN
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -214,6 +226,7 @@
   date: 1977-11-24
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -225,6 +238,7 @@
   date: "1977-12-00"
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Warsaw"
@@ -253,6 +267,7 @@
   date: 1978-01-25
   statut: confirme
   lieu: "Pips Disco"
+  place_id: PLACE-PIPS
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -264,6 +279,7 @@
   date: 1978-03-28
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -286,6 +302,7 @@
   date: 1978-04-14
   statut: confirme
   lieu: "Rafters"
+  place_id: PLACE-RAFTERS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -308,6 +325,7 @@
   date: 1978-06-09
   statut: confirme
   lieu: "The Factory I (Russell Club)"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -319,6 +337,7 @@
   date: "1978-06-00"
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -363,6 +382,7 @@
   date: 1978-07-28
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -385,6 +405,7 @@
   date: 1978-08-29
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -396,6 +417,7 @@
   date: 1978-09-04
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -451,6 +473,7 @@
   date: 1978-09-26
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -462,6 +485,7 @@
   date: 1978-10-02
   statut: confirme
   lieu: "Institute of Technology"
+  place_id: PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY
   ville: "Bolton"
   pays: "UK"
   ere: "Joy Division"
@@ -473,6 +497,7 @@
   date: 1978-10-12
   statut: confirme
   lieu: "Kelly's"
+  place_id: PLACE-KELLYS-MANCHESTER
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -484,6 +509,7 @@
   date: 1978-10-20
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -495,6 +521,7 @@
   date: 1978-10-24
   statut: confirme
   lieu: "The Fan Club"
+  place_id: PLACE-FAN-CLUB-LEEDS
   ville: "Leeds"
   pays: "UK"
   ere: "Joy Division"
@@ -506,6 +533,7 @@
   date: 1978-10-26
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -517,6 +545,7 @@
   date: 1978-10-27
   statut: confirme
   lieu: "Apollo Theatre"
+  place_id: PLACE-MANCHESTER-APOLLO
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -539,6 +568,7 @@
   date: 1978-11-12
   statut: confirme
   lieu: "Apollo Theatre"
+  place_id: PLACE-MANCHESTER-APOLLO
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -550,6 +580,7 @@
   date: 1978-11-14
   statut: confirme
   lieu: "The Odeon"
+  place_id: PLACE-ODEON-CANTERBURY
   ville: "Canterbury"
   pays: "UK"
   ere: "Joy Division"
@@ -561,6 +592,7 @@
   date: 1978-11-15
   statut: confirme
   lieu: "Brunel University"
+  place_id: PLACE-BRUNEL-UNIVERSITY
   ville: "Uxbridge"
   pays: "UK"
   ere: "Joy Division"
@@ -594,6 +626,7 @@
   date: 1978-12-01
   statut: confirme
   lieu: "Salford College of Technology"
+  place_id: PLACE-SALFORD-TECHNICAL-COLLEGE
   ville: "Salford"
   pays: "UK"
   ere: "Joy Division"
@@ -631,6 +664,7 @@
   date: 1978-11-15
   statut: annule
   lieu: "Top Rank"
+  place_id: PLACE-TOP-RANK-READING
   ville: "Reading"
   pays: "UK"
   ere: "Joy Division"
@@ -661,6 +695,7 @@
   date: 1978-11-18
   statut: annule
   lieu: "Southampton University"
+  place_id: PLACE-SOUTHAMPTON-UNIVERSITY
   ville: "Southampton"
   pays: "UK"
   ere: "Joy Division"
@@ -671,6 +706,7 @@
   date: 1978-11-19
   statut: annule
   lieu: "Locarno"
+  place_id: PLACE-LOCARNO-BRISTOL
   ville: "Bristol"
   pays: "UK"
   ere: "Joy Division"
@@ -691,6 +727,7 @@
   date: 1978-11-22
   statut: annule
   lieu: "Sheffield Polytechnic"
+  place_id: PLACE-SHEFFIELD-POLYTECHNIC
   ville: "Sheffield"
   pays: "UK"
   ere: "Joy Division"
@@ -731,6 +768,7 @@
   date: 1978-11-27
   statut: annule
   lieu: "St Andrews University"
+  place_id: PLACE-ST-ANDREWS-UNIVERSITY
   ville: "St Andrews"
   pays: "UK"
   ere: "Joy Division"
@@ -758,6 +796,7 @@
   date: 1979-01-26
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -769,6 +808,7 @@
   date: 1979-02-10
   statut: confirme
   lieu: "Institute of Technology"
+  place_id: PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY
   ville: "Bolton"
   pays: "UK"
   ere: "Joy Division"
@@ -791,6 +831,7 @@
   date: 1979-02-28
   statut: confirme
   lieu: "Playhouse Theatre"
+  place_id: PLACE-PLAYHOUSE-THEATRE-NOTTINGHAM
   ville: "Nottingham"
   pays: "UK"
   ere: "Joy Division"
@@ -824,6 +865,7 @@
   date: 1979-03-13
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -835,6 +877,7 @@
   date: 1979-03-14
   statut: confirme
   lieu: "Bowdon Vale Youth Club"
+  place_id: PLACE-BOWDON-VALE-YOUTH-CLUB
   ville: "Altrincham"
   pays: "UK"
   ere: "Joy Division"
@@ -846,6 +889,7 @@
   date: 1979-03-17
   statut: confirme
   lieu: "University of Kent"
+  place_id: PLACE-UNIVERSITY-OF-KENT
   ville: "Canterbury"
   pays: "UK"
   ere: "Joy Division"
@@ -868,6 +912,7 @@
   date: 1979-04-06
   statut: confirme
   lieu: "Actionspace"
+  place_id: PLACE-ACTIONSPACE-LONDON
   ville: "London"
   pays: "UK"
   ere: "Joy Division"
@@ -890,6 +935,7 @@
   date: 1979-05-11
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -912,6 +958,7 @@
   date: 1979-05-23
   statut: confirme
   lieu: "Bowdon Vale Youth Club"
+  place_id: PLACE-BOWDON-VALE-YOUTH-CLUB
   ville: "Altrincham"
   pays: "UK"
   ere: "Joy Division"
@@ -923,6 +970,7 @@
   date: 1979-06-07
   statut: confirme
   lieu: "The Fan Club"
+  place_id: PLACE-FAN-CLUB-LEEDS
   ville: "Leeds"
   pays: "UK"
   ere: "Joy Division"
@@ -934,6 +982,7 @@
   date: 1979-06-13
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -945,6 +994,7 @@
   date: 1979-06-16
   statut: confirme
   lieu: "The Odeon"
+  place_id: PLACE-ODEON-CANTERBURY
   ville: "Canterbury"
   pays: "UK"
   ere: "Joy Division"
@@ -956,6 +1006,7 @@
   date: 1979-06-17
   statut: confirme
   lieu: "Royalty Theatre"
+  place_id: PLACE-ROYALTY-THEATRE-LONDON
   ville: "London"
   pays: "UK"
   ere: "Joy Division"
@@ -989,6 +1040,7 @@
   date: 1979-06-25
   statut: confirme
   lieu: "Free Trade Hall"
+  place_id: PLACE-FREE-TRADE-HALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1000,6 +1052,7 @@
   date: 1979-06-26
   statut: confirme
   lieu: "Guildhall"
+  place_id: PLACE-NEWCASTLE-GUILDHALL
   ville: "Newcastle"
   pays: "UK"
   ere: "Joy Division"
@@ -1011,6 +1064,7 @@
   date: "1979-06-00"
   statut: confirme
   lieu: "Band on the Wall"
+  place_id: PLACE-BAND-ON-THE-WALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1022,6 +1076,7 @@
   date: 1979-06-28
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1033,6 +1088,7 @@
   date: 1979-07-03
   statut: confirme
   lieu: "Free Trade Hall"
+  place_id: PLACE-FREE-TRADE-HALL
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1044,6 +1100,7 @@
   date: 1979-07-05
   statut: confirme
   lieu: "Limit Club"
+  place_id: PLACE-LIMIT-CLUB-SHEFFIELD
   ville: "Sheffield"
   pays: "UK"
   ere: "Joy Division"
@@ -1066,6 +1123,7 @@
   date: 1979-07-13
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1110,6 +1168,7 @@
   date: 1979-08-02
   statut: confirme
   lieu: "YMCA"
+  place_id: PLACE-YMCA-LONDON
   ville: "London"
   pays: "UK"
   ere: "Joy Division"
@@ -1198,6 +1257,7 @@
   date: 1979-09-14
   statut: confirme
   lieu: "Rock Garden"
+  place_id: PLACE-ROCK-GARDEN-MIDDLESBROUGH
   ville: "Middlesbrough"
   pays: "UK"
   ere: "Joy Division"
@@ -1231,6 +1291,7 @@
   date: 1979-09-28
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1257,6 +1318,7 @@
   date: 1979-10-02
   statut: confirme
   lieu: "Mountford Hall"
+  place_id: PLACE-MOUNTFORD-HALL-LIVERPOOL
   ville: "Liverpool"
   pays: "UK"
   ere: "Joy Division"
@@ -1269,6 +1331,7 @@
   date: 1979-10-03
   statut: confirme
   lieu: "Leeds University"
+  place_id: PLACE-LEEDS-UNIVERSITY
   ville: "Leeds"
   pays: "UK"
   ere: "Joy Division"
@@ -1281,6 +1344,7 @@
   date: 1979-10-04
   statut: confirme
   lieu: "City Hall"
+  place_id: PLACE-NEWCASTLE-CITY-HALL
   ville: "Newcastle"
   pays: "UK"
   ere: "Joy Division"
@@ -1305,6 +1369,7 @@
   date: 1979-10-06
   statut: confirme
   lieu: "Odeon"
+  place_id: PLACE-ODEON-EDINBURGH
   ville: "Edinburgh"
   pays: "UK"
   ere: "Joy Division"
@@ -1317,6 +1382,7 @@
   date: 1979-10-07
   statut: confirme
   lieu: "Capitol"
+  place_id: PLACE-CAPITOL-ABERDEEN
   ville: "Aberdeen"
   pays: "UK"
   ere: "Joy Division"
@@ -1329,6 +1395,7 @@
   date: 1979-10-08
   statut: confirme
   lieu: "Caird Hall"
+  place_id: PLACE-CAIRD-HALL-DUNDEE
   ville: "Dundee"
   pays: "UK"
   ere: "Joy Division"
@@ -1376,6 +1443,7 @@
   date: 1979-10-21
   statut: confirme
   lieu: "Top Rank"
+  place_id: PLACE-TOP-RANK-SHEFFIELD
   ville: "Sheffield"
   pays: "UK"
   ere: "Joy Division"
@@ -1412,6 +1480,7 @@
   date: 1979-10-24
   statut: confirme
   lieu: "The Odeon"
+  place_id: PLACE-ODEON-BIRMINGHAM
   ville: "Birmingham"
   pays: "UK"
   ere: "Joy Division"
@@ -1424,6 +1493,7 @@
   date: 1979-10-25
   statut: confirme
   lieu: "St George's Hall"
+  place_id: PLACE-ST-GEORGES-HALL-BRADFORD
   ville: "Bradford"
   pays: "UK"
   ere: "Joy Division"
@@ -1447,6 +1517,7 @@
   date: 1979-10-27
   statut: confirme
   lieu: "Apollo Theatre"
+  place_id: PLACE-MANCHESTER-APOLLO
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1459,6 +1530,7 @@
   date: 1979-10-28
   statut: confirme
   lieu: "Apollo Theatre"
+  place_id: PLACE-MANCHESTER-APOLLO
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1483,6 +1555,7 @@
   date: 1979-10-30
   statut: confirme
   lieu: "New Theatre"
+  place_id: PLACE-NEW-THEATRE-OXFORD
   ville: "Oxford"
   pays: "UK"
   ere: "Joy Division"
@@ -1531,6 +1604,7 @@
   date: 1979-11-05
   statut: confirme
   lieu: "Pavilion"
+  place_id: PLACE-PAVILION-HEMEL-HEMPSTEAD
   ville: "Hemel Hempstead"
   pays: "UK"
   ere: "Joy Division"
@@ -1543,6 +1617,7 @@
   date: 1979-11-07
   statut: confirme
   lieu: "Pavilion"
+  place_id: PLACE-WEST-RUNTON-PAVILION
   ville: "West Runton"
   pays: "UK"
   ere: "Joy Division"
@@ -1640,6 +1715,7 @@
   date: 1979-10-11
   statut: annule
   lieu: "Ulster Hall"
+  place_id: PLACE-ULSTER-HALL-BELFAST
   ville: "Belfast"
   pays: "UK"
   ere: "Joy Division"
@@ -1650,6 +1726,7 @@
   date: 1979-10-12
   statut: annule
   lieu: "Olympia"
+  place_id: PLACE-OLYMPIA-DUBLIN
   ville: "Dublin"
   pays: "IRLANDE"
   ere: "Joy Division"
@@ -1660,6 +1737,7 @@
   date: 1979-10-13
   statut: annule
   lieu: "City Hall"
+  place_id: PLACE-CITY-HALL-CORK
   ville: "Cork"
   pays: "IRLANDE"
   ere: "Joy Division"
@@ -1670,6 +1748,7 @@
   date: 1979-11-03
   statut: annule
   lieu: "Sophia Gardens"
+  place_id: PLACE-SOPHIA-GARDENS-CARDIFF
   ville: "Cardiff"
   pays: "UK"
   ere: "Joy Division"
@@ -1690,6 +1769,7 @@
   date: 1979-11-28
   statut: annule
   lieu: "Capitol"
+  place_id: PLACE-CAPITOL-ABERDEEN
   ville: "Aberdeen"
   pays: "UK"
   ere: "Joy Division"
@@ -1700,6 +1780,7 @@
   date: 1979-11-29
   statut: annule
   lieu: "Odeon"
+  place_id: PLACE-ODEON-EDINBURGH
   ville: "Edinburgh"
   pays: "UK"
   ere: "Joy Division"
@@ -1710,6 +1791,7 @@
   date: 1979-12-07
   statut: annule
   lieu: "Stockport Tech"
+  place_id: PLACE-STOCKPORT-COLLEGE
   ville: "Stockport"
   pays: "UK"
   ere: "Joy Division"
@@ -1740,6 +1822,7 @@
   date: 1980-01-12
   statut: confirme
   lieu: "Paard Van Troje"
+  place_id: PLACE-PAARD-VAN-TROJE-THE-HAGUE
   ville: "The Hague"
   pays: "PAYS-BAS"
   ere: "Joy Division"
@@ -1788,6 +1871,7 @@
   date: 1980-01-16
   statut: confirme
   lieu: "Lantaren"
+  place_id: PLACE-LANTAREN-ROTTERDAM
   ville: "Rotterdam"
   pays: "PAYS-BAS"
   ere: "Joy Division"
@@ -1863,6 +1947,7 @@
   date: 1980-02-08
   statut: confirme
   lieu: "University of London Union"
+  place_id: PLACE-UNIVERSITY-OF-LONDON-UNION
   ville: "London"
   pays: "UK"
   ere: "Joy Division"
@@ -1874,6 +1959,7 @@
   date: 1980-02-20
   statut: confirme
   lieu: "Town Hall"
+  place_id: PLACE-HIGH-WYCOMBE-TOWN-HALL
   ville: "High Wycombe"
   pays: "UK"
   ere: "Joy Division"
@@ -1962,6 +2048,7 @@
   date: 1980-04-05
   statut: confirme
   lieu: "Winter Gardens"
+  place_id: PLACE-WINTER-GARDENS-MALVERN
   ville: "Malvern"
   pays: "UK"
   ere: "Joy Division"
@@ -1985,6 +2072,7 @@
   date: 1980-04-11
   statut: confirme
   lieu: "The Factory I"
+  place_id: PLACE-RUSSELL-CLUB
   ville: "Manchester"
   pays: "UK"
   ere: "Joy Division"
@@ -1996,6 +2084,7 @@
   date: 1980-04-19
   statut: confirme
   lieu: "Ajanta Theatre"
+  place_id: PLACE-AJANTA-THEATRE-DERBY
   ville: "Derby"
   pays: "UK"
   ere: "Joy Division"
@@ -2007,6 +2096,7 @@
   date: 1980-04-26
   statut: confirme
   lieu: "Rock Garden"
+  place_id: PLACE-ROCK-GARDEN-MIDDLESBROUGH
   ville: "Middlesbrough"
   pays: "UK"
   ere: "Joy Division"
@@ -2053,6 +2143,7 @@
   date: 1980-04-25
   statut: annule
   lieu: "Scala Cinema"
+  place_id: PLACE-SCALA-CINEMA-LONDON
   ville: "London"
   pays: "UK"
   ere: "Joy Division"
@@ -2073,6 +2164,7 @@
   date: 1980-05-08
   statut: annule
   lieu: "The Astoria"
+  place_id: PLACE-ASTORIA-EDINBURGH
   ville: "Edinburgh"
   pays: "UK"
   ere: "Joy Division"
@@ -2099,6 +2191,7 @@
   date: 1980-05-21
   statut: annule
   lieu: "Hurrah"
+  place_id: PLACE-HURRAH-NEW-YORK
   ville: "New York"
   pays: "USA"
   ere: "Joy Division"
@@ -2121,6 +2214,7 @@
   date: 1980-05-26
   statut: annule
   lieu: "Bookies"
+  place_id: PLACE-BOOKIES-DETROIT
   ville: "Detroit"
   pays: "USA"
   ere: "Joy Division"
@@ -2154,6 +2248,7 @@
   date: 1980-05-29
   statut: annule
   lieu: "Duffy's"
+  place_id: PLACE-DUFFYS-MINNEAPOLIS
   ville: "Minneapolis"
   pays: "USA"
   ere: "Joy Division"
@@ -2176,6 +2271,7 @@
   date: 1980-05-31
   statut: annule
   lieu: "9:30 Club"
+  place_id: PLACE-9-30-CLUB-WASHINGTON
   ville: "Washington"
   pays: "USA"
   ere: "Joy Division"
@@ -2198,6 +2294,7 @@
   date: 1980-06-01
   statut: annule
   lieu: "Tier 3"
+  place_id: PLACE-TIER-3-NEW-YORK
   ville: "New York"
   pays: "USA"
   ere: "Joy Division"
@@ -2209,6 +2306,7 @@
   date: 1980-06-03
   statut: annule
   lieu: "American Indian Center"
+  place_id: PLACE-AMERICAN-INDIAN-CENTER-SF
   ville: "San Francisco"
   pays: "USA"
   ere: "Joy Division"
@@ -2220,6 +2318,7 @@
   date: 1980-06-08
   statut: annule
   lieu: "Flipper's"
+  place_id: PLACE-FLIPPERS-LOS-ANGELES
   ville: "Los Angeles"
   pays: "USA"
   ere: "Joy Division"
@@ -2231,6 +2330,7 @@
   date: 1980-06-09
   statut: annule
   lieu: "The Starwood"
+  place_id: PLACE-STARWOOD-LOS-ANGELES
   ville: "Los Angeles"
   pays: "USA"
   ere: "Joy Division"

@@ -14735,7 +14735,564 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5511",
+    "id": "NO_ID::registers/places/concert_venues_lot3.md::5510",
+    "file": "registers/places/concert_venues_lot3.md",
+    "heading": "Registre lieux — Venues de concerts (lot 3, étape 10)",
+    "data": {
+      "type_unite": "registre_lieux",
+      "statut": "integration_directe"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/places/concert_venues_lot3.md::5511",
+    "file": "registers/places/concert_venues_lot3.md",
+    "heading": "Registre lieux — Venues de concerts (lot 3, étape 10)",
+    "data": {
+      "places": [
+        {
+          "id": "PLACE-9-30-CLUB-WASHINGTON",
+          "label": "9:30 Club, Washington DC",
+          "type": "salle",
+          "lat": 38.89733,
+          "lng": -77.0245,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Original 9:30 Club, 930 F Street NW, Washington DC. Concert prévu, tournée américaine annulée."
+        },
+        {
+          "id": "PLACE-ACTIONSPACE-LONDON",
+          "label": "Action Space, London",
+          "type": "salle",
+          "lat": 51.52131,
+          "lng": -0.13052,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Action Space, 16 Chenies Street, London WC1. Adresse issue d'un programme d'époque."
+        },
+        {
+          "id": "PLACE-AJANTA-THEATRE-DERBY",
+          "label": "Ajanta Theatre, Derby",
+          "type": "salle",
+          "lat": 52.9189,
+          "lng": -1.4769,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Ancien cinéma ; localisation fine à confirmer par plan historique."
+        },
+        {
+          "id": "PLACE-AMERICAN-INDIAN-CENTER-SF",
+          "label": "American Indian Center, San Francisco",
+          "type": "salle",
+          "lat": 37.76919,
+          "lng": -122.42217,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "225 Valencia Street, San Francisco. Concert prévu, tournée américaine annulée."
+        },
+        {
+          "id": "PLACE-ASTORIA-EDINBURGH",
+          "label": "Astoria, Edinburgh",
+          "type": "salle",
+          "lat": 55.9467,
+          "lng": -3.2041,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; localisation approximée, adresse fine à documenter."
+        },
+        {
+          "id": "PLACE-BAND-ON-THE-WALL",
+          "label": "Band on the Wall, Manchester",
+          "type": "salle",
+          "lat": 53.48514,
+          "lng": -2.23488,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "25 Swan Street, Manchester. Salle toujours existante."
+        },
+        {
+          "id": "PLACE-BOLTON-INSTITUTE-OF-TECHNOLOGY",
+          "label": "Bolton Institute of Technology",
+          "type": "education",
+          "lat": 53.5755,
+          "lng": -2.4292,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Bolton Institute / University of Bolton, Deane Road. Concert listé mais annulé. Coordonnée de campus."
+        },
+        {
+          "id": "PLACE-BOOKIES-DETROIT",
+          "label": "Bookies Club, Detroit",
+          "type": "salle",
+          "lat": 42.4181,
+          "lng": -83.0806,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Concert prévu, tournée américaine annulée. Adresse précise à confirmer."
+        },
+        {
+          "id": "PLACE-BOWDON-VALE-YOUTH-CLUB",
+          "label": "Bowdon Vale Youth Club, Altrincham",
+          "type": "salle",
+          "lat": 53.3813,
+          "lng": -2.3622,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Adresse exacte non stabilisée."
+        },
+        {
+          "id": "PLACE-BRUNEL-UNIVERSITY",
+          "label": "Brunel University, Uxbridge",
+          "type": "education",
+          "lat": 51.53285,
+          "lng": -0.47275,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Concert du 15 novembre 1978. Coordonnée de campus, salle exacte non précisée."
+        },
+        {
+          "id": "PLACE-CAIRD-HALL-DUNDEE",
+          "label": "Caird Hall, Dundee",
+          "type": "salle",
+          "lat": 56.45961,
+          "lng": -2.97055,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "City Square, Dundee. Salle municipale."
+        },
+        {
+          "id": "PLACE-CAPITOL-ABERDEEN",
+          "label": "Capitol Theatre, Aberdeen",
+          "type": "salle",
+          "lat": 57.14577,
+          "lng": -2.10531,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Union Street, Aberdeen. Ancien cinéma / théâtre."
+        },
+        {
+          "id": "PLACE-CITY-HALL-CORK",
+          "label": "Cork City Hall",
+          "type": "salle",
+          "lat": 51.89785,
+          "lng": -8.46537,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Anglesea Street, Cork."
+        },
+        {
+          "id": "PLACE-DUFFYS-MINNEAPOLIS",
+          "label": "Duffy's, Minneapolis",
+          "type": "salle",
+          "lat": 44.9489,
+          "lng": -93.2882,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Concert prévu, tournée américaine annulée. Adresse précise à confirmer."
+        },
+        {
+          "id": "PLACE-FAN-CLUB-LEEDS",
+          "label": "The Fan Club, Leeds",
+          "type": "salle",
+          "lat": 53.7984,
+          "lng": -1.5439,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "The Fan Club / Brannigan's, Leeds. Salle disparue ; localisation fine à vérifier."
+        },
+        {
+          "id": "PLACE-FLIPPERS-LOS-ANGELES",
+          "label": "Flipper's Roller Boogie Palace, Los Angeles",
+          "type": "salle",
+          "lat": 34.0837,
+          "lng": -118.3461,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Concert prévu, tournée américaine annulée. Adresse exacte à confirmer."
+        },
+        {
+          "id": "PLACE-HIGH-WYCOMBE-TOWN-HALL",
+          "label": "High Wycombe Town Hall",
+          "type": "salle",
+          "lat": 51.62861,
+          "lng": -0.74902,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Queen Victoria Road."
+        },
+        {
+          "id": "PLACE-HURRAH-NEW-YORK",
+          "label": "Hurrah, New York",
+          "type": "salle",
+          "lat": 40.7648,
+          "lng": -73.9761,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Concert prévu, tournée américaine annulée. Localisation associée à West 62nd Street ; à confirmer."
+        },
+        {
+          "id": "PLACE-KELLYS-MANCHESTER",
+          "label": "Kelly's, Manchester",
+          "type": "salle",
+          "lat": 53.4912,
+          "lng": -2.2401,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Amber Street, Manchester. Club disparu."
+        },
+        {
+          "id": "PLACE-LANTAREN-ROTTERDAM",
+          "label": "Club Lantaren, Rotterdam",
+          "type": "salle",
+          "lat": 51.91816,
+          "lng": 4.47661,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Gouvernestraat 133, Rotterdam. Concert européen du 16 janvier 1980."
+        },
+        {
+          "id": "PLACE-LEEDS-UNIVERSITY",
+          "label": "University of Leeds",
+          "type": "education",
+          "lat": 53.8067,
+          "lng": -1.555,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Coordonnée de campus, salle exacte à préciser selon la date du concert."
+        },
+        {
+          "id": "PLACE-LIMIT-CLUB-SHEFFIELD",
+          "label": "The Limit Club, Sheffield",
+          "type": "salle",
+          "lat": 53.3799,
+          "lng": -1.4713,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Club disparu ; adresse à confirmer."
+        },
+        {
+          "id": "PLACE-LIVERPOOL-EMPIRE",
+          "label": "Liverpool Empire Theatre",
+          "type": "salle",
+          "lat": 53.40854,
+          "lng": -2.97841,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Lime Street, Liverpool. Théâtre toujours existant. Aucune fiche concert correspondante dans le registre actuel."
+        },
+        {
+          "id": "PLACE-LOCARNO-BRISTOL",
+          "label": "Locarno, Bristol",
+          "type": "salle",
+          "lat": 51.4572,
+          "lng": -2.5928,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; localisation fine à vérifier."
+        },
+        {
+          "id": "PLACE-MANCHESTER-APOLLO",
+          "label": "Manchester Apollo",
+          "type": "salle",
+          "lat": 53.46918,
+          "lng": -2.22285,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Stockport Road, Ardwick. Salle toujours existante. Fiches concerts sous « Apollo Theatre »."
+        },
+        {
+          "id": "PLACE-MOUNTFORD-HALL-LIVERPOOL",
+          "label": "Mountford Hall, Liverpool",
+          "type": "salle",
+          "lat": 53.40555,
+          "lng": -2.96691,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Liverpool Guild of Students. Salle universitaire stable."
+        },
+        {
+          "id": "PLACE-NEW-THEATRE-OXFORD",
+          "label": "New Theatre Oxford",
+          "type": "salle",
+          "lat": 51.75353,
+          "lng": -1.26176,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "George Street. Théâtre toujours existant."
+        },
+        {
+          "id": "PLACE-NEWCASTLE-CITY-HALL",
+          "label": "Newcastle City Hall",
+          "type": "salle",
+          "lat": 54.9777,
+          "lng": -1.6136,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Northumberland Road. Salle toujours existante."
+        },
+        {
+          "id": "PLACE-NEWCASTLE-GUILDHALL",
+          "label": "Newcastle Guildhall",
+          "type": "salle",
+          "lat": 54.9698,
+          "lng": -1.6108,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Quayside. Bâtiment historique protégé. Fiches concerts sous « Guildhall » et « Guild Hall »."
+        },
+        {
+          "id": "PLACE-ODEON-BIRMINGHAM",
+          "label": "Odeon, Birmingham",
+          "type": "salle",
+          "lat": 52.4799,
+          "lng": -1.8982,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "New Street. Bâtiment démoli ou transformé ; localisation historique."
+        },
+        {
+          "id": "PLACE-ODEON-CANTERBURY",
+          "label": "Odeon, Canterbury",
+          "type": "salle",
+          "lat": 51.2797,
+          "lng": 1.0792,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Adresse fine à confirmer."
+        },
+        {
+          "id": "PLACE-ODEON-EDINBURGH",
+          "label": "Odeon, Edinburgh",
+          "type": "salle",
+          "lat": 55.9472,
+          "lng": -3.204,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Secteur Clerk Street. Localisation historique (Cinema Treasures #2322)."
+        },
+        {
+          "id": "PLACE-OLDHAM-TOWER-CLUB",
+          "label": "Tower Club, Oldham",
+          "type": "salle",
+          "lat": 53.5409,
+          "lng": -2.1113,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Adresse précise à confirmer. Aucune fiche concert correspondante dans le registre actuel."
+        },
+        {
+          "id": "PLACE-OLYMPIA-DUBLIN",
+          "label": "Olympia Theatre, Dublin",
+          "type": "salle",
+          "lat": 53.3443,
+          "lng": -6.266,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Dame Street. Théâtre toujours existant."
+        },
+        {
+          "id": "PLACE-PAARD-VAN-TROJE-THE-HAGUE",
+          "label": "Paard van Troje, Den Haag",
+          "type": "salle",
+          "lat": 52.07864,
+          "lng": 4.31333,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Prinsegracht 12, Den Haag. Salle toujours existante."
+        },
+        {
+          "id": "PLACE-PAVILION-HEMEL-HEMPSTEAD",
+          "label": "Pavilion, Hemel Hempstead",
+          "type": "salle",
+          "lat": 51.7524,
+          "lng": -0.4725,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Adresse fine à confirmer."
+        },
+        {
+          "id": "PLACE-PIPERS-CYPRUS-TAVERN",
+          "label": "Piper's, Manchester",
+          "type": "salle",
+          "lat": 53.4804,
+          "lng": -2.2396,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Spring Gardens, Manchester. Ne pas confondre avec Cyprus Tavern — Joy Division Central signale explicitement cette confusion."
+        },
+        {
+          "id": "PLACE-PLAYHOUSE-THEATRE-NOTTINGHAM",
+          "label": "Nottingham Playhouse",
+          "type": "salle",
+          "lat": 52.95391,
+          "lng": -1.15422,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Wellington Circus. Théâtre stable."
+        },
+        {
+          "id": "PLACE-ROCK-GARDEN-MIDDLESBROUGH",
+          "label": "Rock Garden, Middlesbrough",
+          "type": "salle",
+          "lat": 54.5763,
+          "lng": -1.2354,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Localisation fine à confirmer."
+        },
+        {
+          "id": "PLACE-ROYALTY-THEATRE-LONDON",
+          "label": "Royalty Theatre, London",
+          "type": "salle",
+          "lat": 51.5116,
+          "lng": -0.1282,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Lieu disparu ou reconverti ; localisation historique à confirmer."
+        },
+        {
+          "id": "PLACE-RUSSELL-CLUB",
+          "label": "Russell Club / Factory, Hulme",
+          "type": "salle",
+          "lat": 53.4677,
+          "lng": -2.2561,
+          "geo_precision": "rue",
+          "prudence_methodologique": "Royce Road, Hulme. Club démoli ; situé près de Royce Road / Clayburn Street. Lieu des Factory nights — « The Factory I » dans le registre des concerts (≠ The Factory II)."
+        },
+        {
+          "id": "PLACE-SCALA-CINEMA-LONDON",
+          "label": "Scala, London",
+          "type": "salle",
+          "lat": 51.53084,
+          "lng": -0.12036,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "275 Pentonville Road. Ancien cinéma, salle actuelle."
+        },
+        {
+          "id": "PLACE-SHEFFIELD-POLYTECHNIC",
+          "label": "Sheffield Polytechnic",
+          "type": "education",
+          "lat": 53.3814,
+          "lng": -1.4663,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Sheffield Hallam University. Coordonnée de campus central."
+        },
+        {
+          "id": "PLACE-SOPHIA-GARDENS-CARDIFF",
+          "label": "Sophia Gardens Pavilion, Cardiff",
+          "type": "salle",
+          "lat": 51.4861,
+          "lng": -3.1912,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Ancien pavillon démoli."
+        },
+        {
+          "id": "PLACE-SOUTHAMPTON-UNIVERSITY",
+          "label": "University of Southampton",
+          "type": "education",
+          "lat": 50.9344,
+          "lng": -1.3958,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Highfield Campus. Salle exacte à préciser."
+        },
+        {
+          "id": "PLACE-ST-ANDREWS-UNIVERSITY",
+          "label": "University of St Andrews",
+          "type": "education",
+          "lat": 56.3417,
+          "lng": -2.7928,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Coordonnée de campus, salle exacte à préciser."
+        },
+        {
+          "id": "PLACE-ST-GEORGES-HALL-BRADFORD",
+          "label": "St George's Hall, Bradford",
+          "type": "salle",
+          "lat": 53.79343,
+          "lng": -1.75276,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Salle toujours existante."
+        },
+        {
+          "id": "PLACE-STARWOOD-LOS-ANGELES",
+          "label": "The Starwood, Los Angeles",
+          "type": "salle",
+          "lat": 34.0902,
+          "lng": -118.3853,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "West Hollywood. Concert prévu, tournée américaine annulée. Localisation historique à confirmer."
+        },
+        {
+          "id": "PLACE-STOCKPORT-COLLEGE",
+          "label": "Stockport College",
+          "type": "education",
+          "lat": 53.4086,
+          "lng": -2.1587,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Site modernisé ; localisation approximée. Fiches concerts sous « Stockport Tech »."
+        },
+        {
+          "id": "PLACE-TIER-3-NEW-YORK",
+          "label": "Tier 3, New York",
+          "type": "salle",
+          "lat": 40.7197,
+          "lng": -74.0047,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Concert prévu, tournée américaine annulée. Localisation associée à Tribeca ; à confirmer."
+        },
+        {
+          "id": "PLACE-TIFFANYS-LEICESTER",
+          "label": "Tiffany's, Leicester",
+          "type": "salle",
+          "lat": 52.637,
+          "lng": -1.1327,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; localisation fine à confirmer."
+        },
+        {
+          "id": "PLACE-TOP-RANK-READING",
+          "label": "Top Rank, Reading",
+          "type": "salle",
+          "lat": 51.4562,
+          "lng": -0.9711,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; adresse fine à confirmer."
+        },
+        {
+          "id": "PLACE-TOP-RANK-SHEFFIELD",
+          "label": "Top Rank, Sheffield",
+          "type": "salle",
+          "lat": 53.381,
+          "lng": -1.4682,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; adresse fine à confirmer."
+        },
+        {
+          "id": "PLACE-ULSTER-HALL-BELFAST",
+          "label": "Ulster Hall, Belfast",
+          "type": "salle",
+          "lat": 54.59401,
+          "lng": -5.93008,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Bedford Street. Salle toujours existante."
+        },
+        {
+          "id": "PLACE-UNIVERSITY-OF-KENT",
+          "label": "University of Kent, Canterbury",
+          "type": "education",
+          "lat": 51.2965,
+          "lng": 1.0631,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Coordonnée de campus, salle exacte à préciser."
+        },
+        {
+          "id": "PLACE-UNIVERSITY-OF-LONDON-UNION",
+          "label": "University of London Union",
+          "type": "education",
+          "lat": 51.5221,
+          "lng": -0.1307,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Malet Street, London. Ancien ULU."
+        },
+        {
+          "id": "PLACE-WEST-RUNTON-PAVILION",
+          "label": "West Runton Pavilion, Norfolk",
+          "type": "salle",
+          "lat": 52.9353,
+          "lng": 1.2441,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Salle disparue ; site approximatif."
+        },
+        {
+          "id": "PLACE-WINTER-GARDENS-MALVERN",
+          "label": "Winter Gardens, Malvern",
+          "type": "salle",
+          "lat": 52.11125,
+          "lng": -2.33037,
+          "geo_precision": "exacte",
+          "prudence_methodologique": "Complexe culturel stabilisé."
+        },
+        {
+          "id": "PLACE-YMCA-LONDON",
+          "label": "YMCA, London",
+          "type": "salle",
+          "lat": 51.5094,
+          "lng": -0.1311,
+          "geo_precision": "quartier",
+          "prudence_methodologique": "Adresse précise à établir selon l'événement."
+        },
+        {
+          "id": "PLACE-SALFORD-TECHNICAL-COLLEGE",
+          "label": "Salford Technical College",
+          "type": "education",
+          "same_as": "PLACE-S83-004"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::5513",
     "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des lieux — Manchester, Greater Manchester, Hulme",
     "data": {
@@ -14803,7 +15360,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5513",
+    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::5515",
     "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
     "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
     "data": {
@@ -14916,7 +15473,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5515",
+    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::5517",
     "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
     "data": {
@@ -15003,7 +15560,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5517",
+    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::5519",
     "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
     "data": {
@@ -15077,7 +15634,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5519",
+    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::5521",
     "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
     "data": {
@@ -15301,7 +15858,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5521",
+    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::5523",
     "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
     "data": {
@@ -15454,7 +16011,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5523",
+    "id": "NO_ID::registers/places/s35_morris_places_part_03.md::5525",
     "file": "registers/places/s35_morris_places_part_03.md",
     "heading": "Registre lieux — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -15674,7 +16231,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5525",
+    "id": "NO_ID::registers/places/s35_morris_places_part_04.md::5527",
     "file": "registers/places/s35_morris_places_part_04.md",
     "heading": "Lieux structurants",
     "data": {
@@ -16011,7 +16568,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5529",
+    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::5531",
     "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
     "heading": "S12 — Citations candidates — AIDS, Anderton et ordre moral",
     "data": {
@@ -16069,7 +16626,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5542",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_03.md::5544",
     "file": "registers/quotes/s35_morris_quotes_part_03.md",
     "heading": "Registre citations candidates — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -16128,7 +16685,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5544",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_04.md::5546",
     "file": "registers/quotes/s35_morris_quotes_part_04.md",
     "heading": "Règle d’usage",
     "data": {
@@ -16210,7 +16767,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5546",
+    "id": "NO_ID::registers/quotes/s35_morris_quotes_part_05.md::5548",
     "file": "registers/quotes/s35_morris_quotes_part_05.md",
     "heading": "Règle d’usage",
     "data": {
@@ -16319,7 +16876,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5547",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::5549",
     "file": "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Citations candidates — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -16427,7 +16984,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5548",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::5550",
     "file": "registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Citations candidates — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -16563,7 +17120,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5549",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::5551",
     "file": "registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Citations candidates — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -16741,7 +17298,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5550",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::5552",
     "file": "registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Citations candidates — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -16947,7 +17504,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5551",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5553",
     "file": "registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Citations candidates — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -17195,7 +17752,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5552",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::5554",
     "file": "registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Citations candidates — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -17401,7 +17958,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5553",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::5555",
     "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
     "data": {
@@ -17495,7 +18052,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5554",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::5556",
     "file": "registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Citations candidates — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -17701,7 +18258,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5555",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::5557",
     "file": "registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Citations candidates — Timeline Three, année 1978",
     "data": {
@@ -17865,7 +18422,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5556",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::5558",
     "file": "registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "S41 — Citations candidates — Timeline Four fin 1979, Europe, Annik, « We carried on »",
     "data": {
@@ -18057,7 +18614,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5557",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::5559",
     "file": "registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Citations candidates — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -18333,7 +18890,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5558",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::5560",
     "file": "registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "S41 — Citations candidates — *Licht und Blindheit*, « Love Will Tear Us Apart », Bournemouth, *Unknown Pleasures* track by track I",
     "data": {
@@ -18497,7 +19054,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5559",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::5561",
     "file": "registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "S41 — Citations candidates — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
     "data": {
@@ -18661,7 +19218,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5560",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::5562",
     "file": "registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Citations candidates — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -18797,7 +19354,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5561",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::5563",
     "file": "registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "S41 — Citations candidates — *Unknown Pleasures* track by track II et Timeline Four janvier-octobre 1979",
     "data": {
@@ -18975,7 +19532,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5562",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::5564",
     "file": "registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "S41 — Citations candidates — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville",
     "data": {
@@ -19139,7 +19696,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5563",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::5565",
     "file": "registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md",
     "heading": "S41 — Citations candidates — Épilogue et *Closer Track by Track*",
     "data": {
@@ -19317,7 +19874,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5564",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::5566",
     "file": "registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "S41 — Citations candidates — « Love Will Tear Us Apart » vidéo, Birmingham, suicide, funérailles, après-coup",
     "data": {
@@ -19468,7 +20025,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5565",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::5567",
     "file": "registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "S41 — Citations candidates — Moonlight, Rainbow, Bury, Derby, divorce",
     "data": {
@@ -19632,7 +20189,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5615",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::5617",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -19826,7 +20383,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5616",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::5618",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -19983,7 +20540,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5617",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::5619",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -20175,7 +20732,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5618",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::5620",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -20479,7 +21036,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5924",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5926",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -20573,7 +21130,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5925",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::5927",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -20601,7 +21158,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5929",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5931",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -20701,7 +21258,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5930",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::5932",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -20732,7 +21289,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5936",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5938",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -20820,7 +21377,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5937",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::5939",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -20850,7 +21407,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::5943",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::5945",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -20938,7 +21495,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::5944",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::5946",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -20970,7 +21527,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::5946",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::5948",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -21130,7 +21687,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::5947",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::5949",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -21166,7 +21723,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::5951",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::5953",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -21230,7 +21787,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::5952",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::5954",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -21259,7 +21816,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5958",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5960",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Fonction documentaire",
     "data": {
@@ -21272,7 +21829,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5959",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5961",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Mots-clés normalisés",
     "data": {
@@ -21300,7 +21857,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5960",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5962",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Aliases bilingues / italiens",
     "data": {
@@ -21321,7 +21878,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5961",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::5963",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Croisements recommandés",
     "data": {
@@ -21338,7 +21895,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::5966",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::5968",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -21444,7 +22001,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::5967",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::5969",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -21476,7 +22033,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::5982",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md::5984",
     "file": "registers/references/s35_morris_record_play_pause_part_04_reference_supplement.md",
     "heading": "Références et objets à croiser",
     "data": {
@@ -21550,7 +22107,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::5985",
+    "id": "NO_ID::registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md::5987",
     "file": "registers/references/s35_morris_record_play_pause_part_05_reference_supplement.md",
     "heading": "Références et objets à croiser",
     "data": {
@@ -21682,7 +22239,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::5990",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::5992",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -21741,7 +22298,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::5991",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::5993",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -21893,7 +22450,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::5992",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::5994",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -21966,7 +22523,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::5993",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::5995",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -22174,7 +22731,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::5994",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::5996",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -22261,7 +22818,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::5995",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::5997",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -22472,7 +23029,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::5996",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::5998",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -22580,7 +23137,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::5997",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::5999",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -22820,7 +23377,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5998",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6000",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -22921,7 +23478,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::5999",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::6001",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -23102,7 +23659,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6000",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6002",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -23210,7 +23767,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6001",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::6003",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -23442,7 +23999,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6002",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6004",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -23501,7 +24058,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6003",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::6005",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -23629,7 +24186,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6004",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6006",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -23737,7 +24294,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6005",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::6007",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -24005,7 +24562,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6006",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6008",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -24092,7 +24649,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6007",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::6009",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -24329,7 +24886,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6008",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6010",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -24430,7 +24987,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6009",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::6011",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -24784,7 +25341,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6010",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6012",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -24927,7 +25484,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6011",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::6013",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -25221,7 +25778,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6012",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6014",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -25308,7 +25865,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6013",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::6015",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -25547,7 +26104,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6014",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6016",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -25634,7 +26191,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6015",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::6017",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -25872,7 +26429,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6016",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6018",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -25945,7 +26502,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6017",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::6019",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -26157,7 +26714,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6018",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6020",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -26251,7 +26808,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6019",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::6021",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -26611,7 +27168,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6020",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6022",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -26698,7 +27255,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6021",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::6023",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -27028,7 +27585,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6022",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6024",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -27122,7 +27679,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6023",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::6025",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -27471,7 +28028,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6024",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6026",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -27551,7 +28108,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6025",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::6027",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -27846,7 +28403,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6026",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6028",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -27933,7 +28490,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6027",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::6029",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -28257,7 +28814,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6031",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6033",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -28379,7 +28936,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6032",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6034",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -28513,7 +29070,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6033",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::6035",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -28534,7 +29091,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6034",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6036",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -28656,7 +29213,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6035",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::6037",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -28822,7 +29379,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6036",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6038",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -28972,7 +29529,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6037",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::6039",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -29201,7 +29758,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6038",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6040",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -29295,7 +29852,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6039",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::6041",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -29465,7 +30022,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6040",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6042",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -29545,7 +30102,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6041",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::6043",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -29722,7 +30279,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6042",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6044",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -29788,7 +30345,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6043",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::6045",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -29942,7 +30499,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6044",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6046",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -30050,7 +30607,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6045",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::6047",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -30258,7 +30815,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6046",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6048",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -30415,7 +30972,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6047",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::6049",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -30657,7 +31214,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6048",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6050",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -30716,7 +31273,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6049",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6051",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -30765,7 +31322,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6050",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::6052",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -30784,7 +31341,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6072",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6074",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -30908,7 +31465,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6073",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::6075",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -30937,7 +31494,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7378",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7380",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Chansons canoniques",
     "data": {
@@ -32074,7 +32631,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7379",
+    "id": "NO_ID::registers/songs/00_canonical_joy_division_songs.md::7381",
     "file": "registers/songs/00_canonical_joy_division_songs.md",
     "heading": "Titres explicitement exclus du menu",
     "data": {
@@ -32132,7 +32689,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7390",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::7392",
     "file": "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des chansons — Joy Division tardif et transition New Order",
     "data": {
@@ -32209,7 +32766,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7392",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::7394",
     "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des chansons — processus, image et postérité",
     "data": {
@@ -32287,7 +32844,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7406",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_03.md::7408",
     "file": "registers/songs/s35_morris_songs_part_03.md",
     "heading": "Registre chansons — S35 — Morris, *Record Play Pause*, 2019 — part 03",
     "data": {
@@ -32387,7 +32944,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7408",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7410",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Chansons mentionnées ou utiles",
     "data": {
@@ -32453,7 +33010,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7409",
+    "id": "NO_ID::registers/songs/s35_morris_songs_part_04.md::7411",
     "file": "registers/songs/s35_morris_songs_part_04.md",
     "heading": "Albums mentionnés ou utiles",
     "data": {
@@ -32535,7 +33092,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7599",
+    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::7601",
     "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des chansons — appropriations tardives",
     "data": {
@@ -32569,7 +33126,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7674",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7676",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Citations / formulations à contrôler",
     "data": {
@@ -32615,7 +33172,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7675",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7677",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chronologie spécialisée",
     "data": {
@@ -32695,7 +33252,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7676",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7678",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Acteurs",
     "data": {
@@ -32787,7 +33344,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7677",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7679",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Lieux",
     "data": {
@@ -32884,7 +33441,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7678",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7680",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Organisations / groupes",
     "data": {
@@ -32943,7 +33500,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7679",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::7681",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chansons / albums / objets musicaux",
     "data": {

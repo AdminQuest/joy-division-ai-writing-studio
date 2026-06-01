@@ -1,6 +1,6 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-30T18:19:29`
+Généré le : `2026-06-01T15:32:58`
 
 ## 1. Verdict
 
@@ -9,7 +9,7 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 7681
+- Enregistrements : 7683
 - Erreurs : 0
 - Avertissements : 30046
 - Sources déclarées : 95
@@ -36,7 +36,7 @@ La dette principale reste la migration v2 : 2512 atome(s) incomplet(s) sur 2752.
 | session | 18 |
 | song | 110 |
 | source | 120 |
-| template | 360 |
+| template | 362 |
 | unknown | 1509 |
 
 ## 4. Catégories de problèmes
