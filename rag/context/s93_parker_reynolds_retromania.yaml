@@ -1,0 +1,40 @@
+id: RAG-S93-PARKER-REYNOLDS-RETROMANIA
+source_id: S93
+source_label: "S93 — Parker, Reynolds Retromania and the Atemporality of Contemporary Pop, 2012"
+source_part: "sources/s93_parker_reynolds_retromania/source_atomisation_01.md"
+status: integrated
+passage_atomise: "James Parker, « Simon Reynolds, Retromania and the Atemporality of Contemporary Pop », Discipline, n° 2, automne 2012, p. 156-164."
+atoms:
+  - S93-A001
+  - S93-A002
+  - S93-A003
+  - S93-A004
+  - S93-A005
+  - S93-A006
+  - S93-A007
+  - S93-A008
+  - S93-A009
+  - S93-A010
+  - S93-A011
+axes:
+  - "future-rush post-punk"
+  - "arc Rip It Up → Retromania"
+  - "sélectivité du canon reynoldsien"
+  - "hauntologie Derrida-Reynolds-Fisher"
+  - "opposition analogue/numérique"
+  - "avant-garde devenue arrière-garde"
+usage_prioritaire:
+  - "Chapitre 7"
+  - "Chapitre 14"
+  - "Chapitre 1"
+  - "Chapitre 3"
+prudences:
+  - "Source secondaire au carré : Parker analyse Reynolds qui analyse le post-punk."
+  - "Joy Division cité dans une liste, pas comme sujet principal."
+  - "Ne pas confondre les thèses de Parker avec celles de Reynolds."
+  - "Critique d'Ogg (Leeds 2010) = source orale rapportée, pas actes publiés."
+queries_rag:
+  - "S93 Parker Reynolds Retromania atemporality future-rush post-punk futurism"
+  - "S93 Parker Alex Ogg Leeds 2010 sélectivité Rip It Up canon post-punk"
+  - "S93 Parker hauntologie Derrida Reynolds Fisher spectralité"
+  - "S93 Parker avant-garde arrière-garde analogue numérique"
