@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
@@ -25,10 +26,51 @@ jobs:
       - name: Générer STATUS.md
         run: python tools/generate_status.py
 
-      - name: Commiter STATUS.md si modifié
+      - name: Commiter et pousser sur branche dédiée
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B status/auto-update
           git add STATUS.md
-          git diff --staged --quiet || git commit -m "chore: mise à jour STATUS.md [skip ci]"
-          git push
+          git diff --staged --quiet && echo "Aucun changement" && exit 0
+          git commit -m "chore: mise à jour STATUS.md"
+          git push --force origin status/auto-update
+
+      - name: Créer ou mettre à jour la PR
+        id: upsert_pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR=$(gh pr list --head status/auto-update --base main --json number --jq '.[0].number')
+          if [ -z "$PR" ]; then
+            gh pr create \
+              --head status/auto-update \
+              --base main \
+              --title "chore: mise à jour STATUS.md" \
+              --body "Mise à jour automatique de STATUS.md par le workflow update-status."
+            PR=$(gh pr list --head status/auto-update --base main --json number --jq '.[0].number')
+          fi
+          echo "pr_number=$PR" >> $GITHUB_OUTPUT
+
+      - name: Attendre le check requis puis auto-merger
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR=${{ steps.upsert_pr.outputs.pr_number }}
+          echo "Attente du check check-generated-sync sur PR #$PR..."
+          for i in $(seq 1 60); do
+            STATUS=$(gh pr checks $PR --json name,state \
+              --jq '.[] | select(.name=="check-generated-sync") | .state')
+            echo "Tentative $i — statut: $STATUS"
+            if [ "$STATUS" = "SUCCESS" ]; then
+              echo "Check passé — merge en cours"
+              gh pr merge $PR --merge --delete-branch
+              exit 0
+            elif [ "$STATUS" = "FAILURE" ]; then
+              echo "Check échoué — merge annulé"
+              exit 1
+            fi
+            sleep 10
+          done
+          echo "Timeout — check non terminé après 10 minutes"
+          exit 1
