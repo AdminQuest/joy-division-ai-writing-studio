@@ -12,6 +12,17 @@
 Le check `check-generated-sync` doit passer à vert avant toute PR.
 Ne jamais pousser sans avoir régénéré les exports.
 
+## Synchronisation Knowledge Base Claude (après chaque passe)
+
+Après toute mise à jour de chapters/ dans le repo PRIVÉ,
+exécuter depuis le repo PUBLIC :
+
+    python tools/sync_dm_to_claude_kb.py
+
+Le script génère `exports/generated/DM_consolidated_for_kb.md`.
+Uploader ce fichier dans la KB du projet Claude si des DM ont changé.
+L'upload API sera automatisé quand Anthropic exposera l'endpoint.
+
 ## Conventions de branche
 
 Toutes les branches Claude : préfixe `claude/*`
